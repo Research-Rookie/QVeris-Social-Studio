@@ -1,0 +1,53 @@
+name: QVeris Social Studio Daily Update
+
+on:
+  schedule:
+    # 00:30 UTC = 08:30 Asia/Shanghai.
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: qveris-social-studio-daily
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          pip install requests playwright tweepy
+          playwright install --with-deps chromium
+
+      - name: Fetch rankings
+        env:
+          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+        run: python scripts/fetch_rankings.py
+
+      - name: Generate image
+        run: python scripts/generate_image.py
+
+      - name: Generate tweet and archive card
+        env:
+          WEBSITE_URL: https://qveris.ai
+          ENABLE_TWITTER_POST: "false"
+        run: python scripts/generate_tweet.py
+
+      - name: Commit archive
+        run: |
+          git config user.name "qveris-content-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ images/ public/posts/
+          git diff --cached --quiet || git commit -m "chore: archive daily stock card $(date -u +%Y-%m-%d)"
+          git push

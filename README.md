@@ -1,7 +1,6 @@
 # QVeris Social Studio
 
-A lightweight content workspace for reviewing QVeris data visuals and X post
-copy before publishing.
+A daily archive for reviewing QVeris market visuals and X post drafts.
 
 ## Run locally
 
@@ -11,6 +10,29 @@ npm run dev
 ```
 
 Open `http://localhost:3000`.
+
+## Daily pipeline
+
+```bash
+python scripts/fetch_rankings.py
+python scripts/generate_image.py
+python scripts/generate_tweet.py
+```
+
+The pipeline fetches the latest Top 5 gainers, creates a dated image and X
+draft, then upserts that market date in `data/posts.json`. Images are archived
+under `public/posts/`. Running the same date again updates only that date;
+older cards remain intact.
+
+For GitHub Actions, add this repository secret:
+
+```text
+ALPHA_VANTAGE_API_KEY
+```
+
+The workflow runs every day at 08:30 Asia/Shanghai.
+Automatic X publishing is intentionally disabled. When the workflow commits a
+new card, a connected Vercel project will rebuild the website automatically.
 
 ## Deploy to Vercel
 

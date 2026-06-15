@@ -1,81 +1,68 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
+import postsData from "../../data/posts.json";
+
+type PostStatus = "draft" | "ready" | "published";
+
+type Post = {
+  id: string;
+  date: string;
+  createdAt: string;
+  contentType: string;
+  title: string;
+  status: PostStatus;
+  tweet: string;
+  image: string;
+  dataSource: string;
+  dataUpdatedAt: string;
+  xPostId?: string | null;
+  topSymbol: string;
+  topChangePct: number;
+};
+
+const posts = postsData as Post[];
 
 const categories = [
+  { key: "market-pulse", label: "Market Pulse", count: posts.length },
   { key: "agent-rankings", label: "Agent Rankings", count: 0 },
   { key: "trend-disruptors", label: "Trend Disruptors", count: 0 },
   { key: "launch-alerts", label: "Launch Alerts", count: 0 },
-  { key: "outage-reports", label: "Outage Reports", count: 0 },
-  { key: "market-pulse", label: "Market Pulse", count: 1 },
 ];
 
-const marketTweet = `U.S. stock market movers for June 10, 2026 \u{1F4CA}
-
-\u{1F7E2} Top gainer: CPOP +322.22%
-\u{1F534} Top loser: MLACU -67.42%
-
-Explore the Top 10 gainers and losers by price change.
-
-Data: Alpha Vantage
-For informational purposes only. Not investment advice.
-
-#StockMarket #MarketData #Stocks`;
-
-const postsByCategory: Record<string, { contentType: string; title: string; tweet: string; image: string }[]> = {
-  "agent-rankings": [],
-  "trend-disruptors": [],
-  "launch-alerts": [],
-  "outage-reports": [],
-  "market-pulse": [
-    {
-      contentType: "MARKET DATA",
-      title: "U.S. Stock Market Movers",
-      tweet: marketTweet,
-      image: "/market-movers-en.png?v=3",
-    },
-  ],
-};
+function formatDate(date: string) {
+  return new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC",
+  }).format(new Date(`${date}T00:00:00Z`));
+}
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState("market-pulse");
-  const [tweet, setTweet] = useState(marketTweet);
-  const [draft, setDraft] = useState(marketTweet);
-  const [editing, setEditing] = useState(false);
-  const [copied, setCopied] = useState(false);
+  const [statusFilter, setStatusFilter] = useState<"all" | PostStatus>("all");
+  const [copiedId, setCopiedId] = useState<string | null>(null);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [drafts, setDrafts] = useState<Record<string, string>>(
+    Object.fromEntries(posts.map((post) => [post.id, post.tweet])),
+  );
 
-  const posts = postsByCategory[activeCategory] || [];
-  const cat = categories.find((c) => c.key === activeCategory)!;
+  const visiblePosts = useMemo(() => {
+    if (activeCategory !== "market-pulse") return [];
+    return statusFilter === "all"
+      ? posts
+      : posts.filter((post) => post.status === statusFilter);
+  }, [activeCategory, statusFilter]);
 
-  function switchCategory(key: string) {
-    setActiveCategory(key);
-    const first = postsByCategory[key]?.[0];
-    if (first) {
-      setTweet(first.tweet);
-      setDraft(first.tweet);
-    }
-    setEditing(false);
-  }
+  const publishedCount = posts.filter((post) => post.status === "published").length;
+  const readyCount = posts.filter((post) => post.status === "ready").length;
+  const latestDate = posts[0]?.date;
 
-  function startEditing() {
-    setDraft(tweet);
-    setEditing(true);
-  }
-
-  function saveDraft() {
-    setTweet(draft);
-    setEditing(false);
-  }
-
-  function cancelEditing() {
-    setDraft(tweet);
-    setEditing(false);
-  }
-
-  async function copyTweet() {
-    await navigator.clipboard.writeText(tweet);
-    setCopied(true);
-    window.setTimeout(() => setCopied(false), 1600);
+  async function copyTweet(post: Post) {
+    await navigator.clipboard.writeText(drafts[post.id] ?? post.tweet);
+    setCopiedId(post.id);
+    window.setTimeout(() => setCopiedId(null), 1500);
   }
 
   return (
@@ -88,11 +75,9 @@ export default function Home() {
         <div className="topbarRight">
           <span className="environment">
             <span className="liveDot" />
-            Content workspace
+            Daily content archive
           </span>
-          <button className="avatar" aria-label="Account">
-            QV
-          </button>
+          <span className="avatar">QV</span>
         </div>
       </header>
 
@@ -101,153 +86,150 @@ export default function Home() {
           <p className="eyebrow">SOCIAL CONTENT OPERATIONS</p>
           <h1>QVeris Social Studio</h1>
           <p className="heroCopy">
-            Review data visuals, polish post copy, and prepare every update for
-            publishing from one place.
+            Daily market visuals and X drafts, archived automatically without
+            overwriting previous posts.
           </p>
         </div>
-        <button className="primaryButton" type="button">
-          + New post
-        </button>
+        <div className="automationBadge">
+          <span className="automationDot" />
+          Daily pipeline active
+        </div>
+      </section>
+
+      <section className="stats" aria-label="Archive summary">
+        <article>
+          <span>Total cards</span>
+          <strong>{posts.length}</strong>
+        </article>
+        <article>
+          <span>Ready</span>
+          <strong>{readyCount}</strong>
+        </article>
+        <article>
+          <span>Published</span>
+          <strong>{publishedCount}</strong>
+        </article>
+        <article>
+          <span>Latest market date</span>
+          <strong className="dateMetric">
+            {latestDate ? formatDate(latestDate) : "No data"}
+          </strong>
+        </article>
       </section>
 
       <nav className="categoryBar" aria-label="Content categories">
-        {categories.map((c) => (
+        {categories.map((category) => (
           <button
-            key={c.key}
-            className={`categoryChip ${c.key === activeCategory ? "active" : ""}`}
+            key={category.key}
+            className={`categoryChip ${
+              category.key === activeCategory ? "active" : ""
+            }`}
             type="button"
-            onClick={() => switchCategory(c.key)}
+            onClick={() => setActiveCategory(category.key)}
           >
-            <span className="categoryLabel">{c.label}</span>
-            <span className="categoryCount">{c.count}</span>
+            <span>{category.label}</span>
+            <b>{category.count}</b>
           </button>
         ))}
       </nav>
 
       <section className="toolbar">
         <div className="tabs">
-          <button className="tab active" type="button">
-            All
-          </button>
-          <button className="tab" type="button">
-            Drafts
-          </button>
-          <button className="tab" type="button">
-            Ready
-          </button>
-          <button className="tab" type="button">
-            Published
-          </button>
+          {(["all", "draft", "ready", "published"] as const).map((status) => (
+            <button
+              key={status}
+              className={`tab ${statusFilter === status ? "active" : ""}`}
+              type="button"
+              onClick={() => setStatusFilter(status)}
+            >
+              {status === "all"
+                ? "All"
+                : status.charAt(0).toUpperCase() + status.slice(1)}
+            </button>
+          ))}
         </div>
-        <span className="updated">Last updated June 11, 2026</span>
+        <span className="updated">
+          {latestDate ? `Updated through ${formatDate(latestDate)}` : "No updates yet"}
+        </span>
       </section>
 
-      {posts.length > 0 ? (
-        posts.map((post, i) => (
-          <article className="postCard" key={i}>
-            <div className="visualPane">
-              <div className="visualHeader">
-                <div>
-                  <span className="contentType">{post.contentType}</span>
-                  <h2>{post.title}</h2>
-                </div>
-                <span className="status ready">
-                  <span />
-                  Ready
-                </span>
-              </div>
+      {visiblePosts.length ? (
+        <section className="cardsGrid">
+          {visiblePosts.map((post) => {
+            const isEditing = editingId === post.id;
+            const tweet = drafts[post.id] ?? post.tweet;
 
-              <div className="imageFrame">
-                <img src={post.image} alt={post.title} />
-              </div>
-
-              <div className="imageMeta">
-                <span>1200 × 900 PNG</span>
-                <a href={post.image} download>
-                  Download image
-                </a>
-              </div>
-            </div>
-
-            <div className="copyPane">
-              <div className="copyHeader">
-                <div>
-                  <span className="sectionLabel">X POST COPY</span>
-                  <span className="characterCount">
-                    {editing ? draft.length : tweet.length} / 280 characters
-                  </span>
+            return (
+              <article className="postCard" key={post.id}>
+                <div className="cardImage">
+                  <img src={post.image} alt={`${post.title} for ${post.date}`} />
+                  <span className={`status ${post.status}`}>{post.status}</span>
                 </div>
-                <button className="copyButton" type="button" onClick={copyTweet}>
-                  {copied ? "Copied" : "Copy text"}
-                </button>
-              </div>
 
-              {editing ? (
-                <textarea
-                  className="tweetEditor"
-                  value={draft}
-                  onChange={(e) => setDraft(e.target.value)}
-                  rows={10}
-                />
-              ) : (
-                <div className="tweetBox">
-                  {tweet.split("\n").map((line, idx) => (
-                    <p key={`${line}-${idx}`}>{line || " "}</p>
-                  ))}
-                </div>
-              )}
+                <div className="cardBody">
+                  <div className="cardHeading">
+                    <div>
+                      <span className="contentType">{post.contentType}</span>
+                      <h2>{post.title}</h2>
+                    </div>
+                    <time dateTime={post.date}>{formatDate(post.date)}</time>
+                  </div>
 
-              <div className="details">
-                <div>
-                  <span>Data source</span>
-                  <strong>Alpha Vantage</strong>
-                </div>
-                <div>
-                  <span>Data date</span>
-                  <strong>June 10, 2026</strong>
-                </div>
-                <div>
-                  <span>Channel</span>
-                  <strong>X / Twitter</strong>
-                </div>
-              </div>
+                  {isEditing ? (
+                    <textarea
+                      className="tweetEditor"
+                      value={tweet}
+                      maxLength={280}
+                      onChange={(event) =>
+                        setDrafts((current) => ({
+                          ...current,
+                          [post.id]: event.target.value,
+                        }))
+                      }
+                    />
+                  ) : (
+                    <div className="tweetBox">
+                      {tweet.split("\n").map((line, index) => (
+                        <p key={`${post.id}-${index}`}>{line || "\u00a0"}</p>
+                      ))}
+                    </div>
+                  )}
 
-              <div className="actions">
-                {editing ? (
-                  <>
-                    <button className="secondaryButton" type="button" onClick={cancelEditing}>
-                      Cancel
+                  <div className="cardMeta">
+                    <span>
+                      Leader <b>${post.topSymbol}</b>
+                    </span>
+                    <span>
+                      Move <b>{post.topChangePct.toFixed(2)}%</b>
+                    </span>
+                    <span>
+                      Copy <b>{tweet.length}/280</b>
+                    </span>
+                  </div>
+
+                  <div className="cardActions">
+                    <button type="button" onClick={() => copyTweet(post)}>
+                      {copiedId === post.id ? "Copied" : "Copy tweet"}
                     </button>
-                    <button className="saveButton" type="button" onClick={saveDraft}>
-                      Save draft
+                    <a href={post.image} download>
+                      Download image
+                    </a>
+                    <button
+                      type="button"
+                      onClick={() => setEditingId(isEditing ? null : post.id)}
+                    >
+                      {isEditing ? "Done" : "Edit locally"}
                     </button>
-                  </>
-                ) : (
-                  <>
-                    <button className="secondaryButton" type="button" onClick={startEditing}>
-                      Edit draft
-                    </button>
-                    <button className="publishButton" type="button" disabled>
-                      Connect X to publish
-                    </button>
-                  </>
-                )}
-              </div>
-              <p className="publishNote">
-                Publishing is disabled until an X developer account and API
-                credentials are connected.
-              </p>
-            </div>
-          </article>
-        ))
+                  </div>
+                </div>
+              </article>
+            );
+          })}
+        </section>
       ) : (
         <div className="emptyState">
-          <p className="emptyIcon">📭</p>
-          <p className="emptyTitle">No posts yet</p>
-          <p className="emptyDesc">
-            Content for <strong>{cat.label}</strong> will appear here once a post
-            is created.
-          </p>
+          <strong>No cards here yet</strong>
+          <p>New content will appear after the daily automation runs.</p>
         </div>
       )}
     </main>
