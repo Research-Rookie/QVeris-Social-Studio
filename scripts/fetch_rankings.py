@@ -16,6 +16,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_FILE = ROOT_DIR / "data" / "rankings.json"
 RUN_TIMEZONE = ZoneInfo("Asia/Shanghai")
 MIN_PRICE = float(os.environ.get("MIN_STOCK_PRICE", "5"))
+FALLBACK_MIN_PRICE = float(os.environ.get("FALLBACK_MIN_STOCK_PRICE", "1"))
 MIN_VOLUME = int(os.environ.get("MIN_STOCK_VOLUME", "500000"))
 
 
@@ -53,22 +54,51 @@ def parse_stock(item: dict) -> dict:
     }
 
 
-def parse_top5(data: dict) -> list[dict]:
+def filter_stocks(stocks: list[dict], min_price: float, min_volume: int) -> list[dict]:
     filtered = []
-    for item in data["top_gainers"]:
-        stock = parse_stock(item)
+    for stock in stocks:
         if (
-            stock["price"] >= MIN_PRICE
-            and stock["volume"] >= MIN_VOLUME
+            stock["price"] >= min_price
+            and stock["volume"] >= min_volume
             and is_common_stock(stock["symbol"])
         ):
             filtered.append(stock)
 
-    if len(filtered) < 5:
-        raise RuntimeError(
-            f"Only found {len(filtered)} stocks after filters "
-            f"(min price ${MIN_PRICE:g}, min volume {MIN_VOLUME:,})."
+    return filtered
+
+
+def parse_top5(data: dict) -> tuple[list[dict], dict]:
+    stocks = [parse_stock(item) for item in data["top_gainers"]]
+    filter_tiers = [
+        {
+            "label": "primary",
+            "min_price": MIN_PRICE,
+            "min_volume": MIN_VOLUME,
+            "exclude_special_tickers": True,
+        },
+        {
+            "label": "fallback_price",
+            "min_price": FALLBACK_MIN_PRICE,
+            "min_volume": MIN_VOLUME,
+            "exclude_special_tickers": True,
+        },
+    ]
+
+    for filters in filter_tiers:
+        filtered = filter_stocks(
+            stocks,
+            min_price=filters["min_price"],
+            min_volume=filters["min_volume"],
         )
+        if len(filtered) >= 5:
+            filters["matched_count"] = len(filtered)
+            return filtered[:5], filters
+
+    raise RuntimeError(
+        "Only found fewer than 5 stocks after fallback filters "
+        f"(primary min price ${MIN_PRICE:g}, fallback min price "
+        f"${FALLBACK_MIN_PRICE:g}, min volume {MIN_VOLUME:,})."
+    )
 
     return filtered[:5]
 
@@ -92,18 +122,15 @@ def main() -> dict:
     run_now = datetime.now(RUN_TIMEZONE)
     last_updated = raw.get("last_updated", "")
     source_market_date = market_date(last_updated, now)
+    top5, filters = parse_top5(raw)
     output = {
         "updated_at": now.isoformat(),
         "date": run_now.strftime("%Y-%m-%d"),
         "run_timezone": "Asia/Shanghai",
         "market_date": source_market_date,
         "last_updated_label": last_updated,
-        "filters": {
-            "min_price": MIN_PRICE,
-            "min_volume": MIN_VOLUME,
-            "exclude_special_tickers": True,
-        },
-        "top5": parse_top5(raw),
+        "filters": filters,
+        "top5": top5,
     }
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
