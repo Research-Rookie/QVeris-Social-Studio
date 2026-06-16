@@ -22,9 +22,8 @@ WEBSITE_URL = os.environ.get("WEBSITE_URL", "https://qveris.ai")
 def format_tweet(data: dict) -> str:
     top5 = data["top5"]
     leader = top5[0]
-    market_date = data.get("market_date") or data["date"]
     lines = [
-        f"Top 5 U.S. stock movers - {market_date}",
+        f"Top 5 U.S. stock movers - {data['date']}",
         "",
         f"Top mover: ${leader['symbol']} {leader['change_pct']:+.2f}%",
         "",
