@@ -46,6 +46,7 @@ export default function Home() {
   const [statusFilter, setStatusFilter] = useState<"all" | PostStatus>("all");
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [editingId, setEditingId] = useState<string | null>(null);
+  const [selectedPostId, setSelectedPostId] = useState<string | null>(null);
   const [drafts, setDrafts] = useState<Record<string, string>>(
     Object.fromEntries(posts.map((post) => [post.id, post.tweet])),
   );
@@ -60,6 +61,7 @@ export default function Home() {
   const publishedCount = posts.filter((post) => post.status === "published").length;
   const readyCount = posts.filter((post) => post.status === "ready").length;
   const latestDate = posts[0]?.date;
+  const selectedPost = posts.find((post) => post.id === selectedPostId) ?? null;
 
   async function copyTweet(post: Post) {
     await navigator.clipboard.writeText(drafts[post.id] ?? post.tweet);
@@ -158,15 +160,18 @@ export default function Home() {
       {visiblePosts.length ? (
         <section className="cardsGrid">
           {visiblePosts.map((post) => {
-            const isEditing = editingId === post.id;
             const tweet = drafts[post.id] ?? post.tweet;
 
             return (
               <article className="postCard" key={post.id}>
-                <div className="cardImage">
+                <button
+                  className="cardImage cardImageButton"
+                  type="button"
+                  onClick={() => setSelectedPostId(post.id)}
+                >
                   <img src={post.image} alt={`${post.title} for ${post.date}`} />
                   <span className={`status ${post.status}`}>{post.status}</span>
-                </div>
+                </button>
 
                 <div className="cardBody">
                   <div className="cardHeading">
@@ -176,26 +181,6 @@ export default function Home() {
                     </div>
                     <time dateTime={post.date}>{formatDate(post.date)}</time>
                   </div>
-
-                  {isEditing ? (
-                    <textarea
-                      className="tweetEditor"
-                      value={tweet}
-                      maxLength={280}
-                      onChange={(event) =>
-                        setDrafts((current) => ({
-                          ...current,
-                          [post.id]: event.target.value,
-                        }))
-                      }
-                    />
-                  ) : (
-                    <div className="tweetBox">
-                      {tweet.split("\n").map((line, index) => (
-                        <p key={`${post.id}-${index}`}>{line || "\u00a0"}</p>
-                      ))}
-                    </div>
-                  )}
 
                   <div className="cardMeta">
                     <span>
@@ -215,18 +200,15 @@ export default function Home() {
                   </div>
 
                   <div className="cardActions">
+                    <button type="button" onClick={() => setSelectedPostId(post.id)}>
+                      Open
+                    </button>
                     <button type="button" onClick={() => copyTweet(post)}>
                       {copiedId === post.id ? "Copied" : "Copy tweet"}
                     </button>
                     <a href={post.image} download>
-                      Download image
+                      Download
                     </a>
-                    <button
-                      type="button"
-                      onClick={() => setEditingId(isEditing ? null : post.id)}
-                    >
-                      {isEditing ? "Done" : "Edit locally"}
-                    </button>
                   </div>
                 </div>
               </article>
@@ -239,6 +221,104 @@ export default function Home() {
           <p>New content will appear after the daily automation runs.</p>
         </div>
       )}
+
+      {selectedPost ? (
+        <div
+          className="modalOverlay"
+          role="dialog"
+          aria-modal="true"
+          aria-label={`${selectedPost.title} details`}
+          onClick={() => setSelectedPostId(null)}
+        >
+          <article className="modalCard" onClick={(event) => event.stopPropagation()}>
+            <div className="modalHeader">
+              <div>
+                <span className="contentType">{selectedPost.contentType}</span>
+                <h2>{selectedPost.title}</h2>
+                <p>
+                  {formatDate(selectedPost.date)}
+                  {selectedPost.marketDate
+                    ? ` · Market date ${formatDate(selectedPost.marketDate)}`
+                    : ""}
+                </p>
+              </div>
+              <button
+                className="closeButton"
+                type="button"
+                onClick={() => setSelectedPostId(null)}
+              >
+                Close
+              </button>
+            </div>
+
+            <div className="modalContent">
+              <img
+                className="modalImage"
+                src={selectedPost.image}
+                alt={`${selectedPost.title} for ${selectedPost.date}`}
+              />
+
+              <div className="modalSide">
+                {editingId === selectedPost.id ? (
+                  <textarea
+                    className="tweetEditor"
+                    value={drafts[selectedPost.id] ?? selectedPost.tweet}
+                    maxLength={280}
+                    onChange={(event) =>
+                      setDrafts((current) => ({
+                        ...current,
+                        [selectedPost.id]: event.target.value,
+                      }))
+                    }
+                  />
+                ) : (
+                  <div className="tweetBox modalTweet">
+                    {(drafts[selectedPost.id] ?? selectedPost.tweet)
+                      .split("\n")
+                      .map((line, index) => (
+                        <p key={`${selectedPost.id}-${index}`}>{line || "\u00a0"}</p>
+                      ))}
+                  </div>
+                )}
+
+                <div className="cardMeta modalMeta">
+                  <span>
+                    Leader <b>${selectedPost.topSymbol}</b>
+                  </span>
+                  <span>
+                    Move <b>{selectedPost.topChangePct.toFixed(2)}%</b>
+                  </span>
+                  <span>
+                    Copy{" "}
+                    <b>
+                      {(drafts[selectedPost.id] ?? selectedPost.tweet).length}/280
+                    </b>
+                  </span>
+                </div>
+
+                <div className="cardActions">
+                  <button type="button" onClick={() => copyTweet(selectedPost)}>
+                    {copiedId === selectedPost.id ? "Copied" : "Copy tweet"}
+                  </button>
+                  <a href={selectedPost.image} download>
+                    Download image
+                  </a>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      setEditingId(
+                        editingId === selectedPost.id ? null : selectedPost.id,
+                      )
+                    }
+                  >
+                    {editingId === selectedPost.id ? "Done" : "Edit locally"}
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      ) : null}
     </main>
   );
 }
