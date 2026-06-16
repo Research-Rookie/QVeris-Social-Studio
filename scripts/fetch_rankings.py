@@ -6,6 +6,7 @@ import json
 import os
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -13,6 +14,7 @@ import requests
 API_URL = "https://www.alphavantage.co/query"
 ROOT_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_FILE = ROOT_DIR / "data" / "rankings.json"
+RUN_TIMEZONE = ZoneInfo("Asia/Shanghai")
 
 
 def fetch_top_gainers(api_key: str) -> dict:
@@ -59,10 +61,14 @@ def main() -> dict:
 
     raw = fetch_top_gainers(api_key)
     now = datetime.now(timezone.utc)
+    run_now = datetime.now(RUN_TIMEZONE)
     last_updated = raw.get("last_updated", "")
+    source_market_date = market_date(last_updated, now)
     output = {
         "updated_at": now.isoformat(),
-        "date": market_date(last_updated, now),
+        "date": run_now.strftime("%Y-%m-%d"),
+        "run_timezone": "Asia/Shanghai",
+        "market_date": source_market_date,
         "last_updated_label": last_updated,
         "top5": parse_top5(raw),
     }

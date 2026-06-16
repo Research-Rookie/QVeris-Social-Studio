@@ -8,6 +8,8 @@ type PostStatus = "draft" | "ready" | "published";
 type Post = {
   id: string;
   date: string;
+  runDate?: string;
+  marketDate?: string;
   createdAt: string;
   contentType: string;
   title: string;
@@ -110,7 +112,7 @@ export default function Home() {
           <strong>{publishedCount}</strong>
         </article>
         <article>
-          <span>Latest market date</span>
+          <span>Latest card date</span>
           <strong className="dateMetric">
             {latestDate ? formatDate(latestDate) : "No data"}
           </strong>
@@ -149,7 +151,7 @@ export default function Home() {
           ))}
         </div>
         <span className="updated">
-          {latestDate ? `Updated through ${formatDate(latestDate)}` : "No updates yet"}
+          {latestDate ? `Archived through ${formatDate(latestDate)}` : "No updates yet"}
         </span>
       </section>
 
@@ -205,6 +207,11 @@ export default function Home() {
                     <span>
                       Copy <b>{tweet.length}/280</b>
                     </span>
+                    {post.marketDate ? (
+                      <span>
+                        Market date <b>{formatDate(post.marketDate)}</b>
+                      </span>
+                    ) : null}
                   </div>
 
                   <div className="cardActions">

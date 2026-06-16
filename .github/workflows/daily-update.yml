@@ -40,7 +40,7 @@ jobs:
 
       - name: Generate tweet and archive card
         env:
-          WEBSITE_URL: https://qveris.ai
+          WEBSITE_URL: https://q-veris-social-studio.vercel.app
           ENABLE_TWITTER_POST: "false"
         run: python scripts/generate_tweet.py
 

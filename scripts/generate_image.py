@@ -26,7 +26,7 @@ def get_logo_data_url() -> str:
 def build_row_html(stock: dict, rank: int) -> str:
     is_up = stock["change_pct"] >= 0
     pct_class = "up" if is_up else "down"
-    arrow = "▲" if is_up else "▼"
+    arrow = "UP" if is_up else "DOWN"
     row_class = "row first" if rank == 1 else "row"
 
     return f"""
