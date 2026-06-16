@@ -15,6 +15,8 @@ API_URL = "https://www.alphavantage.co/query"
 ROOT_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_FILE = ROOT_DIR / "data" / "rankings.json"
 RUN_TIMEZONE = ZoneInfo("Asia/Shanghai")
+MIN_PRICE = float(os.environ.get("MIN_STOCK_PRICE", "5"))
+MIN_VOLUME = int(os.environ.get("MIN_STOCK_VOLUME", "500000"))
 
 
 def fetch_top_gainers(api_key: str) -> dict:
@@ -32,17 +34,43 @@ def fetch_top_gainers(api_key: str) -> dict:
     return data
 
 
+def is_common_stock(symbol: str) -> bool:
+    special_markers = ("+", "/", "^")
+    special_suffixes = ("WS", "WT", "W", "R", "U")
+    return not (
+        any(marker in symbol for marker in special_markers)
+        or symbol.endswith(special_suffixes)
+    )
+
+
+def parse_stock(item: dict) -> dict:
+    return {
+        "symbol": item["ticker"],
+        "price": float(item["price"]),
+        "change_amount": float(item["change_amount"]),
+        "change_pct": float(item["change_percentage"].rstrip("%")),
+        "volume": int(item["volume"]),
+    }
+
+
 def parse_top5(data: dict) -> list[dict]:
-    return [
-        {
-            "symbol": item["ticker"],
-            "price": float(item["price"]),
-            "change_amount": float(item["change_amount"]),
-            "change_pct": float(item["change_percentage"].rstrip("%")),
-            "volume": int(item["volume"]),
-        }
-        for item in data["top_gainers"][:5]
-    ]
+    filtered = []
+    for item in data["top_gainers"]:
+        stock = parse_stock(item)
+        if (
+            stock["price"] >= MIN_PRICE
+            and stock["volume"] >= MIN_VOLUME
+            and is_common_stock(stock["symbol"])
+        ):
+            filtered.append(stock)
+
+    if len(filtered) < 5:
+        raise RuntimeError(
+            f"Only found {len(filtered)} stocks after filters "
+            f"(min price ${MIN_PRICE:g}, min volume {MIN_VOLUME:,})."
+        )
+
+    return filtered[:5]
 
 
 def market_date(last_updated: str, fallback: datetime) -> str:
@@ -70,6 +98,11 @@ def main() -> dict:
         "run_timezone": "Asia/Shanghai",
         "market_date": source_market_date,
         "last_updated_label": last_updated,
+        "filters": {
+            "min_price": MIN_PRICE,
+            "min_volume": MIN_VOLUME,
+            "exclude_special_tickers": True,
+        },
         "top5": parse_top5(raw),
     }
 

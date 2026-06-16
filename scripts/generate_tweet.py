@@ -23,7 +23,7 @@ def format_tweet(data: dict) -> str:
     top5 = data["top5"]
     leader = top5[0]
     lines = [
-        f"Top 5 U.S. stock movers - {data['date']}",
+        f"Top 5 liquid U.S. stock movers - {data['date']}",
         "",
         f"Top mover: ${leader['symbol']} {leader['change_pct']:+.2f}%",
         "",
@@ -94,7 +94,7 @@ def archive_post(data: dict, tweet_text: str, status: str, x_post_id: str | None
         "marketDate": data.get("market_date") or data["date"],
         "createdAt": datetime.now(timezone.utc).isoformat(),
         "contentType": "MARKET PULSE",
-        "title": "Top 5 U.S. Stock Movers",
+        "title": "Top 5 Liquid U.S. Stock Movers",
         "status": status,
         "tweet": tweet_text,
         "image": f"/posts/{public_image.name}",
