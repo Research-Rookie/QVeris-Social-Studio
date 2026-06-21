@@ -1,51 +1,52 @@
 {
-  "updated_at": "2026-06-18T05:12:04.078559+00:00",
-  "date": "2026-06-18",
+  "updated_at": "2026-06-21T15:48:08.738148+00:00",
+  "date": "2026-06-21",
   "run_timezone": "Asia/Shanghai",
-  "market_date": "2026-06-17",
-  "last_updated_label": "2026-06-17 16:15:58 US/Eastern",
+  "market_date": "2026-06-18",
+  "last_updated_label": "2026-06-18 16:16:00 US/Eastern",
   "filters": {
-    "label": "fallback_price",
-    "min_price": 1.0,
-    "min_volume": 500000,
-    "exclude_special_tickers": true,
-    "matched_count": 7
+    "label": "raw_fill",
+    "min_price": 0,
+    "min_volume": 0,
+    "exclude_special_tickers": false,
+    "matched_count": 20,
+    "warning": "Strict filters produced fewer than 5 stocks; raw gainers were used to keep the daily archive running."
   },
   "top5": [
     {
-      "symbol": "ICCM",
-      "price": 6.4,
-      "change_amount": 4.27,
-      "change_pct": 200.4695,
-      "volume": 151334815
+      "symbol": "LNKS",
+      "price": 2.68,
+      "change_amount": 1.08,
+      "change_pct": 67.5,
+      "volume": 68606690
     },
     {
-      "symbol": "EHGO",
-      "price": 2.89,
-      "change_amount": 1.57,
-      "change_pct": 118.9394,
-      "volume": 112341863
+      "symbol": "CAST",
+      "price": 8.07,
+      "change_amount": 2.92,
+      "change_pct": 56.699,
+      "volume": 111130855
     },
     {
-      "symbol": "SDOT",
-      "price": 17.18,
-      "change_amount": 8.51,
-      "change_pct": 98.1546,
-      "volume": 2994377
+      "symbol": "BFLY",
+      "price": 8.885,
+      "change_amount": 3.175,
+      "change_pct": 55.6042,
+      "volume": 59007354
     },
     {
-      "symbol": "QURE",
-      "price": 48.16,
-      "change_amount": 21.17,
-      "change_pct": 78.4365,
-      "volume": 19607439
+      "symbol": "CDT",
+      "price": 1.02,
+      "change_amount": 0.327,
+      "change_pct": 47.1861,
+      "volume": 246127628
     },
     {
-      "symbol": "FTHM",
-      "price": 1.11,
-      "change_amount": 0.477,
-      "change_pct": 75.3555,
-      "volume": 72991110
+      "symbol": "TBLAW",
+      "price": 0.0093,
+      "change_amount": 0.008,
+      "change_pct": 615.3846,
+      "volume": 388132
     }
   ]
 }
