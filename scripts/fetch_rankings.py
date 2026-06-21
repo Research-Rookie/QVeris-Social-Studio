@@ -67,6 +67,17 @@ def filter_stocks(stocks: list[dict], min_price: float, min_volume: int) -> list
     return filtered
 
 
+def unique_stocks(stocks: list[dict]) -> list[dict]:
+    seen = set()
+    unique = []
+    for stock in stocks:
+        if stock["symbol"] in seen:
+            continue
+        seen.add(stock["symbol"])
+        unique.append(stock)
+    return unique
+
+
 def parse_top5(data: dict) -> tuple[list[dict], dict]:
     stocks = [parse_stock(item) for item in data["top_gainers"]]
     filter_tiers = [
@@ -94,13 +105,35 @@ def parse_top5(data: dict) -> tuple[list[dict], dict]:
             filters["matched_count"] = len(filtered)
             return filtered[:5], filters
 
-    raise RuntimeError(
-        "Only found fewer than 5 stocks after fallback filters "
-        f"(primary min price ${MIN_PRICE:g}, fallback min price "
-        f"${FALLBACK_MIN_PRICE:g}, min volume {MIN_VOLUME:,})."
-    )
+    relaxed_common = [
+        stock
+        for stock in stocks
+        if stock["price"] >= FALLBACK_MIN_PRICE and is_common_stock(stock["symbol"])
+    ]
+    combined = unique_stocks(filtered + relaxed_common)
+    if len(combined) >= 5:
+        return combined[:5], {
+            "label": "relaxed_volume",
+            "min_price": FALLBACK_MIN_PRICE,
+            "min_volume": 0,
+            "exclude_special_tickers": True,
+            "matched_count": len(combined),
+        }
 
-    return filtered[:5]
+    raw_fill = unique_stocks(combined + stocks)
+    if len(raw_fill) < 5:
+        raise RuntimeError(
+            f"Alpha Vantage returned only {len(raw_fill)} usable gainers."
+        )
+
+    return raw_fill[:5], {
+        "label": "raw_fill",
+        "min_price": 0,
+        "min_volume": 0,
+        "exclude_special_tickers": False,
+        "matched_count": len(raw_fill),
+        "warning": "Strict filters produced fewer than 5 stocks; raw gainers were used to keep the daily archive running.",
+    }
 
 
 def market_date(last_updated: str, fallback: datetime) -> str:
