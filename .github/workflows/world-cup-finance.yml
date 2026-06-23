@@ -32,6 +32,7 @@ jobs:
 
       - name: Fetch World Cup finance signals
         env:
+          QVERIS_API_KEY: ${{ secrets.QVERIS_API_KEY }}
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
         run: python scripts/fetch_world_cup_finance.py
 
