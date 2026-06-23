@@ -6,16 +6,18 @@ import json
 import os
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.error import HTTPError
+from urllib.parse import urlencode
+from urllib.request import urlopen
 from zoneinfo import ZoneInfo
 
-import requests
 
-
-FMP_API_URL = "https://financialmodelingprep.com/api/v3"
+FMP_API_URL = "https://financialmodelingprep.com/stable"
 ROOT_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_FILE = ROOT_DIR / "data" / "fcf_yield.json"
 RUN_TIMEZONE = ZoneInfo("Asia/Shanghai")
 DEFAULT_SYMBOLS = "PYPL,ADBE"
+DEFAULT_QUARTER_LIMIT = os.environ.get("FCF_QUARTER_LIMIT", "5")
 
 
 def fmp_get(path: str, api_key: str, params: dict | None = None) -> list | dict:
@@ -23,9 +25,14 @@ def fmp_get(path: str, api_key: str, params: dict | None = None) -> list | dict:
     if params:
         query.update(params)
 
-    response = requests.get(f"{FMP_API_URL}/{path}", params=query, timeout=30)
-    response.raise_for_status()
-    data = response.json()
+    url = f"{FMP_API_URL}/{path}?{urlencode(query)}"
+    try:
+        with urlopen(url, timeout=30) as response:
+            data = json.loads(response.read().decode("utf-8"))
+    except HTTPError as error:
+        details = error.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"FMP API error {error.code} for {path}: {details}") from error
+
     if isinstance(data, dict) and ("Error Message" in data or "Note" in data):
         raise RuntimeError(f"Unexpected FMP response for {path}: {data}")
     return data
@@ -77,12 +84,12 @@ def company_name(symbol: str, profile: dict) -> str:
 
 def build_company(symbol: str, api_key: str) -> dict:
     cash_flow = fmp_get(
-        f"cash-flow-statement/{symbol}",
+        "cash-flow-statement",
         api_key,
-        {"period": "quarter", "limit": "12"},
+        {"symbol": symbol, "period": "quarter", "limit": DEFAULT_QUARTER_LIMIT},
     )
-    profile_data = fmp_get(f"profile/{symbol}", api_key)
-    quote_data = fmp_get(f"quote/{symbol}", api_key)
+    profile_data = fmp_get("profile", api_key, {"symbol": symbol})
+    quote_data = fmp_get("quote", api_key, {"symbol": symbol})
 
     if not isinstance(cash_flow, list) or len(cash_flow) < 4:
         raise RuntimeError(f"Not enough quarterly cash-flow data for {symbol}")
