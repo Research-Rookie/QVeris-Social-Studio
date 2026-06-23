@@ -1,0 +1,58 @@
+name: QVeris FCF Yield Comparison
+
+on:
+  workflow_dispatch:
+    inputs:
+      symbols:
+        description: "Two tickers to compare, e.g. PYPL,ADBE"
+        required: false
+        default: "PYPL,ADBE"
+  schedule:
+    # Weekly Monday 09:00 Asia/Shanghai.
+    - cron: "0 1 * * 1"
+
+concurrency:
+  group: qveris-fcf-yield
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          pip install requests playwright
+          playwright install --with-deps chromium
+
+      - name: Fetch FCF yield comparison
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          FCF_SYMBOLS: ${{ github.event.inputs.symbols || 'PYPL,ADBE' }}
+        run: python scripts/fetch_fcf_yield.py
+
+      - name: Generate FCF image
+        run: python scripts/generate_fcf_image.py
+
+      - name: Generate FCF tweet and archive card
+        env:
+          WEBSITE_URL: https://qveris.ai
+        run: python scripts/generate_fcf_tweet.py
+
+      - name: Commit archive
+        run: |
+          git config user.name "qveris-content-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ images/ public/posts/
+          git diff --cached --quiet || git commit -m "chore: archive fcf yield card $(date -u +%Y-%m-%d)"
+          git push

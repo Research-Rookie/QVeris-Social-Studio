@@ -19,17 +19,34 @@ type Post = {
   dataSource: string;
   dataUpdatedAt: string;
   xPostId?: string | null;
-  topSymbol: string;
-  topChangePct: number;
+  topSymbol?: string;
+  topChangePct?: number;
+  primaryLabel?: string;
+  primaryValue?: string;
+  secondaryLabel?: string;
+  secondaryValue?: string;
 };
 
 const posts = postsData as Post[];
 
+function categoryKey(post: Post) {
+  if (post.contentType === "FCF YIELD") return "fcf-yield";
+  return "market-pulse";
+}
+
 const categories = [
-  { key: "market-pulse", label: "Market Pulse", count: posts.length },
-  { key: "agent-rankings", label: "Agent Rankings", count: 0 },
-  { key: "trend-disruptors", label: "Trend Disruptors", count: 0 },
-  { key: "launch-alerts", label: "Launch Alerts", count: 0 },
+  {
+    key: "market-pulse",
+    label: "Market Pulse",
+    count: posts.filter((post) => categoryKey(post) === "market-pulse").length,
+  },
+  {
+    key: "fcf-yield",
+    label: "FCF Yield",
+    count: posts.filter((post) => categoryKey(post) === "fcf-yield").length,
+  },
+  { key: "earnings", label: "Earnings", count: 0 },
+  { key: "comparisons", label: "Comparisons", count: 0 },
 ];
 
 function formatDate(date: string) {
@@ -52,10 +69,10 @@ export default function Home() {
   );
 
   const visiblePosts = useMemo(() => {
-    if (activeCategory !== "market-pulse") return [];
-    return statusFilter === "all"
-      ? posts
-      : posts.filter((post) => post.status === statusFilter);
+    return posts.filter((post) => {
+      if (categoryKey(post) !== activeCategory) return false;
+      return statusFilter === "all" || post.status === statusFilter;
+    });
   }, [activeCategory, statusFilter]);
 
   const publishedCount = posts.filter((post) => post.status === "published").length;
@@ -183,12 +200,24 @@ export default function Home() {
                   </div>
 
                   <div className="cardMeta">
-                    <span>
-                      Leader <b>${post.topSymbol}</b>
-                    </span>
-                    <span>
-                      Move <b>{post.topChangePct.toFixed(2)}%</b>
-                    </span>
+                    {post.primaryLabel && post.primaryValue ? (
+                      <span>
+                        {post.primaryLabel} <b>{post.primaryValue}</b>
+                      </span>
+                    ) : (
+                      <span>
+                        Leader <b>${post.topSymbol}</b>
+                      </span>
+                    )}
+                    {post.secondaryLabel && post.secondaryValue ? (
+                      <span>
+                        {post.secondaryLabel} <b>{post.secondaryValue}</b>
+                      </span>
+                    ) : post.topChangePct !== undefined ? (
+                      <span>
+                        Move <b>{post.topChangePct.toFixed(2)}%</b>
+                      </span>
+                    ) : null}
                     <span>
                       Copy <b>{tweet.length}/280</b>
                     </span>
@@ -282,12 +311,24 @@ export default function Home() {
                 )}
 
                 <div className="cardMeta modalMeta">
-                  <span>
-                    Leader <b>${selectedPost.topSymbol}</b>
-                  </span>
-                  <span>
-                    Move <b>{selectedPost.topChangePct.toFixed(2)}%</b>
-                  </span>
+                  {selectedPost.primaryLabel && selectedPost.primaryValue ? (
+                    <span>
+                      {selectedPost.primaryLabel} <b>{selectedPost.primaryValue}</b>
+                    </span>
+                  ) : (
+                    <span>
+                      Leader <b>${selectedPost.topSymbol}</b>
+                    </span>
+                  )}
+                  {selectedPost.secondaryLabel && selectedPost.secondaryValue ? (
+                    <span>
+                      {selectedPost.secondaryLabel} <b>{selectedPost.secondaryValue}</b>
+                    </span>
+                  ) : selectedPost.topChangePct !== undefined ? (
+                    <span>
+                      Move <b>{selectedPost.topChangePct.toFixed(2)}%</b>
+                    </span>
+                  ) : null}
                   <span>
                     Copy{" "}
                     <b>
