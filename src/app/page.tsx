@@ -31,6 +31,7 @@ const posts = postsData as Post[];
 
 function categoryKey(post: Post) {
   if (post.contentType === "FCF YIELD") return "fcf-yield";
+  if (post.contentType === "WORLD CUP FINANCE") return "world-cup-finance";
   return "market-pulse";
 }
 
@@ -45,8 +46,12 @@ const categories = [
     label: "FCF Yield",
     count: posts.filter((post) => categoryKey(post) === "fcf-yield").length,
   },
+  {
+    key: "world-cup-finance",
+    label: "World Cup Finance",
+    count: posts.filter((post) => categoryKey(post) === "world-cup-finance").length,
+  },
   { key: "earnings", label: "Earnings", count: 0 },
-  { key: "comparisons", label: "Comparisons", count: 0 },
 ];
 
 function formatDate(date: string) {
@@ -267,7 +272,7 @@ export default function Home() {
                 <p>
                   {formatDate(selectedPost.date)}
                   {selectedPost.marketDate
-                    ? ` · Market date ${formatDate(selectedPost.marketDate)}`
+                    ? ` - Market date ${formatDate(selectedPost.marketDate)}`
                     : ""}
                 </p>
               </div>

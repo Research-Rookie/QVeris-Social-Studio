@@ -1,0 +1,52 @@
+name: QVeris World Cup Finance Signals
+
+on:
+  schedule:
+    # Daily 09:15 Asia/Shanghai during the tournament window.
+    - cron: "15 1 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: qveris-world-cup-finance
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Fetch World Cup finance signals
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+        run: python scripts/fetch_world_cup_finance.py
+
+      - name: Generate World Cup finance image
+        run: python scripts/generate_world_cup_finance_image.py
+
+      - name: Generate World Cup finance tweet and archive card
+        env:
+          WEBSITE_URL: https://qveris.ai
+        run: python scripts/generate_world_cup_finance_tweet.py
+
+      - name: Commit archive
+        run: |
+          git config user.name "qveris-content-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ images/ public/posts/
+          git diff --cached --quiet || git commit -m "chore: archive world cup finance card $(date -u +%Y-%m-%d)"
+          git push

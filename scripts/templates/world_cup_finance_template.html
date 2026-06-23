@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Cup Finance Signals</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 1200px;
+      height: 675px;
+      padding: 36px 44px;
+      color: #f7f9fc;
+      background:
+        radial-gradient(circle at 14% 15%, rgba(0, 220, 155, 0.2), transparent 27%),
+        radial-gradient(circle at 86% 72%, rgba(49, 123, 255, 0.2), transparent 34%),
+        linear-gradient(135deg, #071019 0%, #101827 45%, #071b18 100%);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      overflow: hidden;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.045) 1px, transparent 1px);
+      background-size: 38px 38px;
+      opacity: 0.65;
+      pointer-events: none;
+    }
+
+    .shell {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 17px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: flex-start;
+    }
+
+    .eyebrow {
+      color: #5df0ba;
+      font-size: 15px;
+      font-weight: 850;
+      letter-spacing: 0.16em;
+    }
+
+    .title {
+      margin-top: 8px;
+      font-size: 44px;
+      font-weight: 900;
+      letter-spacing: -0.045em;
+    }
+
+    .date {
+      padding: 10px 15px;
+      border: 1px solid rgba(255,255,255,0.13);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.06);
+      color: rgba(247,249,252,0.8);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .signal-grid {
+      display: grid;
+      grid-template-columns: 1.35fr 0.9fr 0.95fr;
+      gap: 13px;
+    }
+
+    .signal {
+      padding: 16px 18px;
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px;
+      background: rgba(255,255,255,0.065);
+      box-shadow: 0 18px 48px rgba(0,0,0,0.2);
+    }
+
+    .signal span {
+      display: block;
+      margin-bottom: 7px;
+      color: rgba(247,249,252,0.58);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .signal strong {
+      display: block;
+      font-size: 24px;
+      line-height: 1.14;
+      letter-spacing: -0.035em;
+    }
+
+    .table {
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.11);
+      border-radius: 22px;
+      background: rgba(4, 11, 18, 0.66);
+    }
+
+    .table-head,
+    .stock-row {
+      display: grid;
+      grid-template-columns: 260px 1fr 100px 120px;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .table-head {
+      padding: 13px 18px;
+      color: rgba(247,249,252,0.46);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+    }
+
+    .stock-row {
+      padding: 11px 18px;
+      border-bottom: 1px solid rgba(255,255,255,0.065);
+    }
+
+    .stock-row:last-child {
+      border-bottom: 0;
+    }
+
+    .stock-main {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .ticker {
+      flex: 0 0 auto;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 900;
+    }
+
+    .company {
+      overflow: hidden;
+      color: rgba(247,249,252,0.58);
+      font-size: 13px;
+      font-weight: 750;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .bar-track {
+      height: 11px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+    }
+
+    .bar {
+      height: 100%;
+      border-radius: inherit;
+    }
+
+    .bar.up {
+      background: linear-gradient(90deg, #3fe6a1, #8affce);
+    }
+
+    .bar.down {
+      background: linear-gradient(90deg, #ff5a4f, #ff9b91);
+    }
+
+    .move {
+      font-size: 18px;
+      font-weight: 900;
+      text-align: right;
+    }
+
+    .up-text {
+      color: #5df0ba;
+    }
+
+    .down-text {
+      color: #ff756c;
+    }
+
+    .theme {
+      color: rgba(247,249,252,0.62);
+      font-size: 13px;
+      font-weight: 800;
+      text-align: right;
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: rgba(247,249,252,0.54);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .watermark {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: rgba(247,249,252,0.86);
+      font-size: 24px;
+      font-weight: 900;
+    }
+
+    .watermark img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="header">
+      <div>
+        <div class="eyebrow">WORLD CUP FINANCE</div>
+        <h1 class="title">World Cup Finance Signals</h1>
+      </div>
+      <div class="date">{{DATE}}</div>
+    </section>
+
+    <section class="signal-grid">
+      <div class="signal">
+        <span>Latest match</span>
+        <strong>{{MATCH}}</strong>
+      </div>
+      <div class="signal">
+        <span>Basket leader</span>
+        <strong>{{LEADER}}</strong>
+      </div>
+      <div class="signal">
+        <span>Top theme</span>
+        <strong>{{THEME}}</strong>
+      </div>
+    </section>
+
+    <section class="table">
+      <div class="table-head">
+        <div>Company</div>
+        <div>Daily move</div>
+        <div>Change</div>
+        <div>Theme</div>
+      </div>
+      {{ROWS}}
+    </section>
+
+    <section class="footer">
+      <span>Tracking sponsor-linked and tournament-adjacent public equities.</span>
+      <div class="watermark">
+        <img src="{{LOGO}}" alt="QVeris" />
+        <span>QVeris</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
