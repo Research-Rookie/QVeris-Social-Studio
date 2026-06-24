@@ -1,16 +1,82 @@
 [
   {
+    "id": "world-cup-etf-2026-06-24-537406-colombia-congo-dr",
+    "date": "2026-06-24",
+    "runDate": "2026-06-24",
+    "createdAt": "2026-06-24T04:09:42.293652+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Colombia vs Congo DR ETF Watch",
+    "status": "ready",
+    "tweet": "Colombia beat Congo DR 1-0.\n\nMarket attention check:\n$GXG Colombia ETF: -33.94%\n$AFK Congo DR proxy ETF: -6.27%\n\nWorld Cup results don't move markets alone, but they create a clean sentiment signal to track.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-24-537406-colombia-congo-dr.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-24T04:09:36.387071+00:00",
+    "xPostId": null,
+    "primaryLabel": "$GXG daily move",
+    "primaryValue": "-33.94%",
+    "secondaryLabel": "$AFK daily move",
+    "secondaryValue": "-6.27%",
+    "topSymbol": "GXG",
+    "topChangePct": -33.939802336028755,
+    "worldCupFinance": {
+      "date": "2026-06-24",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537406",
+        "utc_date": "2026-06-24T02:00:00Z",
+        "local_datetime": "2026-06-24T10:00:00+08:00",
+        "label": "Colombia 1-0 Congo DR",
+        "result": "home_win",
+        "home": {
+          "team": "Colombia",
+          "country": "Colombia",
+          "score": 1,
+          "etf": "GXG",
+          "etf_name": "Global X MSCI Colombia ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "GXG",
+            "price": 29.41,
+            "change": -15.110000000000003,
+            "change_pct": -33.939802336028755,
+            "volume": 42685,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Congo DR",
+          "country": "Congo DR",
+          "score": 0,
+          "etf": "AFK",
+          "etf_name": "VanEck Africa Index ETF",
+          "is_proxy": true,
+          "proxy_note": "Africa ETF used because no liquid single-country Congo DR ETF is available",
+          "quote": {
+            "symbol": "AFK",
+            "price": 26.15,
+            "change": -1.75,
+            "change_pct": -6.2724014336917575,
+            "volume": 27724,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
     "id": "world-cup-etf-2026-06-24-537412-panama-croatia",
     "date": "2026-06-24",
     "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T04:07:11.362438+00:00",
+    "createdAt": "2026-06-24T04:09:42.292075+00:00",
     "contentType": "WORLD CUP FINANCE",
     "title": "Panama vs Croatia ETF Watch",
     "status": "ready",
     "tweet": "Croatia beat Panama 1-0.\n\nMarket attention check:\n$ILF Panama proxy ETF: -2.59%\n$VGK Croatia proxy ETF: -3.02%\n\nWorld Cup results don't move markets alone, but they create a clean sentiment signal to track.\n\nBuilt with QVeris: https://qveris.ai",
     "image": "/posts/world_cup_etf_2026-06-24-537412-panama-croatia.png",
-    "dataSource": "football-data.org, QVeris API with FMP fallback",
-    "dataUpdatedAt": "2026-06-24T04:07:07.497499+00:00",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-24T04:09:36.387071+00:00",
     "xPostId": null,
     "primaryLabel": "$ILF daily move",
     "primaryValue": "-2.59%",
@@ -62,21 +128,21 @@
           }
         }
       },
-      "source": "football-data.org, QVeris API with FMP fallback"
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
     }
   },
   {
     "id": "world-cup-etf-2026-06-24-537411-england-ghana",
     "date": "2026-06-24",
     "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T04:07:11.360893+00:00",
+    "createdAt": "2026-06-24T04:09:42.290422+00:00",
     "contentType": "WORLD CUP FINANCE",
     "title": "England vs Ghana ETF Watch",
     "status": "ready",
     "tweet": "England drew Ghana 0-0.\n\nMarket attention check:\n$EWU England ETF: -1.38%\n$AFK Ghana proxy ETF: -6.27%\n\nWorld Cup results don't move markets alone, but they create a clean sentiment signal to track.\n\nBuilt with QVeris: https://qveris.ai",
     "image": "/posts/world_cup_etf_2026-06-24-537411-england-ghana.png",
-    "dataSource": "football-data.org, QVeris API with FMP fallback",
-    "dataUpdatedAt": "2026-06-24T04:07:07.497499+00:00",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-24T04:09:36.387071+00:00",
     "xPostId": null,
     "primaryLabel": "$EWU daily move",
     "primaryValue": "-1.38%",
@@ -128,21 +194,21 @@
           }
         }
       },
-      "source": "football-data.org, QVeris API with FMP fallback"
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
     }
   },
   {
     "id": "world-cup-etf-2026-06-24-537405-portugal-uzbekistan",
     "date": "2026-06-24",
     "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T04:07:11.359355+00:00",
+    "createdAt": "2026-06-24T04:09:42.288637+00:00",
     "contentType": "WORLD CUP FINANCE",
     "title": "Portugal vs Uzbekistan ETF Watch",
     "status": "ready",
     "tweet": "Portugal beat Uzbekistan 5-0.\n\nMarket attention check:\n$PGAL Portugal ETF: +0.00%\n$FM Uzbekistan proxy ETF: +0.41%\n\nWorld Cup results don't move markets alone, but they create a clean sentiment signal to track.\n\nBuilt with QVeris: https://qveris.ai",
     "image": "/posts/world_cup_etf_2026-06-24-537405-portugal-uzbekistan.png",
-    "dataSource": "football-data.org, QVeris API with FMP fallback",
-    "dataUpdatedAt": "2026-06-24T04:07:07.497499+00:00",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-24T04:09:36.387071+00:00",
     "xPostId": null,
     "primaryLabel": "$PGAL daily move",
     "primaryValue": "+0.00%",
@@ -194,7 +260,7 @@
           }
         }
       },
-      "source": "football-data.org, QVeris API with FMP fallback"
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
     }
   },
   {
