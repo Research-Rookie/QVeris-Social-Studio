@@ -1,78 +1,120 @@
 {
   "event": "2026 FIFA World Cup",
-  "latest_match": {
-    "label": "Match result pending",
-    "home_team": "TBD",
-    "away_team": "TBD",
-    "home_score": null,
-    "away_score": null,
-    "note": "Update this object when you want the card to include a specific match result."
-  },
-  "basket": [
-    {
-      "symbol": "KO",
-      "company": "Coca-Cola",
-      "theme": "Global sponsor"
+  "country_etfs": {
+    "United States": {
+      "ticker": "SPY",
+      "etf_name": "SPDR S&P 500 ETF Trust",
+      "aliases": ["USA", "United States of America", "USMNT"]
     },
-    {
-      "symbol": "V",
-      "company": "Visa",
-      "theme": "Payments"
+    "Mexico": {
+      "ticker": "EWW",
+      "etf_name": "iShares MSCI Mexico ETF",
+      "aliases": ["Mexico National Team", "México"]
     },
-    {
-      "symbol": "MA",
-      "company": "Mastercard",
-      "theme": "Payments"
+    "Canada": {
+      "ticker": "EWC",
+      "etf_name": "iShares MSCI Canada ETF",
+      "aliases": []
     },
-    {
-      "symbol": "AAL",
-      "company": "American Airlines",
-      "theme": "Travel"
+    "Brazil": {
+      "ticker": "EWZ",
+      "etf_name": "iShares MSCI Brazil ETF",
+      "aliases": ["Brasil"]
     },
-    {
-      "symbol": "DAL",
-      "company": "Delta Air Lines",
-      "theme": "Travel"
+    "Argentina": {
+      "ticker": "ARGT",
+      "etf_name": "Global X MSCI Argentina ETF",
+      "aliases": []
     },
-    {
-      "symbol": "UAL",
-      "company": "United Airlines",
-      "theme": "Travel"
+    "Germany": {
+      "ticker": "EWG",
+      "etf_name": "iShares MSCI Germany ETF",
+      "aliases": ["Deutschland"]
     },
-    {
-      "symbol": "MAR",
-      "company": "Marriott",
-      "theme": "Hotels"
+    "France": {
+      "ticker": "EWQ",
+      "etf_name": "iShares MSCI France ETF",
+      "aliases": []
     },
-    {
-      "symbol": "HLT",
-      "company": "Hilton",
-      "theme": "Hotels"
+    "England": {
+      "ticker": "EWU",
+      "etf_name": "iShares MSCI United Kingdom ETF",
+      "aliases": ["United Kingdom", "UK", "Great Britain"]
     },
-    {
-      "symbol": "NKE",
-      "company": "Nike",
-      "theme": "Sportswear"
+    "Spain": {
+      "ticker": "EWP",
+      "etf_name": "iShares MSCI Spain ETF",
+      "aliases": ["España"]
     },
-    {
-      "symbol": "ADDYY",
-      "company": "Adidas",
-      "theme": "Sportswear"
+    "Italy": {
+      "ticker": "EWI",
+      "etf_name": "iShares MSCI Italy ETF",
+      "aliases": []
     },
-    {
-      "symbol": "FOXA",
-      "company": "Fox",
-      "theme": "Media"
+    "Portugal": {
+      "ticker": "PGAL",
+      "etf_name": "Global X MSCI Portugal ETF",
+      "aliases": []
     },
-    {
-      "symbol": "CMCSA",
-      "company": "Comcast",
-      "theme": "Media"
+    "Netherlands": {
+      "ticker": "EWN",
+      "etf_name": "iShares MSCI Netherlands ETF",
+      "aliases": ["Holland"]
     },
-    {
-      "symbol": "DKNG",
-      "company": "DraftKings",
-      "theme": "Betting"
+    "Belgium": {
+      "ticker": "EWK",
+      "etf_name": "iShares MSCI Belgium ETF",
+      "aliases": []
+    },
+    "Switzerland": {
+      "ticker": "EWL",
+      "etf_name": "iShares MSCI Switzerland ETF",
+      "aliases": []
+    },
+    "Japan": {
+      "ticker": "EWJ",
+      "etf_name": "iShares MSCI Japan ETF",
+      "aliases": []
+    },
+    "Korea Republic": {
+      "ticker": "EWY",
+      "etf_name": "iShares MSCI South Korea ETF",
+      "aliases": ["South Korea", "Korea", "Republic of Korea"]
+    },
+    "Australia": {
+      "ticker": "EWA",
+      "etf_name": "iShares MSCI Australia ETF",
+      "aliases": []
+    },
+    "Saudi Arabia": {
+      "ticker": "KSA",
+      "etf_name": "iShares MSCI Saudi Arabia ETF",
+      "aliases": []
+    },
+    "Qatar": {
+      "ticker": "QAT",
+      "etf_name": "iShares MSCI Qatar ETF",
+      "aliases": []
+    },
+    "Poland": {
+      "ticker": "EPOL",
+      "etf_name": "iShares MSCI Poland ETF",
+      "aliases": []
+    },
+    "Turkey": {
+      "ticker": "TUR",
+      "etf_name": "iShares MSCI Turkey ETF",
+      "aliases": ["Türkiye"]
+    },
+    "South Africa": {
+      "ticker": "EZA",
+      "etf_name": "iShares MSCI South Africa ETF",
+      "aliases": []
+    },
+    "Chile": {
+      "ticker": "ECH",
+      "etf_name": "iShares MSCI Chile ETF",
+      "aliases": []
     }
-  ]
+  }
 }

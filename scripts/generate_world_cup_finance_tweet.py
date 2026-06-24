@@ -1,9 +1,10 @@
-"""Generate World Cup finance signal tweet and archive card."""
+"""Generate one World Cup ETF tweet and website card per finished match."""
 
 from __future__ import annotations
 
 import json
 import os
+import re
 import shutil
 import sys
 from datetime import datetime, timezone
@@ -14,7 +15,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT_DIR / "data" / "world_cup_finance.json"
 POSTS_FILE = ROOT_DIR / "data" / "posts.json"
 TWEET_PREVIEW_FILE = ROOT_DIR / "data" / "world_cup_finance_tweet_preview.txt"
-SOURCE_IMAGE = ROOT_DIR / "images" / "world_cup_finance_latest.png"
+SOURCE_IMAGE_DIR = ROOT_DIR / "images"
 PUBLIC_POSTS_DIR = ROOT_DIR / "public" / "posts"
 WEBSITE_URL = os.environ.get("WEBSITE_URL", "https://qveris.ai")
 
@@ -23,71 +24,106 @@ def pct(value: float) -> str:
     return f"{value:+.2f}%"
 
 
-def format_tweet(data: dict) -> str:
-    leader = data["leader"]
-    theme = data["top_theme"]
-    top_stocks = data["stocks"][:4]
+def safe_slug(value: str) -> str:
+    value = value.lower()
+    value = re.sub(r"[^a-z0-9]+", "-", value)
+    return value.strip("-") or "match"
+
+
+def match_slug(match: dict, date: str) -> str:
+    return safe_slug(f"{date}-{match['id']}-{match['home']['team']}-{match['away']['team']}")
+
+
+def winner_line(match: dict) -> str:
+    home = match["home"]
+    away = match["away"]
+    if match.get("result") == "home_win":
+        return f"{home['team']} beat {away['team']} {home['score']}-{away['score']}."
+    if match.get("result") == "away_win":
+        return f"{away['team']} beat {home['team']} {away['score']}-{home['score']}."
+    return f"{home['team']} drew {away['team']} {home['score']}-{away['score']}."
+
+
+def format_tweet(match: dict) -> str:
+    home = match["home"]
+    away = match["away"]
+    home_pct = pct(float(home["quote"].get("change_pct", 0)))
+    away_pct = pct(float(away["quote"].get("change_pct", 0)))
     lines = [
-        f"World Cup Finance Signals - {data['date']}",
+        winner_line(match),
         "",
-        f"Latest match: {data['match_label']}",
-        f"Basket leader: ${leader['symbol']} {pct(leader['change_pct'])}",
-        f"Top theme: {theme['name']} {pct(theme['avg_change_pct'])} avg",
+        "Market attention check:",
+        f"${home['etf']} {home['country']} ETF: {home_pct}",
+        f"${away['etf']} {away['country']} ETF: {away_pct}",
         "",
+        "World Cup results don't move markets alone, but they create a clean sentiment signal to track.",
+        "",
+        f"Built with QVeris: {WEBSITE_URL}",
     ]
-    lines.extend(
-        f"${stock['symbol']} {pct(stock['change_pct'])}"
-        for stock in top_stocks
-    )
-    lines.extend(
-        [
-            "",
-            f"More market data: {WEBSITE_URL}",
-            "Information only. Not investment advice.",
-        ]
-    )
     tweet = "\n".join(lines)
+    if len(tweet) > 280:
+        lines = [
+            winner_line(match),
+            "",
+            f"${home['etf']} {home_pct} vs ${away['etf']} {away_pct}",
+            "",
+            "A simple World Cup x ETF sentiment signal, built with QVeris.",
+            WEBSITE_URL,
+        ]
+        tweet = "\n".join(lines)
     if len(tweet) > 280:
         raise RuntimeError(f"Tweet is {len(tweet)} characters; limit is 280")
     return tweet
 
 
-def archive_post(data: dict, tweet_text: str) -> None:
+def archive_post(data: dict, match: dict, tweet_text: str) -> None:
     PUBLIC_POSTS_DIR.mkdir(parents=True, exist_ok=True)
-    public_image = PUBLIC_POSTS_DIR / f"world_cup_finance_{data['date']}.png"
-    shutil.copy2(SOURCE_IMAGE, public_image)
+    slug = match_slug(match, data["date"])
+    image_name = f"world_cup_etf_{slug}.png"
+    source_image = SOURCE_IMAGE_DIR / image_name
+    if not source_image.exists():
+        raise RuntimeError(f"Missing generated image: {source_image}")
+    public_image = PUBLIC_POSTS_DIR / image_name
+    shutil.copy2(source_image, public_image)
 
     posts = []
     if POSTS_FILE.exists():
         posts = json.loads(POSTS_FILE.read_text(encoding="utf-8"))
 
-    leader = data["leader"]
-    theme = data["top_theme"]
+    home = match["home"]
+    away = match["away"]
+    home_pct = float(home["quote"].get("change_pct", 0))
+    away_pct = float(away["quote"].get("change_pct", 0))
     record = {
-        "id": f"world-cup-finance-{data['date']}",
+        "id": f"world-cup-etf-{slug}",
         "date": data["date"],
         "runDate": data["date"],
         "createdAt": datetime.now(timezone.utc).isoformat(),
         "contentType": "WORLD CUP FINANCE",
-        "title": "World Cup Finance Signals",
+        "title": f"{home['team']} vs {away['team']} ETF Watch",
         "status": "ready",
         "tweet": tweet_text,
         "image": f"/posts/{public_image.name}",
-        "dataSource": data.get("source", "Financial Modeling Prep"),
+        "dataSource": data.get("source", "QVeris API"),
         "dataUpdatedAt": data.get("updated_at", ""),
         "xPostId": None,
-        "primaryLabel": f"${leader['symbol']} daily move",
-        "primaryValue": pct(leader["change_pct"]),
-        "secondaryLabel": f"{theme['name']} avg",
-        "secondaryValue": pct(theme["avg_change_pct"]),
-        "topSymbol": leader["symbol"],
-        "topChangePct": leader["change_pct"],
-        "worldCupFinance": data,
+        "primaryLabel": f"${home['etf']} daily move",
+        "primaryValue": pct(home_pct),
+        "secondaryLabel": f"${away['etf']} daily move",
+        "secondaryValue": pct(away_pct),
+        "topSymbol": home["etf"] if abs(home_pct) >= abs(away_pct) else away["etf"],
+        "topChangePct": home_pct if abs(home_pct) >= abs(away_pct) else away_pct,
+        "worldCupFinance": {
+            "date": data["date"],
+            "event": data.get("event"),
+            "match": match,
+            "source": data.get("source"),
+        },
     }
 
     posts = [post for post in posts if post.get("id") != record["id"]]
     posts.append(record)
-    posts.sort(key=lambda post: post["date"], reverse=True)
+    posts.sort(key=lambda post: (post["date"], post.get("createdAt", "")), reverse=True)
     POSTS_FILE.write_text(
         json.dumps(posts, ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -99,13 +135,20 @@ def main() -> None:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
     data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
-    tweet_text = format_tweet(data)
-    TWEET_PREVIEW_FILE.write_text(tweet_text, encoding="utf-8")
-    archive_post(data, tweet_text)
+    matches = data.get("matches") or []
+    if not matches:
+        print("No finished mapped World Cup matches. Skipping tweet/archive generation.")
+        return
 
-    print("==== World Cup finance tweet preview ====")
-    print(tweet_text)
-    print(f"Characters: {len(tweet_text)}")
+    tweets = []
+    for match in matches:
+        tweet_text = format_tweet(match)
+        archive_post(data, match, tweet_text)
+        tweets.append(f"==== {match['label']} ====\n{tweet_text}\nCharacters: {len(tweet_text)}")
+
+    TWEET_PREVIEW_FILE.write_text("\n\n".join(tweets), encoding="utf-8")
+    print("==== World Cup ETF tweet previews ====")
+    print("\n\n".join(tweets))
     print("Status: ready")
 
 

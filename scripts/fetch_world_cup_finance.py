@@ -1,10 +1,20 @@
-"""Fetch World Cup finance signal data from FMP quote-short."""
+"""Fetch completed World Cup matches and mapped country ETF quotes.
+
+The workflow is intentionally event-driven:
+- If there are finished World Cup matches for the selected Asia/Shanghai date,
+  it writes data/world_cup_finance.json with one record per match.
+- If there are no finished matches, it writes no archive cards downstream.
+
+Football results come from football-data.org.
+ETF quotes prefer QVeris and fall back to FMP quote-short.
+"""
 
 from __future__ import annotations
 
 import json
 import os
-from datetime import datetime, timezone
+import re
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.parse import urlencode
@@ -12,48 +22,67 @@ from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 
-FMP_API_URL = "https://financialmodelingprep.com/stable"
-QVERIS_BASE_URL = os.environ.get("QVERIS_API_BASE_URL", "https://qveris.ai/api/v1")
-QVERIS_API_KEY = os.environ.get("QVERIS_API_KEY")
-QVERIS_SESSION_ID = "qveris-social-studio-world-cup-finance"
-QVERIS_STOCK_QUOTE_TOOL_ID = os.environ.get("QVERIS_STOCK_QUOTE_TOOL_ID", "")
-QVERIS_STOCK_QUOTE_PARAM = os.environ.get("QVERIS_STOCK_QUOTE_PARAM", "")
-QVERIS_MAX_EXPECTED_CREDITS = float(os.environ.get("QVERIS_MAX_EXPECTED_CREDITS", "10"))
 ROOT_DIR = Path(__file__).resolve().parent.parent
 CONFIG_FILE = ROOT_DIR / "data" / "world_cup_finance_config.json"
 OUTPUT_FILE = ROOT_DIR / "data" / "world_cup_finance.json"
 RUN_TIMEZONE = ZoneInfo("Asia/Shanghai")
+
+FOOTBALL_API_BASE_URL = os.environ.get(
+    "FOOTBALL_API_BASE_URL",
+    "https://api.football-data.org",
+).rstrip("/")
+FOOTBALL_API_KEY = os.environ.get("FOOTBALL_API_KEY") or os.environ.get("FOOTBALL_DATA_API_KEY")
+FOOTBALL_COMPETITION = os.environ.get("FOOTBALL_COMPETITION", "WC")
+FOOTBALL_MATCH_DATE = os.environ.get("FOOTBALL_MATCH_DATE")
+
+FMP_API_URL = "https://financialmodelingprep.com/stable"
+FMP_API_KEY = os.environ.get("FMP_API_KEY")
+
+QVERIS_BASE_URL = os.environ.get("QVERIS_API_BASE_URL", "https://qveris.ai/api/v1")
+QVERIS_API_KEY = os.environ.get("QVERIS_API_KEY")
+QVERIS_SESSION_ID = "qveris-social-studio-world-cup-etf"
+QVERIS_STOCK_QUOTE_TOOL_ID = os.environ.get("QVERIS_STOCK_QUOTE_TOOL_ID", "")
+QVERIS_STOCK_QUOTE_PARAM = os.environ.get("QVERIS_STOCK_QUOTE_PARAM", "")
+QVERIS_MAX_EXPECTED_CREDITS = float(os.environ.get("QVERIS_MAX_EXPECTED_CREDITS", "30"))
 QVERIS_TOOL_CACHE: dict[str, str] = {}
 
 
-def fmp_get(path: str, api_key: str, params: dict) -> list | dict:
-    query = {"apikey": api_key}
-    query.update(params)
-    url = f"{FMP_API_URL}/{path}?{urlencode(query)}"
+def as_float(value: object) -> float:
+    if value is None or value == "":
+        return 0.0
+    if isinstance(value, str):
+        value = value.replace("%", "").replace(",", "")
+    return float(value)
+
+
+def normalized_name(value: str) -> str:
+    value = value.lower().strip()
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def request_json(url: str, headers: dict[str, str] | None = None) -> dict | list:
+    request = Request(url, headers=headers or {})
     try:
-        with urlopen(url, timeout=30) as response:
+        with urlopen(request, timeout=45) as response:
             return json.loads(response.read().decode("utf-8"))
     except HTTPError as error:
         details = error.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"FMP API error {error.code} for {path}: {details}") from error
+        raise RuntimeError(f"HTTP {error.code} for {url}: {details}") from error
 
 
-def qveris_headers() -> dict[str, str]:
+def post_json(path: str, payload: dict, query: dict | None = None) -> dict:
     if not QVERIS_API_KEY:
         raise RuntimeError("QVERIS_API_KEY is not set")
-    return {
-        "Authorization": f"Bearer {QVERIS_API_KEY}",
-        "Content-Type": "application/json",
-    }
-
-
-def qveris_post(path: str, payload: dict, query: dict | None = None) -> dict:
     body = json.dumps(payload).encode("utf-8")
     suffix = f"?{urlencode(query)}" if query else ""
     request = Request(
         f"{QVERIS_BASE_URL}{path}{suffix}",
         data=body,
-        headers=qveris_headers(),
+        headers={
+            "Authorization": f"Bearer {QVERIS_API_KEY}",
+            "Content-Type": "application/json",
+        },
         method="POST",
     )
     try:
@@ -64,28 +93,76 @@ def qveris_post(path: str, payload: dict, query: dict | None = None) -> dict:
         raise RuntimeError(f"QVeris API error {error.code} for {path}: {details}") from error
 
 
-def as_float(value: object) -> float:
-    if value is None or value == "":
-        return 0.0
-    if isinstance(value, str):
-        value = value.replace("%", "")
-    return float(value)
+def run_date() -> datetime:
+    if FOOTBALL_MATCH_DATE:
+        return datetime.strptime(FOOTBALL_MATCH_DATE, "%Y-%m-%d").replace(tzinfo=RUN_TIMEZONE)
+    return datetime.now(RUN_TIMEZONE)
 
 
-def parse_quote(raw: dict, fallback_symbol: str) -> dict:
-    symbol = str(raw.get("symbol") or fallback_symbol).upper()
-    price = as_float(raw.get("price"))
-    change = as_float(raw.get("change"))
-    previous = price - change
-    change_pct = change / previous * 100 if previous else 0
-    return {
-        "symbol": symbol,
-        "price": price,
-        "change": change,
-        "change_pct": change_pct,
-        "market_cap": 0,
-        "volume": int(as_float(raw.get("volume"))),
-    }
+def football_headers() -> dict[str, str]:
+    if not FOOTBALL_API_KEY:
+        raise RuntimeError("FOOTBALL_API_KEY is not set")
+    return {"X-Auth-Token": FOOTBALL_API_KEY}
+
+
+def fetch_finished_matches(target: datetime) -> list[dict]:
+    # Matches in North America can end on a different UTC date than the China
+    # reporting date, so fetch a two-day window and filter by Asia/Shanghai date.
+    date_from = (target.date() - timedelta(days=1)).isoformat()
+    date_to = target.date().isoformat()
+    query = urlencode(
+        {
+            "dateFrom": date_from,
+            "dateTo": date_to,
+            "status": "FINISHED",
+        }
+    )
+    url = f"{FOOTBALL_API_BASE_URL}/v4/competitions/{FOOTBALL_COMPETITION}/matches?{query}"
+    data = request_json(url, football_headers())
+    matches = data.get("matches", []) if isinstance(data, dict) else []
+    selected = []
+    for match in matches:
+        utc_date = match.get("utcDate")
+        if not utc_date:
+            continue
+        finished_at = datetime.fromisoformat(utc_date.replace("Z", "+00:00")).astimezone(RUN_TIMEZONE)
+        if finished_at.date() == target.date():
+            selected.append(match)
+    return selected
+
+
+def team_name(match_team: dict) -> str:
+    return (
+        match_team.get("name")
+        or match_team.get("shortName")
+        or match_team.get("tla")
+        or "Unknown"
+    )
+
+
+def build_country_lookup(config: dict) -> dict[str, dict]:
+    lookup = {}
+    for country, mapping in config["country_etfs"].items():
+        names = [country, *(mapping.get("aliases") or [])]
+        for name in names:
+            lookup[normalized_name(name)] = {"country": country, **mapping}
+    return lookup
+
+
+def map_team_to_etf(team: dict, lookup: dict[str, dict]) -> dict | None:
+    candidates = [
+        team.get("name"),
+        team.get("shortName"),
+        team.get("tla"),
+        (team.get("area") or {}).get("name") if isinstance(team.get("area"), dict) else None,
+    ]
+    for candidate in candidates:
+        if not candidate:
+            continue
+        mapped = lookup.get(normalized_name(str(candidate)))
+        if mapped:
+            return mapped
+    return None
 
 
 def expected_credits(tool: dict) -> float:
@@ -103,15 +180,13 @@ def expected_credits(tool: dict) -> float:
                 return float(candidate)
             except (TypeError, ValueError):
                 pass
-
     text = str(tool.get("expected_cost") or "")
-    numbers = []
     for token in text.replace(",", " ").split():
         try:
-            numbers.append(float(token))
+            return float(token)
         except ValueError:
             pass
-    return numbers[0] if numbers else 0.0
+    return 0.0
 
 
 def choose_symbol_param(tool: dict) -> str | None:
@@ -122,17 +197,12 @@ def choose_symbol_param(tool: dict) -> str | None:
     for name in preferred:
         if name in lowered:
             return lowered[name]
-    return names[0] if len(names) == 1 else None
+    return None
 
 
-def discover_qveris_stock_quote_tool() -> tuple[str, str, str]:
+def discover_qveris_quote_tool() -> tuple[str, str, str]:
     if QVERIS_STOCK_QUOTE_TOOL_ID:
-        return (
-            QVERIS_STOCK_QUOTE_TOOL_ID,
-            QVERIS_STOCK_QUOTE_PARAM or "symbol",
-            "configured",
-        )
-
+        return QVERIS_STOCK_QUOTE_TOOL_ID, QVERIS_STOCK_QUOTE_PARAM or "symbol", "configured"
     if "tool_id" in QVERIS_TOOL_CACHE:
         return (
             QVERIS_TOOL_CACHE["tool_id"],
@@ -140,22 +210,17 @@ def discover_qveris_stock_quote_tool() -> tuple[str, str, str]:
             QVERIS_TOOL_CACHE.get("search_id", ""),
         )
 
-    query = (
-        "current stock quote by ticker symbol with latest price, daily change, "
-        "change percentage, and volume"
-    )
-    data = qveris_post(
+    data = post_json(
         "/search",
         {
-            "query": query,
+            "query": "ETF or stock quote by ticker symbol with latest price, daily change percentage, and volume",
             "limit": 8,
             "session_id": QVERIS_SESSION_ID,
         },
     )
-    results = data.get("results") or []
-    search_id = data.get("search_id") or ""
     candidates = []
-    for result in results:
+    search_id = data.get("search_id") or ""
+    for result in data.get("results") or []:
         param_name = choose_symbol_param(result)
         if not param_name:
             continue
@@ -163,10 +228,8 @@ def discover_qveris_stock_quote_tool() -> tuple[str, str, str]:
         if cost and cost > QVERIS_MAX_EXPECTED_CREDITS:
             continue
         candidates.append((cost, result, param_name))
-
     if not candidates:
-        raise RuntimeError("No low-cost QVeris stock quote capability found")
-
+        raise RuntimeError("No low-cost QVeris ETF quote capability found")
     candidates.sort(key=lambda item: item[0])
     _, selected, param_name = candidates[0]
     QVERIS_TOOL_CACHE.update(
@@ -176,48 +239,44 @@ def discover_qveris_stock_quote_tool() -> tuple[str, str, str]:
             "search_id": search_id,
         }
     )
-    print(
-        "QVeris stock quote tool: "
-        f"{selected.get('name')} ({selected['tool_id']}, param={param_name})"
-    )
+    print(f"QVeris quote tool: {selected.get('name')} ({selected['tool_id']})")
     return selected["tool_id"], param_name, search_id
 
 
-def walk_values(value: object) -> list[dict]:
+def walk_dicts(value: object) -> list[dict]:
     dicts = []
     if isinstance(value, dict):
         dicts.append(value)
         for child in value.values():
-            dicts.extend(walk_values(child))
+            dicts.extend(walk_dicts(child))
     elif isinstance(value, list):
         for child in value:
-            dicts.extend(walk_values(child))
+            dicts.extend(walk_dicts(child))
     return dicts
 
 
-def normalized_key(key: str) -> str:
-    return "".join(char for char in key.lower() if char.isalnum())
+def key_norm(value: str) -> str:
+    return "".join(char for char in value.lower() if char.isalnum())
 
 
 def find_numeric(payload: dict, names: list[str]) -> float:
-    targets = [normalized_key(name) for name in names]
-    for item in walk_values(payload):
-        normalized = {normalized_key(str(key)): value for key, value in item.items()}
+    targets = [key_norm(name) for name in names]
+    for item in walk_dicts(payload):
+        normalized = {key_norm(str(key)): val for key, val in item.items()}
         for target in targets:
             if target in normalized:
                 try:
                     return as_float(normalized[target])
                 except (TypeError, ValueError):
-                    continue
+                    pass
     return 0.0
 
 
 def fetch_qveris_quote(symbol: str) -> dict | None:
     if not QVERIS_API_KEY:
         return None
-
-    tool_id, param_name, search_id = discover_qveris_stock_quote_tool()
-    data = qveris_post(
+    tool_id, param_name, search_id = discover_qveris_quote_tool()
+    data = post_json(
         "/tools/execute",
         {
             "search_id": search_id,
@@ -229,143 +288,181 @@ def fetch_qveris_quote(symbol: str) -> dict | None:
     )
     if not data.get("success", False):
         raise RuntimeError(data.get("error_message") or f"QVeris execution failed for {symbol}")
-
     result = data.get("result") or {}
     price = find_numeric(result, ["price", "latestPrice", "regularMarketPrice", "05. price"])
     change = find_numeric(result, ["change", "regularMarketChange", "09. change"])
     change_pct = find_numeric(
         result,
-        [
-            "changePercent",
-            "changesPercentage",
-            "regularMarketChangePercent",
-            "10. change percent",
-            "change_percentage",
-        ],
+        ["changePercent", "changesPercentage", "regularMarketChangePercent", "10. change percent"],
     )
     volume = int(find_numeric(result, ["volume", "regularMarketVolume", "06. volume"]))
     if not price:
-        raise RuntimeError(f"QVeris result did not include a price for {symbol}")
+        raise RuntimeError(f"QVeris result did not include price for {symbol}")
     if not change_pct and price and change:
         previous = price - change
         change_pct = change / previous * 100 if previous else 0
-
     return {
         "symbol": symbol,
         "price": price,
         "change": change,
         "change_pct": change_pct,
-        "market_cap": find_numeric(result, ["marketCap", "market_cap"]),
         "volume": volume,
+        "source": "QVeris API",
     }
 
 
-def fetch_quote(symbol: str, api_key: str | None) -> dict | None:
+def fmp_get(path: str, params: dict) -> list | dict:
+    if not FMP_API_KEY:
+        raise RuntimeError("FMP_API_KEY is not set")
+    query = {"apikey": FMP_API_KEY}
+    query.update(params)
+    url = f"{FMP_API_URL}/{path}?{urlencode(query)}"
+    return request_json(url)
+
+
+def fetch_fmp_quote(symbol: str) -> dict | None:
+    data = fmp_get("quote-short", {"symbol": symbol})
+    if not isinstance(data, list) or not data:
+        return None
+    raw = data[0]
+    price = as_float(raw.get("price"))
+    change = as_float(raw.get("change"))
+    previous = price - change
+    return {
+        "symbol": str(raw.get("symbol") or symbol).upper(),
+        "price": price,
+        "change": change,
+        "change_pct": change / previous * 100 if previous else 0,
+        "volume": int(as_float(raw.get("volume"))),
+        "source": "FMP quote-short",
+    }
+
+
+def fetch_quote(symbol: str) -> dict | None:
     try:
-        qveris_quote = fetch_qveris_quote(symbol)
-        if qveris_quote:
-            qveris_quote["source"] = "QVeris API"
-            return qveris_quote
+        quote = fetch_qveris_quote(symbol)
+        if quote:
+            return quote
     except RuntimeError as error:
         print(f"Warning: QVeris quote unavailable for {symbol}: {error}")
-
-    if not api_key:
-        print(f"Warning: no FMP fallback key set for {symbol}")
-        return None
-
     try:
-        data = fmp_get("quote-short", api_key, {"symbol": symbol})
+        return fetch_fmp_quote(symbol)
     except RuntimeError as error:
-        print(f"Warning: quote unavailable for {symbol}: {error}")
+        print(f"Warning: FMP quote unavailable for {symbol}: {error}")
         return None
-    if not isinstance(data, list) or not data:
-        print(f"Warning: no quote returned for {symbol}")
-        return None
-    return parse_quote(data[0], symbol)
 
 
-def format_match(match: dict | None) -> str:
-    if not match:
-        return "Match result pending"
-    home = match.get("home_team") or "TBD"
-    away = match.get("away_team") or "TBD"
-    home_score = match.get("home_score")
-    away_score = match.get("away_score")
+def match_status(match: dict) -> str:
+    return str(match.get("status") or "").upper()
+
+
+def match_score(match: dict) -> tuple[int | None, int | None]:
+    full_time = ((match.get("score") or {}).get("fullTime") or {})
+    return full_time.get("home"), full_time.get("away")
+
+
+def match_label(match: dict) -> str:
+    home = team_name(match.get("homeTeam") or {})
+    away = team_name(match.get("awayTeam") or {})
+    home_score, away_score = match_score(match)
     if home_score is None or away_score is None:
-        return str(match.get("label") or "Match result pending")
+        return f"{home} vs {away}"
     return f"{home} {home_score}-{away_score} {away}"
 
 
-def top_theme(stocks: list[dict]) -> tuple[str, float]:
-    theme_moves: dict[str, list[float]] = {}
-    for stock in stocks:
-        theme_moves.setdefault(stock["theme"], []).append(stock["change_pct"])
-    averages = {
-        theme: sum(values) / len(values)
-        for theme, values in theme_moves.items()
-        if values
+def result_label(home_score: int | None, away_score: int | None) -> str:
+    if home_score is None or away_score is None:
+        return "Result pending"
+    if home_score > away_score:
+        return "home_win"
+    if away_score > home_score:
+        return "away_win"
+    return "draw"
+
+
+def build_match_record(match: dict, lookup: dict[str, dict]) -> dict | None:
+    if match_status(match) != "FINISHED":
+        return None
+    home_team = match.get("homeTeam") or {}
+    away_team = match.get("awayTeam") or {}
+    home_map = map_team_to_etf(home_team, lookup)
+    away_map = map_team_to_etf(away_team, lookup)
+    if not home_map or not away_map:
+        print(f"Skipping unmapped match: {team_name(home_team)} vs {team_name(away_team)}")
+        return None
+
+    home_quote = fetch_quote(home_map["ticker"])
+    away_quote = fetch_quote(away_map["ticker"])
+    if not home_quote or not away_quote:
+        print(f"Skipping match with missing ETF quote: {match_label(match)}")
+        return None
+
+    home_score, away_score = match_score(match)
+    utc_date = match.get("utcDate", "")
+    local_datetime = (
+        datetime.fromisoformat(utc_date.replace("Z", "+00:00")).astimezone(RUN_TIMEZONE).isoformat()
+        if utc_date
+        else ""
+    )
+    return {
+        "id": str(match.get("id") or f"{home_map['country']}-{away_map['country']}-{utc_date}"),
+        "utc_date": utc_date,
+        "local_datetime": local_datetime,
+        "label": match_label(match),
+        "result": result_label(home_score, away_score),
+        "home": {
+            "team": team_name(home_team),
+            "country": home_map["country"],
+            "score": home_score,
+            "etf": home_map["ticker"],
+            "etf_name": home_map.get("etf_name", home_map["ticker"]),
+            "quote": home_quote,
+        },
+        "away": {
+            "team": team_name(away_team),
+            "country": away_map["country"],
+            "score": away_score,
+            "etf": away_map["ticker"],
+            "etf_name": away_map.get("etf_name", away_map["ticker"]),
+            "quote": away_quote,
+        },
     }
-    if not averages:
-        return "Sponsor basket", 0.0
-    theme, value = max(averages.items(), key=lambda item: item[1])
-    return theme, value
 
 
 def main() -> dict:
-    api_key = os.environ.get("FMP_API_KEY")
-    if not api_key and not QVERIS_API_KEY:
+    if not FOOTBALL_API_KEY:
+        raise RuntimeError("FOOTBALL_API_KEY is not set")
+    if not QVERIS_API_KEY and not FMP_API_KEY:
         raise RuntimeError("Set QVERIS_API_KEY or FMP_API_KEY")
 
     config = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
-    now = datetime.now(timezone.utc)
-    run_now = datetime.now(RUN_TIMEZONE)
-    stocks = []
+    target = run_date()
+    raw_matches = fetch_finished_matches(target)
+    lookup = build_country_lookup(config)
+    match_records = []
+    for match in raw_matches:
+        record = build_match_record(match, lookup)
+        if record:
+            match_records.append(record)
 
-    for item in config["basket"]:
-        quote = fetch_quote(item["symbol"], api_key)
-        if not quote:
-            continue
-        stocks.append(
-            {
-                **quote,
-                "company": item["company"],
-                "theme": item["theme"],
-            }
-        )
-
-    if len(stocks) < 5:
-        raise RuntimeError(f"Only fetched {len(stocks)} World Cup finance stocks")
-
-    stocks.sort(key=lambda stock: stock["change_pct"], reverse=True)
-    leader = stocks[0]
-    theme, theme_change = top_theme(stocks)
-
-    sources = sorted({stock.get("source", "FMP quote-short") for stock in stocks})
     output = {
-        "updated_at": now.isoformat(),
-        "date": run_now.strftime("%Y-%m-%d"),
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "date": target.strftime("%Y-%m-%d"),
         "run_timezone": "Asia/Shanghai",
-        "source": ", ".join(sources),
+        "source": "football-data.org, QVeris API with FMP fallback",
         "event": config.get("event", "2026 FIFA World Cup"),
-        "latest_match": config.get("latest_match"),
-        "match_label": format_match(config.get("latest_match")),
-        "leader": leader,
-        "top_theme": {
-            "name": theme,
-            "avg_change_pct": theme_change,
-        },
-        "stocks": stocks,
+        "matches": match_records,
     }
-
-    OUTPUT_FILE.write_text(
-        json.dumps(output, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-
+    OUTPUT_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Saved {OUTPUT_FILE}")
-    print(f"Match: {output['match_label']}")
-    print(f"Leader: ${leader['symbol']} {leader['change_pct']:+.2f}%")
-    print(f"Top theme: {theme} {theme_change:+.2f}%")
+    print(f"Finished matches found: {len(raw_matches)}")
+    print(f"Mapped ETF cards: {len(match_records)}")
+    for record in match_records:
+        print(
+            f"  {record['label']} | "
+            f"${record['home']['etf']} {record['home']['quote']['change_pct']:+.2f}% / "
+            f"${record['away']['etf']} {record['away']['quote']['change_pct']:+.2f}%"
+        )
     return output
 
 
