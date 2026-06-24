@@ -501,7 +501,7 @@ def main() -> dict:
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "date": target.strftime("%Y-%m-%d"),
         "run_timezone": "Asia/Shanghai",
-        "source": "football-data.org, QVeris API with FMP fallback",
+        "source": "football-data.org, QVeris API with FMP/Yahoo fallback",
         "event": config.get("event", "2026 FIFA World Cup"),
         "matches": match_records,
     }
