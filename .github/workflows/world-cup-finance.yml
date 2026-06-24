@@ -27,7 +27,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install playwright
+          pip install playwright tweepy
           playwright install --with-deps chromium
 
       - name: Fetch World Cup finance signals
@@ -46,6 +46,17 @@ jobs:
         env:
           WEBSITE_URL: https://qveris.ai
         run: python scripts/generate_world_cup_finance_tweet.py
+
+      - name: Publish World Cup cards to X
+        env:
+          X_AUTO_POST: ${{ secrets.X_AUTO_POST }}
+          X_POST_CONTENT_TYPE: WORLD CUP FINANCE
+          X_POST_LIMIT: "10"
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: python scripts/post_pending_to_x.py
 
       - name: Commit archive
         run: |
