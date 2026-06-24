@@ -35,6 +35,7 @@ FOOTBALL_API_BASE_URL = os.environ.get(
 FOOTBALL_API_KEY = os.environ.get("FOOTBALL_API_KEY") or os.environ.get("FOOTBALL_DATA_API_KEY")
 FOOTBALL_COMPETITION = os.environ.get("FOOTBALL_COMPETITION", "WC")
 FOOTBALL_MATCH_DATE = os.environ.get("FOOTBALL_MATCH_DATE")
+FOOTBALL_MATCH_LOOKBACK_DAYS = int(os.environ.get("FOOTBALL_MATCH_LOOKBACK_DAYS", "1"))
 
 FMP_API_URL = "https://financialmodelingprep.com/stable"
 FMP_API_KEY = os.environ.get("FMP_API_KEY")
@@ -489,7 +490,8 @@ def main() -> dict:
 
     config = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
     target = run_date()
-    raw_matches = fetch_finished_matches(target)
+    match_target = target - timedelta(days=FOOTBALL_MATCH_LOOKBACK_DAYS)
+    raw_matches = fetch_finished_matches(match_target)
     lookup = build_country_lookup(config)
     match_records = []
     for match in raw_matches:
@@ -500,6 +502,8 @@ def main() -> dict:
     output = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "date": target.strftime("%Y-%m-%d"),
+        "market_check_date": target.strftime("%Y-%m-%d"),
+        "match_date": match_target.strftime("%Y-%m-%d"),
         "run_timezone": "Asia/Shanghai",
         "source": "football-data.org, QVeris API with FMP/Yahoo fallback",
         "event": config.get("event", "2026 FIFA World Cup"),
@@ -507,6 +511,8 @@ def main() -> dict:
     }
     OUTPUT_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Saved {OUTPUT_FILE}")
+    print(f"Market check date: {output['market_check_date']}")
+    print(f"Match date checked: {output['match_date']}")
     print(f"Finished matches found: {len(raw_matches)}")
     print(f"Mapped ETF cards: {len(match_records)}")
     for record in match_records:

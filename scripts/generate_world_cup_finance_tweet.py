@@ -44,7 +44,7 @@ def winner_line(match: dict) -> str:
     return f"{home['team']} drew {away['team']} {home['score']}-{away['score']}."
 
 
-def format_tweet(match: dict) -> str:
+def format_tweet(data: dict, match: dict) -> str:
     home = match["home"]
     away = match["away"]
     home_pct = pct(float(home["quote"].get("change_pct", 0)))
@@ -52,24 +52,24 @@ def format_tweet(match: dict) -> str:
     home_label = "proxy ETF" if home.get("is_proxy") else "ETF"
     away_label = "proxy ETF" if away.get("is_proxy") else "ETF"
     lines = [
-        winner_line(match),
+        f"⚽ World Cup result: {match['label']}",
         "",
-        "Market attention check:",
+        "📊 Next-session ETF check:",
         f"${home['etf']} {home['country']} {home_label}: {home_pct}",
         f"${away['etf']} {away['country']} {away_label}: {away_pct}",
         "",
-        "World Cup results don't move markets alone, but they create a clean sentiment signal to track.",
+        "Not a causal claim. Just tracking how football attention and country ETFs move together.",
         "",
-        f"Built with QVeris: {WEBSITE_URL}",
+        f"Built with QVeris ⚡ {WEBSITE_URL}",
     ]
     tweet = "\n".join(lines)
     if len(tweet) > 280:
         lines = [
-            winner_line(match),
+            f"⚽ {match['label']}",
             "",
-            f"${home['etf']} {home_pct} vs ${away['etf']} {away_pct}",
+            f"📊 Next-session ETF check: ${home['etf']} {home_pct} vs ${away['etf']} {away_pct}",
             "",
-            "A simple World Cup x ETF/proxy sentiment signal, built with QVeris.",
+            "Not causal. A clean sports-attention x ETF tracker, built with QVeris.",
             WEBSITE_URL,
         ]
         tweet = "\n".join(lines)
@@ -99,24 +99,28 @@ def archive_post(data: dict, match: dict, tweet_text: str) -> None:
     record = {
         "id": f"world-cup-etf-{slug}",
         "date": data["date"],
+        "matchDate": data.get("match_date", data["date"]),
+        "marketCheckDate": data.get("market_check_date", data["date"]),
         "runDate": data["date"],
         "createdAt": datetime.now(timezone.utc).isoformat(),
         "contentType": "WORLD CUP FINANCE",
-        "title": f"{home['team']} vs {away['team']} ETF Watch",
+        "title": f"{home['team']} vs {away['team']} Market Aftermath",
         "status": "ready",
         "tweet": tweet_text,
         "image": f"/posts/{public_image.name}",
         "dataSource": data.get("source", "QVeris API"),
         "dataUpdatedAt": data.get("updated_at", ""),
         "xPostId": None,
-        "primaryLabel": f"${home['etf']} daily move",
+        "primaryLabel": f"${home['etf']} next-session move",
         "primaryValue": pct(home_pct),
-        "secondaryLabel": f"${away['etf']} daily move",
+        "secondaryLabel": f"${away['etf']} next-session move",
         "secondaryValue": pct(away_pct),
         "topSymbol": home["etf"] if abs(home_pct) >= abs(away_pct) else away["etf"],
         "topChangePct": home_pct if abs(home_pct) >= abs(away_pct) else away_pct,
         "worldCupFinance": {
             "date": data["date"],
+            "matchDate": data.get("match_date", data["date"]),
+            "marketCheckDate": data.get("market_check_date", data["date"]),
             "event": data.get("event"),
             "match": match,
             "source": data.get("source"),
@@ -144,7 +148,7 @@ def main() -> None:
 
     tweets = []
     for match in matches:
-        tweet_text = format_tweet(match)
+        tweet_text = format_tweet(data, match)
         archive_post(data, match, tweet_text)
         tweets.append(f"==== {match['label']} ====\n{tweet_text}\nCharacters: {len(tweet_text)}")
 

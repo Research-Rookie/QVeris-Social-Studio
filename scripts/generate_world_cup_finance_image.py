@@ -53,12 +53,12 @@ def result_text(match: dict) -> str:
     away = match["away"]
     result = match.get("result")
     if result == "draw":
-        return "Draw: attention splits between both markets"
+        return "Next-session ETF check after a draw"
     if result == "home_win":
-        return f"{home['team']} win: watch {home['etf']} vs {away['etf']}"
+        return f"Next-session ETF check after {home['team']} win"
     if result == "away_win":
-        return f"{away['team']} win: watch {away['etf']} vs {home['etf']}"
-    return "Final result linked to ETF watchlist"
+        return f"Next-session ETF check after {away['team']} win"
+    return "Next-session ETF check after final result"
 
 
 def side_block(side: dict, other_pct: float) -> str:
@@ -92,6 +92,7 @@ def render_html(data: dict, match: dict) -> str:
     return (
         template.replace("{{DATE}}", html.escape(data["date"]))
         .replace("{{EVENT}}", html.escape(data.get("event", "World Cup")))
+        .replace("{{MATCH_DATE}}", html.escape(data.get("match_date", data["date"])))
         .replace("{{MATCH}}", html.escape(match["label"]))
         .replace("{{RESULT_TEXT}}", html.escape(result_text(match)))
         .replace("{{HOME_CARD}}", side_block(match["home"], away_pct))
