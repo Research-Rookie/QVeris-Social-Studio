@@ -66,12 +66,16 @@ def side_block(side: dict, other_pct: float) -> str:
     change_pct = float(quote.get("change_pct", 0))
     is_up = change_pct >= 0
     width = bar_width(change_pct, other_pct, change_pct)
+    proxy_badge = '<span class="proxy-badge">Proxy ETF</span>' if side.get("is_proxy") else ""
+    proxy_note = side.get("proxy_note") or ""
+    note = f'<div class="proxy-note">{html.escape(proxy_note)}</div>' if proxy_note else ""
     return f"""
       <section class="team-card">
-        <div class="team-name">{html.escape(side['team'])}</div>
+        <div class="team-name">{html.escape(side['team'])}{proxy_badge}</div>
         <div class="score">{html.escape(str(side.get('score', '-')))}</div>
         <div class="etf">${html.escape(side['etf'])}</div>
         <div class="etf-name">{html.escape(side.get('etf_name', side['etf']))}</div>
+        {note}
         <div class="price">{money(float(quote.get('price', 0)))}</div>
         <div class="move {'up' if is_up else 'down'}">{pct(change_pct)}</div>
         <div class="bar-wrap">

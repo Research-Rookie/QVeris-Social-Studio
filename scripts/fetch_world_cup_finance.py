@@ -14,9 +14,10 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
@@ -62,13 +63,24 @@ def normalized_name(value: str) -> str:
 
 
 def request_json(url: str, headers: dict[str, str] | None = None) -> dict | list:
-    request = Request(url, headers=headers or {})
-    try:
-        with urlopen(request, timeout=45) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except HTTPError as error:
-        details = error.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"HTTP {error.code} for {url}: {details}") from error
+    default_headers = {"User-Agent": "qveris-social-studio/1.0"}
+    default_headers.update(headers or {})
+    request = Request(url, headers=default_headers)
+    last_error: Exception | None = None
+    for attempt in range(3):
+        try:
+            with urlopen(request, timeout=45) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except HTTPError as error:
+            details = error.read().decode("utf-8", errors="replace")
+            raise RuntimeError(f"HTTP {error.code} for {url}: {details}") from error
+        except URLError as error:
+            last_error = error
+            if attempt < 2:
+                time.sleep(1 + attempt)
+                continue
+            break
+    raise RuntimeError(f"Request failed for {url}: {last_error}")
 
 
 def post_json(path: str, payload: dict, query: dict | None = None) -> dict:
@@ -338,6 +350,38 @@ def fetch_fmp_quote(symbol: str) -> dict | None:
     }
 
 
+def fetch_yahoo_quote(symbol: str) -> dict | None:
+    url = (
+        "https://query1.finance.yahoo.com/v8/finance/chart/"
+        f"{symbol}?range=5d&interval=1d"
+    )
+    data = request_json(url)
+    chart = data.get("chart", {}) if isinstance(data, dict) else {}
+    results = chart.get("result") or []
+    if not results:
+        return None
+    result = results[0]
+    meta = result.get("meta") or {}
+    quote_series = ((result.get("indicators") or {}).get("quote") or [{}])[0]
+    closes = [value for value in quote_series.get("close", []) if value is not None]
+    volumes = [value for value in quote_series.get("volume", []) if value is not None]
+
+    price = as_float(meta.get("regularMarketPrice") or (closes[-1] if closes else 0))
+    previous = as_float(meta.get("chartPreviousClose") or (closes[-2] if len(closes) >= 2 else 0))
+    if not price:
+        return None
+    change = price - previous if previous else 0
+    change_pct = change / previous * 100 if previous else 0
+    return {
+        "symbol": symbol.upper(),
+        "price": price,
+        "change": change,
+        "change_pct": change_pct,
+        "volume": int(as_float(meta.get("regularMarketVolume") or (volumes[-1] if volumes else 0))),
+        "source": "Yahoo Finance chart fallback",
+    }
+
+
 def fetch_quote(symbol: str) -> dict | None:
     try:
         quote = fetch_qveris_quote(symbol)
@@ -349,6 +393,10 @@ def fetch_quote(symbol: str) -> dict | None:
         return fetch_fmp_quote(symbol)
     except RuntimeError as error:
         print(f"Warning: FMP quote unavailable for {symbol}: {error}")
+    try:
+        return fetch_yahoo_quote(symbol)
+    except RuntimeError as error:
+        print(f"Warning: Yahoo quote unavailable for {symbol}: {error}")
         return None
 
 
@@ -416,6 +464,8 @@ def build_match_record(match: dict, lookup: dict[str, dict]) -> dict | None:
             "score": home_score,
             "etf": home_map["ticker"],
             "etf_name": home_map.get("etf_name", home_map["ticker"]),
+            "is_proxy": bool(home_map.get("is_proxy", False)),
+            "proxy_note": home_map.get("proxy_note", ""),
             "quote": home_quote,
         },
         "away": {
@@ -424,6 +474,8 @@ def build_match_record(match: dict, lookup: dict[str, dict]) -> dict | None:
             "score": away_score,
             "etf": away_map["ticker"],
             "etf_name": away_map.get("etf_name", away_map["ticker"]),
+            "is_proxy": bool(away_map.get("is_proxy", False)),
+            "proxy_note": away_map.get("proxy_note", ""),
             "quote": away_quote,
         },
     }

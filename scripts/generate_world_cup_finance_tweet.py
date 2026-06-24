@@ -49,12 +49,14 @@ def format_tweet(match: dict) -> str:
     away = match["away"]
     home_pct = pct(float(home["quote"].get("change_pct", 0)))
     away_pct = pct(float(away["quote"].get("change_pct", 0)))
+    home_label = "proxy ETF" if home.get("is_proxy") else "ETF"
+    away_label = "proxy ETF" if away.get("is_proxy") else "ETF"
     lines = [
         winner_line(match),
         "",
         "Market attention check:",
-        f"${home['etf']} {home['country']} ETF: {home_pct}",
-        f"${away['etf']} {away['country']} ETF: {away_pct}",
+        f"${home['etf']} {home['country']} {home_label}: {home_pct}",
+        f"${away['etf']} {away['country']} {away_label}: {away_pct}",
         "",
         "World Cup results don't move markets alone, but they create a clean sentiment signal to track.",
         "",
@@ -67,7 +69,7 @@ def format_tweet(match: dict) -> str:
             "",
             f"${home['etf']} {home_pct} vs ${away['etf']} {away_pct}",
             "",
-            "A simple World Cup x ETF sentiment signal, built with QVeris.",
+            "A simple World Cup x ETF/proxy sentiment signal, built with QVeris.",
             WEBSITE_URL,
         ]
         tweet = "\n".join(lines)

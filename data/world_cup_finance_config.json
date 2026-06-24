@@ -4,117 +4,256 @@
     "United States": {
       "ticker": "SPY",
       "etf_name": "SPDR S&P 500 ETF Trust",
-      "aliases": ["USA", "United States of America", "USMNT"]
+      "aliases": ["USA", "United States of America", "USMNT"],
+      "is_proxy": false
     },
     "Mexico": {
       "ticker": "EWW",
       "etf_name": "iShares MSCI Mexico ETF",
-      "aliases": ["Mexico National Team", "México"]
+      "aliases": ["Mexico National Team"],
+      "is_proxy": false
     },
     "Canada": {
       "ticker": "EWC",
       "etf_name": "iShares MSCI Canada ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Brazil": {
       "ticker": "EWZ",
       "etf_name": "iShares MSCI Brazil ETF",
-      "aliases": ["Brasil"]
+      "aliases": ["Brasil"],
+      "is_proxy": false
     },
     "Argentina": {
       "ticker": "ARGT",
       "etf_name": "Global X MSCI Argentina ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Germany": {
       "ticker": "EWG",
       "etf_name": "iShares MSCI Germany ETF",
-      "aliases": ["Deutschland"]
+      "aliases": ["Deutschland"],
+      "is_proxy": false
     },
     "France": {
       "ticker": "EWQ",
       "etf_name": "iShares MSCI France ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "England": {
       "ticker": "EWU",
       "etf_name": "iShares MSCI United Kingdom ETF",
-      "aliases": ["United Kingdom", "UK", "Great Britain"]
+      "aliases": ["United Kingdom", "UK", "Great Britain"],
+      "is_proxy": false
+    },
+    "Scotland": {
+      "ticker": "EWU",
+      "etf_name": "iShares MSCI United Kingdom ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "UK ETF used as Scotland market proxy"
+    },
+    "Wales": {
+      "ticker": "EWU",
+      "etf_name": "iShares MSCI United Kingdom ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "UK ETF used as Wales market proxy"
     },
     "Spain": {
       "ticker": "EWP",
       "etf_name": "iShares MSCI Spain ETF",
-      "aliases": ["España"]
+      "aliases": [],
+      "is_proxy": false
     },
     "Italy": {
       "ticker": "EWI",
       "etf_name": "iShares MSCI Italy ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Portugal": {
       "ticker": "PGAL",
       "etf_name": "Global X MSCI Portugal ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Netherlands": {
       "ticker": "EWN",
       "etf_name": "iShares MSCI Netherlands ETF",
-      "aliases": ["Holland"]
+      "aliases": ["Holland"],
+      "is_proxy": false
     },
     "Belgium": {
       "ticker": "EWK",
       "etf_name": "iShares MSCI Belgium ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Switzerland": {
       "ticker": "EWL",
       "etf_name": "iShares MSCI Switzerland ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Japan": {
       "ticker": "EWJ",
       "etf_name": "iShares MSCI Japan ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Korea Republic": {
       "ticker": "EWY",
       "etf_name": "iShares MSCI South Korea ETF",
-      "aliases": ["South Korea", "Korea", "Republic of Korea"]
+      "aliases": ["South Korea", "Korea", "Republic of Korea"],
+      "is_proxy": false
     },
     "Australia": {
       "ticker": "EWA",
       "etf_name": "iShares MSCI Australia ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Saudi Arabia": {
       "ticker": "KSA",
       "etf_name": "iShares MSCI Saudi Arabia ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Qatar": {
       "ticker": "QAT",
       "etf_name": "iShares MSCI Qatar ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Poland": {
       "ticker": "EPOL",
       "etf_name": "iShares MSCI Poland ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Turkey": {
       "ticker": "TUR",
       "etf_name": "iShares MSCI Turkey ETF",
-      "aliases": ["Türkiye"]
+      "aliases": ["Turkiye"],
+      "is_proxy": false
     },
     "South Africa": {
       "ticker": "EZA",
       "etf_name": "iShares MSCI South Africa ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
     },
     "Chile": {
       "ticker": "ECH",
       "etf_name": "iShares MSCI Chile ETF",
-      "aliases": []
+      "aliases": [],
+      "is_proxy": false
+    },
+    "Colombia": {
+      "ticker": "GXG",
+      "etf_name": "Global X MSCI Colombia ETF",
+      "aliases": [],
+      "is_proxy": false
+    },
+    "Peru": {
+      "ticker": "EPU",
+      "etf_name": "iShares MSCI Peru and Global Exposure ETF",
+      "aliases": [],
+      "is_proxy": false
+    },
+    "Croatia": {
+      "ticker": "VGK",
+      "etf_name": "Vanguard FTSE Europe ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Europe ETF used because no liquid single-country Croatia ETF is available"
+    },
+    "Czechia": {
+      "ticker": "VGK",
+      "etf_name": "Vanguard FTSE Europe ETF",
+      "aliases": ["Czech Republic"],
+      "is_proxy": true,
+      "proxy_note": "Europe ETF used because no liquid single-country Czechia ETF is available"
+    },
+    "Bosnia and Herzegovina": {
+      "ticker": "FM",
+      "etf_name": "iShares Frontier and Select EM ETF",
+      "aliases": ["Bosnia-Herzegovina", "Bosnia"],
+      "is_proxy": true,
+      "proxy_note": "Frontier/select emerging markets ETF used as market proxy"
+    },
+    "Uzbekistan": {
+      "ticker": "FM",
+      "etf_name": "iShares Frontier and Select EM ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Frontier/select emerging markets ETF used as market proxy"
+    },
+    "Ghana": {
+      "ticker": "AFK",
+      "etf_name": "VanEck Africa Index ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Africa ETF used because no liquid single-country Ghana ETF is available"
+    },
+    "Panama": {
+      "ticker": "ILF",
+      "etf_name": "iShares Latin America 40 ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Latin America ETF used because no liquid single-country Panama ETF is available"
+    },
+    "Morocco": {
+      "ticker": "AFK",
+      "etf_name": "VanEck Africa Index ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Africa ETF used as Morocco market proxy"
+    },
+    "Senegal": {
+      "ticker": "AFK",
+      "etf_name": "VanEck Africa Index ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Africa ETF used as Senegal market proxy"
+    },
+    "Egypt": {
+      "ticker": "EGPT",
+      "etf_name": "VanEck Egypt Index ETF",
+      "aliases": [],
+      "is_proxy": false
+    },
+    "Iran": {
+      "ticker": "EEM",
+      "etf_name": "iShares MSCI Emerging Markets ETF",
+      "aliases": ["IR Iran"],
+      "is_proxy": true,
+      "proxy_note": "Emerging markets ETF used because no US-listed Iran ETF is available"
+    },
+    "Ecuador": {
+      "ticker": "ILF",
+      "etf_name": "iShares Latin America 40 ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Latin America ETF used as Ecuador market proxy"
+    },
+    "Uruguay": {
+      "ticker": "ILF",
+      "etf_name": "iShares Latin America 40 ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Latin America ETF used as Uruguay market proxy"
+    },
+    "Paraguay": {
+      "ticker": "ILF",
+      "etf_name": "iShares Latin America 40 ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Latin America ETF used as Paraguay market proxy"
     }
   }
 }
