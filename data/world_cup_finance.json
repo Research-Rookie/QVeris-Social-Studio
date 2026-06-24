@@ -1,92 +1,175 @@
 {
-  "updated_at": "2026-06-23T11:29:56.581894+00:00",
-  "date": "2026-06-23",
+  "updated_at": "2026-06-24T07:49:15.229448+00:00",
+  "date": "2026-06-24",
+  "market_check_date": "2026-06-24",
+  "match_date": "2026-06-23",
   "run_timezone": "Asia/Shanghai",
-  "source": "FMP quote-short",
+  "source": "football-data.org, QVeris API with FMP/Yahoo fallback",
   "event": "2026 FIFA World Cup",
-  "latest_match": {
-    "label": "Match result pending",
-    "home_team": "TBD",
-    "away_team": "TBD",
-    "home_score": null,
-    "away_score": null,
-    "note": "Update this object when you want the card to include a specific match result."
-  },
-  "match_label": "Match result pending",
-  "leader": {
-    "symbol": "DAL",
-    "price": 85.92,
-    "change": 1.74,
-    "change_pct": 2.0669992872416247,
-    "market_cap": 0,
-    "volume": 5168748,
-    "company": "Delta Air Lines",
-    "theme": "Travel"
-  },
-  "top_theme": {
-    "name": "Travel",
-    "avg_change_pct": 0.9780369014980135
-  },
-  "stocks": [
+  "matches": [
     {
-      "symbol": "DAL",
-      "price": 85.92,
-      "change": 1.74,
-      "change_pct": 2.0669992872416247,
-      "market_cap": 0,
-      "volume": 5168748,
-      "company": "Delta Air Lines",
-      "theme": "Travel"
+      "id": "537399",
+      "utc_date": "2026-06-22T17:00:00Z",
+      "local_datetime": "2026-06-23T01:00:00+08:00",
+      "label": "Argentina 2-0 Austria",
+      "result": "home_win",
+      "home": {
+        "team": "Argentina",
+        "country": "Argentina",
+        "score": 2,
+        "etf": "ARGT",
+        "etf_name": "Global X MSCI Argentina ETF",
+        "is_proxy": false,
+        "proxy_note": "",
+        "quote": {
+          "symbol": "ARGT",
+          "price": 92.55,
+          "change": -5.579999999999998,
+          "change_pct": -5.686334454295321,
+          "volume": 278965,
+          "source": "Yahoo Finance chart fallback"
+        }
+      },
+      "away": {
+        "team": "Austria",
+        "country": "Austria",
+        "score": 0,
+        "etf": "EWO",
+        "etf_name": "iShares MSCI Austria ETF",
+        "is_proxy": false,
+        "proxy_note": "",
+        "quote": {
+          "symbol": "EWO",
+          "price": 42.51,
+          "change": -0.14000000000000057,
+          "change_pct": -0.32825322391559336,
+          "volume": 22714,
+          "source": "Yahoo Finance chart fallback"
+        }
+      }
     },
     {
-      "symbol": "AAL",
-      "price": 16.08,
-      "change": 0.09,
-      "change_pct": 0.5628517823639775,
-      "market_cap": 0,
-      "volume": 177367962,
-      "company": "American Airlines",
-      "theme": "Travel"
+      "id": "537393",
+      "utc_date": "2026-06-22T21:00:00Z",
+      "local_datetime": "2026-06-23T05:00:00+08:00",
+      "label": "France 3-0 Iraq",
+      "result": "home_win",
+      "home": {
+        "team": "France",
+        "country": "France",
+        "score": 3,
+        "etf": "EWQ",
+        "etf_name": "iShares MSCI France ETF",
+        "is_proxy": false,
+        "proxy_note": "",
+        "quote": {
+          "symbol": "EWQ",
+          "price": 44.75,
+          "change": -1.0,
+          "change_pct": -2.185792349726776,
+          "volume": 221861,
+          "source": "Yahoo Finance chart fallback"
+        }
+      },
+      "away": {
+        "team": "Iraq",
+        "country": "Iraq",
+        "score": 0,
+        "etf": "FM",
+        "etf_name": "iShares Frontier and Select EM ETF",
+        "is_proxy": true,
+        "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Iraq ETF is available",
+        "quote": {
+          "symbol": "FM",
+          "price": 27.19,
+          "change": 0.11000000000000298,
+          "change_pct": 0.40620384047268465,
+          "volume": 57504,
+          "source": "Yahoo Finance chart fallback"
+        }
+      }
     },
     {
-      "symbol": "UAL",
-      "price": 118.68,
-      "change": 0.36,
-      "change_pct": 0.3042596348884381,
-      "market_cap": 0,
-      "volume": 6603765,
-      "company": "United Airlines",
-      "theme": "Travel"
+      "id": "537394",
+      "utc_date": "2026-06-23T00:00:00Z",
+      "local_datetime": "2026-06-23T08:00:00+08:00",
+      "label": "Norway 3-2 Senegal",
+      "result": "home_win",
+      "home": {
+        "team": "Norway",
+        "country": "Norway",
+        "score": 3,
+        "etf": "ENOR",
+        "etf_name": "iShares MSCI Norway ETF",
+        "is_proxy": false,
+        "proxy_note": "",
+        "quote": {
+          "symbol": "ENOR",
+          "price": 32.35,
+          "change": -1.3399999999999963,
+          "change_pct": -3.9774413772632724,
+          "volume": 33448,
+          "source": "Yahoo Finance chart fallback"
+        }
+      },
+      "away": {
+        "team": "Senegal",
+        "country": "Senegal",
+        "score": 2,
+        "etf": "AFK",
+        "etf_name": "VanEck Africa Index ETF",
+        "is_proxy": true,
+        "proxy_note": "Africa ETF used as Senegal market proxy",
+        "quote": {
+          "symbol": "AFK",
+          "price": 26.15,
+          "change": -1.75,
+          "change_pct": -6.2724014336917575,
+          "volume": 27724,
+          "source": "Yahoo Finance chart fallback"
+        }
+      }
     },
     {
-      "symbol": "KO",
-      "price": 79.53,
-      "change": 0.14,
-      "change_pct": 0.17634462778687493,
-      "market_cap": 0,
-      "volume": 21187486,
-      "company": "Coca-Cola",
-      "theme": "Global sponsor"
-    },
-    {
-      "symbol": "V",
-      "price": 326.6,
-      "change": -0.64,
-      "change_pct": -0.19557511306686226,
-      "market_cap": 0,
-      "volume": 15017380,
-      "company": "Visa",
-      "theme": "Payments"
-    },
-    {
-      "symbol": "NKE",
-      "price": 43.19,
-      "change": -2.01,
-      "change_pct": -4.446902654867257,
-      "market_cap": 0,
-      "volume": 18849472,
-      "company": "Nike",
-      "theme": "Sportswear"
+      "id": "537400",
+      "utc_date": "2026-06-23T03:00:00Z",
+      "local_datetime": "2026-06-23T11:00:00+08:00",
+      "label": "Jordan 1-2 Algeria",
+      "result": "away_win",
+      "home": {
+        "team": "Jordan",
+        "country": "Jordan",
+        "score": 1,
+        "etf": "FM",
+        "etf_name": "iShares Frontier and Select EM ETF",
+        "is_proxy": true,
+        "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Jordan ETF is available",
+        "quote": {
+          "symbol": "FM",
+          "price": 27.19,
+          "change": 0.11000000000000298,
+          "change_pct": 0.40620384047268465,
+          "volume": 57504,
+          "source": "Yahoo Finance chart fallback"
+        }
+      },
+      "away": {
+        "team": "Algeria",
+        "country": "Algeria",
+        "score": 2,
+        "etf": "AFK",
+        "etf_name": "VanEck Africa Index ETF",
+        "is_proxy": true,
+        "proxy_note": "Africa ETF used because no liquid US-listed Algeria ETF is available",
+        "quote": {
+          "symbol": "AFK",
+          "price": 26.15,
+          "change": -1.75,
+          "change_pct": -6.2724014336917575,
+          "volume": 27724,
+          "source": "Yahoo Finance chart fallback"
+        }
+      }
     }
   ]
 }

@@ -1,5 +1,357 @@
 [
   {
+    "id": "world-cup-etf-2026-06-24-537400-jordan-algeria",
+    "date": "2026-06-24",
+    "matchDate": "2026-06-23",
+    "marketCheckDate": "2026-06-24",
+    "runDate": "2026-06-24",
+    "createdAt": "2026-06-24T07:49:20.954029+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Jordan vs Algeria Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Jordan 1-2 Algeria\n\n📊 Next-session ETF check:\n$FM Jordan proxy ETF: +0.41%\n$AFK Algeria proxy ETF: -6.27%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-24-537400-jordan-algeria.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-24T07:49:15.229448+00:00",
+    "xPostId": null,
+    "primaryLabel": "$FM next-session move",
+    "primaryValue": "+0.41%",
+    "secondaryLabel": "$AFK next-session move",
+    "secondaryValue": "-6.27%",
+    "topSymbol": "AFK",
+    "topChangePct": -6.2724014336917575,
+    "worldCupFinance": {
+      "date": "2026-06-24",
+      "matchDate": "2026-06-23",
+      "marketCheckDate": "2026-06-24",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537400",
+        "utc_date": "2026-06-23T03:00:00Z",
+        "local_datetime": "2026-06-23T11:00:00+08:00",
+        "label": "Jordan 1-2 Algeria",
+        "result": "away_win",
+        "home": {
+          "team": "Jordan",
+          "country": "Jordan",
+          "score": 1,
+          "etf": "FM",
+          "etf_name": "iShares Frontier and Select EM ETF",
+          "is_proxy": true,
+          "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Jordan ETF is available",
+          "quote": {
+            "symbol": "FM",
+            "price": 27.19,
+            "change": 0.11000000000000298,
+            "change_pct": 0.40620384047268465,
+            "volume": 57504,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Algeria",
+          "country": "Algeria",
+          "score": 2,
+          "etf": "AFK",
+          "etf_name": "VanEck Africa Index ETF",
+          "is_proxy": true,
+          "proxy_note": "Africa ETF used because no liquid US-listed Algeria ETF is available",
+          "quote": {
+            "symbol": "AFK",
+            "price": 26.15,
+            "change": -1.75,
+            "change_pct": -6.2724014336917575,
+            "volume": 27724,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-24-537394-norway-senegal",
+    "date": "2026-06-24",
+    "matchDate": "2026-06-23",
+    "marketCheckDate": "2026-06-24",
+    "runDate": "2026-06-24",
+    "createdAt": "2026-06-24T07:49:20.951950+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Norway vs Senegal Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Norway 3-2 Senegal\n\n📊 Next-session ETF check:\n$ENOR Norway ETF: -3.98%\n$AFK Senegal proxy ETF: -6.27%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-24-537394-norway-senegal.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-24T07:49:15.229448+00:00",
+    "xPostId": null,
+    "primaryLabel": "$ENOR next-session move",
+    "primaryValue": "-3.98%",
+    "secondaryLabel": "$AFK next-session move",
+    "secondaryValue": "-6.27%",
+    "topSymbol": "AFK",
+    "topChangePct": -6.2724014336917575,
+    "worldCupFinance": {
+      "date": "2026-06-24",
+      "matchDate": "2026-06-23",
+      "marketCheckDate": "2026-06-24",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537394",
+        "utc_date": "2026-06-23T00:00:00Z",
+        "local_datetime": "2026-06-23T08:00:00+08:00",
+        "label": "Norway 3-2 Senegal",
+        "result": "home_win",
+        "home": {
+          "team": "Norway",
+          "country": "Norway",
+          "score": 3,
+          "etf": "ENOR",
+          "etf_name": "iShares MSCI Norway ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "ENOR",
+            "price": 32.35,
+            "change": -1.3399999999999963,
+            "change_pct": -3.9774413772632724,
+            "volume": 33448,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Senegal",
+          "country": "Senegal",
+          "score": 2,
+          "etf": "AFK",
+          "etf_name": "VanEck Africa Index ETF",
+          "is_proxy": true,
+          "proxy_note": "Africa ETF used as Senegal market proxy",
+          "quote": {
+            "symbol": "AFK",
+            "price": 26.15,
+            "change": -1.75,
+            "change_pct": -6.2724014336917575,
+            "volume": 27724,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-24-537393-france-iraq",
+    "date": "2026-06-24",
+    "matchDate": "2026-06-23",
+    "marketCheckDate": "2026-06-24",
+    "runDate": "2026-06-24",
+    "createdAt": "2026-06-24T07:49:20.949964+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "France vs Iraq Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: France 3-0 Iraq\n\n📊 Next-session ETF check:\n$EWQ France ETF: -2.19%\n$FM Iraq proxy ETF: +0.41%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-24-537393-france-iraq.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-24T07:49:15.229448+00:00",
+    "xPostId": null,
+    "primaryLabel": "$EWQ next-session move",
+    "primaryValue": "-2.19%",
+    "secondaryLabel": "$FM next-session move",
+    "secondaryValue": "+0.41%",
+    "topSymbol": "EWQ",
+    "topChangePct": -2.185792349726776,
+    "worldCupFinance": {
+      "date": "2026-06-24",
+      "matchDate": "2026-06-23",
+      "marketCheckDate": "2026-06-24",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537393",
+        "utc_date": "2026-06-22T21:00:00Z",
+        "local_datetime": "2026-06-23T05:00:00+08:00",
+        "label": "France 3-0 Iraq",
+        "result": "home_win",
+        "home": {
+          "team": "France",
+          "country": "France",
+          "score": 3,
+          "etf": "EWQ",
+          "etf_name": "iShares MSCI France ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EWQ",
+            "price": 44.75,
+            "change": -1.0,
+            "change_pct": -2.185792349726776,
+            "volume": 221861,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Iraq",
+          "country": "Iraq",
+          "score": 0,
+          "etf": "FM",
+          "etf_name": "iShares Frontier and Select EM ETF",
+          "is_proxy": true,
+          "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Iraq ETF is available",
+          "quote": {
+            "symbol": "FM",
+            "price": 27.19,
+            "change": 0.11000000000000298,
+            "change_pct": 0.40620384047268465,
+            "volume": 57504,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-24-537399-argentina-austria",
+    "date": "2026-06-24",
+    "matchDate": "2026-06-23",
+    "marketCheckDate": "2026-06-24",
+    "runDate": "2026-06-24",
+    "createdAt": "2026-06-24T07:49:20.947881+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Argentina vs Austria Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Argentina 2-0 Austria\n\n📊 Next-session ETF check:\n$ARGT Argentina ETF: -5.69%\n$EWO Austria ETF: -0.33%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-24-537399-argentina-austria.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-24T07:49:15.229448+00:00",
+    "xPostId": null,
+    "primaryLabel": "$ARGT next-session move",
+    "primaryValue": "-5.69%",
+    "secondaryLabel": "$EWO next-session move",
+    "secondaryValue": "-0.33%",
+    "topSymbol": "ARGT",
+    "topChangePct": -5.686334454295321,
+    "worldCupFinance": {
+      "date": "2026-06-24",
+      "matchDate": "2026-06-23",
+      "marketCheckDate": "2026-06-24",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537399",
+        "utc_date": "2026-06-22T17:00:00Z",
+        "local_datetime": "2026-06-23T01:00:00+08:00",
+        "label": "Argentina 2-0 Austria",
+        "result": "home_win",
+        "home": {
+          "team": "Argentina",
+          "country": "Argentina",
+          "score": 2,
+          "etf": "ARGT",
+          "etf_name": "Global X MSCI Argentina ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "ARGT",
+            "price": 92.55,
+            "change": -5.579999999999998,
+            "change_pct": -5.686334454295321,
+            "volume": 278965,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Austria",
+          "country": "Austria",
+          "score": 0,
+          "etf": "EWO",
+          "etf_name": "iShares MSCI Austria ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EWO",
+            "price": 42.51,
+            "change": -0.14000000000000057,
+            "change_pct": -0.32825322391559336,
+            "volume": 22714,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "fcf-yield-pypl-adbe-2026-06-24",
+    "date": "2026-06-24",
+    "runDate": "2026-06-24",
+    "createdAt": "2026-06-24T06:18:17.866091+00:00",
+    "contentType": "FCF YIELD",
+    "title": "PYPL vs ADBE FCF Yield",
+    "status": "ready",
+    "tweet": "Which would you rather own at current prices, $PYPL or $ADBE?\n\nPYPL FCF Yield: 15.0%\nADBE FCF Yield: 13.5%\n\n$PYPL $ADBE\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
+    "image": "/posts/fcf_yield_PYPL_ADBE_2026-06-24.png",
+    "dataSource": "Financial Modeling Prep",
+    "dataUpdatedAt": "2026-06-24T06:18:14.434603+00:00",
+    "xPostId": null,
+    "primaryLabel": "$PYPL FCF Yield",
+    "primaryValue": "15.0%",
+    "secondaryLabel": "$ADBE FCF Yield",
+    "secondaryValue": "13.5%",
+    "topSymbol": "PYPL",
+    "topChangePct": 14.982139260032273,
+    "comparison": {
+      "updated_at": "2026-06-24T06:18:14.434603+00:00",
+      "date": "2026-06-24",
+      "run_timezone": "Asia/Shanghai",
+      "source": "Financial Modeling Prep",
+      "symbols": [
+        "PYPL",
+        "ADBE"
+      ],
+      "companies": [
+        {
+          "symbol": "PYPL",
+          "name": "PayPal Holdings, Inc.",
+          "market_cap": 36783799058.0,
+          "price": 41.7,
+          "latest_ttm_fcf": 5511000000.0,
+          "latest_fcf_yield": 14.982139260032273,
+          "history": [
+            {
+              "date": "2026-03-31",
+              "ttm_fcf": 5511000000.0,
+              "fcf_yield": 14.982139260032273
+            },
+            {
+              "date": "2025-12-31",
+              "ttm_fcf": 5564000000.0,
+              "fcf_yield": 15.126224431649351
+            }
+          ]
+        },
+        {
+          "symbol": "ADBE",
+          "name": "Adobe Inc.",
+          "market_cap": 78478426579.0,
+          "price": 197.43,
+          "latest_ttm_fcf": 10627000000.0,
+          "latest_fcf_yield": 13.54130104698566,
+          "history": [
+            {
+              "date": "2026-05-29",
+              "ttm_fcf": 10627000000.0,
+              "fcf_yield": 13.54130104698566
+            },
+            {
+              "date": "2026-02-27",
+              "ttm_fcf": 10317000000.0,
+              "fcf_yield": 13.146288030653153
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "world-cup-etf-2026-06-24-537406-colombia-congo-dr",
     "date": "2026-06-24",
     "runDate": "2026-06-24",
@@ -318,78 +670,6 @@
     "topChangePct": 202.4102,
     "typefullyDraftId": 9629951,
     "typefullyDraftUrl": "https://typefully.com/?d=9629951"
-  },
-  {
-    "id": "fcf-yield-pypl-adbe-2026-06-24",
-    "date": "2026-06-24",
-    "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T06:18:17.866091+00:00",
-    "contentType": "FCF YIELD",
-    "title": "PYPL vs ADBE FCF Yield",
-    "status": "ready",
-    "tweet": "Which would you rather own at current prices, $PYPL or $ADBE?\n\nPYPL FCF Yield: 15.0%\nADBE FCF Yield: 13.5%\n\n$PYPL $ADBE\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
-    "image": "/posts/fcf_yield_PYPL_ADBE_2026-06-24.png",
-    "dataSource": "Financial Modeling Prep",
-    "dataUpdatedAt": "2026-06-24T06:18:14.434603+00:00",
-    "xPostId": null,
-    "primaryLabel": "$PYPL FCF Yield",
-    "primaryValue": "15.0%",
-    "secondaryLabel": "$ADBE FCF Yield",
-    "secondaryValue": "13.5%",
-    "topSymbol": "PYPL",
-    "topChangePct": 14.982139260032273,
-    "comparison": {
-      "updated_at": "2026-06-24T06:18:14.434603+00:00",
-      "date": "2026-06-24",
-      "run_timezone": "Asia/Shanghai",
-      "source": "Financial Modeling Prep",
-      "symbols": [
-        "PYPL",
-        "ADBE"
-      ],
-      "companies": [
-        {
-          "symbol": "PYPL",
-          "name": "PayPal Holdings, Inc.",
-          "market_cap": 36783799058.0,
-          "price": 41.7,
-          "latest_ttm_fcf": 5511000000.0,
-          "latest_fcf_yield": 14.982139260032273,
-          "history": [
-            {
-              "date": "2026-03-31",
-              "ttm_fcf": 5511000000.0,
-              "fcf_yield": 14.982139260032273
-            },
-            {
-              "date": "2025-12-31",
-              "ttm_fcf": 5564000000.0,
-              "fcf_yield": 15.126224431649351
-            }
-          ]
-        },
-        {
-          "symbol": "ADBE",
-          "name": "Adobe Inc.",
-          "market_cap": 78478426579.0,
-          "price": 197.43,
-          "latest_ttm_fcf": 10627000000.0,
-          "latest_fcf_yield": 13.54130104698566,
-          "history": [
-            {
-              "date": "2026-05-29",
-              "ttm_fcf": 10627000000.0,
-              "fcf_yield": 13.54130104698566
-            },
-            {
-              "date": "2026-02-27",
-              "ttm_fcf": 10317000000.0,
-              "fcf_yield": 13.146288030653153
-            }
-          ]
-        }
-      ]
-    }
   },
   {
     "id": "world-cup-finance-2026-06-23",
