@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import postsData from "../../data/posts.json";
 
 type PostStatus = "draft" | "ready" | "published";
@@ -88,6 +88,16 @@ export default function Home() {
   const latestDate = posts[0]?.date;
   const selectedPost = posts.find((post) => post.id === selectedPostId) ?? null;
 
+  useEffect(() => {
+    const stored = window.localStorage.getItem("qveris_published_x_ids");
+    if (!stored) return;
+    try {
+      setPublishedIds(JSON.parse(stored) as Record<string, string>);
+    } catch {
+      window.localStorage.removeItem("qveris_published_x_ids");
+    }
+  }, []);
+
   async function copyTweet(post: Post) {
     await navigator.clipboard.writeText(drafts[post.id] ?? post.tweet);
     setCopiedId(post.id);
@@ -123,7 +133,11 @@ export default function Home() {
         }
         throw new Error(result.error || "Failed to publish to X");
       }
-      setPublishedIds((current) => ({ ...current, [post.id]: result.xPostId }));
+      setPublishedIds((current) => {
+        const next = { ...current, [post.id]: result.xPostId };
+        window.localStorage.setItem("qveris_published_x_ids", JSON.stringify(next));
+        return next;
+      });
       setPublishMessage((current) => ({
         ...current,
         [post.id]: `Published to X: ${result.xPostId}`,
