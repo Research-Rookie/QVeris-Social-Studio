@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import postsData from "../../data/posts.json";
 
 type PostStatus = "draft" | "ready" | "published";
@@ -67,11 +67,9 @@ export default function Home() {
   const [activeCategory, setActiveCategory] = useState("market-pulse");
   const [statusFilter, setStatusFilter] = useState<"all" | PostStatus>("all");
   const [copiedId, setCopiedId] = useState<string | null>(null);
+  const [copiedPostId, setCopiedPostId] = useState<string | null>(null);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [selectedPostId, setSelectedPostId] = useState<string | null>(null);
-  const [publishingId, setPublishingId] = useState<string | null>(null);
-  const [publishMessage, setPublishMessage] = useState<Record<string, string>>({});
-  const [publishedIds, setPublishedIds] = useState<Record<string, string>>({});
   const [drafts, setDrafts] = useState<Record<string, string>>(
     Object.fromEntries(posts.map((post) => [post.id, post.tweet])),
   );
@@ -88,68 +86,16 @@ export default function Home() {
   const latestDate = posts[0]?.date;
   const selectedPost = posts.find((post) => post.id === selectedPostId) ?? null;
 
-  useEffect(() => {
-    const stored = window.localStorage.getItem("qveris_published_x_ids");
-    if (!stored) return;
-    try {
-      setPublishedIds(JSON.parse(stored) as Record<string, string>);
-    } catch {
-      window.localStorage.removeItem("qveris_published_x_ids");
-    }
-  }, []);
-
   async function copyTweet(post: Post) {
     await navigator.clipboard.writeText(drafts[post.id] ?? post.tweet);
     setCopiedId(post.id);
     window.setTimeout(() => setCopiedId(null), 1500);
   }
 
-  async function publishToX(post: Post) {
-    const tweet = drafts[post.id] ?? post.tweet;
-    const existingToken = window.localStorage.getItem("qveris_x_publish_token");
-    const publishToken =
-      existingToken ||
-      window.prompt("Enter the X publish token for this site. It will stay in this browser.");
-
-    if (!publishToken) return;
-    window.localStorage.setItem("qveris_x_publish_token", publishToken);
-    setPublishingId(post.id);
-    setPublishMessage((current) => ({ ...current, [post.id]: "Publishing..." }));
-
-    try {
-      const response = await fetch("/api/publish-x", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          postId: post.id,
-          tweet,
-          publishToken,
-        }),
-      });
-      const result = await response.json();
-      if (!response.ok) {
-        if (response.status === 401) {
-          window.localStorage.removeItem("qveris_x_publish_token");
-        }
-        throw new Error(result.error || "Failed to publish to X");
-      }
-      setPublishedIds((current) => {
-        const next = { ...current, [post.id]: result.xPostId };
-        window.localStorage.setItem("qveris_published_x_ids", JSON.stringify(next));
-        return next;
-      });
-      setPublishMessage((current) => ({
-        ...current,
-        [post.id]: `Published to X: ${result.xPostId}`,
-      }));
-    } catch (error) {
-      setPublishMessage((current) => ({
-        ...current,
-        [post.id]: error instanceof Error ? error.message : "Failed to publish to X",
-      }));
-    } finally {
-      setPublishingId(null);
-    }
+  async function copyPostId(post: Post) {
+    await navigator.clipboard.writeText(post.id);
+    setCopiedPostId(post.id);
+    window.setTimeout(() => setCopiedPostId(null), 1500);
   }
 
   return (
@@ -304,22 +250,17 @@ export default function Home() {
                     <button
                       type="button"
                       className="publishButton"
-                      disabled={Boolean(post.xPostId || publishedIds[post.id] || publishingId)}
-                      onClick={() => publishToX(post)}
+                      onClick={() => copyPostId(post)}
                     >
-                      {publishingId === post.id
-                        ? "Posting..."
-                        : post.xPostId || publishedIds[post.id]
-                          ? "Posted"
-                          : "Post to X"}
+                      {copiedPostId === post.id ? "ID copied" : "Copy ID"}
                     </button>
                     <a href={post.image} download>
                       Download
                     </a>
                   </div>
-                  {publishMessage[post.id] ? (
-                    <p className="publishMessage">{publishMessage[post.id]}</p>
-                  ) : null}
+                  <p className="publishMessage">
+                    Use this ID in the GitHub Action: <b>{post.id}</b>
+                  </p>
                 </div>
               </article>
             );
@@ -425,18 +366,9 @@ export default function Home() {
                   <button
                     type="button"
                     className="publishButton"
-                    disabled={Boolean(
-                      selectedPost.xPostId ||
-                        publishedIds[selectedPost.id] ||
-                        publishingId,
-                    )}
-                    onClick={() => publishToX(selectedPost)}
+                    onClick={() => copyPostId(selectedPost)}
                   >
-                    {publishingId === selectedPost.id
-                      ? "Posting..."
-                      : selectedPost.xPostId || publishedIds[selectedPost.id]
-                        ? "Posted"
-                        : "Post to X"}
+                    {copiedPostId === selectedPost.id ? "ID copied" : "Copy publish ID"}
                   </button>
                   <a href={selectedPost.image} download>
                     Download image
@@ -452,9 +384,9 @@ export default function Home() {
                     {editingId === selectedPost.id ? "Done" : "Edit locally"}
                   </button>
                 </div>
-                {publishMessage[selectedPost.id] ? (
-                  <p className="publishMessage">{publishMessage[selectedPost.id]}</p>
-                ) : null}
+                <p className="publishMessage">
+                  GitHub Action post_id: <b>{selectedPost.id}</b>
+                </p>
               </div>
             </div>
           </article>

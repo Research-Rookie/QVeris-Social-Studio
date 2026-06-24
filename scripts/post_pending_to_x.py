@@ -53,6 +53,15 @@ def load_posts() -> list[dict]:
 
 
 def find_pending(posts: list[dict]) -> list[dict]:
+    post_id = os.environ.get("X_POST_ID", "").strip()
+    if post_id:
+        selected = [post for post in posts if post.get("id") == post_id]
+        if not selected:
+            raise RuntimeError(f"Post id not found: {post_id}")
+        if selected[0].get("xPostId"):
+            raise RuntimeError(f"Post already has xPostId: {post_id}")
+        return selected
+
     content_type = os.environ.get("X_POST_CONTENT_TYPE", "").strip()
     date = run_date()
     limit = int(os.environ.get("X_POST_LIMIT", "10"))
