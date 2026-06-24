@@ -37,6 +37,12 @@
       "aliases": ["Deutschland"],
       "is_proxy": false
     },
+    "Austria": {
+      "ticker": "EWO",
+      "etf_name": "iShares MSCI Austria ETF",
+      "aliases": [],
+      "is_proxy": false
+    },
     "France": {
       "ticker": "EWQ",
       "etf_name": "iShares MSCI France ETF",
@@ -90,6 +96,12 @@
     "Belgium": {
       "ticker": "EWK",
       "etf_name": "iShares MSCI Belgium ETF",
+      "aliases": [],
+      "is_proxy": false
+    },
+    "Norway": {
+      "ticker": "ENOR",
+      "etf_name": "iShares MSCI Norway ETF",
       "aliases": [],
       "is_proxy": false
     },
@@ -240,6 +252,27 @@
       "aliases": ["IR Iran"],
       "is_proxy": true,
       "proxy_note": "Emerging markets ETF used because no US-listed Iran ETF is available"
+    },
+    "Iraq": {
+      "ticker": "FM",
+      "etf_name": "iShares Frontier and Select EM ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Iraq ETF is available"
+    },
+    "Jordan": {
+      "ticker": "FM",
+      "etf_name": "iShares Frontier and Select EM ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Jordan ETF is available"
+    },
+    "Algeria": {
+      "ticker": "AFK",
+      "etf_name": "VanEck Africa Index ETF",
+      "aliases": [],
+      "is_proxy": true,
+      "proxy_note": "Africa ETF used because no liquid US-listed Algeria ETF is available"
     },
     "Ecuador": {
       "ticker": "ILF",
