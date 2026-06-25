@@ -1,51 +1,52 @@
 {
-  "updated_at": "2026-06-25T01:01:51.958819+00:00",
+  "updated_at": "2026-06-25T04:39:52.144512+00:00",
   "date": "2026-06-25",
   "run_timezone": "Asia/Shanghai",
-  "market_date": "2026-06-23",
-  "last_updated_label": "2026-06-23 16:15:59 US/Eastern",
+  "market_date": "2026-06-24",
+  "last_updated_label": "2026-06-24 16:15:56 US/Eastern",
   "filters": {
-    "label": "fallback_price",
-    "min_price": 1.0,
-    "min_volume": 500000,
-    "exclude_special_tickers": true,
-    "matched_count": 7
+    "label": "raw_fill",
+    "min_price": 0,
+    "min_volume": 0,
+    "exclude_special_tickers": false,
+    "matched_count": 20,
+    "warning": "Strict filters produced fewer than 5 stocks; raw gainers were used to keep the daily archive running."
   },
   "top5": [
     {
-      "symbol": "ATLN",
-      "price": 1.33,
-      "change_amount": 0.8902,
-      "change_pct": 202.4102,
-      "volume": 411296550
+      "symbol": "PLSM",
+      "price": 6.59,
+      "change_amount": 3.19,
+      "change_pct": 93.8235,
+      "volume": 57807292
     },
     {
-      "symbol": "FCUV",
-      "price": 4.11,
-      "change_amount": 1.938,
-      "change_pct": 89.2265,
-      "volume": 76568652
+      "symbol": "SKYQ",
+      "price": 2.625,
+      "change_amount": 0.985,
+      "change_pct": 60.061,
+      "volume": 62767036
     },
     {
-      "symbol": "BOLD",
-      "price": 2.6,
-      "change_amount": 1.2,
-      "change_pct": 85.7143,
-      "volume": 64931653
+      "symbol": "ICCM",
+      "price": 9.3,
+      "change_amount": 3.18,
+      "change_pct": 51.9608,
+      "volume": 13352002
     },
     {
-      "symbol": "HSCS",
-      "price": 2.75,
-      "change_amount": 0.98,
-      "change_pct": 55.3672,
-      "volume": 134241730
+      "symbol": "STFS",
+      "price": 12.84,
+      "change_amount": 4.52,
+      "change_pct": 54.3269,
+      "volume": 251588
     },
     {
-      "symbol": "GITS",
-      "price": 2.18,
-      "change_amount": 0.67,
-      "change_pct": 44.3709,
-      "volume": 37754007
+      "symbol": "NIXXW",
+      "price": 0.0295,
+      "change_amount": 0.0207,
+      "change_pct": 235.2273,
+      "volume": 146432
     }
   ]
 }
