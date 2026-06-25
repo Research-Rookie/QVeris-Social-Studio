@@ -103,88 +103,108 @@ export default function Home() {
       <header className="topbar">
         <a className="brand" href="#">
           <img className="brandMark" src="/logo-color.avif" alt="QVeris" />
-          <span>QVeris</span>
+          <span className="brandCopy">
+            <strong>QVeris Social Studio</strong>
+            <em>market cards / tweet drafts / publishing queue</em>
+          </span>
         </a>
+        <nav className="nav" aria-label="Main navigation">
+          <a className="active" href="#archive">Archive</a>
+          <a href="#categories">Signals</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#sources">Sources</a>
+        </nav>
         <div className="topbarRight">
           <span className="environment">
             <span className="liveDot" />
-            Daily content archive
+            Daily archive
           </span>
           <span className="avatar">QV</span>
         </div>
       </header>
 
-      <section className="hero">
-        <div>
-          <p className="eyebrow">SOCIAL CONTENT OPERATIONS</p>
-          <h1>QVeris Social Studio</h1>
-          <p className="heroCopy">
-            Daily market visuals and X drafts, archived automatically without
-            overwriting previous posts.
-          </p>
-        </div>
-        <div className="automationBadge">
-          <span className="automationDot" />
-          Daily pipeline active
-        </div>
-      </section>
+      <div className="appShell">
+        <section className="trainingPanel" id="workflow">
+          <div className="trainingCopy">
+            <strong>Automated data-to-social research desk</strong>
+            <span>
+              Daily QVeris-powered cards are generated, archived, reviewed, and
+              sent to Typefully without overwriting past posts.
+            </span>
+          </div>
+          <div className="trainingCounts" aria-label="Archive summary">
+            <article>
+              <strong>{posts.length}</strong>
+              <span>Total cards</span>
+            </article>
+            <article>
+              <strong>{readyCount}</strong>
+              <span>Ready</span>
+            </article>
+            <article>
+              <strong>{publishedCount}</strong>
+              <span>Published</span>
+            </article>
+          </div>
+          <div className="automationBadge">
+            <span className="automationDot" />
+            {latestDate ? `Latest ${formatDate(latestDate)}` : "No data yet"}
+          </div>
+        </section>
 
-      <section className="stats" aria-label="Archive summary">
-        <article>
-          <span>Total cards</span>
-          <strong>{posts.length}</strong>
-        </article>
-        <article>
-          <span>Ready</span>
-          <strong>{readyCount}</strong>
-        </article>
-        <article>
-          <span>Published</span>
-          <strong>{publishedCount}</strong>
-        </article>
-        <article>
-          <span>Latest card date</span>
-          <strong className="dateMetric">
-            {latestDate ? formatDate(latestDate) : "No data"}
-          </strong>
-        </article>
-      </section>
+        <section className="filterPanel" id="categories">
+          <div className="searchRow">
+            <div>
+              <p className="eyebrow">QVERIS CONTENT LIBRARY</p>
+              <h1>Social signal archive</h1>
+            </div>
+            <div className="sortSegment" aria-label="Content categories">
+              {categories.map((category) => (
+                <button
+                  key={category.key}
+                  className={`categoryChip ${
+                    category.key === activeCategory ? "active" : ""
+                  }`}
+                  type="button"
+                  onClick={() => setActiveCategory(category.key)}
+                >
+                  <span>{category.label}</span>
+                  <b>{category.count}</b>
+                </button>
+              ))}
+            </div>
+          </div>
 
-      <nav className="categoryBar" aria-label="Content categories">
-        {categories.map((category) => (
-          <button
-            key={category.key}
-            className={`categoryChip ${
-              category.key === activeCategory ? "active" : ""
-            }`}
-            type="button"
-            onClick={() => setActiveCategory(category.key)}
-          >
-            <span>{category.label}</span>
-            <b>{category.count}</b>
-          </button>
-        ))}
-      </nav>
+          <div className="filterRow">
+            <span>Status</span>
+            <div className="tabs">
+              {(["all", "draft", "ready", "published"] as const).map((status) => (
+                <button
+                  key={status}
+                  className={`tab ${statusFilter === status ? "active" : ""}`}
+                  type="button"
+                  onClick={() => setStatusFilter(status)}
+                >
+                  {status === "all"
+                    ? "All"
+                    : status.charAt(0).toUpperCase() + status.slice(1)}
+                </button>
+              ))}
+            </div>
+          </div>
+        </section>
 
-      <section className="toolbar">
-        <div className="tabs">
-          {(["all", "draft", "ready", "published"] as const).map((status) => (
-            <button
-              key={status}
-              className={`tab ${statusFilter === status ? "active" : ""}`}
-              type="button"
-              onClick={() => setStatusFilter(status)}
-            >
-              {status === "all"
-                ? "All"
-                : status.charAt(0).toUpperCase() + status.slice(1)}
-            </button>
-          ))}
-        </div>
-        <span className="updated">
-          {latestDate ? `Archived through ${formatDate(latestDate)}` : "No updates yet"}
-        </span>
-      </section>
+        <section className="resultHead" id="archive">
+          <div>
+            <strong>{visiblePosts.length} cards</strong>
+            <span>
+              {latestDate
+                ? `Archived through ${formatDate(latestDate)}`
+                : "No updates yet"}
+            </span>
+          </div>
+          <span className="updated">Click a card to inspect image and tweet copy</span>
+        </section>
 
       {visiblePosts.length ? (
         <section className="cardsGrid">
@@ -193,6 +213,13 @@ export default function Home() {
 
             return (
               <article className="postCard" key={post.id}>
+                <div className="assetSource">
+                  <span className="sourceMark">QV</span>
+                  <span className="sourceCopy">
+                    <strong>{post.contentType}</strong>
+                    <em>{post.dataSource}</em>
+                  </span>
+                </div>
                 <button
                   className="cardImage cardImageButton"
                   type="button"
@@ -205,7 +232,6 @@ export default function Home() {
                 <div className="cardBody">
                   <div className="cardHeading">
                     <div>
-                      <span className="contentType">{post.contentType}</span>
                       <h2>{post.title}</h2>
                     </div>
                     <time dateTime={post.date}>{formatDate(post.date)}</time>
@@ -272,6 +298,7 @@ export default function Home() {
           <p>New content will appear after the daily automation runs.</p>
         </div>
       )}
+      </div>
 
       {selectedPost ? (
         <div
