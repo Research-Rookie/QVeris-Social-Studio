@@ -1,5 +1,355 @@
 [
   {
+    "id": "world-cup-etf-2026-06-26-537332-south-africa-south-korea",
+    "date": "2026-06-26",
+    "matchDate": "2026-06-25",
+    "marketCheckDate": "2026-06-26",
+    "runDate": "2026-06-26",
+    "createdAt": "2026-06-26T01:26:37.593417+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "South Africa vs South Korea Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: South Africa 1-0 South Korea\n\n📊 Next-session ETF check:\n$EZA South Africa ETF: -5.02%\n$EWY Korea Republic ETF: -0.04%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-26-537332-south-africa-south-korea.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-26T01:26:30.257427+00:00",
+    "xPostId": null,
+    "primaryLabel": "$EZA next-session move",
+    "primaryValue": "-5.02%",
+    "secondaryLabel": "$EWY next-session move",
+    "secondaryValue": "-0.04%",
+    "topSymbol": "EZA",
+    "topChangePct": -5.021801232897313,
+    "worldCupFinance": {
+      "date": "2026-06-26",
+      "matchDate": "2026-06-25",
+      "marketCheckDate": "2026-06-26",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537332",
+        "utc_date": "2026-06-25T01:00:00Z",
+        "local_datetime": "2026-06-25T09:00:00+08:00",
+        "label": "South Africa 1-0 South Korea",
+        "result": "home_win",
+        "home": {
+          "team": "South Africa",
+          "country": "South Africa",
+          "score": 1,
+          "etf": "EZA",
+          "etf_name": "iShares MSCI South Africa ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EZA",
+            "price": 63.17,
+            "change": -3.3400000000000034,
+            "change_pct": -5.021801232897313,
+            "volume": 64984,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "South Korea",
+          "country": "Korea Republic",
+          "score": 0,
+          "etf": "EWY",
+          "etf_name": "iShares MSCI South Korea ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EWY",
+            "price": 205.0,
+            "change": -0.0800000000000125,
+            "change_pct": -0.03900916715428735,
+            "volume": 20742846,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-26-537331-czechia-mexico",
+    "date": "2026-06-26",
+    "matchDate": "2026-06-25",
+    "marketCheckDate": "2026-06-26",
+    "runDate": "2026-06-26",
+    "createdAt": "2026-06-26T01:26:37.590613+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Czechia vs Mexico Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Czechia 0-3 Mexico\n\n📊 Next-session ETF check:\n$VGK Czechia proxy ETF: -1.57%\n$EWW Mexico ETF: -2.30%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-26-537331-czechia-mexico.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-26T01:26:30.257427+00:00",
+    "xPostId": null,
+    "primaryLabel": "$VGK next-session move",
+    "primaryValue": "-1.57%",
+    "secondaryLabel": "$EWW next-session move",
+    "secondaryValue": "-2.30%",
+    "topSymbol": "EWW",
+    "topChangePct": -2.30241883326866,
+    "worldCupFinance": {
+      "date": "2026-06-26",
+      "matchDate": "2026-06-25",
+      "marketCheckDate": "2026-06-26",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537331",
+        "utc_date": "2026-06-25T01:00:00Z",
+        "local_datetime": "2026-06-25T09:00:00+08:00",
+        "label": "Czechia 0-3 Mexico",
+        "result": "away_win",
+        "home": {
+          "team": "Czechia",
+          "country": "Czechia",
+          "score": 0,
+          "etf": "VGK",
+          "etf_name": "Vanguard FTSE Europe ETF",
+          "is_proxy": true,
+          "proxy_note": "Europe ETF used because no liquid single-country Czechia ETF is available",
+          "quote": {
+            "symbol": "VGK",
+            "price": 87.83,
+            "change": -1.4000000000000057,
+            "change_pct": -1.5689790429227901,
+            "volume": 2104533,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Mexico",
+          "country": "Mexico",
+          "score": 3,
+          "etf": "EWW",
+          "etf_name": "iShares MSCI Mexico ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EWW",
+            "price": 75.53,
+            "change": -1.7800000000000011,
+            "change_pct": -2.30241883326866,
+            "volume": 1158470,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-26-537343-scotland-brazil",
+    "date": "2026-06-26",
+    "matchDate": "2026-06-25",
+    "marketCheckDate": "2026-06-26",
+    "runDate": "2026-06-26",
+    "createdAt": "2026-06-26T01:26:37.587846+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Scotland vs Brazil Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Scotland 0-3 Brazil\n\n📊 Next-session ETF check:\n$EWU Scotland proxy ETF: -0.09%\n$EWZ Brazil ETF: +0.21%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-26-537343-scotland-brazil.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-26T01:26:30.257427+00:00",
+    "xPostId": null,
+    "primaryLabel": "$EWU next-session move",
+    "primaryValue": "-0.09%",
+    "secondaryLabel": "$EWZ next-session move",
+    "secondaryValue": "+0.21%",
+    "topSymbol": "EWZ",
+    "topChangePct": 0.20521841102316118,
+    "worldCupFinance": {
+      "date": "2026-06-26",
+      "matchDate": "2026-06-25",
+      "marketCheckDate": "2026-06-26",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537343",
+        "utc_date": "2026-06-24T22:00:00Z",
+        "local_datetime": "2026-06-25T06:00:00+08:00",
+        "label": "Scotland 0-3 Brazil",
+        "result": "away_win",
+        "home": {
+          "team": "Scotland",
+          "country": "Scotland",
+          "score": 0,
+          "etf": "EWU",
+          "etf_name": "iShares MSCI United Kingdom ETF",
+          "is_proxy": true,
+          "proxy_note": "UK ETF used as Scotland market proxy",
+          "quote": {
+            "symbol": "EWU",
+            "price": 45.88,
+            "change": -0.03999999999999915,
+            "change_pct": -0.08710801393728036,
+            "volume": 546684,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Brazil",
+          "country": "Brazil",
+          "score": 3,
+          "etf": "EWZ",
+          "etf_name": "iShares MSCI Brazil ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EWZ",
+            "price": 34.18,
+            "change": 0.07000000000000028,
+            "change_pct": 0.20521841102316118,
+            "volume": 16101100,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-26-537338-bosnia-herzegovina-qatar",
+    "date": "2026-06-26",
+    "matchDate": "2026-06-25",
+    "marketCheckDate": "2026-06-26",
+    "runDate": "2026-06-26",
+    "createdAt": "2026-06-26T01:26:37.585116+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Bosnia-Herzegovina vs Qatar Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Bosnia-Herzegovina 3-1 Qatar\n\n📊 Next-session ETF check:\n$FM Bosnia and Herzegovina proxy ETF: +0.41%\n$QAT Qatar ETF: -2.43%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-26-537338-bosnia-herzegovina-qatar.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-26T01:26:30.257427+00:00",
+    "xPostId": null,
+    "primaryLabel": "$FM next-session move",
+    "primaryValue": "+0.41%",
+    "secondaryLabel": "$QAT next-session move",
+    "secondaryValue": "-2.43%",
+    "topSymbol": "QAT",
+    "topChangePct": -2.432432432432429,
+    "worldCupFinance": {
+      "date": "2026-06-26",
+      "matchDate": "2026-06-25",
+      "marketCheckDate": "2026-06-26",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537338",
+        "utc_date": "2026-06-24T19:00:00Z",
+        "local_datetime": "2026-06-25T03:00:00+08:00",
+        "label": "Bosnia-Herzegovina 3-1 Qatar",
+        "result": "home_win",
+        "home": {
+          "team": "Bosnia-Herzegovina",
+          "country": "Bosnia and Herzegovina",
+          "score": 3,
+          "etf": "FM",
+          "etf_name": "iShares Frontier and Select EM ETF",
+          "is_proxy": true,
+          "proxy_note": "Frontier/select emerging markets ETF used as market proxy",
+          "quote": {
+            "symbol": "FM",
+            "price": 27.19,
+            "change": 0.11000000000000298,
+            "change_pct": 0.40620384047268465,
+            "volume": 57504,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Qatar",
+          "country": "Qatar",
+          "score": 1,
+          "etf": "QAT",
+          "etf_name": "iShares MSCI Qatar ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "QAT",
+            "price": 18.05,
+            "change": -0.4499999999999993,
+            "change_pct": -2.432432432432429,
+            "volume": 23642,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-26-537337-switzerland-canada",
+    "date": "2026-06-26",
+    "matchDate": "2026-06-25",
+    "marketCheckDate": "2026-06-26",
+    "runDate": "2026-06-26",
+    "createdAt": "2026-06-26T01:26:37.582242+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Switzerland vs Canada Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Switzerland 2-1 Canada\n\n📊 Next-session ETF check:\n$EWL Switzerland ETF: +2.13%\n$EWC Canada ETF: -0.98%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-26-537337-switzerland-canada.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-26T01:26:30.257427+00:00",
+    "xPostId": null,
+    "primaryLabel": "$EWL next-session move",
+    "primaryValue": "+2.13%",
+    "secondaryLabel": "$EWC next-session move",
+    "secondaryValue": "-0.98%",
+    "topSymbol": "EWL",
+    "topChangePct": 2.1304277118230526,
+    "worldCupFinance": {
+      "date": "2026-06-26",
+      "matchDate": "2026-06-25",
+      "marketCheckDate": "2026-06-26",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537337",
+        "utc_date": "2026-06-24T19:00:00Z",
+        "local_datetime": "2026-06-25T03:00:00+08:00",
+        "label": "Switzerland 2-1 Canada",
+        "result": "home_win",
+        "home": {
+          "team": "Switzerland",
+          "country": "Switzerland",
+          "score": 2,
+          "etf": "EWL",
+          "etf_name": "iShares MSCI Switzerland ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EWL",
+            "price": 62.8,
+            "change": 1.3099999999999952,
+            "change_pct": 2.1304277118230526,
+            "volume": 344506,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Canada",
+          "country": "Canada",
+          "score": 1,
+          "etf": "EWC",
+          "etf_name": "iShares MSCI Canada ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EWC",
+            "price": 57.62,
+            "change": -0.5700000000000003,
+            "change_pct": -0.979549750816292,
+            "volume": 2080401,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
     "id": "world-cup-etf-2026-06-25-537406-colombia-congo-dr",
     "date": "2026-06-25",
     "matchDate": "2026-06-24",
