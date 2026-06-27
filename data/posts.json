@@ -1,5 +1,215 @@
 [
   {
+    "id": "world-cup-etf-2026-06-27-537350-paraguay-australia",
+    "date": "2026-06-27",
+    "matchDate": "2026-06-26",
+    "marketCheckDate": "2026-06-27",
+    "runDate": "2026-06-27",
+    "createdAt": "2026-06-27T05:04:11.531500+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Paraguay vs Australia Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Paraguay 0-0 Australia\n\n📊 Next-session ETF check:\n$ILF Paraguay proxy ETF: -0.27%\n$EWA Australia ETF: -2.07%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-27-537350-paraguay-australia.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-27T05:04:05.976994+00:00",
+    "xPostId": null,
+    "primaryLabel": "$ILF next-session move",
+    "primaryValue": "-0.27%",
+    "secondaryLabel": "$EWA next-session move",
+    "secondaryValue": "-2.07%",
+    "topSymbol": "EWA",
+    "topChangePct": -2.0658263305322127,
+    "worldCupFinance": {
+      "date": "2026-06-27",
+      "matchDate": "2026-06-26",
+      "marketCheckDate": "2026-06-27",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537350",
+        "utc_date": "2026-06-26T02:00:00Z",
+        "local_datetime": "2026-06-26T10:00:00+08:00",
+        "label": "Paraguay 0-0 Australia",
+        "result": "draw",
+        "home": {
+          "team": "Paraguay",
+          "country": "Paraguay",
+          "score": 0,
+          "etf": "ILF",
+          "etf_name": "iShares Latin America 40 ETF",
+          "is_proxy": true,
+          "proxy_note": "Latin America ETF used as Paraguay market proxy",
+          "quote": {
+            "symbol": "ILF",
+            "price": 33.81,
+            "change": -0.0899999999999963,
+            "change_pct": -0.2654867256637059,
+            "volume": 884469,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Australia",
+          "country": "Australia",
+          "score": 0,
+          "etf": "EWA",
+          "etf_name": "iShares MSCI Australia ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EWA",
+            "price": 27.97,
+            "change": -0.5899999999999999,
+            "change_pct": -2.0658263305322127,
+            "volume": 2626414,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-27-537349-turkey-united-states",
+    "date": "2026-06-27",
+    "matchDate": "2026-06-26",
+    "marketCheckDate": "2026-06-27",
+    "runDate": "2026-06-27",
+    "createdAt": "2026-06-27T05:04:11.527982+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Turkey vs United States Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Turkey 3-2 United States\n\n📊 Next-session ETF check:\n$TUR Turkey ETF: -4.30%\n$SPY United States ETF: -0.72%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-27-537349-turkey-united-states.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-27T05:04:05.976994+00:00",
+    "xPostId": null,
+    "primaryLabel": "$TUR next-session move",
+    "primaryValue": "-4.30%",
+    "secondaryLabel": "$SPY next-session move",
+    "secondaryValue": "-0.72%",
+    "topSymbol": "TUR",
+    "topChangePct": -4.296874999999996,
+    "worldCupFinance": {
+      "date": "2026-06-27",
+      "matchDate": "2026-06-26",
+      "marketCheckDate": "2026-06-27",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537349",
+        "utc_date": "2026-06-26T02:00:00Z",
+        "local_datetime": "2026-06-26T10:00:00+08:00",
+        "label": "Turkey 3-2 United States",
+        "result": "home_win",
+        "home": {
+          "team": "Turkey",
+          "country": "Turkey",
+          "score": 3,
+          "etf": "TUR",
+          "etf_name": "iShares MSCI Turkey ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "TUR",
+            "price": 39.2,
+            "change": -1.759999999999998,
+            "change_pct": -4.296874999999996,
+            "volume": 169718,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "United States",
+          "country": "United States",
+          "score": 2,
+          "etf": "SPY",
+          "etf_name": "SPDR S&P 500 ETF Trust",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "SPY",
+            "price": 728.99,
+            "change": -5.31,
+            "change_pct": -0.7231376821462617,
+            "volume": 69241946,
+            "source": "FMP quote-short"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-27-537355-ecuador-germany",
+    "date": "2026-06-27",
+    "matchDate": "2026-06-26",
+    "marketCheckDate": "2026-06-27",
+    "runDate": "2026-06-27",
+    "createdAt": "2026-06-27T05:04:11.524272+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Ecuador vs Germany Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Ecuador 2-1 Germany\n\n📊 Next-session ETF check:\n$ILF Ecuador proxy ETF: -0.27%\n$EWG Germany ETF: -2.14%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-27-537355-ecuador-germany.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-27T05:04:05.976994+00:00",
+    "xPostId": null,
+    "primaryLabel": "$ILF next-session move",
+    "primaryValue": "-0.27%",
+    "secondaryLabel": "$EWG next-session move",
+    "secondaryValue": "-2.14%",
+    "topSymbol": "EWG",
+    "topChangePct": -2.1435452793834306,
+    "worldCupFinance": {
+      "date": "2026-06-27",
+      "matchDate": "2026-06-26",
+      "marketCheckDate": "2026-06-27",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537355",
+        "utc_date": "2026-06-25T20:00:00Z",
+        "local_datetime": "2026-06-26T04:00:00+08:00",
+        "label": "Ecuador 2-1 Germany",
+        "result": "home_win",
+        "home": {
+          "team": "Ecuador",
+          "country": "Ecuador",
+          "score": 2,
+          "etf": "ILF",
+          "etf_name": "iShares Latin America 40 ETF",
+          "is_proxy": true,
+          "proxy_note": "Latin America ETF used as Ecuador market proxy",
+          "quote": {
+            "symbol": "ILF",
+            "price": 33.81,
+            "change": -0.0899999999999963,
+            "change_pct": -0.2654867256637059,
+            "volume": 884469,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Germany",
+          "country": "Germany",
+          "score": 1,
+          "etf": "EWG",
+          "etf_name": "iShares MSCI Germany ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EWG",
+            "price": 40.63,
+            "change": -0.8900000000000006,
+            "change_pct": -2.1435452793834306,
+            "volume": 338132,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
     "id": "market-pulse-2026-06-27",
     "date": "2026-06-27",
     "runDate": "2026-06-27",
