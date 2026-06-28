@@ -1,26 +1,108 @@
 {
-  "updated_at": "2026-06-27T05:04:05.976994+00:00",
-  "date": "2026-06-27",
-  "market_check_date": "2026-06-27",
-  "match_date": "2026-06-26",
+  "updated_at": "2026-06-28T05:44:54.338979+00:00",
+  "date": "2026-06-28",
+  "market_check_date": "2026-06-28",
+  "match_date": "2026-06-27",
   "run_timezone": "Asia/Shanghai",
   "source": "football-data.org, QVeris API with FMP/Yahoo fallback",
   "event": "2026 FIFA World Cup",
   "matches": [
     {
-      "id": "537355",
-      "utc_date": "2026-06-25T20:00:00Z",
-      "local_datetime": "2026-06-26T04:00:00+08:00",
-      "label": "Ecuador 2-1 Germany",
+      "id": "537395",
+      "utc_date": "2026-06-26T19:00:00Z",
+      "local_datetime": "2026-06-27T03:00:00+08:00",
+      "label": "Norway 1-4 France",
+      "result": "away_win",
+      "home": {
+        "team": "Norway",
+        "country": "Norway",
+        "score": 1,
+        "etf": "ENOR",
+        "etf_name": "iShares MSCI Norway ETF",
+        "is_proxy": false,
+        "proxy_note": "",
+        "quote": {
+          "symbol": "ENOR",
+          "price": 31.14,
+          "change": -1.3299999999999983,
+          "change_pct": -4.096088697259003,
+          "volume": 27956,
+          "source": "Yahoo Finance chart fallback"
+        }
+      },
+      "away": {
+        "team": "France",
+        "country": "France",
+        "score": 4,
+        "etf": "EWQ",
+        "etf_name": "iShares MSCI France ETF",
+        "is_proxy": false,
+        "proxy_note": "",
+        "quote": {
+          "symbol": "EWQ",
+          "price": 44.82,
+          "change": -0.990000000000002,
+          "change_pct": -2.1611001964636585,
+          "volume": 248137,
+          "source": "Yahoo Finance chart fallback"
+        }
+      }
+    },
+    {
+      "id": "537396",
+      "utc_date": "2026-06-26T19:00:00Z",
+      "local_datetime": "2026-06-27T03:00:00+08:00",
+      "label": "Senegal 5-0 Iraq",
       "result": "home_win",
       "home": {
-        "team": "Ecuador",
-        "country": "Ecuador",
-        "score": 2,
+        "team": "Senegal",
+        "country": "Senegal",
+        "score": 5,
+        "etf": "AFK",
+        "etf_name": "VanEck Africa Index ETF",
+        "is_proxy": true,
+        "proxy_note": "Africa ETF used as Senegal market proxy",
+        "quote": {
+          "symbol": "AFK",
+          "price": 25.76,
+          "change": -0.7999999999999972,
+          "change_pct": -3.012048192771074,
+          "volume": 191971,
+          "source": "Yahoo Finance chart fallback"
+        }
+      },
+      "away": {
+        "team": "Iraq",
+        "country": "Iraq",
+        "score": 0,
+        "etf": "FM",
+        "etf_name": "iShares Frontier and Select EM ETF",
+        "is_proxy": true,
+        "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Iraq ETF is available",
+        "quote": {
+          "symbol": "FM",
+          "price": 27.19,
+          "change": 0.11000000000000298,
+          "change_pct": 0.40620384047268465,
+          "volume": 57504,
+          "source": "Yahoo Finance chart fallback"
+        }
+      }
+    },
+    {
+      "id": "537373",
+      "utc_date": "2026-06-27T00:00:00Z",
+      "local_datetime": "2026-06-27T08:00:00+08:00",
+      "label": "Uruguay 0-1 Spain",
+      "result": "away_win",
+      "home": {
+        "team": "Uruguay",
+        "country": "Uruguay",
+        "score": 0,
         "etf": "ILF",
         "etf_name": "iShares Latin America 40 ETF",
         "is_proxy": true,
-        "proxy_note": "Latin America ETF used as Ecuador market proxy",
+        "proxy_note": "Latin America ETF used as Uruguay market proxy",
         "quote": {
           "symbol": "ILF",
           "price": 33.81,
@@ -31,101 +113,60 @@
         }
       },
       "away": {
-        "team": "Germany",
-        "country": "Germany",
+        "team": "Spain",
+        "country": "Spain",
         "score": 1,
-        "etf": "EWG",
-        "etf_name": "iShares MSCI Germany ETF",
+        "etf": "EWP",
+        "etf_name": "iShares MSCI Spain ETF",
         "is_proxy": false,
         "proxy_note": "",
         "quote": {
-          "symbol": "EWG",
-          "price": 40.63,
-          "change": -0.8900000000000006,
-          "change_pct": -2.1435452793834306,
-          "volume": 338132,
+          "symbol": "EWP",
+          "price": 58.68,
+          "change": -0.3299999999999983,
+          "change_pct": -0.5592272496187058,
+          "volume": 75666,
           "source": "Yahoo Finance chart fallback"
         }
       }
     },
     {
-      "id": "537349",
-      "utc_date": "2026-06-26T02:00:00Z",
-      "local_datetime": "2026-06-26T10:00:00+08:00",
-      "label": "Turkey 3-2 United States",
-      "result": "home_win",
-      "home": {
-        "team": "Turkey",
-        "country": "Turkey",
-        "score": 3,
-        "etf": "TUR",
-        "etf_name": "iShares MSCI Turkey ETF",
-        "is_proxy": false,
-        "proxy_note": "",
-        "quote": {
-          "symbol": "TUR",
-          "price": 39.2,
-          "change": -1.759999999999998,
-          "change_pct": -4.296874999999996,
-          "volume": 169718,
-          "source": "Yahoo Finance chart fallback"
-        }
-      },
-      "away": {
-        "team": "United States",
-        "country": "United States",
-        "score": 2,
-        "etf": "SPY",
-        "etf_name": "SPDR S&P 500 ETF Trust",
-        "is_proxy": false,
-        "proxy_note": "",
-        "quote": {
-          "symbol": "SPY",
-          "price": 728.99,
-          "change": -5.31,
-          "change_pct": -0.7231376821462617,
-          "volume": 69241946,
-          "source": "FMP quote-short"
-        }
-      }
-    },
-    {
-      "id": "537350",
-      "utc_date": "2026-06-26T02:00:00Z",
-      "local_datetime": "2026-06-26T10:00:00+08:00",
-      "label": "Paraguay 0-0 Australia",
+      "id": "537368",
+      "utc_date": "2026-06-27T03:00:00Z",
+      "local_datetime": "2026-06-27T11:00:00+08:00",
+      "label": "Egypt 1-1 Iran",
       "result": "draw",
       "home": {
-        "team": "Paraguay",
-        "country": "Paraguay",
-        "score": 0,
-        "etf": "ILF",
-        "etf_name": "iShares Latin America 40 ETF",
-        "is_proxy": true,
-        "proxy_note": "Latin America ETF used as Paraguay market proxy",
+        "team": "Egypt",
+        "country": "Egypt",
+        "score": 1,
+        "etf": "EGPT",
+        "etf_name": "VanEck Egypt Index ETF",
+        "is_proxy": false,
+        "proxy_note": "",
         "quote": {
-          "symbol": "ILF",
-          "price": 33.81,
-          "change": -0.0899999999999963,
-          "change_pct": -0.2654867256637059,
-          "volume": 884469,
+          "symbol": "EGPT",
+          "price": 21.4808,
+          "change": 0.021999999999998465,
+          "change_pct": 0.10252204223907424,
+          "volume": 106834,
           "source": "Yahoo Finance chart fallback"
         }
       },
       "away": {
-        "team": "Australia",
-        "country": "Australia",
-        "score": 0,
-        "etf": "EWA",
-        "etf_name": "iShares MSCI Australia ETF",
-        "is_proxy": false,
-        "proxy_note": "",
+        "team": "Iran",
+        "country": "Iran",
+        "score": 1,
+        "etf": "EEM",
+        "etf_name": "iShares MSCI Emerging Markets ETF",
+        "is_proxy": true,
+        "proxy_note": "Emerging markets ETF used because no US-listed Iran ETF is available",
         "quote": {
-          "symbol": "EWA",
-          "price": 27.97,
-          "change": -0.5899999999999999,
-          "change_pct": -2.0658263305322127,
-          "volume": 2626414,
+          "symbol": "EEM",
+          "price": 67.19,
+          "change": -3.6000000000000085,
+          "change_pct": -5.085464048594446,
+          "volume": 22733506,
           "source": "Yahoo Finance chart fallback"
         }
       }

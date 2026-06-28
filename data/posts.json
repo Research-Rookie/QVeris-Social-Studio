@@ -1,5 +1,285 @@
 [
   {
+    "id": "world-cup-etf-2026-06-28-537368-egypt-iran",
+    "date": "2026-06-28",
+    "matchDate": "2026-06-27",
+    "marketCheckDate": "2026-06-28",
+    "runDate": "2026-06-28",
+    "createdAt": "2026-06-28T05:45:00.173619+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Egypt vs Iran Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Egypt 1-1 Iran\n\n📊 Next-session ETF check:\n$EGPT Egypt ETF: +0.10%\n$EEM Iran proxy ETF: -5.09%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-28-537368-egypt-iran.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-28T05:44:54.338979+00:00",
+    "xPostId": null,
+    "primaryLabel": "$EGPT next-session move",
+    "primaryValue": "+0.10%",
+    "secondaryLabel": "$EEM next-session move",
+    "secondaryValue": "-5.09%",
+    "topSymbol": "EEM",
+    "topChangePct": -5.085464048594446,
+    "worldCupFinance": {
+      "date": "2026-06-28",
+      "matchDate": "2026-06-27",
+      "marketCheckDate": "2026-06-28",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537368",
+        "utc_date": "2026-06-27T03:00:00Z",
+        "local_datetime": "2026-06-27T11:00:00+08:00",
+        "label": "Egypt 1-1 Iran",
+        "result": "draw",
+        "home": {
+          "team": "Egypt",
+          "country": "Egypt",
+          "score": 1,
+          "etf": "EGPT",
+          "etf_name": "VanEck Egypt Index ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EGPT",
+            "price": 21.4808,
+            "change": 0.021999999999998465,
+            "change_pct": 0.10252204223907424,
+            "volume": 106834,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Iran",
+          "country": "Iran",
+          "score": 1,
+          "etf": "EEM",
+          "etf_name": "iShares MSCI Emerging Markets ETF",
+          "is_proxy": true,
+          "proxy_note": "Emerging markets ETF used because no US-listed Iran ETF is available",
+          "quote": {
+            "symbol": "EEM",
+            "price": 67.19,
+            "change": -3.6000000000000085,
+            "change_pct": -5.085464048594446,
+            "volume": 22733506,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-28-537373-uruguay-spain",
+    "date": "2026-06-28",
+    "matchDate": "2026-06-27",
+    "marketCheckDate": "2026-06-28",
+    "runDate": "2026-06-28",
+    "createdAt": "2026-06-28T05:45:00.169820+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Uruguay vs Spain Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Uruguay 0-1 Spain\n\n📊 Next-session ETF check:\n$ILF Uruguay proxy ETF: -0.27%\n$EWP Spain ETF: -0.56%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-28-537373-uruguay-spain.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-28T05:44:54.338979+00:00",
+    "xPostId": null,
+    "primaryLabel": "$ILF next-session move",
+    "primaryValue": "-0.27%",
+    "secondaryLabel": "$EWP next-session move",
+    "secondaryValue": "-0.56%",
+    "topSymbol": "EWP",
+    "topChangePct": -0.5592272496187058,
+    "worldCupFinance": {
+      "date": "2026-06-28",
+      "matchDate": "2026-06-27",
+      "marketCheckDate": "2026-06-28",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537373",
+        "utc_date": "2026-06-27T00:00:00Z",
+        "local_datetime": "2026-06-27T08:00:00+08:00",
+        "label": "Uruguay 0-1 Spain",
+        "result": "away_win",
+        "home": {
+          "team": "Uruguay",
+          "country": "Uruguay",
+          "score": 0,
+          "etf": "ILF",
+          "etf_name": "iShares Latin America 40 ETF",
+          "is_proxy": true,
+          "proxy_note": "Latin America ETF used as Uruguay market proxy",
+          "quote": {
+            "symbol": "ILF",
+            "price": 33.81,
+            "change": -0.0899999999999963,
+            "change_pct": -0.2654867256637059,
+            "volume": 884469,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Spain",
+          "country": "Spain",
+          "score": 1,
+          "etf": "EWP",
+          "etf_name": "iShares MSCI Spain ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EWP",
+            "price": 58.68,
+            "change": -0.3299999999999983,
+            "change_pct": -0.5592272496187058,
+            "volume": 75666,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-28-537396-senegal-iraq",
+    "date": "2026-06-28",
+    "matchDate": "2026-06-27",
+    "marketCheckDate": "2026-06-28",
+    "runDate": "2026-06-28",
+    "createdAt": "2026-06-28T05:45:00.166027+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Senegal vs Iraq Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Senegal 5-0 Iraq\n\n📊 Next-session ETF check:\n$AFK Senegal proxy ETF: -3.01%\n$FM Iraq proxy ETF: +0.41%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-28-537396-senegal-iraq.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-28T05:44:54.338979+00:00",
+    "xPostId": null,
+    "primaryLabel": "$AFK next-session move",
+    "primaryValue": "-3.01%",
+    "secondaryLabel": "$FM next-session move",
+    "secondaryValue": "+0.41%",
+    "topSymbol": "AFK",
+    "topChangePct": -3.012048192771074,
+    "worldCupFinance": {
+      "date": "2026-06-28",
+      "matchDate": "2026-06-27",
+      "marketCheckDate": "2026-06-28",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537396",
+        "utc_date": "2026-06-26T19:00:00Z",
+        "local_datetime": "2026-06-27T03:00:00+08:00",
+        "label": "Senegal 5-0 Iraq",
+        "result": "home_win",
+        "home": {
+          "team": "Senegal",
+          "country": "Senegal",
+          "score": 5,
+          "etf": "AFK",
+          "etf_name": "VanEck Africa Index ETF",
+          "is_proxy": true,
+          "proxy_note": "Africa ETF used as Senegal market proxy",
+          "quote": {
+            "symbol": "AFK",
+            "price": 25.76,
+            "change": -0.7999999999999972,
+            "change_pct": -3.012048192771074,
+            "volume": 191971,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "Iraq",
+          "country": "Iraq",
+          "score": 0,
+          "etf": "FM",
+          "etf_name": "iShares Frontier and Select EM ETF",
+          "is_proxy": true,
+          "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Iraq ETF is available",
+          "quote": {
+            "symbol": "FM",
+            "price": 27.19,
+            "change": 0.11000000000000298,
+            "change_pct": 0.40620384047268465,
+            "volume": 57504,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
+    "id": "world-cup-etf-2026-06-28-537395-norway-france",
+    "date": "2026-06-28",
+    "matchDate": "2026-06-27",
+    "marketCheckDate": "2026-06-28",
+    "runDate": "2026-06-28",
+    "createdAt": "2026-06-28T05:45:00.162049+00:00",
+    "contentType": "WORLD CUP FINANCE",
+    "title": "Norway vs France Market Aftermath",
+    "status": "ready",
+    "tweet": "⚽ World Cup result: Norway 1-4 France\n\n📊 Next-session ETF check:\n$ENOR Norway ETF: -4.10%\n$EWQ France ETF: -2.16%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
+    "image": "/posts/world_cup_etf_2026-06-28-537395-norway-france.png",
+    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
+    "dataUpdatedAt": "2026-06-28T05:44:54.338979+00:00",
+    "xPostId": null,
+    "primaryLabel": "$ENOR next-session move",
+    "primaryValue": "-4.10%",
+    "secondaryLabel": "$EWQ next-session move",
+    "secondaryValue": "-2.16%",
+    "topSymbol": "ENOR",
+    "topChangePct": -4.096088697259003,
+    "worldCupFinance": {
+      "date": "2026-06-28",
+      "matchDate": "2026-06-27",
+      "marketCheckDate": "2026-06-28",
+      "event": "2026 FIFA World Cup",
+      "match": {
+        "id": "537395",
+        "utc_date": "2026-06-26T19:00:00Z",
+        "local_datetime": "2026-06-27T03:00:00+08:00",
+        "label": "Norway 1-4 France",
+        "result": "away_win",
+        "home": {
+          "team": "Norway",
+          "country": "Norway",
+          "score": 1,
+          "etf": "ENOR",
+          "etf_name": "iShares MSCI Norway ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "ENOR",
+            "price": 31.14,
+            "change": -1.3299999999999983,
+            "change_pct": -4.096088697259003,
+            "volume": 27956,
+            "source": "Yahoo Finance chart fallback"
+          }
+        },
+        "away": {
+          "team": "France",
+          "country": "France",
+          "score": 4,
+          "etf": "EWQ",
+          "etf_name": "iShares MSCI France ETF",
+          "is_proxy": false,
+          "proxy_note": "",
+          "quote": {
+            "symbol": "EWQ",
+            "price": 44.82,
+            "change": -0.990000000000002,
+            "change_pct": -2.1611001964636585,
+            "volume": 248137,
+            "source": "Yahoo Finance chart fallback"
+          }
+        }
+      },
+      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    }
+  },
+  {
     "id": "market-pulse-2026-06-28",
     "date": "2026-06-28",
     "runDate": "2026-06-28",
