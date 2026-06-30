@@ -114,6 +114,19 @@ def probability_change(item: dict) -> float:
     return direct
 
 
+def looks_multivariate_market(market: dict) -> bool:
+    ticker = str(market.get("ticker") or "").upper()
+    title = str(market.get("title") or "")
+    category = str(market.get("category") or "").lower()
+    yes_no_legs = len(re.findall(r"\b(?:yes|no)\s+", title, flags=re.IGNORECASE))
+    return (
+        ticker.startswith("KXMVE")
+        or "multivariate" in category
+        or "multigame" in ticker.lower()
+        or (title.count(",") >= 3 and yes_no_legs >= 3)
+    )
+
+
 def normalize_probability_price(value: object) -> float:
     price = as_float(value)
     if price <= 0:
@@ -439,9 +452,12 @@ def execute_prediction_tool() -> dict:
 
 def execute_kalshi_markets_tool() -> dict:
     parameter_sets = [
-        {"limit": LIMIT, "status": "open"},
-        {"limit": LIMIT, "status": "active"},
-        {"limit": LIMIT},
+        {"limit": LIMIT * 3, "status": "open", "multivariate": False},
+        {"limit": LIMIT * 3, "status": "active", "multivariate": False},
+        {"limit": LIMIT * 3, "multivariate": False},
+        {"limit": LIMIT * 3, "status": "open"},
+        {"limit": LIMIT * 3, "status": "active"},
+        {"limit": LIMIT * 3},
     ]
     last_error = None
     for parameters in parameter_sets:
@@ -552,6 +568,8 @@ def extract_markets(payload: dict) -> list[dict]:
 
     unique = []
     for market in candidates:
+        if looks_multivariate_market(market):
+            continue
         identity = (market["ticker"] or market["title"]).lower().strip()
         identity = re.sub(r"[^a-z0-9]+", " ", identity)
         identity = re.sub(r"\s+", " ", identity).strip()
@@ -559,6 +577,16 @@ def extract_markets(payload: dict) -> list[dict]:
             continue
         seen.add(identity)
         unique.append(market)
+
+    if not unique:
+        for market in candidates:
+            identity = (market["ticker"] or market["title"]).lower().strip()
+            identity = re.sub(r"[^a-z0-9]+", " ", identity)
+            identity = re.sub(r"\s+", " ", identity).strip()
+            if identity in seen:
+                continue
+            seen.add(identity)
+            unique.append(market)
 
     unique.sort(
         key=lambda market: (
