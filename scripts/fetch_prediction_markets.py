@@ -25,7 +25,16 @@ OUTPUT_FILE = ROOT_DIR / "data" / "prediction_markets.json"
 RUN_TIMEZONE = ZoneInfo("Asia/Shanghai")
 SESSION_ID = "qveris-social-studio-prediction-market-pulse"
 QVERIS_PREDICTION_MARKET_TOOL_ID = os.environ.get("QVERIS_PREDICTION_MARKET_TOOL_ID", "")
+QVERIS_KALSHI_MARKETS_TOOL_ID = os.environ.get(
+    "QVERIS_KALSHI_MARKETS_TOOL_ID",
+    "kalshi.elections.markets.list.v2.337a92c0",
+)
+QVERIS_KALSHI_ORDERBOOK_TOOL_ID = os.environ.get(
+    "QVERIS_KALSHI_ORDERBOOK_TOOL_ID",
+    "kalshi.trade.markets.orderbook.retrieve.v2.05c2422e",
+)
 LIMIT = int(os.environ.get("PREDICTION_MARKET_LIMIT", "8"))
+PRICE_LOOKUP_LIMIT = int(os.environ.get("PREDICTION_MARKET_PRICE_LOOKUP_LIMIT", "4"))
 SEARCH_QUERIES = [
     "Kalshi multivariate events include markets prices prediction markets",
     "Kalshi event markets yes price no price volume liquidity",
@@ -99,6 +108,85 @@ def probability_change(item: dict) -> float:
     if abs(direct) <= 1 and direct != 0:
         return direct * 100
     return direct
+
+
+def normalize_probability_price(value: object) -> float:
+    price = as_float(value)
+    if price <= 0:
+        return 0.0
+    if price <= 1:
+        return price * 100
+    return min(price, 100.0)
+
+
+def extract_orderbook_prices(side: object) -> list[float]:
+    prices = []
+    if isinstance(side, dict):
+        for key, value in side.items():
+            lowered = str(key).lower()
+            if lowered in {"price", "yes_price", "yesprice", "bid", "bid_price", "bidprice"}:
+                price = normalize_probability_price(value)
+                if price:
+                    prices.append(price)
+            elif isinstance(value, (dict, list)):
+                prices.extend(extract_orderbook_prices(value))
+            elif re.fullmatch(r"\d+(\.\d+)?", str(key)):
+                quantity = as_float(value)
+                if quantity:
+                    price = normalize_probability_price(key)
+                    if price:
+                        prices.append(price)
+    elif isinstance(side, list):
+        for entry in side:
+            if isinstance(entry, dict):
+                prices.extend(extract_orderbook_prices(entry))
+            elif isinstance(entry, (list, tuple)) and entry:
+                price = normalize_probability_price(entry[0])
+                quantity = as_float(entry[1]) if len(entry) > 1 else 1
+                if price and quantity:
+                    prices.append(price)
+            else:
+                price = normalize_probability_price(entry)
+                if price:
+                    prices.append(price)
+    return prices
+
+
+def orderbook_probability(payload: dict) -> tuple[float, str]:
+    yes_prices = []
+    no_prices = []
+    for item in walk_dicts(payload):
+        for key, value in item.items():
+            lowered = key_norm(str(key))
+            if lowered in {"yes", "yesbids", "yesbid", "yesorders"}:
+                yes_prices.extend(extract_orderbook_prices(value))
+            elif lowered in {"no", "nobids", "nobid", "noorders"}:
+                no_prices.extend(extract_orderbook_prices(value))
+
+    best_yes_bid = max(yes_prices) if yes_prices else 0.0
+    best_no_bid = max(no_prices) if no_prices else 0.0
+    implied_yes_ask = 100.0 - best_no_bid if best_no_bid else 0.0
+
+    if best_yes_bid and implied_yes_ask:
+        return (best_yes_bid + implied_yes_ask) / 2, "Kalshi orderbook midpoint"
+    if best_yes_bid:
+        return best_yes_bid, "Kalshi yes bid"
+    if implied_yes_ask:
+        return implied_yes_ask, "Kalshi no bid implied"
+    return 0.0, ""
+
+
+def market_ticker(market: dict) -> str:
+    ticker = str(market.get("ticker") or "").strip()
+    if ticker:
+        return ticker
+    return str(
+        value_by_names(
+            market,
+            ["marketTicker", "market_ticker", "ticker", "id"],
+        )
+        or ""
+    ).strip()
 
 
 def parse_market(item: dict) -> dict | None:
@@ -183,6 +271,7 @@ def parse_market(item: dict) -> dict | None:
         "liquidity": liquidity,
         "end_date": end_date,
         "status": status,
+        "probability_source": "QVeris market data" if has_probability else "",
     }
 
 
@@ -323,6 +412,70 @@ def execute_prediction_tool() -> dict:
     )
 
 
+def execute_kalshi_markets_tool() -> dict:
+    parameter_sets = [
+        {"limit": LIMIT, "status": "open"},
+        {"limit": LIMIT, "status": "active"},
+        {"limit": LIMIT},
+    ]
+    last_error = None
+    for parameters in parameter_sets:
+        try:
+            print(f"QVeris Kalshi markets parameters: {parameters}")
+            return execute_tool(
+                QVERIS_KALSHI_MARKETS_TOOL_ID,
+                SESSION_ID,
+                parameters,
+                max_response_size=65536,
+            )
+        except RuntimeError as error:
+            last_error = error
+            print(f"Kalshi markets retry after error: {error}")
+    raise RuntimeError(f"QVeris Kalshi markets tool failed: {last_error}")
+
+
+def execute_orderbook_tool(ticker: str) -> dict:
+    parameter_sets = [
+        {"ticker": ticker, "depth": 10},
+        {"ticker": ticker},
+    ]
+    last_error = None
+    for parameters in parameter_sets:
+        try:
+            return execute_tool(
+                QVERIS_KALSHI_ORDERBOOK_TOOL_ID,
+                SESSION_ID,
+                parameters,
+                max_response_size=32768,
+            )
+        except RuntimeError as error:
+            last_error = error
+    raise RuntimeError(f"QVeris Kalshi orderbook failed for {ticker}: {last_error}")
+
+
+def enrich_with_orderbook(market: dict) -> dict:
+    ticker = market_ticker(market)
+    if not ticker:
+        return market
+    try:
+        payload = execute_orderbook_tool(ticker)
+    except RuntimeError as error:
+        print(f"Orderbook unavailable for {ticker}: {error}")
+        return market
+
+    probability, source = orderbook_probability(payload)
+    if probability <= 0:
+        print(f"Orderbook had no parsable yes/no bid for {ticker}")
+        return market
+
+    enriched = dict(market)
+    enriched["ticker"] = ticker
+    enriched["probability"] = round(probability, 1)
+    enriched["has_probability"] = True
+    enriched["probability_source"] = source
+    return enriched
+
+
 def extract_markets(payload: dict) -> list[dict]:
     candidates = []
     seen = set()
@@ -367,7 +520,13 @@ def extract_markets(payload: dict) -> list[dict]:
 
 
 def fetch_prediction_market_payload() -> dict:
-    return execute_prediction_tool()
+    if QVERIS_PREDICTION_MARKET_TOOL_ID:
+        return execute_prediction_tool()
+    try:
+        return execute_kalshi_markets_tool()
+    except RuntimeError as error:
+        print(f"Falling back to discovery-based prediction tool: {error}")
+        return execute_prediction_tool()
 
 
 def main() -> dict:
@@ -378,6 +537,23 @@ def main() -> dict:
             "QVeris returned prediction-market data, but no event or market rows could be parsed."
         )
 
+    enriched_markets = []
+    for market in markets:
+        if len(enriched_markets) < PRICE_LOOKUP_LIMIT:
+            enriched_markets.append(enrich_with_orderbook(market))
+        else:
+            enriched_markets.append(market)
+
+    enriched_markets.sort(
+        key=lambda market: (
+            bool(market.get("has_probability")),
+            abs(market.get("probability_change", 0)),
+            market.get("volume", 0),
+            market.get("liquidity", 0),
+        ),
+        reverse=True,
+    )
+
     now = datetime.now(timezone.utc)
     run_now = datetime.now(RUN_TIMEZONE)
     output = {
@@ -386,17 +562,18 @@ def main() -> dict:
         "run_timezone": "Asia/Shanghai",
         "source": "QVeris API",
         "title": "Prediction Market Pulse",
-        "markets": markets,
+        "markets": enriched_markets[:LIMIT],
     }
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"Saved {OUTPUT_FILE}")
-    for index, market in enumerate(markets[:5], 1):
-        print(
-            f"  #{index} {market['probability']:.1f}% "
-            f"({market['probability_change']:+.1f} pts) {market['title']}"
-        )
+    for index, market in enumerate(enriched_markets[:5], 1):
+        if market.get("has_probability"):
+            label = f"{market['probability']:.1f}%"
+        else:
+            label = "watchlist"
+        print(f"  #{index} {label} {market['title']}")
     return output
 
 
