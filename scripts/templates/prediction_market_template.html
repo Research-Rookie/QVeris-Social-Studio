@@ -69,9 +69,10 @@
         grid-template-columns: 1fr 1fr;
         gap: 18px;
         margin-top: 34px;
+        padding-bottom: 76px;
       }
       .market {
-        min-height: 112px;
+        min-height: 142px;
         border: 1px solid rgba(148, 163, 184, 0.22);
         border-radius: 24px;
         padding: 20px 22px;
@@ -152,12 +153,12 @@
       <div class="date">{{DATE}}</div>
       <header>
         <p class="eyebrow">Prediction Market Pulse</p>
-        <h1>What markets are pricing in</h1>
-        <div class="subtitle">Top implied probabilities and daily probability moves</div>
+        <h1>{{HEADLINE}}</h1>
+        <div class="subtitle">{{SUBTITLE}}</div>
       </header>
       <section class="markets">{{MARKETS}}</section>
       <footer>
-        <span>Market-implied probabilities via {{SOURCE}}</span>
+        <span>{{FOOTNOTE}}</span>
         <span class="logo"><img src="{{LOGO}}" /> QVeris</span>
       </footer>
     </main>

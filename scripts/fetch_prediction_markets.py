@@ -347,7 +347,9 @@ def extract_markets(payload: dict) -> list[dict]:
 
     unique = []
     for market in candidates:
-        identity = market["ticker"] or market["title"].lower()
+        identity = (market["ticker"] or market["title"]).lower().strip()
+        identity = re.sub(r"[^a-z0-9]+", " ", identity)
+        identity = re.sub(r"\s+", " ", identity).strip()
         if identity in seen:
             continue
         seen.add(identity)

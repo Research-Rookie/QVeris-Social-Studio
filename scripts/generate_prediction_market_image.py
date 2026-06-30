@@ -71,10 +71,25 @@ def market_html(market: dict) -> str:
 
 
 def render_html(data: dict) -> str:
-    markets = data.get("markets", [])[:6]
+    markets = data.get("markets", [])[:4]
+    has_any_probability = any(market.get("has_probability", True) for market in markets)
+    headline = "What markets are pricing in" if has_any_probability else "Prediction markets to watch"
+    subtitle = (
+        "Top implied probabilities and daily probability moves"
+        if has_any_probability
+        else "Active prediction-market events surfaced by QVeris"
+    )
+    footnote = (
+        f"Market-implied probabilities via {data.get('source', 'QVeris API')}"
+        if has_any_probability
+        else f"Active prediction-market events via {data.get('source', 'QVeris API')}"
+    )
     template = TEMPLATE_FILE.read_text(encoding="utf-8")
     return (
         template.replace("{{DATE}}", html.escape(data["date"]))
+        .replace("{{HEADLINE}}", html.escape(headline))
+        .replace("{{SUBTITLE}}", html.escape(subtitle))
+        .replace("{{FOOTNOTE}}", html.escape(footnote))
         .replace("{{MARKETS}}", "\n".join(market_html(market) for market in markets))
         .replace("{{SOURCE}}", html.escape(data.get("source", "QVeris API")))
         .replace("{{LOGO}}", get_logo_data_url())
