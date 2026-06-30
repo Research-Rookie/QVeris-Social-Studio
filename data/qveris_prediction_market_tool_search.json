@@ -1,0 +1,2537 @@
+[
+  {
+    "query": "Kalshi markets list yes price no price volume liquidity",
+    "results": [
+      {
+        "name": "List Volume Incentives",
+        "provider": null,
+        "tool_id": "kalshi.trade.incentive_programs.list.v2.2a550afb",
+        "cost": "1",
+        "description": "List volume incentives with optional filters. Volume incentives are rewards programs for trading activity on specific markets.",
+        "params": [
+          {
+            "name": "status",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Trades",
+        "provider": null,
+        "tool_id": "kalshi.trade-api.markets.trades.list.v2.909ea39e",
+        "cost": "1",
+        "description": "Endpoint for getting all trades for all markets. A trade represents a completed transaction between two users on a specific market. Each trade includes the market ticker, price, quantity, and timestamp information. This endpoint returns a paginated response. Use the 'limit' parameter to control page size (1-1000, defaults to 100). The response includes a 'cursor' field - pass this value in the 'cursor' parameter of your next request to get the next page. An empty cursor indicates no more pages are available.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "min_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_ts",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Markets",
+        "provider": null,
+        "tool_id": "kalshi.elections.markets.list.v2.337a92c0",
+        "cost": "1",
+        "description": "Retrieve a list of markets with optional filtering by status, timestamps, event ticker, series ticker, and other parameters.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "event_ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "series_ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "min_created_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_created_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "min_close_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_close_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "min_settled_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_settled_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "multivariate",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Retrieve Coin Markets",
+        "provider": null,
+        "tool_id": "coingecko.coins.markets.retrieve.v3.e29013be",
+        "cost": "2",
+        "description": "Get market data for coins including price, market cap, volume, and more.",
+        "params": [
+          {
+            "name": "vs_currency",
+            "type": "string",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "Coins List with Market Data",
+        "provider": null,
+        "tool_id": "coingecko.coins.markets.retrieve.v3.b82315ba",
+        "cost": "2",
+        "description": "This endpoint allows you to query all the supported coins with price, market cap, volume and market related data.",
+        "params": [
+          {
+            "name": "vs_currency",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "ids",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "names",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "symbols",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "include_tokens",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "order",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "per_page",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "page",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "sparkline",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "price_change_percentage",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "locale",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "precision",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Listings Latest",
+        "provider": null,
+        "tool_id": "coinmarketcap.cryptocurrency.listings.latest.retrieve.v2.251242d7",
+        "cost": "1",
+        "description": "Returns a paginated list of all active cryptocurrencies with latest market data. The default \"market_cap\" sort returns cryptocurrency in order of CoinMarketCap's market cap rank (as outlined in <a href=\"https://coinmarketcap.com/methodology/\" target=\"_blank\">our methodology</a>) but you may configure this call to order by another market ranking field. Use the \"convert\" option to return market values in multiple fiat and cryptocurrency conversions in the same call.\n\n\nYou may sort against any of the following:  \n**market_cap**: CoinMarketCap's market cap rank as outlined in <a href=\"https://coinmarketcap.com/methodology/\" target=\"_blank\">our methodology</a>.  \n**market_cap_strict**: A strict market cap sort (latest trade price x circulating supply).  \n**name**: The cryptocurrency name.  \n**symbol**: The cryptocurrency symbol.  \n**date_added**: Date cryptocurrency was added to the system.  \n**price**: latest average trade price across markets.  \n**circulating_supply**: approximate number of coins currently in circulation.  \n**total_supply**: approximate total amount of coins in existence right now (minus any coins that have been verifiably burned).  \n**max_supply**: our best approximation of the maximum amount of coins that will ever exist in the lifetime of the currency.  \n**num_market_pairs**: number of market pairs across all exchanges trading each currency.  \n**market_cap_by_total_supply_strict**: market cap by total supply.  \n**volume_24h**: rolling 24 hour adjusted trading volume.  \n**volume_7d**: rolling 24 hour adjusted trading volume.  \n**volume_30d**: rolling 24 hour adjusted trading volume.  \n**percent_change_1h**: 1 hour trading price percentage change for each currency.  \n**percent_change_24h**: 24 hour trading price percentage change for each currency.  \n**percent_change_7d**: 7 day trading price percentage change for each currency.  \n\n  **This endpoint is available on the following <a href=\"https://coinmarketcap.com/api/features\" target=\"_blank\">API plans</a>:**\n  - Basic\n  - Hobbyist\n  - Startup\n  - Standard\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.\n**CMC equivalent pages:** Our latest cryptocurrency listing and ranking pages like [coinmarketcap.com/all/views/all/](https://coinmarketcap.com/all/views/all/), [coinmarketcap.com/tokens/](https://coinmarketcap.com/tokens/), [coinmarketcap.com/gainers-losers/](https://coinmarketcap.com/gainers-losers/), [coinmarketcap.com/new/](https://coinmarketcap.com/new/).     \n  \n***NOTE:** Use this endpoint if you need a sorted and paginated list of all cryptocurrencies. If you want to query for market data on a few specific cryptocurrencies use [/v1/cryptocurrency/quotes/latest](#operation/getV1CryptocurrencyQuotesLatest) which is optimized for that purpose. The response data between these endpoints is otherwise the same.* ",
+        "params": [
+          {
+            "name": "start",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "price_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "price_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "market_cap_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "market_cap_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_24h_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_24h_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "circulating_supply_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "circulating_supply_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "percent_change_24h_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "percent_change_24h_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "self_reported_circulating_supply_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "self_reported_circulating_supply_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "self_reported_market_cap_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "self_reported_market_cap_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "unlocked_market_cap_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "unlocked_market_cap_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "unlocked_circulating_supply_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "unlocked_circulating_supply_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "convert",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "convert_id",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "sort",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "sort_dir",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "cryptocurrency_type",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "tag",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "aux",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Listings Latest",
+        "provider": null,
+        "tool_id": "coinmarketcap.cryptocurrency.listings.latest.retrieve.v1.8dddc12f",
+        "cost": "1",
+        "description": "Returns a paginated list of all active cryptocurrencies with latest market data. The default \"market_cap\" sort returns cryptocurrency in order of CoinMarketCap's market cap rank (as outlined in <a href=\"https://coinmarketcap.com/methodology/\" target=\"_blank\">our methodology</a>) but you may configure this call to order by another market ranking field. Use the \"convert\" option to return market values in multiple fiat and cryptocurrency conversions in the same call.\n\n\nYou may sort against any of the following:  \n**market_cap**: CoinMarketCap's market cap rank as outlined in <a href=\"https://coinmarketcap.com/methodology/\" target=\"_blank\">our methodology</a>.  \n**market_cap_strict**: A strict market cap sort (latest trade price x circulating supply).  \n**name**: The cryptocurrency name.  \n**symbol**: The cryptocurrency symbol.  \n**date_added**: Date cryptocurrency was added to the system.  \n**price**: latest average trade price across markets.  \n**circulating_supply**: approximate number of coins currently in circulation.  \n**total_supply**: approximate total amount of coins in existence right now (minus any coins that have been verifiably burned).  \n**max_supply**: our best approximation of the maximum amount of coins that will ever exist in the lifetime of the currency.  \n**num_market_pairs**: number of market pairs across all exchanges trading each currency.  \n**market_cap_by_total_supply_strict**: market cap by total supply.  \n**volume_24h**: rolling 24 hour adjusted trading volume.  \n**volume_7d**: rolling 24 hour adjusted trading volume.  \n**volume_30d**: rolling 24 hour adjusted trading volume.  \n**percent_change_1h**: 1 hour trading price percentage change for each currency.  \n**percent_change_24h**: 24 hour trading price percentage change for each currency.  \n**percent_change_7d**: 7 day trading price percentage change for each currency.  \n\n  **This endpoint is available on the following <a href=\"https://coinmarketcap.com/api/features\" target=\"_blank\">API plans</a>:**\n  - Basic\n  - Hobbyist\n  - Startup\n  - Standard\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.\n**CMC equivalent pages:** Our latest cryptocurrency listing and ranking pages like [coinmarketcap.com/all/views/all/](https://coinmarketcap.com/all/views/all/), [coinmarketcap.com/tokens/](https://coinmarketcap.com/tokens/), [coinmarketcap.com/gainers-losers/](https://coinmarketcap.com/gainers-losers/), [coinmarketcap.com/new/](https://coinmarketcap.com/new/).     \n  \n***NOTE:** Use this endpoint if you need a sorted and paginated list of all cryptocurrencies. If you want to query for market data on a few specific cryptocurrencies use [/v1/cryptocurrency/quotes/latest](#operation/getV1CryptocurrencyQuotesLatest) which is optimized for that purpose. The response data between these endpoints is otherwise the same.* ",
+        "params": [
+          {
+            "name": "start",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "price_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "price_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "market_cap_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "market_cap_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_24h_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_24h_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "circulating_supply_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "circulating_supply_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "percent_change_24h_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "percent_change_24h_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "self_reported_circulating_supply_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "self_reported_circulating_supply_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "self_reported_market_cap_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "self_reported_market_cap_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "unlocked_market_cap_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "unlocked_market_cap_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "unlocked_circulating_supply_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "unlocked_circulating_supply_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "convert",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "convert_id",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "sort",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "sort_dir",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "cryptocurrency_type",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "tag",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "aux",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Index Price Names",
+        "provider": null,
+        "tool_id": "deribit.public.get_index_price_names.retrieve.v2.8e3a27c6",
+        "cost": "1",
+        "description": "Retrieves the identifiers of all supported Price Indexes",
+        "params": [
+          {
+            "name": "extended",
+            "type": "boolean",
+            "required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Kalshi market ticker retrieve yes_bid yes_ask last_price",
+    "results": [
+      {
+        "name": "Get Trades",
+        "provider": null,
+        "tool_id": "kalshi.trade-api.markets.trades.list.v2.909ea39e",
+        "cost": "1",
+        "description": "Endpoint for getting all trades for all markets. A trade represents a completed transaction between two users on a specific market. Each trade includes the market ticker, price, quantity, and timestamp information. This endpoint returns a paginated response. Use the 'limit' parameter to control page size (1-1000, defaults to 100). The response includes a 'cursor' field - pass this value in the 'cursor' parameter of your next request to get the next page. An empty cursor indicates no more pages are available.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "min_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_ts",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Market Orderbook",
+        "provider": null,
+        "tool_id": "kalshi.trade.markets.orderbook.retrieve.v2.05c2422e",
+        "cost": "1",
+        "description": "Endpoint for getting the current order book for a specific market. The order book shows all active bid orders for both yes and no sides of a binary market. It returns yes bids and no bids only (no asks are returned). This is because in binary markets, a bid for yes at price X is equivalent to an ask for no at price (100-X). For example, a yes bid at 7¢ is the same as a no ask at 93¢, with identical contract sizes. Each side shows price levels with their corresponding quantities and order counts, organized from best to worst prices.",
+        "params": [
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "depth",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get User Data Timestamp",
+        "provider": null,
+        "tool_id": "kalshi.elections.exchange.user_data_timestamp.retrieve.v2.78c5d191",
+        "cost": "1",
+        "description": "This endpoint provides an approximate indication of when the data from the following endpoints was last validated: GetBalance, GetOrder(s), GetFills, GetPositions.",
+        "params": []
+      },
+      {
+        "name": "Get Symbol Price Ticker",
+        "provider": null,
+        "tool_id": "binance.ticker_price.query.v1.bd0d0f37",
+        "cost": "1",
+        "description": "Get the latest market price for one or multiple symbols.",
+        "params": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "symbols",
+            "type": "array",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Exchange Status",
+        "provider": null,
+        "tool_id": "kalshi.trade-api.exchange.status.retrieve.v2.e9910e2c",
+        "cost": "1",
+        "description": "Endpoint for getting the exchange status.",
+        "params": []
+      },
+      {
+        "name": "Get Exchange Schedule",
+        "provider": null,
+        "tool_id": "kalshi.trade-api.exchange.schedule.retrieve.v2.6757a544",
+        "cost": "1",
+        "description": "Endpoint for getting the exchange schedule.",
+        "params": []
+      },
+      {
+        "name": "Get Ticker",
+        "provider": null,
+        "tool_id": "deribit.public.ticker.retrieve.v2.0a219008",
+        "cost": "1",
+        "description": "Get ticker for an instrument.",
+        "params": [
+          {
+            "name": "instrument_name",
+            "type": "string",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "Retrieve Real-Time (Delayed) Stock Prices",
+        "provider": null,
+        "tool_id": "eodhd.real_time.retrieve.v1.3b8a5cf8",
+        "cost": "2.81",
+        "description": "Fetch real-time price data for a specified cryptocurrency pair.",
+        "params": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "fmt",
+            "type": "string",
+            "required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Kalshi event markets include_markets market prices",
+    "results": [
+      {
+        "name": "List political prediction events",
+        "provider": null,
+        "tool_id": "kalshi.events.list.v2.f3ad33a5",
+        "cost": "1",
+        "description": "Retrieve a paginated list of prediction market events from Kalshi's election and politics trading API, including metadata such as title, category, event ticker, and availability.",
+        "params": [
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Market Orderbook",
+        "provider": null,
+        "tool_id": "kalshi.trade.markets.orderbook.retrieve.v2.05c2422e",
+        "cost": "1",
+        "description": "Endpoint for getting the current order book for a specific market. The order book shows all active bid orders for both yes and no sides of a binary market. It returns yes bids and no bids only (no asks are returned). This is because in binary markets, a bid for yes at price X is equivalent to an ask for no at price (100-X). For example, a yes bid at 7¢ is the same as a no ask at 93¢, with identical contract sizes. Each side shows price levels with their corresponding quantities and order counts, organized from best to worst prices.",
+        "params": [
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "depth",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Trades",
+        "provider": null,
+        "tool_id": "kalshi.trade-api.markets.trades.list.v2.909ea39e",
+        "cost": "1",
+        "description": "Endpoint for getting all trades for all markets. A trade represents a completed transaction between two users on a specific market. Each trade includes the market ticker, price, quantity, and timestamp information. This endpoint returns a paginated response. Use the 'limit' parameter to control page size (1-1000, defaults to 100). The response includes a 'cursor' field - pass this value in the 'cursor' parameter of your next request to get the next page. An empty cursor indicates no more pages are available.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "min_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_ts",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get the market calendar",
+        "provider": null,
+        "tool_id": "tradier.markets.calendar.list.v1",
+        "cost": "1",
+        "description": "Get the market calendar for current or a specific month",
+        "params": []
+      },
+      {
+        "name": "Get Market Calendar",
+        "provider": null,
+        "tool_id": "tradier.markets.calendar.retrieve.v1",
+        "cost": "1",
+        "description": "Retrieves the market calendar including dates, status, and trading hours.",
+        "params": []
+      },
+      {
+        "name": "Get Multivariate Event Collection Lookup History",
+        "provider": null,
+        "tool_id": "kalshi.elections.multivariate_event_collections.lookup.retrieve.v2.c0229890",
+        "cost": "1",
+        "description": "Endpoint for retrieving which markets in an event collection were recently looked up.",
+        "params": [
+          {
+            "name": "collection_ticker",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "seconds_back",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Markets",
+        "provider": null,
+        "tool_id": "kalshi.elections.markets.list.v2.337a92c0",
+        "cost": "1",
+        "description": "Retrieve a list of markets with optional filtering by status, timestamps, event ticker, series ticker, and other parameters.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "event_ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "series_ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "min_created_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_created_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "min_close_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_close_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "min_settled_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_settled_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "multivariate",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Market Candlesticks",
+        "provider": null,
+        "tool_id": "kalshi.trade.series.markets.candlesticks.retrieve.v2.cdf75529",
+        "cost": "1",
+        "description": "Retrieve candlestick data for a specific market within a series. Each candlestick represents price and volume data aggregated over a specified time period.",
+        "params": [
+          {
+            "name": "series_ticker",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "start_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "end_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "period",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Kalshi market orderbook ticker bid ask yes no price",
+    "results": [
+      {
+        "name": "Get Market Orderbook",
+        "provider": null,
+        "tool_id": "kalshi.trade.markets.orderbook.retrieve.v2.05c2422e",
+        "cost": "1",
+        "description": "Endpoint for getting the current order book for a specific market. The order book shows all active bid orders for both yes and no sides of a binary market. It returns yes bids and no bids only (no asks are returned). This is because in binary markets, a bid for yes at price X is equivalent to an ask for no at price (100-X). For example, a yes bid at 7¢ is the same as a no ask at 93¢, with identical contract sizes. Each side shows price levels with their corresponding quantities and order counts, organized from best to worst prices.",
+        "params": [
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "depth",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Trades",
+        "provider": null,
+        "tool_id": "kalshi.trade-api.markets.trades.list.v2.909ea39e",
+        "cost": "1",
+        "description": "Endpoint for getting all trades for all markets. A trade represents a completed transaction between two users on a specific market. Each trade includes the market ticker, price, quantity, and timestamp information. This endpoint returns a paginated response. Use the 'limit' parameter to control page size (1-1000, defaults to 100). The response includes a 'cursor' field - pass this value in the 'cursor' parameter of your next request to get the next page. An empty cursor indicates no more pages are available.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "min_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_ts",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Live Ticker Price",
+        "provider": null,
+        "tool_id": "binance.ticker.price.list.v3.8675eca0",
+        "cost": "1",
+        "description": "Use this endpoint to get the live ticker price.",
+        "params": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "symbols",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Symbol Order Book Ticker",
+        "provider": null,
+        "tool_id": "binance.ticker_book.query.v1.8ebfe690",
+        "cost": "1",
+        "description": "Get the current best price and quantity on the order book for one or multiple symbols.",
+        "params": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "symbols",
+            "type": "array",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Single Ticker",
+        "provider": null,
+        "tool_id": "okx_api_v5.market.ticker.retrieve.v5.e878da46",
+        "cost": "1",
+        "description": "Retrieve the latest price snapshot, best bid/ask price, and trading volume in the last 24 hours for a specific instrument",
+        "params": [
+          {
+            "name": "instId",
+            "type": "string",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "Get Exchange Status",
+        "provider": null,
+        "tool_id": "kalshi.trade-api.exchange.status.retrieve.v2.e9910e2c",
+        "cost": "1",
+        "description": "Endpoint for getting the exchange status.",
+        "params": []
+      },
+      {
+        "name": "Get Symbol Price Ticker",
+        "provider": null,
+        "tool_id": "binance.ticker_price.query.v1.bd0d0f37",
+        "cost": "1",
+        "description": "Get the latest market price for one or multiple symbols.",
+        "params": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "symbols",
+            "type": "array",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Exchange Schedule",
+        "provider": null,
+        "tool_id": "kalshi.trade-api.exchange.schedule.retrieve.v2.6757a544",
+        "cost": "1",
+        "description": "Endpoint for getting the exchange schedule.",
+        "params": []
+      }
+    ]
+  },
+  {
+    "query": "Polymarket market price probability by slug",
+    "results": [
+      {
+        "name": "List Markets",
+        "provider": null,
+        "tool_id": "polymarket.gamma_get_markets.v1",
+        "cost": "1",
+        "description": "Polymarket API: GET /markets.\nTo get the NEWEST CREATED markets, use: order='createdAt' with ascending=false and limit.\nTo get markets that START on or after a specific date, use: start_date_min (ISO 8601 format, e.g., '2026-03-10').\n\nIMPORTANT: \n- start_date_min filters by market.startDate (when the market starts), NOT by market.createdAt (when it was created)\n- To find newly CREATED markets, use order='createdAt' with ascending=false, NOT start_date_min\n- start_date_min and order can be used together to find newest markets that start on/after a date.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "offset",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "order",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ascending",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "id",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "slug",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "clob_token_ids",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "condition_ids",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "market_maker_address",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "liquidity_num_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "liquidity_num_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_num_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_num_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "start_date_min",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "start_date_max",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "end_date_min",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "end_date_max",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "tag_id",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "related_tags",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "cyom",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "uma_resolution_status",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "game_id",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "sports_market_types",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "rewards_min_size",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "question_ids",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "include_tag",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "closed",
+            "type": "boolean",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "List Events",
+        "provider": null,
+        "tool_id": "polymarket.events.list.v1.eafcc524",
+        "cost": "1",
+        "description": "Retrieve a list of Polymarket events. To get the newest events, use order='createdAt' with ascending=false. \n IMPORTANT: To find newly created events, always filter by event.createdAt, NOT by series.updatedAt. \nSeries.updatedAt updates frequently when new events are added to a series, but this does NOT mean the event itself is new.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "offset",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "order",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ascending",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "id",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "tag_id",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "exclude_tag_id",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "slug",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "tag_slug",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "related_tags",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "active",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "archived",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "featured",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "cyom",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "include_chat",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "include_template",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "recurrence",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "closed",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "liquidity_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "liquidity_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "start_date_min",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "start_date_max",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "end_date_min",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "end_date_max",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Coin Data by Token Address",
+        "provider": null,
+        "tool_id": "coingecko_pro.coins.contract.retrieve.v3.c80ea39a",
+        "cost": "1",
+        "description": "This endpoint allows you to **query all the metadata (image, websites, socials, description, contract address, etc.) and market data (price, ATH, exchange tickers, etc.) of a coin from the CoinGecko coin page based on an asset platform and a particular token contract address**",
+        "params": [
+          {
+            "name": "id",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "contract_address",
+            "type": "string",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "Get tags related to a tag slug",
+        "provider": null,
+        "tool_id": "polymarket.tags.slug.related.list.v1.cb2cb5f0",
+        "cost": "1",
+        "description": "Get tags related to a tag slug",
+        "params": [
+          {
+            "name": "slug",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "omit_empty",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get related tags (relationships) by tag slug",
+        "provider": null,
+        "tool_id": "polymarket.tags.related_tags.retrieve.v1.4b7a3c37",
+        "cost": "1",
+        "description": "Get related tags (relationships) by tag slug",
+        "params": [
+          {
+            "name": "slug",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "omit_empty",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "List Series",
+        "provider": null,
+        "tool_id": "polymarket.gamma_get_series.v1",
+        "cost": "1",
+        "description": "Polymarket API: GET /series",
+        "params": []
+      },
+      {
+        "name": "Get tag by id",
+        "provider": null,
+        "tool_id": "polymarket.tags.retrieve.v1.b81d70de",
+        "cost": "1",
+        "description": "Get tag by id",
+        "params": [
+          {
+            "name": "id",
+            "type": "integer",
+            "required": true
+          },
+          {
+            "name": "include_template",
+            "type": "boolean",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "💼 NFTs Collection Historical Chart Data by Contract Address",
+        "provider": null,
+        "tool_id": "coingecko_pro.nfts.contract.marketchart.retrieve.v3.d3b692b9",
+        "cost": "1",
+        "description": "This endpoint allows you **query historical market data of a NFT collection, including floor price, market cap, and 24hr volume, by number of days away from now based on the provided contract address**",
+        "params": [
+          {
+            "name": "asset_platform_id",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "contract_address",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "days",
+            "type": "string",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Polymarket market orderbook yes price no price",
+    "results": [
+      {
+        "name": "Get Market Orderbook",
+        "provider": null,
+        "tool_id": "kalshi.trade.markets.orderbook.retrieve.v2.05c2422e",
+        "cost": "1",
+        "description": "Endpoint for getting the current order book for a specific market. The order book shows all active bid orders for both yes and no sides of a binary market. It returns yes bids and no bids only (no asks are returned). This is because in binary markets, a bid for yes at price X is equivalent to an ask for no at price (100-X). For example, a yes bid at 7¢ is the same as a no ask at 93¢, with identical contract sizes. Each side shows price levels with their corresponding quantities and order counts, organized from best to worst prices.",
+        "params": [
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "depth",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "List Markets",
+        "provider": null,
+        "tool_id": "polymarket.gamma_get_markets.v1",
+        "cost": "1",
+        "description": "Polymarket API: GET /markets.\nTo get the NEWEST CREATED markets, use: order='createdAt' with ascending=false and limit.\nTo get markets that START on or after a specific date, use: start_date_min (ISO 8601 format, e.g., '2026-03-10').\n\nIMPORTANT: \n- start_date_min filters by market.startDate (when the market starts), NOT by market.createdAt (when it was created)\n- To find newly CREATED markets, use order='createdAt' with ascending=false, NOT start_date_min\n- start_date_min and order can be used together to find newest markets that start on/after a date.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "offset",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "order",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ascending",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "id",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "slug",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "clob_token_ids",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "condition_ids",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "market_maker_address",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "liquidity_num_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "liquidity_num_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_num_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_num_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "start_date_min",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "start_date_max",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "end_date_min",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "end_date_max",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "tag_id",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "related_tags",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "cyom",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "uma_resolution_status",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "game_id",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "sports_market_types",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "rewards_min_size",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "question_ids",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "include_tag",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "closed",
+            "type": "boolean",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "List Events",
+        "provider": null,
+        "tool_id": "polymarket.events.list.v1.eafcc524",
+        "cost": "1",
+        "description": "Retrieve a list of Polymarket events. To get the newest events, use order='createdAt' with ascending=false. \n IMPORTANT: To find newly created events, always filter by event.createdAt, NOT by series.updatedAt. \nSeries.updatedAt updates frequently when new events are added to a series, but this does NOT mean the event itself is new.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "offset",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "order",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ascending",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "id",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "tag_id",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "exclude_tag_id",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "slug",
+            "type": "array",
+            "required": false
+          },
+          {
+            "name": "tag_slug",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "related_tags",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "active",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "archived",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "featured",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "cyom",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "include_chat",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "include_template",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "recurrence",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "closed",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "liquidity_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "liquidity_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_min",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "volume_max",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "start_date_min",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "start_date_max",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "end_date_min",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "end_date_max",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Trades",
+        "provider": null,
+        "tool_id": "polymarket.data_get_trades.v1",
+        "cost": "1",
+        "description": "Polymarket API: GET /trades",
+        "params": []
+      },
+      {
+        "name": "Get sampling markets",
+        "provider": null,
+        "tool_id": "polymarket.sampling_markets.list.v1.22152668",
+        "cost": "1",
+        "description": "Get sampling markets",
+        "params": []
+      },
+      {
+        "name": "List Series",
+        "provider": null,
+        "tool_id": "polymarket.gamma_get_series.v1",
+        "cost": "1",
+        "description": "Polymarket API: GET /series",
+        "params": []
+      },
+      {
+        "name": "Get tag by id",
+        "provider": null,
+        "tool_id": "polymarket.tags.retrieve.v1.b81d70de",
+        "cost": "1",
+        "description": "Get tag by id",
+        "params": [
+          {
+            "name": "id",
+            "type": "integer",
+            "required": true
+          },
+          {
+            "name": "include_template",
+            "type": "boolean",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Trades",
+        "provider": null,
+        "tool_id": "kalshi.trade-api.markets.trades.list.v2.909ea39e",
+        "cost": "1",
+        "description": "Endpoint for getting all trades for all markets. A trade represents a completed transaction between two users on a specific market. Each trade includes the market ticker, price, quantity, and timestamp information. This endpoint returns a paginated response. Use the 'limit' parameter to control page size (1-1000, defaults to 100). The response includes a 'cursor' field - pass this value in the 'cursor' parameter of your next request to get the next page. An empty cursor indicates no more pages are available.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "min_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_ts",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "prediction market market ticker retrieve price probability",
+    "results": [
+      {
+        "name": "List political prediction events",
+        "provider": null,
+        "tool_id": "kalshi.events.list.v2.f3ad33a5",
+        "cost": "1",
+        "description": "Retrieve a paginated list of prediction market events from Kalshi's election and politics trading API, including metadata such as title, category, event ticker, and availability.",
+        "params": [
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Symbol Price Ticker",
+        "provider": null,
+        "tool_id": "binance.ticker_price.query.v1.bd0d0f37",
+        "cost": "1",
+        "description": "Get the latest market price for one or multiple symbols.",
+        "params": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "symbols",
+            "type": "array",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Market Orderbook",
+        "provider": null,
+        "tool_id": "kalshi.trade.markets.orderbook.retrieve.v2.05c2422e",
+        "cost": "1",
+        "description": "Endpoint for getting the current order book for a specific market. The order book shows all active bid orders for both yes and no sides of a binary market. It returns yes bids and no bids only (no asks are returned). This is because in binary markets, a bid for yes at price X is equivalent to an ask for no at price (100-X). For example, a yes bid at 7¢ is the same as a no ask at 93¢, with identical contract sizes. Each side shows price levels with their corresponding quantities and order counts, organized from best to worst prices.",
+        "params": [
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "depth",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Trades",
+        "provider": null,
+        "tool_id": "kalshi.trade-api.markets.trades.list.v2.909ea39e",
+        "cost": "1",
+        "description": "Endpoint for getting all trades for all markets. A trade represents a completed transaction between two users on a specific market. Each trade includes the market ticker, price, quantity, and timestamp information. This endpoint returns a paginated response. Use the 'limit' parameter to control page size (1-1000, defaults to 100). The response includes a 'cursor' field - pass this value in the 'cursor' parameter of your next request to get the next page. An empty cursor indicates no more pages are available.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "min_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_ts",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Markets",
+        "provider": null,
+        "tool_id": "kalshi.elections.markets.list.v2.337a92c0",
+        "cost": "1",
+        "description": "Retrieve a list of markets with optional filtering by status, timestamps, event ticker, series ticker, and other parameters.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "event_ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "series_ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "min_created_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_created_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "min_close_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_close_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "min_settled_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_settled_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "multivariate",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Multivariate Events",
+        "provider": null,
+        "tool_id": "kalshi.elections.events.multivariate.list.v2.6cba3fdd",
+        "cost": "1",
+        "description": "Retrieve multivariate (combo) events. These are dynamically created events from multivariate event collections. Supports filtering by series and collection ticker.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "series_ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "collection_ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "include_markets",
+            "type": "boolean",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Live Ticker Price",
+        "provider": null,
+        "tool_id": "binance.ticker.price.list.v3.8675eca0",
+        "cost": "1",
+        "description": "Use this endpoint to get the live ticker price.",
+        "params": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "symbols",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Multivariate Event Collections",
+        "provider": null,
+        "tool_id": "kalshi.elections.multivariate_event_collections.list.v2.bd236f0a",
+        "cost": "1",
+        "description": "Endpoint for getting data about multivariate event collections.",
+        "params": [
+          {
+            "name": "status",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "event_ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "series_ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "prediction market yes price no price volume liquidity",
+    "results": [
+      {
+        "name": "Get Trades",
+        "provider": null,
+        "tool_id": "kalshi.trade-api.markets.trades.list.v2.909ea39e",
+        "cost": "1",
+        "description": "Endpoint for getting all trades for all markets. A trade represents a completed transaction between two users on a specific market. Each trade includes the market ticker, price, quantity, and timestamp information. This endpoint returns a paginated response. Use the 'limit' parameter to control page size (1-1000, defaults to 100). The response includes a 'cursor' field - pass this value in the 'cursor' parameter of your next request to get the next page. An empty cursor indicates no more pages are available.",
+        "params": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "ticker",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "min_ts",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "max_ts",
+            "type": "integer",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get daily builder volume time-series",
+        "provider": null,
+        "tool_id": "polymarket.builders.volume.list.v1.38f84687",
+        "cost": "1",
+        "description": "Get daily builder volume time-series. Success - Returns array of daily volume records.",
+        "params": [
+          {
+            "name": "timePeriod",
+            "type": "string",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "Get Symbol Price Ticker",
+        "provider": null,
+        "tool_id": "binance.ticker_price.query.v1.bd0d0f37",
+        "cost": "1",
+        "description": "Get the latest market price for one or multiple symbols.",
+        "params": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "symbols",
+            "type": "array",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Retrieve Coin Markets",
+        "provider": null,
+        "tool_id": "coingecko.coins.markets.retrieve.v3.e29013be",
+        "cost": "2",
+        "description": "Get market data for coins including price, market cap, volume, and more.",
+        "params": [
+          {
+            "name": "vs_currency",
+            "type": "string",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "Get open interest",
+        "provider": null,
+        "tool_id": "polymarket.open_interest.list.v1.f613174f",
+        "cost": "1",
+        "description": "Get open interest for markets",
+        "params": [
+          {
+            "name": "market",
+            "type": "array",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "List Series",
+        "provider": null,
+        "tool_id": "polymarket.series.list.v1.7e5c1eeb",
+        "cost": "1",
+        "description": "Retrieve a list of series with detailed information including events, markets, categories, and collections",
+        "params": []
+      },
+      {
+        "name": "Get Delivery Price",
+        "provider": null,
+        "tool_id": "bybitp2p.market.deliveryprice.list.v5.b0ec18ee",
+        "cost": "1",
+        "description": "Get delivery price",
+        "params": [
+          {
+            "name": "category",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "baseCoin",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Index Price",
+        "provider": null,
+        "tool_id": "deribit.public.get_index_price.retrieve.v2.d47dcdcb",
+        "cost": "1",
+        "description": "Retrieves the current index price value for given index name.",
+        "params": [
+          {
+            "name": "index_name",
+            "type": "string",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "prediction market historical probability time series by market",
+    "results": [
+      {
+        "name": "Time Series Intraday",
+        "provider": null,
+        "tool_id": "alphavantage.time-series.intraday.v1",
+        "cost": "2",
+        "description": "Returns current and 20+ years of historical intraday OHLCV time series of the equity specified, covering pre-market and post-market hours where applicable. The OHLCV data is sometimes called 'candles' in finance literature.",
+        "params": [
+          {
+            "name": "function",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "interval",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "adjusted",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "extended_hours",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "month",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "outputsize",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "datatype",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Time series",
+        "provider": null,
+        "tool_id": "twelvedata.timeseries.retrieve.v1.736574ba",
+        "cost": "2.37",
+        "description": "The time series endpoint provides detailed historical data for a specified financial instrument. It returns two main components: metadata, which includes essential information about the instrument, and a time series dataset. The time series consists of chronological entries with Open, High, Low, and Close prices, and for applicable instruments, it also includes trading volume. This endpoint is ideal for retrieving comprehensive historical price data for analysis or visualization purposes.",
+        "params": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "isin",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "figi",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "cusip",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "interval",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "outputsize",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "exchange",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "mic_code",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "timezone",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "start_date",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "date",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "order",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "prepost",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "delimiter",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "dp",
+            "type": "integer",
+            "required": false
+          },
+          {
+            "name": "previous_close",
+            "type": "boolean",
+            "required": false
+          },
+          {
+            "name": "adjust",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Historical Market Cap",
+        "provider": null,
+        "tool_id": "financialmodelingprep.stable.historicalmarketcapitalization.retrieve.v1.dcc3f98e",
+        "cost": "24.2",
+        "description": "The FMP Historical Market Capitalization API allows users to retrieve past market cap data for any company listed in the database. Key features include: Track Long-Term Performance : Retrieve historical market cap data to analyze how a company's value has evolved over time. Identify Trends : Use historical data to spot trends, whether it's consistent growth, decline, or periods of volatility. Informed Investment Decisions : Investors can use this data to evaluate a company's long-term performance and make more informed investment choices. This API is ideal for analysts, portfolio managers, and investors looking to assess a company’s growth trajectory or historical performance in the market. Example Use Case An investor looking to evaluate Apple's historical performance can use the Historical Market Capitalization API to retrieve past market cap data. This helps them understand how Apple's valuation has changed over time, identifying periods of growth or decline and comparing it with overall market conditions.",
+        "params": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "limit",
+            "type": "number",
+            "required": false
+          },
+          {
+            "name": "from",
+            "type": "date",
+            "required": false
+          },
+          {
+            "name": "to",
+            "type": "date",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "4 Hour Interval Stock Chart",
+        "provider": null,
+        "tool_id": "financialmodelingprep.stable.historicalchart.4hour.retrieve.v1.395fd87c",
+        "cost": "24.2",
+        "description": "The FMP 4-Hour Interval Stock Chart API provides traders and investors with essential data points over longer intraday time frames, allowing for comprehensive trend analysis. Ideal for users who want to track price movements in blocks larger than 1 hour but still within the trading day. Key features include: 4-Hour Price Intervals : Access open, high, low, and close prices, updated every 4 hours to provide a clearer view of intraday market trends. Volume Data : Understand market activity by tracking trading volumes during each 4-hour period. Ideal for Medium-Term Intraday Analysis : Longer intervals allow for deeper analysis of stock movements, helping to identify patterns and trends within a trading day. Historical Data : Retrieve past 4-hour price data to study trends and create broader price movement models. Intraday Market Strategy Support : Use the data to develop trading strategies that benefit from wider price movements and shifts within a trading session. Example Use Case A position trader uses the 4-Hour Interval Stock Chart API to monitor the longer intraday performance of Apple stock, allowing them to detect more substantial trends and price shifts without getting lost in short-term fluctuations.",
+        "params": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "from",
+            "type": "date",
+            "required": false
+          },
+          {
+            "name": "to",
+            "type": "date",
+            "required": false
+          },
+          {
+            "name": "nonadjusted",
+            "type": "boolean",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Retrieve Monthly Cryptocurrency Time Series",
+        "provider": null,
+        "tool_id": "alphavantage.digital_currency_monthly.retrieve.v1.7aca3c4a",
+        "cost": "2",
+        "description": "Returns the monthly historical time series for a cryptocurrency traded on a specific market, refreshed daily at midnight UTC.",
+        "params": [
+          {
+            "name": "function",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "market",
+            "type": "string",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "Retrieve Daily Time Series",
+        "provider": null,
+        "tool_id": "alphavantage.time-series.daily.v1",
+        "cost": "2",
+        "description": "Returns raw (as-traded) daily time series (date, daily open, daily high, daily low, daily close, daily volume) of the global equity specified, covering 20+ years of historical data.",
+        "params": [
+          {
+            "name": "function",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "outputsize",
+            "type": "string",
+            "required": false
+          },
+          {
+            "name": "datatype",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "TIME_SERIES_MONTHLY",
+        "provider": null,
+        "tool_id": "alphavantage.time_series.monthly.retrieve.v1.7aca3c4a",
+        "cost": "2",
+        "description": "Returns monthly time series (last trading day of each month, open, high, low, close, volume) of the global equity specified, covering 20+ years of historical data.; Returns monthly time series (last trading day of each month, monthly open, monthly high, monthly low, monthly close, monthly volume) of the global equity specified, covering 20+ years of historical data.",
+        "params": [
+          {
+            "name": "function",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "symbol",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "datatype",
+            "type": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "Get Series List",
+        "provider": null,
+        "tool_id": "kalshi.trade.series.list.v2.7949630f",
+        "cost": "1",
+        "description": "Endpoint for getting data about multiple series with specified filters. A series represents a template for recurring events that follow the same format and rules (e.g., \"Monthly Jobs Report\", \"Weekly Initial Jobless Claims\", \"Daily Weather in NYC\"). This endpoint allows you to browse and discover available series templates by category.",
+        "params": []
+      }
+    ]
+  }
+]
