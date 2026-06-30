@@ -30,26 +30,29 @@ type Post = {
 const posts = postsData as Post[];
 
 function categoryKey(post: Post) {
+  if (post.contentType === "MARKET PULSE") return "market-pulse";
   if (post.contentType === "FCF YIELD") return "fcf-yield";
   if (post.contentType === "PREDICTION MARKET") return "prediction-market";
-  return "market-pulse";
+  return null;
 }
+
+const activePosts = posts.filter((post) => categoryKey(post) !== null);
 
 const categories = [
   {
     key: "market-pulse",
     label: "Market Pulse",
-    count: posts.filter((post) => categoryKey(post) === "market-pulse").length,
+    count: activePosts.filter((post) => categoryKey(post) === "market-pulse").length,
   },
   {
     key: "fcf-yield",
     label: "FCF Yield",
-    count: posts.filter((post) => categoryKey(post) === "fcf-yield").length,
+    count: activePosts.filter((post) => categoryKey(post) === "fcf-yield").length,
   },
   {
     key: "prediction-market",
     label: "Prediction Market",
-    count: posts.filter((post) => categoryKey(post) === "prediction-market").length,
+    count: activePosts.filter((post) => categoryKey(post) === "prediction-market").length,
   },
   { key: "earnings", label: "Earnings", count: 0 },
 ];
@@ -71,20 +74,20 @@ export default function Home() {
   const [editingId, setEditingId] = useState<string | null>(null);
   const [selectedPostId, setSelectedPostId] = useState<string | null>(null);
   const [drafts, setDrafts] = useState<Record<string, string>>(
-    Object.fromEntries(posts.map((post) => [post.id, post.tweet])),
+    Object.fromEntries(activePosts.map((post) => [post.id, post.tweet])),
   );
 
   const visiblePosts = useMemo(() => {
-    return posts.filter((post) => {
+    return activePosts.filter((post) => {
       if (categoryKey(post) !== activeCategory) return false;
       return statusFilter === "all" || post.status === statusFilter;
     });
   }, [activeCategory, statusFilter]);
 
-  const publishedCount = posts.filter((post) => post.status === "published").length;
-  const readyCount = posts.filter((post) => post.status === "ready").length;
-  const latestDate = posts[0]?.date;
-  const selectedPost = posts.find((post) => post.id === selectedPostId) ?? null;
+  const publishedCount = activePosts.filter((post) => post.status === "published").length;
+  const readyCount = activePosts.filter((post) => post.status === "ready").length;
+  const latestDate = activePosts[0]?.date;
+  const selectedPost = activePosts.find((post) => post.id === selectedPostId) ?? null;
 
   async function copyTweet(post: Post) {
     await navigator.clipboard.writeText(drafts[post.id] ?? post.tweet);
