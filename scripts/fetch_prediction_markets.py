@@ -9,7 +9,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from qveris_finance import as_float, execute_best_tool, walk_dicts, walk_lists
+from qveris_finance import (
+    as_float,
+    execute_tool,
+    expected_credits,
+    fill_default_parameters,
+    search_tools,
+    walk_dicts,
+    walk_lists,
+)
 
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
@@ -18,6 +26,12 @@ RUN_TIMEZONE = ZoneInfo("Asia/Shanghai")
 SESSION_ID = "qveris-social-studio-prediction-market-pulse"
 QVERIS_PREDICTION_MARKET_TOOL_ID = os.environ.get("QVERIS_PREDICTION_MARKET_TOOL_ID", "")
 LIMIT = int(os.environ.get("PREDICTION_MARKET_LIMIT", "8"))
+SEARCH_QUERIES = [
+    "Kalshi multivariate events include markets prices prediction markets",
+    "Kalshi event markets yes price no price volume liquidity",
+    "prediction market active markets with yes price no price probability volume liquidity",
+    "Polymarket markets probability price volume liquidity",
+]
 
 
 def key_norm(value: str) -> str:
@@ -172,6 +186,143 @@ def parse_market(item: dict) -> dict | None:
     }
 
 
+def merge_event_market(event: dict, market: dict) -> dict:
+    merged = dict(event)
+    merged.update(market)
+    if not value_by_names(merged, ["title", "name", "question", "marketTitle", "market_title"]):
+        event_title = value_by_names(
+            event,
+            ["title", "name", "question", "eventTitle", "event_title", "shortTitle", "short_title"],
+        )
+        if event_title:
+            merged["title"] = event_title
+    if not value_by_names(merged, ["category", "series", "seriesTicker", "collectionTicker"]):
+        category = value_by_names(event, ["category", "series", "seriesTicker", "collectionTicker"])
+        if category:
+            merged["category"] = category
+    return merged
+
+
+def parse_event_with_markets(item: dict) -> list[dict]:
+    parsed = []
+    for key, value in item.items():
+        if not isinstance(value, list):
+            continue
+        if "market" not in str(key).lower() and "contract" not in str(key).lower():
+            continue
+        for child in value:
+            if isinstance(child, dict):
+                market = parse_market(merge_event_market(item, child))
+                if market:
+                    parsed.append(market)
+    return parsed
+
+
+def score_tool(tool: dict) -> int:
+    text = " ".join(
+        str(value or "")
+        for value in [
+            tool.get("name"),
+            tool.get("tool_id"),
+            tool.get("description"),
+            tool.get("provider_name"),
+            tool.get("provider"),
+        ]
+    ).lower()
+    param_names = {
+        str(param.get("name") or "").lower()
+        for param in (tool.get("params") or [])
+    }
+    score = 0
+    if "kalshi" in text:
+        score += 8
+    if "polymarket" in text:
+        score += 6
+    if "market" in text or "markets" in text:
+        score += 8
+    if "event" in text or "events" in text:
+        score += 3
+    if "multivariate" in text:
+        score += 10
+    if "price" in text or "probability" in text or "odds" in text:
+        score += 8
+    if "include_markets" in param_names or "include markets" in text:
+        score += 14
+    if "include_markets" in param_names and "multivariate" in text:
+        score += 10
+    if "series_ticker" in param_names:
+        score += 5
+    if "collection_ticker" in param_names:
+        score += 5
+    if "political" in text or "election" in text:
+        score -= 8
+    if "stock" in text or "financialmodelingprep" in text or "alphavantage" in text:
+        score -= 20
+    return score
+
+
+def choose_prediction_tool() -> tuple[str, str, dict]:
+    if QVERIS_PREDICTION_MARKET_TOOL_ID:
+        return "", QVERIS_PREDICTION_MARKET_TOOL_ID, {
+            "tool_id": QVERIS_PREDICTION_MARKET_TOOL_ID,
+            "params": [],
+        }
+
+    best: tuple[int, float, str, dict] | None = None
+    for query in SEARCH_QUERIES:
+        search_id, results = search_tools(query, SESSION_ID, limit=10)
+        for result in results:
+            tool_id = result.get("tool_id")
+            if not tool_id:
+                continue
+            cost = expected_credits(result)
+            if cost and cost > 30:
+                continue
+            score = score_tool(result)
+            if best is None or score > best[0]:
+                best = (score, cost, search_id, result)
+
+    if not best:
+        raise RuntimeError("No QVeris prediction-market tool found")
+
+    score, cost, search_id, selected = best
+    print(
+        "QVeris tool: "
+        f"{selected.get('name')} ({selected['tool_id']}) score={score} cost={cost}"
+    )
+    return search_id, selected["tool_id"], selected
+
+
+def execute_prediction_tool() -> dict:
+    search_id, tool_id, tool = choose_prediction_tool()
+    explicit = {
+        "query": "active prediction market events markets probability price volume liquidity",
+        "limit": LIMIT,
+        "market": "US",
+        "active": True,
+        "include_markets": True,
+        "includeMarkets": True,
+    }
+    parameters = explicit if QVERIS_PREDICTION_MARKET_TOOL_ID else fill_default_parameters(tool, explicit)
+    for param in tool.get("params") or []:
+        name = str(param.get("name") or "")
+        lowered = name.lower()
+        if lowered in {"include_markets", "includemarkets", "include_market"}:
+            parameters[name] = True
+        elif lowered in {"active", "include_markets"}:
+            parameters[name] = True
+        elif lowered == "limit":
+            parameters[name] = LIMIT
+    print(f"QVeris parameters: {parameters}")
+    return execute_tool(
+        tool_id,
+        SESSION_ID,
+        parameters,
+        search_id=search_id,
+        max_response_size=65536,
+    )
+
+
 def extract_markets(payload: dict) -> list[dict]:
     candidates = []
     seen = set()
@@ -179,6 +330,9 @@ def extract_markets(payload: dict) -> list[dict]:
     for collection in walk_lists(payload):
         if not collection or not all(isinstance(item, dict) for item in collection[: min(3, len(collection))]):
             continue
+        for item in collection:
+            if isinstance(item, dict):
+                candidates.extend(parse_event_with_markets(item))
         parsed = [parse_market(item) for item in collection if isinstance(item, dict)]
         parsed = [item for item in parsed if item]
         if len(parsed) >= 2:
@@ -186,6 +340,7 @@ def extract_markets(payload: dict) -> list[dict]:
 
     if not candidates:
         for item in walk_dicts(payload):
+            candidates.extend(parse_event_with_markets(item))
             parsed = parse_market(item)
             if parsed:
                 candidates.append(parsed)
@@ -210,23 +365,7 @@ def extract_markets(payload: dict) -> list[dict]:
 
 
 def fetch_prediction_market_payload() -> dict:
-    query = (
-        "Active prediction market events or markets with title, ticker, current probability or price, "
-        "volume, liquidity, status, and close date"
-    )
-    return execute_best_tool(
-        query,
-        SESSION_ID,
-        {
-            "query": "active prediction market events markets probability price volume liquidity",
-            "limit": LIMIT,
-            "market": "US",
-            "active": True,
-            "include_markets": True,
-        },
-        configured_tool_id=QVERIS_PREDICTION_MARKET_TOOL_ID,
-        max_response_size=65536,
-    )
+    return execute_prediction_tool()
 
 
 def main() -> dict:
