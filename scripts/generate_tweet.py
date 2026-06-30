@@ -54,7 +54,7 @@ def archive_post(data: dict, tweet_text: str, status: str, x_post_id: str | None
 
     posts = []
     if POSTS_FILE.exists():
-        posts = json.loads(POSTS_FILE.read_text(encoding="utf-8"))
+        posts = json.loads(POSTS_FILE.read_text(encoding="utf-8-sig"))
 
     top = data["top5"][0]
     record = {

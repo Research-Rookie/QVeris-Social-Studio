@@ -76,7 +76,7 @@ def archive_post(data: dict, tweet_text: str) -> None:
 
     posts = []
     if POSTS_FILE.exists():
-        posts = json.loads(POSTS_FILE.read_text(encoding="utf-8"))
+        posts = json.loads(POSTS_FILE.read_text(encoding="utf-8-sig"))
 
     record = {
         "id": f"polymarket-pulse-{data['date']}",
