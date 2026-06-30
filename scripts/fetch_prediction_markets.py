@@ -33,6 +33,10 @@ QVERIS_KALSHI_ORDERBOOK_TOOL_ID = os.environ.get(
     "QVERIS_KALSHI_ORDERBOOK_TOOL_ID",
     "kalshi.trade.markets.orderbook.retrieve.v2.05c2422e",
 )
+QVERIS_KALSHI_TRADES_TOOL_ID = os.environ.get(
+    "QVERIS_KALSHI_TRADES_TOOL_ID",
+    "kalshi.trade-api.markets.trades.list.v2.909ea39e",
+)
 LIMIT = int(os.environ.get("PREDICTION_MARKET_LIMIT", "8"))
 PRICE_LOOKUP_LIMIT = int(os.environ.get("PREDICTION_MARKET_PRICE_LOOKUP_LIMIT", "4"))
 SEARCH_QUERIES = [
@@ -156,6 +160,9 @@ def orderbook_probability(payload: dict) -> tuple[float, str]:
     yes_prices = []
     no_prices = []
     for item in walk_dicts(payload):
+        direct = implied_probability(item)
+        if direct:
+            return direct, "Kalshi market price"
         for key, value in item.items():
             lowered = key_norm(str(key))
             if lowered in {"yes", "yesbids", "yesbid", "yesorders"}:
@@ -173,6 +180,24 @@ def orderbook_probability(payload: dict) -> tuple[float, str]:
         return best_yes_bid, "Kalshi yes bid"
     if implied_yes_ask:
         return implied_yes_ask, "Kalshi no bid implied"
+    return 0.0, ""
+
+
+def trade_probability(payload: dict) -> tuple[float, str]:
+    prices = []
+    for item in walk_dicts(payload):
+        direct = implied_probability(item)
+        if direct:
+            prices.append(direct)
+            continue
+        for key, value in item.items():
+            lowered = key_norm(str(key))
+            if lowered in {"price", "yesprice", "yesbid", "lastprice", "tradeprice"}:
+                price = normalize_probability_price(value)
+                if price:
+                    prices.append(price)
+    if prices:
+        return prices[0], "Kalshi latest trade"
     return 0.0, ""
 
 
@@ -453,6 +478,25 @@ def execute_orderbook_tool(ticker: str) -> dict:
     raise RuntimeError(f"QVeris Kalshi orderbook failed for {ticker}: {last_error}")
 
 
+def execute_trades_tool(ticker: str) -> dict:
+    parameter_sets = [
+        {"ticker": ticker, "limit": 1},
+        {"ticker": ticker},
+    ]
+    last_error = None
+    for parameters in parameter_sets:
+        try:
+            return execute_tool(
+                QVERIS_KALSHI_TRADES_TOOL_ID,
+                SESSION_ID,
+                parameters,
+                max_response_size=32768,
+            )
+        except RuntimeError as error:
+            last_error = error
+    raise RuntimeError(f"QVeris Kalshi trades failed for {ticker}: {last_error}")
+
+
 def enrich_with_orderbook(market: dict) -> dict:
     ticker = market_ticker(market)
     if not ticker:
@@ -465,8 +509,16 @@ def enrich_with_orderbook(market: dict) -> dict:
 
     probability, source = orderbook_probability(payload)
     if probability <= 0:
-        print(f"Orderbook had no parsable yes/no bid for {ticker}")
-        return market
+        print(f"Orderbook had no parsable price for {ticker}; trying latest trades")
+        try:
+            trade_payload = execute_trades_tool(ticker)
+            probability, source = trade_probability(trade_payload)
+        except RuntimeError as error:
+            print(f"Trades unavailable for {ticker}: {error}")
+            return market
+        if probability <= 0:
+            print(f"Trades had no parsable price for {ticker}")
+            return market
 
     enriched = dict(market)
     enriched["ticker"] = ticker
