@@ -50,8 +50,14 @@ def implied_probability(item: dict) -> float:
                 "lastPrice",
                 "price",
                 "yesPrice",
+                "yes_price",
                 "yes_bid",
+                "yesBid",
                 "yesAsk",
+                "yes_ask",
+                "last_price",
+                "marketPrice",
+                "market_price",
             ],
         )
     )
@@ -90,8 +96,12 @@ def parse_market(item: dict) -> dict | None:
                 "name",
                 "question",
                 "eventTitle",
+                "event_title",
                 "marketTitle",
+                "market_title",
                 "subtitle",
+                "shortTitle",
+                "short_title",
             ],
         )
     )
@@ -99,30 +109,66 @@ def parse_market(item: dict) -> dict | None:
         return None
 
     probability = implied_probability(item)
-    if probability <= 0:
-        return None
+    has_probability = probability > 0
+    if not has_probability:
+        probability = 50.0
 
     ticker = str(
-        value_by_names(item, ["ticker", "eventTicker", "marketTicker", "id", "slug"])
+        value_by_names(
+            item,
+            [
+                "ticker",
+                "eventTicker",
+                "event_ticker",
+                "marketTicker",
+                "market_ticker",
+                "id",
+                "slug",
+            ],
+        )
         or ""
     ).strip()
     category = str(
-        value_by_names(item, ["category", "series", "seriesTicker", "collectionTicker"])
+        value_by_names(
+            item,
+            [
+                "category",
+                "series",
+                "seriesTicker",
+                "series_ticker",
+                "collectionTicker",
+                "collection_ticker",
+            ],
+        )
         or "Prediction market"
     ).strip()
-    volume = as_float(value_by_names(item, ["volume", "volume24h", "dailyVolume"]))
-    liquidity = as_float(value_by_names(item, ["liquidity", "openInterest"]))
-    end_date = str(value_by_names(item, ["endDate", "closeTime", "expirationTime"]) or "")
+    volume = as_float(
+        value_by_names(
+            item,
+            ["volume", "volume24h", "dailyVolume", "volume_24h", "daily_volume"],
+        )
+    )
+    liquidity = as_float(value_by_names(item, ["liquidity", "openInterest", "open_interest"]))
+    end_date = str(
+        value_by_names(
+            item,
+            ["endDate", "end_date", "closeTime", "close_time", "expirationTime"],
+        )
+        or ""
+    )
+    status = str(value_by_names(item, ["status", "active", "isActive"]) or "").strip()
 
     return {
         "title": title,
         "ticker": ticker,
         "category": category,
         "probability": probability,
+        "has_probability": has_probability,
         "probability_change": probability_change(item),
         "volume": volume,
         "liquidity": liquidity,
         "end_date": end_date,
+        "status": status,
     }
 
 
@@ -165,14 +211,14 @@ def extract_markets(payload: dict) -> list[dict]:
 
 def fetch_prediction_market_payload() -> dict:
     query = (
-        "Prediction market events with current implied probability, 24 hour probability change, "
-        "volume, liquidity, title, category, and ticker"
+        "Active prediction market events or markets with title, ticker, current probability or price, "
+        "volume, liquidity, status, and close date"
     )
     return execute_best_tool(
         query,
         SESSION_ID,
         {
-            "query": "active prediction market events probability volume liquidity",
+            "query": "active prediction market events markets probability price volume liquidity",
             "limit": LIMIT,
             "market": "US",
             "active": True,
@@ -187,7 +233,9 @@ def main() -> dict:
     raw = fetch_prediction_market_payload()
     markets = extract_markets(raw)
     if not markets:
-        raise RuntimeError("QVeris returned prediction-market data, but no probability markets could be parsed.")
+        raise RuntimeError(
+            "QVeris returned prediction-market data, but no event or market rows could be parsed."
+        )
 
     now = datetime.now(timezone.utc)
     run_now = datetime.now(RUN_TIMEZONE)

@@ -47,6 +47,9 @@ def market_html(market: dict) -> str:
     change = float(market.get("probability_change", 0))
     move_class = "up" if change >= 0 else "down"
     width = max(4, min(100, probability))
+    has_probability = bool(market.get("has_probability", True))
+    probability_label = pct(probability) if has_probability else "Watching"
+    move_label = pts(change) if has_probability or change else "active"
     category = market.get("category") or "Prediction market"
     volume = float(market.get("volume", 0))
     liquidity = float(market.get("liquidity", 0))
@@ -54,10 +57,10 @@ def market_html(market: dict) -> str:
       <article class="market">
         <div class="market-top">
           <div class="title">{html.escape(market.get('title', 'Prediction market'))}</div>
-          <div class="prob">{pct(probability)}</div>
+          <div class="prob">{html.escape(probability_label)}</div>
         </div>
         <div class="meta">
-          <span class="pill {move_class}">{pts(change)}</span>
+          <span class="pill {move_class}">{html.escape(move_label)}</span>
           <span class="pill">{html.escape(str(category))}</span>
           <span class="pill">Vol {money_short(volume)}</span>
           <span class="pill">Liq {money_short(liquidity)}</span>

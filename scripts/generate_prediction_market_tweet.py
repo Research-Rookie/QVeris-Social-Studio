@@ -36,20 +36,24 @@ def short_title(value: str, max_len: int = 54) -> str:
 
 def format_tweet(data: dict) -> str:
     markets = data.get("markets", [])[:3]
+    has_any_probability = any(market.get("has_probability", True) for market in markets)
     lines = [
         "Prediction markets are moving today.",
         "",
-        "Biggest probability signals:",
+        "Biggest probability signals:" if has_any_probability else "Active markets to watch:",
     ]
     for index, market in enumerate(markets, 1):
-        lines.append(
-            f"{index}. {short_title(market['title'])}: "
-            f"{pct(float(market['probability']))} ({pts(float(market.get('probability_change', 0)))})"
-        )
+        if market.get("has_probability", True):
+            lines.append(
+                f"{index}. {short_title(market['title'])}: "
+                f"{pct(float(market['probability']))} ({pts(float(market.get('probability_change', 0)))})"
+            )
+        else:
+            lines.append(f"{index}. {short_title(market['title'])}")
     lines.extend(
         [
             "",
-            "Not a forecast. Just what markets are pricing in.",
+            "Not a forecast. Just what prediction markets are surfacing.",
             "",
             f"Built with QVeris: {WEBSITE_URL}",
         ]
@@ -60,7 +64,11 @@ def format_tweet(data: dict) -> str:
             "Prediction Market Pulse",
             "",
             *[
-                f"{index}. {short_title(market['title'], 42)}: {pct(float(market['probability']))}"
+                (
+                    f"{index}. {short_title(market['title'], 42)}: {pct(float(market['probability']))}"
+                    if market.get("has_probability", True)
+                    else f"{index}. {short_title(market['title'], 48)}"
+                )
                 for index, market in enumerate(markets, 1)
             ],
             "",
@@ -84,6 +92,18 @@ def archive_post(data: dict, tweet_text: str) -> None:
     markets = data.get("markets", [])
     leader = markets[0]
     runner_up = markets[1] if len(markets) > 1 else None
+    leader_value = (
+        pct(float(leader["probability"]))
+        if leader.get("has_probability", True)
+        else "Watching"
+    )
+    runner_up_value = (
+        pct(float(runner_up["probability"]))
+        if runner_up and runner_up.get("has_probability", True)
+        else "Watching"
+        if runner_up
+        else str(len(markets))
+    )
     record = {
         "id": f"prediction-market-pulse-{data['date']}",
         "date": data["date"],
@@ -98,9 +118,9 @@ def archive_post(data: dict, tweet_text: str) -> None:
         "dataUpdatedAt": data.get("updated_at", ""),
         "xPostId": None,
         "primaryLabel": short_title(leader["title"], 32),
-        "primaryValue": pct(float(leader["probability"])),
+        "primaryValue": leader_value,
         "secondaryLabel": short_title(runner_up["title"], 32) if runner_up else "Markets tracked",
-        "secondaryValue": pct(float(runner_up["probability"])) if runner_up else str(len(markets)),
+        "secondaryValue": runner_up_value,
         "topSymbol": "PM",
         "topChangePct": float(leader.get("probability_change", 0)),
         "predictionMarket": data,
