@@ -36,11 +36,17 @@ def format_tweet(data: dict) -> str:
     change = float(data.get("volume_change_pct", 0))
     open_interest = money_short(float(data.get("open_interest", 0)))
     label = data.get("activity_label", "Stable")
+    volume_available = bool(data.get("volume_available", True))
+    volume_line = (
+        f"- Volume: {volume} ({change:+.1f}%)"
+        if volume_available
+        else f"- Activity snapshot: {volume}"
+    )
     lines = [
         "Prediction markets are becoming a real-time sentiment layer.",
         "",
         "Today's Polymarket activity pulse:",
-        f"- Volume: {volume} ({change:+.1f}%)",
+        volume_line,
         f"- Open interest: {open_interest}",
         f"- Signal: {label}",
         "",
@@ -51,7 +57,7 @@ def format_tweet(data: dict) -> str:
         lines = [
             "Polymarket Activity Pulse",
             "",
-            f"Volume: {volume} ({change:+.1f}%)",
+            volume_line.replace("- ", ""),
             f"Open interest: {open_interest}",
             f"Signal: {label}",
             "",

@@ -164,17 +164,30 @@ def takeaway(label: str, change: float, open_interest: float) -> str:
 
 def fetch_volume() -> dict[str, Any]:
     last_error = None
-    for time_period in ["1m", "30d", "7d", "1d"]:
+    parameter_sets = [
+        {"timePeriod": "day"},
+        {"timePeriod": "week"},
+        {"timePeriod": "month"},
+        {"timePeriod": "all"},
+        {"timePeriod": "daily"},
+        {"timePeriod": "weekly"},
+        {"timePeriod": "monthly"},
+        {"timePeriod": "ONE_DAY"},
+        {"timePeriod": "ONE_WEEK"},
+        {"timePeriod": "ONE_MONTH"},
+        {},
+    ]
+    for parameters in parameter_sets:
         try:
             return execute_tool(
                 VOLUME_TOOL_ID,
                 SESSION_ID,
-                {"timePeriod": time_period},
+                parameters,
                 max_response_size=65536,
             )
         except RuntimeError as error:
             last_error = error
-            print(f"Volume retry after {time_period}: {error}")
+            print(f"Volume retry after {parameters or 'no parameters'}: {error}")
     raise RuntimeError(f"Could not fetch Polymarket volume: {last_error}")
 
 
@@ -192,18 +205,27 @@ def fetch_open_interest() -> dict[str, Any]:
 
 
 def main() -> dict[str, Any]:
-    volume_payload = fetch_volume()
+    try:
+        volume_payload = fetch_volume()
+    except RuntimeError as error:
+        print(f"Volume unavailable: {error}")
+        volume_payload = {}
     open_interest_payload = fetch_open_interest()
 
     volume_series = extract_volume_series(volume_payload)
+    open_interest_total, top_markets = extract_open_interest(open_interest_payload)
+    if not volume_series and open_interest_total <= 0:
+        raise RuntimeError(
+            "QVeris returned no usable Polymarket volume or open-interest rows."
+        )
+
     if not volume_series:
-        raise RuntimeError("QVeris returned Polymarket volume data, but no volume rows were parsed.")
+        volume_series = [{"date": "open interest snapshot", "volume": open_interest_total}]
 
     current_volume = volume_series[-1]["volume"]
-    previous_volume = volume_series[-2]["volume"] if len(volume_series) > 1 else 0.0
+    previous_volume = volume_series[-2]["volume"] if len(volume_series) > 1 else current_volume
     volume_change = pct_change(current_volume, previous_volume)
     label = activity_label(volume_change)
-    open_interest_total, top_markets = extract_open_interest(open_interest_payload)
 
     now = datetime.now(timezone.utc)
     run_now = datetime.now(RUN_TIMEZONE)
@@ -220,6 +242,7 @@ def main() -> dict[str, Any]:
         "open_interest": open_interest_total,
         "top_markets": top_markets,
         "volume_series": volume_series,
+        "volume_available": bool(volume_payload),
         "takeaway": takeaway(label, volume_change, open_interest_total),
     }
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
