@@ -27,12 +27,12 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install requests playwright tweepy
+          pip install playwright
           playwright install --with-deps chromium
 
       - name: Fetch rankings
         env:
-          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+          QVERIS_API_KEY: ${{ secrets.QVERIS_API_KEY }}
         run: python scripts/fetch_rankings.py
 
       - name: Generate image
@@ -41,7 +41,6 @@ jobs:
       - name: Generate tweet and archive card
         env:
           WEBSITE_URL: https://qveris.ai
-          ENABLE_TWITTER_POST: "false"
         run: python scripts/generate_tweet.py
 
       - name: Commit archive

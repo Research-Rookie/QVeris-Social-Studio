@@ -32,12 +32,12 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install requests playwright
+          pip install playwright
           playwright install --with-deps chromium
 
       - name: Fetch FCF yield comparison
         env:
-          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          QVERIS_API_KEY: ${{ secrets.QVERIS_API_KEY }}
           FCF_SYMBOLS: ${{ github.event.inputs.symbols || 'PYPL,ADBE' }}
         run: python scripts/fetch_fcf_yield.py
 

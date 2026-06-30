@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        width: 1200px;
+        height: 675px;
+        background:
+          radial-gradient(circle at 18% 10%, rgba(57, 181, 255, 0.22), transparent 30%),
+          radial-gradient(circle at 88% 18%, rgba(80, 255, 202, 0.14), transparent 26%),
+          linear-gradient(135deg, #0d1424 0%, #171a27 58%, #211522 100%);
+        color: #f8fafc;
+        font-family: Inter, Arial, sans-serif;
+      }
+      .card {
+        width: 1200px;
+        height: 675px;
+        padding: 44px;
+        position: relative;
+        overflow: hidden;
+      }
+      .grid {
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+        background-size: 56px 56px;
+        mask-image: linear-gradient(to bottom, rgba(0,0,0,0.55), transparent);
+      }
+      header, .markets, footer { position: relative; z-index: 2; }
+      .eyebrow {
+        margin: 0 0 14px;
+        color: #67e8f9;
+        font-size: 16px;
+        font-weight: 900;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 0;
+        font-size: 58px;
+        line-height: 0.95;
+        letter-spacing: -0.06em;
+      }
+      .subtitle {
+        margin-top: 16px;
+        color: #b8c6dc;
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .date {
+        position: absolute;
+        top: 34px;
+        right: 44px;
+        border: 1px solid rgba(148, 163, 184, 0.34);
+        border-radius: 999px;
+        padding: 10px 18px;
+        color: #dbeafe;
+        font-size: 18px;
+        font-weight: 800;
+        background: rgba(255,255,255,0.06);
+      }
+      .markets {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+        margin-top: 34px;
+      }
+      .market {
+        min-height: 112px;
+        border: 1px solid rgba(148, 163, 184, 0.22);
+        border-radius: 24px;
+        padding: 20px 22px;
+        background: rgba(8, 13, 27, 0.62);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+      }
+      .market-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+      }
+      .title {
+        font-size: 19px;
+        line-height: 1.18;
+        font-weight: 900;
+      }
+      .prob {
+        flex: 0 0 auto;
+        color: #5eead4;
+        font-size: 32px;
+        font-weight: 950;
+        letter-spacing: -0.06em;
+      }
+      .meta {
+        display: flex;
+        gap: 10px;
+        margin-top: 12px;
+        color: #9fb2cc;
+        font-size: 14px;
+        font-weight: 800;
+      }
+      .pill {
+        border-radius: 999px;
+        background: rgba(255,255,255,0.08);
+        padding: 6px 10px;
+      }
+      .up { color: #5eead4; }
+      .down { color: #fb7185; }
+      .bar-wrap {
+        height: 8px;
+        margin-top: 16px;
+        border-radius: 999px;
+        overflow: hidden;
+        background: rgba(148, 163, 184, 0.22);
+      }
+      .bar {
+        height: 100%;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #38bdf8, #5eead4);
+      }
+      footer {
+        position: absolute;
+        left: 44px;
+        right: 44px;
+        bottom: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #9fb2cc;
+        font-size: 16px;
+        font-weight: 800;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 950;
+      }
+      .logo img { width: 42px; height: 42px; }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="grid"></div>
+      <div class="date">{{DATE}}</div>
+      <header>
+        <p class="eyebrow">Prediction Market Pulse</p>
+        <h1>What markets are pricing in</h1>
+        <div class="subtitle">Top implied probabilities and daily probability moves</div>
+      </header>
+      <section class="markets">{{MARKETS}}</section>
+      <footer>
+        <span>Market-implied probabilities via {{SOURCE}}</span>
+        <span class="logo"><img src="{{LOGO}}" /> QVeris</span>
+      </footer>
+    </main>
+  </body>
+</html>

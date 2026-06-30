@@ -61,7 +61,7 @@ def archive_post(data: dict, tweet_text: str) -> None:
         "status": "ready",
         "tweet": tweet_text,
         "image": f"/posts/{public_image.name}",
-        "dataSource": data.get("source", "Financial Modeling Prep"),
+        "dataSource": data.get("source", "QVeris API"),
         "dataUpdatedAt": data.get("updated_at", ""),
         "xPostId": None,
         "primaryLabel": f"${left['symbol']} FCF Yield",

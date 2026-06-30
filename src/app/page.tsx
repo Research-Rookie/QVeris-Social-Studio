@@ -31,7 +31,7 @@ const posts = postsData as Post[];
 
 function categoryKey(post: Post) {
   if (post.contentType === "FCF YIELD") return "fcf-yield";
-  if (post.contentType === "WORLD CUP FINANCE") return "world-cup-finance";
+  if (post.contentType === "PREDICTION MARKET") return "prediction-market";
   return "market-pulse";
 }
 
@@ -47,9 +47,9 @@ const categories = [
     count: posts.filter((post) => categoryKey(post) === "fcf-yield").length,
   },
   {
-    key: "world-cup-finance",
-    label: "World Cup Finance",
-    count: posts.filter((post) => categoryKey(post) === "world-cup-finance").length,
+    key: "prediction-market",
+    label: "Prediction Market",
+    count: posts.filter((post) => categoryKey(post) === "prediction-market").length,
   },
   { key: "earnings", label: "Earnings", count: 0 },
 ];

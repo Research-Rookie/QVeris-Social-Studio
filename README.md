@@ -1,6 +1,6 @@
 # QVeris Social Studio
 
-A daily archive for reviewing QVeris market visuals and X post drafts.
+A daily archive for reviewing QVeris-powered market visuals and social post drafts.
 
 ## Run locally
 
@@ -19,20 +19,52 @@ python scripts/generate_image.py
 python scripts/generate_tweet.py
 ```
 
-The pipeline fetches the latest Top 5 gainers, creates a dated image and X
-draft, then upserts that market date in `data/posts.json`. Images are archived
+The pipeline fetches the latest Top 5 gainers through QVeris, creates a dated
+image and social post draft, then upserts that market date in `data/posts.json`. Images are archived
 under `public/posts/`. Running the same date again updates only that date;
 older cards remain intact.
 
 For GitHub Actions, add this repository secret:
 
 ```text
-ALPHA_VANTAGE_API_KEY
+QVERIS_API_KEY
 ```
 
 The workflow runs every day at 08:30 Asia/Shanghai.
-Automatic X publishing is intentionally disabled. When the workflow commits a
-new card, a connected Vercel project will rebuild the website automatically.
+Automatic X publishing has been removed. When the workflow commits a new card,
+a connected Vercel project will rebuild the website automatically.
+
+## Prediction Market Pulse
+
+```bash
+python scripts/fetch_prediction_markets.py
+python scripts/generate_prediction_market_image.py
+python scripts/generate_prediction_market_tweet.py
+```
+
+This pipeline uses QVeris to discover active prediction-market events, renders a
+daily probability pulse card, and archives a social post draft.
+
+## API sources
+
+The current project keeps finance data centralized through QVeris:
+
+```text
+QVERIS_API_KEY
+```
+
+QVeris is used for:
+
+- Daily U.S. stock movers
+- FCF Yield comparisons
+- Prediction Market Pulse events and implied probabilities
+
+Optional Typefully draft creation uses:
+
+```text
+TYPEFULLY_API_KEY
+TYPEFULLY_SOCIAL_SET_ID
+```
 
 ## Deploy to Vercel
 
@@ -40,26 +72,18 @@ new card, a connected Vercel project will rebuild the website automatically.
 2. Keep the default Next.js build settings.
 3. Deploy.
 
-## Publishing roadmap
+## Publishing workflow
 
-### Phase 1: Manual publishing
+### Manual publishing
 
 - The website generates and displays the image and post copy.
 - A person checks the numbers.
 - Use `Copy text` and `Download image`, then publish on X manually.
 
-### Phase 2: One-click publishing
+### Optional Typefully draft
 
-- Create an X developer project and app.
-- Add OAuth credentials as Vercel environment variables.
-- Add a protected server API route that uploads the image and creates the post.
-- Keep a confirmation button before publishing.
+- Run the `Send Selected Card to Typefully` workflow.
+- Provide the card `post_id`.
+- Review the Typefully draft before publishing.
 
-### Phase 3: Automatic publishing
-
-- A scheduled job fetches the latest approved data.
-- Validation checks freshness, duplicate content, missing images, and numbers.
-- The job creates the visual and post copy.
-- Low-risk posts publish automatically; sensitive posts remain in review.
-
-Never expose X API secrets in browser code or commit them to the repository.
+Never expose API secrets in browser code or commit them to the repository.
