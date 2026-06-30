@@ -1,14 +1,15 @@
-"""Search QVeris for prediction-market capabilities.
+"""Search QVeris for prediction-market market-price capabilities.
 
 This script only calls QVeris /search. It does not execute paid tools.
-Use it to check whether QVeris can discover Polymarket / prediction-market
-data for a World Cup probability column.
+Use it to find market-level tools, such as Kalshi markets, orderbooks,
+market ticker retrieval, Polymarket market prices, or yes/no price data.
 """
 
 from __future__ import annotations
 
 import json
 import os
+from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -16,12 +17,18 @@ from urllib.request import Request, urlopen
 BASE_URL = os.environ.get("QVERIS_API_BASE_URL", "https://qveris.ai/api/v1").rstrip("/")
 API_KEY = os.environ.get("QVERIS_API_KEY")
 SESSION_ID = "qveris-social-studio-prediction-market-search"
+ROOT_DIR = Path(__file__).resolve().parent.parent
+OUTPUT_FILE = ROOT_DIR / "data" / "qveris_prediction_market_tool_search.json"
 QUERIES = [
-    "Polymarket World Cup winner probability market",
-    "prediction market World Cup winner odds probability",
-    "Polymarket sports market event odds volume liquidity",
-    "World Cup outright winner betting market implied probability",
-    "prediction market historical probability time series by event",
+    "Kalshi markets list yes price no price volume liquidity",
+    "Kalshi market ticker retrieve yes_bid yes_ask last_price",
+    "Kalshi event markets include_markets market prices",
+    "Kalshi market orderbook ticker bid ask yes no price",
+    "Polymarket market price probability by slug",
+    "Polymarket market orderbook yes price no price",
+    "prediction market market ticker retrieve price probability",
+    "prediction market yes price no price volume liquidity",
+    "prediction market historical probability time series by market",
 ]
 
 
@@ -84,18 +91,27 @@ def compact_tool(result: dict) -> dict:
 
 def main() -> None:
     print(f"Base URL: {BASE_URL}")
+    output = []
     for query in QUERIES:
         print("\n" + "=" * 88)
         print(f"Query: {query}")
         data = post_search(query)
         results = data.get("results") or []
         print(f"Search results: {len(results)}")
+        query_record = {"query": query, "results": []}
         for index, result in enumerate(results, 1):
             tool = compact_tool(result)
+            query_record["results"].append(tool)
             print(f"\n#{index} {tool['name']} | {tool['provider']} | {tool['tool_id']}")
             print(f"Cost: {tool['cost']}")
             print(f"Description: {tool['description']}")
             print(f"Params: {tool['params']}")
+        output.append(query_record)
+
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    print("\n" + "=" * 88)
+    print(f"Saved structured search output: {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":

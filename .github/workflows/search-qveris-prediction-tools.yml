@@ -1,0 +1,52 @@
+name: Search QVeris Prediction Market Tools
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: qveris-prediction-tool-search
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Search QVeris prediction market tools
+        env:
+          QVERIS_API_KEY: ${{ secrets.QVERIS_API_KEY }}
+        run: python scripts/search_qveris_prediction_markets.py
+
+      - name: Commit search output
+        run: |
+          git config user.name "qveris-content-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/qveris_prediction_market_tool_search.json
+          if git diff --cached --quiet; then
+            echo "No search output changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: archive qveris prediction tool search"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin master
+            if git push origin master; then
+              exit 0
+            fi
+            echo "Push failed on attempt ${attempt}; retrying after remote rebase."
+            sleep 3
+          done
+
+          echo "Could not push search output after 3 attempts."
+          exit 1
