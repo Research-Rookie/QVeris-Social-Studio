@@ -32,7 +32,7 @@ const posts = postsData as Post[];
 function categoryKey(post: Post) {
   if (post.contentType === "MARKET PULSE") return "market-pulse";
   if (post.contentType === "FCF YIELD") return "fcf-yield";
-  if (post.contentType === "PREDICTION MARKET") return "prediction-market";
+  if (post.contentType === "POLYMARKET PULSE") return "polymarket-pulse";
   return null;
 }
 
@@ -50,9 +50,9 @@ const categories = [
     count: activePosts.filter((post) => categoryKey(post) === "fcf-yield").length,
   },
   {
-    key: "prediction-market",
-    label: "Prediction Market",
-    count: activePosts.filter((post) => categoryKey(post) === "prediction-market").length,
+    key: "polymarket-pulse",
+    label: "Polymarket Pulse",
+    count: activePosts.filter((post) => categoryKey(post) === "polymarket-pulse").length,
   },
   { key: "earnings", label: "Earnings", count: 0 },
 ];

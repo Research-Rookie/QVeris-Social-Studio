@@ -1,3310 +1,1068 @@
-[
-  {
-    "id": "prediction-market-pulse-2026-06-30",
-    "date": "2026-06-30",
-    "runDate": "2026-06-30",
-    "createdAt": "2026-06-30T09:34:32.770544+00:00",
-    "contentType": "PREDICTION MARKET",
-    "title": "Prediction Market Pulse",
-    "status": "ready",
-    "tweet": "Prediction markets are moving today.\n\nActive markets to watch:\n1. {'type': 'string'}\n\nNot a forecast. Just what prediction markets are surfacing.\n\nBuilt with QVeris: https://qveris.ai",
-    "image": "/posts/prediction_market_2026-06-30.png",
-    "dataSource": "QVeris API",
-    "dataUpdatedAt": "2026-06-30T09:34:31.480621+00:00",
-    "xPostId": null,
-    "primaryLabel": "{'type': 'string'}",
-    "primaryValue": "Watching",
-    "secondaryLabel": "Markets tracked",
-    "secondaryValue": "1",
-    "topSymbol": "PM",
-    "topChangePct": 0.0,
-    "predictionMarket": {
-      "updated_at": "2026-06-30T09:34:31.480621+00:00",
-      "date": "2026-06-30",
-      "run_timezone": "Asia/Shanghai",
-      "source": "QVeris API",
-      "title": "Prediction Market Pulse",
-      "markets": [
-        {
-          "title": "{'type': 'string'}",
-          "ticker": "{'type': 'string'}",
-          "category": "Prediction market",
-          "probability": 50.0,
-          "has_probability": false,
-          "probability_change": 0.0,
-          "volume": 0.0,
-          "liquidity": 0.0,
-          "end_date": "{'type': 'string'}",
-          "status": "{'type': 'string'}",
-          "probability_source": ""
-        }
-      ]
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-29-537402-algeria-austria",
-    "date": "2026-06-29",
-    "matchDate": "2026-06-28",
-    "marketCheckDate": "2026-06-29",
-    "runDate": "2026-06-29",
-    "createdAt": "2026-06-29T06:05:52.884094+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Algeria vs Austria Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Algeria 3-3 Austria\n\n📊 Next-session ETF check:\n$AFK Algeria proxy ETF: -3.01%\n$EWO Austria ETF: -3.37%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-29-537402-algeria-austria.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-29T06:05:44.301274+00:00",
-    "xPostId": null,
-    "primaryLabel": "$AFK next-session move",
-    "primaryValue": "-3.01%",
-    "secondaryLabel": "$EWO next-session move",
-    "secondaryValue": "-3.37%",
-    "topSymbol": "EWO",
-    "topChangePct": -3.369742040436911,
-    "worldCupFinance": {
-      "date": "2026-06-29",
-      "matchDate": "2026-06-28",
-      "marketCheckDate": "2026-06-29",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537402",
-        "utc_date": "2026-06-28T02:00:00Z",
-        "local_datetime": "2026-06-28T10:00:00+08:00",
-        "label": "Algeria 3-3 Austria",
-        "result": "draw",
-        "home": {
-          "team": "Algeria",
-          "country": "Algeria",
-          "score": 3,
-          "etf": "AFK",
-          "etf_name": "VanEck Africa Index ETF",
-          "is_proxy": true,
-          "proxy_note": "Africa ETF used because no liquid US-listed Algeria ETF is available",
-          "quote": {
-            "symbol": "AFK",
-            "price": 25.76,
-            "change": -0.7999999999999972,
-            "change_pct": -3.012048192771074,
-            "volume": 191971,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Austria",
-          "country": "Austria",
-          "score": 3,
-          "etf": "EWO",
-          "etf_name": "iShares MSCI Austria ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWO",
-            "price": 41.58,
-            "change": -1.4500000000000028,
-            "change_pct": -3.369742040436911,
-            "volume": 19192,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-29-537401-jordan-argentina",
-    "date": "2026-06-29",
-    "matchDate": "2026-06-28",
-    "marketCheckDate": "2026-06-29",
-    "runDate": "2026-06-29",
-    "createdAt": "2026-06-29T06:05:52.879660+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Jordan vs Argentina Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Jordan 1-3 Argentina\n\n📊 Next-session ETF check:\n$FM Jordan proxy ETF: +0.41%\n$ARGT Argentina ETF: -5.97%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-29-537401-jordan-argentina.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-29T06:05:44.301274+00:00",
-    "xPostId": null,
-    "primaryLabel": "$FM next-session move",
-    "primaryValue": "+0.41%",
-    "secondaryLabel": "$ARGT next-session move",
-    "secondaryValue": "-5.97%",
-    "topSymbol": "ARGT",
-    "topChangePct": -5.973223480947474,
-    "worldCupFinance": {
-      "date": "2026-06-29",
-      "matchDate": "2026-06-28",
-      "marketCheckDate": "2026-06-29",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537401",
-        "utc_date": "2026-06-28T02:00:00Z",
-        "local_datetime": "2026-06-28T10:00:00+08:00",
-        "label": "Jordan 1-3 Argentina",
-        "result": "away_win",
-        "home": {
-          "team": "Jordan",
-          "country": "Jordan",
-          "score": 1,
-          "etf": "FM",
-          "etf_name": "iShares Frontier and Select EM ETF",
-          "is_proxy": true,
-          "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Jordan ETF is available",
-          "quote": {
-            "symbol": "FM",
-            "price": 27.19,
-            "change": 0.11000000000000298,
-            "change_pct": 0.40620384047268465,
-            "volume": 57504,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Argentina",
-          "country": "Argentina",
-          "score": 3,
-          "etf": "ARGT",
-          "etf_name": "Global X MSCI Argentina ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "ARGT",
-            "price": 91.3,
-            "change": -5.799999999999997,
-            "change_pct": -5.973223480947474,
-            "volume": 76065,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-29-537408-congo-dr-uzbekistan",
-    "date": "2026-06-29",
-    "matchDate": "2026-06-28",
-    "marketCheckDate": "2026-06-29",
-    "runDate": "2026-06-29",
-    "createdAt": "2026-06-29T06:05:52.875269+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Congo DR vs Uzbekistan Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Congo DR 3-1 Uzbekistan\n\n📊 Next-session ETF check:\n$AFK Congo DR proxy ETF: -3.01%\n$FM Uzbekistan proxy ETF: +0.41%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-29-537408-congo-dr-uzbekistan.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-29T06:05:44.301274+00:00",
-    "xPostId": null,
-    "primaryLabel": "$AFK next-session move",
-    "primaryValue": "-3.01%",
-    "secondaryLabel": "$FM next-session move",
-    "secondaryValue": "+0.41%",
-    "topSymbol": "AFK",
-    "topChangePct": -3.012048192771074,
-    "worldCupFinance": {
-      "date": "2026-06-29",
-      "matchDate": "2026-06-28",
-      "marketCheckDate": "2026-06-29",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537408",
-        "utc_date": "2026-06-27T23:30:00Z",
-        "local_datetime": "2026-06-28T07:30:00+08:00",
-        "label": "Congo DR 3-1 Uzbekistan",
-        "result": "home_win",
-        "home": {
-          "team": "Congo DR",
-          "country": "Congo DR",
-          "score": 3,
-          "etf": "AFK",
-          "etf_name": "VanEck Africa Index ETF",
-          "is_proxy": true,
-          "proxy_note": "Africa ETF used because no liquid single-country Congo DR ETF is available",
-          "quote": {
-            "symbol": "AFK",
-            "price": 25.76,
-            "change": -0.7999999999999972,
-            "change_pct": -3.012048192771074,
-            "volume": 191971,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Uzbekistan",
-          "country": "Uzbekistan",
-          "score": 1,
-          "etf": "FM",
-          "etf_name": "iShares Frontier and Select EM ETF",
-          "is_proxy": true,
-          "proxy_note": "Frontier/select emerging markets ETF used as market proxy",
-          "quote": {
-            "symbol": "FM",
-            "price": 27.19,
-            "change": 0.11000000000000298,
-            "change_pct": 0.40620384047268465,
-            "volume": 57504,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-29-537407-colombia-portugal",
-    "date": "2026-06-29",
-    "matchDate": "2026-06-28",
-    "marketCheckDate": "2026-06-29",
-    "runDate": "2026-06-29",
-    "createdAt": "2026-06-29T06:05:52.870886+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Colombia vs Portugal Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Colombia 0-0 Portugal\n\n📊 Next-session ETF check:\n$GXG Colombia ETF: -33.25%\n$PGAL Portugal ETF: +0.00%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-29-537407-colombia-portugal.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-29T06:05:44.301274+00:00",
-    "xPostId": null,
-    "primaryLabel": "$GXG next-session move",
-    "primaryValue": "-33.25%",
-    "secondaryLabel": "$PGAL next-session move",
-    "secondaryValue": "+0.00%",
-    "topSymbol": "GXG",
-    "topChangePct": -33.25011348161598,
-    "worldCupFinance": {
-      "date": "2026-06-29",
-      "matchDate": "2026-06-28",
-      "marketCheckDate": "2026-06-29",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537407",
-        "utc_date": "2026-06-27T23:30:00Z",
-        "local_datetime": "2026-06-28T07:30:00+08:00",
-        "label": "Colombia 0-0 Portugal",
-        "result": "draw",
-        "home": {
-          "team": "Colombia",
-          "country": "Colombia",
-          "score": 0,
-          "etf": "GXG",
-          "etf_name": "Global X MSCI Colombia ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "GXG",
-            "price": 29.41,
-            "change": -14.650000000000002,
-            "change_pct": -33.25011348161598,
-            "volume": 42685,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Portugal",
-          "country": "Portugal",
-          "score": 0,
-          "etf": "PGAL",
-          "etf_name": "Global X MSCI Portugal ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "PGAL",
-            "price": 10.315,
-            "change": 0.0,
-            "change_pct": 0.0,
-            "volume": 15549,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-29-537414-croatia-ghana",
-    "date": "2026-06-29",
-    "matchDate": "2026-06-28",
-    "marketCheckDate": "2026-06-29",
-    "runDate": "2026-06-29",
-    "createdAt": "2026-06-29T06:05:52.866104+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Croatia vs Ghana Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Croatia 2-1 Ghana\n\n📊 Next-session ETF check:\n$VGK Croatia proxy ETF: -1.29%\n$AFK Ghana proxy ETF: -3.01%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-29-537414-croatia-ghana.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-29T06:05:44.301274+00:00",
-    "xPostId": null,
-    "primaryLabel": "$VGK next-session move",
-    "primaryValue": "-1.29%",
-    "secondaryLabel": "$AFK next-session move",
-    "secondaryValue": "-3.01%",
-    "topSymbol": "AFK",
-    "topChangePct": -3.012048192771074,
-    "worldCupFinance": {
-      "date": "2026-06-29",
-      "matchDate": "2026-06-28",
-      "marketCheckDate": "2026-06-29",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537414",
-        "utc_date": "2026-06-27T21:00:00Z",
-        "local_datetime": "2026-06-28T05:00:00+08:00",
-        "label": "Croatia 2-1 Ghana",
-        "result": "home_win",
-        "home": {
-          "team": "Croatia",
-          "country": "Croatia",
-          "score": 2,
-          "etf": "VGK",
-          "etf_name": "Vanguard FTSE Europe ETF",
-          "is_proxy": true,
-          "proxy_note": "Europe ETF used because no liquid single-country Croatia ETF is available",
-          "quote": {
-            "symbol": "VGK",
-            "price": 87.13,
-            "change": -1.1400000000000006,
-            "change_pct": -1.2914920131414982,
-            "volume": 1931218,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Ghana",
-          "country": "Ghana",
-          "score": 1,
-          "etf": "AFK",
-          "etf_name": "VanEck Africa Index ETF",
-          "is_proxy": true,
-          "proxy_note": "Africa ETF used because no liquid single-country Ghana ETF is available",
-          "quote": {
-            "symbol": "AFK",
-            "price": 25.76,
-            "change": -0.7999999999999972,
-            "change_pct": -3.012048192771074,
-            "volume": 191971,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-29-537413-panama-england",
-    "date": "2026-06-29",
-    "matchDate": "2026-06-28",
-    "marketCheckDate": "2026-06-29",
-    "runDate": "2026-06-29",
-    "createdAt": "2026-06-29T06:05:52.860776+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Panama vs England Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Panama 0-2 England\n\n📊 Next-session ETF check:\n$ILF Panama proxy ETF: -0.27%\n$EWU England ETF: +0.66%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-29-537413-panama-england.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-29T06:05:44.301274+00:00",
-    "xPostId": null,
-    "primaryLabel": "$ILF next-session move",
-    "primaryValue": "-0.27%",
-    "secondaryLabel": "$EWU next-session move",
-    "secondaryValue": "+0.66%",
-    "topSymbol": "EWU",
-    "topChangePct": 0.6599208095028534,
-    "worldCupFinance": {
-      "date": "2026-06-29",
-      "matchDate": "2026-06-28",
-      "marketCheckDate": "2026-06-29",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537413",
-        "utc_date": "2026-06-27T21:00:00Z",
-        "local_datetime": "2026-06-28T05:00:00+08:00",
-        "label": "Panama 0-2 England",
-        "result": "away_win",
-        "home": {
-          "team": "Panama",
-          "country": "Panama",
-          "score": 0,
-          "etf": "ILF",
-          "etf_name": "iShares Latin America 40 ETF",
-          "is_proxy": true,
-          "proxy_note": "Latin America ETF used because no liquid single-country Panama ETF is available",
-          "quote": {
-            "symbol": "ILF",
-            "price": 33.81,
-            "change": -0.0899999999999963,
-            "change_pct": -0.2654867256637059,
-            "volume": 884469,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "England",
-          "country": "England",
-          "score": 2,
-          "etf": "EWU",
-          "etf_name": "iShares MSCI United Kingdom ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWU",
-            "price": 45.76,
-            "change": 0.29999999999999716,
-            "change_pct": 0.6599208095028534,
-            "volume": 489814,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "fcf-yield-pypl-adbe-2026-06-29",
-    "date": "2026-06-29",
-    "runDate": "2026-06-29",
-    "createdAt": "2026-06-29T05:26:04.188893+00:00",
-    "contentType": "FCF YIELD",
-    "title": "PYPL vs ADBE FCF Yield",
-    "status": "ready",
-    "tweet": "Which would you rather own at current prices, $PYPL or $ADBE?\n\nPYPL FCF Yield: 14.1%\nADBE FCF Yield: 13.2%\n\n$PYPL $ADBE\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
-    "image": "/posts/fcf_yield_PYPL_ADBE_2026-06-29.png",
-    "dataSource": "Financial Modeling Prep",
-    "dataUpdatedAt": "2026-06-29T05:25:59.988768+00:00",
-    "xPostId": null,
-    "primaryLabel": "$PYPL FCF Yield",
-    "primaryValue": "14.1%",
-    "secondaryLabel": "$ADBE FCF Yield",
-    "secondaryValue": "13.2%",
-    "topSymbol": "PYPL",
-    "topChangePct": 14.106010547328237,
-    "comparison": {
-      "updated_at": "2026-06-29T05:25:59.988768+00:00",
-      "date": "2026-06-29",
-      "run_timezone": "Asia/Shanghai",
-      "source": "Financial Modeling Prep",
-      "symbols": [
-        "PYPL",
-        "ADBE"
-      ],
-      "companies": [
-        {
-          "symbol": "PYPL",
-          "name": "PayPal Holdings, Inc.",
-          "market_cap": 39068452285.0,
-          "price": 44.29,
-          "latest_ttm_fcf": 5511000000.0,
-          "latest_fcf_yield": 14.106010547328237,
-          "history": [
-            {
-              "date": "2026-03-31",
-              "ttm_fcf": 5511000000.0,
-              "fcf_yield": 14.106010547328237
-            },
-            {
-              "date": "2025-12-31",
-              "ttm_fcf": 5564000000.0,
-              "fcf_yield": 14.241669875763801
-            }
-          ]
-        },
-        {
-          "symbol": "ADBE",
-          "name": "Adobe Inc.",
-          "market_cap": 80585175000.0,
-          "price": 202.73,
-          "latest_ttm_fcf": 10627000000.0,
-          "latest_fcf_yield": 13.187289101252183,
-          "history": [
-            {
-              "date": "2026-05-29",
-              "ttm_fcf": 10627000000.0,
-              "fcf_yield": 13.187289101252183
-            },
-            {
-              "date": "2026-02-27",
-              "ttm_fcf": 10317000000.0,
-              "fcf_yield": 12.802602960159856
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "market-pulse-2026-06-29",
-    "date": "2026-06-29",
-    "runDate": "2026-06-29",
-    "marketDate": "2026-06-26",
-    "createdAt": "2026-06-29T05:08:14.683304+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-29\n\nTop mover: $SDOT +247.09%\n\n1. $SDOT +247.09%\n2. $PCLA +123.40%\n3. $IVF +97.58%\n4. $WSHP +69.85%\n5. $CMIIW +118.33%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-29.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-26 16:15:56 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "SDOT",
-        "price": 21.45,
-        "change_amount": 15.27,
-        "change_pct": 247.0874,
-        "volume": 43870847
-      },
-      {
-        "symbol": "PCLA",
-        "price": 6.97,
-        "change_amount": 3.85,
-        "change_pct": 123.3974,
-        "volume": 7159132
-      },
-      {
-        "symbol": "IVF",
-        "price": 2.45,
-        "change_amount": 1.21,
-        "change_pct": 97.5806,
-        "volume": 113007063
-      },
-      {
-        "symbol": "WSHP",
-        "price": 8.0,
-        "change_amount": 3.29,
-        "change_pct": 69.8514,
-        "volume": 8005260
-      },
-      {
-        "symbol": "CMIIW",
-        "price": 1.31,
-        "change_amount": 0.71,
-        "change_pct": 118.3333,
-        "volume": 1659832
-      }
-    ],
-    "topSymbol": "SDOT",
-    "topChangePct": 247.0874
-  },
-  {
-    "id": "fcf-yield-msft-googl-2026-06-29",
-    "date": "2026-06-29",
-    "runDate": "2026-06-29",
-    "createdAt": "2026-06-29T01:34:28.590258+00:00",
-    "contentType": "FCF YIELD",
-    "title": "MSFT vs GOOGL FCF Yield",
-    "status": "ready",
-    "tweet": "Which would you rather own at current prices, $MSFT or $GOOGL?\n\nMSFT FCF Yield: 2.6%\nGOOGL FCF Yield: 1.6%\n\n$MSFT $GOOGL\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
-    "image": "/posts/fcf_yield_MSFT_GOOGL_2026-06-29.png",
-    "dataSource": "Financial Modeling Prep",
-    "dataUpdatedAt": "2026-06-29T01:34:25.266419+00:00",
-    "xPostId": null,
-    "primaryLabel": "$MSFT FCF Yield",
-    "primaryValue": "2.6%",
-    "secondaryLabel": "$GOOGL FCF Yield",
-    "secondaryValue": "1.6%",
-    "topSymbol": "MSFT",
-    "topChangePct": 2.6317940484192364,
-    "comparison": {
-      "updated_at": "2026-06-29T01:34:25.266419+00:00",
-      "date": "2026-06-29",
-      "run_timezone": "Asia/Shanghai",
-      "source": "Financial Modeling Prep",
-      "symbols": [
-        "MSFT",
-        "GOOGL"
-      ],
-      "companies": [
-        {
-          "symbol": "MSFT",
-          "name": "Microsoft Corporation",
-          "market_cap": 2770581537100.0,
-          "price": 372.97,
-          "latest_ttm_fcf": 72916000000.0,
-          "latest_fcf_yield": 2.6317940484192364,
-          "history": [
-            {
-              "date": "2026-03-31",
-              "ttm_fcf": 72916000000.0,
-              "fcf_yield": 2.6317940484192364
-            },
-            {
-              "date": "2025-12-31",
-              "ttm_fcf": 77412000000.0,
-              "fcf_yield": 2.7940704492324038
-            }
-          ]
-        },
-        {
-          "symbol": "GOOGL",
-          "name": "Alphabet Inc.",
-          "market_cap": 4080688288155.0005,
-          "price": 337.39,
-          "latest_ttm_fcf": 64429000000.0,
-          "latest_fcf_yield": 1.578875803550539,
-          "history": [
-            {
-              "date": "2026-03-31",
-              "ttm_fcf": 64429000000.0,
-              "fcf_yield": 1.578875803550539
-            },
-            {
-              "date": "2025-12-31",
-              "ttm_fcf": 73266000000.0,
-              "fcf_yield": 1.7954324081226436
-            }
-          ]
-        }
-      ]
+﻿[
+    {
+        "id":  "fcf-yield-pypl-adbe-2026-06-29",
+        "date":  "2026-06-29",
+        "runDate":  "2026-06-29",
+        "createdAt":  "2026-06-29T05:26:04.188893+00:00",
+        "contentType":  "FCF YIELD",
+        "title":  "PYPL vs ADBE FCF Yield",
+        "status":  "ready",
+        "tweet":  "Which would you rather own at current prices, $PYPL or $ADBE?\n\nPYPL FCF Yield: 14.1%\nADBE FCF Yield: 13.2%\n\n$PYPL $ADBE\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
+        "image":  "/posts/fcf_yield_PYPL_ADBE_2026-06-29.png",
+        "dataSource":  "Financial Modeling Prep",
+        "dataUpdatedAt":  "2026-06-29T05:25:59.988768+00:00",
+        "xPostId":  null,
+        "primaryLabel":  "$PYPL FCF Yield",
+        "primaryValue":  "14.1%",
+        "secondaryLabel":  "$ADBE FCF Yield",
+        "secondaryValue":  "13.2%",
+        "topSymbol":  "PYPL",
+        "topChangePct":  14.106010547328237,
+        "comparison":  {
+                           "updated_at":  "2026-06-29T05:25:59.988768+00:00",
+                           "date":  "2026-06-29",
+                           "run_timezone":  "Asia/Shanghai",
+                           "source":  "Financial Modeling Prep",
+                           "symbols":  [
+                                           "PYPL",
+                                           "ADBE"
+                                       ],
+                           "companies":  [
+                                             {
+                                                 "symbol":  "PYPL",
+                                                 "name":  "PayPal Holdings, Inc.",
+                                                 "market_cap":  39068452285.0,
+                                                 "price":  44.29,
+                                                 "latest_ttm_fcf":  5511000000.0,
+                                                 "latest_fcf_yield":  14.106010547328237,
+                                                 "history":  [
+                                                                 {
+                                                                     "date":  "2026-03-31",
+                                                                     "ttm_fcf":  5511000000.0,
+                                                                     "fcf_yield":  14.106010547328237
+                                                                 },
+                                                                 {
+                                                                     "date":  "2025-12-31",
+                                                                     "ttm_fcf":  5564000000.0,
+                                                                     "fcf_yield":  14.241669875763801
+                                                                 }
+                                                             ]
+                                             },
+                                             {
+                                                 "symbol":  "ADBE",
+                                                 "name":  "Adobe Inc.",
+                                                 "market_cap":  80585175000.0,
+                                                 "price":  202.73,
+                                                 "latest_ttm_fcf":  10627000000.0,
+                                                 "latest_fcf_yield":  13.187289101252183,
+                                                 "history":  [
+                                                                 {
+                                                                     "date":  "2026-05-29",
+                                                                     "ttm_fcf":  10627000000.0,
+                                                                     "fcf_yield":  13.187289101252183
+                                                                 },
+                                                                 {
+                                                                     "date":  "2026-02-27",
+                                                                     "ttm_fcf":  10317000000.0,
+                                                                     "fcf_yield":  12.802602960159856
+                                                                 }
+                                                             ]
+                                             }
+                                         ]
+                       }
     },
-    "typefullyDraftId": 9688812,
-    "typefullyDraftUrl": "https://typefully.com/?d=9688812"
-  },
-  {
-    "id": "world-cup-etf-2026-06-28-537368-egypt-iran",
-    "date": "2026-06-28",
-    "matchDate": "2026-06-27",
-    "marketCheckDate": "2026-06-28",
-    "runDate": "2026-06-28",
-    "createdAt": "2026-06-28T05:45:00.173619+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Egypt vs Iran Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Egypt 1-1 Iran\n\n📊 Next-session ETF check:\n$EGPT Egypt ETF: +0.10%\n$EEM Iran proxy ETF: -5.09%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-28-537368-egypt-iran.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-28T05:44:54.338979+00:00",
-    "xPostId": null,
-    "primaryLabel": "$EGPT next-session move",
-    "primaryValue": "+0.10%",
-    "secondaryLabel": "$EEM next-session move",
-    "secondaryValue": "-5.09%",
-    "topSymbol": "EEM",
-    "topChangePct": -5.085464048594446,
-    "worldCupFinance": {
-      "date": "2026-06-28",
-      "matchDate": "2026-06-27",
-      "marketCheckDate": "2026-06-28",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537368",
-        "utc_date": "2026-06-27T03:00:00Z",
-        "local_datetime": "2026-06-27T11:00:00+08:00",
-        "label": "Egypt 1-1 Iran",
-        "result": "draw",
-        "home": {
-          "team": "Egypt",
-          "country": "Egypt",
-          "score": 1,
-          "etf": "EGPT",
-          "etf_name": "VanEck Egypt Index ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EGPT",
-            "price": 21.4808,
-            "change": 0.021999999999998465,
-            "change_pct": 0.10252204223907424,
-            "volume": 106834,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Iran",
-          "country": "Iran",
-          "score": 1,
-          "etf": "EEM",
-          "etf_name": "iShares MSCI Emerging Markets ETF",
-          "is_proxy": true,
-          "proxy_note": "Emerging markets ETF used because no US-listed Iran ETF is available",
-          "quote": {
-            "symbol": "EEM",
-            "price": 67.19,
-            "change": -3.6000000000000085,
-            "change_pct": -5.085464048594446,
-            "volume": 22733506,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-28-537373-uruguay-spain",
-    "date": "2026-06-28",
-    "matchDate": "2026-06-27",
-    "marketCheckDate": "2026-06-28",
-    "runDate": "2026-06-28",
-    "createdAt": "2026-06-28T05:45:00.169820+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Uruguay vs Spain Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Uruguay 0-1 Spain\n\n📊 Next-session ETF check:\n$ILF Uruguay proxy ETF: -0.27%\n$EWP Spain ETF: -0.56%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-28-537373-uruguay-spain.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-28T05:44:54.338979+00:00",
-    "xPostId": null,
-    "primaryLabel": "$ILF next-session move",
-    "primaryValue": "-0.27%",
-    "secondaryLabel": "$EWP next-session move",
-    "secondaryValue": "-0.56%",
-    "topSymbol": "EWP",
-    "topChangePct": -0.5592272496187058,
-    "worldCupFinance": {
-      "date": "2026-06-28",
-      "matchDate": "2026-06-27",
-      "marketCheckDate": "2026-06-28",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537373",
-        "utc_date": "2026-06-27T00:00:00Z",
-        "local_datetime": "2026-06-27T08:00:00+08:00",
-        "label": "Uruguay 0-1 Spain",
-        "result": "away_win",
-        "home": {
-          "team": "Uruguay",
-          "country": "Uruguay",
-          "score": 0,
-          "etf": "ILF",
-          "etf_name": "iShares Latin America 40 ETF",
-          "is_proxy": true,
-          "proxy_note": "Latin America ETF used as Uruguay market proxy",
-          "quote": {
-            "symbol": "ILF",
-            "price": 33.81,
-            "change": -0.0899999999999963,
-            "change_pct": -0.2654867256637059,
-            "volume": 884469,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Spain",
-          "country": "Spain",
-          "score": 1,
-          "etf": "EWP",
-          "etf_name": "iShares MSCI Spain ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWP",
-            "price": 58.68,
-            "change": -0.3299999999999983,
-            "change_pct": -0.5592272496187058,
-            "volume": 75666,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-28-537396-senegal-iraq",
-    "date": "2026-06-28",
-    "matchDate": "2026-06-27",
-    "marketCheckDate": "2026-06-28",
-    "runDate": "2026-06-28",
-    "createdAt": "2026-06-28T05:45:00.166027+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Senegal vs Iraq Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Senegal 5-0 Iraq\n\n📊 Next-session ETF check:\n$AFK Senegal proxy ETF: -3.01%\n$FM Iraq proxy ETF: +0.41%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-28-537396-senegal-iraq.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-28T05:44:54.338979+00:00",
-    "xPostId": null,
-    "primaryLabel": "$AFK next-session move",
-    "primaryValue": "-3.01%",
-    "secondaryLabel": "$FM next-session move",
-    "secondaryValue": "+0.41%",
-    "topSymbol": "AFK",
-    "topChangePct": -3.012048192771074,
-    "worldCupFinance": {
-      "date": "2026-06-28",
-      "matchDate": "2026-06-27",
-      "marketCheckDate": "2026-06-28",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537396",
-        "utc_date": "2026-06-26T19:00:00Z",
-        "local_datetime": "2026-06-27T03:00:00+08:00",
-        "label": "Senegal 5-0 Iraq",
-        "result": "home_win",
-        "home": {
-          "team": "Senegal",
-          "country": "Senegal",
-          "score": 5,
-          "etf": "AFK",
-          "etf_name": "VanEck Africa Index ETF",
-          "is_proxy": true,
-          "proxy_note": "Africa ETF used as Senegal market proxy",
-          "quote": {
-            "symbol": "AFK",
-            "price": 25.76,
-            "change": -0.7999999999999972,
-            "change_pct": -3.012048192771074,
-            "volume": 191971,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Iraq",
-          "country": "Iraq",
-          "score": 0,
-          "etf": "FM",
-          "etf_name": "iShares Frontier and Select EM ETF",
-          "is_proxy": true,
-          "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Iraq ETF is available",
-          "quote": {
-            "symbol": "FM",
-            "price": 27.19,
-            "change": 0.11000000000000298,
-            "change_pct": 0.40620384047268465,
-            "volume": 57504,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-28-537395-norway-france",
-    "date": "2026-06-28",
-    "matchDate": "2026-06-27",
-    "marketCheckDate": "2026-06-28",
-    "runDate": "2026-06-28",
-    "createdAt": "2026-06-28T05:45:00.162049+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Norway vs France Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Norway 1-4 France\n\n📊 Next-session ETF check:\n$ENOR Norway ETF: -4.10%\n$EWQ France ETF: -2.16%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-28-537395-norway-france.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-28T05:44:54.338979+00:00",
-    "xPostId": null,
-    "primaryLabel": "$ENOR next-session move",
-    "primaryValue": "-4.10%",
-    "secondaryLabel": "$EWQ next-session move",
-    "secondaryValue": "-2.16%",
-    "topSymbol": "ENOR",
-    "topChangePct": -4.096088697259003,
-    "worldCupFinance": {
-      "date": "2026-06-28",
-      "matchDate": "2026-06-27",
-      "marketCheckDate": "2026-06-28",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537395",
-        "utc_date": "2026-06-26T19:00:00Z",
-        "local_datetime": "2026-06-27T03:00:00+08:00",
-        "label": "Norway 1-4 France",
-        "result": "away_win",
-        "home": {
-          "team": "Norway",
-          "country": "Norway",
-          "score": 1,
-          "etf": "ENOR",
-          "etf_name": "iShares MSCI Norway ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "ENOR",
-            "price": 31.14,
-            "change": -1.3299999999999983,
-            "change_pct": -4.096088697259003,
-            "volume": 27956,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "France",
-          "country": "France",
-          "score": 4,
-          "etf": "EWQ",
-          "etf_name": "iShares MSCI France ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWQ",
-            "price": 44.82,
-            "change": -0.990000000000002,
-            "change_pct": -2.1611001964636585,
-            "volume": 248137,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "market-pulse-2026-06-28",
-    "date": "2026-06-28",
-    "runDate": "2026-06-28",
-    "marketDate": "2026-06-26",
-    "createdAt": "2026-06-28T04:57:33.959224+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-28\n\nTop mover: $SDOT +247.09%\n\n1. $SDOT +247.09%\n2. $PCLA +123.40%\n3. $IVF +97.58%\n4. $WSHP +69.85%\n5. $CMIIW +118.33%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-28.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-26 16:15:56 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "SDOT",
-        "price": 21.45,
-        "change_amount": 15.27,
-        "change_pct": 247.0874,
-        "volume": 43870847
-      },
-      {
-        "symbol": "PCLA",
-        "price": 6.97,
-        "change_amount": 3.85,
-        "change_pct": 123.3974,
-        "volume": 7159132
-      },
-      {
-        "symbol": "IVF",
-        "price": 2.45,
-        "change_amount": 1.21,
-        "change_pct": 97.5806,
-        "volume": 113007063
-      },
-      {
-        "symbol": "WSHP",
-        "price": 8.0,
-        "change_amount": 3.29,
-        "change_pct": 69.8514,
-        "volume": 8005260
-      },
-      {
-        "symbol": "CMIIW",
-        "price": 1.31,
-        "change_amount": 0.71,
-        "change_pct": 118.3333,
-        "volume": 1659832
-      }
-    ],
-    "topSymbol": "SDOT",
-    "topChangePct": 247.0874
-  },
-  {
-    "id": "world-cup-etf-2026-06-27-537350-paraguay-australia",
-    "date": "2026-06-27",
-    "matchDate": "2026-06-26",
-    "marketCheckDate": "2026-06-27",
-    "runDate": "2026-06-27",
-    "createdAt": "2026-06-27T05:04:11.531500+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Paraguay vs Australia Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Paraguay 0-0 Australia\n\n📊 Next-session ETF check:\n$ILF Paraguay proxy ETF: -0.27%\n$EWA Australia ETF: -2.07%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-27-537350-paraguay-australia.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-27T05:04:05.976994+00:00",
-    "xPostId": null,
-    "primaryLabel": "$ILF next-session move",
-    "primaryValue": "-0.27%",
-    "secondaryLabel": "$EWA next-session move",
-    "secondaryValue": "-2.07%",
-    "topSymbol": "EWA",
-    "topChangePct": -2.0658263305322127,
-    "worldCupFinance": {
-      "date": "2026-06-27",
-      "matchDate": "2026-06-26",
-      "marketCheckDate": "2026-06-27",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537350",
-        "utc_date": "2026-06-26T02:00:00Z",
-        "local_datetime": "2026-06-26T10:00:00+08:00",
-        "label": "Paraguay 0-0 Australia",
-        "result": "draw",
-        "home": {
-          "team": "Paraguay",
-          "country": "Paraguay",
-          "score": 0,
-          "etf": "ILF",
-          "etf_name": "iShares Latin America 40 ETF",
-          "is_proxy": true,
-          "proxy_note": "Latin America ETF used as Paraguay market proxy",
-          "quote": {
-            "symbol": "ILF",
-            "price": 33.81,
-            "change": -0.0899999999999963,
-            "change_pct": -0.2654867256637059,
-            "volume": 884469,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Australia",
-          "country": "Australia",
-          "score": 0,
-          "etf": "EWA",
-          "etf_name": "iShares MSCI Australia ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWA",
-            "price": 27.97,
-            "change": -0.5899999999999999,
-            "change_pct": -2.0658263305322127,
-            "volume": 2626414,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-27-537349-turkey-united-states",
-    "date": "2026-06-27",
-    "matchDate": "2026-06-26",
-    "marketCheckDate": "2026-06-27",
-    "runDate": "2026-06-27",
-    "createdAt": "2026-06-27T05:04:11.527982+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Turkey vs United States Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Turkey 3-2 United States\n\n📊 Next-session ETF check:\n$TUR Turkey ETF: -4.30%\n$SPY United States ETF: -0.72%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-27-537349-turkey-united-states.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-27T05:04:05.976994+00:00",
-    "xPostId": null,
-    "primaryLabel": "$TUR next-session move",
-    "primaryValue": "-4.30%",
-    "secondaryLabel": "$SPY next-session move",
-    "secondaryValue": "-0.72%",
-    "topSymbol": "TUR",
-    "topChangePct": -4.296874999999996,
-    "worldCupFinance": {
-      "date": "2026-06-27",
-      "matchDate": "2026-06-26",
-      "marketCheckDate": "2026-06-27",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537349",
-        "utc_date": "2026-06-26T02:00:00Z",
-        "local_datetime": "2026-06-26T10:00:00+08:00",
-        "label": "Turkey 3-2 United States",
-        "result": "home_win",
-        "home": {
-          "team": "Turkey",
-          "country": "Turkey",
-          "score": 3,
-          "etf": "TUR",
-          "etf_name": "iShares MSCI Turkey ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "TUR",
-            "price": 39.2,
-            "change": -1.759999999999998,
-            "change_pct": -4.296874999999996,
-            "volume": 169718,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "United States",
-          "country": "United States",
-          "score": 2,
-          "etf": "SPY",
-          "etf_name": "SPDR S&P 500 ETF Trust",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "SPY",
-            "price": 728.99,
-            "change": -5.31,
-            "change_pct": -0.7231376821462617,
-            "volume": 69241946,
-            "source": "FMP quote-short"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-27-537355-ecuador-germany",
-    "date": "2026-06-27",
-    "matchDate": "2026-06-26",
-    "marketCheckDate": "2026-06-27",
-    "runDate": "2026-06-27",
-    "createdAt": "2026-06-27T05:04:11.524272+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Ecuador vs Germany Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Ecuador 2-1 Germany\n\n📊 Next-session ETF check:\n$ILF Ecuador proxy ETF: -0.27%\n$EWG Germany ETF: -2.14%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-27-537355-ecuador-germany.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-27T05:04:05.976994+00:00",
-    "xPostId": null,
-    "primaryLabel": "$ILF next-session move",
-    "primaryValue": "-0.27%",
-    "secondaryLabel": "$EWG next-session move",
-    "secondaryValue": "-2.14%",
-    "topSymbol": "EWG",
-    "topChangePct": -2.1435452793834306,
-    "worldCupFinance": {
-      "date": "2026-06-27",
-      "matchDate": "2026-06-26",
-      "marketCheckDate": "2026-06-27",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537355",
-        "utc_date": "2026-06-25T20:00:00Z",
-        "local_datetime": "2026-06-26T04:00:00+08:00",
-        "label": "Ecuador 2-1 Germany",
-        "result": "home_win",
-        "home": {
-          "team": "Ecuador",
-          "country": "Ecuador",
-          "score": 2,
-          "etf": "ILF",
-          "etf_name": "iShares Latin America 40 ETF",
-          "is_proxy": true,
-          "proxy_note": "Latin America ETF used as Ecuador market proxy",
-          "quote": {
-            "symbol": "ILF",
-            "price": 33.81,
-            "change": -0.0899999999999963,
-            "change_pct": -0.2654867256637059,
-            "volume": 884469,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Germany",
-          "country": "Germany",
-          "score": 1,
-          "etf": "EWG",
-          "etf_name": "iShares MSCI Germany ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWG",
-            "price": 40.63,
-            "change": -0.8900000000000006,
-            "change_pct": -2.1435452793834306,
-            "volume": 338132,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "market-pulse-2026-06-27",
-    "date": "2026-06-27",
-    "runDate": "2026-06-27",
-    "marketDate": "2026-06-26",
-    "createdAt": "2026-06-27T04:31:24.239114+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-27\n\nTop mover: $SDOT +247.09%\n\n1. $SDOT +247.09%\n2. $PCLA +123.40%\n3. $IVF +97.58%\n4. $WSHP +69.85%\n5. $CMIIW +118.33%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-27.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-26 16:15:56 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "SDOT",
-        "price": 21.45,
-        "change_amount": 15.27,
-        "change_pct": 247.0874,
-        "volume": 43870847
-      },
-      {
-        "symbol": "PCLA",
-        "price": 6.97,
-        "change_amount": 3.85,
-        "change_pct": 123.3974,
-        "volume": 7159132
-      },
-      {
-        "symbol": "IVF",
-        "price": 2.45,
-        "change_amount": 1.21,
-        "change_pct": 97.5806,
-        "volume": 113007063
-      },
-      {
-        "symbol": "WSHP",
-        "price": 8.0,
-        "change_amount": 3.29,
-        "change_pct": 69.8514,
-        "volume": 8005260
-      },
-      {
-        "symbol": "CMIIW",
-        "price": 1.31,
-        "change_amount": 0.71,
-        "change_pct": 118.3333,
-        "volume": 1659832
-      }
-    ],
-    "topSymbol": "SDOT",
-    "topChangePct": 247.0874
-  },
-  {
-    "id": "world-cup-etf-2026-06-26-537332-south-africa-south-korea",
-    "date": "2026-06-26",
-    "matchDate": "2026-06-25",
-    "marketCheckDate": "2026-06-26",
-    "runDate": "2026-06-26",
-    "createdAt": "2026-06-26T05:22:05.549223+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "South Africa vs South Korea Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: South Africa 1-0 South Korea\n\n📊 Next-session ETF check:\n$EZA South Africa ETF: -5.02%\n$EWY Korea Republic ETF: -0.04%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-26-537332-south-africa-south-korea.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-26T05:21:58.518237+00:00",
-    "xPostId": null,
-    "primaryLabel": "$EZA next-session move",
-    "primaryValue": "-5.02%",
-    "secondaryLabel": "$EWY next-session move",
-    "secondaryValue": "-0.04%",
-    "topSymbol": "EZA",
-    "topChangePct": -5.021801232897313,
-    "worldCupFinance": {
-      "date": "2026-06-26",
-      "matchDate": "2026-06-25",
-      "marketCheckDate": "2026-06-26",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537332",
-        "utc_date": "2026-06-25T01:00:00Z",
-        "local_datetime": "2026-06-25T09:00:00+08:00",
-        "label": "South Africa 1-0 South Korea",
-        "result": "home_win",
-        "home": {
-          "team": "South Africa",
-          "country": "South Africa",
-          "score": 1,
-          "etf": "EZA",
-          "etf_name": "iShares MSCI South Africa ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EZA",
-            "price": 63.17,
-            "change": -3.3400000000000034,
-            "change_pct": -5.021801232897313,
-            "volume": 64984,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "South Korea",
-          "country": "Korea Republic",
-          "score": 0,
-          "etf": "EWY",
-          "etf_name": "iShares MSCI South Korea ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWY",
-            "price": 205.0,
-            "change": -0.0800000000000125,
-            "change_pct": -0.03900916715428735,
-            "volume": 20742846,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-26-537331-czechia-mexico",
-    "date": "2026-06-26",
-    "matchDate": "2026-06-25",
-    "marketCheckDate": "2026-06-26",
-    "runDate": "2026-06-26",
-    "createdAt": "2026-06-26T05:22:05.546201+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Czechia vs Mexico Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Czechia 0-3 Mexico\n\n📊 Next-session ETF check:\n$VGK Czechia proxy ETF: -1.57%\n$EWW Mexico ETF: -2.30%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-26-537331-czechia-mexico.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-26T05:21:58.518237+00:00",
-    "xPostId": null,
-    "primaryLabel": "$VGK next-session move",
-    "primaryValue": "-1.57%",
-    "secondaryLabel": "$EWW next-session move",
-    "secondaryValue": "-2.30%",
-    "topSymbol": "EWW",
-    "topChangePct": -2.30241883326866,
-    "worldCupFinance": {
-      "date": "2026-06-26",
-      "matchDate": "2026-06-25",
-      "marketCheckDate": "2026-06-26",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537331",
-        "utc_date": "2026-06-25T01:00:00Z",
-        "local_datetime": "2026-06-25T09:00:00+08:00",
-        "label": "Czechia 0-3 Mexico",
-        "result": "away_win",
-        "home": {
-          "team": "Czechia",
-          "country": "Czechia",
-          "score": 0,
-          "etf": "VGK",
-          "etf_name": "Vanguard FTSE Europe ETF",
-          "is_proxy": true,
-          "proxy_note": "Europe ETF used because no liquid single-country Czechia ETF is available",
-          "quote": {
-            "symbol": "VGK",
-            "price": 87.83,
-            "change": -1.4000000000000057,
-            "change_pct": -1.5689790429227901,
-            "volume": 2104533,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Mexico",
-          "country": "Mexico",
-          "score": 3,
-          "etf": "EWW",
-          "etf_name": "iShares MSCI Mexico ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWW",
-            "price": 75.53,
-            "change": -1.7800000000000011,
-            "change_pct": -2.30241883326866,
-            "volume": 1158470,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-26-537343-scotland-brazil",
-    "date": "2026-06-26",
-    "matchDate": "2026-06-25",
-    "marketCheckDate": "2026-06-26",
-    "runDate": "2026-06-26",
-    "createdAt": "2026-06-26T05:22:05.543160+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Scotland vs Brazil Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Scotland 0-3 Brazil\n\n📊 Next-session ETF check:\n$EWU Scotland proxy ETF: -0.09%\n$EWZ Brazil ETF: +0.21%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-26-537343-scotland-brazil.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-26T05:21:58.518237+00:00",
-    "xPostId": null,
-    "primaryLabel": "$EWU next-session move",
-    "primaryValue": "-0.09%",
-    "secondaryLabel": "$EWZ next-session move",
-    "secondaryValue": "+0.21%",
-    "topSymbol": "EWZ",
-    "topChangePct": 0.20521841102316118,
-    "worldCupFinance": {
-      "date": "2026-06-26",
-      "matchDate": "2026-06-25",
-      "marketCheckDate": "2026-06-26",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537343",
-        "utc_date": "2026-06-24T22:00:00Z",
-        "local_datetime": "2026-06-25T06:00:00+08:00",
-        "label": "Scotland 0-3 Brazil",
-        "result": "away_win",
-        "home": {
-          "team": "Scotland",
-          "country": "Scotland",
-          "score": 0,
-          "etf": "EWU",
-          "etf_name": "iShares MSCI United Kingdom ETF",
-          "is_proxy": true,
-          "proxy_note": "UK ETF used as Scotland market proxy",
-          "quote": {
-            "symbol": "EWU",
-            "price": 45.88,
-            "change": -0.03999999999999915,
-            "change_pct": -0.08710801393728036,
-            "volume": 546684,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Brazil",
-          "country": "Brazil",
-          "score": 3,
-          "etf": "EWZ",
-          "etf_name": "iShares MSCI Brazil ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWZ",
-            "price": 34.18,
-            "change": 0.07000000000000028,
-            "change_pct": 0.20521841102316118,
-            "volume": 16101100,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-26-537338-bosnia-herzegovina-qatar",
-    "date": "2026-06-26",
-    "matchDate": "2026-06-25",
-    "marketCheckDate": "2026-06-26",
-    "runDate": "2026-06-26",
-    "createdAt": "2026-06-26T05:22:05.539809+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Bosnia-Herzegovina vs Qatar Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Bosnia-Herzegovina 3-1 Qatar\n\n📊 Next-session ETF check:\n$FM Bosnia and Herzegovina proxy ETF: +0.41%\n$QAT Qatar ETF: -2.43%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-26-537338-bosnia-herzegovina-qatar.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-26T05:21:58.518237+00:00",
-    "xPostId": null,
-    "primaryLabel": "$FM next-session move",
-    "primaryValue": "+0.41%",
-    "secondaryLabel": "$QAT next-session move",
-    "secondaryValue": "-2.43%",
-    "topSymbol": "QAT",
-    "topChangePct": -2.432432432432429,
-    "worldCupFinance": {
-      "date": "2026-06-26",
-      "matchDate": "2026-06-25",
-      "marketCheckDate": "2026-06-26",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537338",
-        "utc_date": "2026-06-24T19:00:00Z",
-        "local_datetime": "2026-06-25T03:00:00+08:00",
-        "label": "Bosnia-Herzegovina 3-1 Qatar",
-        "result": "home_win",
-        "home": {
-          "team": "Bosnia-Herzegovina",
-          "country": "Bosnia and Herzegovina",
-          "score": 3,
-          "etf": "FM",
-          "etf_name": "iShares Frontier and Select EM ETF",
-          "is_proxy": true,
-          "proxy_note": "Frontier/select emerging markets ETF used as market proxy",
-          "quote": {
-            "symbol": "FM",
-            "price": 27.19,
-            "change": 0.11000000000000298,
-            "change_pct": 0.40620384047268465,
-            "volume": 57504,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Qatar",
-          "country": "Qatar",
-          "score": 1,
-          "etf": "QAT",
-          "etf_name": "iShares MSCI Qatar ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "QAT",
-            "price": 18.05,
-            "change": -0.4499999999999993,
-            "change_pct": -2.432432432432429,
-            "volume": 23642,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-26-537337-switzerland-canada",
-    "date": "2026-06-26",
-    "matchDate": "2026-06-25",
-    "marketCheckDate": "2026-06-26",
-    "runDate": "2026-06-26",
-    "createdAt": "2026-06-26T05:22:05.536199+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Switzerland vs Canada Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Switzerland 2-1 Canada\n\n📊 Next-session ETF check:\n$EWL Switzerland ETF: +2.13%\n$EWC Canada ETF: -0.98%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-26-537337-switzerland-canada.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-26T05:21:58.518237+00:00",
-    "xPostId": null,
-    "primaryLabel": "$EWL next-session move",
-    "primaryValue": "+2.13%",
-    "secondaryLabel": "$EWC next-session move",
-    "secondaryValue": "-0.98%",
-    "topSymbol": "EWL",
-    "topChangePct": 2.1304277118230526,
-    "worldCupFinance": {
-      "date": "2026-06-26",
-      "matchDate": "2026-06-25",
-      "marketCheckDate": "2026-06-26",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537337",
-        "utc_date": "2026-06-24T19:00:00Z",
-        "local_datetime": "2026-06-25T03:00:00+08:00",
-        "label": "Switzerland 2-1 Canada",
-        "result": "home_win",
-        "home": {
-          "team": "Switzerland",
-          "country": "Switzerland",
-          "score": 2,
-          "etf": "EWL",
-          "etf_name": "iShares MSCI Switzerland ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWL",
-            "price": 62.8,
-            "change": 1.3099999999999952,
-            "change_pct": 2.1304277118230526,
-            "volume": 344506,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Canada",
-          "country": "Canada",
-          "score": 1,
-          "etf": "EWC",
-          "etf_name": "iShares MSCI Canada ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWC",
-            "price": 57.62,
-            "change": -0.5700000000000003,
-            "change_pct": -0.979549750816292,
-            "volume": 2080401,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "market-pulse-2026-06-26",
-    "date": "2026-06-26",
-    "runDate": "2026-06-26",
-    "marketDate": "2026-06-25",
-    "createdAt": "2026-06-26T04:47:52.989291+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-26\n\nTop mover: $AZI +73.68%\n\n1. $AZI +73.68%\n2. $IQST +47.22%\n3. $SNXX +42.75%\n4. $ILLR +296.57%\n5. $ILLRW +289.04%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-26.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-25 16:15:59 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "AZI",
-        "price": 1.98,
-        "change_amount": 0.84,
-        "change_pct": 73.6842,
-        "volume": 65313218
-      },
-      {
-        "symbol": "IQST",
-        "price": 1.59,
-        "change_amount": 0.51,
-        "change_pct": 47.2222,
-        "volume": 103107776
-      },
-      {
-        "symbol": "SNXX",
-        "price": 45.75,
-        "change_amount": 13.7,
-        "change_pct": 42.7457,
-        "volume": 50410063
-      },
-      {
-        "symbol": "ILLR",
-        "price": 3.05,
-        "change_amount": 2.2809,
-        "change_pct": 296.5674,
-        "volume": 212147976
-      },
-      {
-        "symbol": "ILLRW",
-        "price": 0.0887,
-        "change_amount": 0.0659,
-        "change_pct": 289.0351,
-        "volume": 850116
-      }
-    ],
-    "topSymbol": "AZI",
-    "topChangePct": 73.6842
-  },
-  {
-    "id": "fcf-yield-nvda-amd-2026-06-26",
-    "date": "2026-06-26",
-    "runDate": "2026-06-26",
-    "createdAt": "2026-06-26T01:33:15.873513+00:00",
-    "contentType": "FCF YIELD",
-    "title": "NVDA vs AMD FCF Yield",
-    "status": "ready",
-    "tweet": "Which would you rather own at current prices, $NVDA or $AMD?\n\nNVDA FCF Yield: 2.5%\nAMD FCF Yield: 1.0%\n\n$NVDA $AMD\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
-    "image": "/posts/fcf_yield_NVDA_AMD_2026-06-26.png",
-    "dataSource": "Financial Modeling Prep",
-    "dataUpdatedAt": "2026-06-26T01:33:12.208486+00:00",
-    "xPostId": null,
-    "primaryLabel": "$NVDA FCF Yield",
-    "primaryValue": "2.5%",
-    "secondaryLabel": "$AMD FCF Yield",
-    "secondaryValue": "1.0%",
-    "topSymbol": "NVDA",
-    "topChangePct": 2.5116121988419815,
-    "comparison": {
-      "updated_at": "2026-06-26T01:33:12.208486+00:00",
-      "date": "2026-06-26",
-      "run_timezone": "Asia/Shanghai",
-      "source": "Financial Modeling Prep",
-      "symbols": [
-        "NVDA",
-        "AMD"
-      ],
-      "companies": [
-        {
-          "symbol": "NVDA",
-          "name": "NVIDIA Corporation",
-          "market_cap": 4741018540000.0,
-          "price": 195.74,
-          "latest_ttm_fcf": 119076000000.0,
-          "latest_fcf_yield": 2.5116121988419815,
-          "history": [
-            {
-              "date": "2026-04-26",
-              "ttm_fcf": 119076000000.0,
-              "fcf_yield": 2.5116121988419815
-            },
-            {
-              "date": "2026-01-25",
-              "ttm_fcf": 96676000000.0,
-              "fcf_yield": 2.039139884907516
-            }
-          ]
-        },
-        {
-          "symbol": "AMD",
-          "name": "Advanced Micro Devices, Inc.",
-          "market_cap": 868408642000.0,
-          "price": 532.57,
-          "latest_ttm_fcf": 8574000000.0,
-          "latest_fcf_yield": 0.9873232007748721,
-          "history": [
-            {
-              "date": "2026-03-28",
-              "ttm_fcf": 8574000000.0,
-              "fcf_yield": 0.9873232007748721
-            },
-            {
-              "date": "2025-12-27",
-              "ttm_fcf": 6735000000.0,
-              "fcf_yield": 0.7755565380474415
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-25-537406-colombia-congo-dr",
-    "date": "2026-06-25",
-    "matchDate": "2026-06-24",
-    "marketCheckDate": "2026-06-25",
-    "runDate": "2026-06-25",
-    "createdAt": "2026-06-25T06:18:06.588080+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Colombia vs Congo DR Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Colombia 1-0 Congo DR\n\n📊 Next-session ETF check:\n$GXG Colombia ETF: -32.87%\n$AFK Congo DR proxy ETF: -8.39%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-25-537406-colombia-congo-dr.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-25T06:17:59.702729+00:00",
-    "xPostId": null,
-    "primaryLabel": "$GXG next-session move",
-    "primaryValue": "-32.87%",
-    "secondaryLabel": "$AFK next-session move",
-    "secondaryValue": "-8.39%",
-    "topSymbol": "GXG",
-    "topChangePct": -32.86920794339192,
-    "worldCupFinance": {
-      "date": "2026-06-25",
-      "matchDate": "2026-06-24",
-      "marketCheckDate": "2026-06-25",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537406",
-        "utc_date": "2026-06-24T02:00:00Z",
-        "local_datetime": "2026-06-24T10:00:00+08:00",
-        "label": "Colombia 1-0 Congo DR",
-        "result": "home_win",
-        "home": {
-          "team": "Colombia",
-          "country": "Colombia",
-          "score": 1,
-          "etf": "GXG",
-          "etf_name": "Global X MSCI Colombia ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "GXG",
-            "price": 29.41,
-            "change": -14.400000000000002,
-            "change_pct": -32.86920794339192,
-            "volume": 42685,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Congo DR",
-          "country": "Congo DR",
-          "score": 0,
-          "etf": "AFK",
-          "etf_name": "VanEck Africa Index ETF",
-          "is_proxy": true,
-          "proxy_note": "Africa ETF used because no liquid single-country Congo DR ETF is available",
-          "quote": {
-            "symbol": "AFK",
-            "price": 25.54,
-            "change": -2.34,
-            "change_pct": -8.393113342898134,
-            "volume": 34766,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-25-537412-panama-croatia",
-    "date": "2026-06-25",
-    "matchDate": "2026-06-24",
-    "marketCheckDate": "2026-06-25",
-    "runDate": "2026-06-25",
-    "createdAt": "2026-06-25T06:18:06.585642+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Panama vs Croatia Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Panama 0-1 Croatia\n\n📊 Next-session ETF check:\n$ILF Panama proxy ETF: -3.32%\n$VGK Croatia proxy ETF: -3.40%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-25-537412-panama-croatia.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-25T06:17:59.702729+00:00",
-    "xPostId": null,
-    "primaryLabel": "$ILF next-session move",
-    "primaryValue": "-3.32%",
-    "secondaryLabel": "$VGK next-session move",
-    "secondaryValue": "-3.40%",
-    "topSymbol": "VGK",
-    "topChangePct": -3.3996222641928697,
-    "worldCupFinance": {
-      "date": "2026-06-25",
-      "matchDate": "2026-06-24",
-      "marketCheckDate": "2026-06-25",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537412",
-        "utc_date": "2026-06-23T23:00:00Z",
-        "local_datetime": "2026-06-24T07:00:00+08:00",
-        "label": "Panama 0-1 Croatia",
-        "result": "away_win",
-        "home": {
-          "team": "Panama",
-          "country": "Panama",
-          "score": 0,
-          "etf": "ILF",
-          "etf_name": "iShares Latin America 40 ETF",
-          "is_proxy": true,
-          "proxy_note": "Latin America ETF used because no liquid single-country Panama ETF is available",
-          "quote": {
-            "symbol": "ILF",
-            "price": 33.16,
-            "change": -1.1400000000000006,
-            "change_pct": -3.3236151603498563,
-            "volume": 2182775,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Croatia",
-          "country": "Croatia",
-          "score": 1,
-          "etf": "VGK",
-          "etf_name": "Vanguard FTSE Europe ETF",
-          "is_proxy": true,
-          "proxy_note": "Europe ETF used because no liquid single-country Croatia ETF is available",
-          "quote": {
-            "symbol": "VGK",
-            "price": 86.95,
-            "change": -3.0600000000000023,
-            "change_pct": -3.3996222641928697,
-            "volume": 2097614,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-25-537411-england-ghana",
-    "date": "2026-06-25",
-    "matchDate": "2026-06-24",
-    "marketCheckDate": "2026-06-25",
-    "runDate": "2026-06-25",
-    "createdAt": "2026-06-25T06:18:06.583015+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "England vs Ghana Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: England 0-0 Ghana\n\n📊 Next-session ETF check:\n$EWU England ETF: -2.28%\n$AFK Ghana proxy ETF: -8.39%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-25-537411-england-ghana.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-25T06:17:59.702729+00:00",
-    "xPostId": null,
-    "primaryLabel": "$EWU next-session move",
-    "primaryValue": "-2.28%",
-    "secondaryLabel": "$AFK next-session move",
-    "secondaryValue": "-8.39%",
-    "topSymbol": "AFK",
-    "topChangePct": -8.393113342898134,
-    "worldCupFinance": {
-      "date": "2026-06-25",
-      "matchDate": "2026-06-24",
-      "marketCheckDate": "2026-06-25",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537411",
-        "utc_date": "2026-06-23T20:00:00Z",
-        "local_datetime": "2026-06-24T04:00:00+08:00",
-        "label": "England 0-0 Ghana",
-        "result": "draw",
-        "home": {
-          "team": "England",
-          "country": "England",
-          "score": 0,
-          "etf": "EWU",
-          "etf_name": "iShares MSCI United Kingdom ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWU",
-            "price": 45.45,
-            "change": -1.0599999999999952,
-            "change_pct": -2.2790797677918624,
-            "volume": 538681,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Ghana",
-          "country": "Ghana",
-          "score": 0,
-          "etf": "AFK",
-          "etf_name": "VanEck Africa Index ETF",
-          "is_proxy": true,
-          "proxy_note": "Africa ETF used because no liquid single-country Ghana ETF is available",
-          "quote": {
-            "symbol": "AFK",
-            "price": 25.54,
-            "change": -2.34,
-            "change_pct": -8.393113342898134,
-            "volume": 34766,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-25-537405-portugal-uzbekistan",
-    "date": "2026-06-25",
-    "matchDate": "2026-06-24",
-    "marketCheckDate": "2026-06-25",
-    "runDate": "2026-06-25",
-    "createdAt": "2026-06-25T06:18:06.580150+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Portugal vs Uzbekistan Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Portugal 5-0 Uzbekistan\n\n📊 Next-session ETF check:\n$PGAL Portugal ETF: +0.00%\n$FM Uzbekistan proxy ETF: +0.41%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-25-537405-portugal-uzbekistan.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-25T06:17:59.702729+00:00",
-    "xPostId": null,
-    "primaryLabel": "$PGAL next-session move",
-    "primaryValue": "+0.00%",
-    "secondaryLabel": "$FM next-session move",
-    "secondaryValue": "+0.41%",
-    "topSymbol": "FM",
-    "topChangePct": 0.40620384047268465,
-    "worldCupFinance": {
-      "date": "2026-06-25",
-      "matchDate": "2026-06-24",
-      "marketCheckDate": "2026-06-25",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537405",
-        "utc_date": "2026-06-23T17:00:00Z",
-        "local_datetime": "2026-06-24T01:00:00+08:00",
-        "label": "Portugal 5-0 Uzbekistan",
-        "result": "home_win",
-        "home": {
-          "team": "Portugal",
-          "country": "Portugal",
-          "score": 5,
-          "etf": "PGAL",
-          "etf_name": "Global X MSCI Portugal ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "PGAL",
-            "price": 10.315,
-            "change": 0.0,
-            "change_pct": 0.0,
-            "volume": 15549,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Uzbekistan",
-          "country": "Uzbekistan",
-          "score": 0,
-          "etf": "FM",
-          "etf_name": "iShares Frontier and Select EM ETF",
-          "is_proxy": true,
-          "proxy_note": "Frontier/select emerging markets ETF used as market proxy",
-          "quote": {
-            "symbol": "FM",
-            "price": 27.19,
-            "change": 0.11000000000000298,
-            "change_pct": 0.40620384047268465,
-            "volume": 57504,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    {
+        "id":  "market-pulse-2026-06-29",
+        "date":  "2026-06-29",
+        "runDate":  "2026-06-29",
+        "marketDate":  "2026-06-26",
+        "createdAt":  "2026-06-29T05:08:14.683304+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-29\n\nTop mover: $SDOT +247.09%\n\n1. $SDOT +247.09%\n2. $PCLA +123.40%\n3. $IVF +97.58%\n4. $WSHP +69.85%\n5. $CMIIW +118.33%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-29.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-26 16:15:56 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "SDOT",
+                         "price":  21.45,
+                         "change_amount":  15.27,
+                         "change_pct":  247.0874,
+                         "volume":  43870847
+                     },
+                     {
+                         "symbol":  "PCLA",
+                         "price":  6.97,
+                         "change_amount":  3.85,
+                         "change_pct":  123.3974,
+                         "volume":  7159132
+                     },
+                     {
+                         "symbol":  "IVF",
+                         "price":  2.45,
+                         "change_amount":  1.21,
+                         "change_pct":  97.5806,
+                         "volume":  113007063
+                     },
+                     {
+                         "symbol":  "WSHP",
+                         "price":  8.0,
+                         "change_amount":  3.29,
+                         "change_pct":  69.8514,
+                         "volume":  8005260
+                     },
+                     {
+                         "symbol":  "CMIIW",
+                         "price":  1.31,
+                         "change_amount":  0.71,
+                         "change_pct":  118.3333,
+                         "volume":  1659832
+                     }
+                 ],
+        "topSymbol":  "SDOT",
+        "topChangePct":  247.0874
     },
-    "typefullyDraftId": 9642559,
-    "typefullyDraftUrl": "https://typefully.com/?d=9642559"
-  },
-  {
-    "id": "market-pulse-2026-06-25",
-    "date": "2026-06-25",
-    "runDate": "2026-06-25",
-    "marketDate": "2026-06-24",
-    "createdAt": "2026-06-25T04:39:54.879828+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-25\n\nTop mover: $PLSM +93.82%\n\n1. $PLSM +93.82%\n2. $SKYQ +60.06%\n3. $ICCM +51.96%\n4. $STFS +54.33%\n5. $NIXXW +235.23%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-25.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-24 16:15:56 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "PLSM",
-        "price": 6.59,
-        "change_amount": 3.19,
-        "change_pct": 93.8235,
-        "volume": 57807292
-      },
-      {
-        "symbol": "SKYQ",
-        "price": 2.625,
-        "change_amount": 0.985,
-        "change_pct": 60.061,
-        "volume": 62767036
-      },
-      {
-        "symbol": "ICCM",
-        "price": 9.3,
-        "change_amount": 3.18,
-        "change_pct": 51.9608,
-        "volume": 13352002
-      },
-      {
-        "symbol": "STFS",
-        "price": 12.84,
-        "change_amount": 4.52,
-        "change_pct": 54.3269,
-        "volume": 251588
-      },
-      {
-        "symbol": "NIXXW",
-        "price": 0.0295,
-        "change_amount": 0.0207,
-        "change_pct": 235.2273,
-        "volume": 146432
-      }
-    ],
-    "topSymbol": "PLSM",
-    "topChangePct": 93.8235
-  },
-  {
-    "id": "world-cup-etf-2026-06-24-537400-jordan-algeria",
-    "date": "2026-06-24",
-    "matchDate": "2026-06-23",
-    "marketCheckDate": "2026-06-24",
-    "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T07:49:20.954029+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Jordan vs Algeria Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Jordan 1-2 Algeria\n\n📊 Next-session ETF check:\n$FM Jordan proxy ETF: +0.41%\n$AFK Algeria proxy ETF: -6.27%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-24-537400-jordan-algeria.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-24T07:49:15.229448+00:00",
-    "xPostId": null,
-    "primaryLabel": "$FM next-session move",
-    "primaryValue": "+0.41%",
-    "secondaryLabel": "$AFK next-session move",
-    "secondaryValue": "-6.27%",
-    "topSymbol": "AFK",
-    "topChangePct": -6.2724014336917575,
-    "worldCupFinance": {
-      "date": "2026-06-24",
-      "matchDate": "2026-06-23",
-      "marketCheckDate": "2026-06-24",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537400",
-        "utc_date": "2026-06-23T03:00:00Z",
-        "local_datetime": "2026-06-23T11:00:00+08:00",
-        "label": "Jordan 1-2 Algeria",
-        "result": "away_win",
-        "home": {
-          "team": "Jordan",
-          "country": "Jordan",
-          "score": 1,
-          "etf": "FM",
-          "etf_name": "iShares Frontier and Select EM ETF",
-          "is_proxy": true,
-          "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Jordan ETF is available",
-          "quote": {
-            "symbol": "FM",
-            "price": 27.19,
-            "change": 0.11000000000000298,
-            "change_pct": 0.40620384047268465,
-            "volume": 57504,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Algeria",
-          "country": "Algeria",
-          "score": 2,
-          "etf": "AFK",
-          "etf_name": "VanEck Africa Index ETF",
-          "is_proxy": true,
-          "proxy_note": "Africa ETF used because no liquid US-listed Algeria ETF is available",
-          "quote": {
-            "symbol": "AFK",
-            "price": 26.15,
-            "change": -1.75,
-            "change_pct": -6.2724014336917575,
-            "volume": 27724,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-24-537394-norway-senegal",
-    "date": "2026-06-24",
-    "matchDate": "2026-06-23",
-    "marketCheckDate": "2026-06-24",
-    "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T07:49:20.951950+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Norway vs Senegal Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Norway 3-2 Senegal\n\n📊 Next-session ETF check:\n$ENOR Norway ETF: -3.98%\n$AFK Senegal proxy ETF: -6.27%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-24-537394-norway-senegal.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-24T07:49:15.229448+00:00",
-    "xPostId": null,
-    "primaryLabel": "$ENOR next-session move",
-    "primaryValue": "-3.98%",
-    "secondaryLabel": "$AFK next-session move",
-    "secondaryValue": "-6.27%",
-    "topSymbol": "AFK",
-    "topChangePct": -6.2724014336917575,
-    "worldCupFinance": {
-      "date": "2026-06-24",
-      "matchDate": "2026-06-23",
-      "marketCheckDate": "2026-06-24",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537394",
-        "utc_date": "2026-06-23T00:00:00Z",
-        "local_datetime": "2026-06-23T08:00:00+08:00",
-        "label": "Norway 3-2 Senegal",
-        "result": "home_win",
-        "home": {
-          "team": "Norway",
-          "country": "Norway",
-          "score": 3,
-          "etf": "ENOR",
-          "etf_name": "iShares MSCI Norway ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "ENOR",
-            "price": 32.35,
-            "change": -1.3399999999999963,
-            "change_pct": -3.9774413772632724,
-            "volume": 33448,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Senegal",
-          "country": "Senegal",
-          "score": 2,
-          "etf": "AFK",
-          "etf_name": "VanEck Africa Index ETF",
-          "is_proxy": true,
-          "proxy_note": "Africa ETF used as Senegal market proxy",
-          "quote": {
-            "symbol": "AFK",
-            "price": 26.15,
-            "change": -1.75,
-            "change_pct": -6.2724014336917575,
-            "volume": 27724,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    {
+        "id":  "fcf-yield-msft-googl-2026-06-29",
+        "date":  "2026-06-29",
+        "runDate":  "2026-06-29",
+        "createdAt":  "2026-06-29T01:34:28.590258+00:00",
+        "contentType":  "FCF YIELD",
+        "title":  "MSFT vs GOOGL FCF Yield",
+        "status":  "ready",
+        "tweet":  "Which would you rather own at current prices, $MSFT or $GOOGL?\n\nMSFT FCF Yield: 2.6%\nGOOGL FCF Yield: 1.6%\n\n$MSFT $GOOGL\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
+        "image":  "/posts/fcf_yield_MSFT_GOOGL_2026-06-29.png",
+        "dataSource":  "Financial Modeling Prep",
+        "dataUpdatedAt":  "2026-06-29T01:34:25.266419+00:00",
+        "xPostId":  null,
+        "primaryLabel":  "$MSFT FCF Yield",
+        "primaryValue":  "2.6%",
+        "secondaryLabel":  "$GOOGL FCF Yield",
+        "secondaryValue":  "1.6%",
+        "topSymbol":  "MSFT",
+        "topChangePct":  2.6317940484192364,
+        "comparison":  {
+                           "updated_at":  "2026-06-29T01:34:25.266419+00:00",
+                           "date":  "2026-06-29",
+                           "run_timezone":  "Asia/Shanghai",
+                           "source":  "Financial Modeling Prep",
+                           "symbols":  [
+                                           "MSFT",
+                                           "GOOGL"
+                                       ],
+                           "companies":  [
+                                             {
+                                                 "symbol":  "MSFT",
+                                                 "name":  "Microsoft Corporation",
+                                                 "market_cap":  2770581537100.0,
+                                                 "price":  372.97,
+                                                 "latest_ttm_fcf":  72916000000.0,
+                                                 "latest_fcf_yield":  2.6317940484192364,
+                                                 "history":  [
+                                                                 {
+                                                                     "date":  "2026-03-31",
+                                                                     "ttm_fcf":  72916000000.0,
+                                                                     "fcf_yield":  2.6317940484192364
+                                                                 },
+                                                                 {
+                                                                     "date":  "2025-12-31",
+                                                                     "ttm_fcf":  77412000000.0,
+                                                                     "fcf_yield":  2.7940704492324038
+                                                                 }
+                                                             ]
+                                             },
+                                             {
+                                                 "symbol":  "GOOGL",
+                                                 "name":  "Alphabet Inc.",
+                                                 "market_cap":  4080688288155.0005,
+                                                 "price":  337.39,
+                                                 "latest_ttm_fcf":  64429000000.0,
+                                                 "latest_fcf_yield":  1.578875803550539,
+                                                 "history":  [
+                                                                 {
+                                                                     "date":  "2026-03-31",
+                                                                     "ttm_fcf":  64429000000.0,
+                                                                     "fcf_yield":  1.578875803550539
+                                                                 },
+                                                                 {
+                                                                     "date":  "2025-12-31",
+                                                                     "ttm_fcf":  73266000000.0,
+                                                                     "fcf_yield":  1.7954324081226436
+                                                                 }
+                                                             ]
+                                             }
+                                         ]
+                       },
+        "typefullyDraftId":  9688812,
+        "typefullyDraftUrl":  "https://typefully.com/?d=9688812"
     },
-    "typefullyDraftId": 9630130,
-    "typefullyDraftUrl": "https://typefully.com/?d=9630130"
-  },
-  {
-    "id": "world-cup-etf-2026-06-24-537393-france-iraq",
-    "date": "2026-06-24",
-    "matchDate": "2026-06-23",
-    "marketCheckDate": "2026-06-24",
-    "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T07:49:20.949964+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "France vs Iraq Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: France 3-0 Iraq\n\n📊 Next-session ETF check:\n$EWQ France ETF: -2.19%\n$FM Iraq proxy ETF: +0.41%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-24-537393-france-iraq.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-24T07:49:15.229448+00:00",
-    "xPostId": null,
-    "primaryLabel": "$EWQ next-session move",
-    "primaryValue": "-2.19%",
-    "secondaryLabel": "$FM next-session move",
-    "secondaryValue": "+0.41%",
-    "topSymbol": "EWQ",
-    "topChangePct": -2.185792349726776,
-    "worldCupFinance": {
-      "date": "2026-06-24",
-      "matchDate": "2026-06-23",
-      "marketCheckDate": "2026-06-24",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537393",
-        "utc_date": "2026-06-22T21:00:00Z",
-        "local_datetime": "2026-06-23T05:00:00+08:00",
-        "label": "France 3-0 Iraq",
-        "result": "home_win",
-        "home": {
-          "team": "France",
-          "country": "France",
-          "score": 3,
-          "etf": "EWQ",
-          "etf_name": "iShares MSCI France ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWQ",
-            "price": 44.75,
-            "change": -1.0,
-            "change_pct": -2.185792349726776,
-            "volume": 221861,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Iraq",
-          "country": "Iraq",
-          "score": 0,
-          "etf": "FM",
-          "etf_name": "iShares Frontier and Select EM ETF",
-          "is_proxy": true,
-          "proxy_note": "Frontier/select emerging markets ETF used because no US-listed Iraq ETF is available",
-          "quote": {
-            "symbol": "FM",
-            "price": 27.19,
-            "change": 0.11000000000000298,
-            "change_pct": 0.40620384047268465,
-            "volume": 57504,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-24-537399-argentina-austria",
-    "date": "2026-06-24",
-    "matchDate": "2026-06-23",
-    "marketCheckDate": "2026-06-24",
-    "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T07:49:20.947881+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Argentina vs Austria Market Aftermath",
-    "status": "ready",
-    "tweet": "⚽ World Cup result: Argentina 2-0 Austria\n\n📊 Next-session ETF check:\n$ARGT Argentina ETF: -5.69%\n$EWO Austria ETF: -0.33%\n\nNot a causal claim. Just tracking how football attention and country ETFs move together.\n\nBuilt with QVeris ⚡ https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-24-537399-argentina-austria.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-24T07:49:15.229448+00:00",
-    "xPostId": null,
-    "primaryLabel": "$ARGT next-session move",
-    "primaryValue": "-5.69%",
-    "secondaryLabel": "$EWO next-session move",
-    "secondaryValue": "-0.33%",
-    "topSymbol": "ARGT",
-    "topChangePct": -5.686334454295321,
-    "worldCupFinance": {
-      "date": "2026-06-24",
-      "matchDate": "2026-06-23",
-      "marketCheckDate": "2026-06-24",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537399",
-        "utc_date": "2026-06-22T17:00:00Z",
-        "local_datetime": "2026-06-23T01:00:00+08:00",
-        "label": "Argentina 2-0 Austria",
-        "result": "home_win",
-        "home": {
-          "team": "Argentina",
-          "country": "Argentina",
-          "score": 2,
-          "etf": "ARGT",
-          "etf_name": "Global X MSCI Argentina ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "ARGT",
-            "price": 92.55,
-            "change": -5.579999999999998,
-            "change_pct": -5.686334454295321,
-            "volume": 278965,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Austria",
-          "country": "Austria",
-          "score": 0,
-          "etf": "EWO",
-          "etf_name": "iShares MSCI Austria ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWO",
-            "price": 42.51,
-            "change": -0.14000000000000057,
-            "change_pct": -0.32825322391559336,
-            "volume": 22714,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "fcf-yield-pypl-adbe-2026-06-24",
-    "date": "2026-06-24",
-    "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T06:18:17.866091+00:00",
-    "contentType": "FCF YIELD",
-    "title": "PYPL vs ADBE FCF Yield",
-    "status": "ready",
-    "tweet": "Which would you rather own at current prices, $PYPL or $ADBE?\n\nPYPL FCF Yield: 15.0%\nADBE FCF Yield: 13.5%\n\n$PYPL $ADBE\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
-    "image": "/posts/fcf_yield_PYPL_ADBE_2026-06-24.png",
-    "dataSource": "Financial Modeling Prep",
-    "dataUpdatedAt": "2026-06-24T06:18:14.434603+00:00",
-    "xPostId": null,
-    "primaryLabel": "$PYPL FCF Yield",
-    "primaryValue": "15.0%",
-    "secondaryLabel": "$ADBE FCF Yield",
-    "secondaryValue": "13.5%",
-    "topSymbol": "PYPL",
-    "topChangePct": 14.982139260032273,
-    "comparison": {
-      "updated_at": "2026-06-24T06:18:14.434603+00:00",
-      "date": "2026-06-24",
-      "run_timezone": "Asia/Shanghai",
-      "source": "Financial Modeling Prep",
-      "symbols": [
-        "PYPL",
-        "ADBE"
-      ],
-      "companies": [
-        {
-          "symbol": "PYPL",
-          "name": "PayPal Holdings, Inc.",
-          "market_cap": 36783799058.0,
-          "price": 41.7,
-          "latest_ttm_fcf": 5511000000.0,
-          "latest_fcf_yield": 14.982139260032273,
-          "history": [
-            {
-              "date": "2026-03-31",
-              "ttm_fcf": 5511000000.0,
-              "fcf_yield": 14.982139260032273
-            },
-            {
-              "date": "2025-12-31",
-              "ttm_fcf": 5564000000.0,
-              "fcf_yield": 15.126224431649351
-            }
-          ]
-        },
-        {
-          "symbol": "ADBE",
-          "name": "Adobe Inc.",
-          "market_cap": 78478426579.0,
-          "price": 197.43,
-          "latest_ttm_fcf": 10627000000.0,
-          "latest_fcf_yield": 13.54130104698566,
-          "history": [
-            {
-              "date": "2026-05-29",
-              "ttm_fcf": 10627000000.0,
-              "fcf_yield": 13.54130104698566
-            },
-            {
-              "date": "2026-02-27",
-              "ttm_fcf": 10317000000.0,
-              "fcf_yield": 13.146288030653153
-            }
-          ]
-        }
-      ]
+    {
+        "id":  "market-pulse-2026-06-28",
+        "date":  "2026-06-28",
+        "runDate":  "2026-06-28",
+        "marketDate":  "2026-06-26",
+        "createdAt":  "2026-06-28T04:57:33.959224+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-28\n\nTop mover: $SDOT +247.09%\n\n1. $SDOT +247.09%\n2. $PCLA +123.40%\n3. $IVF +97.58%\n4. $WSHP +69.85%\n5. $CMIIW +118.33%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-28.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-26 16:15:56 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "SDOT",
+                         "price":  21.45,
+                         "change_amount":  15.27,
+                         "change_pct":  247.0874,
+                         "volume":  43870847
+                     },
+                     {
+                         "symbol":  "PCLA",
+                         "price":  6.97,
+                         "change_amount":  3.85,
+                         "change_pct":  123.3974,
+                         "volume":  7159132
+                     },
+                     {
+                         "symbol":  "IVF",
+                         "price":  2.45,
+                         "change_amount":  1.21,
+                         "change_pct":  97.5806,
+                         "volume":  113007063
+                     },
+                     {
+                         "symbol":  "WSHP",
+                         "price":  8.0,
+                         "change_amount":  3.29,
+                         "change_pct":  69.8514,
+                         "volume":  8005260
+                     },
+                     {
+                         "symbol":  "CMIIW",
+                         "price":  1.31,
+                         "change_amount":  0.71,
+                         "change_pct":  118.3333,
+                         "volume":  1659832
+                     }
+                 ],
+        "topSymbol":  "SDOT",
+        "topChangePct":  247.0874
     },
-    "typefullyDraftId": 9640593,
-    "typefullyDraftUrl": "https://typefully.com/?d=9640593"
-  },
-  {
-    "id": "world-cup-etf-2026-06-24-537406-colombia-congo-dr",
-    "date": "2026-06-24",
-    "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T05:13:06.661300+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Colombia vs Congo DR ETF Watch",
-    "status": "ready",
-    "tweet": "Colombia beat Congo DR 1-0.\n\nMarket attention check:\n$GXG Colombia ETF: -33.94%\n$AFK Congo DR proxy ETF: -6.27%\n\nWorld Cup results don't move markets alone, but they create a clean sentiment signal to track.\n\nBuilt with QVeris: https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-24-537406-colombia-congo-dr.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-24T05:13:01.593520+00:00",
-    "xPostId": null,
-    "primaryLabel": "$GXG daily move",
-    "primaryValue": "-33.94%",
-    "secondaryLabel": "$AFK daily move",
-    "secondaryValue": "-6.27%",
-    "topSymbol": "GXG",
-    "topChangePct": -33.939802336028755,
-    "worldCupFinance": {
-      "date": "2026-06-24",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537406",
-        "utc_date": "2026-06-24T02:00:00Z",
-        "local_datetime": "2026-06-24T10:00:00+08:00",
-        "label": "Colombia 1-0 Congo DR",
-        "result": "home_win",
-        "home": {
-          "team": "Colombia",
-          "country": "Colombia",
-          "score": 1,
-          "etf": "GXG",
-          "etf_name": "Global X MSCI Colombia ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "GXG",
-            "price": 29.41,
-            "change": -15.110000000000003,
-            "change_pct": -33.939802336028755,
-            "volume": 42685,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Congo DR",
-          "country": "Congo DR",
-          "score": 0,
-          "etf": "AFK",
-          "etf_name": "VanEck Africa Index ETF",
-          "is_proxy": true,
-          "proxy_note": "Africa ETF used because no liquid single-country Congo DR ETF is available",
-          "quote": {
-            "symbol": "AFK",
-            "price": 26.15,
-            "change": -1.75,
-            "change_pct": -6.2724014336917575,
-            "volume": 27724,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
+    {
+        "id":  "market-pulse-2026-06-27",
+        "date":  "2026-06-27",
+        "runDate":  "2026-06-27",
+        "marketDate":  "2026-06-26",
+        "createdAt":  "2026-06-27T04:31:24.239114+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-27\n\nTop mover: $SDOT +247.09%\n\n1. $SDOT +247.09%\n2. $PCLA +123.40%\n3. $IVF +97.58%\n4. $WSHP +69.85%\n5. $CMIIW +118.33%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-27.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-26 16:15:56 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "SDOT",
+                         "price":  21.45,
+                         "change_amount":  15.27,
+                         "change_pct":  247.0874,
+                         "volume":  43870847
+                     },
+                     {
+                         "symbol":  "PCLA",
+                         "price":  6.97,
+                         "change_amount":  3.85,
+                         "change_pct":  123.3974,
+                         "volume":  7159132
+                     },
+                     {
+                         "symbol":  "IVF",
+                         "price":  2.45,
+                         "change_amount":  1.21,
+                         "change_pct":  97.5806,
+                         "volume":  113007063
+                     },
+                     {
+                         "symbol":  "WSHP",
+                         "price":  8.0,
+                         "change_amount":  3.29,
+                         "change_pct":  69.8514,
+                         "volume":  8005260
+                     },
+                     {
+                         "symbol":  "CMIIW",
+                         "price":  1.31,
+                         "change_amount":  0.71,
+                         "change_pct":  118.3333,
+                         "volume":  1659832
+                     }
+                 ],
+        "topSymbol":  "SDOT",
+        "topChangePct":  247.0874
+    },
+    {
+        "id":  "market-pulse-2026-06-26",
+        "date":  "2026-06-26",
+        "runDate":  "2026-06-26",
+        "marketDate":  "2026-06-25",
+        "createdAt":  "2026-06-26T04:47:52.989291+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-26\n\nTop mover: $AZI +73.68%\n\n1. $AZI +73.68%\n2. $IQST +47.22%\n3. $SNXX +42.75%\n4. $ILLR +296.57%\n5. $ILLRW +289.04%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-26.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-25 16:15:59 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "AZI",
+                         "price":  1.98,
+                         "change_amount":  0.84,
+                         "change_pct":  73.6842,
+                         "volume":  65313218
+                     },
+                     {
+                         "symbol":  "IQST",
+                         "price":  1.59,
+                         "change_amount":  0.51,
+                         "change_pct":  47.2222,
+                         "volume":  103107776
+                     },
+                     {
+                         "symbol":  "SNXX",
+                         "price":  45.75,
+                         "change_amount":  13.7,
+                         "change_pct":  42.7457,
+                         "volume":  50410063
+                     },
+                     {
+                         "symbol":  "ILLR",
+                         "price":  3.05,
+                         "change_amount":  2.2809,
+                         "change_pct":  296.5674,
+                         "volume":  212147976
+                     },
+                     {
+                         "symbol":  "ILLRW",
+                         "price":  0.0887,
+                         "change_amount":  0.0659,
+                         "change_pct":  289.0351,
+                         "volume":  850116
+                     }
+                 ],
+        "topSymbol":  "AZI",
+        "topChangePct":  73.6842
+    },
+    {
+        "id":  "fcf-yield-nvda-amd-2026-06-26",
+        "date":  "2026-06-26",
+        "runDate":  "2026-06-26",
+        "createdAt":  "2026-06-26T01:33:15.873513+00:00",
+        "contentType":  "FCF YIELD",
+        "title":  "NVDA vs AMD FCF Yield",
+        "status":  "ready",
+        "tweet":  "Which would you rather own at current prices, $NVDA or $AMD?\n\nNVDA FCF Yield: 2.5%\nAMD FCF Yield: 1.0%\n\n$NVDA $AMD\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
+        "image":  "/posts/fcf_yield_NVDA_AMD_2026-06-26.png",
+        "dataSource":  "Financial Modeling Prep",
+        "dataUpdatedAt":  "2026-06-26T01:33:12.208486+00:00",
+        "xPostId":  null,
+        "primaryLabel":  "$NVDA FCF Yield",
+        "primaryValue":  "2.5%",
+        "secondaryLabel":  "$AMD FCF Yield",
+        "secondaryValue":  "1.0%",
+        "topSymbol":  "NVDA",
+        "topChangePct":  2.5116121988419815,
+        "comparison":  {
+                           "updated_at":  "2026-06-26T01:33:12.208486+00:00",
+                           "date":  "2026-06-26",
+                           "run_timezone":  "Asia/Shanghai",
+                           "source":  "Financial Modeling Prep",
+                           "symbols":  [
+                                           "NVDA",
+                                           "AMD"
+                                       ],
+                           "companies":  [
+                                             {
+                                                 "symbol":  "NVDA",
+                                                 "name":  "NVIDIA Corporation",
+                                                 "market_cap":  4741018540000.0,
+                                                 "price":  195.74,
+                                                 "latest_ttm_fcf":  119076000000.0,
+                                                 "latest_fcf_yield":  2.5116121988419815,
+                                                 "history":  [
+                                                                 {
+                                                                     "date":  "2026-04-26",
+                                                                     "ttm_fcf":  119076000000.0,
+                                                                     "fcf_yield":  2.5116121988419815
+                                                                 },
+                                                                 {
+                                                                     "date":  "2026-01-25",
+                                                                     "ttm_fcf":  96676000000.0,
+                                                                     "fcf_yield":  2.039139884907516
+                                                                 }
+                                                             ]
+                                             },
+                                             {
+                                                 "symbol":  "AMD",
+                                                 "name":  "Advanced Micro Devices, Inc.",
+                                                 "market_cap":  868408642000.0,
+                                                 "price":  532.57,
+                                                 "latest_ttm_fcf":  8574000000.0,
+                                                 "latest_fcf_yield":  0.9873232007748721,
+                                                 "history":  [
+                                                                 {
+                                                                     "date":  "2026-03-28",
+                                                                     "ttm_fcf":  8574000000.0,
+                                                                     "fcf_yield":  0.9873232007748721
+                                                                 },
+                                                                 {
+                                                                     "date":  "2025-12-27",
+                                                                     "ttm_fcf":  6735000000.0,
+                                                                     "fcf_yield":  0.7755565380474415
+                                                                 }
+                                                             ]
+                                             }
+                                         ]
+                       }
+    },
+    {
+        "id":  "market-pulse-2026-06-25",
+        "date":  "2026-06-25",
+        "runDate":  "2026-06-25",
+        "marketDate":  "2026-06-24",
+        "createdAt":  "2026-06-25T04:39:54.879828+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-25\n\nTop mover: $PLSM +93.82%\n\n1. $PLSM +93.82%\n2. $SKYQ +60.06%\n3. $ICCM +51.96%\n4. $STFS +54.33%\n5. $NIXXW +235.23%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-25.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-24 16:15:56 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "PLSM",
+                         "price":  6.59,
+                         "change_amount":  3.19,
+                         "change_pct":  93.8235,
+                         "volume":  57807292
+                     },
+                     {
+                         "symbol":  "SKYQ",
+                         "price":  2.625,
+                         "change_amount":  0.985,
+                         "change_pct":  60.061,
+                         "volume":  62767036
+                     },
+                     {
+                         "symbol":  "ICCM",
+                         "price":  9.3,
+                         "change_amount":  3.18,
+                         "change_pct":  51.9608,
+                         "volume":  13352002
+                     },
+                     {
+                         "symbol":  "STFS",
+                         "price":  12.84,
+                         "change_amount":  4.52,
+                         "change_pct":  54.3269,
+                         "volume":  251588
+                     },
+                     {
+                         "symbol":  "NIXXW",
+                         "price":  0.0295,
+                         "change_amount":  0.0207,
+                         "change_pct":  235.2273,
+                         "volume":  146432
+                     }
+                 ],
+        "topSymbol":  "PLSM",
+        "topChangePct":  93.8235
+    },
+    {
+        "id":  "fcf-yield-pypl-adbe-2026-06-24",
+        "date":  "2026-06-24",
+        "runDate":  "2026-06-24",
+        "createdAt":  "2026-06-24T06:18:17.866091+00:00",
+        "contentType":  "FCF YIELD",
+        "title":  "PYPL vs ADBE FCF Yield",
+        "status":  "ready",
+        "tweet":  "Which would you rather own at current prices, $PYPL or $ADBE?\n\nPYPL FCF Yield: 15.0%\nADBE FCF Yield: 13.5%\n\n$PYPL $ADBE\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
+        "image":  "/posts/fcf_yield_PYPL_ADBE_2026-06-24.png",
+        "dataSource":  "Financial Modeling Prep",
+        "dataUpdatedAt":  "2026-06-24T06:18:14.434603+00:00",
+        "xPostId":  null,
+        "primaryLabel":  "$PYPL FCF Yield",
+        "primaryValue":  "15.0%",
+        "secondaryLabel":  "$ADBE FCF Yield",
+        "secondaryValue":  "13.5%",
+        "topSymbol":  "PYPL",
+        "topChangePct":  14.982139260032273,
+        "comparison":  {
+                           "updated_at":  "2026-06-24T06:18:14.434603+00:00",
+                           "date":  "2026-06-24",
+                           "run_timezone":  "Asia/Shanghai",
+                           "source":  "Financial Modeling Prep",
+                           "symbols":  [
+                                           "PYPL",
+                                           "ADBE"
+                                       ],
+                           "companies":  [
+                                             {
+                                                 "symbol":  "PYPL",
+                                                 "name":  "PayPal Holdings, Inc.",
+                                                 "market_cap":  36783799058.0,
+                                                 "price":  41.7,
+                                                 "latest_ttm_fcf":  5511000000.0,
+                                                 "latest_fcf_yield":  14.982139260032273,
+                                                 "history":  [
+                                                                 {
+                                                                     "date":  "2026-03-31",
+                                                                     "ttm_fcf":  5511000000.0,
+                                                                     "fcf_yield":  14.982139260032273
+                                                                 },
+                                                                 {
+                                                                     "date":  "2025-12-31",
+                                                                     "ttm_fcf":  5564000000.0,
+                                                                     "fcf_yield":  15.126224431649351
+                                                                 }
+                                                             ]
+                                             },
+                                             {
+                                                 "symbol":  "ADBE",
+                                                 "name":  "Adobe Inc.",
+                                                 "market_cap":  78478426579.0,
+                                                 "price":  197.43,
+                                                 "latest_ttm_fcf":  10627000000.0,
+                                                 "latest_fcf_yield":  13.54130104698566,
+                                                 "history":  [
+                                                                 {
+                                                                     "date":  "2026-05-29",
+                                                                     "ttm_fcf":  10627000000.0,
+                                                                     "fcf_yield":  13.54130104698566
+                                                                 },
+                                                                 {
+                                                                     "date":  "2026-02-27",
+                                                                     "ttm_fcf":  10317000000.0,
+                                                                     "fcf_yield":  13.146288030653153
+                                                                 }
+                                                             ]
+                                             }
+                                         ]
+                       },
+        "typefullyDraftId":  9640593,
+        "typefullyDraftUrl":  "https://typefully.com/?d=9640593"
+    },
+    {
+        "id":  "market-pulse-2026-06-24",
+        "date":  "2026-06-24",
+        "runDate":  "2026-06-24",
+        "marketDate":  "2026-06-23",
+        "createdAt":  "2026-06-24T04:44:59.810566+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-24\n\nTop mover: $ATLN +202.41%\n\n1. $ATLN +202.41%\n2. $FCUV +89.23%\n3. $BOLD +85.71%\n4. $HSCS +55.37%\n5. $GITS +44.37%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-24.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-23 16:15:59 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "ATLN",
+                         "price":  1.33,
+                         "change_amount":  0.8902,
+                         "change_pct":  202.4102,
+                         "volume":  411296550
+                     },
+                     {
+                         "symbol":  "FCUV",
+                         "price":  4.11,
+                         "change_amount":  1.938,
+                         "change_pct":  89.2265,
+                         "volume":  76568652
+                     },
+                     {
+                         "symbol":  "BOLD",
+                         "price":  2.6,
+                         "change_amount":  1.2,
+                         "change_pct":  85.7143,
+                         "volume":  64931653
+                     },
+                     {
+                         "symbol":  "HSCS",
+                         "price":  2.75,
+                         "change_amount":  0.98,
+                         "change_pct":  55.3672,
+                         "volume":  134241730
+                     },
+                     {
+                         "symbol":  "GITS",
+                         "price":  2.18,
+                         "change_amount":  0.67,
+                         "change_pct":  44.3709,
+                         "volume":  37754007
+                     }
+                 ],
+        "topSymbol":  "ATLN",
+        "topChangePct":  202.4102,
+        "typefullyDraftId":  9629951,
+        "typefullyDraftUrl":  "https://typefully.com/?d=9629951"
+    },
+    {
+        "id":  "market-pulse-2026-06-23",
+        "date":  "2026-06-23",
+        "runDate":  "2026-06-23",
+        "marketDate":  "2026-06-22",
+        "createdAt":  "2026-06-23T04:37:09.973429+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-23\n\nTop mover: $NXTS +155.91%\n\n1. $NXTS +155.91%\n2. $EHGO +125.56%\n3. $GETY +84.27%\n4. $SKYQ +62.39%\n5. $DFTX +49.80%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-23.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-22 16:15:56 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "NXTS",
+                         "price":  13.0,
+                         "change_amount":  7.92,
+                         "change_pct":  155.9055,
+                         "volume":  60457933
+                     },
+                     {
+                         "symbol":  "EHGO",
+                         "price":  4.06,
+                         "change_amount":  2.26,
+                         "change_pct":  125.5556,
+                         "volume":  116426208
+                     },
+                     {
+                         "symbol":  "GETY",
+                         "price":  1.115,
+                         "change_amount":  0.5099,
+                         "change_pct":  84.2671,
+                         "volume":  211709103
+                     },
+                     {
+                         "symbol":  "SKYQ",
+                         "price":  1.9,
+                         "change_amount":  0.73,
+                         "change_pct":  62.3932,
+                         "volume":  217661752
+                     },
+                     {
+                         "symbol":  "DFTX",
+                         "price":  36.67,
+                         "change_amount":  12.19,
+                         "change_pct":  49.7958,
+                         "volume":  19976676
+                     }
+                 ],
+        "topSymbol":  "NXTS",
+        "topChangePct":  155.9055
+    },
+    {
+        "id":  "fcf-yield-pypl-adbe-2026-06-23",
+        "date":  "2026-06-23",
+        "runDate":  "2026-06-23",
+        "createdAt":  "2026-06-23T03:06:38.947109+00:00",
+        "contentType":  "FCF YIELD",
+        "title":  "PYPL vs ADBE FCF Yield",
+        "status":  "ready",
+        "tweet":  "Which would you rather own at current prices, $PYPL or $ADBE?\n\nPYPL FCF Yield: 14.8%\nADBE FCF Yield: 13.7%\n\n$PYPL $ADBE\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
+        "image":  "/posts/fcf_yield_PYPL_ADBE_2026-06-23.png",
+        "dataSource":  "Financial Modeling Prep",
+        "dataUpdatedAt":  "2026-06-23T02:52:13.514775+00:00",
+        "xPostId":  null,
+        "primaryLabel":  "$PYPL FCF Yield",
+        "primaryValue":  "14.8%",
+        "secondaryLabel":  "$ADBE FCF Yield",
+        "secondaryValue":  "13.7%",
+        "topSymbol":  "PYPL",
+        "topChangePct":  14.755673290866575,
+        "comparison":  {
+                           "updated_at":  "2026-06-23T02:52:13.514775+00:00",
+                           "date":  "2026-06-23",
+                           "run_timezone":  "Asia/Shanghai",
+                           "source":  "Financial Modeling Prep",
+                           "symbols":  [
+                                           "PYPL",
+                                           "ADBE"
+                                       ],
+                           "companies":  [
+                                             {
+                                                 "symbol":  "PYPL",
+                                                 "name":  "PayPal Holdings, Inc.",
+                                                 "market_cap":  37348346574.0,
+                                                 "price":  42.34,
+                                                 "latest_ttm_fcf":  5511000000.0,
+                                                 "latest_fcf_yield":  14.755673290866575,
+                                                 "history":  [
+                                                                 {
+                                                                     "date":  "2026-03-31",
+                                                                     "ttm_fcf":  5511000000.0,
+                                                                     "fcf_yield":  14.755673290866575
+                                                                 },
+                                                                 {
+                                                                     "date":  "2025-12-31",
+                                                                     "ttm_fcf":  5564000000.0,
+                                                                     "fcf_yield":  14.89758050995856
+                                                                 }
+                                                             ]
+                                             },
+                                             {
+                                                 "symbol":  "ADBE",
+                                                 "name":  "Adobe Inc.",
+                                                 "market_cap":  77472751754.0,
+                                                 "price":  194.9,
+                                                 "latest_ttm_fcf":  10627000000.0,
+                                                 "latest_fcf_yield":  13.71708085669142,
+                                                 "history":  [
+                                                                 {
+                                                                     "date":  "2026-05-29",
+                                                                     "ttm_fcf":  10627000000.0,
+                                                                     "fcf_yield":  13.71708085669142
+                                                                 },
+                                                                 {
+                                                                     "date":  "2026-02-27",
+                                                                     "ttm_fcf":  10317000000.0,
+                                                                     "fcf_yield":  13.316940171119354
+                                                                 }
+                                                             ]
+                                             }
+                                         ]
+                       }
+    },
+    {
+        "id":  "market-pulse-2026-06-22",
+        "date":  "2026-06-22",
+        "runDate":  "2026-06-22",
+        "marketDate":  "2026-06-18",
+        "createdAt":  "2026-06-22T05:38:13.009582+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-22\n\nTop mover: $LNKS +67.50%\n\n1. $LNKS +67.50%\n2. $CAST +56.70%\n3. $BFLY +55.60%\n4. $CDT +47.19%\n5. $TBLAW +615.38%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-22.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-18 16:16:00 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "LNKS",
+                         "price":  2.68,
+                         "change_amount":  1.08,
+                         "change_pct":  67.5,
+                         "volume":  68606690
+                     },
+                     {
+                         "symbol":  "CAST",
+                         "price":  8.07,
+                         "change_amount":  2.92,
+                         "change_pct":  56.699,
+                         "volume":  111130855
+                     },
+                     {
+                         "symbol":  "BFLY",
+                         "price":  8.885,
+                         "change_amount":  3.175,
+                         "change_pct":  55.6042,
+                         "volume":  59007354
+                     },
+                     {
+                         "symbol":  "CDT",
+                         "price":  1.02,
+                         "change_amount":  0.327,
+                         "change_pct":  47.1861,
+                         "volume":  246127628
+                     },
+                     {
+                         "symbol":  "TBLAW",
+                         "price":  0.0093,
+                         "change_amount":  0.008,
+                         "change_pct":  615.3846,
+                         "volume":  388132
+                     }
+                 ],
+        "topSymbol":  "LNKS",
+        "topChangePct":  67.5
+    },
+    {
+        "id":  "market-pulse-2026-06-21",
+        "date":  "2026-06-21",
+        "runDate":  "2026-06-21",
+        "marketDate":  "2026-06-18",
+        "createdAt":  "2026-06-21T15:48:11.203196+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-21\n\nTop mover: $LNKS +67.50%\n\n1. $LNKS +67.50%\n2. $CAST +56.70%\n3. $BFLY +55.60%\n4. $CDT +47.19%\n5. $TBLAW +615.38%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-21.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-18 16:16:00 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "LNKS",
+                         "price":  2.68,
+                         "change_amount":  1.08,
+                         "change_pct":  67.5,
+                         "volume":  68606690
+                     },
+                     {
+                         "symbol":  "CAST",
+                         "price":  8.07,
+                         "change_amount":  2.92,
+                         "change_pct":  56.699,
+                         "volume":  111130855
+                     },
+                     {
+                         "symbol":  "BFLY",
+                         "price":  8.885,
+                         "change_amount":  3.175,
+                         "change_pct":  55.6042,
+                         "volume":  59007354
+                     },
+                     {
+                         "symbol":  "CDT",
+                         "price":  1.02,
+                         "change_amount":  0.327,
+                         "change_pct":  47.1861,
+                         "volume":  246127628
+                     },
+                     {
+                         "symbol":  "TBLAW",
+                         "price":  0.0093,
+                         "change_amount":  0.008,
+                         "change_pct":  615.3846,
+                         "volume":  388132
+                     }
+                 ],
+        "topSymbol":  "LNKS",
+        "topChangePct":  67.5
+    },
+    {
+        "id":  "market-pulse-2026-06-18",
+        "date":  "2026-06-18",
+        "runDate":  "2026-06-18",
+        "marketDate":  "2026-06-17",
+        "createdAt":  "2026-06-18T05:12:07.329103+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-18\n\nTop mover: $ICCM +200.47%\n\n1. $ICCM +200.47%\n2. $EHGO +118.94%\n3. $SDOT +98.15%\n4. $QURE +78.44%\n5. $FTHM +75.36%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-18.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-17 16:15:58 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "ICCM",
+                         "price":  6.4,
+                         "change_amount":  4.27,
+                         "change_pct":  200.4695,
+                         "volume":  151334815
+                     },
+                     {
+                         "symbol":  "EHGO",
+                         "price":  2.89,
+                         "change_amount":  1.57,
+                         "change_pct":  118.9394,
+                         "volume":  112341863
+                     },
+                     {
+                         "symbol":  "SDOT",
+                         "price":  17.18,
+                         "change_amount":  8.51,
+                         "change_pct":  98.1546,
+                         "volume":  2994377
+                     },
+                     {
+                         "symbol":  "QURE",
+                         "price":  48.16,
+                         "change_amount":  21.17,
+                         "change_pct":  78.4365,
+                         "volume":  19607439
+                     },
+                     {
+                         "symbol":  "FTHM",
+                         "price":  1.11,
+                         "change_amount":  0.477,
+                         "change_pct":  75.3555,
+                         "volume":  72991110
+                     }
+                 ],
+        "topSymbol":  "ICCM",
+        "topChangePct":  200.4695
+    },
+    {
+        "id":  "market-pulse-2026-06-17",
+        "date":  "2026-06-17",
+        "runDate":  "2026-06-17",
+        "marketDate":  "2026-06-16",
+        "createdAt":  "2026-06-17T05:22:10.641529+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-17\n\nTop mover: $SLBT +166.97%\n\n1. $SLBT +166.97%\n2. $OBAI +107.63%\n3. $CCTG +89.89%\n4. $CRVO +82.26%\n5. $NMRA +70.58%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-17.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-16 16:15:57 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "SLBT",
+                         "price":  8.89,
+                         "change_amount":  5.56,
+                         "change_pct":  166.967,
+                         "volume":  32671222
+                     },
+                     {
+                         "symbol":  "OBAI",
+                         "price":  1.11,
+                         "change_amount":  0.5754,
+                         "change_pct":  107.6319,
+                         "volume":  488488917
+                     },
+                     {
+                         "symbol":  "CCTG",
+                         "price":  1.48,
+                         "change_amount":  0.7006,
+                         "change_pct":  89.8897,
+                         "volume":  120974504
+                     },
+                     {
+                         "symbol":  "CRVO",
+                         "price":  4.52,
+                         "change_amount":  2.04,
+                         "change_pct":  82.2581,
+                         "volume":  198528948
+                     },
+                     {
+                         "symbol":  "NMRA",
+                         "price":  1.56,
+                         "change_amount":  0.6455,
+                         "change_pct":  70.585,
+                         "volume":  28205798
+                     }
+                 ],
+        "topSymbol":  "SLBT",
+        "topChangePct":  166.967
+    },
+    {
+        "id":  "market-pulse-2026-06-16",
+        "date":  "2026-06-16",
+        "runDate":  "2026-06-16",
+        "marketDate":  "2026-06-15",
+        "createdAt":  "2026-06-16T05:41:56.916514+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 Liquid U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 liquid U.S. stock movers - 2026-06-16\n\nTop mover: $RGNT +504.33%\n\n1. $RGNT +504.33%\n2. $CAST +141.94%\n3. $VSME +92.31%\n4. $PRFX +83.09%\n5. $QTEX +70.54%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-16.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-15 16:16:00 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "RGNT",
+                         "price":  9.065,
+                         "change_amount":  7.565,
+                         "change_pct":  504.3333,
+                         "volume":  179555509
+                     },
+                     {
+                         "symbol":  "CAST",
+                         "price":  3.75,
+                         "change_amount":  2.2,
+                         "change_pct":  141.9355,
+                         "volume":  156784019
+                     },
+                     {
+                         "symbol":  "VSME",
+                         "price":  3.25,
+                         "change_amount":  1.56,
+                         "change_pct":  92.3077,
+                         "volume":  64301303
+                     },
+                     {
+                         "symbol":  "PRFX",
+                         "price":  2.49,
+                         "change_amount":  1.13,
+                         "change_pct":  83.0882,
+                         "volume":  43924357
+                     },
+                     {
+                         "symbol":  "QTEX",
+                         "price":  2.2,
+                         "change_amount":  0.91,
+                         "change_pct":  70.5426,
+                         "volume":  119260618
+                     }
+                 ],
+        "topSymbol":  "RGNT",
+        "topChangePct":  504.3333
+    },
+    {
+        "id":  "market-pulse-2026-06-12",
+        "date":  "2026-06-12",
+        "createdAt":  "2026-06-15T08:02:02.287875+00:00",
+        "contentType":  "MARKET PULSE",
+        "title":  "Top 5 U.S. Stock Movers",
+        "status":  "ready",
+        "tweet":  "Top 5 U.S. stock movers 鈥?2026-06-12 馃搱\n\nTop mover: $IVDAW +260.08%\n\n1. $IVDAW +260.08%\n2. $GRAF+ +186.67%\n3. $CAST +140.68%\n4. $ALFUW +100.00%\n5. $HSPTR +79.98%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
+        "image":  "/posts/top5_2026-06-12.png",
+        "dataSource":  "Alpha Vantage",
+        "dataUpdatedAt":  "2026-06-12 16:15:57 US/Eastern",
+        "xPostId":  null,
+        "top5":  [
+                     {
+                         "symbol":  "IVDAW",
+                         "price":  0.175,
+                         "change_amount":  0.1264,
+                         "change_pct":  260.0823,
+                         "volume":  338308
+                     },
+                     {
+                         "symbol":  "GRAF+",
+                         "price":  0.43,
+                         "change_amount":  0.28,
+                         "change_pct":  186.6667,
+                         "volume":  3444409
+                     },
+                     {
+                         "symbol":  "CAST",
+                         "price":  1.55,
+                         "change_amount":  0.906,
+                         "change_pct":  140.6832,
+                         "volume":  204650407
+                     },
+                     {
+                         "symbol":  "ALFUW",
+                         "price":  0.26,
+                         "change_amount":  0.13,
+                         "change_pct":  100.0,
+                         "volume":  243654
+                     },
+                     {
+                         "symbol":  "HSPTR",
+                         "price":  0.4604,
+                         "change_amount":  0.2046,
+                         "change_pct":  79.9844,
+                         "volume":  1395133
+                     }
+                 ],
+        "topSymbol":  "IVDAW",
+        "topChangePct":  260.0823
     }
-  },
-  {
-    "id": "world-cup-etf-2026-06-24-537412-panama-croatia",
-    "date": "2026-06-24",
-    "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T05:13:06.659535+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Panama vs Croatia ETF Watch",
-    "status": "ready",
-    "tweet": "Croatia beat Panama 1-0.\n\nMarket attention check:\n$ILF Panama proxy ETF: -2.59%\n$VGK Croatia proxy ETF: -3.02%\n\nWorld Cup results don't move markets alone, but they create a clean sentiment signal to track.\n\nBuilt with QVeris: https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-24-537412-panama-croatia.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-24T05:13:01.593520+00:00",
-    "xPostId": null,
-    "primaryLabel": "$ILF daily move",
-    "primaryValue": "-2.59%",
-    "secondaryLabel": "$VGK daily move",
-    "secondaryValue": "-3.02%",
-    "topSymbol": "VGK",
-    "topChangePct": -3.015466785356635,
-    "worldCupFinance": {
-      "date": "2026-06-24",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537412",
-        "utc_date": "2026-06-23T23:00:00Z",
-        "local_datetime": "2026-06-24T07:00:00+08:00",
-        "label": "Panama 0-1 Croatia",
-        "result": "away_win",
-        "home": {
-          "team": "Panama",
-          "country": "Panama",
-          "score": 0,
-          "etf": "ILF",
-          "etf_name": "iShares Latin America 40 ETF",
-          "is_proxy": true,
-          "proxy_note": "Latin America ETF used because no liquid single-country Panama ETF is available",
-          "quote": {
-            "symbol": "ILF",
-            "price": 33.52,
-            "change": -0.8899999999999935,
-            "change_pct": -2.586457425167084,
-            "volume": 1325061,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Croatia",
-          "country": "Croatia",
-          "score": 1,
-          "etf": "VGK",
-          "etf_name": "Vanguard FTSE Europe ETF",
-          "is_proxy": true,
-          "proxy_note": "Europe ETF used because no liquid single-country Croatia ETF is available",
-          "quote": {
-            "symbol": "VGK",
-            "price": 87.16,
-            "change": -2.710000000000008,
-            "change_pct": -3.015466785356635,
-            "volume": 3014759,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-24-537411-england-ghana",
-    "date": "2026-06-24",
-    "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T05:13:06.657759+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "England vs Ghana ETF Watch",
-    "status": "ready",
-    "tweet": "England drew Ghana 0-0.\n\nMarket attention check:\n$EWU England ETF: -1.38%\n$AFK Ghana proxy ETF: -6.27%\n\nWorld Cup results don't move markets alone, but they create a clean sentiment signal to track.\n\nBuilt with QVeris: https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-24-537411-england-ghana.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-24T05:13:01.593520+00:00",
-    "xPostId": null,
-    "primaryLabel": "$EWU daily move",
-    "primaryValue": "-1.38%",
-    "secondaryLabel": "$AFK daily move",
-    "secondaryValue": "-6.27%",
-    "topSymbol": "AFK",
-    "topChangePct": -6.2724014336917575,
-    "worldCupFinance": {
-      "date": "2026-06-24",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537411",
-        "utc_date": "2026-06-23T20:00:00Z",
-        "local_datetime": "2026-06-24T04:00:00+08:00",
-        "label": "England 0-0 Ghana",
-        "result": "draw",
-        "home": {
-          "team": "England",
-          "country": "England",
-          "score": 0,
-          "etf": "EWU",
-          "etf_name": "iShares MSCI United Kingdom ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "EWU",
-            "price": 45.57,
-            "change": -0.6400000000000006,
-            "change_pct": -1.3849816057130502,
-            "volume": 746781,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Ghana",
-          "country": "Ghana",
-          "score": 0,
-          "etf": "AFK",
-          "etf_name": "VanEck Africa Index ETF",
-          "is_proxy": true,
-          "proxy_note": "Africa ETF used because no liquid single-country Ghana ETF is available",
-          "quote": {
-            "symbol": "AFK",
-            "price": 26.15,
-            "change": -1.75,
-            "change_pct": -6.2724014336917575,
-            "volume": 27724,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "world-cup-etf-2026-06-24-537405-portugal-uzbekistan",
-    "date": "2026-06-24",
-    "runDate": "2026-06-24",
-    "createdAt": "2026-06-24T05:13:06.655888+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "Portugal vs Uzbekistan ETF Watch",
-    "status": "ready",
-    "tweet": "Portugal beat Uzbekistan 5-0.\n\nMarket attention check:\n$PGAL Portugal ETF: +0.00%\n$FM Uzbekistan proxy ETF: +0.41%\n\nWorld Cup results don't move markets alone, but they create a clean sentiment signal to track.\n\nBuilt with QVeris: https://qveris.ai",
-    "image": "/posts/world_cup_etf_2026-06-24-537405-portugal-uzbekistan.png",
-    "dataSource": "football-data.org, QVeris API with FMP/Yahoo fallback",
-    "dataUpdatedAt": "2026-06-24T05:13:01.593520+00:00",
-    "xPostId": null,
-    "primaryLabel": "$PGAL daily move",
-    "primaryValue": "+0.00%",
-    "secondaryLabel": "$FM daily move",
-    "secondaryValue": "+0.41%",
-    "topSymbol": "FM",
-    "topChangePct": 0.40620384047268465,
-    "worldCupFinance": {
-      "date": "2026-06-24",
-      "event": "2026 FIFA World Cup",
-      "match": {
-        "id": "537405",
-        "utc_date": "2026-06-23T17:00:00Z",
-        "local_datetime": "2026-06-24T01:00:00+08:00",
-        "label": "Portugal 5-0 Uzbekistan",
-        "result": "home_win",
-        "home": {
-          "team": "Portugal",
-          "country": "Portugal",
-          "score": 5,
-          "etf": "PGAL",
-          "etf_name": "Global X MSCI Portugal ETF",
-          "is_proxy": false,
-          "proxy_note": "",
-          "quote": {
-            "symbol": "PGAL",
-            "price": 10.315,
-            "change": 0.0,
-            "change_pct": 0.0,
-            "volume": 15549,
-            "source": "Yahoo Finance chart fallback"
-          }
-        },
-        "away": {
-          "team": "Uzbekistan",
-          "country": "Uzbekistan",
-          "score": 0,
-          "etf": "FM",
-          "etf_name": "iShares Frontier and Select EM ETF",
-          "is_proxy": true,
-          "proxy_note": "Frontier/select emerging markets ETF used as market proxy",
-          "quote": {
-            "symbol": "FM",
-            "price": 27.19,
-            "change": 0.11000000000000298,
-            "change_pct": 0.40620384047268465,
-            "volume": 57504,
-            "source": "Yahoo Finance chart fallback"
-          }
-        }
-      },
-      "source": "football-data.org, QVeris API with FMP/Yahoo fallback"
-    }
-  },
-  {
-    "id": "market-pulse-2026-06-24",
-    "date": "2026-06-24",
-    "runDate": "2026-06-24",
-    "marketDate": "2026-06-23",
-    "createdAt": "2026-06-24T04:44:59.810566+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-24\n\nTop mover: $ATLN +202.41%\n\n1. $ATLN +202.41%\n2. $FCUV +89.23%\n3. $BOLD +85.71%\n4. $HSCS +55.37%\n5. $GITS +44.37%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-24.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-23 16:15:59 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "ATLN",
-        "price": 1.33,
-        "change_amount": 0.8902,
-        "change_pct": 202.4102,
-        "volume": 411296550
-      },
-      {
-        "symbol": "FCUV",
-        "price": 4.11,
-        "change_amount": 1.938,
-        "change_pct": 89.2265,
-        "volume": 76568652
-      },
-      {
-        "symbol": "BOLD",
-        "price": 2.6,
-        "change_amount": 1.2,
-        "change_pct": 85.7143,
-        "volume": 64931653
-      },
-      {
-        "symbol": "HSCS",
-        "price": 2.75,
-        "change_amount": 0.98,
-        "change_pct": 55.3672,
-        "volume": 134241730
-      },
-      {
-        "symbol": "GITS",
-        "price": 2.18,
-        "change_amount": 0.67,
-        "change_pct": 44.3709,
-        "volume": 37754007
-      }
-    ],
-    "topSymbol": "ATLN",
-    "topChangePct": 202.4102,
-    "typefullyDraftId": 9629951,
-    "typefullyDraftUrl": "https://typefully.com/?d=9629951"
-  },
-  {
-    "id": "world-cup-finance-2026-06-23",
-    "date": "2026-06-23",
-    "runDate": "2026-06-23",
-    "createdAt": "2026-06-23T11:30:25.344334+00:00",
-    "contentType": "WORLD CUP FINANCE",
-    "title": "World Cup Finance Signals",
-    "status": "ready",
-    "tweet": "World Cup Finance Signals - 2026-06-23\n\nLatest match: Match result pending\nBasket leader: $DAL +2.07%\nTop theme: Travel +0.98% avg\n\n$DAL +2.07%\n$AAL +0.56%\n$UAL +0.30%\n$KO +0.18%\n\nMore market data: https://qveris.ai\nInformation only. Not investment advice.",
-    "image": "/posts/world_cup_finance_2026-06-23.png",
-    "dataSource": "FMP quote-short",
-    "dataUpdatedAt": "2026-06-23T11:29:56.581894+00:00",
-    "xPostId": null,
-    "primaryLabel": "$DAL daily move",
-    "primaryValue": "+2.07%",
-    "secondaryLabel": "Travel avg",
-    "secondaryValue": "+0.98%",
-    "topSymbol": "DAL",
-    "topChangePct": 2.0669992872416247,
-    "worldCupFinance": {
-      "updated_at": "2026-06-23T11:29:56.581894+00:00",
-      "date": "2026-06-23",
-      "run_timezone": "Asia/Shanghai",
-      "source": "FMP quote-short",
-      "event": "2026 FIFA World Cup",
-      "latest_match": {
-        "label": "Match result pending",
-        "home_team": "TBD",
-        "away_team": "TBD",
-        "home_score": null,
-        "away_score": null,
-        "note": "Update this object when you want the card to include a specific match result."
-      },
-      "match_label": "Match result pending",
-      "leader": {
-        "symbol": "DAL",
-        "price": 85.92,
-        "change": 1.74,
-        "change_pct": 2.0669992872416247,
-        "market_cap": 0,
-        "volume": 5168748,
-        "company": "Delta Air Lines",
-        "theme": "Travel"
-      },
-      "top_theme": {
-        "name": "Travel",
-        "avg_change_pct": 0.9780369014980135
-      },
-      "stocks": [
-        {
-          "symbol": "DAL",
-          "price": 85.92,
-          "change": 1.74,
-          "change_pct": 2.0669992872416247,
-          "market_cap": 0,
-          "volume": 5168748,
-          "company": "Delta Air Lines",
-          "theme": "Travel"
-        },
-        {
-          "symbol": "AAL",
-          "price": 16.08,
-          "change": 0.09,
-          "change_pct": 0.5628517823639775,
-          "market_cap": 0,
-          "volume": 177367962,
-          "company": "American Airlines",
-          "theme": "Travel"
-        },
-        {
-          "symbol": "UAL",
-          "price": 118.68,
-          "change": 0.36,
-          "change_pct": 0.3042596348884381,
-          "market_cap": 0,
-          "volume": 6603765,
-          "company": "United Airlines",
-          "theme": "Travel"
-        },
-        {
-          "symbol": "KO",
-          "price": 79.53,
-          "change": 0.14,
-          "change_pct": 0.17634462778687493,
-          "market_cap": 0,
-          "volume": 21187486,
-          "company": "Coca-Cola",
-          "theme": "Global sponsor"
-        },
-        {
-          "symbol": "V",
-          "price": 326.6,
-          "change": -0.64,
-          "change_pct": -0.19557511306686226,
-          "market_cap": 0,
-          "volume": 15017380,
-          "company": "Visa",
-          "theme": "Payments"
-        },
-        {
-          "symbol": "NKE",
-          "price": 43.19,
-          "change": -2.01,
-          "change_pct": -4.446902654867257,
-          "market_cap": 0,
-          "volume": 18849472,
-          "company": "Nike",
-          "theme": "Sportswear"
-        }
-      ]
-    }
-  },
-  {
-    "id": "market-pulse-2026-06-23",
-    "date": "2026-06-23",
-    "runDate": "2026-06-23",
-    "marketDate": "2026-06-22",
-    "createdAt": "2026-06-23T04:37:09.973429+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-23\n\nTop mover: $NXTS +155.91%\n\n1. $NXTS +155.91%\n2. $EHGO +125.56%\n3. $GETY +84.27%\n4. $SKYQ +62.39%\n5. $DFTX +49.80%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-23.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-22 16:15:56 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "NXTS",
-        "price": 13.0,
-        "change_amount": 7.92,
-        "change_pct": 155.9055,
-        "volume": 60457933
-      },
-      {
-        "symbol": "EHGO",
-        "price": 4.06,
-        "change_amount": 2.26,
-        "change_pct": 125.5556,
-        "volume": 116426208
-      },
-      {
-        "symbol": "GETY",
-        "price": 1.115,
-        "change_amount": 0.5099,
-        "change_pct": 84.2671,
-        "volume": 211709103
-      },
-      {
-        "symbol": "SKYQ",
-        "price": 1.9,
-        "change_amount": 0.73,
-        "change_pct": 62.3932,
-        "volume": 217661752
-      },
-      {
-        "symbol": "DFTX",
-        "price": 36.67,
-        "change_amount": 12.19,
-        "change_pct": 49.7958,
-        "volume": 19976676
-      }
-    ],
-    "topSymbol": "NXTS",
-    "topChangePct": 155.9055
-  },
-  {
-    "id": "fcf-yield-pypl-adbe-2026-06-23",
-    "date": "2026-06-23",
-    "runDate": "2026-06-23",
-    "createdAt": "2026-06-23T03:06:38.947109+00:00",
-    "contentType": "FCF YIELD",
-    "title": "PYPL vs ADBE FCF Yield",
-    "status": "ready",
-    "tweet": "Which would you rather own at current prices, $PYPL or $ADBE?\n\nPYPL FCF Yield: 14.8%\nADBE FCF Yield: 13.7%\n\n$PYPL $ADBE\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.",
-    "image": "/posts/fcf_yield_PYPL_ADBE_2026-06-23.png",
-    "dataSource": "Financial Modeling Prep",
-    "dataUpdatedAt": "2026-06-23T02:52:13.514775+00:00",
-    "xPostId": null,
-    "primaryLabel": "$PYPL FCF Yield",
-    "primaryValue": "14.8%",
-    "secondaryLabel": "$ADBE FCF Yield",
-    "secondaryValue": "13.7%",
-    "topSymbol": "PYPL",
-    "topChangePct": 14.755673290866575,
-    "comparison": {
-      "updated_at": "2026-06-23T02:52:13.514775+00:00",
-      "date": "2026-06-23",
-      "run_timezone": "Asia/Shanghai",
-      "source": "Financial Modeling Prep",
-      "symbols": [
-        "PYPL",
-        "ADBE"
-      ],
-      "companies": [
-        {
-          "symbol": "PYPL",
-          "name": "PayPal Holdings, Inc.",
-          "market_cap": 37348346574.0,
-          "price": 42.34,
-          "latest_ttm_fcf": 5511000000.0,
-          "latest_fcf_yield": 14.755673290866575,
-          "history": [
-            {
-              "date": "2026-03-31",
-              "ttm_fcf": 5511000000.0,
-              "fcf_yield": 14.755673290866575
-            },
-            {
-              "date": "2025-12-31",
-              "ttm_fcf": 5564000000.0,
-              "fcf_yield": 14.89758050995856
-            }
-          ]
-        },
-        {
-          "symbol": "ADBE",
-          "name": "Adobe Inc.",
-          "market_cap": 77472751754.0,
-          "price": 194.9,
-          "latest_ttm_fcf": 10627000000.0,
-          "latest_fcf_yield": 13.71708085669142,
-          "history": [
-            {
-              "date": "2026-05-29",
-              "ttm_fcf": 10627000000.0,
-              "fcf_yield": 13.71708085669142
-            },
-            {
-              "date": "2026-02-27",
-              "ttm_fcf": 10317000000.0,
-              "fcf_yield": 13.316940171119354
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "market-pulse-2026-06-22",
-    "date": "2026-06-22",
-    "runDate": "2026-06-22",
-    "marketDate": "2026-06-18",
-    "createdAt": "2026-06-22T05:38:13.009582+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-22\n\nTop mover: $LNKS +67.50%\n\n1. $LNKS +67.50%\n2. $CAST +56.70%\n3. $BFLY +55.60%\n4. $CDT +47.19%\n5. $TBLAW +615.38%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-22.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-18 16:16:00 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "LNKS",
-        "price": 2.68,
-        "change_amount": 1.08,
-        "change_pct": 67.5,
-        "volume": 68606690
-      },
-      {
-        "symbol": "CAST",
-        "price": 8.07,
-        "change_amount": 2.92,
-        "change_pct": 56.699,
-        "volume": 111130855
-      },
-      {
-        "symbol": "BFLY",
-        "price": 8.885,
-        "change_amount": 3.175,
-        "change_pct": 55.6042,
-        "volume": 59007354
-      },
-      {
-        "symbol": "CDT",
-        "price": 1.02,
-        "change_amount": 0.327,
-        "change_pct": 47.1861,
-        "volume": 246127628
-      },
-      {
-        "symbol": "TBLAW",
-        "price": 0.0093,
-        "change_amount": 0.008,
-        "change_pct": 615.3846,
-        "volume": 388132
-      }
-    ],
-    "topSymbol": "LNKS",
-    "topChangePct": 67.5
-  },
-  {
-    "id": "market-pulse-2026-06-21",
-    "date": "2026-06-21",
-    "runDate": "2026-06-21",
-    "marketDate": "2026-06-18",
-    "createdAt": "2026-06-21T15:48:11.203196+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-21\n\nTop mover: $LNKS +67.50%\n\n1. $LNKS +67.50%\n2. $CAST +56.70%\n3. $BFLY +55.60%\n4. $CDT +47.19%\n5. $TBLAW +615.38%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-21.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-18 16:16:00 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "LNKS",
-        "price": 2.68,
-        "change_amount": 1.08,
-        "change_pct": 67.5,
-        "volume": 68606690
-      },
-      {
-        "symbol": "CAST",
-        "price": 8.07,
-        "change_amount": 2.92,
-        "change_pct": 56.699,
-        "volume": 111130855
-      },
-      {
-        "symbol": "BFLY",
-        "price": 8.885,
-        "change_amount": 3.175,
-        "change_pct": 55.6042,
-        "volume": 59007354
-      },
-      {
-        "symbol": "CDT",
-        "price": 1.02,
-        "change_amount": 0.327,
-        "change_pct": 47.1861,
-        "volume": 246127628
-      },
-      {
-        "symbol": "TBLAW",
-        "price": 0.0093,
-        "change_amount": 0.008,
-        "change_pct": 615.3846,
-        "volume": 388132
-      }
-    ],
-    "topSymbol": "LNKS",
-    "topChangePct": 67.5
-  },
-  {
-    "id": "market-pulse-2026-06-18",
-    "date": "2026-06-18",
-    "runDate": "2026-06-18",
-    "marketDate": "2026-06-17",
-    "createdAt": "2026-06-18T05:12:07.329103+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-18\n\nTop mover: $ICCM +200.47%\n\n1. $ICCM +200.47%\n2. $EHGO +118.94%\n3. $SDOT +98.15%\n4. $QURE +78.44%\n5. $FTHM +75.36%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-18.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-17 16:15:58 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "ICCM",
-        "price": 6.4,
-        "change_amount": 4.27,
-        "change_pct": 200.4695,
-        "volume": 151334815
-      },
-      {
-        "symbol": "EHGO",
-        "price": 2.89,
-        "change_amount": 1.57,
-        "change_pct": 118.9394,
-        "volume": 112341863
-      },
-      {
-        "symbol": "SDOT",
-        "price": 17.18,
-        "change_amount": 8.51,
-        "change_pct": 98.1546,
-        "volume": 2994377
-      },
-      {
-        "symbol": "QURE",
-        "price": 48.16,
-        "change_amount": 21.17,
-        "change_pct": 78.4365,
-        "volume": 19607439
-      },
-      {
-        "symbol": "FTHM",
-        "price": 1.11,
-        "change_amount": 0.477,
-        "change_pct": 75.3555,
-        "volume": 72991110
-      }
-    ],
-    "topSymbol": "ICCM",
-    "topChangePct": 200.4695
-  },
-  {
-    "id": "market-pulse-2026-06-17",
-    "date": "2026-06-17",
-    "runDate": "2026-06-17",
-    "marketDate": "2026-06-16",
-    "createdAt": "2026-06-17T05:22:10.641529+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-17\n\nTop mover: $SLBT +166.97%\n\n1. $SLBT +166.97%\n2. $OBAI +107.63%\n3. $CCTG +89.89%\n4. $CRVO +82.26%\n5. $NMRA +70.58%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-17.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-16 16:15:57 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "SLBT",
-        "price": 8.89,
-        "change_amount": 5.56,
-        "change_pct": 166.967,
-        "volume": 32671222
-      },
-      {
-        "symbol": "OBAI",
-        "price": 1.11,
-        "change_amount": 0.5754,
-        "change_pct": 107.6319,
-        "volume": 488488917
-      },
-      {
-        "symbol": "CCTG",
-        "price": 1.48,
-        "change_amount": 0.7006,
-        "change_pct": 89.8897,
-        "volume": 120974504
-      },
-      {
-        "symbol": "CRVO",
-        "price": 4.52,
-        "change_amount": 2.04,
-        "change_pct": 82.2581,
-        "volume": 198528948
-      },
-      {
-        "symbol": "NMRA",
-        "price": 1.56,
-        "change_amount": 0.6455,
-        "change_pct": 70.585,
-        "volume": 28205798
-      }
-    ],
-    "topSymbol": "SLBT",
-    "topChangePct": 166.967
-  },
-  {
-    "id": "market-pulse-2026-06-16",
-    "date": "2026-06-16",
-    "runDate": "2026-06-16",
-    "marketDate": "2026-06-15",
-    "createdAt": "2026-06-16T05:41:56.916514+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 Liquid U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 liquid U.S. stock movers - 2026-06-16\n\nTop mover: $RGNT +504.33%\n\n1. $RGNT +504.33%\n2. $CAST +141.94%\n3. $VSME +92.31%\n4. $PRFX +83.09%\n5. $QTEX +70.54%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-16.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-15 16:16:00 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "RGNT",
-        "price": 9.065,
-        "change_amount": 7.565,
-        "change_pct": 504.3333,
-        "volume": 179555509
-      },
-      {
-        "symbol": "CAST",
-        "price": 3.75,
-        "change_amount": 2.2,
-        "change_pct": 141.9355,
-        "volume": 156784019
-      },
-      {
-        "symbol": "VSME",
-        "price": 3.25,
-        "change_amount": 1.56,
-        "change_pct": 92.3077,
-        "volume": 64301303
-      },
-      {
-        "symbol": "PRFX",
-        "price": 2.49,
-        "change_amount": 1.13,
-        "change_pct": 83.0882,
-        "volume": 43924357
-      },
-      {
-        "symbol": "QTEX",
-        "price": 2.2,
-        "change_amount": 0.91,
-        "change_pct": 70.5426,
-        "volume": 119260618
-      }
-    ],
-    "topSymbol": "RGNT",
-    "topChangePct": 504.3333
-  },
-  {
-    "id": "market-pulse-2026-06-12",
-    "date": "2026-06-12",
-    "createdAt": "2026-06-15T08:02:02.287875+00:00",
-    "contentType": "MARKET PULSE",
-    "title": "Top 5 U.S. Stock Movers",
-    "status": "ready",
-    "tweet": "Top 5 U.S. stock movers — 2026-06-12 📈\n\nTop mover: $IVDAW +260.08%\n\n1. $IVDAW +260.08%\n2. $GRAF+ +186.67%\n3. $CAST +140.68%\n4. $ALFUW +100.00%\n5. $HSPTR +79.98%\n\nMore market data: https://qveris.ai\n\nInformation only. Not investment advice.\n#Stocks #MarketData",
-    "image": "/posts/top5_2026-06-12.png",
-    "dataSource": "Alpha Vantage",
-    "dataUpdatedAt": "2026-06-12 16:15:57 US/Eastern",
-    "xPostId": null,
-    "top5": [
-      {
-        "symbol": "IVDAW",
-        "price": 0.175,
-        "change_amount": 0.1264,
-        "change_pct": 260.0823,
-        "volume": 338308
-      },
-      {
-        "symbol": "GRAF+",
-        "price": 0.43,
-        "change_amount": 0.28,
-        "change_pct": 186.6667,
-        "volume": 3444409
-      },
-      {
-        "symbol": "CAST",
-        "price": 1.55,
-        "change_amount": 0.906,
-        "change_pct": 140.6832,
-        "volume": 204650407
-      },
-      {
-        "symbol": "ALFUW",
-        "price": 0.26,
-        "change_amount": 0.13,
-        "change_pct": 100.0,
-        "volume": 243654
-      },
-      {
-        "symbol": "HSPTR",
-        "price": 0.4604,
-        "change_amount": 0.2046,
-        "change_pct": 79.9844,
-        "volume": 1395133
-      }
-    ],
-    "topSymbol": "IVDAW",
-    "topChangePct": 260.0823
-  }
 ]

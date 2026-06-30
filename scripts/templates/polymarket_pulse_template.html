@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        width: 1200px;
+        height: 675px;
+        background:
+          radial-gradient(circle at 18% 12%, rgba(58, 190, 255, 0.20), transparent 30%),
+          radial-gradient(circle at 88% 16%, rgba(94, 234, 212, 0.14), transparent 27%),
+          linear-gradient(135deg, #0b1324 0%, #151827 58%, #211524 100%);
+        color: #f8fafc;
+        font-family: Inter, Arial, sans-serif;
+      }
+      .card {
+        width: 1200px;
+        height: 675px;
+        padding: 44px;
+        position: relative;
+        overflow: hidden;
+      }
+      .grid {
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+        background-size: 56px 56px;
+        mask-image: linear-gradient(to bottom, rgba(0,0,0,0.58), transparent);
+      }
+      header, .content, footer { position: relative; z-index: 2; }
+      .eyebrow {
+        margin: 0 0 14px;
+        color: #67e8f9;
+        font-size: 16px;
+        font-weight: 900;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 0;
+        max-width: 760px;
+        font-size: 58px;
+        line-height: 0.95;
+        letter-spacing: -0.06em;
+      }
+      .subtitle {
+        margin-top: 16px;
+        color: #b8c6dc;
+        font-size: 22px;
+        font-weight: 800;
+      }
+      .date {
+        position: absolute;
+        top: 34px;
+        right: 44px;
+        border: 1px solid rgba(148, 163, 184, 0.34);
+        border-radius: 999px;
+        padding: 10px 18px;
+        color: #dbeafe;
+        font-size: 18px;
+        font-weight: 800;
+        background: rgba(255,255,255,0.06);
+      }
+      .content {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 22px;
+        margin-top: 36px;
+      }
+      .panel {
+        border: 1px solid rgba(148, 163, 184, 0.22);
+        border-radius: 28px;
+        padding: 24px;
+        min-height: 342px;
+        background: rgba(8, 13, 27, 0.64);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+      }
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+        margin-bottom: 26px;
+      }
+      .metric {
+        border-radius: 22px;
+        padding: 18px;
+        background: rgba(255,255,255,0.07);
+      }
+      .metric span {
+        display: block;
+        color: #9fb2cc;
+        font-size: 14px;
+        font-weight: 850;
+      }
+      .metric strong {
+        display: block;
+        margin-top: 8px;
+        font-size: 30px;
+        letter-spacing: -0.05em;
+      }
+      .positive { color: #5eead4; }
+      .negative { color: #fb7185; }
+      .bars {
+        height: 172px;
+        display: flex;
+        align-items: flex-end;
+        gap: 14px;
+        border-top: 1px solid rgba(148, 163, 184, 0.16);
+        padding-top: 20px;
+      }
+      .barItem {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 7px;
+        min-width: 0;
+      }
+      .barValue {
+        color: #dbeafe;
+        font-size: 12px;
+        font-weight: 850;
+      }
+      .barColumn {
+        width: 100%;
+        max-width: 42px;
+        border-radius: 999px 999px 8px 8px;
+        background: linear-gradient(180deg, #5eead4, #38bdf8);
+      }
+      .barLabel {
+        color: #8fa2bf;
+        font-size: 12px;
+        font-weight: 800;
+      }
+      .sideTitle {
+        margin: 0 0 14px;
+        color: #e2e8f0;
+        font-size: 22px;
+        font-weight: 950;
+      }
+      .takeaway {
+        margin: 0 0 20px;
+        color: #c7d2fe;
+        font-size: 18px;
+        line-height: 1.35;
+        font-weight: 800;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 12px;
+      }
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        border-radius: 18px;
+        padding: 13px 14px;
+        background: rgba(255,255,255,0.07);
+        color: #dbeafe;
+        font-size: 14px;
+        font-weight: 850;
+      }
+      li span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      li b {
+        flex: 0 0 auto;
+        color: #5eead4;
+      }
+      footer {
+        position: absolute;
+        left: 44px;
+        right: 44px;
+        bottom: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #9fb2cc;
+        font-size: 16px;
+        font-weight: 800;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 950;
+      }
+      .logo img { width: 42px; height: 42px; }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="grid"></div>
+      <div class="date">{{DATE}}</div>
+      <header>
+        <p class="eyebrow">Polymarket Activity Pulse</p>
+        <h1>What prediction markets are paying attention to</h1>
+        <div class="subtitle">Volume, open interest, and activity signals via QVeris</div>
+      </header>
+      <section class="content">
+        <div class="panel">
+          <div class="metrics">
+            <div class="metric"><span>Volume</span><strong>{{VOLUME}}</strong></div>
+            <div class="metric"><span>Change</span><strong class="{{CHANGE_CLASS}}">{{VOLUME_CHANGE}}</strong></div>
+            <div class="metric"><span>Signal</span><strong>{{ACTIVITY_LABEL}}</strong></div>
+          </div>
+          <div class="bars">{{BARS}}</div>
+        </div>
+        <aside class="panel">
+          <h2 class="sideTitle">Market conviction</h2>
+          <p class="takeaway">{{TAKEAWAY}}</p>
+          <div class="metric" style="margin-bottom: 16px;"><span>Tracked open interest</span><strong>{{OPEN_INTEREST}}</strong></div>
+          <ul>{{TOP_MARKETS}}</ul>
+        </aside>
+      </section>
+      <footer>
+        <span>Prediction-market activity data via {{SOURCE}}</span>
+        <span class="logo"><img src="{{LOGO}}" /> QVeris</span>
+      </footer>
+    </main>
+  </body>
+</html>
