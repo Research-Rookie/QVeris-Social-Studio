@@ -1,0 +1,846 @@
+{
+  "searched_tools": [
+    {
+      "query": "Polymarket markets list events category volume open interest",
+      "search_id": "095aec0d-e6bd-4c22-bc7e-d513329ae524",
+      "name": "List Series",
+      "tool_id": "polymarket.series.list.v1.7e5c1eeb",
+      "cost": null,
+      "description": "Retrieve a list of series with detailed information including events, markets, categories, and collections",
+      "params": []
+    },
+    {
+      "query": "Polymarket markets list events category volume open interest",
+      "search_id": "095aec0d-e6bd-4c22-bc7e-d513329ae524",
+      "name": "Get open interest",
+      "tool_id": "polymarket.open_interest.list.v1.f613174f",
+      "cost": null,
+      "description": "Get open interest for markets",
+      "params": [
+        {
+          "name": "market",
+          "type": "array",
+          "required": false,
+          "description": "0x-prefixed 64-hex string"
+        }
+      ]
+    },
+    {
+      "query": "Polymarket markets list events category volume open interest",
+      "search_id": "095aec0d-e6bd-4c22-bc7e-d513329ae524",
+      "name": "List Events",
+      "tool_id": "polymarket.events.list.v1.eafcc524",
+      "cost": null,
+      "description": "Retrieve a list of Polymarket events. To get the newest events, use order='createdAt' with ascending=false. \n IMPORTANT: To find newly created events, always filter by event.createdAt, NOT by series.updatedAt. \nSeries.updatedAt updates frequently when new events are added to a series, but this does NOT mean the event itself is new.",
+      "params": [
+        {
+          "name": "limit",
+          "type": "integer",
+          "required": false,
+          "description": "Required range: x >= 0"
+        },
+        {
+          "name": "offset",
+          "type": "integer",
+          "required": false,
+          "description": "Required range: x >= 0"
+        },
+        {
+          "name": "order",
+          "type": "string",
+          "required": false,
+          "description": "Comma-separated list of fields to order by"
+        },
+        {
+          "name": "ascending",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "id",
+          "type": "array",
+          "required": false,
+          "description": "Array of integer IDs"
+        },
+        {
+          "name": "tag_id",
+          "type": "integer",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "exclude_tag_id",
+          "type": "array",
+          "required": false,
+          "description": "Array of tag IDs to exclude"
+        },
+        {
+          "name": "slug",
+          "type": "array",
+          "required": false,
+          "description": "Array of slugs"
+        },
+        {
+          "name": "tag_slug",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "related_tags",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "active",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "archived",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "featured",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "cyom",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "include_chat",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "include_template",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "recurrence",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "closed",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "liquidity_min",
+          "type": "number",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "liquidity_max",
+          "type": "number",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "volume_min",
+          "type": "number",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "volume_max",
+          "type": "number",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "start_date_min",
+          "type": "string",
+          "required": false,
+          "description": "Date-time format. If you want to search real-time data, maybe you need to put some value in this parameter."
+        },
+        {
+          "name": "start_date_max",
+          "type": "string",
+          "required": false,
+          "description": "Date-time format. If you want to search real-time data, maybe you need to put some value in this parameter."
+        },
+        {
+          "name": "end_date_min",
+          "type": "string",
+          "required": false,
+          "description": "Date-time format. If you want to search real-time data, maybe you need to put some value in this parameter."
+        },
+        {
+          "name": "end_date_max",
+          "type": "string",
+          "required": false,
+          "description": "Date-time format. If you want to search real-time data, maybe you need to put some value in this parameter."
+        }
+      ]
+    },
+    {
+      "query": "Polymarket markets list events category volume open interest",
+      "search_id": "095aec0d-e6bd-4c22-bc7e-d513329ae524",
+      "name": "List political prediction events",
+      "tool_id": "kalshi.events.list.v2.f3ad33a5",
+      "cost": null,
+      "description": "Retrieve a paginated list of prediction market events from Kalshi's election and politics trading API, including metadata such as title, category, event ticker, and availability.",
+      "params": [
+        {
+          "name": "cursor",
+          "type": "string",
+          "required": false,
+          "description": "Pagination cursor for retrieving the next page of results."
+        }
+      ]
+    },
+    {
+      "query": "Polymarket markets list events category volume open interest",
+      "search_id": "095aec0d-e6bd-4c22-bc7e-d513329ae524",
+      "name": "List Markets",
+      "tool_id": "polymarket.gamma_get_markets.v1",
+      "cost": null,
+      "description": "Polymarket API: GET /markets.\nTo get the NEWEST CREATED markets, use: order='createdAt' with ascending=false and limit.\nTo get markets that START on or after a specific date, use: start_date_min (ISO 8601 format, e.g., '2026-03-10').\n\nIMPORTANT: \n- start_date_min filters by market.startDate (when the market starts), NOT by market.createdAt (when it was created)\n- To find newly CREATED markets, use order='createdAt' with ascending=false, NOT start_date_min\n- start_date_min and order can be used together to find newest markets that start on/after a date.",
+      "params": [
+        {
+          "name": "limit",
+          "type": "integer",
+          "required": false,
+          "description": "Required range: x >= 0"
+        },
+        {
+          "name": "offset",
+          "type": "integer",
+          "required": false,
+          "description": "Required range: x >= 0"
+        },
+        {
+          "name": "order",
+          "type": "string",
+          "required": false,
+          "description": "Comma-separated list of fields to order by"
+        },
+        {
+          "name": "ascending",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "id",
+          "type": "array",
+          "required": false,
+          "description": "Array of integer IDs"
+        },
+        {
+          "name": "slug",
+          "type": "array",
+          "required": false,
+          "description": "Array of slugs"
+        },
+        {
+          "name": "clob_token_ids",
+          "type": "array",
+          "required": false,
+          "description": "Array of CLOB token IDs"
+        },
+        {
+          "name": "condition_ids",
+          "type": "array",
+          "required": false,
+          "description": "Array of condition IDs"
+        },
+        {
+          "name": "market_maker_address",
+          "type": "array",
+          "required": false,
+          "description": "Array of market maker addresses"
+        },
+        {
+          "name": "liquidity_num_min",
+          "type": "number",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "liquidity_num_max",
+          "type": "number",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "volume_num_min",
+          "type": "number",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "volume_num_max",
+          "type": "number",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "start_date_min",
+          "type": "string",
+          "required": false,
+          "description": "Date-time format"
+        },
+        {
+          "name": "start_date_max",
+          "type": "string",
+          "required": false,
+          "description": "Date-time format"
+        },
+        {
+          "name": "end_date_min",
+          "type": "string",
+          "required": false,
+          "description": "Date-time format"
+        },
+        {
+          "name": "end_date_max",
+          "type": "string",
+          "required": false,
+          "description": "Date-time format"
+        },
+        {
+          "name": "tag_id",
+          "type": "integer",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "related_tags",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "cyom",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "uma_resolution_status",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "game_id",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "sports_market_types",
+          "type": "array",
+          "required": false,
+          "description": "Array of sports market types"
+        },
+        {
+          "name": "rewards_min_size",
+          "type": "number",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "question_ids",
+          "type": "array",
+          "required": false,
+          "description": "Array of question IDs"
+        },
+        {
+          "name": "include_tag",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "closed",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "query": "Polymarket markets list events category volume open interest",
+      "search_id": "095aec0d-e6bd-4c22-bc7e-d513329ae524",
+      "name": "List Events",
+      "tool_id": "polymarket.gamma_get_events.v1",
+      "cost": null,
+      "description": "Polymarket API: GET /events. To get the newest events, use order='createdAt' with ascending=false. IMPORTANT: To find newly created events, always filter by event.createdAt, NOT by series.updatedAt. Series.updatedAt updates frequently when new events are added to a series, but this does NOT mean the event itself is new.",
+      "params": []
+    },
+    {
+      "query": "Polymarket markets list events category volume open interest",
+      "search_id": "095aec0d-e6bd-4c22-bc7e-d513329ae524",
+      "name": "Get valid sports market types",
+      "tool_id": "polymarket.sports.market_types.list.v1.842ddd9f",
+      "cost": null,
+      "description": "List of all valid sports market types",
+      "params": []
+    },
+    {
+      "query": "Polymarket markets list events category volume open interest",
+      "search_id": "095aec0d-e6bd-4c22-bc7e-d513329ae524",
+      "name": "List tags",
+      "tool_id": "polymarket.tags.list.v1.a01b79c7",
+      "cost": null,
+      "description": "List tags",
+      "params": [
+        {
+          "name": "limit",
+          "type": "integer",
+          "required": false,
+          "description": "Limit the number of results"
+        },
+        {
+          "name": "offset",
+          "type": "integer",
+          "required": false,
+          "description": "Offset for pagination"
+        },
+        {
+          "name": "order",
+          "type": "string",
+          "required": false,
+          "description": "Comma-separated list of fields to order by"
+        },
+        {
+          "name": "ascending",
+          "type": "boolean",
+          "required": false,
+          "description": "Order ascending"
+        },
+        {
+          "name": "include_template",
+          "type": "boolean",
+          "required": false,
+          "description": "Include template"
+        },
+        {
+          "name": "is_carousel",
+          "type": "boolean",
+          "required": false,
+          "description": "Filter by carousel tags"
+        }
+      ]
+    },
+    {
+      "query": "Polymarket markets list events category volume open interest",
+      "search_id": "095aec0d-e6bd-4c22-bc7e-d513329ae524",
+      "name": "Get daily builder volume time-series",
+      "tool_id": "polymarket.builders.volume.list.v1.38f84687",
+      "cost": null,
+      "description": "Get daily builder volume time-series. Success - Returns array of daily volume records.",
+      "params": [
+        {
+          "name": "timePeriod",
+          "type": "string",
+          "required": true,
+          "description": "The time period to fetch daily records for",
+          "enum": [
+            "DAY",
+            "WEEK",
+            "MONTH",
+            "ALL"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Polymarket markets list events category volume open interest",
+      "search_id": "095aec0d-e6bd-4c22-bc7e-d513329ae524",
+      "name": "Get tag by id",
+      "tool_id": "polymarket.tags.retrieve.v1.b81d70de",
+      "cost": null,
+      "description": "Get tag by id",
+      "params": [
+        {
+          "name": "id",
+          "type": "integer",
+          "required": true,
+          "description": "Path parameter: id"
+        },
+        {
+          "name": "include_template",
+          "type": "boolean",
+          "required": false,
+          "description": "Query parameter: include_template"
+        }
+      ]
+    },
+    {
+      "query": "Polymarket open interest markets title category",
+      "search_id": "4b184230-97b1-4c04-8e1a-3d00480dbb36",
+      "name": "Get trades for a user or markets",
+      "tool_id": "polymarket.trades.list.v1.e496aca3",
+      "cost": null,
+      "description": "Get trades for a user or markets",
+      "params": [
+        {
+          "name": "limit",
+          "type": "integer",
+          "required": false,
+          "description": "Limit the number of results"
+        },
+        {
+          "name": "offset",
+          "type": "integer",
+          "required": false,
+          "description": "Offset for pagination"
+        },
+        {
+          "name": "takerOnly",
+          "type": "boolean",
+          "required": false,
+          "description": "Filter to taker only trades"
+        },
+        {
+          "name": "filterType",
+          "type": "string",
+          "required": false,
+          "description": "Must be provided together with filterAmount. Available options: CASH, TOKENS",
+          "enum": [
+            "CASH",
+            "TOKENS"
+          ]
+        },
+        {
+          "name": "filterAmount",
+          "type": "number",
+          "required": false,
+          "description": "Must be provided together with filterType"
+        },
+        {
+          "name": "market",
+          "type": "string",
+          "required": false,
+          "description": "Comma-separated list of condition IDs. Mutually exclusive with eventId. 0x-prefixed 64-hex string"
+        },
+        {
+          "name": "eventId",
+          "type": "integer",
+          "required": false,
+          "description": "Comma-separated list of event IDs. Mutually exclusive with market"
+        },
+        {
+          "name": "user",
+          "type": "string",
+          "required": false,
+          "description": "User Profile Address (0x-prefixed, 40 hex chars)"
+        },
+        {
+          "name": "side",
+          "type": "string",
+          "required": false,
+          "description": "Filter by trade side",
+          "enum": [
+            "BUY",
+            "SELL"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Polymarket open interest markets title category",
+      "search_id": "4b184230-97b1-4c04-8e1a-3d00480dbb36",
+      "name": "Open Interest Overview",
+      "tool_id": "defillama.openInterest.overview.v1.78ffd913",
+      "cost": null,
+      "description": "List all open interest dex exchanges along with summaries of their open interest",
+      "params": []
+    },
+    {
+      "query": "Polymarket series events markets categories volume",
+      "search_id": "ee8dd229-8b05-45d9-855e-ffe7f3b956e9",
+      "name": "Get Series List",
+      "tool_id": "kalshi.trade.series.list.v2.7949630f",
+      "cost": null,
+      "description": "Endpoint for getting data about multiple series with specified filters. A series represents a template for recurring events that follow the same format and rules (e.g., \"Monthly Jobs Report\", \"Weekly Initial Jobless Claims\", \"Daily Weather in NYC\"). This endpoint allows you to browse and discover available series templates by category.",
+      "params": []
+    },
+    {
+      "query": "Polymarket series events markets categories volume",
+      "search_id": "ee8dd229-8b05-45d9-855e-ffe7f3b956e9",
+      "name": "Get sampling markets",
+      "tool_id": "polymarket.sampling_markets.list.v1.22152668",
+      "cost": null,
+      "description": "Get sampling markets",
+      "params": []
+    },
+    {
+      "query": "Polymarket series events markets categories volume",
+      "search_id": "ee8dd229-8b05-45d9-855e-ffe7f3b956e9",
+      "name": "List Series",
+      "tool_id": "polymarket.gamma_get_series.v1",
+      "cost": null,
+      "description": "Polymarket API: GET /series",
+      "params": []
+    },
+    {
+      "query": "Polymarket series events markets categories volume",
+      "search_id": "ee8dd229-8b05-45d9-855e-ffe7f3b956e9",
+      "name": "Get valid sports market types",
+      "tool_id": "polymarket.sports.market_types.list.v1.1d7b1fae",
+      "cost": null,
+      "description": "Get valid sports market types",
+      "params": []
+    },
+    {
+      "query": "Polymarket market activity categories events",
+      "search_id": "5955e39a-6bb3-4ba0-9140-c97283498c16",
+      "name": "Coins Categories List with Market Data",
+      "tool_id": "coingecko_pro.coins.categories.retrieve.v3.f0b1f5a1",
+      "cost": null,
+      "description": "This endpoint allows you to **query all the coins categories with market data (market cap, volume, ...) on CoinGecko**",
+      "params": [
+        {
+          "name": "order",
+          "type": "string",
+          "required": false,
+          "description": "sort results by field, default: market_cap_desc",
+          "enum": [
+            "market_cap_desc",
+            "market_cap_asc",
+            "name_desc",
+            "name_asc",
+            "market_cap_change_24h_desc",
+            "market_cap_change_24h_asc"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Polymarket market activity categories events",
+      "search_id": "5955e39a-6bb3-4ba0-9140-c97283498c16",
+      "name": "Coins Categories List with Market Data",
+      "tool_id": "coingecko.coins.categories.retrieve.v3.a30aafd1",
+      "cost": null,
+      "description": "This endpoint allows you to **query all the coins categories with market data (market cap, volume, ...) on CoinGecko**",
+      "params": [
+        {
+          "name": "order",
+          "type": "string",
+          "required": false,
+          "description": "sort results by field, default: market_cap_desc",
+          "enum": [
+            "market_cap_desc",
+            "market_cap_asc",
+            "name_desc",
+            "name_asc",
+            "market_cap_change_24h_desc",
+            "market_cap_change_24h_asc"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Polymarket market activity categories events",
+      "search_id": "5955e39a-6bb3-4ba0-9140-c97283498c16",
+      "name": "Coins Categories List with Market Data",
+      "tool_id": "coingecko.coins.categories.retrieve.v3.f0b1f5a1",
+      "cost": null,
+      "description": "This endpoint allows you to **query all the coins categories with market data (market cap, volume, ...) on CoinGecko**",
+      "params": [
+        {
+          "name": "order",
+          "type": "string",
+          "required": false,
+          "description": "sort results by field, default: market_cap_desc",
+          "enum": [
+            "market_cap_desc",
+            "market_cap_asc",
+            "name_desc",
+            "name_asc",
+            "market_cap_change_24h_desc",
+            "market_cap_change_24h_asc"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Polymarket market activity categories events",
+      "search_id": "5955e39a-6bb3-4ba0-9140-c97283498c16",
+      "name": "💼 Pools by Category ID",
+      "tool_id": "coingecko_pro.categories.pools.retrieve.v3.4a195ce5",
+      "cost": null,
+      "description": "This endpoint allows you to **query all the pools based on the provided category ID**",
+      "params": [
+        {
+          "name": "category_id",
+          "type": "string",
+          "required": true,
+          "description": "category ID"
+        },
+        {
+          "name": "include",
+          "type": "string",
+          "required": false,
+          "description": "attributes to include, comma-separated if more than one to include Available values: `base_token`, `quote_token`, `dex`, `network`. Example: `base_token` or `base_token,dex`"
+        },
+        {
+          "name": "page",
+          "type": "integer",
+          "required": false,
+          "description": "page through results Default value: `1`"
+        },
+        {
+          "name": "sort",
+          "type": "string",
+          "required": false,
+          "description": "sort the pools by field Default value: `pool_created_at_desc`",
+          "enum": [
+            "m5_trending",
+            "h1_trending",
+            "h6_trending",
+            "h24_trending",
+            "h24_tx_count_desc",
+            "h24_volume_usd_desc",
+            "pool_created_at_desc",
+            "h24_price_change_percentage_desc"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Polymarket market activity categories events",
+      "search_id": "5955e39a-6bb3-4ba0-9140-c97283498c16",
+      "name": "Get Trades",
+      "tool_id": "polymarket.data_get_trades.v1",
+      "cost": null,
+      "description": "Polymarket API: GET /trades",
+      "params": []
+    },
+    {
+      "query": "Polymarket market activity categories events",
+      "search_id": "5955e39a-6bb3-4ba0-9140-c97283498c16",
+      "name": "Coins Categories List (ID Map)",
+      "tool_id": "coingecko_pro.coins.categories.list.retrieve.v3.a662f7cf",
+      "cost": null,
+      "description": "This endpoint allows you to **query all the coins categories on CoinGecko**",
+      "params": []
+    }
+  ],
+  "probes": [
+    {
+      "label": "open_interest",
+      "tool_id": "polymarket.open_interest.list.v1.f613174f",
+      "parameters": {},
+      "ok": true,
+      "field_counts": {
+        "title": 1,
+        "category": 0,
+        "volume": 0,
+        "open_interest": 0,
+        "market_id": 1
+      },
+      "samples": [
+        {
+          "status_code": "200"
+        },
+        {
+          "market": "GLOBAL",
+          "value": "448192208.74918294"
+        }
+      ],
+      "raw_type": "dict"
+    },
+    {
+      "label": "series",
+      "tool_id": "polymarket.series.list.v1.7e5c1eeb",
+      "parameters": {},
+      "ok": true,
+      "field_counts": {
+        "title": 3,
+        "category": 1,
+        "volume": 2,
+        "open_interest": 1,
+        "market_id": 3
+      },
+      "samples": [
+        {
+          "status_code": "200",
+          "message": "Result content is too long (736142 bytes). You can reference the truncated content (65536 bytes) and download the full content from the url ...",
+          "full_content_file_url": "https://oss.qveris.cn/tool_result_cache/20260701/polymarket.series.list.v1.7e5c1eeb/a266905b8d7e44b99e45e6088f8ddb21.json?OSSAccessKeyId=LTA...",
+          "truncated_content": "[{\"id\": \"1\", \"ticker\": \"nfl\", \"slug\": \"nfl\", \"title\": \"NFL\", \"seriesType\": \"single\", \"recurrence\": \"daily\", \"description\": \"NFL\", \"layout\": ..."
+        },
+        {
+          "$schema": "http://json-schema.org/schema#",
+          "type": "array"
+        },
+        {
+          "type": "object"
+        }
+      ],
+      "raw_type": "dict"
+    },
+    {
+      "label": "builder_volume_day",
+      "tool_id": "polymarket.builders.volume.list.v1.38f84687",
+      "parameters": {
+        "timePeriod": "day"
+      },
+      "ok": true,
+      "field_counts": {
+        "title": 0,
+        "category": 0,
+        "volume": 1,
+        "open_interest": 0,
+        "market_id": 0
+      },
+      "samples": [
+        {
+          "status_code": "200",
+          "message": "Result content is too long (9766564 bytes). You can reference the truncated content (65536 bytes) and download the full content from the url...",
+          "full_content_file_url": "https://oss.qveris.cn/tool_result_cache/20260701/polymarket.builders.volume.list.v1.38f84687/154b689a213e4cb19f06edddc97908ac.json?OSSAccess...",
+          "truncated_content": "[{\"dt\": \"2026-07-01T00:00:00Z\", \"builder\": \"betmoar\", \"builderCode\": \"0xceebf77a833b30520287ddd9478ff51abbdffa30aa90a8d655dba0e8a79ce0c1\", \"..."
+        },
+        {
+          "$schema": "http://json-schema.org/schema#",
+          "type": "array"
+        },
+        {
+          "type": "object"
+        }
+      ],
+      "raw_type": "dict"
+    },
+    {
+      "label": "builder_volume_no_params",
+      "tool_id": "polymarket.builders.volume.list.v1.38f84687",
+      "parameters": {},
+      "ok": false,
+      "error": "缺少必需的查询参数: 'timePeriod' The call did not return valid data. Please verify the request parameters against this tool's parameter definitions and try again."
+    }
+  ],
+  "verdict": {
+    "can_market_breakdown": true,
+    "can_theme_breakdown": true,
+    "field_totals": {
+      "title": 4,
+      "category": 1,
+      "volume": 3,
+      "open_interest": 1,
+      "market_id": 4
+    },
+    "recommendation": "Use market-level and theme-level cards."
+  }
+}
