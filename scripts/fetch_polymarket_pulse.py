@@ -36,6 +36,7 @@ EVENTS_TOOL_ID = os.environ.get(
     "QVERIS_POLYMARKET_EVENTS_TOOL_ID",
     "polymarket.events.list.v1.eafcc524",
 )
+FETCH_DEBUG: list[dict[str, Any]] = []
 
 
 def value_by_any(item: dict[str, Any], names: list[str]) -> Any:
@@ -107,6 +108,24 @@ def parse_embedded_payload(payload: Any) -> Any:
             except json.JSONDecodeError:
                 return payload
     return payload
+
+
+def debug_payload(label: str, payload: Any | None = None, error: str = "") -> None:
+    record: dict[str, Any] = {"label": label, "ok": not error}
+    if error:
+        record["error"] = error[:500]
+    if payload is not None:
+        parsed = parse_embedded_payload(payload)
+        record["raw_type"] = type(payload).__name__
+        record["parsed_type"] = type(parsed).__name__
+        if isinstance(payload, dict):
+            record["raw_keys"] = list(payload.keys())[:12]
+            record["has_truncated_content"] = "truncated_content" in payload
+            if payload.get("full_content_file_url"):
+                record["has_full_content_file_url"] = True
+        record["theme_rows"] = len(extract_theme_rows(parsed))
+        record["market_rows"] = len(extract_market_rows(parsed))
+    FETCH_DEBUG.append(record)
 
 
 def find_theme(item: dict[str, Any]) -> str:
@@ -367,20 +386,26 @@ def fetch_open_interest() -> dict[str, Any]:
 
 def fetch_series() -> dict[str, Any]:
     try:
-        return execute_tool(
+        payload = execute_tool(
             SERIES_TOOL_ID,
             SESSION_ID,
             {},
             max_response_size=65536,
         )
+        debug_payload("series", payload)
+        return payload
     except RuntimeError as error:
         print(f"Series unavailable: {error}")
+        debug_payload("series", error=str(error))
         return {}
 
 
 def fetch_markets() -> dict[str, Any]:
     parameter_sets = [
+        {"limit": 50, "order": "volumeNum", "ascending": False, "active": True, "closed": False},
         {"limit": 50, "order": "volume", "ascending": False, "active": True, "closed": False},
+        {"limit": 50, "volume_min": 1000, "active": True, "closed": False},
+        {"limit": 50, "liquidity_min": 1000, "active": True, "closed": False},
         {"limit": 50, "order": "volume", "ascending": False},
         {"limit": 50, "order": "createdAt", "ascending": False, "active": True},
         {"limit": 50, "active": True},
@@ -388,34 +413,43 @@ def fetch_markets() -> dict[str, Any]:
     ]
     for parameters in parameter_sets:
         try:
-            return execute_tool(
+            payload = execute_tool(
                 MARKETS_TOOL_ID,
                 SESSION_ID,
                 parameters,
                 max_response_size=65536,
             )
+            debug_payload(f"markets {parameters}", payload)
+            return payload
         except RuntimeError as error:
             print(f"Markets retry after {parameters}: {error}")
+            debug_payload(f"markets {parameters}", error=str(error))
     return {}
 
 
 def fetch_events() -> dict[str, Any]:
     parameter_sets = [
+        {"limit": 30, "order": "volume", "ascending": False, "volume_min": 1000, "active": True, "closed": False},
         {"limit": 30, "order": "volume", "ascending": False, "active": True, "closed": False},
+        {"limit": 30, "volume_min": 1000, "active": True, "closed": False},
+        {"limit": 30, "liquidity_min": 1000, "active": True, "closed": False},
         {"limit": 30, "order": "createdAt", "ascending": False, "active": True},
         {"limit": 30, "active": True},
         {"limit": 30},
     ]
     for parameters in parameter_sets:
         try:
-            return execute_tool(
+            payload = execute_tool(
                 EVENTS_TOOL_ID,
                 SESSION_ID,
                 parameters,
                 max_response_size=65536,
             )
+            debug_payload(f"events {parameters}", payload)
+            return payload
         except RuntimeError as error:
             print(f"Events retry after {parameters}: {error}")
+            debug_payload(f"events {parameters}", error=str(error))
     return {}
 
 
@@ -474,6 +508,17 @@ def main() -> dict[str, Any]:
         "volume_series": volume_series,
         "volume_available": bool(volume_payload),
         "takeaway": takeaway(label, volume_change, open_interest_total),
+        "debug": FETCH_DEBUG
+        + [
+            {
+                "label": "parsed_summary",
+                "top_themes": len(top_themes),
+                "top_markets": len(market_candidates),
+                "used_global_only": not top_themes
+                and len(market_candidates) == 1
+                and market_candidates[0].get("title") == "GLOBAL",
+            }
+        ],
     }
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")

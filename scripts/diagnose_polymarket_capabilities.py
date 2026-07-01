@@ -33,6 +33,29 @@ EXECUTION_PROBES = [
         "parameters": {},
     },
     {
+        "label": "markets_volume",
+        "tool_id": "polymarket.gamma_get_markets.v1",
+        "parameters": {
+            "limit": 20,
+            "order": "volumeNum",
+            "ascending": False,
+            "active": True,
+            "closed": False,
+        },
+    },
+    {
+        "label": "events_volume",
+        "tool_id": "polymarket.events.list.v1.eafcc524",
+        "parameters": {
+            "limit": 20,
+            "order": "volume",
+            "ascending": False,
+            "volume_min": 1000,
+            "active": True,
+            "closed": False,
+        },
+    },
+    {
         "label": "builder_volume_day",
         "tool_id": "polymarket.builders.volume.list.v1.38f84687",
         "parameters": {"timePeriod": "day"},
