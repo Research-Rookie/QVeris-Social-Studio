@@ -31,32 +31,40 @@ def money_short(value: float) -> str:
     return "n/a"
 
 
+def short_text(value: object, limit: int) -> str:
+    text = " ".join(str(value or "").split())
+    if len(text) <= limit:
+        return text
+    return text[: limit - 3].rstrip() + "..."
+
+
 def format_tweet(data: dict) -> str:
     open_interest = money_short(float(data.get("open_interest", 0)))
-    top_theme = (data.get("top_themes") or [{}])[0].get("theme", "General")
-    top_market = (data.get("top_markets") or [{}])[0].get("title", "Market detail pending")
-    if len(str(top_market)) > 54:
-        top_market = str(top_market)[:51].rstrip() + "..."
+    top_theme = short_text((data.get("top_themes") or [{}])[0].get("theme", "General"), 38)
+    top_market = short_text(
+        (data.get("top_markets") or [{}])[0].get("title", "Market detail pending"),
+        42,
+    )
     lines = [
-        "Prediction markets are becoming a real-time attention layer.",
+        "Prediction markets are becoming a real-time attention layer 👀",
         "",
         "Polymarket pulse via QVeris:",
-        f"- Tracked open interest: {open_interest}",
-        f"- Top series: {top_theme}",
-        f"- Top market: {top_market}",
+        f"💰 Tracked OI: {open_interest}",
+        f"📌 Active series: {top_theme}",
+        f"🔥 Top market: {top_market}",
         "",
-        f"Live market data -> research-ready signals: {WEBSITE_URL}",
+        f"Live market data -> research-ready signals ⚡ {WEBSITE_URL}",
     ]
     tweet = "\n".join(lines)
     if len(tweet) > 280:
         lines = [
-            "Polymarket Activity Pulse",
+            "Polymarket pulse via QVeris 👀",
             "",
-            f"Tracked OI: {open_interest}",
-            f"Top series: {top_theme}",
-            f"Top market: {top_market}",
+            f"💰 Tracked OI: {open_interest}",
+            f"📌 Series: {short_text(top_theme, 30)}",
+            f"🔥 Market: {short_text(top_market, 34)}",
             "",
-            "Built with QVeris.",
+            f"Signals from live market data: {WEBSITE_URL}",
         ]
         tweet = "\n".join(lines)
     if len(tweet) > 280:
