@@ -32,38 +32,28 @@ def money_short(value: float) -> str:
 
 
 def format_tweet(data: dict) -> str:
-    volume = money_short(float(data.get("current_volume", 0)))
-    change = float(data.get("volume_change_pct", 0))
     open_interest = money_short(float(data.get("open_interest", 0)))
-    label = data.get("activity_label", "Stable")
     top_theme = (data.get("top_themes") or [{}])[0].get("theme", "General")
     top_market = (data.get("top_markets") or [{}])[0].get("title", "Market detail pending")
     if len(str(top_market)) > 54:
         top_market = str(top_market)[:51].rstrip() + "..."
-    volume_available = bool(data.get("volume_available", True))
-    volume_line = (
-        f"- Volume: {volume} ({change:+.1f}%)"
-        if volume_available
-        else f"- Activity snapshot: {volume}"
-    )
     lines = [
-        "Prediction markets are becoming a real-time sentiment layer.",
+        "Prediction markets are becoming a real-time attention layer.",
         "",
-        "Today's Polymarket activity pulse:",
-        volume_line,
-        f"- Top theme: {top_theme}",
+        "Polymarket pulse via QVeris:",
+        f"- Tracked open interest: {open_interest}",
+        f"- Top series: {top_theme}",
         f"- Top market: {top_market}",
-        f"- Tracked OI: {open_interest}",
         "",
-        f"Built with QVeris: {WEBSITE_URL}",
+        f"Live market data -> research-ready signals: {WEBSITE_URL}",
     ]
     tweet = "\n".join(lines)
     if len(tweet) > 280:
         lines = [
             "Polymarket Activity Pulse",
             "",
-            volume_line.replace("- ", ""),
-            f"Top theme: {top_theme}",
+            f"Tracked OI: {open_interest}",
+            f"Top series: {top_theme}",
             f"Top market: {top_market}",
             "",
             "Built with QVeris.",
@@ -96,7 +86,7 @@ def archive_post(data: dict, tweet_text: str) -> None:
         "dataSource": data.get("source", "QVeris API"),
         "dataUpdatedAt": data.get("updated_at", ""),
         "xPostId": None,
-        "primaryLabel": "Top theme",
+        "primaryLabel": "Top series",
         "primaryValue": str((data.get("top_themes") or [{}])[0].get("theme", "General"))[:32],
         "secondaryLabel": "Top market",
         "secondaryValue": str((data.get("top_markets") or [{}])[0].get("title", "Pending"))[:32],

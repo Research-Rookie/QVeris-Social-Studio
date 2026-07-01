@@ -344,12 +344,12 @@ def activity_label(change: float) -> str:
 
 
 def takeaway(label: str, change: float, open_interest: float) -> str:
-    direction = "higher" if change >= 0 else "lower"
     if open_interest > 0:
         return (
-            f"Polymarket activity is {label.lower()} with volume {direction} "
-            f"and {money_short(open_interest)} in tracked open interest."
+            f"Tracked Polymarket open interest is {money_short(open_interest)}, "
+            "with attention concentrated in the top active markets."
         )
+    direction = "higher" if change >= 0 else "lower"
     return f"Polymarket activity is {label.lower()} with volume {direction} versus the prior point."
 
 
@@ -493,13 +493,20 @@ def main() -> dict[str, Any]:
             "QVeris returned no usable Polymarket volume or open-interest rows."
         )
 
-    if not volume_series:
-        volume_series = [{"date": "open interest snapshot", "volume": open_interest_total}]
-
-    current_volume = volume_series[-1]["volume"]
-    previous_volume = volume_series[-2]["volume"] if len(volume_series) > 1 else current_volume
-    volume_change = pct_change(current_volume, previous_volume)
-    label = activity_label(volume_change)
+    builder_volume_series = volume_series
+    if open_interest_total > 0:
+        current_volume = open_interest_total
+        previous_volume = open_interest_total
+        volume_change = 0.0
+        label = "Snapshot"
+        volume_series = [{"date": "tracked OI", "volume": open_interest_total}]
+    else:
+        if not volume_series:
+            volume_series = [{"date": "activity snapshot", "volume": open_interest_total}]
+        current_volume = volume_series[-1]["volume"]
+        previous_volume = volume_series[-2]["volume"] if len(volume_series) > 1 else current_volume
+        volume_change = pct_change(current_volume, previous_volume)
+        label = activity_label(volume_change)
 
     now = datetime.now(timezone.utc)
     run_now = datetime.now(RUN_TIMEZONE)
@@ -517,7 +524,8 @@ def main() -> dict[str, Any]:
         "top_themes": top_themes,
         "top_markets": market_candidates,
         "volume_series": volume_series,
-        "volume_available": bool(volume_payload),
+        "builder_volume_series": builder_volume_series,
+        "volume_available": bool(open_interest_total or volume_payload),
         "takeaway": takeaway(label, volume_change, open_interest_total),
         "debug": FETCH_DEBUG
         + [

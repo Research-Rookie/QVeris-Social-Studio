@@ -96,16 +96,25 @@ def render_html(data: dict) -> str:
     change_class = "positive" if change >= 0 else "negative"
     top_theme = (data.get("top_themes") or [{}])[0].get("theme", "General")
     top_market = (data.get("top_markets") or [{}])[0].get("title", "Market detail pending")
+    open_interest = float(data.get("open_interest", 0))
+    headline_value = open_interest or float(data.get("current_volume", 0))
+    activity_label = "Snapshot" if open_interest else str(data.get("activity_label", "Stable"))
+    takeaway = (
+        f"Tracked Polymarket open interest is {money_short(open_interest)}, "
+        "with attention concentrated in the top active markets."
+        if open_interest
+        else str(data.get("takeaway", ""))
+    )
     return (
         template.replace("{{DATE}}", html.escape(data["date"]))
-        .replace("{{VOLUME}}", html.escape(money_short(float(data.get("current_volume", 0)))))
+        .replace("{{VOLUME}}", html.escape(money_short(headline_value)))
         .replace("{{VOLUME_CHANGE}}", html.escape(signed_pct(change)))
         .replace("{{CHANGE_CLASS}}", change_class)
-        .replace("{{ACTIVITY_LABEL}}", html.escape(str(data.get("activity_label", "Stable"))))
+        .replace("{{ACTIVITY_LABEL}}", html.escape(activity_label))
         .replace("{{TOP_THEME}}", html.escape(str(top_theme)))
         .replace("{{TOP_MARKET}}", html.escape(str(top_market)))
-        .replace("{{OPEN_INTEREST}}", html.escape(money_short(float(data.get("open_interest", 0)))))
-        .replace("{{TAKEAWAY}}", html.escape(str(data.get("takeaway", ""))))
+        .replace("{{OPEN_INTEREST}}", html.escape(money_short(open_interest)))
+        .replace("{{TAKEAWAY}}", html.escape(takeaway))
         .replace("{{BARS}}", series_bars(data.get("volume_series", [])))
         .replace("{{TOP_THEMES}}", top_themes_html(data.get("top_themes", [])))
         .replace("{{TOP_MARKETS}}", top_markets_html(data.get("top_markets", [])))
