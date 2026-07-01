@@ -3,32 +3,32 @@
     "id": "polymarket-pulse-2026-07-01",
     "date": "2026-07-01",
     "runDate": "2026-07-01",
-    "createdAt": "2026-07-01T03:51:22.616435+00:00",
+    "createdAt": "2026-07-01T03:56:14.651247+00:00",
     "contentType": "POLYMARKET PULSE",
     "title": "Polymarket Activity Pulse",
     "status": "ready",
-    "tweet": "Prediction markets are becoming a real-time attention layer.\n\nPolymarket pulse via QVeris:\n- Tracked open interest: $462.4M\n- Top series: Fed decision in January?\n- Top market: World Cup Winner\n\nLive market data -> research-ready signals: https://qveris.ai",
+    "tweet": "Prediction markets are becoming a real-time attention layer.\n\nPolymarket pulse via QVeris:\n- Tracked open interest: $463.9M\n- Top series: Fed decision in January?\n- Top market: World Cup Winner\n\nLive market data -> research-ready signals: https://qveris.ai",
     "image": "/posts/polymarket_pulse_2026-07-01.png",
     "dataSource": "QVeris API via Polymarket",
-    "dataUpdatedAt": "2026-07-01T03:17:57.512472+00:00",
+    "dataUpdatedAt": "2026-07-01T03:56:13.169263+00:00",
     "xPostId": null,
     "primaryLabel": "Top series",
     "primaryValue": "Fed decision in January?",
     "secondaryLabel": "Top market",
     "secondaryValue": "World Cup Winner",
     "topSymbol": "PM",
-    "topChangePct": -94.60610487160446,
+    "topChangePct": 0.0,
     "polymarketPulse": {
-      "updated_at": "2026-07-01T03:17:57.512472+00:00",
+      "updated_at": "2026-07-01T03:56:13.169263+00:00",
       "date": "2026-07-01",
       "run_timezone": "Asia/Shanghai",
       "source": "QVeris API via Polymarket",
       "title": "Polymarket Activity Pulse",
-      "current_volume": 521.502305,
-      "previous_volume": 9668.380504,
-      "volume_change_pct": -94.60610487160446,
-      "activity_label": "Cooling fast",
-      "open_interest": 462400024.21434116,
+      "current_volume": 463869618.068805,
+      "previous_volume": 463869618.068805,
+      "volume_change_pct": 0.0,
+      "activity_label": "Snapshot",
+      "open_interest": 463869618.068805,
       "top_themes": [
         {
           "theme": "Fed decision in January?",
@@ -55,45 +55,51 @@
         {
           "title": "World Cup Winner",
           "theme": "World Cup Winner",
-          "activity": 3590394767.1129746,
-          "volume": 3590394767.1129746,
-          "open_interest": 61941219.113177,
+          "activity": 3591410398.920696,
+          "volume": 3591410398.920696,
+          "open_interest": 62140596.00378101,
           "market_id": "30615"
         },
         {
           "title": "Democratic Presidential Nominee 2028",
           "theme": "Democratic Presidential Nomine",
-          "activity": 1221080564.6863868,
-          "volume": 1221080564.6863868,
-          "open_interest": 10269793.678530995,
+          "activity": 1221117273.087704,
+          "volume": 1221117273.087704,
+          "open_interest": 10258205.963320002,
           "market_id": "30829"
         },
         {
           "title": "Republican Presidential Nominee 2028",
           "theme": "Republican Presidential Nomine",
-          "activity": 666877058.4630649,
-          "volume": 666877058.4630649,
-          "open_interest": 8204720.271940999,
+          "activity": 666885691.254109,
+          "volume": 666885691.254109,
+          "open_interest": 8201891.3495539995,
           "market_id": "31875"
         },
         {
           "title": "Presidential Election Winner 2028",
           "theme": "Presidential Election Winner 2",
-          "activity": 642948435.9194546,
-          "volume": 642948435.9194546,
-          "open_interest": 47192002.48450399,
+          "activity": 642958592.0843916,
+          "volume": 642958592.0843916,
+          "open_interest": 46588305.823855,
           "market_id": "31552"
         },
         {
           "title": "Will USA win the 2026 FIFA World Cup?",
           "theme": "will usa win the 2026 fifa wor",
-          "activity": 115947397.48856461,
-          "volume": 115947397.48856461,
+          "activity": 115982754.47300664,
+          "volume": 115982754.47300664,
           "open_interest": 0.0,
           "market_id": "558943"
         }
       ],
       "volume_series": [
+        {
+          "date": "tracked OI",
+          "volume": 463869618.068805
+        }
+      ],
+      "builder_volume_series": [
         {
           "date": "",
           "volume": 117.696648
@@ -152,7 +158,7 @@
         }
       ],
       "volume_available": true,
-      "takeaway": "Polymarket activity is cooling fast with volume lower and $462.4M in tracked open interest.",
+      "takeaway": "Tracked Polymarket open interest is $463.9M, with attention concentrated in the top active markets.",
       "debug": [
         {
           "label": "series",
