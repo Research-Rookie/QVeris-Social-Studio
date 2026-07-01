@@ -1,4 +1,4 @@
-name: QVeris Polymarket Activity Pulse
+name: QVeris Prediction Market Radar
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: qveris-polymarket-activity-pulse
+  group: qveris-prediction-market-radar
   cancel-in-progress: false
 
 jobs:
@@ -30,15 +30,15 @@ jobs:
           pip install playwright
           playwright install --with-deps chromium
 
-      - name: Fetch Polymarket activity pulse
+      - name: Fetch prediction market radar
         env:
           QVERIS_API_KEY: ${{ secrets.QVERIS_API_KEY }}
         run: python scripts/fetch_polymarket_pulse.py
 
-      - name: Generate Polymarket activity image
+      - name: Generate prediction market radar image
         run: python scripts/generate_polymarket_pulse_image.py
 
-      - name: Generate Polymarket activity tweet and archive card
+      - name: Generate prediction market radar tweet and archive card
         env:
           WEBSITE_URL: https://qveris.ai
         run: python scripts/generate_polymarket_pulse_tweet.py
@@ -50,11 +50,11 @@ jobs:
           git add data/posts.json data/polymarket_pulse.json data/polymarket_pulse_tweet_preview.txt
           git add images/polymarket_pulse_*.png public/posts/polymarket_pulse_*.png 2>/dev/null || true
           if git diff --cached --quiet; then
-            echo "No Polymarket archive changes to commit."
+            echo "No prediction market radar archive changes to commit."
             exit 0
           fi
 
-          git commit -m "chore: archive polymarket activity pulse $(date -u +%Y-%m-%d)"
+          git commit -m "chore: archive prediction market radar $(date -u +%Y-%m-%d)"
 
           for attempt in 1 2 3; do
             git pull --rebase origin master

@@ -1,4 +1,4 @@
-"""Generate the Polymarket activity pulse tweet and archive card."""
+"""Generate the Prediction Market Radar tweet and archive card."""
 
 from __future__ import annotations
 
@@ -38,31 +38,47 @@ def short_text(value: object, limit: int) -> str:
     return text[: limit - 3].rstrip() + "..."
 
 
+def first_title(rows: list[dict], fallback: str) -> str:
+    if not rows:
+        return fallback
+    return str(rows[0].get("title") or fallback)
+
+
 def format_tweet(data: dict) -> str:
     open_interest = money_short(float(data.get("open_interest", 0)))
-    top_theme = short_text((data.get("top_themes") or [{}])[0].get("theme", "General"), 38)
+    top_theme = short_text(
+        data.get("hot_theme") or (data.get("top_themes") or [{}])[0].get("theme", "General"),
+        38,
+    )
     top_market = short_text(
-        (data.get("top_markets") or [{}])[0].get("title", "Market detail pending"),
+        (data.get("hottest_market") or {}).get("title")
+        or first_title(data.get("top_volume_markets") or data.get("top_markets") or [], "Market detail pending"),
         42,
     )
+    top_oi_market = short_text(
+        first_title(data.get("top_open_interest_markets") or data.get("top_markets") or [], top_market),
+        42,
+    )
+
     lines = [
-        "Prediction markets are becoming a real-time attention layer 👀",
+        "What are people betting on today? 👀",
         "",
-        "Polymarket pulse via QVeris:",
+        "Prediction Market Radar via QVeris:",
         f"💰 Tracked OI: {open_interest}",
-        f"📌 Active series: {top_theme}",
-        f"🔥 Top market: {top_market}",
+        f"🔥 Hottest market: {top_market}",
+        f"📌 Hot theme: {top_theme}",
+        f"📊 Top OI: {top_oi_market}",
         "",
         f"Live market data -> research-ready signals ⚡ {WEBSITE_URL}",
     ]
     tweet = "\n".join(lines)
     if len(tweet) > 280:
         lines = [
-            "Polymarket pulse via QVeris 👀",
+            "Prediction Market Radar via QVeris 👀",
             "",
             f"💰 Tracked OI: {open_interest}",
-            f"📌 Series: {short_text(top_theme, 30)}",
             f"🔥 Market: {short_text(top_market, 34)}",
+            f"📌 Theme: {short_text(top_theme, 30)}",
             "",
             f"Signals from live market data: {WEBSITE_URL}",
         ]
@@ -86,18 +102,20 @@ def archive_post(data: dict, tweet_text: str) -> None:
         "date": data["date"],
         "runDate": data["date"],
         "createdAt": datetime.now(timezone.utc).isoformat(),
-        "contentType": "POLYMARKET PULSE",
-        "title": "Polymarket Activity Pulse",
+        "contentType": "PREDICTION MARKET RADAR",
+        "title": "Prediction Market Radar",
         "status": "ready",
         "tweet": tweet_text,
         "image": f"/posts/{public_image.name}",
         "dataSource": data.get("source", "QVeris API"),
         "dataUpdatedAt": data.get("updated_at", ""),
         "xPostId": None,
-        "primaryLabel": "Top series",
-        "primaryValue": str((data.get("top_themes") or [{}])[0].get("theme", "General"))[:32],
-        "secondaryLabel": "Top market",
-        "secondaryValue": str((data.get("top_markets") or [{}])[0].get("title", "Pending"))[:32],
+        "primaryLabel": "Hot theme",
+        "primaryValue": str(data.get("hot_theme") or (data.get("top_themes") or [{}])[0].get("theme", "General"))[:32],
+        "secondaryLabel": "Hottest market",
+        "secondaryValue": str(
+            (data.get("hottest_market") or (data.get("top_markets") or [{}])[0]).get("title", "Pending")
+        )[:32],
         "topSymbol": "PM",
         "topChangePct": float(data.get("volume_change_pct", 0)),
         "polymarketPulse": data,
@@ -107,7 +125,7 @@ def archive_post(data: dict, tweet_text: str) -> None:
         post
         for post in posts
         if post.get("id") != record["id"]
-        and post.get("contentType") not in {"PREDICTION MARKET", "WORLD CUP FINANCE"}
+        and post.get("contentType") not in {"POLYMARKET PULSE", "PREDICTION MARKET", "WORLD CUP FINANCE"}
     ]
     posts.append(record)
     posts.sort(key=lambda post: (post["date"], post.get("createdAt", "")), reverse=True)
@@ -123,7 +141,7 @@ def main() -> None:
     TWEET_PREVIEW_FILE.write_text(tweet_text, encoding="utf-8")
     archive_post(data, tweet_text)
 
-    print("==== Polymarket tweet preview ====")
+    print("==== Prediction Market Radar tweet preview ====")
     print(tweet_text)
     print(f"Characters: {len(tweet_text)}")
     print("Status: ready")

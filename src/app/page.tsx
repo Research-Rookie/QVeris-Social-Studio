@@ -33,6 +33,7 @@ function categoryKey(post: Post) {
   if (post.contentType === "MARKET PULSE") return "market-pulse";
   if (post.contentType === "FCF YIELD") return "fcf-yield";
   if (post.contentType === "POLYMARKET PULSE") return "polymarket-pulse";
+  if (post.contentType === "PREDICTION MARKET RADAR") return "polymarket-pulse";
   return null;
 }
 
@@ -51,7 +52,7 @@ const categories = [
   },
   {
     key: "polymarket-pulse",
-    label: "Polymarket Pulse",
+    label: "Prediction Radar",
     count: activePosts.filter((post) => categoryKey(post) === "polymarket-pulse").length,
   },
   { key: "earnings", label: "Earnings", count: 0 },

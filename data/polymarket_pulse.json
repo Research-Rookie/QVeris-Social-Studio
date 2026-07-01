@@ -3,7 +3,7 @@
   "date": "2026-07-01",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via Polymarket",
-  "title": "Polymarket Activity Pulse",
+  "title": "Prediction Market Radar",
   "current_volume": 441835564.4708053,
   "previous_volume": 441835564.4708053,
   "volume_change_pct": 0.0,
@@ -138,7 +138,7 @@
     }
   ],
   "volume_available": true,
-  "takeaway": "Tracked Polymarket open interest is $441.8M, with attention concentrated in the top active markets.",
+  "takeaway": "Prediction-market attention is clustered around Fed decision in January?, led by World Cup Winner and $441.8M in tracked open interest.",
   "debug": [
     {
       "label": "series",
@@ -200,5 +200,81 @@
       "top_markets": 5,
       "used_global_only": false
     }
-  ]
+  ],
+  "hot_theme": "Fed decision in January?",
+  "hottest_market": {
+    "title": "World Cup Winner",
+    "theme": "World Cup Winner",
+    "activity": 3594508660.153283,
+    "volume": 3594508660.153283,
+    "open_interest": 61625734.90214501,
+    "market_id": "30615",
+    "rank_metric": "volume",
+    "rank_value": 3594508660.153283
+  },
+  "top_volume_markets": [
+    {
+      "title": "World Cup Winner",
+      "theme": "World Cup Winner",
+      "activity": 3594508660.153283,
+      "volume": 3594508660.153283,
+      "open_interest": 61625734.90214501,
+      "market_id": "30615",
+      "rank_metric": "volume",
+      "rank_value": 3594508660.153283
+    },
+    {
+      "title": "Democratic Presidential Nominee 2028",
+      "theme": "Democratic Presidential Nomine",
+      "activity": 1221178482.8544278,
+      "volume": 1221178482.8544278,
+      "open_interest": 10256602.350664994,
+      "market_id": "30829",
+      "rank_metric": "volume",
+      "rank_value": 1221178482.8544278
+    },
+    {
+      "title": "Republican Presidential Nominee 2028",
+      "theme": "Republican Presidential Nomine",
+      "activity": 666893593.072541,
+      "volume": 666893593.072541,
+      "open_interest": 8039804.949924999,
+      "market_id": "31875",
+      "rank_metric": "volume",
+      "rank_value": 666893593.072541
+    }
+  ],
+  "top_open_interest_markets": [
+    {
+      "title": "World Cup Winner",
+      "theme": "World Cup Winner",
+      "activity": 3594508660.153283,
+      "volume": 3594508660.153283,
+      "open_interest": 61625734.90214501,
+      "market_id": "30615",
+      "rank_metric": "open_interest",
+      "rank_value": 61625734.90214501
+    },
+    {
+      "title": "Presidential Election Winner 2028",
+      "theme": "Presidential Election Winner 2",
+      "activity": 642988609.4519376,
+      "volume": 642988609.4519376,
+      "open_interest": 46979607.29368701,
+      "market_id": "31552",
+      "rank_metric": "open_interest",
+      "rank_value": 46979607.29368701
+    },
+    {
+      "title": "Democratic Presidential Nominee 2028",
+      "theme": "Democratic Presidential Nomine",
+      "activity": 1221178482.8544278,
+      "volume": 1221178482.8544278,
+      "open_interest": 10256602.350664994,
+      "market_id": "30829",
+      "rank_metric": "open_interest",
+      "rank_value": 10256602.350664994
+    }
+  ],
+  "insight": "Prediction-market attention is clustered around Fed decision in January?, led by World Cup Winner and $441.8M in tracked open interest."
 }

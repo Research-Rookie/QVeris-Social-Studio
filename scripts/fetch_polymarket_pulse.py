@@ -353,6 +353,38 @@ def takeaway(label: str, change: float, open_interest: float) -> str:
     return f"Polymarket activity is {label.lower()} with volume {direction} versus the prior point."
 
 
+def ranked_markets(markets: list[dict[str, Any]], metric: str, limit: int = 3) -> list[dict[str, Any]]:
+    rows = []
+    for market in markets:
+        value = as_float(market.get(metric))
+        if value <= 0 and metric != "activity":
+            continue
+        if value <= 0:
+            value = as_float(market.get("open_interest")) or as_float(market.get("volume"))
+        if value <= 0:
+            continue
+        row = dict(market)
+        row["rank_metric"] = metric
+        row["rank_value"] = value
+        rows.append(row)
+    rows.sort(key=lambda item: item["rank_value"], reverse=True)
+    return rows[:limit]
+
+
+def radar_takeaway(top_theme: str, hot_market: str, open_interest: float) -> str:
+    if top_theme and hot_market:
+        return (
+            f"Prediction-market attention is clustered around {top_theme}, "
+            f"led by {hot_market} and {money_short(open_interest)} in tracked open interest."
+        )
+    if hot_market:
+        return (
+            f"{hot_market} is the top active prediction market, "
+            f"with {money_short(open_interest)} in tracked open interest."
+        )
+    return takeaway("Snapshot", 0.0, open_interest)
+
+
 def fetch_volume() -> dict[str, Any]:
     last_error = None
     parameter_sets = [
@@ -510,12 +542,21 @@ def main() -> dict[str, Any]:
 
     now = datetime.now(timezone.utc)
     run_now = datetime.now(RUN_TIMEZONE)
+    top_volume_markets = ranked_markets(market_candidates, "volume") or ranked_markets(market_candidates, "activity")
+    top_open_interest_markets = (
+        ranked_markets(top_markets or market_candidates, "open_interest")
+        or ranked_markets(market_candidates, "activity")
+    )
+    hottest_market = (top_volume_markets or ranked_markets(market_candidates, "activity") or top_open_interest_markets or [{}])[0]
+    hot_theme = (top_themes or [{}])[0].get("theme", "General")
+    top_market_title = str(hottest_market.get("title") or "Market detail pending")
+    radar_summary = radar_takeaway(str(hot_theme), top_market_title, open_interest_total)
     output = {
         "updated_at": now.isoformat(),
         "date": run_now.strftime("%Y-%m-%d"),
         "run_timezone": "Asia/Shanghai",
         "source": "QVeris API via Polymarket",
-        "title": "Polymarket Activity Pulse",
+        "title": "Prediction Market Radar",
         "current_volume": current_volume,
         "previous_volume": previous_volume,
         "volume_change_pct": volume_change,
@@ -523,10 +564,15 @@ def main() -> dict[str, Any]:
         "open_interest": open_interest_total,
         "top_themes": top_themes,
         "top_markets": market_candidates,
+        "hottest_market": hottest_market,
+        "hot_theme": hot_theme,
+        "top_volume_markets": top_volume_markets,
+        "top_open_interest_markets": top_open_interest_markets,
+        "insight": radar_summary,
         "volume_series": volume_series,
         "builder_volume_series": builder_volume_series,
         "volume_available": bool(open_interest_total or volume_payload),
-        "takeaway": takeaway(label, volume_change, open_interest_total),
+        "takeaway": radar_summary,
         "debug": FETCH_DEBUG
         + [
             {

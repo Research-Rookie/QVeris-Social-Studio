@@ -1,4 +1,4 @@
-"""Render the Polymarket activity pulse card as a 1200x675 PNG."""
+"""Render the Prediction Market Radar card as a 1200x675 PNG."""
 
 from __future__ import annotations
 
@@ -60,13 +60,15 @@ def series_bars(series: list[dict]) -> str:
     return "\n".join(bars)
 
 
-def top_markets_html(markets: list[dict]) -> str:
+def market_rows_html(markets: list[dict], metric: str = "rank_value") -> str:
     if not markets:
         return '<li><span>Market detail</span><b>Not returned</b></li>'
     rows = []
     for market in markets[:3]:
         activity = float(
-            market.get("activity")
+            market.get(metric)
+            or market.get("rank_value")
+            or market.get("activity")
             or market.get("open_interest")
             or market.get("volume")
             or 0
@@ -78,7 +80,7 @@ def top_markets_html(markets: list[dict]) -> str:
     return "\n".join(rows)
 
 
-def top_themes_html(themes: list[dict]) -> str:
+def theme_rows_html(themes: list[dict]) -> str:
     if not themes:
         return '<li><span>Theme detail</span><b>Not returned</b></li>'
     rows = []
@@ -94,17 +96,17 @@ def render_html(data: dict) -> str:
     template = TEMPLATE_FILE.read_text(encoding="utf-8")
     change = float(data.get("volume_change_pct", 0))
     change_class = "positive" if change >= 0 else "negative"
-    top_theme = (data.get("top_themes") or [{}])[0].get("theme", "General")
-    top_market = (data.get("top_markets") or [{}])[0].get("title", "Market detail pending")
+    top_theme = data.get("hot_theme") or (data.get("top_themes") or [{}])[0].get("theme", "General")
+    top_market = (
+        (data.get("hottest_market") or {}).get("title")
+        or (data.get("top_markets") or [{}])[0].get("title", "Market detail pending")
+    )
     open_interest = float(data.get("open_interest", 0))
     headline_value = open_interest or float(data.get("current_volume", 0))
-    activity_label = "Snapshot" if open_interest else str(data.get("activity_label", "Stable"))
-    takeaway = (
-        f"Tracked Polymarket open interest is {money_short(open_interest)}, "
-        "with attention concentrated in the top active markets."
-        if open_interest
-        else str(data.get("takeaway", ""))
-    )
+    activity_label = "Radar" if open_interest else str(data.get("activity_label", "Stable"))
+    takeaway = str(data.get("insight") or data.get("takeaway") or "")
+    top_volume_markets = data.get("top_volume_markets") or data.get("top_markets", [])
+    top_open_interest_markets = data.get("top_open_interest_markets") or data.get("top_markets", [])
     return (
         template.replace("{{DATE}}", html.escape(data["date"]))
         .replace("{{VOLUME}}", html.escape(money_short(headline_value)))
@@ -116,8 +118,10 @@ def render_html(data: dict) -> str:
         .replace("{{OPEN_INTEREST}}", html.escape(money_short(open_interest)))
         .replace("{{TAKEAWAY}}", html.escape(takeaway))
         .replace("{{BARS}}", series_bars(data.get("volume_series", [])))
-        .replace("{{TOP_THEMES}}", top_themes_html(data.get("top_themes", [])))
-        .replace("{{TOP_MARKETS}}", top_markets_html(data.get("top_markets", [])))
+        .replace("{{TOP_THEMES}}", theme_rows_html(data.get("top_themes", [])))
+        .replace("{{TOP_VOLUME_MARKETS}}", market_rows_html(top_volume_markets, "volume"))
+        .replace("{{TOP_OPEN_INTEREST_MARKETS}}", market_rows_html(top_open_interest_markets, "open_interest"))
+        .replace("{{TOP_MARKETS}}", market_rows_html(data.get("top_markets", [])))
         .replace("{{SOURCE}}", html.escape(data.get("source", "QVeris API")))
         .replace("{{LOGO}}", get_logo_data_url())
     )

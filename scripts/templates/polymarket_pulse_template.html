@@ -208,25 +208,25 @@
       <div class="date">{{DATE}}</div>
       <span class="brand"><img src="{{LOGO}}" /> QVeris</span>
       <header>
-        <p class="eyebrow">Polymarket Activity Pulse</p>
-        <h1>What prediction markets are paying attention to</h1>
-        <div class="subtitle">Top series, active markets, and open-interest signals via QVeris</div>
+        <p class="eyebrow">Prediction Market Radar</p>
+        <h1>What are people betting on today?</h1>
+        <div class="subtitle">Top markets, open interest, and theme signals via QVeris</div>
       </header>
       <section class="content">
         <div class="panel">
           <div class="metrics">
             <div class="metric"><span>Tracked OI</span><strong>{{VOLUME}}</strong></div>
-            <div class="metric"><span>Top series</span><strong class="small">{{TOP_THEME}}</strong></div>
+            <div class="metric"><span>Hot theme</span><strong class="small">{{TOP_THEME}}</strong></div>
             <div class="metric"><span>Signal</span><strong>{{ACTIVITY_LABEL}}</strong></div>
           </div>
-          <h2 class="sideTitle">Top series by market attention</h2>
-          <ul class="themeList">{{TOP_THEMES}}</ul>
+          <h2 class="sideTitle">Volume leaders today</h2>
+          <ul class="themeList">{{TOP_VOLUME_MARKETS}}</ul>
         </div>
         <aside class="panel">
-          <h2 class="sideTitle">Top markets by attention</h2>
+          <h2 class="sideTitle">Open-interest leaders</h2>
           <p class="takeaway">{{TAKEAWAY}}</p>
           <div class="oiStrip"><span>Tracked open interest</span><b>{{OPEN_INTEREST}}</b></div>
-          <ul class="marketList">{{TOP_MARKETS}}</ul>
+          <ul class="marketList">{{TOP_OPEN_INTEREST_MARKETS}}</ul>
         </aside>
       </section>
       <footer>
