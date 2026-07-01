@@ -1,0 +1,1191 @@
+{
+  "searched_tools": [
+    {
+      "query": "financial news API latest market headlines ticker sentiment",
+      "search_id": "5575d387-1e17-4495-9678-ca16d6005efe",
+      "name": "Retrieve Financial News",
+      "tool_id": "eodhd.news.retrieve.v1.fe8bf94c",
+      "provider": null,
+      "expected_credits": 2.81,
+      "description": "Returns the latest financial news headlines and full articles for a given ticker symbol or topic tag. Requires either a ticker (s) or a tag (t). Supports filtering by date, pagination, and JSON response format.",
+      "params": [
+        {
+          "name": "s",
+          "type": "string",
+          "required": false,
+          "description": "The ticker code to retrieve news for, for example: AAPL.US"
+        },
+        {
+          "name": "t",
+          "type": "string",
+          "required": false,
+          "description": "The topic tag to retrieve news for, for example: technology"
+        },
+        {
+          "name": "from",
+          "type": "string",
+          "required": false,
+          "description": "Start date for filtering news (YYYY-MM-DD)"
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": false,
+          "description": "End date for filtering news (YYYY-MM-DD)"
+        },
+        {
+          "name": "limit",
+          "type": "integer",
+          "required": false,
+          "description": "Number of results to return (default: 50, minimum: 1, maximum: 1000)"
+        },
+        {
+          "name": "offset",
+          "type": "integer",
+          "required": false,
+          "description": "Offset for pagination (default: 0)"
+        },
+        {
+          "name": "fmt",
+          "type": "string",
+          "required": false,
+          "description": "Response format, either json or xml (default: json)"
+        }
+      ]
+    },
+    {
+      "query": "financial news API latest market headlines ticker sentiment",
+      "search_id": "5575d387-1e17-4495-9678-ca16d6005efe",
+      "name": "Market News & Sentiment Trending",
+      "tool_id": "alphavantage.news_sentiment.query.v1.467a92c0",
+      "provider": null,
+      "expected_credits": 2.0,
+      "description": "This API returns live and historical market news & sentiment data from a large & growing selection of premier news outlets around the world, covering stocks, cryptocurrencies, forex, and a wide range of topics such as fiscal policy, mergers & acquisitions, IPOs, etc.",
+      "params": [
+        {
+          "name": "function",
+          "type": "string",
+          "required": true,
+          "description": "The function of your choice. In this case, function=NEWS_SENTIMENT",
+          "enum": [
+            "NEWS_SENTIMENT"
+          ]
+        },
+        {
+          "name": "tickers",
+          "type": "string",
+          "required": false,
+          "description": "The stock/crypto/forex symbols of your choice. For example: tickers=IBM will filter for articles that mention the IBM ticker; tickers=COIN,CRYPTO:BTC,FOREX:USD will filter for articles that simultaneously mention Coinbase (COIN), Bitcoin (CRYPTO:BTC), and US Dollar (FOREX:USD) in their content."
+        },
+        {
+          "name": "topics",
+          "type": "string",
+          "required": false,
+          "description": "The news topics of your choice. For example: topics=technology will filter for articles that write about the technology sector; topics=technology,ipo will filter for articles that simultaneously cover technology and IPO in their content. Below is the full list of supported topics: Blockchain: blockchain, Earnings: earnings, IPO: ipo, Mergers & Acquisitions: mergers_and_acquisitions, Financial Markets: financial_markets, Economy - Fiscal Policy (e.g., tax reform, government spending): economy_fiscal, Economy - Monetary Policy (e.g., interest rates, inflation): economy_monetary, Economy - Macro/Overall: economy_macro, Energy & Transportation: energy_transportation, Finance: finance, Life Sciences: life_sciences, Manufacturing: manufacturing, Real Estate & Construction: real_estate, Retail & Wholesale: retail_wholesale, Technology: technology."
+        },
+        {
+          "name": "time_from",
+          "type": "string",
+          "required": false,
+          "description": "The time range of the news articles you are targeting, in YYYYMMDDTHHMM format. For example: time_from=20220410T0130. If time_from is specified but time_to is missing, the API will return articles published between the time_from value and the current time."
+        },
+        {
+          "name": "time_to",
+          "type": "string",
+          "required": false,
+          "description": "The time range of the news articles you are targeting, in YYYYMMDDTHHMM format."
+        },
+        {
+          "name": "sort",
+          "type": "string",
+          "required": false,
+          "description": "By default, sort=LATEST and the API will return the latest articles first. You can also set sort=EARLIEST or sort=RELEVANCE based on your use case.",
+          "enum": [
+            "LATEST",
+            "EARLIEST",
+            "RELEVANCE"
+          ]
+        },
+        {
+          "name": "limit",
+          "type": "string",
+          "required": false,
+          "description": "By default, limit=50 and the API will return up to 50 matching results. You can also set limit=1000 to output up to 1000 results."
+        }
+      ]
+    },
+    {
+      "query": "financial news API latest market headlines ticker sentiment",
+      "search_id": "5575d387-1e17-4495-9678-ca16d6005efe",
+      "name": "Market News",
+      "tool_id": "finnhub.news.retrieve.v1.51b2567e",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Get latest market news.",
+      "params": [
+        {
+          "name": "category",
+          "type": "string",
+          "required": true,
+          "description": "This parameter can be 1 of the following values <code>general, forex, crypto, merger</code>."
+        },
+        {
+          "name": "minId",
+          "type": "integer",
+          "required": false,
+          "description": "Use this field to get only news after this ID. Default to 0"
+        }
+      ]
+    },
+    {
+      "query": "financial news API latest market headlines ticker sentiment",
+      "search_id": "5575d387-1e17-4495-9678-ca16d6005efe",
+      "name": "Market News",
+      "tool_id": "finnhub.news.retrieve.v1",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Get latest market news.",
+      "params": [
+        {
+          "name": "category",
+          "type": "string",
+          "required": true,
+          "description": "This parameter can be 1 of the following values <code>general, forex, crypto, merger</code>."
+        },
+        {
+          "name": "minId",
+          "type": "integer",
+          "required": false,
+          "description": "Use this field to get only news after this ID. Default to 0"
+        }
+      ]
+    },
+    {
+      "query": "financial news API latest market headlines ticker sentiment",
+      "search_id": "5575d387-1e17-4495-9678-ca16d6005efe",
+      "name": "Market News",
+      "tool_id": "finnhub.news.execute.v1",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Get general, forex, crypto or merger news. Additional market news topics: economy, earnings, financial, healthcare, market, sector, technology, top. This endpoint is available on all plans. This is not a search API but returns news by category.",
+      "params": [
+        {
+          "name": "category",
+          "type": "string",
+          "required": true,
+          "description": "This parameter can be 1 of the following values <code>general, forex, crypto, merger</code>.",
+          "enum": [
+            "general",
+            "forex",
+            "crypto",
+            "merger"
+          ]
+        },
+        {
+          "name": "minId",
+          "type": "integer",
+          "required": false,
+          "description": "Use this field to get only news after this ID. Default to 0"
+        }
+      ]
+    },
+    {
+      "query": "financial news API latest market headlines ticker sentiment",
+      "search_id": "5575d387-1e17-4495-9678-ca16d6005efe",
+      "name": "Market News",
+      "tool_id": "finnhub.market.news.list.v1",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Get latest market news.",
+      "params": [
+        {
+          "name": "category",
+          "type": "string",
+          "required": true,
+          "description": "News category. Available values: \\`general\\` \\`forex\\` \\`crypto\\` \\`merger\\`",
+          "enum": [
+            "general",
+            "forex",
+            "crypto",
+            "merger"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "financial news API latest market headlines ticker sentiment",
+      "search_id": "5575d387-1e17-4495-9678-ca16d6005efe",
+      "name": "Retrieve Related Companies",
+      "tool_id": "massive_stocks.stocks.related_companies.retrieve.v1.acae73fc",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Retrieve a list of tickers related to a specified ticker, identified through an analysis of news coverage and returns data. This endpoint helps users discover peers, competitors, or thematically similar companies, aiding in comparative analysis, portfolio diversification, and market research.",
+      "params": [
+        {
+          "name": "ticker",
+          "type": "string",
+          "required": true,
+          "description": "The ticker symbol to search."
+        }
+      ]
+    },
+    {
+      "query": "financial news API latest market headlines ticker sentiment",
+      "search_id": "5575d387-1e17-4495-9678-ca16d6005efe",
+      "name": "Retrieve Market News & Sentiment",
+      "tool_id": "alphavantage.news_sentiment.retrieve.v1.7aca3c4a",
+      "provider": null,
+      "expected_credits": 2.0,
+      "description": "Returns live and historical market news & sentiment data from premier news outlets around the world, covering stocks, cryptocurrencies, forex, and various financial topics.",
+      "params": [
+        {
+          "name": "function",
+          "type": "string",
+          "required": true,
+          "description": "The function name.",
+          "enum": [
+            "NEWS_SENTIMENT"
+          ]
+        },
+        {
+          "name": "tickers",
+          "type": "string",
+          "required": false,
+          "description": "Comma-separated list of stock/crypto/forex symbols (e.g., COIN,CRYPTO:BTC,FOREX:USD). Filters articles that mention all listed tickers."
+        },
+        {
+          "name": "topics",
+          "type": "string",
+          "required": false,
+          "description": "Comma-separated list of topics. Articles must cover all listed topics.",
+          "enum": [
+            "blockchain",
+            "earnings",
+            "ipo",
+            "mergers_and_acquisitions",
+            "financial_markets",
+            "economy_fiscal",
+            "economy_monetary",
+            "economy_macro",
+            "energy_transportation",
+            "finance",
+            "life_sciences",
+            "manufacturing",
+            "real_estate",
+            "retail_wholesale",
+            "technology"
+          ]
+        },
+        {
+          "name": "time_from",
+          "type": "string",
+          "required": false,
+          "description": "Start time in YYYYMMDDTHHMM format (e.g., 20220410T0130)."
+        },
+        {
+          "name": "time_to",
+          "type": "string",
+          "required": false,
+          "description": "End time in YYYYMMDDTHHMM format."
+        },
+        {
+          "name": "sort",
+          "type": "string",
+          "required": false,
+          "description": "Sorting method.",
+          "enum": [
+            "LATEST",
+            "EARLIEST",
+            "RELEVANCE"
+          ]
+        },
+        {
+          "name": "limit",
+          "type": "integer",
+          "required": false,
+          "description": "Maximum number of results (up to 1000)."
+        }
+      ]
+    },
+    {
+      "query": "financial news API latest market headlines ticker sentiment",
+      "search_id": "5575d387-1e17-4495-9678-ca16d6005efe",
+      "name": "Market News",
+      "tool_id": "finnhub.news.retrieve.v1.2e72ea5d",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Get latest market news.",
+      "params": [
+        {
+          "name": "category",
+          "type": "string",
+          "required": true,
+          "description": "This parameter can be 1 of the following values <code>general, forex, crypto, merger</code>."
+        },
+        {
+          "name": "minId",
+          "type": "integer",
+          "required": false,
+          "description": "Use this field to get only news after this ID. Default to 0"
+        }
+      ]
+    },
+    {
+      "query": "financial news API latest market headlines ticker sentiment",
+      "search_id": "5575d387-1e17-4495-9678-ca16d6005efe",
+      "name": "Insider Sentiment",
+      "tool_id": "finnhub.stock.insidersentiment.retrieve.v1.dff02940",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Get insider sentiment data for US companies calculated using method discussed <a href=\"https://medium.com/@stock-api/finnhub-insiders-sentiment-analysis-cc43f9f64b3a\" target=\"_blank\">here</a>. The MSPR ranges from -100 for the most negative to 100 for the most positive which can signal price changes in the coming 30-90 days.",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "Symbol of the company: AAPL."
+        },
+        {
+          "name": "from",
+          "type": "string",
+          "required": true,
+          "description": "From date: 2020-03-15."
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": true,
+          "description": "To date: 2020-03-16."
+        }
+      ]
+    },
+    {
+      "query": "stock market news by ticker with headline source published date sentiment",
+      "search_id": "a6e8111f-3466-4d29-afa5-cd890a7d976b",
+      "name": "Market News & Sentiment",
+      "tool_id": "alphavantage.news_sentiment.query.v1.7aca3c4a",
+      "provider": null,
+      "expected_credits": 2.0,
+      "description": "Returns live and historical market news & sentiment data from global news outlets covering stocks, crypto, forex, and economic topics.",
+      "params": [
+        {
+          "name": "function",
+          "type": "string",
+          "required": true,
+          "description": "The function to call. In this case, NEWS_SENTIMENT",
+          "enum": [
+            "NEWS_SENTIMENT"
+          ]
+        },
+        {
+          "name": "tickers",
+          "type": "string",
+          "required": false,
+          "description": "Comma-separated list of stock/crypto/forex symbols to filter articles by (e.g., AAPL,CRYPTO:BTC)."
+        },
+        {
+          "name": "topics",
+          "type": "string",
+          "required": false,
+          "description": "Comma-separated list of topics to filter by.",
+          "enum": [
+            "blockchain",
+            "earnings",
+            "ipo",
+            "mergers_and_acquisitions",
+            "financial_markets",
+            "economy_fiscal",
+            "economy_monetary",
+            "economy_macro",
+            "energy_transportation",
+            "finance",
+            "life_sciences",
+            "manufacturing",
+            "real_estate",
+            "retail_wholesale",
+            "technology"
+          ]
+        },
+        {
+          "name": "time_from",
+          "type": "string",
+          "required": false,
+          "description": "Start time in YYYYMMDDTHHMM format (e.g., 20220410T0130)."
+        },
+        {
+          "name": "time_to",
+          "type": "string",
+          "required": false,
+          "description": "End time in YYYYMMDDTHHMM format."
+        },
+        {
+          "name": "sort",
+          "type": "string",
+          "required": false,
+          "description": "Sorting method for results.",
+          "enum": [
+            "LATEST",
+            "EARLIEST",
+            "RELEVANCE"
+          ]
+        },
+        {
+          "name": "limit",
+          "type": "integer",
+          "required": false,
+          "description": "Maximum number of results (up to 1000)."
+        }
+      ]
+    },
+    {
+      "query": "financial news sentiment API for US stocks",
+      "search_id": "d47ac720-f085-4284-b543-667cbb9bde5e",
+      "name": "Sentiment Data API",
+      "tool_id": "eodhd.sentiments.list.v1.9ba159a0",
+      "provider": null,
+      "expected_credits": 2.81,
+      "description": "Get sentiment scores for one or more financial instruments (stocks, ETFs, crypto). Sentiment scores are calculated from both news and social media, normalized on a scale from -1 (very negative) to 1 (very positive). You can provide one or multiple tickers, separated by commas.",
+      "params": [
+        {
+          "name": "s",
+          "type": "string",
+          "required": true,
+          "description": "One or more comma-separated tickers, for example: AAPL.US,BTC-USD.CC"
+        },
+        {
+          "name": "from",
+          "type": "string",
+          "required": false,
+          "description": "Start date for filtering sentiment data (YYYY-MM-DD)"
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": false,
+          "description": "End date for filtering sentiment data (YYYY-MM-DD)"
+        }
+      ]
+    },
+    {
+      "query": "financial news sentiment API for US stocks",
+      "search_id": "d47ac720-f085-4284-b543-667cbb9bde5e",
+      "name": "Retrieve Sentiment Data",
+      "tool_id": "eodhd.sentiments.retrieve.v1.c2c27d35",
+      "provider": null,
+      "expected_credits": 2.81,
+      "description": "Get sentiment scores for one or more financial instruments (stocks, ETFs, crypto) calculated from news and social media, normalized on a scale from -1 (very negative) to 1 (very positive).",
+      "params": [
+        {
+          "name": "s",
+          "type": "string",
+          "required": true,
+          "description": "One or more comma-separated tickers, for example: AAPL.US,BTC-USD.CC"
+        },
+        {
+          "name": "from",
+          "type": "string",
+          "required": false,
+          "description": "Start date for filtering sentiment data (YYYY-MM-DD)"
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": false,
+          "description": "End date for filtering sentiment data (YYYY-MM-DD)"
+        }
+      ]
+    },
+    {
+      "query": "financial news sentiment API for US stocks",
+      "search_id": "d47ac720-f085-4284-b543-667cbb9bde5e",
+      "name": "News Word Weights API",
+      "tool_id": "eodhd.news-word-weights.retrieve.v1.7f8db48e",
+      "provider": null,
+      "expected_credits": 2.81,
+      "description": "Provides a weighted list of the most relevant words found in financial news articles about a specific stock ticker over a defined date range. Each word is scored based on frequency and significance.; This API provides a weighted list of the most relevant words found in financial news articles about a specific stock ticker over a defined date range. Each word is scored based on its frequency and significance across the processed news, allowing for trend analysis, NLP input, or thematic clustering.",
+      "params": [
+        {
+          "name": "s",
+          "type": "string",
+          "required": true,
+          "description": "The ticker symbol to analyze, for example: AAPL.US"
+        },
+        {
+          "name": "filter[date_from]",
+          "type": "string",
+          "required": false,
+          "description": "Start date for filtering news (format: YYYY-MM-DD)"
+        },
+        {
+          "name": "filter[date_to]",
+          "type": "string",
+          "required": false,
+          "description": "End date for filtering news (format: YYYY-MM-DD)"
+        },
+        {
+          "name": "page[limit]",
+          "type": "integer",
+          "required": false,
+          "description": "Number of top words to return"
+        },
+        {
+          "name": "fmt",
+          "type": "string",
+          "required": false,
+          "description": "Response format (default: json)",
+          "enum": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "financial news sentiment API for US stocks",
+      "search_id": "d47ac720-f085-4284-b543-667cbb9bde5e",
+      "name": "Insider Sentiment",
+      "tool_id": "finnhub.stock.insidersentiment.retrieve.v1.73d5f376",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Get insider sentiment data for US companies calculated using method discussed <a href=\"https://medium.com/@stock-api/finnhub-insiders-sentiment-analysis-cc43f9f64b3a\" target=\"_blank\">here</a>. The MSPR ranges from -100 for the most negative to 100 for the most positive which can signal price changes in the coming 30-90 days.",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "Symbol of the company: AAPL."
+        },
+        {
+          "name": "from",
+          "type": "string",
+          "required": true,
+          "description": "From date: 2020-03-15."
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": true,
+          "description": "To date: 2020-03-16."
+        }
+      ]
+    },
+    {
+      "query": "financial news sentiment API for US stocks",
+      "search_id": "d47ac720-f085-4284-b543-667cbb9bde5e",
+      "name": "List Financials (Deprecated)",
+      "tool_id": "massive_stocks.stocks.financials.list.vX",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Retrieve historical financial data for a specified stock ticker, derived from company SEC filings and extracted via XBRL. This experimental endpoint provides a wide range of financial metrics, including income statements, balance sheets, cash flow statements, and comprehensive income figures. By examining these standardized, machine-readable financial details, users can conduct in-depth fundamental analysis, track corporate performance trends, and compare financials across different reporting periods.",
+      "params": [
+        {
+          "name": "ticker",
+          "type": "string",
+          "required": false,
+          "description": "Query by company ticker."
+        },
+        {
+          "name": "cik",
+          "type": "string",
+          "required": false,
+          "description": "Query by central index key (CIK) Number"
+        },
+        {
+          "name": "company_name",
+          "type": "string",
+          "required": false,
+          "description": "Query by company name."
+        },
+        {
+          "name": "sic",
+          "type": "string",
+          "required": false,
+          "description": "Query by standard industrial classification (SIC)"
+        },
+        {
+          "name": "filing_date.gte",
+          "type": "string",
+          "required": false,
+          "description": "Search filing_date for values that are greater than or equal to the given value (YYYY-MM-DD format)."
+        },
+        {
+          "name": "filing_date.gt",
+          "type": "string",
+          "required": false,
+          "description": "Search filing_date for values that are greater than the given value (YYYY-MM-DD format)."
+        },
+        {
+          "name": "filing_date.lt",
+          "type": "string",
+          "required": false,
+          "description": "Search filing_date for values that are less than the given value (YYYY-MM-DD format)."
+        },
+        {
+          "name": "order",
+          "type": "string",
+          "required": false,
+          "description": "Sort order: ascending or descending.",
+          "enum": [
+            "asc",
+            "desc"
+          ]
+        },
+        {
+          "name": "limit",
+          "type": "integer",
+          "required": false,
+          "description": "Number of results to return per page."
+        },
+        {
+          "name": "sort",
+          "type": "string",
+          "required": false,
+          "description": "Field to sort by."
+        }
+      ]
+    },
+    {
+      "query": "financial news sentiment API for US stocks",
+      "search_id": "d47ac720-f085-4284-b543-667cbb9bde5e",
+      "name": "NewsInfoList",
+      "tool_id": "hangseng_polysource.pubsentiment.news.query.v2.2aff0be5",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Query full network news sentiment with conditions like keywords, emotion direction, importance, alert level, and date range.",
+      "params": [
+        {
+          "name": "pageNo",
+          "type": "number",
+          "required": false,
+          "description": "Page number, default 1"
+        },
+        {
+          "name": "endDate",
+          "type": "string",
+          "required": false,
+          "description": "End date, format YYYY-MM-DD, default unlimited"
+        },
+        {
+          "name": "keyWord",
+          "type": "string",
+          "required": false,
+          "description": "Keywords for news title or abstract, multiple separated by spaces"
+        },
+        {
+          "name": "pageSize",
+          "type": "number",
+          "required": false,
+          "description": "Records per page, default 50"
+        },
+        {
+          "name": "beginDate",
+          "type": "string",
+          "required": false,
+          "description": "Start date, format YYYY-MM-DD, default unlimited"
+        },
+        {
+          "name": "levelCode",
+          "type": "array",
+          "required": false,
+          "description": "Alert categories",
+          "enum": [
+            "LevelCode"
+          ]
+        },
+        {
+          "name": "emotionDirectionCode",
+          "type": "array",
+          "required": false,
+          "description": "Emotion categories",
+          "enum": [
+            "EmotionDirectionCode"
+          ]
+        },
+        {
+          "name": "emotionImportanceCode",
+          "type": "array",
+          "required": false,
+          "description": "Emotion importance levels",
+          "enum": [
+            "EmotionImportanceCode"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "financial news sentiment API for US stocks",
+      "search_id": "d47ac720-f085-4284-b543-667cbb9bde5e",
+      "name": "Finance News Aggregation",
+      "tool_id": "qveris_finance.finance_news_aggregation_v1",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Search and aggregate financial news from multiple sources",
+      "params": [
+        {
+          "name": "query",
+          "type": "string",
+          "required": true,
+          "description": "Search query for financial news"
+        },
+        {
+          "name": "limit",
+          "type": "integer",
+          "required": false,
+          "description": "Maximum number of results to return"
+        }
+      ]
+    },
+    {
+      "query": "market news API top financial headlines today",
+      "search_id": "c26ff212-287d-4aa9-a2b7-d2a56d926915",
+      "name": "Company News",
+      "tool_id": "finnhub.companynews.retrieve.v1.e428b704",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "List latest company news by symbol. This endpoint is only available for North American companies.",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "Company symbol."
+        },
+        {
+          "name": "from",
+          "type": "string",
+          "required": true,
+          "description": "From date <code>YYYY-MM-DD</code>."
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": true,
+          "description": "To date <code>YYYY-MM-DD</code>."
+        }
+      ]
+    },
+    {
+      "query": "company news API ticker articles published date source url",
+      "search_id": "d178bc9e-011f-4370-918c-29f7109a5fb1",
+      "name": "Retrieve Ticker Details",
+      "tool_id": "massive_stocks.stocks.tickers.retrieve.v3.2a83a277",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Retrieve comprehensive details for a single ticker supported by Massive. This endpoint offers a deep look into a company’s fundamental attributes, including its primary exchange, standardized identifiers (CIK, composite FIGI, share class FIGI), market capitalization, industry classification, and key dates. Users also gain access to branding assets (e.g., logos, icons), enabling them to enrich applications and analyses with visually consistent, contextually relevant information.",
+      "params": [
+        {
+          "name": "ticker",
+          "type": "string",
+          "required": true,
+          "description": "Specify a case-sensitive ticker symbol. For example, AAPL represents Apple Inc."
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "required": false,
+          "description": "Specify a point in time to get information about the ticker available on that date. When retrieving information from SEC filings, we compare this date with the period of report date on the SEC filing. Defaults to the most recent available date."
+        }
+      ]
+    },
+    {
+      "query": "company news API ticker articles published date source url",
+      "search_id": "d178bc9e-011f-4370-918c-29f7109a5fb1",
+      "name": "Company News",
+      "tool_id": "finnhub.companynews.retrieve.v1.4d11f47b",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "List latest company news by symbol. This endpoint is only available for North American companies.",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "Company symbol."
+        },
+        {
+          "name": "from",
+          "type": "string",
+          "required": true,
+          "description": "From date <code>YYYY-MM-DD</code>."
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": true,
+          "description": "To date <code>YYYY-MM-DD</code>."
+        }
+      ]
+    },
+    {
+      "query": "company news API ticker articles published date source url",
+      "search_id": "d178bc9e-011f-4370-918c-29f7109a5fb1",
+      "name": "Company News",
+      "tool_id": "finnhub.companynews.execute.v1",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "List latest company news by symbol. This endpoint is only available for North American companies.",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "Company symbol."
+        },
+        {
+          "name": "from",
+          "type": "string",
+          "required": true,
+          "description": "From date <code>YYYY-MM-DD</code>."
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": true,
+          "description": "To date <code>YYYY-MM-DD</code>."
+        }
+      ]
+    },
+    {
+      "query": "company news API ticker articles published date source url",
+      "search_id": "d178bc9e-011f-4370-918c-29f7109a5fb1",
+      "name": "Company News",
+      "tool_id": "finnhub.companynews.retrieve.v1",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "List latest company news by symbol. This endpoint is only available for North American companies.",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "Company symbol."
+        },
+        {
+          "name": "from",
+          "type": "string",
+          "required": true,
+          "description": "From date <code>YYYY-MM-DD</code>."
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": true,
+          "description": "To date <code>YYYY-MM-DD</code>."
+        }
+      ]
+    },
+    {
+      "query": "company news API ticker articles published date source url",
+      "search_id": "d178bc9e-011f-4370-918c-29f7109a5fb1",
+      "name": "Financial News Search (A-Share/HK/Industry)",
+      "tool_id": "caidazi.news.query.v1.e76b9116",
+      "provider": null,
+      "expected_credits": 7.2,
+      "description": "Search for financial news articles (财经新闻搜索) via caidazi. Supports keyword search across title and body, date range, news source/site filtering, Shenwan industry classification (L1/L2/L3), stock code association, pagination, and highlighted summaries. Input: search keyword, optional filters.",
+      "params": [
+        {
+          "name": "input",
+          "type": "string",
+          "required": true,
+          "description": "Query term"
+        },
+        {
+          "name": "searchField",
+          "type": "string",
+          "required": false,
+          "description": "Search field list, default titleSeg,bodySeg"
+        },
+        {
+          "name": "returnField",
+          "type": "string",
+          "required": false,
+          "description": "Return field list"
+        },
+        {
+          "name": "sortField",
+          "type": "string",
+          "required": false,
+          "description": "Sort field, default relevance + publishTime decay"
+        },
+        {
+          "name": "sortOrder",
+          "type": "string",
+          "required": false,
+          "description": "Sort order, default desc",
+          "enum": [
+            "asc",
+            "desc"
+          ]
+        },
+        {
+          "name": "offset",
+          "type": "integer",
+          "required": false,
+          "description": "Search result offset, default 0"
+        },
+        {
+          "name": "size",
+          "type": "integer",
+          "required": false,
+          "description": "Number of search results, default 10"
+        },
+        {
+          "name": "highlight",
+          "type": "string",
+          "required": false,
+          "description": "Whether to return summary",
+          "enum": [
+            "true",
+            "false"
+          ]
+        },
+        {
+          "name": "numOfFragment",
+          "type": "integer",
+          "required": false,
+          "description": "Number of summary fragments per result, default 3"
+        },
+        {
+          "name": "fragmentSize",
+          "type": "integer",
+          "required": false,
+          "description": "Summary length, default 500; actual about 2/3"
+        },
+        {
+          "name": "publishTimeStart",
+          "type": "date",
+          "required": false,
+          "description": "Start time of publish time"
+        },
+        {
+          "name": "publishTimeEnd",
+          "type": "date",
+          "required": false,
+          "description": "End time of publish time"
+        },
+        {
+          "name": "effectiveTimeStart",
+          "type": "date",
+          "required": false,
+          "description": "Start time of effective time"
+        },
+        {
+          "name": "effectiveTimeEnd",
+          "type": "date",
+          "required": false,
+          "description": "End time of effective time"
+        },
+        {
+          "name": "sourceName",
+          "type": "string",
+          "required": false,
+          "description": "News source"
+        },
+        {
+          "name": "siteName",
+          "type": "string",
+          "required": false,
+          "description": "News website"
+        },
+        {
+          "name": "industry1st",
+          "type": "string",
+          "required": false,
+          "description": "Shenwan level 1 industry classification"
+        },
+        {
+          "name": "industry2nd",
+          "type": "string",
+          "required": false,
+          "description": "Shenwan level 2 industry classification"
+        },
+        {
+          "name": "industry3rd",
+          "type": "string",
+          "required": false,
+          "description": "Shenwan level 3 industry classification"
+        },
+        {
+          "name": "ticker",
+          "type": "string",
+          "required": false,
+          "description": "Stock code"
+        },
+        {
+          "name": "minPageCount",
+          "type": "integer",
+          "required": false,
+          "description": "Minimum page count, default not effective"
+        },
+        {
+          "name": "maxPageCount",
+          "type": "integer",
+          "required": false,
+          "description": "Maximum page count, default not effective"
+        }
+      ]
+    },
+    {
+      "query": "company news API ticker articles published date source url",
+      "search_id": "d178bc9e-011f-4370-918c-29f7109a5fb1",
+      "name": "Yahoo Finance News",
+      "tool_id": "yahoo_finance.finance_news.v1",
+      "provider": null,
+      "expected_credits": 1.0,
+      "description": "Get financial news and articles for stocks and companies",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": false,
+          "description": "Stock symbol to get news for (optional, uses general finance news if not provided)"
+        },
+        {
+          "name": "max_results",
+          "type": "integer",
+          "required": false,
+          "description": "Maximum number of news articles to return (default: 10)"
+        },
+        {
+          "name": "news_type",
+          "type": "string",
+          "required": false,
+          "description": "Type of news to retrieve",
+          "enum": [
+            "all",
+            "headlines",
+            "detailed"
+          ]
+        },
+        {
+          "name": "time_range",
+          "type": "string",
+          "required": false,
+          "description": "Time range for news articles",
+          "enum": [
+            "1d",
+            "7d",
+            "30d",
+            "90d",
+            "1y",
+            "all"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "company news API ticker articles published date source url",
+      "search_id": "d178bc9e-011f-4370-918c-29f7109a5fb1",
+      "name": "News Word Weights API",
+      "tool_id": "eodhd.news.wordweights.list.v1.de0ee4cd",
+      "provider": null,
+      "expected_credits": 2.81,
+      "description": "This API provides a weighted list of the most relevant words found in financial news articles about a specific stock ticker over a defined date range. Each word is scored based on its frequency and significance across the processed news.",
+      "params": [
+        {
+          "name": "s",
+          "type": "string",
+          "required": true,
+          "description": "The ticker symbol to analyze, for example: AAPL.US"
+        },
+        {
+          "name": "filter[date_from]",
+          "type": "string",
+          "required": false,
+          "description": "Start date for filtering news (YYYY-MM-DD)"
+        },
+        {
+          "name": "filter[date_to]",
+          "type": "string",
+          "required": false,
+          "description": "End date for filtering news (YYYY-MM-DD)"
+        },
+        {
+          "name": "page[limit]",
+          "type": "integer",
+          "required": false,
+          "description": "Number of top words to return"
+        }
+      ]
+    }
+  ],
+  "probes": [
+    {
+      "label": "latest_market_news",
+      "tool_id": "finnhub.news.retrieve.v1.51b2567e",
+      "tool_name": "Market News",
+      "expected_credits": 1.0,
+      "parameters": {
+        "query": "latest US stock market news",
+        "limit": 5
+      },
+      "ok": false,
+      "error": "缺少必需的查询参数: 'category' The call did not return valid data. Please verify the request parameters against this tool's parameter definitions and try again."
+    },
+    {
+      "label": "ticker_news_aapl",
+      "tool_id": "alphavantage.news_sentiment.query.v1.7aca3c4a",
+      "tool_name": "Market News & Sentiment",
+      "expected_credits": 2.0,
+      "parameters": {
+        "symbol": "AAPL",
+        "ticker": "AAPL",
+        "query": "AAPL news",
+        "limit": 5
+      },
+      "ok": true,
+      "field_counts": {
+        "headline": 50,
+        "summary": 50,
+        "url": 50,
+        "source": 50,
+        "published_at": 0,
+        "ticker": 61,
+        "sentiment": 0
+      },
+      "samples": [
+        {
+          "status_code": "200"
+        },
+        {
+          "items": "50",
+          "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
+          "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance."
+        },
+        {
+          "title": "[Form 4] Velocity Financial, Inc. Insider Trading Activity",
+          "url": "https://www.stocktitan.net/sec-filings/VEL/form-4-velocity-financial-inc-insider-trading-activity-a74212a32f4a.html",
+          "time_published": "20260701T064058",
+          "summary": "Velocity Financial, Inc. CEO Christopher D. Farrar reported an \"other\" transaction involving the acquisition of 1,272 shares of common stock through the Company’s employee stock pu...",
+          "banner_image": "None",
+          "source": "Stock Titan",
+          "category_within_source": "General",
+          "source_domain": "Stock Titan",
+          "overall_sentiment_score": "0.005747",
+          "overall_sentiment_label": "Neutral"
+        },
+        {
+          "topic": "finance",
+          "relevance_score": "1.000000"
+        }
+      ],
+      "raw_type": "dict"
+    }
+  ],
+  "verdict": {
+    "searched_tool_count": 26,
+    "can_financial_news_signal": true,
+    "can_headline_feed": true,
+    "can_ticker_news": true,
+    "can_sentiment": false,
+    "field_totals": {
+      "headline": 50,
+      "summary": 50,
+      "url": 50,
+      "source": 50,
+      "published_at": 0,
+      "ticker": 61,
+      "sentiment": 0
+    },
+    "recommendation": "Build Financial News Signal with headline + ticker-news cards; sentiment can be included if available."
+  }
+}
