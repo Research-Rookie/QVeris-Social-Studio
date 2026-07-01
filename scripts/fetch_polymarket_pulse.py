@@ -7,6 +7,7 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.request import urlopen
 from zoneinfo import ZoneInfo
 
 from qveris_finance import as_float, execute_tool, walk_dicts, walk_lists
@@ -101,6 +102,13 @@ def title_for(item: dict[str, Any]) -> str:
 
 def parse_embedded_payload(payload: Any) -> Any:
     if isinstance(payload, dict):
+        full_content_url = payload.get("full_content_file_url")
+        if isinstance(full_content_url, str) and full_content_url.startswith(("http://", "https://")):
+            try:
+                with urlopen(full_content_url, timeout=60) as response:
+                    return json.loads(response.read().decode("utf-8"))
+            except Exception as error:
+                print(f"Could not download QVeris full content: {error}")
         content = payload.get("truncated_content") or payload.get("content") or payload.get("data")
         if isinstance(content, str) and content.strip().startswith(("[", "{")):
             try:
@@ -123,6 +131,9 @@ def debug_payload(label: str, payload: Any | None = None, error: str = "") -> No
             record["has_truncated_content"] = "truncated_content" in payload
             if payload.get("full_content_file_url"):
                 record["has_full_content_file_url"] = True
+                record["used_full_content_file_url"] = type(parsed).__name__ != "dict" or (
+                    isinstance(parsed, dict) and "status_code" not in parsed
+                )
         record["theme_rows"] = len(extract_theme_rows(parsed))
         record["market_rows"] = len(extract_market_rows(parsed))
     FETCH_DEBUG.append(record)
