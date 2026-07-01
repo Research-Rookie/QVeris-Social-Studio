@@ -1,35 +1,144 @@
 {
-  "updated_at": "2026-07-01T03:12:16.174282+00:00",
+  "updated_at": "2026-07-01T03:17:57.512472+00:00",
   "date": "2026-07-01",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via Polymarket",
   "title": "Polymarket Activity Pulse",
-  "current_volume": 462400024.21434116,
-  "previous_volume": 462400024.21434116,
-  "volume_change_pct": 0.0,
-  "activity_label": "Stable",
+  "current_volume": 521.502305,
+  "previous_volume": 9668.380504,
+  "volume_change_pct": -94.60610487160446,
+  "activity_label": "Cooling fast",
   "open_interest": 462400024.21434116,
-  "top_themes": [],
+  "top_themes": [
+    {
+      "theme": "Fed decision in January?",
+      "activity": 659499548.531115
+    },
+    {
+      "theme": "Fed decision in December?",
+      "activity": 393905949.377453
+    },
+    {
+      "theme": "Fed decision in April?",
+      "activity": 284224765.2922818
+    },
+    {
+      "theme": "Fed decision in March?",
+      "activity": 260075340.35964626
+    },
+    {
+      "theme": "Fed decision in October?",
+      "activity": 252485550.016563
+    }
+  ],
   "top_markets": [
     {
-      "title": "GLOBAL",
-      "open_interest": 462400024.21434116
+      "title": "World Cup Winner",
+      "theme": "World Cup Winner",
+      "activity": 3590394767.1129746,
+      "volume": 3590394767.1129746,
+      "open_interest": 61941219.113177,
+      "market_id": "30615"
+    },
+    {
+      "title": "Democratic Presidential Nominee 2028",
+      "theme": "Democratic Presidential Nomine",
+      "activity": 1221080564.6863868,
+      "volume": 1221080564.6863868,
+      "open_interest": 10269793.678530995,
+      "market_id": "30829"
+    },
+    {
+      "title": "Republican Presidential Nominee 2028",
+      "theme": "Republican Presidential Nomine",
+      "activity": 666877058.4630649,
+      "volume": 666877058.4630649,
+      "open_interest": 8204720.271940999,
+      "market_id": "31875"
+    },
+    {
+      "title": "Presidential Election Winner 2028",
+      "theme": "Presidential Election Winner 2",
+      "activity": 642948435.9194546,
+      "volume": 642948435.9194546,
+      "open_interest": 47192002.48450399,
+      "market_id": "31552"
+    },
+    {
+      "title": "Will USA win the 2026 FIFA World Cup?",
+      "theme": "will usa win the 2026 fifa wor",
+      "activity": 115947397.48856461,
+      "volume": 115947397.48856461,
+      "open_interest": 0.0,
+      "market_id": "558943"
     }
   ],
   "volume_series": [
     {
-      "date": "open interest snapshot",
-      "volume": 462400024.21434116
+      "date": "",
+      "volume": 117.696648
+    },
+    {
+      "date": "",
+      "volume": 76989.35407000003
+    },
+    {
+      "date": "",
+      "volume": 3665.332773
+    },
+    {
+      "date": "",
+      "volume": 3503.467372
+    },
+    {
+      "date": "",
+      "volume": 793.0261869999999
+    },
+    {
+      "date": "",
+      "volume": 89366.21789700002
+    },
+    {
+      "date": "",
+      "volume": 96.52222300000001
+    },
+    {
+      "date": "",
+      "volume": 3.01515
+    },
+    {
+      "date": "",
+      "volume": 46919.33175899999
+    },
+    {
+      "date": "",
+      "volume": 40.62626
+    },
+    {
+      "date": "",
+      "volume": 32744.240949999996
+    },
+    {
+      "date": "",
+      "volume": 513.376396
+    },
+    {
+      "date": "",
+      "volume": 9668.380504
+    },
+    {
+      "date": "",
+      "volume": 521.502305
     }
   ],
   "volume_available": true,
-  "takeaway": "Polymarket activity is stable with volume higher and $462.4M in tracked open interest.",
+  "takeaway": "Polymarket activity is cooling fast with volume lower and $462.4M in tracked open interest.",
   "debug": [
     {
       "label": "series",
       "ok": true,
       "raw_type": "dict",
-      "parsed_type": "dict",
+      "parsed_type": "list",
       "raw_keys": [
         "status_code",
         "message",
@@ -39,14 +148,15 @@
       ],
       "has_truncated_content": true,
       "has_full_content_file_url": true,
-      "theme_rows": 0,
-      "market_rows": 0
+      "used_full_content_file_url": true,
+      "theme_rows": 5,
+      "market_rows": 5
     },
     {
       "label": "markets {'limit': 50, 'order': 'volumeNum', 'ascending': False, 'active': True, 'closed': False}",
       "ok": true,
       "raw_type": "dict",
-      "parsed_type": "dict",
+      "parsed_type": "list",
       "raw_keys": [
         "status_code",
         "message",
@@ -56,14 +166,15 @@
       ],
       "has_truncated_content": true,
       "has_full_content_file_url": true,
-      "theme_rows": 0,
-      "market_rows": 0
+      "used_full_content_file_url": true,
+      "theme_rows": 5,
+      "market_rows": 5
     },
     {
       "label": "events {'limit': 30, 'order': 'volume', 'ascending': False, 'volume_min': 1000, 'active': True, 'closed': False}",
       "ok": true,
       "raw_type": "dict",
-      "parsed_type": "dict",
+      "parsed_type": "list",
       "raw_keys": [
         "status_code",
         "message",
@@ -73,14 +184,15 @@
       ],
       "has_truncated_content": true,
       "has_full_content_file_url": true,
-      "theme_rows": 0,
-      "market_rows": 0
+      "used_full_content_file_url": true,
+      "theme_rows": 5,
+      "market_rows": 5
     },
     {
       "label": "parsed_summary",
-      "top_themes": 0,
-      "top_markets": 1,
-      "used_global_only": true
+      "top_themes": 5,
+      "top_markets": 5,
+      "used_global_only": false
     }
   ]
 }
