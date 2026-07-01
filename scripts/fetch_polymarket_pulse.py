@@ -62,7 +62,20 @@ def find_volume(item: dict[str, Any]) -> float:
     return as_float(
         value_by_any(
             item,
-            ["volume", "dailyVolume", "daily_volume", "amount", "value", "totalVolume"],
+            [
+                "volume",
+                "volumeNum",
+                "volume_num",
+                "volume24hr",
+                "volume24h",
+                "volume1wk",
+                "volume1mo",
+                "dailyVolume",
+                "daily_volume",
+                "amount",
+                "value",
+                "totalVolume",
+            ],
         )
     )
 
@@ -71,7 +84,7 @@ def find_open_interest(item: dict[str, Any]) -> float:
     return as_float(
         value_by_any(
             item,
-            ["openInterest", "open_interest", "oi", "value", "amount"],
+            ["openInterest", "open_interest", "oi", "value", "amount", "openInterestNum"],
         )
     )
 
@@ -117,6 +130,38 @@ def find_theme(item: dict[str, Any]) -> str:
     return theme[:30]
 
 
+def theme_context_for(item: dict[str, Any]) -> str:
+    value = value_by_any(
+        item,
+        [
+            "category",
+            "series",
+            "seriesTitle",
+            "series_title",
+            "tag",
+            "tagSlug",
+            "tag_slug",
+        ],
+    )
+    theme = " ".join(str(value or "").replace("-", " ").split())
+    if not theme or theme.lower() in {"none", "null"}:
+        return ""
+    return theme[:30]
+
+
+def walk_dicts_with_theme(value: Any, inherited_theme: str = "") -> list[tuple[dict[str, Any], str]]:
+    rows: list[tuple[dict[str, Any], str]] = []
+    if isinstance(value, dict):
+        current_theme = theme_context_for(value) or inherited_theme
+        rows.append((value, current_theme))
+        for child in value.values():
+            rows.extend(walk_dicts_with_theme(child, current_theme))
+    elif isinstance(value, list):
+        for child in value:
+            rows.extend(walk_dicts_with_theme(child, inherited_theme))
+    return rows
+
+
 def find_activity(item: dict[str, Any]) -> float:
     return max(
         find_volume(item),
@@ -127,11 +172,11 @@ def find_activity(item: dict[str, Any]) -> float:
 
 def extract_theme_rows(payload: Any) -> list[dict[str, Any]]:
     theme_totals: dict[str, float] = {}
-    for item in walk_dicts(parse_embedded_payload(payload)):
+    for item, inherited_theme in walk_dicts_with_theme(parse_embedded_payload(payload)):
         activity = find_activity(item)
         if activity <= 0:
             continue
-        theme = find_theme(item)
+        theme = inherited_theme or find_theme(item)
         theme_totals[theme] = theme_totals.get(theme, 0.0) + activity
 
     rows = [
@@ -146,7 +191,7 @@ def extract_theme_rows(payload: Any) -> list[dict[str, Any]]:
 def extract_market_rows(payload: Any) -> list[dict[str, Any]]:
     rows = []
     seen = set()
-    for item in walk_dicts(parse_embedded_payload(payload)):
+    for item, inherited_theme in walk_dicts_with_theme(parse_embedded_payload(payload)):
         title = title_for(item)
         activity = find_activity(item)
         market_id = str(
@@ -158,7 +203,7 @@ def extract_market_rows(payload: Any) -> list[dict[str, Any]]:
         rows.append(
             {
                 "title": title,
-                "theme": find_theme(item),
+                "theme": inherited_theme or find_theme(item),
                 "activity": activity,
                 "volume": find_volume(item),
                 "open_interest": find_open_interest(item),
@@ -166,6 +211,23 @@ def extract_market_rows(payload: Any) -> list[dict[str, Any]]:
             }
         )
 
+    rows.sort(key=lambda row: row["activity"], reverse=True)
+    return rows[:5]
+
+
+def themes_from_markets(markets: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    totals: dict[str, float] = {}
+    for market in markets:
+        theme = str(market.get("theme") or "General")
+        activity = as_float(market.get("activity"))
+        if activity <= 0:
+            continue
+        totals[theme] = totals.get(theme, 0.0) + activity
+    rows = [
+        {"theme": theme, "activity": activity}
+        for theme, activity in totals.items()
+        if activity > 0
+    ]
     rows.sort(key=lambda row: row["activity"], reverse=True)
     return rows[:5]
 
@@ -379,6 +441,7 @@ def main() -> dict[str, Any]:
         extract_theme_rows(series_payload)
         or extract_theme_rows(events_payload)
         or extract_theme_rows(markets_payload)
+        or themes_from_markets(market_candidates)
     )
     if not volume_series and open_interest_total <= 0:
         raise RuntimeError(
