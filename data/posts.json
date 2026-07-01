@@ -3,14 +3,14 @@
     "id": "polymarket-pulse-2026-07-01",
     "date": "2026-07-01",
     "runDate": "2026-07-01",
-    "createdAt": "2026-07-01T02:46:27.734126+00:00",
+    "createdAt": "2026-07-01T03:12:17.875650+00:00",
     "contentType": "POLYMARKET PULSE",
     "title": "Polymarket Activity Pulse",
     "status": "ready",
-    "tweet": "Prediction markets are becoming a real-time sentiment layer.\n\nToday's Polymarket activity pulse:\n- Volume: $459.7M (+0.0%)\n- Top theme: General\n- Top market: GLOBAL\n- Tracked OI: $459.7M\n\nBuilt with QVeris: https://qveris.ai",
+    "tweet": "Prediction markets are becoming a real-time sentiment layer.\n\nToday's Polymarket activity pulse:\n- Volume: $462.4M (+0.0%)\n- Top theme: General\n- Top market: GLOBAL\n- Tracked OI: $462.4M\n\nBuilt with QVeris: https://qveris.ai",
     "image": "/posts/polymarket_pulse_2026-07-01.png",
     "dataSource": "QVeris API via Polymarket",
-    "dataUpdatedAt": "2026-07-01T02:46:26.230378+00:00",
+    "dataUpdatedAt": "2026-07-01T03:12:16.174282+00:00",
     "xPostId": null,
     "primaryLabel": "Top theme",
     "primaryValue": "General",
@@ -19,31 +19,90 @@
     "topSymbol": "PM",
     "topChangePct": 0.0,
     "polymarketPulse": {
-      "updated_at": "2026-07-01T02:46:26.230378+00:00",
+      "updated_at": "2026-07-01T03:12:16.174282+00:00",
       "date": "2026-07-01",
       "run_timezone": "Asia/Shanghai",
       "source": "QVeris API via Polymarket",
       "title": "Polymarket Activity Pulse",
-      "current_volume": 459705252.97568625,
-      "previous_volume": 459705252.97568625,
+      "current_volume": 462400024.21434116,
+      "previous_volume": 462400024.21434116,
       "volume_change_pct": 0.0,
       "activity_label": "Stable",
-      "open_interest": 459705252.97568625,
+      "open_interest": 462400024.21434116,
       "top_themes": [],
       "top_markets": [
         {
           "title": "GLOBAL",
-          "open_interest": 459705252.97568625
+          "open_interest": 462400024.21434116
         }
       ],
       "volume_series": [
         {
           "date": "open interest snapshot",
-          "volume": 459705252.97568625
+          "volume": 462400024.21434116
         }
       ],
       "volume_available": true,
-      "takeaway": "Polymarket activity is stable with volume higher and $459.7M in tracked open interest."
+      "takeaway": "Polymarket activity is stable with volume higher and $462.4M in tracked open interest.",
+      "debug": [
+        {
+          "label": "series",
+          "ok": true,
+          "raw_type": "dict",
+          "parsed_type": "dict",
+          "raw_keys": [
+            "status_code",
+            "message",
+            "full_content_file_url",
+            "truncated_content",
+            "content_schema"
+          ],
+          "has_truncated_content": true,
+          "has_full_content_file_url": true,
+          "theme_rows": 0,
+          "market_rows": 0
+        },
+        {
+          "label": "markets {'limit': 50, 'order': 'volumeNum', 'ascending': False, 'active': True, 'closed': False}",
+          "ok": true,
+          "raw_type": "dict",
+          "parsed_type": "dict",
+          "raw_keys": [
+            "status_code",
+            "message",
+            "full_content_file_url",
+            "truncated_content",
+            "content_schema"
+          ],
+          "has_truncated_content": true,
+          "has_full_content_file_url": true,
+          "theme_rows": 0,
+          "market_rows": 0
+        },
+        {
+          "label": "events {'limit': 30, 'order': 'volume', 'ascending': False, 'volume_min': 1000, 'active': True, 'closed': False}",
+          "ok": true,
+          "raw_type": "dict",
+          "parsed_type": "dict",
+          "raw_keys": [
+            "status_code",
+            "message",
+            "full_content_file_url",
+            "truncated_content",
+            "content_schema"
+          ],
+          "has_truncated_content": true,
+          "has_full_content_file_url": true,
+          "theme_rows": 0,
+          "market_rows": 0
+        },
+        {
+          "label": "parsed_summary",
+          "top_themes": 0,
+          "top_markets": 1,
+          "used_global_only": true
+        }
+      ]
     }
   },
   {
