@@ -24,6 +24,18 @@ OPEN_INTEREST_TOOL_ID = os.environ.get(
     "QVERIS_POLYMARKET_OPEN_INTEREST_TOOL_ID",
     "polymarket.open_interest.list.v1.f613174f",
 )
+SERIES_TOOL_ID = os.environ.get(
+    "QVERIS_POLYMARKET_SERIES_TOOL_ID",
+    "polymarket.series.list.v1.7e5c1eeb",
+)
+MARKETS_TOOL_ID = os.environ.get(
+    "QVERIS_POLYMARKET_MARKETS_TOOL_ID",
+    "polymarket.gamma_get_markets.v1",
+)
+EVENTS_TOOL_ID = os.environ.get(
+    "QVERIS_POLYMARKET_EVENTS_TOOL_ID",
+    "polymarket.events.list.v1.eafcc524",
+)
 
 
 def value_by_any(item: dict[str, Any], names: list[str]) -> Any:
@@ -73,8 +85,94 @@ def title_for(item: dict[str, Any]) -> str:
     return title[:78] + "..." if len(title) > 81 else title
 
 
+def parse_embedded_payload(payload: Any) -> Any:
+    if isinstance(payload, dict):
+        content = payload.get("truncated_content") or payload.get("content") or payload.get("data")
+        if isinstance(content, str) and content.strip().startswith(("[", "{")):
+            try:
+                return json.loads(content)
+            except json.JSONDecodeError:
+                return payload
+    return payload
+
+
+def find_theme(item: dict[str, Any]) -> str:
+    value = value_by_any(
+        item,
+        [
+            "category",
+            "series",
+            "seriesTitle",
+            "series_title",
+            "tag",
+            "tagSlug",
+            "tag_slug",
+            "title",
+            "slug",
+        ],
+    )
+    theme = " ".join(str(value or "General").replace("-", " ").split())
+    if not theme or theme.lower() in {"none", "null"}:
+        return "General"
+    return theme[:30]
+
+
+def find_activity(item: dict[str, Any]) -> float:
+    return max(
+        find_volume(item),
+        find_open_interest(item),
+        as_float(value_by_any(item, ["liquidity", "liquidityNum", "liquidity_num"])),
+    )
+
+
+def extract_theme_rows(payload: Any) -> list[dict[str, Any]]:
+    theme_totals: dict[str, float] = {}
+    for item in walk_dicts(parse_embedded_payload(payload)):
+        activity = find_activity(item)
+        if activity <= 0:
+            continue
+        theme = find_theme(item)
+        theme_totals[theme] = theme_totals.get(theme, 0.0) + activity
+
+    rows = [
+        {"theme": theme, "activity": activity}
+        for theme, activity in theme_totals.items()
+        if activity > 0
+    ]
+    rows.sort(key=lambda row: row["activity"], reverse=True)
+    return rows[:5]
+
+
+def extract_market_rows(payload: Any) -> list[dict[str, Any]]:
+    rows = []
+    seen = set()
+    for item in walk_dicts(parse_embedded_payload(payload)):
+        title = title_for(item)
+        activity = find_activity(item)
+        market_id = str(
+            value_by_any(item, ["id", "market", "marketId", "conditionId", "slug"]) or title
+        )
+        if title == "Polymarket market" or activity <= 0 or market_id in seen:
+            continue
+        seen.add(market_id)
+        rows.append(
+            {
+                "title": title,
+                "theme": find_theme(item),
+                "activity": activity,
+                "volume": find_volume(item),
+                "open_interest": find_open_interest(item),
+                "market_id": market_id,
+            }
+        )
+
+    rows.sort(key=lambda row: row["activity"], reverse=True)
+    return rows[:5]
+
+
 def extract_volume_series(payload: dict[str, Any]) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
+    payload = parse_embedded_payload(payload)
     for collection in walk_lists(payload):
         parsed = []
         for item in collection:
@@ -107,6 +205,7 @@ def extract_volume_series(payload: dict[str, Any]) -> list[dict[str, Any]]:
 def extract_open_interest(payload: dict[str, Any]) -> tuple[float, list[dict[str, Any]]]:
     markets = []
     total = 0.0
+    payload = parse_embedded_payload(payload)
     for item in walk_dicts(payload):
         oi = find_open_interest(item)
         if oi <= 0:
@@ -204,6 +303,60 @@ def fetch_open_interest() -> dict[str, Any]:
         return {}
 
 
+def fetch_series() -> dict[str, Any]:
+    try:
+        return execute_tool(
+            SERIES_TOOL_ID,
+            SESSION_ID,
+            {},
+            max_response_size=65536,
+        )
+    except RuntimeError as error:
+        print(f"Series unavailable: {error}")
+        return {}
+
+
+def fetch_markets() -> dict[str, Any]:
+    parameter_sets = [
+        {"limit": 50, "order": "volume", "ascending": False, "active": True, "closed": False},
+        {"limit": 50, "order": "volume", "ascending": False},
+        {"limit": 50, "order": "createdAt", "ascending": False, "active": True},
+        {"limit": 50, "active": True},
+        {"limit": 50},
+    ]
+    for parameters in parameter_sets:
+        try:
+            return execute_tool(
+                MARKETS_TOOL_ID,
+                SESSION_ID,
+                parameters,
+                max_response_size=65536,
+            )
+        except RuntimeError as error:
+            print(f"Markets retry after {parameters}: {error}")
+    return {}
+
+
+def fetch_events() -> dict[str, Any]:
+    parameter_sets = [
+        {"limit": 30, "order": "volume", "ascending": False, "active": True, "closed": False},
+        {"limit": 30, "order": "createdAt", "ascending": False, "active": True},
+        {"limit": 30, "active": True},
+        {"limit": 30},
+    ]
+    for parameters in parameter_sets:
+        try:
+            return execute_tool(
+                EVENTS_TOOL_ID,
+                SESSION_ID,
+                parameters,
+                max_response_size=65536,
+            )
+        except RuntimeError as error:
+            print(f"Events retry after {parameters}: {error}")
+    return {}
+
+
 def main() -> dict[str, Any]:
     try:
         volume_payload = fetch_volume()
@@ -211,9 +364,22 @@ def main() -> dict[str, Any]:
         print(f"Volume unavailable: {error}")
         volume_payload = {}
     open_interest_payload = fetch_open_interest()
+    series_payload = fetch_series()
+    markets_payload = fetch_markets()
+    events_payload = fetch_events()
 
     volume_series = extract_volume_series(volume_payload)
     open_interest_total, top_markets = extract_open_interest(open_interest_payload)
+    market_candidates = (
+        extract_market_rows(markets_payload)
+        or extract_market_rows(events_payload)
+        or top_markets
+    )
+    top_themes = (
+        extract_theme_rows(series_payload)
+        or extract_theme_rows(events_payload)
+        or extract_theme_rows(markets_payload)
+    )
     if not volume_series and open_interest_total <= 0:
         raise RuntimeError(
             "QVeris returned no usable Polymarket volume or open-interest rows."
@@ -240,7 +406,8 @@ def main() -> dict[str, Any]:
         "volume_change_pct": volume_change,
         "activity_label": label,
         "open_interest": open_interest_total,
-        "top_markets": top_markets,
+        "top_themes": top_themes,
+        "top_markets": market_candidates,
         "volume_series": volume_series,
         "volume_available": bool(volume_payload),
         "takeaway": takeaway(label, volume_change, open_interest_total),

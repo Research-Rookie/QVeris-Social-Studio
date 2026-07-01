@@ -62,12 +62,30 @@ def series_bars(series: list[dict]) -> str:
 
 def top_markets_html(markets: list[dict]) -> str:
     if not markets:
-        return '<li><span>Open interest detail</span><b>Not returned</b></li>'
+        return '<li><span>Market detail</span><b>Not returned</b></li>'
     rows = []
-    for market in markets[:4]:
+    for market in markets[:3]:
+        activity = float(
+            market.get("activity")
+            or market.get("open_interest")
+            or market.get("volume")
+            or 0
+        )
         rows.append(
             f"<li><span>{html.escape(str(market.get('title', 'Market')))}</span>"
-            f"<b>{html.escape(money_short(float(market.get('open_interest', 0))))}</b></li>"
+            f"<b>{html.escape(money_short(activity))}</b></li>"
+        )
+    return "\n".join(rows)
+
+
+def top_themes_html(themes: list[dict]) -> str:
+    if not themes:
+        return '<li><span>Theme detail</span><b>Not returned</b></li>'
+    rows = []
+    for theme in themes[:3]:
+        rows.append(
+            f"<li><span>{html.escape(str(theme.get('theme', 'General')))}</span>"
+            f"<b>{html.escape(money_short(float(theme.get('activity', 0))))}</b></li>"
         )
     return "\n".join(rows)
 
@@ -76,15 +94,20 @@ def render_html(data: dict) -> str:
     template = TEMPLATE_FILE.read_text(encoding="utf-8")
     change = float(data.get("volume_change_pct", 0))
     change_class = "positive" if change >= 0 else "negative"
+    top_theme = (data.get("top_themes") or [{}])[0].get("theme", "General")
+    top_market = (data.get("top_markets") or [{}])[0].get("title", "Market detail pending")
     return (
         template.replace("{{DATE}}", html.escape(data["date"]))
         .replace("{{VOLUME}}", html.escape(money_short(float(data.get("current_volume", 0)))))
         .replace("{{VOLUME_CHANGE}}", html.escape(signed_pct(change)))
         .replace("{{CHANGE_CLASS}}", change_class)
         .replace("{{ACTIVITY_LABEL}}", html.escape(str(data.get("activity_label", "Stable"))))
+        .replace("{{TOP_THEME}}", html.escape(str(top_theme)))
+        .replace("{{TOP_MARKET}}", html.escape(str(top_market)))
         .replace("{{OPEN_INTEREST}}", html.escape(money_short(float(data.get("open_interest", 0)))))
         .replace("{{TAKEAWAY}}", html.escape(str(data.get("takeaway", ""))))
         .replace("{{BARS}}", series_bars(data.get("volume_series", [])))
+        .replace("{{TOP_THEMES}}", top_themes_html(data.get("top_themes", [])))
         .replace("{{TOP_MARKETS}}", top_markets_html(data.get("top_markets", [])))
         .replace("{{SOURCE}}", html.escape(data.get("source", "QVeris API")))
         .replace("{{LOGO}}", get_logo_data_url())
