@@ -22,6 +22,7 @@ NEWS_TOOL_ID = os.environ.get(
     "QVERIS_FINANCIAL_NEWS_TOOL_ID",
     "alphavantage.news_sentiment.query.v1.7aca3c4a",
 )
+MAX_NEWS_CALLS = int(os.environ.get("QVERIS_FINANCIAL_NEWS_MAX_CALLS", "4"))
 
 
 def value_by_any(item: dict[str, Any], names: list[str]) -> Any:
@@ -77,12 +78,101 @@ def is_noise_article(article: dict[str, Any]) -> bool:
     noise_terms = [
         "form 4",
         "sec filing",
+        "sec-filings",
+        "insider",
         "insider trading activity",
         "reported an \"other\" transaction",
         "shares sold",
         "shares acquired",
+        "registers shares",
+        "registered shares",
+        "ceo sells",
+        "director sells",
+        "sells shares",
+        "exercising options",
+        "10b5-1",
+        "sepa line",
+        "standby equity purchase",
+        "shelf registration",
+        "registered direct offering",
+        "at-the-market offering",
+        "warrant",
+        "beneficial ownership",
+        "shareholder alert",
+        "class action",
+        "deadline alert",
     ]
     return any(term in text for term in noise_terms)
+
+
+def article_quality_score(article: dict[str, Any]) -> int:
+    text = " ".join(
+        [
+            str(article.get("title") or ""),
+            str(article.get("summary") or ""),
+            str(article.get("source") or ""),
+        ]
+    ).lower()
+    if is_noise_article(article):
+        return -10
+
+    high_signal_terms = [
+        "earnings",
+        "revenue",
+        "profit",
+        "guidance",
+        "forecast",
+        "outlook",
+        "beats",
+        "misses",
+        "raises",
+        "cuts",
+        "acquisition",
+        "merger",
+        "deal",
+        "partnership",
+        "contract",
+        "launches",
+        "approval",
+        "fda",
+        "tariff",
+        "inflation",
+        "fed",
+        "rates",
+        "jobs",
+        "oil",
+        "ai",
+        "chips",
+        "semiconductor",
+        "data center",
+        "analyst",
+        "upgrade",
+        "downgrade",
+        "market",
+        "stocks",
+        "etf",
+        "bitcoin",
+    ]
+    weak_signal_terms = [
+        "trading",
+        "investors",
+        "wall street",
+        "nasdaq",
+        "nyse",
+        "pre-market",
+        "premarket",
+        "after-hours",
+    ]
+    score = 0
+    score += sum(3 for term in high_signal_terms if term in text)
+    score += sum(1 for term in weak_signal_terms if term in text)
+    if article.get("summary"):
+        score += 1
+    if article.get("tickers"):
+        score += 1
+    if article.get("source") and str(article["source"]).lower() not in {"stock titan"}:
+        score += 1
+    return score
 
 
 def normalize_sentiment(label: str, score: float) -> str:
@@ -179,38 +269,79 @@ def extract_articles(payload: Any) -> list[dict[str, Any]]:
             continue
         seen.add(identity)
         articles.append(article)
-    articles.sort(key=lambda item: item.get("published_at") or "", reverse=True)
-    articles.sort(key=is_noise_article)
+    for article in articles:
+        article["quality_score"] = article_quality_score(article)
+        article["is_noise"] = is_noise_article(article)
+    articles.sort(key=lambda item: str(item.get("published_at") or ""), reverse=True)
+    articles.sort(key=lambda item: (bool(item.get("is_noise")), -int(item.get("quality_score") or 0)))
     return articles[:50]
 
 
-def fetch_news() -> dict[str, Any]:
+def fetch_news_payloads() -> list[dict[str, Any]]:
     parameter_sets = [
+        {"function": "NEWS_SENTIMENT", "topics": "earnings", "sort": "LATEST", "limit": 50},
+        {"function": "NEWS_SENTIMENT", "topics": "technology", "sort": "LATEST", "limit": 50},
+        {"function": "NEWS_SENTIMENT", "topics": "economy_macro", "sort": "LATEST", "limit": 50},
         {"function": "NEWS_SENTIMENT", "topics": "financial_markets", "sort": "LATEST", "limit": 50},
-        {"function": "NEWS_SENTIMENT", "topics": "technology,financial_markets", "sort": "LATEST", "limit": 50},
-        {"function": "NEWS_SENTIMENT", "sort": "LATEST", "limit": 50},
         {"function": "NEWS_SENTIMENT", "tickers": "AAPL,MSFT,NVDA,GOOGL,TSLA", "sort": "LATEST", "limit": 50},
     ]
-    last_error = None
+    payloads = []
     for parameters in parameter_sets:
+        if len(payloads) >= MAX_NEWS_CALLS:
+            break
         try:
             print(f"Trying financial news parameters: {parameters}")
-            return execute_tool(
+            payload = execute_tool(
                 NEWS_TOOL_ID,
                 SESSION_ID,
                 parameters,
                 max_response_size=65536,
             )
+            payloads.append(payload)
+            current_articles = [
+                article
+                for saved_payload in payloads
+                for article in extract_articles(saved_payload)
+            ]
+            high_quality_count = sum(
+                1
+                for article in dedupe_articles(current_articles)
+                if not article.get("is_noise") and int(article.get("quality_score") or 0) >= 2
+            )
+            if high_quality_count >= 8:
+                print(f"Collected {high_quality_count} high-quality news articles; stopping early.")
+                break
         except RuntimeError as error:
-            last_error = error
             print(f"Financial news retry after {parameters}: {error}")
-    raise RuntimeError(f"Could not fetch financial news: {last_error}")
+    if not payloads:
+        raise RuntimeError("Could not fetch financial news from any configured QVeris parameter set.")
+    return payloads
+
+
+def dedupe_articles(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    deduped = []
+    seen = set()
+    for article in articles:
+        identity = article.get("url") or article.get("title")
+        if not identity or identity in seen:
+            continue
+        seen.add(identity)
+        deduped.append(article)
+    deduped.sort(key=lambda item: str(item.get("published_at") or ""), reverse=True)
+    deduped.sort(key=lambda item: (bool(item.get("is_noise")), -int(item.get("quality_score") or 0)))
+    return deduped[:50]
 
 
 def build_signal(articles: list[dict[str, Any]]) -> dict[str, Any]:
-    signal_articles = [article for article in articles if not is_noise_article(article)]
-    if not signal_articles:
-        signal_articles = articles
+    signal_articles = [
+        article
+        for article in articles
+        if not article.get("is_noise") and int(article.get("quality_score") or 0) >= 2
+    ]
+    if len(signal_articles) < 3:
+        signal_articles = [article for article in articles if not article.get("is_noise")]
+    if len(signal_articles) < 3:
+        signal_articles = articles[:10]
     ticker_counter: Counter[str] = Counter()
     topic_counter: Counter[str] = Counter()
     source_counter: Counter[str] = Counter()
@@ -245,8 +376,14 @@ def build_signal(articles: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def main() -> dict[str, Any]:
-    payload = fetch_news()
-    articles = extract_articles(payload)
+    payloads = fetch_news_payloads()
+    articles = dedupe_articles(
+        [
+            article
+            for payload in payloads
+            for article in extract_articles(payload)
+        ]
+    )
     if not articles:
         raise RuntimeError("QVeris returned no usable financial-news articles.")
 
