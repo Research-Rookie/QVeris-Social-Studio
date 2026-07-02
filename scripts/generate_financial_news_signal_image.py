@@ -31,6 +31,11 @@ def short_text(value: object, limit: int) -> str:
     return text[: limit - 3].rstrip() + "..."
 
 
+def display_label(value: object) -> str:
+    text = " ".join(str(value or "").replace("_", " ").replace("-", " ").split())
+    return text.title() if text else ""
+
+
 def ticker_rows(items: list[dict]) -> str:
     if not items:
         return '<li><span>Market</span><b>watching</b></li>'
@@ -62,15 +67,16 @@ def headline_rows(articles: list[dict]) -> str:
 
 def render_html(data: dict) -> str:
     template = TEMPLATE_FILE.read_text(encoding="utf-8")
+    articles = data.get("signal_articles") or data.get("articles", [])
     return (
         template.replace("{{DATE}}", html.escape(str(data["date"])))
         .replace("{{ARTICLE_COUNT}}", html.escape(str(data.get("article_count", 0))))
         .replace("{{TOP_TICKER}}", html.escape(short_text(data.get("top_ticker", "Market"), 12)))
-        .replace("{{SENTIMENT}}", html.escape(short_text(data.get("dominant_sentiment", "Neutral"), 18)))
-        .replace("{{TOP_TOPIC}}", html.escape(short_text(data.get("top_topic", "Financial markets"), 28)))
+        .replace("{{SENTIMENT}}", html.escape(short_text(display_label(data.get("dominant_sentiment", "Neutral")), 18)))
+        .replace("{{TOP_TOPIC}}", html.escape(short_text(display_label(data.get("top_topic", "Financial markets")), 28)))
         .replace("{{TAKEAWAY}}", html.escape(short_text(data.get("takeaway", ""), 180)))
         .replace("{{TOP_TICKERS}}", ticker_rows(data.get("top_tickers", [])))
-        .replace("{{HEADLINES}}", headline_rows(data.get("articles", [])))
+        .replace("{{HEADLINES}}", headline_rows(articles))
         .replace("{{LOGO}}", get_logo_data_url())
     )
 

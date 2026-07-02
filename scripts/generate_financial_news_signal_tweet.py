@@ -26,12 +26,18 @@ def short_text(value: object, limit: int) -> str:
     return text[: limit - 3].rstrip() + "..."
 
 
+def display_label(value: object) -> str:
+    text = " ".join(str(value or "").replace("_", " ").replace("-", " ").split())
+    return text.title() if text else ""
+
+
 def format_tweet(data: dict) -> str:
     article_count = int(data.get("article_count") or len(data.get("articles") or []))
     top_ticker = short_text(data.get("top_ticker", "Market"), 18)
-    top_topic = short_text(data.get("top_topic", "Financial markets"), 36)
-    sentiment = short_text(data.get("dominant_sentiment", "Neutral"), 24)
-    top_story = short_text((data.get("articles") or [{}])[0].get("title", "Market headlines pending"), 58)
+    top_topic = short_text(display_label(data.get("top_topic", "Financial markets")), 36)
+    sentiment = short_text(display_label(data.get("dominant_sentiment", "Neutral")), 24)
+    articles = data.get("signal_articles") or data.get("articles") or [{}]
+    top_story = short_text(articles[0].get("title", "Market headlines pending"), 58)
 
     lines = [
         "What is the market talking about today? 📰",
@@ -88,7 +94,7 @@ def archive_post(data: dict, tweet_text: str) -> None:
         "primaryLabel": "Top ticker",
         "primaryValue": str(data.get("top_ticker", "Market"))[:32],
         "secondaryLabel": "Tone",
-        "secondaryValue": str(data.get("dominant_sentiment", "Neutral"))[:32],
+        "secondaryValue": display_label(data.get("dominant_sentiment", "Neutral"))[:32],
         "topSymbol": str(data.get("top_ticker", "NEWS")),
         "topChangePct": 0,
         "financialNewsSignal": data,

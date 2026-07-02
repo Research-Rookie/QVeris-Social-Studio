@@ -61,6 +61,30 @@ def clean_text(value: Any, limit: int = 140) -> str:
     return text[: limit - 3].rstrip() + "..."
 
 
+def display_label(value: Any) -> str:
+    text = " ".join(str(value or "").replace("_", " ").replace("-", " ").split())
+    return text.title() if text else ""
+
+
+def is_noise_article(article: dict[str, Any]) -> bool:
+    text = " ".join(
+        [
+            str(article.get("title") or ""),
+            str(article.get("summary") or ""),
+            str(article.get("url") or ""),
+        ]
+    ).lower()
+    noise_terms = [
+        "form 4",
+        "sec filing",
+        "insider trading activity",
+        "reported an \"other\" transaction",
+        "shares sold",
+        "shares acquired",
+    ]
+    return any(term in text for term in noise_terms)
+
+
 def normalize_sentiment(label: str, score: float) -> str:
     text = " ".join(str(label or "").replace("_", " ").split()).title()
     if text:
@@ -119,7 +143,7 @@ def extract_topics(item: dict[str, Any]) -> list[str]:
                 topic = value_by_any(token, ["topic", "name", "label"])
                 if topic:
                     topics.append(str(topic).strip())
-    return [clean_text(topic, 38) for topic in topics if topic][:5]
+    return [clean_text(display_label(topic), 38) for topic in topics if topic][:5]
 
 
 def article_from_item(item: dict[str, Any]) -> dict[str, Any] | None:
@@ -156,6 +180,7 @@ def extract_articles(payload: Any) -> list[dict[str, Any]]:
         seen.add(identity)
         articles.append(article)
     articles.sort(key=lambda item: item.get("published_at") or "", reverse=True)
+    articles.sort(key=is_noise_article)
     return articles[:50]
 
 
@@ -183,11 +208,14 @@ def fetch_news() -> dict[str, Any]:
 
 
 def build_signal(articles: list[dict[str, Any]]) -> dict[str, Any]:
+    signal_articles = [article for article in articles if not is_noise_article(article)]
+    if not signal_articles:
+        signal_articles = articles
     ticker_counter: Counter[str] = Counter()
     topic_counter: Counter[str] = Counter()
     source_counter: Counter[str] = Counter()
     sentiment_counter: Counter[str] = Counter()
-    for article in articles:
+    for article in signal_articles:
         ticker_counter.update(article.get("tickers") or [])
         topic_counter.update(article.get("topics") or [])
         source_counter.update([article.get("source") or "Unknown"])
@@ -196,7 +224,7 @@ def build_signal(articles: list[dict[str, Any]]) -> dict[str, Any]:
     top_ticker = ticker_counter.most_common(1)[0][0] if ticker_counter else "Market"
     top_topic = topic_counter.most_common(1)[0][0] if topic_counter else "Financial markets"
     sentiment_label = sentiment_counter.most_common(1)[0][0] if sentiment_counter else "Neutral"
-    top_story = articles[0]["title"] if articles else "Market headlines pending"
+    top_story = signal_articles[0]["title"] if signal_articles else "Market headlines pending"
     takeaway = (
         f"News flow is centered on {top_topic}, with {top_ticker} appearing most often "
         f"and the headline tone mostly {sentiment_label.lower()}."
@@ -207,6 +235,7 @@ def build_signal(articles: list[dict[str, Any]]) -> dict[str, Any]:
         "top_topic": top_topic,
         "dominant_sentiment": sentiment_label,
         "top_story": top_story,
+        "signal_articles": signal_articles[:10],
         "top_tickers": [{"ticker": ticker, "mentions": count} for ticker, count in ticker_counter.most_common(5)],
         "top_topics": [{"topic": topic, "mentions": count} for topic, count in topic_counter.most_common(5)],
         "sentiment_counts": [{"label": label, "count": count} for label, count in sentiment_counter.most_common()],
