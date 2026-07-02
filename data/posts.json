@@ -3,41 +3,407 @@
     "id": "financial-news-signal-2026-07-02",
     "date": "2026-07-02",
     "runDate": "2026-07-02",
-    "createdAt": "2026-07-02T05:13:49.070236+00:00",
+    "createdAt": "2026-07-02T06:59:37.106012+00:00",
     "contentType": "FINANCIAL NEWS SIGNAL",
     "title": "Financial News Signal",
     "status": "ready",
-    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 50\n🏷️ Ticker: BLK\n📌 Theme: financial_markets\n🧭 Tone: Neutral\n\nSignals from live news data: https://qveris.ai",
+    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 50\n🏷️ Ticker: SNEX\n📌 Theme: Financial Markets\n🧭 Tone: Neutral\n\nSignals from live news data: https://qveris.ai",
     "image": "/posts/financial_news_signal_2026-07-02.png",
     "dataSource": "QVeris API via market news sentiment",
-    "dataUpdatedAt": "2026-07-02T05:13:47.529399+00:00",
+    "dataUpdatedAt": "2026-07-02T06:59:35.106070+00:00",
     "xPostId": null,
     "primaryLabel": "Top ticker",
-    "primaryValue": "BLK",
+    "primaryValue": "SNEX",
     "secondaryLabel": "Tone",
     "secondaryValue": "Neutral",
-    "topSymbol": "BLK",
+    "topSymbol": "SNEX",
     "topChangePct": 0,
     "financialNewsSignal": {
-      "updated_at": "2026-07-02T05:13:47.529399+00:00",
+      "updated_at": "2026-07-02T06:59:35.106070+00:00",
       "date": "2026-07-02",
       "run_timezone": "Asia/Shanghai",
       "source": "QVeris API via market news sentiment",
       "title": "Financial News Signal",
       "articles": [
         {
+          "title": "SMX (SMX) registers 25.41M shares; $250M SEPA line with $50.5M drawn",
+          "summary": "SMX (Security Matters) PLC has filed a Form F-3 to register up to 25.41 million Ordinary Shares for resale by selling stockholders, linked to a Standby Equity Purchase Agreement...",
+          "url": "https://www.stocktitan.net/sec-filings/SMX/f-3-smx-security-matters-public-ltd-co-foreign-issuer-shelf-registrat-fb6658837516.html",
+          "source": "Stock Titan",
+          "published_at": "20260702T061019",
+          "sentiment_score": 0.122915,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SMX"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "StoneX Group (SNEX) CEO sells 51,540 shares after exercising options",
+          "summary": "StoneX Group Inc.'s CEO, Philip Andrew Smith, exercised 37,500 stock options and subsequently sold a total of 51,540 shares in open-market transactions on June 30, 2026. The sha...",
+          "url": "https://www.stocktitan.net/sec-filings/SNEX/form-4-stone-x-group-inc-insider-trading-activity-adf4066a3b3b.html",
+          "source": "Stock Titan",
+          "published_at": "20260702T061016",
+          "sentiment_score": -0.281519,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "SNEX"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "Director entity sells 15K Slide Insurance (SLDE) shares under 10b5-1 plan",
+          "summary": "An LLC linked to Slide Insurance director Wright Andrew Pardo sold 15,000 shares of common stock at a weighted average price of $19.51 per share on June 29, 2026. This transacti...",
+          "url": "https://www.stocktitan.net/sec-filings/SLDE/form-4-slide-insurance-holdings-inc-insider-trading-activity-e449452455a0.html",
+          "source": "Stock Titan",
+          "published_at": "20260702T060957",
+          "sentiment_score": -0.411834,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "SLDE"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance"
+          ]
+        },
+        {
+          "title": "Discovery Mining Ltd. Insider Trading & Ownership Structure",
+          "summary": "This article provides an overview of Discovery Mining Ltd. (OTCPK:DSVS.F) focusing on its insider trading activities and ownership structure. It details recent insider transacti...",
+          "url": "https://simplywall.st/stocks/us/materials/otc-dsvs.f/discovery-mining/ownership",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T060916",
+          "sentiment_score": 0.045303,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SII"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance"
+          ]
+        },
+        {
+          "title": "BlackRock lifts Endeavour Mining holding to 13.13% of voting rights",
+          "summary": "BlackRock, Inc. has increased its holding in Endeavour Mining (EDVMF) to 13.13% of voting rights as of June 30, 2026. This represents 31,742,482 voting rights, with 12.0% held v...",
+          "url": "https://www.stocktitan.net/news/EDVMF/holding-s-in-j30bice0ptan.html",
+          "source": "Stock Titan",
+          "published_at": "20260702T060210",
+          "sentiment_score": 0.105543,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "BLK"
+          ],
+          "topics": [
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "Is Sylvamo (SLVM) Undervalued As Russell Index Removal Reshapes Demand?",
+          "summary": "Sylvamo (SLVM) was recently removed from several Russell growth benchmarks, causing its stock price to drop. Despite this, the stock is considered significantly undervalued by a...",
+          "url": "https://simplywall.st/stocks/us/materials/nyse-slvm/sylvamo/news/is-sylvamo-slvm-undervalued-as-russell-index-removal-reshape",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T054831",
+          "sentiment_score": 0.117419,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SLVM",
+            "PKG",
+            "IP"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "Charles River Laboratories International (CRL) On Lilly TuneLab Deal And The Valuation Debate",
+          "summary": "Charles River Laboratories International (CRL) has partnered with Lilly TuneLab, an AI drug discovery platform, to provide nonclinical testing services, leading to a significant...",
+          "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-crl/charles-river-laboratories-international/news/charles-river-laboratories-international-crl-on-lilly-tunela",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T054422",
+          "sentiment_score": 0.204858,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CRL",
+            "LLY",
+            "TMO",
+            "DHR"
+          ],
+          "topics": [
+            "Life Sciences",
+            "Financial Markets",
+            "Earnings",
+            "Mergers And Acquisitions",
+            "Technology"
+          ]
+        },
+        {
+          "title": "Did Hilton’s Shift Into the Russell Top 200 Growth Index Just Shift Hilton Worldwide Holdings' (HLT) Investment Nar...",
+          "summary": "Hilton Worldwide Holdings Inc. (HLT) was reclassified as a larger-cap growth company after being added to the Russell Top 200 Index and Russell Top 200 Growth Benchmark in late...",
+          "url": "https://simplywall.st/stocks/us/consumer-services/nyse-hlt/hilton-worldwide-holdings/news/did-hiltons-shift-into-the-russell-top-200-growth-index-just",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T054342",
+          "sentiment_score": 0.17869,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "HLT",
+            "BKNG",
+            "MAR"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ]
+        },
+        {
+          "title": "Barclays Boosts Price Target on Sunoco (SUN)",
+          "summary": "Barclays has increased its price target for Sunoco LP (NYSE: SUN) from $73 to $75, maintaining an 'Overweight' rating. This adjustment reflects updated commodity prices and come...",
+          "url": "https://finance.yahoo.com/energy/articles/barclays-boosts-price-target-sunoco-214801833.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260702T054036",
+          "sentiment_score": 0.450696,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "SUN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ]
+        },
+        {
+          "title": "Form 144 ULTRAGENYX PHARMACEUTICAL INC. For: 1 July By Investing.com",
+          "summary": "This article announces that a Form 144 filling for Ultragenyx Pharmaceutical Inc. was made on July 1st. The brief notice provides the stock symbol RARE, which experienced a -3.0...",
+          "url": "https://ca.investing.com/news/stock-market-news/form-144-ultragenyx-pharmaceutical-inc-for-1-july-93CH-4717315",
+          "source": "Investing.com Canada",
+          "published_at": "20260702T053953",
+          "sentiment_score": 0.034847,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "RARE"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets",
+            "Life Sciences"
+          ]
+        },
+        {
+          "title": "QXO Completes TopBuild Acquisition and Expands Capital Structure",
+          "summary": "QXO has successfully completed its acquisition of TopBuild Corp., making TopBuild a wholly-owned subsidiary and delisting its shares from the NYSE. The acquisition was financed...",
+          "url": "https://www.tipranks.com/news/company-announcements/qxo-completes-topbuild-acquisition-and-expands-capital-structure",
+          "source": "TipRanks",
+          "published_at": "20260702T053930",
+          "sentiment_score": 0.012984,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "QXO"
+          ],
+          "topics": [
+            "Mergers And Acquisitions",
+            "Real Estate",
+            "Finance",
+            "Earnings",
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "Q2 Holdings, RingCentral, and Doximity Shares Skyrocket, What You Need To Know",
+          "summary": "Shares of Q2 Holdings, RingCentral, and Doximity saw significant jumps after Guggenheim analyst John DiFucci upgraded Salesforce and ServiceNow to Buy, citing AI-disruption fear...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/q2-holdings-ringcentral-doximity-shares-212100139.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260702T052100",
+          "sentiment_score": 0.3567,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "QTWO",
+            "CRM",
+            "NOW"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Finance",
+            "Economy Monetary"
+          ]
+        },
+        {
+          "title": "How Microchip’s Index Reclassification and New Space-Grade Clock Chip Will Impact Microchip Technology (MCHP) Inves...",
+          "summary": "Microchip Technology (MCHP) has been reclassified into Russell growth indexes and launched a new space-grade timing device, indicating a strategic shift towards higher-complexit...",
+          "url": "https://uk.finance.yahoo.com/news/microchip-index-reclassification-space-grade-051139588.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260702T051208",
+          "sentiment_score": 0.21929,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MCHP"
+          ],
+          "topics": [
+            "Technology",
+            "Financial Markets",
+            "Manufacturing"
+          ]
+        },
+        {
+          "title": "Daily Coffee Report 7/1/26",
+          "summary": "Coffee futures saw a significant rally, with September Arabica closing 18.15 cents higher, bringing the two-day gain to 42.35 cents. Robusta futures also closed higher, breaking...",
+          "url": "https://www.stonex.com/en/insights/daily-coffee-report-7-1-26/",
+          "source": "StoneX",
+          "published_at": "20260702T051016",
+          "sentiment_score": 0.274124,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SNEX"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Economy Macro"
+          ]
+        },
+        {
+          "title": "PIMCO Corporate & Income Opportunity Fund (PTY) Declares Monthly Dividend",
+          "summary": "PIMCO Corporate & Income Opportunity Fund (PTY) has declared a monthly dividend of $0.1188 per share, offering an attractive forward yield of 11.78%. Despite this, the fund has...",
+          "url": "https://www.gurufocus.com/news/8941843/pimco-corporate-income-opportunity-fund-pty-declares-monthly-dividend",
+          "source": "GuruFocus",
+          "published_at": "20260702T051007",
+          "sentiment_score": 0.120953,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PTY"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "iShares 0-5 year high yield corporate bond ETF declares monthly distribution of $0.2407",
+          "summary": "The iShares 0-5 year high yield corporate bond ETF has announced its monthly distribution. Shareholders will receive $0.2407 per share. This declaration provides investors with...",
+          "url": "https://www.msn.com/en-us/money/topstocks/ishares-0-5-year-high-yield-corporate-bond-etf-declares-monthly-distribution-of-0-2407/ar-AA26Yfzk",
+          "source": "MSN",
+          "published_at": "20260702T050925",
+          "sentiment_score": 0.227237,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SHYG"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance"
+          ]
+        },
+        {
+          "title": "SolarEdge Technologies (SEDG) Falls More Steeply Than Broader Market: What Investors Need to Know",
+          "summary": "SolarEdge Technologies (SEDG) stock experienced a significant drop, falling 4.18% in the latest session, underperforming the broader S&P 500. Over the past month, the stock has...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/solaredge-technologies-sedg-falls-more-221504909.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260702T050923",
+          "sentiment_score": -0.250582,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "SEDG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ]
+        },
+        {
+          "title": "Is Personalis (PSNL) Fully Valued Following Its Sharp Share Price Run?",
+          "summary": "Personalis (PSNL) has seen significant share price appreciation over various timeframes but continues to report net losses, raising questions about its current valuation. While...",
+          "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-psnl/personalis/news/is-personalis-psnl-fully-valued-following-its-sharp-share-pr",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T045619",
+          "sentiment_score": 0.108904,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PSNL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Finance",
+            "Technology"
+          ]
+        },
+        {
+          "title": "Is Q2 Holdings (QTWO) Index Move Reframing Its AI Banking Platform as a Defensive Growth Story?",
+          "summary": "Q2 Holdings (QTWO) has been added to the Russell 2000 Defensive and Growth-Defensive Indexes, signaling its potential as a defensive growth stock within the small-cap market. Th...",
+          "url": "https://simplywall.st/stocks/us/software/nyse-qtwo/q2-holdings/news/is-q2-holdings-qtwo-index-move-reframing-its-ai-banking-plat",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T045612",
+          "sentiment_score": 0.443463,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "QTWO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Finance"
+          ]
+        },
+        {
+          "title": "Western Digital Stock Leads 3 AI Infrastructure Picks Tied To Data Center Demand",
+          "summary": "This article highlights three AI infrastructure stocks—Western Digital, Lumentum Holdings, and Vertiv Holdings Co—that are poised to benefit from increasing data center demand....",
+          "url": "https://simplywall.st/stocks/us/tech/nasdaq-wdc/western-digital/news/western-digital-stock-leads-3-ai-infrastructure-picks-tied-t",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T045559",
+          "sentiment_score": 0.347776,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "WDC",
+            "NVDA"
+          ],
+          "topics": [
+            "Technology",
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro"
+          ]
+        },
+        {
+          "title": "Is Deere’s Shift Into Defensive Value Indices (DE) Quietly Reframing Its Risk Narrative?",
+          "summary": "Deere & Company (NYSE: DE) was recently added to the Russell 1000 Defensive Index and the Russell 1000 Value-Defensive Index in late June 2026, which could attract a broader inv...",
+          "url": "https://simplywall.st/stocks/us/capital-goods/nyse-de/deere/news/is-deeres-shift-into-defensive-value-indices-de-quietly-refr",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T044929",
+          "sentiment_score": 0.227664,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "DE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing"
+          ]
+        },
+        {
           "title": "Mark Hancock sells 500,000 PACS shares (PACS) for $18.9M in June 2026",
           "summary": "Mark Hancock, an affiliate of PACS, reported the sale of 500,000 shares of PACS common stock in June 2026 through five separate transactions. These sales generated aggregate pro...",
           "url": "https://www.stocktitan.net/sec-filings/PACS/144-pacs-group-inc-sec-filing-c600a8374dfc.html",
           "source": "Stock Titan",
           "published_at": "20260702T043931",
-          "sentiment_score": 0.013459,
+          "sentiment_score": 0.042897,
           "sentiment_label": "Neutral",
           "tickers": [
             "PACS"
           ],
           "topics": [
-            "financial_markets"
+            "Financial Markets"
           ]
         },
         {
@@ -46,14 +412,14 @@
           "url": "https://www.stocktitan.net/sec-filings/ONMD/8-k-one-med-net-corp-reports-material-event-1e4db5e90843.html",
           "source": "Stock Titan",
           "published_at": "20260702T043926",
-          "sentiment_score": 0.120564,
+          "sentiment_score": 0.142478,
           "sentiment_label": "Neutral",
           "tickers": [
             "ONMD"
           ],
           "topics": [
-            "finance",
-            "financial_markets"
+            "Finance",
+            "Financial Markets"
           ]
         },
         {
@@ -62,16 +428,16 @@
           "url": "https://www.tradingview.com/symbols/NASDAQ-NYAX/etfs/",
           "source": "TradingView",
           "published_at": "20260702T043905",
-          "sentiment_score": 0.119588,
+          "sentiment_score": 0.108623,
           "sentiment_label": "Neutral",
           "tickers": [
             "NYAX",
             "BLK"
           ],
           "topics": [
-            "financial_markets",
-            "technology",
-            "finance"
+            "Financial Markets",
+            "Technology",
+            "Finance"
           ]
         },
         {
@@ -80,13 +446,13 @@
           "url": "https://www.marketwatch.com/data-news/fidelity-national-information-services-inc-stock-outperforms-competitors-on-strong-trading-day-d3532ac8-34457f7fb196?mod=mw_quote_news",
           "source": "MarketWatch",
           "published_at": "20260702T043743",
-          "sentiment_score": 0.430831,
+          "sentiment_score": 0.427938,
           "sentiment_label": "Bullish",
           "tickers": [
             "FIS"
           ],
           "topics": [
-            "financial_markets"
+            "Financial Markets"
           ]
         },
         {
@@ -95,32 +461,17 @@
           "url": "https://www.tradingview.com/symbols/NASDAQ-PLSE/financials-statistics-and-ratios/price-earnings-fwd/",
           "source": "TradingView",
           "published_at": "20260702T043539",
-          "sentiment_score": 0.03383,
+          "sentiment_score": 0.029895,
           "sentiment_label": "Neutral",
           "tickers": [
             "PLSE"
           ],
           "topics": [
-            "earnings",
-            "financial_markets",
-            "life_sciences",
-            "technology",
-            "finance"
-          ]
-        },
-        {
-          "title": "[Form 4] PRECIGEN, INC. Insider Trading Activity",
-          "summary": "PRECIGEN, INC.'s President and CEO, Helen Sabzevari, conducted an exercise-and-sale transaction on June 29, 2026. She acquired 346,836 shares through stock options at $2.33 per...",
-          "url": "https://www.stocktitan.net/sec-filings/PGEN/form-4-precigen-inc-insider-trading-activity-cd9059047c9d.html",
-          "source": "Stock Titan",
-          "published_at": "20260702T043408",
-          "sentiment_score": 0.022355,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "PGEN"
-          ],
-          "topics": [
-            "financial_markets"
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Technology",
+            "Finance"
           ]
         },
         {
@@ -129,13 +480,65 @@
           "url": "https://www.tradingview.com/symbols/NASDAQ-OTTR/financials-statistics-and-ratios/price-sales-fwd/",
           "source": "TradingView",
           "published_at": "20260702T043345",
-          "sentiment_score": 0.024846,
+          "sentiment_score": 0.04645,
           "sentiment_label": "Neutral",
           "tickers": [
             "OTTR"
           ],
           "topics": [
-            "financial_markets"
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "Insider Sell: Sumedh Thakar Sells 30,000 Shares of Qualys Inc (Q",
+          "summary": "Sumedh Thakar, CEO & President of Qualys Inc (QLYS), sold 30,000 shares of the company on June 30, 2026, reducing his holdings to 196,686 shares. Over the past year, Thakar has...",
+          "url": "https://www.gurufocus.com/news/8942190/insider-sell-sumedh-thakar-sells-30000-shares-of-qualys-inc-qlys",
+          "source": "GuruFocus",
+          "published_at": "20260702T042711",
+          "sentiment_score": -0.201665,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "QLYS"
+          ],
+          "topics": [
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "Price to sales forward of Praxis Precision Medicines, Inc. – NASDAQ:PRAX",
+          "summary": "This article provides access to the \"Price to sales forward\" financial data for Praxis Precision Medicines, Inc. (NASDAQ: PRAX) on TradingView. It highlights the company's finan...",
+          "url": "https://www.tradingview.com/symbols/NASDAQ-PRAX/financials-statistics-and-ratios/price-sales-fwd/",
+          "source": "TradingView",
+          "published_at": "20260702T042207",
+          "sentiment_score": 0.015492,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PRAX"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Life Sciences",
+            "Earnings"
+          ]
+        },
+        {
+          "title": "Why Did PANW, AAL, MRNA Surge To 52-Week Highs?",
+          "summary": "Palo Alto Networks (PANW), American Airlines (AAL), and Moderna (MRNA) all reached 52-week highs due to positive catalysts. PANW saw increased price targets from Wells Fargo and...",
+          "url": "https://www.tradingview.com/news/stocktwits:361b03ecc094b:0-why-did-panw-aal-mrna-surge-to-52-week-highs/",
+          "source": "TradingView",
+          "published_at": "20260702T041815",
+          "sentiment_score": 0.464614,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "MRNA",
+            "PANW"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Life Sciences",
+            "Earnings",
+            "Energy Transportation"
           ]
         },
         {
@@ -144,13 +547,13 @@
           "url": "https://www.stocktitan.net/sec-filings/OHI/form-4-omega-healthcare-investors-inc-insider-trading-activity-7c4d1e92836b.html",
           "source": "Stock Titan",
           "published_at": "20260702T041028",
-          "sentiment_score": 0.002642,
+          "sentiment_score": 0.007189,
           "sentiment_label": "Neutral",
           "tickers": [
             "OHI"
           ],
           "topics": [
-            "financial_markets"
+            "Financial Markets"
           ]
         },
         {
@@ -159,14 +562,138 @@
           "url": "https://www.tradingview.com/symbols/NYSE-OGE/financials-statistics-and-ratios/enterprise-value-ebitda-fwd/",
           "source": "TradingView",
           "published_at": "20260702T040946",
-          "sentiment_score": 0.05864,
+          "sentiment_score": 0.087601,
           "sentiment_label": "Neutral",
           "tickers": [
             "OGE"
           ],
           "topics": [
-            "financial_markets",
-            "finance"
+            "Financial Markets",
+            "Finance"
+          ]
+        },
+        {
+          "title": "MU, SNDK, STX, WDC Stocks Extend Slide Overnight As Memory Pump Fades: Retail Traders Hopeful For Rebound",
+          "summary": "Memory chip stocks including Micron (MU), SanDisk (SNDK), Seagate Technology (STX), and Western Digital (WDC) continued to slide overnight after significant drops on Wednesday,...",
+          "url": "https://www.tradingview.com/news/stocktwits:4687fa737094b:0-mu-sndk-stx-wdc-stocks-extend-slide-overnight-as-memory-pump-fades-retail-traders-hopeful-for-rebound/",
+          "source": "TradingView",
+          "published_at": "20260702T040929",
+          "sentiment_score": 0.117529,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SNDK",
+            "MU",
+            "STX",
+            "WDC"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings",
+            "Economy Macro"
+          ]
+        },
+        {
+          "title": "RBB Bancorp to report Q2FY26 results on July 20",
+          "summary": "RBB Bancorp is scheduled to release its financial results for the second quarter ended June 30, 2026, after the market closes on Monday, July 20, 2026. This will be followed by...",
+          "url": "https://scanx.trade/stock-market-news/companies/rbb-bancorp-to-report-q2fy26-results-on-july-20/44464530",
+          "source": "scanx.trade",
+          "published_at": "20260702T040919",
+          "sentiment_score": 0.296038,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "RBB"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Financial Markets",
+            "Economy Macro"
+          ]
+        },
+        {
+          "title": "Enterprise value to EBITDA forward of Scilex Holding Company – BOATS:SCLX",
+          "summary": "This page from TradingView provides financial information for Scilex Holding Company (SCLX), specifically focusing on its enterprise value to EBITDA forward. The content indicat...",
+          "url": "https://www.tradingview.com/symbols/BOATS-SCLX/financials-statistics-and-ratios/enterprise-value-ebitda-fwd/",
+          "source": "TradingView",
+          "published_at": "20260702T040853",
+          "sentiment_score": 0.021406,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SCLX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences"
+          ]
+        },
+        {
+          "title": "Enterprise value to EBIT forward of Equifax, Inc. – NYSE:EFX",
+          "summary": "This article provides an \"Enterprise value to EBIT forward\" metric for Equifax, Inc. (NYSE: EFX). It is presented on a financial data platform, likely TradingView, which also pr...",
+          "url": "https://www.tradingview.com/symbols/NYSE-EFX/financials-statistics-and-ratios/enterprise-value-ebit-fwd/",
+          "source": "TradingView",
+          "published_at": "20260702T040731",
+          "sentiment_score": 0.041709,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "EFX"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ]
+        },
+        {
+          "title": "Price to book forward of Equifax Inc. – LSX:854618",
+          "summary": "The article focuses on the \"Price to book forward\" metric for Equifax Inc. (LSX:854618) as listed on the Lang & Schwarz Exchange. It appears to be a stub or data-point entry fro...",
+          "url": "https://www.tradingview.com/symbols/LSX-854618/financials-statistics-and-ratios/price-book-fwd/",
+          "source": "TradingView",
+          "published_at": "20260702T040730",
+          "sentiment_score": 0.037657,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "EFX"
+          ],
+          "topics": [
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "Crowdstrike CEO George Kurtz sells $1.95m in CRWD shares in June",
+          "summary": "CrowdStrike CEO George Kurtz sold Class A common stock worth approximately $1.95 million in late June 2026, as part of a pre-established 10b5-1 trading plan. These transactions...",
+          "url": "https://m.uk.investing.com/news/stock-market-news/crowdstrike-ceo-george-kurtz-sells-195m-in-crwd-shares-in-june-93CH-4754133?ampMode=1",
+          "source": "Investing.com",
+          "published_at": "20260702T040723",
+          "sentiment_score": -0.110982,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CRWD"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ]
+        },
+        {
+          "title": "US ADP employment and ISM manufacturing PMI decline; Japan confidence improves",
+          "summary": "US equities declined after ADP private hiring slowed to 98,000 in June and the ISM manufacturing PMI fell to 53.3, signaling easing economic momentum despite manufacturing remai...",
+          "url": "https://www.equiti.com/sc-en/news/market-news/us-adp-employment-and-ism-manufacturing-pmi-decline-japan-confidence-improves/",
+          "source": "Equiti Global",
+          "published_at": "20260702T040700",
+          "sentiment_score": 0.224856,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "ADP",
+            "CME",
+            "MU"
+          ],
+          "topics": [
+            "Economy Macro",
+            "Financial Markets",
+            "Economy Monetary",
+            "Manufacturing"
           ]
         },
         {
@@ -175,14 +702,14 @@
           "url": "https://www.tradingview.com/symbols/NASDAQ-NCMI/financials-statistics-and-ratios/price-earnings-fwd/",
           "source": "TradingView",
           "published_at": "20260702T040336",
-          "sentiment_score": 0.042844,
+          "sentiment_score": 0.022649,
           "sentiment_label": "Neutral",
           "tickers": [
             "NCMI"
           ],
           "topics": [
-            "earnings",
-            "financial_markets"
+            "Earnings",
+            "Financial Markets"
           ]
         },
         {
@@ -191,15 +718,15 @@
           "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-apo/apollo-global-management/news/how-apollos-removal-from-russell-growth-indices-will-impact",
           "source": "Simply Wall Street",
           "published_at": "20260702T035606",
-          "sentiment_score": -0.228685,
+          "sentiment_score": -0.224543,
           "sentiment_label": "Somewhat-Bearish",
           "tickers": [
             "APO"
           ],
           "topics": [
-            "earnings",
-            "financial_markets",
-            "finance"
+            "Earnings",
+            "Financial Markets",
+            "Finance"
           ]
         },
         {
@@ -208,16 +735,16 @@
           "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-syf/synchrony-financial/news/synchrony-financial-syf-leans-into-digital-leadership-as-und",
           "source": "Simply Wall Street",
           "published_at": "20260702T035541",
-          "sentiment_score": 0.428505,
+          "sentiment_score": 0.415084,
           "sentiment_label": "Bullish",
           "tickers": [
             "SYF"
           ],
           "topics": [
-            "financial_markets",
-            "finance",
-            "technology",
-            "earnings"
+            "Financial Markets",
+            "Finance",
+            "Technology",
+            "Earnings"
           ]
         },
         {
@@ -226,15 +753,15 @@
           "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-ntra/natera/news/why-natera-ntra-is-up-63-after-new-signatera-cancer-trial-an",
           "source": "Simply Wall Street",
           "published_at": "20260702T035030",
-          "sentiment_score": 0.432469,
+          "sentiment_score": 0.403906,
           "sentiment_label": "Bullish",
           "tickers": [
             "NTRA"
           ],
           "topics": [
-            "life_sciences",
-            "earnings",
-            "financial_markets"
+            "Life Sciences",
+            "Earnings",
+            "Financial Markets"
           ]
         },
         {
@@ -243,15 +770,15 @@
           "url": "https://www.stocktitan.net/sec-filings/NET/8-k-a-cloudflare-inc-amends-material-event-report-71b541610e9c.html",
           "source": "Stock Titan",
           "published_at": "20260702T034035",
-          "sentiment_score": 0.302072,
+          "sentiment_score": 0.317414,
           "sentiment_label": "Somewhat-Bullish",
           "tickers": [
             "NET"
           ],
           "topics": [
-            "finance",
-            "technology",
-            "financial_markets"
+            "Finance",
+            "Technology",
+            "Financial Markets"
           ]
         },
         {
@@ -260,15 +787,15 @@
           "url": "https://www.tradingview.com/symbols/NYSE-MTH/financials-statistics-and-ratios/price-earnings-fwd/",
           "source": "TradingView",
           "published_at": "20260702T033920",
-          "sentiment_score": 0.010535,
+          "sentiment_score": 0.009984,
           "sentiment_label": "Neutral",
           "tickers": [
             "MTH"
           ],
           "topics": [
-            "earnings",
-            "financial_markets",
-            "real_estate"
+            "Earnings",
+            "Financial Markets",
+            "Real Estate"
           ]
         },
         {
@@ -277,14 +804,49 @@
           "url": "https://ca.investing.com/news/stock-market-news/form-144-mirum-pharmaceuticals-for-1-july-93CH-4717208",
           "source": "Investing.com Canada",
           "published_at": "20260702T033902",
-          "sentiment_score": 0.031681,
+          "sentiment_score": 0.013214,
           "sentiment_label": "Neutral",
           "tickers": [
             "MIRM"
           ],
           "topics": [
-            "financial_markets",
-            "life_sciences"
+            "Financial Markets",
+            "Life Sciences"
+          ]
+        },
+        {
+          "title": "Newmont Corporation to announce Q2 2026 results on July 23",
+          "summary": "Newmont Corporation (NYSE, ASX, PNGX) will release its Q2 2026 results on July 23, 2026, after North American markets close, followed by a conference call. The call will be at 5...",
+          "url": "https://scanx.trade/stock-market-news/companies/newmont-corporation-to-announce-q2-2026-results-on-july-23/44491143",
+          "source": "scanx.trade",
+          "published_at": "20260702T033820",
+          "sentiment_score": -0.219512,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "NEM"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "Franklin Resources to announce Q3 results on July 31, 2026",
+          "summary": "Franklin Resources, Inc. is scheduled to release its third-quarter operating results on July 31, 2026, at approximately 8:30 a.m. Eastern Time. Following the release, senior lea...",
+          "url": "https://scanx.trade/stock-market-news/companies/franklin-resources-to-announce-q3-results-on-july-31-2026/44491685",
+          "source": "scanx.trade",
+          "published_at": "20260702T033713",
+          "sentiment_score": 0.209364,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "BEN",
+            "MS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
           ]
         },
         {
@@ -293,651 +855,270 @@
           "url": "https://www.stocktitan.net/sec-filings/MGNI/144-magnite-inc-sec-filing-4e2db262e2d8.html",
           "source": "Stock Titan",
           "published_at": "20260702T031018",
-          "sentiment_score": 0.039577,
+          "sentiment_score": 0.014746,
           "sentiment_label": "Neutral",
           "tickers": [
             "MGNI"
           ],
           "topics": [
-            "finance",
-            "financial_markets"
+            "Finance",
+            "Financial Markets"
           ]
         },
         {
-          "title": "Lexeo Therapeutics (LXEO) COO reports stock award and small tax-related sale",
-          "summary": "Lexeo Therapeutics' Chief Operating Officer, Jose Manuel Otero, reported receiving a stock grant of 12,060 shares on June 29 and subsequently selling 4,666 shares on July 1 to c...",
-          "url": "https://www.stocktitan.net/sec-filings/LXEO/form-4-lexeo-therapeutics-inc-insider-trading-activity-b5e5ee9ba571.html",
+          "title": "[Form 4] PRECIGEN, INC. Insider Trading Activity",
+          "summary": "PRECIGEN, INC.'s President and CEO, Helen Sabzevari, conducted an exercise-and-sale transaction on June 29, 2026. She acquired 346,836 shares through stock options at $2.33 per...",
+          "url": "https://www.stocktitan.net/sec-filings/PGEN/form-4-precigen-inc-insider-trading-activity-cd9059047c9d.html",
           "source": "Stock Titan",
-          "published_at": "20260702T030953",
-          "sentiment_score": 0.037082,
+          "published_at": "20260702T043408",
+          "sentiment_score": 0.047447,
           "sentiment_label": "Neutral",
           "tickers": [
-            "LXEO"
+            "PGEN"
           ],
           "topics": [
-            "earnings",
-            "finance",
-            "life_sciences",
-            "financial_markets"
-          ]
-        },
-        {
-          "title": "Price to sales forward of Lumentum Holdings Inc. – NASDAQ:LITE",
-          "summary": "This article displays the forward price-to-sales ratio for Lumentum Holdings Inc. (NASDAQ: LITE). It includes current market data and financial information for the company, acce...",
-          "url": "https://www.tradingview.com/symbols/NASDAQ-LITE/financials-statistics-and-ratios/price-sales-fwd/",
-          "source": "TradingView",
-          "published_at": "20260702T030933",
-          "sentiment_score": 0.035888,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "LITE"
-          ],
-          "topics": [
-            "financial_markets"
-          ]
-        },
-        {
-          "title": "Rule 10b5-1 sale: Lightbridge (LTBR) director disposes 1,116 shares",
-          "summary": "Lightbridge Corp (LTBR) director Sherri Goodman sold 1,116 shares of common stock at a weighted average price of $9.29 per share, as reported in a Form 4 filing. This transactio...",
-          "url": "https://www.stocktitan.net/sec-filings/LTBR/form-4-lightbridge-corp-insider-trading-activity-7fba2a1f0395.html",
-          "source": "Stock Titan",
-          "published_at": "20260702T030905",
-          "sentiment_score": -0.184639,
-          "sentiment_label": "Somewhat-Bearish",
-          "tickers": [
-            "LTBR"
-          ],
-          "topics": [
-            "financial_markets"
-          ]
-        },
-        {
-          "title": "Viatris Inc. stock rises Wednesday, outperforms market",
-          "summary": "Viatris Inc. (VTRS) stock rose 1.89% on Wednesday to $16.18, outperforming the broader market which saw the S&P 500 Index fall 0.22% and the Dow Jones Industrial Average fall 0....",
-          "url": "https://www.marketwatch.com/data-news/viatris-inc-stock-rises-wednesday-outperforms-market-a32eaef3-23f000879f79?mod=mw_quote_news",
-          "source": "MarketWatch",
-          "published_at": "20260702T030843",
-          "sentiment_score": 0.422296,
-          "sentiment_label": "Bullish",
-          "tickers": [
-            "VTRS"
-          ],
-          "topics": [
-            "financial_markets",
-            "life_sciences"
-          ]
-        },
-        {
-          "title": "MHO - MI Homes Inc Volatility & Greeks",
-          "summary": "This article provides a detailed overview of MI Homes Inc. (MHO) stock, including its latest closing price, financial metrics, valuation ratios, and performance indicators. It c...",
-          "url": "https://finviz.com/stock?t=MHO&ty=ocv&ov=list_date&e=2026-10-16",
-          "source": "Finviz",
-          "published_at": "20260702T030437",
-          "sentiment_score": 0.019,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "MHO"
-          ],
-          "topics": [
-            "earnings",
-            "financial_markets",
-            "real_estate",
-            "finance",
-            "economy_macro"
-          ]
-        },
-        {
-          "title": "Is Magnite’s (MGNI) In‑Flight Ad Push Quietly Redefining Its Omnichannel Growth Story?",
-          "summary": "Magnite (MGNI) was recently added to several Russell value benchmarks and announced a partnership with Viasat Aviation to bring programmatic advertising to in-flight Wi-Fi, expa...",
-          "url": "https://simplywall.st/stocks/us/media/nasdaq-mgni/magnite/news/is-magnites-mgni-inflight-ad-push-quietly-redefining-its-omn",
-          "source": "Simply Wall Street",
-          "published_at": "20260702T030318",
-          "sentiment_score": 0.344411,
-          "sentiment_label": "Somewhat-Bullish",
-          "tickers": [
-            "MGNI"
-          ],
-          "topics": [
-            "earnings",
-            "technology",
-            "financial_markets",
-            "finance"
-          ]
-        },
-        {
-          "title": "MGM Resorts International (MGM) Renews MLB Partnership, Is The Growth Already Priced In?",
-          "summary": "MGM Resorts International (MGM) has renewed its partnership with Major League Baseball, strengthening its position as the league's exclusive integrated resort and casino partner...",
-          "url": "https://simplywall.st/stocks/us/consumer-services/nyse-mgm/mgm-resorts-international/news/mgm-resorts-international-mgm-renews-mlb-partnership-is-the",
-          "source": "Simply Wall Street",
-          "published_at": "20260702T024304",
-          "sentiment_score": 0.111549,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "MGM"
-          ],
-          "topics": [
-            "earnings",
-            "financial_markets",
-            "finance"
-          ]
-        },
-        {
-          "title": "Raymond James Financial (RJF) In Focus On Index Change With Valuation Still In View",
-          "summary": "Raymond James Financial (RJF) is drawing investor attention due to its removal from the Russell 1000 Dynamic Index, an upcoming US$0.54 per share dividend, and a recent analyst...",
-          "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-rjf/raymond-james-financial/news/raymond-james-financial-rjf-in-focus-on-index-change-with-va",
-          "source": "Simply Wall Street",
-          "published_at": "20260702T024222",
-          "sentiment_score": 0.438648,
-          "sentiment_label": "Bullish",
-          "tickers": [
-            "RJF"
-          ],
-          "topics": [
-            "financial_markets",
-            "finance",
-            "earnings"
-          ]
-        },
-        {
-          "title": "Eastman Kodak files prospectus for 4.426M common shares",
-          "summary": "Eastman Kodak has filed a prospectus with the SEC for the offering of 4.426 million common shares. These shares are being sold by existing shareholders, meaning Eastman Kodak it...",
-          "url": "https://scanx.trade/stock-market-news/ipo/eastman-kodak-files-prospectus-for-4-426m-common-shares/44490674",
-          "source": "scanx.trade",
-          "published_at": "20260702T024018",
-          "sentiment_score": -0.100701,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "KODK"
-          ],
-          "topics": [
-            "financial_markets",
-            "finance"
-          ]
-        },
-        {
-          "title": "Is TE Connectivity’s AI and Electrification Order Surge Altering The Investment Case For TEL?",
-          "summary": "TE Connectivity (TEL) is experiencing record orders driven by AI infrastructure and electrification, as evidenced by its fiscal second-quarter results with $5.30 billion in orde...",
-          "url": "https://uk.finance.yahoo.com/news/te-connectivity-ai-electrification-order-021156126.html",
-          "source": "Yahoo Finance UK",
-          "published_at": "20260702T023844",
-          "sentiment_score": 0.238929,
-          "sentiment_label": "Somewhat-Bullish",
-          "tickers": [
-            "TEL"
-          ],
-          "topics": [
-            "earnings",
-            "technology",
-            "financial_markets",
-            "manufacturing",
-            "energy_transportation"
-          ]
-        },
-        {
-          "title": "NetApp (NTAP) Draws Fresh Attention Following Index Adds And AI Push",
-          "summary": "NetApp (NTAP) is gaining investor attention after being added to three Russell 1000 defensive indices, introducing new AI-focused product updates, and expanding its cloud data p...",
-          "url": "https://simplywall.st/stocks/us/tech/nasdaq-ntap/netapp/news/netapp-ntap-draws-fresh-attention-following-index-adds-and-a/amp",
-          "source": "Simply Wall Street",
-          "published_at": "20260702T023819",
-          "sentiment_score": 0.405765,
-          "sentiment_label": "Bullish",
-          "tickers": [
-            "NTAP"
-          ],
-          "topics": [
-            "technology",
-            "financial_markets",
-            "earnings"
-          ]
-        },
-        {
-          "title": "Apple (AAPL) Negotiates Chip Purchases from Blacklisted Chinese Manufacturers",
-          "summary": "Apple (AAPL) is reportedly in negotiations to purchase chips from U.S. blacklisted Chinese manufacturers, Changxin Memory Technologies and Yangtze Memory Technologies, to addres...",
-          "url": "https://www.gurufocus.com/news/8942144/apple-aapl-negotiates-chip-purchases-from-blacklisted-chinese-manufacturers",
-          "source": "GuruFocus",
-          "published_at": "20260702T023658",
-          "sentiment_score": -0.187003,
-          "sentiment_label": "Somewhat-Bearish",
-          "tickers": [
-            "AAPL"
-          ],
-          "topics": [
-            "technology",
-            "financial_markets",
-            "earnings",
-            "economy_fiscal"
-          ]
-        },
-        {
-          "title": "Price to earnings forward of Knowles Corp. – FWB:1K3",
-          "summary": "This article displays the \"Price to earnings forward\" metric for Knowles Corp. (FWB:1K3) on the Frankfurt Stock Exchange. The content primarily focuses on financial data for the...",
-          "url": "https://www.tradingview.com/symbols/FWB-1K3/financials-statistics-and-ratios/price-earnings-fwd/",
-          "source": "TradingView",
-          "published_at": "20260702T023050",
-          "sentiment_score": 0.011788,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "KN"
-          ],
-          "topics": [
-            "earnings",
-            "financial_markets",
-            "technology"
-          ]
-        },
-        {
-          "title": "IMS Group to Appoint John M. Caccia as Chairman and Partner",
-          "summary": "IMS Group and its investment management division, IMS Capital Management (IMS CM), announced the appointment of John M. Caccia, Esq. as Chairman, effective July 1, 2026. Mr. Cac...",
-          "url": "https://www.morningstar.com/news/business-wire/20260701514660/ims-group-to-appoint-john-m-caccia-as-chairman-and-partner",
-          "source": "Morningstar",
-          "published_at": "20260702T022939",
-          "sentiment_score": -0.054919,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "MORN"
-          ],
-          "topics": [
-            "finance",
-            "financial_markets",
-            "technology",
-            "economy_macro"
-          ]
-        },
-        {
-          "title": "Maxim Group Maintains Moleculin Biotech(MBRX.US) With Buy Rating, Maintains Target Price $10",
-          "summary": "Maxim Group has reiterated its Buy rating for Moleculin Biotech (MBRX.US) and maintained its target price at $10. This indicates a continued positive outlook from the firm regar...",
-          "url": "https://www.moomoo.com/news/post/72348333/maxim-group-maintains-moleculin-biotech-mbrxus-with-buy-rating-maintains",
-          "source": "Moomoo",
-          "published_at": "20260702T022218",
-          "sentiment_score": 0.54038,
-          "sentiment_label": "Bullish",
-          "tickers": [
-            "MBRX"
-          ],
-          "topics": [
-            "financial_markets",
-            "life_sciences"
-          ]
-        },
-        {
-          "title": "NetApp (NTAP) Draws Fresh Attention Following Index Adds And AI Push",
-          "summary": "NetApp (NTAP) has gained investor attention due to its inclusion in three Russell 1000 defensive indices, new AI-focused product updates, and an expanded cloud data partnership....",
-          "url": "https://simplywall.st/stocks/us/tech/nasdaq-ntap/netapp/news/netapp-ntap-draws-fresh-attention-following-index-adds-and-a",
-          "source": "Simply Wall Street",
-          "published_at": "20260702T021917",
-          "sentiment_score": 0.204506,
-          "sentiment_label": "Somewhat-Bullish",
-          "tickers": [
-            "NTAP",
-            "DELL",
-            "STX"
-          ],
-          "topics": [
-            "earnings",
-            "financial_markets",
-            "technology",
-            "economy_macro"
-          ]
-        },
-        {
-          "title": "Form 4 Enpro Industries For: 1 July By Investing.com",
-          "summary": "This article from Investing.com announces the filing of a Form 4 for Enpro Industries (NPO) dated July 1st. The brief piece includes the stock ticker and its current performance...",
-          "url": "https://in.investing.com/news/stock-market-news/form-4-enpro-industries-for-1-july-93CH-5479516",
-          "source": "Investing.com India",
-          "published_at": "20260702T021400",
-          "sentiment_score": 0.018351,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "NPO"
-          ],
-          "topics": [
-            "financial_markets"
-          ]
-        },
-        {
-          "title": "Form 4 J Jill Inc For: 1 July By Investing.com",
-          "summary": "This article reports on a Form 4 filing for J Jill Inc for July 1st. Form 4 filings are statements filed with the U.S. Securities and Exchange Commission (SEC) by company inside...",
-          "url": "https://ca.investing.com/news/stock-market-news/form-4-j-jill-inc-for-1-july-93CH-4717013",
-          "source": "Investing.com Canada",
-          "published_at": "20260702T021126",
-          "sentiment_score": 0.01149,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "JILL"
-          ],
-          "topics": [
-            "financial_markets",
-            "retail_wholesale"
-          ]
-        },
-        {
-          "title": "JCTC (JCTC) major holders add 17,783 shares in open‑market buys",
-          "summary": "Ten percent owners of Jewett Cameron Trading Co Ltd (JCTC), Melinda Bradley and Adam Bradley, increased their holdings by 17,783 shares through open-market purchases between Jun...",
-          "url": "https://www.stocktitan.net/sec-filings/JCTC/form-4-jewett-cameron-trading-co-ltd-insider-trading-activity-0d1e8e26e3e9.html",
-          "source": "Stock Titan",
-          "published_at": "20260702T021046",
-          "sentiment_score": 0.437824,
-          "sentiment_label": "Bullish",
-          "tickers": [
-            "JCTC"
-          ],
-          "topics": [
-            "financial_markets",
-            "finance"
-          ]
-        },
-        {
-          "title": "Insider Sell: Schikan Johannes Gerardus Christiaan Petrus Sells 37,600 Shares of Pharvaris NV (PHVS)",
-          "summary": "A director at Pharvaris NV (PHVS), Schikan Johannes Gerardus Christiaan Petrus, sold 37,600 shares of the company on June 30, 2026, reducing his holdings to 315,167 shares. This...",
-          "url": "https://www.gurufocus.com/news/8942161/insider-sell-schikan-johannes-gerardus-christiaan-petrus-sells-37600-shares-of-pharvaris-nv-phvs",
-          "source": "GuruFocus",
-          "published_at": "20260702T021035",
-          "sentiment_score": -0.411496,
-          "sentiment_label": "Bearish",
-          "tickers": [
-            "PHVS"
-          ],
-          "topics": [
-            "life_sciences",
-            "financial_markets",
-            "earnings"
-          ]
-        },
-        {
-          "title": "JAGX - Jaguar Health Inc Latest SEC Filings",
-          "summary": "This article provides the latest SEC filings and a comprehensive financial overview for Jaguar Health Inc (JAGX). It includes current stock performance metrics, key financial ra...",
-          "url": "https://finviz.com/stock?t=JAGX&ty=lf&ta=2&p=m&page=9",
-          "source": "Finviz",
-          "published_at": "20260702T021034",
-          "sentiment_score": -0.106024,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "JAGX"
-          ],
-          "topics": [
-            "earnings",
-            "life_sciences",
-            "financial_markets"
-          ]
-        },
-        {
-          "title": "Ghaffarian details 19.7% Intuitive Machines (LUNR) stake and recent sales",
-          "summary": "Kamal Seyed Ghaffarian has filed an amended Schedule 13D for Intuitive Machines, Inc. (LUNR), revealing a beneficial ownership of 19.7% of the company's Class A Common Stock, to...",
-          "url": "https://www.stocktitan.net/sec-filings/LUNR/schedule-13d-a-intuitive-machines-inc-amended-major-shareholder-repor-bdb6a81711d4.html",
-          "source": "Stock Titan",
-          "published_at": "20260702T021019",
-          "sentiment_score": 0.01378,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "LUNR"
-          ],
-          "topics": [
-            "financial_markets",
-            "finance"
-          ]
-        },
-        {
-          "title": "Ghaffarian entities trim Intuitive Machines (LUNR) stake via 141,909-share sale",
-          "summary": "Entities associated with Dr. Kamal Ghaffarian sold 141,909 shares of Intuitive Machines (LUNR) Class A Common Stock on June 29, 2026, for approximately $20-21 per share. This sa...",
-          "url": "https://www.stocktitan.net/sec-filings/LUNR/form-4-intuitive-machines-inc-insider-trading-activity-dcfcefc68e9e.html",
-          "source": "Stock Titan",
-          "published_at": "20260702T021018",
-          "sentiment_score": 0.146529,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "LUNR"
-          ],
-          "topics": [
-            "financial_markets"
-          ]
-        },
-        {
-          "title": "[Form 4] MDU RESOURCES GROUP INC Insider Trading Activity",
-          "summary": "MDU Resources Group Inc. director Marian M. Durkin reported acquiring 152 shares of common stock at a price of $0.0000 per share as part of a stock-based compensation award. Thi...",
-          "url": "https://www.stocktitan.net/sec-filings/MDU/form-4-mdu-resources-group-inc-insider-trading-activity-8dd7d8a96c0e.html",
-          "source": "Stock Titan",
-          "published_at": "20260702T020941",
-          "sentiment_score": 0.008703,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "MDU"
-          ],
-          "topics": [
-            "finance",
-            "financial_markets"
-          ]
-        },
-        {
-          "title": "BLK Stock Gains After-Hours — US Treasury To Offer Two BlackRock ETFs As Options In Trump Accounts",
-          "summary": "BlackRock's stock gained after-hours following the U.S. Treasury's selection of two of its iShares ETFs, IVV and ITOT, as core investment options for the new \"Trump Accounts\" ea...",
-          "url": "https://www.tradingview.com/news/stocktwits:0bd55a5df094b:0",
-          "source": "TradingView",
-          "published_at": "20260702T020939",
-          "sentiment_score": 0.112813,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "IVV",
-            "BLK"
-          ],
-          "topics": [
-            "financial_markets",
-            "finance",
-            "economy_fiscal"
-          ]
-        },
-        {
-          "title": "Sprout Social, Workday, and Manhattan Associates Shares Are Soaring, What You Need To Know",
-          "summary": "Shares of Sprout Social, Workday, and Manhattan Associates saw significant jumps after Guggenheim analyst John DiFucci upgraded Salesforce and ServiceNow to Buy, citing overly p...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sprout-social-workday-manhattan-associates-020100060.html",
-          "source": "Yahoo Finance",
-          "published_at": "20260702T020922",
-          "sentiment_score": 0.331903,
-          "sentiment_label": "Somewhat-Bullish",
-          "tickers": [
-            "MANH",
-            "WDAY",
-            "CRM",
-            "NOW"
-          ],
-          "topics": [
-            "financial_markets",
-            "technology"
-          ]
-        },
-        {
-          "title": "How NETSTREIT’s Removal from the Russell 2000 Dynamic Index Will Impact NETSTREIT (NTST) Investors",
-          "summary": "NETSTREIT Corp. (NTST) has been removed from the Russell 2000 Dynamic Index, a change that could influence passive fund ownership and portfolio positioning. This removal is cons...",
-          "url": "https://simplywall.st/stocks/us/real-estate/nyse-ntst/netstreit/news/how-netstreits-removal-from-the-russell-2000-dynamic-index-w",
-          "source": "Simply Wall Street",
-          "published_at": "20260702T020911",
-          "sentiment_score": -0.148472,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "NTST"
-          ],
-          "topics": [
-            "earnings",
-            "financial_markets",
-            "real_estate",
-            "finance"
-          ]
-        },
-        {
-          "title": "Oneok Inc. (OKE) Suffers a Larger Drop Than the General Market: Key Insights",
-          "summary": "Oneok Inc. (OKE) experienced a larger-than-market drop in a recent trading session, closing down 1.39% compared to smaller losses for major indices. Despite this, the natural ga...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/oneok-inc-oke-suffers-larger-221503783.html",
-          "source": "Yahoo Finance",
-          "published_at": "20260702T020847",
-          "sentiment_score": 0.010583,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "OKE",
-            "COIN"
-          ],
-          "topics": [
-            "earnings",
-            "financial_markets",
-            "energy_transportation"
-          ]
-        },
-        {
-          "title": "Kratos Defense (KTOS) exec sells 7,000 shares under 10b5-1 plan",
-          "summary": "Kratos Defense & Security Solutions executive Steven S. Fendley sold 7,000 shares of common stock on June 29, 2026, for a weighted average price of $48.3652 per share. This tran...",
-          "url": "https://www.stocktitan.net/sec-filings/KTOS/form-4-kratos-defense-security-solutions-inc-insider-trading-activity-aa4bcb990e92.html",
-          "source": "Stock Titan",
-          "published_at": "20260702T020810",
-          "sentiment_score": -0.242822,
-          "sentiment_label": "Somewhat-Bearish",
-          "tickers": [
-            "KTOS"
-          ],
-          "topics": [
-            "financial_markets",
-            "finance",
-            "earnings"
-          ]
-        },
-        {
-          "title": "Crowdstrike CEO George Kurtz sells $1.8m in CRWD stock By Investing.com",
-          "summary": "CrowdStrike Holdings, Inc. CEO George Kurtz sold approximately $1.8 million worth of Class A common stock on June 30, 2026, as part of a pre-arranged 10b-1 plan. The sale involv...",
-          "url": "https://m.in.investing.com/news/stock-market-news/crowdstrike-ceo-george-kurtz-sells-18m-in-crwd-stock-93CH-5479878?ampMode=1",
-          "source": "Investing.com India",
-          "published_at": "20260702T020723",
-          "sentiment_score": 0.113511,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "CRWD"
-          ],
-          "topics": [
-            "earnings",
-            "financial_markets",
-            "technology"
-          ]
-        },
-        {
-          "title": "Is Fastenal’s Extended Credit Maturity and Funding Shift Recasting Its Capital Allocation Playbook (FAST)?",
-          "summary": "Fastenal Company has extended its unsecured revolving credit agreement providing US$835 million with an accordion feature up to US$500 million, potentially extending maturity to...",
-          "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-fast/fastenal/news/is-fastenals-extended-credit-maturity-and-funding-shift-reca",
-          "source": "Simply Wall Street",
-          "published_at": "20260702T015343",
-          "sentiment_score": 0.138506,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "FAST",
-            "URI",
-            "GWW",
-            "LULU",
-            "MU"
-          ],
-          "topics": [
-            "earnings",
-            "finance",
-            "retail_wholesale",
-            "economy_macro",
-            "financial_markets"
-          ]
-        },
-        {
-          "title": "Liberty Broadband (LBRD.K) Is Up 6.5% After Russell Index Removal Reshapes Its Investor Base",
-          "summary": "Liberty Broadband's (LBRD.A and LBRD.K) shares rose 6.5% after their removal from several Russell growth indices on June 27, 2026. This index removal could prompt mechanical sel...",
-          "url": "https://simplywall.st/stocks/us/media/nasdaq-lbrd.k/liberty-broadband/news/liberty-broadband-lbrdk-is-up-65-after-russell-index-removal",
-          "source": "Simply Wall Street",
-          "published_at": "20260702T015151",
-          "sentiment_score": -0.056695,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "LBDKV",
-            "CHTR"
-          ],
-          "topics": [
-            "earnings",
-            "financial_markets"
-          ]
-        },
-        {
-          "title": "What Neurocrine Biosciences (NBIX)'s Index Removal and INGREZZA Momentum Means For Shareholders",
-          "summary": "Neurocrine Biosciences was removed from the Russell 1000 Dynamic Index in late June 2026, despite analysts noting strong INGREZZA sales and an improved profit outlook. The compa...",
-          "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-nbix/neurocrine-biosciences/news/what-neurocrine-biosciences-nbixs-index-removal-and-ingrezza",
-          "source": "Simply Wall Street",
-          "published_at": "20260702T014044",
-          "sentiment_score": 0.056141,
-          "sentiment_label": "Neutral",
-          "tickers": [
-            "NBIX",
-            "AMGN"
-          ],
-          "topics": [
-            "earnings",
-            "financial_markets",
-            "life_sciences"
+            "Financial Markets"
           ]
         }
       ],
       "article_count": 50,
-      "top_ticker": "BLK",
-      "top_topic": "financial_markets",
+      "top_ticker": "SNEX",
+      "top_topic": "Financial Markets",
       "dominant_sentiment": "Neutral",
-      "top_story": "Mark Hancock sells 500,000 PACS shares (PACS) for $18.9M in June 2026",
+      "top_story": "SMX (SMX) registers 25.41M shares; $250M SEPA line with $50.5M drawn",
+      "signal_articles": [
+        {
+          "title": "SMX (SMX) registers 25.41M shares; $250M SEPA line with $50.5M drawn",
+          "summary": "SMX (Security Matters) PLC has filed a Form F-3 to register up to 25.41 million Ordinary Shares for resale by selling stockholders, linked to a Standby Equity Purchase Agreement...",
+          "url": "https://www.stocktitan.net/sec-filings/SMX/f-3-smx-security-matters-public-ltd-co-foreign-issuer-shelf-registrat-fb6658837516.html",
+          "source": "Stock Titan",
+          "published_at": "20260702T061019",
+          "sentiment_score": 0.122915,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SMX"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "StoneX Group (SNEX) CEO sells 51,540 shares after exercising options",
+          "summary": "StoneX Group Inc.'s CEO, Philip Andrew Smith, exercised 37,500 stock options and subsequently sold a total of 51,540 shares in open-market transactions on June 30, 2026. The sha...",
+          "url": "https://www.stocktitan.net/sec-filings/SNEX/form-4-stone-x-group-inc-insider-trading-activity-adf4066a3b3b.html",
+          "source": "Stock Titan",
+          "published_at": "20260702T061016",
+          "sentiment_score": -0.281519,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "SNEX"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "Director entity sells 15K Slide Insurance (SLDE) shares under 10b5-1 plan",
+          "summary": "An LLC linked to Slide Insurance director Wright Andrew Pardo sold 15,000 shares of common stock at a weighted average price of $19.51 per share on June 29, 2026. This transacti...",
+          "url": "https://www.stocktitan.net/sec-filings/SLDE/form-4-slide-insurance-holdings-inc-insider-trading-activity-e449452455a0.html",
+          "source": "Stock Titan",
+          "published_at": "20260702T060957",
+          "sentiment_score": -0.411834,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "SLDE"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance"
+          ]
+        },
+        {
+          "title": "Discovery Mining Ltd. Insider Trading & Ownership Structure",
+          "summary": "This article provides an overview of Discovery Mining Ltd. (OTCPK:DSVS.F) focusing on its insider trading activities and ownership structure. It details recent insider transacti...",
+          "url": "https://simplywall.st/stocks/us/materials/otc-dsvs.f/discovery-mining/ownership",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T060916",
+          "sentiment_score": 0.045303,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SII"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance"
+          ]
+        },
+        {
+          "title": "BlackRock lifts Endeavour Mining holding to 13.13% of voting rights",
+          "summary": "BlackRock, Inc. has increased its holding in Endeavour Mining (EDVMF) to 13.13% of voting rights as of June 30, 2026. This represents 31,742,482 voting rights, with 12.0% held v...",
+          "url": "https://www.stocktitan.net/news/EDVMF/holding-s-in-j30bice0ptan.html",
+          "source": "Stock Titan",
+          "published_at": "20260702T060210",
+          "sentiment_score": 0.105543,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "BLK"
+          ],
+          "topics": [
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "Is Sylvamo (SLVM) Undervalued As Russell Index Removal Reshapes Demand?",
+          "summary": "Sylvamo (SLVM) was recently removed from several Russell growth benchmarks, causing its stock price to drop. Despite this, the stock is considered significantly undervalued by a...",
+          "url": "https://simplywall.st/stocks/us/materials/nyse-slvm/sylvamo/news/is-sylvamo-slvm-undervalued-as-russell-index-removal-reshape",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T054831",
+          "sentiment_score": 0.117419,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SLVM",
+            "PKG",
+            "IP"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ]
+        },
+        {
+          "title": "Charles River Laboratories International (CRL) On Lilly TuneLab Deal And The Valuation Debate",
+          "summary": "Charles River Laboratories International (CRL) has partnered with Lilly TuneLab, an AI drug discovery platform, to provide nonclinical testing services, leading to a significant...",
+          "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-crl/charles-river-laboratories-international/news/charles-river-laboratories-international-crl-on-lilly-tunela",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T054422",
+          "sentiment_score": 0.204858,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CRL",
+            "LLY",
+            "TMO",
+            "DHR"
+          ],
+          "topics": [
+            "Life Sciences",
+            "Financial Markets",
+            "Earnings",
+            "Mergers And Acquisitions",
+            "Technology"
+          ]
+        },
+        {
+          "title": "Did Hilton’s Shift Into the Russell Top 200 Growth Index Just Shift Hilton Worldwide Holdings' (HLT) Investment Nar...",
+          "summary": "Hilton Worldwide Holdings Inc. (HLT) was reclassified as a larger-cap growth company after being added to the Russell Top 200 Index and Russell Top 200 Growth Benchmark in late...",
+          "url": "https://simplywall.st/stocks/us/consumer-services/nyse-hlt/hilton-worldwide-holdings/news/did-hiltons-shift-into-the-russell-top-200-growth-index-just",
+          "source": "Simply Wall Street",
+          "published_at": "20260702T054342",
+          "sentiment_score": 0.17869,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "HLT",
+            "BKNG",
+            "MAR"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ]
+        },
+        {
+          "title": "Barclays Boosts Price Target on Sunoco (SUN)",
+          "summary": "Barclays has increased its price target for Sunoco LP (NYSE: SUN) from $73 to $75, maintaining an 'Overweight' rating. This adjustment reflects updated commodity prices and come...",
+          "url": "https://finance.yahoo.com/energy/articles/barclays-boosts-price-target-sunoco-214801833.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260702T054036",
+          "sentiment_score": 0.450696,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "SUN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ]
+        },
+        {
+          "title": "Form 144 ULTRAGENYX PHARMACEUTICAL INC. For: 1 July By Investing.com",
+          "summary": "This article announces that a Form 144 filling for Ultragenyx Pharmaceutical Inc. was made on July 1st. The brief notice provides the stock symbol RARE, which experienced a -3.0...",
+          "url": "https://ca.investing.com/news/stock-market-news/form-144-ultragenyx-pharmaceutical-inc-for-1-july-93CH-4717315",
+          "source": "Investing.com Canada",
+          "published_at": "20260702T053953",
+          "sentiment_score": 0.034847,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "RARE"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets",
+            "Life Sciences"
+          ]
+        }
+      ],
       "top_tickers": [
+        {
+          "ticker": "SNEX",
+          "mentions": 2
+        },
         {
           "ticker": "BLK",
           "mentions": 2
         },
         {
-          "ticker": "MGNI",
+          "ticker": "QTWO",
           "mentions": 2
         },
         {
-          "ticker": "NTAP",
+          "ticker": "WDC",
           "mentions": 2
         },
         {
-          "ticker": "LUNR",
+          "ticker": "MU",
           "mentions": 2
-        },
-        {
-          "ticker": "PACS",
-          "mentions": 1
         }
       ],
       "top_topics": [
         {
-          "topic": "financial_markets",
-          "mentions": 50
+          "topic": "Financial Markets",
+          "mentions": 49
         },
         {
-          "topic": "earnings",
-          "mentions": 25
+          "topic": "Earnings",
+          "mentions": 26
         },
         {
-          "topic": "finance",
+          "topic": "Finance",
           "mentions": 22
         },
         {
-          "topic": "technology",
+          "topic": "Technology",
           "mentions": 13
         },
         {
-          "topic": "life_sciences",
+          "topic": "Life Sciences",
           "mentions": 9
         }
       ],
       "sentiment_counts": [
         {
           "label": "Neutral",
-          "count": 32
-        },
-        {
-          "label": "Bullish",
-          "count": 8
+          "count": 25
         },
         {
           "label": "Somewhat-Bullish",
-          "count": 5
+          "count": 11
+        },
+        {
+          "label": "Bullish",
+          "count": 7
         },
         {
           "label": "Somewhat-Bearish",
-          "count": 4
+          "count": 5
         },
         {
           "label": "Bearish",
@@ -946,27 +1127,27 @@
       ],
       "top_sources": [
         {
-          "source": "Stock Titan",
-          "count": 13
-        },
-        {
-          "source": "Simply Wall Street",
+          "source": "TradingView",
           "count": 12
         },
         {
-          "source": "TradingView",
+          "source": "Simply Wall Street",
+          "count": 11
+        },
+        {
+          "source": "Stock Titan",
           "count": 9
         },
         {
-          "source": "MarketWatch",
-          "count": 2
+          "source": "Yahoo Finance",
+          "count": 3
         },
         {
-          "source": "Investing.com Canada",
-          "count": 2
+          "source": "scanx.trade",
+          "count": 3
         }
       ],
-      "takeaway": "News flow is centered on financial_markets, with BLK appearing most often and the headline tone mostly neutral."
+      "takeaway": "News flow is centered on Financial Markets, with SNEX appearing most often and the headline tone mostly neutral."
     }
   },
   {
