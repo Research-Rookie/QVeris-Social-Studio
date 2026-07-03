@@ -1,5 +1,113 @@
 [
   {
+    "id": "financial-data-api-watch-pypl-adbe-2026-07-03",
+    "date": "2026-07-03",
+    "runDate": "2026-07-03",
+    "createdAt": "2026-07-03T02:16:18.240034+00:00",
+    "contentType": "FINANCIAL DATA API WATCH",
+    "title": "Financial Data API Watch",
+    "status": "ready",
+    "tweet": "What can an AI finance agent do with one QVeris workflow? 🧠\n\nToday: compare $PYPL vs $ADBE\n\nQVeris connected:\n📊 Financial fundamentals\n🏢 Market cap\n💰 FCF yield\n📰 News signal\n\nOutput: PYPL 14.1% vs ADBE 13.2% FCF yield\nNews: SNEX / Neutral\n\nhttps://qveris.ai",
+    "image": "/posts/financial_data_api_watch_2026-07-03.png",
+    "dataSource": "QVeris API via valuation and news capabilities",
+    "dataUpdatedAt": "2026-07-03T02:13:43.293943+00:00",
+    "xPostId": null,
+    "primaryLabel": "Agent task",
+    "primaryValue": "Valuation + News Check",
+    "secondaryLabel": "Comparison",
+    "secondaryValue": "PYPL vs ADBE",
+    "topSymbol": "PYPL",
+    "topChangePct": 14.106010547328237,
+    "financialDataApiWatch": {
+      "updated_at": "2026-07-03T02:13:43.293943+00:00",
+      "date": "2026-07-03",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via valuation and news capabilities",
+      "title": "Financial Data API Watch",
+      "scenario": "Valuation + News Check",
+      "agent_task": "Compare $PYPL vs $ADBE using valuation and live news signals",
+      "symbols": [
+        "PYPL",
+        "ADBE"
+      ],
+      "companies": [
+        {
+          "symbol": "PYPL",
+          "name": "PayPal Holdings, Inc.",
+          "market_cap": 39068452285.0,
+          "price": 44.29,
+          "latest_ttm_fcf": 5511000000.0,
+          "latest_fcf_yield": 14.106010547328237,
+          "history": [
+            {
+              "date": "2026-03-31",
+              "ttm_fcf": 5511000000.0,
+              "fcf_yield": 14.106010547328237
+            },
+            {
+              "date": "2025-12-31",
+              "ttm_fcf": 5564000000.0,
+              "fcf_yield": 14.241669875763801
+            }
+          ]
+        },
+        {
+          "symbol": "ADBE",
+          "name": "Adobe Inc.",
+          "market_cap": 80585175000.0,
+          "price": 202.73,
+          "latest_ttm_fcf": 10627000000.0,
+          "latest_fcf_yield": 13.187289101252183,
+          "history": [
+            {
+              "date": "2026-05-29",
+              "ttm_fcf": 10627000000.0,
+              "fcf_yield": 13.187289101252183
+            },
+            {
+              "date": "2026-02-27",
+              "ttm_fcf": 10317000000.0,
+              "fcf_yield": 12.802602960159856
+            }
+          ]
+        }
+      ],
+      "capabilities": [
+        "Financial fundamentals",
+        "Market capitalization",
+        "Free cash flow yield",
+        "Financial news",
+        "News sentiment"
+      ],
+      "retrieved": [
+        {
+          "label": "Free cash flow",
+          "value": "PYPL $5.5B"
+        },
+        {
+          "label": "Market cap",
+          "value": "PYPL $39.1B"
+        },
+        {
+          "label": "FCF yield",
+          "value": "PYPL 14.1%"
+        },
+        {
+          "label": "News signal",
+          "value": "SNEX / Neutral"
+        }
+      ],
+      "news": {
+        "top_ticker": "SNEX",
+        "top_theme": "Financial Markets",
+        "tone": "Neutral",
+        "lead_story": "SMX (SMX) registers 25.41M shares; $250M SEPA line with $50.5M drawn",
+        "source": "Stock Titan"
+      },
+      "takeaway": "QVeris turns scattered financial APIs into one agent workflow: PYPL screens at 14.1% FCF yield, while current news attention is centered on SNEX."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-02",
     "date": "2026-07-02",
     "runDate": "2026-07-02",

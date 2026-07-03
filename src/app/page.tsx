@@ -35,6 +35,7 @@ function categoryKey(post: Post) {
   if (post.contentType === "POLYMARKET PULSE") return "polymarket-pulse";
   if (post.contentType === "PREDICTION MARKET RADAR") return "polymarket-pulse";
   if (post.contentType === "FINANCIAL NEWS SIGNAL") return "financial-news-signal";
+  if (post.contentType === "FINANCIAL DATA API WATCH") return "financial-data-api-watch";
   return null;
 }
 
@@ -60,6 +61,11 @@ const categories = [
     key: "financial-news-signal",
     label: "News Signal",
     count: activePosts.filter((post) => categoryKey(post) === "financial-news-signal").length,
+  },
+  {
+    key: "financial-data-api-watch",
+    label: "API Watch",
+    count: activePosts.filter((post) => categoryKey(post) === "financial-data-api-watch").length,
   },
   { key: "earnings", label: "Earnings", count: 0 },
 ];

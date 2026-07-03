@@ -1,0 +1,88 @@
+{
+  "updated_at": "2026-07-03T02:13:43.293943+00:00",
+  "date": "2026-07-03",
+  "run_timezone": "Asia/Shanghai",
+  "source": "QVeris API via valuation and news capabilities",
+  "title": "Financial Data API Watch",
+  "scenario": "Valuation + News Check",
+  "agent_task": "Compare $PYPL vs $ADBE using valuation and live news signals",
+  "symbols": [
+    "PYPL",
+    "ADBE"
+  ],
+  "companies": [
+    {
+      "symbol": "PYPL",
+      "name": "PayPal Holdings, Inc.",
+      "market_cap": 39068452285.0,
+      "price": 44.29,
+      "latest_ttm_fcf": 5511000000.0,
+      "latest_fcf_yield": 14.106010547328237,
+      "history": [
+        {
+          "date": "2026-03-31",
+          "ttm_fcf": 5511000000.0,
+          "fcf_yield": 14.106010547328237
+        },
+        {
+          "date": "2025-12-31",
+          "ttm_fcf": 5564000000.0,
+          "fcf_yield": 14.241669875763801
+        }
+      ]
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "market_cap": 80585175000.0,
+      "price": 202.73,
+      "latest_ttm_fcf": 10627000000.0,
+      "latest_fcf_yield": 13.187289101252183,
+      "history": [
+        {
+          "date": "2026-05-29",
+          "ttm_fcf": 10627000000.0,
+          "fcf_yield": 13.187289101252183
+        },
+        {
+          "date": "2026-02-27",
+          "ttm_fcf": 10317000000.0,
+          "fcf_yield": 12.802602960159856
+        }
+      ]
+    }
+  ],
+  "capabilities": [
+    "Financial fundamentals",
+    "Market capitalization",
+    "Free cash flow yield",
+    "Financial news",
+    "News sentiment"
+  ],
+  "retrieved": [
+    {
+      "label": "Free cash flow",
+      "value": "PYPL $5.5B"
+    },
+    {
+      "label": "Market cap",
+      "value": "PYPL $39.1B"
+    },
+    {
+      "label": "FCF yield",
+      "value": "PYPL 14.1%"
+    },
+    {
+      "label": "News signal",
+      "value": "SNEX / Neutral"
+    }
+  ],
+  "news": {
+    "top_ticker": "SNEX",
+    "top_theme": "Financial Markets",
+    "tone": "Neutral",
+    "lead_story": "SMX (SMX) registers 25.41M shares; $250M SEPA line with $50.5M drawn",
+    "source": "Stock Titan"
+  },
+  "takeaway": "QVeris turns scattered financial APIs into one agent workflow: PYPL screens at 14.1% FCF yield, while current news attention is centered on SNEX."
+}
