@@ -52,7 +52,7 @@ jobs:
         run: |
           git config user.name "qveris-content-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/posts.json data/news_vs_price_reaction.json data/news_vs_price_reaction_tweet_preview.txt
+          git add data/posts.json data/financial_news_signal.json data/news_vs_price_reaction.json data/news_vs_price_reaction_tweet_preview.txt
           git add images/news_vs_price_reaction_*.png public/posts/news_vs_price_reaction_*.png 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No news vs price reaction archive changes to commit."
