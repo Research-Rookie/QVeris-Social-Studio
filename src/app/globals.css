@@ -124,16 +124,7 @@ main {
   white-space: nowrap;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-
-.nav a,
 .categoryChip,
-.tab,
 .cardActions button,
 .cardActions a,
 .closeButton {
@@ -146,16 +137,13 @@ main {
   font-weight: 750;
 }
 
-.nav a {
-  padding: 7px 10px;
-  border-color: transparent;
-  background: transparent;
-}
-
-.nav a.active {
-  border-color: rgba(37, 99, 235, 0.22);
-  background: var(--accent-soft);
-  color: var(--accent);
+.topbarCenter {
+  justify-self: center;
+  max-width: 560px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 750;
+  text-align: center;
 }
 
 .topbarRight {
@@ -210,26 +198,28 @@ main {
 
 .trainingPanel {
   display: grid;
-  grid-template-columns: minmax(260px, 1fr) minmax(320px, auto) minmax(210px, auto);
+  grid-template-columns: minmax(360px, 1fr) minmax(320px, auto) minmax(210px, auto);
   align-items: center;
   gap: 14px;
   margin-bottom: 14px;
-  padding: 13px 14px;
+  padding: 18px;
 }
 
 .trainingCopy strong {
   display: block;
-  font-size: 16px;
-  letter-spacing: -0.01em;
+  margin-top: 6px;
+  font-size: 21px;
+  letter-spacing: -0.03em;
+  line-height: 1.12;
 }
 
 .trainingCopy span {
   display: block;
   max-width: 720px;
-  margin-top: 4px;
+  margin-top: 7px;
   color: var(--muted);
-  font-size: 12px;
-  line-height: 1.45;
+  font-size: 13px;
+  line-height: 1.55;
 }
 
 .trainingCounts {
@@ -282,7 +272,7 @@ main {
   display: grid;
   grid-template-columns: minmax(240px, 0.75fr) minmax(560px, 1fr);
   gap: 12px;
-  align-items: end;
+  align-items: start;
   margin-bottom: 12px;
 }
 
@@ -303,8 +293,16 @@ h1 {
   letter-spacing: -0.045em;
 }
 
+.libraryIntro {
+  max-width: 540px;
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .sortSegment,
-.tabs {
+.columnGuide {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
@@ -314,8 +312,7 @@ h1 {
   background: var(--panel-soft);
 }
 
-.categoryChip,
-.tab {
+.categoryChip {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -339,8 +336,7 @@ h1 {
   font-size: 11px;
 }
 
-.categoryChip.active,
-.tab.active {
+.categoryChip.active {
   border-color: rgba(37, 99, 235, 0.22);
   background: var(--accent-soft);
   color: var(--accent);
@@ -351,20 +347,64 @@ h1 {
   background: #dbe8ff;
 }
 
-.filterRow {
+.columnGuide {
   display: grid;
-  grid-template-columns: 88px minmax(0, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
-  align-items: start;
-  padding-top: 10px;
-  border-top: 1px solid var(--line-soft);
+  margin-top: 12px;
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
-.filterRow > span {
-  padding-top: 9px;
+.guideCard {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 5px 10px;
+  min-height: 98px;
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel-soft);
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.guideCard span {
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.guideCard strong {
+  display: grid;
+  place-items: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: rgba(17, 24, 39, 0.06);
   color: var(--muted);
   font-size: 12px;
-  font-weight: 850;
+}
+
+.guideCard em {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1.45;
+}
+
+.guideCard.active {
+  border-color: rgba(37, 99, 235, 0.28);
+  background: var(--accent-soft);
+  box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.08);
+}
+
+.guideCard.active span,
+.guideCard.active strong {
+  color: var(--accent);
 }
 
 .resultHead {
@@ -725,7 +765,7 @@ h2 {
     grid-template-columns: 1fr auto;
   }
 
-  .nav {
+  .topbarCenter {
     display: none;
   }
 
@@ -771,14 +811,8 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-  .resultHead,
-  .filterRow {
+  .resultHead {
     display: block;
-  }
-
-  .filterRow > span {
-    display: block;
-    margin-bottom: 8px;
   }
 
   .modalOverlay {

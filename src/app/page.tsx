@@ -29,6 +29,15 @@ type Post = {
 
 const posts = postsData as Post[];
 
+const columnDescriptions: Record<string, string> = {
+  "market-pulse": "Daily liquid U.S. stock movers surfaced from market data.",
+  "fcf-yield": "Free-cash-flow yield comparisons for valuation snapshots.",
+  "polymarket-pulse": "Prediction-market attention, open interest, and hot themes.",
+  "financial-news-signal": "Financial headlines distilled into tickers, themes, and tone.",
+  "financial-data-api-watch": "QVeris API workflows showing what finance agents can retrieve.",
+  "news-vs-price-reaction": "Compares headline tone with the stock's price reaction.",
+};
+
 function categoryKey(post: Post) {
   if (post.contentType === "MARKET PULSE") return "market-pulse";
   if (post.contentType === "FCF YIELD") return "fcf-yield";
@@ -73,7 +82,6 @@ const categories = [
     label: "News vs Price",
     count: activePosts.filter((post) => categoryKey(post) === "news-vs-price-reaction").length,
   },
-  { key: "earnings", label: "Earnings", count: 0 },
 ];
 
 function formatDate(date: string) {
@@ -87,7 +95,6 @@ function formatDate(date: string) {
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState("market-pulse");
-  const [statusFilter, setStatusFilter] = useState<"all" | PostStatus>("all");
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [copiedPostId, setCopiedPostId] = useState<string | null>(null);
   const [editingId, setEditingId] = useState<string | null>(null);
@@ -99,9 +106,9 @@ export default function Home() {
   const visiblePosts = useMemo(() => {
     return activePosts.filter((post) => {
       if (categoryKey(post) !== activeCategory) return false;
-      return statusFilter === "all" || post.status === statusFilter;
+      return true;
     });
-  }, [activeCategory, statusFilter]);
+  }, [activeCategory]);
 
   const publishedCount = activePosts.filter((post) => post.status === "published").length;
   const readyCount = activePosts.filter((post) => post.status === "ready").length;
@@ -130,12 +137,9 @@ export default function Home() {
             <em>market cards / tweet drafts / publishing queue</em>
           </span>
         </a>
-        <nav className="nav" aria-label="Main navigation">
-          <a className="active" href="#archive">Archive</a>
-          <a href="#categories">Signals</a>
-          <a href="#workflow">Workflow</a>
-          <a href="#sources">Sources</a>
-        </nav>
+        <div className="topbarCenter">
+          QVeris-powered market cards, tweet drafts, and daily signal archive.
+        </div>
         <div className="topbarRight">
           <span className="environment">
             <span className="liveDot" />
@@ -148,10 +152,12 @@ export default function Home() {
       <div className="appShell">
         <section className="trainingPanel" id="workflow">
           <div className="trainingCopy">
-            <strong>Automated data-to-social research desk</strong>
+            <p className="eyebrow">AUTOMATED RESEARCH DESK</p>
+            <strong>From QVeris data calls to publish-ready market cards</strong>
             <span>
-              Daily QVeris-powered cards are generated, archived, reviewed, and
-              sent to Typefully without overwriting past posts.
+              Each column turns raw financial data, news, valuation, and prediction-market
+              signals into an image plus a short social post. New runs append to the
+              archive instead of overwriting prior cards.
             </span>
           </div>
           <div className="trainingCounts" aria-label="Archive summary">
@@ -160,12 +166,12 @@ export default function Home() {
               <span>Total cards</span>
             </article>
             <article>
-              <strong>{readyCount}</strong>
-              <span>Ready</span>
+              <strong>{categories.length}</strong>
+              <span>Signal columns</span>
             </article>
             <article>
-              <strong>{publishedCount}</strong>
-              <span>Published</span>
+              <strong>{readyCount}</strong>
+              <span>Ready drafts</span>
             </article>
           </div>
           <div className="automationBadge">
@@ -179,6 +185,10 @@ export default function Home() {
             <div>
               <p className="eyebrow">QVERIS CONTENT LIBRARY</p>
               <h1>Social signal archive</h1>
+              <p className="libraryIntro">
+                Pick a signal column below. Each card opens into the generated image,
+                tweet copy, publish ID, and download action.
+              </p>
             </div>
             <div className="sortSegment" aria-label="Content categories">
               {categories.map((category) => (
@@ -196,23 +206,21 @@ export default function Home() {
               ))}
             </div>
           </div>
-
-          <div className="filterRow">
-            <span>Status</span>
-            <div className="tabs">
-              {(["all", "draft", "ready", "published"] as const).map((status) => (
-                <button
-                  key={status}
-                  className={`tab ${statusFilter === status ? "active" : ""}`}
-                  type="button"
-                  onClick={() => setStatusFilter(status)}
-                >
-                  {status === "all"
-                    ? "All"
-                    : status.charAt(0).toUpperCase() + status.slice(1)}
-                </button>
-              ))}
-            </div>
+          <div className="columnGuide">
+            {categories.map((category) => (
+              <button
+                key={`${category.key}-guide`}
+                className={`guideCard ${
+                  category.key === activeCategory ? "active" : ""
+                }`}
+                type="button"
+                onClick={() => setActiveCategory(category.key)}
+              >
+                <span>{category.label}</span>
+                <strong>{category.count}</strong>
+                <em>{columnDescriptions[category.key]}</em>
+              </button>
+            ))}
           </div>
         </section>
 
