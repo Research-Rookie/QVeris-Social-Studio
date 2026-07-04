@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-03T03:27:06.495124+00:00",
-  "date": "2026-07-03",
+  "updated_at": "2026-07-04T06:00:04.919478+00:00",
+  "date": "2026-07-04",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "NVDA",
+  "symbol": "FRT",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Nvidia Accelerates AI Chip Production with New Packaging Tech to Meet Soaring Demand",
-  "headline_source": "TradingView",
+  "headline": "Cboe Global Markets (CBOE) Launches Cboe Predicts As Fair Value Debate Stays In Focus",
+  "headline_source": "Simply Wall Street",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
@@ -20,11 +20,11 @@
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "NVDA",
-        "mentions": 3
+        "ticker": "FRT",
+        "mentions": 2
       },
       {
-        "ticker": "AMD",
+        "ticker": "AAPL",
         "mentions": 2
       },
       {
@@ -32,18 +32,18 @@
         "mentions": 2
       },
       {
-        "ticker": "DARP",
-        "mentions": 1
+        "ticker": "EMR",
+        "mentions": 2
       },
       {
-        "ticker": "RMD",
+        "ticker": "CBOE",
         "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 10
+        "count": 19
       },
       {
         "label": "Bullish",
@@ -52,14 +52,6 @@
       {
         "label": "Somewhat-Bullish",
         "count": 8
-      },
-      {
-        "label": "Somewhat-Bearish",
-        "count": 4
-      },
-      {
-        "label": "Bearish",
-        "count": 1
       }
     ]
   }
