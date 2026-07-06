@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-05T06:24:58.632153+00:00",
-  "date": "2026-07-05",
+  "updated_at": "2026-07-06T06:53:10.273781+00:00",
+  "date": "2026-07-06",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "FDS",
-  "news_tone": "Neutral",
+  "symbol": "C",
+  "news_tone": "Bullish",
   "top_theme": "Earnings",
-  "headline": "NetApp (NASDAQ:NTAP) Upgraded to \"Strong-Buy\" at Wall Street Zen",
-  "headline_source": "MarketBeat",
+  "headline": "TSM Upgraded: Citigroup Raises TSMC Target Price Amid Strong Dem",
+  "headline_source": "GuruFocus",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
@@ -20,42 +20,42 @@
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "FDS",
+        "ticker": "C",
+        "mentions": 3
+      },
+      {
+        "ticker": "PSA",
         "mentions": 2
       },
       {
-        "ticker": "WMT",
+        "ticker": "WYNN",
         "mentions": 2
       },
       {
-        "ticker": "NTAP",
+        "ticker": "SLB",
         "mentions": 1
       },
       {
-        "ticker": "DHI",
-        "mentions": 1
-      },
-      {
-        "ticker": "CVX",
+        "ticker": "FTV",
         "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Neutral",
-        "count": 30
+        "label": "Bullish",
+        "count": 18
       },
       {
-        "label": "Bullish",
-        "count": 10
+        "label": "Neutral",
+        "count": 17
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 8
+        "count": 11
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 1
+        "count": 3
       }
     ]
   }

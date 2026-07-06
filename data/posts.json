@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-c-2026-07-06",
+    "date": "2026-07-06",
+    "runDate": "2026-07-06",
+    "createdAt": "2026-07-06T06:53:11.832628+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$C news vs price reaction:\n📰 News tone: Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-07-06.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-07-06T06:53:10.273781+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$C",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "C",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-07-06T06:53:10.273781+00:00",
+      "date": "2026-07-06",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "C",
+      "news_tone": "Bullish",
+      "top_theme": "Earnings",
+      "headline": "TSM Upgraded: Citigroup Raises TSMC Target Price Amid Strong Dem",
+      "headline_source": "GuruFocus",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "第三方服务响应读取失败，请稍后重试",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "C",
+            "mentions": 3
+          },
+          {
+            "ticker": "PSA",
+            "mentions": 2
+          },
+          {
+            "ticker": "WYNN",
+            "mentions": 2
+          },
+          {
+            "ticker": "SLB",
+            "mentions": 1
+          },
+          {
+            "ticker": "FTV",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Bullish",
+            "count": 18
+          },
+          {
+            "label": "Neutral",
+            "count": 17
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 11
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-06",
     "date": "2026-07-06",
     "runDate": "2026-07-06",
