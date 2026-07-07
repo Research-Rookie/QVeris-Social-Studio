@@ -1,5 +1,281 @@
 [
   {
+    "id": "polymarket-pulse-2026-07-07",
+    "date": "2026-07-07",
+    "runDate": "2026-07-07",
+    "createdAt": "2026-07-07T05:07:04.587884+00:00",
+    "contentType": "PREDICTION MARKET RADAR",
+    "title": "Prediction Market Radar",
+    "status": "ready",
+    "tweet": "What are people betting on today? 👀\n\nPrediction Market Radar via QVeris:\n💰 Tracked OI: $384.4M\n🔥 Hottest market: World Cup Winner\n📌 Hot theme: Fed decision in January?\n📊 Top OI: GLOBAL\n\nLive market data -> research-ready signals ⚡ https://qveris.ai",
+    "image": "/posts/polymarket_pulse_2026-07-07.png",
+    "dataSource": "QVeris API via Polymarket",
+    "dataUpdatedAt": "2026-07-07T05:07:03.015564+00:00",
+    "xPostId": null,
+    "primaryLabel": "Hot theme",
+    "primaryValue": "Fed decision in January?",
+    "secondaryLabel": "Hottest market",
+    "secondaryValue": "World Cup Winner",
+    "topSymbol": "PM",
+    "topChangePct": 0.0,
+    "polymarketPulse": {
+      "updated_at": "2026-07-07T05:07:03.015564+00:00",
+      "date": "2026-07-07",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via Polymarket",
+      "title": "Prediction Market Radar",
+      "current_volume": 384391706.18036246,
+      "previous_volume": 384391706.18036246,
+      "volume_change_pct": 0.0,
+      "activity_label": "Snapshot",
+      "open_interest": 384391706.18036246,
+      "top_themes": [
+        {
+          "theme": "Fed decision in January?",
+          "activity": 659499548.531115
+        },
+        {
+          "theme": "Fed decision in December?",
+          "activity": 393905949.377453
+        },
+        {
+          "theme": "Fed decision in April?",
+          "activity": 284224765.2922818
+        },
+        {
+          "theme": "Fed decision in March?",
+          "activity": 260075340.35964626
+        },
+        {
+          "theme": "Fed decision in October?",
+          "activity": 252485550.016563
+        }
+      ],
+      "top_markets": [
+        {
+          "title": "World Cup Winner",
+          "theme": "World Cup Winner",
+          "activity": 4011528888.6783476,
+          "volume": 4011528888.6783476,
+          "open_interest": 66841482.05158,
+          "market_id": "30615"
+        },
+        {
+          "title": "Democratic Presidential Nominee 2028",
+          "theme": "Democratic Presidential Nomine",
+          "activity": 1226559077.9752219,
+          "volume": 1226559077.9752219,
+          "open_interest": 10945203.538275002,
+          "market_id": "30829"
+        },
+        {
+          "title": "Republican Presidential Nominee 2028",
+          "theme": "Republican Presidential Nomine",
+          "activity": 669070070.2982605,
+          "volume": 669070070.2982605,
+          "open_interest": 8525334.004998002,
+          "market_id": "31875"
+        },
+        {
+          "title": "Presidential Election Winner 2028",
+          "theme": "Presidential Election Winner 2",
+          "activity": 647310946.6306709,
+          "volume": 647310946.6306709,
+          "open_interest": 51150051.27625698,
+          "market_id": "31552"
+        },
+        {
+          "title": "Next Prime Minister of Ethiopia?",
+          "theme": "Next Prime Minister of Ethiopi",
+          "activity": 147858477.12100106,
+          "volume": 147858477.12100106,
+          "open_interest": 19005.039995000003,
+          "market_id": "411239"
+        }
+      ],
+      "hottest_market": {
+        "title": "World Cup Winner",
+        "theme": "World Cup Winner",
+        "activity": 4011528888.6783476,
+        "volume": 4011528888.6783476,
+        "open_interest": 66841482.05158,
+        "market_id": "30615",
+        "rank_metric": "volume",
+        "rank_value": 4011528888.6783476
+      },
+      "hot_theme": "Fed decision in January?",
+      "top_volume_markets": [
+        {
+          "title": "World Cup Winner",
+          "theme": "World Cup Winner",
+          "activity": 4011528888.6783476,
+          "volume": 4011528888.6783476,
+          "open_interest": 66841482.05158,
+          "market_id": "30615",
+          "rank_metric": "volume",
+          "rank_value": 4011528888.6783476
+        },
+        {
+          "title": "Democratic Presidential Nominee 2028",
+          "theme": "Democratic Presidential Nomine",
+          "activity": 1226559077.9752219,
+          "volume": 1226559077.9752219,
+          "open_interest": 10945203.538275002,
+          "market_id": "30829",
+          "rank_metric": "volume",
+          "rank_value": 1226559077.9752219
+        },
+        {
+          "title": "Republican Presidential Nominee 2028",
+          "theme": "Republican Presidential Nomine",
+          "activity": 669070070.2982605,
+          "volume": 669070070.2982605,
+          "open_interest": 8525334.004998002,
+          "market_id": "31875",
+          "rank_metric": "volume",
+          "rank_value": 669070070.2982605
+        }
+      ],
+      "top_open_interest_markets": [
+        {
+          "title": "GLOBAL",
+          "open_interest": 384391706.18036246,
+          "rank_metric": "open_interest",
+          "rank_value": 384391706.18036246
+        }
+      ],
+      "insight": "Prediction-market attention is clustered around Fed decision in January?, led by World Cup Winner and $384.4M in tracked open interest.",
+      "volume_series": [
+        {
+          "date": "tracked OI",
+          "volume": 384391706.18036246
+        }
+      ],
+      "builder_volume_series": [
+        {
+          "date": "",
+          "volume": 117.696648
+        },
+        {
+          "date": "",
+          "volume": 76989.35407000003
+        },
+        {
+          "date": "",
+          "volume": 3665.332773
+        },
+        {
+          "date": "",
+          "volume": 3503.467372
+        },
+        {
+          "date": "",
+          "volume": 793.0261869999999
+        },
+        {
+          "date": "",
+          "volume": 89366.21789700002
+        },
+        {
+          "date": "",
+          "volume": 96.52222300000001
+        },
+        {
+          "date": "",
+          "volume": 3.01515
+        },
+        {
+          "date": "",
+          "volume": 46919.33175899999
+        },
+        {
+          "date": "",
+          "volume": 40.62626
+        },
+        {
+          "date": "",
+          "volume": 32744.240949999996
+        },
+        {
+          "date": "",
+          "volume": 513.376396
+        },
+        {
+          "date": "",
+          "volume": 9668.380504
+        },
+        {
+          "date": "",
+          "volume": 521.502305
+        }
+      ],
+      "volume_available": true,
+      "takeaway": "Prediction-market attention is clustered around Fed decision in January?, led by World Cup Winner and $384.4M in tracked open interest.",
+      "debug": [
+        {
+          "label": "series",
+          "ok": true,
+          "raw_type": "dict",
+          "parsed_type": "list",
+          "raw_keys": [
+            "status_code",
+            "message",
+            "full_content_file_url",
+            "truncated_content",
+            "content_schema"
+          ],
+          "has_truncated_content": true,
+          "has_full_content_file_url": true,
+          "used_full_content_file_url": true,
+          "theme_rows": 5,
+          "market_rows": 5
+        },
+        {
+          "label": "markets {'limit': 50, 'order': 'volumeNum', 'ascending': False, 'active': True, 'closed': False}",
+          "ok": true,
+          "raw_type": "dict",
+          "parsed_type": "list",
+          "raw_keys": [
+            "status_code",
+            "message",
+            "full_content_file_url",
+            "truncated_content",
+            "content_schema"
+          ],
+          "has_truncated_content": true,
+          "has_full_content_file_url": true,
+          "used_full_content_file_url": true,
+          "theme_rows": 5,
+          "market_rows": 5
+        },
+        {
+          "label": "events {'limit': 30, 'order': 'volume', 'ascending': False, 'volume_min': 1000, 'active': True, 'closed': False}",
+          "ok": true,
+          "raw_type": "dict",
+          "parsed_type": "list",
+          "raw_keys": [
+            "status_code",
+            "message",
+            "full_content_file_url",
+            "truncated_content",
+            "content_schema"
+          ],
+          "has_truncated_content": true,
+          "has_full_content_file_url": true,
+          "used_full_content_file_url": true,
+          "theme_rows": 5,
+          "market_rows": 5
+        },
+        {
+          "label": "parsed_summary",
+          "top_themes": 5,
+          "top_markets": 5,
+          "used_global_only": false
+        }
+      ]
+    }
+  },
+  {
     "id": "news-vs-price-reaction-c-2026-07-06",
     "date": "2026-07-06",
     "runDate": "2026-07-06",
