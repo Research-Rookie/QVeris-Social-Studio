@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-06T06:53:10.273781+00:00",
-  "date": "2026-07-06",
+  "updated_at": "2026-07-07T06:30:15.183608+00:00",
+  "date": "2026-07-07",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "C",
-  "news_tone": "Bullish",
+  "symbol": "CSCO",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "TSM Upgraded: Citigroup Raises TSMC Target Price Amid Strong Dem",
-  "headline_source": "GuruFocus",
+  "headline": "Cisco (CSCO) Stock Surges 46% in 2026: AI Infrastructure Growth, Earnings, and Outlook",
+  "headline_source": "TradingKey",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
@@ -20,42 +20,46 @@
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "C",
-        "mentions": 3
-      },
-      {
-        "ticker": "PSA",
+        "ticker": "CSCO",
         "mentions": 2
       },
       {
-        "ticker": "WYNN",
+        "ticker": "DTE",
         "mentions": 2
       },
       {
-        "ticker": "SLB",
+        "ticker": "LIMN",
         "mentions": 1
       },
       {
-        "ticker": "FTV",
+        "ticker": "LSE",
+        "mentions": 1
+      },
+      {
+        "ticker": "AON",
         "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Bullish",
-        "count": 18
-      },
-      {
         "label": "Neutral",
-        "count": 17
+        "count": 27
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 11
+        "count": 8
+      },
+      {
+        "label": "Bullish",
+        "count": 3
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 3
+        "count": 2
+      },
+      {
+        "label": "Bearish",
+        "count": 2
       }
     ]
   }
