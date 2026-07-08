@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-infy-2026-07-08",
+    "date": "2026-07-08",
+    "runDate": "2026-07-08",
+    "createdAt": "2026-07-08T05:37:11.138412+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$INFY news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-07-08.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-07-08T05:37:09.609081+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$INFY",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "INFY",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-07-08T05:37:09.609081+00:00",
+      "date": "2026-07-08",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "INFY",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "TCS, Infosys Among Six IT Stocks Rated 'Sell'; KPIT Tech the Sole 'Buy' Ahead Of Q1 Results— Full List Inside",
+      "headline_source": "NDTV Profit",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "API error: error happen with input parameters, please have a check.",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "INFY",
+            "mentions": 2
+          },
+          {
+            "ticker": "WFC",
+            "mentions": 2
+          },
+          {
+            "ticker": "DG",
+            "mentions": 2
+          },
+          {
+            "ticker": "WMT",
+            "mentions": 2
+          },
+          {
+            "ticker": "RCL",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 22
+          },
+          {
+            "label": "Bullish",
+            "count": 12
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 10
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-08",
     "date": "2026-07-08",
     "runDate": "2026-07-08",
