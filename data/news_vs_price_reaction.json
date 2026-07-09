@@ -1,61 +1,65 @@
 {
-  "updated_at": "2026-07-08T05:37:09.609081+00:00",
-  "date": "2026-07-08",
+  "updated_at": "2026-07-09T06:27:40.735937+00:00",
+  "date": "2026-07-09",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "INFY",
-  "news_tone": "Neutral",
+  "symbol": "ITW",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "TCS, Infosys Among Six IT Stocks Rated 'Sell'; KPIT Tech the Sole 'Buy' Ahead Of Q1 Results— Full List Inside",
-  "headline_source": "NDTV Profit",
-  "price": 0.0,
+  "headline": "Snap-On (SNA) Expected to Release Earnings on Thursday",
+  "headline_source": "MarketBeat",
+  "price": 265.1,
   "change_pct": 0.0,
   "change_amount": 0.0,
-  "volume": 0,
-  "reaction_label": "Price pending",
-  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "API error: error happen with input parameters, please have a check.",
+  "volume": 1181957,
+  "reaction_label": "Muted reaction",
+  "takeaway": "News tone and price action are both relatively muted.",
+  "price_error": null,
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "INFY",
+        "ticker": "ITW",
         "mentions": 2
       },
       {
-        "ticker": "WFC",
+        "ticker": "INTC",
         "mentions": 2
       },
       {
-        "ticker": "DG",
+        "ticker": "PEP",
         "mentions": 2
       },
       {
-        "ticker": "WMT",
+        "ticker": "HPE",
         "mentions": 2
       },
       {
-        "ticker": "RCL",
+        "ticker": "COIN",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
+        "label": "Somewhat-Bullish",
+        "count": 15
+      },
+      {
         "label": "Neutral",
-        "count": 22
+        "count": 14
       },
       {
         "label": "Bullish",
-        "count": 12
-      },
-      {
-        "label": "Somewhat-Bullish",
-        "count": 10
+        "count": 11
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 2
+        "count": 1
+      },
+      {
+        "label": "Bearish",
+        "count": 1
       }
     ]
   }
