@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-07-09T06:27:40.735937+00:00",
-  "date": "2026-07-09",
+  "updated_at": "2026-07-10T06:26:45.075112+00:00",
+  "date": "2026-07-10",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "ITW",
-  "news_tone": "Somewhat Bullish",
+  "symbol": "CSCO",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Snap-On (SNA) Expected to Release Earnings on Thursday",
+  "headline": "Travelers Companies (TRV) Expected to Release Quarterly Earnings on Friday",
   "headline_source": "MarketBeat",
-  "price": 265.1,
+  "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
-  "volume": 1181957,
-  "reaction_label": "Muted reaction",
-  "takeaway": "News tone and price action are both relatively muted.",
-  "price_error": null,
+  "volume": 0,
+  "reaction_label": "Price pending",
+  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+  "price_error": "第三方服务网关错误，请稍后重试: The origin web server returned an invalid or incomplete response to Cloudflare. This typically indicates the origin is overloaded or misconfigured. The call did not return valid data. Please verify the request parameters against this tool's parameter definitions and try again.",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "ITW",
+        "ticker": "CSCO",
+        "mentions": 3
+      },
+      {
+        "ticker": "NVDA",
+        "mentions": 3
+      },
+      {
+        "ticker": "MS",
         "mentions": 2
       },
       {
-        "ticker": "INTC",
+        "ticker": "EQIX",
         "mentions": 2
       },
       {
-        "ticker": "PEP",
-        "mentions": 2
-      },
-      {
-        "ticker": "HPE",
-        "mentions": 2
-      },
-      {
-        "ticker": "COIN",
+        "ticker": "AMZN",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
+        "label": "Neutral",
+        "count": 17
+      },
+      {
         "label": "Somewhat-Bullish",
         "count": 15
       },
       {
-        "label": "Neutral",
-        "count": 14
-      },
-      {
         "label": "Bullish",
-        "count": 11
+        "count": 7
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 1
+        "count": 4
       },
       {
         "label": "Bearish",
-        "count": 1
+        "count": 3
       }
     ]
   }
