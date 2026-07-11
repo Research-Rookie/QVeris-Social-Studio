@@ -1,65 +1,61 @@
 {
-  "updated_at": "2026-07-10T06:26:45.075112+00:00",
-  "date": "2026-07-10",
+  "updated_at": "2026-07-11T05:27:23.791579+00:00",
+  "date": "2026-07-11",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "CSCO",
+  "symbol": "PWR",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Travelers Companies (TRV) Expected to Release Quarterly Earnings on Friday",
-  "headline_source": "MarketBeat",
+  "headline": "Is Columbia Sportswear's International Strength Offsetting U.S. Tariff Pressures Altering The Investment Case For C...",
+  "headline_source": "Simply Wall Street",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "第三方服务网关错误，请稍后重试: The origin web server returned an invalid or incomplete response to Cloudflare. This typically indicates the origin is overloaded or misconfigured. The call did not return valid data. Please verify the request parameters against this tool's parameter definitions and try again.",
+  "price_error": "API error: error happen with input parameters, please have a check.",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "CSCO",
-        "mentions": 3
-      },
-      {
-        "ticker": "NVDA",
-        "mentions": 3
-      },
-      {
-        "ticker": "MS",
+        "ticker": "PWR",
         "mentions": 2
       },
       {
-        "ticker": "EQIX",
+        "ticker": "EOG",
         "mentions": 2
       },
       {
-        "ticker": "AMZN",
+        "ticker": "CYPH",
+        "mentions": 2
+      },
+      {
+        "ticker": "WST",
+        "mentions": 2
+      },
+      {
+        "ticker": "ABBV",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 17
+        "count": 22
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 15
+        "count": 14
       },
       {
         "label": "Bullish",
-        "count": 7
-      },
-      {
-        "label": "Somewhat-Bearish",
-        "count": 4
+        "count": 2
       },
       {
         "label": "Bearish",
-        "count": 3
+        "count": 1
       }
     ]
   }
