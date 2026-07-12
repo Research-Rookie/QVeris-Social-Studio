@@ -1,5 +1,1360 @@
 [
   {
+    "id": "financial-news-signal-2026-07-12",
+    "date": "2026-07-12",
+    "runDate": "2026-07-12",
+    "createdAt": "2026-07-12T04:47:18.692036+00:00",
+    "contentType": "FINANCIAL NEWS SIGNAL",
+    "title": "Financial News Signal",
+    "status": "ready",
+    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 50\n🏷️ Ticker: MGM\n📌 Theme: Earnings\n🧭 Tone: Neutral\n\nSignals from live news data: https://qveris.ai",
+    "image": "/posts/financial_news_signal_2026-07-12.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-12T04:47:17.185095+00:00",
+    "xPostId": null,
+    "primaryLabel": "Top ticker",
+    "primaryValue": "MGM",
+    "secondaryLabel": "Tone",
+    "secondaryValue": "Neutral",
+    "topSymbol": "MGM",
+    "topChangePct": 0,
+    "financialNewsSignal": {
+      "updated_at": "2026-07-12T04:47:17.185095+00:00",
+      "date": "2026-07-12",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Financial News Signal",
+      "articles": [
+        {
+          "title": "Arista Networks Added $34B in Value This Week—But There’s a Twist in the Numbers",
+          "summary": "Arista Networks saw its market capitalization increase by $34 billion this week, a gain nearly triple its 2026 revenue forecast. Despite this significant rise, analyst earnings...",
+          "url": "https://ts2.tech/en/arista-networks-added-34b-in-value-this-week-but-theres-a-twist-in-the-numbers/",
+          "source": "TechStock²",
+          "published_at": "20260711T220708",
+          "sentiment_score": 0.081377,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ANET",
+            "CSCO",
+            "MS",
+            "NVDA",
+            "FDS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 21,
+          "is_noise": false
+        },
+        {
+          "title": "BHP - Does BHP Have the Metal? More Ore in Store?",
+          "summary": "BHP Group appears fairly valued at A$47.93 per share, with current financials showing US$27.9 billion in revenue and US$6.2 billion in underlying attributable profit for the fir...",
+          "url": "https://simplywall.st/community/narratives/au/materials/asx-bhp/bhp-group-shares/cimqntsg-does-bhp-have-the-metal-more-ore-in-store",
+          "source": "Simply Wall Street",
+          "published_at": "20260711T233944",
+          "sentiment_score": 0.13701,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "BHP"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Lowe's Companies stock holds steady as home improvement demand underpins the long-term outlook",
+          "summary": "Lowe's Companies stock remains stable, reflecting its strong position in the US home improvement market and its exposure to housing and renovation trends. The company's focus on...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/lowe-s-companies-stock-holds-steady-as-home-improvement-demand-underpins/69748461",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T012100",
+          "sentiment_score": 0.399982,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "LOW",
+            "HD"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Real Estate",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Eaton Shares Beat S&P 500, Trade at 40x Earnings",
+          "summary": "Eaton Corporation plc (NYSE:ETN) closed Friday at $407.28, outperforming the S&P 500 for the week and trading at 39.8 times trailing earnings. The company is strategically expan...",
+          "url": "https://ts2.tech/en/eaton-shares-beat-sp-500-trade-at-40x-earnings/",
+          "source": "TechStock²",
+          "published_at": "20260711T223958",
+          "sentiment_score": 0.144921,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ETN",
+            "HUBB",
+            "EMR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Mergers And Acquisitions",
+            "Technology",
+            "Economy Monetary"
+          ],
+          "quality_score": 11,
+          "is_noise": false
+        },
+        {
+          "title": "Jim Cramer Raises Concerns About Oracle Corporation's (NYSE: ORCL) Balance Sheet And AI Strategy",
+          "summary": "Jim Cramer has voiced concerns about Oracle Corporation's balance sheet and its AI strategy, despite the company's significant cloud backlog. Oracle's stock has been volatile, f...",
+          "url": "https://www.foreignpolicyjournal.com/2026/07/11/jim-cramer-raises-concerns-about-oracle-corporations-nyse-orcl-balance-sheet-and-ai-strategy/",
+          "source": "Foreign Policy Journal",
+          "published_at": "20260712T020829",
+          "sentiment_score": -0.394075,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "ORCL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Norwegian Cruise Line Holdings (NCLH) After ZeroNorth Deal And CMO Hire, Is It Undervalued",
+          "summary": "Norwegian Cruise Line Holdings (NCLH) recently partnered with ZeroNorth for fuel procurement and hired a new CMO, yet its share price has declined year-to-date. While a detailed...",
+          "url": "https://simplywall.st/stocks/us/consumer-services/nyse-nclh/norwegian-cruise-line-holdings/news/norwegian-cruise-line-holdings-nclh-after-zeronorth-deal-and/amp",
+          "source": "Simply Wall Street",
+          "published_at": "20260712T013824",
+          "sentiment_score": 0.104958,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NCLH"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Finance",
+            "Energy Transportation"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Sempra (SRE) Could Be 9% Below Fair Value On Leadership Reshuffle",
+          "summary": "Sempra (SRE) is currently valued by some analysts as 9% undervalued at $94.20 per share, with a fair value estimate of $103.50, driven by capital recycling initiatives and poten...",
+          "url": "https://simplywall.st/stocks/us/utilities/nyse-sre/sempra/news/sempra-sre-could-be-9-below-fair-value-on-leadership-reshuff",
+          "source": "Simply Wall Street",
+          "published_at": "20260711T232953",
+          "sentiment_score": 0.275862,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SRE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Price to earnings forward of Amesite Inc. – MUN:VDE0",
+          "summary": "This article displays the \"Price to earnings forward\" value for Amesite Inc. (MUN:VDE0) on the Munich Stock Exchange. It includes standard financial data disclaimers and present...",
+          "url": "https://www.tradingview.com/symbols/MUN-VDE0/financials-statistics-and-ratios/price-earnings-fwd/",
+          "source": "TradingView",
+          "published_at": "20260711T230931",
+          "sentiment_score": 0.027338,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AMST"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "SEGG Stock Price, Forecast & Analysis | LOTTERY.COM INC (NASDAQ:SEGG)",
+          "summary": "This article provides a comprehensive analysis of LOTTERY.COM INC (NASDAQ: SEGG) stock, detailing its current price, key statistics, and performance over various periods. It als...",
+          "url": "https://www.chartmill.com/stock/quote/SEGG/profile",
+          "source": "Chartmill",
+          "published_at": "20260711T223235",
+          "sentiment_score": -0.647679,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "SEGG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Ipo",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "U.S. Bancorp (USB) Stock May Be Below Fair Value As Enhanced Payments Launches",
+          "summary": "U.S. Bancorp (USB) stock's recent performance shows a 101.8% return over three years, yet current valuations suggest it may still be undervalued, particularly with the launch of...",
+          "url": "https://simplywall.st/stocks/us/banks/nyse-usb/us-bancorp/news/us-bancorp-usb-stock-may-be-below-fair-value-as-enhanced-pay",
+          "source": "Simply Wall Street",
+          "published_at": "20260711T222547",
+          "sentiment_score": 0.408949,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "USB"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "How Index Inclusion And Mixed Earnings Signals At Conagra Brands (CAG) Has Changed Its Investment Story",
+          "summary": "Conagra Brands (CAG) has been added to the Russell Small Cap Comp Value Index and is facing mixed earnings signals with expected lower earnings per share but higher revenues. Th...",
+          "url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-cag/conagra-brands/news/how-index-inclusion-and-mixed-earnings-signals-at-conagra-br/amp",
+          "source": "Simply Wall Street",
+          "published_at": "20260711T220718",
+          "sentiment_score": 0.108058,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CAG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Retail Wholesale"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "PPG Industries stock holds steady as coatings demand underpins long-term outlook",
+          "summary": "PPG Industries stock is viewed as a stable investment reflective of its diverse global coatings markets, including automotive and construction. The company's broad portfolio and...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ppg-industries-stock-holds-steady-as-coatings-demand-underpins-long-term/69749679",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T034836",
+          "sentiment_score": 0.483714,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "PPG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Manufacturing",
+            "Real Estate"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Progressive Corp stock holds steady as insurance leader focuses on underwriting discipline",
+          "summary": "Progressive Corp stock remains stable due to the insurer's focus on disciplined underwriting and its strong presence in the US auto and property-casualty markets. The company's...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/progressive-corp-stock-holds-steady-as-insurance-leader-focuses-on/69748950",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T014935",
+          "sentiment_score": 0.2907,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "PGR",
+            "AIG",
+            "ALL",
+            "CB",
+            "HIG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "MGM Resorts stock holds steady as Las Vegas tourism underpins recovery",
+          "summary": "MGM Resorts stock relies heavily on the health of Las Vegas tourism, casino operations, and diversified entertainment offerings, making its earnings sensitive to travel demand a...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/mgm-resorts-stock-holds-steady-as-las-vegas-tourism-underpins-recovery/69748786",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T010820",
+          "sentiment_score": 0.339796,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MGM",
+            "LVS",
+            "WYNN",
+            "CZR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Retail Wholesale"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Constellation Energy Stock Up 5%, Tuesday Seen as Test",
+          "summary": "Constellation Energy's stock rose 5.1% last week, mirroring gains in peer stocks Vistra Corp. and Talen Energy, suggesting a broad sector bounce rather than a specific revaluati...",
+          "url": "https://ts2.tech/en/constellation-energy-stock-up-5-tuesday-seen-as-test/",
+          "source": "TechStock²",
+          "published_at": "20260711T225021",
+          "sentiment_score": 0.21894,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CEG",
+            "VST",
+            "URI",
+            "MSFT",
+            "AMZN"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Energy Transportation",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "AES Corp. stock holds steady as the power producer leans on long-term contracts",
+          "summary": "AES Corp. (ISIN: US00130H1059) maintains stable stock performance due to its business model focused on regulated utilities and long-term power purchase agreements. The company o...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/aes-corp-stock-holds-steady-as-the-power-producer-leans-on-long-term/69748213",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260711T221800",
+          "sentiment_score": 0.049722,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AES"
+          ],
+          "topics": [
+            "Energy Transportation",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "KLA Gets $270 Price Target—TSMC Seen as Key for Stock",
+          "summary": "KLA Corporation received a $270 price target from Stifel, but its stock performance is heavily influenced by upcoming announcements from Taiwan Semiconductor Manufacturing Co. (...",
+          "url": "https://ts2.tech/en/kla-gets-270-price-target-tsmc-seen-as-key-for-stock/",
+          "source": "TechStock²",
+          "published_at": "20260711T214630",
+          "sentiment_score": 0.183485,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "KLAC",
+            "META",
+            "AMAT",
+            "LRCX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Price to earnings forward of Traeger, Inc. – NYSE:COOK",
+          "summary": "This page provides financial data for Traeger, Inc. (NYSE: COOK), specifically focusing on its forward price-to-earnings ratio. The content appears to be a stub or an incomplete...",
+          "url": "https://www.tradingview.com/symbols/NYSE-COOK/financials-statistics-and-ratios/price-earnings-fwd/",
+          "source": "TradingView",
+          "published_at": "20260711T220938",
+          "sentiment_score": 0.035542,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "COOK"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 8,
+          "is_noise": false
+        },
+        {
+          "title": "EQT Corp. stock reflects steady US natural gas exposure as investors weigh long-term shale strategy",
+          "summary": "EQT Corp. stock provides investors with direct exposure to the US natural gas market through its position as the largest pure-play producer in the Appalachian Basin. The company...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/eqt-corp-stock-reflects-steady-us-natural-gas-exposure-as-investors-weigh/69749728",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T035438",
+          "sentiment_score": 0.346569,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "EQT"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "3M (MMM) Stock May Be 26% Undervalued On PFAS Lawsuit Risk",
+          "summary": "3M's stock (MMM) appears potentially 26% undervalued based on a Discounted Cash Flow (DCF) model and tailored P/E estimates, despite ongoing legal risks from PFAS lawsuits. Whil...",
+          "url": "https://simplywall.st/stocks/us/capital-goods/nyse-mmm/3m/news/3m-mmm-stock-may-be-26-undervalued-on-pfas-lawsuit-risk",
+          "source": "Simply Wall Street",
+          "published_at": "20260712T033815",
+          "sentiment_score": -0.171314,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "MMM"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Is Fastenal (FAST) Fairly Valued On Its Dividend Increase?",
+          "summary": "Fastenal (FAST) has increased its quarterly dividend by 8.3% to $0.26 per share. Despite its strong performance and dividend growth, the company's valuation, with a P/E ratio of...",
+          "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-fast/fastenal/news/is-fastenal-fast-fairly-valued-on-its-dividend-increase",
+          "source": "Simply Wall Street",
+          "published_at": "20260712T022845",
+          "sentiment_score": 0.109156,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "FAST",
+            "GWW",
+            "URI"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Retail Wholesale",
+            "Financial Markets",
+            "Manufacturing"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "W.W. Grainger stock reflects steady industrial demand",
+          "summary": "W.W. Grainger's stock offers investors exposure to the industrial distribution sector, reflecting spending trends in maintenance, repair, and operating (MRO) across various indu...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/w-w-grainger-stock-reflects-steady-industrial-demand/69748908",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T013751",
+          "sentiment_score": 0.40835,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "GWW"
+          ],
+          "topics": [
+            "Manufacturing",
+            "Financial Markets",
+            "Economy Macro",
+            "Earnings",
+            "Retail Wholesale"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Norwegian Cruise Line Holdings (NCLH) After ZeroNorth Deal And CMO Hire, Is It Undervalued",
+          "summary": "Norwegian Cruise Line Holdings (NCLH) has partnered with ZeroNorth for fuel procurement and hired Lee D. Applbaum as CMO, yet its share price has declined year-to-date. The comp...",
+          "url": "https://simplywall.st/stocks/us/consumer-services/nyse-nclh/norwegian-cruise-line-holdings/news/norwegian-cruise-line-holdings-nclh-after-zeronorth-deal-and",
+          "source": "Simply Wall Street",
+          "published_at": "20260712T013322",
+          "sentiment_score": 0.069391,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NCLH",
+            "MAR",
+            "RCL",
+            "LULU",
+            "GOOGL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "ROSEN, TRUSTED INVESTOR COUNSEL, Encourages PennyMac Financial Services, Inc. Investors to Inquire About Securities...",
+          "summary": "Rosen Law Firm is investigating potential securities claims against PennyMac Financial Services, Inc. (PFSI) after the company reported a significant decrease in its servicing s...",
+          "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/rosen-trusted-investor-counsel-encourages-pennymac-financial-ser-1189398",
+          "source": "ACCESS Newswire",
+          "published_at": "20260712T000913",
+          "sentiment_score": 0.034374,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ACCS"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "FirstEnergy stock reflects regulated utility profile as investors weigh grid investment needs",
+          "summary": "FirstEnergy stock represents a regulated electric utility, with its investment appeal rooted in stability, predictable cash flow, and dividend sustainability rather than rapid g...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/firstenergy-stock-reflects-regulated-utility-profile-as-investors-weigh/69748490",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260711T233312",
+          "sentiment_score": 0.294035,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "FE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Is WisdomTree's New Space ETF WSPC a Sign WT Is Doubling Down on Thematics?",
+          "summary": "WisdomTree has launched the WisdomTree Space Economy Fund (WSPC), an actively managed ETF focused on global space-related companies, with a 0.75% expense ratio. This new offerin...",
+          "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-wt/wisdomtree/news/is-wisdomtrees-new-space-etf-wspc-a-sign-wt-is-doubling-down",
+          "source": "Simply Wall Street",
+          "published_at": "20260711T233028",
+          "sentiment_score": 0.210918,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "WT",
+            "NDAQ"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Technology"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Is Corteva’s (CTVA) Arginex Soy Tie-Up a Subtle Shift in Its Innovation Playbook?",
+          "summary": "Corteva, Inc. (CTVA) has partnered with Arevo AB to integrate Arginex Soy, an arginine-based seed treatment, into its soybean portfolio, aiming to boost productivity and sustain...",
+          "url": "https://simplywall.st/stocks/us/materials/nyse-ctva/corteva/news/is-cortevas-ctva-arginex-soy-tie-up-a-subtle-shift-in-its-in",
+          "source": "Simply Wall Street",
+          "published_at": "20260711T232546",
+          "sentiment_score": 0.292694,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CTVA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Price to earnings forward of Energy Recovery, Inc. – HAN:5E2",
+          "summary": "This article provides financial information for Energy Recovery, Inc. (HAN:5E2) on the Hannover Stock Exchange, specifically focusing on its Price to Earnings Forward metric. It...",
+          "url": "https://www.tradingview.com/symbols/HAN-5E2/financials-statistics-and-ratios/price-earnings-fwd/",
+          "source": "TradingView",
+          "published_at": "20260711T231045",
+          "sentiment_score": 0.034452,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ERII"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Price to earnings forward of Ascendis Pharma A/S – BIVA:ASND1/N",
+          "summary": "This article provides financial information for Ascendis Pharma A/S (BIVA:ASND1/N), specifically focusing on its forward price-to-earnings ratio. The content indicates that the...",
+          "url": "https://www.tradingview.com/symbols/BIVA-ASND1/N/financials-statistics-and-ratios/price-earnings-fwd/",
+          "source": "TradingView",
+          "published_at": "20260711T223959",
+          "sentiment_score": 0.048837,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ASND"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Price to earnings forward of Ellington Financial Inc. – SWB:1EL",
+          "summary": "This article provides financial data for Ellington Financial Inc. (SWB:1EL) on the Stuttgart Stock Exchange, specifically its price to earnings forward. It highlights that the m...",
+          "url": "https://www.tradingview.com/symbols/SWB-1EL/financials-statistics-and-ratios/price-earnings-fwd/",
+          "source": "TradingView",
+          "published_at": "20260711T220951",
+          "sentiment_score": 0.032764,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "EFC"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Xcel Energy stock reflects a regulated utility with long-term growth ambitions",
+          "summary": "Xcel Energy operates as a major regulated electric and natural gas utility in the US, known for stable, rate-based returns and significant investments in grid modernization and...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/xcel-energy-stock-reflects-a-regulated-utility-with-long-term-growth/69749633",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T034405",
+          "sentiment_score": 0.45568,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "XEL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "NVR stock holds steady as homebuilding demand supports long-term growth",
+          "summary": "NVR Inc. is a conservative player in the U.S. homebuilding sector, known for its build-to-order model and disciplined land acquisition strategy. This approach helps the company...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/nvr-stock-holds-steady-as-homebuilding-demand-supports-long-term-growth/69749204",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T025127",
+          "sentiment_score": 0.48295,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "NVR"
+          ],
+          "topics": [
+            "Real Estate",
+            "Financial Markets",
+            "Economy Macro",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "J.B. Hunt Transport stock reflects steady logistics demand and intermodal strength",
+          "summary": "J.B. Hunt Transport stock is influenced by the rising demand for integrated logistics and intermodal freight services, with the company expanding its offerings in trucking, rail...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/j-b-hunt-transport-stock-reflects-steady-logistics-demand-and-intermodal/69749081",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T022106",
+          "sentiment_score": 0.470465,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "JBHT"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Arthur J. Gallagher stock reflects steady growth in global insurance brokerage",
+          "summary": "Arthur J. Gallagher stock represents a leading US-listed insurance brokerage and risk management group known for its diversified operations and acquisition-driven strategy, fost...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/arthur-j-gallagher-stock-reflects-steady-growth-in-global-insurance/69748857",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T012405",
+          "sentiment_score": 0.459371,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "AJG"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings",
+            "Mergers And Acquisitions",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "MGM Resorts (MGM) Stock May Be 23% Undervalued After Buyout Probe",
+          "summary": "MGM Resorts International (MGM) stock features a split valuation, with a Discounted Cash Flow (DCF) intrinsic value suggesting it is 23.4% undervalued, while market multiples in...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mgm-resorts-mgm-stock-may-010804287.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260712T003817",
+          "sentiment_score": 0.255674,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MGM"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Mergers And Acquisitions"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Lamb Weston stock steadies on its business mix",
+          "summary": "Lamb Weston Holdings, Inc. (LW) maintains its stock stability due to its focus on frozen potato products and exposure to the global foodservice industry. The company's business...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/lamb-weston-stock-steadies-on-its-business-mix/69748607",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T001310",
+          "sentiment_score": 0.142818,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "LW"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Scienture Holdings (SCNX) Registration filing Summary",
+          "summary": "Scienture Holdings (SCNX) filed a registration summary outlining its strategic shift from a digital pharmacy marketplace to a specialty pharmaceutical company, focusing on CNS a...",
+          "url": "https://quartr.com/events/scienture-holdings-inc-scnx-registration-filing_F1ZpJ9do",
+          "source": "Quartr",
+          "published_at": "20260711T231250",
+          "sentiment_score": -0.319657,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "SCNX"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "ENR stock holds steady as Energizer focuses on battery and lighting growth",
+          "summary": "Energizer Holdings Inc. (ENR) stock reflects the company's strong position in the global battery and portable lighting market. The article discusses how Energizer leverages esta...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/enr-stock-holds-steady-as-energizer-focuses-on-battery-and-lighting-growth/69747922",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260711T221700",
+          "sentiment_score": 0.189893,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "ENR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "D.R. Horton stock reflects the homebuilder’s scale in a changing US housing market",
+          "summary": "D.R. Horton's stock serves as a bellwether for the US homebuilding sector, benefiting from the company's national scale and diversified brand portfolio amidst tight housing supp...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/d-r-horton-stock-reflects-the-homebuilder-s-scale-in-a-changing-us/69748200",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260711T221452",
+          "sentiment_score": 0.302688,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "DHI",
+            "LEN"
+          ],
+          "topics": [
+            "Real Estate",
+            "Financial Markets",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Aflac stock holds steady as insurance business model supports long-term growth",
+          "summary": "Aflac Inc. focuses on supplemental health and life insurance, offering a diversified earnings base through its mature US franchise and substantial operations in Japan. The compa...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/aflac-stock-holds-steady-as-insurance-business-model-supports-long-term/69748186",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260711T221101",
+          "sentiment_score": 0.310541,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AFL"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "How Investors Are Reacting To Vulcan Materials (VMC) Dividend Amid Russell Index Exit And Cost Pressures",
+          "summary": "Vulcan Materials (VMC) recently declared a quarterly cash dividend of US$0.52 per share, while simultaneously being removed from the Russell 1000 Dynamic Index. This situation p...",
+          "url": "https://simplywall.st/stocks/us/materials/nyse-vmc/vulcan-materials/news/how-investors-are-reacting-to-vulcan-materials-vmc-dividend",
+          "source": "Simply Wall Street",
+          "published_at": "20260712T003658",
+          "sentiment_score": 0.072928,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "VMC",
+            "MLM",
+            "PWR",
+            "NVDA",
+            "MA"
+          ],
+          "topics": [
+            "Earnings",
+            "Real Estate",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 5,
+          "is_noise": false
+        },
+        {
+          "title": "Energy Transfer’s $1.75B Debt Move May Head Off 10% Preferred Reset",
+          "summary": "Energy Transfer (NYSE:ET) is issuing $1.75 billion in new debt, consisting of 6.55% Series 2026A and 6.70% Series 2026B notes, to redeem its $900 million Series H preferred shar...",
+          "url": "https://ts2.tech/en/energy-transfers-1-75b-debt-move-may-head-off-10-preferred-reset/",
+          "source": "TechStock²",
+          "published_at": "20260711T221101",
+          "sentiment_score": 0.229793,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "ET",
+            "WMB"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Monetary",
+            "Energy Transportation",
+            "Finance"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Hormel Foods stock holds steady as a branded protein portfolio supports long-term growth",
+          "summary": "Hormel Foods stock reflects a stable, diversified branded protein business known for its consistent cash flows and long-term growth driven by consumer staples demand and interna...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/hormel-foods-stock-holds-steady-as-a-branded-protein-portfolio-supports/69749163",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T024055",
+          "sentiment_score": 0.479523,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "HRL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Retail Wholesale",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Ameriprise Financial stock reflects a diversified wealth management leader",
+          "summary": "Ameriprise Financial stock offers exposure to a diversified wealth management leader specializing in advisory, asset management, and retirement services for affluent and mass-af...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ameriprise-financial-stock-reflects-a-diversified-wealth-management-leader/69748941",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T014606",
+          "sentiment_score": 0.448917,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "AMP"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "MGM Resorts (MGM) Stock May Be 23% Undervalued After Buyout Probe",
+          "summary": "MGM Resorts International's stock has risen 28.5% year-to-date, with a Discounted Cash Flow (DCF) model suggesting it is 23.4% undervalued, implying an intrinsic value of about...",
+          "url": "https://uk.finance.yahoo.com/news/mgm-resorts-mgm-stock-may-010804287.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260712T010817",
+          "sentiment_score": 0.252242,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MGM"
+          ],
+          "topics": [
+            "Mergers And Acquisitions",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Cummins stock reflects steady engine demand and global transition bets",
+          "summary": "Cummins Inc. (CMI) stock is seen as a bellwether for heavy-duty trucking and industrial equipment demand globally. The company balances its robust diesel engine business with si...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cummins-stock-reflects-steady-engine-demand-and-global-transition-bets/69748727",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T005022",
+          "sentiment_score": 0.324507,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CMI"
+          ],
+          "topics": [
+            "Earnings",
+            "Energy Transportation",
+            "Manufacturing",
+            "Financial Markets"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Motorola Solutions stock reflects steady demand for mission-critical communications",
+          "summary": "Motorola Solutions (MSI) stock is supported by its strong presence in mission-critical communications and public safety technology, driven by resilient demand and a growing recu...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/motorola-solutions-stock-reflects-steady-demand-for-mission-critical/69748713",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T004714",
+          "sentiment_score": 0.462095,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "MSI"
+          ],
+          "topics": [
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "RE stock holds steady as Reinsurance Group of America stays resilient",
+          "summary": "Reinsurance Group of America (RE) stock reflects the company's role in global life and health reinsurance, focusing on life and health risk transfer, asset returns, and long-dur...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/re-stock-holds-steady-as-reinsurance-group-of-america-stays-resilient/69747965",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260711T222700",
+          "sentiment_score": 0.132229,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "RZB",
+            "HIG",
+            "MET"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Carnival stock steadies on cruise demand and fleet growth",
+          "summary": "Carnival Corp. (CCL) stock performance is primarily driven by cruise demand, pricing power, and fleet expansion, with investor focus on occupancy and bookings. The company's lar...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/carnival-stock-steadies-on-cruise-demand-and-fleet-growth/69748247",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260711T222331",
+          "sentiment_score": 0.333652,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CCL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Form 4 Heartflow Inc For: 10 July By Investing.com",
+          "summary": "This article from Investing.com announces the filing of a Form 4 for Heartflow Inc. on July 10, 2026. Form 4 filings are typically used to report changes in beneficial ownership...",
+          "url": "https://ng.investing.com/news/stock-market-news/form-4-heartflow-inc-for-10-july-93CH-2595679",
+          "source": "Investing.com Nigeria",
+          "published_at": "20260711T225600",
+          "sentiment_score": 0.012179,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HTFL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        }
+      ],
+      "article_count": 50,
+      "top_ticker": "MGM",
+      "top_topic": "Earnings",
+      "dominant_sentiment": "Neutral",
+      "top_story": "Arista Networks Added $34B in Value This Week—But There’s a Twist in the Numbers",
+      "signal_articles": [
+        {
+          "title": "Arista Networks Added $34B in Value This Week—But There’s a Twist in the Numbers",
+          "summary": "Arista Networks saw its market capitalization increase by $34 billion this week, a gain nearly triple its 2026 revenue forecast. Despite this significant rise, analyst earnings...",
+          "url": "https://ts2.tech/en/arista-networks-added-34b-in-value-this-week-but-theres-a-twist-in-the-numbers/",
+          "source": "TechStock²",
+          "published_at": "20260711T220708",
+          "sentiment_score": 0.081377,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ANET",
+            "CSCO",
+            "MS",
+            "NVDA",
+            "FDS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 21,
+          "is_noise": false
+        },
+        {
+          "title": "BHP - Does BHP Have the Metal? More Ore in Store?",
+          "summary": "BHP Group appears fairly valued at A$47.93 per share, with current financials showing US$27.9 billion in revenue and US$6.2 billion in underlying attributable profit for the fir...",
+          "url": "https://simplywall.st/community/narratives/au/materials/asx-bhp/bhp-group-shares/cimqntsg-does-bhp-have-the-metal-more-ore-in-store",
+          "source": "Simply Wall Street",
+          "published_at": "20260711T233944",
+          "sentiment_score": 0.13701,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "BHP"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Lowe's Companies stock holds steady as home improvement demand underpins the long-term outlook",
+          "summary": "Lowe's Companies stock remains stable, reflecting its strong position in the US home improvement market and its exposure to housing and renovation trends. The company's focus on...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/lowe-s-companies-stock-holds-steady-as-home-improvement-demand-underpins/69748461",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260712T012100",
+          "sentiment_score": 0.399982,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "LOW",
+            "HD"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Real Estate",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Eaton Shares Beat S&P 500, Trade at 40x Earnings",
+          "summary": "Eaton Corporation plc (NYSE:ETN) closed Friday at $407.28, outperforming the S&P 500 for the week and trading at 39.8 times trailing earnings. The company is strategically expan...",
+          "url": "https://ts2.tech/en/eaton-shares-beat-sp-500-trade-at-40x-earnings/",
+          "source": "TechStock²",
+          "published_at": "20260711T223958",
+          "sentiment_score": 0.144921,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ETN",
+            "HUBB",
+            "EMR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Mergers And Acquisitions",
+            "Technology",
+            "Economy Monetary"
+          ],
+          "quality_score": 11,
+          "is_noise": false
+        },
+        {
+          "title": "Jim Cramer Raises Concerns About Oracle Corporation's (NYSE: ORCL) Balance Sheet And AI Strategy",
+          "summary": "Jim Cramer has voiced concerns about Oracle Corporation's balance sheet and its AI strategy, despite the company's significant cloud backlog. Oracle's stock has been volatile, f...",
+          "url": "https://www.foreignpolicyjournal.com/2026/07/11/jim-cramer-raises-concerns-about-oracle-corporations-nyse-orcl-balance-sheet-and-ai-strategy/",
+          "source": "Foreign Policy Journal",
+          "published_at": "20260712T020829",
+          "sentiment_score": -0.394075,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "ORCL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Norwegian Cruise Line Holdings (NCLH) After ZeroNorth Deal And CMO Hire, Is It Undervalued",
+          "summary": "Norwegian Cruise Line Holdings (NCLH) recently partnered with ZeroNorth for fuel procurement and hired a new CMO, yet its share price has declined year-to-date. While a detailed...",
+          "url": "https://simplywall.st/stocks/us/consumer-services/nyse-nclh/norwegian-cruise-line-holdings/news/norwegian-cruise-line-holdings-nclh-after-zeronorth-deal-and/amp",
+          "source": "Simply Wall Street",
+          "published_at": "20260712T013824",
+          "sentiment_score": 0.104958,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NCLH"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Finance",
+            "Energy Transportation"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Sempra (SRE) Could Be 9% Below Fair Value On Leadership Reshuffle",
+          "summary": "Sempra (SRE) is currently valued by some analysts as 9% undervalued at $94.20 per share, with a fair value estimate of $103.50, driven by capital recycling initiatives and poten...",
+          "url": "https://simplywall.st/stocks/us/utilities/nyse-sre/sempra/news/sempra-sre-could-be-9-below-fair-value-on-leadership-reshuff",
+          "source": "Simply Wall Street",
+          "published_at": "20260711T232953",
+          "sentiment_score": 0.275862,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SRE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Price to earnings forward of Amesite Inc. – MUN:VDE0",
+          "summary": "This article displays the \"Price to earnings forward\" value for Amesite Inc. (MUN:VDE0) on the Munich Stock Exchange. It includes standard financial data disclaimers and present...",
+          "url": "https://www.tradingview.com/symbols/MUN-VDE0/financials-statistics-and-ratios/price-earnings-fwd/",
+          "source": "TradingView",
+          "published_at": "20260711T230931",
+          "sentiment_score": 0.027338,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AMST"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "SEGG Stock Price, Forecast & Analysis | LOTTERY.COM INC (NASDAQ:SEGG)",
+          "summary": "This article provides a comprehensive analysis of LOTTERY.COM INC (NASDAQ: SEGG) stock, detailing its current price, key statistics, and performance over various periods. It als...",
+          "url": "https://www.chartmill.com/stock/quote/SEGG/profile",
+          "source": "Chartmill",
+          "published_at": "20260711T223235",
+          "sentiment_score": -0.647679,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "SEGG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Ipo",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "U.S. Bancorp (USB) Stock May Be Below Fair Value As Enhanced Payments Launches",
+          "summary": "U.S. Bancorp (USB) stock's recent performance shows a 101.8% return over three years, yet current valuations suggest it may still be undervalued, particularly with the launch of...",
+          "url": "https://simplywall.st/stocks/us/banks/nyse-usb/us-bancorp/news/us-bancorp-usb-stock-may-be-below-fair-value-as-enhanced-pay",
+          "source": "Simply Wall Street",
+          "published_at": "20260711T222547",
+          "sentiment_score": 0.408949,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "USB"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        }
+      ],
+      "top_tickers": [
+        {
+          "ticker": "MGM",
+          "mentions": 3
+        },
+        {
+          "ticker": "NVDA",
+          "mentions": 2
+        },
+        {
+          "ticker": "NCLH",
+          "mentions": 2
+        },
+        {
+          "ticker": "HIG",
+          "mentions": 2
+        },
+        {
+          "ticker": "URI",
+          "mentions": 2
+        }
+      ],
+      "top_topics": [
+        {
+          "topic": "Earnings",
+          "mentions": 49
+        },
+        {
+          "topic": "Financial Markets",
+          "mentions": 45
+        },
+        {
+          "topic": "Finance",
+          "mentions": 24
+        },
+        {
+          "topic": "Economy Macro",
+          "mentions": 23
+        },
+        {
+          "topic": "Energy Transportation",
+          "mentions": 11
+        }
+      ],
+      "sentiment_counts": [
+        {
+          "label": "Neutral",
+          "count": 17
+        },
+        {
+          "label": "Somewhat-Bullish",
+          "count": 17
+        },
+        {
+          "label": "Bullish",
+          "count": 11
+        },
+        {
+          "label": "Bearish",
+          "count": 2
+        },
+        {
+          "label": "Somewhat-Bearish",
+          "count": 2
+        }
+      ],
+      "top_sources": [
+        {
+          "source": "ad-hoc-news.de",
+          "count": 22
+        },
+        {
+          "source": "Simply Wall Street",
+          "count": 11
+        },
+        {
+          "source": "TechStock²",
+          "count": 5
+        },
+        {
+          "source": "TradingView",
+          "count": 5
+        },
+        {
+          "source": "Foreign Policy Journal",
+          "count": 1
+        }
+      ],
+      "takeaway": "News flow is centered on Earnings, with MGM appearing most often and the headline tone mostly neutral."
+    }
+  },
+  {
     "id": "polymarket-pulse-2026-07-12",
     "date": "2026-07-12",
     "runDate": "2026-07-12",
