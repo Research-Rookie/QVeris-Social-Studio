@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-11T05:27:23.791579+00:00",
-  "date": "2026-07-11",
+  "updated_at": "2026-07-12T05:42:53.576266+00:00",
+  "date": "2026-07-12",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "PWR",
-  "news_tone": "Neutral",
+  "symbol": "MGM",
+  "news_tone": "Bullish",
   "top_theme": "Earnings",
-  "headline": "Is Columbia Sportswear's International Strength Offsetting U.S. Tariff Pressures Altering The Investment Case For C...",
+  "headline": "Global E Online Stock And 2 Retail Plays Built For Tariff Pressure",
   "headline_source": "Simply Wall Street",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,42 +15,46 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "API error: error happen with input parameters, please have a check.",
+  "price_error": "第三方服务响应读取失败，请稍后重试",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "PWR",
+        "ticker": "MGM",
+        "mentions": 3
+      },
+      {
+        "ticker": "NVDA",
         "mentions": 2
       },
       {
-        "ticker": "EOG",
+        "ticker": "NCLH",
         "mentions": 2
       },
       {
-        "ticker": "CYPH",
+        "ticker": "GWW",
         "mentions": 2
       },
       {
-        "ticker": "WST",
-        "mentions": 2
-      },
-      {
-        "ticker": "ABBV",
+        "ticker": "LULU",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Neutral",
-        "count": 22
+        "label": "Bullish",
+        "count": 19
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 14
+        "count": 16
       },
       {
-        "label": "Bullish",
+        "label": "Neutral",
+        "count": 12
+      },
+      {
+        "label": "Somewhat-Bearish",
         "count": 2
       },
       {
