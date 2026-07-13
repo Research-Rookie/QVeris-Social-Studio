@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-07-12T05:42:53.576266+00:00",
-  "date": "2026-07-12",
+  "updated_at": "2026-07-13T05:53:02.135576+00:00",
+  "date": "2026-07-13",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "MGM",
-  "news_tone": "Bullish",
+  "symbol": "FHB",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Global E Online Stock And 2 Retail Plays Built For Tariff Pressure",
-  "headline_source": "Simply Wall Street",
+  "headline": "Earnings To Watch: Fastenal (FAST) Reports Q2 Results Tomorrow",
+  "headline_source": "TradingView",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "第三方服务响应读取失败，请稍后重试",
+  "price_error": "Could not parse quote data for FHB: {'status_code': 200, 'data': {'status': 'OK', 'request_id': '650a6c51ce944bb4ba0353e0397a03a7', 'results': [{'ticker': 'FHB', 'date': '2024-02-06', 'total_volume': 180078.0, 'short_volume': 66457.0, 'exempt_volume': 106.0, 'non_exempt_volume': 66351.0, 'short_volume_ratio': 36.9, 'nyse_short_volume': 865, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 65592, 'nasdaq_carteret_short_volume_exempt': 106, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-07', 'total_volume': 163933.0, 'short_volume': 96059.0, 'exempt_volume': 355.0, 'non_exempt_volume': 95704.0, 'short_volume_ratio': 58.6, 'nyse_short_volume': 847, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 95212, 'nasdaq_carteret_short_volume_exempt': 355, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-08', 'total_volume': 94262.0, 'short_volume': 51408.0, 'exempt_volume': 213.0, 'non_exempt_volume': 51195.0, 'short_volume_ratio': 54.54, 'nyse_short_volume': 627, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 50781, 'nasdaq_carteret_short_volume_exempt': 213, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-09', 'total_volume': 136654.0, 'short_volume': 60308.0, 'exempt_volume': 0.0, 'non_exempt_volume': 60308.0, 'short_volume_ratio': 44.13, 'nyse_short_volume': 2303, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 58005, 'nasdaq_carteret_short_volume_exempt': 0, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-12', 'total_volume': 97278.0, 'short_volume': 56278.0, 'exempt_volume': 10.0, 'non_exempt_volume': 56268.0, 'short_volume_ratio': 57.85, 'nyse_short_volume': 1981, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 54262, 'nasdaq_carteret_short_volume_exempt': 10, 'nasdaq_chicago_short_volume': 35, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-13', 'total_volume': 167841.0, 'short_volume': 124053.0, 'exempt_volume': 85.0, 'non_exempt_volume': 123968.0, 'short_volume_ratio': 73.91, 'nyse_short_volume': 2350, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 121703, 'nasdaq_carteret_short_volume_exempt': 85, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-14', 'total_volume': 164662.0, 'short_volume': 101228.0, 'exempt_volume': 6.0, 'non_exempt_volume': 101222.0, 'short_volume_ratio': 61.48, 'nyse_short_volume': 2785, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 98443, 'nasdaq_carteret_short_volume_exempt': 6, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-15', 'total_volume': 106268.0, 'short_volume': 56254.0, 'exempt_volume': 145.0, 'non_exempt_volume': 56109.0, 'short_volume_ratio': 52.94, 'nyse_short_volume': 6908, 'nyse_short_volume_exempt': 45, 'nasdaq_carteret_short_volume': 49346, 'nasdaq_carteret_short_volume_exempt': 100, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-16', 'total_volume': 122981.0, 'short_volume': 75609.0, 'exempt_volume': 1850.0, 'non_exempt_volume': 73759.0, 'short_volume_ratio': 61.48, 'nyse_short_volume': 9546, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 66063, 'nasdaq_carteret_short_volume_exempt': 1850, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-20', 'total_volume': 190549.0, 'short_volume': 89632.0, 'exempt_volume': 0.0, 'non_exempt_volume': 89632.0, 'short_volume_ratio': 47.04, 'nyse_short_volume': 5749, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 83883, 'nasdaq_carteret_short_volume_exempt': 0, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-21', 'total_volume': 106870.0, 'short_volume': 76803.0, 'exempt_volume': 0.0, 'non_exempt_volume': 76803.0, 'short_volume_ratio': 71.87, 'nyse_short_volume': 1201, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 75602, 'nasdaq_carteret_short_volume_exempt': 0, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-22', 'total_volume': 120819.0, 'short_volume': 57417.0, 'exempt_volume': 26.0, 'non_exempt_volume': 57391.0, 'short_volume_ratio': 47.52, 'nyse_short_volume': 795, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 56622, 'nasdaq_carteret_short_volume_exempt': 26, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-23', 'total_volume': 117110.0, 'short_volume': 49851.0, 'exempt_volume': 1437.0, 'non_exempt_volume': 48414.0, 'short_volume_ratio': 42.57, 'nyse_short_volume': 1284, 'nyse_short_volume_exempt': 120, 'nasdaq_carteret_short_volume': 48567, 'nasdaq_carteret_short_volume_exempt': 1317, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-26', 'total_volume': 113247.0, 'short_volume': 64040.0, 'exempt_volume': 800.0, 'non_exempt_volume': 63240.0, 'short_volume_ratio': 56.55, 'nyse_short_volume': 2391, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 61649, 'nasdaq_carteret_short_volume_exempt': 800, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-27', 'total_volume': 98141.0, 'short_volume': 52543.0, 'exempt_volume': 0.0, 'non_exempt_volume': 52543.0, 'short_volume_ratio': 53.54, 'nyse_short_volume': 1863, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 50680, 'nasdaq_carteret_short_volume_exempt': 0, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-28', 'total_volume': 124435.0, 'short_volume': 78327.0, 'exempt_volume': 3.0, 'non_exempt_volume': 78324.0, 'short_volume_ratio': 62.95, 'nyse_short_volume': 4937, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 73390, 'nasdaq_carteret_short_volume_exempt': 3, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-02-29', 'total_volume': 133241.0, 'short_volume': 88449.0, 'exempt_volume': 434.0, 'non_exempt_volume': 88015.0, 'short_volume_ratio': 66.38, 'nyse_short_volume': 1016, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 87433, 'nasdaq_carteret_short_volume_exempt': 434, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-03-01', 'total_volume': 155680.0, 'short_volume': 98604.0, 'exempt_volume': 105.0, 'non_exempt_volume': 98499.0, 'short_volume_ratio': 63.34, 'nyse_short_volume': 3513, 'nyse_short_volume_exempt': 5, 'nasdaq_carteret_short_volume': 95091, 'nasdaq_carteret_short_volume_exempt': 100, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-03-04', 'total_volume': 166002.0, 'short_volume': 108047.0, 'exempt_volume': 163.0, 'non_exempt_volume': 107884.0, 'short_volume_ratio': 65.09, 'nyse_short_volume': 1761, 'nyse_short_volume_exempt': 18, 'nasdaq_carteret_short_volume': 106286, 'nasdaq_carteret_short_volume_exempt': 145, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'FHB', 'date': '2024-03-05', 'total_volume': 139325.0, 'short_volume': 62890.0, 'exempt_volume': 324.0, 'non_exempt_volume': 62566.0, 'short_volume_ratio': 45.14, 'nyse_short_volume': 983, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 61907, 'nasdaq_carteret_short_volume_exempt': 324, 'nasdaq_chicago_short_volume': 0, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}], 'next_url': 'https://api.massive.com/stocks/v1/short-volume?cursor=AQwPA0ZIQgIAAAEBAAEBFAACAQ8DRkhCAQ8KMjAyNC0wMy0wNQ=='}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "MGM",
-        "mentions": 3
+        "ticker": "FHB",
+        "mentions": 5
       },
       {
         "ticker": "NVDA",
-        "mentions": 2
+        "mentions": 4
       },
       {
-        "ticker": "NCLH",
-        "mentions": 2
+        "ticker": "WFC",
+        "mentions": 4
       },
       {
-        "ticker": "GWW",
-        "mentions": 2
+        "ticker": "JPM",
+        "mentions": 4
       },
       {
-        "ticker": "LULU",
-        "mentions": 2
+        "ticker": "C",
+        "mentions": 3
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Bullish",
-        "count": 19
+        "label": "Neutral",
+        "count": 27
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 16
+        "count": 14
       },
       {
-        "label": "Neutral",
-        "count": 12
+        "label": "Bullish",
+        "count": 4
       },
       {
         "label": "Somewhat-Bearish",
