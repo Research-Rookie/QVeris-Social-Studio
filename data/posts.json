@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-goog-2026-07-14",
+    "date": "2026-07-14",
+    "runDate": "2026-07-14",
+    "createdAt": "2026-07-14T05:14:59.178175+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$GOOG news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-07-14.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-07-14T05:14:57.669308+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$GOOG",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "GOOG",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-07-14T05:14:57.669308+00:00",
+      "date": "2026-07-14",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "GOOG",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Benchmark Electronics (BHE) Q1 Beat Puts Fair Value Back In Focus",
+      "headline_source": "Yahoo Finance",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "第三方服务响应读取失败，请稍后重试",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "GOOG",
+            "mentions": 2
+          },
+          {
+            "ticker": "RVTY",
+            "mentions": 2
+          },
+          {
+            "ticker": "BHE",
+            "mentions": 1
+          },
+          {
+            "ticker": "NFLX",
+            "mentions": 1
+          },
+          {
+            "ticker": "ELV",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 15
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 14
+          },
+          {
+            "label": "Bullish",
+            "count": 10
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-14",
     "date": "2026-07-14",
     "runDate": "2026-07-14",
