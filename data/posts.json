@@ -1,5 +1,1362 @@
 [
   {
+    "id": "financial-news-signal-2026-07-14",
+    "date": "2026-07-14",
+    "runDate": "2026-07-14",
+    "createdAt": "2026-07-14T04:23:05.914649+00:00",
+    "contentType": "FINANCIAL NEWS SIGNAL",
+    "title": "Financial News Signal",
+    "status": "ready",
+    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 50\n🏷️ Ticker: JPM\n📌 Theme: Economy Macro\n🧭 Tone: Bullish\n\nSignals from live news data: https://qveris.ai",
+    "image": "/posts/financial_news_signal_2026-07-14.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-14T04:23:04.154238+00:00",
+    "xPostId": null,
+    "primaryLabel": "Top ticker",
+    "primaryValue": "JPM",
+    "secondaryLabel": "Tone",
+    "secondaryValue": "Bullish",
+    "topSymbol": "JPM",
+    "topChangePct": 0,
+    "financialNewsSignal": {
+      "updated_at": "2026-07-14T04:23:04.154238+00:00",
+      "date": "2026-07-14",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Financial News Signal",
+      "articles": [
+        {
+          "title": "Teradyne stock holds steady as test equipment demand supports long-term outlook",
+          "summary": "Teradyne (ISIN US8807701029) stock remains stable, reflecting its crucial role as a supplier of automated test equipment for semiconductor and electronics manufacturing, and sol...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/teradyne-stock-holds-steady-as-test-equipment-demand-supports-long-term/69762621",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T005655",
+          "sentiment_score": 0.493909,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "TER",
+            "AMAT",
+            "LRCX"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Manufacturing",
+            "Economy Macro",
+            "Earnings"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "First Majestic Silver Delivers Strong Q2 Output & Raises 2026 Guidance",
+          "summary": "First Majestic Silver Corp. reported strong Q2 2026 production, leading the company to raise its full-year guidance for multiple operations. The company also highlighted progres...",
+          "url": "https://www.streetwisereports.com/article/2026/07/13/first-majestic-silver-delivers-strong-q2-output-and-raises-2026-guidance.html",
+          "source": "Streetwise Reports",
+          "published_at": "20260714T001027",
+          "sentiment_score": 0.022507,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "S&P Global upgrades Revvity outlook on leverage improvement",
+          "summary": "S&P Global Ratings has upgraded its outlook on Revvity Inc. from negative to stable, while maintaining its BBB issuer credit rating. This decision is based on Revvity's ability...",
+          "url": "https://www.investing.com/news/stock-market-news/sp-global-upgrades-revvity-outlook-on-leverage-improvement-93CH-4789496",
+          "source": "Investing.com",
+          "published_at": "20260713T213800",
+          "sentiment_score": 0.602807,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "RVTY"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Cadence Design Systems (CDNS) Suffers a Larger Drop Than the General Market: Key Insights",
+          "summary": "Cadence Design Systems (CDNS) experienced a -1.63% drop in its latest trading session, underperforming the S&P 500, Dow, and Nasdaq. The company is set to release its earnings r...",
+          "url": "https://sg.finance.yahoo.com/news/cadence-design-systems-cdns-suffers-215004509.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260713T213726",
+          "sentiment_score": 0.016099,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CDNS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 11,
+          "is_noise": false
+        },
+        {
+          "title": "COAL ETF Profile: Dividends, Returns (AMEX:COAL)",
+          "summary": "The article provides a detailed profile of the COAL ETF, an open-ended fund that mirrors the performance of the VettaFi Global Coal Index. It highlights key statistics such as i...",
+          "url": "https://www.tradingview.com/symbols/AMEX-COAL/profile/",
+          "source": "TradingView",
+          "published_at": "20260714T004158",
+          "sentiment_score": 0.10025,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "COAL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Energy Transportation",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "American Airlines (AAL) Suffers a Larger Drop Than the General Market: Key Insights",
+          "summary": "American Airlines (AAL) experienced a -3.78% drop in the latest trading session, underperforming the S&P 500. This comes despite a 13.15% increase in its shares over the last mo...",
+          "url": "https://uk.finance.yahoo.com/news/american-airlines-aal-suffers-larger-221503313.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260713T224101",
+          "sentiment_score": -0.213283,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "AAL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Power Integrations, NXP Semiconductors, and Universal Display Shares Are Falling, What You Need To Know",
+          "summary": "Shares of Power Integrations, NXP Semiconductors, and Universal Display fell due to profit-taking in the chip sector after a strong rally, compounded by escalating Middle East t...",
+          "url": "https://uk.finance.yahoo.com/news/power-integrations-nxp-semiconductors-universal-011039408.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260714T010841",
+          "sentiment_score": 0.007071,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NXPI"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Mid-America Apartment stock holds steady as Sunbelt rental demand supports long-term growth outlook",
+          "summary": "Mid-America Apartment Communities (MAA) stock is supported by the REIT's strategic focus on high-growth Sunbelt apartment markets, benefiting from resilient rental demand and po...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/mid-america-apartment-stock-holds-steady-as-sunbelt-rental-demand-supports/69762567",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T003818",
+          "sentiment_score": 0.540513,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "MAA"
+          ],
+          "topics": [
+            "Real Estate",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Autodesk 2026 AI Jobs Report: AI hiring in Design and Make more than doubles as students face a new skills gap",
+          "summary": "Autodesk's 2026 AI Jobs Report reveals that AI hiring in Design and Make industries has more than doubled in two years, with a 33% increase in the last year. The report highligh...",
+          "url": "https://adsknews.autodesk.com/en/news/2026-ai-jobs-report/",
+          "source": "Autodesk News",
+          "published_at": "20260713T234900",
+          "sentiment_score": 0.534303,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ADSK"
+          ],
+          "topics": [
+            "Technology",
+            "Economy Macro",
+            "Manufacturing",
+            "Real Estate"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "BRP (DOO) Receives a Buy from Citi",
+          "summary": "Citi analyst James Hardiman has maintained a Buy rating on BRP (DOO) with a price target of C$102.00, while the company's shares closed at C$83.18 last Friday. Hardiman, who cov...",
+          "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3262520/brp-doo-receives-a-buy-from-citi/",
+          "source": "The Globe and Mail",
+          "published_at": "20260713T224045",
+          "sentiment_score": 0.310824,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "DOO",
+            "C",
+            "HAS"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Aeromexico posts record Q2 revenue of $1.5 billion",
+          "summary": "Grupo Aeromexico reported a loss of $(0.40) per share in Q2 2026 despite a 12.56% revenue increase to $1.479 billion. The airline attributed the loss to a $30 million fuel headw...",
+          "url": "https://scanx.trade/stock-market-news/companies/aeromexico-posts-record-q2-revenue-of-1-5-billion/45526090",
+          "source": "scanx.trade",
+          "published_at": "20260713T220956",
+          "sentiment_score": -0.270386,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "AERO"
+          ],
+          "topics": [
+            "Earnings",
+            "Economy Macro",
+            "Energy Transportation"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "APA gains as oil surge and recent quarterly update lift sentiment",
+          "summary": "APA Corporation (APA) saw a 3.7% increase in its stock price, primarily driven by a sharp rise in crude oil prices due to renewed Middle East conflicts. The company's recent dis...",
+          "url": "https://www.quiverquant.com/news/APA+gains+as+oil+surge+and+recent+quarterly+update+lift+sentiment",
+          "source": "Quiver Quantitative",
+          "published_at": "20260713T212000",
+          "sentiment_score": 0.426072,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "APA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Thomson Reuters (TRI) to Cut 500 Engineering Jobs Amid AI Expansion",
+          "summary": "Thomson Reuters (TRI) is cutting up to 500 engineering positions, or 5.2% of its operations and technology staff, as part of a strategic shift towards artificial intelligence. D...",
+          "url": "https://www.gurufocus.com/news/8956161/thomson-reuters-tri-to-cut-500-engineering-jobs-amid-ai-expansion",
+          "source": "GuruFocus",
+          "published_at": "20260713T211052",
+          "sentiment_score": 0.069461,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "TRI"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Financial Markets",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "United Airlines stock holds steady as travel demand stays firm",
+          "summary": "United Airlines Holdings, Inc. (UAL) stock is holding steady, supported by consistent travel demand and its trading position on Nasdaq. The airline's business model is centered...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/united-airlines-stock-holds-steady-as-travel-demand-stays-firm/69762483",
+          "source": "Ad Hoc News",
+          "published_at": "20260713T230320",
+          "sentiment_score": 0.325075,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "UAL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation"
+          ],
+          "quality_score": 8,
+          "is_noise": false
+        },
+        {
+          "title": "Brinker International (EAT) Stock Trades At A Discount To Fair Value After A Very Large Run",
+          "summary": "Brinker International's (EAT) stock has seen significant gains over the last three years but still appears undervalued according to both Discounted Cash Flow (DCF) intrinsic val...",
+          "url": "https://simplywall.st/stocks/us/consumer-services/nyse-eat/brinker-international/news/brinker-international-eat-stock-trades-at-a-discount-to-fair/amp",
+          "source": "Simply Wall Street",
+          "published_at": "20260714T004234",
+          "sentiment_score": 0.045185,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "EAT"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Retail Wholesale",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Eagle Point Credit Company (ECC) 8-K Filing: Key SEC Details, Stock Symbols, and NYSE Listings (July 2026)",
+          "summary": "Eagle Point Credit Company (ECC) has filed an 8-K form detailing preliminary, unaudited financial estimates for Q2 2026, including an estimated NAV per common share between $4.4...",
+          "url": "https://www.minichart.com.sg/2026/07/14/eagle-point-credit-company-ecc-8-k-filing-key-sec-details-stock-symbols-and-nyse-listings-july-2026/",
+          "source": "Minichart",
+          "published_at": "20260714T004135",
+          "sentiment_score": 0.029764,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ECCX"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Archer Daniels Midland Co. stock outperforms competitors on strong trading day",
+          "summary": "Archer Daniels Midland Co. (ADM) saw its stock rally by 2.03% to $82.04, outperforming major indices like the S&P 500 and Dow Jones Industrial Average, which both declined. This...",
+          "url": "https://www.marketwatch.com/data-news/archer-daniels-midland-co-stock-outperforms-competitors-on-strong-trading-day-88989930-eb60059844b8?mod=mw_quote_news",
+          "source": "MarketWatch",
+          "published_at": "20260713T235400",
+          "sentiment_score": 0.390824,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ADM"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "How S&P Global's (SPGI) Market Intelligence Revamp and Debt Move Have Changed Its Investment Story",
+          "summary": "S&P Global recently undertook a fixed-income exchange offer and announced the upcoming retirement of its Chief Legal Officer. More significantly, it reorganized its Market Intel...",
+          "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-spgi/sp-global/news/how-sp-globals-spgi-market-intelligence-revamp-and-debt-move",
+          "source": "Simply Wall Street",
+          "published_at": "20260713T224257",
+          "sentiment_score": 0.19519,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SPGI",
+            "CME",
+            "MCO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Technology",
+            "Economy Macro"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Valley National Bancorp (VLY) Stock Stays Cheap After Its 97% Run",
+          "summary": "Valley National Bancorp (VLY) stock has nearly doubled in three years but remains undervalued according to both the Excess Returns intrinsic value estimate and traditional earni...",
+          "url": "https://simplywall.st/stocks/us/banks/nasdaq-vly/valley-national-bancorp/news/valley-national-bancorp-vly-stock-stays-cheap-after-its-97-r/amp",
+          "source": "Simply Wall Street",
+          "published_at": "20260713T224211",
+          "sentiment_score": 0.377359,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "VLY",
+            "BAC",
+            "JPM",
+            "WFC",
+            "USB"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "ONEOK Inc. stock outperforms competitors on strong trading day",
+          "summary": "ONEOK Inc. (OKE) shares rose 2.52% to $92.19 on Monday, outperforming the broader market during a challenging trading session. The S&P 500 Index and Dow Jones Industrial Average...",
+          "url": "https://www.marketwatch.com/data-news/oneok-inc-stock-outperforms-competitors-on-strong-trading-day-cfcbb230-49328ab395e7?mod=goog_fin_scmw",
+          "source": "MarketWatch",
+          "published_at": "20260713T214900",
+          "sentiment_score": 0.492343,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "OKE"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Energy Transportation",
+            "Economy Macro"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Here's Why Williams-Sonoma (WSM) Fell More Than Broader Market",
+          "summary": "Williams-Sonoma (WSM) experienced a decline of 2.3% in its latest trading session, underperforming the broader market. The company is anticipated to report an EPS of $2.03 and r...",
+          "url": "https://sg.finance.yahoo.com/news/heres-why-williams-sonoma-wsm-220007258.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260713T213917",
+          "sentiment_score": -0.136333,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "WSM"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale",
+            "Economy Macro"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Vision Marine Technologies Delivers 27% Sequential Q3 Revenue Growth",
+          "summary": "Vision Marine Technologies Inc. (NASDAQ: VMAR; TSXV: VMAR) announced a 27% sequential revenue growth in Q3 fiscal 2026, reaching $18.4 million. The company reported $48.6 millio...",
+          "url": "https://www.prnewswire.com/news-releases/vision-marine-technologies-delivers-27-sequential-q3-revenue-growth-302824227.html",
+          "source": "PR Newswire",
+          "published_at": "20260713T211033",
+          "sentiment_score": 0.486454,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "VMAR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "ASIC sanctions Deutsche Bank for trade reporting",
+          "summary": "The Australian Securities and Investments Commission (ASIC) has sanctioned Deutsche Bank AG, which will pay A$2 million to resolve allegations of systemic trade reporting failur...",
+          "url": "https://www.investmentexecutive.com/news/regulation/asic-sanctions-deutsche-bank-for-trade-reporting/",
+          "source": "Investment Executive",
+          "published_at": "20260714T030520",
+          "sentiment_score": 0.019627,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "DB"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Fair Isaac stock reflects steady growth as analytics demand supports the business",
+          "summary": "Fair Isaac Corp. (FICO) stock offers exposure to a leading analytics and decisioning platform, primarily known for its FICO credit scores, which are essential for credit scoring...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/fair-isaac-stock-reflects-steady-growth-as-analytics-demand-supports-the/69762825",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T025600",
+          "sentiment_score": 0.255123,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "FICO",
+            "EFX",
+            "SPGI",
+            "JPM"
+          ],
+          "topics": [
+            "Finance",
+            "Technology",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "PPL Corporation stock holds steady as regulated utility strategy supports long-term earnings",
+          "summary": "PPL Corporation stock reflects its role as a major regulated electric and gas utility, characterized by predictable, rate-based returns and significant grid investments in the U...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ppl-corporation-stock-holds-steady-as-regulated-utility-strategy-supports/69762811",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T025500",
+          "sentiment_score": 0.431005,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "PPL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Energy Transportation",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "BorgWarner stock holds steady as drivetrain specialist leans into electrification strategy",
+          "summary": "BorgWarner Inc. is navigating the automotive industry's shift by balancing its legacy combustion-engine business with a growing focus on electrified drivetrains. The company's s...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/borgwarner-stock-holds-steady-as-drivetrain-specialist-leans-into/69762421",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T024022",
+          "sentiment_score": 0.255096,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "BWA"
+          ],
+          "topics": [
+            "Earnings",
+            "Energy Transportation",
+            "Finance",
+            "Manufacturing",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "US Mexican food chain Chipotle to open first restaurant in Mexico",
+          "summary": "Chipotle Mexican Grill is set to open its first restaurant in Mexico, a \"significant milestone\" for the chain with over 4,100 global outlets. This move has sparked mixed reactio...",
+          "url": "https://www.bbc.com/news/articles/c0ryr89gp09o",
+          "source": "BBC",
+          "published_at": "20260714T022629",
+          "sentiment_score": -0.176158,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "CMG",
+            "DPZ"
+          ],
+          "topics": [
+            "Retail Wholesale",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Industrial market sets new records as Amazon, Celestica sign 1 million-square-foot leases",
+          "summary": "The Dallas-Fort Worth industrial market has reached new leasing highs, propelled by major leases from Amazon and Celestica, each for over 1 million square feet. Brokers and anal...",
+          "url": "https://www.bizjournals.com/dallas/news/2026/07/13/dfw-industrial-market-reaches-historical-high.html",
+          "source": "The Business Journals",
+          "published_at": "20260714T022120",
+          "sentiment_score": 0.237315,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CLS",
+            "AMZN",
+            "CBRE"
+          ],
+          "topics": [
+            "Real Estate",
+            "Manufacturing",
+            "Retail Wholesale",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "UDR Inc. stock holds steady as rental housing portfolio underpins long-term growth",
+          "summary": "UDR Inc. operates as a multifamily REIT with a diversified portfolio of rental communities across the US, offering predictable cash flows and long-term growth for income-focused...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/udr-inc-stock-holds-steady-as-rental-housing-portfolio-underpins/69763067",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T015000",
+          "sentiment_score": 0.472386,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "UDR"
+          ],
+          "topics": [
+            "Real Estate",
+            "Finance",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "TJX Companies stock holds steady as off-price model underpins long-term growth",
+          "summary": "TJX Companies benefits from a resilient off-price retail model emphasizing disciplined buying and a value-focused strategy, which appeals to shoppers and helps maintain stable e...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/tjx-companies-stock-holds-steady-as-off-price-model-underpins-long-term/69763033",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T014313",
+          "sentiment_score": 0.027766,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "TJX"
+          ],
+          "topics": [
+            "Retail Wholesale",
+            "Financial Markets",
+            "Earnings",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "United Rentals stock holds steady as equipment rental demand supports long-term growth",
+          "summary": "United Rentals (URI) stock remains stable, driven by the strong demand for equipment rentals in construction and industrial sectors, particularly for infrastructure and nonresid...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/united-rentals-stock-holds-steady-as-equipment-rental-demand-supports/69762582",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T004206",
+          "sentiment_score": 0.445073,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "URI"
+          ],
+          "topics": [
+            "Manufacturing",
+            "Real Estate",
+            "Financial Markets",
+            "Economy Macro",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "How Crown’s Supply-Chain-Focused Climate Plan At Crown Holdings (CCK) Has Changed Its Investment Story",
+          "summary": "Crown Holdings (CCK) has released a new climate transition plan that heavily emphasizes reducing scope 3 emissions through supply chain collaboration, aiming for significant dec...",
+          "url": "https://sg.finance.yahoo.com/news/crown-supply-chain-focused-climate-002341460.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260714T004031",
+          "sentiment_score": 0.295342,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CCK"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Financial Markets",
+            "Economy Macro",
+            "Manufacturing"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Expeditors stock reflects the company’s global logistics role",
+          "summary": "The article discusses how Expeditors stock provides exposure to a major global freight forwarding and logistics provider. Expeditors operates an asset-light model, focusing on c...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/expeditors-stock-reflects-the-company-s-global-logistics-role/69762636",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T003747",
+          "sentiment_score": 0.513514,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "EXPD"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation",
+            "Manufacturing"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "YPF’s power-generation unit files for US IPO amid Argentine listings surge",
+          "summary": "YPF Luz, the power-generation subsidiary of Argentina's state-controlled oil giant YPF S.A., has filed for an initial public offering in the United States. This move is part of...",
+          "url": "https://cryptobriefing.com/ypf-luz-us-ipo-argentina-listings/",
+          "source": "Crypto Briefing",
+          "published_at": "20260714T001022",
+          "sentiment_score": 0.264858,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "YPF",
+            "GE"
+          ],
+          "topics": [
+            "Ipo",
+            "Financial Markets",
+            "Energy Transportation",
+            "Economy Macro",
+            "Blockchain"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Essex Property Trust stock holds steady as West Coast apartment fundamentals support long-term incom",
+          "summary": "Essex Property Trust (ISIN US29717P1049) focuses on high-demand West Coast multifamily housing markets, including the San Francisco Bay Area, Los Angeles, San Diego, and Seattle...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/essex-property-trust-stock-holds-steady-as-west-coast-apartment/69762232",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T000100",
+          "sentiment_score": 0.494042,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ESS"
+          ],
+          "topics": [
+            "Real Estate",
+            "Financial Markets",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Target Corp. stock holds steady as retailer leans on omni-channel strategy and US consumer demand",
+          "summary": "Target Corp. stock reflects the retailer's strategic balance between in-store and digital growth, alongside margin discipline, within the competitive US retail environment. The...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/target-corp-stock-holds-steady-as-retailer-leans-on-omni-channel-strategy/69762418",
+          "source": "Ad Hoc News",
+          "published_at": "20260713T224705",
+          "sentiment_score": 0.036581,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "TGT"
+          ],
+          "topics": [
+            "Retail Wholesale",
+            "Economy Macro",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Union Pacific stock reflects steady rail freight demand across North America",
+          "summary": "Union Pacific (UNP) stock is closely tied to U.S. industrial activity and trade, with its extensive rail network facilitating the movement of diverse freight categories across N...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/union-pacific-stock-reflects-steady-rail-freight-demand-across-north/69762297",
+          "source": "Ad Hoc News",
+          "published_at": "20260713T221800",
+          "sentiment_score": 0.497194,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "UNP"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation",
+            "Manufacturing"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "A Letter from Wesco Chairman, President and CEO",
+          "summary": "In a letter from Wesco's Chairman, President, and CEO, John Engel highlights that sustainability is central to Wesco's operations, growth, and long-term value creation, influenc...",
+          "url": "https://csrwire.com/press-release/letter-wesco-chairman-president-and-ceo/",
+          "source": "CSRwire",
+          "published_at": "20260713T220944",
+          "sentiment_score": 0.513512,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "WCC",
+            "FDX"
+          ],
+          "topics": [
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "AbbVie pharmaceutical project moves forward in Durham: 'Huge deal'",
+          "summary": "Durham County leaders are considering a $15 million incentive package for AbbVie, a major pharmaceutical company planning a $1.4 billion investment in a new Durham campus. This...",
+          "url": "https://abc11.com/post/abbvie-pharmaceutical-project-moves-forward-durham/19500900/",
+          "source": "ABC11 News",
+          "published_at": "20260713T215159",
+          "sentiment_score": 0.432547,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ABBV"
+          ],
+          "topics": [
+            "Life Sciences",
+            "Real Estate",
+            "Economy Fiscal",
+            "Manufacturing",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Builders FirstSource Inc. stock underperforms Monday when compared to competitors",
+          "summary": "Builders FirstSource Inc. (BLDR) stock dropped 2.88% on Monday, closing at $73.51. This underperformance occurred during a broader market decline, with the S&P 500 Index falling...",
+          "url": "https://www.marketwatch.com/data-news/builders-firstsource-inc-stock-underperforms-monday-when-compared-to-competitors-ae207110-a3807b4354f1?mod=mw_quote_news",
+          "source": "MarketWatch",
+          "published_at": "20260713T211800",
+          "sentiment_score": -0.414614,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "BLDR"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Real Estate",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Smart Money Is Buying Kimberly-Clark Corp. (KMB)",
+          "summary": "Institutional investors, including several respected value investors, quantitative managers, and hedge funds, significantly increased their positions in Kimberly-Clark Corp. (KM...",
+          "url": "https://acquirersmultiple.com/2026/07/smart-money-is-buying-kimberly-clark-corp-kmb/",
+          "source": "The Acquirer's Multiple",
+          "published_at": "20260714T005221",
+          "sentiment_score": 0.547093,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "KMB"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance",
+            "Earnings",
+            "Economy Macro",
+            "Retail Wholesale"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "EQT Corp. stock reflects the company’s role in US natural gas and LNG infrastructure",
+          "summary": "EQT Corp. stock offers investors exposure to a major independent natural gas producer in the US, with operations in the Appalachian Basin and a focus on low-cost shale developme...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/eqt-corp-stock-reflects-the-company-s-role-in-us-natural-gas-and-lng/69762493",
+          "source": "Ad Hoc News",
+          "published_at": "20260713T230743",
+          "sentiment_score": 0.482705,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "EQT"
+          ],
+          "topics": [
+            "Energy Transportation",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Cincinnati Financial stock holds steady as insurance business supports long term value",
+          "summary": "Cincinnati Financial's stock performance is analyzed in this article, emphasizing the company's position as a prominent US property-casualty insurer. The article highlights its...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cincinnati-financial-stock-holds-steady-as-insurance-business-supports/69763348",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T030323",
+          "sentiment_score": 0.407578,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "CINF"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Colgate-Palmolive stock reflects a steady consumer brands business in oral care and home products",
+          "summary": "Colgate-Palmolive stock offers steady exposure to a global consumer brands business encompassing oral care, personal care, home care, and pet nutrition. The company benefits fro...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/colgate-palmolive-stock-reflects-a-steady-consumer-brands-business-in-oral/69763141",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T021134",
+          "sentiment_score": 0.41856,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "CL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Retail Wholesale",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Ventas stock reflects steady healthcare REIT positioning as senior housing demand grows",
+          "summary": "Ventas Inc. is a major healthcare REIT with a diversified portfolio spanning senior housing, medical office buildings, and life science research facilities across North America....",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ventas-stock-reflects-steady-healthcare-reit-positioning-as-senior-housing/69762986",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T013121",
+          "sentiment_score": 0.363172,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "VTR",
+            "WELL"
+          ],
+          "topics": [
+            "Real Estate",
+            "Finance",
+            "Life Sciences",
+            "Economy Macro"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Northern Trust stock holds steady as wealth and asset management scale supports long-term growth",
+          "summary": "Northern Trust's stock reflects its strong position as a global custodian, asset servicer, and wealth manager. The company benefits from diversified fee income and capital stren...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/northern-trust-stock-holds-steady-as-wealth-and-asset-management-scale/69762897",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T011140",
+          "sentiment_score": 0.191083,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "NTRS",
+            "JPM",
+            "GS",
+            "BK",
+            "MS"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "California Heat Wave Intensifies",
+          "summary": "Southern California Edison (SCE) is preparing for an extreme heat wave with temperatures expected to reach triple digits, leading to potential power outages due to increased AC...",
+          "url": "https://energized.edison.com/stories/california-heat-wave-intensifies",
+          "source": "Energized by Edison",
+          "published_at": "20260714T005054",
+          "sentiment_score": 0.142139,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "EIX"
+          ],
+          "topics": [
+            "Energy Transportation",
+            "Economy Macro"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Ameren stock holds steady as the utility story stays simple",
+          "summary": "Ameren stock continues to be driven by its regulated utility operations across Missouri and Illinois, focusing on rate base growth and network investment. The company's business...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ameren-stock-holds-steady-as-the-utility-story-stays-simple/69762725",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T003459",
+          "sentiment_score": 0.240833,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AEE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Xerox Holdings Corp (XRX) investors disclose 6.84% stake and plans for active engagement",
+          "summary": "STARTEEPO Invest and Frantisek Bostl have disclosed an increased beneficial ownership in Xerox Holdings Corp (XRX) totaling 6.84% of outstanding common stock, acquired for over...",
+          "url": "https://www.stocktitan.net/sec-filings/XRX/schedule-13d-a-xerox-holdings-corp-amended-major-shareholder-report-bf53a3f1aefe.html",
+          "source": "Stock Titan",
+          "published_at": "20260713T221103",
+          "sentiment_score": 0.258896,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "XRX"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Deutsche Bank (NYSE: DB) sells 5.45% callable senior notes maturing in 2036",
+          "summary": "Deutsche Bank AG is offering 5.45% Fixed Rate Callable Senior Debt Funding Notes due January 29, 2036, at 100% of the $1,000 principal amount per note. These unsecured, unsubord...",
+          "url": "https://www.stocktitan.net/sec-filings/DB/424b2-deutsche-bank-aktiengesellschaft-prospectus-supplement-5ca9ae5779f1.html",
+          "source": "Stock Titan",
+          "published_at": "20260713T211020",
+          "sentiment_score": 0.128189,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "DB"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        }
+      ],
+      "article_count": 50,
+      "top_ticker": "JPM",
+      "top_topic": "Economy Macro",
+      "dominant_sentiment": "Bullish",
+      "top_story": "Teradyne stock holds steady as test equipment demand supports long-term outlook",
+      "signal_articles": [
+        {
+          "title": "Teradyne stock holds steady as test equipment demand supports long-term outlook",
+          "summary": "Teradyne (ISIN US8807701029) stock remains stable, reflecting its crucial role as a supplier of automated test equipment for semiconductor and electronics manufacturing, and sol...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/teradyne-stock-holds-steady-as-test-equipment-demand-supports-long-term/69762621",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T005655",
+          "sentiment_score": 0.493909,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "TER",
+            "AMAT",
+            "LRCX"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Manufacturing",
+            "Economy Macro",
+            "Earnings"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "First Majestic Silver Delivers Strong Q2 Output & Raises 2026 Guidance",
+          "summary": "First Majestic Silver Corp. reported strong Q2 2026 production, leading the company to raise its full-year guidance for multiple operations. The company also highlighted progres...",
+          "url": "https://www.streetwisereports.com/article/2026/07/13/first-majestic-silver-delivers-strong-q2-output-and-raises-2026-guidance.html",
+          "source": "Streetwise Reports",
+          "published_at": "20260714T001027",
+          "sentiment_score": 0.022507,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "S&P Global upgrades Revvity outlook on leverage improvement",
+          "summary": "S&P Global Ratings has upgraded its outlook on Revvity Inc. from negative to stable, while maintaining its BBB issuer credit rating. This decision is based on Revvity's ability...",
+          "url": "https://www.investing.com/news/stock-market-news/sp-global-upgrades-revvity-outlook-on-leverage-improvement-93CH-4789496",
+          "source": "Investing.com",
+          "published_at": "20260713T213800",
+          "sentiment_score": 0.602807,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "RVTY"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Cadence Design Systems (CDNS) Suffers a Larger Drop Than the General Market: Key Insights",
+          "summary": "Cadence Design Systems (CDNS) experienced a -1.63% drop in its latest trading session, underperforming the S&P 500, Dow, and Nasdaq. The company is set to release its earnings r...",
+          "url": "https://sg.finance.yahoo.com/news/cadence-design-systems-cdns-suffers-215004509.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260713T213726",
+          "sentiment_score": 0.016099,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CDNS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 11,
+          "is_noise": false
+        },
+        {
+          "title": "COAL ETF Profile: Dividends, Returns (AMEX:COAL)",
+          "summary": "The article provides a detailed profile of the COAL ETF, an open-ended fund that mirrors the performance of the VettaFi Global Coal Index. It highlights key statistics such as i...",
+          "url": "https://www.tradingview.com/symbols/AMEX-COAL/profile/",
+          "source": "TradingView",
+          "published_at": "20260714T004158",
+          "sentiment_score": 0.10025,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "COAL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Energy Transportation",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "American Airlines (AAL) Suffers a Larger Drop Than the General Market: Key Insights",
+          "summary": "American Airlines (AAL) experienced a -3.78% drop in the latest trading session, underperforming the S&P 500. This comes despite a 13.15% increase in its shares over the last mo...",
+          "url": "https://uk.finance.yahoo.com/news/american-airlines-aal-suffers-larger-221503313.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260713T224101",
+          "sentiment_score": -0.213283,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "AAL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Power Integrations, NXP Semiconductors, and Universal Display Shares Are Falling, What You Need To Know",
+          "summary": "Shares of Power Integrations, NXP Semiconductors, and Universal Display fell due to profit-taking in the chip sector after a strong rally, compounded by escalating Middle East t...",
+          "url": "https://uk.finance.yahoo.com/news/power-integrations-nxp-semiconductors-universal-011039408.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260714T010841",
+          "sentiment_score": 0.007071,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NXPI"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Mid-America Apartment stock holds steady as Sunbelt rental demand supports long-term growth outlook",
+          "summary": "Mid-America Apartment Communities (MAA) stock is supported by the REIT's strategic focus on high-growth Sunbelt apartment markets, benefiting from resilient rental demand and po...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/mid-america-apartment-stock-holds-steady-as-sunbelt-rental-demand-supports/69762567",
+          "source": "Ad Hoc News",
+          "published_at": "20260714T003818",
+          "sentiment_score": 0.540513,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "MAA"
+          ],
+          "topics": [
+            "Real Estate",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Autodesk 2026 AI Jobs Report: AI hiring in Design and Make more than doubles as students face a new skills gap",
+          "summary": "Autodesk's 2026 AI Jobs Report reveals that AI hiring in Design and Make industries has more than doubled in two years, with a 33% increase in the last year. The report highligh...",
+          "url": "https://adsknews.autodesk.com/en/news/2026-ai-jobs-report/",
+          "source": "Autodesk News",
+          "published_at": "20260713T234900",
+          "sentiment_score": 0.534303,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ADSK"
+          ],
+          "topics": [
+            "Technology",
+            "Economy Macro",
+            "Manufacturing",
+            "Real Estate"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "BRP (DOO) Receives a Buy from Citi",
+          "summary": "Citi analyst James Hardiman has maintained a Buy rating on BRP (DOO) with a price target of C$102.00, while the company's shares closed at C$83.18 last Friday. Hardiman, who cov...",
+          "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3262520/brp-doo-receives-a-buy-from-citi/",
+          "source": "The Globe and Mail",
+          "published_at": "20260713T224045",
+          "sentiment_score": 0.310824,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "DOO",
+            "C",
+            "HAS"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        }
+      ],
+      "top_tickers": [
+        {
+          "ticker": "JPM",
+          "mentions": 3
+        },
+        {
+          "ticker": "SPGI",
+          "mentions": 2
+        },
+        {
+          "ticker": "TER",
+          "mentions": 1
+        },
+        {
+          "ticker": "AMAT",
+          "mentions": 1
+        },
+        {
+          "ticker": "LRCX",
+          "mentions": 1
+        }
+      ],
+      "top_topics": [
+        {
+          "topic": "Economy Macro",
+          "mentions": 48
+        },
+        {
+          "topic": "Financial Markets",
+          "mentions": 39
+        },
+        {
+          "topic": "Earnings",
+          "mentions": 30
+        },
+        {
+          "topic": "Finance",
+          "mentions": 26
+        },
+        {
+          "topic": "Energy Transportation",
+          "mentions": 15
+        }
+      ],
+      "sentiment_counts": [
+        {
+          "label": "Bullish",
+          "count": 22
+        },
+        {
+          "label": "Neutral",
+          "count": 12
+        },
+        {
+          "label": "Somewhat-Bullish",
+          "count": 10
+        },
+        {
+          "label": "Somewhat-Bearish",
+          "count": 3
+        },
+        {
+          "label": "Bearish",
+          "count": 1
+        }
+      ],
+      "top_sources": [
+        {
+          "source": "Ad Hoc News",
+          "count": 19
+        },
+        {
+          "source": "Yahoo Finance Singapore",
+          "count": 3
+        },
+        {
+          "source": "Simply Wall Street",
+          "count": 3
+        },
+        {
+          "source": "MarketWatch",
+          "count": 3
+        },
+        {
+          "source": "Yahoo Finance UK",
+          "count": 2
+        }
+      ],
+      "takeaway": "News flow is centered on Economy Macro, with JPM appearing most often and the headline tone mostly bullish."
+    }
+  },
+  {
     "id": "polymarket-pulse-2026-07-14",
     "date": "2026-07-14",
     "runDate": "2026-07-14",
