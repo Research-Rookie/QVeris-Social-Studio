@@ -1,229 +1,326 @@
 {
-  "updated_at": "2026-07-14T05:14:54.442699+00:00",
-  "date": "2026-07-14",
+  "updated_at": "2026-07-15T04:22:46.902559+00:00",
+  "date": "2026-07-15",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Benchmark Electronics (BHE) Q1 Beat Puts Fair Value Back In Focus",
-      "summary": "Benchmark Electronics (BHE) recently reported a strong Q1, with revenue meeting expectations and future EPS and revenue guidance exceeding forecasts, leading to a 17.5% share pr...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/benchmark-electronics-bhe-q1-beat-231526736.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260714T020956",
-      "sentiment_score": 0.110752,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "BHE"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Manufacturing"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "KeyBanc Lowers Netflix Stock (NFLX) Price Target Ahead of Q2 Earnings, Expects a ‘Largely In Line Quarter’",
-      "summary": "KeyBanc analyst Justin Patterson reiterated a Buy rating on Netflix (NFLX) but lowered the price target to $92 from $115 ahead of its Q2 earnings on July 16, expecting a largely...",
-      "url": "https://www.tipranks.com/news/keybanc-lowers-netflix-stock-nflx-price-target-ahead-of-q2-earnings-expects-a-largely-in-line-quarter",
-      "source": "TipRanks",
-      "published_at": "20260714T041023",
-      "sentiment_score": 0.007913,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "NFLX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Elevance Health (ELV) Q2 Earnings Report Preview: What To Look For",
-      "summary": "Elevance Health (ELV) is set to report its Q2 earnings this Wednesday, with analysts expecting a 1.7% year-on-year revenue decline, a reversal from the previous year's 14.3% inc...",
-      "url": "https://uk.finance.yahoo.com/news/elevance-health-elv-q2-earnings-034855290.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260714T034733",
-      "sentiment_score": 0.14332,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ELV",
-        "AMZN",
-        "GOOG",
-        "META",
-        "PYPL"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Finance",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Super Micro Computer (SMCI) Launches Vera Rubin NVL4 Blueprint For AI Infrastructure",
-      "summary": "Super Micro Computer (SMCI) has launched a new Data Center Building Block Solutions blueprint based on the NVIDIA Vera Rubin NVL4 platform, targeting high-performance computing...",
-      "url": "https://sg.finance.yahoo.com/news/super-micro-computer-smci-launches-020919023.html",
-      "source": "Yahoo Finance Singapore",
-      "published_at": "20260714T020916",
-      "sentiment_score": 0.238518,
+      "title": "U.S. Bancorp Earnings: What To Look For From USB",
+      "summary": "U.S. Bancorp (NYSE: USB) is set to report its earnings this Thursday morning, with analysts expecting a 7.7% year-on-year revenue growth. The company previously met revenue expe...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/USB/pressreleases/3286812/us-bancorp-earnings-what-to-look-for-from-usb/",
+      "source": "The Globe and Mail",
+      "published_at": "20260715T030401",
+      "sentiment_score": 0.324471,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "SMCI",
-        "NVDA"
+        "USB",
+        "C",
+        "BAC"
       ],
       "topics": [
-        "Technology",
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Finance"
       ],
-      "quality_score": 12,
+      "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "Automatic Data Processing (ADP) Draws Q4 Attention, Is The Upside Already Priced In?",
-      "summary": "Automatic Data Processing (ADP) is garnering investor attention ahead of its fiscal Q4 earnings and 2027 guidance. While recent share performance has been strong, analysts sugge...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/automatic-data-processing-adp-draws-020911243.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260714T020859",
-      "sentiment_score": -0.1279,
+      "title": "DTE Energy (DTE) Gets a Buy from Truist Financial",
+      "summary": "Truist Financial analyst Richard Sunderland maintained a Buy rating on DTE Energy (DTE) with a price target of $166.00. DTE Energy reported quarterly revenue of $5.14 billion an...",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3286687/dte-energy-dte-gets-a-buy-from-truist-financial/",
+      "source": "The Globe and Mail",
+      "published_at": "20260715T024253",
+      "sentiment_score": 0.023214,
       "sentiment_label": "Neutral",
       "tickers": [
-        "ADP"
+        "DTE"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Finance",
-        "Technology"
+        "Energy Transportation"
       ],
       "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "CSJRX ETF Profile: Dividends, Returns (NASDAQ:CSJRX)",
-      "summary": "The CSJRX ETF profile details key statistics such as its indicated dividend yield of 2.19% and dividend payout history. It highlights that CSJRX pays dividends, with the last di...",
-      "url": "https://www.tradingview.com/symbols/NASDAQ-CSJRX/profile/",
-      "source": "TradingView",
-      "published_at": "20260714T010932",
-      "sentiment_score": 0.048646,
-      "sentiment_label": "Neutral",
+      "title": "Pentair appoints interim CFO, cuts FY26 outlook on destocking",
+      "summary": "Pentair plc has appointed Bob Fishman as interim CFO following Nicholas Brazis' departure, effective immediately. The company also released preliminary Q2 2026 results and revis...",
+      "url": "https://scanx.trade/stock-market-news/companies/pentair-cuts-fy2026-outlook-q2-sales-hit-by-inventory-destocking/45617971",
+      "source": "scanx.trade",
+      "published_at": "20260715T003352",
+      "sentiment_score": -0.426818,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "CNS"
+        "PNR"
       ],
       "topics": [
+        "Earnings",
         "Finance",
+        "Economy Macro",
+        "Manufacturing"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Conagra Brands stock holds steady as analysts and filings shape the view",
+      "summary": "Conagra Brands (CAG) stock remains a classic consumer staple, trading on the NYSE and offering a broad portfolio of packaged foods. The company's business model is built on hous...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/conagra-brands-stock-holds-steady-as-analysts-and-filings-shape-the-view/69769548",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T005930",
+      "sentiment_score": 0.11893,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CAG"
+      ],
+      "topics": [
+        "Earnings",
         "Financial Markets",
-        "Real Estate",
-        "Earnings"
+        "Economy Macro",
+        "Retail Wholesale"
       ],
       "quality_score": 11,
       "is_noise": false
     },
     {
-      "title": "Cboe Global Markets (CBOE) Launches Longer Options Trading And Cboe Predicts",
-      "summary": "Cboe Global Markets (CBOE) is launching extended trading hours for select mega-cap single stock options and a new prediction markets product called Cboe Predicts. These initiati...",
-      "url": "https://uk.finance.yahoo.com/news/cboe-global-markets-cboe-launches-031308823.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260714T031320",
-      "sentiment_score": 0.264831,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CBOE"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Why Did AAPL, QTTB, CSX Stocks Surge To 52-Week Highs Today?",
-      "summary": "Apple (AAPL), Q32 Bio (QTTB), and CSX Corp. (CSX) stocks surged to new 52-week highs due to positive analyst ratings, promising clinical trial results, and improving industry co...",
-      "url": "https://www.tradingview.com/news/stocktwits:1cc60a64f094b:0-why-did-aapl-qttb-csx-stocks-surge-to-52-week-highs-today/",
+      "title": "Price to earnings forward of Hewlett Packard Enterprise Co. – DUS:2HP",
+      "summary": "This article briefly presents the price-to-earnings forward data for Hewlett Packard Enterprise Co. (DUS:2HP) on the TradingView platform. It indicates that the market is closed...",
+      "url": "https://www.tradingview.com/symbols/DUS-2HP/financials-statistics-and-ratios/price-earnings-fwd/",
       "source": "TradingView",
-      "published_at": "20260714T021332",
-      "sentiment_score": 0.028249,
+      "published_at": "20260715T022639",
+      "sentiment_score": 0.009508,
       "sentiment_label": "Neutral",
       "tickers": [
-        "CSX"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Life Sciences",
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Emerson Electric (EMR) Faces A Zacks Downgrade, Is The Discount To Fair Value Enough?",
-      "summary": "Emerson Electric (EMR) has been downgraded by Zacks to a #4 (Sell) rank, with its stock dropping 2.52% recently, though it shows strong long-term returns. Despite a clear discou...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/emerson-electric-emr-faces-zacks-021021168.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260714T020943",
-      "sentiment_score": -0.143388,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "EMR",
-        "COIN"
+        "HPE"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance",
-        "Manufacturing",
         "Technology"
       ],
-      "quality_score": 9,
+      "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Jim Cramer Warns “I Don’t Want to Own AT&T or Verizon” as Starlink Threatens Telecom Stocks",
-      "summary": "Jim Cramer has advised against owning major telecom stocks like AT&T and Verizon due to the rising threat from SpaceX's Starlink, following a Bernstein research note that cut pr...",
-      "url": "https://247wallst.com/investing/2026/07/13/jim-cramer-warns-i-dont-want-to-own-att-or-verizon-as-starlink-threatens-telecom-stocks/",
-      "source": "24/7 Wall St.",
-      "published_at": "20260714T015408",
-      "sentiment_score": -0.182533,
+      "title": "BigBear.ai (NYSE: BBAI) Stock Price Drops 24% In A Month As Revenue Growth Stalls And Losses Mount",
+      "summary": "BigBear.ai (NYSE: BBAI) experienced a 24.2% drop in its stock price over the past month due to stagnant revenue growth in Q1 2026, mounting losses, and increasing operating expe...",
+      "url": "https://www.foreignpolicyjournal.com/2026/07/14/bigbear-ai-nyse-bbai-stock-price-drops-24-in-a-month-as-revenue-growth-stalls-and-losses-mount/",
+      "source": "Foreign Policy Journal",
+      "published_at": "20260715T014223",
+      "sentiment_score": -0.162337,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "T",
-        "VZ",
-        "CHTR",
-        "CMCSA",
-        "TMUS"
+        "BBAI",
+        "PLTR"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Canadian Imperial Bank Of Commerce (TSX:CM) Raises Fresh Capital, Is The Stock Still Cheap?",
+      "summary": "Canadian Imperial Bank of Commerce (TSX:CM) has recently raised new capital through various fixed income securities. The stock has seen significant price gains of over 32% year-...",
+      "url": "https://simplywall.st/stocks/ca/banks/tsx-cm/canadian-imperial-bank-of-commerce-shares/news/canadian-imperial-bank-of-commerce-tsxcm-raises-fresh-capita",
+      "source": "Simply Wall Street",
+      "published_at": "20260715T010432",
+      "sentiment_score": 0.345635,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CM"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Technology"
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Fastenal Company 2026 Q2 - Results - Earnings Call Presentation (NASDAQ:FAST) 2026-07-14",
+      "summary": "Fastenal Company has released its Q2 2026 earnings call presentation. The company reported an EPS of $0.33, beating estimates, and revenue of $2.39 billion, which represents a 1...",
+      "url": "https://seekingalpha.com/article/4922101-fastenal-company-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "source": "Seeking Alpha",
+      "published_at": "20260715T010154",
+      "sentiment_score": 0.38311,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "FAST"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "O'Reilly Automotive stock reflects steady growth as a leading US auto parts retailer",
+      "summary": "O'Reilly Automotive represents a leading US auto parts retailer with a broad store network, consistent profitability, and a focus on both professional and DIY customers. The com...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/o-reilly-automotive-stock-reflects-steady-growth-as-a-leading-us-auto/69770194",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T032106",
+      "sentiment_score": 0.402495,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ORLY",
+        "AZO",
+        "GPC"
+      ],
+      "topics": [
+        "Retail Wholesale",
+        "Financial Markets",
+        "Earnings",
+        "Economy Macro",
+        "Energy Transportation"
       ],
       "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Here's What to Expect From Archer-Daniels-Midland's Next Earnings Report",
-      "summary": "Archer-Daniels-Midland (ADM) is set to announce its fiscal Q2 2026 results, with analysts projecting a significant increase in adjusted EPS to $1.28, up 37.6% year-over-year. Th...",
-      "url": "https://www.barchart.com/story/news/3263962/here-s-what-to-expect-from-archer-daniels-midland-s-next-earnings-report",
-      "source": "Barchart.com",
-      "published_at": "20260714T012203",
-      "sentiment_score": 0.347104,
+      "title": "Blackstone Mortgage Trust (BXMT) Holds Its Dividend Steady as a Hotel-Loan Charge Hits Earnings",
+      "summary": "Blackstone Mortgage Trust (BXMT) has declared a steady dividend of $0.47 per share for Q2 2026, maintaining the rate despite distributable earnings of $0.21 per share. Managemen...",
+      "url": "https://finance.yahoo.com/real-estate/articles/blackstone-mortgage-trust-bxmt-holds-002020025.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260715T024929",
+      "sentiment_score": -0.088077,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BXMT"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Real Estate",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Truist Financial Reaffirms Their Buy Rating on CMS Energy (CMS)",
+      "summary": "Truist Financial has reaffirmed its Buy rating on CMS Energy (CMS) with a price target of $85.00, citing analyst Richard Sunderland's 4-star rating and success in the Utilities...",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3286691/truist-financial-reaffirms-their-buy-rating-on-cms-energy-cms/",
+      "source": "The Globe and Mail",
+      "published_at": "20260715T024459",
+      "sentiment_score": 0.149605,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CMSC",
+        "CMS",
+        "TFC",
+        "D",
+        "ETR"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation",
+        "Finance"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Southwest Airlines stock holds steady as low-cost model underpins long-term outlook",
+      "summary": "Southwest Airlines stock remains stable, reflecting its position as a major U.S. low-cost carrier with a strong focus on efficiency, a simplified fleet, and point-to-point domes...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/southwest-airlines-stock-holds-steady-as-low-cost-model-underpins/69769943",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T021652",
+      "sentiment_score": 0.280141,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "ADM"
+        "LUV",
+        "BA"
+      ],
+      "topics": [
+        "Energy Transportation",
+        "Financial Markets",
+        "Earnings",
+        "Economy Macro",
+        "Finance"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Autodesk (ADSK) Stock Looks Cheap On Cash Flow But Fair On Earnings",
+      "summary": "Autodesk's stock has declined over the past five years, leading to a mixed valuation picture. While a Discounted Cash Flow (DCF) model suggests it's significantly undervalued du...",
+      "url": "https://ca.finance.yahoo.com/news/autodesk-adsk-stock-looks-cheap-011251458.html",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260715T020759",
+      "sentiment_score": 0.262366,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ADSK"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "DTE Energy stock holds steady as regulated utility operations support long-term earnings",
+      "summary": "DTE Energy stock maintains stability due to its regulated utility operations, which encompass electricity and natural gas services. The company's earnings predictability is larg...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/dte-energy-stock-holds-steady-as-regulated-utility-operations-support/69769744",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T011144",
+      "sentiment_score": 0.488194,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "DTE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Energy Transportation",
+        "Finance"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Lelantos Holdings Launches \"Building Airtopia,\" Chronicling the Story Behind a Family Entertainment Platform That G...",
+      "summary": "Lelantos Holdings, Inc., parent company of Airtopia Adventure Parks, announced the launch of \"Building Airtopia,\" a seven-part storytelling series. This series will provide an i...",
+      "url": "https://www.accessnewswire.com/newsroom/en/oil-gas-and-energy/lelantos-holdings-launches-%22building-airtopia-%22-chronicling-the-story-behind-a-f-1191070",
+      "source": "ACCESS Newswire",
+      "published_at": "20260715T011119",
+      "sentiment_score": 0.021867,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ACCS"
+      ],
+      "topics": [
+        "Earnings",
+        "Ipo"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Mosaic Company stock holds steady as fertilizer demand shapes the long-term outlook",
+      "summary": "The article discusses how Mosaic Company's stock performance is intrinsically linked to global fertilizer demand, highlighting its key role as a major producer of phosphate and...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/mosaic-company-stock-holds-steady-as-fertilizer-demand-shapes-the/69769659",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T004044",
+      "sentiment_score": 0.305524,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "MOS"
       ],
       "topics": [
         "Earnings",
@@ -233,510 +330,404 @@
       "is_noise": false
     },
     {
-      "title": "Equity LifeStyle Properties sets Q2 2026 earnings release date",
-      "summary": "Equity LifeStyle Properties, Inc. announced that its second-quarter 2026 financial results will be released after market close on Wednesday, July 22, 2026. A conference call and...",
-      "url": "https://scanx.trade/stock-market-news/companies/equity-lifestyle-properties-sets-q2-2026-earnings-release-date/45525429",
-      "source": "scanx.trade",
-      "published_at": "20260714T011235",
-      "sentiment_score": 0.056836,
+      "title": "Analyst expects Wynn UAE resort to open in 2027 despite geopolitical concerns",
+      "summary": "Brokerage Texas Capital Securities anticipates Wynn Al Marjan Island, a USD5.1 billion resort in the UAE, will open in 2027, despite geopolitical concerns affecting investor sen...",
+      "url": "https://macaudailytimes.com.mo/analyst-expects-wynn-uae-resort-to-open-in-2027-despite-geopolitical-concerns.html",
+      "source": "macau daily times 澳門每日時報",
+      "published_at": "20260715T002625",
+      "sentiment_score": 0.10265,
       "sentiment_label": "Neutral",
       "tickers": [
-        "ELS"
+        "WYNN",
+        "MGM"
       ],
       "topics": [
         "Earnings",
-        "Real Estate"
+        "Financial Markets",
+        "Mergers And Acquisitions"
       ],
       "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Credicorp (BAP) Holds Near Fair Value, Is The Recent Rally Already Priced In?",
-      "summary": "Credicorp (NYSE:BAP) has experienced a mixed short-term performance, with recent pullbacks against a backdrop of strong longer-term gains. The company is valued near its fair va...",
-      "url": "https://simplywall.st/stocks/us/banks/nyse-bap/credicorp/news/credicorp-bap-holds-near-fair-value-is-the-recent-rally-alre/amp",
+      "title": "BioCryst (BCRX) Stock Looks Like A Bargain After Facility Closure",
+      "summary": "BioCryst Pharmaceuticals (BCRX) stock appears undervalued despite a 40% five-year decline, trading at a P/S ratio of 2.8x compared to an industry average of 11.2x. The company's...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-bcrx/biocryst-pharmaceuticals/news/biocryst-bcrx-stock-looks-like-a-bargain-after-facility-clos",
       "source": "Simply Wall Street",
-      "published_at": "20260714T014103",
-      "sentiment_score": 0.146652,
-      "sentiment_label": "Neutral",
+      "published_at": "20260715T011033",
+      "sentiment_score": 0.346619,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "BAP"
+        "BCRX"
       ],
       "topics": [
-        "Earnings",
+        "Life Sciences",
         "Financial Markets",
-        "Finance"
+        "Earnings"
       ],
       "quality_score": 8,
       "is_noise": false
     },
     {
-      "title": "Cigna Group (CI) Turns To AI Pharmacy Care On A Narrative That Still Looks Undervalued",
-      "summary": "Cigna Group (CI) is gaining attention after its health services arm, Evernorth, launched Pharmacy Forward, a $100 million AI-driven specialty pharmacy program. Recent reports fr...",
-      "url": "https://simplywall.st/stocks/us/healthcare/nyse-ci/cigna-group/news/cigna-group-ci-turns-to-ai-pharmacy-care-on-a-narrative-that",
+      "title": "Can Stryker (SYK) Turn Nerve Repair Biomaterials Into a Core Neurotechnology Growth Engine?",
+      "summary": "Stryker (SYK) is positioned to leverage rapid growth in the nerve repair biomaterials sector, which could enhance its neurotechnology portfolio and international expansion, part...",
+      "url": "https://simplywall.st/stocks/us/healthcare/nyse-syk/stryker/news/can-stryker-syk-turn-nerve-repair-biomaterials-into-a-core-n",
       "source": "Simply Wall Street",
-      "published_at": "20260714T034251",
-      "sentiment_score": 0.240485,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CI",
-        "CVS"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Financial Markets",
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Thermo Fisher Scientific (TMO) Gains Fresh Attention As FBI Clearance Tests Its Undervalued Narrative",
-      "summary": "Thermo Fisher Scientific (TMO) is gaining attention after its Applied Biosystems RapidINTEL Plus Cartridge received FBI clearance for generating crime scene DNA profiles, which...",
-      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-tmo/thermo-fisher-scientific/news/thermo-fisher-scientific-tmo-gains-fresh-attention-as-fbi-cl",
-      "source": "Simply Wall Street",
-      "published_at": "20260714T034213",
-      "sentiment_score": 0.237165,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TMO",
-        "WAT"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Cumberland Pharmaceuticals declares $1.50 special dividend, $5M buyback after $100M Apotex deal",
-      "summary": "Cumberland Pharmaceuticals (CPIX) announced a special cash dividend of $1.50 per share and a new $5 million share repurchase program. These actions follow the closing of a $100...",
-      "url": "https://www.tradingview.com/news/tradingview:9ee27ebfda661:0-cumberland-pharmaceuticals-declares-1-50-special-dividend-5m-buyback-after-100m-apotex-deal/",
-      "source": "TradingView",
-      "published_at": "20260714T033438",
-      "sentiment_score": 0.449606,
+      "published_at": "20260715T023026",
+      "sentiment_score": 0.431335,
       "sentiment_label": "Bullish",
       "tickers": [
-        "CPIX"
+        "SYK"
       ],
       "topics": [
-        "Mergers And Acquisitions",
-        "Earnings",
-        "Finance",
-        "Life Sciences"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Is Revvity (RVTY) Fairly Valued Following Its Anthropic Signals AI Tie Up?",
-      "summary": "Revvity (RVTY) has partnered with Anthropic, linking its Signals AI with Claude for scientific research. The stock trades at US$111.11, following recent gains, and is considered...",
-      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-rvty/revvity/news/is-revvity-rvty-fairly-valued-following-its-anthropic-signal/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260714T013912",
-      "sentiment_score": 0.266151,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "RVTY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
         "Life Sciences",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Is Revvity (RVTY) Fairly Valued Following Its Anthropic Signals AI Tie Up?",
-      "summary": "Revvity (RVTY) is gaining attention after its Revvity Signals Software business partnered with Anthropic's Model Context Protocol, integrating Signals AI with Claude for scienti...",
-      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-rvty/revvity/news/is-revvity-rvty-fairly-valued-following-its-anthropic-signal",
-      "source": "Simply Wall Street",
-      "published_at": "20260714T013259",
-      "sentiment_score": 0.2895,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "RVTY"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Life Sciences",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Does GE's Arbitration Outcome in Malaysia Clarify or Complicate Its Core Aerospace Narrative (GE)?",
-      "summary": "A Singapore arbitration tribunal recently dismissed claims by Malakoff Corporation Berhad against GE entities regarding the Prai Power dispute, leaving a second claim open. This...",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-ge/general-electric/news/does-ges-arbitration-outcome-in-malaysia-clarify-or-complica",
-      "source": "Simply Wall Street",
-      "published_at": "20260714T013255",
-      "sentiment_score": 0.112911,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GE"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Energy Transportation",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Elastic (ESTC) Is Up 6.6% After Expanding Prometheus-Based Observability Capabilities With Unified Metrics Platform",
-      "summary": "Elastic N.V. recently expanded its observability capabilities, including native Prometheus and PromQL support, aiming to unify logs, metrics, and traces on a single backend and...",
-      "url": "https://simplywall.st/stocks/us/software/nyse-estc/elastic/news/elastic-estc-is-up-66-after-expanding-prometheus-based-obser/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260714T011400",
-      "sentiment_score": 0.198399,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ESTC",
-        "DDOG",
-        "GOOG"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Johnson Controls to hold Q3 2026 earnings call on July 29, accessible via live webcast.",
-      "summary": "Johnson Controls International plc has announced that its third-quarter fiscal 2026 earnings conference call will take place on July 29, 2026, at 8:30 a.m. ET. Investors can joi...",
-      "url": "https://pluang.com/en/news-feed/johnson-controls-panggilan-konferensi-earnings-kuartal-3-2026",
-      "source": "Pluang",
-      "published_at": "20260714T010925",
-      "sentiment_score": 0.040739,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "JCI"
-      ],
-      "topics": [
-        "Earnings",
-        "Manufacturing"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "TD Cowen Adjusts Price Target on Intuitive Surgical to $520 From $585, Maintains Buy Rating",
-      "summary": "TD Cowen has revised its price target for Intuitive Surgical (NASDAQ: ISRG) down to $520 from $585. Despite the reduction, the firm has chosen to maintain its Buy rating on the...",
-      "url": "https://www.moomoo.com/news/post/72865437/td-cowen-adjusts-price-target-on-intuitive-surgical-to-520?futusource=news_newspage_recommend",
-      "source": "Moomoo",
-      "published_at": "20260714T010923",
-      "sentiment_score": -0.29093,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "ISRG"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Fortis (TSX:FTS) Advances As Regulated Utility Growth Gains Momentum",
-      "summary": "Fortis (TSX:FTS) is advancing its regulated utility business through strategic long-term infrastructure investments, diversified operations, and ongoing grid modernization initi...",
-      "url": "https://kalkinemedia.com/ca/stocks/utility/fortis-tsxfts-advances-as-regulated-utility-growth-gains-momentum",
-      "source": "Kalkine Media",
-      "published_at": "20260714T044112",
-      "sentiment_score": 0.106269,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "FTS",
-        "KHC",
-        "WFC",
-        "CEG",
-        "DUK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Las Vegas Sands stock holds steady as Macau recovery and Singapore expansion shape the long-term sto",
-      "summary": "Las Vegas Sands (LVS) stock heavily relies on its Macau and Singapore operations, with the company focusing on high-end tourism, convention traffic, and mass-market gaming to dr...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/las-vegas-sands-stock-holds-steady-as-macau-recovery-and-singapore/69763725",
-      "source": "Ad Hoc News",
-      "published_at": "20260714T041234",
-      "sentiment_score": 0.3272,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "LVS"
-      ],
-      "topics": [
         "Earnings",
         "Financial Markets"
       ],
-      "quality_score": 6,
+      "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "Dorman Products to report Q2 2026 results on August 3",
-      "summary": "Dorman Products, Inc. announced it would release its financial results for the second quarter ended June 27, 2026, after market close on August 3, 2026. A conference call with i...",
-      "url": "https://scanx.trade/stock-market-news/companies/dorman-products-to-report-q2-2026-results-on-august-3/45525311",
-      "source": "scanx.trade",
-      "published_at": "20260714T033954",
-      "sentiment_score": 0.012091,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DORM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Snap-on stock holds steady as tool maker leans on industrial demand",
-      "summary": "Snap-on Inc. (SNA) stock maintains a steady profile due to strong demand from its core professional customer base in automotive and industrial sectors. The company's business mo...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/snap-on-stock-holds-steady-as-tool-maker-leans-on-industrial-demand/69763429",
-      "source": "Ad Hoc News",
-      "published_at": "20260714T031715",
-      "sentiment_score": 0.465149,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "SNA"
-      ],
-      "topics": [
-        "Earnings",
-        "Manufacturing",
-        "Financial Markets",
-        "Finance",
-        "Retail Wholesale"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "PPL Corporation stock holds steady as regulated utility strategy supports long-term earnings",
-      "summary": "PPL Corporation stock reflects its role as a major regulated electric and gas utility, characterized by predictable, rate-based returns and significant grid investments in the U...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ppl-corporation-stock-holds-steady-as-regulated-utility-strategy-supports/69762811",
-      "source": "Ad Hoc News",
-      "published_at": "20260714T025500",
-      "sentiment_score": 0.404779,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "PPL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Energy Transportation",
-        "Economy Macro"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Celestica Inc (CLS) Stock Down 4.1% but Still Overvalued -- GF Score: 84/100",
-      "summary": "Celestica Inc (CLS) stock recently dropped 4.1%, yet GuruFocus assesses it as \"Significantly Overvalued\" with a GF Value™ of $132.62 against its current price of $345.18. Despit...",
-      "url": "https://www.gurufocus.com/news/8956363/celestica-inc-cls-stock-down-41-but-still-overvalued-gf-score-84100",
-      "source": "GuruFocus",
-      "published_at": "20260714T024220",
-      "sentiment_score": -0.385723,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "CLS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "BorgWarner stock holds steady as drivetrain specialist leans into electrification strategy",
-      "summary": "BorgWarner Inc. is navigating the automotive industry's shift by balancing its legacy combustion-engine business with a growing focus on electrified drivetrains. The company's s...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/borgwarner-stock-holds-steady-as-drivetrain-specialist-leans-into/69762421",
-      "source": "Ad Hoc News",
-      "published_at": "20260714T024022",
-      "sentiment_score": 0.262687,
+      "title": "Cenovus Energy (TSX:CVE) Stock Looks Like A Bargain Despite A 345% Run",
+      "summary": "Cenovus Energy's stock has seen a significant 345.1% return over the past five years and 104.5% over the last year. Despite this strong performance, the stock appears undervalue...",
+      "url": "https://simplywall.st/stocks/ca/energy/tsx-cve/cenovus-energy-shares/news/cenovus-energy-tsxcve-stock-looks-like-a-bargain-despite-a-3/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260715T022009",
+      "sentiment_score": 0.331385,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "BWA"
-      ],
-      "topics": [
-        "Earnings",
-        "Energy Transportation",
-        "Finance",
-        "Manufacturing",
-        "Economy Macro"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Hasbro stock reflects the company’s broad entertainment portfolio",
-      "summary": "Hasbro stock offers a diversified investment in toys, games, and entertainment, balancing its traditional brands with new digital and licensing initiatives for growth. The compa...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/hasbro-stock-reflects-the-company-s-broad-entertainment-portfolio/69763198",
-      "source": "Ad Hoc News",
-      "published_at": "20260714T022700",
-      "sentiment_score": 0.413898,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "HAS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Cummins Inc. Increases Quarterly Common Stock Dividend",
-      "summary": "Cummins Inc. announced that its Board of Directors approved a 10% increase in the company's quarterly common stock cash dividend, raising it from $2.00 to $2.20 per share. This...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cummins-inc-increases-quarterly-common-201500754.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260714T020723",
-      "sentiment_score": 0.484044,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "CMI"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Energy Transportation",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "TJX Companies stock holds steady as off-price model underpins long-term growth",
-      "summary": "TJX Companies benefits from a resilient off-price retail model emphasizing disciplined buying and a value-focused strategy, which appeals to shoppers and helps maintain stable e...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/tjx-companies-stock-holds-steady-as-off-price-model-underpins-long-term/69763033",
-      "source": "Ad Hoc News",
-      "published_at": "20260714T014313",
-      "sentiment_score": 0.048684,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TJX"
-      ],
-      "topics": [
-        "Retail Wholesale",
-        "Financial Markets",
-        "Earnings",
-        "Economy Macro",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "IDEXX Laboratories stock holds steady as diagnostics demand supports long-term growth",
-      "summary": "IDEXX Laboratories, a global leader in veterinary diagnostics and software, demonstrates stable stock performance driven by demand for its services. The company's business model...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/idexx-laboratories-stock-holds-steady-as-diagnostics-demand-supports/69762922",
-      "source": "Ad Hoc News",
-      "published_at": "20260714T011814",
-      "sentiment_score": 0.489424,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "IDXX"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "How Leadership Hires And A Larger Credit Line At FTI Consulting (FCN) Have Changed Its Investment Story",
-      "summary": "FTI Consulting has enhanced its leadership team with new senior hires and significantly expanded its revolving credit facility from US$900 million to US$1.5 billion, extending i...",
-      "url": "https://simplywall.st/stocks/us/commercial-services/nyse-fcn/fti-consulting/news/how-leadership-hires-and-a-larger-credit-line-at-fti-consult",
-      "source": "Simply Wall Street",
-      "published_at": "20260714T041444",
-      "sentiment_score": 0.275065,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "FCN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Canadian Natural Resources (TSX:CNQ) Record Production Puts Its Valuation Case Back In Focus",
-      "summary": "Canadian Natural Resources (TSX:CNQ) has achieved record quarterly production, supported by efficient operations and disciplined capital management, which has put its valuation...",
-      "url": "https://simplywall.st/stocks/ca/energy/tsx-cnq/canadian-natural-resources-shares/news/canadian-natural-resources-tsxcnq-record-production-puts-its",
-      "source": "Simply Wall Street",
-      "published_at": "20260714T011008",
-      "sentiment_score": 0.484722,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "CNQ"
+        "CVE"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Energy Transportation"
       ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Is Brink's (BCO) Still Below Fair Value After A 64% Return?",
+      "summary": "Brink's (BCO) stock has seen a 64.2% return over the past three years. Despite this strong performance, Simply Wall St's valuation checks indicate a mixed picture, suggesting th...",
+      "url": "https://simplywall.st/stocks/us/commercial-services/nyse-bco/brinks/news/is-brinks-bco-still-below-fair-value-after-a-64-return",
+      "source": "Simply Wall Street",
+      "published_at": "20260715T011323",
+      "sentiment_score": 0.144363,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BCO"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "PSEG stock holds steady as regulated utility profile anchors long-term value",
+      "summary": "PSEG stock maintains stability due to its profile as a major regulated US utility, appealing to long-term investors through predictable cash flows and a focus on grid investment...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/pseg-stock-holds-steady-as-regulated-utility-profile-anchors-long-term/69769695",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T005205",
+      "sentiment_score": 0.337477,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "PEG",
+        "ED",
+        "DUK",
+        "AEE",
+        "SRE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Equity Residential stock reflects steady demand for urban apartments",
+      "summary": "Equity Residential (EQR) stock offers investors exposure to high-quality rental housing in major US urban markets through its focus on high-end multifamily properties. Structure...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/equity-residential-stock-reflects-steady-demand-for-urban-apartments/69769482",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T003458",
+      "sentiment_score": 0.415369,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "EQR"
+      ],
+      "topics": [
+        "Real Estate",
+        "Financial Markets",
+        "Finance",
+        "Economy Macro",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Cykel AI PLC (CYKL) Leadership & Management Team Analysis",
+      "summary": "This article provides an analysis of Cykel AI PLC's leadership and management team, highlighting recent changes and key appointments. It details the stepping down of former exec...",
+      "url": "https://simplywall.st/stocks/gb/software/lse-cykl/cykel-ai-shares/management",
+      "source": "Simply Wall Street",
+      "published_at": "20260715T003449",
+      "sentiment_score": 0.037065,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DFDV"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Catalyst Pharmaceuticals, Inc.(NasdaqCM: CPRX) dropped from S&P Global BMI Index",
+      "summary": "Catalyst Pharmaceuticals, Inc. (NasdaqCM: CPRX) has been removed from the S&P Global BMI Index, as announced on July 14, 2026. This news follows several other index removals for...",
+      "url": "https://www.marketscreener.com/news/catalyst-pharmaceuticals-inc-nasdaqcm-cprx-dropped-from-s-p-global-bmi-index-ce7f5edddc8cf22d",
+      "source": "www.marketscreener.com",
+      "published_at": "20260715T002606",
+      "sentiment_score": 0.305799,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "SPGI"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Life Sciences",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Cirrus Logic to report Q1 FY27 results on August 5",
+      "summary": "Cirrus Logic, Inc. is set to announce its first quarter fiscal year 2027 financial results and business outlook on August 5 at approximately 4 p.m. ET. Following the release, th...",
+      "url": "https://scanx.trade/stock-market-news/companies/cirrus-logic-to-report-q1-fy27-results-on-august-5/45616115",
+      "source": "scanx.trade",
+      "published_at": "20260715T032015",
+      "sentiment_score": -0.094462,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CRUS"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Tapestry stock holds steady as Coach and Kate Spade drive sales",
+      "summary": "Tapestry Inc. (ISIN US8760301072) maintains a steady stock performance, driven primarily by its Coach and Kate Spade brands. The company, which also includes Stuart Weitzman, fo...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/tapestry-stock-holds-steady-as-coach-and-kate-spade-drive-sales/69770095",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T030304",
+      "sentiment_score": 0.391078,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "TPR"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Teradyne stock holds steady as testing technology underpins long-term growth",
+      "summary": "Teradyne Inc. (TER) is a key supplier of semiconductor and electronics test equipment and industrial automation solutions. The company's stock reflects its role in the global se...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/teradyne-stock-holds-steady-as-testing-technology-underpins-long-term/69770066",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T025705",
+      "sentiment_score": 0.62751,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "TER"
+      ],
+      "topics": [
+        "Technology",
+        "Manufacturing",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Agree Realty (ADC) Announces Consistent Monthly Dividend of $0.267",
+      "summary": "Agree Realty Corp (ADC) has announced a consistent monthly dividend of $0.267 per share, maintaining its previous distribution. The company, which is a REIT primarily focused on...",
+      "url": "https://www.gurufocus.com/news/8958501/agree-realty-adc-announces-consistent-monthly-dividend-of-0267",
+      "source": "GuruFocus",
+      "published_at": "20260715T011200",
+      "sentiment_score": 0.485432,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ADC"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate",
+        "Finance",
+        "Financial Markets",
+        "Retail Wholesale"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Fortinet (FTNT) Stock Could Be 39% Above Fair Value Despite AI Security Growth",
+      "summary": "Fortinet (FTNT) stock, despite a 216.2% return over five years and growing interest in its AI-driven security offerings, appears significantly overvalued based on both Discounte...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fortinet-ftnt-stock-could-39-011208916.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260715T011159",
+      "sentiment_score": -0.433564,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "FTNT"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Goldman Sachs Calls Crown Castle (CCI) the Largest Pure-Play US Tower Operator",
+      "summary": "Goldman Sachs analyst Michael Ng initiated coverage on Crown Castle Inc. (CCI) with a Neutral rating and a $95 price target, identifying it as the largest pure-play US tower ope...",
+      "url": "https://finance.yahoo.com/real-estate/articles/goldman-sachs-calls-crown-castle-002237447.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260715T002223",
+      "sentiment_score": -0.09284,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CCI",
+        "GS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Real Estate",
+        "Technology",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "How Investors May Respond To Welltower (WELL) Strong Senior Housing Metrics And Options-Focused Income Strategy",
+      "summary": "Welltower Inc., a major senior housing REIT, recently reported strong growth in net operating income and funds from operations, alongside an income-focused options strategy. Med...",
+      "url": "https://simplywall.st/stocks/us/real-estate/nyse-well/welltower/news/how-investors-may-respond-to-welltower-well-strong-senior-ho",
+      "source": "Simply Wall Street",
+      "published_at": "20260715T022946",
+      "sentiment_score": 0.220584,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "WELL",
+        "VTR",
+        "BLK",
+        "DOC"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate",
+        "Financial Markets",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 5,
+      "is_noise": false
+    },
+    {
+      "title": "Consolidated Edison stock holds steady as regulated utility model supports long-term returns",
+      "summary": "Consolidated Edison (NYSE: ED) stock is characterized by the stability of its regulated utility model, which provides predictable cash flows from electricity and gas distributio...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/consolidated-edison-stock-holds-steady-as-regulated-utility-model-supports/69769709",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T025500",
+      "sentiment_score": 0.546228,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ED"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets",
+        "Economy Macro",
+        "Energy Transportation"
+      ],
       "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "Cincinnati Financial stock holds steady as insurance business supports long term value",
-      "summary": "Cincinnati Financial's stock performance is analyzed in this article, emphasizing the company's position as a prominent US property-casualty insurer. The article highlights its...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cincinnati-financial-stock-holds-steady-as-insurance-business-supports/69763348",
-      "source": "Ad Hoc News",
-      "published_at": "20260714T030323",
-      "sentiment_score": 0.407701,
-      "sentiment_label": "Bullish",
+      "title": "Bitmine (BMNR) Rockets 11.5%; Big Investors Double Down on its Ethereum Bet",
+      "summary": "Bitmine Immersion (BMNR) saw its stock price jump 11.5% after expanding its Ethereum treasury to $10.5 billion, making it the world's largest holder of the token. The company hi...",
+      "url": "https://ca.finance.yahoo.com/news/bitmine-bmnr-rockets-11-5-013603059.html",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260715T014430",
+      "sentiment_score": 0.225009,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "CINF"
+        "BMNR",
+        "COIN",
+        "HON"
       ],
       "topics": [
-        "Finance",
-        "Financial Markets",
+        "Blockchain",
         "Earnings",
-        "Economy Macro"
+        "Financial Markets",
+        "Finance"
       ],
-      "quality_score": 3,
+      "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "Colgate-Palmolive stock reflects a steady consumer brands business in oral care and home products",
-      "summary": "Colgate-Palmolive stock offers steady exposure to a global consumer brands business encompassing oral care, personal care, home care, and pet nutrition. The company benefits fro...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/colgate-palmolive-stock-reflects-a-steady-consumer-brands-business-in-oral/69763141",
-      "source": "Ad Hoc News",
-      "published_at": "20260714T021134",
-      "sentiment_score": 0.433583,
+      "title": "Exelon stock reflects a steady regulated utility profile",
+      "summary": "Exelon stock represents a major U.S. regulated electric and gas utility with a focus on transmission and distribution, offering investors exposure to stable, rate-based returns...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/exelon-stock-reflects-a-steady-regulated-utility-profile/69769738",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T010855",
+      "sentiment_score": 0.426057,
       "sentiment_label": "Bullish",
       "tickers": [
-        "CL"
+        "EXC"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Church & Dwight stock reflects steady consumer staples profile",
+      "summary": "Church & Dwight Co., Inc. (US1713401024) is a prominent US consumer products company known for its portfolio of household and personal care brands, offering investors exposure t...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/church-and-dwight-stock-reflects-steady-consumer-staples-profile/69769611",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T002524",
+      "sentiment_score": 0.287199,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CHD",
+        "CLX",
+        "PG",
+        "KMB",
+        "CPB"
       ],
       "topics": [
         "Earnings",
@@ -745,22 +736,24 @@
         "Retail Wholesale",
         "Finance"
       ],
-      "quality_score": 3,
+      "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "Crowdstrike president and CEO George Kurtz sells $3.86M in stock By Investing.com",
-      "summary": "CrowdStrike Holdings, Inc. President and CEO George Kurtz sold approximately $3.86 million worth of Class A common stock across transactions on July 9 and 10, 2026, at prices be...",
-      "url": "https://m.in.investing.com/news/stock-market-news/crowdstrike-president-and-ceo-george-kurtz-sells-386m-in-stock-93CH-5494228?ampMode=1",
-      "source": "Investing.com India",
-      "published_at": "20260714T020808",
-      "sentiment_score": -0.129583,
+      "title": "Comcast (CMCSA) Agrees To $117.5 Million Xfinity Data Breach Settlement",
+      "summary": "Comcast has agreed to a $117.5 million settlement in a class-action lawsuit over a cybersecurity breach affecting Xfinity customers, which exposed personal data for millions of...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/comcast-cmcsa-agrees-117-5-021124261.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260715T021112",
+      "sentiment_score": -0.051348,
       "sentiment_label": "Neutral",
       "tickers": [
-        "CRWD"
+        "CMCSV",
+        "CMCSA",
+        "CHTR"
       ],
       "topics": [
-        "Financial Markets",
+        "Finance",
         "Technology",
         "Earnings"
       ],
@@ -768,56 +761,15 @@
       "is_noise": false
     },
     {
-      "title": "Citizens President Brendan Coughlin expands role to oversee commercial banking",
-      "summary": "Citizens Financial Group Inc. President Brendan Coughlin has expanded his role to include oversight of the bank’s Commercial Banking division, in addition to his existing respon...",
-      "url": "https://pbn.com/citizens-president-brendan-coughlin-expands-role-to-oversee-commercial-banking/?amp=1",
-      "source": "Providence Business News",
-      "published_at": "20260714T020746",
-      "sentiment_score": 0.322188,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Arch Capital Group stock reflects specialty insurance strength",
+      "summary": "Arch Capital Group (BMG0450A1053) is a global specialty insurer and reinsurer recognized for its disciplined underwriting and diversified lines across property, casualty, and mo...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/arch-capital-group-stock-reflects-specialty-insurance-strength/69769862",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T015159",
+      "sentiment_score": 0.497681,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "CFG"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Tharimmune Stockholders Elect Board, Ratify Auditor at 2026 Annual Meeting",
-      "summary": "Tharimmune stockholders elected all seven board nominees, including Mark Wendland and Jill E. Sommers, at their 2026 annual meeting held virtually. They also ratified Rosenberg...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tharimmune-stockholders-elect-board-ratify-020157076.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260714T020032",
-      "sentiment_score": 0.230194,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CNTN"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Northern Trust stock holds steady as wealth and asset management scale supports long-term growth",
-      "summary": "Northern Trust's stock reflects its strong position as a global custodian, asset servicer, and wealth manager. The company benefits from diversified fee income and capital stren...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/northern-trust-stock-holds-steady-as-wealth-and-asset-management-scale/69762897",
-      "source": "Ad Hoc News",
-      "published_at": "20260714T011140",
-      "sentiment_score": 0.202773,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "NTRS",
-        "JPM",
-        "GS",
-        "BK",
-        "MS"
+        "ACGL"
       ],
       "topics": [
         "Finance",
@@ -829,51 +781,111 @@
       "is_noise": false
     },
     {
-      "title": "Agenus (AGEN) Investor update Summary",
-      "summary": "Agenus is focusing its efforts on neoadjuvant BOT/BAL for high-risk Stage II/III MSS colon cancer, supported by strong clinical data and a planned Phase 3 trial. The company sec...",
-      "url": "https://quartr.com/events/agenus-inc-agen-investor-update_oqyqkw7o",
-      "source": "Quartr",
-      "published_at": "20260714T011004",
-      "sentiment_score": 0.600904,
+      "title": "Edison International stock holds steady as regulated utility footprint supports long-term returns",
+      "summary": "Edison International (EIX) stock is supported by its role as a regulated electric utility in Southern California, emphasizing grid modernization, renewable integration, and wild...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/edison-international-stock-holds-steady-as-regulated-utility-footprint/69769851",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T014546",
+      "sentiment_score": 0.253893,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "EIX"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Leidos Holdings stock reflects a steady defense technology story",
+      "summary": "Leidos Holdings is a major US defense technology and IT services provider, offering exposure to long-term government spending across intelligence, civil infrastructure, and heal...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/leidos-holdings-stock-reflects-a-steady-defense-technology-story/69769758",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T011628",
+      "sentiment_score": 0.547322,
       "sentiment_label": "Bullish",
       "tickers": [
-        "AGEN"
+        "LDOS"
+      ],
+      "topics": [
+        "Technology",
+        "Economy Fiscal",
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Annexon to present data on vonaprument for macular degeneration By Investing.com",
+      "summary": "Annexon Inc. is set to present Phase 2 ARCHER trial data on its drug candidate, vonaprument, for geographic atrophy at the American Society of Retina Specialists 44th Annual Sci...",
+      "url": "https://ca.investing.com/news/stock-market-news/annexon-to-present-data-on-vonaprument-for-macular-degeneration-93CH-4733825",
+      "source": "Investing.com Canada",
+      "published_at": "20260715T011220",
+      "sentiment_score": 0.404585,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ANNX"
       ],
       "topics": [
         "Life Sciences",
+        "Financial Markets",
         "Earnings"
       ],
       "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "FG Nexus (FGNX) director Rita Hayes awarded 1,772 RSUs as fees",
-      "summary": "FG Nexus Inc. director Rita Hayes was granted 1,772 restricted stock units (RSUs) on July 10, 2026, as a director fee payment in lieu of cash under the 2021 Equity Incentive Pla...",
-      "url": "https://www.stocktitan.net/sec-filings/FGNX/form-4-fg-nexus-inc-insider-trading-activity-0c46a0827db5.html",
+      "title": "[Form 4] DLH Holdings Corp. Insider Trading Activity",
+      "summary": "A recent Form 4 filing for DLH Holdings Corp. (DLHC) shows that Mink Brook Asset Management LLC, a 10% owner, purchased 4,407 shares of common stock on July 13, 2026, at a weigh...",
+      "url": "https://www.stocktitan.net/sec-filings/DLHC/form-4-dlh-holdings-corp-insider-trading-activity-95751905bb6a.html",
       "source": "Stock Titan",
-      "published_at": "20260714T044028",
-      "sentiment_score": 0.009718,
-      "sentiment_label": "Neutral",
+      "published_at": "20260715T033117",
+      "sentiment_score": 0.388037,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "FGNX"
+        "DLHC"
       ],
       "topics": [
-        "Finance",
-        "Earnings"
+        "Earnings",
+        "Financial Markets"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Eagle Point Credit Co Estimates NAV Per Common Share Between $4.45 And $4.55 - SEC Filing",
-      "summary": "Eagle Point Credit Co (ECC) has filed an SEC document estimating its Net Asset Value (NAV) per common share to be between $4.45 and $4.55. This information was disclosed in a re...",
-      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN43F146:0-eagle-point-credit-co-estimates-nav-per-common-share-between-4-45-and-4-55-sec-filing/",
-      "source": "TradingView",
-      "published_at": "20260714T033635",
-      "sentiment_score": 0.035882,
+      "title": "BJ's Restaurants (NASDAQ: BJRI) CTO discloses zero common stock",
+      "summary": "BJ's Restaurants Inc.'s EVP & Chief Technology Officer, Amin Birju Prakash, has filed an initial insider report (Form 3) indicating zero direct ownership of the company's common...",
+      "url": "https://www.stocktitan.net/sec-filings/BJRI/form-3-b-js-restaurants-inc-initial-statement-of-beneficial-ownership-25107dd9dc73.html",
+      "source": "Stock Titan",
+      "published_at": "20260715T024412",
+      "sentiment_score": 0.03886,
       "sentiment_label": "Neutral",
       "tickers": [
-        "ECCX"
+        "BJRI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "FOXA SEC Filings - Fox Ord 10-K, 10-Q, 8-K Forms",
+      "summary": "This page provides a comprehensive resource for Fox Corporation (FOXA) SEC filings, including 10-K annual reports, 10-Q quarterly earnings, 8-K material events, and insider trad...",
+      "url": "https://www.stocktitan.net/sec-filings/FOXA/page-5.html",
+      "source": "Stock Titan",
+      "published_at": "20260715T020941",
+      "sentiment_score": 0.029627,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "FOXA"
       ],
       "topics": [
         "Earnings",
@@ -883,331 +895,328 @@
       "is_noise": true
     },
     {
-      "title": "Check Point (CHKP) CRO Seddik gets 6,147 PSU shares and 2,306 withheld",
-      "summary": "Check Point Software Technologies Ltd.'s Chief Revenue Officer, Sherif Seddik, received 6,147 Ordinary Shares from vested Performance Share Units on July 10, 2026. Concurrently,...",
-      "url": "https://www.stocktitan.net/sec-filings/CHKP/form-4-check-point-software-technologies-ltd-insider-trading-activity-ab37051515ee.html",
+      "title": "AMREP Corp. (AXR) grants CFO Adrienne Uleau 2,250 restricted shares",
+      "summary": "AMREP Corp. (AXR) CFO Adrienne Uleau was granted 2,250 restricted shares under the company's 2016 Equity Compensation Plan. These shares will vest in three equal tranches during...",
+      "url": "https://www.stocktitan.net/sec-filings/AXR/form-4-amrep-corp-insider-trading-activity-8cc577c38cf0.html",
       "source": "Stock Titan",
-      "published_at": "20260714T024155",
-      "sentiment_score": 0.035444,
+      "published_at": "20260715T020605",
+      "sentiment_score": 0.012491,
       "sentiment_label": "Neutral",
       "tickers": [
-        "CHKP"
+        "AXR"
       ],
       "topics": [
         "Finance",
+        "Real Estate",
         "Earnings"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Form 4 Chewy Inc For: 13 July By Investing.com",
-      "summary": "This article announces the filing of Form 4 for Chewy Inc. on July 13. Form 4 is a document filed with the SEC by company insiders to report changes in their ownership of the co...",
-      "url": "https://ca.investing.com/news/stock-market-news/form-4-chewy-inc-for-13-july-93CH-4731781",
-      "source": "Investing.com Canada",
-      "published_at": "20260714T024145",
-      "sentiment_score": 0.004704,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CHWY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "C4 Therapeutics (NASDAQ: CCCC) CMO gains shares via RSU vesting, withholds some for taxes",
-      "summary": "C4 Therapeutics' Chief Medical Officer, Leonard Reyno, acquired 15,325 shares of common stock on July 10, 2026, due to the vesting of restricted stock units. The company withhel...",
-      "url": "https://www.stocktitan.net/sec-filings/CCCC/form-4-c4-therapeutics-inc-insider-trading-activity-6388e96ad890.html",
+      "title": "AMREP (NYSE: AXR) awards CEO $178k bonus and lifts top salaries",
+      "summary": "AMREP Corporation has adjusted executive compensation for its CEO, Christopher V. Vitale, and CFO, Adrienne M. Uleau. Mr. Vitale received a $178,000 cash bonus and 8,700 restric...",
+      "url": "https://www.stocktitan.net/sec-filings/AXR/8-k-amrep-corp-reports-material-event-3065fb39baa9.html",
       "source": "Stock Titan",
-      "published_at": "20260714T024025",
-      "sentiment_score": 0.032278,
+      "published_at": "20260715T020505",
+      "sentiment_score": 0.011107,
       "sentiment_label": "Neutral",
       "tickers": [
-        "CCCC"
+        "AXR"
       ],
       "topics": [
         "Earnings",
-        "Life Sciences",
-        "Finance"
+        "Finance",
+        "Real Estate"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "What This Block Insider Sale Means as Cash App Gross Profit Jumped 38%",
-      "summary": "Block director Anthony Mathew Eisen sold 18,000 shares of Class A Common Stock for $1.4 million between July 9 and July 13, 2026, under a pre-arranged trading plan. This sale re...",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/XYZ/pressreleases/3263115/what-this-block-insider-sale-means-as-cash-app-gross-profit-jumped-38/",
-      "source": "The Globe and Mail",
-      "published_at": "20260714T023946",
-      "sentiment_score": 0.13521,
+      "title": "Applied optoelectronics CFO Murry sells $488k in shares",
+      "summary": "Stefan J. Murry, CFO of Applied Optoelectronics (NASDAQ:AAOI), sold common stock worth approximately $488,360 on July 10, 2026, under a Rule 10b5-1 trading plan. These transacti...",
+      "url": "https://www.investing.com/news/insider-trading-news/applied-optoelectronics-cfo-murry-sells-488k-in-shares-93CH-4791812",
+      "source": "Investing.com",
+      "published_at": "20260715T011103",
+      "sentiment_score": 0.049045,
       "sentiment_label": "Neutral",
       "tickers": [
-        "XYZ"
+        "AAOI",
+        "RJF",
+        "GLW"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Finance",
+        "Manufacturing",
         "Technology"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Form 4 EverCommerce Inc For: 13 July By Investing.com",
-      "summary": "This article is a Form 4 filing for EverCommerce Inc. (EVCM) related to July 13. It simply states the filing information and mentions that the stock saw a 6.39% increase. No fur...",
-      "url": "https://uk.investing.com/news/stock-market-news/form-4-evercommerce-inc-for-13-july-93CH-4768683",
-      "source": "Investing.com UK",
-      "published_at": "20260714T011404",
-      "sentiment_score": 0.172679,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Alignment healthcare CEO John Kao sells $5.9m in ALHC shares",
+      "summary": "John E. Kao, CEO of Alignment Healthcare (NASDAQ:ALHC), sold 298,000 shares worth approximately $5.92 million on July 10, 2026, through a pre-arranged trading plan. This sale oc...",
+      "url": "https://www.investing.com/news/insider-trading-news/alignment-healthcare-ceo-john-kao-sells-59m-in-alhc-shares-93CH-4791781",
+      "source": "Investing.com",
+      "published_at": "20260715T011020",
+      "sentiment_score": -0.222795,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "EVCM"
+        "ALHC"
       ],
       "topics": [
+        "Life Sciences",
         "Financial Markets",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "[Form 4] Xos, Inc. Insider Trading Activity",
+      "summary": "Xos, Inc.'s Chief Financial Officer, Liana Pogosyan, reported a tax-withholding disposition of 3,163 shares of common stock at $2.47 per share. This transaction was related to t...",
+      "url": "https://www.stocktitan.net/sec-filings/XOS/form-4-xos-inc-insider-trading-activity-cd2e5d2e422b.html",
+      "source": "Stock Titan",
+      "published_at": "20260715T004057",
+      "sentiment_score": 0.044872,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "XOS"
+      ],
+      "topics": [
+        "Finance",
         "Earnings"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Arista Networks (NYSE:ANET) CEO Sells 242,422 Shares",
-      "summary": "Arista Networks (NYSE:ANET) CEO Jayshree Ullal sold 242,422 shares of the company's stock on July 9th for approximately $45.6 million. This transaction, made under a pre-arrange...",
-      "url": "https://www.marketbeat.com/instant-alerts/arista-networks-nyseanet-ceo-sells-242422-shares-2026-07-13/",
-      "source": "MarketBeat",
-      "published_at": "20260714T011305",
-      "sentiment_score": -0.192663,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Tractor Supply (TSCO) SVP details stock and option holdings",
+      "summary": "Tractor Supply's Chief Supply Chain Officer, Samuel Craig Ledbetter, has filed an initial ownership report detailing his holdings in the company. As of July 6, 2026, Ledbetter d...",
+      "url": "https://www.stocktitan.net/sec-filings/TSCO/form-3-tractor-supply-co-de-initial-statement-of-beneficial-ownership-3ac8b1efe211.html",
+      "source": "Stock Titan",
+      "published_at": "20260715T003913",
+      "sentiment_score": 0.00106,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "ANET"
+        "TSCO"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Technology",
-        "Finance"
+        "Retail Wholesale"
       ],
       "quality_score": -10,
       "is_noise": true
     }
   ],
   "article_count": 50,
-  "top_ticker": "GOOG",
+  "top_ticker": "DTE",
   "top_topic": "Earnings",
-  "dominant_sentiment": "Neutral",
-  "top_story": "Benchmark Electronics (BHE) Q1 Beat Puts Fair Value Back In Focus",
+  "dominant_sentiment": "Somewhat-Bullish",
+  "top_story": "U.S. Bancorp Earnings: What To Look For From USB",
   "signal_articles": [
     {
-      "title": "Benchmark Electronics (BHE) Q1 Beat Puts Fair Value Back In Focus",
-      "summary": "Benchmark Electronics (BHE) recently reported a strong Q1, with revenue meeting expectations and future EPS and revenue guidance exceeding forecasts, leading to a 17.5% share pr...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/benchmark-electronics-bhe-q1-beat-231526736.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260714T020956",
-      "sentiment_score": 0.110752,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "BHE"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Manufacturing"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "KeyBanc Lowers Netflix Stock (NFLX) Price Target Ahead of Q2 Earnings, Expects a ‘Largely In Line Quarter’",
-      "summary": "KeyBanc analyst Justin Patterson reiterated a Buy rating on Netflix (NFLX) but lowered the price target to $92 from $115 ahead of its Q2 earnings on July 16, expecting a largely...",
-      "url": "https://www.tipranks.com/news/keybanc-lowers-netflix-stock-nflx-price-target-ahead-of-q2-earnings-expects-a-largely-in-line-quarter",
-      "source": "TipRanks",
-      "published_at": "20260714T041023",
-      "sentiment_score": 0.007913,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "NFLX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Elevance Health (ELV) Q2 Earnings Report Preview: What To Look For",
-      "summary": "Elevance Health (ELV) is set to report its Q2 earnings this Wednesday, with analysts expecting a 1.7% year-on-year revenue decline, a reversal from the previous year's 14.3% inc...",
-      "url": "https://uk.finance.yahoo.com/news/elevance-health-elv-q2-earnings-034855290.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260714T034733",
-      "sentiment_score": 0.14332,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ELV",
-        "AMZN",
-        "GOOG",
-        "META",
-        "PYPL"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Finance",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Super Micro Computer (SMCI) Launches Vera Rubin NVL4 Blueprint For AI Infrastructure",
-      "summary": "Super Micro Computer (SMCI) has launched a new Data Center Building Block Solutions blueprint based on the NVIDIA Vera Rubin NVL4 platform, targeting high-performance computing...",
-      "url": "https://sg.finance.yahoo.com/news/super-micro-computer-smci-launches-020919023.html",
-      "source": "Yahoo Finance Singapore",
-      "published_at": "20260714T020916",
-      "sentiment_score": 0.238518,
+      "title": "U.S. Bancorp Earnings: What To Look For From USB",
+      "summary": "U.S. Bancorp (NYSE: USB) is set to report its earnings this Thursday morning, with analysts expecting a 7.7% year-on-year revenue growth. The company previously met revenue expe...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/USB/pressreleases/3286812/us-bancorp-earnings-what-to-look-for-from-usb/",
+      "source": "The Globe and Mail",
+      "published_at": "20260715T030401",
+      "sentiment_score": 0.324471,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "SMCI",
-        "NVDA"
+        "USB",
+        "C",
+        "BAC"
       ],
       "topics": [
-        "Technology",
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Finance"
       ],
-      "quality_score": 12,
+      "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "Automatic Data Processing (ADP) Draws Q4 Attention, Is The Upside Already Priced In?",
-      "summary": "Automatic Data Processing (ADP) is garnering investor attention ahead of its fiscal Q4 earnings and 2027 guidance. While recent share performance has been strong, analysts sugge...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/automatic-data-processing-adp-draws-020911243.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260714T020859",
-      "sentiment_score": -0.1279,
+      "title": "DTE Energy (DTE) Gets a Buy from Truist Financial",
+      "summary": "Truist Financial analyst Richard Sunderland maintained a Buy rating on DTE Energy (DTE) with a price target of $166.00. DTE Energy reported quarterly revenue of $5.14 billion an...",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3286687/dte-energy-dte-gets-a-buy-from-truist-financial/",
+      "source": "The Globe and Mail",
+      "published_at": "20260715T024253",
+      "sentiment_score": 0.023214,
       "sentiment_label": "Neutral",
       "tickers": [
-        "ADP"
+        "DTE"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Finance",
-        "Technology"
+        "Energy Transportation"
       ],
       "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "CSJRX ETF Profile: Dividends, Returns (NASDAQ:CSJRX)",
-      "summary": "The CSJRX ETF profile details key statistics such as its indicated dividend yield of 2.19% and dividend payout history. It highlights that CSJRX pays dividends, with the last di...",
-      "url": "https://www.tradingview.com/symbols/NASDAQ-CSJRX/profile/",
-      "source": "TradingView",
-      "published_at": "20260714T010932",
-      "sentiment_score": 0.048646,
-      "sentiment_label": "Neutral",
+      "title": "Pentair appoints interim CFO, cuts FY26 outlook on destocking",
+      "summary": "Pentair plc has appointed Bob Fishman as interim CFO following Nicholas Brazis' departure, effective immediately. The company also released preliminary Q2 2026 results and revis...",
+      "url": "https://scanx.trade/stock-market-news/companies/pentair-cuts-fy2026-outlook-q2-sales-hit-by-inventory-destocking/45617971",
+      "source": "scanx.trade",
+      "published_at": "20260715T003352",
+      "sentiment_score": -0.426818,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "CNS"
+        "PNR"
       ],
       "topics": [
+        "Earnings",
         "Finance",
+        "Economy Macro",
+        "Manufacturing"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Conagra Brands stock holds steady as analysts and filings shape the view",
+      "summary": "Conagra Brands (CAG) stock remains a classic consumer staple, trading on the NYSE and offering a broad portfolio of packaged foods. The company's business model is built on hous...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/conagra-brands-stock-holds-steady-as-analysts-and-filings-shape-the-view/69769548",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T005930",
+      "sentiment_score": 0.11893,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CAG"
+      ],
+      "topics": [
+        "Earnings",
         "Financial Markets",
-        "Real Estate",
-        "Earnings"
+        "Economy Macro",
+        "Retail Wholesale"
       ],
       "quality_score": 11,
       "is_noise": false
     },
     {
-      "title": "Cboe Global Markets (CBOE) Launches Longer Options Trading And Cboe Predicts",
-      "summary": "Cboe Global Markets (CBOE) is launching extended trading hours for select mega-cap single stock options and a new prediction markets product called Cboe Predicts. These initiati...",
-      "url": "https://uk.finance.yahoo.com/news/cboe-global-markets-cboe-launches-031308823.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260714T031320",
-      "sentiment_score": 0.264831,
+      "title": "Price to earnings forward of Hewlett Packard Enterprise Co. – DUS:2HP",
+      "summary": "This article briefly presents the price-to-earnings forward data for Hewlett Packard Enterprise Co. (DUS:2HP) on the TradingView platform. It indicates that the market is closed...",
+      "url": "https://www.tradingview.com/symbols/DUS-2HP/financials-statistics-and-ratios/price-earnings-fwd/",
+      "source": "TradingView",
+      "published_at": "20260715T022639",
+      "sentiment_score": 0.009508,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "HPE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "BigBear.ai (NYSE: BBAI) Stock Price Drops 24% In A Month As Revenue Growth Stalls And Losses Mount",
+      "summary": "BigBear.ai (NYSE: BBAI) experienced a 24.2% drop in its stock price over the past month due to stagnant revenue growth in Q1 2026, mounting losses, and increasing operating expe...",
+      "url": "https://www.foreignpolicyjournal.com/2026/07/14/bigbear-ai-nyse-bbai-stock-price-drops-24-in-a-month-as-revenue-growth-stalls-and-losses-mount/",
+      "source": "Foreign Policy Journal",
+      "published_at": "20260715T014223",
+      "sentiment_score": -0.162337,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "BBAI",
+        "PLTR"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Canadian Imperial Bank Of Commerce (TSX:CM) Raises Fresh Capital, Is The Stock Still Cheap?",
+      "summary": "Canadian Imperial Bank of Commerce (TSX:CM) has recently raised new capital through various fixed income securities. The stock has seen significant price gains of over 32% year-...",
+      "url": "https://simplywall.st/stocks/ca/banks/tsx-cm/canadian-imperial-bank-of-commerce-shares/news/canadian-imperial-bank-of-commerce-tsxcm-raises-fresh-capita",
+      "source": "Simply Wall Street",
+      "published_at": "20260715T010432",
+      "sentiment_score": 0.345635,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "CBOE"
+        "CM"
       ],
       "topics": [
+        "Earnings",
         "Financial Markets",
         "Finance",
-        "Earnings"
+        "Economy Macro"
       ],
       "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Why Did AAPL, QTTB, CSX Stocks Surge To 52-Week Highs Today?",
-      "summary": "Apple (AAPL), Q32 Bio (QTTB), and CSX Corp. (CSX) stocks surged to new 52-week highs due to positive analyst ratings, promising clinical trial results, and improving industry co...",
-      "url": "https://www.tradingview.com/news/stocktwits:1cc60a64f094b:0-why-did-aapl-qttb-csx-stocks-surge-to-52-week-highs-today/",
-      "source": "TradingView",
-      "published_at": "20260714T021332",
-      "sentiment_score": 0.028249,
-      "sentiment_label": "Neutral",
+      "title": "Fastenal Company 2026 Q2 - Results - Earnings Call Presentation (NASDAQ:FAST) 2026-07-14",
+      "summary": "Fastenal Company has released its Q2 2026 earnings call presentation. The company reported an EPS of $0.33, beating estimates, and revenue of $2.39 billion, which represents a 1...",
+      "url": "https://seekingalpha.com/article/4922101-fastenal-company-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "source": "Seeking Alpha",
+      "published_at": "20260715T010154",
+      "sentiment_score": 0.38311,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "CSX"
+        "FAST"
       ],
       "topics": [
-        "Financial Markets",
-        "Technology",
-        "Life Sciences",
         "Earnings",
+        "Retail Wholesale",
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "O'Reilly Automotive stock reflects steady growth as a leading US auto parts retailer",
+      "summary": "O'Reilly Automotive represents a leading US auto parts retailer with a broad store network, consistent profitability, and a focus on both professional and DIY customers. The com...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/o-reilly-automotive-stock-reflects-steady-growth-as-a-leading-us-auto/69770194",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260715T032106",
+      "sentiment_score": 0.402495,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ORLY",
+        "AZO",
+        "GPC"
+      ],
+      "topics": [
+        "Retail Wholesale",
+        "Financial Markets",
+        "Earnings",
+        "Economy Macro",
         "Energy Transportation"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Emerson Electric (EMR) Faces A Zacks Downgrade, Is The Discount To Fair Value Enough?",
-      "summary": "Emerson Electric (EMR) has been downgraded by Zacks to a #4 (Sell) rank, with its stock dropping 2.52% recently, though it shows strong long-term returns. Despite a clear discou...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/emerson-electric-emr-faces-zacks-021021168.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260714T020943",
-      "sentiment_score": -0.143388,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "EMR",
-        "COIN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Manufacturing",
-        "Technology"
       ],
       "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Jim Cramer Warns “I Don’t Want to Own AT&T or Verizon” as Starlink Threatens Telecom Stocks",
-      "summary": "Jim Cramer has advised against owning major telecom stocks like AT&T and Verizon due to the rising threat from SpaceX's Starlink, following a Bernstein research note that cut pr...",
-      "url": "https://247wallst.com/investing/2026/07/13/jim-cramer-warns-i-dont-want-to-own-att-or-verizon-as-starlink-threatens-telecom-stocks/",
-      "source": "24/7 Wall St.",
-      "published_at": "20260714T015408",
-      "sentiment_score": -0.182533,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Blackstone Mortgage Trust (BXMT) Holds Its Dividend Steady as a Hotel-Loan Charge Hits Earnings",
+      "summary": "Blackstone Mortgage Trust (BXMT) has declared a steady dividend of $0.47 per share for Q2 2026, maintaining the rate despite distributable earnings of $0.21 per share. Managemen...",
+      "url": "https://finance.yahoo.com/real-estate/articles/blackstone-mortgage-trust-bxmt-holds-002020025.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260715T024929",
+      "sentiment_score": -0.088077,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "T",
-        "VZ",
-        "CHTR",
-        "CMCSA",
-        "TMUS"
+        "BXMT"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Technology"
+        "Finance",
+        "Real Estate",
+        "Financial Markets"
       ],
       "quality_score": 9,
       "is_noise": false
@@ -1215,91 +1224,91 @@
   ],
   "top_tickers": [
     {
-      "ticker": "GOOG",
+      "ticker": "DTE",
       "mentions": 2
     },
     {
-      "ticker": "RVTY",
+      "ticker": "ED",
       "mentions": 2
     },
     {
-      "ticker": "BHE",
+      "ticker": "USB",
       "mentions": 1
     },
     {
-      "ticker": "NFLX",
+      "ticker": "C",
       "mentions": 1
     },
     {
-      "ticker": "ELV",
+      "ticker": "BAC",
       "mentions": 1
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 42
+      "mentions": 41
     },
     {
       "topic": "Financial Markets",
-      "mentions": 34
+      "mentions": 33
     },
     {
       "topic": "Finance",
-      "mentions": 19
+      "mentions": 26
     },
     {
-      "topic": "Technology",
-      "mentions": 13
+      "topic": "Economy Macro",
+      "mentions": 12
     },
     {
-      "topic": "Life Sciences",
-      "mentions": 11
+      "topic": "Energy Transportation",
+      "mentions": 10
     }
   ],
   "sentiment_counts": [
     {
-      "label": "Neutral",
-      "count": 15
-    },
-    {
       "label": "Somewhat-Bullish",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Bullish",
-      "count": 10
+      "count": 13
     },
     {
-      "label": "Somewhat-Bearish",
-      "count": 2
+      "label": "Neutral",
+      "count": 12
     },
     {
       "label": "Bearish",
+      "count": 2
+    },
+    {
+      "label": "Somewhat-Bearish",
       "count": 1
     }
   ],
   "top_sources": [
     {
-      "source": "Ad Hoc News",
-      "count": 10
+      "source": "Ad-hoc-news.de",
+      "count": 15
     },
     {
       "source": "Simply Wall Street",
-      "count": 9
+      "count": 7
     },
     {
       "source": "Yahoo Finance",
-      "count": 5
+      "count": 4
     },
     {
-      "source": "TradingView",
+      "source": "The Globe and Mail",
       "count": 3
     },
     {
-      "source": "Yahoo Finance UK",
+      "source": "scanx.trade",
       "count": 2
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with GOOG appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with DTE appearing most often and the headline tone mostly somewhat-bullish."
 }
