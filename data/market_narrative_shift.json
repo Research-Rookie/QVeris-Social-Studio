@@ -1,0 +1,184 @@
+{
+  "updated_at": "2026-07-16T03:30:49.193288+00:00",
+  "date": "2026-07-03",
+  "run_timezone": "Asia/Shanghai",
+  "source": "QVeris API via market news sentiment",
+  "title": "Market Narrative Shift",
+  "symbol": "NVDA",
+  "shift_label": "Theme rotation",
+  "sentiment_delta": -0.1044,
+  "baseline_label": "2026-07-02",
+  "current": {
+    "date": "2026-07-03",
+    "symbol": "NVDA",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.3746,
+    "top_theme": "Technology",
+    "themes": [
+      {
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Manufacturing",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "production",
+        "count": 2
+      },
+      {
+        "label": "packaging",
+        "count": 2
+      },
+      {
+        "label": "accelerates",
+        "count": 1
+      },
+      {
+        "label": "chip",
+        "count": 1
+      },
+      {
+        "label": "tech",
+        "count": 1
+      },
+      {
+        "label": "meet",
+        "count": 1
+      },
+      {
+        "label": "soaring",
+        "count": 1
+      },
+      {
+        "label": "demand",
+        "count": 1
+      },
+      {
+        "label": "plans",
+        "count": 1
+      },
+      {
+        "label": "utilize",
+        "count": 1
+      },
+      {
+        "label": "fan-out",
+        "count": 1
+      },
+      {
+        "label": "panel",
+        "count": 1
+      }
+    ],
+    "headline": "Nvidia Accelerates AI Chip Production with New Packaging Tech to Meet Soaring Demand",
+    "headline_source": "TradingView"
+  },
+  "previous": {
+    "date": "2026-07-02",
+    "symbol": "NVDA",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.479,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "consensus",
+        "count": 2
+      },
+      {
+        "label": "recommendation",
+        "count": 2
+      },
+      {
+        "label": "buy",
+        "count": 2
+      },
+      {
+        "label": "given",
+        "count": 1
+      },
+      {
+        "label": "has",
+        "count": 1
+      },
+      {
+        "label": "received",
+        "count": 1
+      },
+      {
+        "label": "research",
+        "count": 1
+      },
+      {
+        "label": "firms",
+        "count": 1
+      },
+      {
+        "label": "average",
+        "count": 1
+      },
+      {
+        "label": "month",
+        "count": 1
+      },
+      {
+        "label": "target",
+        "count": 1
+      },
+      {
+        "label": "recent",
+        "count": 1
+      }
+    ],
+    "headline": "NVIDIA Corporation (NASDAQ:NVDA) Given Consensus Recommendation of \"Buy\" by Analysts",
+    "headline_source": "MarketBeat"
+  },
+  "emerging_themes": [
+    "Manufacturing",
+    "Technology",
+    "Earnings"
+  ],
+  "fading_themes": [
+    "Financial Markets",
+    "Finance"
+  ],
+  "emerging_keywords": [
+    "production",
+    "packaging",
+    "accelerates"
+  ],
+  "fading_keywords": [
+    "consensus",
+    "recommendation",
+    "buy"
+  ],
+  "takeaway": "NVDA's narrative is theme rotation: sentiment moved -0.10, while the leading theme shifted from Earnings to Technology.",
+  "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+}

@@ -36,6 +36,7 @@ const columnDescriptions: Record<string, string> = {
   "financial-news-signal": "Financial headlines distilled into tickers, themes, and tone.",
   "financial-data-api-watch": "QVeris API workflows showing what finance agents can retrieve.",
   "news-vs-price-reaction": "Compares headline tone with the stock's price reaction.",
+  "market-narrative-shift": "Shows how a ticker's news themes, language, and sentiment changed.",
 };
 
 function categoryKey(post: Post) {
@@ -46,6 +47,7 @@ function categoryKey(post: Post) {
   if (post.contentType === "FINANCIAL NEWS SIGNAL") return "financial-news-signal";
   if (post.contentType === "FINANCIAL DATA API WATCH") return "financial-data-api-watch";
   if (post.contentType === "NEWS VS PRICE REACTION") return "news-vs-price-reaction";
+  if (post.contentType === "MARKET NARRATIVE SHIFT") return "market-narrative-shift";
   return null;
 }
 
@@ -81,6 +83,11 @@ const categories = [
     key: "news-vs-price-reaction",
     label: "News vs Price",
     count: activePosts.filter((post) => categoryKey(post) === "news-vs-price-reaction").length,
+  },
+  {
+    key: "market-narrative-shift",
+    label: "Narrative Shift",
+    count: activePosts.filter((post) => categoryKey(post) === "market-narrative-shift").length,
   },
 ];
 

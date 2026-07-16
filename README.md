@@ -45,6 +45,21 @@ python scripts/generate_prediction_market_tweet.py
 This pipeline uses QVeris to discover active prediction-market events, renders a
 daily probability pulse card, and archives a social post draft.
 
+## Market Narrative Shift
+
+```bash
+python scripts/fetch_financial_news_signal.py
+python scripts/build_market_narrative_shift.py
+python scripts/generate_market_narrative_shift_image.py
+python scripts/generate_market_narrative_shift_tweet.py
+```
+
+This pipeline automatically selects a well-covered ticker, compares its latest
+news language, themes, and sentiment with the most recent archived baseline,
+then generates a 1200x675 visual and a review-ready social post. When no prior
+coverage exists, the card says that the baseline is being built instead of
+claiming a change that the data cannot support.
+
 ## API sources
 
 The current project keeps finance data centralized through QVeris:

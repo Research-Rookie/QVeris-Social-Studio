@@ -1,0 +1,72 @@
+name: QVeris Market Narrative Shift
+
+on:
+  schedule:
+    # Daily 10:00 Asia/Shanghai, after Financial News Signal.
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: qveris-market-narrative-shift
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Fetch financial news
+        env:
+          QVERIS_API_KEY: ${{ secrets.QVERIS_API_KEY }}
+        run: python scripts/fetch_financial_news_signal.py
+
+      - name: Build narrative comparison
+        run: python scripts/build_market_narrative_shift.py
+
+      - name: Generate narrative image
+        run: python scripts/generate_market_narrative_shift_image.py
+
+      - name: Generate tweet and archive card
+        env:
+          WEBSITE_URL: https://qveris.ai
+        run: python scripts/generate_market_narrative_shift_tweet.py
+
+      - name: Commit archive
+        run: |
+          git config user.name "qveris-content-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/posts.json data/financial_news_signal.json data/market_narrative_shift.json data/market_narrative_shift_tweet_preview.txt
+          git add images/market_narrative_shift_*.png public/posts/market_narrative_shift_*.png 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No market narrative archive changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: archive market narrative shift $(date -u +%Y-%m-%d)"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin master
+            if git push origin master; then
+              exit 0
+            fi
+            echo "Push failed on attempt ${attempt}; retrying after remote rebase."
+            sleep 3
+          done
+
+          echo "Could not push archive after 3 attempts."
+          exit 1
