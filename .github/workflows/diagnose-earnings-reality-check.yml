@@ -1,0 +1,32 @@
+name: Diagnose QVeris Earnings Reality Check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Probe QVeris earnings capabilities
+        env:
+          QVERIS_API_KEY: ${{ secrets.QVERIS_API_KEY }}
+        run: python scripts/diagnose_earnings_reality_check.py
+      - name: Commit diagnostic output
+        run: |
+          git config user.name "qveris-content-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/earnings_reality_check_diagnostic.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: diagnose earnings reality check capabilities"
+          for attempt in 1 2 3; do
+            git pull --rebase origin master
+            git push origin master && exit 0
+            sleep 3
+          done
+          exit 1
