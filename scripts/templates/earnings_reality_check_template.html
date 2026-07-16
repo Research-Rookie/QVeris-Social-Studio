@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1200px; height: 675px; overflow: hidden; }
+    body { font-family: Inter, Arial, sans-serif; color: #f7f9ff; background:
+      radial-gradient(circle at 78% 10%, rgba(75, 211, 194, .12), transparent 32%),
+      linear-gradient(120deg, #101a2b 0%, #111729 55%, #211523 100%); }
+    .grid { position: absolute; inset: 0; opacity: .16; background-image: linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px); background-size: 64px 64px; }
+    main { position: relative; padding: 34px 44px 30px; height: 100%; }
+    header { display: flex; align-items: flex-start; justify-content: space-between; }
+    .eyebrow { color: #63e6f5; letter-spacing: 4px; font-weight: 800; font-size: 16px; }
+    h1 { font-size: 48px; line-height: 1.04; letter-spacing: -2.2px; margin: 13px 0 8px; max-width: 790px; }
+    .sub { color: #bdc9df; font-size: 21px; font-weight: 650; }
+    .brand { display: grid; justify-items: end; gap: 16px; }
+    .date { padding: 11px 18px; border: 1px solid rgba(255,255,255,.2); border-radius: 24px; color: #dfe9fb; font-weight: 700; }
+    .logo { height: 40px; max-width: 150px; object-fit: contain; }
+    .logoLine { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 850; }
+    .layout { display: grid; grid-template-columns: 1.02fr .98fr; gap: 22px; margin-top: 28px; }
+    .panel { height: 380px; padding: 24px; border-radius: 26px; border: 1px solid rgba(154,174,211,.24); background: rgba(6,12,27,.68); box-shadow: 0 22px 60px rgba(0,0,0,.18); }
+    .tickerRow { display: flex; align-items: center; justify-content: space-between; }
+    .ticker { font-size: 38px; font-weight: 850; letter-spacing: -1px; }
+    .company { color: #aebbd3; margin-top: 3px; font-size: 16px; }
+    .report { color: #96a8c8; font-size: 14px; text-align: right; }
+    .metrics { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-top: 25px; }
+    .metric { min-height: 102px; padding: 15px 14px; border-radius: 18px; background: rgba(36,45,65,.82); }
+    .metric span { display: block; color: #9fb0cc; font-size: 13px; font-weight: 700; }
+    .metric strong { display: block; margin-top: 9px; font-size: 29px; letter-spacing: -1px; }
+    .metric.surprise strong { color: {{ACCENT}}; }
+    .barTitle { margin: 25px 0 12px; color: #c7d1e4; font-weight: 750; }
+    .barLine { display: grid; grid-template-columns: 83px 1fr 58px; gap: 12px; align-items: center; margin: 11px 0; font-size: 14px; color: #b9c6dc; }
+    .track { height: 13px; background: #273145; border-radius: 20px; overflow: hidden; }
+    .fill { height: 100%; border-radius: 20px; }
+    .fill.estimate { width: {{ESTIMATE_WIDTH}}%; background: #7485aa; }
+    .fill.actual { width: {{ACTUAL_WIDTH}}%; background: linear-gradient(90deg, #46c9ee, {{ACCENT}}); }
+    .barLine b { color: white; text-align: right; }
+    .signal { padding: 17px 21px; border-radius: 21px; background: linear-gradient(135deg, rgba(31,65,73,.65), rgba(25,37,57,.72)); border: 1px solid rgba(90,220,203,.12); }
+    .signal span { color: #92a7c9; font-size: 13px; letter-spacing: 1.5px; font-weight: 800; }
+    .signal strong { display: block; color: {{ACCENT}}; font-size: 35px; line-height: 1.05; margin-top: 7px; letter-spacing: -1.2px; }
+    .takeaway { font-size: 18px; line-height: 1.32; font-weight: 650; color: #dce4f3; margin: 16px 2px 12px; min-height: 60px; }
+    .fact { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; margin-top: 8px; border-radius: 14px; background: rgba(39,45,64,.75); color: #c4cee0; font-weight: 700; }
+    .fact b { color: #63e2d2; }
+    footer { position: absolute; left: 44px; bottom: 21px; color: #8fa3c6; font-size: 14px; font-weight: 650; }
+  </style>
+</head>
+<body><div class="grid"></div><main>
+  <header><div><div class="eyebrow">EARNINGS REALITY CHECK</div><h1>Did the earnings beat survive the market?</h1><div class="sub">Reported numbers vs expectations vs the next-session reaction</div></div><div class="brand"><div class="date">{{DATE}}</div><div class="logoLine"><img class="logo" src="{{LOGO}}" /><b>QVeris</b></div></div></header>
+  <section class="layout">
+    <article class="panel">
+      <div class="tickerRow"><div><div class="ticker">${{SYMBOL}}</div><div class="company">{{COMPANY}}</div></div><div class="report">Reported {{REPORT_DATE}}<br>{{REPORT_TIME}}</div></div>
+      <div class="metrics">
+        <div class="metric"><span>ACTUAL EPS</span><strong>${{ACTUAL_EPS}}</strong></div>
+        <div class="metric"><span>STREET ESTIMATE</span><strong>${{ESTIMATED_EPS}}</strong></div>
+        <div class="metric surprise"><span>EPS SURPRISE</span><strong>{{SURPRISE_PCT}}</strong></div>
+      </div>
+      <div class="barTitle">Expectation vs reality</div>
+      <div class="barLine"><span>Estimate</span><div class="track"><div class="fill estimate"></div></div><b>${{ESTIMATED_EPS}}</b></div>
+      <div class="barLine"><span>Actual</span><div class="track"><div class="fill actual"></div></div><b>${{ACTUAL_EPS}}</b></div>
+    </article>
+    <article class="panel">
+      <div class="signal"><span>MARKET VERDICT</span><strong>{{VERDICT}}</strong></div>
+      <div class="takeaway">{{TAKEAWAY}}</div>
+      <div class="fact"><span>Next-session reaction</span><b>{{PRICE_REACTION}}</b></div>
+      <div class="fact"><span>Reaction window</span><b>{{REACTION_WINDOW}}</b></div>
+      <div class="fact"><span>QVeris signal</span><b>Earnings + daily price</b></div>
+    </article>
+  </section>
+  <footer>Market data via QVeris API · Price reaction uses adjusted trading-session timing</footer>
+</main></body></html>

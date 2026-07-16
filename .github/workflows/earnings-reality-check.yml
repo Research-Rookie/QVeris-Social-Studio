@@ -1,0 +1,50 @@
+name: QVeris Earnings Reality Check
+
+on:
+  schedule:
+    # Daily 11:30 Asia/Shanghai; new reports replace the prior run for the same event.
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: qveris-earnings-reality-check
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install renderer
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+      - name: Fetch earnings and price reaction
+        env:
+          QVERIS_API_KEY: ${{ secrets.QVERIS_API_KEY }}
+        run: python scripts/fetch_earnings_reality_check.py
+      - name: Generate image
+        run: python scripts/generate_earnings_reality_check_image.py
+      - name: Generate tweet and archive card
+        env:
+          WEBSITE_URL: https://qveris.ai
+        run: python scripts/generate_earnings_reality_check_tweet.py
+      - name: Commit archive
+        run: |
+          git config user.name "qveris-content-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/posts.json data/earnings_reality_check.json data/earnings_reality_check_tweet_preview.txt
+          git add images/earnings_reality_check_*.png public/posts/earnings_reality_check_*.png 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: archive earnings reality check $(date -u +%Y-%m-%d)"
+          for attempt in 1 2 3; do
+            git pull --rebase origin master
+            git push origin master && exit 0
+            sleep 3
+          done
+          exit 1
