@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-16T07:35:00.219058+00:00",
+  "generated_at": "2026-07-16T07:48:53.978825+00:00",
   "searched_tools": [
     {
       "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
-      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "search_id": "48663440-6f1c-4a9f-9cbf-da65541cf74e",
       "name": "Earnings Calendar",
       "tool_id": "finnhub.calendar.earnings.retrieve.v1.1552775d",
       "cost": 1.0,
@@ -37,7 +37,7 @@
     },
     {
       "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
-      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "search_id": "48663440-6f1c-4a9f-9cbf-da65541cf74e",
       "name": "Retrieve Earnings",
       "tool_id": "alphavantage.earnings.retrieve.v1.7aca3c4a",
       "cost": 2.0,
@@ -62,7 +62,57 @@
     },
     {
       "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
-      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "search_id": "48663440-6f1c-4a9f-9cbf-da65541cf74e",
+      "name": "Earnings History",
+      "tool_id": "alphavantage.earnings.retrieve.v1.467a92c0",
+      "cost": 2.0,
+      "description": "This API returns the annual and quarterly earnings (EPS) for the company of interest. Quarterly data also includes analyst estimates and surprise metrics.",
+      "params": [
+        {
+          "name": "function",
+          "type": "string",
+          "required": true,
+          "description": "The function of your choice. In this case, function=EARNINGS",
+          "enum": [
+            "EARNINGS"
+          ]
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "The symbol of the ticker of your choice. For example: symbol=IBM"
+        }
+      ]
+    },
+    {
+      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
+      "search_id": "48663440-6f1c-4a9f-9cbf-da65541cf74e",
+      "name": "Earnings Estimates Trending",
+      "tool_id": "alphavantage.earnings_estimates.retrieve.v1.467a92c0",
+      "cost": 2.0,
+      "description": "This API returns the annual and quarterly EPS and revenue estimates for the company of interest, along with analyst count and revision history.",
+      "params": [
+        {
+          "name": "function",
+          "type": "string",
+          "required": true,
+          "description": "The function of your choice. In this case, function=EARNINGS_ESTIMATES",
+          "enum": [
+            "EARNINGS_ESTIMATES"
+          ]
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "The symbol of the ticker of your choice. For example: symbol=IBM"
+        }
+      ]
+    },
+    {
+      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
+      "search_id": "48663440-6f1c-4a9f-9cbf-da65541cf74e",
       "name": "Earnings",
       "tool_id": "twelvedata.earnings.retrieve.v1.e3dcf5a7",
       "cost": 2.37,
@@ -192,7 +242,7 @@
     },
     {
       "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
-      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "search_id": "48663440-6f1c-4a9f-9cbf-da65541cf74e",
       "name": "Earnings calendar",
       "tool_id": "twelvedata.earningscalendar.retrieve.v1.a51f4712",
       "cost": 2.37,
@@ -254,32 +304,7 @@
     },
     {
       "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
-      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
-      "name": "Earnings Estimates Trending",
-      "tool_id": "alphavantage.earnings_estimates.retrieve.v1.467a92c0",
-      "cost": 2.0,
-      "description": "This API returns the annual and quarterly EPS and revenue estimates for the company of interest, along with analyst count and revision history.",
-      "params": [
-        {
-          "name": "function",
-          "type": "string",
-          "required": true,
-          "description": "The function of your choice. In this case, function=EARNINGS_ESTIMATES",
-          "enum": [
-            "EARNINGS_ESTIMATES"
-          ]
-        },
-        {
-          "name": "symbol",
-          "type": "string",
-          "required": true,
-          "description": "The symbol of the ticker of your choice. For example: symbol=IBM"
-        }
-      ]
-    },
-    {
-      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
-      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "search_id": "48663440-6f1c-4a9f-9cbf-da65541cf74e",
       "name": "Retrieve Earnings Estimates",
       "tool_id": "alphavantage.earnings_estimates.retrieve.v1.7aca3c4a",
       "cost": 2.0,
@@ -304,32 +329,7 @@
     },
     {
       "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
-      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
-      "name": "Earnings History",
-      "tool_id": "alphavantage.earnings.retrieve.v1.467a92c0",
-      "cost": 2.0,
-      "description": "This API returns the annual and quarterly earnings (EPS) for the company of interest. Quarterly data also includes analyst estimates and surprise metrics.",
-      "params": [
-        {
-          "name": "function",
-          "type": "string",
-          "required": true,
-          "description": "The function of your choice. In this case, function=EARNINGS",
-          "enum": [
-            "EARNINGS"
-          ]
-        },
-        {
-          "name": "symbol",
-          "type": "string",
-          "required": true,
-          "description": "The symbol of the ticker of your choice. For example: symbol=IBM"
-        }
-      ]
-    },
-    {
-      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
-      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "search_id": "48663440-6f1c-4a9f-9cbf-da65541cf74e",
       "name": "Yahoo Finance Earnings Calendar",
       "tool_id": "yahoo_finance.finance_earnings_calendar.v1",
       "cost": 1.0,
@@ -370,7 +370,7 @@
     },
     {
       "query": "company earnings results by ticker actual EPS estimate revenue estimate earnings date",
-      "search_id": "3aaabf80-5c54-4da2-96a6-694a05ef0a90",
+      "search_id": "c3745ac4-a818-4bcb-bcf0-ca74f66e4c9e",
       "name": "Transcripts Dates By Symbol",
       "tool_id": "financialmodelingprep.stable.earningcalltranscriptdates.retrieve.v1.34503129",
       "cost": 24.2,
@@ -386,7 +386,7 @@
     },
     {
       "query": "earnings surprises API actual EPS estimated EPS actual revenue estimated revenue",
-      "search_id": "5c5ecc1f-52eb-4aaa-894e-a260f5fa4d0a",
+      "search_id": "eeb1ebea-ced7-4aed-b9e7-64c777bff0ca",
       "name": "Revenue Product Segmentation",
       "tool_id": "financialmodelingprep.stable.revenueproductsegmentation.retrieve.v1.8faa287f",
       "cost": 24.2,
@@ -418,7 +418,7 @@
     },
     {
       "query": "earnings surprises API actual EPS estimated EPS actual revenue estimated revenue",
-      "search_id": "5c5ecc1f-52eb-4aaa-894e-a260f5fa4d0a",
+      "search_id": "eeb1ebea-ced7-4aed-b9e7-64c777bff0ca",
       "name": "EPS revisions",
       "tool_id": "twelvedata.epsrevisions.retrieve.v1.ff79b31c",
       "cost": 2.37,
@@ -463,30 +463,8 @@
       ]
     },
     {
-      "query": "historical earnings calendar with EPS estimate EPS actual revenue surprise",
-      "search_id": "6fd34604-02a3-49d2-8230-46cd9ccb0787",
-      "name": "Company Historical Employee Count",
-      "tool_id": "financialmodelingprep.stable.historicalemployeecount.retrieve.v1.3c1275b5",
-      "cost": 24.2,
-      "description": "The FMP Company Historical Employee Count API is designed for users who need to track workforce trends for a company across various reporting periods. This data is especially useful for analyzing long-term growth, staffing changes, and the relationship between workforce size and financial performance. Key features include: Historical Employee Count : Retrieve workforce size over different periods to analyze growth or decline trends. Report Periods : Gain insights into specific timeframes of employee data, tied to annual or quarterly financial reports. Filing Date and Form Type : Understand when the employee data was reported, along with the corresponding SEC form type (e.g., 10-K). Direct SEC Links : Access the original SEC filings for in-depth research and transparency. This API is ideal for HR analysts, investors, and business strategists who want to track workforce changes and assess their impact on company operations. Example Use Case A financial analyst can use the Company Historical Employee Count API to compare the employee count of Apple Inc. over a five-year period to evaluate how workforce changes correlate with revenue growth and market expansion.",
-      "params": [
-        {
-          "name": "symbol",
-          "type": "string",
-          "required": true,
-          "description": "query parameter from FMP documentation: symbol"
-        },
-        {
-          "name": "limit",
-          "type": "number",
-          "required": false,
-          "description": "query parameter from FMP documentation: limit"
-        }
-      ]
-    },
-    {
       "query": "US stock daily quote latest price change percent by symbol",
-      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "search_id": "ff2d109e-39d8-47df-b29f-c75cd20d0e6b",
       "name": "Retrieve Delayed US Stock Quotes (Live v2)",
       "tool_id": "eodhd.live_v2.us_quote_delayed.retrieve.v1.f0e13d45",
       "cost": 2.81,
@@ -524,7 +502,7 @@
     },
     {
       "query": "US stock daily quote latest price change percent by symbol",
-      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "search_id": "ff2d109e-39d8-47df-b29f-c75cd20d0e6b",
       "name": "USStockDailyQuotes",
       "tool_id": "mcp_gildata.usstockdailyquotes.v1",
       "cost": 1.0,
@@ -540,35 +518,7 @@
     },
     {
       "query": "US stock daily quote latest price change percent by symbol",
-      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
-      "name": "Get Symbol Change History",
-      "tool_id": "eodhd.symbol_change_history.list.v1.e765f619",
-      "cost": 2.81,
-      "description": "Retrieve historical symbol change data for US exchanges within a specified date range.",
-      "params": [
-        {
-          "name": "fmt",
-          "type": "string",
-          "required": false,
-          "description": "Response format. Default is 'json'."
-        },
-        {
-          "name": "from",
-          "type": "string",
-          "required": true,
-          "description": "Start date in YYYY-MM-DD format (minimum supported: 2022-07-22)."
-        },
-        {
-          "name": "to",
-          "type": "string",
-          "required": false,
-          "description": "End date in YYYY-MM-DD format."
-        }
-      ]
-    },
-    {
-      "query": "US stock daily quote latest price change percent by symbol",
-      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "search_id": "ff2d109e-39d8-47df-b29f-c75cd20d0e6b",
       "name": "post_v1_stock_quote_extend",
       "tool_id": "fiu_mcp_server.postv1stockquoteextend.create.v2.a30e86e7",
       "cost": 1.0,
@@ -596,7 +546,35 @@
     },
     {
       "query": "US stock daily quote latest price change percent by symbol",
-      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "search_id": "ff2d109e-39d8-47df-b29f-c75cd20d0e6b",
+      "name": "Get Symbol Change History",
+      "tool_id": "eodhd.symbol_change_history.list.v1.e765f619",
+      "cost": 2.81,
+      "description": "Retrieve historical symbol change data for US exchanges within a specified date range.",
+      "params": [
+        {
+          "name": "fmt",
+          "type": "string",
+          "required": false,
+          "description": "Response format. Default is 'json'."
+        },
+        {
+          "name": "from",
+          "type": "string",
+          "required": true,
+          "description": "Start date in YYYY-MM-DD format (minimum supported: 2022-07-22)."
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": false,
+          "description": "End date in YYYY-MM-DD format."
+        }
+      ]
+    },
+    {
+      "query": "US stock daily quote latest price change percent by symbol",
+      "search_id": "ff2d109e-39d8-47df-b29f-c75cd20d0e6b",
       "name": "Market Sector Performance Snaps",
       "tool_id": "financialmodelingprep.stable.sectorperformancesnapshot.retrieve.v1.5ca7b159",
       "cost": 24.2,
@@ -624,23 +602,23 @@
     },
     {
       "query": "US stock daily quote latest price change percent by symbol",
-      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
-      "name": "StockDailyQuote",
-      "tool_id": "mcp_gildata.stockdailyquote.v1",
+      "search_id": "ff2d109e-39d8-47df-b29f-c75cd20d0e6b",
+      "name": "A-Share Daily Price & Technical Indicators",
+      "tool_id": "caidazi.get_sec_daily_price.execute.v1.7a43f96e",
       "cost": 1.0,
-      "description": "stock daily quotes Obtain the market price of A-shares on a specified day, including price, volume, increase and decrease, turnover rate and other indicators.",
+      "description": "Query daily price and technical indicator data (A股日行情与技术指标) for A-share stocks via caidazi. Returns ~20 fields: closing price, multi-period price changes (daily/weekly/monthly/3-month %), moving averages (MA5/10/20/60), Bollinger Bands, KDJ, and MACD indicators. Input: A-share stock code.",
       "params": [
         {
-          "name": "query",
+          "name": "symbol",
           "type": "string",
-          "required": true,
-          "description": ""
+          "required": false,
+          "description": "Security code with a required market suffix, such as 600519.SH or 300750.SZ; returns daily price data for the most recent month, period returns, moving averages, BOLL, MACD, and KDJ."
         }
       ]
     },
     {
       "query": "US stock daily quote latest price change percent by symbol",
-      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "search_id": "ff2d109e-39d8-47df-b29f-c75cd20d0e6b",
       "name": "Retrieve Daily Time Series",
       "tool_id": "alphavantage.time-series.daily.v1",
       "cost": 2.0,
@@ -685,22 +663,44 @@
     },
     {
       "query": "US stock daily quote latest price change percent by symbol",
-      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
-      "name": "Shenwan Industry Index Daily Data",
-      "tool_id": "caidazi.get_sw_daily.execute.v1.7a43f96e",
-      "cost": 7.2,
-      "description": "Query daily market data (申万行业指数日线) for Shenwan industry indices or individual stocks via caidazi. Returns closing price, volume, turnover, price change %. For Shenwan index codes, additionally returns total/free-float market cap, PE and PB. Input: stock code or Shenwan index code (e.g. 801010.SI).",
+      "search_id": "ff2d109e-39d8-47df-b29f-c75cd20d0e6b",
+      "name": "StockDailyQuote",
+      "tool_id": "mcp_gildata.stockdailyquote.v1",
+      "cost": 1.0,
+      "description": "stock daily quotes Obtain the market price of A-shares on a specified day, including price, volume, increase and decrease, turnover rate and other indicators.",
       "params": [
         {
-          "name": "symbol",
+          "name": "query",
           "type": "string",
-          "required": false,
-          "description": "Shenwan industry index code, such as 801010.SI; according to the official REST documentation, this tool is for daily Shenwan industry data, and individual stock codes should not be used as examples."
+          "required": true,
+          "description": ""
         }
       ]
     }
   ],
   "probes": [
+    {
+      "name": "A-Share Daily Price & Technical Indicators",
+      "tool_id": "caidazi.get_sec_daily_price.execute.v1.7a43f96e",
+      "cost": 1.0,
+      "ok": true,
+      "parameters": {
+        "symbol": "AAPL"
+      },
+      "field_counts": {
+        "symbol": 0,
+        "date": 0,
+        "eps_actual": 0,
+        "eps_estimate": 0,
+        "revenue_actual": 0,
+        "revenue_estimate": 0,
+        "surprise": 0,
+        "price": 0,
+        "change_pct": 0
+      },
+      "samples": [],
+      "raw_preview": "{\"status_code\": 200, \"data\": {\"success\": true, \"result\": \"## AAPL - 日线价格数据\\n\\n| 股票代码 | 股票名称 | 交易日期 | 当日收盘价 | 当日涨跌幅（%） | 近一周涨跌幅 | 近一月涨跌幅 | 近3月涨跌幅 | 5日均线 | 10日均线 | 20日均线 | 60日均线 | 布林中轨 | 布林上轨 | 布林下轨 | kdj K值 | kdj D值 | kdj值 | macd_dif值 | macd_dea值 | macd值 |\\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\\n| AAPL | 苹果 | 20260715 | 327.5 | 4.0100 | 4.5 | 10.49 | 21.19 | 318.24 | 313.09 | 301.93 | 295.72 | 301.93 | 329.12 | 274.74 | 88.67 | 86.03 | 93.95 | 6.6 | 3.84 | 5.53 |\\n| AAPL | 苹果 | 20260714 | 314.86 | -0.7700 | 1.35 | 8.15 | 19.54 | 315.42 | 309.28 | 300.37 | 294.77 | 300.37 | 324.97 | 275.77 | 84.76 | 84.71 | 84.86 | 5.47 | 3.15 | 4.66 |\\n| AAPL | 苹果 | 20260713 | 317.31 | 0.6300 | 1.49 | 7.33 | 19.1 | 314.58 | 305.97 | 299.19 | 293.91 | 299.19 | 323.16 | 275.22 | 89.68 | 84.68 | 99.66 | 5.24 | 2.56 | 5.35 |\\n| AAPL | 苹果 | 20260710 | 315.32 | -0.2800 | 2.17 | 8.14 | 21.83 | 313.65 | 302.61 | 298.1 | 293.06 | 298.1 | 320.61 | 275.59 | 91.7 | 82.19 | 110.72 | 4.61 | 1.89 | 5.44 |\\n| AAPL | 苹果 | 20260709 | 316.22 | 0.9000 | 7.42 | 8.83 | 22.0 | 312.31 | 298.6 | 296.92 | 292.12 | 296.92 | 318.14 | 275.7 | 89.69 | 77.43 | 114.21 | 3.95 | 1.21 | 5.48 |\\n| AAPL | 苹果 | 20260708 | 313.39 | 0.8800 | 8.3 | 3.93 | 20.31 | 307.94 | 296.28 | 295.63 | 291.17 | 295.63 | 315.05 | 276.21 | 84.9 | 71.3 | 112.11 | 2.96 | 0.53 | 4.86 |\\n| AAPL | 苹果 | 20260707 | 310.66 | -0.6400 | 10.26 | 1.08 | 19.26 | 303.14 | 294.37 | 295.04 | 290.29 | 295.04 | 312.92 | 277.16 | 79.86 | 64.5 | 110.58 | 1.94 | -0.08 | 4.03 |\\n| AAPL | 苹果 | 20260706 | 312.66 | 1.3100 | 10.18 | 0.46 | 20.76 | 297.35 | 293.01 | 294.87 | 289.45 | 294.87 | 312.22 | 277.52 | 75.57 | 56.82 | 113.05 | 0.88 | -0.58 | 2.92 |\\n| AAPL | 苹果 | 20260702 | 308.63 | 4.8400 | 12.17 | -0.53 | 21.75 | 291.58 | 291.54 | 294.8 | 288.56 | 294.8 | 311.87 | 277.73 | 65.25 | 47.45 | 100.86 | -0.69 | -0.95 | 0.52 |\\n| AAPL | 苹果 | 20260701 | 294.38 | 1.7300 | 0.44 | -6.61 | 13.72 | 284.88 | 290.28 | 294.88 | 287.64 | 294.88 | 312.22 | 277.54 | 48.99 | 38.55 | 69.86 | -2.26 | -1.01 | -2.5 |\\n\", \"error\": null, \"tool_name\": \"get_sec_daily_price\", \"execution_time_ms\": 71}}"
+    },
     {
       "name": "Earnings Calendar",
       "tool_id": "finnhub.calendar.earnings.retrieve.v1.1552775d",
@@ -727,7 +727,8 @@
         "price": 0,
         "change_pct": 0
       },
-      "samples": []
+      "samples": [],
+      "raw_preview": "{\"status_code\": 200, \"data\": {\"code\": 0, \"results\": [{\"api_name\": \"股票日行情\", \"table_markdown\": \"|股票名称|股票代码|交易日|复权方式|前收盘（元）|今开盘（元）|最高价（元）|最低价（元）|收盘价（元）|均价（元）|涨跌（元）|涨跌幅（%）|振幅（%）|成交量（万股）|成交笔数（笔）|成交额（万元）|换手率（%）|量比|是否停牌|\\n|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|\\n|*ST亚士|603378|2026-07-16|前复权|5.39|5.3|5.36|5.13|5.24|5.23|-0.15|-2.78|4.27|935.71|2313|4889.33|2.18|0.7891|否|\\n|*ST亚士|603378|2026-07-15|前复权|5.6|5.48|5.65|5.19|5.39|5.4|-0.21|-3.75|8.21|926.59|2810|5007.1|2.16|0.7159|否|\\n|*ST亚士|603378|2026-07-14|前复权|5.83|5.87|5.88|5.53|5.6|5.65|-0.23|-3.95|6.0|790.49|2705|4465.89|1.84|0.5686|否|\\n|*ST亚士|603378|2026-07-13|前复权|5.84|5.8|5.94|5.53|5.83|5.73|-0.01|-0.17|7.02|1220.82|3519|6995.77|2.85|0.8811|否|\\n|*ST亚士|603378|2026-07-10|前复权|5.94|5.91|5.98|5.68|5.84|5.82|-0.1|-1.68|5.05|1319.43|4112|7675.44|3.08|1.0261|否|\\n|*ST亚士|603378|2026-07-09|前复权|5.53|5.65|6.07|5.6|5.94|5.84|0.41|7.41|8.5|1671.0|4798|9750.48|3.9|1.4645|否|\\n|*ST亚士|603378|2026-07-08|前复权|5.41|5.19|5.7|5.11|5.53|5.44|0.12|2.22|10.91|1469.17|3567|7988.64|3.43|1.4014|否|\\n|*ST亚士|603378|2026-07-07|前复权|5.37|5.36|5.69|5.13|5.41|5.41|0.04|0.74|10.43|1270.27|3627|6871.59|2.96|1.3383|否|\\n|*ST亚士|603378|2026-07-06|前复权|5.41|5.6|5.87|5.29|5.37|5.55|-0.04|-0.74|10.72|1197.32|3667|6641.2|2.79|1.3395|否|\\n|*ST亚士|603378|2026-07-03|前复权|5.15|5.2|5.41|5.15|5.41|5.31|0.26|5.05|5.05|821.45|2699|4363.32|1.92|0.8075|否|\\n|*ST亚士|603378|2026-07-02|前复权|5.06|5.17|5.3|5.04|5.15|5.19|0.09|1.78|5.14|946.74|3138|4915.44|2.21|0.8400|否|\\n|*ST亚士|603378|2026-07-01|前复权|4.82|4.76|5.06|4.7|5.06|5.01|0.24|4.98|7.47|1005.74|2492|5040.77|2.35|0.9341|否|\"}]}}"
     },
     {
       "name": "USStockDailyQuotes",
@@ -748,7 +749,8 @@
         "price": 0,
         "change_pct": 0
       },
-      "samples": []
+      "samples": [],
+      "raw_preview": "{\"status_code\": 200, \"data\": {\"code\": 0, \"results\": [{\"api_name\": \"美股日行情\", \"table_markdown\": \"|证券代码|证券简称|交易日期|昨收价(元)|开盘价(元)|最高价(元)|最低价(元)|收盘价(元)|均价(元)|涨跌(元)|涨跌幅(%)|振幅(元)|成交量(万股)|成交额(万元)|换手率(%)|总市值(万元)|币种|\\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\\n|AAPL|苹果|2026-07-15|314.86|317.62|328.73|317.32|327.50|325.84|12.64|4.01|3.62|6095.76|1986254.75|0.42|481010909|USD|\\n|AAPL|苹果|2026-07-14|317.31|313.76|316.19|311.91|314.86|314.66|-2.45|-0.77|1.35|3633.68|1143376.96|0.25|462446091.02|USD|\\n|AAPL|苹果|2026-07-13|315.32|317.01|323.45|315.78|317.31|318.15|1.99|0.63|2.43|4325.78|1376262.60|0.29|466044493.24|USD|\\n|AAPL|苹果|2026-07-10|316.22|314.72|316.91|312.17|315.32|314.75|-0.90|-0.28|1.50|3413.23|1074169.95|0.23|463121709.39|USD|\\n|AAPL|苹果|2026-07-09|313.39|310.51|316.53|308.16|316.22|314.46|2.83|0.90|2.67|4812.45|1513329.81|0.33|464443571.43|USD|\\n|AAPL|苹果|2026-07-08|310.66|311.91|314.82|307.05|313.39|312.21|2.73|0.88|2.50|4132.35|1290170.60|0.28|460287049.68|USD|\\n|AAPL|苹果|2026-07-07|312.66|315.29|315.48|310.15|310.66|312.30|-2.00|-0.64|1.70|4249.00|1326954.92|0.29|456277401.50|USD|\\n|AAPL|苹果|2026-07-06|308.63|307.36|314.20|307.00|312.66|312.08|4.03|1.31|2.33|5359.00|1672456.55|0.36|459214872.70|USD|\\n|AAPL|苹果|2026-07-02|294.38|294.12|309.42|293.68|308.63|306.45|14.25|4.84|5.35|7540.06|2310628.36|0.51|453295868.23|USD|\\n|AAPL|苹果|2026-07-01|289.36|293.44|296.59|289.19|294.38|294.06|5.02|1.73|2.56|5016.42|1475148.82|0.34|432366385.93|USD|\\n|AAPL|苹果|2026-06-30|281.74|281.17|289.94|280.69|289.36|288.09|7.62|2.70|3.28|6510.02|1875464.66|0.44|424993333.22|USD|\\n|AAPL|苹果|2026-06-29|283.78|286.73|288.37|279.85|281.74|282.07|-2.04|-0.72|3.00|6642.70|1873728.50|0.45|413801567.94|USD|\\n|AAPL|苹果|2026-06-26|275.15|275.00|285.95|274.21|283.78|282.32|8.63|3.14|4.27|26177.54|7390558.43|1.78|416797788.57|USD|\\n|AAPL|苹果|2026-06-25|293.08|287.40|288.80|273.75|275.15|277.45|-17.93|-6.12|5.14|10725.37|2975716.73|0.73|404122600.34|USD|\\n|AAPL|苹果|2026-06-24|294.3|295.36|299.70|292.94|293.08|294.86|-1.22|-0.41|2.30|5308.19|1565150.09|0.36|430457029.65|USD|\\n|AAPL|苹果|2026-06-23|297.01|297.54|301.64|294.18|294.30|296.88|-2.71|-0.91|2.51|5201.09|1544077.83|0.35|432248887.08|USD|\\n|AAPL|苹果|2026-06-22|298.01|297.31|302.42|296.76|297.01|298.67|-1.00|-0.34|1.90|4487.99|1340447.21|0.31|436229160.56|USD|\\n|AAPL|苹果|2026-06-18|295.95|298.11|300.57|295.62|298.01|298.07|2.06|0.70|1.67|8596.22|2562237.37|0.59|437697896.16|USD|\\n|AAPL|苹果|2026-06-17|299.24|300.85|302.07|294.36|295.95|297.10|-3.29|-1.10|2.58|4274.51|1269962.33|0.29|434672300.82|USD|\\n|AAPL|苹果|2026-06-16|296.42|295.25|300.48|293.97|299.24|298.53|2.82|0.95|2.20|3987.44|1190365.07|0.27|439504440.94|USD|\\n|AAPL|苹果|2026-06-15|291.13|294.12|297.78|291.70|296.42|296.01|5.29|1.82|2.09|4573.26|1353733.80|0.31|435362606.55|USD|\\n|AAPL|苹果|2026-06-12|295.63|296.03|297.14|289.62|291.13|291.60|-4.50|-1.52|2.54|3878.48|1130970.40|0.26|427592995.23|USD|\\n|AAPL|苹果|2026-06-11|291.58|293.72|297.00|289.59|295.63|294.11|4.05|1.39|2.54|4257.25|1252117.27|0.29|434202305.43|USD|\\n|AAPL|苹果|2026-06-10|290.55|290.74|294.75|287.38|291.58|291.41|1.03|0.35|2.54|5279.33|1538458.91|0.36|428253926.25|USD|\\n|AAPL|苹果|2026-06-09|301.54|300.27|300.75|287.78|290.55|292.03|-10.99|-3.64|4.30|7010.88|2047415.30|0.48|426741128.58|USD|\\n|AAPL|苹果|2026-06-08|307.34|308.74|317.40|301.17|301.54|307.64|-5.80|-1.89|5.28|7794.91|2398021.45|0.53|442882532.82|USD|\\n|AAPL|苹果|2026-06-05|311.23|312.86|315.17|307.15|307.34|310.44|-3.89|-1.25|2.58|6531.05|2027496.04|0.44|451401199.30|USD|\\n|AAPL|苹果|2026-06-04|310.26|313.23|313.54|309.65|311.23|311.24|0.97|0.31|1.25|4486.91|1396510.47|0.31|457114580.79|USD|\\n|AAPL|苹果|2026-06-03|315.2|314.18|316.94|308.85|310.26|311.53|-4.94|-1.57|2.57|5083.67|1583704.21|0.35|455689907.26|USD|\\n|AAPL|苹果|2026-06-02|306.31|307.46|315.45|306.69|315.20|313.20|8.89|2.90|2.86|4453.47|1394819.34|0.30|462945461.12|USD|\\n|AAPL|苹果|2026-06-01|312.06|309.62|310.94|305.02|306.31|307.41|-5.75|-1.84|1.90|4884.99|1501702.01|0.33|449888401.64|USD|\\n|AAPL|苹果|2026-05-29|312.51|311.77|315.00|309.53|312.06|311.98|-0.45|-0.14|1.75|7002.68|2184670.89|0.48|458333631.34|USD|\\n|AAPL|苹果|2026-05-28|310.85|310.68|312.80|309.57|312.51|311.55|1.66|0.53|1.04|4822.04|1502313.49|0.33|458994562.36|USD|\\n|AAPL|苹果|2026-05-27|308.33|308.33|313.26|308.30|310.85|311.28|2.52|0.82|1.61|5043.09|1569802.71|0.34|456556461.26|USD|\\n|AAPL|苹果|2026-05-26|308.82|309.56|311.82|307.67|308.33|309.48|-0.49|-0.16|1.34|4800.05|1485516.46|0.33|452855247.55|USD|\\n|AAPL|苹果|2026-05-22|304.99|306.12|311.40|305.84|308.82|309.16|3.83|1.26|1.82|4367.02|1350119.57|0.30|453574927.99|USD|\\n|AAPL|苹果|2026-05-21|302.25|301.06|305.54|300.40|304.99|304.09|2.74|0.91|1.70|4296.51|1306522.45|0.29|447949670.64|USD|\\n|AAPL|苹果|2026-05-20|298.97|298.18|302.80|298.08|302.25|301.13|3.28|1.10|1.58|3822.98|1151224.46|0.26|443925335.10|USD|\\n|AAPL|苹果|2026-05-19|297.84|296.97|300.51|296.35|298.97|298.38|1.13|0.38|1.40|4224.36|1260475.73|0.29|439107882.33|USD|\\n|AAPL|苹果|2026-05-18|300.23|300.24|300.66|294.91|297.84|297.22|-2.39|-0.80|1.92|3448.30|1024887.02|0.23|437448211.10|USD|\\n|AAPL|苹果|2026-05-15|298.21|297.90|303.20|296.52|300.23|300.43|2.02|0.68|2.24|5486.28|1648263.13|0.37|440958489.19|USD|\\n|AAPL|苹果|2026-05-14|298.87|299.82|300.45|295.38|298.21|298.28|-0.66|-0.22|1.70|3532.49|1053679.66|0.24|437991643.28|USD|\\n|AAPL|苹果|2026-05-13|294.8|293.50|300.92|293.50|298.87|298.11|4.07|1.38|2.52|5268.43|1570590.15|0.36|438961008.77|USD|\\n|AAPL|苹果|2026-05-12|292.68|292.56|295.27|292.56|294.80|294.19|2.12|0.72|0.93|4574.81|1345862.85|0.31|432983254.88|USD|\\n|AAPL|苹果|2026-05-11|293.32|291.98|293.88|290.23|292.68|292.23|-0.64|-0.22|1.24|4224.73|1234604.98|0.29|429869535.41|USD|\\n|AAPL|苹果|2026-05-08|287.44|290.01|294.76|290.00|293.32|293.12|5.88|2.05|1.66|5269.28|1544534.35|0.36|430809526.19|USD|\\n|AAPL|苹果|2026-05-07|287.51|289.27|292.13|285.78|287.44|288.75|-0.07|-0.02|2.21|4522.43|1305849.29|0.31|422173360.86|USD|\\n|AAPL|苹果|2026-05-06|284.18|281.92|288.03|"
     },
     {
       "name": "Yahoo Finance Earnings Calendar",
@@ -756,7 +758,10 @@
       "cost": 1.0,
       "ok": true,
       "parameters": {
-        "symbol": "AAPL"
+        "symbol": "AAPL",
+        "time_range": "6m",
+        "include_estimates": true,
+        "max_results": 20
       },
       "field_counts": {
         "symbol": 3,
@@ -769,7 +774,8 @@
         "price": 0,
         "change_pct": 0
       },
-      "samples": []
+      "samples": [],
+      "raw_preview": "{\"status_code\": 200, \"data\": {\"symbol\": \"AAPL\", \"time_range\": \"6m\", \"include_estimates\": true, \"events\": [{\"symbol\": \"AAPL\", \"type\": \"earnings\", \"data\": {\"quarterly_growth\": 0.194, \"earnings_growth\": 0.218, \"forward_pe\": 34.04044, \"trailing_pe\": 38.170162}}]}, \"metadata\": {\"symbol\": \"AAPL\", \"time_range\": \"6m\", \"include_estimates\": true, \"max_results\": 20, \"events_count\": 1, \"calendar_available\": true}}"
     },
     {
       "name": "post_v1_stock_quote_extend",
@@ -782,36 +788,184 @@
       "name": "Earnings Estimates Trending",
       "tool_id": "alphavantage.earnings_estimates.retrieve.v1.467a92c0",
       "cost": 2.0,
-      "ok": false,
-      "error": "This API function (AAPL RECENT EARNINGS ACTUAL ESTIMATED EPS AND REVENUE) does not exist."
+      "ok": true,
+      "parameters": {
+        "function": "EARNINGS_ESTIMATES",
+        "symbol": "AAPL"
+      },
+      "field_counts": {
+        "symbol": 1,
+        "date": 40,
+        "eps_actual": 0,
+        "eps_estimate": 0,
+        "revenue_actual": 0,
+        "revenue_estimate": 0,
+        "surprise": 0,
+        "price": 0,
+        "change_pct": 0
+      },
+      "samples": [],
+      "raw_preview": "{\"status_code\": 200, \"data\": {\"symbol\": \"AAPL\", \"estimates\": [{\"date\": \"2027-09-30\", \"horizon\": \"fiscal year\", \"eps_estimate_average\": \"9.6864\", \"eps_estimate_high\": \"10.9600\", \"eps_estimate_low\": \"8.8100\", \"eps_estimate_analyst_count\": \"42.0000\", \"eps_estimate_average_7_days_ago\": \"9.6826\", \"eps_estimate_average_30_days_ago\": \"9.6669\", \"eps_estimate_average_60_days_ago\": \"9.6182\", \"eps_estimate_average_90_days_ago\": \"9.3305\", \"eps_estimate_revision_up_trailing_7_days\": \"2.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"8.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"1.0000\", \"revenue_estimate_average\": \"520561947590.00\", \"revenue_estimate_high\": \"594863000000.00\", \"revenue_estimate_low\": \"483566000000.00\", \"revenue_estimate_analyst_count\": \"41.00\"}, {\"date\": \"2026-09-30\", \"horizon\": \"fiscal year\", \"eps_estimate_average\": \"8.7622\", \"eps_estimate_high\": \"9.0367\", \"eps_estimate_low\": \"8.2900\", \"eps_estimate_analyst_count\": \"41.0000\", \"eps_estimate_average_7_days_ago\": \"8.7596\", \"eps_estimate_average_30_days_ago\": \"8.7570\", \"eps_estimate_average_60_days_ago\": \"8.7360\", \"eps_estimate_average_90_days_ago\": \"8.4967\", \"eps_estimate_revision_up_trailing_7_days\": \"2.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"4.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"0.0000\", \"revenue_estimate_average\": \"478245711770.00\", \"revenue_estimate_high\": \"485346136460.00\", \"revenue_estimate_low\": \"469821092640.00\", \"revenue_estimate_analyst_count\": \"38.00\"}, {\"date\": \"2026-09-30\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"2.0120\", \"eps_estimate_high\": \"2.1500\", \"eps_estimate_low\": \"1.8700\", \"eps_estimate_analyst_count\": \"29.0000\", \"eps_estimate_average_7_days_ago\": \"2.0084\", \"eps_estimate_average_30_days_ago\": \"2.0080\", \"eps_estimate_average_60_days_ago\": \"2.0037\", \"eps_estimate_average_90_days_ago\": \"1.9703\", \"eps_estimate_revision_up_trailing_7_days\": \"1.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"2.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"0.0000\", \"revenue_estimate_average\": \"114388867820.00\", \"revenue_estimate_high\": \"118975100000.00\", \"revenue_estimate_low\": \"106178615430.00\", \"revenue_estimate_analyst_count\": \"27.00\"}, {\"date\": \"2026-06-30\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"1.8943\", \"eps_estimate_high\": \"1.9900\", \"eps_estimate_low\": \"1.8300\", \"eps_estimate_analyst_count\": \"31.0000\", \"eps_estimate_average_7_days_ago\": \"1.8943\", \"eps_estimate_average_30_days_ago\": \"1.8943\", \"eps_estimate_average_60_days_ago\": \"1.8911\", \"eps_estimate_average_90_days_ago\": \"1.7297\", \"eps_estimate_revision_up_trailing_7_days\": \"0.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"24.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"0.0000\", \"revenue_estimate_average\": \"108900122530.00\", \"revenue_estimate_high\": \"112168000000.00\", \"revenue_estimate_low\": \"107501000000.00\", \"revenue_estimate_analyst_count\": \"27.00\"}, {\"date\": \"2026-03-31\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"1.9404\", \"eps_estimate_high\": \"2.1600\", \"eps_estimate_low\": \"1.5600\", \"eps_estimate_analyst_count\": \"33.0000\", \"eps_estimate_average_7_days_ago\": \"1.9428\", \"eps_estimate_average_30_days_ago\": \"1.9514\", \"eps_estimate_average_60_days_ago\": \"1.9489\", \"eps_estimate_average_90_days_ago\": \"1.9428\", \"eps_estimate_revision_up_trailing_7_days\": \"3.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"4.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"1.0000\", \"revenue_estimate_average\": \"109578690550.00\", \"revenue_estimate_high\": \"115368900000.00\", \"revenue_estimate_low\": \"104636000000.00\", \"revenue_estimate_analyst_count\": \"32.00\"}, {\"date\": \"2025-12-31\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"2.6708\", \"eps_estimate_high\": \"2.8000\", \"eps_estimate_low\": \"2.4500\", \"eps_estimate_analyst_count\": \"33.0000\", \"eps_estimate_average_7_days_ago\": \"2.6731\", \"eps_estimate_average_30_days_ago\": \"2.6672\", \"eps_estimate_average_60_days_ago\": \"2.6632\", \"eps_estimate_average_90_days_ago\": \"2.6509\", \"eps_estimate_revision_up_trailing_7_days\": \"3.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"5.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"1.0000\", \"revenue_estimate_average\": \"138522147180.00\", \"revenue_estimate_high\": \"142460000000.00\", \"revenue_estimate_low\": \"136656000000.00\", \"revenue_estimate_analyst_count\": \"32.00\"}, {\"date\": \"2025-09-30\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"1.7699\", \"eps_estimate_high\": \"1.8300\", \"eps_estimate_low\": \"1.5900\", \"eps_estimate_analyst_count\": \"32.0000\", \"eps_estimate_average_7_days_ago\": \"1.7649\", \"eps_estimate_average_30_days_ago\": \"1.7605\", \"eps_estimate_average_60_days_ago\": \"1.7596\", \"eps_estimate_average_90_days_ago\": \"1.6556\", \"eps_estimate_revision_up_trailing_7_days\": \"6.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"8.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"1.0000\", \"revenue_estimate_average\": \"102250480070.00\", \"revenue_estimate_high\": \"107790700000.00\", \"revenue_estimate_low\": \"97854000000.00\", \"revenue_estimate_analyst_count\": \"31.00\"}, {\"date\": \"2025-06-30\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"1.4257\", \"eps_estimate_high\": \"1.5400\", \"eps_estimate_low\": \"1.3200\", \"eps_estimate_analyst_count\": \"29.0000\", \"eps_estimate_average_7_days_ago\": \"1.4199\", \"eps_estimate_average_30_days_ago\": \"1.4159\", \"eps_estimate_average_60_days_ago\": \"1.4166\", \"eps_estimate_average_90_days_ago\": \"1.4724\", \"eps_estimate_revision_up_trailing_7_days\": \"5.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"6.0000\", \"eps_estimate_revision_down_trailing_30_da"
     },
     {
       "name": "Earnings History",
       "tool_id": "alphavantage.earnings.retrieve.v1.467a92c0",
       "cost": 2.0,
-      "ok": false,
-      "error": "This API function (AAPL RECENT EARNINGS ACTUAL ESTIMATED EPS AND REVENUE) does not exist."
+      "ok": true,
+      "parameters": {
+        "function": "EARNINGS",
+        "symbol": "AAPL"
+      },
+      "field_counts": {
+        "symbol": 1,
+        "date": 152,
+        "eps_actual": 152,
+        "eps_estimate": 121,
+        "revenue_actual": 0,
+        "revenue_estimate": 0,
+        "surprise": 121,
+        "price": 0,
+        "change_pct": 0
+      },
+      "samples": [
+        {
+          "fiscalDateEnding": "2026-06-30",
+          "reportedEPS": "4.85"
+        },
+        {
+          "fiscalDateEnding": "2025-09-30",
+          "reportedEPS": "7.47"
+        },
+        {
+          "fiscalDateEnding": "2024-09-30",
+          "reportedEPS": "6.08"
+        },
+        {
+          "fiscalDateEnding": "2023-09-30",
+          "reportedEPS": "6.12"
+        },
+        {
+          "fiscalDateEnding": "2022-09-30",
+          "reportedEPS": "6.11"
+        },
+        {
+          "fiscalDateEnding": "2021-09-30",
+          "reportedEPS": "5.62"
+        },
+        {
+          "fiscalDateEnding": "2020-09-30",
+          "reportedEPS": "3.27"
+        },
+        {
+          "fiscalDateEnding": "2019-09-30",
+          "reportedEPS": "2.98"
+        }
+      ],
+      "raw_preview": "{\"status_code\": 200, \"data\": {\"symbol\": \"AAPL\", \"annualEarnings\": [{\"fiscalDateEnding\": \"2026-06-30\", \"reportedEPS\": \"4.85\"}, {\"fiscalDateEnding\": \"2025-09-30\", \"reportedEPS\": \"7.47\"}, {\"fiscalDateEnding\": \"2024-09-30\", \"reportedEPS\": \"6.08\"}, {\"fiscalDateEnding\": \"2023-09-30\", \"reportedEPS\": \"6.12\"}, {\"fiscalDateEnding\": \"2022-09-30\", \"reportedEPS\": \"6.11\"}, {\"fiscalDateEnding\": \"2021-09-30\", \"reportedEPS\": \"5.62\"}, {\"fiscalDateEnding\": \"2020-09-30\", \"reportedEPS\": \"3.27\"}, {\"fiscalDateEnding\": \"2019-09-30\", \"reportedEPS\": \"2.98\"}, {\"fiscalDateEnding\": \"2018-09-30\", \"reportedEPS\": \"2.97\"}, {\"fiscalDateEnding\": \"2017-09-30\", \"reportedEPS\": \"2.3\"}, {\"fiscalDateEnding\": \"2016-09-30\", \"reportedEPS\": \"2.0675\"}, {\"fiscalDateEnding\": \"2015-09-30\", \"reportedEPS\": \"2.3\"}, {\"fiscalDateEnding\": \"2014-09-30\", \"reportedEPS\": \"1.6075\"}, {\"fiscalDateEnding\": \"2013-09-30\", \"reportedEPS\": \"1.415\"}, {\"fiscalDateEnding\": \"2012-09-30\", \"reportedEPS\": \"1.5775\"}, {\"fiscalDateEnding\": \"2011-09-30\", \"reportedEPS\": \"0.9875\"}, {\"fiscalDateEnding\": \"2010-09-30\", \"reportedEPS\": \"0.54\"}, {\"fiscalDateEnding\": \"2009-09-30\", \"reportedEPS\": \"0.2225\"}, {\"fiscalDateEnding\": \"2008-09-30\", \"reportedEPS\": \"0.19\"}, {\"fiscalDateEnding\": \"2007-09-30\", \"reportedEPS\": \"0.14\"}, {\"fiscalDateEnding\": \"2006-09-30\", \"reportedEPS\": \"0.08\"}, {\"fiscalDateEnding\": \"2005-09-30\", \"reportedEPS\": \"0.05\"}, {\"fiscalDateEnding\": \"2004-09-30\", \"reportedEPS\": \"0.05\"}, {\"fiscalDateEnding\": \"2003-09-30\", \"reportedEPS\": \"0.0112\"}, {\"fiscalDateEnding\": \"2002-09-30\", \"reportedEPS\": \"0.0198\"}, {\"fiscalDateEnding\": \"2001-09-30\", \"reportedEPS\": \"0.0064\"}, {\"fiscalDateEnding\": \"2000-09-30\", \"reportedEPS\": \"0.04\"}, {\"fiscalDateEnding\": \"1999-09-30\", \"reportedEPS\": \"0.05\"}, {\"fiscalDateEnding\": \"1998-09-30\", \"reportedEPS\": \"0.04\"}, {\"fiscalDateEnding\": \"1997-09-30\", \"reportedEPS\": \"-0.1114\"}, {\"fiscalDateEnding\": \"1996-09-30\", \"reportedEPS\": \"-0.1082\"}], \"quarterlyEarnings\": [{\"fiscalDateEnding\": \"2026-03-31\", \"reportedDate\": \"2026-04-30\", \"reportedEPS\": \"2.01\", \"estimatedEPS\": \"1.94\", \"surprise\": \"0.07\", \"surprisePercentage\": \"3.6082\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2025-12-31\", \"reportedDate\": \"2026-01-29\", \"reportedEPS\": \"2.84\", \"estimatedEPS\": \"2.67\", \"surprise\": \"0.17\", \"surprisePercentage\": \"6.367\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2025-09-30\", \"reportedDate\": \"2025-10-30\", \"reportedEPS\": \"1.85\", \"estimatedEPS\": \"1.77\", \"surprise\": \"0.08\", \"surprisePercentage\": \"4.5198\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2025-06-30\", \"reportedDate\": \"2025-07-31\", \"reportedEPS\": \"1.57\", \"estimatedEPS\": \"1.43\", \"surprise\": \"0.14\", \"surprisePercentage\": \"9.7902\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2025-03-31\", \"reportedDate\": \"2025-05-01\", \"reportedEPS\": \"1.65\", \"estimatedEPS\": \"1.62\", \"surprise\": \"0.03\", \"surprisePercentage\": \"1.8519\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2024-12-31\", \"reportedDate\": \"2025-01-30\", \"reportedEPS\": \"2.4\", \"estimatedEPS\": \"2.34\", \"surprise\": \"0.06\", \"surprisePercentage\": \"2.5641\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2024-09-30\", \"reportedDate\": \"2024-10-31\", \"reportedEPS\": \"0.97\", \"estimatedEPS\": \"0.95\", \"surprise\": \"0.02\", \"surprisePercentage\": \"2.1053\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2024-06-30\", \"reportedDate\": \"2024-08-01\", \"reportedEPS\": \"1.4\", \"estimatedEPS\": \"1.34\", \"surprise\": \"0.06\", \"surprisePercentage\": \"4.4776\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2024-03-31\", \"reportedDate\": \"2024-05-02\", \"reportedEPS\": \"1.53\", \"estimatedEPS\": \"1.5\", \"surprise\": \"0.03\", \"surprisePercentage\": \"2\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2023-12-31\", \"reportedDate\": \"2024-02-01\", \"reportedEPS\": \"2.18\", \"estimatedEPS\": \"2.11\", \"surprise\": \"0.07\", \"surprisePercentage\": \"3.3175\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2023-09-30\", \"reportedDate\": \"2023-11-02\", \"reportedEPS\": \"1.46\", \"estimatedEPS\": \"1.39\", \"surprise\": \"0.07\", \"surprisePercentage\": \"5.036\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2023-06-30\", \"reportedDate\": \"2023-08-03\", \"reportedEPS\": \"1.26\", \"estimatedEPS\": \"1.19\", \"surprise\": \"0.07\", \"surprisePercentage\": \"5.8824\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2023-03-31\", \"reportedDate\": \"2023-05-04\", \"reportedEPS\": \"1.52\", \"estimatedEPS\": \"1.43\", \"surprise\": \"0.09\", \"surprisePercentage\": \"6.2937\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2022-12-31\", \"reportedDate\": \"2023-02-02\", \"reportedEPS\": \"1.88\", \"estimatedEPS\": \"1.95\", \"surprise\": \"-0.07\", \"surprisePercentage\": \"-3.5897\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2022-09-30\", \"reportedDate\": \"2022-10-27\", \"reportedEPS\": \"1.29\", \"estimatedEPS\": \"1.27\", \"surprise\": \"0.02\", \"surprisePercentage\": \"1.5748\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2022-06-30\", \"reportedDate\": \"2022-07-28\", \"reportedEPS\": \"1.2\", \"estimatedEPS\": \"1.15\", \"surprise\": \"0.05\", \"surprisePercentage\": \"4.3478\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2022-03-31\", \"reportedDate\": \"2022-04-28\", \"reportedEPS\": \"1.52\", \"estimatedEPS\": \"1.43\", \"surprise\": \"0.09\", \"surprisePercentage\": \"6.2937\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2021-12-31\", \"reportedDate\": \"2022-01-27\", \"reportedEPS\": \"2.1\", \"estimatedEPS\": \"1.89\", \"surprise\": \"0.21\", \"surprisePercentage\": \"11.1111\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2021-09-30\", \"reportedDate\": \"2021-10-28\", \"reportedEPS\": \"1.24\", \"estimatedEPS\": \"1.24\", \"surprise\": \"0\", \"surprisePercentage\": \"0\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2021-06-30\", \"reportedDate\": \"2021-07-27\", \"reportedEPS\": \"1.3\", \"estimatedEPS\": \"1.01\", \"surprise\": \"0.29\", \"surprisePercentage\": \"28.7129\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2021-03-31\", \"reportedDate\": \"2021-04-28\", \"reportedEPS\": \"1.4\", \"estimatedEPS\": \"0.98\", \"surprise\": \"0.42\", \"surprisePercentage\": \"42.8571\", \"reportTime\": \"post-market\"}, {\"f"
     },
     {
       "name": "Retrieve Daily Time Series",
       "tool_id": "alphavantage.time-series.daily.v1",
       "cost": 2.0,
-      "ok": false,
-      "error": "This API function (AAPL RECENT EARNINGS ACTUAL ESTIMATED EPS AND REVENUE) does not exist."
+      "ok": true,
+      "parameters": {
+        "function": "TIME_SERIES_DAILY",
+        "symbol": "AAPL",
+        "outputsize": "compact",
+        "datatype": "json"
+      },
+      "field_counts": {
+        "symbol": 0,
+        "date": 0,
+        "eps_actual": 0,
+        "eps_estimate": 0,
+        "revenue_actual": 0,
+        "revenue_estimate": 0,
+        "surprise": 0,
+        "price": 0,
+        "change_pct": 0
+      },
+      "samples": [],
+      "raw_preview": "{\"status_code\": 200, \"data\": {\"Meta Data\": {\"1. Information\": \"Daily Prices (open, high, low, close) and Volumes\", \"2. Symbol\": \"AAPL\", \"3. Last Refreshed\": \"2026-07-15\", \"4. Output Size\": \"Compact\", \"5. Time Zone\": \"US/Eastern\"}, \"Time Series (Daily)\": {\"2026-07-15\": {\"1. open\": \"317.6150\", \"2. high\": \"328.7300\", \"3. low\": \"317.3200\", \"4. close\": \"327.5000\", \"5. volume\": \"60957644\"}, \"2026-07-14\": {\"1. open\": \"313.7600\", \"2. high\": \"316.1900\", \"3. low\": \"311.9100\", \"4. close\": \"314.8600\", \"5. volume\": \"36336829\"}, \"2026-07-13\": {\"1. open\": \"317.0150\", \"2. high\": \"323.4500\", \"3. low\": \"315.7800\", \"4. close\": \"317.3100\", \"5. volume\": \"43257804\"}, \"2026-07-10\": {\"1. open\": \"314.7200\", \"2. high\": \"316.9100\", \"3. low\": \"312.1700\", \"4. close\": \"315.3200\", \"5. volume\": \"34132321\"}, \"2026-07-09\": {\"1. open\": \"310.5100\", \"2. high\": \"316.5300\", \"3. low\": \"308.1600\", \"4. close\": \"316.2200\", \"5. volume\": \"48124490\"}, \"2026-07-08\": {\"1. open\": \"311.9100\", \"2. high\": \"314.8200\", \"3. low\": \"307.0500\", \"4. close\": \"313.3900\", \"5. volume\": \"41323480\"}, \"2026-07-07\": {\"1. open\": \"315.2900\", \"2. high\": \"315.4800\", \"3. low\": \"310.1500\", \"4. close\": \"310.6600\", \"5. volume\": \"42490002\"}, \"2026-07-06\": {\"1. open\": \"307.3600\", \"2. high\": \"314.2000\", \"3. low\": \"307.0000\", \"4. close\": \"312.6600\", \"5. volume\": \"53589977\"}, \"2026-07-02\": {\"1. open\": \"294.1200\", \"2. high\": \"309.4200\", \"3. low\": \"293.6800\", \"4. close\": \"308.6300\", \"5. volume\": \"75400626\"}, \"2026-07-01\": {\"1. open\": \"293.4400\", \"2. high\": \"296.5900\", \"3. low\": \"289.1950\", \"4. close\": \"294.3800\", \"5. volume\": \"50164232\"}, \"2026-06-30\": {\"1. open\": \"281.1700\", \"2. high\": \"289.9400\", \"3. low\": \"280.6950\", \"4. close\": \"289.3600\", \"5. volume\": \"65100155\"}, \"2026-06-29\": {\"1. open\": \"286.7300\", \"2. high\": \"288.3697\", \"3. low\": \"279.8500\", \"4. close\": \"281.7400\", \"5. volume\": \"66427002\"}, \"2026-06-26\": {\"1. open\": \"275.0000\", \"2. high\": \"285.9500\", \"3. low\": \"274.2100\", \"4. close\": \"283.7800\", \"5. volume\": \"261775450\"}, \"2026-06-25\": {\"1. open\": \"287.4000\", \"2. high\": \"288.8000\", \"3. low\": \"273.7500\", \"4. close\": \"275.1500\", \"5. volume\": \"107253659\"}, \"2026-06-24\": {\"1. open\": \"295.3550\", \"2. high\": \"299.7000\", \"3. low\": \"292.9400\", \"4. close\": \"293.0800\", \"5. volume\": \"53081859\"}, \"2026-06-23\": {\"1. open\": \"297.5380\", \"2. high\": \"301.6400\", \"3. low\": \"294.1800\", \"4. close\": \"294.3000\", \"5. volume\": \"52010929\"}, \"2026-06-22\": {\"1. open\": \"297.3100\", \"2. high\": \"302.4200\", \"3. low\": \"296.7600\", \"4. close\": \"297.0100\", \"5. volume\": \"44879914\"}, \"2026-06-18\": {\"1. open\": \"298.1100\", \"2. high\": \"300.5700\", \"3. low\": \"295.6200\", \"4. close\": \"298.0100\", \"5. volume\": \"85962201\"}, \"2026-06-17\": {\"1. open\": \"300.8450\", \"2. high\": \"302.0700\", \"3. low\": \"294.3600\", \"4. close\": \"295.9500\", \"5. volume\": \"42745060\"}, \"2026-06-16\": {\"1. open\": \"295.2450\", \"2. high\": \"300.4800\", \"3. low\": \"293.9700\", \"4. close\": \"299.2400\", \"5. volume\": \"39874404\"}, \"2026-06-15\": {\"1. open\": \"294.1200\", \"2. high\": \"297.7800\", \"3. low\": \"291.7000\", \"4. close\": \"296.4200\", \"5. volume\": \"45732573\"}, \"2026-06-12\": {\"1. open\": \"296.0300\", \"2. high\": \"297.1400\", \"3. low\": \"289.6200\", \"4. close\": \"291.1300\", \"5. volume\": \"38784789\"}, \"2026-06-11\": {\"1. open\": \"293.7200\", \"2. high\": \"297.0000\", \"3. low\": \"289.5900\", \"4. close\": \"295.6300\", \"5. volume\": \"42572497\"}, \"2026-06-10\": {\"1. open\": \"290.7400\", \"2. high\": \"294.7500\", \"3. low\": \"287.3800\", \"4. close\": \"291.5800\", \"5. volume\": \"52793266\"}, \"2026-06-09\": {\"1. open\": \"300.2750\", \"2. high\": \"300.7500\", \"3. low\": \"287.7800\", \"4. close\": \"290.5500\", \"5. volume\": \"70108847\"}, \"2026-06-08\": {\"1. open\": \"308.7390\", \"2. high\": \"317.4000\", \"3. low\": \"301.1700\", \"4. close\": \"301.5400\", \"5. volume\": \"77949082\"}, \"2026-06-05\": {\"1. open\": \"312.8600\", \"2. high\": \"315.1700\", \"3. low\": \"307.1500\", \"4. close\": \"307.3400\", \"5. volume\": \"65310502\"}, \"2026-06-04\": {\"1. open\": \"313.2300\", \"2. high\": \"313.5400\", \"3. low\": \"309.6500\", \"4. close\": \"311.2300\", \"5. volume\": \"44869134\"}, \"2026-06-03\": {\"1. open\": \"314.1750\", \"2. high\": \"316.9400\", \"3. low\": \"308.8500\", \"4. close\": \"310.2600\", \"5. volume\": \"50836705\"}, \"2026-06-02\": {\"1. open\": \"307.4600\", \"2. high\": \"315.4500\", \"3. low\": \"306.6850\", \"4. close\": \"315.2000\", \"5. volume\": \"44534716\"}, \"2026-06-01\": {\"1. open\": \"309.6250\", \"2. high\": \"310.9400\", \"3. low\": \"305.0200\", \"4. close\": \"306.3100\", \"5. volume\": \"48849933\"}, \"2026-05-29\": {\"1. open\": \"311.7750\", \"2. high\": \"315.0000\", \"3. low\": \"309.5300\", \"4. close\": \"312.0600\", \"5. volume\": \"70026752\"}, \"2026-05-28\": {\"1. open\": \"310.6800\", \"2. high\": \"312.8000\", \"3. low\": \"309.5700\", \"4. close\": \"312.5100\", \"5. volume\": \"48220390\"}, \"2026-05-27\": {\"1. open\": \"308.3300\", \"2. high\": \"313.2600\", \"3. low\": \"308.3000\", \"4. close\": \"310.8500\", \"5. volume\": \"50430919\"}, \"2026-05-26\": {\"1. open\": \"309.5600\", \"2. high\": \"311.8200\", \"3. low\": \"307.6700\", \"4. close\": \"308.3300\", \"5. volume\": \"48000493\"}, \"2026-05-22\": {\"1. open\": \"306.1200\", \"2. high\": \"311.4000\", \"3. low\": \"305.8400\", \"4. close\": \"308.8200\", \"5. volume\": \"43670223\"}, \"2026-05-21\": {\"1. open\": \"301.0550\", \"2. high\": \"305.5400\", \"3. low\": \"300.4000\", \"4. close\": \"304.9900\", \"5. volume\": \"42965126\"}, \"2026-05-20\": {\"1. open\": \"298.1800\", \"2. high\": \"302.8000\", \"3. low\": \"298.0800\", \"4. close\": \"302.2500\", \"5. volume\": \"37307876\"}, \"2026-05-19\": {\"1. open\": \"296.9700\", \"2. high\": \"300.5100\", \"3. low\": \"296.3500\", \"4. close\": \"298.9700\", \"5. volume\": \"42243561\"}, \"2026-05-18\": {\"1. open\": \"300.2400\", \"2. high\": \"300.6600\", \"3. low\": \"294.9100\", \"4. close\": \"297.8400\", \"5. volume\": \"34482959\"}, \"2026-05-15\": {\"1. open\": \"297.9000\", \"2. high\": \"303.2000\", \"3. low\": \"296.5200\", \"4. close\": \"300.2300\", \"5. volume\": \"54862836\"}, \"2026-05-14\": {\"1. open\": \"299.8200\", \"2. high\": \"300.4500\", \"3. low\": \"295.3800\", \"4. close\": \"298.2100\", \"5. volume\": \"35324922\"}, \"2026-05-13\": {\"1. open\": \"293.5000\", \"2. high\": \"300.9200\", \"3. low\": \"293.5000\", \"4. close\": \"298.8700\", \"5. volume\": \"52684260\"}, \"2026-05-12\": {\"1. open\""
     },
     {
       "name": "Retrieve Earnings",
       "tool_id": "alphavantage.earnings.retrieve.v1.7aca3c4a",
       "cost": 2.0,
-      "ok": false,
-      "error": "This API function (AAPL RECENT EARNINGS ACTUAL ESTIMATED EPS AND REVENUE) does not exist."
+      "ok": true,
+      "parameters": {
+        "function": "EARNINGS",
+        "symbol": "AAPL"
+      },
+      "field_counts": {
+        "symbol": 1,
+        "date": 152,
+        "eps_actual": 152,
+        "eps_estimate": 121,
+        "revenue_actual": 0,
+        "revenue_estimate": 0,
+        "surprise": 121,
+        "price": 0,
+        "change_pct": 0
+      },
+      "samples": [
+        {
+          "fiscalDateEnding": "2026-06-30",
+          "reportedEPS": "4.85"
+        },
+        {
+          "fiscalDateEnding": "2025-09-30",
+          "reportedEPS": "7.47"
+        },
+        {
+          "fiscalDateEnding": "2024-09-30",
+          "reportedEPS": "6.08"
+        },
+        {
+          "fiscalDateEnding": "2023-09-30",
+          "reportedEPS": "6.12"
+        },
+        {
+          "fiscalDateEnding": "2022-09-30",
+          "reportedEPS": "6.11"
+        },
+        {
+          "fiscalDateEnding": "2021-09-30",
+          "reportedEPS": "5.62"
+        },
+        {
+          "fiscalDateEnding": "2020-09-30",
+          "reportedEPS": "3.27"
+        },
+        {
+          "fiscalDateEnding": "2019-09-30",
+          "reportedEPS": "2.98"
+        }
+      ],
+      "raw_preview": "{\"status_code\": 200, \"data\": {\"symbol\": \"AAPL\", \"annualEarnings\": [{\"fiscalDateEnding\": \"2026-06-30\", \"reportedEPS\": \"4.85\"}, {\"fiscalDateEnding\": \"2025-09-30\", \"reportedEPS\": \"7.47\"}, {\"fiscalDateEnding\": \"2024-09-30\", \"reportedEPS\": \"6.08\"}, {\"fiscalDateEnding\": \"2023-09-30\", \"reportedEPS\": \"6.12\"}, {\"fiscalDateEnding\": \"2022-09-30\", \"reportedEPS\": \"6.11\"}, {\"fiscalDateEnding\": \"2021-09-30\", \"reportedEPS\": \"5.62\"}, {\"fiscalDateEnding\": \"2020-09-30\", \"reportedEPS\": \"3.27\"}, {\"fiscalDateEnding\": \"2019-09-30\", \"reportedEPS\": \"2.98\"}, {\"fiscalDateEnding\": \"2018-09-30\", \"reportedEPS\": \"2.97\"}, {\"fiscalDateEnding\": \"2017-09-30\", \"reportedEPS\": \"2.3\"}, {\"fiscalDateEnding\": \"2016-09-30\", \"reportedEPS\": \"2.0675\"}, {\"fiscalDateEnding\": \"2015-09-30\", \"reportedEPS\": \"2.3\"}, {\"fiscalDateEnding\": \"2014-09-30\", \"reportedEPS\": \"1.6075\"}, {\"fiscalDateEnding\": \"2013-09-30\", \"reportedEPS\": \"1.415\"}, {\"fiscalDateEnding\": \"2012-09-30\", \"reportedEPS\": \"1.5775\"}, {\"fiscalDateEnding\": \"2011-09-30\", \"reportedEPS\": \"0.9875\"}, {\"fiscalDateEnding\": \"2010-09-30\", \"reportedEPS\": \"0.54\"}, {\"fiscalDateEnding\": \"2009-09-30\", \"reportedEPS\": \"0.2225\"}, {\"fiscalDateEnding\": \"2008-09-30\", \"reportedEPS\": \"0.19\"}, {\"fiscalDateEnding\": \"2007-09-30\", \"reportedEPS\": \"0.14\"}, {\"fiscalDateEnding\": \"2006-09-30\", \"reportedEPS\": \"0.08\"}, {\"fiscalDateEnding\": \"2005-09-30\", \"reportedEPS\": \"0.05\"}, {\"fiscalDateEnding\": \"2004-09-30\", \"reportedEPS\": \"0.05\"}, {\"fiscalDateEnding\": \"2003-09-30\", \"reportedEPS\": \"0.0112\"}, {\"fiscalDateEnding\": \"2002-09-30\", \"reportedEPS\": \"0.0198\"}, {\"fiscalDateEnding\": \"2001-09-30\", \"reportedEPS\": \"0.0064\"}, {\"fiscalDateEnding\": \"2000-09-30\", \"reportedEPS\": \"0.04\"}, {\"fiscalDateEnding\": \"1999-09-30\", \"reportedEPS\": \"0.05\"}, {\"fiscalDateEnding\": \"1998-09-30\", \"reportedEPS\": \"0.04\"}, {\"fiscalDateEnding\": \"1997-09-30\", \"reportedEPS\": \"-0.1114\"}, {\"fiscalDateEnding\": \"1996-09-30\", \"reportedEPS\": \"-0.1082\"}], \"quarterlyEarnings\": [{\"fiscalDateEnding\": \"2026-03-31\", \"reportedDate\": \"2026-04-30\", \"reportedEPS\": \"2.01\", \"estimatedEPS\": \"1.94\", \"surprise\": \"0.07\", \"surprisePercentage\": \"3.6082\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2025-12-31\", \"reportedDate\": \"2026-01-29\", \"reportedEPS\": \"2.84\", \"estimatedEPS\": \"2.67\", \"surprise\": \"0.17\", \"surprisePercentage\": \"6.367\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2025-09-30\", \"reportedDate\": \"2025-10-30\", \"reportedEPS\": \"1.85\", \"estimatedEPS\": \"1.77\", \"surprise\": \"0.08\", \"surprisePercentage\": \"4.5198\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2025-06-30\", \"reportedDate\": \"2025-07-31\", \"reportedEPS\": \"1.57\", \"estimatedEPS\": \"1.43\", \"surprise\": \"0.14\", \"surprisePercentage\": \"9.7902\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2025-03-31\", \"reportedDate\": \"2025-05-01\", \"reportedEPS\": \"1.65\", \"estimatedEPS\": \"1.62\", \"surprise\": \"0.03\", \"surprisePercentage\": \"1.8519\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2024-12-31\", \"reportedDate\": \"2025-01-30\", \"reportedEPS\": \"2.4\", \"estimatedEPS\": \"2.34\", \"surprise\": \"0.06\", \"surprisePercentage\": \"2.5641\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2024-09-30\", \"reportedDate\": \"2024-10-31\", \"reportedEPS\": \"0.97\", \"estimatedEPS\": \"0.95\", \"surprise\": \"0.02\", \"surprisePercentage\": \"2.1053\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2024-06-30\", \"reportedDate\": \"2024-08-01\", \"reportedEPS\": \"1.4\", \"estimatedEPS\": \"1.34\", \"surprise\": \"0.06\", \"surprisePercentage\": \"4.4776\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2024-03-31\", \"reportedDate\": \"2024-05-02\", \"reportedEPS\": \"1.53\", \"estimatedEPS\": \"1.5\", \"surprise\": \"0.03\", \"surprisePercentage\": \"2\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2023-12-31\", \"reportedDate\": \"2024-02-01\", \"reportedEPS\": \"2.18\", \"estimatedEPS\": \"2.11\", \"surprise\": \"0.07\", \"surprisePercentage\": \"3.3175\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2023-09-30\", \"reportedDate\": \"2023-11-02\", \"reportedEPS\": \"1.46\", \"estimatedEPS\": \"1.39\", \"surprise\": \"0.07\", \"surprisePercentage\": \"5.036\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2023-06-30\", \"reportedDate\": \"2023-08-03\", \"reportedEPS\": \"1.26\", \"estimatedEPS\": \"1.19\", \"surprise\": \"0.07\", \"surprisePercentage\": \"5.8824\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2023-03-31\", \"reportedDate\": \"2023-05-04\", \"reportedEPS\": \"1.52\", \"estimatedEPS\": \"1.43\", \"surprise\": \"0.09\", \"surprisePercentage\": \"6.2937\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2022-12-31\", \"reportedDate\": \"2023-02-02\", \"reportedEPS\": \"1.88\", \"estimatedEPS\": \"1.95\", \"surprise\": \"-0.07\", \"surprisePercentage\": \"-3.5897\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2022-09-30\", \"reportedDate\": \"2022-10-27\", \"reportedEPS\": \"1.29\", \"estimatedEPS\": \"1.27\", \"surprise\": \"0.02\", \"surprisePercentage\": \"1.5748\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2022-06-30\", \"reportedDate\": \"2022-07-28\", \"reportedEPS\": \"1.2\", \"estimatedEPS\": \"1.15\", \"surprise\": \"0.05\", \"surprisePercentage\": \"4.3478\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2022-03-31\", \"reportedDate\": \"2022-04-28\", \"reportedEPS\": \"1.52\", \"estimatedEPS\": \"1.43\", \"surprise\": \"0.09\", \"surprisePercentage\": \"6.2937\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2021-12-31\", \"reportedDate\": \"2022-01-27\", \"reportedEPS\": \"2.1\", \"estimatedEPS\": \"1.89\", \"surprise\": \"0.21\", \"surprisePercentage\": \"11.1111\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2021-09-30\", \"reportedDate\": \"2021-10-28\", \"reportedEPS\": \"1.24\", \"estimatedEPS\": \"1.24\", \"surprise\": \"0\", \"surprisePercentage\": \"0\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2021-06-30\", \"reportedDate\": \"2021-07-27\", \"reportedEPS\": \"1.3\", \"estimatedEPS\": \"1.01\", \"surprise\": \"0.29\", \"surprisePercentage\": \"28.7129\", \"reportTime\": \"post-market\"}, {\"fiscalDateEnding\": \"2021-03-31\", \"reportedDate\": \"2021-04-28\", \"reportedEPS\": \"1.4\", \"estimatedEPS\": \"0.98\", \"surprise\": \"0.42\", \"surprisePercentage\": \"42.8571\", \"reportTime\": \"post-market\"}, {\"f"
     },
     {
       "name": "Retrieve Earnings Estimates",
       "tool_id": "alphavantage.earnings_estimates.retrieve.v1.7aca3c4a",
       "cost": 2.0,
-      "ok": false,
-      "error": "This API function (AAPL RECENT EARNINGS ACTUAL ESTIMATED EPS AND REVENUE) does not exist."
+      "ok": true,
+      "parameters": {
+        "function": "EARNINGS_ESTIMATES",
+        "symbol": "AAPL"
+      },
+      "field_counts": {
+        "symbol": 1,
+        "date": 40,
+        "eps_actual": 0,
+        "eps_estimate": 0,
+        "revenue_actual": 0,
+        "revenue_estimate": 0,
+        "surprise": 0,
+        "price": 0,
+        "change_pct": 0
+      },
+      "samples": [],
+      "raw_preview": "{\"status_code\": 200, \"data\": {\"symbol\": \"AAPL\", \"estimates\": [{\"date\": \"2027-09-30\", \"horizon\": \"fiscal year\", \"eps_estimate_average\": \"9.6864\", \"eps_estimate_high\": \"10.9600\", \"eps_estimate_low\": \"8.8100\", \"eps_estimate_analyst_count\": \"42.0000\", \"eps_estimate_average_7_days_ago\": \"9.6826\", \"eps_estimate_average_30_days_ago\": \"9.6669\", \"eps_estimate_average_60_days_ago\": \"9.6182\", \"eps_estimate_average_90_days_ago\": \"9.3305\", \"eps_estimate_revision_up_trailing_7_days\": \"2.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"8.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"1.0000\", \"revenue_estimate_average\": \"520561947590.00\", \"revenue_estimate_high\": \"594863000000.00\", \"revenue_estimate_low\": \"483566000000.00\", \"revenue_estimate_analyst_count\": \"41.00\"}, {\"date\": \"2026-09-30\", \"horizon\": \"fiscal year\", \"eps_estimate_average\": \"8.7622\", \"eps_estimate_high\": \"9.0367\", \"eps_estimate_low\": \"8.2900\", \"eps_estimate_analyst_count\": \"41.0000\", \"eps_estimate_average_7_days_ago\": \"8.7596\", \"eps_estimate_average_30_days_ago\": \"8.7570\", \"eps_estimate_average_60_days_ago\": \"8.7360\", \"eps_estimate_average_90_days_ago\": \"8.4967\", \"eps_estimate_revision_up_trailing_7_days\": \"2.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"4.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"0.0000\", \"revenue_estimate_average\": \"478245711770.00\", \"revenue_estimate_high\": \"485346136460.00\", \"revenue_estimate_low\": \"469821092640.00\", \"revenue_estimate_analyst_count\": \"38.00\"}, {\"date\": \"2026-09-30\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"2.0120\", \"eps_estimate_high\": \"2.1500\", \"eps_estimate_low\": \"1.8700\", \"eps_estimate_analyst_count\": \"29.0000\", \"eps_estimate_average_7_days_ago\": \"2.0084\", \"eps_estimate_average_30_days_ago\": \"2.0080\", \"eps_estimate_average_60_days_ago\": \"2.0037\", \"eps_estimate_average_90_days_ago\": \"1.9703\", \"eps_estimate_revision_up_trailing_7_days\": \"1.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"2.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"0.0000\", \"revenue_estimate_average\": \"114388867820.00\", \"revenue_estimate_high\": \"118975100000.00\", \"revenue_estimate_low\": \"106178615430.00\", \"revenue_estimate_analyst_count\": \"27.00\"}, {\"date\": \"2026-06-30\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"1.8943\", \"eps_estimate_high\": \"1.9900\", \"eps_estimate_low\": \"1.8300\", \"eps_estimate_analyst_count\": \"31.0000\", \"eps_estimate_average_7_days_ago\": \"1.8943\", \"eps_estimate_average_30_days_ago\": \"1.8943\", \"eps_estimate_average_60_days_ago\": \"1.8911\", \"eps_estimate_average_90_days_ago\": \"1.7297\", \"eps_estimate_revision_up_trailing_7_days\": \"0.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"24.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"0.0000\", \"revenue_estimate_average\": \"108900122530.00\", \"revenue_estimate_high\": \"112168000000.00\", \"revenue_estimate_low\": \"107501000000.00\", \"revenue_estimate_analyst_count\": \"27.00\"}, {\"date\": \"2026-03-31\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"1.9404\", \"eps_estimate_high\": \"2.1600\", \"eps_estimate_low\": \"1.5600\", \"eps_estimate_analyst_count\": \"33.0000\", \"eps_estimate_average_7_days_ago\": \"1.9428\", \"eps_estimate_average_30_days_ago\": \"1.9514\", \"eps_estimate_average_60_days_ago\": \"1.9489\", \"eps_estimate_average_90_days_ago\": \"1.9428\", \"eps_estimate_revision_up_trailing_7_days\": \"3.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"4.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"1.0000\", \"revenue_estimate_average\": \"109578690550.00\", \"revenue_estimate_high\": \"115368900000.00\", \"revenue_estimate_low\": \"104636000000.00\", \"revenue_estimate_analyst_count\": \"32.00\"}, {\"date\": \"2025-12-31\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"2.6708\", \"eps_estimate_high\": \"2.8000\", \"eps_estimate_low\": \"2.4500\", \"eps_estimate_analyst_count\": \"33.0000\", \"eps_estimate_average_7_days_ago\": \"2.6731\", \"eps_estimate_average_30_days_ago\": \"2.6672\", \"eps_estimate_average_60_days_ago\": \"2.6632\", \"eps_estimate_average_90_days_ago\": \"2.6509\", \"eps_estimate_revision_up_trailing_7_days\": \"3.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"5.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"1.0000\", \"revenue_estimate_average\": \"138522147180.00\", \"revenue_estimate_high\": \"142460000000.00\", \"revenue_estimate_low\": \"136656000000.00\", \"revenue_estimate_analyst_count\": \"32.00\"}, {\"date\": \"2025-09-30\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"1.7699\", \"eps_estimate_high\": \"1.8300\", \"eps_estimate_low\": \"1.5900\", \"eps_estimate_analyst_count\": \"32.0000\", \"eps_estimate_average_7_days_ago\": \"1.7649\", \"eps_estimate_average_30_days_ago\": \"1.7605\", \"eps_estimate_average_60_days_ago\": \"1.7596\", \"eps_estimate_average_90_days_ago\": \"1.6556\", \"eps_estimate_revision_up_trailing_7_days\": \"6.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"8.0000\", \"eps_estimate_revision_down_trailing_30_days\": \"1.0000\", \"revenue_estimate_average\": \"102250480070.00\", \"revenue_estimate_high\": \"107790700000.00\", \"revenue_estimate_low\": \"97854000000.00\", \"revenue_estimate_analyst_count\": \"31.00\"}, {\"date\": \"2025-06-30\", \"horizon\": \"fiscal quarter\", \"eps_estimate_average\": \"1.4257\", \"eps_estimate_high\": \"1.5400\", \"eps_estimate_low\": \"1.3200\", \"eps_estimate_analyst_count\": \"29.0000\", \"eps_estimate_average_7_days_ago\": \"1.4199\", \"eps_estimate_average_30_days_ago\": \"1.4159\", \"eps_estimate_average_60_days_ago\": \"1.4166\", \"eps_estimate_average_90_days_ago\": \"1.4724\", \"eps_estimate_revision_up_trailing_7_days\": \"5.0000\", \"eps_estimate_revision_down_trailing_7_days\": null, \"eps_estimate_revision_up_trailing_30_days\": \"6.0000\", \"eps_estimate_revision_down_trailing_30_da"
     },
     {
       "name": "EPS revisions",
@@ -819,18 +973,14 @@
       "cost": 2.37,
       "ok": false,
       "error": "访问被拒绝，请检查API密钥权限: /eps_revisions is available exclusively with ultra or enterprise plans. Consider upgrading your API Key now at https://twelvedata.com/pricing"
-    },
-    {
-      "name": "Earnings",
-      "tool_id": "twelvedata.earnings.retrieve.v1.e3dcf5a7",
-      "cost": 2.37,
-      "ok": false,
-      "error": "资源未找到：{\"code\": 404, \"message\": \"**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data\", \"status\": \"error\"}"
     }
   ],
   "verdict": {
-    "can_build": false,
-    "viable_tools": [],
+    "can_build": true,
+    "viable_tools": [
+      "alphavantage.earnings.retrieve.v1.467a92c0",
+      "alphavantage.earnings.retrieve.v1.7aca3c4a"
+    ],
     "note": "Requires actual and estimated EPS; revenue and price enrich the card when returned."
   }
 }
