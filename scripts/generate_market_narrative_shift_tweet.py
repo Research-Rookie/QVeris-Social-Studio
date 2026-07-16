@@ -79,7 +79,7 @@ def archive_post(data: dict, tweet: str) -> None:
     }
     posts = [post for post in posts if post.get("id") != record["id"]]
     posts.append(record)
-    posts.sort(key=lambda post: (post["date"], post.get("createdAt", "")), reverse=True)
+    posts.sort(key=lambda post: (post.get("date", ""), post.get("createdAt", "")), reverse=True)
     POSTS_FILE.write_text(json.dumps(posts, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
