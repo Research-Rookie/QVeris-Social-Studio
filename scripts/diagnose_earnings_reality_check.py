@@ -107,6 +107,20 @@ def main() -> None:
         try:
             tool_meta = {"params": tool["params"]}
             parameters = fill_default_parameters(tool_meta, explicit)
+            tool_name = str(tool.get("name") or "").lower()
+            tool_id = str(tool.get("tool_id") or "").lower()
+            if "earnings_estimates" in tool_id or "estimates" in tool_name:
+                parameters = {"function": "EARNINGS_ESTIMATES", "symbol": "AAPL"}
+            elif "alphavantage.earnings" in tool_id or "earnings history" in tool_name or tool_name == "retrieve earnings":
+                parameters = {"function": "EARNINGS", "symbol": "AAPL"}
+            elif "time-series.daily" in tool_id:
+                parameters = {"function": "TIME_SERIES_DAILY", "symbol": "AAPL", "outputsize": "compact", "datatype": "json"}
+            elif "yahoo finance earnings calendar" in tool_name:
+                parameters = {"symbol": "AAPL", "time_range": "6m", "include_estimates": True, "max_results": 20}
+            elif "finnhub.calendar.earnings" in tool_id:
+                parameters = {"from": str(today - timedelta(days=120)), "to": str(today), "symbol": "AAPL", "international": False}
+            elif "twelvedata.earnings" in tool_id:
+                parameters = {"symbol": "AAPL", "period": "latest", "outputsize": 10, "format": "JSON"}
             payload = execute_tool(
                 tool["tool_id"], SESSION_ID, parameters,
                 search_id=tool["search_id"], max_response_size=65536,
@@ -116,6 +130,7 @@ def main() -> None:
                 "parameters": parameters,
                 "field_counts": count_fields(payload),
                 "samples": samples(payload),
+                "raw_preview": json.dumps(payload, ensure_ascii=False)[:6000],
             })
         except Exception as error:
             record.update({"ok": False, "error": str(error)})
