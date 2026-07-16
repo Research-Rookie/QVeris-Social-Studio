@@ -1,0 +1,836 @@
+{
+  "generated_at": "2026-07-16T07:35:00.219058+00:00",
+  "searched_tools": [
+    {
+      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
+      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "name": "Earnings Calendar",
+      "tool_id": "finnhub.calendar.earnings.retrieve.v1.1552775d",
+      "cost": 1.0,
+      "description": "Get historical and coming earnings release. EPS and Revenue in this endpoint are non-GAAP, which means they are adjusted to exclude some one-time or unusual items. This is the same data investors usually react to and talked about on the media. Estimates are sourced from both sell-side and buy-side analysts.",
+      "params": [
+        {
+          "name": "from",
+          "type": "string",
+          "required": false,
+          "description": "From date: 2020-03-15."
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": false,
+          "description": "To date: 2020-03-16."
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": false,
+          "description": "Filter by symbol: AAPL."
+        },
+        {
+          "name": "international",
+          "type": "boolean",
+          "required": false,
+          "description": "Set to <code>true</code> to include international markets. Default value is <code>false</code>"
+        }
+      ]
+    },
+    {
+      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
+      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "name": "Retrieve Earnings",
+      "tool_id": "alphavantage.earnings.retrieve.v1.7aca3c4a",
+      "cost": 2.0,
+      "description": "Returns the annual and quarterly earnings (EPS) for the company of interest. Quarterly data also includes analyst estimates and surprise metrics.",
+      "params": [
+        {
+          "name": "function",
+          "type": "string",
+          "required": true,
+          "description": "The function of your choice. In this case, EARNINGS",
+          "enum": [
+            "EARNINGS"
+          ]
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "The symbol of the ticker of your choice. For example: IBM"
+        }
+      ]
+    },
+    {
+      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
+      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "name": "Earnings",
+      "tool_id": "twelvedata.earnings.retrieve.v1.e3dcf5a7",
+      "cost": 2.37,
+      "description": "The earnings endpoint provides comprehensive earnings data for a specified company, including both the estimated and actual Earnings Per Share (EPS) figures. This endpoint delivers historical earnings information, allowing users to track a company's financial performance over time.",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": false,
+          "description": "Symbol ticker of instrument. For preffered stocks use dot(.) delimiter. E.g. `BRK.A` or `BRK.B` will be correct"
+        },
+        {
+          "name": "figi",
+          "type": "string",
+          "required": false,
+          "description": "Filter by financial instrument global identifier (FIGI). This request parameter is available starting with the <a href=\"https://twelvedata.com/pricing\">Ultra<a> plan"
+        },
+        {
+          "name": "isin",
+          "type": "string",
+          "required": false,
+          "description": "Filter by international securities identification number (ISIN). ISIN access is activating in the <a href=\"https://twelvedata.com/account/add-ons\">Data add-ons</a> section"
+        },
+        {
+          "name": "cusip",
+          "type": "string",
+          "required": false,
+          "description": "The CUSIP of an instrument for which data is requested. CUSIP access is activating in the <a href=\"https://twelvedata.com/account/add-ons\">Data add-ons</a> section"
+        },
+        {
+          "name": "exchange",
+          "type": "string",
+          "required": false,
+          "description": "Exchange where instrument is traded"
+        },
+        {
+          "name": "mic_code",
+          "type": "string",
+          "required": false,
+          "description": "Market Identifier Code (MIC) under ISO 10383 standard"
+        },
+        {
+          "name": "country",
+          "type": "string",
+          "required": false,
+          "description": "Country where instrument is traded, e.g., `United States` or `US`"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "required": false,
+          "description": "The asset class to which the instrument belongs",
+          "enum": [
+            "American Depositary Receipt",
+            "Bond",
+            "Bond Fund",
+            "Closed-end Fund",
+            "Common Stock",
+            "Depositary Receipt",
+            "Digital Currency",
+            "ETF",
+            "Exchange-Traded Note",
+            "Global Depositary Receipt",
+            "Limited Partnership",
+            "Mutual Fund",
+            "Physical Currency",
+            "Preferred Stock",
+            "REIT",
+            "Right",
+            "Structured Product",
+            "Trust",
+            "Unit",
+            "Warrant"
+          ]
+        },
+        {
+          "name": "period",
+          "type": "string",
+          "required": false,
+          "description": "Type of earning, returns only 1 record. When is not empty, dates and outputsize parameters are ignored",
+          "enum": [
+            "latest",
+            "next"
+          ]
+        },
+        {
+          "name": "outputsize",
+          "type": "integer",
+          "required": false,
+          "description": "Number of data points to retrieve. Supports values in the range from `1` to `1000`. Default `10` when no date parameters are set, otherwise set to maximum"
+        },
+        {
+          "name": "format",
+          "type": "string",
+          "required": false,
+          "description": "The format of the response data",
+          "enum": [
+            "JSON",
+            "CSV"
+          ]
+        },
+        {
+          "name": "delimiter",
+          "type": "string",
+          "required": false,
+          "description": "The separator used in the CSV response data"
+        },
+        {
+          "name": "start_date",
+          "type": "string",
+          "required": false,
+          "description": "The date from which the data is requested. The date format is `YYYY-MM-DD`."
+        },
+        {
+          "name": "end_date",
+          "type": "string",
+          "required": false,
+          "description": "The date to which the data is requested. The date format is `YYYY-MM-DD`."
+        },
+        {
+          "name": "dp",
+          "type": "integer",
+          "required": false,
+          "description": "The number of decimal places in the response data. Should be in range [0,11] inclusive"
+        }
+      ]
+    },
+    {
+      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
+      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "name": "Earnings calendar",
+      "tool_id": "twelvedata.earningscalendar.retrieve.v1.a51f4712",
+      "cost": 2.37,
+      "description": "The earnings calendar endpoint provides a schedule of company earnings announcements for a specified date range. By default, it returns earnings data for the current day. Users can customize the date range using the `start_date` and `end_date` parameters to retrieve earnings information for specific periods. This endpoint is useful for tracking upcoming earnings reports and planning around key financial announcements.",
+      "params": [
+        {
+          "name": "exchange",
+          "type": "string",
+          "required": false,
+          "description": "Exchange where instrument is traded"
+        },
+        {
+          "name": "mic_code",
+          "type": "string",
+          "required": false,
+          "description": "Market Identifier Code (MIC) under ISO 10383 standard"
+        },
+        {
+          "name": "country",
+          "type": "string",
+          "required": false,
+          "description": "Country where instrument is traded, e.g., `United States` or `US`"
+        },
+        {
+          "name": "format",
+          "type": "string",
+          "required": false,
+          "description": "Value can be JSON or CSV",
+          "enum": [
+            "JSON",
+            "CSV"
+          ]
+        },
+        {
+          "name": "delimiter",
+          "type": "string",
+          "required": false,
+          "description": "Specify the delimiter used when downloading the CSV file"
+        },
+        {
+          "name": "start_date",
+          "type": "string",
+          "required": false,
+          "description": "Can be used separately and together with end_date. Format `2006-01-02` or `2006-01-02T15:04:05`"
+        },
+        {
+          "name": "end_date",
+          "type": "string",
+          "required": false,
+          "description": "Can be used separately and together with start_date. Format `2006-01-02` or `2006-01-02T15:04:05`"
+        },
+        {
+          "name": "dp",
+          "type": "integer",
+          "required": false,
+          "description": "Specifies the number of decimal places for floating values. Should be in range [0,11] inclusive"
+        }
+      ]
+    },
+    {
+      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
+      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "name": "Earnings Estimates Trending",
+      "tool_id": "alphavantage.earnings_estimates.retrieve.v1.467a92c0",
+      "cost": 2.0,
+      "description": "This API returns the annual and quarterly EPS and revenue estimates for the company of interest, along with analyst count and revision history.",
+      "params": [
+        {
+          "name": "function",
+          "type": "string",
+          "required": true,
+          "description": "The function of your choice. In this case, function=EARNINGS_ESTIMATES",
+          "enum": [
+            "EARNINGS_ESTIMATES"
+          ]
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "The symbol of the ticker of your choice. For example: symbol=IBM"
+        }
+      ]
+    },
+    {
+      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
+      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "name": "Retrieve Earnings Estimates",
+      "tool_id": "alphavantage.earnings_estimates.retrieve.v1.7aca3c4a",
+      "cost": 2.0,
+      "description": "Returns the annual and quarterly EPS and revenue estimates for the company of interest, along with analyst count and revision history.",
+      "params": [
+        {
+          "name": "function",
+          "type": "string",
+          "required": true,
+          "description": "The function of your choice. In this case, EARNINGS_ESTIMATES",
+          "enum": [
+            "EARNINGS_ESTIMATES"
+          ]
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "The symbol of the ticker of your choice. For example: IBM"
+        }
+      ]
+    },
+    {
+      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
+      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "name": "Earnings History",
+      "tool_id": "alphavantage.earnings.retrieve.v1.467a92c0",
+      "cost": 2.0,
+      "description": "This API returns the annual and quarterly earnings (EPS) for the company of interest. Quarterly data also includes analyst estimates and surprise metrics.",
+      "params": [
+        {
+          "name": "function",
+          "type": "string",
+          "required": true,
+          "description": "The function of your choice. In this case, function=EARNINGS",
+          "enum": [
+            "EARNINGS"
+          ]
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "The symbol of the ticker of your choice. For example: symbol=IBM"
+        }
+      ]
+    },
+    {
+      "query": "US stock earnings calendar reported EPS estimated EPS actual revenue estimated revenue surprise",
+      "search_id": "58e44009-2266-4327-8fbf-fdeffe53cacc",
+      "name": "Yahoo Finance Earnings Calendar",
+      "tool_id": "yahoo_finance.finance_earnings_calendar.v1",
+      "cost": 1.0,
+      "description": "Get earnings calendar and upcoming earnings dates",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": false,
+          "description": "Stock symbol to get earnings for (optional, uses general calendar if not provided)"
+        },
+        {
+          "name": "time_range",
+          "type": "string",
+          "required": false,
+          "description": "Time range for earnings calendar",
+          "enum": [
+            "1w",
+            "1m",
+            "3m",
+            "6m",
+            "1y"
+          ]
+        },
+        {
+          "name": "include_estimates",
+          "type": "boolean",
+          "required": false,
+          "description": "Include earnings estimates (default: true)"
+        },
+        {
+          "name": "max_results",
+          "type": "integer",
+          "required": false,
+          "description": "Maximum number of earnings events to return (default: 20)"
+        }
+      ]
+    },
+    {
+      "query": "company earnings results by ticker actual EPS estimate revenue estimate earnings date",
+      "search_id": "3aaabf80-5c54-4da2-96a6-694a05ef0a90",
+      "name": "Transcripts Dates By Symbol",
+      "tool_id": "financialmodelingprep.stable.earningcalltranscriptdates.retrieve.v1.34503129",
+      "cost": 24.2,
+      "description": "The FMP Transcripts Dates By Symbol API provides users with precise information about when earnings call transcripts are available for a given company. This API is ideal for investors, analysts, and researchers who want to track earnings discussions and financial insights over time, including: Earnings Call Availability by Quarter : Retrieve transcript dates by quarter and fiscal year to track a company's performance. Timely Access to Transcript s: Get access to transcripts for upcoming or historical earnings calls for in-depth analysis. Comprehensive Coverage : Identify and analyze earnings call transcripts across multiple quarters for better decision-making. This API is designed to help users stay informed about earnings call schedules and access key financial insights through transcripts from specific periods. Example Use Case An investment firm can use the Transcripts Dates By Symbol API to keep track of a company's earnings calls for each quarter and access these transcripts for detailed performance analysis and strategic planning.",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "Query parameter from documented endpoint URL: symbol"
+        }
+      ]
+    },
+    {
+      "query": "earnings surprises API actual EPS estimated EPS actual revenue estimated revenue",
+      "search_id": "5c5ecc1f-52eb-4aaa-894e-a260f5fa4d0a",
+      "name": "Revenue Product Segmentation",
+      "tool_id": "financialmodelingprep.stable.revenueproductsegmentation.retrieve.v1.8faa287f",
+      "cost": 24.2,
+      "description": "The Revenue Product Segmentation API provides a comprehensive breakdown of a company’s revenue by product, making it easy to analyze performance across different product categories. This API is ideal for: Product-Specific Revenue Analysis : Understand how much each product contributes to the company’s total earnings. Strategic Insights : Gain insights into the growth or decline of specific product segments to inform investment decisions or corporate strategy. Competitive Benchmarking : Compare product segment revenues across different companies in the same industry to gauge market position. This API offers a detailed view of product-level revenue, helping users identify growth drivers and track the financial health of specific product lines. Example Use Case An investor can use the Revenue Product Segmentation API to see how much of Apple’s earnings come from iPhone sales compared to other products, such as Macs or wearables.",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "query parameter from FMP documentation: symbol"
+        },
+        {
+          "name": "period",
+          "type": "string",
+          "required": false,
+          "description": "query parameter from FMP documentation: period",
+          "enum": [
+            "annual",
+            "quarter"
+          ]
+        },
+        {
+          "name": "structure",
+          "type": "string",
+          "required": false,
+          "description": "query parameter from FMP documentation: structure"
+        }
+      ]
+    },
+    {
+      "query": "earnings surprises API actual EPS estimated EPS actual revenue estimated revenue",
+      "search_id": "5c5ecc1f-52eb-4aaa-894e-a260f5fa4d0a",
+      "name": "EPS revisions",
+      "tool_id": "twelvedata.epsrevisions.retrieve.v1.ff79b31c",
+      "cost": 2.37,
+      "description": "The EPS revisions endpoint provides updated analyst forecasts for a company's earnings per share (EPS) on both a quarterly and annual basis. It delivers data on how these EPS predictions have changed over the past week and month, allowing users to track recent adjustments in analyst expectations. This endpoint is useful for monitoring shifts in market sentiment regarding a company's financial performance.",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": false,
+          "description": "Filter by symbol"
+        },
+        {
+          "name": "figi",
+          "type": "string",
+          "required": false,
+          "description": "Filter by financial instrument global identifier (FIGI). This request parameter is available starting with the <a href=\"https://twelvedata.com/pricing\">Ultra<a> plan"
+        },
+        {
+          "name": "isin",
+          "type": "string",
+          "required": false,
+          "description": "Filter by international securities identification number (ISIN). ISIN access is activating in the <a href=\"https://twelvedata.com/account/add-ons\">Data add-ons</a> section"
+        },
+        {
+          "name": "cusip",
+          "type": "string",
+          "required": false,
+          "description": "The CUSIP of an instrument for which data is requested. CUSIP access is activating in the <a href=\"https://twelvedata.com/account/add-ons\">Data add-ons</a> section"
+        },
+        {
+          "name": "country",
+          "type": "string",
+          "required": false,
+          "description": "Filter by country name or alpha code, e.g., `United States` or `US`"
+        },
+        {
+          "name": "exchange",
+          "type": "string",
+          "required": false,
+          "description": "Filter by exchange name"
+        }
+      ]
+    },
+    {
+      "query": "historical earnings calendar with EPS estimate EPS actual revenue surprise",
+      "search_id": "6fd34604-02a3-49d2-8230-46cd9ccb0787",
+      "name": "Company Historical Employee Count",
+      "tool_id": "financialmodelingprep.stable.historicalemployeecount.retrieve.v1.3c1275b5",
+      "cost": 24.2,
+      "description": "The FMP Company Historical Employee Count API is designed for users who need to track workforce trends for a company across various reporting periods. This data is especially useful for analyzing long-term growth, staffing changes, and the relationship between workforce size and financial performance. Key features include: Historical Employee Count : Retrieve workforce size over different periods to analyze growth or decline trends. Report Periods : Gain insights into specific timeframes of employee data, tied to annual or quarterly financial reports. Filing Date and Form Type : Understand when the employee data was reported, along with the corresponding SEC form type (e.g., 10-K). Direct SEC Links : Access the original SEC filings for in-depth research and transparency. This API is ideal for HR analysts, investors, and business strategists who want to track workforce changes and assess their impact on company operations. Example Use Case A financial analyst can use the Company Historical Employee Count API to compare the employee count of Apple Inc. over a five-year period to evaluate how workforce changes correlate with revenue growth and market expansion.",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "query parameter from FMP documentation: symbol"
+        },
+        {
+          "name": "limit",
+          "type": "number",
+          "required": false,
+          "description": "query parameter from FMP documentation: limit"
+        }
+      ]
+    },
+    {
+      "query": "US stock daily quote latest price change percent by symbol",
+      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "name": "Retrieve Delayed US Stock Quotes (Live v2)",
+      "tool_id": "eodhd.live_v2.us_quote_delayed.retrieve.v1.f0e13d45",
+      "cost": 2.81,
+      "description": "Add real-time-style quote snapshots for US stocks to your product with a single request. This API returns a delayed (exchange-compliant) quote for each requested symbol, including last trade, bid/ask with sizes and timestamps, intraday change, rolling averages, 52-week extremes, market cap, and other reference fields.",
+      "params": [
+        {
+          "name": "s",
+          "type": "string",
+          "required": true,
+          "description": "One or more symbols separated by commas"
+        },
+        {
+          "name": "page[limit]",
+          "type": "integer",
+          "required": false,
+          "description": "Number of symbols per page (defaults apply; max 100)"
+        },
+        {
+          "name": "page[offset]",
+          "type": "integer",
+          "required": false,
+          "description": "Offset for pagination"
+        },
+        {
+          "name": "fmt",
+          "type": "string",
+          "required": false,
+          "description": "Output format",
+          "enum": [
+            "json",
+            "csv"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "US stock daily quote latest price change percent by symbol",
+      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "name": "USStockDailyQuotes",
+      "tool_id": "mcp_gildata.usstockdailyquotes.v1",
+      "cost": 1.0,
+      "description": "U.S. Stocks Daily Quotes Obtain the daily market data of US stocks on a specified date, including closing price, trading volume, and changes in price.",
+      "params": [
+        {
+          "name": "query",
+          "type": "string",
+          "required": true,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "query": "US stock daily quote latest price change percent by symbol",
+      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "name": "Get Symbol Change History",
+      "tool_id": "eodhd.symbol_change_history.list.v1.e765f619",
+      "cost": 2.81,
+      "description": "Retrieve historical symbol change data for US exchanges within a specified date range.",
+      "params": [
+        {
+          "name": "fmt",
+          "type": "string",
+          "required": false,
+          "description": "Response format. Default is 'json'."
+        },
+        {
+          "name": "from",
+          "type": "string",
+          "required": true,
+          "description": "Start date in YYYY-MM-DD format (minimum supported: 2022-07-22)."
+        },
+        {
+          "name": "to",
+          "type": "string",
+          "required": false,
+          "description": "End date in YYYY-MM-DD format."
+        }
+      ]
+    },
+    {
+      "query": "US stock daily quote latest price change percent by symbol",
+      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "name": "post_v1_stock_quote_extend",
+      "tool_id": "fiu_mcp_server.postv1stockquoteextend.create.v2.a30e86e7",
+      "cost": 1.0,
+      "description": "获取证券的基本信息，目前仅支持（股票、ETF类型）\n预留字段：peg、roe、grossProfitRate、profitMargin、netProfit、epsLyr、epsTtm、nav、totalLiabilities",
+      "params": [
+        {
+          "name": "sessionId",
+          "type": "integer",
+          "required": false,
+          "description": "交易时段id 盘前：-1、盘中：1、盘后：-2、EOD数据修正：3。 如不传时默认按照当前时段获取数据"
+        },
+        {
+          "name": "symbols",
+          "type": "array",
+          "required": false,
+          "description": "股票代码"
+        },
+        {
+          "name": "timeMode",
+          "type": "integer",
+          "required": false,
+          "description": "时间模式 0（实时）、1（延时）"
+        }
+      ]
+    },
+    {
+      "query": "US stock daily quote latest price change percent by symbol",
+      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "name": "Market Sector Performance Snaps",
+      "tool_id": "financialmodelingprep.stable.sectorperformancesnapshot.retrieve.v1.5ca7b159",
+      "cost": 24.2,
+      "description": "The FMP Market Sector Performance Snapshot API provides real-time insights into the performance of different sectors across various stock exchanges. This API allows users to track the average performance of industries like Basic Materials, Technology, Healthcare, and more, helping analysts and investors understand how different parts of the market are doing at any given moment. Key features include: Sector-Specific Performance Data : Access performance data for various sectors, including the average percentage change for each sector. Exchange-Specific Analysis : Analyze sector performance across specific exchanges such as NASDAQ, NYSE, and others. Daily Snapshots : Get daily updates on sector performance to track trends and market dynamics in real time. Cross-Industry Comparisons : Compare the performance of different sectors to identify growth or decline in key areas of the market. This API is ideal for financial analysts, portfolio managers, and traders who need to track sector-level performance to make informed investment decisions. Example Use Case A portfolio manager uses the Market Sector Performance Snapshot API to review how different sectors performed on NASDAQ on a specific date. By identifying that the Basic Materials sector experienced an average decline of -0.31%, the manager can adjust their sector allocations and shift their focus to outperforming industries.",
+      "params": [
+        {
+          "name": "date",
+          "type": "string",
+          "required": true,
+          "description": "query parameter from FMP documentation: date"
+        },
+        {
+          "name": "exchange",
+          "type": "string",
+          "required": false,
+          "description": "query parameter from FMP documentation: exchange"
+        },
+        {
+          "name": "sector",
+          "type": "string",
+          "required": false,
+          "description": "query parameter from FMP documentation: sector"
+        }
+      ]
+    },
+    {
+      "query": "US stock daily quote latest price change percent by symbol",
+      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "name": "StockDailyQuote",
+      "tool_id": "mcp_gildata.stockdailyquote.v1",
+      "cost": 1.0,
+      "description": "stock daily quotes Obtain the market price of A-shares on a specified day, including price, volume, increase and decrease, turnover rate and other indicators.",
+      "params": [
+        {
+          "name": "query",
+          "type": "string",
+          "required": true,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "query": "US stock daily quote latest price change percent by symbol",
+      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "name": "Retrieve Daily Time Series",
+      "tool_id": "alphavantage.time-series.daily.v1",
+      "cost": 2.0,
+      "description": "Returns raw (as-traded) daily time series (date, daily open, daily high, daily low, daily close, daily volume) of the global equity specified, covering 20+ years of historical data.",
+      "params": [
+        {
+          "name": "function",
+          "type": "string",
+          "required": true,
+          "description": "The time series of your choice.",
+          "enum": [
+            "TIME_SERIES_DAILY"
+          ]
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": true,
+          "description": "The name of the equity of your choice."
+        },
+        {
+          "name": "outputsize",
+          "type": "string",
+          "required": false,
+          "description": "compact returns latest 100 data points; full returns full-length time series.",
+          "enum": [
+            "compact",
+            "full"
+          ]
+        },
+        {
+          "name": "datatype",
+          "type": "string",
+          "required": false,
+          "description": "Data format of the response.",
+          "enum": [
+            "json",
+            "csv"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "US stock daily quote latest price change percent by symbol",
+      "search_id": "5ae35928-32a6-4bed-8c89-093b5572d2d9",
+      "name": "Shenwan Industry Index Daily Data",
+      "tool_id": "caidazi.get_sw_daily.execute.v1.7a43f96e",
+      "cost": 7.2,
+      "description": "Query daily market data (申万行业指数日线) for Shenwan industry indices or individual stocks via caidazi. Returns closing price, volume, turnover, price change %. For Shenwan index codes, additionally returns total/free-float market cap, PE and PB. Input: stock code or Shenwan index code (e.g. 801010.SI).",
+      "params": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "required": false,
+          "description": "Shenwan industry index code, such as 801010.SI; according to the official REST documentation, this tool is for daily Shenwan industry data, and individual stock codes should not be used as examples."
+        }
+      ]
+    }
+  ],
+  "probes": [
+    {
+      "name": "Earnings Calendar",
+      "tool_id": "finnhub.calendar.earnings.retrieve.v1.1552775d",
+      "cost": 1.0,
+      "ok": false,
+      "error": "Provider returned no valid result data. The call did not return valid data. Please verify the request parameters against this tool's parameter definitions and try again."
+    },
+    {
+      "name": "StockDailyQuote",
+      "tool_id": "mcp_gildata.stockdailyquote.v1",
+      "cost": 1.0,
+      "ok": true,
+      "parameters": {
+        "query": "AAPL recent earnings actual estimated EPS and revenue"
+      },
+      "field_counts": {
+        "symbol": 0,
+        "date": 0,
+        "eps_actual": 0,
+        "eps_estimate": 0,
+        "revenue_actual": 0,
+        "revenue_estimate": 0,
+        "surprise": 0,
+        "price": 0,
+        "change_pct": 0
+      },
+      "samples": []
+    },
+    {
+      "name": "USStockDailyQuotes",
+      "tool_id": "mcp_gildata.usstockdailyquotes.v1",
+      "cost": 1.0,
+      "ok": true,
+      "parameters": {
+        "query": "AAPL recent earnings actual estimated EPS and revenue"
+      },
+      "field_counts": {
+        "symbol": 0,
+        "date": 0,
+        "eps_actual": 0,
+        "eps_estimate": 0,
+        "revenue_actual": 0,
+        "revenue_estimate": 0,
+        "surprise": 0,
+        "price": 0,
+        "change_pct": 0
+      },
+      "samples": []
+    },
+    {
+      "name": "Yahoo Finance Earnings Calendar",
+      "tool_id": "yahoo_finance.finance_earnings_calendar.v1",
+      "cost": 1.0,
+      "ok": true,
+      "parameters": {
+        "symbol": "AAPL"
+      },
+      "field_counts": {
+        "symbol": 3,
+        "date": 0,
+        "eps_actual": 0,
+        "eps_estimate": 0,
+        "revenue_actual": 0,
+        "revenue_estimate": 0,
+        "surprise": 0,
+        "price": 0,
+        "change_pct": 0
+      },
+      "samples": []
+    },
+    {
+      "name": "post_v1_stock_quote_extend",
+      "tool_id": "fiu_mcp_server.postv1stockquoteextend.create.v2.a30e86e7",
+      "cost": 1.0,
+      "ok": false,
+      "error": "工具执行失败，请稍后重试"
+    },
+    {
+      "name": "Earnings Estimates Trending",
+      "tool_id": "alphavantage.earnings_estimates.retrieve.v1.467a92c0",
+      "cost": 2.0,
+      "ok": false,
+      "error": "This API function (AAPL RECENT EARNINGS ACTUAL ESTIMATED EPS AND REVENUE) does not exist."
+    },
+    {
+      "name": "Earnings History",
+      "tool_id": "alphavantage.earnings.retrieve.v1.467a92c0",
+      "cost": 2.0,
+      "ok": false,
+      "error": "This API function (AAPL RECENT EARNINGS ACTUAL ESTIMATED EPS AND REVENUE) does not exist."
+    },
+    {
+      "name": "Retrieve Daily Time Series",
+      "tool_id": "alphavantage.time-series.daily.v1",
+      "cost": 2.0,
+      "ok": false,
+      "error": "This API function (AAPL RECENT EARNINGS ACTUAL ESTIMATED EPS AND REVENUE) does not exist."
+    },
+    {
+      "name": "Retrieve Earnings",
+      "tool_id": "alphavantage.earnings.retrieve.v1.7aca3c4a",
+      "cost": 2.0,
+      "ok": false,
+      "error": "This API function (AAPL RECENT EARNINGS ACTUAL ESTIMATED EPS AND REVENUE) does not exist."
+    },
+    {
+      "name": "Retrieve Earnings Estimates",
+      "tool_id": "alphavantage.earnings_estimates.retrieve.v1.7aca3c4a",
+      "cost": 2.0,
+      "ok": false,
+      "error": "This API function (AAPL RECENT EARNINGS ACTUAL ESTIMATED EPS AND REVENUE) does not exist."
+    },
+    {
+      "name": "EPS revisions",
+      "tool_id": "twelvedata.epsrevisions.retrieve.v1.ff79b31c",
+      "cost": 2.37,
+      "ok": false,
+      "error": "访问被拒绝，请检查API密钥权限: /eps_revisions is available exclusively with ultra or enterprise plans. Consider upgrading your API Key now at https://twelvedata.com/pricing"
+    },
+    {
+      "name": "Earnings",
+      "tool_id": "twelvedata.earnings.retrieve.v1.e3dcf5a7",
+      "cost": 2.37,
+      "ok": false,
+      "error": "资源未找到：{\"code\": 404, \"message\": \"**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data\", \"status\": \"error\"}"
+    }
+  ],
+  "verdict": {
+    "can_build": false,
+    "viable_tools": [],
+    "note": "Requires actual and estimated EPS; revenue and price enrich the card when returned."
+  }
+}
