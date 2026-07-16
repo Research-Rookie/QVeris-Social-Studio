@@ -1,5 +1,213 @@
 [
   {
+    "id": "market-narrative-shift-amat-2026-07-16",
+    "date": "2026-07-16",
+    "runDate": "2026-07-16",
+    "createdAt": "2026-07-16T03:45:31.942911+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $AMAT",
+    "status": "ready",
+    "tweet": "What changed in $AMAT's market narrative? 🔄\n\n🧭 Signal: Theme rotation\n💬 Sentiment shift: -0.09\n📌 Top theme: Earnings\n🔎 Emerging term: aehr\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_AMAT_2026-07-16.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-16T03:45:29.356448+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AMAT",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Theme rotation",
+    "topSymbol": "AMAT",
+    "topChangePct": -8.85,
+    "marketNarrativeShift": {
+      "updated_at": "2026-07-16T03:45:29.356448+00:00",
+      "date": "2026-07-16",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "AMAT",
+      "shift_label": "Theme rotation",
+      "sentiment_delta": -0.0885,
+      "baseline_label": "2026-07-14",
+      "current": {
+        "date": "2026-07-16",
+        "symbol": "AMAT",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.4054,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "aehr",
+            "count": 4
+          },
+          {
+            "label": "guidance",
+            "count": 2
+          },
+          {
+            "label": "test",
+            "count": 2
+          },
+          {
+            "label": "systems",
+            "count": 2
+          },
+          {
+            "label": "lake",
+            "count": 1
+          },
+          {
+            "label": "street",
+            "count": 1
+          },
+          {
+            "label": "says",
+            "count": 1
+          },
+          {
+            "label": "well",
+            "count": 1
+          },
+          {
+            "label": "above",
+            "count": 1
+          },
+          {
+            "label": "estimates",
+            "count": 1
+          },
+          {
+            "label": "justifies",
+            "count": 1
+          },
+          {
+            "label": "target",
+            "count": 1
+          }
+        ],
+        "headline": "Lake Street Says Guidance ‘Well Above’ Estimates Justifies Its Aehr Test Systems Stock (AEHR) Price Target Increase",
+        "headline_source": "TipRanks"
+      },
+      "previous": {
+        "date": "2026-07-14",
+        "symbol": "AMAT",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.4939,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Manufacturing",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "teradyne",
+            "count": 2
+          },
+          {
+            "label": "test",
+            "count": 2
+          },
+          {
+            "label": "equipment",
+            "count": 2
+          },
+          {
+            "label": "holds",
+            "count": 1
+          },
+          {
+            "label": "steady",
+            "count": 1
+          },
+          {
+            "label": "demand",
+            "count": 1
+          },
+          {
+            "label": "supports",
+            "count": 1
+          },
+          {
+            "label": "long-term",
+            "count": 1
+          },
+          {
+            "label": "outlook",
+            "count": 1
+          },
+          {
+            "label": "isin",
+            "count": 1
+          },
+          {
+            "label": "us8807701029",
+            "count": 1
+          },
+          {
+            "label": "remains",
+            "count": 1
+          }
+        ],
+        "headline": "Teradyne stock holds steady as test equipment demand supports long-term outlook",
+        "headline_source": "Ad Hoc News"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "fading_themes": [
+        "Manufacturing",
+        "Economy Macro"
+      ],
+      "emerging_keywords": [
+        "aehr",
+        "guidance",
+        "systems"
+      ],
+      "fading_keywords": [
+        "teradyne",
+        "equipment",
+        "holds"
+      ],
+      "takeaway": "AMAT's narrative is theme rotation: sentiment moved -0.09, while the leading theme shifted from Financial Markets to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "news-vs-price-reaction-c-2026-07-15",
     "date": "2026-07-15",
     "runDate": "2026-07-15",

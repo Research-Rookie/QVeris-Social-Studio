@@ -1,93 +1,19 @@
 {
-  "updated_at": "2026-07-16T03:30:49.193288+00:00",
-  "date": "2026-07-03",
+  "updated_at": "2026-07-16T03:45:29.356448+00:00",
+  "date": "2026-07-16",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "NVDA",
+  "symbol": "AMAT",
   "shift_label": "Theme rotation",
-  "sentiment_delta": -0.1044,
-  "baseline_label": "2026-07-02",
+  "sentiment_delta": -0.0885,
+  "baseline_label": "2026-07-14",
   "current": {
-    "date": "2026-07-03",
-    "symbol": "NVDA",
+    "date": "2026-07-16",
+    "symbol": "AMAT",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.3746,
-    "top_theme": "Technology",
-    "themes": [
-      {
-        "label": "Technology",
-        "count": 1
-      },
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Manufacturing",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "production",
-        "count": 2
-      },
-      {
-        "label": "packaging",
-        "count": 2
-      },
-      {
-        "label": "accelerates",
-        "count": 1
-      },
-      {
-        "label": "chip",
-        "count": 1
-      },
-      {
-        "label": "tech",
-        "count": 1
-      },
-      {
-        "label": "meet",
-        "count": 1
-      },
-      {
-        "label": "soaring",
-        "count": 1
-      },
-      {
-        "label": "demand",
-        "count": 1
-      },
-      {
-        "label": "plans",
-        "count": 1
-      },
-      {
-        "label": "utilize",
-        "count": 1
-      },
-      {
-        "label": "fan-out",
-        "count": 1
-      },
-      {
-        "label": "panel",
-        "count": 1
-      }
-    ],
-    "headline": "Nvidia Accelerates AI Chip Production with New Packaging Tech to Meet Soaring Demand",
-    "headline_source": "TradingView"
-  },
-  "previous": {
-    "date": "2026-07-02",
-    "symbol": "NVDA",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.479,
+    "sentiment_score": 0.4054,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -101,84 +27,162 @@
       {
         "label": "Technology",
         "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "consensus",
+        "label": "aehr",
+        "count": 4
+      },
+      {
+        "label": "guidance",
         "count": 2
       },
       {
-        "label": "recommendation",
+        "label": "test",
         "count": 2
       },
       {
-        "label": "buy",
+        "label": "systems",
         "count": 2
       },
       {
-        "label": "given",
+        "label": "lake",
         "count": 1
       },
       {
-        "label": "has",
+        "label": "street",
         "count": 1
       },
       {
-        "label": "received",
+        "label": "says",
         "count": 1
       },
       {
-        "label": "research",
+        "label": "well",
         "count": 1
       },
       {
-        "label": "firms",
+        "label": "above",
         "count": 1
       },
       {
-        "label": "average",
+        "label": "estimates",
         "count": 1
       },
       {
-        "label": "month",
+        "label": "justifies",
         "count": 1
       },
       {
         "label": "target",
         "count": 1
+      }
+    ],
+    "headline": "Lake Street Says Guidance ‘Well Above’ Estimates Justifies Its Aehr Test Systems Stock (AEHR) Price Target Increase",
+    "headline_source": "TipRanks"
+  },
+  "previous": {
+    "date": "2026-07-14",
+    "symbol": "AMAT",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.4939,
+    "top_theme": "Financial Markets",
+    "themes": [
+      {
+        "label": "Financial Markets",
+        "count": 1
       },
       {
-        "label": "recent",
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Manufacturing",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      },
+      {
+        "label": "Earnings",
         "count": 1
       }
     ],
-    "headline": "NVIDIA Corporation (NASDAQ:NVDA) Given Consensus Recommendation of \"Buy\" by Analysts",
-    "headline_source": "MarketBeat"
+    "keywords": [
+      {
+        "label": "teradyne",
+        "count": 2
+      },
+      {
+        "label": "test",
+        "count": 2
+      },
+      {
+        "label": "equipment",
+        "count": 2
+      },
+      {
+        "label": "holds",
+        "count": 1
+      },
+      {
+        "label": "steady",
+        "count": 1
+      },
+      {
+        "label": "demand",
+        "count": 1
+      },
+      {
+        "label": "supports",
+        "count": 1
+      },
+      {
+        "label": "long-term",
+        "count": 1
+      },
+      {
+        "label": "outlook",
+        "count": 1
+      },
+      {
+        "label": "isin",
+        "count": 1
+      },
+      {
+        "label": "us8807701029",
+        "count": 1
+      },
+      {
+        "label": "remains",
+        "count": 1
+      }
+    ],
+    "headline": "Teradyne stock holds steady as test equipment demand supports long-term outlook",
+    "headline_source": "Ad Hoc News"
   },
   "emerging_themes": [
-    "Manufacturing",
-    "Technology",
-    "Earnings"
+    "Earnings",
+    "Financial Markets",
+    "Technology"
   ],
   "fading_themes": [
-    "Financial Markets",
-    "Finance"
+    "Manufacturing",
+    "Economy Macro"
   ],
   "emerging_keywords": [
-    "production",
-    "packaging",
-    "accelerates"
+    "aehr",
+    "guidance",
+    "systems"
   ],
   "fading_keywords": [
-    "consensus",
-    "recommendation",
-    "buy"
+    "teradyne",
+    "equipment",
+    "holds"
   ],
-  "takeaway": "NVDA's narrative is theme rotation: sentiment moved -0.10, while the leading theme shifted from Earnings to Technology.",
+  "takeaway": "AMAT's narrative is theme rotation: sentiment moved -0.09, while the leading theme shifted from Financial Markets to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
