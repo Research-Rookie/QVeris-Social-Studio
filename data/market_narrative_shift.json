@@ -1,57 +1,73 @@
 {
-  "updated_at": "2026-07-16T03:45:29.356448+00:00",
-  "date": "2026-07-16",
+  "updated_at": "2026-07-17T04:59:21.755954+00:00",
+  "date": "2026-07-17",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "AMAT",
-  "shift_label": "Theme rotation",
-  "sentiment_delta": -0.0885,
-  "baseline_label": "2026-07-14",
+  "symbol": "NFLX",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.6767,
+  "baseline_label": "2026-07-13",
   "current": {
-    "date": "2026-07-16",
-    "symbol": "AMAT",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.4054,
+    "date": "2026-07-17",
+    "symbol": "NFLX",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": -0.5007,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
+        "count": 2
       },
       {
         "label": "Technology",
+        "count": 2
+      },
+      {
+        "label": "Financial Markets",
+        "count": 2
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      },
+      {
+        "label": "Finance",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "aehr",
-        "count": 4
+        "label": "revenue",
+        "count": 2
+      },
+      {
+        "label": "futures",
+        "count": 2
       },
       {
         "label": "guidance",
         "count": 2
       },
       {
-        "label": "test",
+        "label": "further",
         "count": 2
       },
       {
-        "label": "systems",
-        "count": 2
-      },
-      {
-        "label": "lake",
+        "label": "drops",
         "count": 1
       },
       {
-        "label": "street",
+        "label": "falls",
+        "count": 1
+      },
+      {
+        "label": "short",
+        "count": 1
+      },
+      {
+        "label": "co-ceo",
         "count": 1
       },
       {
@@ -59,37 +75,37 @@
         "count": 1
       },
       {
-        "label": "well",
+        "label": "not",
         "count": 1
       },
       {
-        "label": "above",
+        "label": "all",
         "count": 1
       },
       {
-        "label": "estimates",
-        "count": 1
-      },
-      {
-        "label": "justifies",
-        "count": 1
-      },
-      {
-        "label": "target",
+        "label": "views",
         "count": 1
       }
     ],
-    "headline": "Lake Street Says Guidance ‘Well Above’ Estimates Justifies Its Aehr Test Systems Stock (AEHR) Price Target Increase",
-    "headline_source": "TipRanks"
+    "headline": "Netflix stock drops after Q3 revenue falls short, co-CEO says not all views are 'created equal'",
+    "headline_source": "Yahoo Finance UK"
   },
   "previous": {
-    "date": "2026-07-14",
-    "symbol": "AMAT",
+    "date": "2026-07-13",
+    "symbol": "NFLX",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.4939,
-    "top_theme": "Financial Markets",
+    "sentiment_score": 0.176,
+    "top_theme": "Earnings",
     "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Mergers And Acquisitions",
+        "count": 1
+      },
       {
         "label": "Financial Markets",
         "count": 1
@@ -97,92 +113,79 @@
       {
         "label": "Technology",
         "count": 1
-      },
-      {
-        "label": "Manufacturing",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      },
-      {
-        "label": "Earnings",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "teradyne",
+        "label": "much",
         "count": 2
       },
       {
-        "label": "test",
+        "label": "ado",
         "count": 2
       },
       {
-        "label": "equipment",
+        "label": "nothing",
         "count": 2
       },
       {
-        "label": "holds",
+        "label": "top",
+        "count": 2
+      },
+      {
+        "label": "investor",
+        "count": 2
+      },
+      {
+        "label": "says",
         "count": 1
       },
       {
-        "label": "steady",
+        "label": "danny",
         "count": 1
       },
       {
-        "label": "demand",
+        "label": "vena",
         "count": 1
       },
       {
-        "label": "supports",
+        "label": "dismisses",
         "count": 1
       },
       {
-        "label": "long-term",
+        "label": "recent",
         "count": 1
       },
       {
-        "label": "outlook",
+        "label": "concerns",
         "count": 1
       },
       {
-        "label": "isin",
-        "count": 1
-      },
-      {
-        "label": "us8807701029",
-        "count": 1
-      },
-      {
-        "label": "remains",
+        "label": "share",
         "count": 1
       }
     ],
-    "headline": "Teradyne stock holds steady as test equipment demand supports long-term outlook",
-    "headline_source": "Ad Hoc News"
+    "headline": "?Much Ado About Nothing,? Says Top Investor About Netflix Stock",
+    "headline_source": "TipRanks"
   },
   "emerging_themes": [
     "Earnings",
-    "Financial Markets",
-    "Technology"
+    "Technology",
+    "Financial Markets"
   ],
   "fading_themes": [
-    "Manufacturing",
-    "Economy Macro"
+    "Mergers And Acquisitions"
   ],
   "emerging_keywords": [
-    "aehr",
-    "guidance",
-    "systems"
+    "revenue",
+    "futures",
+    "guidance"
   ],
   "fading_keywords": [
-    "teradyne",
-    "equipment",
-    "holds"
+    "much",
+    "ado",
+    "nothing"
   ],
-  "takeaway": "AMAT's narrative is theme rotation: sentiment moved -0.09, while the leading theme shifted from Financial Markets to Earnings.",
+  "takeaway": "NFLX's narrative is turning bearish: sentiment moved -0.68, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

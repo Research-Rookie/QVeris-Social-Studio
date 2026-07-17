@@ -1,5 +1,216 @@
 [
   {
+    "id": "market-narrative-shift-nflx-2026-07-17",
+    "date": "2026-07-17",
+    "runDate": "2026-07-17",
+    "createdAt": "2026-07-17T04:59:23.800709+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $NFLX",
+    "status": "ready",
+    "tweet": "What changed in $NFLX's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.68\n📌 Top theme: Earnings\n🔎 Emerging term: revenue\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_NFLX_2026-07-17.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-17T04:59:21.755954+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NFLX",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "NFLX",
+    "topChangePct": -67.67,
+    "marketNarrativeShift": {
+      "updated_at": "2026-07-17T04:59:21.755954+00:00",
+      "date": "2026-07-17",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "NFLX",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.6767,
+      "baseline_label": "2026-07-13",
+      "current": {
+        "date": "2026-07-17",
+        "symbol": "NFLX",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": -0.5007,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Technology",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "futures",
+            "count": 2
+          },
+          {
+            "label": "guidance",
+            "count": 2
+          },
+          {
+            "label": "further",
+            "count": 2
+          },
+          {
+            "label": "drops",
+            "count": 1
+          },
+          {
+            "label": "falls",
+            "count": 1
+          },
+          {
+            "label": "short",
+            "count": 1
+          },
+          {
+            "label": "co-ceo",
+            "count": 1
+          },
+          {
+            "label": "says",
+            "count": 1
+          },
+          {
+            "label": "not",
+            "count": 1
+          },
+          {
+            "label": "all",
+            "count": 1
+          },
+          {
+            "label": "views",
+            "count": 1
+          }
+        ],
+        "headline": "Netflix stock drops after Q3 revenue falls short, co-CEO says not all views are 'created equal'",
+        "headline_source": "Yahoo Finance UK"
+      },
+      "previous": {
+        "date": "2026-07-13",
+        "symbol": "NFLX",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.176,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Mergers And Acquisitions",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "much",
+            "count": 2
+          },
+          {
+            "label": "ado",
+            "count": 2
+          },
+          {
+            "label": "nothing",
+            "count": 2
+          },
+          {
+            "label": "top",
+            "count": 2
+          },
+          {
+            "label": "investor",
+            "count": 2
+          },
+          {
+            "label": "says",
+            "count": 1
+          },
+          {
+            "label": "danny",
+            "count": 1
+          },
+          {
+            "label": "vena",
+            "count": 1
+          },
+          {
+            "label": "dismisses",
+            "count": 1
+          },
+          {
+            "label": "recent",
+            "count": 1
+          },
+          {
+            "label": "concerns",
+            "count": 1
+          },
+          {
+            "label": "share",
+            "count": 1
+          }
+        ],
+        "headline": "?Much Ado About Nothing,? Says Top Investor About Netflix Stock",
+        "headline_source": "TipRanks"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Mergers And Acquisitions"
+      ],
+      "emerging_keywords": [
+        "revenue",
+        "futures",
+        "guidance"
+      ],
+      "fading_keywords": [
+        "much",
+        "ado",
+        "nothing"
+      ],
+      "takeaway": "NFLX's narrative is turning bearish: sentiment moved -0.68, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-17",
     "date": "2026-07-17",
     "runDate": "2026-07-17",
