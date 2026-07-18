@@ -1,17 +1,37 @@
 {
-  "updated_at": "2026-07-18T04:44:54.551308+00:00",
+  "updated_at": "2026-07-18T05:12:13.869550+00:00",
   "date": "2026-07-18",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
+      "title": "DiamondRock Hospitality (NYSE:DRH) Hits New 52-Week High Following Analyst Upgrade",
+      "summary": "DiamondRock Hospitality (NYSE:DRH) recently reached a new 52-week high after Morgan Stanley increased its price target, aligning with other analysts who have also raised their t...",
+      "url": "https://www.marketbeat.com/instant-alerts/diamondrock-hospitality-nysedrh-hits-new-52-week-high-following-analyst-upgrade-2026-07-17/",
+      "source": "MarketBeat",
+      "published_at": "20260718T044140",
+      "sentiment_score": 0.449582,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "DRH"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Real Estate",
+        "Finance"
+      ],
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
       "title": "Procter & Gamble (NYSE:PG) Shares Down 1.1% Following Analyst Downgrade",
       "summary": "Procter & Gamble (NYSE:PG) shares dropped 1.1% after JPMorgan Chase & Co. lowered its price target to $162 from $164, although it maintained an \"overweight\" rating. Despite this...",
       "url": "https://www.marketbeat.com/instant-alerts/procter-gamble-nysepg-shares-down-11-following-analyst-downgrade-2026-07-17/",
       "source": "MarketBeat",
       "published_at": "20260718T033852",
-      "sentiment_score": 0.030339,
+      "sentiment_score": 0.000172,
       "sentiment_label": "Neutral",
       "tickers": [
         "PG"
@@ -26,21 +46,24 @@
       "is_noise": false
     },
     {
-      "title": "Earnings Preview: RTX Corp to Report Financial Results Pre-market on July 23",
-      "summary": "RTX Corp (NYSE:RTX) is scheduled to release its quarterly financial results pre-market on Tuesday, July 23, 2024. Analysts predict the company will report earnings of $1.30 per...",
-      "url": "https://news.futunn.com/en/post/76223014/earnings-preview-rtx-corp-to-report-financial-results-pre-market",
-      "source": "富途牛牛",
-      "published_at": "20260718T015259",
-      "sentiment_score": 0.017266,
-      "sentiment_label": "Neutral",
+      "title": "Teledyne Technologies stock trades steady as investors weigh recent earnings and aerospace exposure",
+      "summary": "Teledyne Technologies' stock remains steady as investors evaluate the company's recent earnings report and its exposure to aerospace and defense markets. The report indicates re...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/teledyne-technologies-stock-trades-steady-as-investors-weigh-recent/69791999",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260718T042606",
+      "sentiment_score": 0.329508,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "RTX"
+        "TDY"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Economy Macro",
+        "Manufacturing",
+        "Technology"
       ],
-      "quality_score": 14,
+      "quality_score": 13,
       "is_noise": false
     },
     {
@@ -49,7 +72,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/iron-mountain-stock-holds-near-recent-highs-as-storage-and-data-center/69791443",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T031413",
-      "sentiment_score": 0.405066,
+      "sentiment_score": 0.410292,
       "sentiment_label": "Bullish",
       "tickers": [
         "IRM"
@@ -70,7 +93,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/deckers-outdoor-stock-trades-near-record-levels-as-hoka-growth-drives/69791096",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T021332",
-      "sentiment_score": 0.526066,
+      "sentiment_score": 0.496222,
       "sentiment_label": "Bullish",
       "tickers": [
         "DECK"
@@ -91,7 +114,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/huntington-ingalls-stock-steadies-as-defense-backlog-supports-outlook/69791663",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T034315",
-      "sentiment_score": 0.477278,
+      "sentiment_score": 0.461981,
       "sentiment_label": "Bullish",
       "tickers": [
         "HII"
@@ -111,7 +134,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/nordson-stock-trades-steady-as-recent-earnings-and-guidance-highlight-long/69791633",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T033945",
-      "sentiment_score": 0.63948,
+      "sentiment_score": 0.628923,
       "sentiment_label": "Bullish",
       "tickers": [
         "NDSN"
@@ -130,7 +153,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cencora-stock-trades-steadily-as-specialty-distribution-growth-supports/69791427",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T031226",
-      "sentiment_score": 0.458976,
+      "sentiment_score": 0.4524,
       "sentiment_label": "Bullish",
       "tickers": [
         "COR"
@@ -151,7 +174,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/BMO-N/pressreleases/3344291/just-released-5-top-stocks-to-buy-in-august/",
       "source": "The Globe and Mail",
       "published_at": "20260718T021029",
-      "sentiment_score": 0.153844,
+      "sentiment_score": 0.176395,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "BERZ",
@@ -168,31 +191,12 @@
       "is_noise": false
     },
     {
-      "title": "Netflix confirms it dropped more than half a billion dollars on Ben Affleck's \"cost-cutting\" AI tools",
-      "summary": "Netflix has revealed it spent $587 million to acquire Ben Affleck's AI company, InterPositive, earlier this year. This acquisition contradicts Netflix's recent claims of saving...",
-      "url": "https://www.avclub.com/netflix-confirm-it-spent-587-million-on-ben-afflecks-ai-company",
-      "source": "A.V. Club",
-      "published_at": "20260718T020846",
-      "sentiment_score": 0.13048,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "NFLX"
-      ],
-      "topics": [
-        "Earnings",
-        "Mergers And Acquisitions",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
       "title": "Stryker (SYK) Stock Could Be Below Fair Value With Earnings Near Fair Value",
       "summary": "Stryker (SYK) stock has experienced a 28.3% total return over the last five years, yet its current price of around US$319 suggests potential undervaluation according to a Discou...",
       "url": "https://simplywall.st/stocks/us/healthcare/nyse-syk/stryker/news/stryker-syk-stock-could-be-below-fair-value-with-earnings-ne",
       "source": "Simply Wall Street",
       "published_at": "20260718T040725",
-      "sentiment_score": 0.127034,
+      "sentiment_score": 0.100478,
       "sentiment_label": "Neutral",
       "tickers": [
         "SYK"
@@ -208,12 +212,33 @@
       "is_noise": false
     },
     {
+      "title": "Sherwin-Williams stock trades steady as investors weigh recent earnings and coatings demand trends",
+      "summary": "Sherwin-Williams stock shows stability as investors evaluate its latest earnings, which indicate resilient demand for coatings despite some market softness. The company reported...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/sherwin-williams-stock-trades-steady-as-investors-weigh-recent-earnings/69791849",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260718T040558",
+      "sentiment_score": 0.475496,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SHW"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate",
+        "Manufacturing",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
       "title": "Lamb Weston stock trades steady as investors weigh frozen potato demand and recent earnings trends",
       "summary": "Lamb Weston stock performance is influenced by resilient frozen potato demand and recent earnings trends. The company has reported growing sales and profits, successfully passin...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/lamb-weston-stock-trades-steady-as-investors-weigh-frozen-potato-demand/69791825",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T040334",
-      "sentiment_score": 0.416203,
+      "sentiment_score": 0.394927,
       "sentiment_label": "Bullish",
       "tickers": [
         "LW"
@@ -233,7 +258,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/autozone-stock-trades-steady-as-investors-weigh-recent-earnings-and/69791236",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T024408",
-      "sentiment_score": 0.407698,
+      "sentiment_score": 0.442304,
       "sentiment_label": "Bullish",
       "tickers": [
         "AZO"
@@ -248,12 +273,33 @@
       "is_noise": false
     },
     {
+      "title": "Cardinal Health stock trades steadily as recent earnings and dividend support valuation",
+      "summary": "Cardinal Health's stock remains steady, supported by strong fiscal 2025 earnings and consistent dividend payments, reflecting its role as a major US healthcare distributor. The...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cardinal-health-stock-trades-steadily-as-recent-earnings-and-dividend/69791930",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260718T041617",
+      "sentiment_score": 0.437263,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "CAH"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets",
+        "Finance",
+        "Retail Wholesale"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
       "title": "Tyler Technologies stock trades steadily as recurring revenue grows and public sector demand support",
       "summary": "Tyler Technologies stock demonstrates stability due to increasing recurring software revenue and consistent demand from US local governments. The company's recent quarterly repo...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/tyler-technologies-stock-trades-steadily-as-recurring-revenue-grows-and/69791817",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T040334",
-      "sentiment_score": 0.455926,
+      "sentiment_score": 0.452099,
       "sentiment_label": "Bullish",
       "tickers": [
         "TYL"
@@ -274,7 +320,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/american-electric-power-stock-holds-steady-as-regulated-earnings-support/69791691",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T034758",
-      "sentiment_score": 0.482511,
+      "sentiment_score": 0.467651,
       "sentiment_label": "Bullish",
       "tickers": [
         "AEP"
@@ -293,7 +339,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/boston-properties-stock-trades-steady-as-office-reit-focuses-on-leasing/69791679",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T034622",
-      "sentiment_score": 0.282229,
+      "sentiment_score": 0.272852,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "BXP"
@@ -312,7 +358,7 @@
       "url": "https://ts2.tech/en/bhp-group-ltd-asxbhp-drops-after-escondida-leads-93-of-forecast-copper-output-fall/",
       "source": "TechStock²",
       "published_at": "20260718T030701",
-      "sentiment_score": -0.64769,
+      "sentiment_score": -0.636218,
       "sentiment_label": "Bearish",
       "tickers": [
         "BHP"
@@ -331,7 +377,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/quest-diagnostics-stock-holds-near-results-driven-levels/69791351",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T030231",
-      "sentiment_score": 0.126214,
+      "sentiment_score": 0.123657,
       "sentiment_label": "Neutral",
       "tickers": [
         "DGX"
@@ -350,7 +396,7 @@
       "url": "https://pluang.com/en/news-feed/penyelidikan-skyworks-solutions-terhadap-direksi-dan-pejabat",
       "source": "Pluang",
       "published_at": "20260718T021808",
-      "sentiment_score": -0.949565,
+      "sentiment_score": -0.916836,
       "sentiment_label": "Bearish",
       "tickers": [
         "SWKS"
@@ -368,7 +414,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3344399/coursera-cour-receives-a-buy-from-rbc-capital/",
       "source": "The Globe and Mail",
       "published_at": "20260718T021153",
-      "sentiment_score": 0.323764,
+      "sentiment_score": 0.305728,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "COUR"
@@ -383,45 +429,84 @@
       "is_noise": false
     },
     {
-      "title": "Is Paycom Software (PAYC) Fully Valued As It Launches Asset Management?",
-      "summary": "Paycom Software (PAYC) has launched a new Asset Management tool for its human capital management platform. Despite recent short-term share price gains, its one-year total shareh...",
-      "url": "https://sg.finance.yahoo.com/news/paycom-software-payc-fully-valued-020831619.html",
-      "source": "Yahoo Finance Singapore",
-      "published_at": "20260718T020742",
-      "sentiment_score": 0.189069,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "PAYC",
-        "NOW",
-        "CRM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Dover stock trades steadily as diversified earnings and cash flow support valuation",
-      "summary": "Dover Corp. stock is supported by its diversified industrial portfolio, characterized by resilient margins, significant free cash flow, and steady revenue growth. The company's...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/dover-stock-trades-steadily-as-diversified-earnings-and-cash-flow-support/69791039",
+      "title": "Stanley Black & Decker stock trades below recent highs as margins and cash flow shape investor debat",
+      "summary": "Stanley Black & Decker's stock is currently trading below its recent highs as investors evaluate the company's restructuring efforts against continued margin pressures. Despite...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/stanley-black-and-decker-stock-trades-below-recent-highs-as-margins-and/69791745",
       "source": "ad-hoc-news.de",
-      "published_at": "20260718T020139",
-      "sentiment_score": 0.481641,
-      "sentiment_label": "Bullish",
+      "published_at": "20260718T035406",
+      "sentiment_score": 0.04219,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "DOV"
+        "SWK"
       ],
       "topics": [
         "Earnings",
-        "Manufacturing",
         "Financial Markets",
+        "Manufacturing",
         "Economy Macro",
         "Finance"
       ],
-      "quality_score": 9,
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
+      "title": "DDD stock trades near yearly low as 3D Systems works through restructuring and revenue decline",
+      "summary": "3D Systems (DDD) stock is trading near its yearly low due to a significant revenue decline and ongoing restructuring costs. Despite a strong cash position of approximately $500...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ddd-stock-trades-near-yearly-low-as-3d-systems-works-through-restructuring/69789266",
+      "source": "Ad Hoc News",
+      "published_at": "20260718T044149",
+      "sentiment_score": -0.275209,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "DDD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology",
+        "Manufacturing"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Arch Capital Group stock trades near recent highs as underwriting profit and investment income support growth",
+      "summary": "Arch Capital Group stock is trading near recent highs, supported by strong underwriting profits, increased investment income, and growth in net income and book value per share....",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/arch-capital-group-stock-trades-near-recent-highs-as-underwriting-profit/69791994",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260718T042500",
+      "sentiment_score": 0.560226,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ACGL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Carrier Global stock trades steady as investors weigh HVAC demand and margin strategy",
+      "summary": "Carrier Global stock is stable as investors consider the HVAC and fire safety group's recent earnings, margin strategies, and portfolio adjustments within a cautious constructio...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/carrier-global-stock-trades-steady-as-investors-weigh-hvac-demand-and/69791857",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260718T040721",
+      "sentiment_score": 0.256927,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CARR"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Manufacturing",
+        "Real Estate"
+      ],
+      "quality_score": 7,
       "is_noise": false
     },
     {
@@ -430,7 +515,7 @@
       "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-fis/fidelity-national-information-services/news/fidelity-national-information-services-fis-joins-project-gla",
       "source": "Simply Wall Street",
       "published_at": "20260718T035503",
-      "sentiment_score": 0.026056,
+      "sentiment_score": 0.03455,
       "sentiment_label": "Neutral",
       "tickers": [
         "FIS"
@@ -450,7 +535,7 @@
       "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-vrtx/vertex-pharmaceuticals/news/will-pediatric-casgevy-expansion-and-canadian-alyftrek-talks",
       "source": "Simply Wall Street",
       "published_at": "20260718T034739",
-      "sentiment_score": 0.242694,
+      "sentiment_score": 0.230136,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "VRTX",
@@ -466,12 +551,31 @@
       "is_noise": false
     },
     {
+      "title": "S&P Global (SPGI) Stock Looks Above Fair Value Despite 19% Returns",
+      "summary": "S&P Global (SPGI) stock, despite a 18.8% return over five years, appears overvalued with a P/E ratio of 27.9x compared to its fair P/E of 18.7x. The company's recent product inn...",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-spgi/sp-global/news/sp-global-spgi-stock-looks-above-fair-value-despite-19-retur",
+      "source": "Simply Wall Street",
+      "published_at": "20260718T034701",
+      "sentiment_score": -0.207276,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "SPGI"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "Match Group stock trades steady as investors focus on Hinge growth and margin trajectory",
       "summary": "Match Group's stock performance is balanced by Hinge's significant growth and ongoing margin pressures due to high marketing and product investment. Investors are closely monito...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/match-group-stock-trades-steady-as-investors-focus-on-hinge-growth-and/69791586",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T033245",
-      "sentiment_score": 0.186081,
+      "sentiment_score": 0.190535,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "MTCH"
@@ -491,7 +595,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/motorola-solutions-stock-trades-near-record-levels-as-recurring-revenue/69791015",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T025500",
-      "sentiment_score": 0.618753,
+      "sentiment_score": 0.608276,
       "sentiment_label": "Bullish",
       "tickers": [
         "MSI"
@@ -506,74 +610,12 @@
       "is_noise": false
     },
     {
-      "title": "Evergy stock trades steadily as regulated earnings and dividend support valuation",
-      "summary": "Evergy Inc. stock reflects its regulated electric utility earnings profile in Kansas and Missouri, appealing to investors through stable cash flows, consistent quarterly dividen...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/evergy-stock-trades-steadily-as-regulated-earnings-and-dividend-support/69791029",
-      "source": "ad-hoc-news.de",
-      "published_at": "20260718T020000",
-      "sentiment_score": 0.468151,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "EVRG"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation",
-        "Economy Macro"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Wix.com (WIX) Dips More Than Broader Market: What You Should Know",
-      "summary": "Wix.com (WIX) experienced a 2.54% dip in its latest trading session, underperforming the broader S&P 500. Despite this, the company's shares have risen 24.24% over the last mont...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wix-com-wix-dips-more-220007100.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260718T013953",
-      "sentiment_score": -0.309785,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "WIX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Motorola Solutions (MSI) Stock Could Be 8% Above Fair Value On Steady Cash Flow",
-      "summary": "Motorola Solutions' stock (MSI) has seen a significant return of 97.8% over the past five years, suggesting it's no longer an obvious bargain. Despite steady cash flow expectati...",
-      "url": "https://simplywall.st/stocks/us/tech/nyse-msi/motorola-solutions/news/fee04545421ee0ad",
-      "source": "Simply Wall Street",
-      "published_at": "20260718T013845",
-      "sentiment_score": 0.055272,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MSI",
-        "ANET",
-        "FFIV"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
       "title": "Cavco Industries Inc (CVCO) Stock Down 3.3% but Still Overvalued -- GF Score: 96/100",
       "summary": "Cavco Industries Inc (CVCO) shares dropped 3.3% to $566.22, but the stock remains overvalued according to GuruFocus's GF Value™ of $536.31. Despite a strong GF Score™ of 96/100,...",
       "url": "https://www.gurufocus.com/news/8965558/cavco-industries-inc-cvco-stock-down-33-but-still-overvalued-gf-score-96100",
       "source": "GuruFocus",
       "published_at": "20260718T040635",
-      "sentiment_score": -0.443199,
+      "sentiment_score": -0.421691,
       "sentiment_label": "Bearish",
       "tickers": [
         "CVCO"
@@ -592,7 +634,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/nvr-stock-trades-steady-as-homebuilder-margins-remain-in-focus/69791598",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T033449",
-      "sentiment_score": 0.492642,
+      "sentiment_score": 0.488576,
       "sentiment_label": "Bullish",
       "tickers": [
         "NVR"
@@ -612,7 +654,7 @@
       "url": "https://sg.finance.yahoo.com/news/crane-cr-stock-may-look-020839977.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260718T021141",
-      "sentiment_score": -0.191777,
+      "sentiment_score": -0.16894,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CR",
@@ -627,30 +669,12 @@
       "is_noise": false
     },
     {
-      "title": "Valero Energy stock trades steady as refining margins and cash returns frame the outlook",
-      "summary": "Valero Energy's stock performance is analyzed through its refining margins, cash generation, and capital returns. The article highlights how fuel demand, crack spreads, and the...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/valero-energy-stock-trades-steady-as-refining-margins-and-cash-returns/69790959",
-      "source": "ad-hoc-news.de",
-      "published_at": "20260718T014223",
-      "sentiment_score": 0.252576,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "VLO"
-      ],
-      "topics": [
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
       "title": "CVS Health stock trades steady as investors weigh cost pressures and Medicare changes",
       "summary": "CVS Health stock is trading steadily as investors assess several factors, including growth in pharmacy services, margin pressures in health insurance, and changes in Medicare re...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cvs-health-stock-trades-steady-as-investors-weigh-cost-pressures-and/69791707",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T034938",
-      "sentiment_score": 0.033689,
+      "sentiment_score": 0.037595,
       "sentiment_label": "Neutral",
       "tickers": [
         "CVS",
@@ -669,12 +693,33 @@
       "is_noise": false
     },
     {
+      "title": "Global Payments stock trades steady as margins support valuation",
+      "summary": "Global Payments (NYSE: GPN) stock is holding steady, supported by strong margins and cash flow from its merchant and issuer businesses. The company's recent financial reports hi...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/global-payments-stock-trades-steady-as-margins-support-valuation/69792013",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260718T042758",
+      "sentiment_score": 0.470303,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "GPN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology",
+        "Economy Macro"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
       "title": "Norwegian Cruise Line stock reacts as investors weigh debt, cash flow and demand recovery",
       "summary": "Norwegian Cruise Line Holdings Ltd. stock performance is currently influenced by investor considerations of its substantial debt, cash flow generation, and the ongoing recovery...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/norwegian-cruise-line-stock-reacts-as-investors-weigh-debt-cash-flow-and/69791808",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T040246",
-      "sentiment_score": 0.278587,
+      "sentiment_score": 0.261378,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "NCLH"
@@ -693,7 +738,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/host-hotels-and-resorts-stock-trades-steady-as-investors-weigh-cash/69791490",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T032109",
-      "sentiment_score": 0.320988,
+      "sentiment_score": 0.33794,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "HST"
@@ -709,32 +754,12 @@
       "is_noise": false
     },
     {
-      "title": "Public Storage (PSA) Following Lower Yields, Does Its Valuation Still Look Reasonable?",
-      "summary": "Public Storage (PSA) has seen its stock move after lower Treasury yields and demand for dividend income, alongside a leadership change. The company is currently considered 2.7%...",
-      "url": "https://simplywall.st/stocks/us/real-estate/nyse-psa/public-storage/news/public-storage-psa-following-lower-yields-does-its-valuation/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260718T013851",
-      "sentiment_score": -0.1356,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PSA"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Real Estate",
-        "Earnings",
-        "Economy Monetary"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
       "title": "Cosmos Health repurchases 274,000 shares under buyback program",
       "summary": "Cosmos Health Inc. has repurchased an additional 274,000 shares of its common stock at an average price of $0.2554 per share, bringing the total repurchased under its $5 million...",
       "url": "https://www.investing.com/news/company-news/cosmos-health-repurchases-274000-shares-under-buyback-program-93CH-4798966",
       "source": "Investing.com",
       "published_at": "20260718T031054",
-      "sentiment_score": 0.138232,
+      "sentiment_score": 0.124469,
       "sentiment_label": "Neutral",
       "tickers": [
         "COSM"
@@ -747,12 +772,32 @@
       "is_noise": false
     },
     {
+      "title": "Ecopetrol blocks ransomware attack after unauthorized access to data from 3,300 user accounts.",
+      "summary": "Ecopetrol S.A. successfully blocked a ransomware attack following unauthorized access to cloud storage that affected about 15 subsidiaries and data from roughly 3,300 user accou...",
+      "url": "https://pluang.com/en/news-feed/ecopetrol-laporkan-insiden-keamanan-siber",
+      "source": "Pluang",
+      "published_at": "20260718T024148",
+      "sentiment_score": -0.329015,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "EC"
+      ],
+      "topics": [
+        "Energy Transportation",
+        "Financial Markets",
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
       "title": "Microsoft Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of Microsoft Corp...",
       "summary": "Kahn Swick & Foti, LLC (KSF) has initiated an investigation into Microsoft Corporation (MSFT) regarding potential breaches of fiduciary duties by its officers and directors. Thi...",
       "url": "https://www.morningstar.com/news/pr-newswire/20260717da07300/microsoft-investigation-initiated-kahn-swick-foti-llc-investigates-the-officers-and-directors-of-microsoft-corporation-msft",
       "source": "Morningstar",
       "published_at": "20260718T021732",
-      "sentiment_score": -0.429566,
+      "sentiment_score": -0.446937,
       "sentiment_label": "Bearish",
       "tickers": [
         "MSFT"
@@ -771,7 +816,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/coterra-energy-stock-edges-higher-as-free-cash-flow-supports-dividends-and/69791117",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T021728",
-      "sentiment_score": 0.472607,
+      "sentiment_score": 0.477687,
       "sentiment_label": "Bullish",
       "tickers": [
         "CTRA"
@@ -791,7 +836,7 @@
       "url": "https://www.ttnews.com/articles/arcbest-layoffs-abf-freight",
       "source": "Transport Topics",
       "published_at": "20260718T021122",
-      "sentiment_score": 0.25188,
+      "sentiment_score": 0.240813,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ARCB"
@@ -810,7 +855,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/news-corp-stock-trades-steady-as-digital-growth-offsets-print-headwinds/69791079",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T021037",
-      "sentiment_score": 0.324834,
+      "sentiment_score": 0.324356,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "NWSA"
@@ -826,42 +871,41 @@
       "is_noise": false
     },
     {
-      "title": "Crowdstrike CEO George Kurtz sells $4.12m in company stock By Investing.com",
-      "summary": "CrowdStrike CEO George Kurtz sold $4.12 million worth of company stock over two days in July 2026, pursuant to a 10b-1 plan. These sales occurred as CrowdStrike shares traded ne...",
-      "url": "https://m.in.investing.com/news/stock-market-news/crowdstrike-ceo-george-kurtz-sells-412m-in-company-stock-93CH-5502451?ampMode=1",
-      "source": "Investing.com India",
-      "published_at": "20260718T020738",
-      "sentiment_score": 0.06421,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CRWD"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "New Zenas hires receive stock awards vesting through 2030",
-      "summary": "Zenas BioPharma (Nasdaq: ZBIO) announced inducement equity awards for new employees, comprising 35,750 non-qualified stock options and 79,050 Restricted Stock Units (RSUs) under...",
-      "url": "https://www.stocktitan.net/news/ZBIO/zenas-bio-pharma-announces-inducement-grants-under-nasdaq-listing-wf5axun2zxi4.html",
+      "title": "Corcept Therapeutics (CORT) CFO sells 40,000 shares and exercises options",
+      "summary": "Corcept Therapeutics CFO Atabak Mokari exercised options for 40,000 shares and subsequently sold all 40,000 shares on July 15, 2026. The sales were conducted under a Rule 10b5-1...",
+      "url": "https://www.stocktitan.net/sec-filings/CORT/form-4-corcept-therapeutics-inc-insider-trading-activity-27089160b7bc.html",
       "source": "Stock Titan",
-      "published_at": "20260718T014106",
-      "sentiment_score": 0.146372,
+      "published_at": "20260718T043944",
+      "sentiment_score": 0.037687,
       "sentiment_label": "Neutral",
       "tickers": [
-        "ZBIO"
+        "CORT"
       ],
       "topics": [
         "Life Sciences",
-        "Earnings",
-        "Financial Markets"
+        "Earnings"
       ],
-      "quality_score": 3,
-      "is_noise": false
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Corcept Therapeutics director Wilson sells $882,985 in common stock",
+      "summary": "James N. Wilson, a director at Corcept Therapeutics Inc. (NASDAQ: CORT), sold 10,000 shares of the company's common stock for over $882,985 on July 15, 2026. This transaction wa...",
+      "url": "https://www.investing.com/news/insider-trading-news/corcept-therapeutics-director-wilson-sells-882985-in-common-stock-93CH-4799445",
+      "source": "Investing.com",
+      "published_at": "20260718T043944",
+      "sentiment_score": -0.219713,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "CORT"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
     },
     {
       "title": "Cimpress (CMPR) EVP exercises 1,026 RSUs; 488 shares withheld for tax",
@@ -869,7 +913,7 @@
       "url": "https://www.stocktitan.net/sec-filings/CMPR/form-4-cimpress-plc-insider-trading-activity-5aec65c4d3d1.html",
       "source": "Stock Titan",
       "published_at": "20260718T041228",
-      "sentiment_score": 0.000867,
+      "sentiment_score": 0.035604,
       "sentiment_label": "Neutral",
       "tickers": [
         "CMPR"
@@ -888,7 +932,7 @@
       "url": "https://www.stocktitan.net/sec-filings/CBSH/8-k-a-commerce-bancshares-inc-mo-amends-material-event-report-9b566479de82.html",
       "source": "Stock Titan",
       "published_at": "20260718T041040",
-      "sentiment_score": 0.203328,
+      "sentiment_score": 0.219553,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CBSH",
@@ -911,7 +955,7 @@
       "url": "https://www.stocktitan.net/sec-filings/CBAN/form-4-colony-bankcorp-inc-insider-trading-activity-c4a65b156b25.html",
       "source": "Stock Titan",
       "published_at": "20260718T041001",
-      "sentiment_score": 0.128819,
+      "sentiment_score": 0.110729,
       "sentiment_label": "Neutral",
       "tickers": [
         "CBAN"
@@ -929,7 +973,7 @@
       "url": "https://www.stocktitan.net/sec-filings/AMD/form-4-advanced-micro-devices-inc-insider-trading-activity-ca443a0e0254.html",
       "source": "Stock Titan",
       "published_at": "20260718T030705",
-      "sentiment_score": 0.021478,
+      "sentiment_score": 0.03587,
       "sentiment_label": "Neutral",
       "tickers": [
         "AMD"
@@ -949,7 +993,7 @@
       "url": "https://www.stocktitan.net/sec-filings/BJRI/form-4-b-js-restaurants-inc-insider-trading-activity-dfbca4862b19.html",
       "source": "Stock Titan",
       "published_at": "20260718T021145",
-      "sentiment_score": 0.01532,
+      "sentiment_score": 0.01634,
       "sentiment_label": "Neutral",
       "tickers": [
         "BJRI"
@@ -960,59 +1004,41 @@
       ],
       "quality_score": -10,
       "is_noise": true
-    },
+    }
+  ],
+  "article_count": 50,
+  "top_ticker": "DRH",
+  "top_topic": "Earnings",
+  "dominant_sentiment": "Bullish",
+  "top_story": "DiamondRock Hospitality (NYSE:DRH) Hits New 52-Week High Following Analyst Upgrade",
+  "signal_articles": [
     {
-      "title": "Bone Biologics (NASDAQ: BBLG) registers 6.46M warrant shares for resale",
-      "summary": "Bone Biologics (NASDAQ: BBLG) has registered 6,464,792 common stock shares for resale by existing warrant holders, a move that could significantly dilute current shareholders if...",
-      "url": "https://www.stocktitan.net/sec-filings/BBLG/s-3-bone-biologics-corp-shelf-registration-statement-e714d6d41f47.html",
-      "source": "Stock Titan",
-      "published_at": "20260718T014126",
-      "sentiment_score": -0.185036,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "DiamondRock Hospitality (NYSE:DRH) Hits New 52-Week High Following Analyst Upgrade",
+      "summary": "DiamondRock Hospitality (NYSE:DRH) recently reached a new 52-week high after Morgan Stanley increased its price target, aligning with other analysts who have also raised their t...",
+      "url": "https://www.marketbeat.com/instant-alerts/diamondrock-hospitality-nysedrh-hits-new-52-week-high-following-analyst-upgrade-2026-07-17/",
+      "source": "MarketBeat",
+      "published_at": "20260718T044140",
+      "sentiment_score": 0.449582,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "BBLG"
-      ],
-      "topics": [
-        "Finance",
-        "Life Sciences",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Alpha & Omega Semiconductor EVP Bing Xue sells $29,741 in shares By Investing.com",
-      "summary": "Bing Xue, EVP of Worldwide Sales & Business Development at Alpha & Omega Semiconductor, sold 875 common shares totaling $29,741 on July 16, 2026, as part of a Rule 10b5-1 tradin...",
-      "url": "https://za.investing.com/news/stock-market-news/alpha--omega-semiconductor-evp-bing-xue-sells-29741-in-shares-93CH-4375199",
-      "source": "Investing.com South Africa",
-      "published_at": "20260718T014048",
-      "sentiment_score": 0.128641,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AOSL"
+        "DRH"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Technology"
+        "Real Estate",
+        "Finance"
       ],
-      "quality_score": -10,
-      "is_noise": true
-    }
-  ],
-  "article_count": 50,
-  "top_ticker": "MSI",
-  "top_topic": "Earnings",
-  "dominant_sentiment": "Bullish",
-  "top_story": "Procter & Gamble (NYSE:PG) Shares Down 1.1% Following Analyst Downgrade",
-  "signal_articles": [
+      "quality_score": 16,
+      "is_noise": false
+    },
     {
       "title": "Procter & Gamble (NYSE:PG) Shares Down 1.1% Following Analyst Downgrade",
       "summary": "Procter & Gamble (NYSE:PG) shares dropped 1.1% after JPMorgan Chase & Co. lowered its price target to $162 from $164, although it maintained an \"overweight\" rating. Despite this...",
       "url": "https://www.marketbeat.com/instant-alerts/procter-gamble-nysepg-shares-down-11-following-analyst-downgrade-2026-07-17/",
       "source": "MarketBeat",
       "published_at": "20260718T033852",
-      "sentiment_score": 0.030339,
+      "sentiment_score": 0.000172,
       "sentiment_label": "Neutral",
       "tickers": [
         "PG"
@@ -1027,21 +1053,24 @@
       "is_noise": false
     },
     {
-      "title": "Earnings Preview: RTX Corp to Report Financial Results Pre-market on July 23",
-      "summary": "RTX Corp (NYSE:RTX) is scheduled to release its quarterly financial results pre-market on Tuesday, July 23, 2024. Analysts predict the company will report earnings of $1.30 per...",
-      "url": "https://news.futunn.com/en/post/76223014/earnings-preview-rtx-corp-to-report-financial-results-pre-market",
-      "source": "富途牛牛",
-      "published_at": "20260718T015259",
-      "sentiment_score": 0.017266,
-      "sentiment_label": "Neutral",
+      "title": "Teledyne Technologies stock trades steady as investors weigh recent earnings and aerospace exposure",
+      "summary": "Teledyne Technologies' stock remains steady as investors evaluate the company's recent earnings report and its exposure to aerospace and defense markets. The report indicates re...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/teledyne-technologies-stock-trades-steady-as-investors-weigh-recent/69791999",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260718T042606",
+      "sentiment_score": 0.329508,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "RTX"
+        "TDY"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Economy Macro",
+        "Manufacturing",
+        "Technology"
       ],
-      "quality_score": 14,
+      "quality_score": 13,
       "is_noise": false
     },
     {
@@ -1050,7 +1079,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/iron-mountain-stock-holds-near-recent-highs-as-storage-and-data-center/69791443",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T031413",
-      "sentiment_score": 0.405066,
+      "sentiment_score": 0.410292,
       "sentiment_label": "Bullish",
       "tickers": [
         "IRM"
@@ -1071,7 +1100,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/deckers-outdoor-stock-trades-near-record-levels-as-hoka-growth-drives/69791096",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T021332",
-      "sentiment_score": 0.526066,
+      "sentiment_score": 0.496222,
       "sentiment_label": "Bullish",
       "tickers": [
         "DECK"
@@ -1092,7 +1121,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/huntington-ingalls-stock-steadies-as-defense-backlog-supports-outlook/69791663",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T034315",
-      "sentiment_score": 0.477278,
+      "sentiment_score": 0.461981,
       "sentiment_label": "Bullish",
       "tickers": [
         "HII"
@@ -1112,7 +1141,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/nordson-stock-trades-steady-as-recent-earnings-and-guidance-highlight-long/69791633",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T033945",
-      "sentiment_score": 0.63948,
+      "sentiment_score": 0.628923,
       "sentiment_label": "Bullish",
       "tickers": [
         "NDSN"
@@ -1131,7 +1160,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cencora-stock-trades-steadily-as-specialty-distribution-growth-supports/69791427",
       "source": "ad-hoc-news.de",
       "published_at": "20260718T031226",
-      "sentiment_score": 0.458976,
+      "sentiment_score": 0.4524,
       "sentiment_label": "Bullish",
       "tickers": [
         "COR"
@@ -1152,7 +1181,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/BMO-N/pressreleases/3344291/just-released-5-top-stocks-to-buy-in-august/",
       "source": "The Globe and Mail",
       "published_at": "20260718T021029",
-      "sentiment_score": 0.153844,
+      "sentiment_score": 0.176395,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "BERZ",
@@ -1169,31 +1198,12 @@
       "is_noise": false
     },
     {
-      "title": "Netflix confirms it dropped more than half a billion dollars on Ben Affleck's \"cost-cutting\" AI tools",
-      "summary": "Netflix has revealed it spent $587 million to acquire Ben Affleck's AI company, InterPositive, earlier this year. This acquisition contradicts Netflix's recent claims of saving...",
-      "url": "https://www.avclub.com/netflix-confirm-it-spent-587-million-on-ben-afflecks-ai-company",
-      "source": "A.V. Club",
-      "published_at": "20260718T020846",
-      "sentiment_score": 0.13048,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "NFLX"
-      ],
-      "topics": [
-        "Earnings",
-        "Mergers And Acquisitions",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
       "title": "Stryker (SYK) Stock Could Be Below Fair Value With Earnings Near Fair Value",
       "summary": "Stryker (SYK) stock has experienced a 28.3% total return over the last five years, yet its current price of around US$319 suggests potential undervaluation according to a Discou...",
       "url": "https://simplywall.st/stocks/us/healthcare/nyse-syk/stryker/news/stryker-syk-stock-could-be-below-fair-value-with-earnings-ne",
       "source": "Simply Wall Street",
       "published_at": "20260718T040725",
-      "sentiment_score": 0.127034,
+      "sentiment_score": 0.100478,
       "sentiment_label": "Neutral",
       "tickers": [
         "SYK"
@@ -1211,15 +1221,15 @@
   ],
   "top_tickers": [
     {
-      "ticker": "MSI",
-      "mentions": 2
+      "ticker": "DRH",
+      "mentions": 1
     },
     {
       "ticker": "PG",
       "mentions": 1
     },
     {
-      "ticker": "RTX",
+      "ticker": "TDY",
       "mentions": 1
     },
     {
@@ -1238,33 +1248,33 @@
     },
     {
       "topic": "Financial Markets",
-      "mentions": 35
+      "mentions": 36
     },
     {
       "topic": "Finance",
-      "mentions": 20
+      "mentions": 24
     },
     {
       "topic": "Economy Macro",
-      "mentions": 13
+      "mentions": 16
     },
     {
       "topic": "Technology",
-      "mentions": 12
+      "mentions": 11
     }
   ],
   "sentiment_counts": [
     {
       "label": "Bullish",
-      "count": 14
-    },
-    {
-      "label": "Neutral",
-      "count": 12
+      "count": 17
     },
     {
       "label": "Somewhat-Bullish",
       "count": 11
+    },
+    {
+      "label": "Neutral",
+      "count": 7
     },
     {
       "label": "Bearish",
@@ -1272,30 +1282,30 @@
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 2
+      "count": 4
     }
   ],
   "top_sources": [
     {
       "source": "ad-hoc-news.de",
-      "count": 22
+      "count": 26
     },
     {
       "source": "Simply Wall Street",
-      "count": 5
+      "count": 4
+    },
+    {
+      "source": "MarketBeat",
+      "count": 2
     },
     {
       "source": "The Globe and Mail",
       "count": 2
     },
     {
-      "source": "Yahoo Finance Singapore",
+      "source": "Pluang",
       "count": 2
-    },
-    {
-      "source": "MarketBeat",
-      "count": 1
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with MSI appearing most often and the headline tone mostly bullish."
+  "takeaway": "News flow is centered on Earnings, with DRH appearing most often and the headline tone mostly bullish."
 }
