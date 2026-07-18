@@ -1,5 +1,216 @@
 [
   {
+    "id": "market-narrative-shift-pg-2026-07-18",
+    "date": "2026-07-18",
+    "runDate": "2026-07-18",
+    "createdAt": "2026-07-18T04:44:57.065385+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $PG",
+    "status": "ready",
+    "tweet": "What changed in $PG's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.19\n📌 Top theme: Earnings\n🔎 Emerging term: down\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_PG_2026-07-18.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-18T04:44:54.713999+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$PG",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "PG",
+    "topChangePct": -19.21,
+    "marketNarrativeShift": {
+      "updated_at": "2026-07-18T04:44:54.713999+00:00",
+      "date": "2026-07-18",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "PG",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.1921,
+      "baseline_label": "2026-07-11",
+      "current": {
+        "date": "2026-07-18",
+        "symbol": "PG",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0303,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "procter",
+            "count": 2
+          },
+          {
+            "label": "gamble",
+            "count": 2
+          },
+          {
+            "label": "down",
+            "count": 1
+          },
+          {
+            "label": "following",
+            "count": 1
+          },
+          {
+            "label": "downgrade",
+            "count": 1
+          },
+          {
+            "label": "dropped",
+            "count": 1
+          },
+          {
+            "label": "jpmorgan",
+            "count": 1
+          },
+          {
+            "label": "chase",
+            "count": 1
+          },
+          {
+            "label": "lowered",
+            "count": 1
+          },
+          {
+            "label": "target",
+            "count": 1
+          },
+          {
+            "label": "although",
+            "count": 1
+          },
+          {
+            "label": "maintained",
+            "count": 1
+          }
+        ],
+        "headline": "Procter & Gamble (NYSE:PG) Shares Down 1.1% Following Analyst Downgrade",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-07-11",
+        "symbol": "PG",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2224,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "procter",
+            "count": 2
+          },
+          {
+            "label": "gamble",
+            "count": 2
+          },
+          {
+            "label": "value",
+            "count": 2
+          },
+          {
+            "label": "dcf",
+            "count": 2
+          },
+          {
+            "label": "still",
+            "count": 1
+          },
+          {
+            "label": "looks",
+            "count": 1
+          },
+          {
+            "label": "below",
+            "count": 1
+          },
+          {
+            "label": "fair",
+            "count": 1
+          },
+          {
+            "label": "appears",
+            "count": 1
+          },
+          {
+            "label": "undervalued",
+            "count": 1
+          },
+          {
+            "label": "based",
+            "count": 1
+          },
+          {
+            "label": "both",
+            "count": 1
+          }
+        ],
+        "headline": "Procter & Gamble (PG) Stock Still Looks Below Fair Value Today",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "fading_themes": [
+        "Economy Macro"
+      ],
+      "emerging_keywords": [
+        "down",
+        "following",
+        "downgrade"
+      ],
+      "fading_keywords": [
+        "value",
+        "dcf",
+        "still"
+      ],
+      "takeaway": "PG's narrative is turning bearish: sentiment moved -0.19, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-18",
     "date": "2026-07-18",
     "runDate": "2026-07-18",
