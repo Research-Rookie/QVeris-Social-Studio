@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-ge-2026-07-19",
+    "date": "2026-07-19",
+    "runDate": "2026-07-19",
+    "createdAt": "2026-07-19T05:37:28.782563+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$GE news vs price reaction:\n📰 News tone: Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-07-19.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-07-19T05:37:27.246508+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$GE",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "GE",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-07-19T05:37:27.246508+00:00",
+      "date": "2026-07-19",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "GE",
+      "news_tone": "Bullish",
+      "top_theme": "Earnings",
+      "headline": "General Electric (GE) Beats Q2 Expectations And Raises 2026 Outlook",
+      "headline_source": "Yahoo Finance",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "API error: error happen with input parameters, please have a check.",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "GE",
+            "mentions": 3
+          },
+          {
+            "ticker": "RTX",
+            "mentions": 2
+          },
+          {
+            "ticker": "NUE",
+            "mentions": 2
+          },
+          {
+            "ticker": "JPM",
+            "mentions": 2
+          },
+          {
+            "ticker": "SWKS",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Bullish",
+            "count": 22
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 18
+          },
+          {
+            "label": "Neutral",
+            "count": 8
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-ge-2026-07-19",
     "date": "2026-07-19",
     "runDate": "2026-07-19",
