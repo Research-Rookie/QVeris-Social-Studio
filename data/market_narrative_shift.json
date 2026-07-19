@@ -1,97 +1,19 @@
 {
-  "updated_at": "2026-07-18T04:44:54.713999+00:00",
-  "date": "2026-07-18",
+  "updated_at": "2026-07-19T05:17:14.666678+00:00",
+  "date": "2026-07-19",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "PG",
-  "shift_label": "Turning bearish",
-  "sentiment_delta": -0.1921,
-  "baseline_label": "2026-07-11",
+  "symbol": "GE",
+  "shift_label": "Turning bullish",
+  "sentiment_delta": 0.4809,
+  "baseline_label": "2026-07-18",
   "current": {
-    "date": "2026-07-18",
-    "symbol": "PG",
+    "date": "2026-07-19",
+    "symbol": "GE",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.0303,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      },
-      {
-        "label": "Retail Wholesale",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "procter",
-        "count": 2
-      },
-      {
-        "label": "gamble",
-        "count": 2
-      },
-      {
-        "label": "down",
-        "count": 1
-      },
-      {
-        "label": "following",
-        "count": 1
-      },
-      {
-        "label": "downgrade",
-        "count": 1
-      },
-      {
-        "label": "dropped",
-        "count": 1
-      },
-      {
-        "label": "jpmorgan",
-        "count": 1
-      },
-      {
-        "label": "chase",
-        "count": 1
-      },
-      {
-        "label": "lowered",
-        "count": 1
-      },
-      {
-        "label": "target",
-        "count": 1
-      },
-      {
-        "label": "although",
-        "count": 1
-      },
-      {
-        "label": "maintained",
-        "count": 1
-      }
-    ],
-    "headline": "Procter & Gamble (NYSE:PG) Shares Down 1.1% Following Analyst Downgrade",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-07-11",
-    "symbol": "PG",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.2224,
+    "sentiment_score": 0.3061,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -107,85 +29,157 @@
         "count": 1
       },
       {
-        "label": "Finance",
+        "label": "Energy Transportation",
         "count": 1
       },
       {
-        "label": "Retail Wholesale",
+        "label": "Manufacturing",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "procter",
+        "label": "general",
         "count": 2
       },
       {
-        "label": "gamble",
+        "label": "electric",
         "count": 2
       },
       {
-        "label": "value",
+        "label": "expectations",
         "count": 2
       },
       {
-        "label": "dcf",
+        "label": "outlook",
         "count": 2
       },
       {
-        "label": "still",
+        "label": "beats",
         "count": 1
       },
       {
-        "label": "looks",
+        "label": "raises",
         "count": 1
       },
       {
-        "label": "below",
+        "label": "aerospace",
         "count": 1
       },
       {
-        "label": "fair",
+        "label": "reported",
         "count": 1
       },
       {
-        "label": "appears",
+        "label": "results",
         "count": 1
       },
       {
-        "label": "undervalued",
+        "label": "exceeded",
         "count": 1
       },
       {
-        "label": "based",
+        "label": "raised",
         "count": 1
       },
       {
-        "label": "both",
+        "label": "full-year",
         "count": 1
       }
     ],
-    "headline": "Procter & Gamble (PG) Stock Still Looks Below Fair Value Today",
+    "headline": "General Electric (GE) Beats Q2 Expectations And Raises 2026 Outlook",
+    "headline_source": "Yahoo Finance UK"
+  },
+  "previous": {
+    "date": "2026-07-18",
+    "symbol": "GE",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": -0.1748,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Manufacturing",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "general",
+        "count": 2
+      },
+      {
+        "label": "electric",
+        "count": 2
+      },
+      {
+        "label": "margin",
+        "count": 2
+      },
+      {
+        "label": "faces",
+        "count": 1
+      },
+      {
+        "label": "drift",
+        "count": 1
+      },
+      {
+        "label": "tests",
+        "count": 1
+      },
+      {
+        "label": "long",
+        "count": 1
+      },
+      {
+        "label": "running",
+        "count": 1
+      },
+      {
+        "label": "bullish",
+        "count": 1
+      },
+      {
+        "label": "narratives",
+        "count": 1
+      },
+      {
+        "label": "recently",
+        "count": 1
+      },
+      {
+        "label": "reported",
+        "count": 1
+      }
+    ],
+    "headline": "General Electric (GE) Stock Faces Margin Drift That Tests Long Running Bullish Narratives",
     "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
-    "Earnings",
-    "Financial Markets",
-    "Finance"
+    "Economy Macro",
+    "Energy Transportation",
+    "Earnings"
   ],
-  "fading_themes": [
-    "Economy Macro"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "down",
-    "following",
-    "downgrade"
+    "expectations",
+    "outlook",
+    "beats"
   ],
   "fading_keywords": [
-    "value",
-    "dcf",
-    "still"
+    "margin",
+    "faces",
+    "drift"
   ],
-  "takeaway": "PG's narrative is turning bearish: sentiment moved -0.19, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "GE's narrative is turning bullish: sentiment moved +0.48, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

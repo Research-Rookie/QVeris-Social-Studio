@@ -1,17 +1,39 @@
 {
-  "updated_at": "2026-07-19T04:43:19.656638+00:00",
+  "updated_at": "2026-07-19T05:17:14.576300+00:00",
   "date": "2026-07-19",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
+      "title": "General Electric (GE) Beats Q2 Expectations And Raises 2026 Outlook",
+      "summary": "General Electric (GE) Aerospace reported Q2 results that exceeded expectations and raised its full-year 2026 outlook due to strong demand in commercial engines, services, and de...",
+      "url": "https://uk.finance.yahoo.com/news/general-electric-ge-beats-q2-041449677.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260719T041357",
+      "sentiment_score": 0.306148,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GE",
+        "RTX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Energy Transportation",
+        "Manufacturing"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
       "title": "Skyworks Solutions stock trades steady as earnings and margin trends shape the outlook",
       "summary": "Skyworks Solutions' stock performance reflects a balance between recent earnings trends, margin development, and future guidance, with investors closely watching wireless and in...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/skyworks-solutions-stock-trades-steady-as-earnings-and-margin-trends-shape/69799588",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T035342",
-      "sentiment_score": 0.119287,
+      "sentiment_score": 0.105356,
       "sentiment_label": "Neutral",
       "tickers": [
         "SWKS"
@@ -32,7 +54,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-watch-crown-holdings-cck-034901762.html",
       "source": "Yahoo Finance",
       "published_at": "20260719T034843",
-      "sentiment_score": 0.137201,
+      "sentiment_score": 0.137814,
       "sentiment_label": "Neutral",
       "tickers": [
         "CCK",
@@ -54,7 +76,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/simon-property-group-stock-steadies-as-investors-weigh-q1-2026-earnings/69799967",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T033954",
-      "sentiment_score": 0.342434,
+      "sentiment_score": 0.349671,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "SPG"
@@ -75,7 +97,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/occidental-petroleum-stock-trades-steadily-as-investors-weigh-oil-prices/69799470",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T023128",
-      "sentiment_score": 0.171921,
+      "sentiment_score": 0.179639,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "OXY"
@@ -89,12 +111,31 @@
       "is_noise": false
     },
     {
+      "title": "Teledyne Technologies stock edges higher as Q1 2026 earnings show revenue growth and margin pressure",
+      "summary": "Teledyne Technologies reported increased revenue but lower net income in Q1 2026, primarily due to integration and financing costs from recent acquisitions. Despite this, demand...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/teledyne-technologies-stock-edges-higher-as-q1-2026-earnings-show-revenue/69800253",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260719T045305",
+      "sentiment_score": 0.135053,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TDY"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
       "title": "Nucor stock trades steadily as steel demand and recent earnings shape expectations",
       "summary": "The article analyzes Nucor's stock performance in the context of US steel demand, manufacturing, and infrastructure spending. It delves into the company's revenue, profit, shipm...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/nucor-stock-trades-steadily-as-steel-demand-and-recent-earnings-shape/69799926",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T033500",
-      "sentiment_score": 0.343149,
+      "sentiment_score": 0.337199,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "NUE"
@@ -115,7 +156,7 @@
       "url": "https://au.finance.yahoo.com/news/expect-bok-financial-bokf-q2-030901897.html",
       "source": "Yahoo Finance Australia",
       "published_at": "20260719T030906",
-      "sentiment_score": 0.177676,
+      "sentiment_score": 0.174565,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "BOKF",
@@ -133,33 +174,12 @@
       "is_noise": false
     },
     {
-      "title": "Lowe's stock trades steady as home improvement demand supports earnings",
-      "summary": "Lowe's stock is supported by strong demand in the U.S. home improvement market, evidenced by multi-billion dollar annual sales and robust profit margins, even as the housing mar...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/lowe-s-stock-trades-steady-as-home-improvement-demand-supports-earnings/69799230",
-      "source": "ad-hoc-news.de",
-      "published_at": "20260719T014801",
-      "sentiment_score": 0.412197,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "LOW"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale",
-        "Financial Markets",
-        "Real Estate",
-        "Economy Macro"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
       "title": "Check Point Software Technologies (CHKP) Following The Raymond James Downgrade Is It Fully Valued",
       "summary": "Check Point Software Technologies (CHKP) was downgraded to Market Perform by Raymond James due to weakening business trends and execution issues. Despite a recent short-term reb...",
       "url": "https://simplywall.st/stocks/us/software/nasdaq-chkp/check-point-software-technologies/news/check-point-software-technologies-chkp-following-the-raymond",
       "source": "Simply Wall Street",
       "published_at": "20260719T041140",
-      "sentiment_score": -0.05859,
+      "sentiment_score": -0.029996,
       "sentiment_label": "Neutral",
       "tickers": [
         "CHKP",
@@ -179,7 +199,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/corning-stock-trades-steady-as-specialty-materials-demand-supports-revenue/69800038",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T034800",
-      "sentiment_score": 0.624009,
+      "sentiment_score": 0.619775,
       "sentiment_label": "Bullish",
       "tickers": [
         "GLW"
@@ -200,7 +220,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/parker-hannifin-stock-holds-near-record-territory-as-recent-earnings/69799986",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T034242",
-      "sentiment_score": 0.440308,
+      "sentiment_score": 0.40708,
       "sentiment_label": "Bullish",
       "tickers": [
         "PH"
@@ -221,7 +241,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/weyerhaeuser-stock-trades-steady-as-timber-reit-focuses-on-cash-flow-and/69799866",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T032904",
-      "sentiment_score": 0.133573,
+      "sentiment_score": 0.148611,
       "sentiment_label": "Neutral",
       "tickers": [
         "WY"
@@ -241,7 +261,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/merck-stock-holds-steady-as-keytruda-drives-revenue-growth-and-investors/69799720",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T031117",
-      "sentiment_score": 0.20059,
+      "sentiment_score": 0.219419,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "MRK",
@@ -257,12 +277,56 @@
       "is_noise": false
     },
     {
+      "title": "Atmos Energy stock holds steady as earnings and dividends support results",
+      "summary": "Atmos Energy stock is supported by strong fiscal 2025 results, with $4.3 billion in revenue, $887.6 million in net income, and diluted EPS of $5.58. The company announced a 12.9...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/atmos-energy-stock-holds-steady-as-earnings-and-dividends-support-results/69800200",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260719T040906",
+      "sentiment_score": 0.499558,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ATO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Eversource Energy stock holds steady as regulated earnings and clean energy investments shape outlook",
+      "summary": "Eversource Energy's stock performance is shaped by its regulated utility stability in New England and significant investments in clean energy infrastructure, providing predictab...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/eversource-energy-stock-holds-steady-as-regulated-earnings-and-clean/69800170",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260719T040448",
+      "sentiment_score": 0.383584,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ES",
+        "AEE",
+        "AEP",
+        "AWK",
+        "CEG"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Energy Transportation",
+        "Finance"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
       "title": "Franklin Resources stock trades steady as assets and fee income shape outlook",
       "summary": "Franklin Resources (BEN) stock performance is influenced by its fee-based earnings and fluctuations in assets under management (AUM). The article examines the company's financia...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/franklin-resources-stock-trades-steady-as-assets-and-fee-income-shape/69800073",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T035213",
-      "sentiment_score": 0.003756,
+      "sentiment_score": 0.035593,
       "sentiment_label": "Neutral",
       "tickers": [
         "BEN"
@@ -282,7 +346,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/entergy-stock-trades-steady-as-regulated-earnings-and-grid-investments/69800066",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T035148",
-      "sentiment_score": 0.344361,
+      "sentiment_score": 0.327943,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ETR"
@@ -301,7 +365,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/hasbro-stock-stays-supported-by-stronger-2025-results/69799942",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T033757",
-      "sentiment_score": 0.1974,
+      "sentiment_score": 0.186944,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "HAS"
@@ -321,7 +385,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/verisign-stock-holds-firm-as-domain-name-revenue-and-margins-underpin/69799836",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T032400",
-      "sentiment_score": 0.45468,
+      "sentiment_score": 0.478191,
       "sentiment_label": "Bullish",
       "tickers": [
         "VRSN"
@@ -341,7 +405,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/evergy-stock-trades-on-its-regulated-utility-backdrop/69799825",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T032344",
-      "sentiment_score": 0.257769,
+      "sentiment_score": 0.267816,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "EVRG"
@@ -360,7 +424,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/hilton-worldwide-stock-gains-on-resilient-travel-demand-and-higher-2024/69799822",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T032256",
-      "sentiment_score": 0.66301,
+      "sentiment_score": 0.674319,
       "sentiment_label": "Bullish",
       "tickers": [
         "HLT"
@@ -381,7 +445,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/tapestry-stock-trades-steady-as-coach-and-kate-spade-owner-focuses-on/69799634",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T030047",
-      "sentiment_score": 0.306113,
+      "sentiment_score": 0.338713,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "TPR"
@@ -402,7 +466,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/bunge-global-stock-holds-after-2025-earnings-and-merger-update/69799602",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T025510",
-      "sentiment_score": 0.259082,
+      "sentiment_score": 0.280388,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "BG"
@@ -421,7 +485,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/clorox-stock-trades-steadily-as-margins-recover-and-sales-stabilize/69799563",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T025000",
-      "sentiment_score": 0.455547,
+      "sentiment_score": 0.48842,
       "sentiment_label": "Bullish",
       "tickers": [
         "CLX"
@@ -441,7 +505,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/centerpoint-energy-stock-rises-on-regulated-utility-earnings/69799506",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T023925",
-      "sentiment_score": 0.40001,
+      "sentiment_score": 0.400094,
       "sentiment_label": "Bullish",
       "tickers": [
         "CNP"
@@ -460,7 +524,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/wynn-resorts-stock-trades-steady-as-macau-recovery-supports-earnings/69799491",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T023705",
-      "sentiment_score": 0.354618,
+      "sentiment_score": 0.35114,
       "sentiment_label": "Bullish",
       "tickers": [
         "WYNN",
@@ -482,7 +546,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/dupont-stock-trades-steady-as-recent-earnings-and-portfolio-moves-shape/69799442",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T022626",
-      "sentiment_score": 0.347089,
+      "sentiment_score": 0.344096,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "DD"
@@ -502,7 +566,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3352429/rbc-capital-sticks-to-their-buy-rating-for-weyerhaeuser-wy/",
       "source": "The Globe and Mail",
       "published_at": "20260719T020904",
-      "sentiment_score": 0.204378,
+      "sentiment_score": 0.203994,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "WY",
@@ -518,32 +582,12 @@
       "is_noise": false
     },
     {
-      "title": "WEC Energy Group stock holds steady on recent earnings",
-      "summary": "WEC Energy Group's stock valuation is firmly based on its 2025 financial performance, which includes revenues of $5.9 billion, a net income of $1.2 billion, and diluted EPS of $...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/wec-energy-group-stock-holds-steady-on-recent-earnings/69799317",
-      "source": "ad-hoc-news.de",
-      "published_at": "20260719T020400",
-      "sentiment_score": 0.334327,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "WEC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Energy Transportation"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
       "title": "Trimble stock trades steady as investors weigh recent earnings and positioning in construction techn",
       "summary": "Trimble Inc. stock is trading steadily as investors evaluate the company's recent earnings and its strategic position in the construction and geospatial technology sectors. The...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/trimble-stock-trades-steady-as-investors-weigh-recent-earnings-and/69799971",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T034108",
-      "sentiment_score": 0.328126,
+      "sentiment_score": 0.346994,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "TRMB"
@@ -564,7 +608,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/oneok-stock-trades-near-highs-as-energy-demand-supports-revenue-growth/69800052",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T035035",
-      "sentiment_score": 0.464131,
+      "sentiment_score": 0.478365,
       "sentiment_label": "Bullish",
       "tickers": [
         "OKE"
@@ -583,7 +627,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/crown-castle-stock-trades-steady-as-investors-weigh-tower-demand-and/69799894",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T033218",
-      "sentiment_score": 0.300584,
+      "sentiment_score": 0.337429,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CCI"
@@ -604,7 +648,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/davita-stock-trades-steadily-as-dialysis-margins-and-leverage-stay-in/69799108",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T032300",
-      "sentiment_score": 0.206238,
+      "sentiment_score": 0.189334,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "DVA"
@@ -624,7 +668,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/mgm-resorts-stock-trades-near-yearly-range-as-las-vegas-recovery-supports/69799453",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T022915",
-      "sentiment_score": 0.385161,
+      "sentiment_score": 0.387917,
       "sentiment_label": "Bullish",
       "tickers": [
         "MGM",
@@ -646,7 +690,7 @@
       "url": "https://simplywall.st/stocks/us/materials/nyse-axta/axalta-coating-systems/news/is-axalta-coating-systems-axta-still-below-fair-value-follow",
       "source": "Simply Wall Street",
       "published_at": "20260719T022031",
-      "sentiment_score": 0.001753,
+      "sentiment_score": 0.043668,
       "sentiment_label": "Neutral",
       "tickers": [
         "AXTA"
@@ -660,64 +704,41 @@
       "is_noise": false
     },
     {
-      "title": "Mettler-Toledo stock trades steadily as margin focus follows recent earnings",
-      "summary": "Mettler-Toledo stock is trading steadily, reflecting a balance between solid earnings growth and an increased focus on margins and cash flow. The company, a global specialist in...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/mettler-toledo-stock-trades-steadily-as-margin-focus-follows-recent/69799269",
-      "source": "ad-hoc-news.de",
-      "published_at": "20260719T015621",
-      "sentiment_score": 0.420242,
-      "sentiment_label": "Bullish",
+      "title": "Contango ORE Updates Corporate Presentation and Disclosures",
+      "summary": "Contango ORE (CTGO) has updated its corporate presentation, which now includes non-GAAP financial measures without full GAAP reconciliations, and provides extensive technical an...",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3351448/contango-ore-updates-corporate-presentation-and-disclosures/",
+      "source": "The Globe and Mail",
+      "published_at": "20260719T044058",
+      "sentiment_score": -0.25901,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "MTD"
+        "CTGO"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Life Sciences",
-        "Manufacturing",
-        "Technology"
+        "Finance"
       ],
-      "quality_score": 7,
+      "quality_score": 6,
       "is_noise": false
     },
     {
-      "title": "United Rentals stock trades near record levels as solid earnings and cash flow support valuation",
-      "summary": "United Rentals (URI) stock is trading near record levels, driven by resilient demand for equipment rentals, robust earnings, strong free cash flow, and effective capital allocat...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/united-rentals-stock-trades-near-record-levels-as-solid-earnings-and-cash/69799250",
+      "title": "Arch Capital Group stock steadies as underwriting and investment income build earnings momentum",
+      "summary": "Arch Capital Group's stock is stabilizing due to strong underwriting and rising investment income. The company reported double-digit premium growth and an increase in net earnin...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/arch-capital-group-stock-steadies-as-underwriting-and-investment-income/69800148",
       "source": "ad-hoc-news.de",
-      "published_at": "20260719T015156",
-      "sentiment_score": 0.71936,
+      "published_at": "20260719T042256",
+      "sentiment_score": 0.479168,
       "sentiment_label": "Bullish",
       "tickers": [
-        "URI"
+        "ACGL"
       ],
       "topics": [
         "Earnings",
-        "Real Estate",
-        "Economy Macro",
         "Finance",
-        "Manufacturing"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Boston Scientific stock trades steady as latest earnings highlight growth and margin focus",
-      "summary": "Boston Scientific (NYSE: BSX) has demonstrated solid financial performance, with fiscal 2025 net sales reaching approximately $16.0 billion, a 10% increase from 2024, driven by...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/boston-scientific-stock-trades-steady-as-latest-earnings-highlight-growth/69799221",
-      "source": "ad-hoc-news.de",
-      "published_at": "20260719T014513",
-      "sentiment_score": 0.463338,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "BSX"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
         "Financial Markets"
       ],
-      "quality_score": 7,
+      "quality_score": 6,
       "is_noise": false
     },
     {
@@ -726,7 +747,7 @@
       "url": "https://www.fool.com/investing/2026/07/19/alphabets-stock-is-a-must-buy-before-july-22/",
       "source": "The Motley Fool",
       "published_at": "20260719T040555",
-      "sentiment_score": 0.041802,
+      "sentiment_score": 0.026979,
       "sentiment_label": "Neutral",
       "tickers": [
         "GOOGL"
@@ -745,7 +766,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/steris-stock-trades-steadily-as-infection-prevention-demand-supports/69799769",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T031643",
-      "sentiment_score": 0.499545,
+      "sentiment_score": 0.471786,
       "sentiment_label": "Bullish",
       "tickers": [
         "STE"
@@ -764,7 +785,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/gen-digital-stock-extends-focus-on-earnings-strength/69799582",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T030750",
-      "sentiment_score": 0.645998,
+      "sentiment_score": 0.647201,
       "sentiment_label": "Bullish",
       "tickers": [
         "GEN"
@@ -783,7 +804,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/jack-henry-and-associates-stock-trades-steady-as-recurring-revenue/69799596",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T025503",
-      "sentiment_score": 0.310746,
+      "sentiment_score": 0.310479,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "JKHY",
@@ -804,8 +825,8 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/martin-marietta-stock-trades-near-record-levels-as-construction-demand/69799551",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T024814",
-      "sentiment_score": 0.359936,
-      "sentiment_label": "Bullish",
+      "sentiment_score": 0.3461,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "MLM",
         "VMC",
@@ -827,7 +848,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ulta-beauty-stock-trades-steady-as-recent-earnings-and-loyalty-growth/69799550",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T024654",
-      "sentiment_score": 0.448886,
+      "sentiment_score": 0.405882,
       "sentiment_label": "Bullish",
       "tickers": [
         "ULTA"
@@ -848,29 +869,10 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/duke-energy-stock-trades-steady-as-regulated-earnings-underpin-valuation/69799479",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T023334",
-      "sentiment_score": 0.326248,
+      "sentiment_score": 0.31481,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "DUK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Expeditors stock trades steadily as revenue growth and margins shape investor focus",
-      "summary": "Expeditors International of Washington Inc. (ISIN US3021301094) stock trades steadily, reflecting a balance of top-line growth and disciplined margins in the volatile global log...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/expeditors-stock-trades-steadily-as-revenue-growth-and-margins-shape/69799211",
-      "source": "ad-hoc-news.de",
-      "published_at": "20260719T020748",
-      "sentiment_score": 0.31198,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "EXPD"
       ],
       "topics": [
         "Earnings",
@@ -886,7 +888,7 @@
       "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-algn/align-technology/news/how-investors-may-respond-to-align-technology-algn-losing-it",
       "source": "Simply Wall Street",
       "published_at": "20260719T033903",
-      "sentiment_score": -0.119712,
+      "sentiment_score": -0.140274,
       "sentiment_label": "Neutral",
       "tickers": [
         "ALGN"
@@ -906,7 +908,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/aerovironment-ceo-wahid-nawabi-sells-195349878.html",
       "source": "Yahoo Finance",
       "published_at": "20260719T031008",
-      "sentiment_score": 0.218847,
+      "sentiment_score": 0.201431,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "AVAV"
@@ -924,7 +926,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/american-tower-stock-holds-its-ground-as-tower-reit-focuses-on-cash-flow/69799525",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T024304",
-      "sentiment_score": 0.400762,
+      "sentiment_score": 0.389072,
       "sentiment_label": "Bullish",
       "tickers": [
         "AMT"
@@ -940,12 +942,31 @@
       "is_noise": false
     },
     {
+      "title": "CareDx (CDNA) Is Up 39.4% After Final Medicare Coverage Clarifies Transplant Test Reimbursement Limits",
+      "summary": "CareDx (CDNA) saw its stock rise by 39.4% after securing a final Medicare Local Coverage Determination. This decision clarifies reimbursement and test frequencies for its AlloSu...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-cdna/caredx/news/caredx-cdna-is-up-394-after-final-medicare-coverage-clarifie",
+      "source": "Simply Wall Street",
+      "published_at": "20260719T023946",
+      "sentiment_score": 0.438952,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "CDNA"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
       "title": "Is June’s 10.6% Sales Jump and Dividend Payout Altering The Investment Case For Costco Wholesale (COST)?",
       "summary": "Costco Wholesale reported a 10.6% increase in net sales for June, reaching US$29.24 billion, reinforcing its robust membership-fee model. This strong performance and a recently...",
       "url": "https://simplywall.st/stocks/us/consumer-retailing/nasdaq-cost/costco-wholesale/news/is-junes-106-sales-jump-and-dividend-payout-altering-the-inv",
       "source": "Simply Wall Street",
       "published_at": "20260719T023826",
-      "sentiment_score": 0.205274,
+      "sentiment_score": 0.213886,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "COST",
@@ -962,30 +983,12 @@
       "is_noise": false
     },
     {
-      "title": "Fifth Third (FITB) Wins Euromoney Best Bank Award In The United States",
-      "summary": "Fifth Third Bancorp (NYSE:FITB) has received the \"United States' Best Bank\" award from Euromoney for 2026, marking its first time achieving this recognition. The award highlight...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fifth-third-fitb-wins-euromoney-020626480.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260719T020541",
-      "sentiment_score": 0.421556,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "FITB"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
       "title": "Marathon Petroleum stock trades steadily as refining margins and shareholder returns support valuati",
       "summary": "Marathon Petroleum's stock performance is supported by strong cash generation from its refining and midstream operations, which include significant share repurchases and dividen...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/marathon-petroleum-stock-trades-steadily-as-refining-margins-and/69799532",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T024314",
-      "sentiment_score": 0.410446,
+      "sentiment_score": 0.440461,
       "sentiment_label": "Bullish",
       "tickers": [
         "MPC"
@@ -1004,7 +1007,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/huntington-ingalls-stock-holds-steady-as-shipbuilder-balances-defense/69799521",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T024154",
-      "sentiment_score": 0.402516,
+      "sentiment_score": 0.422733,
       "sentiment_label": "Bullish",
       "tickers": [
         "HII",
@@ -1020,18 +1023,40 @@
     }
   ],
   "article_count": 50,
-  "top_ticker": "NUE",
+  "top_ticker": "GE",
   "top_topic": "Earnings",
   "dominant_sentiment": "Somewhat-Bullish",
-  "top_story": "Skyworks Solutions stock trades steady as earnings and margin trends shape the outlook",
+  "top_story": "General Electric (GE) Beats Q2 Expectations And Raises 2026 Outlook",
   "signal_articles": [
+    {
+      "title": "General Electric (GE) Beats Q2 Expectations And Raises 2026 Outlook",
+      "summary": "General Electric (GE) Aerospace reported Q2 results that exceeded expectations and raised its full-year 2026 outlook due to strong demand in commercial engines, services, and de...",
+      "url": "https://uk.finance.yahoo.com/news/general-electric-ge-beats-q2-041449677.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260719T041357",
+      "sentiment_score": 0.306148,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GE",
+        "RTX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Energy Transportation",
+        "Manufacturing"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
     {
       "title": "Skyworks Solutions stock trades steady as earnings and margin trends shape the outlook",
       "summary": "Skyworks Solutions' stock performance reflects a balance between recent earnings trends, margin development, and future guidance, with investors closely watching wireless and in...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/skyworks-solutions-stock-trades-steady-as-earnings-and-margin-trends-shape/69799588",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T035342",
-      "sentiment_score": 0.119287,
+      "sentiment_score": 0.105356,
       "sentiment_label": "Neutral",
       "tickers": [
         "SWKS"
@@ -1052,7 +1077,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-watch-crown-holdings-cck-034901762.html",
       "source": "Yahoo Finance",
       "published_at": "20260719T034843",
-      "sentiment_score": 0.137201,
+      "sentiment_score": 0.137814,
       "sentiment_label": "Neutral",
       "tickers": [
         "CCK",
@@ -1074,7 +1099,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/simon-property-group-stock-steadies-as-investors-weigh-q1-2026-earnings/69799967",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T033954",
-      "sentiment_score": 0.342434,
+      "sentiment_score": 0.349671,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "SPG"
@@ -1095,7 +1120,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/occidental-petroleum-stock-trades-steadily-as-investors-weigh-oil-prices/69799470",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T023128",
-      "sentiment_score": 0.171921,
+      "sentiment_score": 0.179639,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "OXY"
@@ -1109,12 +1134,31 @@
       "is_noise": false
     },
     {
+      "title": "Teledyne Technologies stock edges higher as Q1 2026 earnings show revenue growth and margin pressure",
+      "summary": "Teledyne Technologies reported increased revenue but lower net income in Q1 2026, primarily due to integration and financing costs from recent acquisitions. Despite this, demand...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/teledyne-technologies-stock-edges-higher-as-q1-2026-earnings-show-revenue/69800253",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260719T045305",
+      "sentiment_score": 0.135053,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TDY"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
       "title": "Nucor stock trades steadily as steel demand and recent earnings shape expectations",
       "summary": "The article analyzes Nucor's stock performance in the context of US steel demand, manufacturing, and infrastructure spending. It delves into the company's revenue, profit, shipm...",
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/nucor-stock-trades-steadily-as-steel-demand-and-recent-earnings-shape/69799926",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T033500",
-      "sentiment_score": 0.343149,
+      "sentiment_score": 0.337199,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "NUE"
@@ -1135,7 +1179,7 @@
       "url": "https://au.finance.yahoo.com/news/expect-bok-financial-bokf-q2-030901897.html",
       "source": "Yahoo Finance Australia",
       "published_at": "20260719T030906",
-      "sentiment_score": 0.177676,
+      "sentiment_score": 0.174565,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "BOKF",
@@ -1153,33 +1197,12 @@
       "is_noise": false
     },
     {
-      "title": "Lowe's stock trades steady as home improvement demand supports earnings",
-      "summary": "Lowe's stock is supported by strong demand in the U.S. home improvement market, evidenced by multi-billion dollar annual sales and robust profit margins, even as the housing mar...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/lowe-s-stock-trades-steady-as-home-improvement-demand-supports-earnings/69799230",
-      "source": "ad-hoc-news.de",
-      "published_at": "20260719T014801",
-      "sentiment_score": 0.412197,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "LOW"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale",
-        "Financial Markets",
-        "Real Estate",
-        "Economy Macro"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
       "title": "Check Point Software Technologies (CHKP) Following The Raymond James Downgrade Is It Fully Valued",
       "summary": "Check Point Software Technologies (CHKP) was downgraded to Market Perform by Raymond James due to weakening business trends and execution issues. Despite a recent short-term reb...",
       "url": "https://simplywall.st/stocks/us/software/nasdaq-chkp/check-point-software-technologies/news/check-point-software-technologies-chkp-following-the-raymond",
       "source": "Simply Wall Street",
       "published_at": "20260719T041140",
-      "sentiment_score": -0.05859,
+      "sentiment_score": -0.029996,
       "sentiment_label": "Neutral",
       "tickers": [
         "CHKP",
@@ -1199,7 +1222,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/corning-stock-trades-steady-as-specialty-materials-demand-supports-revenue/69800038",
       "source": "ad-hoc-news.de",
       "published_at": "20260719T034800",
-      "sentiment_score": 0.624009,
+      "sentiment_score": 0.619775,
       "sentiment_label": "Bullish",
       "tickers": [
         "GLW"
@@ -1213,30 +1236,13 @@
       ],
       "quality_score": 10,
       "is_noise": false
-    },
-    {
-      "title": "Parker-Hannifin stock holds near record territory as recent earnings highlight margin strength",
-      "summary": "Parker-Hannifin's stock is trading near record highs, driven by double-digit profit growth, robust order trends, and strong margin performance in fiscal 2025. The company report...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/parker-hannifin-stock-holds-near-record-territory-as-recent-earnings/69799986",
-      "source": "ad-hoc-news.de",
-      "published_at": "20260719T034242",
-      "sentiment_score": 0.440308,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "PH"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Economy Macro",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
     }
   ],
   "top_tickers": [
+    {
+      "ticker": "GE",
+      "mentions": 2
+    },
     {
       "ticker": "NUE",
       "mentions": 2
@@ -1252,10 +1258,6 @@
     {
       "ticker": "WYNN",
       "mentions": 2
-    },
-    {
-      "ticker": "LVS",
-      "mentions": 2
     }
   ],
   "top_topics": [
@@ -1265,15 +1267,15 @@
     },
     {
       "topic": "Financial Markets",
-      "mentions": 46
+      "mentions": 48
     },
     {
       "topic": "Economy Macro",
-      "mentions": 23
+      "mentions": 22
     },
     {
       "topic": "Finance",
-      "mentions": 19
+      "mentions": 20
     },
     {
       "topic": "Technology",
@@ -1287,34 +1289,38 @@
     },
     {
       "label": "Bullish",
-      "count": 21
+      "count": 19
     },
     {
       "label": "Neutral",
-      "count": 8
+      "count": 9
+    },
+    {
+      "label": "Somewhat-Bearish",
+      "count": 1
     }
   ],
   "top_sources": [
     {
       "source": "ad-hoc-news.de",
-      "count": 40
+      "count": 38
     },
     {
       "source": "Simply Wall Street",
-      "count": 4
+      "count": 5
     },
     {
       "source": "Yahoo Finance",
-      "count": 3
-    },
-    {
-      "source": "Yahoo Finance Australia",
-      "count": 1
+      "count": 2
     },
     {
       "source": "The Globe and Mail",
+      "count": 2
+    },
+    {
+      "source": "Yahoo Finance UK",
       "count": 1
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with NUE appearing most often and the headline tone mostly somewhat-bullish."
+  "takeaway": "News flow is centered on Earnings, with GE appearing most often and the headline tone mostly somewhat-bullish."
 }
