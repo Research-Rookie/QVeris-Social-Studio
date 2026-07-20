@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-07-19T05:17:14.666678+00:00",
-  "date": "2026-07-19",
+  "updated_at": "2026-07-20T05:34:39.883106+00:00",
+  "date": "2026-07-20",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "GE",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.4809,
-  "baseline_label": "2026-07-18",
+  "symbol": "GPC",
+  "shift_label": "Bullish momentum cooling",
+  "sentiment_delta": -0.1845,
+  "baseline_label": "2026-07-15",
   "current": {
-    "date": "2026-07-19",
-    "symbol": "GE",
+    "date": "2026-07-20",
+    "symbol": "GPC",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.3061,
+    "sentiment_score": 0.218,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,7 +21,85 @@
         "count": 1
       },
       {
+        "label": "Retail Wholesale",
+        "count": 1
+      },
+      {
         "label": "Financial Markets",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "parts",
+        "count": 3
+      },
+      {
+        "label": "genuine",
+        "count": 2
+      },
+      {
+        "label": "earnings",
+        "count": 2
+      },
+      {
+        "label": "what",
+        "count": 1
+      },
+      {
+        "label": "look",
+        "count": 1
+      },
+      {
+        "label": "for",
+        "count": 1
+      },
+      {
+        "label": "auto",
+        "count": 1
+      },
+      {
+        "label": "industrial",
+        "count": 1
+      },
+      {
+        "label": "retailer",
+        "count": 1
+      },
+      {
+        "label": "set",
+        "count": 1
+      },
+      {
+        "label": "tuesday",
+        "count": 1
+      },
+      {
+        "label": "open",
+        "count": 1
+      }
+    ],
+    "headline": "Genuine Parts Earnings: What To Look For From GPC",
+    "headline_source": "StockStory"
+  },
+  "previous": {
+    "date": "2026-07-15",
+    "symbol": "GPC",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.4025,
+    "top_theme": "Retail Wholesale",
+    "themes": [
+      {
+        "label": "Retail Wholesale",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Earnings",
         "count": 1
       },
       {
@@ -31,155 +109,80 @@
       {
         "label": "Energy Transportation",
         "count": 1
-      },
-      {
-        "label": "Manufacturing",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "general",
+        "label": "reilly",
         "count": 2
       },
       {
-        "label": "electric",
+        "label": "automotive",
         "count": 2
       },
       {
-        "label": "expectations",
+        "label": "leading",
         "count": 2
       },
       {
-        "label": "outlook",
+        "label": "auto",
         "count": 2
       },
       {
-        "label": "beats",
+        "label": "parts",
+        "count": 2
+      },
+      {
+        "label": "retailer",
+        "count": 2
+      },
+      {
+        "label": "reflects",
         "count": 1
       },
       {
-        "label": "raises",
+        "label": "steady",
         "count": 1
       },
       {
-        "label": "aerospace",
+        "label": "growth",
         "count": 1
       },
       {
-        "label": "reported",
+        "label": "represents",
         "count": 1
       },
       {
-        "label": "results",
+        "label": "broad",
         "count": 1
       },
       {
-        "label": "exceeded",
-        "count": 1
-      },
-      {
-        "label": "raised",
-        "count": 1
-      },
-      {
-        "label": "full-year",
+        "label": "store",
         "count": 1
       }
     ],
-    "headline": "General Electric (GE) Beats Q2 Expectations And Raises 2026 Outlook",
-    "headline_source": "Yahoo Finance UK"
-  },
-  "previous": {
-    "date": "2026-07-18",
-    "symbol": "GE",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": -0.1748,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Manufacturing",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "general",
-        "count": 2
-      },
-      {
-        "label": "electric",
-        "count": 2
-      },
-      {
-        "label": "margin",
-        "count": 2
-      },
-      {
-        "label": "faces",
-        "count": 1
-      },
-      {
-        "label": "drift",
-        "count": 1
-      },
-      {
-        "label": "tests",
-        "count": 1
-      },
-      {
-        "label": "long",
-        "count": 1
-      },
-      {
-        "label": "running",
-        "count": 1
-      },
-      {
-        "label": "bullish",
-        "count": 1
-      },
-      {
-        "label": "narratives",
-        "count": 1
-      },
-      {
-        "label": "recently",
-        "count": 1
-      },
-      {
-        "label": "reported",
-        "count": 1
-      }
-    ],
-    "headline": "General Electric (GE) Stock Faces Margin Drift That Tests Long Running Bullish Narratives",
-    "headline_source": "Simply Wall Street"
+    "headline": "O'Reilly Automotive stock reflects steady growth as a leading US auto parts retailer",
+    "headline_source": "Ad-hoc-news.de"
   },
   "emerging_themes": [
-    "Economy Macro",
-    "Energy Transportation",
-    "Earnings"
+    "Earnings",
+    "Retail Wholesale",
+    "Financial Markets"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Economy Macro",
+    "Energy Transportation"
+  ],
   "emerging_keywords": [
-    "expectations",
-    "outlook",
-    "beats"
+    "genuine",
+    "earnings",
+    "parts"
   ],
   "fading_keywords": [
-    "margin",
-    "faces",
-    "drift"
+    "reilly",
+    "automotive",
+    "leading"
   ],
-  "takeaway": "GE's narrative is turning bullish: sentiment moved +0.48, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "GPC's narrative is bullish momentum cooling: sentiment moved -0.18, while the leading theme shifted from Retail Wholesale to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
