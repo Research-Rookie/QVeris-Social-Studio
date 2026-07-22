@@ -1,5 +1,83 @@
 [
   {
+    "id": "news-vs-price-reaction-ms-2026-07-22",
+    "date": "2026-07-22",
+    "runDate": "2026-07-22",
+    "createdAt": "2026-07-22T05:35:11.470108+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$MS news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-07-22.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-07-22T05:35:09.826019+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MS",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "MS",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-07-22T05:35:09.826019+00:00",
+      "date": "2026-07-22",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "MS",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "These Japanese AI winners don't make chips. They make toilets, glass fiber and seasoning",
+      "headline_source": "CNBC",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "第三方服务响应读取失败，请稍后重试",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "MS",
+            "mentions": 5
+          },
+          {
+            "ticker": "BCS",
+            "mentions": 4
+          },
+          {
+            "ticker": "GS",
+            "mentions": 4
+          },
+          {
+            "ticker": "MSFT",
+            "mentions": 4
+          },
+          {
+            "ticker": "FOREX:USD",
+            "mentions": 4
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 36
+          },
+          {
+            "label": "Neutral",
+            "count": 12
+          },
+          {
+            "label": "Bullish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "earnings-reality-check-nflx-2026-07-16",
     "date": "2026-07-21",
     "runDate": "2026-07-21",
