@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-hca-2026-07-23",
+    "date": "2026-07-23",
+    "runDate": "2026-07-23",
+    "createdAt": "2026-07-23T05:39:56.229285+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$HCA news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-07-23.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-07-23T05:39:54.600060+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$HCA",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "HCA",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-07-23T05:39:54.600060+00:00",
+      "date": "2026-07-23",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "HCA",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Will Analyst Hopes for Segment Profit Gains Change Roper Technologies' (ROP) Efficiency-Led Narrative",
+      "headline_source": "Simply Wall Street",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for HCA: {'status_code': 200, 'data': {'success': True, 'result': '## HCA - 实时行情数据\\n\\n| 股票代码 | 股票名称 | 交易时间 | 最新价（元） | 涨跌额 | 涨跌幅(%) | 成交量(股） | 成交额（元） | 开盘以来成交笔数 | 委托卖盘（元） | 委托卖盘（股） | 委托买盘（元） | 委托买盘（股） | 开盘价（元） | 最高价（元） | 最低价（元） | 总市值（万元） | 流通市值（万元） | 换手率（%） | 量比 | 总股本(万股) | 市盈率(TTM) | 市净率 | 涨停价 | 跌停价 | 是否停牌（0：否，1:是） |\\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\\n', 'error': None, 'tool_name': 'get_real_time_record', 'execution_time_ms': 26}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "HCA",
+            "mentions": 2
+          },
+          {
+            "ticker": "AMX",
+            "mentions": 2
+          },
+          {
+            "ticker": "ROP",
+            "mentions": 1
+          },
+          {
+            "ticker": "PLTR",
+            "mentions": 1
+          },
+          {
+            "ticker": "CRM",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 18
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 13
+          },
+          {
+            "label": "Bullish",
+            "count": 13
+          },
+          {
+            "label": "Bearish",
+            "count": 3
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-hca-2026-07-23",
     "date": "2026-07-23",
     "runDate": "2026-07-23",
