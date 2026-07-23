@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-hca-2026-07-23",
+    "date": "2026-07-23",
+    "runDate": "2026-07-23",
+    "createdAt": "2026-07-23T05:20:05.780317+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $HCA",
+    "status": "ready",
+    "tweet": "What changed in $HCA's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.44\n📌 Top theme: Earnings\n🔎 Emerging term: earnings\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_HCA_2026-07-23.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-23T05:20:03.408303+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$HCA",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "HCA",
+    "topChangePct": -44.24,
+    "marketNarrativeShift": {
+      "updated_at": "2026-07-23T05:20:03.408303+00:00",
+      "date": "2026-07-23",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "HCA",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.4424,
+      "baseline_label": "2026-07-08",
+      "current": {
+        "date": "2026-07-23",
+        "symbol": "HCA",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.0432,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Life Sciences",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "healthcare",
+            "count": 4
+          },
+          {
+            "label": "earnings",
+            "count": 4
+          },
+          {
+            "label": "preview",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 2
+          },
+          {
+            "label": "look",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          },
+          {
+            "label": "set",
+            "count": 2
+          },
+          {
+            "label": "announce",
+            "count": 2
+          },
+          {
+            "label": "friday",
+            "count": 2
+          },
+          {
+            "label": "year-on-year",
+            "count": 2
+          },
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "growth",
+            "count": 2
+          }
+        ],
+        "headline": "HCA Healthcare (HCA) Q2 Earnings Report Preview: What To Look For",
+        "headline_source": "TradingView"
+      },
+      "previous": {
+        "date": "2026-07-08",
+        "symbol": "HCA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.4856,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "healthcare",
+            "count": 2
+          },
+          {
+            "label": "fall",
+            "count": 1
+          },
+          {
+            "label": "shouldn",
+            "count": 1
+          },
+          {
+            "label": "construed",
+            "count": 1
+          },
+          {
+            "label": "failing",
+            "count": 1
+          },
+          {
+            "label": "health",
+            "count": 1
+          },
+          {
+            "label": "remains",
+            "count": 1
+          },
+          {
+            "label": "buy",
+            "count": 1
+          },
+          {
+            "label": "despite",
+            "count": 1
+          },
+          {
+            "label": "recent",
+            "count": 1
+          },
+          {
+            "label": "underperformance",
+            "count": 1
+          },
+          {
+            "label": "improving",
+            "count": 1
+          }
+        ],
+        "headline": "HCA Healthcare Stock's Fall Shouldn't Be Construed As Failing Health (NYSE:HCA)",
+        "headline_source": "Seeking Alpha"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Life Sciences",
+        "Finance"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "earnings",
+        "healthcare",
+        "preview"
+      ],
+      "fading_keywords": [
+        "fall",
+        "shouldn",
+        "construed"
+      ],
+      "takeaway": "HCA's narrative is turning bearish: sentiment moved -0.44, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-23",
     "date": "2026-07-23",
     "runDate": "2026-07-23",

@@ -1,19 +1,97 @@
 {
-  "updated_at": "2026-07-20T05:34:39.883106+00:00",
-  "date": "2026-07-20",
+  "updated_at": "2026-07-23T05:20:03.408303+00:00",
+  "date": "2026-07-23",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "GPC",
-  "shift_label": "Bullish momentum cooling",
-  "sentiment_delta": -0.1845,
-  "baseline_label": "2026-07-15",
+  "symbol": "HCA",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.4424,
+  "baseline_label": "2026-07-08",
   "current": {
-    "date": "2026-07-20",
-    "symbol": "GPC",
+    "date": "2026-07-23",
+    "symbol": "HCA",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.0432,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 2
+      },
+      {
+        "label": "Life Sciences",
+        "count": 2
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "healthcare",
+        "count": 4
+      },
+      {
+        "label": "earnings",
+        "count": 4
+      },
+      {
+        "label": "preview",
+        "count": 2
+      },
+      {
+        "label": "what",
+        "count": 2
+      },
+      {
+        "label": "look",
+        "count": 2
+      },
+      {
+        "label": "for",
+        "count": 2
+      },
+      {
+        "label": "set",
+        "count": 2
+      },
+      {
+        "label": "announce",
+        "count": 2
+      },
+      {
+        "label": "friday",
+        "count": 2
+      },
+      {
+        "label": "year-on-year",
+        "count": 2
+      },
+      {
+        "label": "revenue",
+        "count": 2
+      },
+      {
+        "label": "growth",
+        "count": 2
+      }
+    ],
+    "headline": "HCA Healthcare (HCA) Q2 Earnings Report Preview: What To Look For",
+    "headline_source": "TradingView"
+  },
+  "previous": {
+    "date": "2026-07-08",
+    "symbol": "HCA",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.218,
+    "sentiment_score": 0.4856,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,168 +99,83 @@
         "count": 1
       },
       {
-        "label": "Retail Wholesale",
+        "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "Financial Markets",
+        "label": "Life Sciences",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "parts",
-        "count": 3
-      },
-      {
-        "label": "genuine",
+        "label": "healthcare",
         "count": 2
       },
       {
-        "label": "earnings",
-        "count": 2
-      },
-      {
-        "label": "what",
+        "label": "fall",
         "count": 1
       },
       {
-        "label": "look",
+        "label": "shouldn",
         "count": 1
       },
       {
-        "label": "for",
+        "label": "construed",
         "count": 1
       },
       {
-        "label": "auto",
+        "label": "failing",
         "count": 1
       },
       {
-        "label": "industrial",
+        "label": "health",
         "count": 1
       },
       {
-        "label": "retailer",
+        "label": "remains",
         "count": 1
       },
       {
-        "label": "set",
+        "label": "buy",
         "count": 1
       },
       {
-        "label": "tuesday",
+        "label": "despite",
         "count": 1
       },
       {
-        "label": "open",
+        "label": "recent",
+        "count": 1
+      },
+      {
+        "label": "underperformance",
+        "count": 1
+      },
+      {
+        "label": "improving",
         "count": 1
       }
     ],
-    "headline": "Genuine Parts Earnings: What To Look For From GPC",
-    "headline_source": "StockStory"
-  },
-  "previous": {
-    "date": "2026-07-15",
-    "symbol": "GPC",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.4025,
-    "top_theme": "Retail Wholesale",
-    "themes": [
-      {
-        "label": "Retail Wholesale",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      },
-      {
-        "label": "Energy Transportation",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "reilly",
-        "count": 2
-      },
-      {
-        "label": "automotive",
-        "count": 2
-      },
-      {
-        "label": "leading",
-        "count": 2
-      },
-      {
-        "label": "auto",
-        "count": 2
-      },
-      {
-        "label": "parts",
-        "count": 2
-      },
-      {
-        "label": "retailer",
-        "count": 2
-      },
-      {
-        "label": "reflects",
-        "count": 1
-      },
-      {
-        "label": "steady",
-        "count": 1
-      },
-      {
-        "label": "growth",
-        "count": 1
-      },
-      {
-        "label": "represents",
-        "count": 1
-      },
-      {
-        "label": "broad",
-        "count": 1
-      },
-      {
-        "label": "store",
-        "count": 1
-      }
-    ],
-    "headline": "O'Reilly Automotive stock reflects steady growth as a leading US auto parts retailer",
-    "headline_source": "Ad-hoc-news.de"
+    "headline": "HCA Healthcare Stock's Fall Shouldn't Be Construed As Failing Health (NYSE:HCA)",
+    "headline_source": "Seeking Alpha"
   },
   "emerging_themes": [
     "Earnings",
-    "Retail Wholesale",
-    "Financial Markets"
+    "Life Sciences",
+    "Finance"
   ],
-  "fading_themes": [
-    "Economy Macro",
-    "Energy Transportation"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "genuine",
     "earnings",
-    "parts"
+    "healthcare",
+    "preview"
   ],
   "fading_keywords": [
-    "reilly",
-    "automotive",
-    "leading"
+    "fall",
+    "shouldn",
+    "construed"
   ],
-  "takeaway": "GPC's narrative is bullish momentum cooling: sentiment moved -0.18, while the leading theme shifted from Retail Wholesale to Earnings.",
+  "takeaway": "HCA's narrative is turning bearish: sentiment moved -0.44, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
