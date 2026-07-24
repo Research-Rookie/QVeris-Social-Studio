@@ -1,5 +1,209 @@
 [
   {
+    "id": "market-narrative-shift-uri-2026-07-24",
+    "date": "2026-07-24",
+    "runDate": "2026-07-24",
+    "createdAt": "2026-07-24T05:16:27.607733+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $URI",
+    "status": "ready",
+    "tweet": "What changed in $URI's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.47\n📌 Top theme: Earnings\n🔎 Emerging term: record\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_URI_2026-07-24.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-24T05:16:25.965080+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$URI",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "URI",
+    "topChangePct": 47.370000000000005,
+    "marketNarrativeShift": {
+      "updated_at": "2026-07-24T05:16:25.965080+00:00",
+      "date": "2026-07-24",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "URI",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.4737,
+      "baseline_label": "2026-07-08",
+      "current": {
+        "date": "2026-07-24",
+        "symbol": "URI",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.8215,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Real Estate",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "united",
+            "count": 2
+          },
+          {
+            "label": "rentals",
+            "count": 2
+          },
+          {
+            "label": "record",
+            "count": 2
+          },
+          {
+            "label": "results",
+            "count": 2
+          },
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "posts",
+            "count": 1
+          },
+          {
+            "label": "raises",
+            "count": 1
+          },
+          {
+            "label": "guidance",
+            "count": 1
+          },
+          {
+            "label": "reported",
+            "count": 1
+          },
+          {
+            "label": "second-quarter",
+            "count": 1
+          },
+          {
+            "label": "total",
+            "count": 1
+          },
+          {
+            "label": "reaching",
+            "count": 1
+          }
+        ],
+        "headline": "United Rentals Posts Record Q2 Results, Raises Guidance",
+        "headline_source": "The Globe and Mail"
+      },
+      "previous": {
+        "date": "2026-07-08",
+        "symbol": "URI",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.3478,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Manufacturing",
+            "count": 1
+          },
+          {
+            "label": "Real Estate",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "united",
+            "count": 2
+          },
+          {
+            "label": "rentals",
+            "count": 2
+          },
+          {
+            "label": "buy",
+            "count": 2
+          },
+          {
+            "label": "truist",
+            "count": 2
+          },
+          {
+            "label": "financial",
+            "count": 2
+          },
+          {
+            "label": "receives",
+            "count": 1
+          },
+          {
+            "label": "jamie",
+            "count": 1
+          },
+          {
+            "label": "cook",
+            "count": 1
+          },
+          {
+            "label": "maintained",
+            "count": 1
+          },
+          {
+            "label": "rating",
+            "count": 1
+          },
+          {
+            "label": "target",
+            "count": 1
+          },
+          {
+            "label": "following",
+            "count": 1
+          }
+        ],
+        "headline": "United Rentals (URI) Receives a Buy from Truist Financial",
+        "headline_source": "The Globe and Mail"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Real Estate"
+      ],
+      "fading_themes": [
+        "Financial Markets",
+        "Manufacturing",
+        "Finance"
+      ],
+      "emerging_keywords": [
+        "record",
+        "results",
+        "revenue"
+      ],
+      "fading_keywords": [
+        "buy",
+        "truist",
+        "financial"
+      ],
+      "takeaway": "URI's narrative is turning bullish: sentiment moved +0.47, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-24",
     "date": "2026-07-24",
     "runDate": "2026-07-24",

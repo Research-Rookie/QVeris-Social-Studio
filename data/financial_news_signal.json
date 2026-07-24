@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T04:43:11.526592+00:00",
+  "updated_at": "2026-07-24T05:16:25.871497+00:00",
   "date": "2026-07-24",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
@@ -11,7 +11,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/1st-source-nasdaqsrce-releases-earnings-results-beats-expectations-by-024-eps-2026-07-23/",
       "source": "MarketBeat",
       "published_at": "20260724T023958",
-      "sentiment_score": 0.439726,
+      "sentiment_score": 0.434512,
       "sentiment_label": "Bullish",
       "tickers": [
         "SRCE"
@@ -30,7 +30,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/URI/pressreleases/3436914/united-rentals-posts-record-q2-results-raises-guidance/",
       "source": "The Globe and Mail",
       "published_at": "20260724T030854",
-      "sentiment_score": 0.848709,
+      "sentiment_score": 0.821519,
       "sentiment_label": "Bullish",
       "tickers": [
         "URI"
@@ -43,24 +43,21 @@
       "is_noise": false
     },
     {
-      "title": "Ryder System Q2 Earnings Call Highlights",
-      "summary": "Ryder System reported its seventh consecutive quarter of comparable EPS growth in Q2 2026, driven by contractual revenue, strategic initiatives, and improved used vehicle sales....",
-      "url": "https://www.marketbeat.com/instant-alerts/ryder-system-q2-earnings-call-highlights-2026-07-23/",
-      "source": "MarketBeat",
-      "published_at": "20260724T011500",
-      "sentiment_score": 0.757551,
-      "sentiment_label": "Bullish",
+      "title": "Associated Banc-Corp earnings beat by $0.01, revenue topped estimates",
+      "summary": "Associated Banc-Corp (NYSE: ASB) reported second-quarter earnings per share of $0.73, exceeding analyst estimates by $0.01. The company's revenue for the quarter was $450.44 mil...",
+      "url": "https://www.investing.com/news/earnings/associated-banccorp-earnings-beat-by-001-revenue-topped-estimates-4809975",
+      "source": "Investing.com",
+      "published_at": "20260724T042700",
+      "sentiment_score": 0.004426,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "R"
+        "ASB-P-E"
       ],
       "topics": [
         "Earnings",
-        "Energy Transportation",
-        "Finance",
-        "Financial Markets",
-        "Economy Macro"
+        "Finance"
       ],
-      "quality_score": 15,
+      "quality_score": 13,
       "is_noise": false
     },
     {
@@ -69,7 +66,7 @@
       "url": "https://simplywall.st/community/narratives/us/banks/nyse-fitb/fifth-third-bancorp/izrtg3fh-analyst-commentary-highlights-optimism-and-caution-on-fifth-third-bancorp-amid-merger-and-valuation-shifts/updates/30-the-analyst-price-target-for-fifth-third-bancorp-has-been-re",
       "source": "Simply Wall Street",
       "published_at": "20260724T034747",
-      "sentiment_score": 0.359646,
+      "sentiment_score": 0.372514,
       "sentiment_label": "Bullish",
       "tickers": [
         "FITB",
@@ -86,12 +83,73 @@
       "is_noise": false
     },
     {
+      "title": "Why Did CSX, UNP, NVCR Stocks Surge To 52-Week Highs Today?",
+      "summary": "CSX, Union Pacific (UNP), and Novocure (NVCR) stocks reached new 52-week highs following better-than-expected Q2 earnings reports. CSX benefited from strong rail demand and rais...",
+      "url": "https://www.tradingview.com/news/stocktwits:0ede0b49a094b:0-why-did-csx-unp-nvcr-stocks-surge-to-52-week-highs-today/",
+      "source": "TradingView",
+      "published_at": "20260724T034526",
+      "sentiment_score": 0.31173,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CSX",
+        "UNP",
+        "NSC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation",
+        "Life Sciences"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Zoom Video Communications, Inc. Class A (1ZM) Q4 2025 Earnings Report - Results, Call & Slides",
+      "summary": "Zoom Video Communications (1ZM) reported its Q4 2025 earnings, exceeding both EPS and revenue expectations. The company posted an actual EPS of €1.23 against a consensus of €1.1...",
+      "url": "https://www.tipranks.com/stocks/it:1zm/earnings/q4-2025-report",
+      "source": "TipRanks",
+      "published_at": "20260724T043932",
+      "sentiment_score": 0.390736,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ZM"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Newmont Corporation (NEM) Q2 2026 Earnings Call Transcript",
+      "summary": "Newmont Corporation reported strong Q2 2026 results, remaining on track for full-year guidance with 1.3 million ounces of gold production and $2.2 billion in free cash flow. The...",
+      "url": "https://news.alphastreet.com/newmont-corporation-nem-q2-2026-earnings-call-transcript/",
+      "source": "AlphaStreet",
+      "published_at": "20260724T043823",
+      "sentiment_score": 0.406054,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NEM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Finance"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
       "title": "Earnings Flash (UVE) Universal Insurance Holdings, Inc. Reports Q2 Revenue $427.0M, vs. FactSet Est of $381.6M",
       "summary": "Universal Insurance Holdings, Inc. (UVE) reported Q2 revenue of $427.0 million, significantly exceeding FactSet's estimate of $381.6 million. The company's stock symbol is UVE,...",
       "url": "https://www.marketscreener.com/news/earnings-flash-uve-universal-insurance-holdings-inc-reports-q2-revenue-427-0m-vs-factset-est-ce7f51ded08ef220",
       "source": "marketscreener.com",
       "published_at": "20260724T031104",
-      "sentiment_score": 0.412838,
+      "sentiment_score": 0.420007,
       "sentiment_label": "Bullish",
       "tickers": [
         "UVE"
@@ -105,12 +163,30 @@
       "is_noise": false
     },
     {
+      "title": "ROPER TECHNOLOGIES INC : PIPER SANDLER CUTS TARGET PRICE TO $526 FROM $540",
+      "summary": "Piper Sandler has cut its target price for Roper Technologies Inc (ROP.O) to $526 from $540. This reflects an updated analyst outlook for the company's stock. The article is a b...",
+      "url": "https://www.bitget.com/amp/news/detail/12560605537582",
+      "source": "Bitget",
+      "published_at": "20260724T023847",
+      "sentiment_score": -0.429887,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "ROP"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
       "title": "RBC Capital Remains a Hold on Upwork (UPWK)",
       "summary": "RBC Capital analyst Brad Erickson maintained a Hold rating on Upwork (UPWK) with a price target of $9.00, following the company's recent earnings report. Upwork reported a quart...",
       "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3440073/rbc-capital-remains-a-hold-on-upwork-upwk/",
       "source": "The Globe and Mail",
       "published_at": "20260724T021118",
-      "sentiment_score": -0.058406,
+      "sentiment_score": -0.06416,
       "sentiment_label": "Neutral",
       "tickers": [
         "UPWK",
@@ -131,7 +207,7 @@
       "url": "https://uk.finance.yahoo.com/news/altria-group-mo-nears-earnings-021046566.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260724T020912",
-      "sentiment_score": 0.066894,
+      "sentiment_score": 0.086051,
       "sentiment_label": "Neutral",
       "tickers": [
         "MO"
@@ -150,7 +226,7 @@
       "url": "https://www.gurufocus.com/news/8976599/digital-realty-trust-dlr-reports-strong-q2-2026-earnings-and-raises-guidance",
       "source": "GuruFocus",
       "published_at": "20260724T020731",
-      "sentiment_score": 0.518692,
+      "sentiment_score": 0.545618,
       "sentiment_label": "Bullish",
       "tickers": [
         "DLR"
@@ -170,7 +246,7 @@
       "url": "https://stocktwits.com/news-articles/markets/equity/nokia-s-massive-ai-orders-overshadow-soft-guidance-bofa-sees-upside/cZZYLRvR7Uu",
       "source": "Stocktwits",
       "published_at": "20260724T020612",
-      "sentiment_score": 0.028813,
+      "sentiment_score": 0.010153,
       "sentiment_label": "Neutral",
       "tickers": [
         "BAC"
@@ -184,41 +260,23 @@
       "is_noise": false
     },
     {
-      "title": "Principal Financial Group (PFG) Files An Early Q2 AUM Update Before Earnings",
-      "summary": "Principal Financial Group (PFG) has filed an early Form 8-K to update investors on its Q2 2026 assets under management (AUM) and segment exposure. This early disclosure aims to...",
-      "url": "https://simplywall.st/stocks/us/insurance/nasdaq-pfg/principal-financial-group/news/principal-financial-group-pfg-files-an-early-q2-aum-update-b",
+      "title": "AESI: Power Buildout And Capacity Choices Will Drive Future Upside Potential",
+      "summary": "Atlas Energy Solutions' fair value has increased to $19.92, reflecting updated assumptions and recent price target shifts. Analyst opinions are split, with some bullish on power...",
+      "url": "https://simplywall.st/community/narratives/us/energy/nyse-aesi/atlas-energy-solutions/npp0yf74-recovery-signs-will-offset-permian-challenges-amid-macroeconomic-uncertainty/updates/19-analysts-now-place-atlas-energy-solutions-fair-value-at-dollar19",
       "source": "Simply Wall Street",
-      "published_at": "20260724T013130",
-      "sentiment_score": 0.273464,
+      "published_at": "20260724T034720",
+      "sentiment_score": 0.272481,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "PFG"
+        "AESI"
       ],
       "topics": [
         "Earnings",
+        "Energy Transportation",
         "Financial Markets",
-        "Finance"
+        "Economy Macro"
       ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Rigetti Computing (NASDAQ:RGTI) Trading Down 2.5% - Here's What Happened",
-      "summary": "Rigetti Computing (NASDAQ:RGTI) shares dropped 2.5% on Thursday, trading at $14.85 with lower-than-average volume. Despite the dip, the stock maintains a \"Moderate Buy\" consensu...",
-      "url": "https://www.marketbeat.com/instant-alerts/rigetti-computing-nasdaqrgti-trading-down-25-heres-what-happened-2026-07-23/",
-      "source": "MarketBeat",
-      "published_at": "20260724T011205",
-      "sentiment_score": -0.222471,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "RGTI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": 11,
+      "quality_score": 10,
       "is_noise": false
     },
     {
@@ -227,7 +285,7 @@
       "url": "https://simplywall.st/community/narratives/us/commercial-services/nasdaq-vrsk/verisk-analytics/v7lg5zsg-vrsk-upcoming-guidance-and-investor-day-will-unlock-upside-momentum/updates/28-analysts-have-raised-the-verisk-analytics-fair-value-estimat",
       "source": "Simply Wall Street",
       "published_at": "20260724T034710",
-      "sentiment_score": 0.139988,
+      "sentiment_score": 0.13732,
       "sentiment_label": "Neutral",
       "tickers": [
         "VRSK"
@@ -242,47 +300,79 @@
       "is_noise": false
     },
     {
-      "title": "United Airlines Stock And Two Rate Sensitive Names Facing Higher Oil And Bond Pressure",
-      "summary": "Rapid shifts in Treasury yields and oil prices are pressuring debt- and energy-sensitive companies. This article highlights United Airlines, D.R. Horton, and Lennar as particula...",
-      "url": "https://simplywall.st/stocks/us/transportation/nasdaq-ual/united-airlines-holdings/news/united-airlines-stock-and-two-rate-sensitive-names-facing-hi",
-      "source": "Simply Wall Street",
-      "published_at": "20260724T013153",
-      "sentiment_score": -0.448668,
-      "sentiment_label": "Bearish",
+      "title": "American Airlines Group Inc. 2026 Q2 - Results - Earnings Call Presentation (NASDAQ:AAL) 2026-07-23",
+      "summary": "American Airlines Group Inc. (NASDAQ:AAL) published its Q2 2026 earnings call presentation on July 23, 2026. The company reported an EPS of $0.15, beating estimates by $0.10, an...",
+      "url": "https://seekingalpha.com/article/4925098-american-airlines-group-inc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "source": "Seeking Alpha",
+      "published_at": "20260724T023953",
+      "sentiment_score": 0.433535,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "UAL",
-        "DHI",
-        "LEN"
+        "AAL"
       ],
       "topics": [
-        "Financial Markets",
-        "Economy Macro",
-        "Real Estate",
-        "Energy Transportation",
-        "Earnings"
+        "Earnings",
+        "Energy Transportation"
       ],
       "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Is MGM Resorts International (MGM) Fairly Valued As Earnings Expectations Build?",
-      "summary": "MGM Resorts International is attracting investor attention ahead of its July 29 earnings report, with positive Earnings ESP and upward estimate revisions. While one popular narr...",
-      "url": "https://simplywall.st/stocks/us/consumer-services/nyse-mgm/mgm-resorts-international/news/is-mgm-resorts-international-mgm-fairly-valued-as-earnings-e",
-      "source": "Simply Wall Street",
-      "published_at": "20260724T013118",
-      "sentiment_score": 0.086528,
-      "sentiment_label": "Neutral",
+      "title": "Newmont Corporation 2026 Q2 - Results - Earnings Call Presentation (NYSE:NEM) 2026-07-23",
+      "summary": "Newmont Corporation (NYSE:NEM) released its Q2 2026 earnings call presentation, reporting an EPS of $2.10, which beat estimates by $0.11. The company's revenue for the quarter w...",
+      "url": "https://seekingalpha.com/article/4925097-newmont-corporation-2026-q2-results-earnings-call-presentation",
+      "source": "Seeking Alpha",
+      "published_at": "20260724T023823",
+      "sentiment_score": 0.175814,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "MGM",
-        "LVS",
-        "WYNN"
+        "NEM"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance"
+        "Economy Macro"
       ],
       "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "AAAC Dividend: 5.25% Yield, $0.53/Share — History & Dates",
+      "summary": "The article details the dividend information for Columbia AAA CLO ETF (AAAC), which offers a 5.25% dividend yield, equating to $0.53 per share annually. It provides a complete h...",
+      "url": "https://www.gurufocus.com/etf/AAAC/dividend",
+      "source": "GuruFocus",
+      "published_at": "20260724T044027",
+      "sentiment_score": 0.402873,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "AAAC"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Arcosa, Inc. to Announce Second Quarter 2026 Results on August 5, 2026",
+      "summary": "Arcosa, Inc. announced it would release its second quarter 2026 results on August 5, 2026, after market close. Due to a pending acquisition by CRH for $150 per share, Arcosa wil...",
+      "url": "https://www.businesswire.com/news/home/20260723558844/en/Arcosa-Inc.-to-Announce-Second-Quarter-2026-Results-on-August-5-2026",
+      "source": "Business Wire",
+      "published_at": "20260724T044007",
+      "sentiment_score": 0.32049,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ACA"
+      ],
+      "topics": [
+        "Earnings",
+        "Mergers And Acquisitions",
+        "Real Estate",
+        "Manufacturing"
+      ],
+      "quality_score": 9,
       "is_noise": false
     },
     {
@@ -291,7 +381,7 @@
       "url": "https://pluang.com/en/news-feed/dov-stock-layak-dilihat-kembali-setelah-laporan-kuartal-2-yang-kuat",
       "source": "Pluang",
       "published_at": "20260724T033135",
-      "sentiment_score": 0.88785,
+      "sentiment_score": 0.881475,
       "sentiment_label": "Bullish",
       "tickers": [
         "DOV"
@@ -310,7 +400,7 @@
       "url": "https://www.gurufocus.com/news/8976340/tim-sa-timb-stock-down-44-but-still-overvalued-gf-score-87100",
       "source": "GuruFocus",
       "published_at": "20260724T031022",
-      "sentiment_score": -0.239992,
+      "sentiment_score": -0.204906,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "TIMB"
@@ -329,7 +419,7 @@
       "url": "https://ca.finance.yahoo.com/news/top-analyst-reports-ge-aerospace-225800795.html",
       "source": "Yahoo! Finance Canada",
       "published_at": "20260724T030714",
-      "sentiment_score": 0.29822,
+      "sentiment_score": 0.2507,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CB",
@@ -352,7 +442,7 @@
       "url": "https://stocktwits.com/news-articles/markets/equity/amsl-amat-klac-lrcx-chipmaking-equipment-stocks-rise-on-intel-s-cap-ex-bump/cZZYiRkR7UD",
       "source": "Stocktwits",
       "published_at": "20260724T024408",
-      "sentiment_score": 0.35957,
+      "sentiment_score": 0.359374,
       "sentiment_label": "Bullish",
       "tickers": [
         "KLAC",
@@ -375,7 +465,7 @@
       "url": "https://news.alphastreet.com/deckers-outdoor-corporation-deck-q1-2027-earnings-call-transcript/",
       "source": "AlphaStreet",
       "published_at": "20260724T022629",
-      "sentiment_score": 0.412719,
+      "sentiment_score": 0.40658,
       "sentiment_label": "Bullish",
       "tickers": [
         "DECK"
@@ -388,69 +478,12 @@
       "is_noise": false
     },
     {
-      "title": "Spotify Technology SA (SPOT) Q3 2023 Earnings Report - Results, Call & Slides",
-      "summary": "This article details Spotify Technology SA's (SPOT) Q3 2023 earnings report. The company beat EPS expectations significantly with CHF0.31 per share against a consensus of -CHF0....",
-      "url": "https://www.tipranks.com/stocks/ch:spot/earnings/q3-2023-report",
-      "source": "TipRanks",
-      "published_at": "20260724T020058",
-      "sentiment_score": 0.045569,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SPOT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "RBC Capital Remains a Buy on Booking Holdings (BKNG)",
-      "summary": "RBC Capital maintained a Buy rating on Booking Holdings (BKNG) with a price target of $220.00, following a report from Brad Erickson. The company's recent earnings show a signif...",
-      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3440065/rbc-capital-remains-a-buy-on-booking-holdings-bkng/",
-      "source": "The Globe and Mail",
-      "published_at": "20260724T015513",
-      "sentiment_score": 0.274857,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "BKNG",
-        "GS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Norfolk Southern Posts Record Revenue as Freight Demand Strengthens",
-      "summary": "Norfolk Southern reported record second-quarter railway operating revenue of $3.5 billion, an 11% increase year-over-year, driven by increased freight volumes and higher fuel su...",
-      "url": "https://uk.finance.yahoo.com/news/norfolk-southern-posts-record-revenue-013547099.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260724T013443",
-      "sentiment_score": 0.266064,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "NSC"
-      ],
-      "topics": [
-        "Earnings",
-        "Energy Transportation",
-        "Economy Macro",
-        "Mergers And Acquisitions"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
       "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Alignment Healthcare, Inc. - ALHC",
       "summary": "Pomerantz LLP is investigating potential claims of securities fraud against Alignment Healthcare, Inc. (NASDAQ: ALHC) following allegations of \"accounting irregularities.\" A for...",
       "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-alignment-healthcare-inc---alhc-302833759.html",
       "source": "PR Newswire",
       "published_at": "20260724T021128",
-      "sentiment_score": 0.033229,
+      "sentiment_score": 0.03278,
       "sentiment_label": "Neutral",
       "tickers": [
         "ALHC"
@@ -464,12 +497,32 @@
       "is_noise": false
     },
     {
+      "title": "Amprius Technologies Inc Thailand Depositary Receipts Repr 1 Sh Financial Statements – SET:AMPX03",
+      "summary": "This article provides financial information for Amprius Technologies Inc. Thailand Depositary Receipts (SET:AMPX03) on TradingView. It covers key facts, valuation metrics, and g...",
+      "url": "https://www.tradingview.com/symbols/SET-AMPX03/financials-overview/",
+      "source": "TradingView",
+      "published_at": "20260724T043522",
+      "sentiment_score": 0.048986,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AMPX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "Western Asset Inflation Linked Income Fund To Go Ex-Dividend On July 24th, 2026 With 0.052 USD Dividend Per Share",
       "summary": "Western Asset Inflation Linked Income Fund (NYSE:WIA) has announced that it will go ex-dividend on July 24th, 2026. The fund will pay a dividend of $0.052 per share to sharehold...",
       "url": "https://www.moomoo.com/news/post/73389036/western-asset-inflation-linked-income-fund-to-go-ex-dividend",
       "source": "Moomoo",
       "published_at": "20260724T040940",
-      "sentiment_score": 0.183942,
+      "sentiment_score": 0.202668,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "WIA"
@@ -488,7 +541,7 @@
       "url": "https://www.tradingview.com/news/prnewswire:64d839003923b:0",
       "source": "TradingView",
       "published_at": "20260724T040938",
-      "sentiment_score": 0.031049,
+      "sentiment_score": 0.011533,
       "sentiment_label": "Neutral",
       "tickers": [
         "WHR"
@@ -507,7 +560,7 @@
       "url": "https://ca.finance.yahoo.com/news/heres-why-viking-therapeutics-inc-214505999.html",
       "source": "Yahoo! Finance Canada",
       "published_at": "20260724T033911",
-      "sentiment_score": 0.038363,
+      "sentiment_score": 0.039075,
       "sentiment_label": "Neutral",
       "tickers": [
         "VKTX"
@@ -526,7 +579,7 @@
       "url": "https://simplywall.st/stocks/us/healthcare/nyse-ci/cigna-group/news/cigna-ci-expands-ai-care-programs-for-customers-with-chronic",
       "source": "Simply Wall Street",
       "published_at": "20260724T022918",
-      "sentiment_score": 0.349599,
+      "sentiment_score": 0.32678,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CI",
@@ -543,40 +596,23 @@
       "is_noise": false
     },
     {
-      "title": "Sensient Technologies declares $0.41 quarterly dividend",
-      "summary": "Sensient Technologies Corporation (NYSE:SXT) has announced a quarterly cash dividend of $0.41 per share on its common stock. The dividend is scheduled to be paid on September 1,...",
-      "url": "https://www.investing.com/news/company-news/sensient-technologies-declares-041-quarterly-dividend-93CH-4810240",
-      "source": "Investing.com",
-      "published_at": "20260724T020022",
-      "sentiment_score": 0.415392,
-      "sentiment_label": "Bullish",
+      "title": "Hormel's Protein-Focused Portfolio Should Appeal to Consumers Despite Near-Term Inflation Headwinds",
+      "summary": "Hormel Foods, known for its strong presence in US shelves with popular meat-centric brands, has strategically expanded its portfolio to include non-meat protein brands and diver...",
+      "url": "https://www.morningstar.com/company-reports/1489719-hormels-protein-focused-portfolio-should-appeal-to-consumers-despite-near-term-inflation-headwinds",
+      "source": "Morningstar",
+      "published_at": "20260724T043759",
+      "sentiment_score": 0.21861,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "SXT"
+        "HRL"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
+        "Retail Wholesale",
+        "Economy Monetary",
+        "Economy Macro"
       ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Here's Why Rigetti Computing, Inc. (RGTI) Fell More Than Broader Market",
-      "summary": "Rigetti Computing, Inc. (RGTI) shares fell by 2.5% in the last trading session, underperforming the broader market. The company has seen a 22.02% loss in the past month, despite...",
-      "url": "https://uk.finance.yahoo.com/news/heres-why-rigetti-computing-inc-220007932.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260724T011205",
-      "sentiment_score": -0.15272,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "RGTI"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 7,
+      "quality_score": 6,
       "is_noise": false
     },
     {
@@ -585,7 +621,7 @@
       "url": "https://www.gurufocus.com/news/8976166/msci-inc-msci-shares-fall-32-what-gf-score-of-95-tells-investors",
       "source": "GuruFocus",
       "published_at": "20260724T040829",
-      "sentiment_score": 0.079531,
+      "sentiment_score": 0.059868,
       "sentiment_label": "Neutral",
       "tickers": [
         "MSCI"
@@ -598,12 +634,32 @@
       "is_noise": false
     },
     {
+      "title": "Nvidia Partnership Gets Amkor Technology (AMKR) Stock Trending: Here's What You Should Know",
+      "summary": "Amkor Technology (AMKR) shares rose 12.20% after hours due to a new multi-year partnership with Nvidia (NVDA). This agreement involves Nvidia prepaying to expand Amkor's U.S. ad...",
+      "url": "https://www.benzinga.com/markets/equities/26/07/60659435/amkor-stock-nvidia-partnership-what-to-know",
+      "source": "Benzinga",
+      "published_at": "20260724T034219",
+      "sentiment_score": 0.409199,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "AMKR",
+        "NVDA"
+      ],
+      "topics": [
+        "Technology",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "Tootsie Roll: Q2 Earnings Snapshot",
       "summary": "Tootsie Roll Industries Inc. (TR) reported its second-quarter earnings, amounting to $13.3 million. The confectionery company announced net income of 18 cents per share and reve...",
       "url": "https://www.ktvb.com/article/syndication/associatedpress/tootsie-roll-q2-earnings-snapshot/616-eda28a54-2cbc-40d1-a191-181a8b832dc5",
       "source": "KTVB",
       "published_at": "20260724T031106",
-      "sentiment_score": 0.10108,
+      "sentiment_score": 0.13364,
       "sentiment_label": "Neutral",
       "tickers": [
         "TR"
@@ -621,7 +677,7 @@
       "url": "https://uk.finance.yahoo.com/news/allison-transmission-holdings-alsn-could-021033629.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260724T021120",
-      "sentiment_score": 0.31833,
+      "sentiment_score": 0.343418,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ALSN",
@@ -643,7 +699,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3437467/southern-missouri-bancorp-boosts-dividend-amid-strong-results/",
       "source": "The Globe and Mail",
       "published_at": "20260724T021000",
-      "sentiment_score": 0.822396,
+      "sentiment_score": 0.802863,
       "sentiment_label": "Bullish",
       "tickers": [
         "SMBC"
@@ -656,49 +712,12 @@
       "is_noise": false
     },
     {
-      "title": "Sensient Technologies Corporation Declares Quarterly Dividend, Payable on September 1, 2026",
-      "summary": "Sensient Technologies Corporation has announced that its Board of Directors declared a regular quarterly cash dividend of $0.41 per share on its common stock. This dividend will...",
-      "url": "https://www.marketscreener.com/news/sensient-technologies-corporation-declares-quarterly-dividend-payable-on-september-1-2026-ce7f51dfd98ef527",
-      "source": "www.marketscreener.com",
-      "published_at": "20260724T014022",
-      "sentiment_score": 0.505439,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "SXT"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Rayonier stock holds steady as June quarter metrics set the tone.",
-      "summary": "Rayonier's stock performance is closely tied to its June quarter financial metrics, with investor focus on revenue, net income, and free cash flow. The article emphasizes that t...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/rayonier-stock-holds-steady-as-june-quarter-metrics-set-the-tone/69856541",
-      "source": "Ad-hoc-news.de",
-      "published_at": "20260724T013541",
-      "sentiment_score": 0.121829,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "RYN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Real Estate"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
       "title": "Moody's (MCO) Stock Looks Overvalued With Little Margin Of Safety",
       "summary": "Simply Wall St analysis suggests that Moody's (MCO) stock appears overvalued based on both its Excess Returns intrinsic value estimate and P/E ratio. The stock trades about 10%...",
       "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-mco/moodys/news/moodys-mco-stock-looks-overvalued-with-little-margin-of-safe",
       "source": "Simply Wall Street",
       "published_at": "20260724T022910",
-      "sentiment_score": -0.316232,
+      "sentiment_score": -0.286111,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "MCO",
@@ -715,32 +734,12 @@
       "is_noise": false
     },
     {
-      "title": "Cadence design systems Sr. VP Teng sells $1.5m in stock",
-      "summary": "Chin-Chi Teng, Senior Vice President at Cadence Design Systems Inc. (NASDAQ:CDNS), sold approximately $1.5 million worth of common stock on July 22, 2026, after exercising stock...",
-      "url": "https://ca.investing.com/news/stock-market-news/cadence-design-systems-sr-vp-teng-sells-15m-in-stock-93CH-4750780",
-      "source": "Investing.com Canada",
-      "published_at": "20260724T013324",
-      "sentiment_score": 0.199233,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CDNS",
-        "INTC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
       "title": "Sean Leary to Move From Ally Investor Relations to Auto Servicing",
       "summary": "Ally Financial (NYSE: ALLY) announced leadership changes, moving Sean Leary from Chief Financial Planning and Investor Relations Officer to Head of Consumer Servicing Operations...",
       "url": "https://www.stocktitan.net/news/ALLY/ally-financial-announces-investor-relations-and-consumer-servicing-hjvgfqh8pyi6.html",
       "source": "Stock Titan",
       "published_at": "20260724T041142",
-      "sentiment_score": 0.265571,
+      "sentiment_score": 0.273351,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ALLY"
@@ -758,7 +757,7 @@
       "url": "https://www.manilatimes.net/2026/07/24/tmt-newswire/globenewswire/venhub-provides-update-to-stockholders/2390683/amp",
       "source": "The Manila Times",
       "published_at": "20260724T041000",
-      "sentiment_score": 0.041492,
+      "sentiment_score": 0.013513,
       "sentiment_label": "Neutral",
       "tickers": [
         "VHUB"
@@ -777,7 +776,7 @@
       "url": "https://www.gurufocus.com/news/8976399/vf-corp-vfc-stock-down-37-but-still-overvalued-gf-score-71100",
       "source": "GuruFocus",
       "published_at": "20260724T033919",
-      "sentiment_score": -0.233274,
+      "sentiment_score": -0.235822,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "VFC"
@@ -796,7 +795,7 @@
       "url": "https://www.manilatimes.net/2026/07/24/tmt-newswire/globenewswire/wintrust-financial-corporation-announces-cash-dividends/2390688/amp",
       "source": "The Manila Times",
       "published_at": "20260724T031000",
-      "sentiment_score": 0.527117,
+      "sentiment_score": 0.518217,
       "sentiment_label": "Bullish",
       "tickers": [
         "WTFC"
@@ -814,7 +813,7 @@
       "url": "https://sg.finance.yahoo.com/news/viking-therapeutics-vktx-stock-could-021130108.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260724T023911",
-      "sentiment_score": 0.046837,
+      "sentiment_score": 0.000667,
       "sentiment_label": "Neutral",
       "tickers": [
         "VKTX"
@@ -828,24 +827,44 @@
       "is_noise": false
     },
     {
-      "title": "Packaging Corp of America shares overvalued amid rising costs despite strong shipments and stable dividends",
-      "summary": "Packaging Corporation of America (PKG) is considered overvalued despite record shipment volumes and price increases due to rising costs for freight, electricity, and other input...",
-      "url": "https://pluang.com/en/news-feed/tekanan-biaya-buat-packaging-corporation-of-america-tidak-menarik",
-      "source": "Pluang",
-      "published_at": "20260724T013826",
-      "sentiment_score": -0.44671,
-      "sentiment_label": "Bearish",
+      "title": "Adaptive Biotechnologies CSO Harlan Robins sells $10.78m in stock",
+      "summary": "Harlan S. Robins, CSO of Adaptive Biotechnologies Corp, sold approximately $10.78 million worth of company stock on July 21, 2026, after exercising stock options. These transact...",
+      "url": "https://m.investing.com/news/insider-trading-news/adaptive-biotechnologies-cso-harlan-robins-sells-1078m-in-stock-93CH-4810313?ampMode=1",
+      "source": "Investing.com",
+      "published_at": "20260724T044025",
+      "sentiment_score": -0.102457,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "PKG"
+        "ADPT"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Economy Macro",
-        "Manufacturing"
+        "Life Sciences",
+        "Finance",
+        "Technology"
       ],
-      "quality_score": 3,
-      "is_noise": false
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "AMC Entertainment (NYSE: AMC) seeks board, rights and equity plan changes",
+      "summary": "AMC Entertainment is proposing several significant governance and compensation changes for approval at its 2026 annual meeting on September 24, 2026. Key proposals include decla...",
+      "url": "https://www.stocktitan.net/sec-filings/AMC/pre-14a-amc-entertainment-holdings-inc-preliminary-proxy-statement-ef5ff7541669.html",
+      "source": "Stock Titan",
+      "published_at": "20260724T043950",
+      "sentiment_score": 0.131485,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AMC"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
     },
     {
       "title": "World Kinect (NYSE: WKC) lifts 2026 EPS outlook after record Q2 gross profit",
@@ -853,7 +872,7 @@
       "url": "https://www.stocktitan.net/sec-filings/WKC/8-k-world-kinect-corp-reports-material-event-659cdc67b74a.html",
       "source": "Stock Titan",
       "published_at": "20260724T034037",
-      "sentiment_score": 0.58189,
+      "sentiment_score": 0.593495,
       "sentiment_label": "Bullish",
       "tickers": [
         "WKC"
@@ -873,7 +892,7 @@
       "url": "https://www.stocktitan.net/sec-filings/UTHR/form-4-united-therapeutics-corp-insider-trading-activity-8057c0f0a1ce.html",
       "source": "Stock Titan",
       "published_at": "20260724T034017",
-      "sentiment_score": 0.039588,
+      "sentiment_score": 0.013624,
       "sentiment_label": "Neutral",
       "tickers": [
         "UTHR"
@@ -892,7 +911,7 @@
       "url": "https://www.stocktitan.net/sec-filings/TRNS/ars-transcat-inc-sec-filing-2b4bcbad65b9.html",
       "source": "Stock Titan",
       "published_at": "20260724T030948",
-      "sentiment_score": 0.141205,
+      "sentiment_score": 0.10289,
       "sentiment_label": "Neutral",
       "tickers": [
         "TRNS"
@@ -910,7 +929,7 @@
       "url": "https://www.stocktitan.net/sec-filings/SRCE/10-q-1st-source-corp-quarterly-earnings-report-cc79eda8120c.html",
       "source": "Stock Titan",
       "published_at": "20260724T023958",
-      "sentiment_score": 0.506213,
+      "sentiment_score": 0.530482,
       "sentiment_label": "Bullish",
       "tickers": [
         "SRCE"
@@ -924,12 +943,32 @@
       "is_noise": true
     },
     {
+      "title": "Applied optoelectronics SVP Yeh sells $154,225 in shares",
+      "summary": "Shu-Hua (Joshua) Yeh, SVP at Applied Optoelectronics (NASDAQ:AAOI), sold 1,285 shares for $154,225 under a Rule 10b5-1 plan and surrendered 4,709 shares worth $561,595 for tax w...",
+      "url": "https://m.investing.com/news/insider-trading-news/applied-optoelectronics-svp-yeh-sells-154225-in-shares-93CH-4810433?ampMode=1",
+      "source": "Investing.com",
+      "published_at": "20260724T023938",
+      "sentiment_score": 0.137579,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AAOI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology",
+        "Manufacturing"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
       "title": "Summit Therapeutics (NASDAQ: SMMT) posts loss, eyes FDA decision",
       "summary": "Summit Therapeutics reported a net loss of $215,700 for the quarter and $405,124 for the six months ended June 30, 2026, and acknowledged that its current liquidity is insuffici...",
       "url": "https://www.stocktitan.net/sec-filings/SMMT/10-q-summit-therapeutics-inc-quarterly-earnings-report-4886656e060c.html",
       "source": "Stock Titan",
       "published_at": "20260724T021018",
-      "sentiment_score": -0.330589,
+      "sentiment_score": -0.335627,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "SMMT"
@@ -940,49 +979,12 @@
       ],
       "quality_score": -10,
       "is_noise": true
-    },
-    {
-      "title": "Stonex group chief risk officer Mark Maurer sells $3.89m in stock",
-      "summary": "Mark Maurer, Chief Risk Officer at StoneX Group Inc. (NASDAQ:SNEX), sold 52,376 shares of company common stock worth approximately $3.89 million on July 22, 2026. This sale foll...",
-      "url": "https://www.investing.com/news/insider-trading-news/stonex-group-chief-risk-officer-mark-maurer-sells-389m-in-stock-93CH-4810354",
-      "source": "Investing.com",
-      "published_at": "20260724T012638",
-      "sentiment_score": -0.230446,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "SNEX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "StoneX Group CEO Philip Smith sells $3.34m in company stock",
-      "summary": "StoneX Group CEO Philip Smith sold company stock worth approximately $3.34 million on July 22, 2026, after exercising stock options. This transaction follows a significant 77% y...",
-      "url": "https://www.investing.com/news/insider-trading-news/stonex-group-ceo-philip-smith-sells-334m-in-company-stock-93CH-4810356",
-      "source": "Investing.com",
-      "published_at": "20260724T012637",
-      "sentiment_score": 0.030893,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SNEX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": -10,
-      "is_noise": true
     }
   ],
   "article_count": 50,
-  "top_ticker": "RGTI",
+  "top_ticker": "NEM",
   "top_topic": "Earnings",
-  "dominant_sentiment": "Neutral",
+  "dominant_sentiment": "Bullish",
   "top_story": "1st Source (NASDAQ:SRCE) Releases Earnings Results, Beats Expectations By $0.24 EPS",
   "signal_articles": [
     {
@@ -991,7 +993,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/1st-source-nasdaqsrce-releases-earnings-results-beats-expectations-by-024-eps-2026-07-23/",
       "source": "MarketBeat",
       "published_at": "20260724T023958",
-      "sentiment_score": 0.439726,
+      "sentiment_score": 0.434512,
       "sentiment_label": "Bullish",
       "tickers": [
         "SRCE"
@@ -1010,7 +1012,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/URI/pressreleases/3436914/united-rentals-posts-record-q2-results-raises-guidance/",
       "source": "The Globe and Mail",
       "published_at": "20260724T030854",
-      "sentiment_score": 0.848709,
+      "sentiment_score": 0.821519,
       "sentiment_label": "Bullish",
       "tickers": [
         "URI"
@@ -1023,24 +1025,21 @@
       "is_noise": false
     },
     {
-      "title": "Ryder System Q2 Earnings Call Highlights",
-      "summary": "Ryder System reported its seventh consecutive quarter of comparable EPS growth in Q2 2026, driven by contractual revenue, strategic initiatives, and improved used vehicle sales....",
-      "url": "https://www.marketbeat.com/instant-alerts/ryder-system-q2-earnings-call-highlights-2026-07-23/",
-      "source": "MarketBeat",
-      "published_at": "20260724T011500",
-      "sentiment_score": 0.757551,
-      "sentiment_label": "Bullish",
+      "title": "Associated Banc-Corp earnings beat by $0.01, revenue topped estimates",
+      "summary": "Associated Banc-Corp (NYSE: ASB) reported second-quarter earnings per share of $0.73, exceeding analyst estimates by $0.01. The company's revenue for the quarter was $450.44 mil...",
+      "url": "https://www.investing.com/news/earnings/associated-banccorp-earnings-beat-by-001-revenue-topped-estimates-4809975",
+      "source": "Investing.com",
+      "published_at": "20260724T042700",
+      "sentiment_score": 0.004426,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "R"
+        "ASB-P-E"
       ],
       "topics": [
         "Earnings",
-        "Energy Transportation",
-        "Finance",
-        "Financial Markets",
-        "Economy Macro"
+        "Finance"
       ],
-      "quality_score": 15,
+      "quality_score": 13,
       "is_noise": false
     },
     {
@@ -1049,7 +1048,7 @@
       "url": "https://simplywall.st/community/narratives/us/banks/nyse-fitb/fifth-third-bancorp/izrtg3fh-analyst-commentary-highlights-optimism-and-caution-on-fifth-third-bancorp-amid-merger-and-valuation-shifts/updates/30-the-analyst-price-target-for-fifth-third-bancorp-has-been-re",
       "source": "Simply Wall Street",
       "published_at": "20260724T034747",
-      "sentiment_score": 0.359646,
+      "sentiment_score": 0.372514,
       "sentiment_label": "Bullish",
       "tickers": [
         "FITB",
@@ -1066,12 +1065,73 @@
       "is_noise": false
     },
     {
+      "title": "Why Did CSX, UNP, NVCR Stocks Surge To 52-Week Highs Today?",
+      "summary": "CSX, Union Pacific (UNP), and Novocure (NVCR) stocks reached new 52-week highs following better-than-expected Q2 earnings reports. CSX benefited from strong rail demand and rais...",
+      "url": "https://www.tradingview.com/news/stocktwits:0ede0b49a094b:0-why-did-csx-unp-nvcr-stocks-surge-to-52-week-highs-today/",
+      "source": "TradingView",
+      "published_at": "20260724T034526",
+      "sentiment_score": 0.31173,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CSX",
+        "UNP",
+        "NSC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation",
+        "Life Sciences"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Zoom Video Communications, Inc. Class A (1ZM) Q4 2025 Earnings Report - Results, Call & Slides",
+      "summary": "Zoom Video Communications (1ZM) reported its Q4 2025 earnings, exceeding both EPS and revenue expectations. The company posted an actual EPS of €1.23 against a consensus of €1.1...",
+      "url": "https://www.tipranks.com/stocks/it:1zm/earnings/q4-2025-report",
+      "source": "TipRanks",
+      "published_at": "20260724T043932",
+      "sentiment_score": 0.390736,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ZM"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Newmont Corporation (NEM) Q2 2026 Earnings Call Transcript",
+      "summary": "Newmont Corporation reported strong Q2 2026 results, remaining on track for full-year guidance with 1.3 million ounces of gold production and $2.2 billion in free cash flow. The...",
+      "url": "https://news.alphastreet.com/newmont-corporation-nem-q2-2026-earnings-call-transcript/",
+      "source": "AlphaStreet",
+      "published_at": "20260724T043823",
+      "sentiment_score": 0.406054,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NEM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Finance"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
       "title": "Earnings Flash (UVE) Universal Insurance Holdings, Inc. Reports Q2 Revenue $427.0M, vs. FactSet Est of $381.6M",
       "summary": "Universal Insurance Holdings, Inc. (UVE) reported Q2 revenue of $427.0 million, significantly exceeding FactSet's estimate of $381.6 million. The company's stock symbol is UVE,...",
       "url": "https://www.marketscreener.com/news/earnings-flash-uve-universal-insurance-holdings-inc-reports-q2-revenue-427-0m-vs-factset-est-ce7f51ded08ef220",
       "source": "marketscreener.com",
       "published_at": "20260724T031104",
-      "sentiment_score": 0.412838,
+      "sentiment_score": 0.420007,
       "sentiment_label": "Bullish",
       "tickers": [
         "UVE"
@@ -1085,12 +1145,30 @@
       "is_noise": false
     },
     {
+      "title": "ROPER TECHNOLOGIES INC : PIPER SANDLER CUTS TARGET PRICE TO $526 FROM $540",
+      "summary": "Piper Sandler has cut its target price for Roper Technologies Inc (ROP.O) to $526 from $540. This reflects an updated analyst outlook for the company's stock. The article is a b...",
+      "url": "https://www.bitget.com/amp/news/detail/12560605537582",
+      "source": "Bitget",
+      "published_at": "20260724T023847",
+      "sentiment_score": -0.429887,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "ROP"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
       "title": "RBC Capital Remains a Hold on Upwork (UPWK)",
       "summary": "RBC Capital analyst Brad Erickson maintained a Hold rating on Upwork (UPWK) with a price target of $9.00, following the company's recent earnings report. Upwork reported a quart...",
       "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3440073/rbc-capital-remains-a-hold-on-upwork-upwk/",
       "source": "The Globe and Mail",
       "published_at": "20260724T021118",
-      "sentiment_score": -0.058406,
+      "sentiment_score": -0.06416,
       "sentiment_label": "Neutral",
       "tickers": [
         "UPWK",
@@ -1104,92 +1182,11 @@
       ],
       "quality_score": 12,
       "is_noise": false
-    },
-    {
-      "title": "Altria Group (MO) Nears Earnings, Is The Recent Rally Already Priced In?",
-      "summary": "Altria Group (MO) is approaching its July 30 earnings release with expectations of increased revenue and earnings, prompting questions about the sustainability of its recent sto...",
-      "url": "https://uk.finance.yahoo.com/news/altria-group-mo-nears-earnings-021046566.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260724T020912",
-      "sentiment_score": 0.066894,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Digital Realty Trust (DLR) Reports Strong Q2 2026 Earnings and R",
-      "summary": "Digital Realty Trust (DLR) reported strong Q2 2026 earnings with record core FFO per share and raised its full-year guidance, supported by significant hyperscale leases and expa...",
-      "url": "https://www.gurufocus.com/news/8976599/digital-realty-trust-dlr-reports-strong-q2-2026-earnings-and-raises-guidance",
-      "source": "GuruFocus",
-      "published_at": "20260724T020731",
-      "sentiment_score": 0.518692,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DLR"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Nokia's Massive AI Orders Overshadow Soft Guidance — BofA Sees 90% Upside",
-      "summary": "Bank of America has raised its price target for Nokia to $18.50, suggesting a 90% upside, despite the company's softer-than-expected Q3 guidance. This optimistic outlook is due...",
-      "url": "https://stocktwits.com/news-articles/markets/equity/nokia-s-massive-ai-orders-overshadow-soft-guidance-bofa-sees-upside/cZZYLRvR7Uu",
-      "source": "Stocktwits",
-      "published_at": "20260724T020612",
-      "sentiment_score": 0.028813,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "BAC"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Principal Financial Group (PFG) Files An Early Q2 AUM Update Before Earnings",
-      "summary": "Principal Financial Group (PFG) has filed an early Form 8-K to update investors on its Q2 2026 assets under management (AUM) and segment exposure. This early disclosure aims to...",
-      "url": "https://simplywall.st/stocks/us/insurance/nasdaq-pfg/principal-financial-group/news/principal-financial-group-pfg-files-an-early-q2-aum-update-b",
-      "source": "Simply Wall Street",
-      "published_at": "20260724T013130",
-      "sentiment_score": 0.273464,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "PFG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 11,
-      "is_noise": false
     }
   ],
   "top_tickers": [
     {
-      "ticker": "RGTI",
-      "mentions": 2
-    },
-    {
-      "ticker": "INTC",
+      "ticker": "NEM",
       "mentions": 2
     },
     {
@@ -1197,26 +1194,30 @@
       "mentions": 2
     },
     {
-      "ticker": "SXT",
-      "mentions": 2
+      "ticker": "SRCE",
+      "mentions": 1
     },
     {
-      "ticker": "SRCE",
+      "ticker": "URI",
+      "mentions": 1
+    },
+    {
+      "ticker": "ASB-P-E",
       "mentions": 1
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 43
+      "mentions": 42
     },
     {
       "topic": "Financial Markets",
-      "mentions": 29
+      "mentions": 26
     },
     {
       "topic": "Finance",
-      "mentions": 21
+      "mentions": 20
     },
     {
       "topic": "Technology",
@@ -1229,47 +1230,47 @@
   ],
   "sentiment_counts": [
     {
-      "label": "Neutral",
-      "count": 14
+      "label": "Bullish",
+      "count": 15
     },
     {
-      "label": "Bullish",
+      "label": "Neutral",
       "count": 13
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 9
+      "count": 10
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 5
+      "count": 3
     },
     {
       "label": "Bearish",
-      "count": 2
+      "count": 1
     }
   ],
   "top_sources": [
     {
       "source": "Simply Wall Street",
-      "count": 7
-    },
-    {
-      "source": "The Globe and Mail",
-      "count": 4
-    },
-    {
-      "source": "Yahoo Finance UK",
-      "count": 4
+      "count": 5
     },
     {
       "source": "GuruFocus",
-      "count": 4
+      "count": 5
     },
     {
-      "source": "MarketBeat",
+      "source": "The Globe and Mail",
       "count": 3
+    },
+    {
+      "source": "TradingView",
+      "count": 3
+    },
+    {
+      "source": "AlphaStreet",
+      "count": 2
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with RGTI appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with NEM appearing most often and the headline tone mostly bullish."
 }
