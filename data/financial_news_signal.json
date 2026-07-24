@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T05:16:25.871497+00:00",
+  "updated_at": "2026-07-24T05:36:13.545116+00:00",
   "date": "2026-07-24",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
@@ -11,7 +11,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/1st-source-nasdaqsrce-releases-earnings-results-beats-expectations-by-024-eps-2026-07-23/",
       "source": "MarketBeat",
       "published_at": "20260724T023958",
-      "sentiment_score": 0.434512,
+      "sentiment_score": 0.416247,
       "sentiment_label": "Bullish",
       "tickers": [
         "SRCE"
@@ -30,7 +30,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/URI/pressreleases/3436914/united-rentals-posts-record-q2-results-raises-guidance/",
       "source": "The Globe and Mail",
       "published_at": "20260724T030854",
-      "sentiment_score": 0.821519,
+      "sentiment_score": 0.849371,
       "sentiment_label": "Bullish",
       "tickers": [
         "URI"
@@ -48,7 +48,7 @@
       "url": "https://www.investing.com/news/earnings/associated-banccorp-earnings-beat-by-001-revenue-topped-estimates-4809975",
       "source": "Investing.com",
       "published_at": "20260724T042700",
-      "sentiment_score": 0.004426,
+      "sentiment_score": 0.00125,
       "sentiment_label": "Neutral",
       "tickers": [
         "ASB-P-E"
@@ -66,7 +66,7 @@
       "url": "https://simplywall.st/community/narratives/us/banks/nyse-fitb/fifth-third-bancorp/izrtg3fh-analyst-commentary-highlights-optimism-and-caution-on-fifth-third-bancorp-amid-merger-and-valuation-shifts/updates/30-the-analyst-price-target-for-fifth-third-bancorp-has-been-re",
       "source": "Simply Wall Street",
       "published_at": "20260724T034747",
-      "sentiment_score": 0.372514,
+      "sentiment_score": 0.352621,
       "sentiment_label": "Bullish",
       "tickers": [
         "FITB",
@@ -88,7 +88,7 @@
       "url": "https://www.tradingview.com/news/stocktwits:0ede0b49a094b:0-why-did-csx-unp-nvcr-stocks-surge-to-52-week-highs-today/",
       "source": "TradingView",
       "published_at": "20260724T034526",
-      "sentiment_score": 0.31173,
+      "sentiment_score": 0.284946,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CSX",
@@ -105,12 +105,50 @@
       "is_noise": false
     },
     {
+      "title": "AtriCure Inc (ATRC) Q2 2026 Earnings Call Highlights: Strong Revenue Growth and Profitability ...",
+      "summary": "AtriCure Inc (ATRC) reported strong Q2 2026 results with worldwide revenue growing 13% year-over-year to $154 million and a net income of $9 million. The company achieved signif...",
+      "url": "https://sg.finance.yahoo.com/news/atricure-inc-atrc-q2-2026-050128146.html",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260724T050109",
+      "sentiment_score": -0.081202,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ATRC"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "VeriSign Inc (VRSN) Q2 2026 Earnings Call Highlights: Record Domain Registrations and Strong ...",
+      "summary": "VeriSign Inc (VRSN) reported strong Q2 2026 earnings with a 6% revenue increase and 7.7% EPS growth, driven by a record 12.7 million new domain registrations. The company also a...",
+      "url": "https://uk.finance.yahoo.com/news/verisign-inc-vrsn-q2-2026-050127735.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260724T050109",
+      "sentiment_score": 0.090666,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "VRSN",
+        "INTC"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
       "title": "Zoom Video Communications, Inc. Class A (1ZM) Q4 2025 Earnings Report - Results, Call & Slides",
       "summary": "Zoom Video Communications (1ZM) reported its Q4 2025 earnings, exceeding both EPS and revenue expectations. The company posted an actual EPS of €1.23 against a consensus of €1.1...",
       "url": "https://www.tipranks.com/stocks/it:1zm/earnings/q4-2025-report",
       "source": "TipRanks",
       "published_at": "20260724T043932",
-      "sentiment_score": 0.390736,
+      "sentiment_score": 0.428167,
       "sentiment_label": "Bullish",
       "tickers": [
         "ZM"
@@ -129,7 +167,7 @@
       "url": "https://news.alphastreet.com/newmont-corporation-nem-q2-2026-earnings-call-transcript/",
       "source": "AlphaStreet",
       "published_at": "20260724T043823",
-      "sentiment_score": 0.406054,
+      "sentiment_score": 0.411411,
       "sentiment_label": "Bullish",
       "tickers": [
         "NEM"
@@ -149,7 +187,7 @@
       "url": "https://www.marketscreener.com/news/earnings-flash-uve-universal-insurance-holdings-inc-reports-q2-revenue-427-0m-vs-factset-est-ce7f51ded08ef220",
       "source": "marketscreener.com",
       "published_at": "20260724T031104",
-      "sentiment_score": 0.420007,
+      "sentiment_score": 0.431401,
       "sentiment_label": "Bullish",
       "tickers": [
         "UVE"
@@ -163,100 +201,26 @@
       "is_noise": false
     },
     {
-      "title": "ROPER TECHNOLOGIES INC : PIPER SANDLER CUTS TARGET PRICE TO $526 FROM $540",
-      "summary": "Piper Sandler has cut its target price for Roper Technologies Inc (ROP.O) to $526 from $540. This reflects an updated analyst outlook for the company's stock. The article is a b...",
-      "url": "https://www.bitget.com/amp/news/detail/12560605537582",
-      "source": "Bitget",
-      "published_at": "20260724T023847",
-      "sentiment_score": -0.429887,
-      "sentiment_label": "Bearish",
+      "title": "What TE Connectivity (TEL)'s Record Orders and Raised Outlook Mean For Shareholders",
+      "summary": "TE Connectivity reported strong Q3 2026 results with record sales and net income, driven by robust orders and a raised full-year outlook. The company's business is being reshape...",
+      "url": "https://simplywall.st/stocks/us/tech/nyse-tel/te-connectivity/news/what-te-connectivity-tels-record-orders-and-raised-outlook-m",
+      "source": "Simply Wall Street",
+      "published_at": "20260724T045556",
+      "sentiment_score": 0.327985,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "ROP"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "RBC Capital Remains a Hold on Upwork (UPWK)",
-      "summary": "RBC Capital analyst Brad Erickson maintained a Hold rating on Upwork (UPWK) with a price target of $9.00, following the company's recent earnings report. Upwork reported a quart...",
-      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3440073/rbc-capital-remains-a-hold-on-upwork-upwk/",
-      "source": "The Globe and Mail",
-      "published_at": "20260724T021118",
-      "sentiment_score": -0.06416,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "UPWK",
-        "META"
+        "TEL",
+        "NVDA",
+        "MSFT"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Altria Group (MO) Nears Earnings, Is The Recent Rally Already Priced In?",
-      "summary": "Altria Group (MO) is approaching its July 30 earnings release with expectations of increased revenue and earnings, prompting questions about the sustainability of its recent sto...",
-      "url": "https://uk.finance.yahoo.com/news/altria-group-mo-nears-earnings-021046566.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260724T020912",
-      "sentiment_score": 0.086051,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Digital Realty Trust (DLR) Reports Strong Q2 2026 Earnings and R",
-      "summary": "Digital Realty Trust (DLR) reported strong Q2 2026 earnings with record core FFO per share and raised its full-year guidance, supported by significant hyperscale leases and expa...",
-      "url": "https://www.gurufocus.com/news/8976599/digital-realty-trust-dlr-reports-strong-q2-2026-earnings-and-raises-guidance",
-      "source": "GuruFocus",
-      "published_at": "20260724T020731",
-      "sentiment_score": 0.545618,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DLR"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Nokia's Massive AI Orders Overshadow Soft Guidance — BofA Sees 90% Upside",
-      "summary": "Bank of America has raised its price target for Nokia to $18.50, suggesting a 90% upside, despite the company's softer-than-expected Q3 guidance. This optimistic outlook is due...",
-      "url": "https://stocktwits.com/news-articles/markets/equity/nokia-s-massive-ai-orders-overshadow-soft-guidance-bofa-sees-upside/cZZYLRvR7Uu",
-      "source": "Stocktwits",
-      "published_at": "20260724T020612",
-      "sentiment_score": 0.010153,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "BAC"
-      ],
-      "topics": [
-        "Earnings",
+        "Mergers And Acquisitions",
         "Technology",
-        "Financial Markets"
+        "Economy Macro",
+        "Manufacturing"
       ],
-      "quality_score": 12,
+      "quality_score": 10,
       "is_noise": false
     },
     {
@@ -265,7 +229,7 @@
       "url": "https://simplywall.st/community/narratives/us/energy/nyse-aesi/atlas-energy-solutions/npp0yf74-recovery-signs-will-offset-permian-challenges-amid-macroeconomic-uncertainty/updates/19-analysts-now-place-atlas-energy-solutions-fair-value-at-dollar19",
       "source": "Simply Wall Street",
       "published_at": "20260724T034720",
-      "sentiment_score": 0.272481,
+      "sentiment_score": 0.270167,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "AESI"
@@ -285,7 +249,7 @@
       "url": "https://simplywall.st/community/narratives/us/commercial-services/nasdaq-vrsk/verisk-analytics/v7lg5zsg-vrsk-upcoming-guidance-and-investor-day-will-unlock-upside-momentum/updates/28-analysts-have-raised-the-verisk-analytics-fair-value-estimat",
       "source": "Simply Wall Street",
       "published_at": "20260724T034710",
-      "sentiment_score": 0.13732,
+      "sentiment_score": 0.115462,
       "sentiment_label": "Neutral",
       "tickers": [
         "VRSK"
@@ -300,12 +264,35 @@
       "is_noise": false
     },
     {
+      "title": "AMSL, AMAT, KLAC, LRCX: Chipmaking Equipment Stocks Rise On Intel’s CapEx Bump",
+      "summary": "Shares of major chip equipment manufacturers rose after Intel increased its 2026 capital expenditure forecast from $18 billion to $20 billion, primarily for chipmaking tools and...",
+      "url": "https://www.tradingview.com/news/stocktwits:705281521094b:0-amsl-amat-klac-lrcx-chipmaking-equipment-stocks-rise-on-intel-s-capex-bump/",
+      "source": "TradingView",
+      "published_at": "20260724T030811",
+      "sentiment_score": 0.311472,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "KLAC",
+        "AMAT",
+        "LRCX",
+        "INTC"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets",
+        "Manufacturing"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
       "title": "American Airlines Group Inc. 2026 Q2 - Results - Earnings Call Presentation (NASDAQ:AAL) 2026-07-23",
       "summary": "American Airlines Group Inc. (NASDAQ:AAL) published its Q2 2026 earnings call presentation on July 23, 2026. The company reported an EPS of $0.15, beating estimates by $0.10, an...",
       "url": "https://seekingalpha.com/article/4925098-american-airlines-group-inc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
       "source": "Seeking Alpha",
       "published_at": "20260724T023953",
-      "sentiment_score": 0.433535,
+      "sentiment_score": 0.445997,
       "sentiment_label": "Bullish",
       "tickers": [
         "AAL"
@@ -318,22 +305,42 @@
       "is_noise": false
     },
     {
-      "title": "Newmont Corporation 2026 Q2 - Results - Earnings Call Presentation (NYSE:NEM) 2026-07-23",
-      "summary": "Newmont Corporation (NYSE:NEM) released its Q2 2026 earnings call presentation, reporting an EPS of $2.10, which beat estimates by $0.11. The company's revenue for the quarter w...",
-      "url": "https://seekingalpha.com/article/4925097-newmont-corporation-2026-q2-results-earnings-call-presentation",
-      "source": "Seeking Alpha",
-      "published_at": "20260724T023823",
-      "sentiment_score": 0.175814,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Deckers Outdoor Corp (DECK) Q1 2027 Earnings Call Highlights: Record Revenue and Strategic ...",
+      "summary": "Deckers Outdoor Corp (DECK) achieved record Q1 2027 revenue of $1.02 billion, a 5.7% increase year-over-year, driven by strong performance in its HOKA and UGG brands and signifi...",
+      "url": "https://uk.finance.yahoo.com/news/deckers-outdoor-corp-deck-q1-050140089.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260724T050031",
+      "sentiment_score": 0.484357,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "NEM"
+        "DECK"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
+        "Retail Wholesale",
+        "Finance",
         "Economy Macro"
       ],
-      "quality_score": 10,
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Associated Banc-Corp (ASB) Q2 2026 Earnings Call Highlights: Strong Loan Growth and Strategic ...",
+      "summary": "Associated Banc-Corp (ASB) announced strong Q2 2026 earnings, featuring a 15% total loan growth, including the American National acquisition, and 3% organic loan growth. The com...",
+      "url": "https://ca.finance.yahoo.com/news/associated-banc-corp-asb-q2-050044339.html",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260724T050027",
+      "sentiment_score": 0.045608,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ASB-P-F"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Mergers And Acquisitions"
+      ],
+      "quality_score": 9,
       "is_noise": false
     },
     {
@@ -342,7 +349,7 @@
       "url": "https://www.gurufocus.com/etf/AAAC/dividend",
       "source": "GuruFocus",
       "published_at": "20260724T044027",
-      "sentiment_score": 0.402873,
+      "sentiment_score": 0.387142,
       "sentiment_label": "Bullish",
       "tickers": [
         "AAAC"
@@ -361,7 +368,7 @@
       "url": "https://www.businesswire.com/news/home/20260723558844/en/Arcosa-Inc.-to-Announce-Second-Quarter-2026-Results-on-August-5-2026",
       "source": "Business Wire",
       "published_at": "20260724T044007",
-      "sentiment_score": 0.32049,
+      "sentiment_score": 0.304976,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ACA"
@@ -381,7 +388,7 @@
       "url": "https://pluang.com/en/news-feed/dov-stock-layak-dilihat-kembali-setelah-laporan-kuartal-2-yang-kuat",
       "source": "Pluang",
       "published_at": "20260724T033135",
-      "sentiment_score": 0.881475,
+      "sentiment_score": 0.851127,
       "sentiment_label": "Bullish",
       "tickers": [
         "DOV"
@@ -400,7 +407,7 @@
       "url": "https://www.gurufocus.com/news/8976340/tim-sa-timb-stock-down-44-but-still-overvalued-gf-score-87100",
       "source": "GuruFocus",
       "published_at": "20260724T031022",
-      "sentiment_score": -0.204906,
+      "sentiment_score": -0.229702,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "TIMB"
@@ -419,7 +426,7 @@
       "url": "https://ca.finance.yahoo.com/news/top-analyst-reports-ge-aerospace-225800795.html",
       "source": "Yahoo! Finance Canada",
       "published_at": "20260724T030714",
-      "sentiment_score": 0.2507,
+      "sentiment_score": 0.253847,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CB",
@@ -442,7 +449,7 @@
       "url": "https://stocktwits.com/news-articles/markets/equity/amsl-amat-klac-lrcx-chipmaking-equipment-stocks-rise-on-intel-s-cap-ex-bump/cZZYiRkR7UD",
       "source": "Stocktwits",
       "published_at": "20260724T024408",
-      "sentiment_score": 0.359374,
+      "sentiment_score": 0.370775,
       "sentiment_label": "Bullish",
       "tickers": [
         "KLAC",
@@ -460,49 +467,12 @@
       "is_noise": false
     },
     {
-      "title": "Deckers Outdoor Corporation (DECK) Q1 2027 Earnings Call Transcript",
-      "summary": "Deckers Outdoor Corporation (DECK) reported over $1 billion in Q1 2027 revenue, a 5.7% increase, with diluted EPS at 94 cents, exceeding expectations. This performance was drive...",
-      "url": "https://news.alphastreet.com/deckers-outdoor-corporation-deck-q1-2027-earnings-call-transcript/",
-      "source": "AlphaStreet",
-      "published_at": "20260724T022629",
-      "sentiment_score": 0.40658,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DECK"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Alignment Healthcare, Inc. - ALHC",
-      "summary": "Pomerantz LLP is investigating potential claims of securities fraud against Alignment Healthcare, Inc. (NASDAQ: ALHC) following allegations of \"accounting irregularities.\" A for...",
-      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-alignment-healthcare-inc---alhc-302833759.html",
-      "source": "PR Newswire",
-      "published_at": "20260724T021128",
-      "sentiment_score": 0.03278,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ALHC"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Life Sciences"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
       "title": "Amprius Technologies Inc Thailand Depositary Receipts Repr 1 Sh Financial Statements – SET:AMPX03",
       "summary": "This article provides financial information for Amprius Technologies Inc. Thailand Depositary Receipts (SET:AMPX03) on TradingView. It covers key facts, valuation metrics, and g...",
       "url": "https://www.tradingview.com/symbols/SET-AMPX03/financials-overview/",
       "source": "TradingView",
       "published_at": "20260724T043522",
-      "sentiment_score": 0.048986,
+      "sentiment_score": 0.018864,
       "sentiment_label": "Neutral",
       "tickers": [
         "AMPX"
@@ -522,7 +492,7 @@
       "url": "https://www.moomoo.com/news/post/73389036/western-asset-inflation-linked-income-fund-to-go-ex-dividend",
       "source": "Moomoo",
       "published_at": "20260724T040940",
-      "sentiment_score": 0.202668,
+      "sentiment_score": 0.212502,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "WIA"
@@ -541,7 +511,7 @@
       "url": "https://www.tradingview.com/news/prnewswire:64d839003923b:0",
       "source": "TradingView",
       "published_at": "20260724T040938",
-      "sentiment_score": 0.011533,
+      "sentiment_score": 0.033942,
       "sentiment_label": "Neutral",
       "tickers": [
         "WHR"
@@ -560,7 +530,7 @@
       "url": "https://ca.finance.yahoo.com/news/heres-why-viking-therapeutics-inc-214505999.html",
       "source": "Yahoo! Finance Canada",
       "published_at": "20260724T033911",
-      "sentiment_score": 0.039075,
+      "sentiment_score": 0.006148,
       "sentiment_label": "Neutral",
       "tickers": [
         "VKTX"
@@ -574,25 +544,99 @@
       "is_noise": false
     },
     {
-      "title": "Cigna (CI) Expands AI Care Programs For Customers With Chronic Health Needs",
-      "summary": "Cigna Healthcare is expanding its AI-enabled personalized care management programs for customers with complex or chronic health needs, leveraging artificial intelligence and pre...",
-      "url": "https://simplywall.st/stocks/us/healthcare/nyse-ci/cigna-group/news/cigna-ci-expands-ai-care-programs-for-customers-with-chronic",
-      "source": "Simply Wall Street",
-      "published_at": "20260724T022918",
-      "sentiment_score": 0.32678,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "BancFirst: Q2 Earnings Snapshot",
+      "summary": "The article provides a brief snapshot of BancFirst's (BANF) Q2 earnings. It reports an earnings per share (EPS) of $1.39 for the quarter, which did not meet the consensus estima...",
+      "url": "https://www.10tv.com/article/syndication/associatedpress/bancfirst-q2-earnings-snapshot/616-b2d56329-21c1-46a1-bab6-8035aa45eedd",
+      "source": "10TV",
+      "published_at": "20260724T051103",
+      "sentiment_score": -0.261572,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "CI",
-        "CVS",
-        "UNH"
+        "BANF"
       ],
       "topics": [
-        "Life Sciences",
-        "Technology",
-        "Finance",
-        "Earnings"
+        "Earnings",
+        "Finance"
       ],
-      "quality_score": 7,
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "ARMOUR Residential REIT Inc (ARR) Q2 2026 Earnings Call Highlights: Strong Economic Return Amid ...",
+      "summary": "ARMOUR Residential REIT Inc (ARR) reported a strong Q2 2026 with a total economic return of 4.8% and GAAP net income of $111.5 million. The company grew its asset portfolio to o...",
+      "url": "https://uk.finance.yahoo.com/news/armour-residential-reit-inc-arr-190113081.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260724T051029",
+      "sentiment_score": 0.424741,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ARR"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Economy Monetary",
+        "Real Estate"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Is Avino (TSX:ASM) Revealing a Strategic Shift Through Its Changing Silver-Gold Production Mix?",
+      "summary": "Avino Silver & Gold Mines Ltd. reported lower copper and silver output but slightly higher gold production in Q2 2026 compared to the previous year, raising questions about its...",
+      "url": "https://uk.finance.yahoo.com/news/avino-tsx-asm-revealing-strategic-200902384.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260724T050938",
+      "sentiment_score": -0.169156,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ASM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Newmont Corp (NEM) Q2 2026 Earnings Call Highlights: Record Free Cash Flow and Strategic ...",
+      "summary": "Newmont Corp (NEM) reported a strong Q2 2026, achieving record free cash flow of $2.2 billion and returning $1.9 billion to shareholders. Despite facing cost pressures from risi...",
+      "url": "https://uk.finance.yahoo.com/news/newmont-corp-nem-q2-2026-050155908.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260724T050033",
+      "sentiment_score": 0.39489,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NEM"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Digital Realty Trust Inc (DLR) Q2 2026 Earnings Call Highlights: Record Growth and Strategic ...",
+      "summary": "Digital Realty Trust Inc (DLR) reported exceptional Q2 2026 earnings, with core FFO growing 14% year-over-year to $2.13 per share and record bookings exceeding $100 million. The...",
+      "url": "https://au.finance.yahoo.com/news/digital-realty-trust-inc-dlr-050043943.html",
+      "source": "Yahoo Finance Australia",
+      "published_at": "20260724T045935",
+      "sentiment_score": 0.458724,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "DLR"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": 6,
       "is_noise": false
     },
     {
@@ -601,7 +645,7 @@
       "url": "https://www.morningstar.com/company-reports/1489719-hormels-protein-focused-portfolio-should-appeal-to-consumers-despite-near-term-inflation-headwinds",
       "source": "Morningstar",
       "published_at": "20260724T043759",
-      "sentiment_score": 0.21861,
+      "sentiment_score": 0.240316,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "HRL"
@@ -621,7 +665,7 @@
       "url": "https://www.gurufocus.com/news/8976166/msci-inc-msci-shares-fall-32-what-gf-score-of-95-tells-investors",
       "source": "GuruFocus",
       "published_at": "20260724T040829",
-      "sentiment_score": 0.059868,
+      "sentiment_score": 0.055886,
       "sentiment_label": "Neutral",
       "tickers": [
         "MSCI"
@@ -639,7 +683,7 @@
       "url": "https://www.benzinga.com/markets/equities/26/07/60659435/amkor-stock-nvidia-partnership-what-to-know",
       "source": "Benzinga",
       "published_at": "20260724T034219",
-      "sentiment_score": 0.409199,
+      "sentiment_score": 0.412425,
       "sentiment_label": "Bullish",
       "tickers": [
         "AMKR",
@@ -659,7 +703,7 @@
       "url": "https://www.ktvb.com/article/syndication/associatedpress/tootsie-roll-q2-earnings-snapshot/616-eda28a54-2cbc-40d1-a191-181a8b832dc5",
       "source": "KTVB",
       "published_at": "20260724T031106",
-      "sentiment_score": 0.13364,
+      "sentiment_score": 0.117931,
       "sentiment_label": "Neutral",
       "tickers": [
         "TR"
@@ -672,65 +716,39 @@
       "is_noise": false
     },
     {
-      "title": "Allison Transmission Holdings (ALSN) Could Be 12% Undervalued Following EAGLE V Contract Win",
-      "summary": "Allison Transmission Holdings (ALSN) has secured a significant contract to supply transmissions for EAGLE V armored vehicles, attracting investor attention. The stock is conside...",
-      "url": "https://uk.finance.yahoo.com/news/allison-transmission-holdings-alsn-could-021033629.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260724T021120",
-      "sentiment_score": 0.343418,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ALSN",
-        "GD"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Manufacturing",
-        "Energy Transportation"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Southern Missouri Bancorp Boosts Dividend Amid Strong Results",
-      "summary": "Southern Missouri Bancorp (SMBC) reported strong preliminary results for Q4 and full fiscal year 2026, with net income rising significantly, driven by higher net interest income...",
-      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3437467/southern-missouri-bancorp-boosts-dividend-amid-strong-results/",
-      "source": "The Globe and Mail",
-      "published_at": "20260724T021000",
-      "sentiment_score": 0.802863,
+      "title": "The Bull Case For Stryker (SYK) Could Change Following Mako RPS Handheld Knee Robotics Launch - Learn Why",
+      "summary": "Stryker recently launched its Mako RPS Handheld Knee Robotics system in the US, expanding its Mako ecosystem for total knee replacements. This new system, designed for wider ado...",
+      "url": "https://simplywall.st/stocks/us/healthcare/nyse-syk/stryker/news/the-bull-case-for-stryker-syk-could-change-following-mako-rp",
+      "source": "Simply Wall Street",
+      "published_at": "20260724T045557",
+      "sentiment_score": 0.418055,
       "sentiment_label": "Bullish",
       "tickers": [
-        "SMBC"
+        "SYK"
       ],
       "topics": [
-        "Earnings",
-        "Finance"
+        "Life Sciences",
+        "Earnings"
       ],
-      "quality_score": 6,
+      "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "Moody's (MCO) Stock Looks Overvalued With Little Margin Of Safety",
-      "summary": "Simply Wall St analysis suggests that Moody's (MCO) stock appears overvalued based on both its Excess Returns intrinsic value estimate and P/E ratio. The stock trades about 10%...",
-      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-mco/moodys/news/moodys-mco-stock-looks-overvalued-with-little-margin-of-safe",
-      "source": "Simply Wall Street",
-      "published_at": "20260724T022910",
-      "sentiment_score": -0.286111,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "AtriCure 2Q Net $8.96M >ATRC",
+      "summary": "This article states that AtriCure's second quarter net income was $8.96 million. The article headline seems to be the entire content provided.",
+      "url": "https://www.moomoo.com/news/post/73451220/atricure-2q-net-8-96m-atrc?futusource=news_newspage_recommend",
+      "source": "Moomoo",
+      "published_at": "20260724T051109",
+      "sentiment_score": 0.188353,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "MCO",
-        "SPGI",
-        "CME"
+        "ATRC"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Economy Macro"
+        "Life Sciences"
       ],
-      "quality_score": 4,
+      "quality_score": 3,
       "is_noise": false
     },
     {
@@ -739,7 +757,7 @@
       "url": "https://www.stocktitan.net/news/ALLY/ally-financial-announces-investor-relations-and-consumer-servicing-hjvgfqh8pyi6.html",
       "source": "Stock Titan",
       "published_at": "20260724T041142",
-      "sentiment_score": 0.273351,
+      "sentiment_score": 0.278011,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ALLY"
@@ -757,7 +775,7 @@
       "url": "https://www.manilatimes.net/2026/07/24/tmt-newswire/globenewswire/venhub-provides-update-to-stockholders/2390683/amp",
       "source": "The Manila Times",
       "published_at": "20260724T041000",
-      "sentiment_score": 0.013513,
+      "sentiment_score": 0.002835,
       "sentiment_label": "Neutral",
       "tickers": [
         "VHUB"
@@ -776,7 +794,7 @@
       "url": "https://www.gurufocus.com/news/8976399/vf-corp-vfc-stock-down-37-but-still-overvalued-gf-score-71100",
       "source": "GuruFocus",
       "published_at": "20260724T033919",
-      "sentiment_score": -0.235822,
+      "sentiment_score": -0.232609,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "VFC"
@@ -795,7 +813,7 @@
       "url": "https://www.manilatimes.net/2026/07/24/tmt-newswire/globenewswire/wintrust-financial-corporation-announces-cash-dividends/2390688/amp",
       "source": "The Manila Times",
       "published_at": "20260724T031000",
-      "sentiment_score": 0.518217,
+      "sentiment_score": 0.526028,
       "sentiment_label": "Bullish",
       "tickers": [
         "WTFC"
@@ -808,23 +826,41 @@
       "is_noise": false
     },
     {
-      "title": "Viking Therapeutics (VKTX) Stock Could Be Overvalued On Fresh Diabetes Therapy News",
-      "summary": "Viking Therapeutics (VKTX) stock has shown strong past performance but appears overvalued based on current metrics. The company's P/B ratio of 8.2x is significantly higher than...",
-      "url": "https://sg.finance.yahoo.com/news/viking-therapeutics-vktx-stock-could-021130108.html",
-      "source": "Yahoo Finance Singapore",
-      "published_at": "20260724T023911",
-      "sentiment_score": 0.000667,
+      "title": "Analog Devices to Report Third Quarter Fiscal Year 2026 Financial Results on Wednesday, August 19, 2026",
+      "summary": "Analog Devices, Inc. (ADI) announced it will release its third-quarter fiscal year 2026 financial results on Wednesday, August 19, 2026, at 7:00 a.m. Eastern time. Following the...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-report-third-quarter-200100270.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260724T030659",
+      "sentiment_score": 0.008435,
       "sentiment_label": "Neutral",
       "tickers": [
-        "VKTX"
+        "ADI"
       ],
       "topics": [
-        "Life Sciences",
-        "Financial Markets",
-        "Earnings"
+        "Earnings",
+        "Technology"
       ],
       "quality_score": 3,
       "is_noise": false
+    },
+    {
+      "title": "AmeriServ Financial (NASDAQ: ASRV) details earnings, capital and union-focused strategy",
+      "summary": "AmeriServ Financial (NASDAQ: ASRV) has released an investor update detailing its financial performance, capital strength, and a strategic focus on unions. The bank reported a $1...",
+      "url": "https://www.stocktitan.net/sec-filings/ASRV/8-k-ameriserv-financial-inc-pa-reports-material-event-11e9a886f032.html",
+      "source": "Stock Titan",
+      "published_at": "20260724T051023",
+      "sentiment_score": 0.302001,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ASRV"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
     },
     {
       "title": "Adaptive Biotechnologies CSO Harlan Robins sells $10.78m in stock",
@@ -832,7 +868,7 @@
       "url": "https://m.investing.com/news/insider-trading-news/adaptive-biotechnologies-cso-harlan-robins-sells-1078m-in-stock-93CH-4810313?ampMode=1",
       "source": "Investing.com",
       "published_at": "20260724T044025",
-      "sentiment_score": -0.102457,
+      "sentiment_score": -0.116278,
       "sentiment_label": "Neutral",
       "tickers": [
         "ADPT"
@@ -853,7 +889,7 @@
       "url": "https://www.stocktitan.net/sec-filings/AMC/pre-14a-amc-entertainment-holdings-inc-preliminary-proxy-statement-ef5ff7541669.html",
       "source": "Stock Titan",
       "published_at": "20260724T043950",
-      "sentiment_score": 0.131485,
+      "sentiment_score": 0.143124,
       "sentiment_label": "Neutral",
       "tickers": [
         "AMC"
@@ -872,7 +908,7 @@
       "url": "https://www.stocktitan.net/sec-filings/WKC/8-k-world-kinect-corp-reports-material-event-659cdc67b74a.html",
       "source": "Stock Titan",
       "published_at": "20260724T034037",
-      "sentiment_score": 0.593495,
+      "sentiment_score": 0.609316,
       "sentiment_label": "Bullish",
       "tickers": [
         "WKC"
@@ -892,7 +928,7 @@
       "url": "https://www.stocktitan.net/sec-filings/UTHR/form-4-united-therapeutics-corp-insider-trading-activity-8057c0f0a1ce.html",
       "source": "Stock Titan",
       "published_at": "20260724T034017",
-      "sentiment_score": 0.013624,
+      "sentiment_score": 0.048571,
       "sentiment_label": "Neutral",
       "tickers": [
         "UTHR"
@@ -911,7 +947,7 @@
       "url": "https://www.stocktitan.net/sec-filings/TRNS/ars-transcat-inc-sec-filing-2b4bcbad65b9.html",
       "source": "Stock Titan",
       "published_at": "20260724T030948",
-      "sentiment_score": 0.10289,
+      "sentiment_score": 0.122625,
       "sentiment_label": "Neutral",
       "tickers": [
         "TRNS"
@@ -929,7 +965,7 @@
       "url": "https://www.stocktitan.net/sec-filings/SRCE/10-q-1st-source-corp-quarterly-earnings-report-cc79eda8120c.html",
       "source": "Stock Titan",
       "published_at": "20260724T023958",
-      "sentiment_score": 0.530482,
+      "sentiment_score": 0.524936,
       "sentiment_label": "Bullish",
       "tickers": [
         "SRCE"
@@ -941,48 +977,10 @@
       ],
       "quality_score": -10,
       "is_noise": true
-    },
-    {
-      "title": "Applied optoelectronics SVP Yeh sells $154,225 in shares",
-      "summary": "Shu-Hua (Joshua) Yeh, SVP at Applied Optoelectronics (NASDAQ:AAOI), sold 1,285 shares for $154,225 under a Rule 10b5-1 plan and surrendered 4,709 shares worth $561,595 for tax w...",
-      "url": "https://m.investing.com/news/insider-trading-news/applied-optoelectronics-svp-yeh-sells-154225-in-shares-93CH-4810433?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260724T023938",
-      "sentiment_score": 0.137579,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AAOI"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Manufacturing"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Summit Therapeutics (NASDAQ: SMMT) posts loss, eyes FDA decision",
-      "summary": "Summit Therapeutics reported a net loss of $215,700 for the quarter and $405,124 for the six months ended June 30, 2026, and acknowledged that its current liquidity is insuffici...",
-      "url": "https://www.stocktitan.net/sec-filings/SMMT/10-q-summit-therapeutics-inc-quarterly-earnings-report-4886656e060c.html",
-      "source": "Stock Titan",
-      "published_at": "20260724T021018",
-      "sentiment_score": -0.335627,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "SMMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": -10,
-      "is_noise": true
     }
   ],
   "article_count": 50,
-  "top_ticker": "NEM",
+  "top_ticker": "INTC",
   "top_topic": "Earnings",
   "dominant_sentiment": "Bullish",
   "top_story": "1st Source (NASDAQ:SRCE) Releases Earnings Results, Beats Expectations By $0.24 EPS",
@@ -993,7 +991,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/1st-source-nasdaqsrce-releases-earnings-results-beats-expectations-by-024-eps-2026-07-23/",
       "source": "MarketBeat",
       "published_at": "20260724T023958",
-      "sentiment_score": 0.434512,
+      "sentiment_score": 0.416247,
       "sentiment_label": "Bullish",
       "tickers": [
         "SRCE"
@@ -1012,7 +1010,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/URI/pressreleases/3436914/united-rentals-posts-record-q2-results-raises-guidance/",
       "source": "The Globe and Mail",
       "published_at": "20260724T030854",
-      "sentiment_score": 0.821519,
+      "sentiment_score": 0.849371,
       "sentiment_label": "Bullish",
       "tickers": [
         "URI"
@@ -1030,7 +1028,7 @@
       "url": "https://www.investing.com/news/earnings/associated-banccorp-earnings-beat-by-001-revenue-topped-estimates-4809975",
       "source": "Investing.com",
       "published_at": "20260724T042700",
-      "sentiment_score": 0.004426,
+      "sentiment_score": 0.00125,
       "sentiment_label": "Neutral",
       "tickers": [
         "ASB-P-E"
@@ -1048,7 +1046,7 @@
       "url": "https://simplywall.st/community/narratives/us/banks/nyse-fitb/fifth-third-bancorp/izrtg3fh-analyst-commentary-highlights-optimism-and-caution-on-fifth-third-bancorp-amid-merger-and-valuation-shifts/updates/30-the-analyst-price-target-for-fifth-third-bancorp-has-been-re",
       "source": "Simply Wall Street",
       "published_at": "20260724T034747",
-      "sentiment_score": 0.372514,
+      "sentiment_score": 0.352621,
       "sentiment_label": "Bullish",
       "tickers": [
         "FITB",
@@ -1070,7 +1068,7 @@
       "url": "https://www.tradingview.com/news/stocktwits:0ede0b49a094b:0-why-did-csx-unp-nvcr-stocks-surge-to-52-week-highs-today/",
       "source": "TradingView",
       "published_at": "20260724T034526",
-      "sentiment_score": 0.31173,
+      "sentiment_score": 0.284946,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CSX",
@@ -1087,12 +1085,50 @@
       "is_noise": false
     },
     {
+      "title": "AtriCure Inc (ATRC) Q2 2026 Earnings Call Highlights: Strong Revenue Growth and Profitability ...",
+      "summary": "AtriCure Inc (ATRC) reported strong Q2 2026 results with worldwide revenue growing 13% year-over-year to $154 million and a net income of $9 million. The company achieved signif...",
+      "url": "https://sg.finance.yahoo.com/news/atricure-inc-atrc-q2-2026-050128146.html",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260724T050109",
+      "sentiment_score": -0.081202,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ATRC"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "VeriSign Inc (VRSN) Q2 2026 Earnings Call Highlights: Record Domain Registrations and Strong ...",
+      "summary": "VeriSign Inc (VRSN) reported strong Q2 2026 earnings with a 6% revenue increase and 7.7% EPS growth, driven by a record 12.7 million new domain registrations. The company also a...",
+      "url": "https://uk.finance.yahoo.com/news/verisign-inc-vrsn-q2-2026-050127735.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260724T050109",
+      "sentiment_score": 0.090666,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "VRSN",
+        "INTC"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
       "title": "Zoom Video Communications, Inc. Class A (1ZM) Q4 2025 Earnings Report - Results, Call & Slides",
       "summary": "Zoom Video Communications (1ZM) reported its Q4 2025 earnings, exceeding both EPS and revenue expectations. The company posted an actual EPS of €1.23 against a consensus of €1.1...",
       "url": "https://www.tipranks.com/stocks/it:1zm/earnings/q4-2025-report",
       "source": "TipRanks",
       "published_at": "20260724T043932",
-      "sentiment_score": 0.390736,
+      "sentiment_score": 0.428167,
       "sentiment_label": "Bullish",
       "tickers": [
         "ZM"
@@ -1111,7 +1147,7 @@
       "url": "https://news.alphastreet.com/newmont-corporation-nem-q2-2026-earnings-call-transcript/",
       "source": "AlphaStreet",
       "published_at": "20260724T043823",
-      "sentiment_score": 0.406054,
+      "sentiment_score": 0.411411,
       "sentiment_label": "Bullish",
       "tickers": [
         "NEM"
@@ -1131,7 +1167,7 @@
       "url": "https://www.marketscreener.com/news/earnings-flash-uve-universal-insurance-holdings-inc-reports-q2-revenue-427-0m-vs-factset-est-ce7f51ded08ef220",
       "source": "marketscreener.com",
       "published_at": "20260724T031104",
-      "sentiment_score": 0.420007,
+      "sentiment_score": 0.431401,
       "sentiment_label": "Bullish",
       "tickers": [
         "UVE"
@@ -1143,99 +1179,60 @@
       ],
       "quality_score": 12,
       "is_noise": false
-    },
-    {
-      "title": "ROPER TECHNOLOGIES INC : PIPER SANDLER CUTS TARGET PRICE TO $526 FROM $540",
-      "summary": "Piper Sandler has cut its target price for Roper Technologies Inc (ROP.O) to $526 from $540. This reflects an updated analyst outlook for the company's stock. The article is a b...",
-      "url": "https://www.bitget.com/amp/news/detail/12560605537582",
-      "source": "Bitget",
-      "published_at": "20260724T023847",
-      "sentiment_score": -0.429887,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "ROP"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "RBC Capital Remains a Hold on Upwork (UPWK)",
-      "summary": "RBC Capital analyst Brad Erickson maintained a Hold rating on Upwork (UPWK) with a price target of $9.00, following the company's recent earnings report. Upwork reported a quart...",
-      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3440073/rbc-capital-remains-a-hold-on-upwork-upwk/",
-      "source": "The Globe and Mail",
-      "published_at": "20260724T021118",
-      "sentiment_score": -0.06416,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "UPWK",
-        "META"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
     }
   ],
   "top_tickers": [
+    {
+      "ticker": "INTC",
+      "mentions": 3
+    },
+    {
+      "ticker": "ATRC",
+      "mentions": 2
+    },
     {
       "ticker": "NEM",
       "mentions": 2
     },
     {
-      "ticker": "VKTX",
+      "ticker": "NVDA",
       "mentions": 2
     },
     {
-      "ticker": "SRCE",
-      "mentions": 1
-    },
-    {
-      "ticker": "URI",
-      "mentions": 1
-    },
-    {
-      "ticker": "ASB-P-E",
-      "mentions": 1
+      "ticker": "KLAC",
+      "mentions": 2
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 42
+      "mentions": 43
     },
     {
       "topic": "Financial Markets",
-      "mentions": 26
+      "mentions": 22
     },
     {
       "topic": "Finance",
-      "mentions": 20
+      "mentions": 18
     },
     {
       "topic": "Technology",
-      "mentions": 11
+      "mentions": 12
     },
     {
       "topic": "Economy Macro",
-      "mentions": 7
+      "mentions": 8
     }
   ],
   "sentiment_counts": [
     {
       "label": "Bullish",
-      "count": 15
+      "count": 17
     },
     {
       "label": "Neutral",
-      "count": 13
+      "count": 12
     },
     {
       "label": "Somewhat-Bullish",
@@ -1243,11 +1240,7 @@
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 3
-    },
-    {
-      "label": "Bearish",
-      "count": 1
+      "count": 4
     }
   ],
   "top_sources": [
@@ -1256,21 +1249,21 @@
       "count": 5
     },
     {
-      "source": "GuruFocus",
+      "source": "Yahoo Finance UK",
       "count": 5
     },
     {
-      "source": "The Globe and Mail",
-      "count": 3
-    },
-    {
       "source": "TradingView",
-      "count": 3
+      "count": 4
     },
     {
-      "source": "AlphaStreet",
-      "count": 2
+      "source": "GuruFocus",
+      "count": 4
+    },
+    {
+      "source": "Yahoo! Finance Canada",
+      "count": 3
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with NEM appearing most often and the headline tone mostly bullish."
+  "takeaway": "News flow is centered on Earnings, with INTC appearing most often and the headline tone mostly bullish."
 }
