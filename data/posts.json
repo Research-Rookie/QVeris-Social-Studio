@@ -1,5 +1,210 @@
 [
   {
+    "id": "market-narrative-shift-amzn-2026-07-25",
+    "date": "2026-07-25",
+    "runDate": "2026-07-25",
+    "createdAt": "2026-07-25T05:00:34.374597+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $AMZN",
+    "status": "ready",
+    "tweet": "What changed in $AMZN's market narrative? 🔄\n\n🧭 Signal: Narrative steady\n💬 Sentiment shift: -0.09\n📌 Top theme: Earnings\n🔎 Emerging term: trimmed\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_AMZN_2026-07-25.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-25T05:00:31.690865+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AMZN",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Narrative steady",
+    "topSymbol": "AMZN",
+    "topChangePct": -8.76,
+    "marketNarrativeShift": {
+      "updated_at": "2026-07-25T05:00:31.690865+00:00",
+      "date": "2026-07-25",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "AMZN",
+      "shift_label": "Narrative steady",
+      "sentiment_delta": -0.0876,
+      "baseline_label": "2026-07-13",
+      "current": {
+        "date": "2026-07-25",
+        "symbol": "AMZN",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1006,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "trimmed",
+            "count": 2
+          },
+          {
+            "label": "eps",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "sea",
+            "count": 2
+          },
+          {
+            "label": "forecasts",
+            "count": 1
+          },
+          {
+            "label": "subtly",
+            "count": 1
+          },
+          {
+            "label": "challenge",
+            "count": 1
+          },
+          {
+            "label": "digital",
+            "count": 1
+          },
+          {
+            "label": "expansion",
+            "count": 1
+          },
+          {
+            "label": "narrative",
+            "count": 1
+          },
+          {
+            "label": "have",
+            "count": 1
+          },
+          {
+            "label": "recently",
+            "count": 1
+          }
+        ],
+        "headline": "Do Trimmed EPS Forecasts Before Earnings Subtly Challenge Sea’s (SE) Digital Expansion Narrative?",
+        "headline_source": "Simply Wall Street"
+      },
+      "previous": {
+        "date": "2026-07-13",
+        "symbol": "AMZN",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1882,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "wells",
+            "count": 2
+          },
+          {
+            "label": "fargo",
+            "count": 2
+          },
+          {
+            "label": "wfc",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "expect",
+            "count": 1
+          },
+          {
+            "label": "set",
+            "count": 1
+          },
+          {
+            "label": "announce",
+            "count": 1
+          },
+          {
+            "label": "tuesday",
+            "count": 1
+          },
+          {
+            "label": "open",
+            "count": 1
+          },
+          {
+            "label": "financial",
+            "count": 1
+          },
+          {
+            "label": "services",
+            "count": 1
+          }
+        ],
+        "headline": "What To Expect From Wells Fargo?s (WFC) Q2 Earnings",
+        "headline_source": "The Chronicle-Journal"
+      },
+      "emerging_themes": [
+        "Technology",
+        "Retail Wholesale",
+        "Earnings"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "trimmed",
+        "eps",
+        "sea"
+      ],
+      "fading_keywords": [
+        "wells",
+        "fargo",
+        "wfc"
+      ],
+      "takeaway": "AMZN's narrative is narrative steady: sentiment moved -0.09, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-25",
     "date": "2026-07-25",
     "runDate": "2026-07-25",

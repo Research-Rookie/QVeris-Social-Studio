@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-07-24T05:16:25.965080+00:00",
-  "date": "2026-07-24",
+  "updated_at": "2026-07-25T05:00:31.690865+00:00",
+  "date": "2026-07-25",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "URI",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.4737,
-  "baseline_label": "2026-07-08",
+  "symbol": "AMZN",
+  "shift_label": "Narrative steady",
+  "sentiment_delta": -0.0876,
+  "baseline_label": "2026-07-13",
   "current": {
-    "date": "2026-07-24",
-    "symbol": "URI",
+    "date": "2026-07-25",
+    "symbol": "AMZN",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.8215,
+    "sentiment_score": 0.1006,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,69 +21,81 @@
         "count": 1
       },
       {
-        "label": "Real Estate",
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      },
+      {
+        "label": "Retail Wholesale",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "united",
+        "label": "trimmed",
         "count": 2
       },
       {
-        "label": "rentals",
+        "label": "eps",
         "count": 2
       },
       {
-        "label": "record",
+        "label": "earnings",
         "count": 2
       },
       {
-        "label": "results",
+        "label": "sea",
         "count": 2
       },
       {
-        "label": "revenue",
-        "count": 2
-      },
-      {
-        "label": "posts",
+        "label": "forecasts",
         "count": 1
       },
       {
-        "label": "raises",
+        "label": "subtly",
         "count": 1
       },
       {
-        "label": "guidance",
+        "label": "challenge",
         "count": 1
       },
       {
-        "label": "reported",
+        "label": "digital",
         "count": 1
       },
       {
-        "label": "second-quarter",
+        "label": "expansion",
         "count": 1
       },
       {
-        "label": "total",
+        "label": "narrative",
         "count": 1
       },
       {
-        "label": "reaching",
+        "label": "have",
+        "count": 1
+      },
+      {
+        "label": "recently",
         "count": 1
       }
     ],
-    "headline": "United Rentals Posts Record Q2 Results, Raises Guidance",
-    "headline_source": "The Globe and Mail"
+    "headline": "Do Trimmed EPS Forecasts Before Earnings Subtly Challenge Sea’s (SE) Digital Expansion Narrative?",
+    "headline_source": "Simply Wall Street"
   },
   "previous": {
-    "date": "2026-07-08",
-    "symbol": "URI",
+    "date": "2026-07-13",
+    "symbol": "AMZN",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.3478,
+    "sentiment_score": 0.1882,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -95,90 +107,79 @@
         "count": 1
       },
       {
-        "label": "Manufacturing",
-        "count": 1
-      },
-      {
-        "label": "Real Estate",
-        "count": 1
-      },
-      {
         "label": "Finance",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "united",
+        "label": "wells",
         "count": 2
       },
       {
-        "label": "rentals",
+        "label": "fargo",
         "count": 2
       },
       {
-        "label": "buy",
+        "label": "wfc",
         "count": 2
       },
       {
-        "label": "truist",
+        "label": "earnings",
         "count": 2
+      },
+      {
+        "label": "what",
+        "count": 1
+      },
+      {
+        "label": "expect",
+        "count": 1
+      },
+      {
+        "label": "set",
+        "count": 1
+      },
+      {
+        "label": "announce",
+        "count": 1
+      },
+      {
+        "label": "tuesday",
+        "count": 1
+      },
+      {
+        "label": "open",
+        "count": 1
       },
       {
         "label": "financial",
-        "count": 2
-      },
-      {
-        "label": "receives",
         "count": 1
       },
       {
-        "label": "jamie",
-        "count": 1
-      },
-      {
-        "label": "cook",
-        "count": 1
-      },
-      {
-        "label": "maintained",
-        "count": 1
-      },
-      {
-        "label": "rating",
-        "count": 1
-      },
-      {
-        "label": "target",
-        "count": 1
-      },
-      {
-        "label": "following",
+        "label": "services",
         "count": 1
       }
     ],
-    "headline": "United Rentals (URI) Receives a Buy from Truist Financial",
-    "headline_source": "The Globe and Mail"
+    "headline": "What To Expect From Wells Fargo?s (WFC) Q2 Earnings",
+    "headline_source": "The Chronicle-Journal"
   },
   "emerging_themes": [
-    "Earnings",
-    "Real Estate"
+    "Technology",
+    "Retail Wholesale",
+    "Earnings"
   ],
-  "fading_themes": [
-    "Financial Markets",
-    "Manufacturing",
-    "Finance"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "record",
-    "results",
-    "revenue"
+    "trimmed",
+    "eps",
+    "sea"
   ],
   "fading_keywords": [
-    "buy",
-    "truist",
-    "financial"
+    "wells",
+    "fargo",
+    "wfc"
   ],
-  "takeaway": "URI's narrative is turning bullish: sentiment moved +0.47, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "AMZN's narrative is narrative steady: sentiment moved -0.09, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
