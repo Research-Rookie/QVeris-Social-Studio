@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-coin-2026-07-25",
+    "date": "2026-07-25",
+    "runDate": "2026-07-25",
+    "createdAt": "2026-07-25T05:29:19.771058+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$COIN news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Muted reaction\n\nNews tone and price action are both relatively muted.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-07-25.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-07-25T05:29:18.175576+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$COIN",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Muted reaction",
+    "topSymbol": "COIN",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-07-25T05:29:18.175576+00:00",
+      "date": "2026-07-25",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "COIN",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Terawulf Inc (WULF) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+      "headline_source": "TradingKey",
+      "price": 2.4702161697928e-05,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Muted reaction",
+      "takeaway": "News tone and price action are both relatively muted.",
+      "price_error": null,
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "COIN",
+            "mentions": 2
+          },
+          {
+            "ticker": "FDS",
+            "mentions": 2
+          },
+          {
+            "ticker": "WELL",
+            "mentions": 2
+          },
+          {
+            "ticker": "WULF",
+            "mentions": 1
+          },
+          {
+            "ticker": "SE",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 29
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 7
+          },
+          {
+            "label": "Bullish",
+            "count": 6
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-amzn-2026-07-25",
     "date": "2026-07-25",
     "runDate": "2026-07-25",
