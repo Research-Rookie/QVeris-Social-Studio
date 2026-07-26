@@ -1,60 +1,64 @@
 {
-  "updated_at": "2026-07-25T05:29:18.175576+00:00",
-  "date": "2026-07-25",
+  "updated_at": "2026-07-26T05:46:22.716825+00:00",
+  "date": "2026-07-26",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "COIN",
+  "symbol": "JPM",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Terawulf Inc (WULF) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+  "headline": "One Group Hospitality Inc (STKS) Earnings Forecast: Future EPS & Revenue Growth Estimates",
   "headline_source": "TradingKey",
-  "price": 2.4702161697928e-05,
+  "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
-  "reaction_label": "Muted reaction",
-  "takeaway": "News tone and price action are both relatively muted.",
-  "price_error": null,
+  "reaction_label": "Price pending",
+  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+  "price_error": "Could not parse quote data for JPM: {'status_code': 200, 'data': {'code': 0, 'results': [{'api_name': '美股日行情', 'table_markdown': '|证券代码|证券简称|交易日期|昨收价(元)|开盘价(元)|最高价(元)|最低价(元)|收盘价(元)|均价(元)|涨跌(元)|涨跌幅(%)|振幅(元)|成交量(万股)|成交额(万元)|换手率(%)|总市值(万元)|币种|\\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\\n|APUS|Apimeds Pharmaceuticals US, Inc.|2026-07-24|0.6533|6.57|6.87|5.44|5.65|6.06|5.00|764.84|218.90|2.81|17.01|1.86|852.65|USD|\\n|DK|Delek US Holdings Inc|2026-07-24|64.78|64.74|65.11|62.64|63.20|63.44|-1.58|-2.44|3.81|120.67|7655.47|1.97|387337.27|USD|\\n|FUSB|First US Bancshares, Inc.|2026-07-24|16.41|16.50|16.99|15.76|16.45|16.47|0.04|0.24|7.50|3.13|51.52|0.56|9158.15|USD|\\n|JRSH|Jerash Holdings (US), Inc.|2026-07-24|4.66|4.56|4.75|4.51|4.63|4.64|-0.03|-0.64|5.15|7.61|35.27|0.60|5880.07|USD|\\n|S|SentinelOne, Inc. Class A|2026-07-24|17.38|17.64|18.34|17.57|18.14|18.06|0.76|4.37|4.40|882.41|15933.31|2.62|621845.95|USD|\\n|TMUS|T-Mobile US, Inc.|2026-07-24|170.42|172.16|181.99|171.52|180.09|179.31|9.67|5.67|6.14|562.92|100934.80|0.52|19317743.08|USD|\\n|U|Unity Software, Inc.|2026-07-24|28.94|29.46|29.53|28.14|28.62|28.69|-0.32|-1.11|4.80|467.64|13418.47|1.07|1249363.16|USD|\\n|USFD|US Foods Holding Corp.|2026-07-24|95.58|96.29|97.73|95.33|97.17|97.08|1.59|1.66|2.52|140.64|13653.44|0.64|2139893.83|USD|'}]}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "COIN",
+        "ticker": "JPM",
         "mentions": 2
       },
       {
-        "ticker": "FDS",
+        "ticker": "AIRE",
         "mentions": 2
       },
       {
-        "ticker": "WELL",
+        "ticker": "AM",
         "mentions": 2
       },
       {
-        "ticker": "WULF",
-        "mentions": 1
+        "ticker": "MSFT",
+        "mentions": 2
       },
       {
-        "ticker": "SE",
+        "ticker": "STKS",
         "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 29
+        "count": 31
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 7
-      },
-      {
-        "label": "Bullish",
-        "count": 6
+        "count": 8
       },
       {
         "label": "Somewhat-Bearish",
+        "count": 7
+      },
+      {
+        "label": "Bearish",
+        "count": 2
+      },
+      {
+        "label": "Bullish",
         "count": 2
       }
     ]
