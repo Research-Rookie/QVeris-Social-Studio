@@ -1,27 +1,23 @@
 {
-  "updated_at": "2026-07-25T05:00:31.690865+00:00",
-  "date": "2026-07-25",
+  "updated_at": "2026-07-26T05:27:03.460601+00:00",
+  "date": "2026-07-26",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "AMZN",
+  "symbol": "SBUX",
   "shift_label": "Narrative steady",
-  "sentiment_delta": -0.0876,
-  "baseline_label": "2026-07-13",
+  "sentiment_delta": 0.0984,
+  "baseline_label": "2026-07-17",
   "current": {
-    "date": "2026-07-25",
-    "symbol": "AMZN",
+    "date": "2026-07-26",
+    "symbol": "SBUX",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1006,
+    "sentiment_score": 0.1759,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Technology",
         "count": 1
       },
       {
@@ -39,63 +35,63 @@
     ],
     "keywords": [
       {
-        "label": "trimmed",
+        "label": "earnings",
+        "count": 3
+      },
+      {
+        "label": "forecast",
+        "count": 3
+      },
+      {
+        "label": "one",
         "count": 2
+      },
+      {
+        "label": "hospitality",
+        "count": 2
+      },
+      {
+        "label": "stks",
+        "count": 2
+      },
+      {
+        "label": "future",
+        "count": 1
       },
       {
         "label": "eps",
-        "count": 2
-      },
-      {
-        "label": "earnings",
-        "count": 2
-      },
-      {
-        "label": "sea",
-        "count": 2
-      },
-      {
-        "label": "forecasts",
         "count": 1
       },
       {
-        "label": "subtly",
+        "label": "revenue",
         "count": 1
       },
       {
-        "label": "challenge",
+        "label": "growth",
         "count": 1
       },
       {
-        "label": "digital",
+        "label": "estimates",
         "count": 1
       },
       {
-        "label": "expansion",
+        "label": "article",
         "count": 1
       },
       {
-        "label": "narrative",
-        "count": 1
-      },
-      {
-        "label": "have",
-        "count": 1
-      },
-      {
-        "label": "recently",
+        "label": "provides",
         "count": 1
       }
     ],
-    "headline": "Do Trimmed EPS Forecasts Before Earnings Subtly Challenge Sea’s (SE) Digital Expansion Narrative?",
-    "headline_source": "Simply Wall Street"
+    "headline": "One Group Hospitality Inc (STKS) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+    "headline_source": "TradingKey"
   },
   "previous": {
-    "date": "2026-07-13",
-    "symbol": "AMZN",
+    "date": "2026-07-17",
+    "symbol": "SBUX",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1882,
+    "sentiment_score": 0.0775,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -107,79 +103,79 @@
         "count": 1
       },
       {
-        "label": "Finance",
+        "label": "Retail Wholesale",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "wells",
+        "label": "yum",
+        "count": 4
+      },
+      {
+        "label": "brands",
         "count": 2
       },
       {
-        "label": "fargo",
+        "label": "fairly",
         "count": 2
       },
       {
-        "label": "wfc",
+        "label": "valued",
         "count": 2
       },
       {
-        "label": "earnings",
-        "count": 2
-      },
-      {
-        "label": "what",
+        "label": "looks",
         "count": 1
       },
       {
-        "label": "expect",
+        "label": "run",
         "count": 1
       },
       {
-        "label": "set",
+        "label": "appears",
         "count": 1
       },
       {
-        "label": "announce",
+        "label": "current",
         "count": 1
       },
       {
-        "label": "tuesday",
+        "label": "levels",
         "count": 1
       },
       {
-        "label": "open",
+        "label": "recent",
         "count": 1
       },
       {
-        "label": "financial",
+        "label": "five-year",
         "count": 1
       },
       {
-        "label": "services",
+        "label": "gain",
         "count": 1
       }
     ],
-    "headline": "What To Expect From Wells Fargo?s (WFC) Q2 Earnings",
-    "headline_source": "The Chronicle-Journal"
+    "headline": "Yum! Brands (YUM) Stock Looks Fairly Valued After A 39% Run",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
-    "Technology",
-    "Retail Wholesale",
-    "Earnings"
+    "Finance",
+    "Earnings",
+    "Financial Markets"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "trimmed",
-    "eps",
-    "sea"
+    "earnings",
+    "forecast",
+    "one"
   ],
   "fading_keywords": [
-    "wells",
-    "fargo",
-    "wfc"
+    "yum",
+    "brands",
+    "fairly"
   ],
-  "takeaway": "AMZN's narrative is narrative steady: sentiment moved -0.09, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "SBUX's narrative is narrative steady: sentiment moved +0.10, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
