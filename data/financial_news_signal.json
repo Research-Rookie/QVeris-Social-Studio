@@ -1,17 +1,61 @@
 {
-  "updated_at": "2026-07-27T05:43:55.136393+00:00",
+  "updated_at": "2026-07-27T06:05:09.622438+00:00",
   "date": "2026-07-27",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
+      "title": "Q2 Earnings Forecast for Southern Issued By KeyCorp",
+      "summary": "KeyCorp analysts anticipate Southern Company (NYSE: SO) will report Q2 2026 earnings per share (EPS) of $1.00 and project a full-year 2026 EPS of $4.58. The firm maintains an \"U...",
+      "url": "https://www.marketbeat.com/instant-alerts/q2-earnings-forecast-for-southern-issued-by-keycorp-2026-07-27/",
+      "source": "MarketBeat",
+      "published_at": "20260727T051835",
+      "sentiment_score": 0.104269,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KEY",
+        "SO",
+        "JPM",
+        "TFC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Economy Macro",
+        "Energy Transportation"
+      ],
+      "quality_score": 19,
+      "is_noise": false
+    },
+    {
+      "title": "Corteva Inc (CTVA) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+      "summary": "This article provides an earnings forecast for Corteva Inc (CTVA), detailing its current earnings forecast score, analyst ratings, and price targets. It also includes expected r...",
+      "url": "https://www.tradingkey.com/markets/stocks/ctva/earnings",
+      "source": "TradingKey",
+      "published_at": "20260727T044141",
+      "sentiment_score": 0.305569,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CTVA",
+        "CF",
+        "MOS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 19,
+      "is_noise": false
+    },
+    {
       "title": "Waste Management Earnings: What To Look For From WM",
       "summary": "Waste Management (NYSE: WM) is set to report earnings this Tuesday after market hours. The company missed revenue expectations last quarter, and analysts are forecasting a 4.3%...",
       "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-27-waste-management-earnings-what-to-look-for-from-wm",
       "source": "FinancialContent",
       "published_at": "20260727T030947",
-      "sentiment_score": 0.062317,
+      "sentiment_score": 0.027284,
       "sentiment_label": "Neutral",
       "tickers": [
         "WM",
@@ -26,27 +70,43 @@
       "is_noise": false
     },
     {
-      "title": "CenterPoint Energy Inc (CNP) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-      "summary": "This article provides an earnings forecast for CenterPoint Energy Inc (CNP), detailing its current earnings forecast score, average price target from analysts, and a breakdown o...",
-      "url": "https://www.tradingkey.com/markets/stocks/cnp/earnings",
+      "title": "Alta Equipment Group Inc (ALTG) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+      "summary": "The article provides an earnings forecast for Alta Equipment Group Inc (ALTG), highlighting its current earnings forecast score, average price target, and analyst ratings. It in...",
+      "url": "https://www.tradingkey.com/markets/stocks/altg/earnings",
       "source": "TradingKey",
-      "published_at": "20260727T023726",
-      "sentiment_score": 0.34483,
-      "sentiment_label": "Somewhat-Bullish",
+      "published_at": "20260727T054120",
+      "sentiment_score": 0.014969,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "CNP",
-        "PEG",
-        "SRE",
-        "AEE",
-        "CMS"
+        "ALTG-P-A"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance",
-        "Energy Transportation"
+        "Manufacturing"
       ],
-      "quality_score": 19,
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "CVS Health stock holds the line as earnings stay central",
+      "summary": "CVS Health stock continues to be heavily influenced by its most recent earnings report, with investors focusing on revenue, profit, and guidance trends. The company's valuation...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cvs-health-stock-holds-the-line-as-earnings-stay-central/69882242",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260727T052340",
+      "sentiment_score": 0.023676,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CVS"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Finance",
+        "Financial Markets",
+        "Retail Wholesale"
+      ],
+      "quality_score": 16,
       "is_noise": false
     },
     {
@@ -55,7 +115,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/upbd/earnings",
       "source": "TradingKey",
       "published_at": "20260727T044123",
-      "sentiment_score": 0.419885,
+      "sentiment_score": 0.437513,
       "sentiment_label": "Bullish",
       "tickers": [
         "UPBD"
@@ -74,7 +134,7 @@
       "url": "https://uk.finance.yahoo.com/news/p-global-spgi-q2-earnings-042102559.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260727T042127",
-      "sentiment_score": 0.114944,
+      "sentiment_score": 0.096791,
       "sentiment_label": "Neutral",
       "tickers": [
         "SPGI",
@@ -95,7 +155,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/sune/earnings",
       "source": "TradingKey",
       "published_at": "20260727T033639",
-      "sentiment_score": 0.041085,
+      "sentiment_score": 0.028504,
       "sentiment_label": "Neutral",
       "tickers": [
         "SUNE"
@@ -113,7 +173,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/srg/earnings",
       "source": "TradingKey",
       "published_at": "20260727T033444",
-      "sentiment_score": 0.013445,
+      "sentiment_score": 0.043308,
       "sentiment_label": "Neutral",
       "tickers": [
         "SRG-P-A"
@@ -132,7 +192,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/sbsw/earnings",
       "source": "TradingKey",
       "published_at": "20260727T030944",
-      "sentiment_score": 0.417744,
+      "sentiment_score": 0.384343,
       "sentiment_label": "Bullish",
       "tickers": [
         "SBSW"
@@ -145,12 +205,33 @@
       "is_noise": false
     },
     {
+      "title": "KeyCorp Has Positive Estimate for NiSource FY2026 Earnings",
+      "summary": "KeyCorp raised its FY2026 EPS estimate for NiSource to $2.28 from $2.06, exceeding the consensus and the company's own guidance. The firm maintained an \"Overweight\" rating and a...",
+      "url": "https://www.marketbeat.com/instant-alerts/keycorp-has-positive-estimate-for-nisource-fy2026-earnings-2026-07-27/",
+      "source": "MarketBeat",
+      "published_at": "20260727T053635",
+      "sentiment_score": 0.315472,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "KEY",
+        "NI"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
       "title": "S&P Global (SPGI) Q2 Earnings Report Preview: What To Look For",
       "summary": "S&P Global (SPGI) is set to report its Q2 earnings this Tuesday. The market anticipates a 9.3% year-on-year revenue growth, and analysts have reaffirmed their estimates, suggest...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/p-global-spgi-q2-earnings-042102559.html",
       "source": "Yahoo Finance",
       "published_at": "20260727T042122",
-      "sentiment_score": 0.239977,
+      "sentiment_score": 0.192577,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "SPGI",
@@ -171,7 +252,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-watch-iqvia-iqv-reports-040502663.html",
       "source": "Yahoo Finance",
       "published_at": "20260727T040824",
-      "sentiment_score": 0.149004,
+      "sentiment_score": 0.139066,
       "sentiment_label": "Neutral",
       "tickers": [
         "IQV",
@@ -192,7 +273,7 @@
       "url": "https://uk.finance.yahoo.com/news/omnicom-group-omc-q2-earnings-033302904.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260727T033252",
-      "sentiment_score": 0.001099,
+      "sentiment_score": 0.02728,
       "sentiment_label": "Neutral",
       "tickers": [
         "OMC"
@@ -210,7 +291,7 @@
       "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-27-earnings-to-watch-kla-corporation-klac-reports-q2-results-tomorrow",
       "source": "FinancialContent",
       "published_at": "20260727T031812",
-      "sentiment_score": 0.142927,
+      "sentiment_score": 0.141372,
       "sentiment_label": "Neutral",
       "tickers": [
         "KLAC",
@@ -233,8 +314,8 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/WM/pressreleases/3472480/waste-management-earnings-what-to-look-for-from-wm/",
       "source": "The Globe and Mail",
       "published_at": "20260727T031334",
-      "sentiment_score": 0.166386,
-      "sentiment_label": "Somewhat-Bullish",
+      "sentiment_score": 0.129617,
+      "sentiment_label": "Neutral",
       "tickers": [
         "WM",
         "ROL",
@@ -249,22 +330,22 @@
       "is_noise": false
     },
     {
-      "title": "Coca-Cola (KO) Reports Earnings Tomorrow: What To Expect",
-      "summary": "Coca-Cola (KO) is set to report earnings tomorrow before market open, with analysts expecting a 4% year-on-year revenue growth. The company has a strong track record of beating...",
-      "url": "http://markets.chroniclejournal.com/chroniclejournal/article/stockstory-2026-7-27-coca-cola-ko-reports-earnings-tomorrow-what-to-expect",
-      "source": "The Chronicle-Journal",
-      "published_at": "20260727T030209",
-      "sentiment_score": 0.159341,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Intercontinental Exchange Inc (ICE) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
+      "summary": "This article provides a detailed breakdown of Intercontinental Exchange Inc (ICE)'s revenue by business segments and regions. It highlights that the largest revenue contributor...",
+      "url": "https://www.tradingkey.com/markets/stocks/ice/revenue",
+      "source": "TradingKey",
+      "published_at": "20260727T043824",
+      "sentiment_score": 0.120305,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "KO",
-        "PM"
+        "ICE"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Finance"
       ],
-      "quality_score": 15,
+      "quality_score": 13,
       "is_noise": false
     },
     {
@@ -273,7 +354,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/wsbf/earnings",
       "source": "TradingKey",
       "published_at": "20260727T041151",
-      "sentiment_score": 0.135474,
+      "sentiment_score": 0.136729,
       "sentiment_label": "Neutral",
       "tickers": [
         "WSBF",
@@ -296,7 +377,7 @@
       "url": "https://www.tradingview.com/news/stockstory:d7f45aa4f094b:0-earnings-to-watch-kla-corporation-klac-reports-q2-results-tomorrow/",
       "source": "TradingView",
       "published_at": "20260727T031731",
-      "sentiment_score": -0.022328,
+      "sentiment_score": -0.041467,
       "sentiment_label": "Neutral",
       "tickers": [
         "KLAC",
@@ -321,7 +402,7 @@
       "url": "https://www.tradingview.com/news/stockstory:2563ba93c094b:0-unum-group-unm-reports-q2-everything-you-need-to-know-ahead-of-earnings/",
       "source": "TradingView",
       "published_at": "20260727T031618",
-      "sentiment_score": -0.291571,
+      "sentiment_score": -0.26657,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "UNM",
@@ -340,7 +421,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/rol/revenue",
       "source": "TradingKey",
       "published_at": "20260727T030918",
-      "sentiment_score": 0.067519,
+      "sentiment_score": 0.077554,
       "sentiment_label": "Neutral",
       "tickers": [
         "ROL"
@@ -353,80 +434,23 @@
       "is_noise": false
     },
     {
-      "title": "Pultegroup Inc (PHM) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
-      "summary": "This article provides a revenue breakdown for Pultegroup Inc (PHM), detailing its revenue by business segment and geographical region. The company's primary revenue source is ho...",
-      "url": "https://www.tradingkey.com/markets/stocks/phm/revenue",
-      "source": "TradingKey",
-      "published_at": "20260727T030840",
-      "sentiment_score": 0.13587,
-      "sentiment_label": "Neutral",
+      "title": "Scotiabank Predicts Stronger Earnings for Waste Management",
+      "summary": "Scotiabank has increased its FY2026 EPS estimate for Waste Management to $8.08 and predicts FY2027 EPS of $9.17, while maintaining a \"Sector Perform\" rating and a $260 price tar...",
+      "url": "https://www.marketbeat.com/instant-alerts/scotiabank-predicts-stronger-earnings-for-waste-management-2026-07-27/",
+      "source": "MarketBeat",
+      "published_at": "20260727T051754",
+      "sentiment_score": 0.416791,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "PHM"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Summit Therapeutics Inc (SMMT) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-      "summary": "Summit Therapeutics Inc (SMMT) has an earnings forecast score of 7.67, ranking 277 out of 386 in its industry, with an average price target of $34.50, suggesting a significant u...",
-      "url": "https://www.tradingkey.com/markets/stocks/smmt/earnings",
-      "source": "TradingKey",
-      "published_at": "20260727T030523",
-      "sentiment_score": 0.333759,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SMMT"
+        "WM"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Life Sciences"
+        "Finance",
+        "Economy Monetary"
       ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Vista Energy SAB de CV (VIST) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
-      "summary": "This article provides a detailed revenue breakdown for Vista Energy SAB de CV (VIST) by its business segments, as of the latest disclosed data. It shows that Petroleum accounts...",
-      "url": "https://www.tradingkey.com/markets/stocks/vist/revenue",
-      "source": "TradingKey",
-      "published_at": "20260727T024214",
-      "sentiment_score": 0.111224,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "VIST"
-      ],
-      "topics": [
-        "Earnings",
-        "Energy Transportation",
-        "Financial Markets"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "DLTR|Dollar Tree Inc|Price:120.450|Chg%:+2.800",
-      "summary": "Dollar Tree Inc. (DLTR) saw its stock price increase by 2.38% to $120.450, with a market capitalization of $23.29 billion. The company operates discount retail stores across the...",
-      "url": "https://www.tradingkey.com/markets/stocks/dltr/company",
-      "source": "TradingKey",
-      "published_at": "20260727T023748",
-      "sentiment_score": 0.13192,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DLTR"
-      ],
-      "topics": [
-        "Retail Wholesale",
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 13,
+      "quality_score": 12,
       "is_noise": false
     },
     {
@@ -435,7 +459,7 @@
       "url": "http://markets.chroniclejournal.com/chroniclejournal/article/stockstory-2026-7-27-sherwin-williams-shw-q2-earnings-what-to-expect",
       "source": "The Chronicle-Journal",
       "published_at": "20260727T031756",
-      "sentiment_score": 0.006054,
+      "sentiment_score": 0.019829,
       "sentiment_label": "Neutral",
       "tickers": [
         "SHW"
@@ -450,21 +474,84 @@
       "is_noise": false
     },
     {
-      "title": "Vontier Corp (VNT1) Q1 2024 Earnings Report - Results, Call & Slides",
-      "summary": "Vontier Corp (VNT1) reported its Q1 2024 earnings, beating both EPS and revenue estimates. The company posted an actual EPS of $12.96 against a consensus of $12.24 and revenue o...",
-      "url": "https://www.tipranks.com/stocks/mx:vnt1/earnings/q1-2024-report?hash=slideDeck",
-      "source": "TipRanks",
-      "published_at": "20260727T024031",
-      "sentiment_score": 0.423175,
-      "sentiment_label": "Bullish",
+      "title": "Alzamend Neuro, Inc. Revenue Breakdown – NASDAQ:ALZN",
+      "summary": "This article provides details about Alzamend Neuro, Inc.'s financial information, specifically focusing on its revenue breakdown. It indicates that the company's financial data,...",
+      "url": "https://www.tradingview.com/symbols/NASDAQ-ALZN/financials-segments/",
+      "source": "TradingView",
+      "published_at": "20260727T054241",
+      "sentiment_score": 0.028466,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "VNT"
+        "ALZN"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Life Sciences"
       ],
-      "quality_score": 12,
+      "quality_score": 11,
+      "is_noise": false
+    },
+    {
+      "title": "ATIF Holdings Ord Shs (AUC) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
+      "summary": "The article provides a revenue breakdown for ATIF Holdings Ord Shs (AUC), covering business segments, regional revenue, and profit contribution. However, it states that the rele...",
+      "url": "https://www.tradingkey.com/markets/stocks/auc/revenue",
+      "source": "TradingKey",
+      "published_at": "20260727T053327",
+      "sentiment_score": 0.000239,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ZBAI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "NiSource stock reflects steady regulated growth as earnings and dividend shape investor view",
+      "summary": "NiSource Inc. (NYSE: NI) stock is characterized by stable growth driven by its regulated gas and electric utility operations. The company reported strong Q1 2024 earnings, maint...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/nisource-stock-reflects-steady-regulated-growth-as-earnings-and-dividend/69882278",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260727T053000",
+      "sentiment_score": 0.461513,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "S&P 500 On Track To Post Best Net Profit Margin Since 2009: Market Strategist Says Big Tech Is Driving An ‘Unpreced...",
+      "summary": "The S&P 500 is projected to achieve its highest net profit margin since 2009, reaching 15.7% for Q2 2026, primarily driven by the \"unprecedented boom\" from Big Tech companies. A...",
+      "url": "https://www.tradingview.com/news/stocktwits:be75acf1d094b:0-s-p-500-on-track-to-post-best-net-profit-margin-since-2009-market-strategist-says-big-tech-is-driving-an-unprecedented-boom/",
+      "source": "TradingView",
+      "published_at": "20260727T051759",
+      "sentiment_score": 0.39131,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "AAPL",
+        "GOOG",
+        "AMZN",
+        "MSFT"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 10,
       "is_noise": false
     },
     {
@@ -473,7 +560,7 @@
       "url": "https://www.tradingview.com/symbols/FWB-1GQ/financials-segments/",
       "source": "TradingView",
       "published_at": "20260727T042028",
-      "sentiment_score": 0.328134,
+      "sentiment_score": 0.347801,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "USA"
@@ -492,7 +579,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/taop/financials",
       "source": "TradingKey",
       "published_at": "20260727T034017",
-      "sentiment_score": -0.334206,
+      "sentiment_score": -0.325078,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "TAOP"
@@ -506,144 +593,12 @@
       "is_noise": false
     },
     {
-      "title": "VSA|VisionSys AI American Depositary Shares Representing 250 Ord Shs|Price:3.440|Chg%:-0.190",
-      "summary": "This article provides a detailed financial overview of VisionSys AI American Depositary Shares (VSA), trading at $3.44, down 5.23%. It includes key figures such as market cap, P...",
-      "url": "https://www.tradingkey.com/markets/stocks/vsa",
-      "source": "TradingKey",
-      "published_at": "20260727T024221",
-      "sentiment_score": 0.042763,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "VSA"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Viemed Healthcare Inc (VMD) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
-      "summary": "The article discusses Viemed Healthcare Inc (VMD) and its revenue breakdown by business segments and regional revenue, along with profit contribution. However, it explicitly sta...",
-      "url": "https://www.tradingkey.com/markets/stocks/vmd/revenue",
-      "source": "TradingKey",
-      "published_at": "20260727T024202",
-      "sentiment_score": 0.033793,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "VMD"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Sasol Ltd (SSL) Financial Health: Profitability & Balance Sheet Analysis",
-      "summary": "This article provides a financial health analysis of Sasol Ltd (SSL), focusing on its profitability and balance sheet. It presents key financial metrics such as market capitaliz...",
-      "url": "https://www.tradingkey.com/markets/stocks/ssl/financial-health",
-      "source": "TradingKey",
-      "published_at": "20260727T023958",
-      "sentiment_score": 0.014981,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SSL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "TECH|Bio-Techne Corp|Price:71.600|Chg%:-0.170",
-      "summary": "This article provides a detailed financial overview of Bio-Techne Corp (TECH), including its current stock price, market capitalization, and P/E ratio. It presents quarterly and...",
-      "url": "https://www.tradingkey.com/markets/stocks/tech/financials",
-      "source": "TradingKey",
-      "published_at": "20260727T023931",
-      "sentiment_score": -0.063683,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TECH"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Honeywell International (HON) Is Up 8.1% After Profit Surge And Dividend Update Has The Bull Case Changed?",
-      "summary": "Honeywell International (HON) shares rose 8.1% after reporting a significant surge in Q2 2026 net income to US$5.68 billion, alongside US$9,719 million in revenue and a US$0.70...",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-hon/honeywell-international/news/honeywell-international-hon-is-up-81-after-profit-surge-and/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260727T023755",
-      "sentiment_score": 0.033582,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HON"
-      ],
-      "topics": [
-        "Earnings",
-        "Manufacturing",
-        "Finance",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "TradingKey",
-      "summary": "This article provides a detailed quarterly and annual income statement for Xenetic Biosciences Inc (XBIO) through FY2026Q1, emphasizing key financial metrics like total revenue,...",
-      "url": "https://www.tradingkey.com/markets/stocks/xbio/income-statement",
-      "source": "TradingKey",
-      "published_at": "20260727T021226",
-      "sentiment_score": -0.348829,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "XBIO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "TTEC Holdings Inc (TTEC) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
-      "summary": "This article provides a revenue breakdown for TTEC Holdings Inc (TTEC), focusing on its regional contributions. The data indicates that the United States and Canada represent th...",
-      "url": "https://www.tradingkey.com/markets/stocks/ttec/revenue",
-      "source": "TradingKey",
-      "published_at": "20260727T021127",
-      "sentiment_score": 0.026536,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TTEC"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
       "title": "Wheaton Precious Metals Market Sentiment",
       "summary": "This article provides an overview of market sentiment for Wheaton Precious Metals (WPM), including analyst consensus, options flow, and recent analyst actions. The consensus amo...",
       "url": "https://es.benzinga.com/quote/WPM/sentiment",
       "source": "Benzinga España",
       "published_at": "20260727T051030",
-      "sentiment_score": 0.494015,
+      "sentiment_score": 0.498906,
       "sentiment_label": "Bullish",
       "tickers": [
         "WPM"
@@ -656,12 +611,56 @@
       "is_noise": false
     },
     {
+      "title": "PPL stock trades steady as regulated utility earnings and dividend support valuation",
+      "summary": "PPL Corporation's stock remains stable due to its regulated utility earnings and consistent dividend payments, which support its current valuation. The company, a large US regul...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ppl-stock-trades-steady-as-regulated-utility-earnings-and-dividend-support/69882131",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260727T050718",
+      "sentiment_score": 0.35016,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "PPL",
+        "EIX",
+        "DUK",
+        "WEC",
+        "SO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Energy Transportation",
+        "Finance"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Sempra stock trades steady as LNG and utility earnings underpin outlook",
+      "summary": "Sempra's stock performance is supported by a robust mix of regulated utility cash flows and increasing exposure to LNG exports. The company reported significant earnings growth...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/sempra-stock-trades-steady-as-lng-and-utility-earnings-underpin-outlook/69882112",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260727T050430",
+      "sentiment_score": 0.408872,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SRE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
       "title": "P&G to update restructuring, job cuts and bid to reignite sales growth",
       "summary": "Procter & Gamble (P&G) is set to release its 2026 fiscal year results and provide an update on its restructuring plan, which involves shedding 7,000 office jobs worldwide. The c...",
       "url": "https://www.cincinnati.com/story/money/2026/07/27/pg-will-report-annual-results-and-update-restructuring-efforts/90984044007/",
       "source": "Cincinnati Enquirer",
       "published_at": "20260727T043009",
-      "sentiment_score": -0.077939,
+      "sentiment_score": -0.070043,
       "sentiment_label": "Neutral",
       "tickers": [
         "PG",
@@ -684,7 +683,7 @@
       "url": "https://energynow.com/2026/05/tc-energy-approves-1-5-billion-columbia-gas-expansion-after-profit-tops-estimates/",
       "source": "EnergyNow.com",
       "published_at": "20260727T041234",
-      "sentiment_score": 0.424155,
+      "sentiment_score": 0.412147,
       "sentiment_label": "Bullish",
       "tickers": [
         "TRP"
@@ -698,12 +697,32 @@
       "is_noise": false
     },
     {
+      "title": "Campbell Soup stock trades steady as investors weigh fiscal 2024 earnings and margins",
+      "summary": "Campbell Soup stock is trading steadily as investors analyze the company's fiscal 2024 earnings, margin trends, and the balance between its Snacks and Meals & Beverages segments...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/campbell-soup-stock-trades-steady-as-investors-weigh-fiscal-2024-earnings/69882281",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260727T053037",
+      "sentiment_score": 0.10592,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CPB"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Retail Wholesale"
+      ],
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
       "title": "Bronstein, Gewirtz & Grossman, LLC Is Investigating Pentair plc (PNR) And Encourages Investors to Connect",
       "summary": "Bronstein, Gewirtz & Grossman, LLC is investigating potential claims on behalf of purchasers of Pentair plc (NYSE:PNR). This investigation follows Pentair's preliminary Q2 2026...",
       "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/bronstein-gewirtz-and-grossman-llc-is-investigating-pentair-plc-1191954",
       "source": "ACCESS Newswire",
       "published_at": "20260727T033441",
-      "sentiment_score": 0.013893,
+      "sentiment_score": 0.001129,
       "sentiment_label": "Neutral",
       "tickers": [
         "PNR"
@@ -716,12 +735,30 @@
       "is_noise": false
     },
     {
+      "title": "Adient PLC (ADNT) Dividends & Stock Splits: Historical Payouts and Event Timeline",
+      "summary": "The article provides an overview of Adient PLC's (ADNT) dividend and stock split history. It notes that no dividend data is available, indicating that no dividends have been dis...",
+      "url": "https://www.tradingkey.com/markets/stocks/adnt/dividend-splits",
+      "source": "TradingKey",
+      "published_at": "20260727T054220",
+      "sentiment_score": 0.068051,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ADNT"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "Whirlpool Corp (WHR) Dividends & Stock Splits: Historical Payouts and Event Timeline",
       "summary": "This article provides a detailed timeline of historical dividend payouts for Whirlpool Corp (WHR), including ex-dividend, record, and payment dates, along with the gross cash di...",
       "url": "https://www.tradingkey.com/markets/stocks/whr/dividend-splits",
       "source": "TradingKey",
       "published_at": "20260727T050347",
-      "sentiment_score": 0.107606,
+      "sentiment_score": 0.137801,
       "sentiment_label": "Neutral",
       "tickers": [
         "WHR"
@@ -738,7 +775,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/upxi/dividend-splits",
       "source": "TradingKey",
       "published_at": "20260727T044136",
-      "sentiment_score": 0.049643,
+      "sentiment_score": 0.00978,
       "sentiment_label": "Neutral",
       "tickers": [
         "UPXI"
@@ -752,12 +789,48 @@
       "is_noise": false
     },
     {
+      "title": "ALDF Cash Flow Statement",
+      "summary": "This article provides the quarterly and annual cash flow statements for Aldel Financial II Inc (ALDF), detailing its operating, investing, and financing cash flows. It includes...",
+      "url": "https://www.tradingkey.com/markets/stocks/aldf/cash-flow",
+      "source": "TradingKey",
+      "published_at": "20260727T044009",
+      "sentiment_score": 0.100894,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ALDF"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Xcel Energy Inc (XEL) Dividends & Stock Splits: Historical Payouts and Event Timeline",
+      "summary": "This article provides a detailed historical overview of Xcel Energy Inc's (XEL) dividend payouts and related event timelines. It lists interim and final cash dividends with spec...",
+      "url": "https://www.tradingkey.com/markets/stocks/xel/dividend-splits",
+      "source": "TradingKey",
+      "published_at": "20260727T043956",
+      "sentiment_score": 0.103425,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "XEL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "Under Armour, Inc. Class C Revenue Breakdown – VIE:UAC",
       "summary": "Under Armour, Inc. Class C (UAC) generated €4.30 billion in revenue last year, with its Apparel segment contributing the most at €2.94 billion. The United States was the largest...",
       "url": "https://www.tradingview.com/symbols/VIE-UAC/financials-segments/",
       "source": "TradingView",
       "published_at": "20260727T043454",
-      "sentiment_score": 0.029839,
+      "sentiment_score": 0.047823,
       "sentiment_label": "Neutral",
       "tickers": [
         "UA"
@@ -775,7 +848,7 @@
       "url": "https://www.tradingview.com/symbols/BX-VLY/financials-segments/",
       "source": "TradingView",
       "published_at": "20260727T043326",
-      "sentiment_score": 0.042089,
+      "sentiment_score": 0.000299,
       "sentiment_label": "Neutral",
       "tickers": [
         "VLYPO"
@@ -793,7 +866,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/topp/company",
       "source": "TradingKey",
       "published_at": "20260727T041156",
-      "sentiment_score": -0.210509,
+      "sentiment_score": -0.176546,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "TOPP"
@@ -813,7 +886,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/tgl/ownership",
       "source": "TradingKey",
       "published_at": "20260727T040945",
-      "sentiment_score": 0.036099,
+      "sentiment_score": 0.037481,
       "sentiment_label": "Neutral",
       "tickers": [
         "TGL"
@@ -827,12 +900,31 @@
       "is_noise": false
     },
     {
+      "title": "Alkami Technology Inc (ALKT) Dividends & Stock Splits: Historical Payouts and Event Timeline",
+      "summary": "This article provides details on the dividend and stock split history for Alkami Technology Inc (ALKT). It indicates that the company has not distributed any dividends over the...",
+      "url": "https://www.tradingkey.com/markets/stocks/alkt/dividend-splits",
+      "source": "TradingKey",
+      "published_at": "20260727T034211",
+      "sentiment_score": 0.139629,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ALKT"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "Sensata Technologies Holding PLC (ST) Dividends & Stock Splits: Historical Payouts and Event Timeline",
       "summary": "This article provides a historical overview of Sensata Technologies Holding PLC (ST) dividends and stock splits, detailing payouts over the past five years. It lists upcoming an...",
       "url": "https://www.tradingkey.com/markets/stocks/st/dividend-splits",
       "source": "TradingKey",
       "published_at": "20260727T034110",
-      "sentiment_score": 0.149009,
+      "sentiment_score": 0.141137,
       "sentiment_label": "Neutral",
       "tickers": [
         "ST"
@@ -850,7 +942,7 @@
       "url": "https://kalkine.com.au/news/mining/newmont-corporation-asxnem-climbs-as-global-uncertainty-sends-investors-back-to-gold",
       "source": "Kalkine",
       "published_at": "20260727T033948",
-      "sentiment_score": 0.510302,
+      "sentiment_score": 0.505683,
       "sentiment_label": "Bullish",
       "tickers": [
         "NEM"
@@ -863,132 +955,105 @@
       "is_noise": false
     },
     {
-      "title": "Hubbell Incorporated Revenue Breakdown – FWB:HUEC",
-      "summary": "Hubbell Incorporated generated €4.98 billion in revenue last year, with its Utility Solutions segment contributing the most at €3.13 billion. The United States was the primary r...",
-      "url": "https://www.tradingview.com/symbols/FWB-HUEC/financials-segments/",
-      "source": "TradingView",
-      "published_at": "20260727T030802",
-      "sentiment_score": 0.038501,
-      "sentiment_label": "Neutral",
+      "title": "Tesla’s Cratering Cybertruck Sales Evoke Ford Edsel Comparisons",
+      "summary": "Tesla's Cybertruck sales are significantly underperforming expectations, drawing comparisons to Ford's historical automotive flop, the Edsel. Despite CEO Elon Musk's ambitious p...",
+      "url": "https://www.claimsjournal.com/news/national/2026/07/27/338992.htm",
+      "source": "Claims Journal",
+      "published_at": "20260727T045958",
+      "sentiment_score": -0.208572,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "HUBB"
+        "F",
+        "TSLA",
+        "GM"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
+        "Energy Transportation",
+        "Technology",
+        "Finance",
         "Manufacturing"
       ],
-      "quality_score": 7,
+      "quality_score": 6,
       "is_noise": false
     },
     {
-      "title": "Safe Pro Group Inc (SPAI) Dividends & Stock Splits: Historical Payouts and Event Timeline",
-      "summary": "This article provides an overview of Safe Pro Group Inc (SPAI) stock information, focusing on its dividend history. It indicates that the company has not distributed dividends o...",
-      "url": "https://www.tradingkey.com/markets/stocks/spai/dividend-splits",
+      "title": "Ascent Industries Co (ACNT) Dividends & Stock Splits: Historical Payouts and Event Timeline",
+      "summary": "This article provides an overview of Ascent Industries Co (ACNT) focusing on its dividend history and stock splits. It notes that the company has distributed $0.00 in dividends...",
+      "url": "https://www.tradingkey.com/markets/stocks/acnt/dividend-splits",
       "source": "TradingKey",
-      "published_at": "20260727T024017",
-      "sentiment_score": 0.014514,
+      "published_at": "20260727T044243",
+      "sentiment_score": 0.048364,
       "sentiment_label": "Neutral",
       "tickers": [
-        "SPAI"
+        "ACNT"
       ],
       "topics": [
+        "Finance",
         "Financial Markets",
         "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Honeywell International (HON) Is Up 8.1% After Profit Surge And Dividend Update Has The Bull Case Changed?",
-      "summary": "Honeywell International (HON) shares rose 8.1% after the company announced a quarterly dividend of US$0.70 per share and reported significantly increased Q2 2026 net income of U...",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-hon/honeywell-international/news/honeywell-international-hon-is-up-81-after-profit-surge-and",
-      "source": "Simply Wall Street",
-      "published_at": "20260727T023007",
-      "sentiment_score": 0.220614,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "HON"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "TradingKey",
-      "summary": "This article provides a detailed historical cash flow statement for Pixelworks Inc (PXLW), covering quarterly data from FY2012Q1 to FY2026Q1 across operating, investing, and fin...",
-      "url": "https://www.tradingkey.com/markets/stocks/pxlw/cash-flow",
-      "source": "TradingKey",
-      "published_at": "20260727T021114",
-      "sentiment_score": -0.106476,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PXLW"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "United Natural Foods Inc (UNFI) Dividends & Stock Splits: Historical Payouts and Event Timeline",
-      "summary": "This article provides an overview of United Natural Foods Inc (UNFI)'s dividend and stock split history, noting that no dividends have been distributed over the past five years....",
-      "url": "https://www.tradingkey.com/markets/stocks/unfi/dividend-splits",
-      "source": "TradingKey",
-      "published_at": "20260727T024229",
-      "sentiment_score": 0.00822,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "UNFI"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Retail Wholesale"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "YQ Balance Sheet",
-      "summary": "This article presents the quarterly and annual balance sheets for 17 Education & Technology Group Inc (YQ), allowing for evaluation of its financial health and key ratios. It in...",
-      "url": "https://www.tradingkey.com/markets/stocks/yq/balance-sheet",
-      "source": "TradingKey",
-      "published_at": "20260727T021247",
-      "sentiment_score": -0.404395,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "YQ"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
       ],
       "quality_score": 4,
       "is_noise": false
     }
   ],
   "article_count": 50,
-  "top_ticker": "ROL",
+  "top_ticker": "WM",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Waste Management Earnings: What To Look For From WM",
+  "top_story": "Q2 Earnings Forecast for Southern Issued By KeyCorp",
   "signal_articles": [
+    {
+      "title": "Q2 Earnings Forecast for Southern Issued By KeyCorp",
+      "summary": "KeyCorp analysts anticipate Southern Company (NYSE: SO) will report Q2 2026 earnings per share (EPS) of $1.00 and project a full-year 2026 EPS of $4.58. The firm maintains an \"U...",
+      "url": "https://www.marketbeat.com/instant-alerts/q2-earnings-forecast-for-southern-issued-by-keycorp-2026-07-27/",
+      "source": "MarketBeat",
+      "published_at": "20260727T051835",
+      "sentiment_score": 0.104269,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KEY",
+        "SO",
+        "JPM",
+        "TFC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Economy Macro",
+        "Energy Transportation"
+      ],
+      "quality_score": 19,
+      "is_noise": false
+    },
+    {
+      "title": "Corteva Inc (CTVA) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+      "summary": "This article provides an earnings forecast for Corteva Inc (CTVA), detailing its current earnings forecast score, analyst ratings, and price targets. It also includes expected r...",
+      "url": "https://www.tradingkey.com/markets/stocks/ctva/earnings",
+      "source": "TradingKey",
+      "published_at": "20260727T044141",
+      "sentiment_score": 0.305569,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CTVA",
+        "CF",
+        "MOS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 19,
+      "is_noise": false
+    },
     {
       "title": "Waste Management Earnings: What To Look For From WM",
       "summary": "Waste Management (NYSE: WM) is set to report earnings this Tuesday after market hours. The company missed revenue expectations last quarter, and analysts are forecasting a 4.3%...",
       "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-27-waste-management-earnings-what-to-look-for-from-wm",
       "source": "FinancialContent",
       "published_at": "20260727T030947",
-      "sentiment_score": 0.062317,
+      "sentiment_score": 0.027284,
       "sentiment_label": "Neutral",
       "tickers": [
         "WM",
@@ -1003,27 +1068,43 @@
       "is_noise": false
     },
     {
-      "title": "CenterPoint Energy Inc (CNP) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-      "summary": "This article provides an earnings forecast for CenterPoint Energy Inc (CNP), detailing its current earnings forecast score, average price target from analysts, and a breakdown o...",
-      "url": "https://www.tradingkey.com/markets/stocks/cnp/earnings",
+      "title": "Alta Equipment Group Inc (ALTG) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+      "summary": "The article provides an earnings forecast for Alta Equipment Group Inc (ALTG), highlighting its current earnings forecast score, average price target, and analyst ratings. It in...",
+      "url": "https://www.tradingkey.com/markets/stocks/altg/earnings",
       "source": "TradingKey",
-      "published_at": "20260727T023726",
-      "sentiment_score": 0.34483,
-      "sentiment_label": "Somewhat-Bullish",
+      "published_at": "20260727T054120",
+      "sentiment_score": 0.014969,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "CNP",
-        "PEG",
-        "SRE",
-        "AEE",
-        "CMS"
+        "ALTG-P-A"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance",
-        "Energy Transportation"
+        "Manufacturing"
       ],
-      "quality_score": 19,
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "CVS Health stock holds the line as earnings stay central",
+      "summary": "CVS Health stock continues to be heavily influenced by its most recent earnings report, with investors focusing on revenue, profit, and guidance trends. The company's valuation...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cvs-health-stock-holds-the-line-as-earnings-stay-central/69882242",
+      "source": "Ad-hoc-news.de",
+      "published_at": "20260727T052340",
+      "sentiment_score": 0.023676,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CVS"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Finance",
+        "Financial Markets",
+        "Retail Wholesale"
+      ],
+      "quality_score": 16,
       "is_noise": false
     },
     {
@@ -1032,7 +1113,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/upbd/earnings",
       "source": "TradingKey",
       "published_at": "20260727T044123",
-      "sentiment_score": 0.419885,
+      "sentiment_score": 0.437513,
       "sentiment_label": "Bullish",
       "tickers": [
         "UPBD"
@@ -1051,7 +1132,7 @@
       "url": "https://uk.finance.yahoo.com/news/p-global-spgi-q2-earnings-042102559.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260727T042127",
-      "sentiment_score": 0.114944,
+      "sentiment_score": 0.096791,
       "sentiment_label": "Neutral",
       "tickers": [
         "SPGI",
@@ -1072,7 +1153,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/sune/earnings",
       "source": "TradingKey",
       "published_at": "20260727T033639",
-      "sentiment_score": 0.041085,
+      "sentiment_score": 0.028504,
       "sentiment_label": "Neutral",
       "tickers": [
         "SUNE"
@@ -1090,7 +1171,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/srg/earnings",
       "source": "TradingKey",
       "published_at": "20260727T033444",
-      "sentiment_score": 0.013445,
+      "sentiment_score": 0.043308,
       "sentiment_label": "Neutral",
       "tickers": [
         "SRG-P-A"
@@ -1109,7 +1190,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/sbsw/earnings",
       "source": "TradingKey",
       "published_at": "20260727T030944",
-      "sentiment_score": 0.417744,
+      "sentiment_score": 0.384343,
       "sentiment_label": "Bullish",
       "tickers": [
         "SBSW"
@@ -1120,87 +1201,27 @@
       ],
       "quality_score": 16,
       "is_noise": false
-    },
-    {
-      "title": "S&P Global (SPGI) Q2 Earnings Report Preview: What To Look For",
-      "summary": "S&P Global (SPGI) is set to report its Q2 earnings this Tuesday. The market anticipates a 9.3% year-on-year revenue growth, and analysts have reaffirmed their estimates, suggest...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-global-spgi-q2-earnings-042102559.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260727T042122",
-      "sentiment_score": 0.239977,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SPGI",
-        "NDAQ",
-        "MCO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "Earnings To Watch: IQVIA (IQV) Reports Q2 Results Tomorrow",
-      "summary": "IQVIA (IQV) is set to report its Q2 earnings tomorrow before market hours. The clinical research company beat revenue expectations last quarter and analysts anticipate 7.1% year...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-watch-iqvia-iqv-reports-040502663.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260727T040824",
-      "sentiment_score": 0.149004,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "IQV",
-        "WST"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "Omnicom Group (OMC) Q2 Earnings: What To Expect",
-      "summary": "Omnicom Group (OMC) is expected to announce its Q2 earnings this Tuesday after market hours. The company beat analysts' revenue expectations last quarter with $6.24 billion, up...",
-      "url": "https://uk.finance.yahoo.com/news/omnicom-group-omc-q2-earnings-033302904.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260727T033252",
-      "sentiment_score": 0.001099,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "OMC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 15,
-      "is_noise": false
     }
   ],
   "top_tickers": [
+    {
+      "ticker": "WM",
+      "mentions": 3
+    },
     {
       "ticker": "ROL",
       "mentions": 3
     },
     {
-      "ticker": "WM",
+      "ticker": "KEY",
       "mentions": 2
     },
     {
-      "ticker": "SPGI",
+      "ticker": "SO",
       "mentions": 2
     },
     {
-      "ticker": "MCO",
-      "mentions": 2
-    },
-    {
-      "ticker": "NDAQ",
+      "ticker": "JPM",
       "mentions": 2
     }
   ],
@@ -1211,19 +1232,19 @@
     },
     {
       "topic": "Financial Markets",
-      "mentions": 43
+      "mentions": 45
     },
     {
       "topic": "Finance",
-      "mentions": 14
+      "mentions": 17
     },
     {
       "topic": "Economy Macro",
-      "mentions": 7
+      "mentions": 11
     },
     {
-      "topic": "Manufacturing",
-      "mentions": 6
+      "topic": "Energy Transportation",
+      "mentions": 8
     }
   ],
   "sentiment_counts": [
@@ -1232,43 +1253,39 @@
       "count": 32
     },
     {
-      "label": "Somewhat-Bullish",
-      "count": 7
+      "label": "Bullish",
+      "count": 10
     },
     {
-      "label": "Bullish",
-      "count": 6
+      "label": "Somewhat-Bullish",
+      "count": 4
     },
     {
       "label": "Somewhat-Bearish",
       "count": 4
-    },
-    {
-      "label": "Bearish",
-      "count": 1
     }
   ],
   "top_sources": [
     {
       "source": "TradingKey",
-      "count": 27
+      "count": 21
     },
     {
       "source": "TradingView",
-      "count": 6
+      "count": 7
+    },
+    {
+      "source": "Ad-hoc-news.de",
+      "count": 5
+    },
+    {
+      "source": "MarketBeat",
+      "count": 3
     },
     {
       "source": "FinancialContent",
       "count": 2
-    },
-    {
-      "source": "Yahoo Finance UK",
-      "count": 2
-    },
-    {
-      "source": "Yahoo Finance",
-      "count": 2
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with ROL appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with WM appearing most often and the headline tone mostly neutral."
 }
