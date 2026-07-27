@@ -1,5 +1,125 @@
 [
   {
+    "id": "market-narrative-shift-spgi-2026-07-27",
+    "date": "2026-07-27",
+    "runDate": "2026-07-27",
+    "createdAt": "2026-07-27T05:43:58.976505+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $SPGI",
+    "status": "ready",
+    "tweet": "What changed in $SPGI's market narrative? 🔄\n\n🧭 Signal: Baseline building\n💬 Sentiment shift: baseline\n📌 Top theme: Earnings\n🔎 Emerging term: global\n📰 Coverage: 2 vs n/a\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_SPGI_2026-07-27.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-27T05:43:55.251537+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$SPGI",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Baseline building",
+    "topSymbol": "SPGI",
+    "topChangePct": 0.0,
+    "marketNarrativeShift": {
+      "updated_at": "2026-07-27T05:43:55.251537+00:00",
+      "date": "2026-07-27",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "SPGI",
+      "shift_label": "Baseline building",
+      "sentiment_delta": 0.0,
+      "baseline_label": "Building",
+      "current": {
+        "date": "2026-07-27",
+        "symbol": "SPGI",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.1775,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "global",
+            "count": 4
+          },
+          {
+            "label": "earnings",
+            "count": 4
+          },
+          {
+            "label": "revenue",
+            "count": 3
+          },
+          {
+            "label": "preview",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 2
+          },
+          {
+            "label": "look",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          },
+          {
+            "label": "set",
+            "count": 2
+          },
+          {
+            "label": "tuesday",
+            "count": 2
+          },
+          {
+            "label": "hours",
+            "count": 1
+          },
+          {
+            "label": "beat",
+            "count": 1
+          },
+          {
+            "label": "expectations",
+            "count": 1
+          }
+        ],
+        "headline": "S&P Global (SPGI) Q2 Earnings Report Preview: What To Look For",
+        "headline_source": "Yahoo Finance UK"
+      },
+      "previous": null,
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "global",
+        "earnings",
+        "revenue"
+      ],
+      "fading_keywords": [],
+      "takeaway": "SPGI leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-27",
     "date": "2026-07-27",
     "runDate": "2026-07-27",

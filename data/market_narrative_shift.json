@@ -1,181 +1,100 @@
 {
-  "updated_at": "2026-07-26T05:27:03.460601+00:00",
-  "date": "2026-07-26",
+  "updated_at": "2026-07-27T05:43:55.251537+00:00",
+  "date": "2026-07-27",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "SBUX",
-  "shift_label": "Narrative steady",
-  "sentiment_delta": 0.0984,
-  "baseline_label": "2026-07-17",
+  "symbol": "SPGI",
+  "shift_label": "Baseline building",
+  "sentiment_delta": 0.0,
+  "baseline_label": "Building",
   "current": {
-    "date": "2026-07-26",
-    "symbol": "SBUX",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.1759,
+    "date": "2026-07-27",
+    "symbol": "SPGI",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.1775,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
+        "count": 2
       },
       {
         "label": "Financial Markets",
-        "count": 1
+        "count": 2
       },
       {
         "label": "Finance",
         "count": 1
-      },
-      {
-        "label": "Retail Wholesale",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "earnings",
-        "count": 3
-      },
-      {
-        "label": "forecast",
-        "count": 3
-      },
-      {
-        "label": "one",
-        "count": 2
-      },
-      {
-        "label": "hospitality",
-        "count": 2
-      },
-      {
-        "label": "stks",
-        "count": 2
-      },
-      {
-        "label": "future",
-        "count": 1
-      },
-      {
-        "label": "eps",
-        "count": 1
-      },
-      {
-        "label": "revenue",
-        "count": 1
-      },
-      {
-        "label": "growth",
-        "count": 1
-      },
-      {
-        "label": "estimates",
-        "count": 1
-      },
-      {
-        "label": "article",
-        "count": 1
-      },
-      {
-        "label": "provides",
-        "count": 1
-      }
-    ],
-    "headline": "One Group Hospitality Inc (STKS) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-    "headline_source": "TradingKey"
-  },
-  "previous": {
-    "date": "2026-07-17",
-    "symbol": "SBUX",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.0775,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Retail Wholesale",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "yum",
+        "label": "global",
         "count": 4
       },
       {
-        "label": "brands",
+        "label": "earnings",
+        "count": 4
+      },
+      {
+        "label": "revenue",
+        "count": 3
+      },
+      {
+        "label": "preview",
         "count": 2
       },
       {
-        "label": "fairly",
+        "label": "what",
         "count": 2
       },
       {
-        "label": "valued",
+        "label": "look",
         "count": 2
       },
       {
-        "label": "looks",
+        "label": "for",
+        "count": 2
+      },
+      {
+        "label": "set",
+        "count": 2
+      },
+      {
+        "label": "tuesday",
+        "count": 2
+      },
+      {
+        "label": "hours",
         "count": 1
       },
       {
-        "label": "run",
+        "label": "beat",
         "count": 1
       },
       {
-        "label": "appears",
-        "count": 1
-      },
-      {
-        "label": "current",
-        "count": 1
-      },
-      {
-        "label": "levels",
-        "count": 1
-      },
-      {
-        "label": "recent",
-        "count": 1
-      },
-      {
-        "label": "five-year",
-        "count": 1
-      },
-      {
-        "label": "gain",
+        "label": "expectations",
         "count": 1
       }
     ],
-    "headline": "Yum! Brands (YUM) Stock Looks Fairly Valued After A 39% Run",
-    "headline_source": "Simply Wall Street"
+    "headline": "S&P Global (SPGI) Q2 Earnings Report Preview: What To Look For",
+    "headline_source": "Yahoo Finance UK"
   },
+  "previous": null,
   "emerging_themes": [
-    "Finance",
     "Earnings",
-    "Financial Markets"
+    "Financial Markets",
+    "Finance"
   ],
   "fading_themes": [],
   "emerging_keywords": [
+    "global",
     "earnings",
-    "forecast",
-    "one"
+    "revenue"
   ],
-  "fading_keywords": [
-    "yum",
-    "brands",
-    "fairly"
-  ],
-  "takeaway": "SBUX's narrative is narrative steady: sentiment moved +0.10, while the leading theme shifted from Earnings to Earnings.",
+  "fading_keywords": [],
+  "takeaway": "SPGI leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
