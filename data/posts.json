@@ -1,5 +1,212 @@
 [
   {
+    "id": "market-narrative-shift-pg-2026-07-28",
+    "date": "2026-07-28",
+    "runDate": "2026-07-28",
+    "createdAt": "2026-07-28T04:59:33.887806+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $PG",
+    "status": "ready",
+    "tweet": "What changed in $PG's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: +0.08\n📌 Top theme: Earnings\n🔎 Emerging term: earnings\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_PG_2026-07-28.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-28T04:59:32.372578+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$PG",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "PG",
+    "topChangePct": 7.95,
+    "marketNarrativeShift": {
+      "updated_at": "2026-07-28T04:59:32.372578+00:00",
+      "date": "2026-07-28",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "PG",
+      "shift_label": "Attention rising",
+      "sentiment_delta": 0.0795,
+      "baseline_label": "2026-07-18",
+      "current": {
+        "date": "2026-07-28",
+        "symbol": "PG",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.1098,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "procter",
+            "count": 4
+          },
+          {
+            "label": "gamble",
+            "count": 4
+          },
+          {
+            "label": "earnings",
+            "count": 4
+          },
+          {
+            "label": "revenue",
+            "count": 3
+          },
+          {
+            "label": "preview",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 2
+          },
+          {
+            "label": "look",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          },
+          {
+            "label": "set",
+            "count": 2
+          },
+          {
+            "label": "announce",
+            "count": 2
+          },
+          {
+            "label": "wednesday",
+            "count": 2
+          },
+          {
+            "label": "year-on-year",
+            "count": 2
+          }
+        ],
+        "headline": "Procter & Gamble (PG) Q2 Earnings Report Preview: What To Look For",
+        "headline_source": "The Globe and Mail"
+      },
+      "previous": {
+        "date": "2026-07-18",
+        "symbol": "PG",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0303,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "procter",
+            "count": 2
+          },
+          {
+            "label": "gamble",
+            "count": 2
+          },
+          {
+            "label": "down",
+            "count": 1
+          },
+          {
+            "label": "following",
+            "count": 1
+          },
+          {
+            "label": "downgrade",
+            "count": 1
+          },
+          {
+            "label": "dropped",
+            "count": 1
+          },
+          {
+            "label": "jpmorgan",
+            "count": 1
+          },
+          {
+            "label": "chase",
+            "count": 1
+          },
+          {
+            "label": "lowered",
+            "count": 1
+          },
+          {
+            "label": "target",
+            "count": 1
+          },
+          {
+            "label": "although",
+            "count": 1
+          },
+          {
+            "label": "maintained",
+            "count": 1
+          }
+        ],
+        "headline": "Procter & Gamble (NYSE:PG) Shares Down 1.1% Following Analyst Downgrade",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "fading_themes": [
+        "Finance"
+      ],
+      "emerging_keywords": [
+        "earnings",
+        "revenue",
+        "procter"
+      ],
+      "fading_keywords": [
+        "down",
+        "following",
+        "downgrade"
+      ],
+      "takeaway": "PG's narrative is attention rising: sentiment moved +0.08, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-28",
     "date": "2026-07-28",
     "runDate": "2026-07-28",

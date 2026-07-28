@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-07-27T05:43:55.251537+00:00",
-  "date": "2026-07-27",
+  "updated_at": "2026-07-28T04:59:32.372578+00:00",
+  "date": "2026-07-28",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "SPGI",
-  "shift_label": "Baseline building",
-  "sentiment_delta": 0.0,
-  "baseline_label": "Building",
+  "symbol": "PG",
+  "shift_label": "Attention rising",
+  "sentiment_delta": 0.0795,
+  "baseline_label": "2026-07-18",
   "current": {
-    "date": "2026-07-27",
-    "symbol": "SPGI",
+    "date": "2026-07-28",
+    "symbol": "PG",
     "article_count": 2,
     "source_count": 2,
-    "sentiment_score": 0.1775,
+    "sentiment_score": 0.1098,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -25,13 +25,21 @@
         "count": 2
       },
       {
-        "label": "Finance",
+        "label": "Economy Macro",
+        "count": 1
+      },
+      {
+        "label": "Retail Wholesale",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "global",
+        "label": "procter",
+        "count": 4
+      },
+      {
+        "label": "gamble",
         "count": 4
       },
       {
@@ -63,38 +71,117 @@
         "count": 2
       },
       {
-        "label": "tuesday",
+        "label": "announce",
         "count": 2
       },
       {
-        "label": "hours",
+        "label": "wednesday",
+        "count": 2
+      },
+      {
+        "label": "year-on-year",
+        "count": 2
+      }
+    ],
+    "headline": "Procter & Gamble (PG) Q2 Earnings Report Preview: What To Look For",
+    "headline_source": "The Globe and Mail"
+  },
+  "previous": {
+    "date": "2026-07-18",
+    "symbol": "PG",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.0303,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
         "count": 1
       },
       {
-        "label": "beat",
+        "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "expectations",
+        "label": "Finance",
+        "count": 1
+      },
+      {
+        "label": "Retail Wholesale",
         "count": 1
       }
     ],
-    "headline": "S&P Global (SPGI) Q2 Earnings Report Preview: What To Look For",
-    "headline_source": "Yahoo Finance UK"
+    "keywords": [
+      {
+        "label": "procter",
+        "count": 2
+      },
+      {
+        "label": "gamble",
+        "count": 2
+      },
+      {
+        "label": "down",
+        "count": 1
+      },
+      {
+        "label": "following",
+        "count": 1
+      },
+      {
+        "label": "downgrade",
+        "count": 1
+      },
+      {
+        "label": "dropped",
+        "count": 1
+      },
+      {
+        "label": "jpmorgan",
+        "count": 1
+      },
+      {
+        "label": "chase",
+        "count": 1
+      },
+      {
+        "label": "lowered",
+        "count": 1
+      },
+      {
+        "label": "target",
+        "count": 1
+      },
+      {
+        "label": "although",
+        "count": 1
+      },
+      {
+        "label": "maintained",
+        "count": 1
+      }
+    ],
+    "headline": "Procter & Gamble (NYSE:PG) Shares Down 1.1% Following Analyst Downgrade",
+    "headline_source": "MarketBeat"
   },
-  "previous": null,
   "emerging_themes": [
     "Earnings",
     "Financial Markets",
+    "Economy Macro"
+  ],
+  "fading_themes": [
     "Finance"
   ],
-  "fading_themes": [],
   "emerging_keywords": [
-    "global",
     "earnings",
-    "revenue"
+    "revenue",
+    "procter"
   ],
-  "fading_keywords": [],
-  "takeaway": "SPGI leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+  "fading_keywords": [
+    "down",
+    "following",
+    "downgrade"
+  ],
+  "takeaway": "PG's narrative is attention rising: sentiment moved +0.08, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
