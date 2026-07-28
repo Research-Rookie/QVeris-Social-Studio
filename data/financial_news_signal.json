@@ -1,32 +1,47 @@
 {
-  "updated_at": "2026-07-28T04:59:32.244782+00:00",
+  "updated_at": "2026-07-28T05:32:05.482985+00:00",
   "date": "2026-07-28",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Bank of America (NYSE: BAC), Netflix (NASDAQ: NFLX) And TotalEnergies (NYSE: TTE) Lead Monday Analyst Stock Roundup",
-      "summary": "This article provides an analyst stock roundup for Bank of America, Netflix, and TotalEnergies, detailing their recent financial performance and outlook. It also touches on micr...",
-      "url": "https://www.foreignpolicyjournal.com/2026/07/27/bank-of-america-nyse-bac-netflix-nasdaq-nflx-and-totalenergies-nyse-tte-lead-monday-analyst-stock-roundup/",
-      "source": "Foreign Policy Journal",
-      "published_at": "20260728T015459",
-      "sentiment_score": 0.077577,
+      "title": "Cisco Systems (NASDAQ:CSCO) Lowered to \"Hold\" Rating by Wall Street Zen",
+      "summary": "Wall Street Zen has downgraded Cisco Systems (NASDAQ:CSCO) from a \"buy\" to a \"hold\" rating, though the overall analyst consensus remains a \"Moderate Buy\" with an average price t...",
+      "url": "https://www.marketbeat.com/instant-alerts/cisco-systems-nasdaqcsco-lowered-to-hold-rating-by-wall-street-zen-2026-07-28/",
+      "source": "MarketBeat",
+      "published_at": "20260728T050723",
+      "sentiment_score": 0.001842,
       "sentiment_label": "Neutral",
       "tickers": [
-        "BAC",
-        "NFLX",
-        "TDY",
-        "LH"
+        "CSCO"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance",
-        "Economy Macro",
-        "Energy Transportation"
+        "Technology"
       ],
       "quality_score": 17,
+      "is_noise": false
+    },
+    {
+      "title": "General Dynamics (GD) Q2 Earnings: What To Expect",
+      "summary": "General Dynamics (GD) is set to report its Q2 earnings on Wednesday. Analysts expect a 3.9% year-on-year revenue growth, a slowdown from the previous year, but generally remain...",
+      "url": "https://www.tradingview.com/news/stockstory:53cd0c5bc094b:0-general-dynamics-gd-q2-earnings-what-to-expect/",
+      "source": "TradingView",
+      "published_at": "20260728T034036",
+      "sentiment_score": 0.326844,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GD",
+        "RTX",
+        "LMT"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 16,
       "is_noise": false
     },
     {
@@ -35,7 +50,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/GD/pressreleases/3491286/general-dynamics-gd-q2-earnings-what-to-expect/",
       "source": "The Globe and Mail",
       "published_at": "20260728T032322",
-      "sentiment_score": 0.315757,
+      "sentiment_score": 0.290779,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GD",
@@ -55,7 +70,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/PG/pressreleases/3491364/procter-gamble-pg-q2-earnings-report-preview-what-to-look-for/",
       "source": "The Globe and Mail",
       "published_at": "20260728T032030",
-      "sentiment_score": 0.058705,
+      "sentiment_score": 0.056714,
       "sentiment_label": "Neutral",
       "tickers": [
         "PG"
@@ -70,41 +85,60 @@
       "is_noise": false
     },
     {
-      "title": "Tandy Leather Factory Inc (TLF) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
-      "summary": "This article provides a revenue breakdown for Tandy Leather Factory Inc (TLF), detailing its revenue by region. The company's primary markets are the United States and Canada, c...",
-      "url": "https://www.tradingkey.com/markets/stocks/tlf/revenue",
-      "source": "TradingKey",
-      "published_at": "20260728T020539",
-      "sentiment_score": 7.1e-05,
-      "sentiment_label": "Neutral",
+      "title": "NetApp Inc (0K6F) Q3 2024 Earnings Report - Results, Call & Slides",
+      "summary": "NetApp Inc. (0K6F) reported its Q3 2024 earnings, beating analyst expectations with an actual EPS of $1.94 against a consensus of $1.69 and actual revenue of $1.60 billion compa...",
+      "url": "https://www.tipranks.com/stocks/gb:0k6f/earnings/q3-2024-report",
+      "source": "TipRanks",
+      "published_at": "20260728T043717",
+      "sentiment_score": 0.512775,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "TLF"
+        "NTAP"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
+        "Technology"
       ],
-      "quality_score": 16,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "SR Bancorp Inc (SRBK) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
-      "summary": "This article provides details on SR Bancorp Inc (SRBK), including its current stock price, market cap, and P/E ratio. It notes that revenue breakdown by business segments and re...",
-      "url": "https://www.tradingkey.com/markets/stocks/srbk/revenue",
-      "source": "TradingKey",
-      "published_at": "20260728T015034",
-      "sentiment_score": 0.021134,
-      "sentiment_label": "Neutral",
+      "title": "F5 Inc (FFIV) Q3 2026 Earnings Call Highlights: Strong Product Revenue Growth and Raised Fiscal Outlook",
+      "summary": "F5 Inc (FFIV) reported strong Q3 2026 earnings, with total revenue increasing 11% year-over-year and product revenue up 19%. The company also raised its fiscal year 2026 revenue...",
+      "url": "https://www.gurufocus.com/news/8981928/f5-inc-ffiv-q3-2026-earnings-call-highlights-strong-product-revenue-growth-and-raised-fiscal-outlook",
+      "source": "GuruFocus",
+      "published_at": "20260728T043006",
+      "sentiment_score": 0.434538,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "SRBK"
+        "FFIV"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Finance"
+        "Technology"
       ],
-      "quality_score": 16,
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "Biogen (BIIB) Reports Q2: Everything You Need To Know Ahead Of Earnings",
+      "summary": "Biotech company Biogen (BIIB) is set to report its Q2 earnings this Wednesday. Analysts expect a 7.8% year-on-year revenue decline, despite the company exceeding revenue expecta...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/BIIB/pressreleases/3491442/biogen-biib-reports-q2-everything-you-need-to-know-ahead-of-earnings/",
+      "source": "The Globe and Mail",
+      "published_at": "20260728T032350",
+      "sentiment_score": 0.203841,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "BIIB",
+        "NVDA"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 15,
       "is_noise": false
     },
     {
@@ -113,7 +147,7 @@
       "url": "https://www.financialcontent.com/article/stockstory-2026-7-28-procter-and-gamble-pg-q2-earnings-report-preview-what-to-look-for",
       "source": "FinancialContent",
       "published_at": "20260728T032004",
-      "sentiment_score": 0.160849,
+      "sentiment_score": 0.168001,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PG",
@@ -132,7 +166,7 @@
       "url": "https://stockstory.org/us/stocks/nyse/vmc/news/earnings/what-to-expect-from-vulcan-materialss-vmc-q2-earnings",
       "source": "StockStory",
       "published_at": "20260728T031706",
-      "sentiment_score": 0.200215,
+      "sentiment_score": 0.216088,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "VMC",
@@ -148,12 +182,113 @@
       "is_noise": false
     },
     {
+      "title": "Marriott Vacations Worldwide Corp (VAC) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
+      "summary": "This article provides a detailed revenue breakdown for Marriott Vacations Worldwide Corp (VAC), categorizing revenue by business segments and geographic regions. It shows \"Cost...",
+      "url": "https://www.tradingkey.com/markets/stocks/vac/revenue",
+      "source": "TradingKey",
+      "published_at": "20260728T052114",
+      "sentiment_score": 0.104367,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "VAC"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "How Waste Connections’ New CA$700 Million Notes and Higher Outlook Could Shape WCN Investors’ Returns",
+      "summary": "Waste Connections, Inc. recently issued CA$700 million in senior unsecured notes to refinance existing debt and raised its 2026 earnings outlook. This move, combined with contin...",
+      "url": "https://simplywall.st/stocks/us/commercial-services/nyse-wcn/waste-connections/news/how-waste-connections-new-ca700-million-notes-and-higher-out",
+      "source": "Simply Wall St",
+      "published_at": "20260728T050153",
+      "sentiment_score": 0.259594,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "WCN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "UGP|Ultrapar Participacoes SA|Price:6.270|Chg%:-0.160",
+      "summary": "This article provides a detailed financial overview of Ultrapar Participacoes SA (UGP), showcasing its latest stock price, market cap, P/E TTM, and upcoming earnings date. It pr...",
+      "url": "https://www.tradingkey.com/markets/stocks/ugp/financials",
+      "source": "TradingKey",
+      "published_at": "20260728T035152",
+      "sentiment_score": 0.12173,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "UGP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Electronic Arts Earnings: What To Look For From EA",
+      "summary": "Electronic Arts (EA) is set to report earnings this Wednesday, with analysts expecting a significant year-on-year revenue growth of 2,512%, despite the company having missed rev...",
+      "url": "https://www.tradingview.com/news/stockstory:69de1b049094b:0-electronic-arts-earnings-what-to-look-for-from-ea/",
+      "source": "TradingView",
+      "published_at": "20260728T033934",
+      "sentiment_score": -0.117274,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "EA",
+        "GOOGL",
+        "NFLX",
+        "NVDA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "What To Expect From C.H. Robinson Worldwide’s (CHRW) Q2 Earnings",
+      "summary": "C.H. Robinson Worldwide (CHRW) is set to report its Q2 earnings this Wednesday, with analysts expecting a 5.9% year-on-year revenue growth after missing expectations last quarte...",
+      "url": "https://www.tradingview.com/news/stockstory:65d1f4014094b:0-what-to-expect-from-c-h-robinson-worldwide-s-chrw-q2-earnings/",
+      "source": "TradingView",
+      "published_at": "20260728T032417",
+      "sentiment_score": 0.058959,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CHRW",
+        "FDX",
+        "PLTR",
+        "UPS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Energy Transportation"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
       "title": "Silgan Holdings Earnings: What To Look For From SLGN",
       "summary": "Silgan Holdings (NYSE: SLGN) is set to report earnings this Wednesday, with analysts expecting a 4.8% year-on-year revenue growth. The company previously exceeded revenue expect...",
       "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-28-silgan-holdings-earnings-what-to-look-for-from-slgn",
       "source": "FinancialContent",
       "published_at": "20260728T031909",
-      "sentiment_score": 0.268987,
+      "sentiment_score": 0.241349,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "SLGN",
@@ -174,7 +309,7 @@
       "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-28-everest-group-eg-reports-q2-everything-you-need-to-know-ahead-of-earnings",
       "source": "FinancialContent",
       "published_at": "20260728T031620",
-      "sentiment_score": 0.020134,
+      "sentiment_score": 0.024601,
       "sentiment_label": "Neutral",
       "tickers": [
         "EG"
@@ -188,77 +323,59 @@
       "is_noise": false
     },
     {
-      "title": "Shuttle Pharmaceuticals Holdings Inc (SHPH) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contrib...",
-      "summary": "The article provides a financial overview of Shuttle Pharmaceuticals Holdings Inc (SHPH), noting its current stock price, market capitalization, and P/E ratio. It highlights tha...",
-      "url": "https://www.tradingkey.com/markets/stocks/shph/revenue",
-      "source": "TradingKey",
-      "published_at": "20260728T015012",
-      "sentiment_score": 0.013465,
+      "title": "Earnings To Watch: VF Corp (VFC) Reports Q2 Results Tomorrow",
+      "summary": "VF Corp (NYSE: VFC) is set to report its Q2 earnings tomorrow, with analysts expecting flat year-on-year revenue. The company previously exceeded revenue and EPS estimates last...",
+      "url": "http://markets.chroniclejournal.com/chroniclejournal/article/stockstory-2026-7-28-earnings-to-watch-vf-corp-vfc-reports-q2-results-tomorrow",
+      "source": "The Chronicle-Journal",
+      "published_at": "20260728T030433",
+      "sentiment_score": 0.11356,
       "sentiment_label": "Neutral",
       "tickers": [
-        "SHPH"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Protalix Biotherapeutics Inc (PLX) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
-      "summary": "The article provides a revenue breakdown for Protalix Biotherapeutics Inc (PLX), detailing its business segments and their respective revenue contributions for FY2025. It shows...",
-      "url": "https://www.tradingkey.com/markets/stocks/plx/revenue",
-      "source": "TradingKey",
-      "published_at": "20260728T014623",
-      "sentiment_score": 0.041216,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PLX"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Preformed Line Products Co (PLPC) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-      "summary": "This article provides an earnings forecast for Preformed Line Products Co (PLPC), highlighting its current earnings forecast score of 6.00 within the Machinery, Tools, Heavy Veh...",
-      "url": "https://www.tradingkey.com/markets/stocks/plpc/earnings",
-      "source": "TradingKey",
-      "published_at": "20260728T011941",
-      "sentiment_score": 0.028732,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PLPC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "MGM Resorts (MGM) To Report Earnings Tomorrow: Here Is What To Expect",
-      "summary": "MGM Resorts (MGM) is scheduled to report its earnings this Wednesday after market hours. The company beat revenue expectations last quarter but missed EBITDA and EPS estimates....",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-28-mgm-resorts-mgm-to-report-earnings-tomorrow-here-is-what-to-expect",
-      "source": "FinancialContent",
-      "published_at": "20260728T020200",
-      "sentiment_score": -0.148613,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MGM"
+        "VFC"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Economy Macro",
         "Retail Wholesale"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Telefonica Brasil ADR earnings missed by $0.02, revenue topped estimates",
+      "summary": "Telefonica Brasil ADR (VIV) reported second-quarter earnings per share of $0.192, missing analyst estimates by $0.02, while revenue reached $3.09 billion, exceeding the consensu...",
+      "url": "https://www.investing.com/news/earnings/telefonica-brasil-adr-earnings-missed-by-002-revenue-topped-estimates-4815441",
+      "source": "Investing.com",
+      "published_at": "20260728T042907",
+      "sentiment_score": -0.192766,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "VIV"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Verisk (VRSK) Q2 Earnings Report Preview: What To Look For",
+      "summary": "Verisk Analytics (VRSK) is set to release its Q2 earnings report, with analysts expecting a 4.1% year-on-year revenue growth, a slowdown from the previous year. Despite past rev...",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-28-verisk-vrsk-q2-earnings-report-preview-what-to-look-for",
+      "source": "FinancialContent",
+      "published_at": "20260728T030108",
+      "sentiment_score": 0.128365,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "VRSK",
+        "EFX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
       ],
       "quality_score": 12,
       "is_noise": false
@@ -269,7 +386,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/sxtp/revenue",
       "source": "TradingKey",
       "published_at": "20260728T040426",
-      "sentiment_score": 0.071038,
+      "sentiment_score": 0.061059,
       "sentiment_label": "Neutral",
       "tickers": [
         "SXTP"
@@ -283,80 +400,78 @@
       "is_noise": false
     },
     {
-      "title": "Preferred Bank (PFBC) On Strong Earnings And A Valuation Question",
-      "summary": "Preferred Bank (PFBC) is gaining attention after strong Q2 and H1 2026 earnings, showing increased net interest income and EPS. Despite recent share price gains, the stock is co...",
-      "url": "https://simplywall.st/stocks/us/banks/nasdaq-pfbc/preferred-bank/news/preferred-bank-pfbc-on-strong-earnings-and-a-valuation-quest/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260728T014724",
-      "sentiment_score": 0.314947,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "PFBC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Real Estate",
-        "Economy Macro"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Pinnacle Financial Partners, Inc. 2026 Q2 - Results - Earnings Call Presentation (NYSE:PNFP)",
-      "summary": "Pinnacle Financial Partners, Inc. (PNFP) published its Q2 2026 earnings call presentation, detailing its financial results for the quarter. The company reported an EPS of $2.50,...",
-      "url": "https://seekingalpha.com/article/4926025-pinnacle-financial-partners-inc-2026-q2-results-earnings-call-presentation?source=feed_tag_us",
-      "source": "Seeking Alpha",
-      "published_at": "20260728T013622",
-      "sentiment_score": 0.033934,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PNFP-P-B"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Q1 Surgical Equipment & Consumables - Diversified Earnings: Zimmer Biomet (NYSE:ZBH) Earns Top Marks",
-      "summary": "Zimmer Biomet (NYSE:ZBH) earned top marks in the Q1 surgical equipment & consumables diversified industry, reporting strong revenues of $2.09 billion, up 9.3% year-on-year, and...",
-      "url": "https://finance.yahoo.com/healthcare/articles/q1-surgical-equipment-consumables-diversified-013302635.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260728T013256",
-      "sentiment_score": 0.253263,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ZBH",
-        "STE",
-        "BDX",
-        "SOLV"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "OS Therapies Inc (OSTX) Financial Health: Profitability & Balance Sheet Analysis",
-      "summary": "This article provides a financial analysis of OS Therapies Inc (OSTX), focusing on its profitability and balance sheet. It notes the company's current stock price, market capita...",
-      "url": "https://www.tradingkey.com/markets/stocks/ostx/financial-health",
+      "title": "Amcor PLC (AMCR) Financial Health: Profitability & Balance Sheet Analysis",
+      "summary": "This article provides an analysis of Amcor PLC's (AMCR) financial health, ranking it 8th out of 21 in the Containers & Packaging industry with a financial score of 7.72. The com...",
+      "url": "https://www.tradingkey.com/markets/stocks/amcr/financial-health",
       "source": "TradingKey",
-      "published_at": "20260728T013222",
-      "sentiment_score": 0.104761,
-      "sentiment_label": "Neutral",
+      "published_at": "20260728T035641",
+      "sentiment_score": 0.440847,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "OSTX"
+        "AMCR"
       ],
       "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "TGS|Transportadora de Gas del Sur SA|Precio:30.430|Variación %:-0.050",
+      "summary": "Transportadora de Gas del Sur SA (TGS) shows strong fundamentals and high growth potential, but its valuation is considered fair. Analysts rate it a \"Buy\" with a high price targ...",
+      "url": "https://www.tradingkey.com/es/markets/stocks/tgs/stock-analysis",
+      "source": "TradingKey",
+      "published_at": "20260728T034826",
+      "sentiment_score": 0.297627,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "TGS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "COST|Costco Wholesale Corp|Price:951.630|Chg%:+16.600",
+      "summary": "This article provides a comprehensive overview of Costco Wholesale Corp (COST), detailing its current market trends, real-time quotes, and related analysis. It highlights Costco...",
+      "url": "https://www.tradingkey.com/markets/stocks/cost",
+      "source": "TradingKey",
+      "published_at": "20260728T032504",
+      "sentiment_score": 0.20083,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "COST"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "CZR|Caesars Entertainment Inc|Price:29.965|Chg%:+0.025",
+      "summary": "This article provides an analysis of Caesars Entertainment Inc (CZR) stock, noting its current price, market trends, and key financial figures. It highlights that CZR's fundamen...",
+      "url": "https://www.tradingkey.com/markets/stocks/czr",
+      "source": "TradingKey",
+      "published_at": "20260728T031222",
+      "sentiment_score": 0.165087,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CZR",
+        "LVS",
+        "MGM",
+        "WYNN"
+      ],
+      "topics": [
+        "Financial Markets",
         "Earnings",
         "Finance"
       ],
@@ -364,44 +479,75 @@
       "is_noise": false
     },
     {
-      "title": "Did Citi’s (C) Earnings Beat and Dividend Hike Just Recast Its AI Investment Trade‑Off?",
-      "summary": "Citigroup (C) recently reported stronger Q2 earnings and net interest income, along with dividend increases and preferred share redemptions. While these results show strong curr...",
-      "url": "https://simplywall.st/stocks/us/banks/nyse-c/citigroup/news/did-citis-c-earnings-beat-and-dividend-hike-just-recast-its",
-      "source": "Simply Wall St",
-      "published_at": "20260728T014506",
-      "sentiment_score": 0.125823,
-      "sentiment_label": "Neutral",
+      "title": "TFI International Q2 Earnings Call Highlights",
+      "summary": "TFI International reported Q2 earnings that exceeded expectations, with adjusted EPS up 38% year-over-year to CAD 1.85 and revenue before fuel surcharge increasing by 6%. The Tr...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tfi-international-q2-earnings-call-230327161.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260728T043620",
+      "sentiment_score": 0.484886,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "C",
-        "JPM",
-        "BAC"
+        "TFII"
       ],
       "topics": [
         "Earnings",
-        "Finance",
-        "Technology",
-        "Financial Markets"
+        "Energy Transportation"
       ],
       "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Boston Scientific to restructure, cut costs by $500M annually",
-      "summary": "Boston Scientific Corp. is implementing a new 2026 Restructuring Plan to address challenges with key revenue drivers. This initiative is expected to lead to layoffs and aims to...",
-      "url": "https://www.nbcboston.com/boston-business-journal/boston-scientific-restructuring-cutting-costs/3987957/",
-      "source": "NBC Boston",
-      "published_at": "20260728T012612",
-      "sentiment_score": -0.256455,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Transcript : TFI International Inc., Q2 2026 Earnings Call, Jul 27, 2026",
+      "summary": "This article provides the transcript of TFI International Inc.'s Q2 2026 Earnings Call held on July 27, 2026. It highlights that the full transcript is reserved for subscribers,...",
+      "url": "https://www.marketscreener.com/news/transcript-tfi-international-inc-q2-2026-earnings-call-jul-27-2026-ce7f51ddd98cf524",
+      "source": "www.marketscreener.com",
+      "published_at": "20260728T043620",
+      "sentiment_score": 0.209807,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "BSX"
+        "TFII",
+        "CI"
+      ],
+      "topics": [
+        "Earnings"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Trivago updates financial calendar with second-quarter results release, webcast scheduled",
+      "summary": "Trivago has announced its financial calendar, scheduling its Q2 2026 earnings release for August 4, 2026, after market close. Following the release, a management webcast will be...",
+      "url": "https://www.bitget.com/amp/news/detail/12560605550456",
+      "source": "Bitget",
+      "published_at": "20260728T033245",
+      "sentiment_score": 0.130133,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TRVG"
+      ],
+      "topics": [
+        "Earnings"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Should Teva’s Branded-Drug Pivot and Duvakitug Bet Reshape How TEVA Investors View Earnings Power?",
+      "summary": "Teva Pharmaceutical Industries is shifting its focus from generics to higher-margin branded drugs, with a significant bet on duvakitug for ulcerative colitis and Crohn's disease...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-teva/teva-pharmaceutical-industries/news/should-tevas-branded-drug-pivot-and-duvakitug-bet-reshape-ho/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260728T041959",
+      "sentiment_score": 0.349235,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "TEVA"
       ],
       "topics": [
         "Earnings",
         "Life Sciences",
-        "Finance"
+        "Financial Markets"
       ],
-      "quality_score": 9,
+      "quality_score": 8,
       "is_noise": false
     },
     {
@@ -410,7 +556,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/spok/balance-sheet",
       "source": "TradingKey",
       "published_at": "20260728T035134",
-      "sentiment_score": 0.034858,
+      "sentiment_score": 0.042005,
       "sentiment_label": "Neutral",
       "tickers": [
         "SPOK"
@@ -428,7 +574,7 @@
       "url": "https://simplywall.st/stocks/us/real-estate/nasdaq-eqix/equinix/news/does-equinixs-new-product-focused-leadership-structure-refra",
       "source": "Simply Wall St",
       "published_at": "20260728T033417",
-      "sentiment_score": 0.126827,
+      "sentiment_score": 0.140037,
       "sentiment_label": "Neutral",
       "tickers": [
         "EQIX"
@@ -442,12 +588,55 @@
       "is_noise": false
     },
     {
+      "title": "Winnebago Industries Inc (WGO) Financial Health: Profitability & Balance Sheet Analysis",
+      "summary": "Winnebago Industries Inc (WGO) has a robust financial status with an average operating efficiency, earning a financial score of 7.57 and ranking 6 out of 28 in the Leisure Produ...",
+      "url": "https://www.tradingkey.com/markets/stocks/wgo/financial-health",
+      "source": "TradingKey",
+      "published_at": "20260728T032230",
+      "sentiment_score": -0.229224,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "WGO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Linde PLC Today's Market Trends | LIN Stock Real-Time Quotes, Trading Strategies & Related Analysis | TradingKey",
+      "summary": "Linde PLC (LIN) is currently trading at $506.88, down 1.05%, with a market capitalization of $235.03 billion. The company, a leading global industrial gas supplier, is considere...",
+      "url": "https://www.tradingkey.com/markets/stocks/lin",
+      "source": "TradingKey",
+      "published_at": "20260728T031519",
+      "sentiment_score": 0.311593,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "LIN",
+        "ECL",
+        "SHW",
+        "PPG",
+        "APD"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Manufacturing",
+        "Economy Macro",
+        "Energy Transportation"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "PTC Inc|Price:125.230|Chg%:+6.710",
       "summary": "TradingKey provides a comprehensive analysis of PTC Inc (PTC), highlighting its strong fundamentals, high growth potential, and fair valuation within the Software & IT Services...",
       "url": "https://www.tradingkey.com/markets/stocks/ptc/stock-analysis",
       "source": "TradingKey",
       "published_at": "20260728T031234",
-      "sentiment_score": 0.267003,
+      "sentiment_score": 0.312906,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PTC",
@@ -465,12 +654,30 @@
       "is_noise": false
     },
     {
+      "title": "CH Robinson Worldwide Inc (CHRW) Financial Health: Profitability & Balance Sheet Analysis",
+      "summary": "CH Robinson Worldwide Inc (CHRW) has a weak financial status and average operating efficiency, ranking 58 out of 75 in the Freight & Logistics Services industry with a financial...",
+      "url": "https://www.tradingkey.com/markets/stocks/chrw/financial-health",
+      "source": "TradingKey",
+      "published_at": "20260728T031208",
+      "sentiment_score": -0.403021,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "CHRW"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "Cooper Companies Inc (COO) Valuation: PE, PB & Fair Value Analysis",
       "summary": "The article provides a valuation analysis of Cooper Companies Inc (COO), noting its current valuation score of 6.74, placing it 172nd out of 199 in the Healthcare Equipment & Su...",
       "url": "https://www.tradingkey.com/markets/stocks/coo/company-valuation",
       "source": "TradingKey",
       "published_at": "20260728T030907",
-      "sentiment_score": 0.035877,
+      "sentiment_score": 0.046307,
       "sentiment_label": "Neutral",
       "tickers": [
         "COO"
@@ -485,162 +692,96 @@
       "is_noise": false
     },
     {
-      "title": "MOH|Molina Healthcare Inc|Price:199.480|Chg%:+1.930",
-      "summary": "Molina Healthcare Inc (MOH) shows relatively healthy fundamentals and significant growth potential, although its valuation is considered fairly valued within the Healthcare Prov...",
-      "url": "https://www.tradingkey.com/markets/stocks/moh/stock-analysis",
+      "title": "Twin Vee PowerCats Co (VEEE) Financial Health: Profitability & Balance Sheet Analysis",
+      "summary": "TradingKey reports that Twin Vee PowerCats Co (VEEE) boasts a robust financial status with a score of 7.14, ranking 13th in the Leisure Products industry. The company's latest q...",
+      "url": "https://www.tradingkey.com/markets/stocks/veee/financial-health",
       "source": "TradingKey",
-      "published_at": "20260728T025903",
-      "sentiment_score": 0.142137,
-      "sentiment_label": "Neutral",
+      "published_at": "20260728T030720",
+      "sentiment_score": 0.396213,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "MOH"
+        "VEEE"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Life Sciences",
-        "Finance",
-        "Economy Macro"
+        "Finance"
       ],
       "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "Rein Therapeutics Inc (RNTX) Cash Flow",
-      "summary": "This article provides a detailed cash flow statement for Rein Therapeutics Inc (RNTX), encompassing quarterly and annual data for operating, investing, and financing activities....",
-      "url": "https://www.tradingkey.com/markets/stocks/rntx/cash-flow",
+      "title": "Vishay Intertechnology Inc (VSH) Risk Assessment: Volatility, Financial Risk & Investment Risk",
+      "summary": "This article provides a risk assessment for Vishay Intertechnology Inc (VSH), detailing its volatility, financial risk, and investment risk. VSH has a risk score of 5.48, rankin...",
+      "url": "https://www.tradingkey.com/markets/stocks/vsh/risk-assesment",
       "source": "TradingKey",
-      "published_at": "20260728T022143",
-      "sentiment_score": -0.344693,
+      "published_at": "20260728T030633",
+      "sentiment_score": -0.226028,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "RNTX"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Life Sciences"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Target Corp (TGT) Dividends & Stock Splits: Historical Payouts and Event Timeline",
-      "summary": "This article provides a historical timeline of dividend payouts and stock splits for Target Corp (TGT). It details interim cash dividends with their gross amounts, record dates,...",
-      "url": "https://www.tradingkey.com/markets/stocks/tgt/dividend-splits",
-      "source": "TradingKey",
-      "published_at": "20260728T021923",
-      "sentiment_score": 0.119328,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TGT"
+        "VSH"
       ],
       "topics": [
         "Financial Markets",
-        "Retail Wholesale",
+        "Technology",
         "Earnings"
       ],
       "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "DaVita Inc (DVA) Shareholder Structure: Major Shareholders & Institutional Holdings",
-      "summary": "This article details the shareholder structure of DaVita Inc (DVA), highlighting major shareholders and institutional holdings. It provides a breakdown of proportional ownership...",
-      "url": "https://www.tradingkey.com/markets/stocks/dva/ownership",
+      "title": "UNF|UniFirst Corp|Price:297.653|Chg%:+3.313",
+      "summary": "This article provides a comprehensive stock analysis of UniFirst Corp (UNF) from TradingKey. It highlights the company's strong fundamentals, high growth potential, and fair val...",
+      "url": "https://www.tradingkey.com/markets/stocks/unf/stock-analysis",
       "source": "TradingKey",
-      "published_at": "20260728T020641",
-      "sentiment_score": 0.015951,
-      "sentiment_label": "Neutral",
+      "published_at": "20260728T030606",
+      "sentiment_score": 0.349992,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "DVA",
-        "BLK",
-        "STT",
-        "IVZ"
+        "UNF"
       ],
       "topics": [
+        "Earnings",
         "Financial Markets",
         "Finance",
-        "Earnings",
-        "Life Sciences"
+        "Manufacturing"
       ],
       "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "Rio Tinto PLC (RIO) Cash Flow",
-      "summary": "This article provides a detailed look into Rio Tinto PLC's cash flow statement, including operating, investing, and financing activities over several fiscal periods. It presents...",
-      "url": "https://www.tradingkey.com/markets/stocks/rio/cash-flow",
-      "source": "TradingKey",
-      "published_at": "20260728T020151",
-      "sentiment_score": 0.138333,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "RIO"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Nucor posts $1.1B in Q2 income",
-      "summary": "Nucor (NYSE: NUE) reported nearly $1.16 billion in net earnings for the second quarter of 2026, a significant increase from both the previous quarter and the second quarter of 2...",
-      "url": "https://www.recyclingtoday.com/news/nucor-steel-recycling-profits-materials-cost-spread-usa-q2-2026/",
-      "source": "Recycling Today",
-      "published_at": "20260728T014900",
-      "sentiment_score": 0.561975,
+      "title": "Press Release: Brown & Brown, Inc. Announces Second Quarter 2026 Results, Including Total Revenues of $1.7 Billion,...",
+      "summary": "Brown & Brown, Inc. announced its financial results for the second quarter of 2026. The company reported total revenues of $1.7 billion, marking a 30.4% increase. Organic revenu...",
+      "url": "https://www.moomoo.com/news/post/73598844/press-release-brown-brown-inc-announces-second-quarter-2026-results?futusource=news_newspage_recommend",
+      "source": "Moomoo",
+      "published_at": "20260728T042356",
+      "sentiment_score": 0.481961,
       "sentiment_label": "Bullish",
       "tickers": [
-        "NUE",
-        "STLD",
-        "VMC"
+        "BRO"
       ],
       "topics": [
-        "Earnings",
-        "Manufacturing",
-        "Economy Fiscal"
+        "Earnings"
       ],
-      "quality_score": 7,
+      "quality_score": 6,
       "is_noise": false
     },
     {
-      "title": "PDD Holdings Inc (PDD) Income Statement",
-      "summary": "This article provides the quarterly and annual income statements for PDD Holdings Inc (PDD), covering a wide range of financial metrics such as revenue, cost of revenue, operati...",
-      "url": "https://www.tradingkey.com/markets/stocks/pdd/income-statement",
-      "source": "TradingKey",
-      "published_at": "20260728T014835",
-      "sentiment_score": 0.10963,
+      "title": "Lamb Weston Posts FY2026 Sales Growth Despite International Headwinds",
+      "summary": "Lamb Weston announced its Q4 and full fiscal year 2026 results, reporting solid sales growth and profitability driven by North American volume increases, despite international h...",
+      "url": "https://www.potatopro.com/news/2026/lamb-weston-posts-fy2026-sales-growth-despite-international-headwinds",
+      "source": "PotatoPro",
+      "published_at": "20260728T035743",
+      "sentiment_score": 0.138138,
       "sentiment_label": "Neutral",
       "tickers": [
-        "PDD"
+        "LW"
       ],
       "topics": [
         "Earnings",
-        "Finance"
+        "Retail Wholesale",
+        "Economy Macro"
       ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Alpine Income Property Trust, Inc. 2026 Q2 - Results - Earnings Call Presentation (NYSE:PINE) 2026-07-27",
-      "summary": "Alpine Income Property Trust, Inc. (NYSE:PINE) published its Q2 2026 earnings call presentation on July 27, 2026. The company reported an EPS of $0.15, beating estimates by $0.0...",
-      "url": "https://seekingalpha.com/article/4926028-alpine-income-property-trust-inc-2026-q2-results-earnings-call-presentation",
-      "source": "Seeking Alpha",
-      "published_at": "20260728T013419",
-      "sentiment_score": 0.435504,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "PINE"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 7,
+      "quality_score": 6,
       "is_noise": false
     },
     {
@@ -649,7 +790,7 @@
       "url": "https://simplywall.st/stocks/us/commercial-services/nyse-rol/rollins/news/is-rollins-rol-using-modest-q2-gains-and-a-steady-dividend-t",
       "source": "Simply Wall St",
       "published_at": "20260728T034455",
-      "sentiment_score": 0.146452,
+      "sentiment_score": 0.142491,
       "sentiment_label": "Neutral",
       "tickers": [
         "ROL"
@@ -668,7 +809,7 @@
       "url": "https://simplywall.st/stocks/us/household/nyse-cl/colgate-palmolive/news/johnson-and-johnson-talc-settlement-puts-colgate-and-kimberl",
       "source": "Simply Wall St",
       "published_at": "20260728T033408",
-      "sentiment_score": -0.019143,
+      "sentiment_score": -0.043978,
       "sentiment_label": "Neutral",
       "tickers": [
         "CL",
@@ -692,7 +833,7 @@
       "url": "https://uk.finance.yahoo.com/quote/SOR/",
       "source": "Yahoo Finance UK",
       "published_at": "20260728T032343",
-      "sentiment_score": 0.117732,
+      "sentiment_score": 0.131802,
       "sentiment_label": "Neutral",
       "tickers": [
         "SOR",
@@ -712,7 +853,7 @@
       "url": "https://www.morningstar.com/company-reports/1490541-baker-hughes-industrial-technology-order-book-and-backlog-give-it-multiyear-visibility",
       "source": "Morningstar",
       "published_at": "20260728T032009",
-      "sentiment_score": 0.039131,
+      "sentiment_score": 0.046379,
       "sentiment_label": "Neutral",
       "tickers": [
         "BKR"
@@ -726,144 +867,83 @@
       "is_noise": false
     },
     {
-      "title": "Pentair plc Securities Fraud Investigation - Robbins LLP is Investigating Investor Losses in PNR Due to Possible Vi...",
-      "summary": "Robbins LLP is investigating Pentair plc (PNR) for possible securities law violations and breaches of fiduciary duties after the company significantly lowered its full-year sale...",
-      "url": "https://www.prnewswire.com/news-releases/pentair-plc-securities-fraud-investigation--robbins-llp-is-investigating-investor-losses-in-pnr-due-to-possible-violations-of-securities-laws-302835782.html",
-      "source": "PR Newswire",
-      "published_at": "20260728T024709",
-      "sentiment_score": -0.73446,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "PNR"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets",
-        "Economy Macro",
-        "Manufacturing"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Medtronic (MDT) Stock May Be Fairly Valued As Shares Sit Near A 5 Year Low",
-      "summary": "Medtronic (MDT) shares have fallen 25% over the last five years but appear to be roughly fairly valued based on a Discounted Cash Flow (DCF) model and undervalued based on earni...",
-      "url": "https://uk.finance.yahoo.com/news/medtronic-mdt-stock-may-fairly-020912947.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260728T020834",
-      "sentiment_score": 0.119019,
+      "title": "Weekly Recap: One-third stake in Cellcentric JV and 600,000+ hybrid sales",
+      "summary": "Toyota Motor Corp. is increasing its involvement in heavy-truck fuel-cell technology by acquiring a one-third stake in the Cellcentric joint venture. Simultaneously, the company...",
+      "url": "https://www.tradingview.com/news/tradingview:ab7bc92baabf1:0-weekly-recap-one-third-stake-in-cellcentric-jv-and-600-000-hybrid-sales/",
+      "source": "TradingView",
+      "published_at": "20260728T043651",
+      "sentiment_score": 0.016318,
       "sentiment_label": "Neutral",
       "tickers": [
-        "MDT"
+        "TM"
       ],
       "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences",
-        "Technology"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Why Did AAPL, FBRX, RTX Stocks Surge To 52-Week Highs Today?",
-      "summary": "Apple (AAPL) became the world's most valuable company at $4.95 trillion, Forte Biosciences (FBRX) was acquired by Argenx for $2.2 billion, and RTX (RTX) extended its rally due t...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-aapl-fbrx-rtx-015733892.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260728T015720",
-      "sentiment_score": 0.21403,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "RTX",
-        "AAPL",
-        "NVDA"
-      ],
-      "topics": [
-        "Earnings",
         "Mergers And Acquisitions",
-        "Financial Markets",
-        "Life Sciences",
-        "Technology"
+        "Earnings",
+        "Energy Transportation"
       ],
-      "quality_score": 6,
+      "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "GEHC|GE Healthcare Technologies Inc|Price:61.100|Chg%:+0.520",
-      "summary": "TradingKey provides a comprehensive stock analysis for GE Healthcare Technologies Inc (GEHC), assigning it a strong overall score, ranking 9th in its industry. The report highli...",
-      "url": "https://www.tradingkey.com/markets/stocks/gehc/stock-analysis",
+      "title": "So-Young International Inc (SY) Dividends & Stock Splits: Historical Payouts and Event Timeline",
+      "summary": "This article from TradingKey provides a historical overview of So-Young International Inc (SY) dividends and stock splits. It indicates that the company has distributed a total...",
+      "url": "https://www.tradingkey.com/markets/stocks/sy/dividend-splits",
       "source": "TradingKey",
-      "published_at": "20260728T024141",
-      "sentiment_score": 0.037816,
+      "published_at": "20260728T043426",
+      "sentiment_score": 0.00993,
       "sentiment_label": "Neutral",
       "tickers": [
-        "GEHC"
+        "SY"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Life Sciences",
         "Finance"
       ],
       "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "Pool Corp (POOL) Institutional Confidence",
-      "summary": "Pool Corp (POOL) currently holds an institutional shareholding score of 10.00, ranking 1st in the Leisure Products industry. Its institutional shareholding proportion has increa...",
-      "url": "https://www.tradingkey.com/markets/stocks/pool/sentiment",
-      "source": "TradingKey",
-      "published_at": "20260728T021445",
-      "sentiment_score": 0.314652,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Does Equinix's New Product-Focused Leadership Structure Reframe Its Innovation Story for Investors (EQIX)?",
+      "summary": "Equinix recently announced leadership changes, including the departure of Chief Business Officer Jon Lin and the appointment of Chris Audie as Chief Product Officer, signaling a...",
+      "url": "https://simplywall.st/stocks/us/real-estate/nasdaq-eqix/equinix/news/does-equinixs-new-product-focused-leadership-structure-refra/amp",
+      "source": "Simply Wall St",
+      "published_at": "20260728T031313",
+      "sentiment_score": 0.149846,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "POOL",
-        "STT",
-        "TROW"
+        "EQIX"
       ],
       "topics": [
-        "Financial Markets",
-        "Earnings"
+        "Technology",
+        "Earnings",
+        "Financial Markets"
       ],
       "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "Q32 Bio Inc (QTTB) Balance Sheet",
-      "summary": "This article provides the balance sheet for Q32 Bio Inc (QTTB), offering quarterly and annual financial statements to assess the company's financial health, liquidity, leverage,...",
-      "url": "https://www.tradingkey.com/markets/stocks/qttb/balance-sheet",
-      "source": "TradingKey",
-      "published_at": "20260728T014546",
-      "sentiment_score": 0.030871,
+      "title": "Exchange-to-Uninsured Moves in Q2 Far Outpaced Hospital Executives’ Expectations",
+      "summary": "Hospital executives from major companies like HCA Healthcare, Tenet Healthcare, and Community Health Systems reported a significant increase in patients moving from health insur...",
+      "url": "https://www.hcinnovationgroup.com/finance-revenue-cycle/hospital-and-health-system-operations/news/55393931/exchange-to-uninsured-moves-in-q2-far-outpaced-hospital-executives-expectations",
+      "source": "HCI Innovation Group",
+      "published_at": "20260728T043306",
+      "sentiment_score": -0.136424,
       "sentiment_label": "Neutral",
       "tickers": [
-        "QTTB"
+        "THC",
+        "HCA",
+        "CNC",
+        "UNH",
+        "ELV"
       ],
       "topics": [
-        "Earnings",
         "Life Sciences",
-        "Finance"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Pinnacle Financial Partners announces common and preferred stock dividends",
-      "summary": "Pinnacle Financial Partners (NYSE: PNFP) announced dividends for its common and preferred stock shareholders. The board of directors approved $0.50 per share for common stock, v...",
-      "url": "https://finviz.com/news/373082/pinnacle-financial-partners-announces-common-and-preferred-stock-dividends",
-      "source": "Finviz",
-      "published_at": "20260728T013622",
-      "sentiment_score": 0.008825,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PNFP-P-B"
-      ],
-      "topics": [
         "Earnings",
-        "Finance"
+        "Economy Macro"
       ],
-      "quality_score": 4,
+      "quality_score": 3,
       "is_noise": false
     },
     {
@@ -872,7 +952,7 @@
       "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-fast/fastenal/news/why-fastenal-fast-is-up-64-after-strong-q2-results-and-expan",
       "source": "Simply Wall St",
       "published_at": "20260728T034441",
-      "sentiment_score": 0.521945,
+      "sentiment_score": 0.541328,
       "sentiment_label": "Bullish",
       "tickers": [
         "FAST"
@@ -887,149 +967,70 @@
       "is_noise": false
     },
     {
-      "title": "Incyte Grants Heeson Lee Stock Options and Performance Shares Worth Notable Equity Compensation",
-      "summary": "Incyte Corporation recently granted Heeson Lee, Executive Vice President and Head of Incyte International, significant equity compensation. This award, consisting of 15,423 empl...",
-      "url": "https://kalkinemedia.com/us/news/announcements/incyte-grants-heeson-lee-stock-options-and-performance-shares-worth-notable-equity-compensation",
-      "source": "Kalkine Media",
-      "published_at": "20260728T022829",
-      "sentiment_score": 0.223746,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "INCY"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Is Medtronic (MDT) Undervalued Following Its Pediatric Cannula Recall?",
-      "summary": "Medtronic (MDT) is under scrutiny after a voluntary Class II recall of its pediatric arterial cannula due to foreign material. Despite a 4.0% share price rise in the last month,...",
-      "url": "https://simplywall.st/stocks/us/healthcare/nyse-mdt/medtronic/news/is-medtronic-mdt-undervalued-following-its-pediatric-cannula/amp",
+      "title": "Sarepta Therapeutics (SRPT) Brings In New CEO Severino Is Its R&D Strategy Entering a New Phase?",
+      "summary": "Sarepta Therapeutics has appointed Michael Severino, an R&D veteran, as its new CEO, combining his role with a seat on the board. This leadership change comes as Sarepta is focu...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-srpt/sarepta-therapeutics/news/sarepta-therapeutics-srpt-brings-in-new-ceo-severino-is-its",
       "source": "Simply Wall St",
-      "published_at": "20260728T015912",
-      "sentiment_score": 0.285035,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MDT"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Tapestry Inc (TPR) Stock Up 3.4% but GF Value Says Overvalued -- GF Score: 74/100",
-      "summary": "Tapestry Inc (TPR) shares rose 3.4% to $147.43, marking a 37.8% increase over the past year. Despite its strong performance and a respectable GF Score™ of 74/100, GuruFocus indi...",
-      "url": "https://www.gurufocus.com/news/8981593/tapestry-inc-tpr-stock-up-34-but-gf-value-says-overvalued-gf-score-74100?mobile=true",
-      "source": "GuruFocus",
-      "published_at": "20260728T014652",
-      "sentiment_score": -0.662977,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "TPR"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Retail Wholesale",
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Is Medtronic (MDT) Undervalued Following Its Pediatric Cannula Recall?",
-      "summary": "Medtronic (MDT) is currently in focus due to a voluntary Class II recall of its pediatric arterial cannula. Despite a recent recall, the stock is considered undervalued with a f...",
-      "url": "https://simplywall.st/stocks/us/healthcare/nyse-mdt/medtronic/news/is-medtronic-mdt-undervalued-following-its-pediatric-cannula",
-      "source": "Simply Wall St",
-      "published_at": "20260728T014233",
-      "sentiment_score": 0.178848,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MDT",
-        "ABT",
-        "SYK"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Form 4 Incyte Corporation For: 27 July By Investing.com",
-      "summary": "This article announces the filing of a Form 4 for Incyte Corporation (NASDAQ: INCY) on July 27. A Form 4 is a document that must be filed with the U.S. Securities and Exchange C...",
-      "url": "https://za.investing.com/news/stock-market-news/form-4-incyte-corporation-for-27-july-93CH-4388638",
-      "source": "Investing.com South Africa",
-      "published_at": "20260728T021436",
-      "sentiment_score": 0.002226,
+      "published_at": "20260728T033438",
+      "sentiment_score": 0.147934,
       "sentiment_label": "Neutral",
       "tickers": [
-        "INCY"
+        "SRPT",
+        "ABBV",
+        "AMGN",
+        "MRK"
       ],
       "topics": [
-        "Financial Markets",
         "Life Sciences",
         "Earnings"
       ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "PARK AEROSPACE CORP SEC Filing (Jul 27, 2026)",
-      "summary": "This article details a Form 144 SEC filing by Park Aerospace Corp. (PKE) on July 27, 2026, concerning the proposed sale of 2,500 shares acquired through a cashless exercise of s...",
-      "url": "https://www.stocktitan.net/sec-filings/PKE/144-park-aerospace-corp-sec-filing-a6cf69b2de03.html",
-      "source": "Stock Titan",
-      "published_at": "20260728T020244",
-      "sentiment_score": 0.02285,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PKE"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     }
   ],
   "article_count": 50,
   "top_ticker": "PG",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Bank of America (NYSE: BAC), Netflix (NASDAQ: NFLX) And TotalEnergies (NYSE: TTE) Lead Monday Analyst Stock Roundup",
+  "top_story": "Cisco Systems (NASDAQ:CSCO) Lowered to \"Hold\" Rating by Wall Street Zen",
   "signal_articles": [
     {
-      "title": "Bank of America (NYSE: BAC), Netflix (NASDAQ: NFLX) And TotalEnergies (NYSE: TTE) Lead Monday Analyst Stock Roundup",
-      "summary": "This article provides an analyst stock roundup for Bank of America, Netflix, and TotalEnergies, detailing their recent financial performance and outlook. It also touches on micr...",
-      "url": "https://www.foreignpolicyjournal.com/2026/07/27/bank-of-america-nyse-bac-netflix-nasdaq-nflx-and-totalenergies-nyse-tte-lead-monday-analyst-stock-roundup/",
-      "source": "Foreign Policy Journal",
-      "published_at": "20260728T015459",
-      "sentiment_score": 0.077577,
+      "title": "Cisco Systems (NASDAQ:CSCO) Lowered to \"Hold\" Rating by Wall Street Zen",
+      "summary": "Wall Street Zen has downgraded Cisco Systems (NASDAQ:CSCO) from a \"buy\" to a \"hold\" rating, though the overall analyst consensus remains a \"Moderate Buy\" with an average price t...",
+      "url": "https://www.marketbeat.com/instant-alerts/cisco-systems-nasdaqcsco-lowered-to-hold-rating-by-wall-street-zen-2026-07-28/",
+      "source": "MarketBeat",
+      "published_at": "20260728T050723",
+      "sentiment_score": 0.001842,
       "sentiment_label": "Neutral",
       "tickers": [
-        "BAC",
-        "NFLX",
-        "TDY",
-        "LH"
+        "CSCO"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance",
-        "Economy Macro",
-        "Energy Transportation"
+        "Technology"
       ],
       "quality_score": 17,
+      "is_noise": false
+    },
+    {
+      "title": "General Dynamics (GD) Q2 Earnings: What To Expect",
+      "summary": "General Dynamics (GD) is set to report its Q2 earnings on Wednesday. Analysts expect a 3.9% year-on-year revenue growth, a slowdown from the previous year, but generally remain...",
+      "url": "https://www.tradingview.com/news/stockstory:53cd0c5bc094b:0-general-dynamics-gd-q2-earnings-what-to-expect/",
+      "source": "TradingView",
+      "published_at": "20260728T034036",
+      "sentiment_score": 0.326844,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GD",
+        "RTX",
+        "LMT"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 16,
       "is_noise": false
     },
     {
@@ -1038,7 +1039,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/GD/pressreleases/3491286/general-dynamics-gd-q2-earnings-what-to-expect/",
       "source": "The Globe and Mail",
       "published_at": "20260728T032322",
-      "sentiment_score": 0.315757,
+      "sentiment_score": 0.290779,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GD",
@@ -1058,7 +1059,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/PG/pressreleases/3491364/procter-gamble-pg-q2-earnings-report-preview-what-to-look-for/",
       "source": "The Globe and Mail",
       "published_at": "20260728T032030",
-      "sentiment_score": 0.058705,
+      "sentiment_score": 0.056714,
       "sentiment_label": "Neutral",
       "tickers": [
         "PG"
@@ -1073,41 +1074,60 @@
       "is_noise": false
     },
     {
-      "title": "Tandy Leather Factory Inc (TLF) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
-      "summary": "This article provides a revenue breakdown for Tandy Leather Factory Inc (TLF), detailing its revenue by region. The company's primary markets are the United States and Canada, c...",
-      "url": "https://www.tradingkey.com/markets/stocks/tlf/revenue",
-      "source": "TradingKey",
-      "published_at": "20260728T020539",
-      "sentiment_score": 7.1e-05,
-      "sentiment_label": "Neutral",
+      "title": "NetApp Inc (0K6F) Q3 2024 Earnings Report - Results, Call & Slides",
+      "summary": "NetApp Inc. (0K6F) reported its Q3 2024 earnings, beating analyst expectations with an actual EPS of $1.94 against a consensus of $1.69 and actual revenue of $1.60 billion compa...",
+      "url": "https://www.tipranks.com/stocks/gb:0k6f/earnings/q3-2024-report",
+      "source": "TipRanks",
+      "published_at": "20260728T043717",
+      "sentiment_score": 0.512775,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "TLF"
+        "NTAP"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
+        "Technology"
       ],
-      "quality_score": 16,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "SR Bancorp Inc (SRBK) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
-      "summary": "This article provides details on SR Bancorp Inc (SRBK), including its current stock price, market cap, and P/E ratio. It notes that revenue breakdown by business segments and re...",
-      "url": "https://www.tradingkey.com/markets/stocks/srbk/revenue",
-      "source": "TradingKey",
-      "published_at": "20260728T015034",
-      "sentiment_score": 0.021134,
-      "sentiment_label": "Neutral",
+      "title": "F5 Inc (FFIV) Q3 2026 Earnings Call Highlights: Strong Product Revenue Growth and Raised Fiscal Outlook",
+      "summary": "F5 Inc (FFIV) reported strong Q3 2026 earnings, with total revenue increasing 11% year-over-year and product revenue up 19%. The company also raised its fiscal year 2026 revenue...",
+      "url": "https://www.gurufocus.com/news/8981928/f5-inc-ffiv-q3-2026-earnings-call-highlights-strong-product-revenue-growth-and-raised-fiscal-outlook",
+      "source": "GuruFocus",
+      "published_at": "20260728T043006",
+      "sentiment_score": 0.434538,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "SRBK"
+        "FFIV"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Finance"
+        "Technology"
       ],
-      "quality_score": 16,
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "Biogen (BIIB) Reports Q2: Everything You Need To Know Ahead Of Earnings",
+      "summary": "Biotech company Biogen (BIIB) is set to report its Q2 earnings this Wednesday. Analysts expect a 7.8% year-on-year revenue decline, despite the company exceeding revenue expecta...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/BIIB/pressreleases/3491442/biogen-biib-reports-q2-everything-you-need-to-know-ahead-of-earnings/",
+      "source": "The Globe and Mail",
+      "published_at": "20260728T032350",
+      "sentiment_score": 0.203841,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "BIIB",
+        "NVDA"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 15,
       "is_noise": false
     },
     {
@@ -1116,7 +1136,7 @@
       "url": "https://www.financialcontent.com/article/stockstory-2026-7-28-procter-and-gamble-pg-q2-earnings-report-preview-what-to-look-for",
       "source": "FinancialContent",
       "published_at": "20260728T032004",
-      "sentiment_score": 0.160849,
+      "sentiment_score": 0.168001,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PG",
@@ -1135,7 +1155,7 @@
       "url": "https://stockstory.org/us/stocks/nyse/vmc/news/earnings/what-to-expect-from-vulcan-materialss-vmc-q2-earnings",
       "source": "StockStory",
       "published_at": "20260728T031706",
-      "sentiment_score": 0.200215,
+      "sentiment_score": 0.216088,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "VMC",
@@ -1151,60 +1171,19 @@
       "is_noise": false
     },
     {
-      "title": "Silgan Holdings Earnings: What To Look For From SLGN",
-      "summary": "Silgan Holdings (NYSE: SLGN) is set to report earnings this Wednesday, with analysts expecting a 4.8% year-on-year revenue growth. The company previously exceeded revenue expect...",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-28-silgan-holdings-earnings-what-to-look-for-from-slgn",
-      "source": "FinancialContent",
-      "published_at": "20260728T031909",
-      "sentiment_score": 0.268987,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SLGN",
-        "PKG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Manufacturing"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Everest Group (EG) Reports Q2: Everything You Need To Know Ahead Of Earnings",
-      "summary": "Everest Group (NYSE: EG) is set to report its Q2 earnings this Wednesday. The company missed revenue expectations last quarter and analysts anticipate a 10.2% year-on-year reven...",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-28-everest-group-eg-reports-q2-everything-you-need-to-know-ahead-of-earnings",
-      "source": "FinancialContent",
-      "published_at": "20260728T031620",
-      "sentiment_score": 0.020134,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "EG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Shuttle Pharmaceuticals Holdings Inc (SHPH) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contrib...",
-      "summary": "The article provides a financial overview of Shuttle Pharmaceuticals Holdings Inc (SHPH), noting its current stock price, market capitalization, and P/E ratio. It highlights tha...",
-      "url": "https://www.tradingkey.com/markets/stocks/shph/revenue",
+      "title": "Marriott Vacations Worldwide Corp (VAC) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
+      "summary": "This article provides a detailed revenue breakdown for Marriott Vacations Worldwide Corp (VAC), categorizing revenue by business segments and geographic regions. It shows \"Cost...",
+      "url": "https://www.tradingkey.com/markets/stocks/vac/revenue",
       "source": "TradingKey",
-      "published_at": "20260728T015012",
-      "sentiment_score": 0.013465,
+      "published_at": "20260728T052114",
+      "sentiment_score": 0.104367,
       "sentiment_label": "Neutral",
       "tickers": [
-        "SHPH"
+        "VAC"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Life Sciences"
+        "Real Estate"
       ],
       "quality_score": 13,
       "is_noise": false
@@ -1216,11 +1195,11 @@
       "mentions": 3
     },
     {
-      "ticker": "MDT",
+      "ticker": "NVDA",
       "mentions": 3
     },
     {
-      "ticker": "BAC",
+      "ticker": "GD",
       "mentions": 2
     },
     {
@@ -1228,14 +1207,14 @@
       "mentions": 2
     },
     {
-      "ticker": "VMC",
+      "ticker": "LMT",
       "mentions": 2
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 48
+      "mentions": 50
     },
     {
       "topic": "Financial Markets",
@@ -1243,11 +1222,11 @@
     },
     {
       "topic": "Finance",
-      "mentions": 26
+      "mentions": 15
     },
     {
-      "topic": "Life Sciences",
-      "mentions": 17
+      "topic": "Technology",
+      "mentions": 10
     },
     {
       "topic": "Economy Macro",
@@ -1257,33 +1236,37 @@
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 29
+      "count": 24
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 12
+      "count": 15
     },
     {
       "label": "Bullish",
-      "count": 3
+      "count": 7
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 2
+      "count": 3
     },
     {
       "label": "Bearish",
-      "count": 2
+      "count": 1
     }
   ],
   "top_sources": [
     {
       "source": "TradingKey",
-      "count": 19
+      "count": 17
     },
     {
       "source": "Simply Wall St",
       "count": 7
+    },
+    {
+      "source": "TradingView",
+      "count": 4
     },
     {
       "source": "FinancialContent",
@@ -1291,11 +1274,7 @@
     },
     {
       "source": "The Globe and Mail",
-      "count": 2
-    },
-    {
-      "source": "Seeking Alpha",
-      "count": 2
+      "count": 3
     }
   ],
   "takeaway": "News flow is centered on Earnings, with PG appearing most often and the headline tone mostly neutral."
