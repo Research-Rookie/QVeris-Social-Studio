@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-07-28T05:32:08.808326+00:00",
-  "date": "2026-07-28",
+  "updated_at": "2026-07-29T05:37:15.675316+00:00",
+  "date": "2026-07-29",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "PG",
+  "symbol": "ABT",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Cisco Systems (NASDAQ:CSCO) Lowered to \"Hold\" Rating by Wall Street Zen",
-  "headline_source": "MarketBeat",
-  "price": 148.63,
+  "headline": "Earnings To Watch: Arthur J. Gallagher (AJG) Reports Q2 Results Tomorrow",
+  "headline_source": "TradingView",
+  "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
-  "volume": 7302441,
-  "reaction_label": "Muted reaction",
-  "takeaway": "News tone and price action are both relatively muted.",
-  "price_error": null,
+  "volume": 0,
+  "reaction_label": "Price pending",
+  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+  "price_error": "Could not parse quote data for ABT: {'status_code': 200, 'data': {'success': True, 'result': '## ABT - 实时行情数据\\n\\n| 股票代码 | 股票名称 | 交易时间 | 最新价（元） | 涨跌额 | 涨跌幅(%) | 成交量(股） | 成交额（元） | 开盘以来成交笔数 | 委托卖盘（元） | 委托卖盘（股） | 委托买盘（元） | 委托买盘（股） | 开盘价（元） | 最高价（元） | 最低价（元） | 总市值（万元） | 流通市值（万元） | 换手率（%） | 量比 | 总股本(万股) | 市盈率(TTM) | 市净率 | 涨停价 | 跌停价 | 是否停牌（0：否，1:是） |\\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\\n', 'error': None, 'tool_name': 'get_real_time_record', 'execution_time_ms': 43}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "PG",
+        "ticker": "ABT",
+        "mentions": 4
+      },
+      {
+        "ticker": "ISRG",
+        "mentions": 4
+      },
+      {
+        "ticker": "SYK",
+        "mentions": 3
+      },
+      {
+        "ticker": "UBS",
         "mentions": 3
       },
       {
         "ticker": "NVDA",
-        "mentions": 3
-      },
-      {
-        "ticker": "GD",
-        "mentions": 2
-      },
-      {
-        "ticker": "RTX",
-        "mentions": 2
-      },
-      {
-        "ticker": "LMT",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 24
+        "count": 17
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 15
+        "count": 13
       },
       {
         "label": "Bullish",
-        "count": 7
+        "count": 13
       },
       {
         "label": "Somewhat-Bearish",

@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-abt-2026-07-29",
+    "date": "2026-07-29",
+    "runDate": "2026-07-29",
+    "createdAt": "2026-07-29T05:37:17.361025+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$ABT news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-07-29.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-07-29T05:37:15.675316+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$ABT",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "ABT",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-07-29T05:37:15.675316+00:00",
+      "date": "2026-07-29",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "ABT",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Earnings To Watch: Arthur J. Gallagher (AJG) Reports Q2 Results Tomorrow",
+      "headline_source": "TradingView",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for ABT: {'status_code': 200, 'data': {'success': True, 'result': '## ABT - 实时行情数据\\n\\n| 股票代码 | 股票名称 | 交易时间 | 最新价（元） | 涨跌额 | 涨跌幅(%) | 成交量(股） | 成交额（元） | 开盘以来成交笔数 | 委托卖盘（元） | 委托卖盘（股） | 委托买盘（元） | 委托买盘（股） | 开盘价（元） | 最高价（元） | 最低价（元） | 总市值（万元） | 流通市值（万元） | 换手率（%） | 量比 | 总股本(万股) | 市盈率(TTM) | 市净率 | 涨停价 | 跌停价 | 是否停牌（0：否，1:是） |\\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\\n', 'error': None, 'tool_name': 'get_real_time_record', 'execution_time_ms': 43}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "ABT",
+            "mentions": 4
+          },
+          {
+            "ticker": "ISRG",
+            "mentions": 4
+          },
+          {
+            "ticker": "SYK",
+            "mentions": 3
+          },
+          {
+            "ticker": "UBS",
+            "mentions": 3
+          },
+          {
+            "ticker": "NVDA",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 17
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 13
+          },
+          {
+            "label": "Bullish",
+            "count": 13
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-syk-2026-07-29",
     "date": "2026-07-29",
     "runDate": "2026-07-29",
