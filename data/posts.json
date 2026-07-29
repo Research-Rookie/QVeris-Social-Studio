@@ -1,5 +1,125 @@
 [
   {
+    "id": "market-narrative-shift-syk-2026-07-29",
+    "date": "2026-07-29",
+    "runDate": "2026-07-29",
+    "createdAt": "2026-07-29T05:17:16.624643+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $SYK",
+    "status": "ready",
+    "tweet": "What changed in $SYK's market narrative? 🔄\n\n🧭 Signal: Baseline building\n💬 Sentiment shift: baseline\n📌 Top theme: Earnings\n🔎 Emerging term: stryker\n📰 Coverage: 2 vs n/a\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_SYK_2026-07-29.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-29T05:17:14.749446+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$SYK",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Baseline building",
+    "topSymbol": "SYK",
+    "topChangePct": 0.0,
+    "marketNarrativeShift": {
+      "updated_at": "2026-07-29T05:17:14.749446+00:00",
+      "date": "2026-07-29",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "SYK",
+      "shift_label": "Baseline building",
+      "sentiment_delta": 0.0,
+      "baseline_label": "Building",
+      "current": {
+        "date": "2026-07-29",
+        "symbol": "SYK",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.0371,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Life Sciences",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          }
+        ],
+        "keywords": [
+          {
+            "label": "stryker",
+            "count": 4
+          },
+          {
+            "label": "earnings",
+            "count": 4
+          },
+          {
+            "label": "revenue",
+            "count": 3
+          },
+          {
+            "label": "preview",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 2
+          },
+          {
+            "label": "look",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          },
+          {
+            "label": "thursday",
+            "count": 2
+          },
+          {
+            "label": "year-on-year",
+            "count": 2
+          },
+          {
+            "label": "growth",
+            "count": 2
+          },
+          {
+            "label": "set",
+            "count": 1
+          },
+          {
+            "label": "afternoon",
+            "count": 1
+          }
+        ],
+        "headline": "Stryker (SYK) Q2 Earnings Report Preview: What To Look For",
+        "headline_source": "StockStory"
+      },
+      "previous": null,
+      "emerging_themes": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "stryker",
+        "earnings",
+        "revenue"
+      ],
+      "fading_keywords": [],
+      "takeaway": "SYK leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-29",
     "date": "2026-07-29",
     "runDate": "2026-07-29",

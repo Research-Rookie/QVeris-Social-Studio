@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-07-28T04:59:32.372578+00:00",
-  "date": "2026-07-28",
+  "updated_at": "2026-07-29T05:17:14.749446+00:00",
+  "date": "2026-07-29",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "PG",
-  "shift_label": "Attention rising",
-  "sentiment_delta": 0.0795,
-  "baseline_label": "2026-07-18",
+  "symbol": "SYK",
+  "shift_label": "Baseline building",
+  "sentiment_delta": 0.0,
+  "baseline_label": "Building",
   "current": {
-    "date": "2026-07-28",
-    "symbol": "PG",
+    "date": "2026-07-29",
+    "symbol": "SYK",
     "article_count": 2,
     "source_count": 2,
-    "sentiment_score": 0.1098,
+    "sentiment_score": 0.0371,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,25 +21,17 @@
         "count": 2
       },
       {
-        "label": "Financial Markets",
+        "label": "Life Sciences",
         "count": 2
       },
       {
-        "label": "Economy Macro",
-        "count": 1
-      },
-      {
-        "label": "Retail Wholesale",
-        "count": 1
+        "label": "Financial Markets",
+        "count": 2
       }
     ],
     "keywords": [
       {
-        "label": "procter",
-        "count": 4
-      },
-      {
-        "label": "gamble",
+        "label": "stryker",
         "count": 4
       },
       {
@@ -67,121 +59,42 @@
         "count": 2
       },
       {
-        "label": "set",
-        "count": 2
-      },
-      {
-        "label": "announce",
-        "count": 2
-      },
-      {
-        "label": "wednesday",
+        "label": "thursday",
         "count": 2
       },
       {
         "label": "year-on-year",
         "count": 2
-      }
-    ],
-    "headline": "Procter & Gamble (PG) Q2 Earnings Report Preview: What To Look For",
-    "headline_source": "The Globe and Mail"
-  },
-  "previous": {
-    "date": "2026-07-18",
-    "symbol": "PG",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.0303,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
       },
       {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      },
-      {
-        "label": "Retail Wholesale",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "procter",
+        "label": "growth",
         "count": 2
       },
       {
-        "label": "gamble",
-        "count": 2
-      },
-      {
-        "label": "down",
+        "label": "set",
         "count": 1
       },
       {
-        "label": "following",
-        "count": 1
-      },
-      {
-        "label": "downgrade",
-        "count": 1
-      },
-      {
-        "label": "dropped",
-        "count": 1
-      },
-      {
-        "label": "jpmorgan",
-        "count": 1
-      },
-      {
-        "label": "chase",
-        "count": 1
-      },
-      {
-        "label": "lowered",
-        "count": 1
-      },
-      {
-        "label": "target",
-        "count": 1
-      },
-      {
-        "label": "although",
-        "count": 1
-      },
-      {
-        "label": "maintained",
+        "label": "afternoon",
         "count": 1
       }
     ],
-    "headline": "Procter & Gamble (NYSE:PG) Shares Down 1.1% Following Analyst Downgrade",
-    "headline_source": "MarketBeat"
+    "headline": "Stryker (SYK) Q2 Earnings Report Preview: What To Look For",
+    "headline_source": "StockStory"
   },
+  "previous": null,
   "emerging_themes": [
     "Earnings",
-    "Financial Markets",
-    "Economy Macro"
+    "Life Sciences",
+    "Financial Markets"
   ],
-  "fading_themes": [
-    "Finance"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
+    "stryker",
     "earnings",
-    "revenue",
-    "procter"
+    "revenue"
   ],
-  "fading_keywords": [
-    "down",
-    "following",
-    "downgrade"
-  ],
-  "takeaway": "PG's narrative is attention rising: sentiment moved +0.08, while the leading theme shifted from Earnings to Earnings.",
+  "fading_keywords": [],
+  "takeaway": "SYK leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
