@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-07-29T05:17:14.749446+00:00",
-  "date": "2026-07-29",
+  "updated_at": "2026-07-30T04:54:20.297847+00:00",
+  "date": "2026-07-30",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "SYK",
-  "shift_label": "Baseline building",
-  "sentiment_delta": 0.0,
-  "baseline_label": "Building",
+  "symbol": "BIIB",
+  "shift_label": "Attention rising",
+  "sentiment_delta": 0.1157,
+  "baseline_label": "2026-07-26",
   "current": {
-    "date": "2026-07-29",
-    "symbol": "SYK",
+    "date": "2026-07-30",
+    "symbol": "BIIB",
     "article_count": 2,
-    "source_count": 2,
-    "sentiment_score": 0.0371,
+    "source_count": 1,
+    "sentiment_score": 0.2567,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -27,39 +27,47 @@
       {
         "label": "Financial Markets",
         "count": 2
+      },
+      {
+        "label": "Technology",
+        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "stryker",
-        "count": 4
-      },
-      {
         "label": "earnings",
         "count": 4
-      },
-      {
-        "label": "revenue",
-        "count": 3
-      },
-      {
-        "label": "preview",
-        "count": 2
       },
       {
         "label": "what",
         "count": 2
       },
       {
-        "label": "look",
+        "label": "expect",
         "count": 2
       },
       {
-        "label": "for",
+        "label": "abbvie",
         "count": 2
       },
       {
-        "label": "thursday",
+        "label": "abbv",
+        "count": 2
+      },
+      {
+        "label": "set",
+        "count": 2
+      },
+      {
+        "label": "announce",
+        "count": 2
+      },
+      {
+        "label": "friday",
+        "count": 2
+      },
+      {
+        "label": "revenue",
         "count": 2
       },
       {
@@ -67,22 +75,91 @@
         "count": 2
       },
       {
-        "label": "growth",
+        "label": "moderna",
         "count": 2
       },
       {
-        "label": "set",
+        "label": "mrna",
+        "count": 2
+      }
+    ],
+    "headline": "What To Expect From AbbVie’s (ABBV) Q2 Earnings",
+    "headline_source": "TradingView"
+  },
+  "previous": {
+    "date": "2026-07-26",
+    "symbol": "BIIB",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.141,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
         "count": 1
       },
       {
-        "label": "afternoon",
+        "label": "Life Sciences",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
         "count": 1
       }
     ],
-    "headline": "Stryker (SYK) Q2 Earnings Report Preview: What To Look For",
-    "headline_source": "StockStory"
+    "keywords": [
+      {
+        "label": "earnings",
+        "count": 3
+      },
+      {
+        "label": "forecast",
+        "count": 3
+      },
+      {
+        "label": "scilex",
+        "count": 2
+      },
+      {
+        "label": "holding",
+        "count": 2
+      },
+      {
+        "label": "sclx",
+        "count": 2
+      },
+      {
+        "label": "future",
+        "count": 1
+      },
+      {
+        "label": "eps",
+        "count": 1
+      },
+      {
+        "label": "revenue",
+        "count": 1
+      },
+      {
+        "label": "growth",
+        "count": 1
+      },
+      {
+        "label": "estimates",
+        "count": 1
+      },
+      {
+        "label": "article",
+        "count": 1
+      },
+      {
+        "label": "provides",
+        "count": 1
+      }
+    ],
+    "headline": "Scilex Holding Co (SCLX) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+    "headline_source": "TradingKey"
   },
-  "previous": null,
   "emerging_themes": [
     "Earnings",
     "Life Sciences",
@@ -90,11 +167,15 @@
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "stryker",
-    "earnings",
-    "revenue"
+    "what",
+    "expect",
+    "abbvie"
   ],
-  "fading_keywords": [],
-  "takeaway": "SYK leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+  "fading_keywords": [
+    "forecast",
+    "scilex",
+    "holding"
+  ],
+  "takeaway": "BIIB's narrative is attention rising: sentiment moved +0.12, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
