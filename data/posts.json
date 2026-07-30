@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-bk-2026-07-30",
+    "date": "2026-07-30",
+    "runDate": "2026-07-30",
+    "createdAt": "2026-07-30T05:24:37.275850+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$BK news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-07-30.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-07-30T05:24:35.597516+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BK",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "BK",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-07-30T05:24:35.597516+00:00",
+      "date": "2026-07-30",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "BK",
+      "news_tone": "Neutral",
+      "top_theme": "Financial Markets",
+      "headline": "Earnings To Watch: Franklin Resources (BEN) Reports Q2 Results Tomorrow",
+      "headline_source": "TradingView",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for BK: {'status_code': 200, 'data': {'c': 156.49, 'd': -1.28, 'dp': -0.8113, 'h': 159.0323, 'l': 154.88, 'o': 157.48, 'pc': 157.77, 't': 1785196800}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "BK",
+            "mentions": 2
+          },
+          {
+            "ticker": "STT",
+            "mentions": 2
+          },
+          {
+            "ticker": "BIIB",
+            "mentions": 2
+          },
+          {
+            "ticker": "INCY",
+            "mentions": 2
+          },
+          {
+            "ticker": "CBOE",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 21
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 11
+          },
+          {
+            "label": "Bullish",
+            "count": 8
+          },
+          {
+            "label": "Bearish",
+            "count": 2
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-biib-2026-07-30",
     "date": "2026-07-30",
     "runDate": "2026-07-30",

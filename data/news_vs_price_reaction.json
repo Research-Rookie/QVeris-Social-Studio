@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-29T05:37:15.675316+00:00",
-  "date": "2026-07-29",
+  "updated_at": "2026-07-30T05:24:35.597516+00:00",
+  "date": "2026-07-30",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "ABT",
+  "symbol": "BK",
   "news_tone": "Neutral",
-  "top_theme": "Earnings",
-  "headline": "Earnings To Watch: Arthur J. Gallagher (AJG) Reports Q2 Results Tomorrow",
+  "top_theme": "Financial Markets",
+  "headline": "Earnings To Watch: Franklin Resources (BEN) Reports Q2 Results Tomorrow",
   "headline_source": "TradingView",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,50 +15,50 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for ABT: {'status_code': 200, 'data': {'success': True, 'result': '## ABT - 实时行情数据\\n\\n| 股票代码 | 股票名称 | 交易时间 | 最新价（元） | 涨跌额 | 涨跌幅(%) | 成交量(股） | 成交额（元） | 开盘以来成交笔数 | 委托卖盘（元） | 委托卖盘（股） | 委托买盘（元） | 委托买盘（股） | 开盘价（元） | 最高价（元） | 最低价（元） | 总市值（万元） | 流通市值（万元） | 换手率（%） | 量比 | 总股本(万股) | 市盈率(TTM) | 市净率 | 涨停价 | 跌停价 | 是否停牌（0：否，1:是） |\\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\\n', 'error': None, 'tool_name': 'get_real_time_record', 'execution_time_ms': 43}}",
+  "price_error": "Could not parse quote data for BK: {'status_code': 200, 'data': {'c': 156.49, 'd': -1.28, 'dp': -0.8113, 'h': 159.0323, 'l': 154.88, 'o': 157.48, 'pc': 157.77, 't': 1785196800}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "ABT",
-        "mentions": 4
+        "ticker": "BK",
+        "mentions": 2
       },
       {
-        "ticker": "ISRG",
-        "mentions": 4
+        "ticker": "STT",
+        "mentions": 2
       },
       {
-        "ticker": "SYK",
-        "mentions": 3
+        "ticker": "BIIB",
+        "mentions": 2
       },
       {
-        "ticker": "UBS",
-        "mentions": 3
+        "ticker": "INCY",
+        "mentions": 2
       },
       {
-        "ticker": "NVDA",
+        "ticker": "CBOE",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 17
+        "count": 21
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 13
+        "count": 11
       },
       {
         "label": "Bullish",
-        "count": 13
-      },
-      {
-        "label": "Somewhat-Bearish",
-        "count": 3
+        "count": 8
       },
       {
         "label": "Bearish",
+        "count": 2
+      },
+      {
+        "label": "Somewhat-Bearish",
         "count": 1
       }
     ]
