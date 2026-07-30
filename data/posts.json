@@ -1,5 +1,356 @@
 [
   {
+    "id": "financial-news-signal-2026-07-30",
+    "date": "2026-07-30",
+    "runDate": "2026-07-30",
+    "createdAt": "2026-07-30T04:27:51.585594+00:00",
+    "contentType": "FINANCIAL NEWS SIGNAL",
+    "title": "Financial News Signal",
+    "status": "ready",
+    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 5\n🏷️ Ticker: AAPL\n📌 Theme: Earnings\n🧭 Tone: Neutral\n\nSignals from live news data: https://qveris.ai",
+    "image": "/posts/financial_news_signal_2026-07-30.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-30T04:27:49.126205+00:00",
+    "xPostId": null,
+    "primaryLabel": "Top ticker",
+    "primaryValue": "AAPL",
+    "secondaryLabel": "Tone",
+    "secondaryValue": "Neutral",
+    "topSymbol": "AAPL",
+    "topChangePct": 0,
+    "financialNewsSignal": {
+      "updated_at": "2026-07-30T04:27:49.126205+00:00",
+      "date": "2026-07-30",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Financial News Signal",
+      "articles": [
+        {
+          "title": "Apple Inc. $AAPL is Teachers Retirement System of The State of Kentucky's 2nd Largest Position",
+          "summary": "The Teachers Retirement System of the State of Kentucky reduced its stake in Apple Inc. ($AAPL) by 1.6% in the first quarter, selling over 30,000 shares but still maintaining Ap...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-is-teachers-retirement-system-of-the-state-of-kentuckys-2nd-largest-position-2026-07-28/",
+          "source": "MarketBeat",
+          "published_at": "20260728T083857",
+          "sentiment_score": 0.201095,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AAPL",
+            "NVDA",
+            "MSFT",
+            "GOOGL",
+            "TSLA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Apple overtakes Nvidia as world's most valuable company",
+          "summary": "Apple has reclaimed its title as the world's most valuable public company, with its market capitalization reaching $4.94 trillion, surpassing Nvidia's $4.83 trillion. This shift...",
+          "url": "https://qz.com/apple-reclaims-most-valuable-company-nvidia-072726",
+          "source": "Quartz",
+          "published_at": "20260727T175301",
+          "sentiment_score": 0.132604,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AAPL",
+            "NVDA",
+            "GOOGL",
+            "TSLA",
+            "MSFT"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "The Tech Download: How Apple's new chief could shake things up",
+          "summary": "Apple announced that Tim Cook will step down as CEO, with John Ternus, Senior Vice President of Hardware Engineering, taking over in September. Cook will remain involved as exec...",
+          "url": "https://www.cnbc.com/2026/04/24/the-tech-download-how-apples-new-chief-could-shake-things-up.html",
+          "source": "CNBC",
+          "published_at": "20260424T105959",
+          "sentiment_score": 0.061274,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AAPL",
+            "TSLA",
+            "MSFT",
+            "NVDA",
+            "GOOGL"
+          ],
+          "topics": [
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "AI bubble burst coming? Concerns jump after billionaire Peter Thiel's fund sells entire $100 million worth Nvidia s...",
+          "summary": "Billionaire Peter Thiel's hedge fund, Thiel Macro, sold its entire $100 million stake in Nvidia, contributing to concerns about a potential AI bubble burst. This sell-off, along...",
+          "url": "https://www.livemint.com/companies/news/ai-bubble-burst-concern-jump-billionaire-peter-thiel-macro-fund-sells-entire-100-million-nvidia-stock-q3-result-softbank-11763389474323.html",
+          "source": "mint",
+          "published_at": "20251117T210300",
+          "sentiment_score": -0.052738,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NVDA",
+            "AAPL",
+            "MSFT",
+            "TSLA",
+            "GOOGL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Apple makes history as first $3 trillion company amid tech stock surge",
+          "summary": "Apple Inc. achieved a historic milestone, becoming the first company to reach a $3 trillion market value, driven by investor optimism about its expansion into new markets and a...",
+          "url": "https://www.reuters.com/technology/global-markets-apple-2023-07-03/",
+          "source": "Reuters",
+          "published_at": "20230703T094900",
+          "sentiment_score": 0.343577,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AAPL",
+            "MSFT",
+            "TSLA",
+            "NVDA",
+            "GOOGL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Economy Monetary",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        }
+      ],
+      "article_count": 5,
+      "top_ticker": "AAPL",
+      "top_topic": "Earnings",
+      "dominant_sentiment": "Neutral",
+      "top_story": "Apple Inc. $AAPL is Teachers Retirement System of The State of Kentucky's 2nd Largest Position",
+      "signal_articles": [
+        {
+          "title": "Apple Inc. $AAPL is Teachers Retirement System of The State of Kentucky's 2nd Largest Position",
+          "summary": "The Teachers Retirement System of the State of Kentucky reduced its stake in Apple Inc. ($AAPL) by 1.6% in the first quarter, selling over 30,000 shares but still maintaining Ap...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-is-teachers-retirement-system-of-the-state-of-kentuckys-2nd-largest-position-2026-07-28/",
+          "source": "MarketBeat",
+          "published_at": "20260728T083857",
+          "sentiment_score": 0.201095,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AAPL",
+            "NVDA",
+            "MSFT",
+            "GOOGL",
+            "TSLA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Apple overtakes Nvidia as world's most valuable company",
+          "summary": "Apple has reclaimed its title as the world's most valuable public company, with its market capitalization reaching $4.94 trillion, surpassing Nvidia's $4.83 trillion. This shift...",
+          "url": "https://qz.com/apple-reclaims-most-valuable-company-nvidia-072726",
+          "source": "Quartz",
+          "published_at": "20260727T175301",
+          "sentiment_score": 0.132604,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AAPL",
+            "NVDA",
+            "GOOGL",
+            "TSLA",
+            "MSFT"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "The Tech Download: How Apple's new chief could shake things up",
+          "summary": "Apple announced that Tim Cook will step down as CEO, with John Ternus, Senior Vice President of Hardware Engineering, taking over in September. Cook will remain involved as exec...",
+          "url": "https://www.cnbc.com/2026/04/24/the-tech-download-how-apples-new-chief-could-shake-things-up.html",
+          "source": "CNBC",
+          "published_at": "20260424T105959",
+          "sentiment_score": 0.061274,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AAPL",
+            "TSLA",
+            "MSFT",
+            "NVDA",
+            "GOOGL"
+          ],
+          "topics": [
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "AI bubble burst coming? Concerns jump after billionaire Peter Thiel's fund sells entire $100 million worth Nvidia s...",
+          "summary": "Billionaire Peter Thiel's hedge fund, Thiel Macro, sold its entire $100 million stake in Nvidia, contributing to concerns about a potential AI bubble burst. This sell-off, along...",
+          "url": "https://www.livemint.com/companies/news/ai-bubble-burst-concern-jump-billionaire-peter-thiel-macro-fund-sells-entire-100-million-nvidia-stock-q3-result-softbank-11763389474323.html",
+          "source": "mint",
+          "published_at": "20251117T210300",
+          "sentiment_score": -0.052738,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NVDA",
+            "AAPL",
+            "MSFT",
+            "TSLA",
+            "GOOGL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Apple makes history as first $3 trillion company amid tech stock surge",
+          "summary": "Apple Inc. achieved a historic milestone, becoming the first company to reach a $3 trillion market value, driven by investor optimism about its expansion into new markets and a...",
+          "url": "https://www.reuters.com/technology/global-markets-apple-2023-07-03/",
+          "source": "Reuters",
+          "published_at": "20230703T094900",
+          "sentiment_score": 0.343577,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AAPL",
+            "MSFT",
+            "TSLA",
+            "NVDA",
+            "GOOGL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Economy Monetary",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        }
+      ],
+      "top_tickers": [
+        {
+          "ticker": "AAPL",
+          "mentions": 5
+        },
+        {
+          "ticker": "NVDA",
+          "mentions": 5
+        },
+        {
+          "ticker": "MSFT",
+          "mentions": 5
+        },
+        {
+          "ticker": "GOOGL",
+          "mentions": 5
+        },
+        {
+          "ticker": "TSLA",
+          "mentions": 5
+        }
+      ],
+      "top_topics": [
+        {
+          "topic": "Earnings",
+          "mentions": 5
+        },
+        {
+          "topic": "Technology",
+          "mentions": 5
+        },
+        {
+          "topic": "Financial Markets",
+          "mentions": 4
+        },
+        {
+          "topic": "Economy Macro",
+          "mentions": 3
+        },
+        {
+          "topic": "Finance",
+          "mentions": 1
+        }
+      ],
+      "sentiment_counts": [
+        {
+          "label": "Neutral",
+          "count": 3
+        },
+        {
+          "label": "Somewhat-Bullish",
+          "count": 2
+        }
+      ],
+      "top_sources": [
+        {
+          "source": "MarketBeat",
+          "count": 1
+        },
+        {
+          "source": "Quartz",
+          "count": 1
+        },
+        {
+          "source": "CNBC",
+          "count": 1
+        },
+        {
+          "source": "mint",
+          "count": 1
+        },
+        {
+          "source": "Reuters",
+          "count": 1
+        }
+      ],
+      "takeaway": "News flow is centered on Earnings, with AAPL appearing most often and the headline tone mostly neutral."
+    }
+  },
+  {
     "id": "news-vs-price-reaction-abt-2026-07-29",
     "date": "2026-07-29",
     "runDate": "2026-07-29",
