@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T10:23:13.522187+00:00",
+  "updated_at": "2026-07-31T10:26:20.571133+00:00",
   "date": "2026-07-31",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris Discover routing signals",
@@ -10,13 +10,13 @@
     "task": "Retrieve recent 10-K, 10-Q, and 8-K filings for a company",
     "query": "SEC filings API company 10-K 10-Q 8-K accession filing date document URL"
   },
-  "search_id": "f9dbae37-148d-4903-bab6-0b58f235056f",
+  "search_id": "85a36b12-9c70-4a2a-bb5a-e8c8a977e97b",
   "result_count": 10,
   "competitors": [
     {
       "tool_id": "sec.company.submissions.v1",
       "name": "Get Company Submissions",
-      "provider": "Provider not stated",
+      "provider": "SEC EDGAR",
       "success_rate": 1.0,
       "latency_ms": 292.87,
       "cost_credits": 0.0,
@@ -30,7 +30,7 @@
     {
       "tool_id": "financialmodelingprep.stable.secfilingscompanysearch.cik.retrieve.v1.a1087fe5",
       "name": "SEC Filings Company Search By CIK",
-      "provider": "Provider not stated",
+      "provider": "Financial Modeling Prep",
       "success_rate": 1.0,
       "latency_ms": 1037.69,
       "cost_credits": 24.2,
@@ -44,7 +44,7 @@
     {
       "tool_id": "financialmodelingprep.stable.secfilingscompanysearch.symbol.retrieve.v1.5cf7397d",
       "name": "SEC Filings Company Search By Symbol",
-      "provider": "Provider not stated",
+      "provider": "Financial Modeling Prep",
       "success_rate": 0.98713,
       "latency_ms": 1131.89,
       "cost_credits": 24.2,
@@ -59,7 +59,7 @@
   "champion": {
     "tool_id": "sec.company.submissions.v1",
     "name": "Get Company Submissions",
-    "provider": "Provider not stated",
+    "provider": "SEC EDGAR",
     "success_rate": 1.0,
     "latency_ms": 292.87,
     "cost_credits": 0.0,
