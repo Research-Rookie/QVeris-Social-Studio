@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1200px; height: 675px; overflow: hidden; }
+    body {
+      font-family: Inter, "Microsoft YaHei", sans-serif;
+      color: #f7fbff;
+      background:
+        radial-gradient(circle at 84% 12%, rgba(52,227,244,.13), transparent 30%),
+        radial-gradient(circle at 20% 92%, rgba(47,67,255,.10), transparent 28%),
+        linear-gradient(128deg, #07101c 0%, #0c1322 57%, #17121f 100%);
+    }
+    .grid { position: absolute; inset: 0; opacity: .18; background-image: linear-gradient(rgba(255,255,255,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.07) 1px, transparent 1px); background-size: 64px 64px; mask-image: linear-gradient(to bottom, black, transparent 76%); }
+    main { position: relative; width: 100%; height: 100%; padding: 34px 44px 27px; }
+    header { display: flex; justify-content: space-between; align-items: flex-start; }
+    .eyebrow { color: #34e3f4; font-size: 15px; font-weight: 850; letter-spacing: 3.5px; }
+    h1 { margin: 11px 0 7px; font-size: 45px; line-height: 1.02; letter-spacing: -2px; }
+    .subtitle { color: rgba(255,255,255,.69); font-size: 19px; font-weight: 650; }
+    .brand { display: grid; justify-items: end; gap: 14px; }
+    .date { border: 1px solid rgba(255,255,255,.18); border-radius: 999px; padding: 10px 17px; color: #dbeafe; font-weight: 750; }
+    .logoLine { display: flex; align-items: center; gap: 9px; font-size: 21px; font-weight: 850; }
+    .logoLine img { width: 38px; height: 38px; object-fit: contain; }
+    .task { margin-top: 22px; display: flex; align-items: center; gap: 14px; padding: 12px 16px; border: 1px solid rgba(42,168,255,.25); border-radius: 15px; background: rgba(9,20,35,.76); }
+    .task b { color: #34e3f4; font-size: 12px; letter-spacing: 1.4px; }
+    .task span { font-size: 16px; font-weight: 700; color: #dce7f8; }
+    .table { margin-top: 15px; border: 1px solid rgba(255,255,255,.10); border-radius: 22px; overflow: hidden; background: rgba(5,9,18,.62); }
+    .head, .row { display: grid; grid-template-columns: 47px minmax(0,1fr) 142px 130px 118px 112px; align-items: center; column-gap: 13px; }
+    .head { min-height: 38px; padding: 0 17px; color: rgba(255,255,255,.48); font-size: 11px; font-weight: 800; letter-spacing: .9px; text-transform: uppercase; border-bottom: 1px solid rgba(255,255,255,.08); }
+    .row { position: relative; min-height: 91px; padding: 12px 17px; border-bottom: 1px solid rgba(255,255,255,.07); }
+    .row:last-child { border-bottom: 0; }
+    .row.champion { background: linear-gradient(90deg, rgba(52,227,244,.11), rgba(30,107,255,.05) 54%, transparent); }
+    .row.champion::before { content: ""; position: absolute; left: 0; top: 11px; bottom: 11px; width: 3px; border-radius: 8px; background: linear-gradient(#34e3f4,#1e6bff); box-shadow: 0 0 18px rgba(52,227,244,.75); }
+    .rank { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 10px; background: rgba(255,255,255,.07); color: #aab8cf; font-size: 17px; font-weight: 800; }
+    .champion .rank { color: #06131d; background: #34e3f4; }
+    .identity { min-width: 0; }
+    .identity strong { display: block; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 17px; }
+    .identity span { display: block; margin-top: 5px; color: #8fa4c3; font-size: 12px; font-weight: 650; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .metric { font-variant-numeric: tabular-nums; }
+    .metric strong { display: block; font-size: 18px; }
+    .metric span { display: block; margin-top: 4px; color: #7990b2; font-size: 11px; font-weight: 700; }
+    .metric.success strong { color: #54e6c4; }
+    .score strong { color: #67c7ff; font-size: 21px; }
+    .scoreTrack { width: 100%; height: 5px; margin-top: 7px; border-radius: 8px; background: #243046; overflow: hidden; }
+    .scoreFill { height: 100%; border-radius: inherit; background: linear-gradient(90deg,#34e3f4,#2f43ff); }
+    .bottom { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 18px; margin-top: 14px; }
+    .verdict { min-width: 0; padding: 13px 17px; border-radius: 16px; background: rgba(23,44,58,.72); border: 1px solid rgba(52,227,244,.12); }
+    .verdict b { color: #34e3f4; font-size: 11px; letter-spacing: 1.2px; }
+    .verdict span { margin-left: 10px; color: #dce7f8; font-size: 14px; font-weight: 680; }
+    .note { max-width: 360px; color: #7f93b3; font-size: 11px; line-height: 1.35; text-align: right; }
+  </style>
+</head>
+<body><div class="grid"></div><main>
+  <header>
+    <div><div class="eyebrow">API RELIABILITY ARENA</div><h1>Which API would an AI agent choose?</h1><div class="subtitle">QVeris routing signals compare reliability, speed, and expected cost</div></div>
+    <div class="brand"><div class="date">{{DATE}}</div><div class="logoLine"><img src="{{LOGO}}" /><b>QVeris</b></div></div>
+  </header>
+  <div class="task"><b>TODAY'S TASK</b><span>{{TASK}}</span></div>
+  <section class="table">
+    <div class="head"><span>Rank</span><span>Capability / provider</span><span>Success</span><span>Latency</span><span>Cost</span><span>Route score</span></div>
+    {{ROWS}}
+  </section>
+  <div class="bottom"><div class="verdict"><b>ROUTING VERDICT</b><span>{{TAKEAWAY}}</span></div><div class="note">Historical QVeris routing signals, not a live load test. Missing values are shown as n/a and reduce ranking confidence.</div></div>
+</main></body></html>

@@ -1,0 +1,50 @@
+name: QVeris API Reliability Arena
+
+on:
+  schedule:
+    # Daily 14:30 Asia/Shanghai, after the market research columns.
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: qveris-api-reliability-arena
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install renderer
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+      - name: Rank finance capabilities
+        env:
+          QVERIS_API_KEY: ${{ secrets.QVERIS_API_KEY }}
+        run: python scripts/fetch_api_reliability_arena.py
+      - name: Generate image
+        run: python scripts/generate_api_reliability_arena_image.py
+      - name: Generate tweet and archive card
+        env:
+          WEBSITE_URL: https://qveris.ai
+        run: python scripts/generate_api_reliability_arena_tweet.py
+      - name: Commit archive
+        run: |
+          git config user.name "qveris-content-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/posts.json data/api_reliability_arena.json data/api_reliability_arena_tweet_preview.txt
+          git add images/api_reliability_arena_*.png public/posts/api_reliability_arena_*.png 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: archive API reliability arena $(date -u +%Y-%m-%d)"
+          for attempt in 1 2 3; do
+            git pull --rebase origin master
+            git push origin master && exit 0
+            sleep 3
+          done
+          exit 1
