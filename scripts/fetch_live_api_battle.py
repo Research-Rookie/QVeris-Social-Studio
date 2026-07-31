@@ -159,6 +159,25 @@ def provider_label(tool: dict[str, Any]) -> str:
     return "Provider not stated"
 
 
+def capability_label(tool: dict[str, Any]) -> str:
+    name = str(tool.get("name") or tool.get("capability") or "").strip()
+    tool_id = str(tool.get("tool_id") or "").lower()
+    generic_names = {"symbol", "ticker", "s", "code", "query"}
+    if name and name.lower() not in generic_names:
+        return name
+    labels = {
+        "alphavantage.realtime_bulk_quotes": "Realtime Bulk Quotes",
+        "finnhub_io_api.stock.quote": "Stock Quote",
+        "finnhub.quote": "Stock Quote",
+        "tiingo.core.eod": "End-of-Day Quote",
+        "eodhd.live_v2.us_quote": "Delayed U.S. Quote",
+    }
+    for prefix, label in labels.items():
+        if tool_id.startswith(prefix):
+            return label
+    return name or "Quote capability"
+
+
 def parse_datetime(value: Any) -> datetime | None:
     if value in (None, ""):
         return None
@@ -240,8 +259,11 @@ def freshness_details(as_of: datetime | None, raw: str, now: datetime) -> tuple[
     if as_of is None:
         return ("Time returned" if raw else "Time n/a", 0.35 if raw else 0.15)
     age_hours = max((now - as_of).total_seconds() / 3600, 0)
-    if age_hours <= 24:
+    day_gap = (now.date() - as_of.date()).days
+    if day_gap <= 0:
         return "Today", 1.0
+    if day_gap == 1:
+        return "Previous session", 0.88
     if age_hours <= 72:
         return f"{max(1, round(age_hours / 24))}d old", 0.75
     return as_of.strftime("%b %d"), 0.45
@@ -258,7 +280,7 @@ def cost_details(tool: dict[str, Any]) -> tuple[float | None, str]:
 
 
 def run_candidate(tool: dict[str, Any], search_id: str, symbol: str, now: datetime) -> dict[str, Any]:
-    name = str(tool.get("name") or tool.get("capability") or tool.get("tool_id") or "Unnamed API")
+    name = capability_label(tool)
     provider = provider_label(tool)
     cost, cost_label = cost_details(tool)
     parameters = fill_default_parameters(
