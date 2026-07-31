@@ -27,7 +27,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_FILE = ROOT_DIR / "data" / "live_api_battle.json"
 RUN_TIMEZONE = ZoneInfo("Asia/Shanghai")
 SESSION_ID = "qveris-social-studio-live-api-battle"
-MAX_CANDIDATES = int(os.environ.get("LIVE_API_BATTLE_MAX_CANDIDATES", "7"))
+MAX_CANDIDATES = int(os.environ.get("LIVE_API_BATTLE_MAX_CANDIDATES", "10"))
 
 SYMBOLS = [
     {"symbol": "AAPL", "company": "Apple"},
@@ -41,12 +41,15 @@ FIELD_ALIASES = {
     "symbol": ["symbol", "ticker", "code"],
     "price": [
         "price",
+        "last",
+        "lastTradePrice",
         "lastPrice",
         "latestPrice",
         "currentPrice",
         "regularMarketPrice",
         "close",
         "05. price",
+        "c",
     ],
     "change_pct": [
         "changePercent",
@@ -55,6 +58,8 @@ FIELD_ALIASES = {
         "percentChange",
         "regularMarketChangePercent",
         "10. change percent",
+        "change_p",
+        "dp",
     ],
     "volume": ["volume", "regularMarketVolume", "tradingVolume", "06. volume"],
     "as_of": [
@@ -66,6 +71,7 @@ FIELD_ALIASES = {
         "latestTradingDay",
         "07. latest trading day",
         "date",
+        "t",
     ],
 }
 
@@ -139,6 +145,8 @@ def provider_label(tool: dict[str, Any]) -> str:
         "polygon": "Polygon",
         "twelvedata": "Twelve Data",
         "marketstack": "Marketstack",
+        "tiingo": "Tiingo",
+        "tradier": "Tradier",
     }
     for namespace, label in namespaces.items():
         if tool_id.startswith(namespace):
@@ -260,6 +268,10 @@ def run_candidate(tool: dict[str, Any], search_id: str, symbol: str, now: dateti
             "query": symbol,
         },
     )
+    for param in tool.get("params") or []:
+        name = str(param.get("name") or "")
+        if key_norm(name) in {"s", "code", "stockcode", "instrument"}:
+            parameters[name] = symbol
     started = time.perf_counter()
     try:
         payload = execute_tool(
@@ -315,6 +327,19 @@ def unique_candidates(results: list[dict[str, Any]]) -> list[dict[str, Any]]:
     seen_providers: set[str] = set()
     for result in results:
         if not result.get("tool_id"):
+            continue
+        searchable = " ".join(
+            str(result.get(key) or "")
+            for key in ("name", "description", "tool_id")
+        ).lower()
+        excluded = ("clock", "calendar", "exchange status", "orderbook", "order book", "trades list")
+        quote_signal = any(
+            token in searchable
+            for token in ("quote", "stock price", "real-time", "realtime", "live price", ".eod.", "global_quote")
+        )
+        param_names = {key_norm(param.get("name")) for param in result.get("params") or []}
+        accepts_symbol = bool(param_names & {"symbol", "ticker", "s", "code", "stock", "stockcode"})
+        if any(token in searchable for token in excluded) or not quote_signal or not accepts_symbol:
             continue
         provider = provider_label(result)
         provider_key = provider.lower()
@@ -381,16 +406,21 @@ def main() -> dict[str, Any]:
     symbol = scenario["symbol"]
     question = f"What is {symbol}'s latest U.S. stock quote?"
     query = (
-        f"Retrieve the latest U.S. stock quote for {symbol}, including current price, "
-        "percent change, trading volume, and data timestamp"
+        f"API endpoint to retrieve the latest U.S. stock quote for ticker {symbol}, including "
+        "current price, percent change, trading volume, and timestamp; exclude market clock, "
+        "calendar, exchange status, order book, and news tools"
     )
-    search_id, discovered = search_tools(query, SESSION_ID, limit=12)
+    search_id, discovered = search_tools(query, SESSION_ID, limit=20)
     candidates = unique_candidates(discovered)
     if len(candidates) < 2:
         raise RuntimeError(f"QVeris Discover returned fewer than two distinct API candidates: {len(candidates)}")
 
     attempted: list[dict[str, Any]] = []
     for candidate in candidates:
+        print(
+            f"Trying {candidate.get('name')} ({candidate.get('tool_id')}); "
+            f"params={[param.get('name') for param in candidate.get('params') or []]}"
+        )
         result = run_candidate(candidate, search_id, symbol, now_utc)
         attempted.append(result)
         print(
@@ -404,8 +434,11 @@ def main() -> dict[str, Any]:
     usable = [item for item in attempted if item.get("success") and item.get("completeness", 0) > 0]
     failures = [item for item in attempted if item not in usable]
     participants = (usable[:3] + failures[: max(0, 3 - len(usable))])[:3]
-    if not usable:
-        raise RuntimeError("No QVeris-discovered API returned parseable quote data")
+    if len(usable) < 2:
+        raise RuntimeError(
+            f"Only {len(usable)} QVeris-discovered API returned parseable quote data; "
+            "at least two are required for a real comparison"
+        )
     participants = score_results(participants)
     winner = participants[0]
     winner_reason = (

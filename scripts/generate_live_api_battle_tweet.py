@@ -26,9 +26,13 @@ def short(value: object, limit: int) -> str:
 
 def format_tweet(data: dict) -> str:
     winner = data.get("winner") or {}
+    usable_count = len([
+        item for item in data.get("participants") or []
+        if item.get("success") and float(item.get("completeness") or 0) > 0
+    ])
     spread = data.get("price_spread_pct")
     lines = [
-        "Three APIs answered the same market question. One won. \U0001f94a",
+        f"{usable_count} live APIs answered the same market question. One won. \U0001f94a",
         "",
         short(data.get("question"), 58),
         f"\U0001f3c6 Winner: {short(winner.get('provider'), 35)}",
@@ -39,7 +43,7 @@ def format_tweet(data: dict) -> str:
     lines.extend(["", f"Live API comparison via QVeris: {WEBSITE_URL}"])
     tweet = "\n".join(lines)
     if len(tweet) > 280:
-        tweet = tweet.replace("Three APIs answered the same market question. One won. \U0001f94a", "Same question. Three live APIs. One winner. \U0001f94a")
+        tweet = tweet.replace(f"{usable_count} live APIs answered the same market question. One won. \U0001f94a", "Same question. Live APIs compared. One winner. \U0001f94a")
     if len(tweet) > 280:
         tweet = tweet.replace("Live API comparison via QVeris", "Built with QVeris")
     if len(tweet) > 280:
