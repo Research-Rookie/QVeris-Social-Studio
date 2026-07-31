@@ -113,6 +113,11 @@ def value_by_aliases(item: dict[str, Any], aliases: list[str]) -> Any:
 
 
 def parse_embedded_payload(payload: Any) -> Any:
+    if isinstance(payload, str) and payload.strip().startswith(("[", "{")):
+        try:
+            return json.loads(payload)
+        except json.JSONDecodeError:
+            return payload
     if not isinstance(payload, dict):
         return payload
     full_content_url = payload.get("full_content_file_url")
@@ -332,7 +337,20 @@ def unique_candidates(results: list[dict[str, Any]]) -> list[dict[str, Any]]:
             str(result.get(key) or "")
             for key in ("name", "description", "tool_id")
         ).lower()
-        excluded = ("clock", "calendar", "exchange status", "orderbook", "order book", "trades list")
+        excluded = (
+            "clock",
+            "calendar",
+            "exchange status",
+            "orderbook",
+            "order book",
+            "trades list",
+            "cryptocurrency",
+            "crypto",
+            "coinmarketcap",
+            "coingecko",
+            "binance",
+            "forex",
+        )
         quote_signal = any(
             token in searchable
             for token in ("quote", "stock price", "real-time", "realtime", "live price", ".eod.", "global_quote")
