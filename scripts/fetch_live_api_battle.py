@@ -162,7 +162,7 @@ def provider_label(tool: dict[str, Any]) -> str:
 def capability_label(tool: dict[str, Any]) -> str:
     name = str(tool.get("name") or tool.get("capability") or "").strip()
     tool_id = str(tool.get("tool_id") or "").lower()
-    generic_names = {"symbol", "ticker", "s", "code", "query"}
+    generic_names = {"symbol", "ticker", "s", "code", "query", "eod"}
     if name and name.lower() not in generic_names:
         return name
     labels = {
@@ -263,7 +263,7 @@ def freshness_details(as_of: datetime | None, raw: str, now: datetime) -> tuple[
     if day_gap <= 0:
         return "Today", 1.0
     if day_gap == 1:
-        return "Previous session", 0.88
+        return "Prev. session", 0.88
     if age_hours <= 72:
         return f"{max(1, round(age_hours / 24))}d old", 0.75
     return as_of.strftime("%b %d"), 0.45
