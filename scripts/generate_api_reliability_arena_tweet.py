@@ -31,7 +31,11 @@ def format_tweet(data: dict) -> str:
     cost = champion.get("cost_credits")
     success_text = f"{float(success) * 100:.1f}% success" if success is not None else "success n/a"
     latency_text = f"{float(latency):,.0f}ms" if latency is not None else "latency n/a"
-    cost_text = f"{float(cost):g} credits" if cost is not None else "cost n/a"
+    expected_cost_text = str(champion.get("expected_cost_text") or "").lower()
+    if cost is not None and float(cost) == 0 and "free" in expected_cost_text:
+        cost_text = "Free"
+    else:
+        cost_text = f"{float(cost):g} credits" if cost is not None else "cost n/a"
     tweet = "\n".join([
         "Which API would an AI agent choose? ⚔️",
         "",

@@ -97,6 +97,29 @@ def freshness_label(value: Any) -> str:
     return "Not stated"
 
 
+def provider_label(tool: dict[str, Any]) -> str:
+    explicit = str(tool.get("provider_name") or tool.get("provider") or "").strip()
+    if explicit:
+        return explicit
+    tool_id = str(tool.get("tool_id") or "").lower()
+    namespaces = {
+        "financialmodelingprep": "Financial Modeling Prep",
+        "alphavantage": "Alpha Vantage",
+        "yahoo_finance": "Yahoo Finance",
+        "finnhub": "Finnhub",
+        "eodhd": "EODHD",
+        "polygon": "Polygon",
+        "twelvedata": "Twelve Data",
+        "coingecko": "CoinGecko",
+        "coinmarketcap": "CoinMarketCap",
+        "sec.": "SEC EDGAR",
+    }
+    for namespace, label in namespaces.items():
+        if tool_id.startswith(namespace):
+            return label
+    return "Provider not stated"
+
+
 def normalize_tool(tool: dict[str, Any]) -> dict[str, Any]:
     stats = tool.get("stats") or {}
     success = nested_number(
@@ -127,7 +150,7 @@ def normalize_tool(tool: dict[str, Any]) -> dict[str, Any]:
     )
     known_cost = cost_known(tool)
     cost = expected_credits(tool) if known_cost else None
-    provider = str(tool.get("provider_name") or tool.get("provider") or "Provider not stated")
+    provider = provider_label(tool)
     name = str(tool.get("name") or tool.get("capability") or tool.get("tool_id") or "Unnamed capability")
     freshness = freshness_label(tool.get("as_of_support") or tool.get("asOfSupport"))
 

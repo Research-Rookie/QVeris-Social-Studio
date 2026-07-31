@@ -33,7 +33,10 @@ def rows(items: list[dict]) -> str:
     for item in items[:3]:
         success, success_note = metric(item.get("success_rate"), lambda value: f"{value * 100:.1f}%", "historical")
         latency, latency_note = metric(item.get("latency_ms"), lambda value: f"{value:,.0f} ms", "average")
-        cost, cost_note = metric(item.get("cost_credits"), lambda value: f"{value:g} cr", "expected")
+        if item.get("cost_known") and float(item.get("cost_credits") or 0) == 0:
+            cost, cost_note = "Free", "expected"
+        else:
+            cost, cost_note = metric(item.get("cost_credits"), lambda value: f"{value:g} cr", "expected")
         score = float(item.get("route_score") or 0)
         champion = " champion" if int(item.get("rank") or 0) == 1 else ""
         rendered.append(
