@@ -1,759 +1,59 @@
 {
-  "updated_at": "2026-07-30T05:24:32.614926+00:00",
-  "date": "2026-07-30",
+  "updated_at": "2026-07-31T04:53:37.117756+00:00",
+  "date": "2026-07-31",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Earnings To Watch: Franklin Resources (BEN) Reports Q2 Results Tomorrow",
-      "summary": "Franklin Resources (BEN) is scheduled to report its Q2 earnings before the market opens on Friday. The company exceeded revenue and EPS expectations last quarter, and analysts a...",
-      "url": "https://www.tradingview.com/news/stockstory:f3a60e2d1094b:0-earnings-to-watch-franklin-resources-ben-reports-q2-results-tomorrow/",
-      "source": "TradingView",
-      "published_at": "20260730T030310",
-      "sentiment_score": 0.159037,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Corteva raises full-year profit forecast, shares fall after revenue miss",
+      "summary": "Corteva, a U.S. agriscience company, increased its full-year adjusted profit forecast due to strong demand in key crop markets, specifically soybeans. However, its shares droppe...",
+      "url": "https://kfgo.com/2026/07/30/corteva-raises-full-year-profit-forecast/",
+      "source": "The Mighty 790 KFGO",
+      "published_at": "20260731T033732",
+      "sentiment_score": -0.208869,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "BEN",
-        "BK",
-        "STT"
+        "CTVA"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance"
+        "Economy Macro"
+      ],
+      "quality_score": 21,
+      "is_noise": false
+    },
+    {
+      "title": "Altria Group (NYSE:MO) Issues Earnings Results",
+      "summary": "Altria Group (NYSE:MO) reported Q2 adjusted EPS of $1.48, missing analyst estimates of $1.50, but revenue rose 1.2% year-over-year to $5.36 billion, slightly exceeding expectati...",
+      "url": "https://www.marketbeat.com/instant-alerts/altria-group-nysemo-issues-earnings-results-2026-07-30/",
+      "source": "MarketBeat",
+      "published_at": "20260731T021715",
+      "sentiment_score": -0.137638,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Monetary",
+        "Retail Wholesale"
       ],
       "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "Colgate Q1 Review: Revenue Beat Prompts Target Price Hikes; Analysts Remain Divided",
-      "summary": "Colgate-Palmolive India Ltd.'s Q1 revenue exceeded expectations, leading several brokerages to increase their target prices for the stock. However, analysts remain divided due t...",
-      "url": "https://www.ndtvprofit.com/markets/colgate-palmolive-q1-review-revenue-beat-prompts-target-price-hikes-analysts-remain-divided-11841108",
-      "source": "NDTV Profit",
-      "published_at": "20260730T030756",
-      "sentiment_score": 0.114664,
+      "title": "Investors Buy High Volume of Plains All American Pipeline Call Options (NASDAQ:PAA)",
+      "summary": "Investors showed significant interest in Plains All American Pipeline (NASDAQ:PAA) call options, with trading volume surging 726% above average. While analyst sentiment is mixed...",
+      "url": "https://www.marketbeat.com/instant-alerts/investors-buy-high-volume-of-plains-all-american-pipeline-call-options-nasdaqpaa-2026-07-30/",
+      "source": "MarketBeat",
+      "published_at": "20260731T024013",
+      "sentiment_score": 0.111245,
       "sentiment_label": "Neutral",
       "tickers": [
-        "CL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "USB’s Bond Issuance and Upgraded Guidance Might Change The Case For Investing In U.S. Bancorp (USB)",
-      "summary": "U.S. Bancorp (USB) recently completed multi-billion dollar fixed-income offerings and raised its 2026 revenue guidance from 7% to 9%, driven by increased net interest and fee in...",
-      "url": "https://simplywall.st/stocks/us/banks/nyse-usb/us-bancorp/news/usbs-bond-issuance-and-upgraded-guidance-might-change-the-ca",
-      "source": "Simply Wall St",
-      "published_at": "20260730T022626",
-      "sentiment_score": 0.308768,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "USB"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "Q2 Holdings, Inc. Stock 12‑Month Price Target Raised to $72.64, Implies 20% Upside",
-      "summary": "Q2 Holdings, Inc. (QTWO) has seen its average 12-month price target increase to $72.64 from $72.18, based on estimates from 11 analysts, with forecasts ranging from $60 to $82 p...",
-      "url": "https://www.tradingview.com/news/tradingview:5f935a8774c80:0-q2-holdings-inc-stock-12-month-price-target-raised-to-72-64-implies-20-upside/",
-      "source": "TradingView",
-      "published_at": "20260730T032025",
-      "sentiment_score": 0.518034,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "QTWO"
-      ],
-      "topics": [
-        "Financial Markets"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "T. Rowe Price (TROW) Reports Earnings Tomorrow: What To Expect",
-      "summary": "T. Rowe Price (TROW) is scheduled to report earnings before market hours on Friday. The market anticipates T. Rowe Price's revenue to grow 9.6% year over year, an improvement fr...",
-      "url": "https://www.tradingview.com/news/stockstory:ace7266cf094b:0-t-rowe-price-trow-reports-earnings-tomorrow-what-to-expect/",
-      "source": "TradingView",
-      "published_at": "20260730T030343",
-      "sentiment_score": 0.051485,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TROW",
-        "BK",
-        "STT"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "What To Expect From AbbVie’s (ABBV) Q2 Earnings",
-      "summary": "AbbVie (ABBV) is set to announce its Q2 earnings this Friday. The company previously beat revenue expectations but missed EPS estimates. Analysts anticipate an 8.8% year-on-year...",
-      "url": "https://www.tradingview.com/news/stockstory:74cf3630e094b:0-what-to-expect-from-abbvie-s-abbv-q2-earnings/",
-      "source": "TradingView",
-      "published_at": "20260730T030158",
-      "sentiment_score": 0.356031,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "ABBV",
-        "BIIB",
-        "INCY"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Moderna (MRNA) Q2 Earnings: What To Expect",
-      "summary": "Moderna (MRNA) is set to announce its Q2 earnings this Friday. The market anticipates a 24.8% year-on-year revenue decline, an improvement from the previous year's 41.1% decreas...",
-      "url": "https://www.tradingview.com/news/stockstory:c6787f255094b:0-moderna-mrna-q2-earnings-what-to-expect/",
-      "source": "TradingView",
-      "published_at": "20260730T030134",
-      "sentiment_score": 0.162586,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MRNA",
-        "BIIB",
-        "INCY"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Does RenaissanceRe’s Big Buyback and Softer Q2 Revenue Change The Bull Case For RNR?",
-      "summary": "RenaissanceRe Holdings Ltd. reported softer Q2 2026 revenue but strong six-month earnings per share, alongside a significant share repurchase program of US$995.69 million. While...",
-      "url": "https://simplywall.st/stocks/us/insurance/nyse-rnr/renaissancere-holdings/news/does-renaissanceres-big-buyback-and-softer-q2-revenue-change/amp",
-      "source": "Simply Wall St",
-      "published_at": "20260730T033437",
-      "sentiment_score": 0.016276,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "RNR-P-F"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Northern Oil and Gas Jumps 6.0% Amid Sector-Wide Rally",
-      "summary": "Northern Oil and Gas (NOG) surged 6.0% to $21.04 on Wednesday, mirroring a sector-wide rally in energy exploration stocks. This gain was not company-specific but rather part of...",
-      "url": "https://news.alphastreet.com/northern-oil-and-gas-jumps-6-0-amid-sector-wide-rally/",
-      "source": "AlphaStreet",
-      "published_at": "20260730T022002",
-      "sentiment_score": 0.427152,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "NOG"
-      ],
-      "topics": [
-        "Financial Markets"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Clorox (CLX) Stock Trades At A Discount To Fair Value",
-      "summary": "Clorox (CLX) stock appears to be trading at a discount to its fair value, based on both Discounted Cash Flow (DCF) intrinsic value estimates and earnings multiples. The DCF mode...",
-      "url": "https://simplywall.st/stocks/us/household/nyse-clx/clorox/news/clorox-clx-stock-trades-at-a-discount-to-fair-value",
-      "source": "Simply Wall St",
-      "published_at": "20260730T043757",
-      "sentiment_score": 0.280452,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CLX",
-        "KMB"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Australian Domino's operator rises 14% as investors shrug off impairment charge",
-      "summary": "Shares of the Australian Domino's operator surged 14% despite the company flagging $180 million in impairments. Investors appear to be shrugging off the impairment charge, as th...",
-      "url": "https://www.marketscreener.com/news/australian-domino-s-operator-rises-14-as-investors-shrug-off-impairment-charge-ce7f51d3de8af02c",
-      "source": "marketscreener.com",
-      "published_at": "20260730T032651",
-      "sentiment_score": 0.311129,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "DPZ"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Quest Diagnostics Incorporated Stock 12‑Month Price Target Raised to $248.86, Implies 6% Upside",
-      "summary": "The average 12-month price target for Quest Diagnostics Incorporated (DGX) stock has been raised by analysts from $246.6 to $248.86, indicating an approximate 6% potential upsid...",
-      "url": "https://www.tradingview.com/news/tradingview:6cad47a9cb419:0-quest-diagnostics-incorporated-stock-12-month-price-target-raised-to-248-86-implies-6-upside/",
-      "source": "TradingView",
-      "published_at": "20260730T032023",
-      "sentiment_score": 0.419506,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DGX"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Qorvo, Inc. Stock 12‑Month Price Target Cut to $89.67",
-      "summary": "Qorvo, Inc.'s average 12-month price target has been reduced from $90.7 to $89.67 by financial analysts. The forecasts for QRVO stock now range from $66 to $105 per share. Despi...",
-      "url": "https://www.tradingview.com/news/tradingview:55832515b5912:0-qorvo-inc-stock-12-month-price-target-cut-to-89-67/",
-      "source": "TradingView",
-      "published_at": "20260730T032016",
-      "sentiment_score": 0.023165,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "FDS"
-      ],
-      "topics": [
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Park National Corporation (PRK) Stock Forecasts",
-      "summary": "Argus has raised its target price for Park National Corporation (PRK) to $228.00, citing its diversified financial services and community banking presence in Ohio and Kentucky....",
-      "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_5911_QuantitativeReport_1785283200000",
-      "source": "Yahoo! Finance Canada",
-      "published_at": "20260730T040407",
-      "sentiment_score": 0.43852,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "PRK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Does RenaissanceRe’s Big Buyback and Softer Q2 Revenue Change The Bull Case For RNR?",
-      "summary": "RenaissanceRe Holdings Ltd. reported Q2 2026 results with revenue of US$2,768.6 million and net income of US$663.08 million, alongside a significant share repurchase of 3,425,60...",
-      "url": "https://simplywall.st/stocks/us/insurance/nyse-rnr/renaissancere-holdings/news/does-renaissanceres-big-buyback-and-softer-q2-revenue-change",
-      "source": "Simply Wall St",
-      "published_at": "20260730T033519",
-      "sentiment_score": 0.140053,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "RNR"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Skyworks Solutions (SWKS) Stock Trades Near Fair Value Despite Rich Earnings",
-      "summary": "Skyworks Solutions (SWKS) stock has declined significantly over the past five years, but current valuations suggest it trades near its intrinsic value. While a Discounted Cash F...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-swks-stock-trades-031822826.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260730T031820",
-      "sentiment_score": 0.01129,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SWKS"
-      ],
-      "topics": [
-        "Earnings",
-        "Mergers And Acquisitions",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Occidental Petroleum Rises as Oil Rebounds and Strong Q2 Pricing Supports Earnings Hopes",
-      "summary": "Occidental Petroleum's stock rose by 4% as oil prices rebounded, with Brent crude nearing $85 per barrel. The company is expected to report strong Q2 earnings due to favorable p...",
-      "url": "https://www.moomoo.com/news/post/73769955/occidental-petroleum-rises-as-oil-rebounds-and-strong-q2-pricing",
-      "source": "Moomoo",
-      "published_at": "20260730T022931",
-      "sentiment_score": 0.01709,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "OXY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "NetSTREIT Corp. (NTST) Stock Forecasts",
-      "summary": "An Argus quantitative report gives NetSTREIT Corp. (NTST) an Investment Rating of HOLD with a target price of $23.00. The report details subratings for industry, management, saf...",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_6819_QuantitativeReport_1785283200000",
-      "source": "Yahoo Finance",
-      "published_at": "20260730T021538",
-      "sentiment_score": 0.035012,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "NTST"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Real Estate",
-        "Finance"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Riot Platforms, Inc. (RIOT) Declines More Than Market: Some Information for Investors",
-      "summary": "Riot Platforms, Inc. (RIOT) experienced a significant decline of 14.12% in its latest trading session, underperforming the broader market. The company is set to release its earn...",
-      "url": "https://uk.finance.yahoo.com/news/riot-platforms-inc-riot-declines-214502134.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260730T034500",
-      "sentiment_score": -0.432512,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "RIOT",
-        "NDAQ"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Texas Instruments Incorporated Revenue Breakdown – LS:852654",
-      "summary": "Last year, Texas Instruments generated 15.05 billion EUR in revenue, with the Analog segment contributing the most at 11.92 billion EUR. The United States was the largest region...",
-      "url": "https://www.tradingview.com/symbols/LS-852654/financials-segments/",
-      "source": "TradingView",
-      "published_at": "20260730T041526",
-      "sentiment_score": 0.034695,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TXN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Preformed Line Products Q2 Results: EPS surges 75% YoY, beats estimates",
-      "summary": "Preformed Line Products (NASDAQ: PLPC) reported a strong Q2 performance, with EPS of $4.49, exceeding estimates by 86.31% and up 75.39% year-over-year. The company's quarterly s...",
-      "url": "https://scanx.trade/stock-market-news/companies/preformed-line-products-q2-results-eps-surges-75-yoy-beats-estimates/46911740",
-      "source": "scanx.trade",
-      "published_at": "20260730T034820",
-      "sentiment_score": 0.878026,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "PLPC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Dexcom Inc (DXCM) Risk Assessment: Volatility, Financial Risk & Investment Risk",
-      "summary": "This article provides a risk assessment for Dexcom Inc (DXCM), noting its current risk score of 6.55 within the Healthcare Equipment & Supplies industry. It details the company'...",
-      "url": "https://www.tradingkey.com/markets/stocks/dxcm/risk-assesment",
-      "source": "TradingKey",
-      "published_at": "20260730T031033",
-      "sentiment_score": -0.226808,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "DXCM"
-      ],
-      "topics": [
-        "Financial Markets"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Robert Half Inc (RHI) Valuation: PE, PB & Fair Value Analysis",
-      "summary": "This article provides a valuation analysis of Robert Half Inc (RHI), stating its current valuation score is 7.27, ranking 128 out of 159 in its industry. It highlights the compa...",
-      "url": "https://www.tradingkey.com/markets/stocks/rhi/company-valuation",
-      "source": "TradingKey",
-      "published_at": "20260730T030737",
-      "sentiment_score": 0.049082,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "RHI"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "CF Industries Holdings Inc (CF) Valuation: PE, PB & Fair Value Analysis",
-      "summary": "This article provides a valuation analysis of CF Industries Holdings Inc (CF), noting its current valuation score of 9.27, which ranks 8th in the Chemicals industry. The company...",
-      "url": "https://www.tradingkey.com/markets/stocks/cf/company-valuation",
-      "source": "TradingKey",
-      "published_at": "20260730T025419",
-      "sentiment_score": 0.118952,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CF"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Cboe Global Markets Inc (CBOE) Institutional Confidence",
-      "summary": "This article from TradingKey provides an overview of Cboe Global Markets Inc (CBOE) focusing on its institutional confidence score and shareholder activity. It lists key institu...",
-      "url": "https://www.tradingkey.com/markets/stocks/cboe/sentiment",
-      "source": "TradingKey",
-      "published_at": "20260730T025408",
-      "sentiment_score": 0.235143,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CBOE"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Cboe Global Markets Inc (CBOE) Risk Assessment: Volatility, Financial Risk & Investment Risk",
-      "summary": "This article provides a risk assessment for Cboe Global Markets Inc (CBOE), highlighting its current score of 9.82, which ranks it highly within the Investment Banking & Investm...",
-      "url": "https://www.tradingkey.com/markets/stocks/cboe/risk-assesment",
-      "source": "TradingKey",
-      "published_at": "20260730T025408",
-      "sentiment_score": 0.122198,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CBOE"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "FFIV|F5 Inc|Price:387.050|Chg%:-16.410",
-      "summary": "The article provides a comprehensive stock analysis of F5 Inc (FFIV), highlighting its strong fundamentals and high growth potential, though its valuation is noted as fairly val...",
-      "url": "https://www.tradingkey.com/markets/stocks/ffiv/stock-analysis",
-      "source": "TradingKey",
-      "published_at": "20260730T024338",
-      "sentiment_score": 0.137866,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "FFIV"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Grupo Simec SAB de CV (SIM) Valuation: PE, PB & Fair Value Analysis",
-      "summary": "This article provides a valuation analysis of Grupo Simec SAB de CV (SIM), noting its current valuation score of 8.16, which ranks 61 out of 127 in the Metals & Mining industry....",
-      "url": "https://www.tradingkey.com/markets/stocks/sim/company-valuation",
-      "source": "TradingKey",
-      "published_at": "20260730T023512",
-      "sentiment_score": 0.031669,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SIM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Economy Macro",
-        "Manufacturing"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Prudential Financial Inc (PRU) Institutional Confidence",
-      "summary": "The article provides an institutional confidence report for Prudential Financial Inc (PRU), detailing its current institutional shareholding score, ranking within the insurance...",
-      "url": "https://www.tradingkey.com/markets/stocks/pru/sentiment",
-      "source": "TradingKey",
-      "published_at": "20260730T023046",
-      "sentiment_score": 0.108837,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PFH",
-        "PRU"
-      ],
-      "topics": [
-        "Finance",
-        "Financial Markets"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Cummins Inc (CMI) Risk Assessment: Volatility, Financial Risk & Investment Risk",
-      "summary": "This article provides a risk assessment for Cummins Inc (CMI), detailing its volatility, financial risks, and investment risks. With a risk assessment score of 8.70, CMI ranks 8...",
-      "url": "https://www.tradingkey.com/markets/stocks/cmi/risk-assesment",
-      "source": "TradingKey",
-      "published_at": "20260730T022449",
-      "sentiment_score": -0.127558,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CMI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Manufacturing",
-        "Economy Macro",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Schrodinger, Inc. (SDGR) Stock Forecasts",
-      "summary": "This article provides a stock forecast for Schrodinger, Inc. (SDGR), a healthcare-based software company with segments in Software and Drug discovery. It highlights an Argus res...",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_6127_QuantitativeReport_1785283200000",
-      "source": "Yahoo Finance",
-      "published_at": "20260730T043438",
-      "sentiment_score": 0.108263,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SDGR"
-      ],
-      "topics": [
-        "Finance",
-        "Life Sciences",
-        "Financial Markets",
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Gilead Sciences (GILD) Following Trodelvy Progress And A Fair Value Debate",
-      "summary": "Gilead Sciences (GILD) is in focus after European regulators gave a positive opinion on expanding Trodelvy's use for certain advanced triple-negative breast cancer patients. Whi...",
-      "url": "https://uk.finance.yahoo.com/news/gilead-sciences-gild-following-trodelvy-042711760.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260730T042707",
-      "sentiment_score": 0.222108,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "GILD"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "StandardAero, Inc. (SARO) Stock Forecasts",
-      "summary": "Argus has issued an investment rating of HOLD for StandardAero Inc. (SARO), setting a target price of $32.00. The company's current price is $28.73, and various subratings for i...",
-      "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_6770_QuantitativeReport_1785283200000",
-      "source": "Yahoo! Finance Canada",
-      "published_at": "20260730T042022",
-      "sentiment_score": 0.417257,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "SARO"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Finance",
-        "Manufacturing"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "ROSEN, A TOP RANKED LAW FIRM, Encourages Intuit Inc. Investors to Secure Counsel Before Important Deadline in Secur...",
-      "summary": "The Rosen Law Firm is encouraging investors of Intuit Inc. (NASDAQ: INTU) who purchased securities between August 22, 2025, and May 20, 2026, to secure counsel before the Septem...",
-      "url": "https://www.globenewswire.com/news-release/2026/07/30/3335723/673/en/ROSEN-A-TOP-RANKED-LAW-FIRM-Encourages-Intuit-Inc-Investors-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-INTU.html",
-      "source": "GlobeNewswire",
-      "published_at": "20260730T024506",
-      "sentiment_score": -0.428841,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "INTU"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 5,
-      "is_noise": false
-    },
-    {
-      "title": "Marathon Petroleum Corp. Announces Quarterly Dividend",
-      "summary": "Marathon Petroleum Corp. (MPC) has declared a quarterly dividend of $1.00 per share on common stock. Shareholders of record as of August 19, 2026, will receive the dividend, pay...",
-      "url": "https://www.tradingview.com/news/prnewswire:00697935acb73:0-marathon-petroleum-corp-announces-quarterly-dividend/",
-      "source": "TradingView",
-      "published_at": "20260730T041250",
-      "sentiment_score": 0.391634,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "MPC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "How Investors May Respond To Gilead Sciences (GILD) EMA Backing Trodelvy Plus Keytruda In First-Line TNBC",
-      "summary": "The European Medicines Agency's committee has adopted a positive opinion backing Gilead Sciences' Trodelvy in combination with Merck's Keytruda as a first-line treatment for cer...",
-      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-gild/gilead-sciences/news/how-investors-may-respond-to-gilead-sciences-gild-ema-backin",
-      "source": "Simply Wall St",
-      "published_at": "20260730T033438",
-      "sentiment_score": 0.279054,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "GILD",
-        "MRK"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "IQVIA Holdings Inc. (IQV) Stock Price | Live Quotes & Charts | NYSE",
-      "summary": "This page provides live quotes and charts for IQVIA Holdings Inc. (IQV) stock on the NYSE. It shows a current stock price of $247.56, up $4.62 (1.90%), but notes that prices are...",
-      "url": "https://timothysykes.com/quote/IQV/",
-      "source": "Timothy Sykes",
-      "published_at": "20260730T032726",
-      "sentiment_score": 0.294785,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "IQV"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Primech Holdings Ltd (PMEC) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
-      "summary": "This article provides a technical analysis of Primech Holdings Ltd (PMEC), covering support, resistance, indicators, and moving averages. It evaluates nine common technical indi...",
-      "url": "https://www.tradingkey.com/markets/stocks/pmec/technical",
-      "source": "TradingKey",
-      "published_at": "20260730T032227",
-      "sentiment_score": 0.017636,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PMEC"
-      ],
-      "topics": [
-        "Financial Markets"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Baxter International Inc (BAX) Institutional Confidence",
-      "summary": "Baxter International Inc (BAX) has an institutional shareholding score of 10.00, placing it first in the Healthcare Equipment & Supplies industry. Institutional shareholding sta...",
-      "url": "https://www.tradingkey.com/markets/stocks/bax/sentiment",
-      "source": "TradingKey",
-      "published_at": "20260730T023750",
-      "sentiment_score": 0.17502,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "BAX"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "SMC|Summit Midstream Corp|Price:30.330|Chg%:+0.480",
-      "summary": "This article provides a comprehensive stock analysis of Summit Midstream Corp (SMC) from TradingKey, noting the company's healthy fundamentals and significant growth potential,...",
-      "url": "https://www.tradingkey.com/markets/stocks/smc/stock-analysis",
-      "source": "TradingKey",
-      "published_at": "20260730T023624",
-      "sentiment_score": 0.303689,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SMC"
+        "PAA"
       ],
       "topics": [
         "Financial Markets",
@@ -761,63 +61,717 @@
         "Energy Transportation",
         "Finance"
       ],
-      "quality_score": 4,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "Summit Midstream Corp (SMC) Institutional Confidence",
-      "summary": "This article analyzes Summit Midstream Corp's (SMC) institutional confidence, noting its current score of 3.00, placing it 63rd out of 88 in its industry. The institutional shar...",
-      "url": "https://www.tradingkey.com/markets/stocks/smc/sentiment",
-      "source": "TradingKey",
-      "published_at": "20260730T023624",
-      "sentiment_score": 0.143222,
-      "sentiment_label": "Neutral",
+      "title": "Essex Property Trust Inc (ESS) (Q2 2026) Earnings Call Highlight",
+      "summary": "Essex Property Trust Inc. (ESS) reported strong Q2 2026 earnings, exceeding FFO guidance and raising full-year forecasts, driven primarily by robust performance in Northern Cali...",
+      "url": "https://www.gurufocus.com/news/8993494/essex-property-trust-inc-ess-q2-2026-earnings-call-highlights-strong-ffo-beat-and-raised-guidance-amid-regional-divergence",
+      "source": "GuruFocus",
+      "published_at": "20260731T023239",
+      "sentiment_score": 0.530485,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "SMC",
-        "BLK",
-        "IVZ"
+        "ESS"
       ],
       "topics": [
-        "Financial Markets",
-        "Earnings"
+        "Earnings",
+        "Real Estate",
+        "Economy Macro",
+        "Financial Markets"
       ],
-      "quality_score": 4,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "SolarEdge (SEDG) Stock Looks Undervalued Following Its 87% Five Year Slump",
-      "summary": "SolarEdge Technologies (SEDG) stock appears undervalued after an 87% five-year decline, despite a recent recovery trend. The company trades at a Price/Sales (P/S) multiple of 1....",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/solaredge-sedg-stock-looks-undervalued-031538909.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260730T033746",
-      "sentiment_score": 0.129564,
+      "title": "Arch Capital Group (ACGL) Stock Drops As Revenue Declines Cloud Outlook",
+      "summary": "Arch Capital Group's stock dropped by about 3% after its Q2 2026 earnings showed revenue and net income declines, despite a strong combined ratio. Investors are concerned about...",
+      "url": "https://simplywall.st/stocks/us/insurance/nasdaq-acgl/arch-capital-group/news/arch-capital-group-acgl-stock-drops-as-revenue-declines-clou/amp",
+      "source": "Simply Wall St",
+      "published_at": "20260731T020701",
+      "sentiment_score": -0.279389,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ACGL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Robert Bender & Associates trims Apple Inc stake",
+      "summary": "Robert Bender & Associates, a hedge fund managed by Robert L. Bender, recently reduced its stake in Apple Inc (AAPL) by 4,985 shares. TipRanks' AI Analyst, Spark, rates AAPL as...",
+      "url": "https://www.tipranks.com/news/company-announcements/robert-bender-associates-trims-apple-inc-stake",
+      "source": "TipRanks",
+      "published_at": "20260731T030458",
+      "sentiment_score": 0.103205,
       "sentiment_label": "Neutral",
       "tickers": [
-        "SEDG"
+        "AAPL",
+        "PSKY",
+        "F"
       ],
       "topics": [
         "Financial Markets",
         "Technology",
+        "Earnings"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "MarketAxess (MKTX) Rockets on Merger Deal at 33% Premium",
+      "summary": "MarketAxess (MKTX) shares surged by 29.45% after agreeing to be acquired by Intercontinental Exchange for $6 billion, representing a 33% premium. The merger, expected to close i...",
+      "url": "https://uk.finance.yahoo.com/news/marketaxess-mktx-rockets-merger-deal-024127904.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260731T024117",
+      "sentiment_score": 0.581947,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "MKTX",
+        "ICE"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Slide Insurance Holdings, Inc. Q2 2026: Revenue $386.8M, EPS $1.06— 10-Q Summary",
+      "summary": "Slide Insurance Holdings, Inc. (SLDE) reported strong financial results for Q2 2026, with revenue reaching $386.8M and diluted EPS of $1.06. This growth was mainly driven by an...",
+      "url": "https://www.tradingview.com/news/tradingview:a08f7a0531520:0-slide-insurance-holdings-inc-q2-2026-revenue-386-8m-eps-1-06-10-q-summary/",
+      "source": "TradingView",
+      "published_at": "20260731T041116",
+      "sentiment_score": 0.490229,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SLDE"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Needham & Company LLC Increases Silicon Motion Technology (NASDAQ:SIMO) Price Target to $355.00",
+      "summary": "Needham & Company LLC has increased its price target for Silicon Motion Technology (NASDAQ:SIMO) to $355.00 from $240.00, maintaining a \"Buy\" rating. This new target implies a p...",
+      "url": "https://www.marketbeat.com/instant-alerts/needham-company-llc-increases-silicon-motion-technology-nasdaqsimo-price-target-to-35500-2026-07-30/",
+      "source": "MarketBeat",
+      "published_at": "20260731T041026",
+      "sentiment_score": 0.426167,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SIMO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Redwire Corporation Q2 Results: Earnings release set for August 5",
+      "summary": "Redwire Corporation (NYSE: RDW) is scheduled to release its second-quarter 2026 financial results after market close on August 5, 2026. A conference call hosted by management wi...",
+      "url": "https://scanx.trade/stock-market-news/companies/redwire-corporation-q2-results-earnings-release-set-for-august-5/46993927",
+      "source": "scanx.trade",
+      "published_at": "20260731T031127",
+      "sentiment_score": 0.100851,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RDW"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Steven Madden’s Q2 Revenues Climb 19 Percent",
+      "summary": "Steven Madden, Ltd. reported a significant increase in its second-quarter 2026 revenues, up 19.1 percent to $665.9 million, and more than doubled adjusted earnings. The company...",
+      "url": "https://sgbonline.com/steven-maddens-q2-revenues-climb-19-percent/",
+      "source": "SGB Media",
+      "published_at": "20260731T041100",
+      "sentiment_score": 0.723259,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SHOO"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Smithfield Foods Maintains Quarterly Dividend at $0.3125 a Share, Payable on Aug. 27 to Shareholders of Record on A...",
+      "summary": "Smithfield Foods (SFD) announced it will maintain its quarterly dividend at $0.3125 per share. The dividend is scheduled to be paid on August 27 to shareholders of record as of...",
+      "url": "https://www.marketscreener.com/news/smithfield-foods-maintains-quarterly-dividend-at-0-3125-a-share-payable-on-aug-27-to-shareholders-ce7f50dbd880ff24",
+      "source": "www.marketscreener.com",
+      "published_at": "20260731T041000",
+      "sentiment_score": 0.135418,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SFD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Cf Industries Holdings, Inc. (CF) Q3 2025 Earnings Report - Results, Call & Slides",
+      "summary": "Cf Industries Holdings, Inc. (CF) released its Q3 2025 earnings report, significantly beating EPS estimates with $2.28 against a consensus of $2.16. The company, however, slight...",
+      "url": "https://www.tipranks.com/stocks/cf/earnings/q3-2025-report",
+      "source": "TipRanks",
+      "published_at": "20260731T033717",
+      "sentiment_score": 0.399015,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "CF"
+      ],
+      "topics": [
+        "Earnings"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Rapid7 Inc. (RPD) Q3 2024 Earnings Report - Results, Call & Slides",
+      "summary": "This article provides the Q3 2024 earnings report for Rapid7 Inc. (RPD), detailing its financial results, including an actual EPS of $0.66 against a consensus of $0.52 and actua...",
+      "url": "https://www.tipranks.com/stocks/rpd/earnings/q3-2024-report",
+      "source": "TipRanks",
+      "published_at": "20260731T033201",
+      "sentiment_score": 0.627634,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "RPD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Cathie Wood Snaps Up $14.3 Million of Meta Stock After Post-Earnings Selloff, Ark Sheds Caterpillar Share",
+      "summary": "Cathie Wood's Ark Invest recently acquired $14.3 million worth of Meta Platforms (META) stock following a post-earnings selloff, increasing its position across three ETFs. Conve...",
+      "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/07/60827179/cathie-wood-snaps-up-14-3-million-of-meta-stock-after-post-earnings-selloff-ark-sheds-caterpillar-shares",
+      "source": "Benzinga",
+      "published_at": "20260731T031014",
+      "sentiment_score": 0.146069,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CAT",
+        "META",
+        "LHX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology",
+        "Manufacturing"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Safehold Q2 2026 Earnings Call Transcript",
+      "summary": "Safehold reported a strong Q2 2026 with new investments, capital markets activity, and solid earnings. The company originated $150 million in multifamily ground leases, primaril...",
+      "url": "https://www.marketbeat.com/earnings/reports/2026-7-30-safehold-inc-stock/",
+      "source": "MarketBeat",
+      "published_at": "20260731T024124",
+      "sentiment_score": 0.495895,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SAFE"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "What Qorvo (QRVO)'s Profit Jump and Buybacks Mean for Its Earnings Power and Capital Returns",
+      "summary": "Qorvo (QRVO) reported increased net income despite slightly lower sales for the first quarter, driven by strength in High-Performance Analog and cost controls. The company also...",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-qrvo/qorvo/news/what-qorvo-qrvos-profit-jump-and-buybacks-mean-for-its-earni",
+      "source": "Simply Wall St",
+      "published_at": "20260731T021450",
+      "sentiment_score": 0.131773,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "QRVO",
+        "AVGO",
+        "NVDA",
+        "MSFT",
+        "QCOM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology",
+        "Economy Macro"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "NOV Q2 Earnings Surpass Estimates, Revenues Decrease Y/Y",
+      "summary": "NOV Inc. reported Q2 2026 adjusted earnings of 31 cents per share, surpassing the Zacks Consensus Estimate of 16 cents and increasing 6.9% year-over-year. Total revenues reached...",
+      "url": "https://finance.yahoo.com/energy/articles/nov-q2-earnings-surpass-estimates-163400580.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260731T020914",
+      "sentiment_score": 0.331154,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "NOV",
+        "BKR",
+        "HAL"
+      ],
+      "topics": [
         "Earnings",
         "Energy Transportation"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Freeport-McMoRan (FCX) Lifted Sales Guidance, Is The Copper Upside Already Priced In?",
+      "summary": "Freeport-McMoRan (FCX) recently updated its sales guidance for higher copper and gold volumes through 2027, alongside strong Q2 results. Despite a positive market narrative sugg...",
+      "url": "https://simplywall.st/stocks/us/materials/nyse-fcx/freeport-mcmoran/news/freeport-mcmoran-fcx-lifted-sales-guidance-is-the-copper-ups/amp",
+      "source": "Simply Wall St",
+      "published_at": "20260731T020751",
+      "sentiment_score": 0.408425,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "FCX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Banco Santander SA Stock (SAN) Moved Up by 5.16% on Jul 30: Key Drivers Unveiled",
+      "summary": "Banco Santander SA (SAN) stock rose by 5.16% on July 30, driven by a strong quarterly earnings report that exceeded expectations, an accelerated capital return program including...",
+      "url": "https://www.tradingkey.com/news/market-movers/262064963-market-movers-san-20260730",
+      "source": "TradingKey",
+      "published_at": "20260731T034051",
+      "sentiment_score": 0.315719,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "SAN",
+        "GS",
+        "JPM",
+        "MKTX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Monetary",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Revelation Biosciences (NASDAQ:REVB) secures FDA agreement setting single-study path for kidney drug Gemini",
+      "summary": "Revelation Biosciences (NASDAQ:REVB) has secured an FDA agreement for a single-study regulatory pathway for its lead acute kidney injury drug, Gemini. This agreement for a ~300-...",
+      "url": "https://kalkine.com.au/news/healthcare/revelation-biosciences-nasdaqrevb-secures-fda-agreement-setting-single-study-path-for-kidney-drug-gemini",
+      "source": "Kalkine",
+      "published_at": "20260731T033944",
+      "sentiment_score": 0.327963,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "REVB"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Red River Bancshares Inc reports results for the quarter ended June 30 - Earnings Summary",
+      "summary": "Red River Bancshares Inc announced its earnings for the quarter ending June 30. The brief report indicates financial results have been released for the period. The full article...",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N43W3QA:0-red-river-bancshares-inc-reports-results-for-the-quarter-ended-june-30-earnings-summary/",
+      "source": "TradingView",
+      "published_at": "20260731T033101",
+      "sentiment_score": 0.143083,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RRBI"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Rxsight Inc (RXST) Financial Health: Profitability & Balance Sheet Analysis",
+      "summary": "Rxsight Inc (RXST) has a current financial score of 6.86, placing it 125 out of 199 in the Healthcare Equipment & Supplies industry. The company's financial status is stable wit...",
+      "url": "https://www.tradingkey.com/markets/stocks/rxst/financial-health",
+      "source": "TradingKey",
+      "published_at": "20260731T031728",
+      "sentiment_score": 0.039268,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RXST"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Stardust Power Inc (SDST) Valuation: PE, PB & Fair Value Analysis",
+      "summary": "This article provides a valuation analysis of Stardust Power Inc (SDST), detailing its current valuation score, P/E ratio, and industry ranking. It notes that key P/E, P/B, and...",
+      "url": "https://www.tradingkey.com/markets/stocks/sdst/company-valuation",
+      "source": "TradingKey",
+      "published_at": "20260731T024102",
+      "sentiment_score": -0.315639,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "SDST"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Praxis Precision Medicines to Report Second Quarter 2026 Financial Results on Thursday, August 6, 2026",
+      "summary": "Praxis Precision Medicines, Inc. (NASDAQ: PRAX) announced it will report its Q2 2026 financial results and provide a corporate update on Thursday, August 6, 2026, before market...",
+      "url": "https://www.globenewswire.com/news-release/2026/07/30/3336396/0/en/praxis-precision-medicines-to-report-second-quarter-2026-financial-results-on-thursday-august-6-2026.html",
+      "source": "GlobeNewswire",
+      "published_at": "20260731T024046",
+      "sentiment_score": 0.016044,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "PRAX"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Life Sciences"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Sprott Physical Platinum and Palladium Trust Trust Units Revenue Breakdown – TSX:SPPP",
+      "summary": "Sprott Physical Platinum and Palladium Trust Trust Units (TSX: SPPP) shows a revenue breakdown primarily from Canada, contributing 1.29 million CAD last year. The article provid...",
+      "url": "https://www.tradingview.com/symbols/TSX-SPPP/financials-segments/",
+      "source": "TradingView",
+      "published_at": "20260731T021143",
+      "sentiment_score": 0.029023,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SPPP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Relay Therapeutics to report Q2 2026 results on Aug 6",
+      "summary": "Relay Therapeutics, Inc. (NASDAQ: RLAY) will announce its second-quarter 2026 financial results and corporate highlights after U.S. financial markets close on August 6, 2026. Th...",
+      "url": "https://scanx.trade/stock-market-news/companies/relay-therapeutics-to-report-q2-2026-results-on-aug-6/47006116",
+      "source": "scanx.trade",
+      "published_at": "20260731T021051",
+      "sentiment_score": 0.284524,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "RLAY"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "NBT Bancorp (NASDAQ:NBTB) EVP Sells 4,500 Shares of Stock",
+      "summary": "NBT Bancorp's EVP, Ruth Mahoney, sold 4,500 shares of company stock for approximately $244,350, reducing her ownership by 27.39%. This sale occurred shortly after the bank repor...",
+      "url": "https://www.marketbeat.com/instant-alerts/nbt-bancorp-nasdaqnbtb-evp-sells-4500-shares-of-stock-2026-07-30/",
+      "source": "MarketBeat",
+      "published_at": "20260731T020929",
+      "sentiment_score": -0.196624,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "NBTB"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "RKLB Stock Jumps Overnight: Rocket Lab Doubles Down On ‘Responsive Space’ Push With 4-Complex Launch Network",
+      "summary": "Rocket Lab's stock (RKLB) surged after the company announced its fourth launch complex in Alaska, part of a $266 million U.S. Space Force contract, reinforcing its \"responsive s...",
+      "url": "https://stocktwits.com/news-articles/markets/equity/rklb-responsive-space-push-4-complex-launch-network/cZNEuzlRJ2j",
+      "source": "Stocktwits",
+      "published_at": "20260731T031958",
+      "sentiment_score": 0.511442,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "RKLB"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Why AI Spending Now Matters More Than Margins",
+      "summary": "Tesla is strategically increasing its investment in AI, autonomous driving, robotics, and computing infrastructure, leading to a focus shift from immediate quarterly margins to...",
+      "url": "https://www.stonex.com/en-us/insights/why-ai-spending-now-matters-more-than-margins/",
+      "source": "StoneX",
+      "published_at": "20260731T031532",
+      "sentiment_score": 0.128683,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SNEX",
+        "TSLA"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Phathom Pharmaceuticals, Inc. (PHAT) Reports Break-Even Earnings for Q2",
+      "summary": "Phathom Pharmaceuticals, Inc. (PHAT) reported break-even earnings per share for Q2 2026, outperforming the Zacks Consensus Estimate of a $0.06 loss. The company also surpassed r...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/phathom-pharmaceuticals-inc-phat-reports-143003583.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260731T024033",
+      "sentiment_score": 0.116616,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "PHAT",
+        "COIN"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Prothena Q2 Results: Financial data release set for Aug 6",
+      "summary": "Prothena Corporation plc is scheduled to release its Q2 and H1 2026 financial results on Thursday, August 6, 2026, after the close of U.S. financial markets. The biotech company...",
+      "url": "https://scanx.trade/stock-market-news/companies/prothena-q2-results-financial-data-release-set-for-aug-6/47006792",
+      "source": "scanx.trade",
+      "published_at": "20260731T021100",
+      "sentiment_score": 0.101896,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "PRTA"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "3 Nuclear Energy Stocks Riding Canada’s Uranium Buildout",
+      "summary": "This article highlights three Canadian nuclear energy stocks—NexGen Energy, Bird Construction, and Denison Mines—that are poised to benefit from Canada's uranium buildout, drive...",
+      "url": "https://simplywall.st/stocks/ca/energy/tsx-nxe/nexgen-energy-shares/news/3-nuclear-energy-stocks-riding-canadas-uranium-buildout/amp",
+      "source": "Simply Wall St",
+      "published_at": "20260731T020526",
+      "sentiment_score": 0.295325,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "NXE"
+      ],
+      "topics": [
+        "Energy Transportation",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Silvercrest Asset Management Group Inc. Reports Q2 2026 Results",
+      "summary": "Silvercrest Asset Management Group Inc. (NASDAQ: SAMG) reported its second-quarter 2026 results, showing an increase in discretionary assets under management to $24.7 billion de...",
+      "url": "https://www.wboc.com/online_features/press_releases/silvercrest-asset-management-group-inc-reports-q2-2026-results/article_bea1d582-c43f-5fb8-9867-9d0a95f838df.html",
+      "source": "WBOC TV",
+      "published_at": "20260731T041020",
+      "sentiment_score": 0.204288,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "SAMG"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Rand Capital Announces $0.29 per Share Cash Dividend for Third Quarter 2026",
+      "summary": "Rand Capital Corporation (Nasdaq: RAND) has declared a quarterly cash dividend of $0.29 per share for the third quarter of 2026. This dividend is scheduled for distribution on o...",
+      "url": "https://www.businesswire.com/news/home/20260730949359/en/Rand-Capital-Announces-%240.29-per-Share-Cash-Dividend-for-Third-Quarter-2026",
+      "source": "Business Wire",
+      "published_at": "20260731T033928",
+      "sentiment_score": 0.493228,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "RAND"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "How Investors May Respond To Amgen (AMGN) Repatha Expansion and 2026 Dividend Declaration",
+      "summary": "Amgen (AMGN) recently declared a Q3 2026 dividend of US$2.52 per share and received a positive opinion from the European Medicines Agency's CHMP for expanding Repatha's use in h...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-amgn/amgen/news/how-investors-may-respond-to-amgen-amgn-repatha-expansion-an",
+      "source": "Simply Wall St",
+      "published_at": "20260731T033903",
+      "sentiment_score": 0.10181,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AMGN",
+        "ABBV",
+        "GILD"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Finance"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Provident Financial Services, Inc. Declares Quarterly Cash Dividend",
+      "summary": "Provident Financial Services, Inc. announced that its Board of Directors declared a quarterly cash dividend of $0.24 per common share. This dividend is payable on August 28, 202...",
+      "url": "https://www.manilatimes.net/2026/07/31/tmt-newswire/globenewswire/provident-financial-services-inc-declares-quarterly-cash-dividend/2395511",
+      "source": "The Manila Times",
+      "published_at": "20260731T030958",
+      "sentiment_score": 0.451716,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "PFS"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
       ],
       "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "Tyler Technologies Sets July 30 Call on Government Tech Results",
-      "summary": "Tyler Technologies (NYSE: TYL) has announced its financial results for the second quarter ended June 30, 2026. The company will host a Q&A conference call on Thursday, July 30,...",
-      "url": "https://www.stocktitan.net/news/TYL/tyler-technologies-reports-second-quarter-2026-hlre05bcsyoc.html",
-      "source": "Stock Titan",
-      "published_at": "20260730T024616",
-      "sentiment_score": 0.1256,
-      "sentiment_label": "Neutral",
+      "title": "Eversource’s Quarter Took A Hit From One-Off Charges",
+      "summary": "Eversource Energy's second-quarter net income plummeted by 84.7% due to significant one-off accounting charges related to the sale of its Aquarion water business and liabilities...",
+      "url": "https://finimize.com/content/eversources-quarter-took-a-hit-from-one-off-charges",
+      "source": "Finimize",
+      "published_at": "20260731T030743",
+      "sentiment_score": -0.28521,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "TYL"
+        "ES"
       ],
       "topics": [
         "Earnings",
-        "Finance",
+        "Energy Transportation",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "News | Major events, strong travel demand gave Pebblebrook pricing confidence in second quarter",
+      "summary": "Pebblebrook Hotel Trust experienced a better-than-expected second quarter, driven by strong industry demand, limited new supply, and major events. The company saw significant gr...",
+      "url": "https://www.costar.com/article/1839218656/major-events-strong-travel-demand-gave-pebblebrook-pricing-confidence-in-second-quarter",
+      "source": "CoStar",
+      "published_at": "20260731T023949",
+      "sentiment_score": 0.166029,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "PEB-P-F",
+        "CSGP",
+        "MAR"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "HP Inc (HPQ) Chief Commercial Officer David Mcquarrie Sells 10,524 Shares",
+      "summary": "David Mcquarrie, Chief Commercial Officer of HP Inc (HPQ), sold 10,524 shares of the company for approximately $294,461, bringing his direct ownership to 81,676 shares. This sal...",
+      "url": "https://www.gurufocus.com/news/8993513/hp-inc-hpq-chief-commercial-officer-david-mcquarrie-sells-10524-shares",
+      "source": "GuruFocus",
+      "published_at": "20260731T023858",
+      "sentiment_score": -0.204838,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "HPQ"
+      ],
+      "topics": [
+        "Earnings",
         "Financial Markets",
         "Technology"
       ],
@@ -825,91 +779,51 @@
       "is_noise": false
     },
     {
-      "title": "BlackRock (NYSE: BLK) reports 5.7% ownership in Revolution Medicines (RVMD)",
-      "summary": "BlackRock, Inc. has disclosed a 5.7% beneficial ownership stake in Revolution Medicines (RVMD), amounting to 12,201,395 common shares. This ownership gives BlackRock sole voting...",
-      "url": "https://www.stocktitan.net/sec-filings/RVMD/schedule-13g-revolution-medicines-inc-passive-investment-disclosure-5-2e42f4032699.html",
-      "source": "Stock Titan",
-      "published_at": "20260730T043631",
-      "sentiment_score": 0.015438,
-      "sentiment_label": "Neutral",
+      "title": "Pathfinder Bancorp, Inc. Announces Financial Results for the Second Quarter of 2026",
+      "summary": "Pathfinder Bancorp, Inc. reported net income of $2.7 million, or $0.42 per diluted share, for the second quarter of 2026, a significant improvement from previous periods. The co...",
+      "url": "https://www.manilatimes.net/2026/07/31/tmt-newswire/globenewswire/pathfinder-bancorp-inc-announces-financial-results-for-the-second-quarter-of-2026/2395493",
+      "source": "The Manila Times",
+      "published_at": "20260731T021058",
+      "sentiment_score": 0.428041,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "RVMD"
+        "PBHC"
       ],
       "topics": [
-        "Financial Markets",
-        "Life Sciences",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Selective Insurance (SIGI) EVP logs stock sale and 1,100-share gift",
-      "summary": "Selective Insurance Group's EVP and General Counsel, Michael H. Lanza, reported a sale of 17,100 shares of Common Stock at a weighted-average price of $94.0442 per share and a g...",
-      "url": "https://www.stocktitan.net/sec-filings/SIGI/form-4-selective-insurance-group-inc-insider-trading-activity-d1c693db267c.html",
-      "source": "Stock Titan",
-      "published_at": "20260730T043600",
-      "sentiment_score": -0.205356,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "SIGI"
-      ],
-      "topics": [
-        "Finance",
-        "Financial Markets"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "BlackRock (RELY stakeholder) discloses 17.5M Remitly Global shares in 13G/A update",
-      "summary": "BlackRock, Inc. has filed an amended Schedule 13G, revealing a beneficial ownership of 17,508,232 shares of Remitly Global Inc. common stock, which represents 8.3% of the outsta...",
-      "url": "https://www.stocktitan.net/sec-filings/RELY/schedule-13g-a-remitly-global-inc-amended-passive-investment-disclosu-d71df61ca5dd.html",
-      "source": "Stock Titan",
-      "published_at": "20260730T041645",
-      "sentiment_score": 0.018527,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "RELY",
-        "BLK"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Shareholder Alert: Robbins LLP Informs Investors of the Rackspace Technology, Inc. (RXT) Class Action",
-      "summary": "Robbins LLP has filed a securities class action lawsuit against Rackspace Technology, Inc. (RXT) on behalf of investors who purchased securities between May 7, 2026, and July 8,...",
-      "url": "https://www.businesswire.com/news/home/20260729173631/en/Shareholder-Alert-Robbins-LLP-Informs-Investors-of-the-Rackspace-Technology-Inc.-RXT-Class-Action",
-      "source": "Business Wire",
-      "published_at": "20260730T034416",
-      "sentiment_score": -0.620151,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "RXT"
-      ],
-      "topics": [
-        "Technology",
-        "Finance",
         "Earnings",
-        "Financial Markets"
+        "Finance"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "PARK AEROSPACE CORP SEC Filing (Jul 29, 2026)",
-      "summary": "This article details a Form 144 SEC filing by Park Aerospace Corp. (PKE) on July 29, 2026. The filing indicates a proposed sale of 60,000 shares of common stock with an aggregat...",
-      "url": "https://www.stocktitan.net/sec-filings/PKE/144-park-aerospace-corp-sec-filing-557b1a5e30a1.html",
+      "title": "Pathfinder Bancorp shifts liquidity into securities as net income reaches $2.7M",
+      "summary": "Pathfinder Bancorp reported a net income of $2.7 million, or $0.42 per diluted share, for Q2 2026, marking a significant increase from previous periods. The company strategicall...",
+      "url": "https://www.stocktitan.net/news/PBHC/pathfinder-bancorp-inc-announces-financial-results-for-the-second-kb657h8o3nld.html",
       "source": "Stock Titan",
-      "published_at": "20260730T034332",
-      "sentiment_score": 0.027784,
+      "published_at": "20260731T021058",
+      "sentiment_score": 0.290399,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "PBHC"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 2,
+      "is_noise": false
+    },
+    {
+      "title": "Star Bulk (SBLK) insider Reskos plans 5,000-share sale after prior 10b5-1 trades",
+      "summary": "Nikolaos Reskos, an insider at Star Bulk (SBLK), has filed to sell 5,000 shares of common stock valued at approximately $136,950 through Morgan Stanley Smith Barney LLC. These s...",
+      "url": "https://www.stocktitan.net/sec-filings/SBLK/144-star-bulk-carriers-corp-sec-filing-5cf064d24bbb.html",
+      "source": "Stock Titan",
+      "published_at": "20260731T040930",
+      "sentiment_score": 0.04441,
       "sentiment_label": "Neutral",
       "tickers": [
-        "PKE"
+        "SBLK"
       ],
       "topics": [
         "Financial Markets",
@@ -919,36 +833,130 @@
       "is_noise": true
     },
     {
-      "title": "First Solar, Inc. (FSLR) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
-      "summary": "A securities fraud class action lawsuit has been filed against First Solar, Inc. (FSLR), alleging that the company made misleading statements regarding its capacity to manage U....",
-      "url": "https://www.prnewswire.com/news-releases/first-solar-inc-fslr-shareholders-who-lost-money-have-opportunity-to-lead-securities-fraud-lawsuit-302838420.html",
-      "source": "PR Newswire",
-      "published_at": "20260730T025915",
-      "sentiment_score": -0.639558,
-      "sentiment_label": "Bearish",
+      "title": "Preformed Line Products (NASDAQ: PLPC) Q2 2026 sales climb to $212.7M",
+      "summary": "Preformed Line Products (NASDAQ: PLPC) reported a significant increase in net sales for Q2 2026, reaching $212.7 million, up 25% from the previous year, with net income rising t...",
+      "url": "https://www.stocktitan.net/sec-filings/PLPC/10-q-preformed-line-products-co-quarterly-earnings-report-d21881753f7e.html",
+      "source": "Stock Titan",
+      "published_at": "20260731T030953",
+      "sentiment_score": -0.189815,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "FSLR"
+        "PLPC"
       ],
       "topics": [
+        "Earnings",
         "Finance",
-        "Financial Markets",
-        "Economy Fiscal"
+        "Manufacturing"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "National CineMedia (NCMI) holder plans 52,000-share sale after prior stock disposals",
-      "summary": "A National CineMedia (NCMI) holder plans to sell 52,000 shares of common stock through Morgan Stanley Smith Barney LLC on July 31, 2026. This notice also details a vesting of 74...",
-      "url": "https://www.stocktitan.net/sec-filings/NCMI/144-national-cine-media-inc-sec-filing-78bdeb65a9d5.html",
-      "source": "Stock Titan",
-      "published_at": "20260730T022204",
-      "sentiment_score": -0.204251,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Insider Buying: Parke Bancorp (NASDAQ:PKBK) CEO Acquires $43,784.00 in Stock",
+      "summary": "Parke Bancorp's CEO, Vito Pantilione, recently purchased 1,300 shares of the company's stock for $43,784, increasing his direct ownership to 237,829 shares. The company reported...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-buying-parke-bancorp-nasdaqpkbk-ceo-acquires-4378400-in-stock-2026-07-30/",
+      "source": "MarketBeat",
+      "published_at": "20260731T030921",
+      "sentiment_score": 0.433334,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "NCMI"
+        "PKBK"
       ],
       "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "PROCEPT BioRobotics (PRCT) Faces Securities Class Action Amid Sales Pull-In Concerns – HBSS",
+      "summary": "PROCEPT BioRobotics (PRCT) is facing a securities class action lawsuit due to alleged misrepresentations regarding its handpiece sales and inventory levels. The lawsuit, led by...",
+      "url": "https://www.globenewswire.com/news-release/2026/07/30/3336510/32716/en/procept-biorobotics-prct-faces-securities-class-action-amid-sales-pull-in-concerns-hbss.html",
+      "source": "GlobeNewswire",
+      "published_at": "20260731T030428",
+      "sentiment_score": -0.421099,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "PRCT"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Life Sciences"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Old Republic (NYSE: ORI) EVP exercises options and sells 13,125 shares",
+      "summary": "Stephen J. Oberst, Executive Vice President of Old Republic International (NYSE: ORI), exercised 208,000 employee stock options on July 28, 2026. Following the exercise, 150,068...",
+      "url": "https://www.stocktitan.net/sec-filings/ORI/form-4-old-republic-international-corp-insider-trading-activity-a6b64b50cd82.html",
+      "source": "Stock Titan",
+      "published_at": "20260731T024024",
+      "sentiment_score": 0.032301,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ORI"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "OLD REPUBLIC INTERNATIONAL CORP SEC Filing (Jul 30, 2026)",
+      "summary": "This article details an SEC Form 144 filing by Old Republic International Corp (ORI) concerning a proposed sale of securities, specifically 14,075 shares of common stock valued...",
+      "url": "https://www.stocktitan.net/sec-filings/ORI/144-old-republic-international-corp-sec-filing-e83263aff17a.html",
+      "source": "Stock Titan",
+      "published_at": "20260731T024024",
+      "sentiment_score": 0.048849,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ORI"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Universal Display (NASDAQ: OLED) shifts to low end of 2026 revenue guidance",
+      "summary": "Universal Display reported a decline in Q2 2026 revenue to $152.2 million from $171.8 million a year earlier, with material sales decreasing while royalty and license fees incre...",
+      "url": "https://www.stocktitan.net/sec-filings/OLED/8-k-universal-display-corp-pa-reports-material-event-a04cb821ee07.html",
+      "source": "Stock Titan",
+      "published_at": "20260731T021039",
+      "sentiment_score": -0.262454,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "OLED"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "NBT Bancorp EVP Ruth Mahoney sells $244,350 in stock",
+      "summary": "Ruth H. Mahoney, EVP and President of Wealth Management at NBT Bancorp Inc., sold 4,500 shares of company stock worth $244,350 on July 29, 2026. This transaction occurred near t...",
+      "url": "https://m.investing.com/news/insider-trading-news/nbt-bancorp-evp-ruth-mahoney-sells-244350-in-stock-93CH-4825982?ampMode=1",
+      "source": "Investing.com",
+      "published_at": "20260731T020929",
+      "sentiment_score": 0.127898,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NBTB"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
         "Financial Markets"
       ],
       "quality_score": -10,
@@ -956,163 +964,144 @@
     }
   ],
   "article_count": 50,
-  "top_ticker": "BK",
-  "top_topic": "Financial Markets",
+  "top_ticker": "MKTX",
+  "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Earnings To Watch: Franklin Resources (BEN) Reports Q2 Results Tomorrow",
+  "top_story": "Corteva raises full-year profit forecast, shares fall after revenue miss",
   "signal_articles": [
     {
-      "title": "Earnings To Watch: Franklin Resources (BEN) Reports Q2 Results Tomorrow",
-      "summary": "Franklin Resources (BEN) is scheduled to report its Q2 earnings before the market opens on Friday. The company exceeded revenue and EPS expectations last quarter, and analysts a...",
-      "url": "https://www.tradingview.com/news/stockstory:f3a60e2d1094b:0-earnings-to-watch-franklin-resources-ben-reports-q2-results-tomorrow/",
-      "source": "TradingView",
-      "published_at": "20260730T030310",
-      "sentiment_score": 0.159037,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Corteva raises full-year profit forecast, shares fall after revenue miss",
+      "summary": "Corteva, a U.S. agriscience company, increased its full-year adjusted profit forecast due to strong demand in key crop markets, specifically soybeans. However, its shares droppe...",
+      "url": "https://kfgo.com/2026/07/30/corteva-raises-full-year-profit-forecast/",
+      "source": "The Mighty 790 KFGO",
+      "published_at": "20260731T033732",
+      "sentiment_score": -0.208869,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "BEN",
-        "BK",
-        "STT"
+        "CTVA"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance"
+        "Economy Macro"
+      ],
+      "quality_score": 21,
+      "is_noise": false
+    },
+    {
+      "title": "Altria Group (NYSE:MO) Issues Earnings Results",
+      "summary": "Altria Group (NYSE:MO) reported Q2 adjusted EPS of $1.48, missing analyst estimates of $1.50, but revenue rose 1.2% year-over-year to $5.36 billion, slightly exceeding expectati...",
+      "url": "https://www.marketbeat.com/instant-alerts/altria-group-nysemo-issues-earnings-results-2026-07-30/",
+      "source": "MarketBeat",
+      "published_at": "20260731T021715",
+      "sentiment_score": -0.137638,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Monetary",
+        "Retail Wholesale"
       ],
       "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "Colgate Q1 Review: Revenue Beat Prompts Target Price Hikes; Analysts Remain Divided",
-      "summary": "Colgate-Palmolive India Ltd.'s Q1 revenue exceeded expectations, leading several brokerages to increase their target prices for the stock. However, analysts remain divided due t...",
-      "url": "https://www.ndtvprofit.com/markets/colgate-palmolive-q1-review-revenue-beat-prompts-target-price-hikes-analysts-remain-divided-11841108",
-      "source": "NDTV Profit",
-      "published_at": "20260730T030756",
-      "sentiment_score": 0.114664,
+      "title": "Investors Buy High Volume of Plains All American Pipeline Call Options (NASDAQ:PAA)",
+      "summary": "Investors showed significant interest in Plains All American Pipeline (NASDAQ:PAA) call options, with trading volume surging 726% above average. While analyst sentiment is mixed...",
+      "url": "https://www.marketbeat.com/instant-alerts/investors-buy-high-volume-of-plains-all-american-pipeline-call-options-nasdaqpaa-2026-07-30/",
+      "source": "MarketBeat",
+      "published_at": "20260731T024013",
+      "sentiment_score": 0.111245,
       "sentiment_label": "Neutral",
       "tickers": [
-        "CL"
+        "PAA"
       ],
       "topics": [
-        "Earnings",
         "Financial Markets",
-        "Retail Wholesale"
+        "Earnings",
+        "Energy Transportation",
+        "Finance"
       ],
       "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "USB’s Bond Issuance and Upgraded Guidance Might Change The Case For Investing In U.S. Bancorp (USB)",
-      "summary": "U.S. Bancorp (USB) recently completed multi-billion dollar fixed-income offerings and raised its 2026 revenue guidance from 7% to 9%, driven by increased net interest and fee in...",
-      "url": "https://simplywall.st/stocks/us/banks/nyse-usb/us-bancorp/news/usbs-bond-issuance-and-upgraded-guidance-might-change-the-ca",
-      "source": "Simply Wall St",
-      "published_at": "20260730T022626",
-      "sentiment_score": 0.308768,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Essex Property Trust Inc (ESS) (Q2 2026) Earnings Call Highlight",
+      "summary": "Essex Property Trust Inc. (ESS) reported strong Q2 2026 earnings, exceeding FFO guidance and raising full-year forecasts, driven primarily by robust performance in Northern Cali...",
+      "url": "https://www.gurufocus.com/news/8993494/essex-property-trust-inc-ess-q2-2026-earnings-call-highlights-strong-ffo-beat-and-raised-guidance-amid-regional-divergence",
+      "source": "GuruFocus",
+      "published_at": "20260731T023239",
+      "sentiment_score": 0.530485,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "USB"
+        "ESS"
       ],
       "topics": [
-        "Finance",
         "Earnings",
+        "Real Estate",
+        "Economy Macro",
         "Financial Markets"
       ],
       "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "Q2 Holdings, Inc. Stock 12‑Month Price Target Raised to $72.64, Implies 20% Upside",
-      "summary": "Q2 Holdings, Inc. (QTWO) has seen its average 12-month price target increase to $72.64 from $72.18, based on estimates from 11 analysts, with forecasts ranging from $60 to $82 p...",
-      "url": "https://www.tradingview.com/news/tradingview:5f935a8774c80:0-q2-holdings-inc-stock-12-month-price-target-raised-to-72-64-implies-20-upside/",
-      "source": "TradingView",
-      "published_at": "20260730T032025",
-      "sentiment_score": 0.518034,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "QTWO"
-      ],
-      "topics": [
-        "Financial Markets"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "T. Rowe Price (TROW) Reports Earnings Tomorrow: What To Expect",
-      "summary": "T. Rowe Price (TROW) is scheduled to report earnings before market hours on Friday. The market anticipates T. Rowe Price's revenue to grow 9.6% year over year, an improvement fr...",
-      "url": "https://www.tradingview.com/news/stockstory:ace7266cf094b:0-t-rowe-price-trow-reports-earnings-tomorrow-what-to-expect/",
-      "source": "TradingView",
-      "published_at": "20260730T030343",
-      "sentiment_score": 0.051485,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TROW",
-        "BK",
-        "STT"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "What To Expect From AbbVie’s (ABBV) Q2 Earnings",
-      "summary": "AbbVie (ABBV) is set to announce its Q2 earnings this Friday. The company previously beat revenue expectations but missed EPS estimates. Analysts anticipate an 8.8% year-on-year...",
-      "url": "https://www.tradingview.com/news/stockstory:74cf3630e094b:0-what-to-expect-from-abbvie-s-abbv-q2-earnings/",
-      "source": "TradingView",
-      "published_at": "20260730T030158",
-      "sentiment_score": 0.356031,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "ABBV",
-        "BIIB",
-        "INCY"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Moderna (MRNA) Q2 Earnings: What To Expect",
-      "summary": "Moderna (MRNA) is set to announce its Q2 earnings this Friday. The market anticipates a 24.8% year-on-year revenue decline, an improvement from the previous year's 41.1% decreas...",
-      "url": "https://www.tradingview.com/news/stockstory:c6787f255094b:0-moderna-mrna-q2-earnings-what-to-expect/",
-      "source": "TradingView",
-      "published_at": "20260730T030134",
-      "sentiment_score": 0.162586,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MRNA",
-        "BIIB",
-        "INCY"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Does RenaissanceRe’s Big Buyback and Softer Q2 Revenue Change The Bull Case For RNR?",
-      "summary": "RenaissanceRe Holdings Ltd. reported softer Q2 2026 revenue but strong six-month earnings per share, alongside a significant share repurchase program of US$995.69 million. While...",
-      "url": "https://simplywall.st/stocks/us/insurance/nyse-rnr/renaissancere-holdings/news/does-renaissanceres-big-buyback-and-softer-q2-revenue-change/amp",
+      "title": "Arch Capital Group (ACGL) Stock Drops As Revenue Declines Cloud Outlook",
+      "summary": "Arch Capital Group's stock dropped by about 3% after its Q2 2026 earnings showed revenue and net income declines, despite a strong combined ratio. Investors are concerned about...",
+      "url": "https://simplywall.st/stocks/us/insurance/nasdaq-acgl/arch-capital-group/news/arch-capital-group-acgl-stock-drops-as-revenue-declines-clou/amp",
       "source": "Simply Wall St",
-      "published_at": "20260730T033437",
-      "sentiment_score": 0.016276,
-      "sentiment_label": "Neutral",
+      "published_at": "20260731T020701",
+      "sentiment_score": -0.279389,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "RNR-P-F"
+        "ACGL"
       ],
       "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Robert Bender & Associates trims Apple Inc stake",
+      "summary": "Robert Bender & Associates, a hedge fund managed by Robert L. Bender, recently reduced its stake in Apple Inc (AAPL) by 4,985 shares. TipRanks' AI Analyst, Spark, rates AAPL as...",
+      "url": "https://www.tipranks.com/news/company-announcements/robert-bender-associates-trims-apple-inc-stake",
+      "source": "TipRanks",
+      "published_at": "20260731T030458",
+      "sentiment_score": 0.103205,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AAPL",
+        "PSKY",
+        "F"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "MarketAxess (MKTX) Rockets on Merger Deal at 33% Premium",
+      "summary": "MarketAxess (MKTX) shares surged by 29.45% after agreeing to be acquired by Intercontinental Exchange for $6 billion, representing a 33% premium. The merger, expected to close i...",
+      "url": "https://uk.finance.yahoo.com/news/marketaxess-mktx-rockets-merger-deal-024127904.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260731T024117",
+      "sentiment_score": 0.581947,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "MKTX",
+        "ICE"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
         "Earnings",
         "Financial Markets",
         "Finance"
@@ -1121,37 +1110,56 @@
       "is_noise": false
     },
     {
-      "title": "Northern Oil and Gas Jumps 6.0% Amid Sector-Wide Rally",
-      "summary": "Northern Oil and Gas (NOG) surged 6.0% to $21.04 on Wednesday, mirroring a sector-wide rally in energy exploration stocks. This gain was not company-specific but rather part of...",
-      "url": "https://news.alphastreet.com/northern-oil-and-gas-jumps-6-0-amid-sector-wide-rally/",
-      "source": "AlphaStreet",
-      "published_at": "20260730T022002",
-      "sentiment_score": 0.427152,
+      "title": "Slide Insurance Holdings, Inc. Q2 2026: Revenue $386.8M, EPS $1.06— 10-Q Summary",
+      "summary": "Slide Insurance Holdings, Inc. (SLDE) reported strong financial results for Q2 2026, with revenue reaching $386.8M and diluted EPS of $1.06. This growth was mainly driven by an...",
+      "url": "https://www.tradingview.com/news/tradingview:a08f7a0531520:0-slide-insurance-holdings-inc-q2-2026-revenue-386-8m-eps-1-06-10-q-summary/",
+      "source": "TradingView",
+      "published_at": "20260731T041116",
+      "sentiment_score": 0.490229,
       "sentiment_label": "Bullish",
       "tickers": [
-        "NOG"
-      ],
-      "topics": [
-        "Financial Markets"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Clorox (CLX) Stock Trades At A Discount To Fair Value",
-      "summary": "Clorox (CLX) stock appears to be trading at a discount to its fair value, based on both Discounted Cash Flow (DCF) intrinsic value estimates and earnings multiples. The DCF mode...",
-      "url": "https://simplywall.st/stocks/us/household/nyse-clx/clorox/news/clorox-clx-stock-trades-at-a-discount-to-fair-value",
-      "source": "Simply Wall St",
-      "published_at": "20260730T043757",
-      "sentiment_score": 0.280452,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CLX",
-        "KMB"
+        "SLDE"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Needham & Company LLC Increases Silicon Motion Technology (NASDAQ:SIMO) Price Target to $355.00",
+      "summary": "Needham & Company LLC has increased its price target for Silicon Motion Technology (NASDAQ:SIMO) to $355.00 from $240.00, maintaining a \"Buy\" rating. This new target implies a p...",
+      "url": "https://www.marketbeat.com/instant-alerts/needham-company-llc-increases-silicon-motion-technology-nasdaqsimo-price-target-to-35500-2026-07-30/",
+      "source": "MarketBeat",
+      "published_at": "20260731T041026",
+      "sentiment_score": 0.426167,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SIMO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Redwire Corporation Q2 Results: Earnings release set for August 5",
+      "summary": "Redwire Corporation (NYSE: RDW) is scheduled to release its second-quarter 2026 financial results after market close on August 5, 2026. A conference call hosted by management wi...",
+      "url": "https://scanx.trade/stock-market-news/companies/redwire-corporation-q2-results-earnings-release-set-for-august-5/46993927",
+      "source": "scanx.trade",
+      "published_at": "20260731T031127",
+      "sentiment_score": 0.100851,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RDW"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology"
       ],
       "quality_score": 10,
       "is_noise": false
@@ -1159,91 +1167,87 @@
   ],
   "top_tickers": [
     {
-      "ticker": "BK",
+      "ticker": "MKTX",
       "mentions": 2
     },
     {
-      "ticker": "STT",
+      "ticker": "PBHC",
       "mentions": 2
     },
     {
-      "ticker": "BIIB",
-      "mentions": 2
+      "ticker": "CTVA",
+      "mentions": 1
     },
     {
-      "ticker": "INCY",
-      "mentions": 2
+      "ticker": "MO",
+      "mentions": 1
     },
     {
-      "ticker": "CBOE",
-      "mentions": 2
+      "ticker": "PAA",
+      "mentions": 1
     }
   ],
   "top_topics": [
     {
-      "topic": "Financial Markets",
-      "mentions": 43
+      "topic": "Earnings",
+      "mentions": 42
     },
     {
-      "topic": "Earnings",
-      "mentions": 29
+      "topic": "Financial Markets",
+      "mentions": 22
     },
     {
       "topic": "Finance",
-      "mentions": 18
-    },
-    {
-      "topic": "Life Sciences",
-      "mentions": 8
+      "mentions": 20
     },
     {
       "topic": "Technology",
+      "mentions": 8
+    },
+    {
+      "topic": "Life Sciences",
       "mentions": 7
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 21
-    },
-    {
-      "label": "Somewhat-Bullish",
-      "count": 11
+      "count": 15
     },
     {
       "label": "Bullish",
+      "count": 13
+    },
+    {
+      "label": "Somewhat-Bullish",
       "count": 8
     },
     {
-      "label": "Bearish",
-      "count": 2
-    },
-    {
       "label": "Somewhat-Bearish",
-      "count": 1
+      "count": 6
     }
   ],
   "top_sources": [
     {
-      "source": "TradingKey",
-      "count": 13
-    },
-    {
-      "source": "TradingView",
-      "count": 9
+      "source": "MarketBeat",
+      "count": 5
     },
     {
       "source": "Simply Wall St",
       "count": 5
     },
     {
-      "source": "Yahoo Finance",
-      "count": 4
+      "source": "TipRanks",
+      "count": 3
     },
     {
-      "source": "Yahoo! Finance Canada",
-      "count": 2
+      "source": "TradingView",
+      "count": 3
+    },
+    {
+      "source": "scanx.trade",
+      "count": 3
     }
   ],
-  "takeaway": "News flow is centered on Financial Markets, with BK appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with MKTX appearing most often and the headline tone mostly neutral."
 }
