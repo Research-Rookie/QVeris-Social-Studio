@@ -296,9 +296,9 @@ def run_candidate(tool: dict[str, Any], search_id: str, symbol: str, now: dateti
         },
     )
     for param in tool.get("params") or []:
-        name = str(param.get("name") or "")
-        if key_norm(name) in {"s", "code", "stockcode", "instrument"}:
-            parameters[name] = symbol
+        param_name = str(param.get("name") or "")
+        if key_norm(param_name) in {"s", "code", "stockcode", "instrument"}:
+            parameters[param_name] = symbol
     started = time.perf_counter()
     try:
         payload = execute_tool(
