@@ -1,65 +1,61 @@
 {
-  "updated_at": "2026-07-30T05:24:35.597516+00:00",
-  "date": "2026-07-30",
+  "updated_at": "2026-07-31T05:51:02.305554+00:00",
+  "date": "2026-07-31",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "BK",
-  "news_tone": "Neutral",
-  "top_theme": "Financial Markets",
-  "headline": "Earnings To Watch: Franklin Resources (BEN) Reports Q2 Results Tomorrow",
-  "headline_source": "TradingView",
+  "symbol": "MKTX",
+  "news_tone": "Bullish",
+  "top_theme": "Earnings",
+  "headline": "Corteva raises full-year profit forecast, shares fall after revenue miss",
+  "headline_source": "The Mighty 790 KFGO",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for BK: {'status_code': 200, 'data': {'c': 156.49, 'd': -1.28, 'dp': -0.8113, 'h': 159.0323, 'l': 154.88, 'o': 157.48, 'pc': 157.77, 't': 1785196800}}",
+  "price_error": "Could not parse quote data for MKTX: {'status_code': 200, 'data': {'c': 162.76, 'd': 37.03, 'dp': 29.452, 'h': 163.94, 'l': 162.3, 'o': 163.15, 'pc': 125.73, 't': 1785441600}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "BK",
+        "ticker": "MKTX",
         "mentions": 2
       },
       {
-        "ticker": "STT",
+        "ticker": "TLX",
         "mentions": 2
       },
       {
-        "ticker": "BIIB",
-        "mentions": 2
+        "ticker": "CTVA",
+        "mentions": 1
       },
       {
-        "ticker": "INCY",
-        "mentions": 2
+        "ticker": "SONY",
+        "mentions": 1
       },
       {
-        "ticker": "CBOE",
-        "mentions": 2
+        "ticker": "TLRY",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
+        "label": "Bullish",
+        "count": 17
+      },
+      {
         "label": "Neutral",
-        "count": 21
+        "count": 14
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 11
-      },
-      {
-        "label": "Bullish",
         "count": 8
       },
       {
-        "label": "Bearish",
-        "count": 2
-      },
-      {
         "label": "Somewhat-Bearish",
-        "count": 1
+        "count": 2
       }
     ]
   }

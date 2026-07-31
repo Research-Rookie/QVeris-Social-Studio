@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-mktx-2026-07-31",
+    "date": "2026-07-31",
+    "runDate": "2026-07-31",
+    "createdAt": "2026-07-31T05:51:03.836749+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$MKTX news vs price reaction:\n📰 News tone: Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-07-31.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-07-31T05:51:02.305554+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MKTX",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "MKTX",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-07-31T05:51:02.305554+00:00",
+      "date": "2026-07-31",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "MKTX",
+      "news_tone": "Bullish",
+      "top_theme": "Earnings",
+      "headline": "Corteva raises full-year profit forecast, shares fall after revenue miss",
+      "headline_source": "The Mighty 790 KFGO",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for MKTX: {'status_code': 200, 'data': {'c': 162.76, 'd': 37.03, 'dp': 29.452, 'h': 163.94, 'l': 162.3, 'o': 163.15, 'pc': 125.73, 't': 1785441600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "MKTX",
+            "mentions": 2
+          },
+          {
+            "ticker": "TLX",
+            "mentions": 2
+          },
+          {
+            "ticker": "CTVA",
+            "mentions": 1
+          },
+          {
+            "ticker": "SONY",
+            "mentions": 1
+          },
+          {
+            "ticker": "TLRY",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Bullish",
+            "count": 17
+          },
+          {
+            "label": "Neutral",
+            "count": 14
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 8
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-goog-2026-07-31",
     "date": "2026-07-31",
     "runDate": "2026-07-31",
