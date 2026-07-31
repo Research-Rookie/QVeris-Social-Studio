@@ -39,6 +39,7 @@ const columnDescriptions: Record<string, string> = {
   "market-narrative-shift": "Shows how a ticker's news themes, language, and sentiment changed.",
   "earnings-reality-check": "Tests an earnings surprise against the stock's next-session reaction.",
   "api-reliability-arena": "Ranks finance APIs using QVeris reliability, latency, and expected-cost signals.",
+  "live-api-battle": "Runs the same market question through live APIs and compares response quality.",
 };
 
 function categoryKey(post: Post) {
@@ -52,6 +53,7 @@ function categoryKey(post: Post) {
   if (post.contentType === "MARKET NARRATIVE SHIFT") return "market-narrative-shift";
   if (post.contentType === "EARNINGS REALITY CHECK") return "earnings-reality-check";
   if (post.contentType === "API RELIABILITY ARENA") return "api-reliability-arena";
+  if (post.contentType === "LIVE API BATTLE") return "live-api-battle";
   return null;
 }
 
@@ -102,6 +104,11 @@ const categories = [
     key: "api-reliability-arena",
     label: "API Arena",
     count: activePosts.filter((post) => categoryKey(post) === "api-reliability-arena").length,
+  },
+  {
+    key: "live-api-battle",
+    label: "Live Battle",
+    count: activePosts.filter((post) => categoryKey(post) === "live-api-battle").length,
   },
 ];
 

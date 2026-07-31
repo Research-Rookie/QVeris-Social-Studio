@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1200px; height: 675px; overflow: hidden; }
+    body { color: #f7fbff; background: radial-gradient(circle at 92% 8%, rgba(50,229,207,.14), transparent 32%), linear-gradient(125deg,#0d1b31 0%,#111529 62%,#1a1120 100%); font-family: Inter, Arial, sans-serif; }
+    body:before { content:""; position:fixed; inset:0; opacity:.22; background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px); background-size:48px 48px; }
+    main { position: relative; z-index: 1; width: 100%; height: 100%; padding: 35px 44px 30px; }
+    header { display:flex; justify-content:space-between; gap:24px; align-items:flex-start; }
+    .eyebrow { color:#5ce9f3; font-size:15px; font-weight:800; letter-spacing:3px; }
+    h1 { margin:10px 0 4px; font-size:48px; line-height:1.02; letter-spacing:-2px; }
+    .subtitle { color:#b7c9e4; font-size:20px; font-weight:650; }
+    .brand { display:flex; flex-direction:column; align-items:flex-end; gap:14px; }
+    .date { padding:10px 18px; border:1px solid #465a70; border-radius:24px; color:#dceaff; font-size:16px; font-weight:750; background:rgba(255,255,255,.04); }
+    .logoLine { display:flex; align-items:center; gap:10px; font-size:24px; }
+    .logoLine img { width:38px; height:38px; object-fit:contain; }
+    .question { display:flex; align-items:center; gap:14px; margin-top:18px; padding:13px 18px; border:1px solid #2c405a; border-radius:15px; background:rgba(10,18,35,.74); }
+    .question b { color:#65e6f4; font-size:11px; letter-spacing:1.6px; white-space:nowrap; }
+    .question span { font-size:18px; font-weight:720; }
+    .table { margin-top:14px; border:1px solid #2e3b54; border-radius:20px; overflow:hidden; background:rgba(7,13,28,.8); }
+    .head, .battleRow { display:grid; grid-template-columns:42px 2.05fr .72fr .72fr .8fr .72fr .72fr; align-items:center; column-gap:14px; }
+    .head { height:38px; padding:0 17px; color:#768baa; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; background:rgba(255,255,255,.025); }
+    .battleRow { min-height:91px; padding:11px 17px; border-top:1px solid #232d42; }
+    .battleRow.winner { background:linear-gradient(90deg,rgba(42,228,202,.12),rgba(42,228,202,.02)); box-shadow:inset 4px 0 #42e6ca; }
+    .rank { width:31px; height:31px; display:grid; place-items:center; border-radius:50%; color:#8fa6c7; background:#1d2639; font-weight:850; }
+    .winner .rank { color:#08251f; background:#4ce6c8; }
+    .provider, .metric, .quote { min-width:0; font-variant-numeric:tabular-nums; }
+    .provider strong, .metric strong, .quote strong { display:block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+    .provider strong { font-size:17px; }
+    .provider span, .metric span, .quote span { display:block; margin-top:5px; color:#8094b3; font-size:10px; font-weight:700; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+    .metric strong { font-size:16px; }
+    .quote strong { color:#55e5c7; font-size:19px; }
+    .score strong { color:#65c8ff; font-size:20px; font-variant-numeric:tabular-nums; }
+    .score div { width:100%; height:5px; margin-top:7px; overflow:hidden; border-radius:9px; background:#273149; }
+    .score i { display:block; height:100%; border-radius:inherit; background:linear-gradient(90deg,#35e4d1,#4b7dff); }
+    .verdict { display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:15px; margin-top:14px; padding:13px 17px; border:1px solid rgba(79,230,205,.2); border-radius:16px; background:rgba(18,44,50,.7); }
+    .verdict b { color:#54e6c4; font-size:11px; letter-spacing:1.5px; }
+    .verdict strong { color:#fff; font-size:18px; }
+    .verdict span { color:#b8cbe3; font-size:13px; font-weight:650; text-align:right; }
+    footer { margin-top:9px; color:#7589a9; font-size:10px; line-height:1.35; text-align:right; }
+  </style>
+</head>
+<body><main>
+  <header>
+    <div><div class="eyebrow">LIVE API BATTLE</div><h1>Same question. Three live APIs.</h1><div class="subtitle">Which response is fastest, freshest, and most complete?</div></div>
+    <div class="brand"><div class="date">{{DATE}}</div><div class="logoLine"><img src="{{LOGO}}" /><b>QVeris</b></div></div>
+  </header>
+  <div class="question"><b>TODAY'S QUESTION</b><span>{{QUESTION}}</span></div>
+  <section class="table">
+    <div class="head"><span>Rank</span><span>API / provider</span><span>Answer</span><span>Speed</span><span>Complete</span><span>Fresh / cost</span><span>Score</span></div>
+    {{ROWS}}
+  </section>
+  <div class="verdict"><b>LIVE WINNER</b><strong>{{WINNER}}</strong><span>{{REASON}}</span></div>
+  <footer>Live response latency is measured end to end in this run. Cost is expected cost from QVeris Discover. Score evaluates this response, not universal provider accuracy.</footer>
+</main></body>
+</html>

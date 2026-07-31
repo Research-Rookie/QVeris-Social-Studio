@@ -1,0 +1,50 @@
+name: QVeris Live API Battle
+
+on:
+  schedule:
+    # Daily 15:00 Asia/Shanghai, after API Reliability Arena.
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: qveris-live-api-battle
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install renderer
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+      - name: Run live API comparison
+        env:
+          QVERIS_API_KEY: ${{ secrets.QVERIS_API_KEY }}
+        run: python scripts/fetch_live_api_battle.py
+      - name: Generate image
+        run: python scripts/generate_live_api_battle_image.py
+      - name: Generate tweet and archive card
+        env:
+          WEBSITE_URL: https://qveris.ai
+        run: python scripts/generate_live_api_battle_tweet.py
+      - name: Commit archive
+        run: |
+          git config user.name "qveris-content-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/posts.json data/live_api_battle.json data/live_api_battle_tweet_preview.txt
+          git add images/live_api_battle_*.png public/posts/live_api_battle_*.png 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: archive live API battle $(date -u +%Y-%m-%d)"
+          for attempt in 1 2 3; do
+            git pull --rebase origin master
+            git push origin master && exit 0
+            sleep 3
+          done
+          exit 1
