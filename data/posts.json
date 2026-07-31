@@ -1,5 +1,216 @@
 [
   {
+    "id": "market-narrative-shift-goog-2026-07-31",
+    "date": "2026-07-31",
+    "runDate": "2026-07-31",
+    "createdAt": "2026-07-31T05:30:55.124786+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $GOOG",
+    "status": "ready",
+    "tweet": "What changed in $GOOG's market narrative? 🔄\n\n🧭 Signal: Theme rotation\n💬 Sentiment shift: +0.07\n📌 Top theme: Earnings\n🔎 Emerging term: revenue\n📰 Coverage: 3 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_GOOG_2026-07-31.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-07-31T05:30:53.091134+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$GOOG",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Theme rotation",
+    "topSymbol": "GOOG",
+    "topChangePct": 6.97,
+    "marketNarrativeShift": {
+      "updated_at": "2026-07-31T05:30:53.091134+00:00",
+      "date": "2026-07-31",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "GOOG",
+      "shift_label": "Theme rotation",
+      "sentiment_delta": 0.0697,
+      "baseline_label": "2026-07-07",
+      "current": {
+        "date": "2026-07-31",
+        "symbol": "GOOG",
+        "article_count": 3,
+        "source_count": 2,
+        "sentiment_score": 0.2192,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 3
+          },
+          {
+            "label": "Technology",
+            "count": 3
+          },
+          {
+            "label": "Financial Markets",
+            "count": 3
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Economy Monetary",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "revenue",
+            "count": 8
+          },
+          {
+            "label": "veon",
+            "count": 4
+          },
+          {
+            "label": "climbs",
+            "count": 4
+          },
+          {
+            "label": "raises",
+            "count": 4
+          },
+          {
+            "label": "ebitda",
+            "count": 4
+          },
+          {
+            "label": "outlook",
+            "count": 4
+          },
+          {
+            "label": "reports",
+            "count": 3
+          },
+          {
+            "label": "q26",
+            "count": 3
+          },
+          {
+            "label": "digital",
+            "count": 3
+          },
+          {
+            "label": "kyivstar",
+            "count": 3
+          },
+          {
+            "label": "results",
+            "count": 2
+          },
+          {
+            "label": "resultsdigital",
+            "count": 1
+          }
+        ],
+        "headline": "VEON Reports 2Q26 Results | Digital Revenue Climbs 53.6%; VEON Raises 2026 Revenue and EBITDA Outlook",
+        "headline_source": "GlobeNewswire"
+      },
+      "previous": {
+        "date": "2026-07-07",
+        "symbol": "GOOG",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1495,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Economy Monetary",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "enovis",
+            "count": 2
+          },
+          {
+            "label": "enov",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          },
+          {
+            "label": "why",
+            "count": 1
+          },
+          {
+            "label": "trading",
+            "count": 1
+          },
+          {
+            "label": "jumped",
+            "count": 1
+          },
+          {
+            "label": "centers",
+            "count": 1
+          },
+          {
+            "label": "medicare",
+            "count": 1
+          },
+          {
+            "label": "medicaid",
+            "count": 1
+          },
+          {
+            "label": "services",
+            "count": 1
+          },
+          {
+            "label": "reversed",
+            "count": 1
+          },
+          {
+            "label": "prior",
+            "count": 1
+          }
+        ],
+        "headline": "Why Enovis (ENOV) Stock Is Trading Up Today",
+        "headline_source": "Yahoo Finance UK"
+      },
+      "emerging_themes": [
+        "Technology",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Life Sciences"
+      ],
+      "emerging_keywords": [
+        "revenue",
+        "veon",
+        "climbs"
+      ],
+      "fading_keywords": [
+        "enovis",
+        "enov",
+        "for"
+      ],
+      "takeaway": "GOOG's narrative is theme rotation: sentiment moved +0.07, while the leading theme shifted from Financial Markets to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-07-31",
     "date": "2026-07-31",
     "runDate": "2026-07-31",

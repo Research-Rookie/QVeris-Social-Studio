@@ -1,101 +1,105 @@
 {
-  "updated_at": "2026-07-30T04:54:20.297847+00:00",
-  "date": "2026-07-30",
+  "updated_at": "2026-07-31T05:30:53.091134+00:00",
+  "date": "2026-07-31",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "BIIB",
-  "shift_label": "Attention rising",
-  "sentiment_delta": 0.1157,
-  "baseline_label": "2026-07-26",
+  "symbol": "GOOG",
+  "shift_label": "Theme rotation",
+  "sentiment_delta": 0.0697,
+  "baseline_label": "2026-07-07",
   "current": {
-    "date": "2026-07-30",
-    "symbol": "BIIB",
-    "article_count": 2,
-    "source_count": 1,
-    "sentiment_score": 0.2567,
+    "date": "2026-07-31",
+    "symbol": "GOOG",
+    "article_count": 3,
+    "source_count": 2,
+    "sentiment_score": 0.2192,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 2
-      },
-      {
-        "label": "Life Sciences",
-        "count": 2
-      },
-      {
-        "label": "Financial Markets",
-        "count": 2
+        "count": 3
       },
       {
         "label": "Technology",
+        "count": 3
+      },
+      {
+        "label": "Financial Markets",
+        "count": 3
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      },
+      {
+        "label": "Economy Monetary",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "earnings",
+        "label": "revenue",
+        "count": 8
+      },
+      {
+        "label": "veon",
         "count": 4
       },
       {
-        "label": "what",
+        "label": "climbs",
+        "count": 4
+      },
+      {
+        "label": "raises",
+        "count": 4
+      },
+      {
+        "label": "ebitda",
+        "count": 4
+      },
+      {
+        "label": "outlook",
+        "count": 4
+      },
+      {
+        "label": "reports",
+        "count": 3
+      },
+      {
+        "label": "q26",
+        "count": 3
+      },
+      {
+        "label": "digital",
+        "count": 3
+      },
+      {
+        "label": "kyivstar",
+        "count": 3
+      },
+      {
+        "label": "results",
         "count": 2
       },
       {
-        "label": "expect",
-        "count": 2
-      },
-      {
-        "label": "abbvie",
-        "count": 2
-      },
-      {
-        "label": "abbv",
-        "count": 2
-      },
-      {
-        "label": "set",
-        "count": 2
-      },
-      {
-        "label": "announce",
-        "count": 2
-      },
-      {
-        "label": "friday",
-        "count": 2
-      },
-      {
-        "label": "revenue",
-        "count": 2
-      },
-      {
-        "label": "year-on-year",
-        "count": 2
-      },
-      {
-        "label": "moderna",
-        "count": 2
-      },
-      {
-        "label": "mrna",
-        "count": 2
+        "label": "resultsdigital",
+        "count": 1
       }
     ],
-    "headline": "What To Expect From AbbVie’s (ABBV) Q2 Earnings",
-    "headline_source": "TradingView"
+    "headline": "VEON Reports 2Q26 Results | Digital Revenue Climbs 53.6%; VEON Raises 2026 Revenue and EBITDA Outlook",
+    "headline_source": "GlobeNewswire"
   },
   "previous": {
-    "date": "2026-07-26",
-    "symbol": "BIIB",
+    "date": "2026-07-07",
+    "symbol": "GOOG",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.141,
-    "top_theme": "Earnings",
+    "sentiment_score": 0.1495,
+    "top_theme": "Financial Markets",
     "themes": [
       {
-        "label": "Earnings",
+        "label": "Financial Markets",
         "count": 1
       },
       {
@@ -103,79 +107,85 @@
         "count": 1
       },
       {
-        "label": "Financial Markets",
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Economy Monetary",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "earnings",
-        "count": 3
-      },
-      {
-        "label": "forecast",
-        "count": 3
-      },
-      {
-        "label": "scilex",
+        "label": "enovis",
         "count": 2
       },
       {
-        "label": "holding",
+        "label": "enov",
         "count": 2
       },
       {
-        "label": "sclx",
+        "label": "for",
         "count": 2
       },
       {
-        "label": "future",
+        "label": "why",
         "count": 1
       },
       {
-        "label": "eps",
+        "label": "trading",
         "count": 1
       },
       {
-        "label": "revenue",
+        "label": "jumped",
         "count": 1
       },
       {
-        "label": "growth",
+        "label": "centers",
         "count": 1
       },
       {
-        "label": "estimates",
+        "label": "medicare",
         "count": 1
       },
       {
-        "label": "article",
+        "label": "medicaid",
         "count": 1
       },
       {
-        "label": "provides",
+        "label": "services",
+        "count": 1
+      },
+      {
+        "label": "reversed",
+        "count": 1
+      },
+      {
+        "label": "prior",
         "count": 1
       }
     ],
-    "headline": "Scilex Holding Co (SCLX) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-    "headline_source": "TradingKey"
+    "headline": "Why Enovis (ENOV) Stock Is Trading Up Today",
+    "headline_source": "Yahoo Finance UK"
   },
   "emerging_themes": [
+    "Technology",
     "Earnings",
-    "Life Sciences",
     "Financial Markets"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Life Sciences"
+  ],
   "emerging_keywords": [
-    "what",
-    "expect",
-    "abbvie"
+    "revenue",
+    "veon",
+    "climbs"
   ],
   "fading_keywords": [
-    "forecast",
-    "scilex",
-    "holding"
+    "enovis",
+    "enov",
+    "for"
   ],
-  "takeaway": "BIIB's narrative is attention rising: sentiment moved +0.12, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "GOOG's narrative is theme rotation: sentiment moved +0.07, while the leading theme shifted from Financial Markets to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
