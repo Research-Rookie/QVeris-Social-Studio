@@ -1,5 +1,195 @@
 [
   {
+    "id": "market-narrative-shift-slde-2026-08-01",
+    "date": "2026-08-01",
+    "runDate": "2026-08-01",
+    "createdAt": "2026-08-01T05:22:33.141168+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $SLDE",
+    "status": "ready",
+    "tweet": "What changed in $SLDE's market narrative? 🔄\n\n🧭 Signal: Theme rotation\n💬 Sentiment shift: +0.01\n📌 Top theme: Financial Markets\n🔎 Emerging term: month\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_SLDE_2026-08-01.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-01T05:22:30.525853+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$SLDE",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Theme rotation",
+    "topSymbol": "SLDE",
+    "topChangePct": 1.38,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-01T05:22:30.525853+00:00",
+      "date": "2026-08-01",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "SLDE",
+      "shift_label": "Theme rotation",
+      "sentiment_delta": 0.0138,
+      "baseline_label": "2026-07-31",
+      "current": {
+        "date": "2026-08-01",
+        "symbol": "SLDE",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.504,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "slide",
+            "count": 2
+          },
+          {
+            "label": "insurance",
+            "count": 2
+          },
+          {
+            "label": "month",
+            "count": 2
+          },
+          {
+            "label": "target",
+            "count": 2
+          },
+          {
+            "label": "raised",
+            "count": 1
+          },
+          {
+            "label": "implies",
+            "count": 1
+          },
+          {
+            "label": "upside",
+            "count": 1
+          },
+          {
+            "label": "average",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "been",
+            "count": 1
+          },
+          {
+            "label": "increased",
+            "count": 1
+          },
+          {
+            "label": "individual",
+            "count": 1
+          }
+        ],
+        "headline": "Slide Insurance Holdings, Inc. Stock 12‑Month Price Target Raised to $25.67, Implies 27% Upside",
+        "headline_source": "TradingView"
+      },
+      "previous": {
+        "date": "2026-07-31",
+        "symbol": "SLDE",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.4902,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "slide",
+            "count": 2
+          },
+          {
+            "label": "insurance",
+            "count": 2
+          },
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "eps",
+            "count": 2
+          },
+          {
+            "label": "summary",
+            "count": 1
+          },
+          {
+            "label": "reported",
+            "count": 1
+          },
+          {
+            "label": "strong",
+            "count": 1
+          },
+          {
+            "label": "financial",
+            "count": 1
+          },
+          {
+            "label": "results",
+            "count": 1
+          },
+          {
+            "label": "for",
+            "count": 1
+          },
+          {
+            "label": "reaching",
+            "count": 1
+          },
+          {
+            "label": "diluted",
+            "count": 1
+          }
+        ],
+        "headline": "Slide Insurance Holdings, Inc. Q2 2026: Revenue $386.8M, EPS $1.06— 10-Q Summary",
+        "headline_source": "TradingView"
+      },
+      "emerging_themes": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "fading_themes": [
+        "Finance"
+      ],
+      "emerging_keywords": [
+        "month",
+        "target",
+        "raised"
+      ],
+      "fading_keywords": [
+        "revenue",
+        "eps",
+        "summary"
+      ],
+      "takeaway": "SLDE's narrative is theme rotation: sentiment moved +0.01, while the leading theme shifted from Earnings to Financial Markets.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-01",
     "date": "2026-08-01",
     "runDate": "2026-08-01",
