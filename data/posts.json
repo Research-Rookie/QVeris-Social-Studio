@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-vlo-2026-08-01",
+    "date": "2026-08-01",
+    "runDate": "2026-08-01",
+    "createdAt": "2026-08-01T05:41:34.310567+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$VLO news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-01.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-01T05:41:31.765756+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$VLO",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "VLO",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-01T05:41:31.765756+00:00",
+      "date": "2026-08-01",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "VLO",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Why SPX Technologies (SPXC) Is Down 9.3% After Raising Its 2026 Revenue Outlook And Earnings",
+      "headline_source": "Simply Wall St",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Invalid interval 'US stocks'. Must be one of: 1, 3, 5, 10, 15, 30, 60 The call did not return valid data. Please verify the request parameters against this tool's parameter definitions and try again.",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "VLO",
+            "mentions": 2
+          },
+          {
+            "ticker": "RY",
+            "mentions": 2
+          },
+          {
+            "ticker": "HSY",
+            "mentions": 2
+          },
+          {
+            "ticker": "SPXC",
+            "mentions": 1
+          },
+          {
+            "ticker": "DOV",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 14
+          },
+          {
+            "label": "Bullish",
+            "count": 10
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 4
+          },
+          {
+            "label": "Bearish",
+            "count": 3
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-slde-2026-08-01",
     "date": "2026-08-01",
     "runDate": "2026-08-01",

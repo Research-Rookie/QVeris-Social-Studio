@@ -1,57 +1,61 @@
 {
-  "updated_at": "2026-07-31T05:51:02.305554+00:00",
-  "date": "2026-07-31",
+  "updated_at": "2026-08-01T05:41:31.765756+00:00",
+  "date": "2026-08-01",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "MKTX",
-  "news_tone": "Bullish",
+  "symbol": "VLO",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Corteva raises full-year profit forecast, shares fall after revenue miss",
-  "headline_source": "The Mighty 790 KFGO",
+  "headline": "Why SPX Technologies (SPXC) Is Down 9.3% After Raising Its 2026 Revenue Outlook And Earnings",
+  "headline_source": "Simply Wall St",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for MKTX: {'status_code': 200, 'data': {'c': 162.76, 'd': 37.03, 'dp': 29.452, 'h': 163.94, 'l': 162.3, 'o': 163.15, 'pc': 125.73, 't': 1785441600}}",
+  "price_error": "Invalid interval 'US stocks'. Must be one of: 1, 3, 5, 10, 15, 30, 60 The call did not return valid data. Please verify the request parameters against this tool's parameter definitions and try again.",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "MKTX",
+        "ticker": "VLO",
         "mentions": 2
       },
       {
-        "ticker": "TLX",
+        "ticker": "RY",
         "mentions": 2
       },
       {
-        "ticker": "CTVA",
+        "ticker": "HSY",
+        "mentions": 2
+      },
+      {
+        "ticker": "SPXC",
         "mentions": 1
       },
       {
-        "ticker": "SONY",
-        "mentions": 1
-      },
-      {
-        "ticker": "TLRY",
+        "ticker": "DOV",
         "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Bullish",
-        "count": 17
-      },
-      {
         "label": "Neutral",
         "count": 14
       },
       {
+        "label": "Bullish",
+        "count": 10
+      },
+      {
         "label": "Somewhat-Bullish",
-        "count": 8
+        "count": 4
+      },
+      {
+        "label": "Bearish",
+        "count": 3
       },
       {
         "label": "Somewhat-Bearish",
