@@ -1,89 +1,19 @@
 {
-  "updated_at": "2026-08-01T05:22:30.525853+00:00",
-  "date": "2026-08-01",
+  "updated_at": "2026-08-02T05:22:11.889421+00:00",
+  "date": "2026-08-02",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "SLDE",
-  "shift_label": "Theme rotation",
-  "sentiment_delta": 0.0138,
-  "baseline_label": "2026-07-31",
+  "symbol": "PG",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.1775,
+  "baseline_label": "2026-07-28",
   "current": {
-    "date": "2026-08-01",
-    "symbol": "SLDE",
+    "date": "2026-08-02",
+    "symbol": "PG",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.504,
-    "top_theme": "Financial Markets",
-    "themes": [
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Earnings",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "slide",
-        "count": 2
-      },
-      {
-        "label": "insurance",
-        "count": 2
-      },
-      {
-        "label": "month",
-        "count": 2
-      },
-      {
-        "label": "target",
-        "count": 2
-      },
-      {
-        "label": "raised",
-        "count": 1
-      },
-      {
-        "label": "implies",
-        "count": 1
-      },
-      {
-        "label": "upside",
-        "count": 1
-      },
-      {
-        "label": "average",
-        "count": 1
-      },
-      {
-        "label": "has",
-        "count": 1
-      },
-      {
-        "label": "been",
-        "count": 1
-      },
-      {
-        "label": "increased",
-        "count": 1
-      },
-      {
-        "label": "individual",
-        "count": 1
-      }
-    ],
-    "headline": "Slide Insurance Holdings, Inc. Stock 12‑Month Price Target Raised to $25.67, Implies 27% Upside",
-    "headline_source": "TradingView"
-  },
-  "previous": {
-    "date": "2026-07-31",
-    "symbol": "SLDE",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.4902,
+    "sentiment_score": -0.0677,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -91,45 +21,37 @@
         "count": 1
       },
       {
-        "label": "Finance",
+        "label": "Economy Monetary",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "slide",
+        "label": "growth",
+        "count": 3
+      },
+      {
+        "label": "procter",
         "count": 2
       },
       {
-        "label": "insurance",
+        "label": "gamble",
         "count": 2
       },
       {
-        "label": "revenue",
+        "label": "deceleration",
         "count": 2
       },
       {
-        "label": "eps",
-        "count": 2
-      },
-      {
-        "label": "summary",
+        "label": "forecasts",
         "count": 1
       },
       {
-        "label": "reported",
-        "count": 1
-      },
-      {
-        "label": "strong",
-        "count": 1
-      },
-      {
-        "label": "financial",
-        "count": 1
-      },
-      {
-        "label": "results",
+        "label": "anticipates",
         "count": 1
       },
       {
@@ -137,34 +59,127 @@
         "count": 1
       },
       {
-        "label": "reaching",
+        "label": "fiscal",
         "count": 1
       },
       {
-        "label": "diluted",
+        "label": "projecting",
+        "count": 1
+      },
+      {
+        "label": "organic",
+        "count": 1
+      },
+      {
+        "label": "revenue",
+        "count": 1
+      },
+      {
+        "label": "primarily",
         "count": 1
       }
     ],
-    "headline": "Slide Insurance Holdings, Inc. Q2 2026: Revenue $386.8M, EPS $1.06— 10-Q Summary",
-    "headline_source": "TradingView"
+    "headline": "Procter & Gamble forecasts growth deceleration in 2026/2027",
+    "headline_source": "Premium Beauty News"
+  },
+  "previous": {
+    "date": "2026-07-28",
+    "symbol": "PG",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.1098,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 2
+      },
+      {
+        "label": "Financial Markets",
+        "count": 2
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      },
+      {
+        "label": "Retail Wholesale",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "procter",
+        "count": 4
+      },
+      {
+        "label": "gamble",
+        "count": 4
+      },
+      {
+        "label": "earnings",
+        "count": 4
+      },
+      {
+        "label": "revenue",
+        "count": 3
+      },
+      {
+        "label": "preview",
+        "count": 2
+      },
+      {
+        "label": "what",
+        "count": 2
+      },
+      {
+        "label": "look",
+        "count": 2
+      },
+      {
+        "label": "for",
+        "count": 2
+      },
+      {
+        "label": "set",
+        "count": 2
+      },
+      {
+        "label": "announce",
+        "count": 2
+      },
+      {
+        "label": "wednesday",
+        "count": 2
+      },
+      {
+        "label": "year-on-year",
+        "count": 2
+      }
+    ],
+    "headline": "Procter & Gamble (PG) Q2 Earnings Report Preview: What To Look For",
+    "headline_source": "The Globe and Mail"
   },
   "emerging_themes": [
-    "Financial Markets",
+    "Economy Monetary",
+    "Economy Macro",
     "Earnings"
   ],
   "fading_themes": [
-    "Finance"
+    "Financial Markets",
+    "Earnings",
+    "Retail Wholesale"
   ],
   "emerging_keywords": [
-    "month",
-    "target",
-    "raised"
+    "growth",
+    "deceleration",
+    "forecasts"
   ],
   "fading_keywords": [
-    "revenue",
-    "eps",
-    "summary"
+    "earnings",
+    "procter",
+    "gamble"
   ],
-  "takeaway": "SLDE's narrative is theme rotation: sentiment moved +0.01, while the leading theme shifted from Earnings to Financial Markets.",
+  "takeaway": "PG's narrative is turning bearish: sentiment moved -0.18, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

@@ -1,5 +1,210 @@
 [
   {
+    "id": "market-narrative-shift-pg-2026-08-02",
+    "date": "2026-08-02",
+    "runDate": "2026-08-02",
+    "createdAt": "2026-08-02T05:22:13.333898+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $PG",
+    "status": "ready",
+    "tweet": "What changed in $PG's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.18\n📌 Top theme: Earnings\n🔎 Emerging term: growth\n📰 Coverage: 1 vs 2\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_PG_2026-08-02.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-02T05:22:11.889421+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$PG",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "PG",
+    "topChangePct": -17.75,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-02T05:22:11.889421+00:00",
+      "date": "2026-08-02",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "PG",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.1775,
+      "baseline_label": "2026-07-28",
+      "current": {
+        "date": "2026-08-02",
+        "symbol": "PG",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": -0.0677,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Economy Monetary",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "growth",
+            "count": 3
+          },
+          {
+            "label": "procter",
+            "count": 2
+          },
+          {
+            "label": "gamble",
+            "count": 2
+          },
+          {
+            "label": "deceleration",
+            "count": 2
+          },
+          {
+            "label": "forecasts",
+            "count": 1
+          },
+          {
+            "label": "anticipates",
+            "count": 1
+          },
+          {
+            "label": "for",
+            "count": 1
+          },
+          {
+            "label": "fiscal",
+            "count": 1
+          },
+          {
+            "label": "projecting",
+            "count": 1
+          },
+          {
+            "label": "organic",
+            "count": 1
+          },
+          {
+            "label": "revenue",
+            "count": 1
+          },
+          {
+            "label": "primarily",
+            "count": 1
+          }
+        ],
+        "headline": "Procter & Gamble forecasts growth deceleration in 2026/2027",
+        "headline_source": "Premium Beauty News"
+      },
+      "previous": {
+        "date": "2026-07-28",
+        "symbol": "PG",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.1098,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "procter",
+            "count": 4
+          },
+          {
+            "label": "gamble",
+            "count": 4
+          },
+          {
+            "label": "earnings",
+            "count": 4
+          },
+          {
+            "label": "revenue",
+            "count": 3
+          },
+          {
+            "label": "preview",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 2
+          },
+          {
+            "label": "look",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          },
+          {
+            "label": "set",
+            "count": 2
+          },
+          {
+            "label": "announce",
+            "count": 2
+          },
+          {
+            "label": "wednesday",
+            "count": 2
+          },
+          {
+            "label": "year-on-year",
+            "count": 2
+          }
+        ],
+        "headline": "Procter & Gamble (PG) Q2 Earnings Report Preview: What To Look For",
+        "headline_source": "The Globe and Mail"
+      },
+      "emerging_themes": [
+        "Economy Monetary",
+        "Economy Macro",
+        "Earnings"
+      ],
+      "fading_themes": [
+        "Financial Markets",
+        "Earnings",
+        "Retail Wholesale"
+      ],
+      "emerging_keywords": [
+        "growth",
+        "deceleration",
+        "forecasts"
+      ],
+      "fading_keywords": [
+        "earnings",
+        "procter",
+        "gamble"
+      ],
+      "takeaway": "PG's narrative is turning bearish: sentiment moved -0.18, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-02",
     "date": "2026-08-02",
     "runDate": "2026-08-02",
