@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-08-02T05:42:01.055734+00:00",
-  "date": "2026-08-02",
+  "updated_at": "2026-08-03T05:58:07.449351+00:00",
+  "date": "2026-08-03",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "VRTX",
-  "news_tone": "Neutral",
+  "symbol": "NVDA",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "What To Expect From Diamondback Energy’s (FANG) Q2 Earnings",
-  "headline_source": "StockStory",
+  "headline": "Revvity (RVTY) To Report Earnings Tomorrow: Here Is What To Expect",
+  "headline_source": "FinancialContent",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Invalid interval 'US stocks'. Must be one of: 1, 3, 5, 10, 15, 30, 60 The call did not return valid data. Please verify the request parameters against this tool's parameter definitions and try again.",
+  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 200.75, 'd': 5.71, 'dp': 2.9276, 'h': 202, 'l': 194.95, 'o': 198.4405, 'pc': 195.04, 't': 1785528000}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "VRTX",
+        "ticker": "NVDA",
         "mentions": 2
       },
       {
-        "ticker": "PG",
+        "ticker": "PB",
         "mentions": 2
       },
       {
-        "ticker": "WY",
+        "ticker": "PLTR",
         "mentions": 2
       },
       {
-        "ticker": "EXR",
+        "ticker": "DVA",
         "mentions": 2
       },
       {
-        "ticker": "CEG",
+        "ticker": "GOOGL",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Neutral",
-        "count": 25
+        "label": "Somewhat-Bullish",
+        "count": 18
       },
       {
-        "label": "Somewhat-Bullish",
-        "count": 7
+        "label": "Neutral",
+        "count": 17
       },
       {
         "label": "Bullish",
-        "count": 7
+        "count": 11
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 6
+        "count": 3
       },
       {
         "label": "Bearish",
-        "count": 2
+        "count": 1
       }
     ]
   }

@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-nvda-2026-08-03",
+    "date": "2026-08-03",
+    "runDate": "2026-08-03",
+    "createdAt": "2026-08-03T05:58:08.945609+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$NVDA news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-03.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-03T05:58:07.449351+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NVDA",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "NVDA",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-03T05:58:07.449351+00:00",
+      "date": "2026-08-03",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "NVDA",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "Revvity (RVTY) To Report Earnings Tomorrow: Here Is What To Expect",
+      "headline_source": "FinancialContent",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 200.75, 'd': 5.71, 'dp': 2.9276, 'h': 202, 'l': 194.95, 'o': 198.4405, 'pc': 195.04, 't': 1785528000}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "NVDA",
+            "mentions": 2
+          },
+          {
+            "ticker": "PB",
+            "mentions": 2
+          },
+          {
+            "ticker": "PLTR",
+            "mentions": 2
+          },
+          {
+            "ticker": "DVA",
+            "mentions": 2
+          },
+          {
+            "ticker": "GOOGL",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 18
+          },
+          {
+            "label": "Neutral",
+            "count": 17
+          },
+          {
+            "label": "Bullish",
+            "count": 11
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-pltr-2026-08-03",
     "date": "2026-08-03",
     "runDate": "2026-08-03",
