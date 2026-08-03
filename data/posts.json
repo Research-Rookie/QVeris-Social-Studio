@@ -1,5 +1,204 @@
 [
   {
+    "id": "market-narrative-shift-pltr-2026-08-03",
+    "date": "2026-08-03",
+    "runDate": "2026-08-03",
+    "createdAt": "2026-08-03T05:36:46.894767+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $PLTR",
+    "status": "ready",
+    "tweet": "What changed in $PLTR's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: +0.05\n📌 Top theme: Earnings\n🔎 Emerging term: jazz\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_PLTR_2026-08-03.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-03T05:36:45.310571+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$PLTR",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "PLTR",
+    "topChangePct": 4.859999999999999,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-03T05:36:45.310571+00:00",
+      "date": "2026-08-03",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "PLTR",
+      "shift_label": "Attention rising",
+      "sentiment_delta": 0.0486,
+      "baseline_label": "2026-07-29",
+      "current": {
+        "date": "2026-08-03",
+        "symbol": "PLTR",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.2258,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Life Sciences",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          }
+        ],
+        "keywords": [
+          {
+            "label": "jazz",
+            "count": 4
+          },
+          {
+            "label": "earnings",
+            "count": 4
+          },
+          {
+            "label": "pharmaceuticals",
+            "count": 2
+          },
+          {
+            "label": "set",
+            "count": 2
+          },
+          {
+            "label": "year-on-year",
+            "count": 2
+          },
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "davita",
+            "count": 2
+          },
+          {
+            "label": "dva",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "expect",
+            "count": 1
+          },
+          {
+            "label": "hours",
+            "count": 1
+          },
+          {
+            "label": "anticipate",
+            "count": 1
+          }
+        ],
+        "headline": "Jazz Pharmaceuticals (JAZZ) Q2 Earnings: What To Expect",
+        "headline_source": "Yahoo Finance UK"
+      },
+      "previous": {
+        "date": "2026-07-29",
+        "symbol": "PLTR",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1772,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "prosperity",
+            "count": 2
+          },
+          {
+            "label": "bancshares",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "expect",
+            "count": 1
+          },
+          {
+            "label": "set",
+            "count": 1
+          },
+          {
+            "label": "release",
+            "count": 1
+          },
+          {
+            "label": "tomorrow",
+            "count": 1
+          },
+          {
+            "label": "open",
+            "count": 1
+          },
+          {
+            "label": "anticipate",
+            "count": 1
+          },
+          {
+            "label": "year-over-year",
+            "count": 1
+          },
+          {
+            "label": "revenue",
+            "count": 1
+          }
+        ],
+        "headline": "Prosperity Bancshares (PB) Q2 Earnings: What To Expect",
+        "headline_source": "Yahoo! Finance Canada"
+      },
+      "emerging_themes": [
+        "Life Sciences",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Finance"
+      ],
+      "emerging_keywords": [
+        "jazz",
+        "earnings",
+        "pharmaceuticals"
+      ],
+      "fading_keywords": [
+        "prosperity",
+        "bancshares",
+        "release"
+      ],
+      "takeaway": "PLTR's narrative is attention rising: sentiment moved +0.05, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-03",
     "date": "2026-08-03",
     "runDate": "2026-08-03",

@@ -1,119 +1,37 @@
 {
-  "updated_at": "2026-08-02T05:22:11.889421+00:00",
-  "date": "2026-08-02",
+  "updated_at": "2026-08-03T05:36:45.310571+00:00",
+  "date": "2026-08-03",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "PG",
-  "shift_label": "Turning bearish",
-  "sentiment_delta": -0.1775,
-  "baseline_label": "2026-07-28",
+  "symbol": "PLTR",
+  "shift_label": "Attention rising",
+  "sentiment_delta": 0.0486,
+  "baseline_label": "2026-07-29",
   "current": {
-    "date": "2026-08-02",
-    "symbol": "PG",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": -0.0677,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Economy Monetary",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "growth",
-        "count": 3
-      },
-      {
-        "label": "procter",
-        "count": 2
-      },
-      {
-        "label": "gamble",
-        "count": 2
-      },
-      {
-        "label": "deceleration",
-        "count": 2
-      },
-      {
-        "label": "forecasts",
-        "count": 1
-      },
-      {
-        "label": "anticipates",
-        "count": 1
-      },
-      {
-        "label": "for",
-        "count": 1
-      },
-      {
-        "label": "fiscal",
-        "count": 1
-      },
-      {
-        "label": "projecting",
-        "count": 1
-      },
-      {
-        "label": "organic",
-        "count": 1
-      },
-      {
-        "label": "revenue",
-        "count": 1
-      },
-      {
-        "label": "primarily",
-        "count": 1
-      }
-    ],
-    "headline": "Procter & Gamble forecasts growth deceleration in 2026/2027",
-    "headline_source": "Premium Beauty News"
-  },
-  "previous": {
-    "date": "2026-07-28",
-    "symbol": "PG",
+    "date": "2026-08-03",
+    "symbol": "PLTR",
     "article_count": 2,
     "source_count": 2,
-    "sentiment_score": 0.1098,
+    "sentiment_score": 0.2258,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
+        "count": 2
+      },
+      {
+        "label": "Life Sciences",
         "count": 2
       },
       {
         "label": "Financial Markets",
         "count": 2
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      },
-      {
-        "label": "Retail Wholesale",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "procter",
-        "count": 4
-      },
-      {
-        "label": "gamble",
+        "label": "jazz",
         "count": 4
       },
       {
@@ -121,23 +39,7 @@
         "count": 4
       },
       {
-        "label": "revenue",
-        "count": 3
-      },
-      {
-        "label": "preview",
-        "count": 2
-      },
-      {
-        "label": "what",
-        "count": 2
-      },
-      {
-        "label": "look",
-        "count": 2
-      },
-      {
-        "label": "for",
+        "label": "pharmaceuticals",
         "count": 2
       },
       {
@@ -145,41 +47,133 @@
         "count": 2
       },
       {
-        "label": "announce",
-        "count": 2
-      },
-      {
-        "label": "wednesday",
-        "count": 2
-      },
-      {
         "label": "year-on-year",
         "count": 2
+      },
+      {
+        "label": "revenue",
+        "count": 2
+      },
+      {
+        "label": "davita",
+        "count": 2
+      },
+      {
+        "label": "dva",
+        "count": 2
+      },
+      {
+        "label": "what",
+        "count": 1
+      },
+      {
+        "label": "expect",
+        "count": 1
+      },
+      {
+        "label": "hours",
+        "count": 1
+      },
+      {
+        "label": "anticipate",
+        "count": 1
       }
     ],
-    "headline": "Procter & Gamble (PG) Q2 Earnings Report Preview: What To Look For",
-    "headline_source": "The Globe and Mail"
+    "headline": "Jazz Pharmaceuticals (JAZZ) Q2 Earnings: What To Expect",
+    "headline_source": "Yahoo Finance UK"
+  },
+  "previous": {
+    "date": "2026-07-29",
+    "symbol": "PLTR",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.1772,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "prosperity",
+        "count": 2
+      },
+      {
+        "label": "bancshares",
+        "count": 2
+      },
+      {
+        "label": "earnings",
+        "count": 2
+      },
+      {
+        "label": "what",
+        "count": 1
+      },
+      {
+        "label": "expect",
+        "count": 1
+      },
+      {
+        "label": "set",
+        "count": 1
+      },
+      {
+        "label": "release",
+        "count": 1
+      },
+      {
+        "label": "tomorrow",
+        "count": 1
+      },
+      {
+        "label": "open",
+        "count": 1
+      },
+      {
+        "label": "anticipate",
+        "count": 1
+      },
+      {
+        "label": "year-over-year",
+        "count": 1
+      },
+      {
+        "label": "revenue",
+        "count": 1
+      }
+    ],
+    "headline": "Prosperity Bancshares (PB) Q2 Earnings: What To Expect",
+    "headline_source": "Yahoo! Finance Canada"
   },
   "emerging_themes": [
-    "Economy Monetary",
-    "Economy Macro",
-    "Earnings"
+    "Life Sciences",
+    "Earnings",
+    "Financial Markets"
   ],
   "fading_themes": [
-    "Financial Markets",
-    "Earnings",
-    "Retail Wholesale"
+    "Finance"
   ],
   "emerging_keywords": [
-    "growth",
-    "deceleration",
-    "forecasts"
+    "jazz",
+    "earnings",
+    "pharmaceuticals"
   ],
   "fading_keywords": [
-    "earnings",
-    "procter",
-    "gamble"
+    "prosperity",
+    "bancshares",
+    "release"
   ],
-  "takeaway": "PG's narrative is turning bearish: sentiment moved -0.18, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "PLTR's narrative is attention rising: sentiment moved +0.05, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
