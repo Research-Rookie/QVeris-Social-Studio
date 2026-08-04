@@ -1,5 +1,210 @@
 [
   {
+    "id": "market-narrative-shift-eog-2026-08-04",
+    "date": "2026-08-04",
+    "runDate": "2026-08-04",
+    "createdAt": "2026-08-04T04:59:42.328630+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $EOG",
+    "status": "ready",
+    "tweet": "What changed in $EOG's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: +0.03\n📌 Top theme: Earnings\n🔎 Emerging term: diamondback\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_EOG_2026-08-04.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-04T04:59:40.814383+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$EOG",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "EOG",
+    "topChangePct": 2.96,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-04T04:59:40.814383+00:00",
+      "date": "2026-08-04",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "EOG",
+      "shift_label": "Attention rising",
+      "sentiment_delta": 0.0296,
+      "baseline_label": "2026-07-08",
+      "current": {
+        "date": "2026-08-04",
+        "symbol": "EOG",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.1912,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Economy Fiscal",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "diamondback",
+            "count": 2
+          },
+          {
+            "label": "energy",
+            "count": 2
+          },
+          {
+            "label": "profit",
+            "count": 2
+          },
+          {
+            "label": "production",
+            "count": 2
+          },
+          {
+            "label": "forecast",
+            "count": 2
+          },
+          {
+            "label": "oil",
+            "count": 2
+          },
+          {
+            "label": "prices",
+            "count": 2
+          },
+          {
+            "label": "making",
+            "count": 2
+          },
+          {
+            "label": "too",
+            "count": 2
+          },
+          {
+            "label": "much",
+            "count": 2
+          },
+          {
+            "label": "money",
+            "count": 2
+          },
+          {
+            "label": "trump",
+            "count": 2
+          }
+        ],
+        "headline": "Diamondback Energy beats quarterly profit estimates, raises production forecast",
+        "headline_source": "Reuters"
+      },
+      "previous": {
+        "date": "2026-07-08",
+        "symbol": "EOG",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1616,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "resources",
+            "count": 2
+          },
+          {
+            "label": "russell",
+            "count": 2
+          },
+          {
+            "label": "dynamic",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "optimism",
+            "count": 2
+          },
+          {
+            "label": "how",
+            "count": 1
+          },
+          {
+            "label": "exit",
+            "count": 1
+          },
+          {
+            "label": "amid",
+            "count": 1
+          },
+          {
+            "label": "will",
+            "count": 1
+          },
+          {
+            "label": "impact",
+            "count": 1
+          },
+          {
+            "label": "investors",
+            "count": 1
+          },
+          {
+            "label": "was",
+            "count": 1
+          }
+        ],
+        "headline": "How EOG Resources? (EOG) Russell 1000 Dynamic Exit Amid Earnings Optimism Will Impact Investors",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Economy Macro",
+        "Earnings",
+        "Energy Transportation"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "diamondback",
+        "energy",
+        "profit"
+      ],
+      "fading_keywords": [
+        "resources",
+        "russell",
+        "dynamic"
+      ],
+      "takeaway": "EOG's narrative is attention rising: sentiment moved +0.03, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-04",
     "date": "2026-08-04",
     "runDate": "2026-08-04",

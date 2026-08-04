@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-03T05:36:45.310571+00:00",
-  "date": "2026-08-03",
+  "updated_at": "2026-08-04T04:59:40.814383+00:00",
+  "date": "2026-08-04",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "PLTR",
+  "symbol": "EOG",
   "shift_label": "Attention rising",
-  "sentiment_delta": 0.0486,
-  "baseline_label": "2026-07-29",
+  "sentiment_delta": 0.0296,
+  "baseline_label": "2026-07-08",
   "current": {
-    "date": "2026-08-03",
-    "symbol": "PLTR",
+    "date": "2026-08-04",
+    "symbol": "EOG",
     "article_count": 2,
     "source_count": 2,
-    "sentiment_score": 0.2258,
+    "sentiment_score": 0.1912,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,73 +21,81 @@
         "count": 2
       },
       {
-        "label": "Life Sciences",
+        "label": "Energy Transportation",
+        "count": 2
+      },
+      {
+        "label": "Economy Macro",
         "count": 2
       },
       {
         "label": "Financial Markets",
-        "count": 2
+        "count": 1
+      },
+      {
+        "label": "Economy Fiscal",
+        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "jazz",
-        "count": 4
-      },
-      {
-        "label": "earnings",
-        "count": 4
-      },
-      {
-        "label": "pharmaceuticals",
+        "label": "diamondback",
         "count": 2
       },
       {
-        "label": "set",
+        "label": "energy",
         "count": 2
       },
       {
-        "label": "year-on-year",
+        "label": "profit",
         "count": 2
       },
       {
-        "label": "revenue",
+        "label": "production",
         "count": 2
       },
       {
-        "label": "davita",
+        "label": "forecast",
         "count": 2
       },
       {
-        "label": "dva",
+        "label": "oil",
         "count": 2
       },
       {
-        "label": "what",
-        "count": 1
+        "label": "prices",
+        "count": 2
       },
       {
-        "label": "expect",
-        "count": 1
+        "label": "making",
+        "count": 2
       },
       {
-        "label": "hours",
-        "count": 1
+        "label": "too",
+        "count": 2
       },
       {
-        "label": "anticipate",
-        "count": 1
+        "label": "much",
+        "count": 2
+      },
+      {
+        "label": "money",
+        "count": 2
+      },
+      {
+        "label": "trump",
+        "count": 2
       }
     ],
-    "headline": "Jazz Pharmaceuticals (JAZZ) Q2 Earnings: What To Expect",
-    "headline_source": "Yahoo Finance UK"
+    "headline": "Diamondback Energy beats quarterly profit estimates, raises production forecast",
+    "headline_source": "Reuters"
   },
   "previous": {
-    "date": "2026-07-29",
-    "symbol": "PLTR",
+    "date": "2026-07-08",
+    "symbol": "EOG",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1772,
+    "sentiment_score": 0.1616,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -99,17 +107,21 @@
         "count": 1
       },
       {
-        "label": "Finance",
+        "label": "Energy Transportation",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "prosperity",
+        "label": "resources",
         "count": 2
       },
       {
-        "label": "bancshares",
+        "label": "russell",
+        "count": 2
+      },
+      {
+        "label": "dynamic",
         "count": 2
       },
       {
@@ -117,63 +129,57 @@
         "count": 2
       },
       {
-        "label": "what",
+        "label": "optimism",
+        "count": 2
+      },
+      {
+        "label": "how",
         "count": 1
       },
       {
-        "label": "expect",
+        "label": "exit",
         "count": 1
       },
       {
-        "label": "set",
+        "label": "amid",
         "count": 1
       },
       {
-        "label": "release",
+        "label": "will",
         "count": 1
       },
       {
-        "label": "tomorrow",
+        "label": "impact",
         "count": 1
       },
       {
-        "label": "open",
+        "label": "investors",
         "count": 1
       },
       {
-        "label": "anticipate",
-        "count": 1
-      },
-      {
-        "label": "year-over-year",
-        "count": 1
-      },
-      {
-        "label": "revenue",
+        "label": "was",
         "count": 1
       }
     ],
-    "headline": "Prosperity Bancshares (PB) Q2 Earnings: What To Expect",
-    "headline_source": "Yahoo! Finance Canada"
+    "headline": "How EOG Resources? (EOG) Russell 1000 Dynamic Exit Amid Earnings Optimism Will Impact Investors",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
-    "Life Sciences",
+    "Economy Macro",
     "Earnings",
-    "Financial Markets"
+    "Energy Transportation"
   ],
-  "fading_themes": [
-    "Finance"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "jazz",
-    "earnings",
-    "pharmaceuticals"
+    "diamondback",
+    "energy",
+    "profit"
   ],
   "fading_keywords": [
-    "prosperity",
-    "bancshares",
-    "release"
+    "resources",
+    "russell",
+    "dynamic"
   ],
-  "takeaway": "PLTR's narrative is attention rising: sentiment moved +0.05, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "EOG's narrative is attention rising: sentiment moved +0.03, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
