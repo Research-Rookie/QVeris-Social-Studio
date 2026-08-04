@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T04:59:40.701495+00:00",
+  "updated_at": "2026-08-04T05:32:01.272143+00:00",
   "date": "2026-08-04",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
@@ -11,7 +11,7 @@
       "url": "https://www.reuters.com/business/energy/shale-producer-diamondback-energy-beats-second-quarter-profit-estimates-2026-08-03/",
       "source": "Reuters",
       "published_at": "20260803T210822",
-      "sentiment_score": 0.417921,
+      "sentiment_score": 0.434966,
       "sentiment_label": "Bullish",
       "tickers": [
         "FANG",
@@ -35,7 +35,7 @@
       "url": "https://www.marketscale.com/industries/transportation/canadian-national-railway-raises-its-2026-volume-outlook-on-firmer-freight-demand",
       "source": "MarketScale",
       "published_at": "20260803T191505",
-      "sentiment_score": 0.159665,
+      "sentiment_score": 0.196784,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CNI",
@@ -55,7 +55,7 @@
       "url": "https://finance.biggo.com/news/5b37c7f3-b232-4b02-b40b-4807e7d34703",
       "source": "BigGo Finance",
       "published_at": "20260804T003727",
-      "sentiment_score": 0.486071,
+      "sentiment_score": 0.486942,
       "sentiment_label": "Bullish",
       "tickers": [
         "CLX"
@@ -71,12 +71,55 @@
       "is_noise": false
     },
     {
+      "title": "Marriott Lifts Guidance, But Middle East Weighs on Growth - Daily Lodging Report",
+      "summary": "Marriott International reported a second-quarter revenue of $7.07 billion and raised its full-year RevPAR and earnings guidance, though it trimmed net unit growth due to constru...",
+      "url": "https://dlr.skift.com/2026/08/03/marriott-lifts-guidance-but-middle-east-weighs-on-growth/",
+      "source": "Daily Lodging Report",
+      "published_at": "20260804T040749",
+      "sentiment_score": -0.05685,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "HLT",
+        "MAR",
+        "CSGP",
+        "WYNN"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate",
+        "Economy Macro",
+        "Finance"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "McDonald's is about to report earnings. Here's what to expect",
+      "summary": "McDonald's is scheduled to release its second-quarter earnings before the market opens on Tuesday, August 4, 2026. Analysts project earnings per share of $3.32 and revenue of $7...",
+      "url": "https://www.cnbc.com/2026/08/04/mcdonalds-mcd-q2-2026-earnings.html",
+      "source": "CNBC",
+      "published_at": "20260804T040053",
+      "sentiment_score": -0.201981,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "MCD"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
       "title": "Earnings Flash (OTTR) Otter Tail Corporation Reports Q2 Revenue $334.4M, vs. FactSet Est of $326.1M",
       "summary": "Otter Tail Corporation (OTTR) announced its second-quarter revenue reached $334.4 million, surpassing FactSet's estimated $326.1 million. This financial update highlights the co...",
       "url": "https://www.marketscreener.com/news/earnings-flash-ottr-otter-tail-corporation-reports-q2-revenue-334-4m-vs-factset-est-of-326-1m-ce7f50d9df81ff27",
       "source": "www.marketscreener.com",
       "published_at": "20260803T221218",
-      "sentiment_score": 0.157523,
+      "sentiment_score": 0.154378,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "OTTR",
@@ -98,7 +141,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/parker-hannifin-ph-could-5-210756750.html",
       "source": "Yahoo Finance",
       "published_at": "20260803T210905",
-      "sentiment_score": 0.21283,
+      "sentiment_score": 0.203236,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PH"
@@ -119,7 +162,7 @@
       "url": "https://simplywall.st/community/narratives/us/consumer-services/nyse-cmg/chipotle-mexican-grill/7xehmqkv-cmg-share-repurchases-and-menu-revamps-will-drive-stronger-performance-ahead/updates/29-the-analyst-price-target-for-chipotle-mexican-grill-has-move",
       "source": "Simply Wall St",
       "published_at": "20260803T210353",
-      "sentiment_score": 0.301235,
+      "sentiment_score": 0.336273,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CMG"
@@ -140,7 +183,7 @@
       "url": "https://uk.finance.yahoo.com/news/o-reilly-automotive-orly-raises-203823722.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260803T203934",
-      "sentiment_score": 0.133453,
+      "sentiment_score": 0.129082,
       "sentiment_label": "Neutral",
       "tickers": [
         "ORLY",
@@ -162,7 +205,7 @@
       "url": "https://www.financialcontent.com/article/stockstory-2026-8-3-clorox-nyseclx-beats-q2-cy2026-sales-expectations",
       "source": "FinancialContent",
       "published_at": "20260803T212751",
-      "sentiment_score": 0.120031,
+      "sentiment_score": 0.129586,
       "sentiment_label": "Neutral",
       "tickers": [
         "CLX"
@@ -182,7 +225,7 @@
       "url": "https://www.tradingview.com/news/zacks:386b939d5094b:0-should-iron-mountain-stock-be-in-your-portfolio-ahead-of-q2-earnings/",
       "source": "TradingView",
       "published_at": "20260803T190901",
-      "sentiment_score": 0.287237,
+      "sentiment_score": 0.261224,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "IRM",
@@ -199,12 +242,35 @@
       "is_noise": false
     },
     {
+      "title": "What To Expect From Western Digital’s (WDC) Q2 Earnings",
+      "summary": "Western Digital (WDC) is set to report its Q2 earnings this Wednesday, with analysts expecting a 42.6% year-on-year revenue growth. The company previously beat revenue and EPS e...",
+      "url": "https://www.financialcontent.com/article/stockstory-2026-8-4-what-to-expect-from-western-digitals-wdc-q2-earnings",
+      "source": "FinancialContent",
+      "published_at": "20260804T030852",
+      "sentiment_score": 0.284078,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "WDC",
+        "MU",
+        "STX",
+        "PLTR"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
       "title": "‘Making too much money’: Trump blasts Exxon Mobil, Chevron profits",
       "summary": "Former President Donald Trump criticized Exxon Mobil and Chevron for making \"too much money\" while consumers face high gasoline prices. He urged the oil giants to lower retail p...",
       "url": "https://www.politico.com/news/2026/08/03/trump-exxon-mobil-chevron-gas-prices-profits-01022831",
       "source": "Politico",
       "published_at": "20260803T204115",
-      "sentiment_score": -0.035494,
+      "sentiment_score": -0.049954,
       "sentiment_label": "Neutral",
       "tickers": [
         "XOM",
@@ -228,7 +294,7 @@
       "url": "https://www.reuters.com/business/retail-consumer/clorox-forecasts-upbeat-annual-sales-demand-improves-2026-08-03/",
       "source": "Reuters",
       "published_at": "20260803T202236",
-      "sentiment_score": 0.024194,
+      "sentiment_score": 0.009447,
       "sentiment_label": "Neutral",
       "tickers": [
         "CLX"
@@ -248,7 +314,7 @@
       "url": "https://uk.finance.yahoo.com/news/amd-results-put-ai-spending-194600357.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260803T194621",
-      "sentiment_score": 0.016191,
+      "sentiment_score": 0.00618,
       "sentiment_label": "Neutral",
       "tickers": [
         "AMD",
@@ -270,7 +336,7 @@
       "url": "https://finance.yahoo.com/news/mcdonalds-to-report-q2-earnings-as-budget-conscious-consumers-remain-under-stress-194507295.html",
       "source": "Yahoo Finance",
       "published_at": "20260803T194531",
-      "sentiment_score": -0.240884,
+      "sentiment_score": -0.237901,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "MCD"
@@ -290,7 +356,7 @@
       "url": "https://m.investing.com/news/transcripts/earnings-call-transcript-clorox-tops-q4-2026-estimates-as-shares-rise-93CH-4832489?ampMode=1",
       "source": "Investing.com",
       "published_at": "20260803T223738",
-      "sentiment_score": 0.018184,
+      "sentiment_score": 0.039678,
       "sentiment_label": "Neutral",
       "tickers": [
         "CLX"
@@ -311,7 +377,7 @@
       "url": "https://www.tradingkey.com/news/market-movers/262071561-market-movers-mar-20260803",
       "source": "TradingKey",
       "published_at": "20260803T201500",
-      "sentiment_score": 0.049464,
+      "sentiment_score": 0.021467,
       "sentiment_label": "Neutral",
       "tickers": [
         "BKNG"
@@ -330,7 +396,7 @@
       "url": "https://www.benzinga.com/markets/tech/26/08/60886732/hyperscaler-capex-1-2-trillion-9-semiconductor-stocks-bofa",
       "source": "Benzinga",
       "published_at": "20260803T193215",
-      "sentiment_score": 0.443319,
+      "sentiment_score": 0.442665,
       "sentiment_label": "Bullish",
       "tickers": [
         "AVGO",
@@ -353,7 +419,7 @@
       "url": "https://www.tradingkey.com/news/market-movers/262071427-market-movers-now-20260803",
       "source": "TradingKey",
       "published_at": "20260803T191521",
-      "sentiment_score": 0.402346,
+      "sentiment_score": 0.44886,
       "sentiment_label": "Bullish",
       "tickers": [
         "NOW"
@@ -373,7 +439,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/williams-companies-inc-wmb-q2-214506969.html",
       "source": "Yahoo Finance",
       "published_at": "20260803T214504",
-      "sentiment_score": -0.209641,
+      "sentiment_score": -0.206843,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "WMB"
@@ -393,7 +459,7 @@
       "url": "https://www.investopedia.com/here-is-how-much-mcdonalds-stock-is-expected-to-move-after-earnings-mcd-q2-fy2026-12031009",
       "source": "Investopedia",
       "published_at": "20260803T212220",
-      "sentiment_score": 0.064022,
+      "sentiment_score": 0.097119,
       "sentiment_label": "Neutral",
       "tickers": [
         "MCD"
@@ -413,7 +479,7 @@
       "url": "https://www.prnewswire.com/news-releases/jeld-wen-reports-second-quarter-2026-results-and-updates-guidance-302841301.html",
       "source": "PR Newswire",
       "published_at": "20260803T201149",
-      "sentiment_score": 0.133426,
+      "sentiment_score": 0.132927,
       "sentiment_label": "Neutral",
       "tickers": [
         "JELD"
@@ -433,7 +499,7 @@
       "url": "https://finimize.com/content/clorox-thinks-shoppers-will-keep-cleaning-through-2027",
       "source": "Finimize",
       "published_at": "20260803T200036",
-      "sentiment_score": 0.10592,
+      "sentiment_score": 0.126803,
       "sentiment_label": "Neutral",
       "tickers": [
         "CLX"
@@ -453,7 +519,7 @@
       "url": "https://therealdeal.com/national/2026/08/03/jpmorgan-plans-to-spend-750b-through-2035-for-housing/",
       "source": "The Real Deal",
       "published_at": "20260803T192954",
-      "sentiment_score": 0.376749,
+      "sentiment_score": 0.4087,
       "sentiment_label": "Bullish",
       "tickers": [
         "JPM",
@@ -469,54 +535,12 @@
       "is_noise": false
     },
     {
-      "title": "Video: Huntington Bank Talks Inflation, Key Rates & More",
-      "summary": "Huntington Bank's chief investment office shares their weekly insights on financial news, titled \"The Three Things We Learned This Week.\" In this video, Randy Hare, director of...",
-      "url": "https://rv-pro.com/news/video-huntington-bank-talks-inflation-key-rates-more/",
-      "source": "RV PRO",
-      "published_at": "20260803T185326",
-      "sentiment_score": 0.143032,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HBAN"
-      ],
-      "topics": [
-        "Economy Monetary",
-        "Economy Macro",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Suppliers Competing on Price Are Losing the Real Game. Apple’s Ford Deal Shows What Wins",
-      "summary": "The article discusses how suppliers focused solely on price are missing the bigger picture of creating value through customer experience. It highlights the partnership between A...",
-      "url": "https://www.inc.com/soren-kaplan/suppliers-competing-on-price-are-losing-the-real-game-apples-ford-deal-shows-what-wins/91382264",
-      "source": "Inc.com",
-      "published_at": "20260803T184414",
-      "sentiment_score": 0.263406,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "F",
-        "AAPL",
-        "GLW",
-        "QCOM"
-      ],
-      "topics": [
-        "Technology",
-        "Economy Macro",
-        "Manufacturing"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
       "title": "KeyCorp (KEY) Could Be 10% Undervalued After Stronger Q2 Earnings",
       "summary": "KeyCorp (KEY) reported stronger Q2 2026 earnings, including higher net interest income and net income, despite an increase in net loan charge-offs. The stock is considered about...",
       "url": "https://simplywall.st/stocks/us/banks/nyse-key/keycorp/news/keycorp-key-could-be-10-undervalued-after-stronger-q2-earnin",
       "source": "Simply Wall Street",
       "published_at": "20260804T005917",
-      "sentiment_score": 0.438863,
+      "sentiment_score": 0.435845,
       "sentiment_label": "Bullish",
       "tickers": [
         "KEY"
@@ -536,7 +560,7 @@
       "url": "https://www.tradingview.com/symbols/BOATS-BSMC/profile/",
       "source": "TradingView",
       "published_at": "20260803T214121",
-      "sentiment_score": 0.319394,
+      "sentiment_score": 0.303804,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "BSMC"
@@ -555,7 +579,7 @@
       "url": "https://www.fool.com/coverage/better-buy/2026/08/03/advance-auto-parts-vs-delta-air-lines-should-investors-look-to-the-skies-or-the-garage-in-2026/",
       "source": "The Motley Fool",
       "published_at": "20260803T203805",
-      "sentiment_score": 0.119769,
+      "sentiment_score": 0.085494,
       "sentiment_label": "Neutral",
       "tickers": [
         "DAL",
@@ -578,7 +602,7 @@
       "url": "https://www.tradingkey.com/news/market-movers/262071563-market-movers-hpe-20260803",
       "source": "TradingKey",
       "published_at": "20260803T201536",
-      "sentiment_score": 0.210359,
+      "sentiment_score": 0.209078,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "HPE",
@@ -603,7 +627,7 @@
       "url": "https://finance.yahoo.com/energy/articles/oneok-announces-higher-second-quarter-201500202.html",
       "source": "Yahoo Finance",
       "published_at": "20260803T201141",
-      "sentiment_score": 0.487315,
+      "sentiment_score": 0.489028,
       "sentiment_label": "Bullish",
       "tickers": [
         "OKE"
@@ -622,7 +646,7 @@
       "url": "https://www.tradingkey.com/news/market-movers/262071429-market-movers-anet-20260803",
       "source": "TradingKey",
       "published_at": "20260803T191511",
-      "sentiment_score": 0.253856,
+      "sentiment_score": 0.260087,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ANET",
@@ -646,7 +670,7 @@
       "url": "https://www.industryweek.com/members/news/55394238/itw-and-nucor-see-tailwinds-sustaining-manufacturing-growth",
       "source": "IndustryWeek",
       "published_at": "20260804T003828",
-      "sentiment_score": 0.507389,
+      "sentiment_score": 0.504211,
       "sentiment_label": "Bullish",
       "tickers": [
         "ITW",
@@ -664,12 +688,32 @@
       "is_noise": false
     },
     {
+      "title": "A Look at Saia Inc (SAIA) After 3.6% Gain -- GF Value $467.73 vs Price $360.10",
+      "summary": "Saia Inc (SAIA) shares increased by 3.6% to $360.10, yet the stock is considered undervalued by GuruFocus with a GF Value of $467.73, suggesting a 23.0% margin of safety. Despit...",
+      "url": "https://www.gurufocus.com/news/9000069/a-look-at-saia-inc-saia-after-36-gain-gf-value-46773-vs-price-36010",
+      "source": "GuruFocus",
+      "published_at": "20260804T000929",
+      "sentiment_score": 0.345231,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "SAIA"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Economy Macro",
+        "Energy Transportation"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "Millennium Group International Holdings Limited (MGIH) stock price, news, quote and history",
       "summary": "This article provides detailed financial information and stock performance data for Millennium Group International Holdings Limited (MGIH). It includes current stock prices, his...",
       "url": "https://sg.finance.yahoo.com/quote/MGIH/",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260803T234119",
-      "sentiment_score": 0.056531,
+      "sentiment_score": 0.031955,
       "sentiment_label": "Neutral",
       "tickers": [
         "MGIH"
@@ -690,7 +734,7 @@
       "url": "https://www.ai-cio.com/news/apollo-to-open-innovation-hub-in-austin-texas/",
       "source": "www.ai-cio.com",
       "published_at": "20260803T213027",
-      "sentiment_score": 0.455241,
+      "sentiment_score": 0.466975,
       "sentiment_label": "Bullish",
       "tickers": [
         "APO"
@@ -709,7 +753,7 @@
       "url": "https://www.multifamilydive.com/news/algorithmic-rent-pricing-lawsuit-tracker/826178/",
       "source": "Multifamily Dive",
       "published_at": "20260803T212014",
-      "sentiment_score": -0.122293,
+      "sentiment_score": -0.122336,
       "sentiment_label": "Neutral",
       "tickers": [
         "MAA",
@@ -733,7 +777,7 @@
       "url": "https://www.housingwire.com/articles/better-lewis-interim-ceo-q2-2026/",
       "source": "HousingWire",
       "published_at": "20260803T211422",
-      "sentiment_score": 0.140674,
+      "sentiment_score": 0.110322,
       "sentiment_label": "Neutral",
       "tickers": [
         "BETR"
@@ -748,12 +792,36 @@
       "is_noise": false
     },
     {
+      "title": "Nvidia and Google Crowd TSMC's N3 Node. Can Intel Benefit?",
+      "summary": "TSMC's N3 process wafer capacity is severely constrained, with major AI chip designers like Nvidia and Google converging on it. This creates a significant opportunity for Intel,...",
+      "url": "https://beth-kindig.medium.com/nvidia-and-google-crowd-tsmcs-n3-node-can-intel-benefit-4f137fdec985",
+      "source": "Medium",
+      "published_at": "20260803T210749",
+      "sentiment_score": 0.177755,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "INTC",
+        "NVDA",
+        "GOOGL",
+        "AMD",
+        "QCOM"
+      ],
+      "topics": [
+        "Technology",
+        "Financial Markets",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "ONEOK Announces Higher Second-Quarter 2026 Earnings: Net Income up 13%, Adjusted EBITDA up 7%",
       "summary": "ONEOK, Inc. announced higher second-quarter 2026 results, with net income increasing by 13% to $967 million and adjusted EBITDA up 7% to $2.12 billion. The company also increase...",
       "url": "https://www.globenewswire.com/news-release/2026/08/03/3337900/0/en/oneok-announces-higher-second-quarter-2026-earnings-net-income-up-13-adjusted-ebitda-up-7.html",
       "source": "GlobeNewswire",
       "published_at": "20260803T203942",
-      "sentiment_score": 0.478095,
+      "sentiment_score": 0.46206,
       "sentiment_label": "Bullish",
       "tickers": [
         "OKE"
@@ -772,7 +840,7 @@
       "url": "https://www.wsj.com/business/earnings/clorox-projects-tough-fiscal-year-2027-with-inflation-value-seeking-customers-b66cb187",
       "source": "WSJ",
       "published_at": "20260803T203547",
-      "sentiment_score": 0.035278,
+      "sentiment_score": 0.02618,
       "sentiment_label": "Neutral",
       "tickers": [
         "CLX"
@@ -792,7 +860,7 @@
       "url": "https://www.stocktitan.net/news/BCC/boise-cascade-company-reports-second-quarter-2026-w2rkx06awvdp.html",
       "source": "Stock Titan",
       "published_at": "20260803T201528",
-      "sentiment_score": 0.405758,
+      "sentiment_score": 0.436723,
       "sentiment_label": "Bullish",
       "tickers": [
         "BCC"
@@ -813,7 +881,7 @@
       "url": "https://thebaynet.com/southern-marylands-first-home-depot-is-officially-coming-to-lexington-exchange/",
       "source": "The BayNet",
       "published_at": "20260803T200156",
-      "sentiment_score": 0.320134,
+      "sentiment_score": 0.300743,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "HD"
@@ -832,7 +900,7 @@
       "url": "https://www.ttnews.com/articles/trump-exxon-chevron-cut-prices",
       "source": "Transport Topics",
       "published_at": "20260803T185949",
-      "sentiment_score": 0.01895,
+      "sentiment_score": 0.039849,
       "sentiment_label": "Neutral",
       "tickers": [
         "CVX"
@@ -852,7 +920,7 @@
       "url": "https://www.stocktitan.net/news/IVT/inven-trust-properties-corp-reports-2026-second-quarter-f4u4wiqx5vxo.html",
       "source": "Stock Titan",
       "published_at": "20260803T194036",
-      "sentiment_score": 0.336861,
+      "sentiment_score": 0.318105,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "IVT"
@@ -868,25 +936,22 @@
       "is_noise": false
     },
     {
-      "title": "Intuitive Surgical Inc Stock (ISRG) Moved Up by 5.70% on Aug 3: Facts Behind the Movement",
-      "summary": "Intuitive Surgical Inc (ISRG) saw its stock price increase by 5.70% due to a significant beat in quarterly procedure volume growth, robust recovery in elective surgeries, and st...",
-      "url": "https://www.tradingkey.com/news/market-movers/262071360-market-movers-isrg-20260803",
-      "source": "TradingKey",
-      "published_at": "20260803T181549",
-      "sentiment_score": 0.312802,
+      "title": "Southern Company announces upsize and pricing of $725 million in aggregate principal amount of Series 2026A 2.125%...",
+      "summary": "Southern Company announced the upsize and pricing of two series of Convertible Senior Notes: $725 million of Series 2026A 2.125% Notes due December 15, 2027, and $1.65 billion o...",
+      "url": "https://www.prnewswire.com/news-releases/southern-company-announces-upsize-and-pricing-of-725-million-in-aggregate-principal-amount-of-series-2026a-2-125-convertible-senior-notes-due-december-15--2027-and-1-65-billion-in-aggregate-principal-amount-of-series-2026b-3-50--302841822.html",
+      "source": "PR Newswire",
+      "published_at": "20260804T010836",
+      "sentiment_score": 0.247975,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "ISRG",
-        "PLTR"
+        "SO"
       ],
       "topics": [
-        "Earnings",
-        "Life Sciences",
+        "Finance",
         "Financial Markets",
-        "Technology",
         "Economy Macro"
       ],
-      "quality_score": 4,
+      "quality_score": 3,
       "is_noise": false
     },
     {
@@ -895,7 +960,7 @@
       "url": "https://nypost.com/2026/08/03/business/worlds-most-powerful-banker-places-big-gamble-on-california/",
       "source": "New York Post",
       "published_at": "20260804T003816",
-      "sentiment_score": 0.454217,
+      "sentiment_score": 0.450877,
       "sentiment_label": "Bullish",
       "tickers": [
         "JPM"
@@ -914,7 +979,7 @@
       "url": "https://www.lifehealth.com/primerica-household-budget-index-18/",
       "source": "www.lifehealth.com",
       "published_at": "20260803T234150",
-      "sentiment_score": 0.440534,
+      "sentiment_score": 0.433116,
       "sentiment_label": "Bullish",
       "tickers": [
         "PRI"
@@ -933,7 +998,7 @@
       "url": "https://www.ncnewsonline.com/news/national/best-buy-appoints-anne-bramman-as-chief-financial-officer/article_ad1510c2-b70f-5f87-97e8-5807066acc60.html",
       "source": "New Castle News",
       "published_at": "20260803T200726",
-      "sentiment_score": 0.316308,
+      "sentiment_score": 0.276736,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "BBY",
@@ -955,7 +1020,7 @@
       "url": "https://www.statesman.com/business/article/apollo-global-management-austin-expansion-hub-22371554.php",
       "source": "Austin American-Statesman",
       "published_at": "20260803T190734",
-      "sentiment_score": 0.214879,
+      "sentiment_score": 0.248912,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "APO",
@@ -974,49 +1039,12 @@
       "is_noise": false
     },
     {
-      "title": "JPMorgan Chase mortgage push targets 500K buyers, 850 hires",
-      "summary": "JPMorgan Chase announced a significant housing initiative, planning to deploy over $750 billion by 2035 to support 500,000 home buyers and finance 1 million affordable housing u...",
-      "url": "https://www.housingwire.com/articles/chase-mortgage-purchase-expansion/",
-      "source": "HousingWire",
-      "published_at": "20260803T184143",
-      "sentiment_score": 0.425079,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "JPM"
-      ],
-      "topics": [
-        "Finance",
-        "Real Estate",
-        "Economy Macro"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Food processing giant plans $16 million Boone County expansion",
-      "summary": "Archer Daniels Midland (ADM) is investing $16 million to expand its Boone County facility in Kentucky. This expansion will add approximately 14,000 square feet of manufacturing...",
-      "url": "https://linknky.com/business/2026/08/03/adm-boone-county-16-million-expansion-40-jobs/",
-      "source": "LINK nky",
-      "published_at": "20260803T183405",
-      "sentiment_score": 0.447254,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "ADM"
-      ],
-      "topics": [
-        "Manufacturing",
-        "Economy Macro"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
       "title": "Alexandria Real Estate (NYSE: ARE) posts 2Q26 loss but holds 2026 FFO outlook",
       "summary": "Alexandria Real Estate Equities (ARE) reported a diluted net loss of $(0.43) per share for Q2 2026 and $1.73 in Funds From Operations (FFO) per share. Despite a decrease in tota...",
       "url": "https://www.stocktitan.net/sec-filings/ARE/8-k-alexandria-real-estate-equities-inc-reports-material-event-d88725ae133b.html",
       "source": "Stock Titan",
       "published_at": "20260803T200806",
-      "sentiment_score": 0.054881,
+      "sentiment_score": 0.079283,
       "sentiment_label": "Neutral",
       "tickers": [
         "ARE",
@@ -1025,26 +1053,6 @@
       "topics": [
         "Earnings",
         "Real Estate",
-        "Finance",
-        "Economy Macro"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Why CF Industries (CF) Stock Is Down Today",
-      "summary": "CF Industries (CF) stock is down 4.6% today, likely due to profit-taking ahead of upcoming Q2 2026 earnings and a cooler near-term fertilizer price outlook. Insider selling has...",
-      "url": "https://www.quiverquant.com/news/Why+CF+Industries+%28CF%29+Stock+Is+Down+Today",
-      "source": "Quiver Quantitative",
-      "published_at": "20260803T183534",
-      "sentiment_score": -0.345411,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "CF"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
         "Finance",
         "Economy Macro"
       ],
@@ -1064,7 +1072,7 @@
       "url": "https://www.reuters.com/business/energy/shale-producer-diamondback-energy-beats-second-quarter-profit-estimates-2026-08-03/",
       "source": "Reuters",
       "published_at": "20260803T210822",
-      "sentiment_score": 0.417921,
+      "sentiment_score": 0.434966,
       "sentiment_label": "Bullish",
       "tickers": [
         "FANG",
@@ -1088,7 +1096,7 @@
       "url": "https://www.marketscale.com/industries/transportation/canadian-national-railway-raises-its-2026-volume-outlook-on-firmer-freight-demand",
       "source": "MarketScale",
       "published_at": "20260803T191505",
-      "sentiment_score": 0.159665,
+      "sentiment_score": 0.196784,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CNI",
@@ -1108,7 +1116,7 @@
       "url": "https://finance.biggo.com/news/5b37c7f3-b232-4b02-b40b-4807e7d34703",
       "source": "BigGo Finance",
       "published_at": "20260804T003727",
-      "sentiment_score": 0.486071,
+      "sentiment_score": 0.486942,
       "sentiment_label": "Bullish",
       "tickers": [
         "CLX"
@@ -1124,12 +1132,55 @@
       "is_noise": false
     },
     {
+      "title": "Marriott Lifts Guidance, But Middle East Weighs on Growth - Daily Lodging Report",
+      "summary": "Marriott International reported a second-quarter revenue of $7.07 billion and raised its full-year RevPAR and earnings guidance, though it trimmed net unit growth due to constru...",
+      "url": "https://dlr.skift.com/2026/08/03/marriott-lifts-guidance-but-middle-east-weighs-on-growth/",
+      "source": "Daily Lodging Report",
+      "published_at": "20260804T040749",
+      "sentiment_score": -0.05685,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "HLT",
+        "MAR",
+        "CSGP",
+        "WYNN"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate",
+        "Economy Macro",
+        "Finance"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "McDonald's is about to report earnings. Here's what to expect",
+      "summary": "McDonald's is scheduled to release its second-quarter earnings before the market opens on Tuesday, August 4, 2026. Analysts project earnings per share of $3.32 and revenue of $7...",
+      "url": "https://www.cnbc.com/2026/08/04/mcdonalds-mcd-q2-2026-earnings.html",
+      "source": "CNBC",
+      "published_at": "20260804T040053",
+      "sentiment_score": -0.201981,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "MCD"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
       "title": "Earnings Flash (OTTR) Otter Tail Corporation Reports Q2 Revenue $334.4M, vs. FactSet Est of $326.1M",
       "summary": "Otter Tail Corporation (OTTR) announced its second-quarter revenue reached $334.4 million, surpassing FactSet's estimated $326.1 million. This financial update highlights the co...",
       "url": "https://www.marketscreener.com/news/earnings-flash-ottr-otter-tail-corporation-reports-q2-revenue-334-4m-vs-factset-est-of-326-1m-ce7f50d9df81ff27",
       "source": "www.marketscreener.com",
       "published_at": "20260803T221218",
-      "sentiment_score": 0.157523,
+      "sentiment_score": 0.154378,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "OTTR",
@@ -1151,7 +1202,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/parker-hannifin-ph-could-5-210756750.html",
       "source": "Yahoo Finance",
       "published_at": "20260803T210905",
-      "sentiment_score": 0.21283,
+      "sentiment_score": 0.203236,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PH"
@@ -1172,7 +1223,7 @@
       "url": "https://simplywall.st/community/narratives/us/consumer-services/nyse-cmg/chipotle-mexican-grill/7xehmqkv-cmg-share-repurchases-and-menu-revamps-will-drive-stronger-performance-ahead/updates/29-the-analyst-price-target-for-chipotle-mexican-grill-has-move",
       "source": "Simply Wall St",
       "published_at": "20260803T210353",
-      "sentiment_score": 0.301235,
+      "sentiment_score": 0.336273,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CMG"
@@ -1193,7 +1244,7 @@
       "url": "https://uk.finance.yahoo.com/news/o-reilly-automotive-orly-raises-203823722.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260803T203934",
-      "sentiment_score": 0.133453,
+      "sentiment_score": 0.129082,
       "sentiment_label": "Neutral",
       "tickers": [
         "ORLY",
@@ -1215,7 +1266,7 @@
       "url": "https://www.financialcontent.com/article/stockstory-2026-8-3-clorox-nyseclx-beats-q2-cy2026-sales-expectations",
       "source": "FinancialContent",
       "published_at": "20260803T212751",
-      "sentiment_score": 0.120031,
+      "sentiment_score": 0.129586,
       "sentiment_label": "Neutral",
       "tickers": [
         "CLX"
@@ -1228,52 +1279,6 @@
       ],
       "quality_score": 13,
       "is_noise": false
-    },
-    {
-      "title": "Should Iron Mountain Stock Be in Your Portfolio Ahead of Q2 Earnings?",
-      "summary": "Iron Mountain Incorporated (IRM) is set to release its Q2 2026 earnings on August 5th, with expectations of year-over-year growth in revenues and AFFO per share, driven by stron...",
-      "url": "https://www.tradingview.com/news/zacks:386b939d5094b:0-should-iron-mountain-stock-be-in-your-portfolio-ahead-of-q2-earnings/",
-      "source": "TradingView",
-      "published_at": "20260803T190901",
-      "sentiment_score": 0.287237,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "IRM",
-        "HST"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Real Estate",
-        "Finance",
-        "Economy Macro"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "‘Making too much money’: Trump blasts Exxon Mobil, Chevron profits",
-      "summary": "Former President Donald Trump criticized Exxon Mobil and Chevron for making \"too much money\" while consumers face high gasoline prices. He urged the oil giants to lower retail p...",
-      "url": "https://www.politico.com/news/2026/08/03/trump-exxon-mobil-chevron-gas-prices-profits-01022831",
-      "source": "Politico",
-      "published_at": "20260803T204115",
-      "sentiment_score": -0.035494,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "XOM",
-        "CVX",
-        "APA",
-        "EOG",
-        "OXY"
-      ],
-      "topics": [
-        "Earnings",
-        "Economy Fiscal",
-        "Energy Transportation",
-        "Economy Macro"
-      ],
-      "quality_score": 12,
-      "is_noise": false
     }
   ],
   "top_tickers": [
@@ -1282,42 +1287,42 @@
       "mentions": 6
     },
     {
+      "ticker": "NVDA",
+      "mentions": 5
+    },
+    {
       "ticker": "CVX",
       "mentions": 4
     },
     {
-      "ticker": "NVDA",
+      "ticker": "MU",
       "mentions": 4
     },
     {
-      "ticker": "MU",
-      "mentions": 3
-    },
-    {
-      "ticker": "JPM",
+      "ticker": "MCD",
       "mentions": 3
     }
   ],
   "top_topics": [
     {
       "topic": "Economy Macro",
-      "mentions": 48
+      "mentions": 49
     },
     {
       "topic": "Earnings",
-      "mentions": 34
+      "mentions": 37
     },
     {
       "topic": "Financial Markets",
-      "mentions": 23
+      "mentions": 26
     },
     {
       "topic": "Finance",
-      "mentions": 21
+      "mentions": 22
     },
     {
       "topic": "Retail Wholesale",
-      "mentions": 15
+      "mentions": 16
     }
   ],
   "sentiment_counts": [
@@ -1326,25 +1331,25 @@
       "count": 17
     },
     {
-      "label": "Bullish",
-      "count": 15
+      "label": "Somewhat-Bullish",
+      "count": 16
     },
     {
-      "label": "Somewhat-Bullish",
-      "count": 14
+      "label": "Bullish",
+      "count": 13
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 2
+      "count": 3
     }
   ],
   "top_sources": [
     {
-      "source": "TradingKey",
-      "count": 5
+      "source": "Yahoo Finance",
+      "count": 4
     },
     {
-      "source": "Yahoo Finance",
+      "source": "TradingKey",
       "count": 4
     },
     {
@@ -1356,7 +1361,7 @@
       "count": 2
     },
     {
-      "source": "TradingView",
+      "source": "FinancialContent",
       "count": 2
     }
   ],

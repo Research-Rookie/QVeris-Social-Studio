@@ -1,65 +1,61 @@
 {
-  "updated_at": "2026-08-03T05:58:07.449351+00:00",
-  "date": "2026-08-03",
+  "updated_at": "2026-08-04T05:32:04.156522+00:00",
+  "date": "2026-08-04",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "NVDA",
-  "news_tone": "Somewhat Bullish",
-  "top_theme": "Earnings",
-  "headline": "Revvity (RVTY) To Report Earnings Tomorrow: Here Is What To Expect",
-  "headline_source": "FinancialContent",
+  "symbol": "CLX",
+  "news_tone": "Neutral",
+  "top_theme": "Economy Macro",
+  "headline": "Diamondback Energy beats quarterly profit estimates, raises production forecast",
+  "headline_source": "Reuters",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 200.75, 'd': 5.71, 'dp': 2.9276, 'h': 202, 'l': 194.95, 'o': 198.4405, 'pc': 195.04, 't': 1785528000}}",
+  "price_error": "Could not parse quote data for CLX: {'status_code': 200, 'data': {'c': 98.26, 'd': 2.73, 'dp': 2.8577, 'h': 99.8, 'l': 96.58, 'o': 97.32, 'pc': 95.53, 't': 1785787200}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
+        "ticker": "CLX",
+        "mentions": 6
+      },
+      {
         "ticker": "NVDA",
-        "mentions": 2
+        "mentions": 5
       },
       {
-        "ticker": "PB",
-        "mentions": 2
+        "ticker": "CVX",
+        "mentions": 4
       },
       {
-        "ticker": "PLTR",
-        "mentions": 2
+        "ticker": "MU",
+        "mentions": 4
       },
       {
-        "ticker": "DVA",
-        "mentions": 2
-      },
-      {
-        "ticker": "GOOGL",
-        "mentions": 2
+        "ticker": "MCD",
+        "mentions": 3
       }
     ],
     "sentiment_counts": [
-      {
-        "label": "Somewhat-Bullish",
-        "count": 18
-      },
       {
         "label": "Neutral",
         "count": 17
       },
       {
+        "label": "Somewhat-Bullish",
+        "count": 16
+      },
+      {
         "label": "Bullish",
-        "count": 11
+        "count": 13
       },
       {
         "label": "Somewhat-Bearish",
         "count": 3
-      },
-      {
-        "label": "Bearish",
-        "count": 1
       }
     ]
   }

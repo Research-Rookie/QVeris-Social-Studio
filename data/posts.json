@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-clx-2026-08-04",
+    "date": "2026-08-04",
+    "runDate": "2026-08-04",
+    "createdAt": "2026-08-04T05:32:05.786245+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$CLX news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-04.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-04T05:32:04.156522+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$CLX",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "CLX",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-04T05:32:04.156522+00:00",
+      "date": "2026-08-04",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "CLX",
+      "news_tone": "Neutral",
+      "top_theme": "Economy Macro",
+      "headline": "Diamondback Energy beats quarterly profit estimates, raises production forecast",
+      "headline_source": "Reuters",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for CLX: {'status_code': 200, 'data': {'c': 98.26, 'd': 2.73, 'dp': 2.8577, 'h': 99.8, 'l': 96.58, 'o': 97.32, 'pc': 95.53, 't': 1785787200}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "CLX",
+            "mentions": 6
+          },
+          {
+            "ticker": "NVDA",
+            "mentions": 5
+          },
+          {
+            "ticker": "CVX",
+            "mentions": 4
+          },
+          {
+            "ticker": "MU",
+            "mentions": 4
+          },
+          {
+            "ticker": "MCD",
+            "mentions": 3
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 17
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 16
+          },
+          {
+            "label": "Bullish",
+            "count": 13
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-eog-2026-08-04",
     "date": "2026-08-04",
     "runDate": "2026-08-04",
