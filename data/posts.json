@@ -1,5 +1,213 @@
 [
   {
+    "id": "market-narrative-shift-anet-2026-08-05",
+    "date": "2026-08-05",
+    "runDate": "2026-08-05",
+    "createdAt": "2026-08-05T05:10:14.122580+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $ANET",
+    "status": "ready",
+    "tweet": "What changed in $ANET's market narrative? 🔄\n\n🧭 Signal: Narrative steady\n💬 Sentiment shift: -0.06\n📌 Top theme: Earnings\n🔎 Emerging term: earnings\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_ANET_2026-08-05.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-05T05:10:11.423975+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$ANET",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Narrative steady",
+    "topSymbol": "ANET",
+    "topChangePct": -5.65,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-05T05:10:11.423975+00:00",
+      "date": "2026-08-05",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "ANET",
+      "shift_label": "Narrative steady",
+      "sentiment_delta": -0.0565,
+      "baseline_label": "2026-07-12",
+      "current": {
+        "date": "2026-08-05",
+        "symbol": "ANET",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0249,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "arista",
+            "count": 2
+          },
+          {
+            "label": "networks",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "strong",
+            "count": 2
+          },
+          {
+            "label": "jumps",
+            "count": 1
+          },
+          {
+            "label": "stellar",
+            "count": 1
+          },
+          {
+            "label": "beat",
+            "count": 1
+          },
+          {
+            "label": "forecast",
+            "count": 1
+          },
+          {
+            "label": "surged",
+            "count": 1
+          },
+          {
+            "label": "reporting",
+            "count": 1
+          },
+          {
+            "label": "second-quarter",
+            "count": 1
+          }
+        ],
+        "headline": "Arista Networks’ stock jumps on stellar earnings and revenue beat and strong forecast",
+        "headline_source": "SiliconANGLE"
+      },
+      "previous": {
+        "date": "2026-07-12",
+        "symbol": "ANET",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0814,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "arista",
+            "count": 2
+          },
+          {
+            "label": "networks",
+            "count": 2
+          },
+          {
+            "label": "week",
+            "count": 2
+          },
+          {
+            "label": "added",
+            "count": 1
+          },
+          {
+            "label": "value",
+            "count": 1
+          },
+          {
+            "label": "but",
+            "count": 1
+          },
+          {
+            "label": "there",
+            "count": 1
+          },
+          {
+            "label": "twist",
+            "count": 1
+          },
+          {
+            "label": "numbers",
+            "count": 1
+          },
+          {
+            "label": "saw",
+            "count": 1
+          },
+          {
+            "label": "capitalization",
+            "count": 1
+          },
+          {
+            "label": "increase",
+            "count": 1
+          }
+        ],
+        "headline": "Arista Networks Added $34B in Value This Week?But There?s a Twist in the Numbers",
+        "headline_source": "TechStock?"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Economy Macro",
+        "Finance"
+      ],
+      "emerging_keywords": [
+        "earnings",
+        "revenue",
+        "strong"
+      ],
+      "fading_keywords": [
+        "week",
+        "added",
+        "value"
+      ],
+      "takeaway": "ANET's narrative is narrative steady: sentiment moved -0.06, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-05",
     "date": "2026-08-05",
     "runDate": "2026-08-05",
