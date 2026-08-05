@@ -1,61 +1,61 @@
 {
-  "updated_at": "2026-08-04T05:32:04.156522+00:00",
-  "date": "2026-08-04",
+  "updated_at": "2026-08-05T05:31:20.427956+00:00",
+  "date": "2026-08-05",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "CLX",
+  "symbol": "KIM",
   "news_tone": "Neutral",
-  "top_theme": "Economy Macro",
-  "headline": "Diamondback Energy beats quarterly profit estimates, raises production forecast",
-  "headline_source": "Reuters",
+  "top_theme": "Earnings",
+  "headline": "Transcript : Mattel, Inc., Q2 2026 Earnings Call, Aug 04, 2026",
+  "headline_source": "www.marketscreener.com",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for CLX: {'status_code': 200, 'data': {'c': 98.26, 'd': 2.73, 'dp': 2.8577, 'h': 99.8, 'l': 96.58, 'o': 97.32, 'pc': 95.53, 't': 1785787200}}",
+  "price_error": "Could not parse quote data for KIM: {'status_code': 200, 'data': {'c': 25.01, 'd': -0.4, 'dp': -1.5742, 'h': 25.72, 'l': 24.8201, 'o': 25.4, 'pc': 25.41, 't': 1785873600}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "CLX",
-        "mentions": 6
-      },
-      {
-        "ticker": "NVDA",
-        "mentions": 5
-      },
-      {
-        "ticker": "CVX",
-        "mentions": 4
-      },
-      {
-        "ticker": "MU",
-        "mentions": 4
-      },
-      {
-        "ticker": "MCD",
+        "ticker": "KIM",
         "mentions": 3
+      },
+      {
+        "ticker": "RKLB",
+        "mentions": 2
+      },
+      {
+        "ticker": "MAT",
+        "mentions": 1
+      },
+      {
+        "ticker": "RXO",
+        "mentions": 1
+      },
+      {
+        "ticker": "PARR",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 17
-      },
-      {
-        "label": "Somewhat-Bullish",
-        "count": 16
+        "count": 14
       },
       {
         "label": "Bullish",
-        "count": 13
+        "count": 12
+      },
+      {
+        "label": "Somewhat-Bullish",
+        "count": 7
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 3
+        "count": 5
       }
     ]
   }

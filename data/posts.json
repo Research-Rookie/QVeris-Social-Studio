@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-kim-2026-08-05",
+    "date": "2026-08-05",
+    "runDate": "2026-08-05",
+    "createdAt": "2026-08-05T05:31:22.025200+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$KIM news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-05.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-05T05:31:20.427956+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$KIM",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "KIM",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-05T05:31:20.427956+00:00",
+      "date": "2026-08-05",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "KIM",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Transcript : Mattel, Inc., Q2 2026 Earnings Call, Aug 04, 2026",
+      "headline_source": "www.marketscreener.com",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for KIM: {'status_code': 200, 'data': {'c': 25.01, 'd': -0.4, 'dp': -1.5742, 'h': 25.72, 'l': 24.8201, 'o': 25.4, 'pc': 25.41, 't': 1785873600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "KIM",
+            "mentions": 3
+          },
+          {
+            "ticker": "RKLB",
+            "mentions": 2
+          },
+          {
+            "ticker": "MAT",
+            "mentions": 1
+          },
+          {
+            "ticker": "RXO",
+            "mentions": 1
+          },
+          {
+            "ticker": "PARR",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 14
+          },
+          {
+            "label": "Bullish",
+            "count": 12
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 7
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 5
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-anet-2026-08-05",
     "date": "2026-08-05",
     "runDate": "2026-08-05",
