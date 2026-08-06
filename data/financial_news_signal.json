@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T05:12:01.442907+00:00",
+  "updated_at": "2026-08-06T05:34:15.835498+00:00",
   "date": "2026-08-06",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
@@ -11,7 +11,7 @@
       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-lifemd-posts-q2-revenue-miss-shares-sink-in-afterhours-93CH-4839502",
       "source": "Investing.com",
       "published_at": "20260806T014211",
-      "sentiment_score": -0.441196,
+      "sentiment_score": -0.420469,
       "sentiment_label": "Bearish",
       "tickers": [
         "LFMD"
@@ -30,7 +30,7 @@
       "url": "https://www.benzinga.com/markets/earnings/26/08/60975203/joby-aviation-beats-q2-revenue-estimates-raises-fy-guidance",
       "source": "Benzinga",
       "published_at": "20260806T041110",
-      "sentiment_score": 0.461761,
+      "sentiment_score": 0.485664,
       "sentiment_label": "Bullish",
       "tickers": [
         "JOBY"
@@ -45,12 +45,32 @@
       "is_noise": false
     },
     {
+      "title": "LegalZoom.com (NASDAQ:LZ) Releases Quarterly Earnings Results, Beats Expectations By $0.01 EPS",
+      "summary": "LegalZoom.com (NASDAQ:LZ) announced its quarterly earnings, reporting an EPS of $0.16, surpassing analyst expectations by $0.01. While revenue increased 6.6% year-over-year to $...",
+      "url": "https://www.marketbeat.com/instant-alerts/legalzoomcom-nasdaqlz-releases-quarterly-earnings-results-beats-expectations-by-001-eps-2026-08-05/",
+      "source": "MarketBeat",
+      "published_at": "20260806T031123",
+      "sentiment_score": 0.123,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "LZ"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": 19,
+      "is_noise": false
+    },
+    {
       "title": "Corpay Q2 2026 Earnings Call Transcript",
       "summary": "Corpay reported strong Q2 2026 results with revenue up 21% to $1.34 billion and record Cash EPS of $7.00, an increase of 36%. The company raised its full-year 2026 guidance, pro...",
       "url": "https://www.marketbeat.com/earnings/reports/2026-8-5-fleetcor-technologies-inc-stock-1/",
       "source": "MarketBeat",
       "published_at": "20260806T035937",
-      "sentiment_score": 0.445021,
+      "sentiment_score": 0.409037,
       "sentiment_label": "Bullish",
       "tickers": [
         "CPAY"
@@ -65,13 +85,37 @@
       "is_noise": false
     },
     {
+      "title": "Nokia Acquires NXP's Arizona Fab to Secure AI Data Center Optical Chip Supply",
+      "summary": "Nokia has acquired NXP Semiconductors' chip fabrication plant in Chandler, Arizona, to convert it into a production line for indium phosphide (InP) optical chips, crucial for AI...",
+      "url": "https://finance.biggo.com/news/b13e3c62-256f-4004-bffe-77feebdec3b0",
+      "source": "finance.biggo.com",
+      "published_at": "20260806T045452",
+      "sentiment_score": 0.507683,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NXPI",
+        "NOC",
+        "NVDA",
+        "INTC",
+        "LRCX"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Technology",
+        "Manufacturing",
+        "Earnings"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
       "title": "Earnings call transcript: Realty Income Q2 2026 revenue beats as stock rises",
       "summary": "Realty Income Corp. reported mixed Q2 2026 results, with revenue of $1.55 billion exceeding forecasts but EPS of $0.37 missing estimates. The company increased its full-year AFF...",
       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-realty-income-q2-2026-revenue-beats-as-stock-rises-93CH-4839732",
       "source": "Investing.com",
       "published_at": "20260806T013914",
-      "sentiment_score": 0.372324,
-      "sentiment_label": "Bullish",
+      "sentiment_score": 0.341679,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "O",
         "APO",
@@ -88,30 +132,12 @@
       "is_noise": false
     },
     {
-      "title": "Cerence (0S6) Q1 2024 Earnings Report - Results, Call & Slides",
-      "summary": "Cerence (0S6) has reported its Q1 2024 earnings, significantly beating analyst expectations for both EPS and revenue. The company posted an actual EPS of €0.97 against a consens...",
-      "url": "https://www.tipranks.com/stocks/de:0s6/earnings/q1-2024-report",
-      "source": "TipRanks",
-      "published_at": "20260806T011143",
-      "sentiment_score": 0.408115,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "CRNC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
       "title": "Enphase Energy (ENPH) Is Up 15.0% After Pivoting Q3 Outlook Toward U.S.-Made AI Power Electronics – Has The Bull Ca...",
       "summary": "Enphase Energy (ENPH) saw its stock rise 15% after shifting its Q3 outlook to emphasize U.S.-made AI power electronics, aligning with federal incentives and targeting AI data ce...",
       "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-enph/enphase-energy/news/enphase-energy-enph-is-up-150-after-pivoting-q3-outlook-towa/amp",
       "source": "Simply Wall Street",
       "published_at": "20260806T013754",
-      "sentiment_score": 0.32687,
+      "sentiment_score": 0.338862,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ENPH"
@@ -132,7 +158,7 @@
       "url": "https://www.intelligentinvestor.com.au/shares/nyse-dukz/ocean-park-diversified-income-etf",
       "source": "intelligentinvestor.com.au",
       "published_at": "20260806T011816",
-      "sentiment_score": 0.076345,
+      "sentiment_score": 0.068891,
       "sentiment_label": "Neutral",
       "tickers": [
         "DUKZ"
@@ -150,7 +176,7 @@
       "url": "https://simplywall.st/stocks/us/software/nasdaq-hut/hut-8/news/hut-8-hut-earnings-jolt-puts-its-ai-and-crypto-valuation-sto",
       "source": "Simply Wall St",
       "published_at": "20260806T025138",
-      "sentiment_score": 0.11165,
+      "sentiment_score": 0.144905,
       "sentiment_label": "Neutral",
       "tickers": [
         "HUT"
@@ -170,7 +196,7 @@
       "url": "https://simplywall.st/stocks/us/healthcare/nyse-mck/mckesson/news/is-mckessons-revenue-growth-with-falling-eps-altering-the-in/amp",
       "source": "Simply Wall St",
       "published_at": "20260806T023850",
-      "sentiment_score": -0.081217,
+      "sentiment_score": -0.071863,
       "sentiment_label": "Neutral",
       "tickers": [
         "MCK"
@@ -189,7 +215,7 @@
       "url": "https://www.marketscale.com/industries/energy/halliburtons-q2-revenue-hits-571-billion-beating-estimates-on-dual-segment-growth",
       "source": "MarketScale",
       "published_at": "20260806T020831",
-      "sentiment_score": 0.445039,
+      "sentiment_score": 0.429161,
       "sentiment_label": "Bullish",
       "tickers": [
         "HAL"
@@ -207,7 +233,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/autodesk-adsk-gains-market-dips-221502167.html",
       "source": "Yahoo Finance",
       "published_at": "20260806T015307",
-      "sentiment_score": 0.400495,
+      "sentiment_score": 0.41059,
       "sentiment_label": "Bullish",
       "tickers": [
         "ADSK"
@@ -226,7 +252,7 @@
       "url": "https://www.marketbeat.com/earnings/reports/2026-8-5-innoviz-technologies-ltd-stock/",
       "source": "MarketBeat",
       "published_at": "20260806T014308",
-      "sentiment_score": 0.525904,
+      "sentiment_score": 0.54893,
       "sentiment_label": "Bullish",
       "tickers": [
         "INVZ"
@@ -245,7 +271,7 @@
       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-koru-medical-beats-q2-2026-estimates-shares-fall-93CH-4839443",
       "source": "Investing.com",
       "published_at": "20260806T014048",
-      "sentiment_score": -0.044653,
+      "sentiment_score": -0.052451,
       "sentiment_label": "Neutral",
       "tickers": [
         "KRMD",
@@ -259,31 +285,12 @@
       "is_noise": false
     },
     {
-      "title": "Broadridge Financial Solutions Earnings Call Signals Strength",
-      "summary": "Broadridge Financial Solutions (BR) reported strong Q4 and fiscal year-end results, emphasizing durable recurring revenue, double-digit earnings growth, and robust cash generati...",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/BR-N/pressreleases/3680083/broadridge-financial-solutions-earnings-call-signals-strength/",
-      "source": "The Globe and Mail",
-      "published_at": "20260806T010720",
-      "sentiment_score": 0.472299,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "BR"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
       "title": "Applied Materials Fell 11% Last Month: A Prominent Wall Street Pro Predicts 70% Gains Moving Forward",
       "summary": "Applied Materials (AMAT) experienced an 11% drop last month, but Susquehanna analyst Mehdi Hosseini has issued a Street-high price target of $900, implying a 68% upside. This bu...",
       "url": "https://247wallst.com/investing/2026/08/05/applied-materials-fell-11-last-month-a-prominent-wall-street-pro-predicts-70-gains-moving-forward/",
       "source": "24/7 Wall St.",
       "published_at": "20260806T034706",
-      "sentiment_score": 0.331331,
+      "sentiment_score": 0.327303,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "AMAT",
@@ -305,7 +312,7 @@
       "url": "https://simplywall.st/stocks/us/energy/nyse-invx/innovex-international/news/why-innovex-invx-is-up-183-after-q2-beat-guidance-hike-and-t/amp",
       "source": "Simply Wall Street",
       "published_at": "20260806T021054",
-      "sentiment_score": 0.461935,
+      "sentiment_score": 0.457759,
       "sentiment_label": "Bullish",
       "tickers": [
         "INVX"
@@ -325,7 +332,7 @@
       "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-ktos/kratos-defense-security-solutions/news/kratos-ktos-stock-reprices-higher-as-growth-strengthens-and",
       "source": "Simply Wall Street",
       "published_at": "20260806T014007",
-      "sentiment_score": 0.275233,
+      "sentiment_score": 0.290315,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "KTOS"
@@ -345,8 +352,8 @@
       "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mchp/microchip-technology/news/can-microchip-technologys-mchp-pcie-gen-6-storage-fabric-pro/amp",
       "source": "Simply Wall Street",
       "published_at": "20260806T013842",
-      "sentiment_score": 0.142356,
-      "sentiment_label": "Neutral",
+      "sentiment_score": 0.15791,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "MCHP",
         "MU",
@@ -366,7 +373,7 @@
       "url": "https://seekingalpha.com/article/4930489-centuri-holdings-inc-2026-q2-results-earnings-call-presentation",
       "source": "Seeking Alpha",
       "published_at": "20260806T011538",
-      "sentiment_score": 0.452634,
+      "sentiment_score": 0.467926,
       "sentiment_label": "Bullish",
       "tickers": [
         "CTRI"
@@ -384,7 +391,7 @@
       "url": "https://simplywall.st/stocks/us/household/nyse-hlf/herbalife/news/is-herbalifes-loss-amid-higher-sales-and-cfo-shift-altering/amp",
       "source": "Simply Wall Street",
       "published_at": "20260806T011250",
-      "sentiment_score": -0.097878,
+      "sentiment_score": -0.07046,
       "sentiment_label": "Neutral",
       "tickers": [
         "HLF"
@@ -404,7 +411,7 @@
       "url": "https://eu.36kr.com/en/p/3926690157459849",
       "source": "36 Kr",
       "published_at": "20260806T041530",
-      "sentiment_score": 0.285396,
+      "sentiment_score": 0.300266,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "KO",
@@ -427,7 +434,7 @@
       "url": "https://simplywall.st/stocks/us/capital-goods/nyse-emr/emerson-electric/news/emerson-electric-emr-stock-quietly-trails-a-stronger-margin",
       "source": "Simply Wall St",
       "published_at": "20260806T023751",
-      "sentiment_score": 0.199897,
+      "sentiment_score": 0.200789,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "EMR",
@@ -449,7 +456,7 @@
       "url": "https://scanx.trade/stock-market-news/companies/global-net-lease-q2-results-ffo-misses-estimate-sales-beat/47522833",
       "source": "scanx.trade",
       "published_at": "20260806T022319",
-      "sentiment_score": 0.016465,
+      "sentiment_score": 0.035281,
       "sentiment_label": "Neutral",
       "tickers": [
         "GNL-P-A"
@@ -463,12 +470,33 @@
       "is_noise": false
     },
     {
+      "title": "Phillips 66 (PSX) Stock Pulls Back After Cash Flow Fueled Profit Surge",
+      "summary": "Phillips 66 (PSX) stock saw a 1.6% pullback despite strong Q2 2026 earnings, driven by robust refining margins and significant cash generation. The company posted a substantial...",
+      "url": "https://simplywall.st/stocks/us/energy/nyse-psx/phillips-66/news/phillips-66-psx-stock-pulls-back-after-cash-flow-fueled-prof",
+      "source": "Simply Wall St",
+      "published_at": "20260806T020910",
+      "sentiment_score": 0.176463,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "PSX",
+        "VLO",
+        "MPC"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
       "title": "GXO Logistics (GXO) Stock Price Slides On Margin Squeeze Concerns",
       "summary": "GXO Logistics (GXO) saw its stock price fall by 9% due to concerns over profit margin squeeze despite an increase in Q2 revenue. While the company reported strong commercial mil...",
       "url": "https://simplywall.st/stocks/us/transportation/nyse-gxo/gxo-logistics/news/gxo-logistics-gxo-stock-price-slides-on-margin-squeeze-conce",
       "source": "Simply Wall St",
       "published_at": "20260806T014059",
-      "sentiment_score": -0.418957,
+      "sentiment_score": -0.42108,
       "sentiment_label": "Bearish",
       "tickers": [
         "GXO"
@@ -486,7 +514,7 @@
       "url": "https://finance.yahoo.com/healthcare/articles/insulet-podd-down-21-9-011155409.html",
       "source": "Yahoo Finance",
       "published_at": "20260806T013910",
-      "sentiment_score": -0.428393,
+      "sentiment_score": -0.439334,
       "sentiment_label": "Bearish",
       "tickers": [
         "PODD"
@@ -504,7 +532,7 @@
       "url": "https://au.finance.yahoo.com/news/clearfield-clfd-beats-q3-earnings-212503939.html",
       "source": "Yahoo Finance Australia",
       "published_at": "20260806T011642",
-      "sentiment_score": 0.269522,
+      "sentiment_score": 0.292861,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CLFD"
@@ -518,23 +546,22 @@
       "is_noise": false
     },
     {
-      "title": "PSEG Earnings Call: Growth Plans Offset GAAP Headwinds",
-      "summary": "Public Service Enterprise (PSEG) held its Q2 earnings call, revealing a mixed financial picture. While the company faced sharp GAAP earnings pressure, a swing to losses at PSEG...",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PEG-N/pressreleases/3679810/pseg-earnings-call-growth-plans-offset-gaap-headwinds/",
-      "source": "The Globe and Mail",
-      "published_at": "20260806T010909",
-      "sentiment_score": 0.181335,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "MFA Financial, Inc. 8.875% Senior Notes due 2029 Revenue Breakdown – NYSE:MFAN",
+      "summary": "This article provides financial information for MFA Financial, Inc.'s 8.875% Senior Notes due 2029, traded under the NYSE symbol MFAN. It outlines where users can find an overvi...",
+      "url": "https://www.tradingview.com/symbols/NYSE-MFAN/financials-segments/",
+      "source": "TradingView",
+      "published_at": "20260806T021027",
+      "sentiment_score": 0.046601,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "PEG"
+        "MFAN"
       ],
       "topics": [
-        "Earnings",
-        "Energy Transportation",
+        "Financial Markets",
         "Finance",
-        "Economy Macro"
+        "Earnings"
       ],
-      "quality_score": 9,
+      "quality_score": 8,
       "is_noise": false
     },
     {
@@ -543,7 +570,7 @@
       "url": "https://simplywall.st/stocks/us/energy/nyse-gfr/greenfire-resources/news/greenfire-resources-nysegfr-stock-slips-as-profit-returns-me/amp",
       "source": "Simply Wall Street",
       "published_at": "20260806T015012",
-      "sentiment_score": -0.220829,
+      "sentiment_score": -0.195644,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "GFR"
@@ -562,7 +589,7 @@
       "url": "https://www.tradingview.com/news/tradingview:387d8a77ebf2a:0-lci-industries-stock-12-month-price-target-cut-to-134-4-implies-26-upside/",
       "source": "TradingView",
       "published_at": "20260806T044148",
-      "sentiment_score": 0.395522,
+      "sentiment_score": 0.439614,
       "sentiment_label": "Bullish",
       "tickers": [
         "LCII"
@@ -580,7 +607,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/kodiak-gas-services-announces-quarterly-230000021.html",
       "source": "Yahoo Finance",
       "published_at": "20260806T044014",
-      "sentiment_score": 0.424213,
+      "sentiment_score": 0.385348,
       "sentiment_label": "Bullish",
       "tickers": [
         "KGS"
@@ -600,7 +627,7 @@
       "url": "https://uk.finance.yahoo.com/news/steris-ste-record-chemistries-investment-031923235.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260806T033928",
-      "sentiment_score": 0.497379,
+      "sentiment_score": 0.461833,
       "sentiment_label": "Bullish",
       "tickers": [
         "STE"
@@ -621,7 +648,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/kraft-heinz-company-nasdaqkhc-to-issue-quarterly-dividend-of-040-2026-08-05/",
       "source": "MarketBeat",
       "published_at": "20260806T033836",
-      "sentiment_score": -0.238718,
+      "sentiment_score": -0.205881,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "KHC"
@@ -640,7 +667,7 @@
       "url": "https://simplywall.st/stocks/us/commercial-services/nasdaq-hurn/huron-consulting-group/news/is-huron-hurn-using-buybacks-and-board-additions-to-quietly/amp",
       "source": "Simply Wall Street",
       "published_at": "20260806T033448",
-      "sentiment_score": 0.341722,
+      "sentiment_score": 0.334168,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "HURN"
@@ -659,7 +686,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/kla-nasdaqklac-evp-mary-beth-wilkinson-sells-13802-shares-2026-08-05/",
       "source": "MarketBeat",
       "published_at": "20260806T023829",
-      "sentiment_score": -0.106749,
+      "sentiment_score": -0.121287,
       "sentiment_label": "Neutral",
       "tickers": [
         "KLAC"
@@ -678,7 +705,7 @@
       "url": "https://simplywall.st/stocks/us/capital-goods/nyse-ge/general-electric/news/the-bull-case-for-general-electric-ge-could-change-following-4/amp",
       "source": "Simply Wall Street",
       "published_at": "20260806T013826",
-      "sentiment_score": 0.342546,
+      "sentiment_score": 0.33352,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GE",
@@ -701,7 +728,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/hilltop-nysehth-director-rhodes-bobbitt-sells-12100-shares-2026-08-05/",
       "source": "MarketBeat",
       "published_at": "20260806T011308",
-      "sentiment_score": 0.11576,
+      "sentiment_score": 0.109186,
       "sentiment_label": "Neutral",
       "tickers": [
         "HTH"
@@ -715,31 +742,12 @@
       "is_noise": false
     },
     {
-      "title": "ALIGN TECHNOLOGY INC 2026: Revenue $1.06B, EPS $1.51— 10-Q Summary",
-      "summary": "ALIGN TECHNOLOGY INC (ALGN) reported its 2026 quarterly results with a revenue of $1.06 billion, an increase of 4.3% year over year, despite a decline in net income and diluted...",
-      "url": "https://www.tradingview.com/news/tradingview:561b5b76d8f41:0-align-technology-inc-2026-revenue-1-06b-eps-1-51-10-q-summary/",
-      "source": "TradingView",
-      "published_at": "20260806T010705",
-      "sentiment_score": 0.184691,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ALGN"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
       "title": "Goodyear Americas Posts Q2 Operating Loss",
       "summary": "Goodyear's Americas segment reported a $10 million operating loss in Q2 2026, primarily due to a 13% decline in replacement tire volume, although this was an improvement from Q1...",
       "url": "https://www.moderntiredealer.com/suppliers/news/55396070/goodyear-americas-posts-q2-operating-loss-as-replacement-tire-decline-eases",
       "source": "Modern Tire Dealer",
       "published_at": "20260806T034054",
-      "sentiment_score": -0.414771,
+      "sentiment_score": -0.419539,
       "sentiment_label": "Bearish",
       "tickers": [
         "GT"
@@ -759,7 +767,7 @@
       "url": "https://scanx.trade/stock-market-news/companies/lifemd-q2-results-revenue-falls-3-adjusted-ebitda-loss-widens/47525101",
       "source": "scanx.trade",
       "published_at": "20260806T024211",
-      "sentiment_score": -0.242254,
+      "sentiment_score": -0.244501,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "LFMD"
@@ -777,7 +785,7 @@
       "url": "https://thenationonlineng.net/coast-clears-for-mtn-groups-6-2b-ihs-towers-acquisition/amp/",
       "source": "The Nation Newspaper",
       "published_at": "20260806T021113",
-      "sentiment_score": 0.045811,
+      "sentiment_score": 0.01334,
       "sentiment_label": "Neutral",
       "tickers": [
         "IHS"
@@ -797,7 +805,7 @@
       "url": "https://scanx.trade/stock-market-news/companies/atmos-energy-q3-results-net-income-hits-1-2b-dividend-rises-14-9/47524763",
       "source": "scanx.trade",
       "published_at": "20260806T020717",
-      "sentiment_score": 0.859565,
+      "sentiment_score": 0.870579,
       "sentiment_label": "Bullish",
       "tickers": [
         "ATO"
@@ -816,7 +824,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/copart-inc-cprt-suffers-larger-221502832.html",
       "source": "Yahoo Finance",
       "published_at": "20260806T015456",
-      "sentiment_score": -0.347834,
+      "sentiment_score": -0.31497,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CPRT"
@@ -834,7 +842,7 @@
       "url": "https://www.globenewswire.com/news-release/2026/08/05/3339685/0/en/cytek-biosciences-reports-second-quarter-2026-financial-results.html",
       "source": "GlobeNewswire",
       "published_at": "20260806T011437",
-      "sentiment_score": 0.244062,
+      "sentiment_score": 0.206421,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CTKB"
@@ -852,7 +860,7 @@
       "url": "https://www.stocktitan.net/news/CVX/texas-pacific-land-corporation-announces-second-quarter-lt1pysfmkgzd.html",
       "source": "Stock Titan",
       "published_at": "20260806T030950",
-      "sentiment_score": 0.382794,
+      "sentiment_score": 0.385077,
       "sentiment_label": "Bullish",
       "tickers": [
         "TPL",
@@ -867,12 +875,31 @@
       "is_noise": false
     },
     {
+      "title": "Onterris Explores Sale While Adopting ‘Poison Pill’ to Fend Off Investor",
+      "summary": "Onterris Inc. (NYSE: ONT) is considering a potential sale and has implemented a \"poison pill\" shareholder rights plan to prevent a hostile takeover by an undisclosed investor. T...",
+      "url": "https://www.arkansasbusiness.com/article/onterris-sale-poison-pill-revenue-guidance/",
+      "source": "Arkansas Business",
+      "published_at": "20260806T042400",
+      "sentiment_score": 0.020349,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MEG"
+      ],
+      "topics": [
+        "Earnings",
+        "Mergers And Acquisitions",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
       "title": "First Solar, Inc. (FSLR) officer sells 7,000 shares via 10b5-1 plan",
       "summary": "First Solar's Chief Supply Chain Officer, Michael Koralewski, sold 7,000 shares of common stock in two open-market transactions on August 3, 2026. The sales were executed at pri...",
       "url": "https://www.stocktitan.net/sec-filings/FSLR/form-4-first-solar-inc-insider-trading-activity-5917cb0ea658.html",
       "source": "Stock Titan",
       "published_at": "20260806T043805",
-      "sentiment_score": -0.230713,
+      "sentiment_score": -0.232108,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "FSLR"
@@ -891,7 +918,7 @@
       "url": "https://www.stocktitan.net/sec-filings/INVX/form-4-innovex-international-inc-insider-trading-activity-a4dda03799f6.html",
       "source": "Stock Titan",
       "published_at": "20260806T041054",
-      "sentiment_score": -0.419574,
+      "sentiment_score": -0.43539,
       "sentiment_label": "Bearish",
       "tickers": [
         "INVX"
@@ -909,7 +936,7 @@
       "url": "https://www.stocktitan.net/sec-filings/NRG/form-4-nrg-energy-inc-insider-trading-activity-8bb5581d572d.html",
       "source": "Stock Titan",
       "published_at": "20260806T033906",
-      "sentiment_score": 0.000647,
+      "sentiment_score": 0.04194,
       "sentiment_label": "Neutral",
       "tickers": [
         "NRG",
@@ -928,7 +955,7 @@
       "url": "https://www.quiverquant.com/stock/FLXR/",
       "source": "Quiver Quantitative",
       "published_at": "20260806T022215",
-      "sentiment_score": 0.030624,
+      "sentiment_score": 0.006495,
       "sentiment_label": "Neutral",
       "tickers": [
         "FLXR"
@@ -948,7 +975,7 @@
       "url": "https://aijourn.com/stockholder-alert-robbins-llp-informs-investors-of-the-gildan-activewear-inc-class-action/",
       "source": "The AI Journal",
       "published_at": "20260806T021916",
-      "sentiment_score": -0.637391,
+      "sentiment_score": -0.625576,
       "sentiment_label": "Bearish",
       "tickers": [
         "GIL"
@@ -958,24 +985,6 @@
         "Finance",
         "Earnings",
         "Retail Wholesale"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Leonardo DRS (NASDAQ: DRS) EVP sells 3,864 shares under 10b5-1 plan",
-      "summary": "Jason Rinsky, EVP Chief Tax and Treasury at Leonardo DRS, Inc. (NASDAQ: DRS), sold 3,864 shares of company common stock at $45.81 per share on August 4, 2026. This transaction w...",
-      "url": "https://www.stocktitan.net/sec-filings/DRS/form-4-leonardo-drs-inc-insider-trading-activity-9f28775a7e42.html",
-      "source": "Stock Titan",
-      "published_at": "20260806T010745",
-      "sentiment_score": -0.254319,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "DRS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
       ],
       "quality_score": -10,
       "is_noise": true
@@ -993,7 +1002,7 @@
       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-lifemd-posts-q2-revenue-miss-shares-sink-in-afterhours-93CH-4839502",
       "source": "Investing.com",
       "published_at": "20260806T014211",
-      "sentiment_score": -0.441196,
+      "sentiment_score": -0.420469,
       "sentiment_label": "Bearish",
       "tickers": [
         "LFMD"
@@ -1012,7 +1021,7 @@
       "url": "https://www.benzinga.com/markets/earnings/26/08/60975203/joby-aviation-beats-q2-revenue-estimates-raises-fy-guidance",
       "source": "Benzinga",
       "published_at": "20260806T041110",
-      "sentiment_score": 0.461761,
+      "sentiment_score": 0.485664,
       "sentiment_label": "Bullish",
       "tickers": [
         "JOBY"
@@ -1027,12 +1036,32 @@
       "is_noise": false
     },
     {
+      "title": "LegalZoom.com (NASDAQ:LZ) Releases Quarterly Earnings Results, Beats Expectations By $0.01 EPS",
+      "summary": "LegalZoom.com (NASDAQ:LZ) announced its quarterly earnings, reporting an EPS of $0.16, surpassing analyst expectations by $0.01. While revenue increased 6.6% year-over-year to $...",
+      "url": "https://www.marketbeat.com/instant-alerts/legalzoomcom-nasdaqlz-releases-quarterly-earnings-results-beats-expectations-by-001-eps-2026-08-05/",
+      "source": "MarketBeat",
+      "published_at": "20260806T031123",
+      "sentiment_score": 0.123,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "LZ"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": 19,
+      "is_noise": false
+    },
+    {
       "title": "Corpay Q2 2026 Earnings Call Transcript",
       "summary": "Corpay reported strong Q2 2026 results with revenue up 21% to $1.34 billion and record Cash EPS of $7.00, an increase of 36%. The company raised its full-year 2026 guidance, pro...",
       "url": "https://www.marketbeat.com/earnings/reports/2026-8-5-fleetcor-technologies-inc-stock-1/",
       "source": "MarketBeat",
       "published_at": "20260806T035937",
-      "sentiment_score": 0.445021,
+      "sentiment_score": 0.409037,
       "sentiment_label": "Bullish",
       "tickers": [
         "CPAY"
@@ -1047,13 +1076,37 @@
       "is_noise": false
     },
     {
+      "title": "Nokia Acquires NXP's Arizona Fab to Secure AI Data Center Optical Chip Supply",
+      "summary": "Nokia has acquired NXP Semiconductors' chip fabrication plant in Chandler, Arizona, to convert it into a production line for indium phosphide (InP) optical chips, crucial for AI...",
+      "url": "https://finance.biggo.com/news/b13e3c62-256f-4004-bffe-77feebdec3b0",
+      "source": "finance.biggo.com",
+      "published_at": "20260806T045452",
+      "sentiment_score": 0.507683,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NXPI",
+        "NOC",
+        "NVDA",
+        "INTC",
+        "LRCX"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Technology",
+        "Manufacturing",
+        "Earnings"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
       "title": "Earnings call transcript: Realty Income Q2 2026 revenue beats as stock rises",
       "summary": "Realty Income Corp. reported mixed Q2 2026 results, with revenue of $1.55 billion exceeding forecasts but EPS of $0.37 missing estimates. The company increased its full-year AFF...",
       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-realty-income-q2-2026-revenue-beats-as-stock-rises-93CH-4839732",
       "source": "Investing.com",
       "published_at": "20260806T013914",
-      "sentiment_score": 0.372324,
-      "sentiment_label": "Bullish",
+      "sentiment_score": 0.341679,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "O",
         "APO",
@@ -1070,30 +1123,12 @@
       "is_noise": false
     },
     {
-      "title": "Cerence (0S6) Q1 2024 Earnings Report - Results, Call & Slides",
-      "summary": "Cerence (0S6) has reported its Q1 2024 earnings, significantly beating analyst expectations for both EPS and revenue. The company posted an actual EPS of €0.97 against a consens...",
-      "url": "https://www.tipranks.com/stocks/de:0s6/earnings/q1-2024-report",
-      "source": "TipRanks",
-      "published_at": "20260806T011143",
-      "sentiment_score": 0.408115,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "CRNC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
       "title": "Enphase Energy (ENPH) Is Up 15.0% After Pivoting Q3 Outlook Toward U.S.-Made AI Power Electronics – Has The Bull Ca...",
       "summary": "Enphase Energy (ENPH) saw its stock rise 15% after shifting its Q3 outlook to emphasize U.S.-made AI power electronics, aligning with federal incentives and targeting AI data ce...",
       "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-enph/enphase-energy/news/enphase-energy-enph-is-up-150-after-pivoting-q3-outlook-towa/amp",
       "source": "Simply Wall Street",
       "published_at": "20260806T013754",
-      "sentiment_score": 0.32687,
+      "sentiment_score": 0.338862,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ENPH"
@@ -1114,7 +1149,7 @@
       "url": "https://www.intelligentinvestor.com.au/shares/nyse-dukz/ocean-park-diversified-income-etf",
       "source": "intelligentinvestor.com.au",
       "published_at": "20260806T011816",
-      "sentiment_score": 0.076345,
+      "sentiment_score": 0.068891,
       "sentiment_label": "Neutral",
       "tickers": [
         "DUKZ"
@@ -1132,7 +1167,7 @@
       "url": "https://simplywall.st/stocks/us/software/nasdaq-hut/hut-8/news/hut-8-hut-earnings-jolt-puts-its-ai-and-crypto-valuation-sto",
       "source": "Simply Wall St",
       "published_at": "20260806T025138",
-      "sentiment_score": 0.11165,
+      "sentiment_score": 0.144905,
       "sentiment_label": "Neutral",
       "tickers": [
         "HUT"
@@ -1152,7 +1187,7 @@
       "url": "https://simplywall.st/stocks/us/healthcare/nyse-mck/mckesson/news/is-mckessons-revenue-growth-with-falling-eps-altering-the-in/amp",
       "source": "Simply Wall St",
       "published_at": "20260806T023850",
-      "sentiment_score": -0.081217,
+      "sentiment_score": -0.071863,
       "sentiment_label": "Neutral",
       "tickers": [
         "MCK"
@@ -1164,29 +1199,19 @@
       ],
       "quality_score": 12,
       "is_noise": false
-    },
-    {
-      "title": "Halliburton's Q2 revenue hits $5.71 billion, beating estimates on dual-segment growth",
-      "summary": "Halliburton reported Q2 2026 revenue of $5.71 billion, a 3.7% increase from the previous year, surpassing analyst expectations by $210 million. This growth was driven by strong...",
-      "url": "https://www.marketscale.com/industries/energy/halliburtons-q2-revenue-hits-571-billion-beating-estimates-on-dual-segment-growth",
-      "source": "MarketScale",
-      "published_at": "20260806T020831",
-      "sentiment_score": 0.445039,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "HAL"
-      ],
-      "topics": [
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 12,
-      "is_noise": false
     }
   ],
   "top_tickers": [
     {
       "ticker": "LFMD",
+      "mentions": 2
+    },
+    {
+      "ticker": "NVDA",
+      "mentions": 2
+    },
+    {
+      "ticker": "LRCX",
       "mentions": 2
     },
     {
@@ -1196,24 +1221,16 @@
     {
       "ticker": "KLAC",
       "mentions": 2
-    },
-    {
-      "ticker": "JOBY",
-      "mentions": 1
-    },
-    {
-      "ticker": "CPAY",
-      "mentions": 1
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 44
+      "mentions": 45
     },
     {
       "topic": "Financial Markets",
-      "mentions": 25
+      "mentions": 28
     },
     {
       "topic": "Finance",
@@ -1224,22 +1241,22 @@
       "mentions": 15
     },
     {
-      "topic": "Life Sciences",
+      "topic": "Energy Transportation",
       "mentions": 10
     }
   ],
   "sentiment_counts": [
     {
       "label": "Bullish",
-      "count": 15
-    },
-    {
-      "label": "Somewhat-Bullish",
-      "count": 11
+      "count": 13
     },
     {
       "label": "Neutral",
-      "count": 10
+      "count": 12
+    },
+    {
+      "label": "Somewhat-Bullish",
+      "count": 12
     },
     {
       "label": "Bearish",
@@ -1257,11 +1274,11 @@
     },
     {
       "source": "MarketBeat",
-      "count": 5
+      "count": 6
     },
     {
       "source": "Simply Wall St",
-      "count": 4
+      "count": 5
     },
     {
       "source": "Yahoo Finance",

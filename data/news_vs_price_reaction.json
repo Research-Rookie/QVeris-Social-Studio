@@ -1,61 +1,65 @@
 {
-  "updated_at": "2026-08-05T05:31:20.427956+00:00",
-  "date": "2026-08-05",
+  "updated_at": "2026-08-06T05:34:20.920332+00:00",
+  "date": "2026-08-06",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "KIM",
-  "news_tone": "Neutral",
+  "symbol": "LFMD",
+  "news_tone": "Bullish",
   "top_theme": "Earnings",
-  "headline": "Transcript : Mattel, Inc., Q2 2026 Earnings Call, Aug 04, 2026",
-  "headline_source": "www.marketscreener.com",
+  "headline": "Earnings call transcript: LifeMD posts Q2 revenue miss, shares sink in after-hours",
+  "headline_source": "Investing.com",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for KIM: {'status_code': 200, 'data': {'c': 25.01, 'd': -0.4, 'dp': -1.5742, 'h': 25.72, 'l': 24.8201, 'o': 25.4, 'pc': 25.41, 't': 1785873600}}",
+  "price_error": "Could not parse quote data for LFMD: {'status_code': 200, 'data': {'c': 3.68, 'd': -0.22, 'dp': -5.641, 'h': 4.02, 'l': 3.51, 'o': 3.9, 'pc': 3.9, 't': 1785960000}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "KIM",
-        "mentions": 3
-      },
-      {
-        "ticker": "RKLB",
+        "ticker": "LFMD",
         "mentions": 2
       },
       {
-        "ticker": "MAT",
-        "mentions": 1
+        "ticker": "NVDA",
+        "mentions": 2
       },
       {
-        "ticker": "RXO",
-        "mentions": 1
+        "ticker": "LRCX",
+        "mentions": 2
       },
       {
-        "ticker": "PARR",
-        "mentions": 1
+        "ticker": "MS",
+        "mentions": 2
+      },
+      {
+        "ticker": "KLAC",
+        "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Neutral",
-        "count": 14
+        "label": "Bullish",
+        "count": 13
       },
       {
-        "label": "Bullish",
+        "label": "Neutral",
         "count": 12
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 7
+        "count": 12
+      },
+      {
+        "label": "Bearish",
+        "count": 4
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 5
+        "count": 4
       }
     ]
   }
