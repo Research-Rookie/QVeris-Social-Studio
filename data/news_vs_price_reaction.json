@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-08-06T05:34:20.920332+00:00",
-  "date": "2026-08-06",
+  "updated_at": "2026-08-07T04:36:56.513302+00:00",
+  "date": "2026-08-07",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "LFMD",
+  "symbol": "NEM",
   "news_tone": "Bullish",
   "top_theme": "Earnings",
-  "headline": "Earnings call transcript: LifeMD posts Q2 revenue miss, shares sink in after-hours",
-  "headline_source": "Investing.com",
+  "headline": "Kenvue (NYSE:KVUE) Posts Earnings Results, Misses Expectations By $0.01 EPS",
+  "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for LFMD: {'status_code': 200, 'data': {'c': 3.68, 'd': -0.22, 'dp': -5.641, 'h': 4.02, 'l': 3.51, 'o': 3.9, 'pc': 3.9, 't': 1785960000}}",
+  "price_error": "Could not parse quote data for NEM: {'status_code': 200, 'data': {'c': 105.43, 'd': 1.14, 'dp': 1.0931, 'h': 106.395, 'l': 103.1, 'o': 103.54, 'pc': 104.29, 't': 1786046400}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "LFMD",
+        "ticker": "NEM",
         "mentions": 2
       },
       {
-        "ticker": "NVDA",
-        "mentions": 2
+        "ticker": "KVUE",
+        "mentions": 1
       },
       {
-        "ticker": "LRCX",
-        "mentions": 2
+        "ticker": "ECVT",
+        "mentions": 1
       },
       {
-        "ticker": "MS",
-        "mentions": 2
+        "ticker": "HDSN",
+        "mentions": 1
       },
       {
-        "ticker": "KLAC",
-        "mentions": 2
+        "ticker": "GEVO",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Bullish",
-        "count": 13
+        "count": 15
       },
       {
         "label": "Neutral",
@@ -51,15 +51,15 @@
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 12
-      },
-      {
-        "label": "Bearish",
-        "count": 4
+        "count": 9
       },
       {
         "label": "Somewhat-Bearish",
         "count": 4
+      },
+      {
+        "label": "Bearish",
+        "count": 2
       }
     ]
   }
