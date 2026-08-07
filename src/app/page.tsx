@@ -169,6 +169,9 @@ export default function Home() {
           QVeris-powered market cards, tweet drafts, and daily signal archive.
         </div>
         <div className="topbarRight">
+          <a className="toolLaunch" href="/tools/financial-claim-checker">
+            Claim Checker
+          </a>
           <span className="environment">
             <span className="liveDot" />
             Daily archive
