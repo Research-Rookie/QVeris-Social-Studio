@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-06T05:12:01.556945+00:00",
-  "date": "2026-08-06",
+  "updated_at": "2026-08-07T04:22:19.726969+00:00",
+  "date": "2026-08-07",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "O",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.2386,
-  "baseline_label": "2026-07-05",
+  "symbol": "BAX",
+  "shift_label": "Narrative steady",
+  "sentiment_delta": 0.0455,
+  "baseline_label": "2026-07-29",
   "current": {
-    "date": "2026-08-06",
-    "symbol": "O",
+    "date": "2026-08-07",
+    "symbol": "BAX",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.3723,
+    "sentiment_score": 0.2051,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,7 +21,7 @@
         "count": 1
       },
       {
-        "label": "Real Estate",
+        "label": "Life Sciences",
         "count": 1
       },
       {
@@ -31,109 +31,19 @@
       {
         "label": "Finance",
         "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "realty",
+        "label": "baxter",
         "count": 2
       },
       {
-        "label": "income",
+        "label": "international",
         "count": 2
       },
       {
-        "label": "revenue",
-        "count": 2
-      },
-      {
-        "label": "earnings",
-        "count": 1
-      },
-      {
-        "label": "call",
-        "count": 1
-      },
-      {
-        "label": "transcript",
-        "count": 1
-      },
-      {
-        "label": "beats",
-        "count": 1
-      },
-      {
-        "label": "rises",
-        "count": 1
-      },
-      {
-        "label": "corp",
-        "count": 1
-      },
-      {
-        "label": "reported",
-        "count": 1
-      },
-      {
-        "label": "mixed",
-        "count": 1
-      },
-      {
-        "label": "results",
-        "count": 1
-      }
-    ],
-    "headline": "Earnings call transcript: Realty Income Q2 2026 revenue beats as stock rises",
-    "headline_source": "Investing.com"
-  },
-  "previous": {
-    "date": "2026-07-05",
-    "symbol": "O",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.1337,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Real Estate",
-        "count": 1
-      },
-      {
-        "label": "Retail Wholesale",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "spg",
-        "count": 2
-      },
-      {
-        "label": "simon",
-        "count": 2
-      },
-      {
-        "label": "property",
-        "count": 2
-      },
-      {
-        "label": "financial",
-        "count": 2
-      },
-      {
-        "label": "options",
+        "label": "forecasts",
         "count": 1
       },
       {
@@ -145,47 +55,127 @@
         "count": 1
       },
       {
-        "label": "detailed",
+        "label": "morningstar",
         "count": 1
       },
       {
-        "label": "overview",
+        "label": "detailing",
         "count": 1
       },
       {
-        "label": "including",
+        "label": "outlook",
         "count": 1
       },
       {
-        "label": "performance",
+        "label": "revenue",
         "count": 1
       },
       {
-        "label": "key",
+        "label": "growth",
+        "count": 1
+      },
+      {
+        "label": "tariff",
+        "count": 1
+      },
+      {
+        "label": "refund",
         "count": 1
       }
     ],
-    "headline": "SPG - Simon Property Group Inc Options",
-    "headline_source": "Finviz"
+    "headline": "Baxter International Inc. (BAX) Stock Forecasts",
+    "headline_source": "Yahoo! Finance Canada"
+  },
+  "previous": {
+    "date": "2026-07-29",
+    "symbol": "BAX",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.1596,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Life Sciences",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "baxter",
+        "count": 2
+      },
+      {
+        "label": "earnings",
+        "count": 2
+      },
+      {
+        "label": "what",
+        "count": 1
+      },
+      {
+        "label": "look",
+        "count": 1
+      },
+      {
+        "label": "for",
+        "count": 1
+      },
+      {
+        "label": "international",
+        "count": 1
+      },
+      {
+        "label": "scheduled",
+        "count": 1
+      },
+      {
+        "label": "thursday",
+        "count": 1
+      },
+      {
+        "label": "open",
+        "count": 1
+      },
+      {
+        "label": "beat",
+        "count": 1
+      },
+      {
+        "label": "revenue",
+        "count": 1
+      },
+      {
+        "label": "eps",
+        "count": 1
+      }
+    ],
+    "headline": "Baxter Earnings: What To Look For From BAX",
+    "headline_source": "TradingView"
   },
   "emerging_themes": [
     "Finance",
-    "Economy Macro",
-    "Earnings"
+    "Earnings",
+    "Life Sciences"
   ],
-  "fading_themes": [
-    "Retail Wholesale"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "realty",
-    "income",
-    "revenue"
+    "international",
+    "forecasts",
+    "article"
   ],
   "fading_keywords": [
-    "spg",
-    "simon",
-    "property"
+    "earnings",
+    "what",
+    "look"
   ],
-  "takeaway": "O's narrative is turning bullish: sentiment moved +0.24, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "BAX's narrative is narrative steady: sentiment moved +0.05, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
