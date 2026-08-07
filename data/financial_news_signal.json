@@ -1,833 +1,526 @@
 {
-  "updated_at": "2026-08-06T05:34:15.835498+00:00",
-  "date": "2026-08-06",
+  "updated_at": "2026-08-07T04:07:29.331240+00:00",
+  "date": "2026-08-07",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Earnings call transcript: LifeMD posts Q2 revenue miss, shares sink in after-hours",
-      "summary": "LifeMD (LFMD) reported a Q2 revenue miss of $47.3 million against an analyst forecast of $49.15 million, alongside an adjusted EBITDA loss and a lowered full-year 2026 outlook,...",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-lifemd-posts-q2-revenue-miss-shares-sink-in-afterhours-93CH-4839502",
-      "source": "Investing.com",
-      "published_at": "20260806T014211",
-      "sentiment_score": -0.420469,
-      "sentiment_label": "Bearish",
+      "title": "Kenvue (NYSE:KVUE) Posts Earnings Results, Misses Expectations By $0.01 EPS",
+      "summary": "Kenvue (NYSE:KVUE) reported its quarterly earnings, missing analyst expectations by $0.01 EPS with $0.31 per share, against an estimated $0.32. The company's revenue of $3.96 bi...",
+      "url": "https://www.marketbeat.com/instant-alerts/kenvue-nysekvue-posts-earnings-results-misses-expectations-by-001-eps-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T025109",
+      "sentiment_score": -0.247853,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "LFMD"
+        "KVUE"
       ],
       "topics": [
         "Earnings",
-        "Finance",
-        "Life Sciences"
+        "Financial Markets",
+        "Finance"
       ],
       "quality_score": 22,
       "is_noise": false
     },
     {
-      "title": "Joby Aviation Beats Q2 Revenue Estimates, Raises FY Guidance",
-      "summary": "Joby Aviation (NYSE: JOBY) reported its Q2 results, with quarterly losses of 25 cents per share missing estimates, but revenue of $38.64 million significantly beating the analys...",
-      "url": "https://www.benzinga.com/markets/earnings/26/08/60975203/joby-aviation-beats-q2-revenue-estimates-raises-fy-guidance",
-      "source": "Benzinga",
-      "published_at": "20260806T041110",
-      "sentiment_score": 0.485664,
+      "title": "Ecovyst (NYSE:ECVT) Posts Earnings Results, Beats Expectations By $0.02 EPS",
+      "summary": "Ecovyst (NYSE:ECVT) reported strong quarterly earnings, beating analyst expectations by $0.02 EPS with revenue up 24.9% year-over-year. The company raised its full-year 2026 gui...",
+      "url": "https://www.marketbeat.com/instant-alerts/ecovyst-nyseecvt-posts-earnings-results-beats-expectations-by-002-eps-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T014810",
+      "sentiment_score": 0.409019,
       "sentiment_label": "Bullish",
       "tickers": [
-        "JOBY"
+        "ECVT"
       ],
       "topics": [
         "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 22,
+      "is_noise": false
+    },
+    {
+      "title": "Baxter International Inc. (BAX) Stock Forecasts",
+      "summary": "This article provides a Morningstar analyst report on Baxter International Inc. (BAX), detailing its 2026 outlook, revenue growth, and tariff refund impact. The report, authored...",
+      "url": "https://ca.finance.yahoo.com/research/reports/MS_0P000000QB_AnalystReport_1785456320000",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260807T003712",
+      "sentiment_score": 0.20507,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "BAX",
+        "ALL",
+        "BDX",
+        "ZBH",
+        "PFE"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
         "Financial Markets",
-        "Technology",
+        "Finance"
+      ],
+      "quality_score": 21,
+      "is_noise": false
+    },
+    {
+      "title": "Gevo Q2 Earnings Call Highlights",
+      "summary": "Gevo reported increased second-quarter revenue and significantly raised its 2026 adjusted EBITDA outlook, driven by strong performance in low-carbon fuels, expected tax credits,...",
+      "url": "https://www.marketbeat.com/instant-alerts/gevo-q2-earnings-call-highlights-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T024106",
+      "sentiment_score": 0.430317,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "GEVO"
+      ],
+      "topics": [
+        "Earnings",
         "Energy Transportation"
-      ],
-      "quality_score": 19,
-      "is_noise": false
-    },
-    {
-      "title": "LegalZoom.com (NASDAQ:LZ) Releases Quarterly Earnings Results, Beats Expectations By $0.01 EPS",
-      "summary": "LegalZoom.com (NASDAQ:LZ) announced its quarterly earnings, reporting an EPS of $0.16, surpassing analyst expectations by $0.01. While revenue increased 6.6% year-over-year to $...",
-      "url": "https://www.marketbeat.com/instant-alerts/legalzoomcom-nasdaqlz-releases-quarterly-earnings-results-beats-expectations-by-001-eps-2026-08-05/",
-      "source": "MarketBeat",
-      "published_at": "20260806T031123",
-      "sentiment_score": 0.123,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "LZ"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 19,
-      "is_noise": false
-    },
-    {
-      "title": "Corpay Q2 2026 Earnings Call Transcript",
-      "summary": "Corpay reported strong Q2 2026 results with revenue up 21% to $1.34 billion and record Cash EPS of $7.00, an increase of 36%. The company raised its full-year 2026 guidance, pro...",
-      "url": "https://www.marketbeat.com/earnings/reports/2026-8-5-fleetcor-technologies-inc-stock-1/",
-      "source": "MarketBeat",
-      "published_at": "20260806T035937",
-      "sentiment_score": 0.409037,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "CPAY"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Economy Macro",
-        "Mergers And Acquisitions"
       ],
       "quality_score": 18,
       "is_noise": false
     },
     {
-      "title": "Nokia Acquires NXP's Arizona Fab to Secure AI Data Center Optical Chip Supply",
-      "summary": "Nokia has acquired NXP Semiconductors' chip fabrication plant in Chandler, Arizona, to convert it into a production line for indium phosphide (InP) optical chips, crucial for AI...",
-      "url": "https://finance.biggo.com/news/b13e3c62-256f-4004-bffe-77feebdec3b0",
-      "source": "finance.biggo.com",
-      "published_at": "20260806T045452",
-      "sentiment_score": 0.507683,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "NXPI",
-        "NOC",
-        "NVDA",
-        "INTC",
-        "LRCX"
-      ],
-      "topics": [
-        "Mergers And Acquisitions",
-        "Technology",
-        "Manufacturing",
-        "Earnings"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "Earnings call transcript: Realty Income Q2 2026 revenue beats as stock rises",
-      "summary": "Realty Income Corp. reported mixed Q2 2026 results, with revenue of $1.55 billion exceeding forecasts but EPS of $0.37 missing estimates. The company increased its full-year AFF...",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-realty-income-q2-2026-revenue-beats-as-stock-rises-93CH-4839732",
-      "source": "Investing.com",
-      "published_at": "20260806T013914",
-      "sentiment_score": 0.341679,
+      "title": "Five9’s (NASDAQ:FIVN) Q2 CY2026 Sales Beat Estimates, Quarterly Revenue Guidance Slightly Exceeds Expectations",
+      "summary": "Five9 (NASDAQ:FIVN) reported better-than-expected revenue of $312.4 million in Q2 CY2026, exceeding analyst estimates by 1.9% with a 10.3% year-on-year increase. The company's n...",
+      "url": "https://stockstory.org/us/stocks/nasdaq/fivn/news/earnings/five9s-nasdaqfivn-q2-cy2026-sales-beat-estimates-quarterly-revenue-guidance-slightly-exceeds-expectations",
+      "source": "StockStory",
+      "published_at": "20260807T034030",
+      "sentiment_score": 0.250746,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "O",
-        "APO",
-        "MS"
+        "FIVN"
       ],
       "topics": [
         "Earnings",
-        "Real Estate",
-        "Financial Markets",
-        "Finance",
-        "Economy Macro"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "Enphase Energy (ENPH) Is Up 15.0% After Pivoting Q3 Outlook Toward U.S.-Made AI Power Electronics – Has The Bull Ca...",
-      "summary": "Enphase Energy (ENPH) saw its stock rise 15% after shifting its Q3 outlook to emphasize U.S.-made AI power electronics, aligning with federal incentives and targeting AI data ce...",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-enph/enphase-energy/news/enphase-energy-enph-is-up-150-after-pivoting-q3-outlook-towa/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260806T013754",
-      "sentiment_score": 0.338862,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ENPH"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets",
-        "Manufacturing",
-        "Energy Transportation"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Ocean Park Diversified Income ETF (NYSE:DUKZ)",
-      "summary": "This article provides detailed financial information for the Ocean Park Diversified Income ETF (NYSE: DUKZ). It includes current share price, market capitalization, share price...",
-      "url": "https://www.intelligentinvestor.com.au/shares/nyse-dukz/ocean-park-diversified-income-etf",
-      "source": "intelligentinvestor.com.au",
-      "published_at": "20260806T011816",
-      "sentiment_score": 0.068891,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DUKZ"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Hut 8 (HUT) Earnings Jolt Puts Its AI And Crypto Valuation Story To The Test",
-      "summary": "Hut 8 (HUT) recently reported Q2 2026 earnings, showing strong year-over-year revenue growth but a wider net loss due to unrealized digital asset losses, causing an 8.30% stock...",
-      "url": "https://simplywall.st/stocks/us/software/nasdaq-hut/hut-8/news/hut-8-hut-earnings-jolt-puts-its-ai-and-crypto-valuation-sto",
-      "source": "Simply Wall St",
-      "published_at": "20260806T025138",
-      "sentiment_score": 0.144905,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HUT"
-      ],
-      "topics": [
-        "Earnings",
-        "Blockchain",
-        "Financial Markets",
         "Technology"
       ],
-      "quality_score": 12,
+      "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "Is McKesson’s Revenue Growth With Falling EPS Altering The Investment Case For McKesson (MCK)?",
-      "summary": "McKesson Corporation reported increased sales but decreased net income and diluted EPS in Q1 2026, indicating margin pressures despite revenue growth. This situation raises ques...",
-      "url": "https://simplywall.st/stocks/us/healthcare/nyse-mck/mckesson/news/is-mckessons-revenue-growth-with-falling-eps-altering-the-in/amp",
-      "source": "Simply Wall St",
-      "published_at": "20260806T023850",
-      "sentiment_score": -0.071863,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MCK"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Halliburton's Q2 revenue hits $5.71 billion, beating estimates on dual-segment growth",
-      "summary": "Halliburton reported Q2 2026 revenue of $5.71 billion, a 3.7% increase from the previous year, surpassing analyst expectations by $210 million. This growth was driven by strong...",
-      "url": "https://www.marketscale.com/industries/energy/halliburtons-q2-revenue-hits-571-billion-beating-estimates-on-dual-segment-growth",
-      "source": "MarketScale",
-      "published_at": "20260806T020831",
-      "sentiment_score": 0.429161,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "HAL"
-      ],
-      "topics": [
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Autodesk (ADSK) Gains As Market Dips: What You Should Know",
-      "summary": "Autodesk (ADSK) saw a 1.19% gain to $240.03, outperforming the S&P 500's daily loss despite a general market dip. The company is set to release its earnings on August 27, 2026,...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/autodesk-adsk-gains-market-dips-221502167.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260806T015307",
-      "sentiment_score": 0.41059,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "ADSK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Innoviz Technologies Q2 2026 Earnings Call Transcript",
-      "summary": "Innoviz Technologies reported record Q2 2026 revenue of $18.1 million, driven by NRE recognition and program milestones, with gross margins returning to positive territory. The...",
-      "url": "https://www.marketbeat.com/earnings/reports/2026-8-5-innoviz-technologies-ltd-stock/",
+      "title": "Composecure (NYSE:GPGI) Releases Earnings Results, Beats Estimates By $0.03 EPS",
+      "summary": "CompoSecure (NYSE:GPGI) announced strong second-quarter 2026 adjusted EPS of $0.17, surpassing analyst estimates by $0.03. Despite the positive earnings, the company faces cauti...",
+      "url": "https://www.marketbeat.com/instant-alerts/composecure-nysegpgi-releases-earnings-results-beats-estimates-by-003-eps-2026-08-06/",
       "source": "MarketBeat",
-      "published_at": "20260806T014308",
-      "sentiment_score": 0.54893,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "INVZ"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Finance"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Earnings call transcript: KORU Medical beats Q2 2026 estimates, shares fall",
-      "summary": "KORU Medical Systems reported better-than-expected earnings and revenue for Q2 2026, with adjusted EPS of $0.02 and revenue of $12.0 million. Despite the beat, shares fell after...",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-koru-medical-beats-q2-2026-estimates-shares-fall-93CH-4839443",
-      "source": "Investing.com",
-      "published_at": "20260806T014048",
-      "sentiment_score": -0.052451,
+      "published_at": "20260807T013024",
+      "sentiment_score": 0.024795,
       "sentiment_label": "Neutral",
       "tickers": [
-        "KRMD",
-        "BIIB"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Applied Materials Fell 11% Last Month: A Prominent Wall Street Pro Predicts 70% Gains Moving Forward",
-      "summary": "Applied Materials (AMAT) experienced an 11% drop last month, but Susquehanna analyst Mehdi Hosseini has issued a Street-high price target of $900, implying a 68% upside. This bu...",
-      "url": "https://247wallst.com/investing/2026/08/05/applied-materials-fell-11-last-month-a-prominent-wall-street-pro-predicts-70-gains-moving-forward/",
-      "source": "24/7 Wall St.",
-      "published_at": "20260806T034706",
-      "sentiment_score": 0.327303,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Economy Macro"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Why Innovex (INVX) Is Up 18.3% After Q2 Beat, Guidance Hike And TCO Integration Update",
-      "summary": "Innovex International (INVX) saw its stock rise 18.3% after reporting strong Q2 results, issuing increased Q3 revenue guidance, and providing an update on its TCO Group integrat...",
-      "url": "https://simplywall.st/stocks/us/energy/nyse-invx/innovex-international/news/why-innovex-invx-is-up-183-after-q2-beat-guidance-hike-and-t/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260806T021054",
-      "sentiment_score": 0.457759,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "INVX"
-      ],
-      "topics": [
-        "Earnings",
-        "Mergers And Acquisitions",
-        "Energy Transportation",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Kratos (KTOS) Stock Reprices Higher As Growth Strengthens And Cash Burns",
-      "summary": "Kratos Defense & Security Solutions (KTOS) stock rose 6.7% after its Q2 2026 earnings, driven by strong revenue growth (US$458.8m, up 19.1% organically) and traction in key prog...",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-ktos/kratos-defense-security-solutions/news/kratos-ktos-stock-reprices-higher-as-growth-strengthens-and",
-      "source": "Simply Wall Street",
-      "published_at": "20260806T014007",
-      "sentiment_score": 0.290315,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "KTOS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Technology"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Can Microchip Technology’s (MCHP) PCIe Gen 6 Storage Fabric Prototype Reframe Its Data Center Narrative?",
-      "summary": "Microchip Technology recently showcased a PCIe Gen 6 storage fabric prototype at the 2026 Future of Memory and Storage Conference, highlighting its potential to enhance AI, HPC,...",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mchp/microchip-technology/news/can-microchip-technologys-mchp-pcie-gen-6-storage-fabric-pro/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260806T013842",
-      "sentiment_score": 0.15791,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MCHP",
-        "MU",
-        "NVDA",
-        "MSFT"
-      ],
-      "topics": [
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Centuri Holdings, Inc. 2026 Q2 - Results - Earnings Call Presentation (NYSE:CTRI) 2026-08-05",
-      "summary": "Centuri Holdings, Inc. (CTRI) has released its Q2 2026 earnings call presentation. The company reported an EPS of $0.24, beating estimates by $0.04, and revenue of $961.99M, exc...",
-      "url": "https://seekingalpha.com/article/4930489-centuri-holdings-inc-2026-q2-results-earnings-call-presentation",
-      "source": "Seeking Alpha",
-      "published_at": "20260806T011538",
-      "sentiment_score": 0.467926,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "CTRI"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Is Herbalife’s Loss Amid Higher Sales and CFO Shift Altering The Investment Case For Herbalife (HLF)?",
-      "summary": "Herbalife reported higher Q2 2026 net sales but a net loss, while also announcing a CFO transition. Despite the loss, the company raised its full-year sales guidance, which is s...",
-      "url": "https://simplywall.st/stocks/us/household/nyse-hlf/herbalife/news/is-herbalifes-loss-amid-higher-sales-and-cfo-shift-altering/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260806T011250",
-      "sentiment_score": -0.07046,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HLF"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Life Sciences",
-        "Retail Wholesale"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Coca-Cola's Record High: Decoding the Hidden Metaphor of Our Times",
-      "summary": "Coca-Cola recently hit an all-time high in market capitalization, with its stock rising over 7% after releasing its second-quarter earnings report, showcasing strong growth in b...",
-      "url": "https://eu.36kr.com/en/p/3926690157459849",
-      "source": "36 Kr",
-      "published_at": "20260806T041530",
-      "sentiment_score": 0.300266,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "KO",
-        "BAC",
-        "MS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Retail Wholesale",
-        "Technology"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Emerson Electric (EMR) Stock Quietly Trails A Stronger Margin Story",
-      "summary": "Emerson Electric (EMR) saw its stock price rise by 2.3% after reporting strong Q3 2026 earnings, which included a significant increase in adjusted EPS and free cash flow, alongs...",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-emr/emerson-electric/news/emerson-electric-emr-stock-quietly-trails-a-stronger-margin",
-      "source": "Simply Wall St",
-      "published_at": "20260806T023751",
-      "sentiment_score": 0.200789,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "EMR",
-        "ETN",
-        "GNRC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Technology"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Global Net Lease Q2 Results: FFO misses estimate, sales beat",
-      "summary": "Global Net Lease (GNL) reported Q2 FFO of $0.15 per share, missing the analyst estimate of $0.21 by 28.57%, despite a 400% year-over-year increase. The company's quarterly sales...",
-      "url": "https://scanx.trade/stock-market-news/companies/global-net-lease-q2-results-ffo-misses-estimate-sales-beat/47522833",
-      "source": "scanx.trade",
-      "published_at": "20260806T022319",
-      "sentiment_score": 0.035281,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GNL-P-A"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Financial Markets"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Phillips 66 (PSX) Stock Pulls Back After Cash Flow Fueled Profit Surge",
-      "summary": "Phillips 66 (PSX) stock saw a 1.6% pullback despite strong Q2 2026 earnings, driven by robust refining margins and significant cash generation. The company posted a substantial...",
-      "url": "https://simplywall.st/stocks/us/energy/nyse-psx/phillips-66/news/phillips-66-psx-stock-pulls-back-after-cash-flow-fueled-prof",
-      "source": "Simply Wall St",
-      "published_at": "20260806T020910",
-      "sentiment_score": 0.176463,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "PSX",
-        "VLO",
-        "MPC"
-      ],
-      "topics": [
-        "Earnings",
-        "Energy Transportation",
-        "Financial Markets"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "GXO Logistics (GXO) Stock Price Slides On Margin Squeeze Concerns",
-      "summary": "GXO Logistics (GXO) saw its stock price fall by 9% due to concerns over profit margin squeeze despite an increase in Q2 revenue. While the company reported strong commercial mil...",
-      "url": "https://simplywall.st/stocks/us/transportation/nyse-gxo/gxo-logistics/news/gxo-logistics-gxo-stock-price-slides-on-margin-squeeze-conce",
-      "source": "Simply Wall St",
-      "published_at": "20260806T014059",
-      "sentiment_score": -0.42108,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "GXO"
+        "CMPOV"
       ],
       "topics": [
         "Earnings",
         "Financial Markets"
       ],
-      "quality_score": 9,
+      "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "Insulet (PODD) Is Down 21.9% After Cutting 2026 Revenue Outlook On Weaker Type 2 Retention",
-      "summary": "Insulet Corporation (PODD) saw its stock drop 21.9% after cutting its 2026 revenue outlook due to weaker retention and utilization among Type 2 diabetes users, despite strong ov...",
-      "url": "https://finance.yahoo.com/healthcare/articles/insulet-podd-down-21-9-011155409.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260806T013910",
-      "sentiment_score": -0.439334,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "PODD"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Clearfield (CLFD) Beats Q3 Earnings Estimates",
-      "summary": "Clearfield (CLFD) reported Q3 earnings of $0.22 per share, surpassing the Zacks Consensus Estimate of $0.2 per share, and an increase from $0.11 per share a year ago. However, i...",
-      "url": "https://au.finance.yahoo.com/news/clearfield-clfd-beats-q3-earnings-212503939.html",
-      "source": "Yahoo Finance Australia",
-      "published_at": "20260806T011642",
-      "sentiment_score": 0.292861,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CLFD"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "MFA Financial, Inc. 8.875% Senior Notes due 2029 Revenue Breakdown – NYSE:MFAN",
-      "summary": "This article provides financial information for MFA Financial, Inc.'s 8.875% Senior Notes due 2029, traded under the NYSE symbol MFAN. It outlines where users can find an overvi...",
-      "url": "https://www.tradingview.com/symbols/NYSE-MFAN/financials-segments/",
-      "source": "TradingView",
-      "published_at": "20260806T021027",
-      "sentiment_score": 0.046601,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MFAN"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Greenfire Resources (NYSE:GFR) Stock Slips As Profit Returns Meet EPS Pressure",
-      "summary": "Greenfire Resources (NYSE:GFR) saw its stock slip 1.5% despite returning to profit in Q2 2026, with basic EPS of C$0.43 and net income of C$53.46 million on C$194.74 million in...",
-      "url": "https://simplywall.st/stocks/us/energy/nyse-gfr/greenfire-resources/news/greenfire-resources-nysegfr-stock-slips-as-profit-returns-me/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260806T015012",
-      "sentiment_score": -0.195644,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "GFR"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "LCI Industries Stock 12‑Month Price Target Cut to $134.4, Implies 26% Upside",
-      "summary": "Analysts have cut the average 12-month price target for LCI Industries (LCII) stock to $134.4 from $136.6, suggesting a potential 26% upside from its August 4th closing price. D...",
-      "url": "https://www.tradingview.com/news/tradingview:387d8a77ebf2a:0-lci-industries-stock-12-month-price-target-cut-to-134-4-implies-26-upside/",
-      "source": "TradingView",
-      "published_at": "20260806T044148",
-      "sentiment_score": 0.439614,
+      "title": "ESCO Technologies (NYSE:ESE) Issues FY 2026 Earnings Guidance",
+      "summary": "ESCO Technologies (NYSE:ESE) has issued its FY 2026 earnings guidance, projecting an EPS of $8.30–$8.40, which surpasses the consensus estimate of $8.19, with revenue guidance m...",
+      "url": "https://www.marketbeat.com/instant-alerts/esco-technologies-nyseese-issues-fy-2026-earnings-guidance-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T004109",
+      "sentiment_score": 0.396258,
       "sentiment_label": "Bullish",
       "tickers": [
-        "LCII"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Kodiak Gas Services Announces Quarterly Dividend",
-      "summary": "Kodiak Gas Services (NYSE: KGS) has declared a cash dividend of $0.49 per share of common stock for the second quarter of 2026. This dividend will be paid on August 27, 2026, to...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kodiak-gas-services-announces-quarterly-230000021.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260806T044014",
-      "sentiment_score": 0.385348,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "KGS"
+        "ESE"
       ],
       "topics": [
         "Earnings",
-        "Energy Transportation",
-        "Financial Markets",
-        "Finance"
+        "Financial Markets"
       ],
-      "quality_score": 7,
+      "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "Should STERIS' (STE) Record Chemistries Investment and Dividend Hike Require Action From Investors?",
-      "summary": "STERIS plc (STE) plans to invest US$600 million in a new 600,000 square-foot chemistries Center of Excellence in North Carolina, creating 335 jobs and consolidating production....",
-      "url": "https://uk.finance.yahoo.com/news/steris-ste-record-chemistries-investment-031923235.html",
+      "title": "Viatris Inc (VTRS) (Q2 2026) Earnings Call Highlights: Strong Growth and Raised Guidance Amid ...",
+      "summary": "Viatris Inc (VTRS) reported strong Q2 2026 results with $3.8 billion in revenues, a 3.5% operational growth year-over-year, and raised its full-year guidance. Key drivers includ...",
+      "url": "https://uk.finance.yahoo.com/news/viatris-inc-vtrs-q2-2026-231434922.html",
       "source": "Yahoo Finance UK",
-      "published_at": "20260806T033928",
-      "sentiment_score": 0.461833,
+      "published_at": "20260807T010928",
+      "sentiment_score": 0.39293,
       "sentiment_label": "Bullish",
       "tickers": [
-        "STE"
+        "VTRS"
       ],
       "topics": [
         "Earnings",
-        "Finance",
-        "Life Sciences",
-        "Manufacturing",
-        "Financial Markets"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Kraft Heinz Company (NASDAQ:KHC) to Issue Quarterly Dividend of $0.40",
-      "summary": "Kraft Heinz Company (NASDAQ:KHC) has announced a quarterly dividend of $0.40 per share, totaling $1.60 annualized, resulting in a 6.2% yield. The dividend is payable on Septembe...",
-      "url": "https://www.marketbeat.com/instant-alerts/kraft-heinz-company-nasdaqkhc-to-issue-quarterly-dividend-of-040-2026-08-05/",
-      "source": "MarketBeat",
-      "published_at": "20260806T033836",
-      "sentiment_score": -0.205881,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "KHC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Is Huron (HURN) Using Buybacks and Board Additions to Quietly Redefine Its Growth Ambitions?",
-      "summary": "Huron Consulting Group Inc. reported strong Q2 2026 results, including US$475.04 million in revenue and US$31.23 million in net income. The company also repurchased 438,456 shar...",
-      "url": "https://simplywall.st/stocks/us/commercial-services/nasdaq-hurn/huron-consulting-group/news/is-huron-hurn-using-buybacks-and-board-additions-to-quietly/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260806T033448",
-      "sentiment_score": 0.334168,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "HURN"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
         "Life Sciences"
       ],
-      "quality_score": 7,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "KLA (NASDAQ:KLAC) EVP Mary Beth Wilkinson Sells 13,802 Shares",
-      "summary": "KLA EVP Mary Beth Wilkinson sold 13,802 shares of KLA (NASDAQ:KLAC) stock for approximately $2.70 million, reducing her direct ownership by 38.43%. This transaction follows othe...",
-      "url": "https://www.marketbeat.com/instant-alerts/kla-nasdaqklac-evp-mary-beth-wilkinson-sells-13802-shares-2026-08-05/",
-      "source": "MarketBeat",
-      "published_at": "20260806T023829",
-      "sentiment_score": -0.121287,
-      "sentiment_label": "Neutral",
+      "title": "Akamai Technologies (AKAM) Beats Q2 Earnings and Revenue Estimates",
+      "summary": "Akamai Technologies (AKAM) announced strong Q2 2026 results, surpassing earnings estimates with $1.59 per share and revenue estimates with $1.1 billion. The company's stock has...",
+      "url": "https://sg.finance.yahoo.com/news/akamai-technologies-akam-beats-q2-214002675.html",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260807T010704",
+      "sentiment_score": 0.497273,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "KLAC"
+        "AKAM"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Technology"
       ],
-      "quality_score": 7,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "The Bull Case For General Electric (GE) Could Change Following Surging Aerospace Engine Services Revenue Growth",
-      "summary": "GE Aerospace reported a 27% increase in revenue for its Commercial Engines & Services segment in Q2 2026, driven by strong demand for services, spare parts, and LEAP engine deli...",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-ge/general-electric/news/the-bull-case-for-general-electric-ge-could-change-following-4/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260806T013826",
-      "sentiment_score": 0.33352,
+      "title": "Cryoport (NASDAQ:CYRX) Reports In-Line Q2 Results as Stock Edges Higher",
+      "summary": "Cryoport (NASDAQ:CYRX) reported Q2 2026 results that were largely in line with analyst expectations, with revenue of $48.97 million against a consensus of $49.17 million and non...",
+      "url": "https://www.chartmill.com/news/CYRX/Chartmill-53162-Cryoport-NASDAQCYRX-Reports-In-Line-Q2-Results-as-Stock-Edges-Higher",
+      "source": "ChartMill",
+      "published_at": "20260807T020921",
+      "sentiment_score": 0.228121,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "GE",
-        "DAL",
-        "UAL",
-        "LUV"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Hilltop (NYSE:HTH) Director Rhodes Bobbitt Sells 12,100 Shares",
-      "summary": "Hilltop (NYSE:HTH) Director Rhodes Bobbitt sold 12,100 shares of the company's stock for $484,000, reducing his holdings by 13.72%. This comes as Hilltop shares recently traded...",
-      "url": "https://www.marketbeat.com/instant-alerts/hilltop-nysehth-director-rhodes-bobbitt-sells-12100-shares-2026-08-05/",
-      "source": "MarketBeat",
-      "published_at": "20260806T011308",
-      "sentiment_score": 0.109186,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HTH"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Goodyear Americas Posts Q2 Operating Loss",
-      "summary": "Goodyear's Americas segment reported a $10 million operating loss in Q2 2026, primarily due to a 13% decline in replacement tire volume, although this was an improvement from Q1...",
-      "url": "https://www.moderntiredealer.com/suppliers/news/55396070/goodyear-americas-posts-q2-operating-loss-as-replacement-tire-decline-eases",
-      "source": "Modern Tire Dealer",
-      "published_at": "20260806T034054",
-      "sentiment_score": -0.419539,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "GT"
-      ],
-      "topics": [
-        "Earnings",
-        "Manufacturing",
-        "Economy Macro",
-        "Retail Wholesale"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "LifeMD Q2 Results: Revenue falls 3%, adjusted EBITDA loss widens",
-      "summary": "LifeMD reported a 3% year-over-year revenue decline to $47.3 million in Q2 2026, while its adjusted EBITDA swung to a $3.5 million loss, primarily due to higher customer acquisi...",
-      "url": "https://scanx.trade/stock-market-news/companies/lifemd-q2-results-revenue-falls-3-adjusted-ebitda-loss-widens/47525101",
-      "source": "scanx.trade",
-      "published_at": "20260806T024211",
-      "sentiment_score": -0.244501,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "LFMD"
+        "CYRX"
       ],
       "topics": [
         "Earnings",
         "Life Sciences"
       ],
-      "quality_score": 6,
+      "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "Coast clears for MTN Group’s $6.2b IHS Towers’ acquisition",
-      "summary": "MTN Group has cleared a significant hurdle in its acquisition of IHS Towers, as IHS shareholders approved the transaction, enabling MTN to repurchase cellular towers it previous...",
-      "url": "https://thenationonlineng.net/coast-clears-for-mtn-groups-6-2b-ihs-towers-acquisition/amp/",
-      "source": "The Nation Newspaper",
-      "published_at": "20260806T021113",
-      "sentiment_score": 0.01334,
-      "sentiment_label": "Neutral",
+      "title": "GCI Liberty, Inc. - Series C GCI Group (NASDAQ:GLIBK) Issues Quarterly Earnings Results, Misses Expectations By $0....",
+      "summary": "GCI Liberty, Inc. - Series C GCI Group (NASDAQ:GLIBK) reported quarterly earnings per share of $0.40, significantly missing the consensus estimate of $1.15 by $0.75. Despite a n...",
+      "url": "https://www.marketbeat.com/instant-alerts/gci-liberty-inc-series-c-gci-group-nasdaqglibk-issues-quarterly-earnings-results-misses-expectations-by-075-eps-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T014140",
+      "sentiment_score": 0.181125,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "IHS"
+        "GLBKV",
+        "JPM",
+        "USB"
       ],
       "topics": [
-        "Mergers And Acquisitions",
-        "Technology",
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Fidus Investment Corp earnings missed, revenue topped estimates",
+      "summary": "Fidus Investment Corp (NASDAQ: FDUS) reported second-quarter earnings per share of $0.50, missing analyst estimates of $0.51. However, the company's revenue for the quarter came...",
+      "url": "https://m.investing.com/news/earnings/fidus-investment-corp-earnings-missed-revenue-topped-estimates-4844979?ampMode=1",
+      "source": "Investing.com",
+      "published_at": "20260807T004059",
+      "sentiment_score": 0.016093,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "FDUS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Should Easterly Government Properties (DEA) Be Repriced After Raised Guidance And Q2 Results?",
+      "summary": "Easterly Government Properties (DEA) has seen renewed investor interest following strong Q2 results, increased sales and revenue, and raised full-year guidance, alongside an aff...",
+      "url": "https://simplywall.st/stocks/us/real-estate/nyse-dea/easterly-government-properties/news/should-easterly-government-properties-dea-be-repriced-after",
+      "source": "Simply Wall St",
+      "published_at": "20260807T011026",
+      "sentiment_score": 0.115381,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DEA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Real Estate"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Trade Desk shares sink on Q2 revenue miss and weak guidance",
+      "summary": "The Trade Desk (TTD) reported a significant Q2 revenue miss and issued weak Q3 guidance, causing its shares to fall over 21.5%. Despite beating EPS estimates and maintaining str...",
+      "url": "https://ca.finance.yahoo.com/news/trade-desk-shares-sink-q2-204427503.html",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260807T010917",
+      "sentiment_score": 0.01888,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TTD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Republic Services (RSG) Beats Q2 Earnings and Revenue Estimates",
+      "summary": "Republic Services (RSG) reported Q2 earnings of $1.85 per share, surpassing the Zacks Consensus Estimate of $1.81, and revenues of $4.43 billion, beating estimates by 1.55%. Des...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/republic-services-rsg-beats-q2-214009846.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260807T010859",
+      "sentiment_score": 0.42995,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "RSG"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "ResMed Inc. 2026 Q4 - Results - Earnings Call Presentation (NYSE:RMD) 2026-08-06",
+      "summary": "ResMed Inc. published its Q4 2026 earnings call presentation, reporting an EPS of $2.95, which beat estimates by $0.06, and revenue of $1.46 billion, surpassing expectations by...",
+      "url": "https://seekingalpha.com/article/4932629-resmed-inc-2026-q4-results-earnings-call-presentation",
+      "source": "Seeking Alpha",
+      "published_at": "20260807T013903",
+      "sentiment_score": 0.383072,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "RMD"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "AIG Reports Strong Second-Quarter Results",
+      "summary": "American International Group Inc. (AIG) reported strong second-quarter 2026 financial results, exceeding analyst expectations with adjusted after-tax income of $2.00 per diluted...",
+      "url": "https://www.stl.news/aig-reports-strong-second-quarter-results/",
+      "source": "www.stl.news",
+      "published_at": "20260807T032601",
+      "sentiment_score": 0.252503,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "AIG",
+        "CB",
+        "HIG"
+      ],
+      "topics": [
         "Earnings",
         "Finance"
       ],
-      "quality_score": 6,
+      "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Atmos Energy Q3 Results: Net Income Hits $1.2B, Dividend Rises 14.9%",
-      "summary": "Atmos Energy Corporation reported strong Q3 fiscal 2026 results with a net income of $1.2 billion and diluted EPS of $7.33, reaffirming its full-year EPS guidance. The company i...",
-      "url": "https://scanx.trade/stock-market-news/companies/atmos-energy-q3-results-net-income-hits-1-2b-dividend-rises-14-9/47524763",
-      "source": "scanx.trade",
-      "published_at": "20260806T020717",
-      "sentiment_score": 0.870579,
-      "sentiment_label": "Bullish",
+      "title": "ESAB Q2 2026 slides: Eddyfi acquisition reshapes business mix",
+      "summary": "ESAB Corporation released its Q2 2026 earnings, reporting record core sales of $766 million, a 13% year-over-year increase, driven by the early acquisition of Eddyfi Technologie...",
+      "url": "https://www.investing.com/news/company-news/esab-q2-2026-slides-eddyfi-acquisition-reshapes-business-mix-93CH-4842348",
+      "source": "Investing.com",
+      "published_at": "20260807T031014",
+      "sentiment_score": -0.221606,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "ATO"
+        "ESAB"
       ],
       "topics": [
         "Earnings",
-        "Finance",
+        "Mergers And Acquisitions",
+        "Manufacturing",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "DXP Enterprises Inc (DXPE) (Q2 2026) Earnings Call Highlights: Record Sales and EBITDA Fueled ...",
+      "summary": "DXP Enterprises Inc (DXPE) reported record sales and EBITDA for Q2 2026, driven by strong organic growth and successful acquisition integrations across all segments. While the c...",
+      "url": "https://uk.finance.yahoo.com/news/dxp-enterprises-inc-dxpe-q2-232050897.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260807T024027",
+      "sentiment_score": 0.506208,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "DXPE"
+      ],
+      "topics": [
+        "Earnings",
+        "Economy Macro",
+        "Manufacturing"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Vaalco Energy (EGY) Reports Break-Even Earnings for Q2",
+      "summary": "Vaalco Energy (EGY) reported break-even earnings per share for Q2, missing the Zacks Consensus Estimate of $0.04. Despite the earnings miss, the company's revenues of $135.17 mi...",
+      "url": "https://finance.yahoo.com/energy/articles/vaalco-energy-egy-reports-break-231026160.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260807T021059",
+      "sentiment_score": -0.20875,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "EGY"
+      ],
+      "topics": [
+        "Earnings",
         "Energy Transportation"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Cerence AI Reports Third Quarter Results: Revenue Up 12% YoY, Connected Services Revenue Up 20% YoY; Operating Cash...",
+      "summary": "Cerence Inc. reported strong third-quarter fiscal year 2026 results, with revenue up 12% year-over-year and Connected Services revenue increasing over 20%. The company generated...",
+      "url": "https://www.manilatimes.net/2026/08/07/tmt-newswire/globenewswire/cerence-ai-reports-third-quarter-results-revenue-up-12-yoy-connected-services-revenue-up-20-yoy-operating-cash-flow-of-20m-supports-first-ever-share-repurchase-program/2400553/amp",
+      "source": "The Manila Times",
+      "published_at": "20260807T011400",
+      "sentiment_score": 0.613272,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "CRNC"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Hilton Worldwide Holdings Inc. (HLT) Stock forecasts",
+      "summary": "Morningstar analyst Dan Wasiolek covers Hilton Worldwide Holdings Inc. (HLT), noting its strong brand presence across 1.38 million rooms and 27 brands, with Hampton and Hilton b...",
+      "url": "https://sg.finance.yahoo.com/research/reports/MS_0P00011FOE_AnalystReport_1785527535000",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260807T010753",
+      "sentiment_score": 0.194686,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "HLT",
+        "EXPE",
+        "AMD",
+        "DIS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Economy Macro",
+        "Real Estate"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Why the rebalancing of the MSCI Standard Philippine Index matters",
+      "summary": "MSCI Inc. is rebalancing its Standard Philippine Index this month, which involves adding, removing, or reweighting stocks to ensure accurate market representation and liquidity....",
+      "url": "https://www.rappler.com/business/why-rebalancing-msci-standard-philippine-index-matters/",
+      "source": "Rappler",
+      "published_at": "20260807T005926",
+      "sentiment_score": 0.138514,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MSCI"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Economy Macro"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Lennox International, Inc. - LII",
+      "summary": "Pomerantz LLP is investigating Lennox International, Inc. (NYSE: LII) on behalf of investors for potential securities fraud or unlawful business practices. This investigation fo...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-lennox-international-inc---lii-302845599.html",
+      "source": "PR Newswire",
+      "published_at": "20260807T030325",
+      "sentiment_score": -0.443628,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "LII"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of HCA Healthcare, Inc. - HCA",
+      "summary": "Pomerantz LLP is investigating potential securities fraud claims against HCA Healthcare, Inc. on behalf of its investors. The investigation follows HCA's announcement on July 14...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-hca-healthcare-inc---hca-302845566.html",
+      "source": "PR Newswire",
+      "published_at": "20260807T030159",
+      "sentiment_score": -0.404603,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "HCA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Life Sciences"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Ecopetrol Secures Controlling Stake Path in Brazil’s Brava Energia After August 5 Auction",
+      "summary": "Ecopetrol's Brazilian subsidiary, Ecopetrol Investimentos do Brasil Ltda., successfully acquired approximately 25% of Brava Energia S.A.'s common shares through a voluntary tend...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/EC-N/pressreleases/3703947/ecopetrol-secures-controlling-stake-path-in-brazils-brava-energia-after-august-5-auction/",
+      "source": "The Globe and Mail",
+      "published_at": "20260807T021117",
+      "sentiment_score": 0.307644,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "EC"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Energy Transportation",
+        "Finance",
+        "Financial Markets",
+        "Earnings"
       ],
       "quality_score": 6,
       "is_noise": false
     },
     {
-      "title": "Copart, Inc. (CPRT) Suffers a Larger Drop Than the General Market: Key Insights",
-      "summary": "Copart, Inc. (CPRT) experienced a larger stock drop than the general market, closing down 1.67% while the S&P 500 lost 0.17%. The company's shares have underperformed its sector...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/copart-inc-cprt-suffers-larger-221502832.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260806T015456",
-      "sentiment_score": -0.31497,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Dlocal options signal 11% move on upcoming earnings release",
+      "summary": "Dlocal Ltd/Uruguay Class A (DLO) stock is projected to move 11% based on options data ahead of its earnings report on August 13. Historically, the stock's actual price changes h...",
+      "url": "https://www.investing.com/news/stock-market-news/dlocal-options-signal-11-move-on-upcoming-earnings-release-93CH-4842973",
+      "source": "Investing.com",
+      "published_at": "20260807T021028",
+      "sentiment_score": -0.025246,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "CPRT"
+        "DLO",
+        "MU",
+        "MSFT",
+        "AAPL",
+        "NVDA"
       ],
       "topics": [
         "Earnings",
@@ -837,153 +530,437 @@
       "is_noise": false
     },
     {
-      "title": "Cytek Biosciences Reports Second Quarter 2026 Financial Results",
-      "summary": "Cytek Biosciences reported its second-quarter 2026 financial results, with total revenue reaching $48.1 million, a 6% increase year-over-year. The company also announced the lau...",
-      "url": "https://www.globenewswire.com/news-release/2026/08/05/3339685/0/en/cytek-biosciences-reports-second-quarter-2026-financial-results.html",
-      "source": "GlobeNewswire",
-      "published_at": "20260806T011437",
-      "sentiment_score": 0.206421,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Form 8K CommVault Systems Inc For: 6 August By Investing.com",
+      "summary": "This article reports on a Form 8K filing by CommVault Systems Inc. on August 6th. The brief piece indicates that the filing is available for review, likely pertaining to signifi...",
+      "url": "https://ca.investing.com/news/stock-market-news/form-8k-commvault-systems-inc-for-6-august-93CH-4784322",
+      "source": "Investing.com Canada",
+      "published_at": "20260807T020926",
+      "sentiment_score": 0.002267,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "CTKB"
+        "CVLT"
       ],
       "topics": [
-        "Earnings",
-        "Life Sciences"
+        "Financial Markets",
+        "Earnings"
       ],
       "quality_score": 6,
       "is_noise": false
     },
     {
-      "title": "Texas Pacific Land begins commissioning water desalination facility",
-      "summary": "Texas Pacific Land Corporation (TPL) reported record financial results for Q2 2026, including $153.9 million net income and $246.1 million in consolidated revenues. The company...",
-      "url": "https://www.stocktitan.net/news/CVX/texas-pacific-land-corporation-announces-second-quarter-lt1pysfmkgzd.html",
-      "source": "Stock Titan",
-      "published_at": "20260806T030950",
-      "sentiment_score": 0.385077,
+      "title": "Newmont Corporation (NEM.AX) stock price, news, quote and history",
+      "summary": "This article provides comprehensive financial information for Newmont Corporation (NEM.AX), including its current stock price, dividend details, historical performance, and key...",
+      "url": "https://sg.finance.yahoo.com/quote/NEM.AX/",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260807T013845",
+      "sentiment_score": 0.336054,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "NEM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Consolidated Edison Q2 Profit Rises 25% on Higher Electric and Gas Rate Base",
+      "summary": "Consolidated Edison reported a 25% increase in Q2 2026 net income, reaching $308 million, driven by higher electric and gas rate bases at its New York utility business, CECONY....",
+      "url": "https://finance.yahoo.com/energy/articles/consolidated-edison-q2-profit-rises-011500302.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260807T013741",
+      "sentiment_score": 0.355028,
       "sentiment_label": "Bullish",
       "tickers": [
-        "TPL",
-        "CVX"
+        "ED",
+        "NEE",
+        "DUK"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Denali Therapeutics Reports Second Quarter 2026 Financial Results and Business Highlights",
+      "summary": "Denali Therapeutics reported strong financial results for Q2 2026, driven by the successful launch of AVLAYAH™, which generated $3.6 million in net product revenue. The company...",
+      "url": "https://www.manilatimes.net/2026/08/07/tmt-newswire/globenewswire/denali-therapeutics-reports-second-quarter-2026-financial-results-and-business-highlights/2400500/amp",
+      "source": "The Manila Times",
+      "published_at": "20260807T011400",
+      "sentiment_score": 0.004405,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DNLI"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Cellectis Reports Financial Results for the Second Quarter 2026",
+      "summary": "Cellectis has reported its financial results for the second quarter of 2026, highlighting progress in its clinical trials for lasme-cel and eti-cel. The company received FDA RMA...",
+      "url": "https://www.manilatimes.net/2026/08/07/tmt-newswire/globenewswire/cellectis-reports-financial-results-for-the-second-quarter-2026/2400633",
+      "source": "The Manila Times",
+      "published_at": "20260807T011136",
+      "sentiment_score": 0.009872,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CLLS"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "B2Gold Reports Q2 2026 Results; Strong Operating Performance at the Fekola, Masbate, and Otjikoto Mines led to High...",
+      "summary": "B2Gold reported strong Q2 2026 results, exceeding gold production expectations at its Fekola, Masbate, and Otjikoto mines, leading to lower-than-anticipated all-in sustaining co...",
+      "url": "https://www.manilatimes.net/2026/08/07/tmt-newswire/globenewswire/b2gold-reports-q2-2026-results-strong-operating-performance-at-the-fekola-masbate-and-otjikoto-mines-led-to-higher-than-expected-gold-production-and-lower-than-expected-all-in-sustaining-costs-menankoto-exploitation-permit-expected-to-be-issued-in-the-near-term-by-the-state-of-mali/2400685/amp",
+      "source": "The Manila Times",
+      "published_at": "20260807T011014",
+      "sentiment_score": 0.334749,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "BTG",
+        "NEM"
+      ],
+      "topics": [
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Phillips 66 (PSX) (Q2 2026) Earnings Call Highlights: Record Earnings and Strategic Momentum",
+      "summary": "Phillips 66 (PSX) reported record Q2 2026 adjusted earnings of $3.8 billion and EPS of $9.41, driven by strong refining margins and operational efficiency. The company is ahead...",
+      "url": "https://ca.finance.yahoo.com/news/phillips-66-psx-q2-2026-010544638.html",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260807T010445",
+      "sentiment_score": 0.498097,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "PSX"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Carlisle Joins Fewer Than 60 U.S. Dividend Kings",
+      "summary": "Carlisle Companies Incorporated (NYSE: CSL) announced a 14% increase in its quarterly dividend, raising it from $1.10 to $1.25 per share, marking its 50th consecutive annual div...",
+      "url": "https://www.stocktitan.net/news/CSL/carlisle-companies-increases-dividend-for-50th-consecutive-our2eii35z05.html",
+      "source": "Stock Titan",
+      "published_at": "20260807T010008",
+      "sentiment_score": 0.480494,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "CSL"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Real Estate",
+        "Manufacturing"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "EXEC: Acushnet CEO Talks on Titleist’s Stellar GTS Club Launch, Healthy Golf Fundamentals",
+      "summary": "Acushnet Holdings Corp. reported a significant increase in Q2 net earnings (65.1%) and sales (13.8%), largely driven by the successful launch of Titleist’s GTS line of metal woo...",
+      "url": "https://sgbonline.com/titleist-parents-q2-sales-jump-14-percent-on-brawny-club-sales-lifts-guidance/",
+      "source": "SGB Media",
+      "published_at": "20260807T004110",
+      "sentiment_score": 0.028443,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "GOLF"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Dorchester Minerals' $1.27 Distribution Per Unit Is Payable Aug. 13",
+      "summary": "Dorchester Minerals, L.P. announced strong second-quarter 2026 financial results, with net income of $30.9 million, or $0.62 per common unit, and operating revenues of $56.1 mil...",
+      "url": "https://www.stocktitan.net/news/DMLP/dorchester-minerals-l-p-announces-second-quarter-lj8f6b22z4oe.html",
+      "source": "Stock Titan",
+      "published_at": "20260807T010949",
+      "sentiment_score": 0.436906,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "DMLP"
       ],
       "topics": [
         "Earnings",
         "Energy Transportation",
-        "Finance"
+        "Financial Markets"
       ],
       "quality_score": 5,
       "is_noise": false
     },
     {
-      "title": "Onterris Explores Sale While Adopting ‘Poison Pill’ to Fend Off Investor",
-      "summary": "Onterris Inc. (NYSE: ONT) is considering a potential sale and has implemented a \"poison pill\" shareholder rights plan to prevent a hostile takeover by an undisclosed investor. T...",
-      "url": "https://www.arkansasbusiness.com/article/onterris-sale-poison-pill-revenue-guidance/",
-      "source": "Arkansas Business",
-      "published_at": "20260806T042400",
-      "sentiment_score": 0.020349,
-      "sentiment_label": "Neutral",
+      "title": "Century Aluminum Q2 2026 slides: full capacity, strong EBITDA growth",
+      "summary": "Century Aluminum (NASDAQ:CENX) reported a strong second quarter in 2026, achieving full production capacity at its Mt. Holly and Grundartangi facilities and significantly streng...",
+      "url": "https://www.investing.com/news/company-news/century-aluminum-q2-2026-slides-full-capacity-strong-ebitda-growth-93CH-4844721",
+      "source": "Investing.com",
+      "published_at": "20260807T004115",
+      "sentiment_score": 0.686554,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "MEG"
+        "CENX"
       ],
       "topics": [
         "Earnings",
-        "Mergers And Acquisitions",
-        "Financial Markets"
+        "Manufacturing",
+        "Finance",
+        "Economy Macro"
       ],
       "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "First Solar, Inc. (FSLR) officer sells 7,000 shares via 10b5-1 plan",
-      "summary": "First Solar's Chief Supply Chain Officer, Michael Koralewski, sold 7,000 shares of common stock in two open-market transactions on August 3, 2026. The sales were executed at pri...",
-      "url": "https://www.stocktitan.net/sec-filings/FSLR/form-4-first-solar-inc-insider-trading-activity-5917cb0ea658.html",
-      "source": "Stock Titan",
-      "published_at": "20260806T043805",
-      "sentiment_score": -0.232108,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "FSLR"
-      ],
-      "topics": [
-        "Finance",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Innovex International, Inc. (INVX) president sells 10,000 shares under 10b5-1 plan",
-      "summary": "Mark Reddout, President of North America at Innovex International, Inc. (INVX), sold 10,000 shares of common stock on August 4, 2026, at $30.00 per share, totaling $300,000. Thi...",
-      "url": "https://www.stocktitan.net/sec-filings/INVX/form-4-innovex-international-inc-insider-trading-activity-a4dda03799f6.html",
-      "source": "Stock Titan",
-      "published_at": "20260806T041054",
-      "sentiment_score": -0.43539,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "INVX"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "NRG Energy (NYSE: NRG) EVP awarded dividend equivalent rights",
-      "summary": "NRG Energy's Executive Vice President, Virginia Kinney, was granted 27 common stock equivalents as dividend equivalent rights on August 3, 2026. These rights are linked to defer...",
-      "url": "https://www.stocktitan.net/sec-filings/NRG/form-4-nrg-energy-inc-insider-trading-activity-8bb5581d572d.html",
-      "source": "Stock Titan",
-      "published_at": "20260806T033906",
-      "sentiment_score": 0.04194,
+      "title": "Quanta Services Completes $2 Billion Senior Notes Offering",
+      "summary": "Quanta Services (PWR) has completed a $2 billion senior unsecured notes offering across three tranches maturing in 2029, 2033, and 2036, with coupons between 4.850% and 5.550%....",
+      "url": "https://www.tipranks.com/news/company-announcements/quanta-services-completes-2-billion-senior-notes-offering",
+      "source": "TipRanks",
+      "published_at": "20260807T033902",
+      "sentiment_score": 0.023949,
       "sentiment_label": "Neutral",
       "tickers": [
-        "NRG",
-        "CEG"
+        "PWR"
       ],
       "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "FLXR | TCW Flexible Income ETF Stock Data, Price & News",
-      "summary": "This page provides comprehensive data, price, and news for the TCW Flexible Income ETF (FLXR). It includes details on institutional holdings, insider trading activity (or lack t...",
-      "url": "https://www.quiverquant.com/stock/FLXR/",
-      "source": "Quiver Quantitative",
-      "published_at": "20260806T022215",
-      "sentiment_score": 0.006495,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "FLXR"
-      ],
-      "topics": [
-        "Financial Markets",
         "Finance",
         "Earnings",
-        "Economy Macro"
+        "Financial Markets",
+        "Real Estate"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "Stockholder Alert: Robbins LLP Informs Investors of the Gildan Activewear Inc. Class Action",
-      "summary": "Robbins LLP has filed a securities class action lawsuit on behalf of former HanesBrands shareholders who acquired Gildan Activewear Inc. (NYSE/TSE: GIL) shares during the Decemb...",
-      "url": "https://aijourn.com/stockholder-alert-robbins-llp-informs-investors-of-the-gildan-activewear-inc-class-action/",
-      "source": "The AI Journal",
-      "published_at": "20260806T021916",
-      "sentiment_score": -0.625576,
-      "sentiment_label": "Bearish",
+      "title": "Gladstone Investment Q1 Results: Net income turns positive, expenses drop",
+      "summary": "Gladstone Investment Corporation reported a significant turnaround in Q1FY27, posting a net investment income of $15.9 million compared to a prior quarter loss, largely due to a...",
+      "url": "https://scanx.trade/stock-market-news/companies/gladstone-investment-q1-results-net-income-turns-positive-expenses-drop/47607027",
+      "source": "scanx.trade",
+      "published_at": "20260807T024111",
+      "sentiment_score": 0.045153,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "GIL"
+        "GAINN"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Mergers And Acquisitions"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Copel Finalizes R$150 Million Sale of Dona Francisca Hydroelectric Stake to Gerdau",
+      "summary": "Copel has completed the sale of its 23.03% stake in Dona Francisca Energética S.A. to Gerdau S.A. for R$150.7 million. This divestment aligns with Copel’s strategy to optimize i...",
+      "url": "https://www.tipranks.com/news/company-announcements/copel-finalizes-r150-million-sale-of-dona-francisca-hydroelectric-stake-to-gerdau",
+      "source": "TipRanks",
+      "published_at": "20260807T011121",
+      "sentiment_score": 0.225562,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ELPC"
       ],
       "topics": [
         "Mergers And Acquisitions",
+        "Energy Transportation",
+        "Financial Markets",
         "Finance",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Callaway Golf Co (CALY) Shares Fall 9.1% -- GF Value Says Still Overvalued",
+      "summary": "Callaway Golf Co (CALY) shares dropped 9.1% to $17.38 on August 6, 2026, despite a significant year-to-date and year-over-year increase. GuruFocus's GF Value indicates the stock...",
+      "url": "https://www.gurufocus.com/news/9014752/callaway-golf-co-caly-shares-fall-91-gf-value-says-still-overvalued",
+      "source": "GuruFocus",
+      "published_at": "20260807T003332",
+      "sentiment_score": -0.447557,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "CALY"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "PRIMECAP Management discloses 6.38% Flex Ltd. (FLEX) ownership in 13G/A update",
+      "summary": "PRIMECAP Management Co. has filed an amended 13G/A, disclosing a 6.38% ownership stake in Flex Ltd. (FLEX). The firm beneficially owns 23,358,875 shares, with sole voting power...",
+      "url": "https://www.stocktitan.net/sec-filings/FLEX/schedule-13g-a-flex-ltd-amended-passive-investment-disclosure-d3310f9c55eb.html",
+      "source": "Stock Titan",
+      "published_at": "20260807T033935",
+      "sentiment_score": 0.144529,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "FLEX"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Gladstone Investment (NASDAQ: GAIN) Q1 NAV slips to $16.24 per share",
+      "summary": "Gladstone Investment Corporation reported its first fiscal quarter results for the period ending June 30, 2026. While net investment income rebounded strongly to $15.9 million,...",
+      "url": "https://www.stocktitan.net/sec-filings/GAIN/8-k-gladstone-investment-corporation-de-reports-material-event-b2d5a941b7cb.html",
+      "source": "Stock Titan",
+      "published_at": "20260807T031105",
+      "sentiment_score": 0.138986,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "GAIN"
+      ],
+      "topics": [
         "Earnings",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Hf Sinclair SVP Dale Kunneman sells $755,851 in stock By Investing.com",
+      "summary": "Dale Kunneman, SVP and Chief Human Resources Officer at HF Sinclair Corp (NASDAQ:DINO), sold 8,936 shares valued at $755,851 on August 5, 2026. This insider sale follows a 9.4%...",
+      "url": "https://ca.investing.com/news/stock-market-news/hf-sinclair-svp-dale-kunneman-sells-755851-in-stock-93CH-4785274",
+      "source": "Investing.com Canada",
+      "published_at": "20260807T013939",
+      "sentiment_score": -0.234318,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "DINO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Energy Transportation"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of October 2, 2026 in Pentair plc Lawsuit - PNR",
+      "summary": "SueWallSt is reminding shareholders of Pentair plc (NYSE: PNR) about an upcoming lead plaintiff deadline of October 2, 2026, in a pending securities class action lawsuit. The la...",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260806ny21275/suewallst-reminds-shareholders-of-a-lead-plaintiff-deadline-of-october-2-2026-in-pentair-plc-lawsuit-pnr",
+      "source": "Morningstar",
+      "published_at": "20260807T010835",
+      "sentiment_score": -0.486286,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "PNR"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Cerence AI (NASDAQ: CRNC) lifts Q3 revenue 12% and OKs $30M repurchase",
+      "summary": "Cerence Inc. reported a 12% year-over-year increase in Q3 fiscal 2026 revenue, reaching $69.6 million, with GAAP net income of $1.5 million and adjusted EBITDA up 50% to $13.5 m...",
+      "url": "https://www.stocktitan.net/sec-filings/CRNC/8-k-cerence-inc-reports-material-event-f62a1ef8e75c.html",
+      "source": "Stock Titan",
+      "published_at": "20260807T004133",
+      "sentiment_score": 0.503779,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "CRNC"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Castle Biosciences (NASDAQ:CSTL) Insider Derek Maetzold Sells 20,356 Shares of Stock",
+      "summary": "Castle Biosciences insider Derek Maetzold sold 20,356 shares of the company's stock for over $633,000, reducing his ownership by nearly half. This sale was executed under a pre-...",
+      "url": "https://www.marketbeat.com/instant-alerts/castle-biosciences-nasdaqcstl-insider-derek-maetzold-sells-20356-shares-of-stock-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T004100",
+      "sentiment_score": 0.119199,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CSTL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Fastly CEO Charles Compton sells $371,700 in company stock",
+      "summary": "Fastly CEO and Director Charles Lacey Compton III sold 14,868 shares of Class A Common Stock for approximately $371,700 on August 4, 2026, under a Rule 10b5-1 trading plan. Desp...",
+      "url": "https://m.investing.com/news/insider-trading-news/fastly-ceo-charles-compton-sells-371700-in-company-stock-93CH-4844782?ampMode=1",
+      "source": "Investing.com",
+      "published_at": "20260807T004042",
+      "sentiment_score": 0.106384,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "FSLY"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Colgate-Palmolive (NYSE:CL) CEO Sells $14,801,050.32 in Stock",
+      "summary": "Colgate-Palmolive CEO Noel Wallace sold 161,021 shares of company stock worth approximately $14.8 million. The sale was made to cover tax obligations on vested equity awards, re...",
+      "url": "https://www.marketbeat.com/instant-alerts/colgate-palmolive-nysecl-ceo-sells-1480105032-in-stock-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T003520",
+      "sentiment_score": 0.146176,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
         "Retail Wholesale"
       ],
       "quality_score": -10,
@@ -991,264 +968,248 @@
     }
   ],
   "article_count": 50,
-  "top_ticker": "LFMD",
+  "top_ticker": "NEM",
   "top_topic": "Earnings",
   "dominant_sentiment": "Bullish",
-  "top_story": "Earnings call transcript: LifeMD posts Q2 revenue miss, shares sink in after-hours",
+  "top_story": "Kenvue (NYSE:KVUE) Posts Earnings Results, Misses Expectations By $0.01 EPS",
   "signal_articles": [
     {
-      "title": "Earnings call transcript: LifeMD posts Q2 revenue miss, shares sink in after-hours",
-      "summary": "LifeMD (LFMD) reported a Q2 revenue miss of $47.3 million against an analyst forecast of $49.15 million, alongside an adjusted EBITDA loss and a lowered full-year 2026 outlook,...",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-lifemd-posts-q2-revenue-miss-shares-sink-in-afterhours-93CH-4839502",
-      "source": "Investing.com",
-      "published_at": "20260806T014211",
-      "sentiment_score": -0.420469,
-      "sentiment_label": "Bearish",
+      "title": "Kenvue (NYSE:KVUE) Posts Earnings Results, Misses Expectations By $0.01 EPS",
+      "summary": "Kenvue (NYSE:KVUE) reported its quarterly earnings, missing analyst expectations by $0.01 EPS with $0.31 per share, against an estimated $0.32. The company's revenue of $3.96 bi...",
+      "url": "https://www.marketbeat.com/instant-alerts/kenvue-nysekvue-posts-earnings-results-misses-expectations-by-001-eps-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T025109",
+      "sentiment_score": -0.247853,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "LFMD"
+        "KVUE"
       ],
       "topics": [
         "Earnings",
-        "Finance",
-        "Life Sciences"
+        "Financial Markets",
+        "Finance"
       ],
       "quality_score": 22,
       "is_noise": false
     },
     {
-      "title": "Joby Aviation Beats Q2 Revenue Estimates, Raises FY Guidance",
-      "summary": "Joby Aviation (NYSE: JOBY) reported its Q2 results, with quarterly losses of 25 cents per share missing estimates, but revenue of $38.64 million significantly beating the analys...",
-      "url": "https://www.benzinga.com/markets/earnings/26/08/60975203/joby-aviation-beats-q2-revenue-estimates-raises-fy-guidance",
-      "source": "Benzinga",
-      "published_at": "20260806T041110",
-      "sentiment_score": 0.485664,
+      "title": "Ecovyst (NYSE:ECVT) Posts Earnings Results, Beats Expectations By $0.02 EPS",
+      "summary": "Ecovyst (NYSE:ECVT) reported strong quarterly earnings, beating analyst expectations by $0.02 EPS with revenue up 24.9% year-over-year. The company raised its full-year 2026 gui...",
+      "url": "https://www.marketbeat.com/instant-alerts/ecovyst-nyseecvt-posts-earnings-results-beats-expectations-by-002-eps-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T014810",
+      "sentiment_score": 0.409019,
       "sentiment_label": "Bullish",
       "tickers": [
-        "JOBY"
+        "ECVT"
       ],
       "topics": [
         "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 22,
+      "is_noise": false
+    },
+    {
+      "title": "Baxter International Inc. (BAX) Stock Forecasts",
+      "summary": "This article provides a Morningstar analyst report on Baxter International Inc. (BAX), detailing its 2026 outlook, revenue growth, and tariff refund impact. The report, authored...",
+      "url": "https://ca.finance.yahoo.com/research/reports/MS_0P000000QB_AnalystReport_1785456320000",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260807T003712",
+      "sentiment_score": 0.20507,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "BAX",
+        "ALL",
+        "BDX",
+        "ZBH",
+        "PFE"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
         "Financial Markets",
-        "Technology",
+        "Finance"
+      ],
+      "quality_score": 21,
+      "is_noise": false
+    },
+    {
+      "title": "Gevo Q2 Earnings Call Highlights",
+      "summary": "Gevo reported increased second-quarter revenue and significantly raised its 2026 adjusted EBITDA outlook, driven by strong performance in low-carbon fuels, expected tax credits,...",
+      "url": "https://www.marketbeat.com/instant-alerts/gevo-q2-earnings-call-highlights-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T024106",
+      "sentiment_score": 0.430317,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "GEVO"
+      ],
+      "topics": [
+        "Earnings",
         "Energy Transportation"
-      ],
-      "quality_score": 19,
-      "is_noise": false
-    },
-    {
-      "title": "LegalZoom.com (NASDAQ:LZ) Releases Quarterly Earnings Results, Beats Expectations By $0.01 EPS",
-      "summary": "LegalZoom.com (NASDAQ:LZ) announced its quarterly earnings, reporting an EPS of $0.16, surpassing analyst expectations by $0.01. While revenue increased 6.6% year-over-year to $...",
-      "url": "https://www.marketbeat.com/instant-alerts/legalzoomcom-nasdaqlz-releases-quarterly-earnings-results-beats-expectations-by-001-eps-2026-08-05/",
-      "source": "MarketBeat",
-      "published_at": "20260806T031123",
-      "sentiment_score": 0.123,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "LZ"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 19,
-      "is_noise": false
-    },
-    {
-      "title": "Corpay Q2 2026 Earnings Call Transcript",
-      "summary": "Corpay reported strong Q2 2026 results with revenue up 21% to $1.34 billion and record Cash EPS of $7.00, an increase of 36%. The company raised its full-year 2026 guidance, pro...",
-      "url": "https://www.marketbeat.com/earnings/reports/2026-8-5-fleetcor-technologies-inc-stock-1/",
-      "source": "MarketBeat",
-      "published_at": "20260806T035937",
-      "sentiment_score": 0.409037,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "CPAY"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Economy Macro",
-        "Mergers And Acquisitions"
       ],
       "quality_score": 18,
       "is_noise": false
     },
     {
-      "title": "Nokia Acquires NXP's Arizona Fab to Secure AI Data Center Optical Chip Supply",
-      "summary": "Nokia has acquired NXP Semiconductors' chip fabrication plant in Chandler, Arizona, to convert it into a production line for indium phosphide (InP) optical chips, crucial for AI...",
-      "url": "https://finance.biggo.com/news/b13e3c62-256f-4004-bffe-77feebdec3b0",
-      "source": "finance.biggo.com",
-      "published_at": "20260806T045452",
-      "sentiment_score": 0.507683,
+      "title": "Five9’s (NASDAQ:FIVN) Q2 CY2026 Sales Beat Estimates, Quarterly Revenue Guidance Slightly Exceeds Expectations",
+      "summary": "Five9 (NASDAQ:FIVN) reported better-than-expected revenue of $312.4 million in Q2 CY2026, exceeding analyst estimates by 1.9% with a 10.3% year-on-year increase. The company's n...",
+      "url": "https://stockstory.org/us/stocks/nasdaq/fivn/news/earnings/five9s-nasdaqfivn-q2-cy2026-sales-beat-estimates-quarterly-revenue-guidance-slightly-exceeds-expectations",
+      "source": "StockStory",
+      "published_at": "20260807T034030",
+      "sentiment_score": 0.250746,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "FIVN"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "Composecure (NYSE:GPGI) Releases Earnings Results, Beats Estimates By $0.03 EPS",
+      "summary": "CompoSecure (NYSE:GPGI) announced strong second-quarter 2026 adjusted EPS of $0.17, surpassing analyst estimates by $0.03. Despite the positive earnings, the company faces cauti...",
+      "url": "https://www.marketbeat.com/instant-alerts/composecure-nysegpgi-releases-earnings-results-beats-estimates-by-003-eps-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T013024",
+      "sentiment_score": 0.024795,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CMPOV"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "ESCO Technologies (NYSE:ESE) Issues FY 2026 Earnings Guidance",
+      "summary": "ESCO Technologies (NYSE:ESE) has issued its FY 2026 earnings guidance, projecting an EPS of $8.30–$8.40, which surpasses the consensus estimate of $8.19, with revenue guidance m...",
+      "url": "https://www.marketbeat.com/instant-alerts/esco-technologies-nyseese-issues-fy-2026-earnings-guidance-2026-08-06/",
+      "source": "MarketBeat",
+      "published_at": "20260807T004109",
+      "sentiment_score": 0.396258,
       "sentiment_label": "Bullish",
       "tickers": [
-        "NXPI",
-        "NOC",
-        "NVDA",
-        "INTC",
-        "LRCX"
+        "ESE"
       ],
       "topics": [
-        "Mergers And Acquisitions",
-        "Technology",
-        "Manufacturing",
-        "Earnings"
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "Viatris Inc (VTRS) (Q2 2026) Earnings Call Highlights: Strong Growth and Raised Guidance Amid ...",
+      "summary": "Viatris Inc (VTRS) reported strong Q2 2026 results with $3.8 billion in revenues, a 3.5% operational growth year-over-year, and raised its full-year guidance. Key drivers includ...",
+      "url": "https://uk.finance.yahoo.com/news/viatris-inc-vtrs-q2-2026-231434922.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260807T010928",
+      "sentiment_score": 0.39293,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "VTRS"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences"
       ],
       "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "Earnings call transcript: Realty Income Q2 2026 revenue beats as stock rises",
-      "summary": "Realty Income Corp. reported mixed Q2 2026 results, with revenue of $1.55 billion exceeding forecasts but EPS of $0.37 missing estimates. The company increased its full-year AFF...",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-realty-income-q2-2026-revenue-beats-as-stock-rises-93CH-4839732",
-      "source": "Investing.com",
-      "published_at": "20260806T013914",
-      "sentiment_score": 0.341679,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Akamai Technologies (AKAM) Beats Q2 Earnings and Revenue Estimates",
+      "summary": "Akamai Technologies (AKAM) announced strong Q2 2026 results, surpassing earnings estimates with $1.59 per share and revenue estimates with $1.1 billion. The company's stock has...",
+      "url": "https://sg.finance.yahoo.com/news/akamai-technologies-akam-beats-q2-214002675.html",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260807T010704",
+      "sentiment_score": 0.497273,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "O",
-        "APO",
-        "MS"
+        "AKAM"
       ],
       "topics": [
         "Earnings",
-        "Real Estate",
-        "Financial Markets",
-        "Finance",
-        "Economy Macro"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "Enphase Energy (ENPH) Is Up 15.0% After Pivoting Q3 Outlook Toward U.S.-Made AI Power Electronics – Has The Bull Ca...",
-      "summary": "Enphase Energy (ENPH) saw its stock rise 15% after shifting its Q3 outlook to emphasize U.S.-made AI power electronics, aligning with federal incentives and targeting AI data ce...",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-enph/enphase-energy/news/enphase-energy-enph-is-up-150-after-pivoting-q3-outlook-towa/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260806T013754",
-      "sentiment_score": 0.338862,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ENPH"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets",
-        "Manufacturing",
-        "Energy Transportation"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Ocean Park Diversified Income ETF (NYSE:DUKZ)",
-      "summary": "This article provides detailed financial information for the Ocean Park Diversified Income ETF (NYSE: DUKZ). It includes current share price, market capitalization, share price...",
-      "url": "https://www.intelligentinvestor.com.au/shares/nyse-dukz/ocean-park-diversified-income-etf",
-      "source": "intelligentinvestor.com.au",
-      "published_at": "20260806T011816",
-      "sentiment_score": 0.068891,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DUKZ"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Hut 8 (HUT) Earnings Jolt Puts Its AI And Crypto Valuation Story To The Test",
-      "summary": "Hut 8 (HUT) recently reported Q2 2026 earnings, showing strong year-over-year revenue growth but a wider net loss due to unrealized digital asset losses, causing an 8.30% stock...",
-      "url": "https://simplywall.st/stocks/us/software/nasdaq-hut/hut-8/news/hut-8-hut-earnings-jolt-puts-its-ai-and-crypto-valuation-sto",
-      "source": "Simply Wall St",
-      "published_at": "20260806T025138",
-      "sentiment_score": 0.144905,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HUT"
-      ],
-      "topics": [
-        "Earnings",
-        "Blockchain",
         "Financial Markets",
         "Technology"
       ],
-      "quality_score": 12,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "Is McKesson’s Revenue Growth With Falling EPS Altering The Investment Case For McKesson (MCK)?",
-      "summary": "McKesson Corporation reported increased sales but decreased net income and diluted EPS in Q1 2026, indicating margin pressures despite revenue growth. This situation raises ques...",
-      "url": "https://simplywall.st/stocks/us/healthcare/nyse-mck/mckesson/news/is-mckessons-revenue-growth-with-falling-eps-altering-the-in/amp",
-      "source": "Simply Wall St",
-      "published_at": "20260806T023850",
-      "sentiment_score": -0.071863,
-      "sentiment_label": "Neutral",
+      "title": "Cryoport (NASDAQ:CYRX) Reports In-Line Q2 Results as Stock Edges Higher",
+      "summary": "Cryoport (NASDAQ:CYRX) reported Q2 2026 results that were largely in line with analyst expectations, with revenue of $48.97 million against a consensus of $49.17 million and non...",
+      "url": "https://www.chartmill.com/news/CYRX/Chartmill-53162-Cryoport-NASDAQCYRX-Reports-In-Line-Q2-Results-as-Stock-Edges-Higher",
+      "source": "ChartMill",
+      "published_at": "20260807T020921",
+      "sentiment_score": 0.228121,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "MCK"
+        "CYRX"
       ],
       "topics": [
         "Earnings",
-        "Life Sciences",
-        "Financial Markets"
+        "Life Sciences"
       ],
-      "quality_score": 12,
+      "quality_score": 13,
       "is_noise": false
     }
   ],
   "top_tickers": [
     {
-      "ticker": "LFMD",
+      "ticker": "NEM",
       "mentions": 2
     },
     {
-      "ticker": "NVDA",
-      "mentions": 2
+      "ticker": "KVUE",
+      "mentions": 1
     },
     {
-      "ticker": "LRCX",
-      "mentions": 2
+      "ticker": "ECVT",
+      "mentions": 1
     },
     {
-      "ticker": "MS",
-      "mentions": 2
+      "ticker": "BAX",
+      "mentions": 1
     },
     {
-      "ticker": "KLAC",
-      "mentions": 2
+      "ticker": "ALL",
+      "mentions": 1
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 45
+      "mentions": 42
     },
     {
       "topic": "Financial Markets",
-      "mentions": 28
+      "mentions": 24
     },
     {
       "topic": "Finance",
-      "mentions": 17
+      "mentions": 16
     },
     {
-      "topic": "Technology",
-      "mentions": 15
+      "topic": "Life Sciences",
+      "mentions": 7
     },
     {
       "topic": "Energy Transportation",
-      "mentions": 10
+      "mentions": 7
     }
   ],
   "sentiment_counts": [
     {
       "label": "Bullish",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Neutral",
@@ -1256,38 +1217,38 @@
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 12
-    },
-    {
-      "label": "Bearish",
-      "count": 4
+      "count": 10
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 4
+      "count": 3
+    },
+    {
+      "label": "Bearish",
+      "count": 3
     }
   ],
   "top_sources": [
-    {
-      "source": "Simply Wall Street",
-      "count": 8
-    },
     {
       "source": "MarketBeat",
       "count": 6
     },
     {
-      "source": "Simply Wall St",
-      "count": 5
-    },
-    {
-      "source": "Yahoo Finance",
+      "source": "Investing.com",
       "count": 4
     },
     {
-      "source": "Investing.com",
+      "source": "The Manila Times",
+      "count": 4
+    },
+    {
+      "source": "Yahoo! Finance Canada",
+      "count": 3
+    },
+    {
+      "source": "Yahoo Finance Singapore",
       "count": 3
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with LFMD appearing most often and the headline tone mostly bullish."
+  "takeaway": "News flow is centered on Earnings, with NEM appearing most often and the headline tone mostly bullish."
 }
