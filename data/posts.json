@@ -1,5 +1,105 @@
 [
   {
+    "id": "api-reliability-arena-financial-news-2026-08-08",
+    "date": "2026-08-08",
+    "runDate": "2026-08-08",
+    "createdAt": "2026-08-08T07:28:23.151301+00:00",
+    "contentType": "API RELIABILITY ARENA",
+    "title": "API Reliability Arena: Financial news signals",
+    "status": "ready",
+    "tweet": "Which API would an AI agent choose? ⚔️\n\nToday's task: Financial news signals\n🏆 Sources\n✅ 100.0% success | ⚡ 368ms | 🪙 1 credits\n\nQVeris compares routing signals before the call, so agents can choose with evidence.\nhttps://qveris.ai",
+    "image": "/posts/api_reliability_arena_financial-news_2026-08-08.png",
+    "dataSource": "QVeris Discover routing signals",
+    "dataUpdatedAt": "2026-08-08T07:28:20.221177+00:00",
+    "xPostId": null,
+    "primaryLabel": "Champion",
+    "primaryValue": "Sources",
+    "secondaryLabel": "Route score",
+    "secondaryValue": "89.9",
+    "topSymbol": "API",
+    "topChangePct": 89.9,
+    "apiReliabilityArena": {
+      "updated_at": "2026-08-08T07:28:20.221177+00:00",
+      "date": "2026-08-08",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris Discover routing signals",
+      "title": "API Reliability Arena",
+      "scenario": {
+        "key": "financial-news",
+        "label": "Financial news signals",
+        "task": "Retrieve current financial headlines, tickers, and sentiment",
+        "query": "financial news API latest headlines ticker sentiment source published time"
+      },
+      "search_id": "3f8d206b-989d-4e42-8a82-a3179c4e6830",
+      "result_count": 10,
+      "competitors": [
+        {
+          "tool_id": "newsapi.sources.list.v2.06b2dc66",
+          "name": "Sources",
+          "provider": "Provider not stated",
+          "success_rate": 1.0,
+          "latency_ms": 368.09,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 89.9,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 1
+        },
+        {
+          "tool_id": "finnhub.news.retrieve.v1.51b2567e",
+          "name": "Market News",
+          "provider": "Finnhub",
+          "success_rate": 1.0,
+          "latency_ms": 700.41,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 86.4,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 2
+        },
+        {
+          "tool_id": "hangseng_polysource.pubsentiment.news.query.v2.2aff0be5",
+          "name": "NewsInfoList",
+          "provider": "Provider not stated",
+          "success_rate": 0.974576,
+          "latency_ms": 770.18,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 84.4,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 3
+        }
+      ],
+      "champion": {
+        "tool_id": "newsapi.sources.list.v2.06b2dc66",
+        "name": "Sources",
+        "provider": "Provider not stated",
+        "success_rate": 1.0,
+        "latency_ms": 368.09,
+        "cost_credits": 1.0,
+        "cost_known": true,
+        "freshness": "Not stated",
+        "route_score": 89.9,
+        "metric_count": 3,
+        "expected_cost_text": "1",
+        "rank": 1
+      },
+      "takeaway": "QVeris ranks Sources first for financial news signals, led by 100.0% historical success.",
+      "methodology": {
+        "success_weight": 0.55,
+        "latency_weight": 0.25,
+        "cost_weight": 0.2,
+        "note": "Ranking uses QVeris historical routing signals; it is not a live load test."
+      }
+    }
+  },
+  {
     "id": "earnings-reality-check-amzn-2026-07-30",
     "date": "2026-08-08",
     "runDate": "2026-08-08",
