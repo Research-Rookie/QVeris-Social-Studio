@@ -1,181 +1,104 @@
 {
-  "updated_at": "2026-08-07T04:22:19.726969+00:00",
-  "date": "2026-08-07",
+  "updated_at": "2026-08-08T03:19:39.908836+00:00",
+  "date": "2026-08-08",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "BAX",
-  "shift_label": "Narrative steady",
-  "sentiment_delta": 0.0455,
-  "baseline_label": "2026-07-29",
+  "symbol": "PPL",
+  "shift_label": "Baseline building",
+  "sentiment_delta": 0.0,
+  "baseline_label": "Building",
   "current": {
-    "date": "2026-08-07",
-    "symbol": "BAX",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.2051,
+    "date": "2026-08-08",
+    "symbol": "PPL",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.2703,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
+        "count": 2
       },
       {
-        "label": "Life Sciences",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
+        "label": "Energy Transportation",
+        "count": 2
       },
       {
         "label": "Finance",
         "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "baxter",
-        "count": 2
       },
       {
-        "label": "international",
-        "count": 2
-      },
-      {
-        "label": "forecasts",
-        "count": 1
-      },
-      {
-        "label": "article",
-        "count": 1
-      },
-      {
-        "label": "provides",
-        "count": 1
-      },
-      {
-        "label": "morningstar",
-        "count": 1
-      },
-      {
-        "label": "detailing",
-        "count": 1
-      },
-      {
-        "label": "outlook",
-        "count": 1
-      },
-      {
-        "label": "revenue",
-        "count": 1
-      },
-      {
-        "label": "growth",
-        "count": 1
-      },
-      {
-        "label": "tariff",
-        "count": 1
-      },
-      {
-        "label": "refund",
-        "count": 1
-      }
-    ],
-    "headline": "Baxter International Inc. (BAX) Stock Forecasts",
-    "headline_source": "Yahoo! Finance Canada"
-  },
-  "previous": {
-    "date": "2026-07-29",
-    "symbol": "BAX",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.1596,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Life Sciences",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
+        "label": "Economy Macro",
         "count": 1
       }
     ],
     "keywords": [
-      {
-        "label": "baxter",
-        "count": 2
-      },
       {
         "label": "earnings",
+        "count": 6
+      },
+      {
+        "label": "call",
         "count": 2
       },
       {
-        "label": "what",
-        "count": 1
+        "label": "estimates",
+        "count": 2
       },
       {
-        "label": "look",
-        "count": 1
+        "label": "but",
+        "count": 2
       },
       {
-        "label": "for",
-        "count": 1
+        "label": "full-year",
+        "count": 2
       },
       {
-        "label": "international",
-        "count": 1
+        "label": "reported",
+        "count": 2
       },
       {
-        "label": "scheduled",
-        "count": 1
+        "label": "per",
+        "count": 2
       },
       {
-        "label": "thursday",
-        "count": 1
+        "label": "share",
+        "count": 2
       },
       {
-        "label": "open",
-        "count": 1
+        "label": "reaffirming",
+        "count": 2
       },
       {
-        "label": "beat",
-        "count": 1
+        "label": "guidance",
+        "count": 2
       },
       {
-        "label": "revenue",
-        "count": 1
+        "label": "corp",
+        "count": 2
       },
       {
-        "label": "eps",
+        "label": "transcript",
         "count": 1
       }
     ],
-    "headline": "Baxter Earnings: What To Look For From BAX",
-    "headline_source": "TradingView"
+    "headline": "Earnings call transcript: PPL Q2 2026 misses estimates but keeps full-year outlook",
+    "headline_source": "Investing.com"
   },
+  "previous": null,
   "emerging_themes": [
-    "Finance",
     "Earnings",
-    "Life Sciences"
+    "Energy Transportation",
+    "Finance"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "international",
-    "forecasts",
-    "article"
-  ],
-  "fading_keywords": [
     "earnings",
-    "what",
-    "look"
+    "call",
+    "estimates"
   ],
-  "takeaway": "BAX's narrative is narrative steady: sentiment moved +0.05, while the leading theme shifted from Earnings to Earnings.",
+  "fading_keywords": [],
+  "takeaway": "PPL leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

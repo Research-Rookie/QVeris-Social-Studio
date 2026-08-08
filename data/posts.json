@@ -1,5 +1,129 @@
 [
   {
+    "id": "market-narrative-shift-ppl-2026-08-08",
+    "date": "2026-08-08",
+    "runDate": "2026-08-08",
+    "createdAt": "2026-08-08T03:19:43.022975+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $PPL",
+    "status": "ready",
+    "tweet": "What changed in $PPL's market narrative? 🔄\n\n🧭 Signal: Baseline building\n💬 Sentiment shift: baseline\n📌 Top theme: Earnings\n🔎 Emerging term: earnings\n📰 Coverage: 2 vs n/a\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_PPL_2026-08-08.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-08T03:19:39.908836+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$PPL",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Baseline building",
+    "topSymbol": "PPL",
+    "topChangePct": 0.0,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-08T03:19:39.908836+00:00",
+      "date": "2026-08-08",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "PPL",
+      "shift_label": "Baseline building",
+      "sentiment_delta": 0.0,
+      "baseline_label": "Building",
+      "current": {
+        "date": "2026-08-08",
+        "symbol": "PPL",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.2703,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 2
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "earnings",
+            "count": 6
+          },
+          {
+            "label": "call",
+            "count": 2
+          },
+          {
+            "label": "estimates",
+            "count": 2
+          },
+          {
+            "label": "but",
+            "count": 2
+          },
+          {
+            "label": "full-year",
+            "count": 2
+          },
+          {
+            "label": "reported",
+            "count": 2
+          },
+          {
+            "label": "per",
+            "count": 2
+          },
+          {
+            "label": "share",
+            "count": 2
+          },
+          {
+            "label": "reaffirming",
+            "count": 2
+          },
+          {
+            "label": "guidance",
+            "count": 2
+          },
+          {
+            "label": "corp",
+            "count": 2
+          },
+          {
+            "label": "transcript",
+            "count": 1
+          }
+        ],
+        "headline": "Earnings call transcript: PPL Q2 2026 misses estimates but keeps full-year outlook",
+        "headline_source": "Investing.com"
+      },
+      "previous": null,
+      "emerging_themes": [
+        "Earnings",
+        "Energy Transportation",
+        "Finance"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "earnings",
+        "call",
+        "estimates"
+      ],
+      "fading_keywords": [],
+      "takeaway": "PPL leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-08",
     "date": "2026-08-08",
     "runDate": "2026-08-08",
