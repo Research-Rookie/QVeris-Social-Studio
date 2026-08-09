@@ -1,104 +1,187 @@
 {
-  "updated_at": "2026-08-08T03:19:39.908836+00:00",
-  "date": "2026-08-08",
+  "updated_at": "2026-08-09T03:28:06.121782+00:00",
+  "date": "2026-08-09",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "PPL",
-  "shift_label": "Baseline building",
-  "sentiment_delta": 0.0,
-  "baseline_label": "Building",
+  "symbol": "NVDA",
+  "shift_label": "Turning bullish",
+  "sentiment_delta": 0.377,
+  "baseline_label": "2026-08-05",
   "current": {
-    "date": "2026-08-08",
-    "symbol": "PPL",
-    "article_count": 2,
-    "source_count": 2,
-    "sentiment_score": 0.2703,
+    "date": "2026-08-09",
+    "symbol": "NVDA",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.234,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 2
-      },
-      {
-        "label": "Energy Transportation",
-        "count": 2
-      },
-      {
-        "label": "Finance",
         "count": 1
       },
       {
-        "label": "Economy Macro",
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Finance",
         "count": 1
       }
     ],
     "keywords": [
       {
+        "label": "gen",
+        "count": 4
+      },
+      {
+        "label": "digital",
+        "count": 2
+      },
+      {
+        "label": "quarterly",
+        "count": 2
+      },
+      {
         "label": "earnings",
-        "count": 6
-      },
-      {
-        "label": "call",
         "count": 2
       },
       {
-        "label": "estimates",
+        "label": "results",
         "count": 2
       },
       {
-        "label": "but",
+        "label": "expectations",
         "count": 2
       },
       {
-        "label": "full-year",
+        "label": "eps",
         "count": 2
       },
       {
-        "label": "reported",
-        "count": 2
+        "label": "releases",
+        "count": 1
       },
       {
-        "label": "per",
-        "count": 2
+        "label": "beats",
+        "count": 1
       },
       {
-        "label": "share",
-        "count": 2
+        "label": "announced",
+        "count": 1
       },
       {
-        "label": "reaffirming",
-        "count": 2
+        "label": "reporting",
+        "count": 1
       },
       {
-        "label": "guidance",
-        "count": 2
-      },
-      {
-        "label": "corp",
-        "count": 2
-      },
-      {
-        "label": "transcript",
+        "label": "adjusted",
         "count": 1
       }
     ],
-    "headline": "Earnings call transcript: PPL Q2 2026 misses estimates but keeps full-year outlook",
-    "headline_source": "Investing.com"
+    "headline": "Gen Digital (NASDAQ:GEN) Releases Quarterly Earnings Results, Beats Expectations By $0.02 EPS",
+    "headline_source": "MarketBeat"
   },
-  "previous": null,
+  "previous": {
+    "date": "2026-08-05",
+    "symbol": "NVDA",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": -0.143,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Ipo",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "spacex",
+        "count": 2
+      },
+      {
+        "label": "overvalued",
+        "count": 2
+      },
+      {
+        "label": "earnings",
+        "count": 1
+      },
+      {
+        "label": "significantly",
+        "count": 1
+      },
+      {
+        "label": "massive",
+        "count": 1
+      },
+      {
+        "label": "investments",
+        "count": 1
+      },
+      {
+        "label": "outweigh",
+        "count": 1
+      },
+      {
+        "label": "hefty",
+        "count": 1
+      },
+      {
+        "label": "neocloud",
+        "count": 1
+      },
+      {
+        "label": "rent",
+        "count": 1
+      },
+      {
+        "label": "morningstar",
+        "count": 1
+      },
+      {
+        "label": "maintains",
+        "count": 1
+      }
+    ],
+    "headline": "SpaceX Earnings: Stock Significantly Overvalued as Massive AI Investments Outweigh Hefty Neocloud Rent",
+    "headline_source": "Morningstar"
+  },
   "emerging_themes": [
+    "Finance",
     "Earnings",
-    "Energy Transportation",
-    "Finance"
+    "Financial Markets"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Ipo"
+  ],
   "emerging_keywords": [
-    "earnings",
-    "call",
-    "estimates"
+    "gen",
+    "digital",
+    "quarterly"
   ],
-  "fading_keywords": [],
-  "takeaway": "PPL leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+  "fading_keywords": [
+    "spacex",
+    "overvalued",
+    "significantly"
+  ],
+  "takeaway": "NVDA's narrative is turning bullish: sentiment moved +0.38, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

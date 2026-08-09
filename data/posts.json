@@ -1,5 +1,212 @@
 [
   {
+    "id": "market-narrative-shift-nvda-2026-08-09",
+    "date": "2026-08-09",
+    "runDate": "2026-08-09",
+    "createdAt": "2026-08-09T03:28:07.636618+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $NVDA",
+    "status": "ready",
+    "tweet": "What changed in $NVDA's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.38\n📌 Top theme: Earnings\n🔎 Emerging term: gen\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_NVDA_2026-08-09.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-09T03:28:06.121782+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NVDA",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "NVDA",
+    "topChangePct": 37.7,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-09T03:28:06.121782+00:00",
+      "date": "2026-08-09",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "NVDA",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.377,
+      "baseline_label": "2026-08-05",
+      "current": {
+        "date": "2026-08-09",
+        "symbol": "NVDA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.234,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "gen",
+            "count": 4
+          },
+          {
+            "label": "digital",
+            "count": 2
+          },
+          {
+            "label": "quarterly",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "results",
+            "count": 2
+          },
+          {
+            "label": "expectations",
+            "count": 2
+          },
+          {
+            "label": "eps",
+            "count": 2
+          },
+          {
+            "label": "releases",
+            "count": 1
+          },
+          {
+            "label": "beats",
+            "count": 1
+          },
+          {
+            "label": "announced",
+            "count": 1
+          },
+          {
+            "label": "reporting",
+            "count": 1
+          },
+          {
+            "label": "adjusted",
+            "count": 1
+          }
+        ],
+        "headline": "Gen Digital (NASDAQ:GEN) Releases Quarterly Earnings Results, Beats Expectations By $0.02 EPS",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-08-05",
+        "symbol": "NVDA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": -0.143,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Ipo",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "spacex",
+            "count": 2
+          },
+          {
+            "label": "overvalued",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 1
+          },
+          {
+            "label": "significantly",
+            "count": 1
+          },
+          {
+            "label": "massive",
+            "count": 1
+          },
+          {
+            "label": "investments",
+            "count": 1
+          },
+          {
+            "label": "outweigh",
+            "count": 1
+          },
+          {
+            "label": "hefty",
+            "count": 1
+          },
+          {
+            "label": "neocloud",
+            "count": 1
+          },
+          {
+            "label": "rent",
+            "count": 1
+          },
+          {
+            "label": "morningstar",
+            "count": 1
+          },
+          {
+            "label": "maintains",
+            "count": 1
+          }
+        ],
+        "headline": "SpaceX Earnings: Stock Significantly Overvalued as Massive AI Investments Outweigh Hefty Neocloud Rent",
+        "headline_source": "Morningstar"
+      },
+      "emerging_themes": [
+        "Finance",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Ipo"
+      ],
+      "emerging_keywords": [
+        "gen",
+        "digital",
+        "quarterly"
+      ],
+      "fading_keywords": [
+        "spacex",
+        "overvalued",
+        "significantly"
+      ],
+      "takeaway": "NVDA's narrative is turning bullish: sentiment moved +0.38, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-09",
     "date": "2026-08-09",
     "runDate": "2026-08-09",
