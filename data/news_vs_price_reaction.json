@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-08T03:51:14.992623+00:00",
-  "date": "2026-08-08",
+  "updated_at": "2026-08-09T03:59:50.720894+00:00",
+  "date": "2026-08-09",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
   "symbol": "NVDA",
-  "news_tone": "Somewhat Bullish",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Earnings call transcript: PPL Q2 2026 misses estimates but keeps full-year outlook",
-  "headline_source": "Investing.com",
+  "headline": "Monster Beverage (NASDAQ:MNST) Releases Quarterly Earnings Results, Beats Expectations By $0.02 EPS",
+  "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
@@ -21,41 +21,41 @@
     "top_tickers": [
       {
         "ticker": "NVDA",
-        "mentions": 4
+        "mentions": 3
       },
       {
-        "ticker": "PPL",
+        "ticker": "GOLF",
         "mentions": 2
       },
       {
-        "ticker": "C",
+        "ticker": "FWONA",
         "mentions": 2
       },
       {
-        "ticker": "MCHP",
-        "mentions": 2
+        "ticker": "MNST",
+        "mentions": 1
       },
       {
-        "ticker": "AMD",
-        "mentions": 2
+        "ticker": "GAIN",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Somewhat-Bullish",
+        "label": "Neutral",
         "count": 18
       },
       {
-        "label": "Neutral",
-        "count": 13
+        "label": "Somewhat-Bullish",
+        "count": 15
       },
       {
         "label": "Bullish",
-        "count": 7
+        "count": 9
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 6
+        "count": 3
       },
       {
         "label": "Bearish",

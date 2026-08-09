@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-nvda-2026-08-09",
+    "date": "2026-08-09",
+    "runDate": "2026-08-09",
+    "createdAt": "2026-08-09T03:59:53.784498+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$NVDA news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-09.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-09T03:59:50.720894+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NVDA",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "NVDA",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-09T03:59:50.720894+00:00",
+      "date": "2026-08-09",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "NVDA",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Monster Beverage (NASDAQ:MNST) Releases Quarterly Earnings Results, Beats Expectations By $0.02 EPS",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 223.96, 'd': 4.97, 'dp': 2.2695, 'h': 224.76, 'l': 220.66, 'o': 221.54, 'pc': 218.99, 't': 1786132800}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "NVDA",
+            "mentions": 3
+          },
+          {
+            "ticker": "GOLF",
+            "mentions": 2
+          },
+          {
+            "ticker": "FWONA",
+            "mentions": 2
+          },
+          {
+            "ticker": "MNST",
+            "mentions": 1
+          },
+          {
+            "ticker": "GAIN",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 18
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 15
+          },
+          {
+            "label": "Bullish",
+            "count": 9
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          },
+          {
+            "label": "Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-nvda-2026-08-09",
     "date": "2026-08-09",
     "runDate": "2026-08-09",
