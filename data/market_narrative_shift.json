@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-09T03:28:06.121782+00:00",
-  "date": "2026-08-09",
+  "updated_at": "2026-08-10T03:47:50.415390+00:00",
+  "date": "2026-08-10",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "NVDA",
+  "symbol": "CB",
   "shift_label": "Turning bullish",
-  "sentiment_delta": 0.377,
-  "baseline_label": "2026-08-05",
+  "sentiment_delta": 0.2145,
+  "baseline_label": "2026-07-07",
   "current": {
-    "date": "2026-08-09",
-    "symbol": "NVDA",
+    "date": "2026-08-10",
+    "symbol": "CB",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.234,
+    "sentiment_score": 0.0904,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -23,165 +23,162 @@
       {
         "label": "Financial Markets",
         "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "zhibao",
+        "count": 2
       },
       {
-        "label": "Technology",
+        "label": "technology",
+        "count": 2
+      },
+      {
+        "label": "zbao",
+        "count": 2
+      },
+      {
+        "label": "earnings",
+        "count": 2
+      },
+      {
+        "label": "forecast",
+        "count": 2
+      },
+      {
+        "label": "future",
+        "count": 1
+      },
+      {
+        "label": "eps",
+        "count": 1
+      },
+      {
+        "label": "revenue",
+        "count": 1
+      },
+      {
+        "label": "growth",
+        "count": 1
+      },
+      {
+        "label": "estimates",
+        "count": 1
+      },
+      {
+        "label": "article",
+        "count": 1
+      },
+      {
+        "label": "provides",
+        "count": 1
+      }
+    ],
+    "headline": "Zhibao Technology Inc (ZBAO) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+    "headline_source": "TradingKey"
+  },
+  "previous": {
+    "date": "2026-07-07",
+    "symbol": "CB",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": -0.1241,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
         "count": 1
       },
       {
         "label": "Finance",
         "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "gen",
-        "count": 4
-      },
-      {
-        "label": "digital",
-        "count": 2
-      },
-      {
-        "label": "quarterly",
-        "count": 2
-      },
-      {
-        "label": "earnings",
-        "count": 2
-      },
-      {
-        "label": "results",
-        "count": 2
-      },
-      {
-        "label": "expectations",
-        "count": 2
-      },
-      {
-        "label": "eps",
-        "count": 2
-      },
-      {
-        "label": "releases",
-        "count": 1
-      },
-      {
-        "label": "beats",
-        "count": 1
-      },
-      {
-        "label": "announced",
-        "count": 1
-      },
-      {
-        "label": "reporting",
-        "count": 1
-      },
-      {
-        "label": "adjusted",
-        "count": 1
-      }
-    ],
-    "headline": "Gen Digital (NASDAQ:GEN) Releases Quarterly Earnings Results, Beats Expectations By $0.02 EPS",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-08-05",
-    "symbol": "NVDA",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": -0.143,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Technology",
-        "count": 1
       },
       {
         "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "Ipo",
+        "label": "Real Estate",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "spacex",
+        "label": "revenue",
         "count": 2
       },
       {
-        "label": "overvalued",
+        "label": "fidelity",
         "count": 2
       },
       {
-        "label": "earnings",
+        "label": "national",
+        "count": 2
+      },
+      {
+        "label": "financial",
+        "count": 2
+      },
+      {
+        "label": "fnf",
+        "count": 2
+      },
+      {
+        "label": "growth",
         "count": 1
       },
       {
-        "label": "significantly",
+        "label": "softer",
         "count": 1
       },
       {
-        "label": "massive",
+        "label": "margins",
         "count": 1
       },
       {
-        "label": "investments",
+        "label": "altering",
         "count": 1
       },
       {
-        "label": "outweigh",
+        "label": "investment",
         "count": 1
       },
       {
-        "label": "hefty",
+        "label": "case",
         "count": 1
       },
       {
-        "label": "neocloud",
-        "count": 1
-      },
-      {
-        "label": "rent",
-        "count": 1
-      },
-      {
-        "label": "morningstar",
-        "count": 1
-      },
-      {
-        "label": "maintains",
+        "label": "for",
         "count": 1
       }
     ],
-    "headline": "SpaceX Earnings: Stock Significantly Overvalued as Massive AI Investments Outweigh Hefty Neocloud Rent",
-    "headline_source": "Morningstar"
+    "headline": "Is Revenue Growth With Softer Margins Altering The Investment Case For Fidelity National Financial (FNF)?",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
-    "Finance",
     "Earnings",
     "Financial Markets"
   ],
   "fading_themes": [
-    "Ipo"
+    "Finance",
+    "Real Estate",
+    "Economy Macro"
   ],
   "emerging_keywords": [
-    "gen",
-    "digital",
-    "quarterly"
+    "zhibao",
+    "technology",
+    "zbao"
   ],
   "fading_keywords": [
-    "spacex",
-    "overvalued",
-    "significantly"
+    "fidelity",
+    "national",
+    "financial"
   ],
-  "takeaway": "NVDA's narrative is turning bullish: sentiment moved +0.38, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "CB's narrative is turning bullish: sentiment moved +0.21, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

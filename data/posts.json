@@ -1,5 +1,209 @@
 [
   {
+    "id": "market-narrative-shift-cb-2026-08-10",
+    "date": "2026-08-10",
+    "runDate": "2026-08-10",
+    "createdAt": "2026-08-10T03:47:52.890546+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $CB",
+    "status": "ready",
+    "tweet": "What changed in $CB's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.21\n📌 Top theme: Earnings\n🔎 Emerging term: zhibao\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_CB_2026-08-10.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-10T03:47:50.415390+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$CB",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "CB",
+    "topChangePct": 21.45,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-10T03:47:50.415390+00:00",
+      "date": "2026-08-10",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "CB",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.2145,
+      "baseline_label": "2026-07-07",
+      "current": {
+        "date": "2026-08-10",
+        "symbol": "CB",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0904,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "zhibao",
+            "count": 2
+          },
+          {
+            "label": "technology",
+            "count": 2
+          },
+          {
+            "label": "zbao",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "forecast",
+            "count": 2
+          },
+          {
+            "label": "future",
+            "count": 1
+          },
+          {
+            "label": "eps",
+            "count": 1
+          },
+          {
+            "label": "revenue",
+            "count": 1
+          },
+          {
+            "label": "growth",
+            "count": 1
+          },
+          {
+            "label": "estimates",
+            "count": 1
+          },
+          {
+            "label": "article",
+            "count": 1
+          },
+          {
+            "label": "provides",
+            "count": 1
+          }
+        ],
+        "headline": "Zhibao Technology Inc (ZBAO) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+        "headline_source": "TradingKey"
+      },
+      "previous": {
+        "date": "2026-07-07",
+        "symbol": "CB",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": -0.1241,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Real Estate",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "fidelity",
+            "count": 2
+          },
+          {
+            "label": "national",
+            "count": 2
+          },
+          {
+            "label": "financial",
+            "count": 2
+          },
+          {
+            "label": "fnf",
+            "count": 2
+          },
+          {
+            "label": "growth",
+            "count": 1
+          },
+          {
+            "label": "softer",
+            "count": 1
+          },
+          {
+            "label": "margins",
+            "count": 1
+          },
+          {
+            "label": "altering",
+            "count": 1
+          },
+          {
+            "label": "investment",
+            "count": 1
+          },
+          {
+            "label": "case",
+            "count": 1
+          },
+          {
+            "label": "for",
+            "count": 1
+          }
+        ],
+        "headline": "Is Revenue Growth With Softer Margins Altering The Investment Case For Fidelity National Financial (FNF)?",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Finance",
+        "Real Estate",
+        "Economy Macro"
+      ],
+      "emerging_keywords": [
+        "zhibao",
+        "technology",
+        "zbao"
+      ],
+      "fading_keywords": [
+        "fidelity",
+        "national",
+        "financial"
+      ],
+      "takeaway": "CB's narrative is turning bullish: sentiment moved +0.21, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-10",
     "date": "2026-08-10",
     "runDate": "2026-08-10",
