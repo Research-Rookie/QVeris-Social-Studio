@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-udr-2026-08-10",
+    "date": "2026-08-10",
+    "runDate": "2026-08-10",
+    "createdAt": "2026-08-10T04:13:53.357546+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$UDR news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-10.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-10T04:13:51.755670+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$UDR",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "UDR",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-10T04:13:51.755670+00:00",
+      "date": "2026-08-10",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "UDR",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "How Investors Are Reacting To UDR (UDR) Stronger Profit, Steady Revenue And Higher 2026 Earnings Guidance",
+      "headline_source": "Simply Wall Street",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for UDR: {'status_code': 200, 'data': {'c': 38.41, 'd': 0.27, 'dp': 0.7079, 'h': 38.61, 'l': 37.84, 'o': 38.08, 'pc': 38.14, 't': 1786132800}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "UDR",
+            "mentions": 2
+          },
+          {
+            "ticker": "HIG",
+            "mentions": 2
+          },
+          {
+            "ticker": "CAH",
+            "mentions": 2
+          },
+          {
+            "ticker": "MCK",
+            "mentions": 2
+          },
+          {
+            "ticker": "CVS",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 25
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 9
+          },
+          {
+            "label": "Bullish",
+            "count": 9
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-cb-2026-08-10",
     "date": "2026-08-10",
     "runDate": "2026-08-10",
