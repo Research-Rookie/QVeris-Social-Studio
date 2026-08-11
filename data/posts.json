@@ -1,5 +1,105 @@
 [
   {
+    "id": "api-reliability-arena-crypto-markets-2026-08-11",
+    "date": "2026-08-11",
+    "runDate": "2026-08-11",
+    "createdAt": "2026-08-11T07:44:54.483124+00:00",
+    "contentType": "API RELIABILITY ARENA",
+    "title": "API Reliability Arena: Crypto market data",
+    "status": "ready",
+    "tweet": "Which API would an AI agent choose? ⚔️\n\nToday's task: Crypto market data\n🏆 Coin Historical Chart Data by ID\n✅ 100.0% success | ⚡ 63ms | 🪙 2 credits\n\nQVeris compares routing signals before the call, so agents can choose with evidence.\nhttps://qveris.ai",
+    "image": "/posts/api_reliability_arena_crypto-markets_2026-08-11.png",
+    "dataSource": "QVeris Discover routing signals",
+    "dataUpdatedAt": "2026-08-11T07:44:52.934164+00:00",
+    "xPostId": null,
+    "primaryLabel": "Champion",
+    "primaryValue": "Coin Historical Chart Data by ID",
+    "secondaryLabel": "Route score",
+    "secondaryValue": "92.8",
+    "topSymbol": "API",
+    "topChangePct": 92.8,
+    "apiReliabilityArena": {
+      "updated_at": "2026-08-11T07:44:52.934164+00:00",
+      "date": "2026-08-11",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris Discover routing signals",
+      "title": "API Reliability Arena",
+      "scenario": {
+        "key": "crypto-markets",
+        "label": "Crypto market data",
+        "task": "Retrieve crypto prices, market cap, and 24-hour volume",
+        "query": "crypto market data API latest price market cap volume percent change"
+      },
+      "search_id": "88cabb4e-714e-49d0-96dc-1309463bdc9b",
+      "result_count": 10,
+      "competitors": [
+        {
+          "tool_id": "coingecko.coins.marketchart.retrieve.v3.eb9061a6",
+          "name": "Coin Historical Chart Data by ID",
+          "provider": "CoinGecko",
+          "success_rate": 1.0,
+          "latency_ms": 63.18,
+          "cost_credits": 2.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 92.8,
+          "metric_count": 3,
+          "expected_cost_text": "2",
+          "rank": 1
+        },
+        {
+          "tool_id": "coinmarketcap.cryptocurrency.listings.latest.retrieve.v1.8dddc12f",
+          "name": "Listings Latest",
+          "provider": "CoinMarketCap",
+          "success_rate": 1.0,
+          "latency_ms": 273.8,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 91.3,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 2
+        },
+        {
+          "tool_id": "coingecko_pro.coins.marketchart.retrieve.v3.ceee2841",
+          "name": "Coin Historical Chart Data by ID",
+          "provider": "CoinGecko",
+          "success_rate": 1.0,
+          "latency_ms": 365.95,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 90.0,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 3
+        }
+      ],
+      "champion": {
+        "tool_id": "coingecko.coins.marketchart.retrieve.v3.eb9061a6",
+        "name": "Coin Historical Chart Data by ID",
+        "provider": "CoinGecko",
+        "success_rate": 1.0,
+        "latency_ms": 63.18,
+        "cost_credits": 2.0,
+        "cost_known": true,
+        "freshness": "Not stated",
+        "route_score": 92.8,
+        "metric_count": 3,
+        "expected_cost_text": "2",
+        "rank": 1
+      },
+      "takeaway": "QVeris ranks Coin Historical Chart Data by ID first for crypto market data, led by 100.0% historical success.",
+      "methodology": {
+        "success_weight": 0.55,
+        "latency_weight": 0.25,
+        "cost_weight": 0.2,
+        "note": "Ranking uses QVeris historical routing signals; it is not a live load test."
+      }
+    }
+  },
+  {
     "id": "earnings-reality-check-amzn-2026-07-30",
     "date": "2026-08-11",
     "runDate": "2026-08-11",
