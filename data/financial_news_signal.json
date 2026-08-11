@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T03:30:10.207505+00:00",
+  "updated_at": "2026-08-11T04:02:07.504920+00:00",
   "date": "2026-08-11",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
@@ -11,7 +11,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/advanced-micro-devices-nasdaqamd-shares-down-29-should-you-sell-2026-08-10/",
       "source": "MarketBeat",
       "published_at": "20260811T010706",
-      "sentiment_score": 0.098481,
+      "sentiment_score": 0.08878,
       "sentiment_label": "Neutral",
       "tickers": [
         "AMD",
@@ -32,7 +32,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/smx/forecast",
       "source": "TradingKey",
       "published_at": "20260811T004046",
-      "sentiment_score": 0.017996,
+      "sentiment_score": 0.010639,
       "sentiment_label": "Neutral",
       "tickers": [
         "SMX"
@@ -50,7 +50,7 @@
       "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-dxcm/dexcom/news/stronger-q2-results-and-higher-2026-outlook-might-change-the-1",
       "source": "Simply Wall Street",
       "published_at": "20260811T013640",
-      "sentiment_score": 0.435718,
+      "sentiment_score": 0.426424,
       "sentiment_label": "Bullish",
       "tickers": [
         "DXCM"
@@ -70,7 +70,7 @@
       "url": "https://www.tipranks.com/stocks/gb:0uan/earnings/q1-2025-report",
       "source": "TipRanks",
       "published_at": "20260811T003813",
-      "sentiment_score": 0.429191,
+      "sentiment_score": 0.399216,
       "sentiment_label": "Bullish",
       "tickers": [
         "IVZ"
@@ -82,35 +82,12 @@
       "is_noise": false
     },
     {
-      "title": "How Investors May Respond To JPM (JPM) Buybacks, Blockchain Traction and Upgraded Earnings Expectations",
-      "summary": "JPMorgan Chase recently completed a significant share repurchase program and is seeing real-world traction with its Kinexys blockchain platform. Combined with rising earnings es...",
-      "url": "https://simplywall.st/stocks/us/banks/nyse-jpm/jpmorgan-chase/news/how-investors-may-respond-to-jpm-jpm-buybacks-blockchain-tra",
-      "source": "Simply Wall Street",
-      "published_at": "20260811T000808",
-      "sentiment_score": 0.235856,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "JPM",
-        "BAC",
-        "WFC"
-      ],
-      "topics": [
-        "Earnings",
-        "Blockchain",
-        "Finance",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 14,
-      "is_noise": false
-    },
-    {
       "title": "Stellus Capital Investment earnings missed, revenue fell short of estimates By Investing.com",
       "summary": "Stellus Capital Investment (NYSE: SCM) reported second-quarter earnings per share of $0.26, which missed analyst estimates, and revenue of $22.3 million, falling short of the co...",
       "url": "https://www.investing.com/news/earnings/stellus-capital-investment-earnings-missed-revenue-fell-short-of-estimates-4850664",
       "source": "Investing.com",
       "published_at": "20260811T004016",
-      "sentiment_score": 0.014311,
+      "sentiment_score": 0.001692,
       "sentiment_label": "Neutral",
       "tickers": [
         "SCA"
@@ -128,7 +105,7 @@
       "url": "https://www.investing.com/news/earnings/summit-midstream-earnings-beat-by-048-revenue-topped-estimates-4850426",
       "source": "Investing.com",
       "published_at": "20260811T003926",
-      "sentiment_score": 0.545493,
+      "sentiment_score": 0.505417,
       "sentiment_label": "Bullish",
       "tickers": [
         "SMC"
@@ -141,45 +118,101 @@
       "is_noise": false
     },
     {
-      "title": "Sempra (SRE) Earnings Keep Growth Hopes Alive As Valuation Debate Builds",
-      "summary": "Sempra (SRE) recently reported its Q2 2026 results, showing steady sales and higher net income, with updated earnings guidance reinforcing its 2026 and 2027 outlook. Despite a r...",
-      "url": "https://simplywall.st/stocks/us/utilities/nyse-sre/sempra/news/sempra-sre-earnings-keep-growth-hopes-alive-as-valuation-deb",
-      "source": "Simply Wall Street",
-      "published_at": "20260811T000849",
-      "sentiment_score": 0.147526,
+      "title": "UWM Seeks More Than $500M From Two Harbors After Failed Deal",
+      "summary": "United Wholesale Mortgage (UWM) has sued Two Harbors Investment Corp., seeking over $500 million for alleged breach of contract and fraud following the collapse of their $1.3 bi...",
+      "url": "https://nationalmortgageprofessional.com/news/uwm-seeks-more-500m-two-harbors-after-failed-deal",
+      "source": "National Mortgage Professional",
+      "published_at": "20260811T034136",
+      "sentiment_score": 0.179641,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "TWO-P-B",
+        "F"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Finance",
+        "Earnings",
+        "Real Estate",
+        "Retail Wholesale"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "UWM alleges Two Harbors rigged shareholder outreach before vote",
+      "summary": "United Wholesale Mortgage (UWM) has filed a lawsuit against Two Harbors Investment Corp. (TWO), alleging breach of contract and fraud related to a failed $1.3 billion merger agr...",
+      "url": "https://www.housingwire.com/articles/uwm-sues-two-harbors-crosscountry-merger/",
+      "source": "HousingWire",
+      "published_at": "20260811T034136",
+      "sentiment_score": 0.032459,
       "sentiment_label": "Neutral",
       "tickers": [
-        "SRE"
+        "TWO-P-B"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Finance",
+        "Real Estate",
+        "Earnings"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Telos Corp (TLS) (Q2 2026) Earnings Call Highlights: Revenue Surges 33% and Adjusted EBITDA ...",
+      "summary": "Telos Corp (TLS) reported strong Q2 2026 earnings, with revenue increasing 33% year-over-year to $47.7 million and Adjusted EBITDA reaching $6.9 million, both exceeding guidance...",
+      "url": "https://au.finance.yahoo.com/news/telos-corp-tls-q2-2026-210233159.html",
+      "source": "Yahoo Finance Australia",
+      "published_at": "20260811T034101",
+      "sentiment_score": 0.415193,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "TLS"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Silvercorp Metals (SVM) Releases Q1 2027 Earnings: Revenue and Profit Surge",
+      "summary": "Silvercorp Metals (SVM) reported a strong first quarter for fiscal 2027, with revenue increasing by 70.5% to $138.7 million. The company saw significant growth in net income, re...",
+      "url": "https://www.quiverquant.com/news/Silvercorp+Metals+%28SVM%29+Releases+Q1+2027+Earnings%3A+Revenue+and+Profit+Surge",
+      "source": "Quiver Quantitative",
+      "published_at": "20260811T014146",
+      "sentiment_score": 0.458619,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SVM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "The Bull Case For Telephone and Data Systems (TDS) Could Change Following Q2 Earnings Surge And Higher Fiber Target...",
+      "summary": "Telephone and Data Systems (TDS) reported a significant Q2 2026 earnings surge, with revenues of US$309.28 million and net income of US$298.37 million, alongside improved per-sh...",
+      "url": "https://simplywall.st/stocks/us/telecom/nyse-tds/telephone-and-data-systems/news/the-bull-case-for-telephone-and-data-systems-tds-could-chang",
+      "source": "Simply Wall Street",
+      "published_at": "20260811T034000",
+      "sentiment_score": 0.006978,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TDS-P-V"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Finance",
-        "Energy Transportation",
-        "Economy Macro"
+        "Technology"
       ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Odyssey Therapeutics (ODTX) Looks Fully Valued As Earnings And Evotec Deal Refocus Attention",
-      "summary": "Odyssey Therapeutics (ODTX) is gaining attention after reporting a larger net loss in Q2 2026, alongside a new R&D collaboration with Evotec, which has spurred positive share pr...",
-      "url": "https://finance.yahoo.com/healthcare/articles/odyssey-therapeutics-odtx-looks-fully-001932545.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260811T001126",
-      "sentiment_score": -0.096783,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ODTX",
-        "COIN"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 12,
+      "quality_score": 10,
       "is_noise": false
     },
     {
@@ -188,7 +221,7 @@
       "url": "https://uk.finance.yahoo.com/news/apollo-global-management-apo-joins-020925631.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260811T020913",
-      "sentiment_score": 0.375587,
+      "sentiment_score": 0.383699,
       "sentiment_label": "Bullish",
       "tickers": [
         "APO",
@@ -208,7 +241,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/intel-selling-15-billion-stock-014300656.html",
       "source": "Yahoo Finance",
       "published_at": "20260811T014306",
-      "sentiment_score": 0.021609,
+      "sentiment_score": 0.042363,
       "sentiment_label": "Neutral",
       "tickers": [
         "INTC",
@@ -230,7 +263,7 @@
       "url": "https://simplywall.st/stocks/ca/energy/tsx-sobo/south-bow-shares/news/raised-2026-outlook-and-longterm-commitments-could-be-a-game",
       "source": "Simply Wall Street",
       "published_at": "20260811T004037",
-      "sentiment_score": 0.308516,
+      "sentiment_score": 0.307335,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "SOBO"
@@ -251,7 +284,7 @@
       "url": "https://sg.finance.yahoo.com/news/fedex-fdx-using-robotics-sharpen-020851023.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260811T020751",
-      "sentiment_score": 0.161102,
+      "sentiment_score": 0.153373,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "FDX",
@@ -273,7 +306,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/RMD/pressreleases/3767334/ord-minnett-remains-a-buy-on-resmed-inc-chess-depositary-interests-on-a-ratio-of-10-cdis-per-ordsh-rmd/",
       "source": "The Globe and Mail",
       "published_at": "20260811T010758",
-      "sentiment_score": 0.282639,
+      "sentiment_score": 0.290587,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "RMD"
@@ -293,7 +326,7 @@
       "url": "https://cryptorank.io/news/feed/d1642-strategy-mstr-bitcoin-selling-spree-offloads-another-1690-btc-2026-sales-hit-6916-btc",
       "source": "CryptoRank",
       "published_at": "20260811T004049",
-      "sentiment_score": 0.037555,
+      "sentiment_score": 0.026013,
       "sentiment_label": "Neutral",
       "tickers": [
         "STRF"
@@ -308,53 +341,12 @@
       "is_noise": false
     },
     {
-      "title": "Septerna, Inc. (SEPN) Reports Q2 Loss, Beats Revenue Estimates",
-      "summary": "Septerna, Inc. (SEPN) reported a Q2 loss of $0.29 per share, beating the Zacks Consensus Estimate of a $0.48 loss and surpassing last year's $0.56 loss. The company's revenues f...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/septerna-inc-sepn-reports-q2-211002413.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260811T000958",
-      "sentiment_score": 0.208279,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SEPN"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Rio Tinto (RIO)’s 43% Earnings Surge: Sustainable Growth or Commodity Mirage?",
-      "summary": "Rio Tinto reported a 43% surge in underlying earnings, reaching $6.9 billion, driven by strong metal prices for copper, aluminum, and lithium, and supported by an operational ef...",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/rio-tinto-rio-43-earnings-113922212.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260810T234153",
-      "sentiment_score": 0.236837,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "RIO",
-        "COIN",
-        "LMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Manufacturing",
-        "Technology"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
       "title": "ADIG Stock Price and Chart — NYSE:ADIG",
       "summary": "This article provides an overview of ADI Global Distribution Inc. (ADIG) stock on the NYSE, including its current price, key financial stats, recent performance, and analyst rat...",
       "url": "https://www.tradingview.com/symbols/NYSE-ADIG/",
       "source": "TradingView",
       "published_at": "20260811T002630",
-      "sentiment_score": 0.294579,
+      "sentiment_score": 0.253845,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ADIG"
@@ -368,12 +360,49 @@
       "is_noise": false
     },
     {
+      "title": "News Corp Updates US$1 Billion Share Repurchase Program",
+      "summary": "News Corporation has updated its US$1 billion share repurchase program, focusing on its Nasdaq-listed Class A and Class B common stock, excluding ASX-listed CDIs. This initiativ...",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3767850/news-corp-updates-us1-billion-share-repurchase-program/",
+      "source": "The Globe and Mail",
+      "published_at": "20260811T022952",
+      "sentiment_score": 0.433029,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NWS"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "American Tower SVP Sells 5,000 Shares for $894,450",
+      "summary": "Robert Joseph Meyer, SVP & Advisor to the CFO at American Tower Corporation (NYSE: AMT), sold 5,000 shares for $894,450 on July 29, 2026, reducing his direct ownership by 19% to...",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/3768014/american-tower-svp-sells-5-000-shares-for-894-450/",
+      "source": "The Globe and Mail",
+      "published_at": "20260811T022208",
+      "sentiment_score": 0.25024,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "AMT"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Real Estate"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "Share Repurchase Program Approved by Globe Life (NYSE:GL) Board of Directors",
       "summary": "Globe Life's Board of Directors has approved a new $2.5 billion share repurchase program, allowing the company to buy back up to 17.7% of its outstanding shares. The insurer rep...",
       "url": "https://www.marketbeat.com/instant-alerts/share-repurchase-program-approved-by-globe-life-nysegl-board-of-directors-2026-08-10/",
       "source": "MarketBeat",
       "published_at": "20260811T021356",
-      "sentiment_score": 0.288782,
+      "sentiment_score": 0.289838,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GL"
@@ -387,12 +416,31 @@
       "is_noise": false
     },
     {
+      "title": "Tenet Healthcare (NYSE:THC) Director Tammy Romo Sells 4,922 Shares of Stock",
+      "summary": "Tenet Healthcare Director Tammy Romo sold 4,922 shares of THC stock for over $1.3 million on August 6th, and an additional 2,500 shares on August 7th, reducing her direct stake...",
+      "url": "https://www.marketbeat.com/instant-alerts/tenet-healthcare-nysethc-director-tammy-romo-sells-4922-shares-of-stock-2026-08-10/",
+      "source": "MarketBeat",
+      "published_at": "20260811T014113",
+      "sentiment_score": 0.12293,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "THC"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "Trimble Second Quarter Earnings Call and Webcast",
       "summary": "Trimble (Nasdaq: TRMB) announced it will host a conference call on Wednesday, August 12, 2026, at 8 a.m. ET to discuss its second-quarter 2026 financial results. The call will b...",
       "url": "https://dredgewire.com/trimble-second-quarter-earnings-call-and-webcast/",
       "source": "DredgeWire",
       "published_at": "20260811T013910",
-      "sentiment_score": 0.111201,
+      "sentiment_score": 0.137506,
       "sentiment_label": "Neutral",
       "tickers": [
         "TRMB"
@@ -413,7 +461,7 @@
       "url": "https://www.trefis.com/stock/anet/articles/610720/a-14-yield-on-anet-stock-and-a-shot-at-buying-it-40-lower/2026-08-10",
       "source": "Trefis",
       "published_at": "20260811T012408",
-      "sentiment_score": 0.291817,
+      "sentiment_score": 0.25559,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ANET"
@@ -427,63 +475,21 @@
       "is_noise": false
     },
     {
-      "title": "What Investors Should Know About a Mettler-Toledo Director's Two Transactions This Past Week",
-      "summary": "Mettler-Toledo International Inc. director Thomas P. Salice recently executed a non-discretionary exercise-and-sell transaction, disposing of 417 shares valued at approximately...",
-      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/3766764/what-investors-should-know-about-a-mettler-toledo-director-s-two-transactions-this-past-week/",
-      "source": "The Globe and Mail",
-      "published_at": "20260811T000838",
-      "sentiment_score": 0.283473,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Security National Financial Q2 Results: Net profit rises 7.3% YoY",
+      "summary": "Security National Financial Corporation (SNFC) has corrected its Q2 2026 financial disclosures, adjusting its book value per share to $16.63 and share count to 26.03 million. De...",
+      "url": "https://scanx.trade/stock-market-news/companies/security-national-financial-q2-results-net-profit-rises-7-3-yoy/47933427",
+      "source": "scanx.trade",
+      "published_at": "20260811T030458",
+      "sentiment_score": 0.395816,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "MTD"
+        "SNFCA"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Life Sciences",
-        "Manufacturing"
+        "Finance"
       ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "How Leadership Shift And Buybacks At McDonald's (MCD) Have Changed Its Investment Story",
-      "summary": "McDonald's recently reported strong Q2 2026 results, including US$7,099 million in revenue and US$2,362 million in net income, alongside the completion of a US$3.27 billion shar...",
-      "url": "https://simplywall.st/stocks/us/consumer-services/nyse-mcd/mcdonalds/news/how-leadership-shift-and-buybacks-at-mcdonalds-mcd-have-chan",
-      "source": "Simply Wall Street",
-      "published_at": "20260811T000814",
-      "sentiment_score": 0.099732,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MCD",
-        "CMG",
-        "YUM"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "LandBridge Company LLC Class A Revenue Breakdown – TRADEGATE:D5O",
-      "summary": "LandBridge Company LLC Class A (TRADEGATE:D5O) reported significant revenue in the last fiscal year, totaling ‪169.51 M‬ EUR. The primary revenue driver was the Surface Use Roya...",
-      "url": "https://www.tradingview.com/symbols/TRADEGATE-D5O/financials-segments/",
-      "source": "TradingView",
-      "published_at": "20260810T234158",
-      "sentiment_score": 0.045619,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "LB",
-        "FDS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 7,
+      "quality_score": 6,
       "is_noise": false
     },
     {
@@ -492,7 +498,7 @@
       "url": "https://www.marketscreener.com/news/blue-lagoon-resources-inc-announced-that-it-expects-to-receive-cad-10-002-million-in-funding-from-n-ce7859dadb8df025",
       "source": "www.marketscreener.com",
       "published_at": "20260811T021058",
-      "sentiment_score": 0.377037,
+      "sentiment_score": 0.362625,
       "sentiment_label": "Bullish",
       "tickers": [
         "NICM",
@@ -510,7 +516,7 @@
       "url": "https://www.tipranks.com/news/the-fly/keel-infrastructure-price-target-lowered-to-7-from-8-at-alliance-global-thefly-news",
       "source": "TipRanks",
       "published_at": "20260811T020946",
-      "sentiment_score": -0.338539,
+      "sentiment_score": -0.330687,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "KEEL"
@@ -528,7 +534,7 @@
       "url": "https://www.gurufocus.com/news/9022942/a-look-at-sm-energy-co-sm-after-100-gain-gf-value-4900-vs-price-3176",
       "source": "GuruFocus",
       "published_at": "20260811T003350",
-      "sentiment_score": 0.320253,
+      "sentiment_score": 0.307106,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "SM"
@@ -548,7 +554,7 @@
       "url": "https://www.gurufocus.com/news/9023018/pool-corp-pool-shares-fall-31-what-gf-score-of-66-tells-investors",
       "source": "GuruFocus",
       "published_at": "20260811T003346",
-      "sentiment_score": 0.312643,
+      "sentiment_score": 0.314039,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "POOL"
@@ -563,23 +569,23 @@
       "is_noise": false
     },
     {
-      "title": "Bruker Corp (BRKR) Shares Surge 5.5% -- What GF Score of 77 Tells Investors",
-      "summary": "Bruker Corp (BRKR) saw its shares rise 5.5% to $56.33, trading at a 6.5% discount to its GF Value of $60.24, suggesting undervaluation. Despite an overall GF Score of 77/100, in...",
-      "url": "https://www.gurufocus.com/news/9022799/bruker-corp-brkr-shares-surge-55-what-gf-score-of-77-tells-investors",
-      "source": "GuruFocus",
-      "published_at": "20260811T001049",
-      "sentiment_score": 0.036184,
+      "title": "Tenet Healthcare director Tammy Romo sells $1.95m stock By Investing.com",
+      "summary": "Tammy Romo, a director at Tenet Healthcare Corp. (NASDAQ:THC), sold approximately $1.95 million worth of common stock in two transactions earlier this month, involving 7,422 sha...",
+      "url": "https://ca.investing.com/news/stock-market-news/tenet-healthcare-director-tammy-romo-sells-195m-stock-93CH-4791120",
+      "source": "Investing.com Canada",
+      "published_at": "20260811T014113",
+      "sentiment_score": 0.139646,
       "sentiment_label": "Neutral",
       "tickers": [
-        "BRKRP"
+        "THC"
       ],
       "topics": [
         "Earnings",
+        "Life Sciences",
         "Financial Markets",
-        "Finance",
-        "Life Sciences"
+        "Finance"
       ],
-      "quality_score": 5,
+      "quality_score": 4,
       "is_noise": false
     },
     {
@@ -588,7 +594,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/discovery-capital-management-sells-478m-in-ramaco-resources-93CH-4791106",
       "source": "Investing.com Canada",
       "published_at": "20260811T013421",
-      "sentiment_score": 0.018171,
+      "sentiment_score": 0.014054,
       "sentiment_label": "Neutral",
       "tickers": [
         "METCI"
@@ -607,7 +613,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/schwab-director-paula-sneed-sells-563954-in-common-stock-93CH-4791012",
       "source": "Investing.com Canada",
       "published_at": "20260811T003453",
-      "sentiment_score": -0.127127,
+      "sentiment_score": -0.123068,
       "sentiment_label": "Neutral",
       "tickers": [
         "SCHW"
@@ -621,12 +627,70 @@
       "is_noise": false
     },
     {
+      "title": "Why Is Interface (TILE) Stock Rocketing Higher Today",
+      "summary": "Shares of modular flooring manufacturer Interface (TILE) surged 12.6% after reporting second-quarter results that significantly beat adjusted EPS expectations, despite third-qua...",
+      "url": "https://ca.finance.yahoo.com/news/why-interface-tile-stock-rocketing-030922325.html",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260811T030923",
+      "sentiment_score": 0.431713,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "TILE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Monetary",
+        "Manufacturing"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Tenet Healthcare (THC) Director Tammy Romo Sells 7,422 Shares",
+      "summary": "Tenet Healthcare (THC) Director Tammy Romo sold 7,422 shares on August 7, 2026, for approximately $1.95 million, reducing her total holdings to 28,284 shares. This transaction i...",
+      "url": "https://www.gurufocus.com/news/9023164/tenet-healthcare-thc-director-tammy-romo-sells-7422-shares",
+      "source": "GuruFocus",
+      "published_at": "20260811T024112",
+      "sentiment_score": -0.433644,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "THC"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Finance",
+        "Life Sciences",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "KLA Corp CEO Richard P. Wallace Reports RSU Vesting Share Withholding on August 7, 2026",
+      "summary": "Richard P. Wallace, President and CEO of KLA Corp, reported an automatic share withholding transaction on August 10, 2026. This transaction was related to the vesting of restric...",
+      "url": "https://kalkinemedia.com/us/news/announcements/kla-corp-ceo-richard-p-wallace-reports-rsu-vesting-share-withholding-on-august-7-2026",
+      "source": "Kalkine Media",
+      "published_at": "20260811T023119",
+      "sentiment_score": 0.02292,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KLAC"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
       "title": "American Tower SVP Sells 5,000 Shares for $894,450",
       "summary": "Robert Joseph Meyer, SVP at American Tower Corporation, sold 5,000 shares of common stock for $894,450 on July 29, 2026, reducing his direct stake by 19% to 21,428 shares. Despi...",
       "url": "https://www.fool.com/coverage/filings/2026/08/10/american-tower-svp-sells-5000-shares-for-894450/",
       "source": "The Motley Fool",
       "published_at": "20260811T023111",
-      "sentiment_score": 0.285658,
+      "sentiment_score": 0.250653,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "AMT"
@@ -647,7 +711,7 @@
       "url": "https://joeychoy.beehiiv.com/p/palo-alto-networks-is-quietly-becoming-the-operating-system-of-enterprise-security",
       "source": "Beehiiv",
       "published_at": "20260811T010840",
-      "sentiment_score": 0.224885,
+      "sentiment_score": 0.213604,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PANW",
@@ -670,7 +734,7 @@
       "url": "https://scanx.trade/stock-market-news/companies/shimmick-q2-results-gross-margin-rises-53-qoq-backlog-hits-991m/47949702",
       "source": "scanx.trade",
       "published_at": "20260811T003933",
-      "sentiment_score": 0.432317,
+      "sentiment_score": 0.443309,
       "sentiment_label": "Bullish",
       "tickers": [
         "SHIM"
@@ -688,7 +752,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/aura-minerals-cfo-sells-700300-in-shares-93CH-4791013",
       "source": "Investing.com Canada",
       "published_at": "20260811T003413",
-      "sentiment_score": -0.230411,
+      "sentiment_score": -0.203248,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "AUGO"
@@ -702,43 +766,24 @@
       "is_noise": false
     },
     {
-      "title": "Could Arbutus Biopharma Corporation (ABUS) Turn its Moderna, Inc. (MRNA) Settlement Into a Lasting Biotech Advantage?",
-      "summary": "Arbutus Biopharma Corporation (ABUS) recently received a $178 million settlement from Moderna, Inc. (MRNA) for patent infringement, leading to a significant net income and a pla...",
-      "url": "https://finance.yahoo.com/healthcare/articles/could-arbutus-biopharma-corporation-abus-001821145.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260811T001830",
-      "sentiment_score": 0.066265,
-      "sentiment_label": "Neutral",
+      "title": "Spyre Therapeutics (NASDAQ:SYRE) Director Sells 18,000 Shares",
+      "summary": "Spyre Therapeutics (NASDAQ:SYRE) Director Jeffrey Albers sold 18,000 shares of the company's stock for $1,881,900, reducing his holdings by 65.79%. The transaction occurred as S...",
+      "url": "https://www.marketbeat.com/instant-alerts/spyre-therapeutics-nasdaqsyre-director-sells-18000-shares-2026-08-10/",
+      "source": "MarketBeat",
+      "published_at": "20260811T031152",
+      "sentiment_score": 0.200122,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "MRNA",
-        "COIN"
+        "SYRE"
       ],
       "topics": [
         "Earnings",
-        "Life Sciences",
         "Financial Markets",
+        "Life Sciences",
         "Finance"
       ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Damora Therapeutics Q2 Results: Net Loss Widens To $31.2 Million",
-      "summary": "Damora Therapeutics reported a net loss of $31.2 million for Q2 2026, a significant increase from $3.4 million in the prior year, primarily due to soaring R&D expenses for its C...",
-      "url": "https://scanx.trade/stock-market-news/companies/damora-therapeutics-q2-results-net-loss-widens-to-31-2-million/47951185",
-      "source": "scanx.trade",
-      "published_at": "20260810T233942",
-      "sentiment_score": 0.105566,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DMRA"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": 3,
-      "is_noise": false
+      "quality_score": -10,
+      "is_noise": true
     },
     {
       "title": "Schwab chief risk officer Nigel Murtagh sells $2.9m in stock",
@@ -746,7 +791,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/schwab-chief-risk-officer-nigel-murtagh-sells-29m-in-stock-93CH-4850732",
       "source": "Investing.com",
       "published_at": "20260811T022557",
-      "sentiment_score": 0.128061,
+      "sentiment_score": 0.105423,
       "sentiment_label": "Neutral",
       "tickers": [
         "SCHW"
@@ -760,12 +805,52 @@
       "is_noise": true
     },
     {
+      "title": "Tenet Healthcare (NYSE:THC) Director Sells 2,500 Shares of Stock",
+      "summary": "Tenet Healthcare Director Tammy Romo sold 2,500 shares of company stock for over $652,000, reducing her position by 8.12%. This follows a previous sale of 4,922 shares. The stoc...",
+      "url": "https://www.marketbeat.com/instant-alerts/tenet-healthcare-nysethc-director-sells-2500-shares-of-stock-2026-08-10/",
+      "source": "MarketBeat",
+      "published_at": "20260811T014112",
+      "sentiment_score": -0.18872,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "THC"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Charles Schwab (NYSE:SCHW) Director Sells 5,263 Shares of Stock",
+      "summary": "Charles Schwab (NYSE:SCHW) Director Paula Sneed sold 5,263 shares of the company's stock for approximately $563,930 on August 7th, reducing her position by 5.43%. Following the...",
+      "url": "https://www.marketbeat.com/instant-alerts/charles-schwab-nyseschw-director-sells-5263-shares-of-stock-2026-08-10/",
+      "source": "MarketBeat",
+      "published_at": "20260811T013919",
+      "sentiment_score": 0.207921,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "SCHW"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
       "title": "Snap-on VP Iain Boyd sells $794,394 of company stock",
       "summary": "Iain Boyd, VP of Operations Development at Snap-on Inc., sold 1,878 shares of company stock for $794,394 after exercising stock options. The transactions were conducted under a...",
       "url": "https://m.investing.com/news/insider-trading-news/snapon-vp-iain-boyd-sells-794394-of-company-stock-93CH-4850301?ampMode=1",
       "source": "Investing.com",
       "published_at": "20260811T013906",
-      "sentiment_score": 0.298835,
+      "sentiment_score": 0.266106,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "SNA"
@@ -785,7 +870,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/nigel-murtagh-sells-24778-shares-of-charles-schwab-nyseschw-stock-2026-08-10/",
       "source": "MarketBeat",
       "published_at": "20260811T013857",
-      "sentiment_score": 0.115811,
+      "sentiment_score": 0.145067,
       "sentiment_label": "Neutral",
       "tickers": [
         "SCHW"
@@ -804,7 +889,7 @@
       "url": "https://www.stocktitan.net/sec-filings/PG/form-4-procter-gamble-co-insider-trading-activity-6fe6be24bea9.html",
       "source": "Stock Titan",
       "published_at": "20260811T012456",
-      "sentiment_score": 0.001151,
+      "sentiment_score": 0.027324,
       "sentiment_label": "Neutral",
       "tickers": [
         "PG"
@@ -822,7 +907,7 @@
       "url": "https://www.morningstar.com/news/pr-newswire/20260810dc22272/rosen-law-firm-encourages-suja-life-inc-investors-to-inquire-about-securities-class-action-investigation-suja",
       "source": "Morningstar",
       "published_at": "20260811T004104",
-      "sentiment_score": -0.701636,
+      "sentiment_score": -0.733183,
       "sentiment_label": "Bearish",
       "tickers": [
         "SUJA"
@@ -841,7 +926,7 @@
       "url": "https://www.stocktitan.net/sec-filings/RYTM/144-rhythm-pharmaceuticals-inc-sec-filing-5e69ce7db8b4.html",
       "source": "Stock Titan",
       "published_at": "20260811T004023",
-      "sentiment_score": 0.048722,
+      "sentiment_score": 0.004153,
       "sentiment_label": "Neutral",
       "tickers": [
         "RYTM"
@@ -860,7 +945,7 @@
       "url": "https://www.stocktitan.net/sec-filings/CRWD/form-4-crowd-strike-holdings-inc-insider-trading-activity-d8d09d766ff6.html",
       "source": "Stock Titan",
       "published_at": "20260811T003533",
-      "sentiment_score": -0.211694,
+      "sentiment_score": -0.215121,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CRWD"
@@ -880,7 +965,7 @@
       "url": "https://www.stocktitan.net/sec-filings/AMGN/form-4-amgen-inc-insider-trading-activity-eaab04056909.html",
       "source": "Stock Titan",
       "published_at": "20260811T002703",
-      "sentiment_score": 0.016952,
+      "sentiment_score": 0.042116,
       "sentiment_label": "Neutral",
       "tickers": [
         "AMGN"
@@ -889,101 +974,6 @@
         "Life Sciences",
         "Finance",
         "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Amgen (AMGN) director Michael V. Drake granted 63.8764 shares in equity award",
-      "summary": "Amgen director Michael V. Drake was granted 63.8764 shares of common stock as compensation on August 7, 2026. This automatic award, valued at $0.00 per share, increases his dire...",
-      "url": "https://www.stocktitan.net/sec-filings/AMGN/form-4-amgen-inc-insider-trading-activity-84b0f09c27db.html",
-      "source": "Stock Titan",
-      "published_at": "20260811T002503",
-      "sentiment_score": 0.034362,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AMGN"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Public Storage appoints S. Wade Sheek as chief legal officer and secretary",
-      "summary": "Public Storage (NYSE:PSA) has appointed S. Wade Sheek as its new Chief Legal Officer and Corporate Secretary, effective August 17. Sheek previously served in a similar role at H...",
-      "url": "https://www.investing.com/news/sec-filings/public-storage-appoints-s-wade-sheek-as-chief-legal-officer-and-secretary-93CH-4850613",
-      "source": "Investing.com",
-      "published_at": "20260811T001647",
-      "sentiment_score": 0.131586,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PSA"
-      ],
-      "topics": [
-        "Real Estate",
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "RAYONIER INC SEC Filing (Aug 10, 2026)",
-      "summary": "This article reports on an SEC Form 144 filing by Rayonier Inc. (RYN) on August 10, 2026. The filing indicates a proposed sale of 39,768 shares of common stock with an aggregate...",
-      "url": "https://www.stocktitan.net/sec-filings/RYN/144-rayonier-inc-sec-filing-55486f840e55.html",
-      "source": "Stock Titan",
-      "published_at": "20260811T001112",
-      "sentiment_score": 0.014026,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "RYN"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Aura Minerals (AUGO) CFO sells 10,000 shares via Rule 10b5-1 trading plan",
-      "summary": "Aura Minerals Inc. CFO and Corporate Secretary, Joao Kleber Dos Santos Cardoso, sold 10,000 common shares on August 7, 2026. The sale was executed under a Rule 10b5-1 trading pl...",
-      "url": "https://www.stocktitan.net/sec-filings/AUGO/form-4-aura-minerals-inc-insider-trading-activity-bbfed2413a3d.html",
-      "source": "Stock Titan",
-      "published_at": "20260811T001013",
-      "sentiment_score": -0.261364,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "AUGO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "What Investors Should Know About a Mettler-Toledo Director's Two Transactions This Past Week",
-      "summary": "Thomas P. Salice, a director at Mettler-Toledo International Inc. (NYSE: MTD), sold 417 shares of the company on August 5, according to an SEC Form 4 filing. This was a non-disc...",
-      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/3766764/what-investors-should-know-about-a-mettler-toledo-director-s-two-transactions-this-past-week/",
-      "source": "The Globe and Mail",
-      "published_at": "20260810T234829",
-      "sentiment_score": 0.289409,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MTD"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Manufacturing"
       ],
       "quality_score": -10,
       "is_noise": true
@@ -1001,7 +991,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/advanced-micro-devices-nasdaqamd-shares-down-29-should-you-sell-2026-08-10/",
       "source": "MarketBeat",
       "published_at": "20260811T010706",
-      "sentiment_score": 0.098481,
+      "sentiment_score": 0.08878,
       "sentiment_label": "Neutral",
       "tickers": [
         "AMD",
@@ -1022,7 +1012,7 @@
       "url": "https://www.tradingkey.com/markets/stocks/smx/forecast",
       "source": "TradingKey",
       "published_at": "20260811T004046",
-      "sentiment_score": 0.017996,
+      "sentiment_score": 0.010639,
       "sentiment_label": "Neutral",
       "tickers": [
         "SMX"
@@ -1040,7 +1030,7 @@
       "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-dxcm/dexcom/news/stronger-q2-results-and-higher-2026-outlook-might-change-the-1",
       "source": "Simply Wall Street",
       "published_at": "20260811T013640",
-      "sentiment_score": 0.435718,
+      "sentiment_score": 0.426424,
       "sentiment_label": "Bullish",
       "tickers": [
         "DXCM"
@@ -1060,7 +1050,7 @@
       "url": "https://www.tipranks.com/stocks/gb:0uan/earnings/q1-2025-report",
       "source": "TipRanks",
       "published_at": "20260811T003813",
-      "sentiment_score": 0.429191,
+      "sentiment_score": 0.399216,
       "sentiment_label": "Bullish",
       "tickers": [
         "IVZ"
@@ -1072,35 +1062,12 @@
       "is_noise": false
     },
     {
-      "title": "How Investors May Respond To JPM (JPM) Buybacks, Blockchain Traction and Upgraded Earnings Expectations",
-      "summary": "JPMorgan Chase recently completed a significant share repurchase program and is seeing real-world traction with its Kinexys blockchain platform. Combined with rising earnings es...",
-      "url": "https://simplywall.st/stocks/us/banks/nyse-jpm/jpmorgan-chase/news/how-investors-may-respond-to-jpm-jpm-buybacks-blockchain-tra",
-      "source": "Simply Wall Street",
-      "published_at": "20260811T000808",
-      "sentiment_score": 0.235856,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "JPM",
-        "BAC",
-        "WFC"
-      ],
-      "topics": [
-        "Earnings",
-        "Blockchain",
-        "Finance",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 14,
-      "is_noise": false
-    },
-    {
       "title": "Stellus Capital Investment earnings missed, revenue fell short of estimates By Investing.com",
       "summary": "Stellus Capital Investment (NYSE: SCM) reported second-quarter earnings per share of $0.26, which missed analyst estimates, and revenue of $22.3 million, falling short of the co...",
       "url": "https://www.investing.com/news/earnings/stellus-capital-investment-earnings-missed-revenue-fell-short-of-estimates-4850664",
       "source": "Investing.com",
       "published_at": "20260811T004016",
-      "sentiment_score": 0.014311,
+      "sentiment_score": 0.001692,
       "sentiment_label": "Neutral",
       "tickers": [
         "SCA"
@@ -1118,7 +1085,7 @@
       "url": "https://www.investing.com/news/earnings/summit-midstream-earnings-beat-by-048-revenue-topped-estimates-4850426",
       "source": "Investing.com",
       "published_at": "20260811T003926",
-      "sentiment_score": 0.545493,
+      "sentiment_score": 0.505417,
       "sentiment_label": "Bullish",
       "tickers": [
         "SMC"
@@ -1131,65 +1098,81 @@
       "is_noise": false
     },
     {
-      "title": "Sempra (SRE) Earnings Keep Growth Hopes Alive As Valuation Debate Builds",
-      "summary": "Sempra (SRE) recently reported its Q2 2026 results, showing steady sales and higher net income, with updated earnings guidance reinforcing its 2026 and 2027 outlook. Despite a r...",
-      "url": "https://simplywall.st/stocks/us/utilities/nyse-sre/sempra/news/sempra-sre-earnings-keep-growth-hopes-alive-as-valuation-deb",
-      "source": "Simply Wall Street",
-      "published_at": "20260811T000849",
-      "sentiment_score": 0.147526,
-      "sentiment_label": "Neutral",
+      "title": "UWM Seeks More Than $500M From Two Harbors After Failed Deal",
+      "summary": "United Wholesale Mortgage (UWM) has sued Two Harbors Investment Corp., seeking over $500 million for alleged breach of contract and fraud following the collapse of their $1.3 bi...",
+      "url": "https://nationalmortgageprofessional.com/news/uwm-seeks-more-500m-two-harbors-after-failed-deal",
+      "source": "National Mortgage Professional",
+      "published_at": "20260811T034136",
+      "sentiment_score": 0.179641,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "SRE"
+        "TWO-P-B",
+        "F"
       ],
       "topics": [
-        "Earnings",
-        "Financial Markets",
+        "Mergers And Acquisitions",
         "Finance",
-        "Energy Transportation",
-        "Economy Macro"
+        "Earnings",
+        "Real Estate",
+        "Retail Wholesale"
       ],
-      "quality_score": 13,
+      "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "Odyssey Therapeutics (ODTX) Looks Fully Valued As Earnings And Evotec Deal Refocus Attention",
-      "summary": "Odyssey Therapeutics (ODTX) is gaining attention after reporting a larger net loss in Q2 2026, alongside a new R&D collaboration with Evotec, which has spurred positive share pr...",
-      "url": "https://finance.yahoo.com/healthcare/articles/odyssey-therapeutics-odtx-looks-fully-001932545.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260811T001126",
-      "sentiment_score": -0.096783,
+      "title": "UWM alleges Two Harbors rigged shareholder outreach before vote",
+      "summary": "United Wholesale Mortgage (UWM) has filed a lawsuit against Two Harbors Investment Corp. (TWO), alleging breach of contract and fraud related to a failed $1.3 billion merger agr...",
+      "url": "https://www.housingwire.com/articles/uwm-sues-two-harbors-crosscountry-merger/",
+      "source": "HousingWire",
+      "published_at": "20260811T034136",
+      "sentiment_score": 0.032459,
       "sentiment_label": "Neutral",
       "tickers": [
-        "ODTX",
-        "COIN"
+        "TWO-P-B"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Finance",
+        "Real Estate",
+        "Earnings"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Telos Corp (TLS) (Q2 2026) Earnings Call Highlights: Revenue Surges 33% and Adjusted EBITDA ...",
+      "summary": "Telos Corp (TLS) reported strong Q2 2026 earnings, with revenue increasing 33% year-over-year to $47.7 million and Adjusted EBITDA reaching $6.9 million, both exceeding guidance...",
+      "url": "https://au.finance.yahoo.com/news/telos-corp-tls-q2-2026-210233159.html",
+      "source": "Yahoo Finance Australia",
+      "published_at": "20260811T034101",
+      "sentiment_score": 0.415193,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "TLS"
       ],
       "topics": [
         "Earnings",
-        "Life Sciences",
-        "Financial Markets",
         "Finance"
       ],
       "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "Apollo Global Management (APO) Joins $500 Billion AI Infrastructure Fund",
-      "summary": "Apollo Global Management (APO) is participating in a new $500 billion AI infrastructure fund, alongside Nvidia and other major investors, targeting data centers and related AI i...",
-      "url": "https://uk.finance.yahoo.com/news/apollo-global-management-apo-joins-020925631.html",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260811T020913",
-      "sentiment_score": 0.375587,
+      "title": "Silvercorp Metals (SVM) Releases Q1 2027 Earnings: Revenue and Profit Surge",
+      "summary": "Silvercorp Metals (SVM) reported a strong first quarter for fiscal 2027, with revenue increasing by 70.5% to $138.7 million. The company saw significant growth in net income, re...",
+      "url": "https://www.quiverquant.com/news/Silvercorp+Metals+%28SVM%29+Releases+Q1+2027+Earnings%3A+Revenue+and+Profit+Surge",
+      "source": "Quiver Quantitative",
+      "published_at": "20260811T014146",
+      "sentiment_score": 0.458619,
       "sentiment_label": "Bullish",
       "tickers": [
-        "APO",
-        "NVDA"
+        "SVM"
       ],
       "topics": [
-        "Technology",
-        "Finance",
-        "Earnings"
+        "Earnings",
+        "Financial Markets"
       ],
-      "quality_score": 10,
+      "quality_score": 12,
       "is_noise": false
     }
   ],
@@ -1199,26 +1182,26 @@
       "mentions": 3
     },
     {
-      "ticker": "COIN",
+      "ticker": "THC",
       "mentions": 3
     },
     {
+      "ticker": "TWO-P-B",
+      "mentions": 2
+    },
+    {
+      "ticker": "AMT",
+      "mentions": 2
+    },
+    {
       "ticker": "AMD",
-      "mentions": 1
-    },
-    {
-      "ticker": "GOOG",
-      "mentions": 1
-    },
-    {
-      "ticker": "SMX",
       "mentions": 1
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 37
+      "mentions": 39
     },
     {
       "topic": "Financial Markets",
@@ -1226,55 +1209,59 @@
     },
     {
       "topic": "Finance",
-      "mentions": 21
+      "mentions": 23
     },
     {
       "topic": "Technology",
-      "mentions": 10
+      "mentions": 9
     },
     {
-      "topic": "Life Sciences",
-      "mentions": 8
+      "topic": "Real Estate",
+      "mentions": 6
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 15
+      "count": 13
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 14
+      "count": 12
     },
     {
       "label": "Bullish",
-      "count": 6
+      "count": 11
     },
     {
       "label": "Somewhat-Bearish",
       "count": 2
+    },
+    {
+      "label": "Bearish",
+      "count": 1
     }
   ],
   "top_sources": [
     {
-      "source": "Simply Wall Street",
-      "count": 5
+      "source": "Investing.com Canada",
+      "count": 4
     },
     {
-      "source": "Yahoo Finance",
-      "count": 5
+      "source": "MarketBeat",
+      "count": 3
+    },
+    {
+      "source": "Simply Wall Street",
+      "count": 3
+    },
+    {
+      "source": "The Globe and Mail",
+      "count": 3
     },
     {
       "source": "GuruFocus",
       "count": 3
-    },
-    {
-      "source": "Investing.com Canada",
-      "count": 3
-    },
-    {
-      "source": "MarketBeat",
-      "count": 2
     }
   ],
   "takeaway": "News flow is centered on Earnings, with NVDA appearing most often and the headline tone mostly neutral."
