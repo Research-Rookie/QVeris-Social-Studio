@@ -1,5 +1,210 @@
 [
   {
+    "id": "market-narrative-shift-nvda-2026-08-11",
+    "date": "2026-08-11",
+    "runDate": "2026-08-11",
+    "createdAt": "2026-08-11T03:30:12.646154+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $NVDA",
+    "status": "ready",
+    "tweet": "What changed in $NVDA's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: +0.00\n📌 Top theme: Earnings\n🔎 Emerging term: advanced\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_NVDA_2026-08-11.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-11T03:30:10.323762+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NVDA",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "NVDA",
+    "topChangePct": 0.3,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-11T03:30:10.323762+00:00",
+      "date": "2026-08-11",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "NVDA",
+      "shift_label": "Attention rising",
+      "sentiment_delta": 0.003,
+      "baseline_label": "2026-08-09",
+      "current": {
+        "date": "2026-08-11",
+        "symbol": "NVDA",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.237,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Technology",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "advanced",
+            "count": 2
+          },
+          {
+            "label": "micro",
+            "count": 2
+          },
+          {
+            "label": "devices",
+            "count": 2
+          },
+          {
+            "label": "amd",
+            "count": 2
+          },
+          {
+            "label": "apollo",
+            "count": 2
+          },
+          {
+            "label": "global",
+            "count": 2
+          },
+          {
+            "label": "management",
+            "count": 2
+          },
+          {
+            "label": "apo",
+            "count": 2
+          },
+          {
+            "label": "infrastructure",
+            "count": 2
+          },
+          {
+            "label": "fund",
+            "count": 2
+          },
+          {
+            "label": "down",
+            "count": 1
+          },
+          {
+            "label": "should",
+            "count": 1
+          }
+        ],
+        "headline": "Advanced Micro Devices (NASDAQ:AMD) Shares Down 2.9% - Should You Sell?",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-08-09",
+        "symbol": "NVDA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.234,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "gen",
+            "count": 4
+          },
+          {
+            "label": "digital",
+            "count": 2
+          },
+          {
+            "label": "quarterly",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "results",
+            "count": 2
+          },
+          {
+            "label": "expectations",
+            "count": 2
+          },
+          {
+            "label": "eps",
+            "count": 2
+          },
+          {
+            "label": "releases",
+            "count": 1
+          },
+          {
+            "label": "beats",
+            "count": 1
+          },
+          {
+            "label": "announced",
+            "count": 1
+          },
+          {
+            "label": "reporting",
+            "count": 1
+          },
+          {
+            "label": "adjusted",
+            "count": 1
+          }
+        ],
+        "headline": "Gen Digital (NASDAQ:GEN) Releases Quarterly Earnings Results, Beats Expectations By $0.02 EPS",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "advanced",
+        "micro",
+        "devices"
+      ],
+      "fading_keywords": [
+        "gen",
+        "digital",
+        "quarterly"
+      ],
+      "takeaway": "NVDA's narrative is attention rising: sentiment moved +0.00, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-11",
     "date": "2026-08-11",
     "runDate": "2026-08-11",

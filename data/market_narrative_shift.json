@@ -1,19 +1,97 @@
 {
-  "updated_at": "2026-08-10T03:47:50.415390+00:00",
-  "date": "2026-08-10",
+  "updated_at": "2026-08-11T03:30:10.323762+00:00",
+  "date": "2026-08-11",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "CB",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.2145,
-  "baseline_label": "2026-07-07",
+  "symbol": "NVDA",
+  "shift_label": "Attention rising",
+  "sentiment_delta": 0.003,
+  "baseline_label": "2026-08-09",
   "current": {
-    "date": "2026-08-10",
-    "symbol": "CB",
+    "date": "2026-08-11",
+    "symbol": "NVDA",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.237,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 2
+      },
+      {
+        "label": "Technology",
+        "count": 2
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "advanced",
+        "count": 2
+      },
+      {
+        "label": "micro",
+        "count": 2
+      },
+      {
+        "label": "devices",
+        "count": 2
+      },
+      {
+        "label": "amd",
+        "count": 2
+      },
+      {
+        "label": "apollo",
+        "count": 2
+      },
+      {
+        "label": "global",
+        "count": 2
+      },
+      {
+        "label": "management",
+        "count": 2
+      },
+      {
+        "label": "apo",
+        "count": 2
+      },
+      {
+        "label": "infrastructure",
+        "count": 2
+      },
+      {
+        "label": "fund",
+        "count": 2
+      },
+      {
+        "label": "down",
+        "count": 1
+      },
+      {
+        "label": "should",
+        "count": 1
+      }
+    ],
+    "headline": "Advanced Micro Devices (NASDAQ:AMD) Shares Down 2.9% - Should You Sell?",
+    "headline_source": "MarketBeat"
+  },
+  "previous": {
+    "date": "2026-08-09",
+    "symbol": "NVDA",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.0904,
+    "sentiment_score": 0.234,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -23,19 +101,27 @@
       {
         "label": "Financial Markets",
         "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "zhibao",
+        "label": "gen",
+        "count": 4
+      },
+      {
+        "label": "digital",
         "count": 2
       },
       {
-        "label": "technology",
-        "count": 2
-      },
-      {
-        "label": "zbao",
+        "label": "quarterly",
         "count": 2
       },
       {
@@ -43,142 +129,57 @@
         "count": 2
       },
       {
-        "label": "forecast",
+        "label": "results",
         "count": 2
       },
       {
-        "label": "future",
-        "count": 1
+        "label": "expectations",
+        "count": 2
       },
       {
         "label": "eps",
+        "count": 2
+      },
+      {
+        "label": "releases",
         "count": 1
       },
       {
-        "label": "revenue",
+        "label": "beats",
         "count": 1
       },
       {
-        "label": "growth",
+        "label": "announced",
         "count": 1
       },
       {
-        "label": "estimates",
+        "label": "reporting",
         "count": 1
       },
       {
-        "label": "article",
-        "count": 1
-      },
-      {
-        "label": "provides",
+        "label": "adjusted",
         "count": 1
       }
     ],
-    "headline": "Zhibao Technology Inc (ZBAO) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-    "headline_source": "TradingKey"
-  },
-  "previous": {
-    "date": "2026-07-07",
-    "symbol": "CB",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": -0.1241,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Real Estate",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "revenue",
-        "count": 2
-      },
-      {
-        "label": "fidelity",
-        "count": 2
-      },
-      {
-        "label": "national",
-        "count": 2
-      },
-      {
-        "label": "financial",
-        "count": 2
-      },
-      {
-        "label": "fnf",
-        "count": 2
-      },
-      {
-        "label": "growth",
-        "count": 1
-      },
-      {
-        "label": "softer",
-        "count": 1
-      },
-      {
-        "label": "margins",
-        "count": 1
-      },
-      {
-        "label": "altering",
-        "count": 1
-      },
-      {
-        "label": "investment",
-        "count": 1
-      },
-      {
-        "label": "case",
-        "count": 1
-      },
-      {
-        "label": "for",
-        "count": 1
-      }
-    ],
-    "headline": "Is Revenue Growth With Softer Margins Altering The Investment Case For Fidelity National Financial (FNF)?",
-    "headline_source": "Simply Wall Street"
+    "headline": "Gen Digital (NASDAQ:GEN) Releases Quarterly Earnings Results, Beats Expectations By $0.02 EPS",
+    "headline_source": "MarketBeat"
   },
   "emerging_themes": [
     "Earnings",
+    "Technology",
     "Financial Markets"
   ],
-  "fading_themes": [
-    "Finance",
-    "Real Estate",
-    "Economy Macro"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "zhibao",
-    "technology",
-    "zbao"
+    "advanced",
+    "micro",
+    "devices"
   ],
   "fading_keywords": [
-    "fidelity",
-    "national",
-    "financial"
+    "gen",
+    "digital",
+    "quarterly"
   ],
-  "takeaway": "CB's narrative is turning bullish: sentiment moved +0.21, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "NVDA's narrative is attention rising: sentiment moved +0.00, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
