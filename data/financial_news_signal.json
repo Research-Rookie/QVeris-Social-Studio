@@ -1,38 +1,17 @@
 {
-  "updated_at": "2026-08-12T03:33:29.623597+00:00",
+  "updated_at": "2026-08-12T04:00:51.002312+00:00",
   "date": "2026-08-12",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Spectral AI (NASDAQ:MDAI) Announces Quarterly Earnings Results, Beats Expectations By $0.01 EPS",
-      "summary": "Spectral AI (NASDAQ:MDAI) announced quarterly earnings, reporting a loss of $0.13 per share, beating the consensus estimate by $0.01. Despite revenue of $3.52 million falling sh...",
-      "url": "https://www.marketbeat.com/instant-alerts/spectral-ai-nasdaqmdai-announces-quarterly-earnings-results-beats-expectations-by-001-eps-2026-08-11/",
-      "source": "MarketBeat",
-      "published_at": "20260812T011030",
-      "sentiment_score": 0.036376,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MDAI"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Technology",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": 19,
-      "is_noise": false
-    },
-    {
       "title": "CPI Card Group raises price target after beating earnings and boosting revenue.",
       "summary": "CPI Card Group reported strong Q2 earnings, surpassing EPS estimates and achieving a 15% revenue increase, largely driven by its Secure Card Solutions segment and the Arroweye a...",
       "url": "https://pluang.com/en/news-feed/kenaikan-target-harga-cpi-card-group-karena-laba-kuartal-kuat",
       "source": "Pluang",
       "published_at": "20260812T024119",
-      "sentiment_score": 0.042947,
+      "sentiment_score": 0.030189,
       "sentiment_label": "Neutral",
       "tickers": [
         "PMTS"
@@ -44,12 +23,50 @@
       "is_noise": false
     },
     {
+      "title": "CoreWeave Stock Surges Nearly 16% After Earnings, Analyst Says Old Nvidia GPUs Can 'Still Generate Revenue Nearly a...",
+      "summary": "CoreWeave Inc. (NASDAQ: CRWV) shares surged nearly 16% in after-hours trading following strong second-quarter results, beating revenue expectations and narrowing losses. The com...",
+      "url": "https://sg.finance.yahoo.com/news/coreweave-stock-surges-nearly-16-021718062.html",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260812T023836",
+      "sentiment_score": 0.641651,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NVDA"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "Why Super Group (SGHC) Is Down 6.8% After Raising 2026 Revenue Guidance Above US$2.60 Billion",
+      "summary": "Super Group (SGHC) reported strong Q2 2026 results with sales of US$684 million and net income of US$120 million, prompting an increase in full-year 2026 revenue guidance to ove...",
+      "url": "https://simplywall.st/stocks/us/consumer-services/nyse-sghc/super-group-sghc/news/why-super-group-sghc-is-down-68-after-raising-2026-revenue-g",
+      "source": "Simply Wall Street",
+      "published_at": "20260812T025144",
+      "sentiment_score": 0.119057,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SGHC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
       "title": "Pangaea Logistics Solutions Q2 Earnings Call Highlights",
       "summary": "Pangaea Logistics Solutions (NASDAQ: PANL) reported a significant increase in Q2 2026 profitability, with TCE rates up 50% year-over-year to $18,153 per day, driven by stronger...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/pangaea-logistics-solutions-q2-earnings-020414060.html",
       "source": "Yahoo Finance",
       "published_at": "20260812T020346",
-      "sentiment_score": 0.263551,
+      "sentiment_score": 0.277849,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PANL",
@@ -64,12 +81,32 @@
       "is_noise": false
     },
     {
+      "title": "Sintx Technologies Q2 2026 Earnings Call Transcript",
+      "summary": "Sintx Technologies reported significant revenue growth of 199% year-over-year in Q2 2026, reaching $452,000, driven by increased product sales and improved gross margins. The co...",
+      "url": "https://www.marketbeat.com/earnings/reports/2026-8-11-sintx-technologies-inc-stock/",
+      "source": "MarketBeat",
+      "published_at": "20260812T024146",
+      "sentiment_score": -0.243518,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "SINT"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Finance",
+        "Manufacturing"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
       "title": "5 Insightful Analyst Questions From Vertex Pharmaceuticals’s Q2 Earnings Call",
       "summary": "Vertex Pharmaceuticals (VRTX) delivered a strong Q2 CY2026, surpassing analyst revenue estimates and highlighting the success of its cystic fibrosis portfolio and newer products...",
       "url": "https://finance.yahoo.com/healthcare/articles/5-insightful-analyst-questions-vertex-014122962.html",
       "source": "Yahoo Finance",
       "published_at": "20260812T014108",
-      "sentiment_score": 0.042407,
+      "sentiment_score": 0.034037,
       "sentiment_label": "Neutral",
       "tickers": [
         "VRTX"
@@ -88,7 +125,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/nigel-morris-sells-8938-shares-of-remitly-global-nasdaqrely-stock-2026-08-11/",
       "source": "MarketBeat",
       "published_at": "20260812T011117",
-      "sentiment_score": 0.049106,
+      "sentiment_score": 0.043493,
       "sentiment_label": "Neutral",
       "tickers": [
         "RELY"
@@ -107,7 +144,7 @@
       "url": "https://www.sahmcapital.com/news/content/alexandria-real-estate-equities-are-reports-weaker-second-quarter-results-does-it-look-fairly-valued-2026-08-10",
       "source": "Sahm",
       "published_at": "20260812T030713",
-      "sentiment_score": -0.216765,
+      "sentiment_score": -0.181158,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "ARE"
@@ -127,7 +164,7 @@
       "url": "https://finance.yahoo.com/research/reports/MS_0P000002PP_AnalystReport_1786490646000",
       "source": "Yahoo Finance",
       "published_at": "20260812T014202",
-      "sentiment_score": 0.127762,
+      "sentiment_score": 0.120138,
       "sentiment_label": "Neutral",
       "tickers": [
         "HRL"
@@ -146,7 +183,7 @@
       "url": "https://uk.finance.yahoo.com/news/hedge-funds-favor-microsoft-corporation-214046892.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260812T013824",
-      "sentiment_score": 0.181204,
+      "sentiment_score": 0.177803,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "MSFT",
@@ -169,7 +206,7 @@
       "url": "https://www.marketscreener.com/quote/stock/FREEPORT-MCMORAN-INC-12574/news/Freeport-Indonesia-says-Gresik-unit-halts-smelting-operations-for-furnace-repairs-company-says-54018820/",
       "source": "www.marketscreener.com",
       "published_at": "20260812T012544",
-      "sentiment_score": -0.21761,
+      "sentiment_score": -0.246192,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "FCX"
@@ -189,7 +226,7 @@
       "url": "https://scanx.trade/stock-market-news/companies/optex-systems-hldgs-q3-results-eps-drops-18-yoy-sales-miss/48031291",
       "source": "scanx.trade",
       "published_at": "20260812T023927",
-      "sentiment_score": -0.411221,
+      "sentiment_score": -0.447551,
       "sentiment_label": "Bearish",
       "tickers": [
         "OPXS"
@@ -208,7 +245,7 @@
       "url": "https://www.investing.com/news/earnings/mineralys-therapeutics-falls-8-on-second-quarter-eps-miss-93CH-4852648",
       "source": "Investing.com",
       "published_at": "20260812T014054",
-      "sentiment_score": -0.408354,
+      "sentiment_score": -0.436381,
       "sentiment_label": "Bearish",
       "tickers": [
         "MLYS"
@@ -228,7 +265,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/jacobs-solutions-nysej-president-patrick-hill-sells-17201-shares-of-stock-2026-08-11/",
       "source": "MarketBeat",
       "published_at": "20260812T011459",
-      "sentiment_score": 0.000939,
+      "sentiment_score": 0.046913,
       "sentiment_label": "Neutral",
       "tickers": [
         "J"
@@ -247,7 +284,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/elizabeth-blankenship-sells-980-shares-of-pinnacle-west-capital-nysepnw-stock-2026-08-11/",
       "source": "MarketBeat",
       "published_at": "20260812T011440",
-      "sentiment_score": -0.10881,
+      "sentiment_score": -0.148476,
       "sentiment_label": "Neutral",
       "tickers": [
         "PNW"
@@ -262,12 +299,33 @@
       "is_noise": false
     },
     {
+      "title": "Cooperation Model Encounters Another Setback, Why Did Uber ‘Abandon’ Serve Robotics?",
+      "summary": "Uber Technologies has divested its entire stake in Serve Robotics, signaling a fundamental disagreement over the deployment model for delivery robots and a setback for Uber's au...",
+      "url": "https://nai500.com/blog/2026/08/cooperation-model-encounters-another-setback-why-did-uber-abandon-serve-robotics/",
+      "source": "NAI500",
+      "published_at": "20260812T030457",
+      "sentiment_score": -0.220319,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "SERV",
+        "UBER",
+        "DASH"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "More Storms Expected as About 160,000 Duke Energy Customers Remain Without Power",
       "summary": "Duke Energy (NYSE: DUK) reported that over 160,000 customers in southwest Ohio and Northern Kentucky were still without power as of 10 p.m. on August 11, 2026, following severe...",
       "url": "https://www.stocktitan.net/news/DUK/more-than-160-000-duke-energy-customers-in-ohio-and-kentucky-remain-ojpel0n8w662.html",
       "source": "Stock Titan",
       "published_at": "20260812T024843",
-      "sentiment_score": -0.31435,
+      "sentiment_score": -0.338207,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "DUK"
@@ -285,7 +343,7 @@
       "url": "https://bworldonline.com/corporate/2026/08/12/769583/pldt-retains-ftse4good-index-series-inclusion/",
       "source": "BusinessWorld Online",
       "published_at": "20260812T023941",
-      "sentiment_score": 0.328087,
+      "sentiment_score": 0.338469,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PHI"
@@ -306,7 +364,7 @@
       "url": "https://www.gurufocus.com/news/9025609/pdfs-initiates-coverage-on-bernstein-rating-set-to-outperform",
       "source": "GuruFocus",
       "published_at": "20260812T023929",
-      "sentiment_score": 0.405238,
+      "sentiment_score": 0.396699,
       "sentiment_label": "Bullish",
       "tickers": [
         "PDFS"
@@ -325,7 +383,7 @@
       "url": "https://scanx.trade/stock-market-news/companies/pliant-therapeutics-q2-results-eps-misses-estimate-despite-yoy-improvement/48029564",
       "source": "scanx.trade",
       "published_at": "20260812T022941",
-      "sentiment_score": 0.10989,
+      "sentiment_score": 0.118142,
       "sentiment_label": "Neutral",
       "tickers": [
         "PLRX"
@@ -343,7 +401,7 @@
       "url": "https://ca.finance.yahoo.com/research/reports/MS_0P0000031C_AnalystReport_1786491219000",
       "source": "Yahoo! Finance Canada",
       "published_at": "20260812T021413",
-      "sentiment_score": 0.141722,
+      "sentiment_score": 0.149539,
       "sentiment_label": "Neutral",
       "tickers": [
         "JPM"
@@ -362,7 +420,7 @@
       "url": "https://pulse2.com/once-upon-a-farm-volume-surges-40-as-revenue-jumps-42-to-85-4-million/",
       "source": "Pulse 2.0",
       "published_at": "20260812T021128",
-      "sentiment_score": 0.64042,
+      "sentiment_score": 0.644855,
       "sentiment_label": "Bullish",
       "tickers": [
         "OFRM"
@@ -381,7 +439,7 @@
       "url": "https://drrobertcastellano.substack.com/p/seagate-and-western-digital-the-hdd",
       "source": "Dr. Robert Castellano's Semicondu...",
       "published_at": "20260812T020112",
-      "sentiment_score": 0.432114,
+      "sentiment_score": 0.438005,
       "sentiment_label": "Bullish",
       "tickers": [
         "WDC",
@@ -401,7 +459,7 @@
       "url": "https://www.gurufocus.com/news/9026198/is-the-middleby-corp-midd-a-bargain-after-80-drop-gf-value-says-undervalued",
       "source": "GuruFocus",
       "published_at": "20260812T013957",
-      "sentiment_score": 0.141621,
+      "sentiment_score": 0.111785,
       "sentiment_label": "Neutral",
       "tickers": [
         "MIDD"
@@ -414,31 +472,12 @@
       "is_noise": false
     },
     {
-      "title": "MacroGenics Announces Achievement of $10 Million Milestone Following Gilead’s Exercise of Option to License Preclin...",
-      "summary": "MacroGenics, Inc. announced that Gilead Sciences, Inc. has exercised its option to obtain an exclusive license for a preclinical bispecific program, triggering a $10 million pay...",
-      "url": "https://www.manilatimes.net/2026/08/12/tmt-newswire/globenewswire/macrogenics-announces-achievement-of-10-million-milestone-following-gileads-exercise-of-option-to-license-preclinical-bispecific-program/2403439/amp",
-      "source": "The Manila Times",
-      "published_at": "20260812T011043",
-      "sentiment_score": 0.388262,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "MGNX",
-        "GILD"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
       "title": "Rocket Lab (RKLB) Stock Could Trade At A Premium As Its 12x 3 Year Run Continues",
       "summary": "Rocket Lab's stock (RKLB) has seen a significant 12x return over the past three years, presenting a mixed valuation picture. While a Discounted Cash Flow (DCF) model suggests th...",
       "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-rklb/rocket-lab/news/rocket-lab-rklb-stock-could-trade-at-a-premium-as-its-12x-3",
       "source": "Simply Wall Street",
       "published_at": "20260812T025932",
-      "sentiment_score": 0.010677,
+      "sentiment_score": 0.036887,
       "sentiment_label": "Neutral",
       "tickers": [
         "RKLB"
@@ -457,7 +496,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/pinnacle-west-vp-blankenship-sells-97181-in-common-stock-93CH-4794015",
       "source": "Investing.com Canada",
       "published_at": "20260812T012439",
-      "sentiment_score": -0.286238,
+      "sentiment_score": -0.283068,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "PNW"
@@ -471,12 +510,32 @@
       "is_noise": false
     },
     {
+      "title": "SELLAS Life Sciences Group, Inc. (SLS) stock price, news, quote and history",
+      "summary": "This Yahoo Finance page provides comprehensive financial information for SELLAS Life Sciences Group, Inc. (SLS), including its current stock price, historical data, charts, key...",
+      "url": "https://uk.finance.yahoo.com/quote/SLS/",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260812T034050",
+      "sentiment_score": 0.010833,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SLS"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Life Sciences",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
       "title": "Olema Pharmaceuticals Stock Falls as Pivotal Breast Cancer Data Pushed Into 2027",
       "summary": "Olema Pharmaceuticals' stock fell by 12.90% after the company announced that pivotal breast cancer data for its Phase 3 OPERA-01 trial would be delayed until the first quarter o...",
       "url": "https://www.benzinga.com/markets/biotech/26/08/61122394/olema-pharmaceuticals-stock-breast-cancer-data-2027",
       "source": "Benzinga",
       "published_at": "20260812T021117",
-      "sentiment_score": -0.322757,
+      "sentiment_score": -0.319873,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "OLMA",
@@ -496,7 +555,7 @@
       "url": "https://www.gurufocus.com/news/9026617/fmr-llc-adds-to-dominos-pizza-inc-dpz-stake-shares-look-27-undervalued-on-gf-value",
       "source": "GuruFocus",
       "published_at": "20260812T015141",
-      "sentiment_score": 0.191372,
+      "sentiment_score": 0.204744,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "DPZ",
@@ -515,12 +574,32 @@
       "is_noise": false
     },
     {
+      "title": "Uber sells all of its shares in robotics company Serve Robotics.",
+      "summary": "Uber has sold all of its shares in Serve Robotics, a company that develops autonomous delivery robots and was spun off from Uber over five years ago. This move reportedly came a...",
+      "url": "https://gigazine.net/gsc_news/en/20260812-uber-serve-robotics-selling-entire-stake/",
+      "source": "GIGAZINE",
+      "published_at": "20260812T014057",
+      "sentiment_score": -0.139507,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SERV",
+        "UBER"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
       "title": "T Mobile US (TMUS) Could Be 27% Undervalued On New Plan Rollout",
       "summary": "T-Mobile US (TMUS) recently rolled out new plans focusing on longer-term device financing and student discounts, drawing attention to its stock valuation. Despite a recent share...",
       "url": "https://ca.finance.yahoo.com/news/t-mobile-us-tmus-could-013937478.html",
       "source": "Yahoo! Finance Canada",
       "published_at": "20260812T013902",
-      "sentiment_score": 0.492072,
+      "sentiment_score": 0.472008,
       "sentiment_label": "Bullish",
       "tickers": [
         "TMUS"
@@ -540,7 +619,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/jacobs-solutions-president-patrick-hill-sells-248m-in-stock-93CH-4794021",
       "source": "Investing.com Canada",
       "published_at": "20260812T013459",
-      "sentiment_score": 0.081808,
+      "sentiment_score": 0.083258,
       "sentiment_label": "Neutral",
       "tickers": [
         "J",
@@ -559,7 +638,7 @@
       "url": "https://www.gurufocus.com/news/9026588/richard-pzena-buys-lkq-corp-lkq-shares-look-38-undervalued-on-gf-value",
       "source": "GuruFocus",
       "published_at": "20260812T013209",
-      "sentiment_score": 0.260464,
+      "sentiment_score": 0.245265,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "LKQ",
@@ -582,7 +661,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/pinnacle-west-svp-jose-luis-esparza-jr-sells-183618-in-stock-93CH-4794010",
       "source": "Investing.com Canada",
       "published_at": "20260812T011940",
-      "sentiment_score": -0.228226,
+      "sentiment_score": -0.239774,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "PNW"
@@ -595,12 +674,30 @@
       "is_noise": false
     },
     {
+      "title": "Resources Connection (Nasdaq: RGP) declares $0.07 quarterly dividend",
+      "summary": "Resources Connection, Inc. (Nasdaq: RGP) has declared a quarterly cash dividend of $0.07 per share, approved by its Board of Directors on August 6, 2026. The dividend is payable...",
+      "url": "https://www.stocktitan.net/sec-filings/RGP/8-k-resources-connection-inc-reports-material-event-258949022ea8.html",
+      "source": "Stock Titan",
+      "published_at": "20260812T033249",
+      "sentiment_score": 0.359914,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "RGP"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
       "title": "QuinStreet (QNST) CEO logs 751,631-share sale and major stock gifts",
       "summary": "QuinStreet, Inc. CEO Douglas Valenti reported significant stock transactions, including the sale of 751,631 shares at $20.50 each by an associated entity under a Rule 10b5-1 pla...",
       "url": "https://www.stocktitan.net/sec-filings/QNST/form-4-quinstreet-inc-insider-trading-activity-dc1d0951e347.html",
       "source": "Stock Titan",
       "published_at": "20260812T030934",
-      "sentiment_score": -0.402897,
+      "sentiment_score": -0.403979,
       "sentiment_label": "Bearish",
       "tickers": [
         "QNST"
@@ -617,7 +714,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/schwab-cochairman-charles-r-schwab-sells-50m-in-schw-shares-93CH-4853599",
       "source": "Investing.com",
       "published_at": "20260812T025356",
-      "sentiment_score": 0.040608,
+      "sentiment_score": 0.004151,
       "sentiment_label": "Neutral",
       "tickers": [
         "SCHW"
@@ -636,7 +733,7 @@
       "url": "https://www.stocktitan.net/sec-filings/PLXS/144-plexus-corp-sec-filing-bad4d57e9838.html",
       "source": "Stock Titan",
       "published_at": "20260812T024032",
-      "sentiment_score": 0.02604,
+      "sentiment_score": 0.022399,
       "sentiment_label": "Neutral",
       "tickers": [
         "PLXS"
@@ -654,7 +751,7 @@
       "url": "https://www.stocktitan.net/sec-filings/OPXS/10-q-optex-systems-holdings-inc-quarterly-earnings-report-533217a3daae.html",
       "source": "Stock Titan",
       "published_at": "20260812T023927",
-      "sentiment_score": 0.120721,
+      "sentiment_score": 0.122923,
       "sentiment_label": "Neutral",
       "tickers": [
         "OPXS"
@@ -672,7 +769,7 @@
       "url": "https://www.stocktitan.net/sec-filings/NIC/13f-hr-nicolet-bankshares-inc-sec-filing-d6cf075cca76.html",
       "source": "Stock Titan",
       "published_at": "20260812T020931",
-      "sentiment_score": 0.034971,
+      "sentiment_score": 0.005271,
       "sentiment_label": "Neutral",
       "tickers": [
         "NIC"
@@ -690,7 +787,7 @@
       "url": "https://www.globenewswire.com/news-release/2026/08/12/3343330/32716/en/pnr-alert-pentair-plc-nyse-pnr-investors-urged-to-contact-hagens-berman-securities-fraud-class-action-filed-october-2-2026-lead-plaintiff-deadline.html",
       "source": "GlobeNewswire",
       "published_at": "20260812T015944",
-      "sentiment_score": -0.6424,
+      "sentiment_score": -0.630893,
       "sentiment_label": "Bearish",
       "tickers": [
         "PNR"
@@ -709,7 +806,7 @@
       "url": "https://www.stocktitan.net/sec-filings/APO/form-4-apollo-global-management-inc-insider-trading-activity-4604c7d6d8ce.html",
       "source": "Stock Titan",
       "published_at": "20260812T015807",
-      "sentiment_score": 0.023356,
+      "sentiment_score": 0.013318,
       "sentiment_label": "Neutral",
       "tickers": [
         "APO"
@@ -728,7 +825,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/jacobs-solutions-president-patrick-hill-sells-248m-in-stock-93CH-4853576",
       "source": "Investing.com",
       "published_at": "20260812T015409",
-      "sentiment_score": 0.136949,
+      "sentiment_score": 0.107049,
       "sentiment_label": "Neutral",
       "tickers": [
         "J"
@@ -746,7 +843,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/pinnacle-west-vp-blankenship-sells-97181-in-common-stock-93CH-4853568",
       "source": "Investing.com",
       "published_at": "20260812T015338",
-      "sentiment_score": 0.05832,
+      "sentiment_score": 0.085542,
       "sentiment_label": "Neutral",
       "tickers": [
         "PNW"
@@ -765,7 +862,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/pinnacle-west-svp-jose-luis-esparza-jr-sells-183618-in-stock-93CH-4853562",
       "source": "Investing.com",
       "published_at": "20260812T015238",
-      "sentiment_score": 0.128407,
+      "sentiment_score": 0.126442,
       "sentiment_label": "Neutral",
       "tickers": [
         "PNW"
@@ -783,7 +880,7 @@
       "url": "https://www.stocktitan.net/sec-filings/MLYS/10-q-mineralys-therapeutics-inc-quarterly-earnings-report-86742cb78006.html",
       "source": "Stock Titan",
       "published_at": "20260812T014054",
-      "sentiment_score": 0.133352,
+      "sentiment_score": 0.147703,
       "sentiment_label": "Neutral",
       "tickers": [
         "MLYS"
@@ -803,7 +900,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-selling-pinnacle-west-capital-nysepnw-svp-sells-18361800-in-stock-2026-08-11/",
       "source": "MarketBeat",
       "published_at": "20260812T011439",
-      "sentiment_score": -0.06,
+      "sentiment_score": -0.055559,
       "sentiment_label": "Neutral",
       "tickers": [
         "PNW",
@@ -825,7 +922,7 @@
       "url": "https://m.investing.com/news/insider-trading-news/medpace-director-mccarthy-sells-465131-in-company-shares-93CH-4852649?ampMode=1",
       "source": "Investing.com",
       "published_at": "20260812T011138",
-      "sentiment_score": 0.107334,
+      "sentiment_score": 0.123301,
       "sentiment_label": "Neutral",
       "tickers": [
         "MEDP"
@@ -844,7 +941,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/remitly-global-director-riese-sells-63m-of-stock-93CH-4853539",
       "source": "Investing.com",
       "published_at": "20260812T011117",
-      "sentiment_score": 0.416928,
+      "sentiment_score": 0.429507,
       "sentiment_label": "Bullish",
       "tickers": [
         "RELY"
@@ -862,7 +959,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/remitly-global-nasdaqrely-director-sells-160182-shares-2026-08-11/",
       "source": "MarketBeat",
       "published_at": "20260812T011117",
-      "sentiment_score": 0.205456,
+      "sentiment_score": 0.181893,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "RELY"
@@ -874,139 +971,21 @@
       ],
       "quality_score": -10,
       "is_noise": true
-    },
-    {
-      "title": "Remitly Global (NASDAQ:RELY) Director Sells $2,373,000.00 in Stock",
-      "summary": "Remitly Global (NASDAQ:RELY) Director Phillip John Riese sold 100,000 shares of the company's stock for $2,373,000 on August 11th, reducing his ownership by 27.69%. This follows...",
-      "url": "https://www.marketbeat.com/instant-alerts/remitly-global-nasdaqrely-director-sells-237300000-in-stock-2026-08-11/",
-      "source": "MarketBeat",
-      "published_at": "20260812T011117",
-      "sentiment_score": 0.146981,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "RELY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Remitly global director Nigel Morris sells $227,293 in stock",
-      "summary": "Nigel W. Morris, a director at Remitly Global Inc. (NASDAQ:RELY), sold 8,938 shares of the company’s common stock for $227,293 on August 7, 2026, with shares sold at an average...",
-      "url": "https://m.investing.com/news/insider-trading-news/remitly-global-director-nigel-morris-sells-227293-in-stock-93CH-4853536?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260812T011117",
-      "sentiment_score": 0.078702,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "RELY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Rayonier Advanced Materials director sells $17,634 in company stock",
-      "summary": "Lisa M. Palumbo, a director at Rayonier Advanced Materials Inc. (NASDAQ:RYAM), sold 1,931.487 shares of the company’s common stock for $17,634 on August 7, 2026. This transactio...",
-      "url": "https://m.investing.com/news/insider-trading-news/rayonier-advanced-materials-director-sells-17634-in-company-stock-93CH-4853537?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260812T011106",
-      "sentiment_score": 0.147271,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "RYAM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Lyell Immunopharma COO Stephen J. Hill Sells Shares to Cover Tax Withholding on RSU Settlement",
-      "summary": "Stephen J. Hill, the Chief Operating Officer of Lyell Immunopharma, Inc., conducted an automatic share sale on August 10, 2026. This transaction was carried out to cover tax obl...",
-      "url": "https://kalkinemedia.com/us/news/announcements/lyell-immunopharma-coo-stephen-j-hill-sells-shares-to-cover-tax-withholding-on-rsu-settlement",
-      "source": "Kalkine Media",
-      "published_at": "20260812T011106",
-      "sentiment_score": -0.078061,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "LYEL"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Life Sciences",
-        "Financial Markets",
-        "Economy Fiscal"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Lee Enterprises (LEE) CEO Nathan Bekke reports major stock and performance rights awards",
-      "summary": "Lee Enterprises (LEE) CEO Nathan E. Bekke was awarded 158,228 performance rights and a related common stock entry correcting a previous under-reported award by 50,469 shares. Ad...",
-      "url": "https://www.stocktitan.net/sec-filings/LEE/form-4-a-lee-enterprises-inc-amended-insider-trading-activity-5cc8c5c8ac93.html",
-      "source": "Stock Titan",
-      "published_at": "20260812T011040",
-      "sentiment_score": 0.015873,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "LEE"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
     }
   ],
   "article_count": 50,
-  "top_ticker": "PNW",
+  "top_ticker": "NVDA",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Spectral AI (NASDAQ:MDAI) Announces Quarterly Earnings Results, Beats Expectations By $0.01 EPS",
+  "top_story": "CPI Card Group raises price target after beating earnings and boosting revenue.",
   "signal_articles": [
-    {
-      "title": "Spectral AI (NASDAQ:MDAI) Announces Quarterly Earnings Results, Beats Expectations By $0.01 EPS",
-      "summary": "Spectral AI (NASDAQ:MDAI) announced quarterly earnings, reporting a loss of $0.13 per share, beating the consensus estimate by $0.01. Despite revenue of $3.52 million falling sh...",
-      "url": "https://www.marketbeat.com/instant-alerts/spectral-ai-nasdaqmdai-announces-quarterly-earnings-results-beats-expectations-by-001-eps-2026-08-11/",
-      "source": "MarketBeat",
-      "published_at": "20260812T011030",
-      "sentiment_score": 0.036376,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MDAI"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Technology",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": 19,
-      "is_noise": false
-    },
     {
       "title": "CPI Card Group raises price target after beating earnings and boosting revenue.",
       "summary": "CPI Card Group reported strong Q2 earnings, surpassing EPS estimates and achieving a 15% revenue increase, largely driven by its Secure Card Solutions segment and the Arroweye a...",
       "url": "https://pluang.com/en/news-feed/kenaikan-target-harga-cpi-card-group-karena-laba-kuartal-kuat",
       "source": "Pluang",
       "published_at": "20260812T024119",
-      "sentiment_score": 0.042947,
+      "sentiment_score": 0.030189,
       "sentiment_label": "Neutral",
       "tickers": [
         "PMTS"
@@ -1018,12 +997,50 @@
       "is_noise": false
     },
     {
+      "title": "CoreWeave Stock Surges Nearly 16% After Earnings, Analyst Says Old Nvidia GPUs Can 'Still Generate Revenue Nearly a...",
+      "summary": "CoreWeave Inc. (NASDAQ: CRWV) shares surged nearly 16% in after-hours trading following strong second-quarter results, beating revenue expectations and narrowing losses. The com...",
+      "url": "https://sg.finance.yahoo.com/news/coreweave-stock-surges-nearly-16-021718062.html",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260812T023836",
+      "sentiment_score": 0.641651,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NVDA"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "Why Super Group (SGHC) Is Down 6.8% After Raising 2026 Revenue Guidance Above US$2.60 Billion",
+      "summary": "Super Group (SGHC) reported strong Q2 2026 results with sales of US$684 million and net income of US$120 million, prompting an increase in full-year 2026 revenue guidance to ove...",
+      "url": "https://simplywall.st/stocks/us/consumer-services/nyse-sghc/super-group-sghc/news/why-super-group-sghc-is-down-68-after-raising-2026-revenue-g",
+      "source": "Simply Wall Street",
+      "published_at": "20260812T025144",
+      "sentiment_score": 0.119057,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SGHC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
       "title": "Pangaea Logistics Solutions Q2 Earnings Call Highlights",
       "summary": "Pangaea Logistics Solutions (NASDAQ: PANL) reported a significant increase in Q2 2026 profitability, with TCE rates up 50% year-over-year to $18,153 per day, driven by stronger...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/pangaea-logistics-solutions-q2-earnings-020414060.html",
       "source": "Yahoo Finance",
       "published_at": "20260812T020346",
-      "sentiment_score": 0.263551,
+      "sentiment_score": 0.277849,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PANL",
@@ -1038,12 +1055,32 @@
       "is_noise": false
     },
     {
+      "title": "Sintx Technologies Q2 2026 Earnings Call Transcript",
+      "summary": "Sintx Technologies reported significant revenue growth of 199% year-over-year in Q2 2026, reaching $452,000, driven by increased product sales and improved gross margins. The co...",
+      "url": "https://www.marketbeat.com/earnings/reports/2026-8-11-sintx-technologies-inc-stock/",
+      "source": "MarketBeat",
+      "published_at": "20260812T024146",
+      "sentiment_score": -0.243518,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "SINT"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Finance",
+        "Manufacturing"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
       "title": "5 Insightful Analyst Questions From Vertex Pharmaceuticals’s Q2 Earnings Call",
       "summary": "Vertex Pharmaceuticals (VRTX) delivered a strong Q2 CY2026, surpassing analyst revenue estimates and highlighting the success of its cystic fibrosis portfolio and newer products...",
       "url": "https://finance.yahoo.com/healthcare/articles/5-insightful-analyst-questions-vertex-014122962.html",
       "source": "Yahoo Finance",
       "published_at": "20260812T014108",
-      "sentiment_score": 0.042407,
+      "sentiment_score": 0.034037,
       "sentiment_label": "Neutral",
       "tickers": [
         "VRTX"
@@ -1062,7 +1099,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/nigel-morris-sells-8938-shares-of-remitly-global-nasdaqrely-stock-2026-08-11/",
       "source": "MarketBeat",
       "published_at": "20260812T011117",
-      "sentiment_score": 0.049106,
+      "sentiment_score": 0.043493,
       "sentiment_label": "Neutral",
       "tickers": [
         "RELY"
@@ -1081,7 +1118,7 @@
       "url": "https://www.sahmcapital.com/news/content/alexandria-real-estate-equities-are-reports-weaker-second-quarter-results-does-it-look-fairly-valued-2026-08-10",
       "source": "Sahm",
       "published_at": "20260812T030713",
-      "sentiment_score": -0.216765,
+      "sentiment_score": -0.181158,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "ARE"
@@ -1101,7 +1138,7 @@
       "url": "https://finance.yahoo.com/research/reports/MS_0P000002PP_AnalystReport_1786490646000",
       "source": "Yahoo Finance",
       "published_at": "20260812T014202",
-      "sentiment_score": 0.127762,
+      "sentiment_score": 0.120138,
       "sentiment_label": "Neutral",
       "tickers": [
         "HRL"
@@ -1120,7 +1157,7 @@
       "url": "https://uk.finance.yahoo.com/news/hedge-funds-favor-microsoft-corporation-214046892.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260812T013824",
-      "sentiment_score": 0.181204,
+      "sentiment_score": 0.177803,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "MSFT",
@@ -1136,58 +1173,19 @@
       ],
       "quality_score": 9,
       "is_noise": false
-    },
-    {
-      "title": "Freeport Indonesia says Gresik unit halts smelting operations for furnace repairs, company says",
-      "summary": "Freeport Indonesia announced that its Gresik unit has temporarily ceased smelting operations to conduct necessary furnace repairs. This update was provided by the company on Aug...",
-      "url": "https://www.marketscreener.com/quote/stock/FREEPORT-MCMORAN-INC-12574/news/Freeport-Indonesia-says-Gresik-unit-halts-smelting-operations-for-furnace-repairs-company-says-54018820/",
-      "source": "www.marketscreener.com",
-      "published_at": "20260812T012544",
-      "sentiment_score": -0.21761,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "FCX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Manufacturing"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Optex Systems Hldgs Q3 Results: EPS drops 18% YoY, sales miss",
-      "summary": "Optex Systems Holdings (NASDAQ: OPXS) reported a disappointing third quarter with EPS of $0.18, missing analyst estimates by 14.29% and representing an 18.18% year-over-year dec...",
-      "url": "https://scanx.trade/stock-market-news/companies/optex-systems-hldgs-q3-results-eps-drops-18-yoy-sales-miss/48031291",
-      "source": "scanx.trade",
-      "published_at": "20260812T023927",
-      "sentiment_score": -0.411221,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "OPXS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing"
-      ],
-      "quality_score": 7,
-      "is_noise": false
     }
   ],
   "top_tickers": [
+    {
+      "ticker": "NVDA",
+      "mentions": 3
+    },
     {
       "ticker": "PNW",
       "mentions": 3
     },
     {
       "ticker": "MSFT",
-      "mentions": 2
-    },
-    {
-      "ticker": "NVDA",
       "mentions": 2
     },
     {
@@ -1202,19 +1200,19 @@
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 30
+      "mentions": 34
     },
     {
       "topic": "Financial Markets",
-      "mentions": 25
+      "mentions": 27
     },
     {
       "topic": "Finance",
-      "mentions": 12
+      "mentions": 14
     },
     {
       "topic": "Technology",
-      "mentions": 7
+      "mentions": 9
     },
     {
       "topic": "Life Sciences",
@@ -1224,18 +1222,18 @@
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 12
+      "count": 14
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 6
-    },
-    {
-      "label": "Somewhat-Bullish",
-      "count": 5
+      "count": 8
     },
     {
       "label": "Bullish",
+      "count": 5
+    },
+    {
+      "label": "Somewhat-Bullish",
       "count": 5
     },
     {
@@ -1261,9 +1259,9 @@
       "count": 3
     },
     {
-      "source": "scanx.trade",
+      "source": "Simply Wall Street",
       "count": 2
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with PNW appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with NVDA appearing most often and the headline tone mostly neutral."
 }
