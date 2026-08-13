@@ -1,65 +1,61 @@
 {
-  "updated_at": "2026-08-12T04:23:15.371768+00:00",
-  "date": "2026-08-12",
+  "updated_at": "2026-08-13T04:26:45.247567+00:00",
+  "date": "2026-08-13",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "NVDA",
+  "symbol": "KIM",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "CPI Card Group raises price target after beating earnings and boosting revenue.",
-  "headline_source": "Pluang",
+  "headline": "Global-e Online Q2 Earnings Call Highlights",
+  "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 217.5, 'd': -0.05, 'dp': -0.023, 'h': 222.2, 'l': 216.2, 'o': 222.17, 'pc': 217.55, 't': 1786478400}}",
+  "price_error": "Could not parse quote data for KIM: {'status_code': 200, 'data': {'c': 24.18, 'd': 0.21, 'dp': 0.8761, 'h': 24.215, 'l': 23.975, 'o': 24, 'pc': 23.97, 't': 1786564800}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "NVDA",
-        "mentions": 3
+        "ticker": "KIM",
+        "mentions": 2
       },
       {
-        "ticker": "PNW",
-        "mentions": 3
+        "ticker": "SPG",
+        "mentions": 2
+      },
+      {
+        "ticker": "AAPL",
+        "mentions": 2
       },
       {
         "ticker": "MSFT",
         "mentions": 2
       },
       {
-        "ticker": "AMZN",
-        "mentions": 2
-      },
-      {
-        "ticker": "AAPL",
+        "ticker": "WDC",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 14
+        "count": 22
       },
       {
-        "label": "Somewhat-Bearish",
-        "count": 8
+        "label": "Somewhat-Bullish",
+        "count": 9
       },
       {
         "label": "Bullish",
         "count": 5
       },
       {
-        "label": "Somewhat-Bullish",
-        "count": 5
-      },
-      {
-        "label": "Bearish",
-        "count": 2
+        "label": "Somewhat-Bearish",
+        "count": 4
       }
     ]
   }

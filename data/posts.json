@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-kim-2026-08-13",
+    "date": "2026-08-13",
+    "runDate": "2026-08-13",
+    "createdAt": "2026-08-13T04:26:46.868048+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$KIM news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-13.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-13T04:26:45.247567+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$KIM",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "KIM",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-13T04:26:45.247567+00:00",
+      "date": "2026-08-13",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "KIM",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Global-e Online Q2 Earnings Call Highlights",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for KIM: {'status_code': 200, 'data': {'c': 24.18, 'd': 0.21, 'dp': 0.8761, 'h': 24.215, 'l': 23.975, 'o': 24, 'pc': 23.97, 't': 1786564800}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "KIM",
+            "mentions": 2
+          },
+          {
+            "ticker": "SPG",
+            "mentions": 2
+          },
+          {
+            "ticker": "AAPL",
+            "mentions": 2
+          },
+          {
+            "ticker": "MSFT",
+            "mentions": 2
+          },
+          {
+            "ticker": "WDC",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 22
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 9
+          },
+          {
+            "label": "Bullish",
+            "count": 5
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 4
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-kim-2026-08-13",
     "date": "2026-08-13",
     "runDate": "2026-08-13",
