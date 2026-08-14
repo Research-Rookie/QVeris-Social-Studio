@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-orcl-2026-08-14",
+    "date": "2026-08-14",
+    "runDate": "2026-08-14",
+    "createdAt": "2026-08-14T04:01:09.782848+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $ORCL",
+    "status": "ready",
+    "tweet": "What changed in $ORCL's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.41\n📌 Top theme: Earnings\n🔎 Emerging term: veritone\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_ORCL_2026-08-14.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-14T04:01:06.888700+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$ORCL",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "ORCL",
+    "topChangePct": 41.43,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-14T04:01:06.888700+00:00",
+      "date": "2026-08-14",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "ORCL",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.4143,
+      "baseline_label": "2026-07-12",
+      "current": {
+        "date": "2026-08-14",
+        "symbol": "ORCL",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0202,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "veritone",
+            "count": 2
+          },
+          {
+            "label": "estimates",
+            "count": 2
+          },
+          {
+            "label": "drop",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 1
+          },
+          {
+            "label": "call",
+            "count": 1
+          },
+          {
+            "label": "transcript",
+            "count": 1
+          },
+          {
+            "label": "misses",
+            "count": 1
+          },
+          {
+            "label": "reported",
+            "count": 1
+          },
+          {
+            "label": "wider-than-expected",
+            "count": 1
+          },
+          {
+            "label": "loss",
+            "count": 1
+          },
+          {
+            "label": "missed",
+            "count": 1
+          },
+          {
+            "label": "revenue",
+            "count": 1
+          }
+        ],
+        "headline": "Earnings call transcript: Veritone Q2 2026 misses estimates, shares drop 23%",
+        "headline_source": "Investing.com"
+      },
+      "previous": {
+        "date": "2026-07-12",
+        "symbol": "ORCL",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": -0.3941,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "oracle",
+            "count": 3
+          },
+          {
+            "label": "jim",
+            "count": 2
+          },
+          {
+            "label": "cramer",
+            "count": 2
+          },
+          {
+            "label": "concerns",
+            "count": 2
+          },
+          {
+            "label": "balance",
+            "count": 2
+          },
+          {
+            "label": "sheet",
+            "count": 2
+          },
+          {
+            "label": "strategy",
+            "count": 2
+          },
+          {
+            "label": "has",
+            "count": 2
+          },
+          {
+            "label": "raises",
+            "count": 1
+          },
+          {
+            "label": "voiced",
+            "count": 1
+          },
+          {
+            "label": "despite",
+            "count": 1
+          },
+          {
+            "label": "significant",
+            "count": 1
+          }
+        ],
+        "headline": "Jim Cramer Raises Concerns About Oracle Corporation's (NYSE: ORCL) Balance Sheet And AI Strategy",
+        "headline_source": "Foreign Policy Journal"
+      },
+      "emerging_themes": [
+        "Economy Macro",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "veritone",
+        "estimates",
+        "drop"
+      ],
+      "fading_keywords": [
+        "oracle",
+        "jim",
+        "cramer"
+      ],
+      "takeaway": "ORCL's narrative is turning bullish: sentiment moved +0.41, while the leading theme shifted from Financial Markets to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-14",
     "date": "2026-08-14",
     "runDate": "2026-08-14",
