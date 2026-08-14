@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-boc-2026-08-14",
+    "date": "2026-08-14",
+    "runDate": "2026-08-14",
+    "createdAt": "2026-08-14T04:23:36.832238+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$BOC news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-14.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-14T04:23:35.242789+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BOC",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "BOC",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-14T04:23:35.242789+00:00",
+      "date": "2026-08-14",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "BOC",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Is Public Storage (PSA) Fairly Valued After Its Illinois Community Solar Deal?",
+      "headline_source": "Simply Wall Street",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for BOC: {'status_code': 200, 'data': {'c': 14.26, 'd': -0.17, 'dp': -1.1781, 'h': 14.45, 'l': 14.21, 'o': 14.38, 'pc': 14.43, 't': 1786651200}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "BOC",
+            "mentions": 3
+          },
+          {
+            "ticker": "PSA",
+            "mentions": 1
+          },
+          {
+            "ticker": "NEE",
+            "mentions": 1
+          },
+          {
+            "ticker": "CTNT",
+            "mentions": 1
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 10
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 5
+          },
+          {
+            "label": "Bullish",
+            "count": 5
+          },
+          {
+            "label": "Bearish",
+            "count": 4
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-orcl-2026-08-14",
     "date": "2026-08-14",
     "runDate": "2026-08-14",
