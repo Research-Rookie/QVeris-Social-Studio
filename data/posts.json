@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-mu-2026-08-15",
+    "date": "2026-08-15",
+    "runDate": "2026-08-15",
+    "createdAt": "2026-08-15T03:13:33.551801+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$MU news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-15.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-15T03:13:31.673584+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MU",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "MU",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-15T03:13:31.673584+00:00",
+      "date": "2026-08-15",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "MU",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "Alta Equipment Group (ALTG) Q2 2026 Earnings Call Transcript",
+      "headline_source": "The Globe and Mail",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for MU: {'status_code': 200, 'data': {'c': 971.66, 'd': 21.83, 'dp': 2.2983, 'h': 984, 'l': 956.2, 'o': 979.32, 'pc': 949.83, 't': 1786737600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "MU",
+            "mentions": 4
+          },
+          {
+            "ticker": "NVDA",
+            "mentions": 4
+          },
+          {
+            "ticker": "SMHI",
+            "mentions": 3
+          },
+          {
+            "ticker": "CRL",
+            "mentions": 2
+          },
+          {
+            "ticker": "RTX",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 11
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 8
+          },
+          {
+            "label": "Neutral",
+            "count": 6
+          },
+          {
+            "label": "Bullish",
+            "count": 4
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-axp-2026-08-15",
     "date": "2026-08-15",
     "runDate": "2026-08-15",

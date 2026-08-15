@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-08-14T04:23:35.242789+00:00",
-  "date": "2026-08-14",
+  "updated_at": "2026-08-15T03:13:31.673584+00:00",
+  "date": "2026-08-15",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "BOC",
-  "news_tone": "Neutral",
+  "symbol": "MU",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "Is Public Storage (PSA) Fairly Valued After Its Illinois Community Solar Deal?",
-  "headline_source": "Simply Wall Street",
+  "headline": "Alta Equipment Group (ALTG) Q2 2026 Earnings Call Transcript",
+  "headline_source": "The Globe and Mail",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for BOC: {'status_code': 200, 'data': {'c': 14.26, 'd': -0.17, 'dp': -1.1781, 'h': 14.45, 'l': 14.21, 'o': 14.38, 'pc': 14.43, 't': 1786651200}}",
+  "price_error": "Could not parse quote data for MU: {'status_code': 200, 'data': {'c': 971.66, 'd': 21.83, 'dp': 2.2983, 'h': 984, 'l': 956.2, 'o': 979.32, 'pc': 949.83, 't': 1786737600}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "BOC",
+        "ticker": "MU",
+        "mentions": 4
+      },
+      {
+        "ticker": "NVDA",
+        "mentions": 4
+      },
+      {
+        "ticker": "SMHI",
         "mentions": 3
       },
       {
-        "ticker": "PSA",
-        "mentions": 1
+        "ticker": "CRL",
+        "mentions": 2
       },
       {
-        "ticker": "NEE",
-        "mentions": 1
-      },
-      {
-        "ticker": "CTNT",
-        "mentions": 1
-      },
-      {
-        "ticker": "AMZN",
-        "mentions": 1
+        "ticker": "RTX",
+        "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Neutral",
-        "count": 10
+        "label": "Somewhat-Bullish",
+        "count": 11
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 5
+        "count": 8
+      },
+      {
+        "label": "Neutral",
+        "count": 6
       },
       {
         "label": "Bullish",
-        "count": 5
-      },
-      {
-        "label": "Bearish",
         "count": 4
       },
       {
-        "label": "Somewhat-Bullish",
-        "count": 3
+        "label": "Bearish",
+        "count": 1
       }
     ]
   }
