@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-axp-2026-08-15",
+    "date": "2026-08-15",
+    "runDate": "2026-08-15",
+    "createdAt": "2026-08-15T02:46:33.884609+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $AXP",
+    "status": "ready",
+    "tweet": "What changed in $AXP's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: -0.04\n📌 Top theme: Earnings\n🔎 Emerging term: nvidia\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_AXP_2026-08-15.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-15T02:46:30.907079+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AXP",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "AXP",
+    "topChangePct": -3.75,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-15T02:46:30.907079+00:00",
+      "date": "2026-08-15",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "AXP",
+      "shift_label": "Attention rising",
+      "sentiment_delta": -0.0375,
+      "baseline_label": "2026-07-23",
+      "current": {
+        "date": "2026-08-15",
+        "symbol": "AXP",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.0857,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Blockchain",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "nvidia",
+            "count": 3
+          },
+          {
+            "label": "bank",
+            "count": 2
+          },
+          {
+            "label": "montreal",
+            "count": 2
+          },
+          {
+            "label": "tsx",
+            "count": 2
+          },
+          {
+            "label": "bmo",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "buybacks",
+            "count": 2
+          },
+          {
+            "label": "jim",
+            "count": 2
+          },
+          {
+            "label": "cramer",
+            "count": 2
+          },
+          {
+            "label": "nvda",
+            "count": 2
+          },
+          {
+            "label": "does",
+            "count": 1
+          },
+          {
+            "label": "look",
+            "count": 1
+          }
+        ],
+        "headline": "Bank Of Montreal (TSX:BMO) After Earnings And Buybacks, Does The Stock Look Fully Valued?",
+        "headline_source": "Simply Wall Street"
+      },
+      "previous": {
+        "date": "2026-07-23",
+        "symbol": "AXP",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1232,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "american",
+            "count": 2
+          },
+          {
+            "label": "express",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "expect",
+            "count": 1
+          },
+          {
+            "label": "set",
+            "count": 1
+          },
+          {
+            "label": "friday",
+            "count": 1
+          },
+          {
+            "label": "anticipates",
+            "count": 1
+          },
+          {
+            "label": "year-on-year",
+            "count": 1
+          },
+          {
+            "label": "revenue",
+            "count": 1
+          },
+          {
+            "label": "growth",
+            "count": 1
+          },
+          {
+            "label": "for",
+            "count": 1
+          }
+        ],
+        "headline": "What To Expect From American Express’s (AXP) Q2 Earnings",
+        "headline_source": "TradingView"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "nvidia",
+        "bank",
+        "montreal"
+      ],
+      "fading_keywords": [
+        "american",
+        "express",
+        "what"
+      ],
+      "takeaway": "AXP's narrative is attention rising: sentiment moved -0.04, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-15",
     "date": "2026-08-15",
     "runDate": "2026-08-15",

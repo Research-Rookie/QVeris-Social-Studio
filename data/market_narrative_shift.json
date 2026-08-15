@@ -1,31 +1,35 @@
 {
-  "updated_at": "2026-08-14T04:01:06.888700+00:00",
-  "date": "2026-08-14",
+  "updated_at": "2026-08-15T02:46:30.907079+00:00",
+  "date": "2026-08-15",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "ORCL",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.4143,
-  "baseline_label": "2026-07-12",
+  "symbol": "AXP",
+  "shift_label": "Attention rising",
+  "sentiment_delta": -0.0375,
+  "baseline_label": "2026-07-23",
   "current": {
-    "date": "2026-08-14",
-    "symbol": "ORCL",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.0202,
+    "date": "2026-08-15",
+    "symbol": "AXP",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.0857,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
+        "count": 2
       },
       {
         "label": "Financial Markets",
+        "count": 2
+      },
+      {
+        "label": "Finance",
         "count": 1
       },
       {
-        "label": "Economy Macro",
+        "label": "Blockchain",
         "count": 1
       },
       {
@@ -35,82 +39,32 @@
     ],
     "keywords": [
       {
-        "label": "veritone",
+        "label": "nvidia",
+        "count": 3
+      },
+      {
+        "label": "bank",
         "count": 2
       },
       {
-        "label": "estimates",
+        "label": "montreal",
         "count": 2
       },
       {
-        "label": "drop",
+        "label": "tsx",
+        "count": 2
+      },
+      {
+        "label": "bmo",
         "count": 2
       },
       {
         "label": "earnings",
-        "count": 1
+        "count": 2
       },
       {
-        "label": "call",
-        "count": 1
-      },
-      {
-        "label": "transcript",
-        "count": 1
-      },
-      {
-        "label": "misses",
-        "count": 1
-      },
-      {
-        "label": "reported",
-        "count": 1
-      },
-      {
-        "label": "wider-than-expected",
-        "count": 1
-      },
-      {
-        "label": "loss",
-        "count": 1
-      },
-      {
-        "label": "missed",
-        "count": 1
-      },
-      {
-        "label": "revenue",
-        "count": 1
-      }
-    ],
-    "headline": "Earnings call transcript: Veritone Q2 2026 misses estimates, shares drop 23%",
-    "headline_source": "Investing.com"
-  },
-  "previous": {
-    "date": "2026-07-12",
-    "symbol": "ORCL",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": -0.3941,
-    "top_theme": "Financial Markets",
-    "themes": [
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Technology",
-        "count": 1
-      },
-      {
-        "label": "Earnings",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "oracle",
-        "count": 3
+        "label": "buybacks",
+        "count": 2
       },
       {
         "label": "jim",
@@ -121,61 +75,107 @@
         "count": 2
       },
       {
-        "label": "concerns",
+        "label": "nvda",
         "count": 2
       },
       {
-        "label": "balance",
-        "count": 2
-      },
-      {
-        "label": "sheet",
-        "count": 2
-      },
-      {
-        "label": "strategy",
-        "count": 2
-      },
-      {
-        "label": "has",
-        "count": 2
-      },
-      {
-        "label": "raises",
+        "label": "does",
         "count": 1
       },
       {
-        "label": "voiced",
-        "count": 1
-      },
-      {
-        "label": "despite",
-        "count": 1
-      },
-      {
-        "label": "significant",
+        "label": "look",
         "count": 1
       }
     ],
-    "headline": "Jim Cramer Raises Concerns About Oracle Corporation's (NYSE: ORCL) Balance Sheet And AI Strategy",
-    "headline_source": "Foreign Policy Journal"
+    "headline": "Bank Of Montreal (TSX:BMO) After Earnings And Buybacks, Does The Stock Look Fully Valued?",
+    "headline_source": "Simply Wall Street"
+  },
+  "previous": {
+    "date": "2026-07-23",
+    "symbol": "AXP",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.1232,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "american",
+        "count": 2
+      },
+      {
+        "label": "express",
+        "count": 2
+      },
+      {
+        "label": "earnings",
+        "count": 2
+      },
+      {
+        "label": "what",
+        "count": 1
+      },
+      {
+        "label": "expect",
+        "count": 1
+      },
+      {
+        "label": "set",
+        "count": 1
+      },
+      {
+        "label": "friday",
+        "count": 1
+      },
+      {
+        "label": "anticipates",
+        "count": 1
+      },
+      {
+        "label": "year-on-year",
+        "count": 1
+      },
+      {
+        "label": "revenue",
+        "count": 1
+      },
+      {
+        "label": "growth",
+        "count": 1
+      },
+      {
+        "label": "for",
+        "count": 1
+      }
+    ],
+    "headline": "What To Expect From American Express’s (AXP) Q2 Earnings",
+    "headline_source": "TradingView"
   },
   "emerging_themes": [
-    "Economy Macro",
     "Earnings",
-    "Financial Markets"
+    "Financial Markets",
+    "Finance"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "veritone",
-    "estimates",
-    "drop"
+    "nvidia",
+    "bank",
+    "montreal"
   ],
   "fading_keywords": [
-    "oracle",
-    "jim",
-    "cramer"
+    "american",
+    "express",
+    "what"
   ],
-  "takeaway": "ORCL's narrative is turning bullish: sentiment moved +0.41, while the leading theme shifted from Financial Markets to Earnings.",
+  "takeaway": "AXP's narrative is attention rising: sentiment moved -0.04, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
