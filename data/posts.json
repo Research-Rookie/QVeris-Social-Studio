@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-mu-2026-08-16",
+    "date": "2026-08-16",
+    "runDate": "2026-08-16",
+    "createdAt": "2026-08-16T03:28:11.903755+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$MU news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-16.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-16T03:28:09.367964+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MU",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "MU",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-16T03:28:09.367964+00:00",
+      "date": "2026-08-16",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "MU",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Cintas's UniFirst Deal Is Approved — So Why Is the Arbitrage Spread Still 7.8%?",
+      "headline_source": "Kavout | AI",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for MU: {'status_code': 200, 'data': {'c': 971.66, 'd': 21.83, 'dp': 2.2983, 'h': 984, 'l': 956.2, 'o': 979.32, 'pc': 949.83, 't': 1786737600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "MU",
+            "mentions": 3
+          },
+          {
+            "ticker": "COIN",
+            "mentions": 2
+          },
+          {
+            "ticker": "WELL",
+            "mentions": 2
+          },
+          {
+            "ticker": "MCK",
+            "mentions": 2
+          },
+          {
+            "ticker": "ZBRA",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 14
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 12
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 8
+          },
+          {
+            "label": "Bullish",
+            "count": 3
+          },
+          {
+            "label": "Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-mu-2026-08-16",
     "date": "2026-08-16",
     "runDate": "2026-08-16",

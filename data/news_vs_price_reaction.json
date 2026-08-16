@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-15T03:13:31.673584+00:00",
-  "date": "2026-08-15",
+  "updated_at": "2026-08-16T03:28:09.367964+00:00",
+  "date": "2026-08-16",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
   "symbol": "MU",
-  "news_tone": "Somewhat Bullish",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Alta Equipment Group (ALTG) Q2 2026 Earnings Call Transcript",
-  "headline_source": "The Globe and Mail",
+  "headline": "Cintas's UniFirst Deal Is Approved — So Why Is the Arbitrage Spread Still 7.8%?",
+  "headline_source": "Kavout | AI",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
@@ -21,45 +21,45 @@
     "top_tickers": [
       {
         "ticker": "MU",
-        "mentions": 4
-      },
-      {
-        "ticker": "NVDA",
-        "mentions": 4
-      },
-      {
-        "ticker": "SMHI",
         "mentions": 3
       },
       {
-        "ticker": "CRL",
+        "ticker": "COIN",
         "mentions": 2
       },
       {
-        "ticker": "RTX",
+        "ticker": "WELL",
+        "mentions": 2
+      },
+      {
+        "ticker": "MCK",
+        "mentions": 2
+      },
+      {
+        "ticker": "ZBRA",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
+        "label": "Neutral",
+        "count": 14
+      },
+      {
         "label": "Somewhat-Bullish",
-        "count": 11
+        "count": 12
       },
       {
         "label": "Somewhat-Bearish",
         "count": 8
       },
       {
-        "label": "Neutral",
-        "count": 6
-      },
-      {
         "label": "Bullish",
-        "count": 4
+        "count": 3
       },
       {
         "label": "Bearish",
-        "count": 1
+        "count": 2
       }
     ]
   }
