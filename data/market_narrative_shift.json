@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-15T02:46:30.907079+00:00",
-  "date": "2026-08-15",
+  "updated_at": "2026-08-16T02:54:42.318861+00:00",
+  "date": "2026-08-16",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "AXP",
-  "shift_label": "Attention rising",
-  "sentiment_delta": -0.0375,
-  "baseline_label": "2026-07-23",
+  "symbol": "MU",
+  "shift_label": "Turning bullish",
+  "sentiment_delta": 0.2043,
+  "baseline_label": "2026-08-15",
   "current": {
-    "date": "2026-08-15",
-    "symbol": "AXP",
+    "date": "2026-08-16",
+    "symbol": "MU",
     "article_count": 2,
     "source_count": 2,
-    "sentiment_score": 0.0857,
+    "sentiment_score": 0.1929,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -22,14 +22,14 @@
       },
       {
         "label": "Financial Markets",
-        "count": 2
-      },
-      {
-        "label": "Finance",
         "count": 1
       },
       {
-        "label": "Blockchain",
+        "label": "Economy Macro",
+        "count": 1
+      },
+      {
+        "label": "Energy Transportation",
         "count": 1
       },
       {
@@ -39,8 +39,106 @@
     ],
     "keywords": [
       {
-        "label": "nvidia",
-        "count": 3
+        "label": "honda",
+        "count": 2
+      },
+      {
+        "label": "motor",
+        "count": 2
+      },
+      {
+        "label": "tse",
+        "count": 2
+      },
+      {
+        "label": "significant",
+        "count": 2
+      },
+      {
+        "label": "nxp",
+        "count": 2
+      },
+      {
+        "label": "semiconductors",
+        "count": 2
+      },
+      {
+        "label": "demand",
+        "count": 2
+      },
+      {
+        "label": "rebound",
+        "count": 2
+      },
+      {
+        "label": "growth",
+        "count": 2
+      },
+      {
+        "label": "why",
+        "count": 1
+      },
+      {
+        "label": "back",
+        "count": 1
+      },
+      {
+        "label": "spotlight",
+        "count": 1
+      }
+    ],
+    "headline": "Why Honda Motor (TSE:7267) Is Back In The Spotlight",
+    "headline_source": "Simply Wall Street"
+  },
+  "previous": {
+    "date": "2026-08-15",
+    "symbol": "MU",
+    "article_count": 2,
+    "source_count": 1,
+    "sentiment_score": -0.0114,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 2
+      },
+      {
+        "label": "Life Sciences",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      },
+      {
+        "label": "Blockchain",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "lowered",
+        "count": 2
+      },
+      {
+        "label": "eps",
+        "count": 2
+      },
+      {
+        "label": "charles",
+        "count": 2
+      },
+      {
+        "label": "river",
+        "count": 2
+      },
+      {
+        "label": "crl",
+        "count": 2
       },
       {
         "label": "bank",
@@ -67,115 +165,33 @@
         "count": 2
       },
       {
-        "label": "jim",
-        "count": 2
-      },
-      {
-        "label": "cramer",
-        "count": 2
-      },
-      {
-        "label": "nvda",
-        "count": 2
-      },
-      {
-        "label": "does",
-        "count": 1
-      },
-      {
-        "label": "look",
+        "label": "outlook",
         "count": 1
       }
     ],
-    "headline": "Bank Of Montreal (TSX:BMO) After Earnings And Buybacks, Does The Stock Look Fully Valued?",
+    "headline": "Lowered 2026 EPS Outlook and Rebounding Demand Could Be A Game Changer For Charles River (CRL)",
     "headline_source": "Simply Wall Street"
   },
-  "previous": {
-    "date": "2026-07-23",
-    "symbol": "AXP",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.1232,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "american",
-        "count": 2
-      },
-      {
-        "label": "express",
-        "count": 2
-      },
-      {
-        "label": "earnings",
-        "count": 2
-      },
-      {
-        "label": "what",
-        "count": 1
-      },
-      {
-        "label": "expect",
-        "count": 1
-      },
-      {
-        "label": "set",
-        "count": 1
-      },
-      {
-        "label": "friday",
-        "count": 1
-      },
-      {
-        "label": "anticipates",
-        "count": 1
-      },
-      {
-        "label": "year-on-year",
-        "count": 1
-      },
-      {
-        "label": "revenue",
-        "count": 1
-      },
-      {
-        "label": "growth",
-        "count": 1
-      },
-      {
-        "label": "for",
-        "count": 1
-      }
-    ],
-    "headline": "What To Expect From American Express’s (AXP) Q2 Earnings",
-    "headline_source": "TradingView"
-  },
   "emerging_themes": [
-    "Earnings",
-    "Financial Markets",
-    "Finance"
+    "Economy Macro",
+    "Energy Transportation",
+    "Technology"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Life Sciences",
+    "Finance",
+    "Blockchain"
+  ],
   "emerging_keywords": [
-    "nvidia",
-    "bank",
-    "montreal"
+    "honda",
+    "motor",
+    "tse"
   ],
   "fading_keywords": [
-    "american",
-    "express",
-    "what"
+    "lowered",
+    "eps",
+    "charles"
   ],
-  "takeaway": "AXP's narrative is attention rising: sentiment moved -0.04, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "MU's narrative is turning bullish: sentiment moved +0.20, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

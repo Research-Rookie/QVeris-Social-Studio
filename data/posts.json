@@ -1,5 +1,222 @@
 [
   {
+    "id": "market-narrative-shift-mu-2026-08-16",
+    "date": "2026-08-16",
+    "runDate": "2026-08-16",
+    "createdAt": "2026-08-16T02:54:44.834517+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $MU",
+    "status": "ready",
+    "tweet": "What changed in $MU's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.20\n📌 Top theme: Earnings\n🔎 Emerging term: honda\n📰 Coverage: 2 vs 2\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_MU_2026-08-16.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-16T02:54:42.318861+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MU",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "MU",
+    "topChangePct": 20.43,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-16T02:54:42.318861+00:00",
+      "date": "2026-08-16",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "MU",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.2043,
+      "baseline_label": "2026-08-15",
+      "current": {
+        "date": "2026-08-16",
+        "symbol": "MU",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.1929,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "honda",
+            "count": 2
+          },
+          {
+            "label": "motor",
+            "count": 2
+          },
+          {
+            "label": "tse",
+            "count": 2
+          },
+          {
+            "label": "significant",
+            "count": 2
+          },
+          {
+            "label": "nxp",
+            "count": 2
+          },
+          {
+            "label": "semiconductors",
+            "count": 2
+          },
+          {
+            "label": "demand",
+            "count": 2
+          },
+          {
+            "label": "rebound",
+            "count": 2
+          },
+          {
+            "label": "growth",
+            "count": 2
+          },
+          {
+            "label": "why",
+            "count": 1
+          },
+          {
+            "label": "back",
+            "count": 1
+          },
+          {
+            "label": "spotlight",
+            "count": 1
+          }
+        ],
+        "headline": "Why Honda Motor (TSE:7267) Is Back In The Spotlight",
+        "headline_source": "Simply Wall Street"
+      },
+      "previous": {
+        "date": "2026-08-15",
+        "symbol": "MU",
+        "article_count": 2,
+        "source_count": 1,
+        "sentiment_score": -0.0114,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Blockchain",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "lowered",
+            "count": 2
+          },
+          {
+            "label": "eps",
+            "count": 2
+          },
+          {
+            "label": "charles",
+            "count": 2
+          },
+          {
+            "label": "river",
+            "count": 2
+          },
+          {
+            "label": "crl",
+            "count": 2
+          },
+          {
+            "label": "bank",
+            "count": 2
+          },
+          {
+            "label": "montreal",
+            "count": 2
+          },
+          {
+            "label": "tsx",
+            "count": 2
+          },
+          {
+            "label": "bmo",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "buybacks",
+            "count": 2
+          },
+          {
+            "label": "outlook",
+            "count": 1
+          }
+        ],
+        "headline": "Lowered 2026 EPS Outlook and Rebounding Demand Could Be A Game Changer For Charles River (CRL)",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Economy Macro",
+        "Energy Transportation",
+        "Technology"
+      ],
+      "fading_themes": [
+        "Life Sciences",
+        "Finance",
+        "Blockchain"
+      ],
+      "emerging_keywords": [
+        "honda",
+        "motor",
+        "tse"
+      ],
+      "fading_keywords": [
+        "lowered",
+        "eps",
+        "charles"
+      ],
+      "takeaway": "MU's narrative is turning bullish: sentiment moved +0.20, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-16",
     "date": "2026-08-16",
     "runDate": "2026-08-16",
