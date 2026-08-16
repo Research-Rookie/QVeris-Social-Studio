@@ -1,0 +1,28 @@
+name: API Battle Client Report Benchmark
+
+on:
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run ten cross-category live API Battle prompts
+        env:
+          QVERIS_API_KEY: ${{ secrets.QVERIS_API_KEY }}
+          QVERIS_MAX_EXPECTED_CREDITS: "30"
+          LIVE_API_BATTLE_MAX_CANDIDATES: "10"
+        run: python scripts/run_api_battle_client_benchmark.py
+      - name: Upload benchmark JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: qveris-api-battle-client-report
+          path: benchmark-results/api_battle_client_benchmark.json
+          if-no-files-found: error
+          retention-days: 14
