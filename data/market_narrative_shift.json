@@ -1,101 +1,89 @@
 {
-  "updated_at": "2026-08-16T02:54:42.318861+00:00",
-  "date": "2026-08-16",
+  "updated_at": "2026-08-17T02:54:51.811279+00:00",
+  "date": "2026-08-17",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "MU",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.2043,
-  "baseline_label": "2026-08-15",
+  "symbol": "SPGI",
+  "shift_label": "Attention cooling",
+  "sentiment_delta": -0.0738,
+  "baseline_label": "2026-07-27",
   "current": {
-    "date": "2026-08-16",
-    "symbol": "MU",
-    "article_count": 2,
-    "source_count": 2,
-    "sentiment_score": 0.1929,
+    "date": "2026-08-17",
+    "symbol": "SPGI",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.1037,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 2
+        "count": 1
       },
       {
         "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      },
-      {
-        "label": "Energy Transportation",
-        "count": 1
-      },
-      {
-        "label": "Technology",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "honda",
+        "label": "msci",
+        "count": 4
+      },
+      {
+        "label": "rundown",
         "count": 2
       },
       {
-        "label": "motor",
+        "label": "other",
         "count": 2
       },
       {
-        "label": "tse",
+        "label": "financial",
         "count": 2
       },
       {
-        "label": "significant",
+        "label": "exchanges",
         "count": 2
       },
       {
-        "label": "nxp",
+        "label": "data",
         "count": 2
       },
       {
-        "label": "semiconductors",
+        "label": "stocks",
         "count": 2
       },
       {
-        "label": "demand",
-        "count": 2
-      },
-      {
-        "label": "rebound",
-        "count": 2
-      },
-      {
-        "label": "growth",
-        "count": 2
-      },
-      {
-        "label": "why",
+        "label": "article",
         "count": 1
       },
       {
-        "label": "back",
+        "label": "provides",
         "count": 1
       },
       {
-        "label": "spotlight",
+        "label": "for",
+        "count": 1
+      },
+      {
+        "label": "reported",
+        "count": 1
+      },
+      {
+        "label": "in-line",
         "count": 1
       }
     ],
-    "headline": "Why Honda Motor (TSE:7267) Is Back In The Spotlight",
-    "headline_source": "Simply Wall Street"
+    "headline": "Q2 Rundown: MSCI (NYSE:MSCI) Vs Other Financial Exchanges & Data Stocks",
+    "headline_source": "Yahoo Finance UK"
   },
   "previous": {
-    "date": "2026-08-15",
-    "symbol": "MU",
+    "date": "2026-07-27",
+    "symbol": "SPGI",
     "article_count": 2,
-    "source_count": 1,
-    "sentiment_score": -0.0114,
+    "source_count": 2,
+    "sentiment_score": 0.1775,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -103,95 +91,86 @@
         "count": 2
       },
       {
-        "label": "Life Sciences",
-        "count": 1
-      },
-      {
         "label": "Financial Markets",
-        "count": 1
+        "count": 2
       },
       {
         "label": "Finance",
         "count": 1
-      },
-      {
-        "label": "Blockchain",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "lowered",
-        "count": 2
-      },
-      {
-        "label": "eps",
-        "count": 2
-      },
-      {
-        "label": "charles",
-        "count": 2
-      },
-      {
-        "label": "river",
-        "count": 2
-      },
-      {
-        "label": "crl",
-        "count": 2
-      },
-      {
-        "label": "bank",
-        "count": 2
-      },
-      {
-        "label": "montreal",
-        "count": 2
-      },
-      {
-        "label": "tsx",
-        "count": 2
-      },
-      {
-        "label": "bmo",
-        "count": 2
+        "label": "global",
+        "count": 4
       },
       {
         "label": "earnings",
+        "count": 4
+      },
+      {
+        "label": "revenue",
+        "count": 3
+      },
+      {
+        "label": "preview",
         "count": 2
       },
       {
-        "label": "buybacks",
+        "label": "what",
         "count": 2
       },
       {
-        "label": "outlook",
+        "label": "look",
+        "count": 2
+      },
+      {
+        "label": "for",
+        "count": 2
+      },
+      {
+        "label": "set",
+        "count": 2
+      },
+      {
+        "label": "tuesday",
+        "count": 2
+      },
+      {
+        "label": "hours",
+        "count": 1
+      },
+      {
+        "label": "beat",
+        "count": 1
+      },
+      {
+        "label": "expectations",
         "count": 1
       }
     ],
-    "headline": "Lowered 2026 EPS Outlook and Rebounding Demand Could Be A Game Changer For Charles River (CRL)",
-    "headline_source": "Simply Wall Street"
+    "headline": "S&P Global (SPGI) Q2 Earnings Report Preview: What To Look For",
+    "headline_source": "Yahoo Finance UK"
   },
   "emerging_themes": [
-    "Economy Macro",
-    "Energy Transportation",
-    "Technology"
+    "Earnings",
+    "Financial Markets"
   ],
   "fading_themes": [
-    "Life Sciences",
-    "Finance",
-    "Blockchain"
+    "Earnings",
+    "Financial Markets",
+    "Finance"
   ],
   "emerging_keywords": [
-    "honda",
-    "motor",
-    "tse"
+    "msci",
+    "rundown",
+    "other"
   ],
   "fading_keywords": [
-    "lowered",
-    "eps",
-    "charles"
+    "global",
+    "earnings",
+    "revenue"
   ],
-  "takeaway": "MU's narrative is turning bullish: sentiment moved +0.20, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "SPGI's narrative is attention cooling: sentiment moved -0.07, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
