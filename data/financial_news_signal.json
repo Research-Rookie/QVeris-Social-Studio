@@ -1,300 +1,228 @@
 {
-  "updated_at": "2026-08-16T03:28:06.648287+00:00",
-  "date": "2026-08-16",
+  "updated_at": "2026-08-17T02:38:14.363744+00:00",
+  "date": "2026-08-17",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Cintas's UniFirst Deal Is Approved — So Why Is the Arbitrage Spread Still 7.8%?",
-      "summary": "Despite shareholder approval, UniFirst Corporation (UNF) still trades at a significant discount to Cintas Corporation's (CTAS) acquisition offer, indicating market concerns over...",
-      "url": "https://www.kavout.com/financial-agents/cintas-s-unifirst-deal-is-approved-so-why-is-the-arbitrage-spread-still-7-8",
-      "source": "Kavout | AI",
-      "published_at": "20260816T000735",
-      "sentiment_score": 0.291388,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Q2 Rundown: MSCI (NYSE:MSCI) Vs Other Financial Exchanges & Data Stocks",
+      "summary": "The article provides a Q2 rundown for MSCI and other financial exchanges and data stocks. MSCI reported in-line revenue but had the weakest performance against analyst estimates...",
+      "url": "https://uk.finance.yahoo.com/news/q2-rundown-msci-nyse-msci-222900318.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260816T222856",
+      "sentiment_score": 0.103726,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "CTAS"
+        "MSCI",
+        "SPGI",
+        "NDAQ",
+        "MCO"
       ],
       "topics": [
-        "Mergers And Acquisitions",
         "Earnings",
         "Financial Markets"
       ],
-      "quality_score": 18,
+      "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "Why Honda Motor (TSE:7267) Is Back In The Spotlight",
-      "summary": "Honda Motor (TSE:7267) is under renewed scrutiny after strong Q1 2027 results and an upgraded full-year earnings forecast. The stock has seen significant gains, with a 15.94% re...",
-      "url": "https://simplywall.st/stocks/jp/automobiles/tse-7267/honda-motor-shares/news/why-honda-motor-tse7267-is-back-in-the-spotlight",
+      "title": "Warrior Met Coal (HCC) Is Up 6.8% After Boosting Profitability And Raising Full‑Year Sales Guidance",
+      "summary": "Warrior Met Coal (HCC) reported a significant increase in second-quarter revenue and net income, with basic EPS rising to US$1.65. The company also raised its full-year coal sal...",
+      "url": "https://simplywall.st/stocks/us/materials/nyse-hcc/warrior-met-coal/news/warrior-met-coal-hcc-is-up-68-after-boosting-profitability-a",
       "source": "Simply Wall Street",
-      "published_at": "20260815T223150",
-      "sentiment_score": 0.019351,
-      "sentiment_label": "Neutral",
+      "published_at": "20260816T181131",
+      "sentiment_score": 0.472296,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "HMC",
-        "MU"
+        "HCC"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Economy Macro",
         "Energy Transportation"
       ],
       "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "Nature's Sunshine Cuts Full-Year Guidance as China Slump Offsets Digital Surge",
-      "summary": "Nature's Sunshine Products reported Q2 revenue and EPS below analyst estimates, leading to a cut in full-year guidance for revenue and EBITDA. This downward revision was primari...",
-      "url": "https://finance.biggo.com/news/faf50048-27c3-4e2e-96bc-bb4b55472765",
-      "source": "BigGo Finance",
-      "published_at": "20260816T010501",
-      "sentiment_score": -0.119895,
-      "sentiment_label": "Neutral",
+      "title": "FLXS Looks 93.3% Overvalued on GF Value™ Heading into Q4 Earnings",
+      "summary": "Flexsteel Industries Inc (FLXS) is set to report Q4 earnings with analysts forecasting a decline in revenue and EPS. GuruFocus's GF Value™ indicates the stock is significantly o...",
+      "url": "https://www.gurufocus.com/news/9037497/flxs-looks-933-overvalued-on-gf-value-heading-into-q4-earnings",
+      "source": "GuruFocus",
+      "published_at": "20260816T221158",
+      "sentiment_score": -0.454944,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "NATR",
-        "PEP",
-        "F",
-        "EL"
+        "FLXS"
       ],
       "topics": [
         "Earnings",
-        "Retail Wholesale"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "NXP Semiconductors Sees Demand Rebound as Auto, AI and Data Center Growth Accelerate",
-      "summary": "NXP Semiconductors is experiencing a significant demand rebound across its markets, with book-to-bill ratios exceeding one and normalized distribution inventory. Key growth driv...",
-      "url": "https://www.marketbeat.com/instant-alerts/nxp-semiconductors-sees-demand-rebound-as-auto-ai-and-data-center-growth-accelerate-2026-08-15/",
-      "source": "MarketBeat",
-      "published_at": "20260816T000255",
-      "sentiment_score": 0.3318,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "NXPI",
-        "GLW",
-        "MU"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Manufacturing"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "Dollar Tree Stock Leads 3 Value Retail Picks As Consumers Trade Down",
-      "summary": "As cooling inflation and flat real earnings pressure household budgets, consumers are trading down, benefiting value-focused retailers. This article highlights Dollar Tree (DLTR...",
-      "url": "https://www.sahmcapital.com/news/content/dollar-tree-stock-leads-3-value-retail-picks-as-consumers-trade-down-2026-08-14",
-      "source": "Sahm",
-      "published_at": "20260816T020749",
-      "sentiment_score": 0.453663,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DLTR"
-      ],
-      "topics": [
-        "Retail Wholesale",
-        "Earnings",
-        "Economy Macro",
-        "Financial Markets"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Kennametal (KMT) Is Down 5.8% After Strong Q4 Results And Higher 2027 Sales Outlook - Has The Bull Case Changed?",
-      "summary": "Kennametal (KMT) reported strong Q4 results and raised its fiscal 2027 sales guidance to US$3.33 billion to US$3.45 billion, driven by demand in aerospace, defense, energy, and...",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-kmt/kennametal/news/kennametal-kmt-is-down-58-after-strong-q4-results-and-higher",
-      "source": "Simply Wall Street",
-      "published_at": "20260815T233954",
-      "sentiment_score": 0.251632,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "KMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Manufacturing",
         "Financial Markets",
+        "Finance",
+        "Retail Wholesale",
         "Economy Macro"
       ],
-      "quality_score": 13,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "Ocugen Targets 2027 BLA Filings as Gene Therapy Programs Near Key Readouts",
-      "summary": "Ocugen is aiming for 2027 Biologics License Application (BLA) filings for its OCU400 retinitis pigmentosa and OCU410ST Stargardt disease gene therapies, with potential launches...",
-      "url": "https://www.marketbeat.com/instant-alerts/ocugen-targets-2027-bla-filings-as-gene-therapy-programs-near-key-readouts-2026-08-15/",
-      "source": "MarketBeat",
-      "published_at": "20260816T011844",
-      "sentiment_score": 0.457135,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "OCGN"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Is J.B. Hunt (JBHT) Turning Intermodal Tailwinds Into a Durable Edge Amid Rising Labor Pressures?",
-      "summary": "J.B. Hunt is experiencing increased intermodal conversion opportunities due to higher truckload rates, fuel costs, and a tight driver market, which could strengthen its competit...",
-      "url": "https://www.sahmcapital.com/news/content/is-jb-hunt-jbht-turning-intermodal-tailwinds-into-a-durable-edge-amid-rising-labor-pressures-2026-08-14",
-      "source": "Sahm",
-      "published_at": "20260816T010816",
-      "sentiment_score": 0.238699,
+      "title": "Analog Devices Earnings Could Trigger a Move as Options Price in Modest Volatility",
+      "summary": "Analog Devices (NASDAQ: ADI) is set to release its Q3 earnings on August 19, following a significant stock rally this year. Analysts are optimistic, projecting a 36% revenue inc...",
+      "url": "https://www.benzinga.com/markets/equities/26/08/61237388/analog-devices-earnings-could-trigger-a-move-as-options-price-in-modest-volatility",
+      "source": "Benzinga",
+      "published_at": "20260816T204458",
+      "sentiment_score": 0.314388,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "JBHT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Energy Transportation"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "PLDT Q2 2026 Earnings Call Transcript",
-      "summary": "PLDT reported a resilient performance in Q2 2026 despite a softer operating environment, with first-half service revenue growing 1% to PHP 97.8 billion and EBITDA reaching PHP 5...",
-      "url": "https://www.marketbeat.com/earnings/reports/2026-8-14-pldt-inc-stock/",
-      "source": "MarketBeat",
-      "published_at": "20260815T214039",
-      "sentiment_score": 0.053319,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PHI"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Finance"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Should Widening Losses Despite Higher Sales in Q2 2026 Require Action From Lineage (LINE) Investors?",
-      "summary": "Lineage, Inc. reported widening net losses of US$29 million in Q2 2026 and US$75 million for the half-year, despite a slight increase in sales. This raises concerns about rising...",
-      "url": "https://simplywall.st/stocks/us/real-estate/nasdaq-line/lineage/news/should-widening-losses-despite-higher-sales-in-q2-2026-requi/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260816T000943",
-      "sentiment_score": -0.249238,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "LINE"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Finance"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Nomad Foods (NYSE:NOMD) Stock Faces Margin Squeeze As Deleveraging Takes Priority",
-      "summary": "Nomad Foods' stock fell by 2.5% despite Q2 net income of €48.5m, as the market is concerned about margin compression and balance sheet strain. The company is prioritizing debt r...",
-      "url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-nomd/nomad-foods/news/nomad-foods-nysenomd-stock-faces-margin-squeeze-as-deleverag/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260815T231018",
-      "sentiment_score": -0.207239,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "NOMD"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Finance",
-        "Retail Wholesale"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Is Pegasystems (PEGA) Fairly Valued After Its FedRAMP Expansion?",
-      "summary": "Pegasystems (PEGA) has expanded its FedRAMP Class D Certified capabilities for Pega Cloud for Government, allowing federal agencies more secure options for using its AI workflow...",
-      "url": "https://simplywall.st/stocks/us/software/nasdaq-pega/pegasystems/news/is-pegasystems-pega-fairly-valued-after-its-fedramp-expansio",
-      "source": "Simply Wall Street",
-      "published_at": "20260816T021127",
-      "sentiment_score": 0.182984,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "PEGA",
-        "ADBE",
-        "WDAY"
+        "ADI"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Technology"
       ],
-      "quality_score": 10,
+      "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "Do Strong Q2 Results And Extra Dividends Change The Bull Case For Main Street Capital (MAIN)?",
-      "summary": "Main Street Capital (MAIN) reported strong Q2 2026 results with significant revenue and net income, alongside approving regular monthly dividends and a supplemental cash dividen...",
-      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-main/main-street-capital/news/do-strong-q2-results-and-extra-dividends-change-the-bull-cas",
+      "title": "3 High Growth Stocks In AI Infrastructure And Digital Banking To Watch",
+      "summary": "This article highlights three high-growth stocks: Unusual Machines (UMAC) in commercial drones and AI, Cerebras Systems (CBRS) in wafer-scale AI chips, and Nu Holdings (NU) in d...",
+      "url": "https://simplywall.st/stocks/us/tech/nysemkt-umac/unusual-machines/news/3-high-growth-stocks-in-ai-infrastructure-and-digital-bankin/amp",
       "source": "Simply Wall Street",
-      "published_at": "20260816T010600",
-      "sentiment_score": 0.397914,
-      "sentiment_label": "Bullish",
+      "published_at": "20260816T184137",
+      "sentiment_score": 0.131704,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "MAIN"
+        "UMAC"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "The Bull Case For Alibaba Group Holding (BABA) Could Change Following Deepening Apple Qwen AI Integration - Learn Why",
-      "summary": "Apple is reportedly integrating Alibaba’s Qwen AI model into Apple Intelligence for devices in China, subject to regulatory approval, which could significantly impact Alibaba's...",
-      "url": "https://simplywall.st/stocks/us/retail/nyse-baba/alibaba-group-holding/news/the-bull-case-for-alibaba-group-holding-baba-could-change-fo-2/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260815T234225",
-      "sentiment_score": 0.031703,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "BABA"
-      ],
-      "topics": [
         "Technology",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Safeway closes more stores as Albertsons restructures after failed Kroger deal",
+      "summary": "Safeway is closing more stores as its parent company Albertsons restructures following the failed $24.6 billion merger with Kroger. The closures, which include at least three lo...",
+      "url": "https://eciks.org/21434-safeway-store-closures-albertsons",
+      "source": "eciks.org",
+      "published_at": "20260816T201900",
+      "sentiment_score": -0.100676,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KR",
+        "WMT",
+        "AMZN"
+      ],
+      "topics": [
+        "Retail Wholesale",
+        "Mergers And Acquisitions",
         "Earnings",
-        "Financial Markets"
+        "Economy Macro"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "GOOGL Is Already Borrowing Billions For AI – Now It’s Reportedly Eyeing Australia’s Bond Market",
+      "summary": "Alphabet (GOOGL) is reportedly planning to issue Australian dollar bonds, its first such offering in the region, as part of a broader trend of tech giants raising significant de...",
+      "url": "https://www.tradingview.com/news/stocktwits:df3690703094b:0-googl-is-already-borrowing-billions-for-ai-now-it-s-reportedly-eyeing-australia-s-bond-market/",
+      "source": "TradingView",
+      "published_at": "20260817T014008",
+      "sentiment_score": -0.056883,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "GOOGL",
+        "GOOG",
+        "KO",
+        "AAPL"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Finance",
+        "Earnings"
       ],
       "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Will Dividend Hike And Buybacks Amid Lower Profit Change International General Insurance Holdings' (IGIC) Narrative?",
-      "summary": "International General Insurance Holdings (IGIC) reported lower net income in Q2 2026 despite increased revenue, yet declared a higher dividend and completed a significant share...",
-      "url": "https://simplywall.st/stocks/us/insurance/nasdaq-igic/international-general-insurance-holdings/news/will-dividend-hike-and-buybacks-amid-lower-profit-change-int",
+      "title": "Align Technology (ALGN) Stock Looks Cheap On Cash Flow Yet Fair On Earnings",
+      "summary": "Align Technology's stock (ALGN) has seen a significant 73.4% decline over the past five years. While a Discounted Cash Flow (DCF) model suggests the stock is undervalued by abou...",
+      "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-algn/align-technology/news/align-technology-algn-stock-looks-cheap-on-cash-flow-yet-fai",
       "source": "Simply Wall Street",
-      "published_at": "20260815T224008",
-      "sentiment_score": 0.002969,
+      "published_at": "20260816T233705",
+      "sentiment_score": 0.283557,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ALGN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Life Sciences"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "How To Earn $500 A Month From Home Depot Stock Ahead Of Q2 Earnings",
+      "summary": "This article details how investors can earn $500 per month from Home Depot's dividends, requiring an investment of approximately $222,573 or 644 shares based on its current annu...",
+      "url": "https://currently.att.yahoo.com/att/earn-500-month-home-depot-233115983.html",
+      "source": "Currently.com",
+      "published_at": "20260816T230804",
+      "sentiment_score": 0.265091,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "HD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Real Estate",
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Is RTX’s Seven-Year SM-3 Deal Reshaping the Investment Case for RTX (RTX)?",
+      "summary": "Raytheon Technologies (RTX) has secured a seven-year framework agreement with the Pentagon for SM-3 Block IB and Block IIA interceptors, aiming to stabilize supply chains and su...",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-rtx/rtx/news/is-rtxs-seven-year-sm-3-deal-reshaping-the-investment-case-f",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T214523",
+      "sentiment_score": 0.21705,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "RTX",
+        "BA",
+        "LMT"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Fiscal",
+        "Manufacturing",
+        "Technology"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Boyd Group Services (TSX:BYD) Is Down 8.0% After Revenue Grows But Earnings Compress Sharply - Has The Bull Case Ch...",
+      "summary": "Boyd Group Services (TSX:BYD) recently reported Q2 2026 results with revenue up but net income sharply down to US$1.29 million, causing its stock to fall 8.0%. Despite strong to...",
+      "url": "https://simplywall.st/stocks/ca/commercial-services/tsx-byd/boyd-group-services-shares/news/boyd-group-services-tsxbyd-is-down-80-after-revenue-grows-bu/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T191125",
+      "sentiment_score": 0.005238,
       "sentiment_label": "Neutral",
       "tickers": [
-        "IGIC",
-        "MU"
+        "BGSI"
       ],
       "topics": [
         "Earnings",
@@ -305,158 +233,393 @@
       "is_noise": false
     },
     {
-      "title": "Permian Basin Royalty Trust (NYSE:PBT) Short Interest Up 106.3% in July",
-      "summary": "Permian Basin Royalty Trust (NYSE:PBT) experienced a significant increase in short interest, rising 106.3% in July to 288,002 shares. Despite this, institutional investors have...",
-      "url": "https://www.marketbeat.com/instant-alerts/permian-basin-royalty-trust-nysepbt-short-interest-up-1063-in-july-2026-08-15/",
-      "source": "MarketBeat",
-      "published_at": "20260816T014330",
-      "sentiment_score": 0.152639,
+      "title": "How Cohen & Steers’ New Real Assets Active ETF Could Reshape the CNS Investment Story",
+      "summary": "Cohen & Steers recently launched the Cohen & Steers Real Assets Active ETF (CSRA), an actively managed fund offering diversified exposure to real assets. This new ETF aims to si...",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-cns/cohen-steers/news/how-cohen-steers-new-real-assets-active-etf-could-reshape-th/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T184217",
+      "sentiment_score": 0.271502,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "PBT",
-        "BAC"
+        "CNS"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Energy Transportation",
+        "Real Estate",
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Is Triple Flag Precious Metals (TSX:TFPM) Cheap After Strong Results, Guidance And A Dividend Raise?",
+      "summary": "Triple Flag Precious Metals (TSX:TFPM) reported strong Q2 2026 results with increased sales and net income, updated full-year guidance, and a higher dividend, leading to a 13.93...",
+      "url": "https://simplywall.st/stocks/ca/materials/tsx-tfpm/triple-flag-precious-metals-shares/news/is-triple-flag-precious-metals-tsxtfpm-cheap-after-strong-re/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T181301",
+      "sentiment_score": 0.545694,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "TFPM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "RKLB Stock Rises Overnight: Rocket Lab’s First 8 Satellites From $143M Globalstar Deal Reach Orbit",
+      "summary": "Rocket Lab's stock (RKLB) rose overnight after the company confirmed that the first eight satellites built under its $143 million contract with MDA Space successfully reached or...",
+      "url": "https://stocktwits.com/news-articles/markets/equity/rklb-first-8-satellites-143m-globalstar-deal-reach-orbit/cZo6NbuRJK7",
+      "source": "Stocktwits",
+      "published_at": "20260817T011345",
+      "sentiment_score": 0.371466,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "GSAT",
+        "NVDA"
+      ],
+      "topics": [
+        "Technology",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "CVSB Dividend: 4.27% Yield, $2.17/Share — History & Dates",
+      "summary": "The article details the dividend history and yield for Calvert Ultra-Short Investment Grade ETF (CVSB). It highlights that CVSB offers a 4.27% dividend yield, amounting to $2.17...",
+      "url": "https://www.gurufocus.com/etf/CVSB/dividend",
+      "source": "GuruFocus",
+      "published_at": "20260816T181029",
+      "sentiment_score": 0.324077,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CVSB"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Brown & Brown (BRO) Could Be 7% Below Fair Value On Executive Resignation",
+      "summary": "Brown & Brown (BRO) is currently trading at US$70.54, which is 6.7% below its estimated fair value of $75.63, despite a recent 90-day rebound. The company's valuation is influen...",
+      "url": "https://simplywall.st/stocks/us/insurance/nyse-bro/brown-brown/news/brown-brown-bro-could-be-7-below-fair-value-on-executive-res",
+      "source": "Simply Wall Street",
+      "published_at": "20260817T014117",
+      "sentiment_score": 0.055813,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BRO",
+        "AON",
+        "MMC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
+      "title": "Trump Media & Technology Group Corp. Revenue Breakdown – NASDAQ:DJTWW",
+      "summary": "This article provides a revenue breakdown for Trump Media & Technology Group Corp. (NASDAQ: DJTWW). The primary source of revenue is identified as the United States, contributin...",
+      "url": "https://www.tradingview.com/symbols/NASDAQ-DJTWW/financials-segments/",
+      "source": "TradingView",
+      "published_at": "20260816T234047",
+      "sentiment_score": 0.003424,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DJT"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
+      "title": "EXEL Investors Have Opportunity to Join Exelixis, Inc. Fraud Investigation with SBS Law",
+      "summary": "Schall, Brown & Schwartz LLP (SBS) is investigating potential securities law violations by Exelixis, Inc. (NASDAQ: EXEL) after the company missed Q2 revenue estimates and lowere...",
+      "url": "https://www.businesswire.com/news/home/20260816581958/en/EXEL-Investors-Have-Opportunity-to-Join-Exelixis-Inc.-Fraud-Investigation-with-SBS-Law",
+      "source": "Business Wire",
+      "published_at": "20260816T224026",
+      "sentiment_score": -0.41406,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "EXEL"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
+      "title": "How Investors Are Reacting To S&P Global (SPGI) Embedding AI Data Into Microsoft 365 Copilot",
+      "summary": "S&P Global Inc. announced an expanded collaboration with Microsoft Corporation to integrate its AI-ready data, insights, and analytics into Microsoft 365 Copilot workflows. This...",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-spgi/sp-global/news/how-investors-are-reacting-to-sp-global-spgi-embedding-ai-da",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T223736",
+      "sentiment_score": 0.153484,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "SPGI",
+        "MSFT",
+        "CME",
+        "MCO",
+        "MU"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology",
         "Finance"
       ],
       "quality_score": 8,
       "is_noise": false
     },
     {
-      "title": "PAM TRANSPORTATION SERVICES INC 10-Q Report",
-      "summary": "PAM Transportation Services Inc. (PAMT) has released its Q1 2024 10-Q report, revealing a decrease in total operating revenues to $182.592 million and a shift to an operating lo...",
-      "url": "https://www.tradingview.com/news/tradingview:11b75fd8e0559:0-pam-transportation-services-inc-10-q-report/",
-      "source": "TradingView",
-      "published_at": "20260816T021203",
-      "sentiment_score": -0.422895,
-      "sentiment_label": "Bearish",
+      "title": "Is ServiceNow’s New Autonomous Security and Brazil AI Push Altering The Investment Case For NOW?",
+      "summary": "ServiceNow has recently expanded its AI initiatives by launching an Autonomous Security suite, introducing new healthcare AI partner applications, and establishing its first ded...",
+      "url": "https://simplywall.st/stocks/us/software/nyse-now/servicenow/news/is-servicenows-new-autonomous-security-and-brazil-ai-push-al",
+      "source": "Simply Wall Street",
+      "published_at": "20260817T012830",
+      "sentiment_score": 0.267039,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "PAMT"
+        "NOW"
       ],
       "topics": [
+        "Technology",
         "Earnings",
-        "Energy Transportation",
         "Financial Markets"
       ],
       "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "Globe Life (GL) Could Be 5% Undervalued After Weak Q2 Sales And Underwriting Setbacks",
-      "summary": "Globe Life (GL) is currently valued at $181.0, with Simply Wall St's narrative suggesting it is 4.8% undervalued with a fair value of $190.09 per share. The company faces challe...",
-      "url": "https://simplywall.st/stocks/us/insurance/nyse-gl/globe-life/news/globe-life-gl-could-be-5-undervalued-after-weak-q2-sales-and",
+      "title": "Is Norwegian Cruise Line Holdings (NCLH) A Bargain On Dilution Risk Concerns?",
+      "summary": "Norwegian Cruise Line Holdings (NCLH) is under scrutiny due to weaker passenger cruise days and negative free cash flow, raising concerns about liquidity and potential equity di...",
+      "url": "https://simplywall.st/stocks/us/consumer-services/nyse-nclh/norwegian-cruise-line-holdings/news/is-norwegian-cruise-line-holdings-nclh-a-bargain-on-dilution",
       "source": "Simply Wall Street",
-      "published_at": "20260816T003355",
-      "sentiment_score": 0.082032,
+      "published_at": "20260817T012826",
+      "sentiment_score": -0.060442,
       "sentiment_label": "Neutral",
       "tickers": [
-        "GL"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Short Interest in Identiv, Inc. (NASDAQ:INVE) Expands By 108.7%",
-      "summary": "Identiv, Inc. (NASDAQ:INVE) experienced a significant increase in short interest, which rose by 108.7% to 357,358 shares as of July 31st, representing 1.5% of the stock sold sho...",
-      "url": "https://www.marketbeat.com/instant-alerts/short-interest-in-identiv-inc-nasdaqinve-expands-by-1087-2026-08-15/",
-      "source": "MarketBeat",
-      "published_at": "20260815T224004",
-      "sentiment_score": -0.469944,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "INVE"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Pinnacle Financial Partners (PNFP) As Small Business Growth Fuels A Rich Valuation Debate",
-      "summary": "Pinnacle Financial Partners (PNFP) has seen recent share price momentum, leading to a market value of $16.1 billion. The stock is considered 9.4% undervalued by a popular narrat...",
-      "url": "https://simplywall.st/stocks/us/banks/nyse-pnfp/pinnacle-financial-partners/news/pinnacle-financial-partners-pnfp-as-small-business-growth-fu/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260815T221157",
-      "sentiment_score": 0.029453,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PNFP-P-B"
-      ],
-      "topics": [
-        "Finance",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "PepGen’s DM1 Bet Runs Into An FDA Hold And Dilution Fears",
-      "summary": "PepGen (PEPG) is a clinical-stage biotech focused on its lead program PGN-EDODM1 for myotonic dystrophy type 1 (DM1). The company's stock performance is highly volatile and tied...",
-      "url": "https://finimize.com/content/pepg-asset-snapshot",
-      "source": "Finimize",
-      "published_at": "20260816T020646",
-      "sentiment_score": -0.233273,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "PEPG"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
-      "summary": "Tesla is ending the longest labor conflict in modern Swedish history not by signing a collective agreement with union IF Metall, but by buying out every remaining striking worke...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musks-tesla-ending-swedens-224600636.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260815T224627",
-      "sentiment_score": -0.048147,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TSLA",
-        "NVDA"
+        "NCLH",
+        "MU",
+        "MAR",
+        "RCL"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Economy Macro",
-        "Energy Transportation",
-        "Manufacturing"
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Is Norwegian Cruise Line Holdings (NCLH) A Bargain On Dilution Risk Concerns?",
+      "summary": "Norwegian Cruise Line Holdings (NCLH) is under scrutiny due to concerns over weaker passenger cruise days and negative free cash flow, raising questions about liquidity and pote...",
+      "url": "https://simplywall.st/stocks/us/consumer-services/nyse-nclh/norwegian-cruise-line-holdings/news/is-norwegian-cruise-line-holdings-nclh-a-bargain-on-dilution/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260817T012740",
+      "sentiment_score": -0.227733,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "NCLH"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Thermo Fisher (TMO) Stock May Be 8% Below Fair Value On Microbiology Sale",
+      "summary": "Thermo Fisher Scientific (TMO) stock has gained 20.7% over the last year and appears modestly undervalued by about 7.6% according to a Discounted Cash Flow (DCF) model, suggesti...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-tmo/thermo-fisher-scientific/news/thermo-fisher-tmo-stock-may-be-8-below-fair-value-on-microbi",
+      "source": "Simply Wall Street",
+      "published_at": "20260817T004401",
+      "sentiment_score": 0.07798,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TMO"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "First Northwest Bancorp (NASDAQ:FNWB) Short Interest Up 84.7% in July",
+      "summary": "First Northwest Bancorp (NASDAQ:FNWB) experienced an 84.7% increase in short interest during July, reaching 71,918 shares, which represents 0.8% of its shares outstanding and a...",
+      "url": "https://www.marketbeat.com/instant-alerts/first-northwest-bancorp-nasdaqfnwb-short-interest-up-847-in-july-2026-08-16/",
+      "source": "MarketBeat",
+      "published_at": "20260816T231042",
+      "sentiment_score": 0.120294,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "FNWB"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Banc of California, Inc. (BANC) Investigation: Bronstein, Gewirtz & Grossman, LLC Encourages Shareholders to Contac...",
+      "summary": "Bronstein, Gewirtz & Grossman, LLC is investigating potential claims on behalf of purchasers of Banc of California, Inc. (NYSE:BANC) securities. This investigation follows Banc...",
+      "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/banc-of-california-inc.-banc-investigation-bronstein-gewirtz-and-1202220",
+      "source": "ACCESS Newswire",
+      "published_at": "20260816T220415",
+      "sentiment_score": 0.031593,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BANC-P-F"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "The Bull Case For American International Group (AIG) Could Change Following New Parametric Cloud Outage Cover",
+      "summary": "American International Group (AIG) has launched a Parametric Cloud Outage Solution, offering predefined payouts for cloud service downtime, which could influence its investment...",
+      "url": "https://simplywall.st/stocks/us/insurance/nyse-aig/american-international-group/news/the-bull-case-for-american-international-group-aig-could-cha/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T193705",
+      "sentiment_score": 0.426016,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "AIG"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "The Bull Case For American International Group (AIG) Could Change Following New Parametric Cloud Outage Cover",
+      "summary": "American International Group (AIG) recently introduced a new Parametric Cloud Outage Solution, offering predefined payouts for cloud service downtime. This innovation, while rei...",
+      "url": "https://simplywall.st/stocks/us/insurance/nyse-aig/american-international-group/news/the-bull-case-for-american-international-group-aig-could-cha",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T192800",
+      "sentiment_score": 0.323745,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "AIG"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Stronger Q2 2026 Results And Higher Revenue Targets Could Be A Game Changer For Willdan Group (WLDN)",
+      "summary": "Willdan Group reported stronger Q2 2026 results with increased sales and net income, alongside higher 2026 net revenue targets of US$415 million to US$430 million, up from previ...",
+      "url": "https://simplywall.st/stocks/us/commercial-services/nasdaq-wldn/willdan-group/news/stronger-q2-2026-results-and-higher-revenue-targets-could-be/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T191344",
+      "sentiment_score": 0.42211,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "WLDN"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Turkcell Iletisim Hizmetleri AS (NYSE:TKC) Short Interest Update",
+      "summary": "Turkcell Iletisim Hizmetleri AS (NYSE:TKC) saw a significant increase in short interest during July, nearly doubling to 3.02 million shares, representing 0.3% of outstanding sha...",
+      "url": "https://www.marketbeat.com/instant-alerts/turkcell-iletisim-hizmetleri-as-nysetkc-short-interest-update-2026-08-16/",
+      "source": "MarketBeat",
+      "published_at": "20260816T181252",
+      "sentiment_score": 0.041301,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TKC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Franklin Resources, Inc. will Change its Name to Franklin Templeton, Inc",
+      "summary": "Franklin Resources, Inc. announced that it will change its corporate name to Franklin Templeton, Inc., effective August 17, 2026. This change is highlighted in an article publis...",
+      "url": "https://www.marketscreener.com/news/franklin-resources-inc-will-change-its-name-to-franklin-templeton-inc-ce7859dfde8bf023",
+      "source": "marketscreener.com",
+      "published_at": "20260817T003513",
+      "sentiment_score": 0.017195,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BEN"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Financial Markets"
       ],
       "quality_score": 6,
       "is_noise": false
     },
     {
-      "title": "Jefferies Financial Group (JEF) Issues New Notes, Is The Stock Fully Valued?",
-      "summary": "Jefferies Financial Group (JEF) recently completed several fixed income offerings to raise long-term funding, including various senior unsecured notes maturing between 2029 and...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-financial-group-jef-issues-220919951.html",
+      "title": "Ross Stores (ROST) Could Be 229% Overvalued On Its Protected Compounding Narrative",
+      "summary": "Simply Wall St. suggests Ross Stores (ROST) might be 229% overvalued based on its \"protected compounding\" narrative, with a fair value estimated at $74.69 against a current shar...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ross-stores-rost-could-229-231515584.html",
       "source": "Yahoo Finance",
-      "published_at": "20260815T221109",
-      "sentiment_score": 0.022187,
-      "sentiment_label": "Neutral",
+      "published_at": "20260816T231533",
+      "sentiment_score": -0.204348,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "JEF",
-        "COIN"
+        "ROST",
+        "COIN",
+        "TGT"
       ],
       "topics": [
+        "Retail Wholesale",
         "Financial Markets",
         "Earnings"
       ],
@@ -464,214 +627,228 @@
       "is_noise": false
     },
     {
-      "title": "Vivos Therapeutics, Inc. (VVOS) Reports Q2 Loss, Lags Revenue Estimates",
-      "summary": "Vivos Therapeutics, Inc. (VVOS) reported a Q2 loss of $0.31 per share, which was better than the Zacks Consensus Estimate of a $0.42 loss. However, the company missed revenue es...",
-      "url": "https://finance.yahoo.com/healthcare/articles/vivos-therapeutics-inc-vvos-reports-214002531.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260815T214146",
-      "sentiment_score": -0.271527,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "NetJets owner ups stake in Wheels Up backer Delta Air Lines",
+      "summary": "Berkshire Hathaway, owner of NetJets, increased its stake in Delta Air Lines by 44% in the second quarter, bringing its total to 57.3 million shares valued at about $5.4 billion...",
+      "url": "https://privatejetcardcomparisons.com/2026/08/16/netjets-owner-ups-stake-in-wheels-up-backer-delta-air-lines/",
+      "source": "Private Jet Card Comparisons",
+      "published_at": "20260816T220131",
+      "sentiment_score": 0.048278,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "VVOS"
+        "DAL"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Financial Markets",
+        "Earnings",
+        "Finance",
+        "Energy Transportation"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Sands China declares higher interim dividend despite higher casino costs impacted 1H26 profit",
+      "summary": "Sands China declared an interim dividend of HK$0.50 per share for the first half of 2026, a significant increase from the previous year, despite reporting a 3.6% decrease in pro...",
+      "url": "https://asgam.com/2026/08/17/sands-china-declares-higher-interim-dividend-despite-higher-casino-costs-impacted-1h26-profit/",
+      "source": "IAG – Inside Asian Gaming",
+      "published_at": "20260816T220028",
+      "sentiment_score": 0.130998,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "LVS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "EDGAR Filing Documents for 0001628280-26-053342",
+      "summary": "This SEC EDGAR filing details an 8-K form for Array Technologies, Inc. (CIK: 0001820721), filed on August 5, 2026. The report includes results of operations and financial condit...",
+      "url": "https://www.sec.gov/Archives/edgar/data/1820721/000162828026053342/0001628280-26-053342-index.htm",
+      "source": "SEC.gov",
+      "published_at": "20260816T215733",
+      "sentiment_score": 0.034837,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ARRY"
+      ],
+      "topics": [
+        "Earnings",
+        "Manufacturing",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Q2 2025 Beyond Meat Inc Earnings Call Transcript",
+      "summary": "This article provides the transcript of Beyond Meat Inc.'s Q2 2025 earnings call, which took place on August 6, 2025, at 09:00 PM GMT. The transcript is an edited version of the...",
+      "url": "https://www.gurufocus.com/stock/STU:0Q30/transcripts/3043262",
+      "source": "GuruFocus",
+      "published_at": "20260816T191244",
+      "sentiment_score": 0.010767,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BYND"
+      ],
+      "topics": [
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Synthetic Fixed-Income Securities, Inc. on behalf of STRATS(SM) Trust for Wal-Mart Stores, Inc. Securities, Series...",
+      "summary": "This article provides financial information for Synthetic Fixed-Income Securities, Inc. on behalf of STRATS(SM) Trust for Wal-Mart Stores, Inc. Securities, Series 2004- (NYSE: G...",
+      "url": "https://www.tradingview.com/symbols/NYSE-GJO/financials-segments/",
+      "source": "TradingView",
+      "published_at": "20260816T221114",
+      "sentiment_score": 0.016952,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "GJS"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Earnings",
+        "Retail Wholesale"
+      ],
+      "quality_score": 5,
+      "is_noise": false
+    },
+    {
+      "title": "KLA (KLAC) Affirms Dividend, Is It Still 12% Undervalued?",
+      "summary": "KLA (KLAC) has affirmed a quarterly cash dividend of US$0.23 per share. Despite a recent pullback in its share price, KLA has shown strong momentum over the past year, aligning...",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-klac/kla/news/kla-klac-affirms-dividend-is-it-still-12-undervalued",
+      "source": "Simply Wall Street",
+      "published_at": "20260817T000804",
+      "sentiment_score": 0.114312,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KLAC",
+        "MU",
+        "AMAT",
+        "TER",
+        "IBM"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Microsoft Corporation Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S",
+      "summary": "This article provides financial information for Microsoft Corporation Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S (HAM:MSF0), specifically focusing on its operat...",
+      "url": "https://www.tradingview.com/symbols/HAM-MSF0/financials-statistics-and-ratios/operating-margin/",
+      "source": "TradingView",
+      "published_at": "20260816T230843",
+      "sentiment_score": 0.041122,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MSFT"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "American Express (AXP) Expands Virtual Cards, Is The 9% Undervalued View Enough?",
+      "summary": "American Express (AXP) has expanded its virtual card offerings for U.S. commercial clients, integrating them into its @ Work platform and broadening travel-related usage. Despit...",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-axp/american-express/news/american-express-axp-expands-virtual-cards-is-the-9-underval",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T214516",
+      "sentiment_score": 0.160192,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "AXP",
+        "COF",
+        "SYF"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Cash per share of Howmet Aerospace Inc. – BCS:HWM1",
+      "summary": "This article provides a financial snippet for Howmet Aerospace Inc. (HWM1 on the Santiago Stock Exchange), specifically focusing on its cash per share. It appears to be a basic...",
+      "url": "https://www.tradingview.com/symbols/BCS-HWM1/financials-statistics-and-ratios/cash-per-share/",
+      "source": "TradingView",
+      "published_at": "20260816T213814",
+      "sentiment_score": 0.017532,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "HWM"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Do Xencor’s (XNCR) Mixed 2026 Loss Trends Hint at Shifting Cost Discipline?",
+      "summary": "Xencor, Inc. reported a mixed financial performance for Q2 2026, showing a reduced net quarterly loss of US$21.73 million, yet an expanded net loss of US$150.65 million for the...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-xncr/xencor/news/do-xencors-xncr-mixed-2026-loss-trends-hint-at-shifting-cost/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T184227",
+      "sentiment_score": 0.012875,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "XNCR"
       ],
       "topics": [
         "Earnings",
         "Life Sciences"
       ],
-      "quality_score": 6,
+      "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "Do Strong Q3 Results And Bigger Credit Lines Change The Bull Case For Cencora (COR)?",
-      "summary": "Cencora (COR) recently reported strong Q3 2026 results with $84.75 billion in sales and $763.52 million in net income, alongside declaring a $0.60 quarterly dividend. The compan...",
-      "url": "https://simplywall.st/stocks/us/healthcare/nyse-cor/cencora/news/do-strong-q3-results-and-bigger-credit-lines-change-the-bull",
-      "source": "Simply Wall Street",
-      "published_at": "20260816T013433",
-      "sentiment_score": 0.345996,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Operating income of OFS Credit Company Inc – LS:A2N7LT",
+      "summary": "This article focuses on the operating income of OFS Credit Company Inc, identified by the ticker LS:A2N7LT. It appears to be a stub or data placeholder from TradingView, providi...",
+      "url": "https://www.tradingview.com/symbols/LS-A2N7LT/financials-income-statement/oper-income/",
+      "source": "TradingView",
+      "published_at": "20260816T181113",
+      "sentiment_score": 0.033609,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "COR"
+        "OCCIM"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Life Sciences",
         "Finance"
       ],
       "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "Will Vaxcyte's (PCVX) Expanded Losses and Fully Enrolled VAX-31 Trials Reframe Its Risk‑Reward Narrative",
-      "summary": "Vaxcyte (PCVX) recently reported expanded Q2 2026 losses and a higher basic loss per share, alongside the significant milestone of fully enrolling three pivotal VAX-31 adult Pha...",
-      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-pcvx/vaxcyte/news/will-vaxcytes-pcvx-expanded-losses-and-fully-enrolled-vax-31/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260816T004021",
-      "sentiment_score": 0.101139,
-      "sentiment_label": "Neutral",
+      "title": "Terronera Mine Operations Were Suspended Aug. 12—Talks Continue",
+      "summary": "Endeavour Silver (NYSE: EXK) announced the temporary suspension of operations at its Terronera mine in Jalisco, Mexico, since August 12 due to a community blockade by the local...",
+      "url": "https://www.stocktitan.net/news/EXK/endeavour-silver-reports-an-illegal-blockade-and-suspension-of-hewy2lq77fks.html",
+      "source": "Stock Titan",
+      "published_at": "20260817T010337",
+      "sentiment_score": -0.63024,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "PCVX"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Should Welltower’s (WELL) Dividend and Tech Focus Reframe Its Senior Housing Investment Narrative?",
-      "summary": "Welltower Inc. recently declared a US$0.85 cash dividend, coinciding with a growing institutional interest, exemplified by Baron Opportunity Fund, in its data-driven operating p...",
-      "url": "https://simplywall.st/stocks/us/real-estate/nyse-well/welltower/news/should-welltowers-well-dividend-and-tech-focus-reframe-its-s",
-      "source": "Simply Wall Street",
-      "published_at": "20260815T223939",
-      "sentiment_score": 0.161647,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "WELL",
-        "VTR",
-        "DOC"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Finance",
-        "Technology",
-        "Economy Macro"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Should Welltower’s (WELL) Dividend and Tech Focus Reframe Its Senior Housing Investment Narrative?",
-      "summary": "Welltower Inc. recently declared a US$0.85 cash dividend, coinciding with institutional interest, specifically from Baron Opportunity Fund, in its technology-driven operating pl...",
-      "url": "https://simplywall.st/stocks/us/real-estate/nyse-well/welltower/news/should-welltowers-well-dividend-and-tech-focus-reframe-its-s/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20260815T223934",
-      "sentiment_score": 0.265271,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "WELL"
-      ],
-      "topics": [
-        "Real Estate",
-        "Earnings",
-        "Finance",
-        "Technology",
-        "Economy Macro"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Williams Sonoma (WSM) Could Be 14% Overvalued On Its Digital Growth Narrative",
-      "summary": "Williams-Sonoma (WSM) has seen significant stock performance lately but a recent pullback. While the digital growth narrative suggests it's 13.6% overvalued at $212.63 compared...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/williams-sonoma-wsm-could-14-020924037.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260816T020928",
-      "sentiment_score": -0.080371,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "WSM",
-        "COIN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "McKesson director Bradley Lerman sells $268,589 in shares By Investing.com",
-      "summary": "McKesson director Bradley Lerman sold 301 shares of company stock for $268,589, holding no shares directly afterward. This transaction follows a strong year for McKesson stock,...",
-      "url": "https://ng.investing.com/news/stock-market-news/mckesson-director-bradley-lerman-sells-268589-in-shares-93CH-2661808",
-      "source": "Investing.com Nigeria",
-      "published_at": "20260816T020829",
-      "sentiment_score": -0.02869,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MCK",
-        "WFC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "McKesson director Bradley Lerman sells $268,589 in shares By Investing.com",
-      "summary": "McKesson director Bradley Lerman sold 301 shares of the company's common stock for $268,589, leaving him with no direct holdings. This transaction follows a strong year for McKe...",
-      "url": "https://in.investing.com/news/stock-market-news/mckesson-director-bradley-lerman-sells-268589-in-shares-93CH-5558667",
-      "source": "Investing.com India",
-      "published_at": "20260816T020335",
-      "sentiment_score": 0.293072,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MCK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Stanley Black & Decker CAO Scot Greulach sells $105,164 in stock",
-      "summary": "Stanley Black & Decker's Chief Accounting Officer, Scot Greulach, sold 1,015 shares of company stock for a total of $105,164 on August 7, 2026. This transaction occurred while t...",
-      "url": "https://ng.investing.com/news/stock-market-news/stanley-black--decker-cao-scot-greulach-sells-105164-in-stock-93CH-2661796",
-      "source": "Investing.com Nigeria",
-      "published_at": "20260816T000013",
-      "sentiment_score": 0.228932,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SWK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Zebra Technologies CSO Michael Cho sells $1.31m in stock By Investing.com",
-      "summary": "Michael Cho, Chief Strategy Officer at Zebra Technologies Corp, sold 3,500 shares of company stock worth $1.31 million on August 7, 2026, at an average price of $375.2 per share...",
-      "url": "https://ng.investing.com/news/stock-market-news/zebra-technologies-cso-michael-cho-sells-131m-in-stock-93CH-2661785",
-      "source": "Investing.com Nigeria",
-      "published_at": "20260815T231742",
-      "sentiment_score": -0.226977,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "ZBRA"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Dorian LPG Ltd (LPG) Stock Up 3.8% but GF Value Says Overvalued -- GF Score: 87/100",
-      "summary": "Dorian LPG Ltd (LPG) shares increased by 3.8% to $47.37, yet GuruFocus's GF Value™ estimates it as 15.6% overvalued at $40.99. Despite a strong GF Score™ of 87/100, indicating r...",
-      "url": "https://www.gurufocus.com/news/9035931/dorian-lpg-ltd-lpg-stock-up-38-but-gf-value-says-overvalued-gf-score-87100",
-      "source": "GuruFocus",
-      "published_at": "20260815T231204",
-      "sentiment_score": -0.247405,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "LPG"
+        "EXK"
       ],
       "topics": [
         "Financial Markets",
@@ -681,95 +858,43 @@
       "is_noise": false
     },
     {
-      "title": "Cdw chief commercial officer Connelly sells $3.67m in stock By Investing.com",
-      "summary": "Elizabeth H. Connelly, Chief Commercial Officer and EVP at CDW Corp, sold approximately $3.67 million in company stock and acquired $2.59 million worth of shares through employe...",
-      "url": "https://ng.investing.com/news/stock-market-news/cdw-chief-commercial-officer-connelly-sells-367m-in-stock-93CH-2661784",
-      "source": "Investing.com Nigeria",
-      "published_at": "20260815T230720",
-      "sentiment_score": 0.086126,
+      "title": "Financials Are Back in Focus",
+      "summary": "This article highlights the emerging strength of the financial sector as an alternative to the previously dominant technology sector. It showcases three leading companies—JPMorg...",
+      "url": "https://joeychoy.beehiiv.com/p/financials-are-back-in-focus",
+      "source": "Beehiiv",
+      "published_at": "20260817T004408",
+      "sentiment_score": 0.005646,
       "sentiment_label": "Neutral",
       "tickers": [
-        "CDW"
+        "JPM"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Finance",
+        "Economy Macro",
         "Technology"
       ],
       "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "Zebra Technologies CSO Michael Cho sells $1.31m in stock By Investing.com",
-      "summary": "Michael Cho, Chief Strategy Officer at Zebra Technologies Corp, sold 3,500 shares of the company's Class A Common Stock for $1.31 million. This sale occurred while the stock was...",
-      "url": "https://ca.investing.com/news/stock-market-news/zebra-technologies-cso-michael-cho-sells-131m-in-stock-93CH-4802522",
-      "source": "Investing.com Canada",
-      "published_at": "20260815T230445",
-      "sentiment_score": -0.238454,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "ZBRA"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Huntington Ingalls CEO Kastner sells $4.25m in HII stock",
-      "summary": "Christopher D. Kastner, CEO of Huntington Ingalls Industries (HII), sold 13,070 shares of the company's common stock for approximately $4.25 million on August 10, 2026, as part...",
-      "url": "https://ng.investing.com/news/stock-market-news/huntington-ingalls-ceo-kastner-sells-425m-in-hii-stock-93CH-2661782",
-      "source": "Investing.com Nigeria",
-      "published_at": "20260815T224314",
-      "sentiment_score": -0.18212,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "HII"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Huntington Ingalls director Victoria Harker sells $240,878 in stock",
-      "summary": "Victoria D. Harker, a director at Huntington Ingalls Industries (HII), sold 723 shares of common stock for a total of $240,878 at a price of $333.165 per share. Following this t...",
-      "url": "https://ng.investing.com/news/stock-market-news/huntington-ingalls-director-victoria-harker-sells-240878-in-stock-93CH-2661778",
-      "source": "Investing.com Nigeria",
-      "published_at": "20260815T222312",
-      "sentiment_score": 0.142659,
+      "title": "Brown & Brown Estimates Cost of Howden-Driven Talent War Could Hit $60M in 2026",
+      "summary": "Brown & Brown projects the cost of the talent war, largely driven by Howden, could reach $50 million to $60 million in 2026, a significant increase from prior estimates. This in...",
+      "url": "https://www.insurancejournal.com/magazines/mag-features/2026/08/17/881405.htm",
+      "source": "Insurance Journal",
+      "published_at": "20260817T003218",
+      "sentiment_score": 0.109277,
       "sentiment_label": "Neutral",
       "tickers": [
-        "HII"
+        "BRO",
+        "AON",
+        "MMC",
+        "WRB",
+        "CB"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Realty Income’s $1 Billion Convertible Offering Creates $28 Million Carry Advantage",
-      "summary": "Realty Income (O) recently completed a $1 billion convertible bond offering with a 3.75% interest rate. This transaction is projected to create an initial annual carry advantage...",
-      "url": "https://ts2.tech/en/realty-income-stock-1-billion-convertible-deal-builds-a-28-million-carry-cushion/",
-      "source": "TechStock²",
-      "published_at": "20260815T220853",
-      "sentiment_score": 0.34634,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "O"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Financial Markets",
         "Finance",
         "Economy Macro"
       ],
@@ -777,215 +902,89 @@
       "is_noise": false
     },
     {
-      "title": "Q2 holdings chief people officer Rutledge sells $630,700 in shares",
-      "summary": "Kimberly Anne Rutledge, Chief People Officer at Q2 Holdings, Inc. (NASDAQ:QTWO), sold 10,000 shares of common stock worth $630,700 on August 10, 2026. This transaction was execu...",
-      "url": "https://m.investing.com/news/insider-trading-news/q2-holdings-chief-people-officer-rutledge-sells-630700-in-shares-93CH-4861794?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260816T024133",
-      "sentiment_score": -0.073457,
-      "sentiment_label": "Neutral",
+      "title": "Securities Fraud Investigation Into Armstrong World Industries, Inc. (AWI) Announced – Shareholders Who Lost Money...",
+      "summary": "Glancy Prongay Wolke & Rotter LLP has launched a securities fraud investigation into Armstrong World Industries, Inc. (AWI) following a significant drop in its stock price. The...",
+      "url": "https://natlawreview.com/press-releases/securities-fraud-investigation-armstrong-world-industries-inc-awi-announced",
+      "source": "The National Law Review",
+      "published_at": "20260816T184133",
+      "sentiment_score": -0.631292,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "QTWO"
+        "AWI"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Phillips 66 SVP and controller Kluppel sells $1.65m in stock",
-      "summary": "Ann M. Kluppel, Phillips 66's SVP and Controller, sold company stock worth $1.65 million in early August, following the exercise of employee stock options. The sales occurred wh...",
-      "url": "https://www.investing.com/news/insider-trading-news/phillips-66-svp-and-controller-kluppel-sells-165m-in-stock-93CH-4861883",
-      "source": "Investing.com",
-      "published_at": "20260815T233853",
-      "sentiment_score": 0.042431,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PSX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation",
         "Finance"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "Arista Networks CEO Jayshree Ullal sells $119.3m in shares",
-      "summary": "Arista Networks CEO Jayshree Ullal reported the indirect sale of approximately $119.3 million in company common stock on August 12, 2026, through Rule 10b5-1 trading plans. Thes...",
-      "url": "https://www.investing.com/news/insider-trading-news/arista-networks-ceo-jayshree-ullal-sells-1193m-in-shares-93CH-4861621",
-      "source": "Investing.com",
-      "published_at": "20260815T233710",
-      "sentiment_score": 0.139597,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ANET"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Magnolia Oil & Gas director Ropp buys $123,125 in stock",
-      "summary": "Magnolia Oil & Gas director Ralph Lewis Ropp purchased 5,000 shares of the company's Class A Common Stock for $123,125 on August 7, 2026. This transaction increased his direct h...",
-      "url": "https://m.investing.com/news/insider-trading-news/magnolia-oil--gas-director-ropp-buys-123125-in-stock-93CH-4861873?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260815T231028",
-      "sentiment_score": 0.498484,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "MGY"
-      ],
-      "topics": [
-        "Earnings",
-        "Mergers And Acquisitions",
-        "Financial Markets",
-        "Energy Transportation",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Zebra Technologies CSO Michael Cho sells $1.31m in stock",
-      "summary": "Michael Cho, Chief Strategy Officer at Zebra Technologies Corp, sold 3,500 shares of the company's Class A Common Stock for approximately $1.31 million. This sale occurred while...",
-      "url": "https://m.investing.com/news/insider-trading-news/zebra-technologies-cso-michael-cho-sells-131m-in-stock-93CH-4861868?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260815T230946",
-      "sentiment_score": 0.111863,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ZBRA"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Huntington Ingalls CEO Kastner sells $4.25m in HII stock",
-      "summary": "Huntington Ingalls Industries' CEO, Christopher D. Kastner, sold 13,070 shares of company stock for approximately $4.25 million on August 10, 2026, through a pre-arranged tradin...",
-      "url": "https://www.investing.com/news/insider-trading-news/huntington-ingalls-ceo-kastner-sells-425m-in-hii-stock-93CH-4861863",
-      "source": "Investing.com",
-      "published_at": "20260815T230818",
-      "sentiment_score": 0.102427,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HII"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Manufacturing"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Cdw chief commercial officer Connelly sells $3.67m in stock",
-      "summary": "Elizabeth H. Connelly, Chief Commercial Officer at CDW Corp, sold approximately $3.67 million in company stock and acquired shares worth about $2.59 million on August 7, 2026. T...",
-      "url": "https://m.investing.com/news/insider-trading-news/cdw-chief-commercial-officer-connelly-sells-367m-in-stock-93CH-4861866?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260815T230727",
-      "sentiment_score": 0.144026,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CDW"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Cdw chief commercial officer Connelly sells $3.67m in stock",
-      "summary": "Elizabeth H. Connelly, Chief Commercial Officer at CDW Corp, recently sold approximately $3.67 million worth of company stock while simultaneously acquiring shares valued at abo...",
-      "url": "https://www.investing.com/news/insider-trading-news/cdw-chief-commercial-officer-connelly-sells-367m-in-stock-93CH-4861866",
-      "source": "Investing.com",
-      "published_at": "20260815T225723",
-      "sentiment_score": 0.067223,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CDW",
-        "AVGO",
-        "AMAT",
-        "MU",
-        "NVDA"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Koppers CAO Bradley Pearce sells $102,020 in shares",
-      "summary": "Bradley A. Pearce, Chief Accounting Officer at Koppers Holdings Inc., sold 2,000 shares of company stock for $102,020 on August 10, 2026. This transaction occurred after Koppers...",
-      "url": "https://m.investing.com/news/insider-trading-news/koppers-cao-bradley-pearce-sells-102020-in-shares-93CH-4861864?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260815T221045",
-      "sentiment_score": -0.230043,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "KOP"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Huntington Ingalls director Victoria Harker sells $240,878 in stock",
-      "summary": "Victoria D. Harker, a director at Huntington Ingalls Industries (NASDAQ:HII), recently sold 723 shares of common stock for a total of $240,878. This transaction occurred on Augu...",
-      "url": "https://m.investing.com/news/insider-trading-news/huntington-ingalls-director-victoria-harker-sells-240878-in-stock-93CH-4861860?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260815T220818",
-      "sentiment_score": 0.334275,
+      "title": "Cintas Executives' Flurry of Stock Sales Is Just Tax Withholding, Not a Red Flag",
+      "summary": "A recent wave of stock sales by Cintas executives, including the CEO, CFO, and COO, on August 10, 2026, were non-discretionary \"sell-to-cover\" events for tax withholding on rest...",
+      "url": "https://finance.biggo.com/news/d4b9cff6-314e-4d12-aa32-b20db9054262",
+      "source": "BigGo Finance",
+      "published_at": "20260816T183725",
+      "sentiment_score": 0.218656,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "HII"
+        "CTAS"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "WIX UPCOMING DEADLINE: Faruqi & Faruqi, LLP Reminds Wix.com (WIX) Investors of Securities Class Action Lawsuit Dead...",
+      "summary": "Faruqi & Faruqi, LLP is reminding investors of Wix.com (WIX) about a securities class action lawsuit deadline on September 22, 2026. The lawsuit alleges that Wix made false or m...",
+      "url": "https://www.newsfilecorp.com/release/309703/WIX-UPCOMING-DEADLINE-Faruqi-Faruqi-LLP-Reminds-Wix.com-WIX-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-September-22-2026",
+      "source": "TMX Newsfile",
+      "published_at": "20260816T194104",
+      "sentiment_score": 0.006732,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "WIX"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Manufacturing"
+        "Technology",
+        "Finance"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Huntington Ingalls CEO Kastner sells $4.25m in HII stock",
-      "summary": "Christopher D. Kastner, CEO of Huntington Ingalls Industries (NYSE:HII), sold 13,070 shares of company stock on August 10, 2026, totaling approximately $4.25 million. These sale...",
-      "url": "https://m.investing.com/news/insider-trading-news/huntington-ingalls-ceo-kastner-sells-425m-in-hii-stock-93CH-4861863?ampMode=1",
+      "title": "Chief people services officer Melinda Geisser sells $766k Savers Value Village stock",
+      "summary": "Melinda L. Geisser, Chief People Services Officer at Savers Value Village, sold 65,000 shares of company stock for approximately $766,200 in early August, following the exercise...",
+      "url": "https://m.investing.com/news/insider-trading-news/chief-people-services-officer-melinda-geisser-sells-766k-savers-value-village-stock-93CH-4862004?ampMode=1",
       "source": "Investing.com",
-      "published_at": "20260815T220806",
-      "sentiment_score": 0.105025,
-      "sentiment_label": "Neutral",
+      "published_at": "20260816T191158",
+      "sentiment_score": -0.236991,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "HII"
+        "SVV"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Retail Wholesale",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "First Commonwealth Financial director Grebenc sells $325,453 of stock By Investing.com",
+      "summary": "Jane Grebenc, a director at First Commonwealth Financial (NYSE: FCF), sold 15,900 shares of company stock on August 6, 2026, totaling $325,453. Despite this insider sale, Invest...",
+      "url": "https://ng.investing.com/news/stock-market-news/first-commonwealth-financial-director-grebenc-sells-325453-of-stock-93CH-2661850",
+      "source": "Investing.com Nigeria",
+      "published_at": "20260816T191143",
+      "sentiment_score": 0.345484,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "FCF"
       ],
       "topics": [
         "Earnings",
@@ -1000,206 +999,214 @@
   "top_ticker": "MU",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Cintas's UniFirst Deal Is Approved — So Why Is the Arbitrage Spread Still 7.8%?",
+  "top_story": "Q2 Rundown: MSCI (NYSE:MSCI) Vs Other Financial Exchanges & Data Stocks",
   "signal_articles": [
     {
-      "title": "Cintas's UniFirst Deal Is Approved — So Why Is the Arbitrage Spread Still 7.8%?",
-      "summary": "Despite shareholder approval, UniFirst Corporation (UNF) still trades at a significant discount to Cintas Corporation's (CTAS) acquisition offer, indicating market concerns over...",
-      "url": "https://www.kavout.com/financial-agents/cintas-s-unifirst-deal-is-approved-so-why-is-the-arbitrage-spread-still-7-8",
-      "source": "Kavout | AI",
-      "published_at": "20260816T000735",
-      "sentiment_score": 0.291388,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Q2 Rundown: MSCI (NYSE:MSCI) Vs Other Financial Exchanges & Data Stocks",
+      "summary": "The article provides a Q2 rundown for MSCI and other financial exchanges and data stocks. MSCI reported in-line revenue but had the weakest performance against analyst estimates...",
+      "url": "https://uk.finance.yahoo.com/news/q2-rundown-msci-nyse-msci-222900318.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260816T222856",
+      "sentiment_score": 0.103726,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "CTAS"
+        "MSCI",
+        "SPGI",
+        "NDAQ",
+        "MCO"
       ],
       "topics": [
-        "Mergers And Acquisitions",
         "Earnings",
         "Financial Markets"
       ],
-      "quality_score": 18,
+      "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "Why Honda Motor (TSE:7267) Is Back In The Spotlight",
-      "summary": "Honda Motor (TSE:7267) is under renewed scrutiny after strong Q1 2027 results and an upgraded full-year earnings forecast. The stock has seen significant gains, with a 15.94% re...",
-      "url": "https://simplywall.st/stocks/jp/automobiles/tse-7267/honda-motor-shares/news/why-honda-motor-tse7267-is-back-in-the-spotlight",
+      "title": "Warrior Met Coal (HCC) Is Up 6.8% After Boosting Profitability And Raising Full‑Year Sales Guidance",
+      "summary": "Warrior Met Coal (HCC) reported a significant increase in second-quarter revenue and net income, with basic EPS rising to US$1.65. The company also raised its full-year coal sal...",
+      "url": "https://simplywall.st/stocks/us/materials/nyse-hcc/warrior-met-coal/news/warrior-met-coal-hcc-is-up-68-after-boosting-profitability-a",
       "source": "Simply Wall Street",
-      "published_at": "20260815T223150",
-      "sentiment_score": 0.019351,
-      "sentiment_label": "Neutral",
+      "published_at": "20260816T181131",
+      "sentiment_score": 0.472296,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "HMC",
-        "MU"
+        "HCC"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Economy Macro",
         "Energy Transportation"
       ],
       "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "Nature's Sunshine Cuts Full-Year Guidance as China Slump Offsets Digital Surge",
-      "summary": "Nature's Sunshine Products reported Q2 revenue and EPS below analyst estimates, leading to a cut in full-year guidance for revenue and EBITDA. This downward revision was primari...",
-      "url": "https://finance.biggo.com/news/faf50048-27c3-4e2e-96bc-bb4b55472765",
-      "source": "BigGo Finance",
-      "published_at": "20260816T010501",
-      "sentiment_score": -0.119895,
-      "sentiment_label": "Neutral",
+      "title": "FLXS Looks 93.3% Overvalued on GF Value™ Heading into Q4 Earnings",
+      "summary": "Flexsteel Industries Inc (FLXS) is set to report Q4 earnings with analysts forecasting a decline in revenue and EPS. GuruFocus's GF Value™ indicates the stock is significantly o...",
+      "url": "https://www.gurufocus.com/news/9037497/flxs-looks-933-overvalued-on-gf-value-heading-into-q4-earnings",
+      "source": "GuruFocus",
+      "published_at": "20260816T221158",
+      "sentiment_score": -0.454944,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "NATR",
-        "PEP",
-        "F",
-        "EL"
+        "FLXS"
       ],
       "topics": [
         "Earnings",
-        "Retail Wholesale"
+        "Financial Markets",
+        "Finance",
+        "Retail Wholesale",
+        "Economy Macro"
       ],
       "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "NXP Semiconductors Sees Demand Rebound as Auto, AI and Data Center Growth Accelerate",
-      "summary": "NXP Semiconductors is experiencing a significant demand rebound across its markets, with book-to-bill ratios exceeding one and normalized distribution inventory. Key growth driv...",
-      "url": "https://www.marketbeat.com/instant-alerts/nxp-semiconductors-sees-demand-rebound-as-auto-ai-and-data-center-growth-accelerate-2026-08-15/",
-      "source": "MarketBeat",
-      "published_at": "20260816T000255",
-      "sentiment_score": 0.3318,
+      "title": "Analog Devices Earnings Could Trigger a Move as Options Price in Modest Volatility",
+      "summary": "Analog Devices (NASDAQ: ADI) is set to release its Q3 earnings on August 19, following a significant stock rally this year. Analysts are optimistic, projecting a 36% revenue inc...",
+      "url": "https://www.benzinga.com/markets/equities/26/08/61237388/analog-devices-earnings-could-trigger-a-move-as-options-price-in-modest-volatility",
+      "source": "Benzinga",
+      "published_at": "20260816T204458",
+      "sentiment_score": 0.314388,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "NXPI",
-        "GLW",
-        "MU"
+        "ADI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "3 High Growth Stocks In AI Infrastructure And Digital Banking To Watch",
+      "summary": "This article highlights three high-growth stocks: Unusual Machines (UMAC) in commercial drones and AI, Cerebras Systems (CBRS) in wafer-scale AI chips, and Nu Holdings (NU) in d...",
+      "url": "https://simplywall.st/stocks/us/tech/nysemkt-umac/unusual-machines/news/3-high-growth-stocks-in-ai-infrastructure-and-digital-bankin/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T184137",
+      "sentiment_score": 0.131704,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "UMAC"
       ],
       "topics": [
         "Earnings",
         "Technology",
-        "Manufacturing"
+        "Financial Markets",
+        "Finance"
       ],
-      "quality_score": 15,
+      "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "Dollar Tree Stock Leads 3 Value Retail Picks As Consumers Trade Down",
-      "summary": "As cooling inflation and flat real earnings pressure household budgets, consumers are trading down, benefiting value-focused retailers. This article highlights Dollar Tree (DLTR...",
-      "url": "https://www.sahmcapital.com/news/content/dollar-tree-stock-leads-3-value-retail-picks-as-consumers-trade-down-2026-08-14",
-      "source": "Sahm",
-      "published_at": "20260816T020749",
-      "sentiment_score": 0.453663,
-      "sentiment_label": "Bullish",
+      "title": "Safeway closes more stores as Albertsons restructures after failed Kroger deal",
+      "summary": "Safeway is closing more stores as its parent company Albertsons restructures following the failed $24.6 billion merger with Kroger. The closures, which include at least three lo...",
+      "url": "https://eciks.org/21434-safeway-store-closures-albertsons",
+      "source": "eciks.org",
+      "published_at": "20260816T201900",
+      "sentiment_score": -0.100676,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "DLTR"
+        "KR",
+        "WMT",
+        "AMZN"
       ],
       "topics": [
         "Retail Wholesale",
+        "Mergers And Acquisitions",
         "Earnings",
-        "Economy Macro",
-        "Financial Markets"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Kennametal (KMT) Is Down 5.8% After Strong Q4 Results And Higher 2027 Sales Outlook - Has The Bull Case Changed?",
-      "summary": "Kennametal (KMT) reported strong Q4 results and raised its fiscal 2027 sales guidance to US$3.33 billion to US$3.45 billion, driven by demand in aerospace, defense, energy, and...",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-kmt/kennametal/news/kennametal-kmt-is-down-58-after-strong-q4-results-and-higher",
-      "source": "Simply Wall Street",
-      "published_at": "20260815T233954",
-      "sentiment_score": 0.251632,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "KMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Manufacturing",
-        "Financial Markets",
         "Economy Macro"
       ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Ocugen Targets 2027 BLA Filings as Gene Therapy Programs Near Key Readouts",
-      "summary": "Ocugen is aiming for 2027 Biologics License Application (BLA) filings for its OCU400 retinitis pigmentosa and OCU410ST Stargardt disease gene therapies, with potential launches...",
-      "url": "https://www.marketbeat.com/instant-alerts/ocugen-targets-2027-bla-filings-as-gene-therapy-programs-near-key-readouts-2026-08-15/",
-      "source": "MarketBeat",
-      "published_at": "20260816T011844",
-      "sentiment_score": 0.457135,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "OCGN"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings",
-        "Finance"
-      ],
       "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "Is J.B. Hunt (JBHT) Turning Intermodal Tailwinds Into a Durable Edge Amid Rising Labor Pressures?",
-      "summary": "J.B. Hunt is experiencing increased intermodal conversion opportunities due to higher truckload rates, fuel costs, and a tight driver market, which could strengthen its competit...",
-      "url": "https://www.sahmcapital.com/news/content/is-jb-hunt-jbht-turning-intermodal-tailwinds-into-a-durable-edge-amid-rising-labor-pressures-2026-08-14",
-      "source": "Sahm",
-      "published_at": "20260816T010816",
-      "sentiment_score": 0.238699,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "JBHT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Energy Transportation"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "PLDT Q2 2026 Earnings Call Transcript",
-      "summary": "PLDT reported a resilient performance in Q2 2026 despite a softer operating environment, with first-half service revenue growing 1% to PHP 97.8 billion and EBITDA reaching PHP 5...",
-      "url": "https://www.marketbeat.com/earnings/reports/2026-8-14-pldt-inc-stock/",
-      "source": "MarketBeat",
-      "published_at": "20260815T214039",
-      "sentiment_score": 0.053319,
+      "title": "GOOGL Is Already Borrowing Billions For AI – Now It’s Reportedly Eyeing Australia’s Bond Market",
+      "summary": "Alphabet (GOOGL) is reportedly planning to issue Australian dollar bonds, its first such offering in the region, as part of a broader trend of tech giants raising significant de...",
+      "url": "https://www.tradingview.com/news/stocktwits:df3690703094b:0-googl-is-already-borrowing-billions-for-ai-now-it-s-reportedly-eyeing-australia-s-bond-market/",
+      "source": "TradingView",
+      "published_at": "20260817T014008",
+      "sentiment_score": -0.056883,
       "sentiment_label": "Neutral",
       "tickers": [
-        "PHI"
+        "GOOGL",
+        "GOOG",
+        "KO",
+        "AAPL"
       ],
       "topics": [
-        "Earnings",
+        "Financial Markets",
         "Technology",
-        "Finance"
+        "Finance",
+        "Earnings"
       ],
-      "quality_score": 12,
+      "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Should Widening Losses Despite Higher Sales in Q2 2026 Require Action From Lineage (LINE) Investors?",
-      "summary": "Lineage, Inc. reported widening net losses of US$29 million in Q2 2026 and US$75 million for the half-year, despite a slight increase in sales. This raises concerns about rising...",
-      "url": "https://simplywall.st/stocks/us/real-estate/nasdaq-line/lineage/news/should-widening-losses-despite-higher-sales-in-q2-2026-requi/amp",
+      "title": "Align Technology (ALGN) Stock Looks Cheap On Cash Flow Yet Fair On Earnings",
+      "summary": "Align Technology's stock (ALGN) has seen a significant 73.4% decline over the past five years. While a Discounted Cash Flow (DCF) model suggests the stock is undervalued by abou...",
+      "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-algn/align-technology/news/align-technology-algn-stock-looks-cheap-on-cash-flow-yet-fai",
       "source": "Simply Wall Street",
-      "published_at": "20260816T000943",
-      "sentiment_score": -0.249238,
-      "sentiment_label": "Somewhat-Bearish",
+      "published_at": "20260816T233705",
+      "sentiment_score": 0.283557,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "LINE"
+        "ALGN"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Economy Macro",
+        "Finance",
+        "Life Sciences"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "How To Earn $500 A Month From Home Depot Stock Ahead Of Q2 Earnings",
+      "summary": "This article details how investors can earn $500 per month from Home Depot's dividends, requiring an investment of approximately $222,573 or 644 shares based on its current annu...",
+      "url": "https://currently.att.yahoo.com/att/earn-500-month-home-depot-233115983.html",
+      "source": "Currently.com",
+      "published_at": "20260816T230804",
+      "sentiment_score": 0.265091,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "HD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Real Estate",
         "Finance"
       ],
-      "quality_score": 11,
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Is RTX’s Seven-Year SM-3 Deal Reshaping the Investment Case for RTX (RTX)?",
+      "summary": "Raytheon Technologies (RTX) has secured a seven-year framework agreement with the Pentagon for SM-3 Block IB and Block IIA interceptors, aiming to stabilize supply chains and su...",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-rtx/rtx/news/is-rtxs-seven-year-sm-3-deal-reshaping-the-investment-case-f",
+      "source": "Simply Wall Street",
+      "published_at": "20260816T214523",
+      "sentiment_score": 0.21705,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "RTX",
+        "BA",
+        "LMT"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Fiscal",
+        "Manufacturing",
+        "Technology"
+      ],
+      "quality_score": 10,
       "is_noise": false
     }
   ],
@@ -1209,86 +1216,86 @@
       "mentions": 3
     },
     {
-      "ticker": "COIN",
+      "ticker": "SPGI",
       "mentions": 2
     },
     {
-      "ticker": "WELL",
+      "ticker": "MCO",
       "mentions": 2
     },
     {
-      "ticker": "MCK",
+      "ticker": "BRO",
       "mentions": 2
     },
     {
-      "ticker": "ZBRA",
+      "ticker": "AON",
       "mentions": 2
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 39
+      "mentions": 47
     },
     {
       "topic": "Financial Markets",
-      "mentions": 32
+      "mentions": 37
     },
     {
       "topic": "Finance",
-      "mentions": 16
-    },
-    {
-      "topic": "Economy Macro",
-      "mentions": 11
+      "mentions": 27
     },
     {
       "topic": "Technology",
-      "mentions": 10
+      "mentions": 12
+    },
+    {
+      "topic": "Economy Macro",
+      "mentions": 6
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 14
+      "count": 25
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 12
-    },
-    {
-      "label": "Somewhat-Bearish",
-      "count": 8
+      "count": 11
     },
     {
       "label": "Bullish",
-      "count": 3
+      "count": 5
     },
     {
       "label": "Bearish",
+      "count": 4
+    },
+    {
+      "label": "Somewhat-Bearish",
       "count": 2
     }
   ],
   "top_sources": [
     {
       "source": "Simply Wall Street",
-      "count": 14
+      "count": 19
     },
     {
-      "source": "Investing.com Nigeria",
+      "source": "TradingView",
       "count": 6
     },
     {
+      "source": "GuruFocus",
+      "count": 3
+    },
+    {
       "source": "MarketBeat",
-      "count": 5
-    },
-    {
-      "source": "Yahoo Finance",
-      "count": 4
-    },
-    {
-      "source": "Sahm",
       "count": 2
+    },
+    {
+      "source": "Yahoo Finance UK",
+      "count": 1
     }
   ],
   "takeaway": "News flow is centered on Earnings, with MU appearing most often and the headline tone mostly neutral."
