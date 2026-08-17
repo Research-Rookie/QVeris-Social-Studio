@@ -1,5 +1,105 @@
 [
   {
+    "id": "api-reliability-arena-stock-quotes-2026-08-17",
+    "date": "2026-08-17",
+    "runDate": "2026-08-17",
+    "createdAt": "2026-08-17T07:30:27.522815+00:00",
+    "contentType": "API RELIABILITY ARENA",
+    "title": "API Reliability Arena: Live U.S. stock quotes",
+    "status": "ready",
+    "tweet": "Which API would an AI agent choose? ⚔️\n\nToday's task: Live U.S. stock quotes\n🏆 实时行情 (Real-time Quotation)\n✅ 93.8% success | ⚡ 552ms | 🪙 0.00132 credits\n\nQVeris compares routing signals before the call, so agents can choose with evidence.\nhttps://qveris.ai",
+    "image": "/posts/api_reliability_arena_stock-quotes_2026-08-17.png",
+    "dataSource": "QVeris Discover routing signals",
+    "dataUpdatedAt": "2026-08-17T07:30:25.930559+00:00",
+    "xPostId": null,
+    "primaryLabel": "Champion",
+    "primaryValue": "实时行情 (Real-time Quotation)",
+    "secondaryLabel": "Route score",
+    "secondaryValue": "87.7",
+    "topSymbol": "API",
+    "topChangePct": 87.7,
+    "apiReliabilityArena": {
+      "updated_at": "2026-08-17T07:30:25.930559+00:00",
+      "date": "2026-08-17",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris Discover routing signals",
+      "title": "API Reliability Arena",
+      "scenario": {
+        "key": "stock-quotes",
+        "label": "Live U.S. stock quotes",
+        "task": "Retrieve the latest U.S. stock price, change, and volume",
+        "query": "real-time US stock quote API latest price change percent and volume"
+      },
+      "search_id": "d0aa1d3e-0cc2-476b-8784-d0b803c1f9f0",
+      "result_count": 10,
+      "competitors": [
+        {
+          "tool_id": "cn_financial_pro.real_time_quotation.v1",
+          "name": "实时行情 (Real-time Quotation)",
+          "provider": "Provider not stated",
+          "success_rate": 0.937906,
+          "latency_ms": 552.23,
+          "cost_credits": 0.00132,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 87.7,
+          "metric_count": 3,
+          "expected_cost_text": "1 credits/result",
+          "rank": 1
+        },
+        {
+          "tool_id": "tiingo.core.eod.v1",
+          "name": "eod",
+          "provider": "Provider not stated",
+          "success_rate": 0.977273,
+          "latency_ms": 866.81,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 83.8,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 2
+        },
+        {
+          "tool_id": "caidazi.get_real_time_record.execute.v1.7a43f96e",
+          "name": "A股实时行情快照 (A-Share Real-time Quote Snapshot)",
+          "provider": "Provider not stated",
+          "success_rate": 0.946196,
+          "latency_ms": 658.1,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 83.8,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 3
+        }
+      ],
+      "champion": {
+        "tool_id": "cn_financial_pro.real_time_quotation.v1",
+        "name": "实时行情 (Real-time Quotation)",
+        "provider": "Provider not stated",
+        "success_rate": 0.937906,
+        "latency_ms": 552.23,
+        "cost_credits": 0.00132,
+        "cost_known": true,
+        "freshness": "Not stated",
+        "route_score": 87.7,
+        "metric_count": 3,
+        "expected_cost_text": "1 credits/result",
+        "rank": 1
+      },
+      "takeaway": "QVeris ranks 实时行情 (Real-time Quotation) first for live u.s. stock quotes, led by 93.8% historical success.",
+      "methodology": {
+        "success_weight": 0.55,
+        "latency_weight": 0.25,
+        "cost_weight": 0.2,
+        "note": "Ranking uses QVeris historical routing signals; it is not a live load test."
+      }
+    }
+  },
+  {
     "id": "earnings-reality-check-aapl-2026-07-30",
     "date": "2026-08-17",
     "runDate": "2026-08-17",
