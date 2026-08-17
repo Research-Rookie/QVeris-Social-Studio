@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-mu-2026-08-17",
+    "date": "2026-08-17",
+    "runDate": "2026-08-17",
+    "createdAt": "2026-08-17T03:28:43.573750+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$MU news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-17.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-17T03:28:41.010214+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MU",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "MU",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-17T03:28:41.010214+00:00",
+      "date": "2026-08-17",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "MU",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Q2 Rundown: MSCI (NYSE:MSCI) Vs Other Financial Exchanges & Data Stocks",
+      "headline_source": "Yahoo Finance UK",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for MU: {'status_code': 200, 'data': {'c': 971.66, 'd': 21.83, 'dp': 2.2983, 'h': 984, 'l': 956.2, 'o': 979.32, 'pc': 949.83, 't': 1786737600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "MU",
+            "mentions": 3
+          },
+          {
+            "ticker": "SPGI",
+            "mentions": 2
+          },
+          {
+            "ticker": "MCO",
+            "mentions": 2
+          },
+          {
+            "ticker": "BRO",
+            "mentions": 2
+          },
+          {
+            "ticker": "AON",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 26
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 10
+          },
+          {
+            "label": "Bullish",
+            "count": 5
+          },
+          {
+            "label": "Bearish",
+            "count": 4
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-spgi-2026-08-17",
     "date": "2026-08-17",
     "runDate": "2026-08-17",
