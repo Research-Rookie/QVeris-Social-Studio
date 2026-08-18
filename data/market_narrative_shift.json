@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-17T02:54:51.811279+00:00",
-  "date": "2026-08-17",
+  "updated_at": "2026-08-18T02:52:19.193129+00:00",
+  "date": "2026-08-18",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "SPGI",
-  "shift_label": "Attention cooling",
-  "sentiment_delta": -0.0738,
-  "baseline_label": "2026-07-27",
+  "symbol": "TRV",
+  "shift_label": "Turning bullish",
+  "sentiment_delta": 0.3021,
+  "baseline_label": "2026-07-07",
   "current": {
-    "date": "2026-08-17",
-    "symbol": "SPGI",
+    "date": "2026-08-18",
+    "symbol": "TRV",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1037,
+    "sentiment_score": 0.178,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -27,15 +27,97 @@
     ],
     "keywords": [
       {
-        "label": "msci",
-        "count": 4
-      },
-      {
-        "label": "rundown",
+        "label": "white",
         "count": 2
       },
       {
-        "label": "other",
+        "label": "mountains",
+        "count": 2
+      },
+      {
+        "label": "insurance",
+        "count": 2
+      },
+      {
+        "label": "wtm",
+        "count": 2
+      },
+      {
+        "label": "attention",
+        "count": 2
+      },
+      {
+        "label": "back",
+        "count": 1
+      },
+      {
+        "label": "focus",
+        "count": 1
+      },
+      {
+        "label": "what",
+        "count": 1
+      },
+      {
+        "label": "catching",
+        "count": 1
+      },
+      {
+        "label": "investors",
+        "count": 1
+      },
+      {
+        "label": "gaining",
+        "count": 1
+      },
+      {
+        "label": "reporting",
+        "count": 1
+      }
+    ],
+    "headline": "White Mountains Insurance Group (WTM) Is Back In Focus, What Is Catching Investors' Attention?",
+    "headline_source": "Simply Wall Street"
+  },
+  "previous": {
+    "date": "2026-07-07",
+    "symbol": "TRV",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": -0.1241,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Real Estate",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "revenue",
+        "count": 2
+      },
+      {
+        "label": "fidelity",
+        "count": 2
+      },
+      {
+        "label": "national",
         "count": 2
       },
       {
@@ -43,134 +125,60 @@
         "count": 2
       },
       {
-        "label": "exchanges",
+        "label": "fnf",
         "count": 2
       },
       {
-        "label": "data",
-        "count": 2
-      },
-      {
-        "label": "stocks",
-        "count": 2
-      },
-      {
-        "label": "article",
+        "label": "growth",
         "count": 1
       },
       {
-        "label": "provides",
+        "label": "softer",
+        "count": 1
+      },
+      {
+        "label": "margins",
+        "count": 1
+      },
+      {
+        "label": "altering",
+        "count": 1
+      },
+      {
+        "label": "investment",
+        "count": 1
+      },
+      {
+        "label": "case",
         "count": 1
       },
       {
         "label": "for",
         "count": 1
-      },
-      {
-        "label": "reported",
-        "count": 1
-      },
-      {
-        "label": "in-line",
-        "count": 1
       }
     ],
-    "headline": "Q2 Rundown: MSCI (NYSE:MSCI) Vs Other Financial Exchanges & Data Stocks",
-    "headline_source": "Yahoo Finance UK"
-  },
-  "previous": {
-    "date": "2026-07-27",
-    "symbol": "SPGI",
-    "article_count": 2,
-    "source_count": 2,
-    "sentiment_score": 0.1775,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 2
-      },
-      {
-        "label": "Financial Markets",
-        "count": 2
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "global",
-        "count": 4
-      },
-      {
-        "label": "earnings",
-        "count": 4
-      },
-      {
-        "label": "revenue",
-        "count": 3
-      },
-      {
-        "label": "preview",
-        "count": 2
-      },
-      {
-        "label": "what",
-        "count": 2
-      },
-      {
-        "label": "look",
-        "count": 2
-      },
-      {
-        "label": "for",
-        "count": 2
-      },
-      {
-        "label": "set",
-        "count": 2
-      },
-      {
-        "label": "tuesday",
-        "count": 2
-      },
-      {
-        "label": "hours",
-        "count": 1
-      },
-      {
-        "label": "beat",
-        "count": 1
-      },
-      {
-        "label": "expectations",
-        "count": 1
-      }
-    ],
-    "headline": "S&P Global (SPGI) Q2 Earnings Report Preview: What To Look For",
-    "headline_source": "Yahoo Finance UK"
+    "headline": "Is Revenue Growth With Softer Margins Altering The Investment Case For Fidelity National Financial (FNF)?",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
     "Earnings",
     "Financial Markets"
   ],
   "fading_themes": [
-    "Earnings",
-    "Financial Markets",
-    "Finance"
+    "Finance",
+    "Real Estate",
+    "Economy Macro"
   ],
   "emerging_keywords": [
-    "msci",
-    "rundown",
-    "other"
+    "white",
+    "mountains",
+    "insurance"
   ],
   "fading_keywords": [
-    "global",
-    "earnings",
-    "revenue"
+    "revenue",
+    "fidelity",
+    "national"
   ],
-  "takeaway": "SPGI's narrative is attention cooling: sentiment moved -0.07, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "TRV's narrative is turning bullish: sentiment moved +0.30, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
