@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-08-17T03:28:41.010214+00:00",
-  "date": "2026-08-17",
+  "updated_at": "2026-08-19T03:28:18.937118+00:00",
+  "date": "2026-08-19",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "MU",
+  "symbol": "STOK",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Q2 Rundown: MSCI (NYSE:MSCI) Vs Other Financial Exchanges & Data Stocks",
-  "headline_source": "Yahoo Finance UK",
+  "headline": "How Investors Are Reacting To Arch Capital Group (ACGL) Earnings Beat Amid Softer Premium Growth",
+  "headline_source": "Simply Wall Street",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for MU: {'status_code': 200, 'data': {'c': 971.66, 'd': 21.83, 'dp': 2.2983, 'h': 984, 'l': 956.2, 'o': 979.32, 'pc': 949.83, 't': 1786737600}}",
+  "price_error": "Could not parse quote data for STOK: {'status_code': 200, 'data': {'c': 32.14, 'd': 0.01, 'dp': 0.0311, 'h': 32.67, 'l': 31.4, 'o': 31.85, 'pc': 32.13, 't': 1787083200}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "MU",
+        "ticker": "STOK",
         "mentions": 3
       },
       {
-        "ticker": "SPGI",
+        "ticker": "WMT",
         "mentions": 2
       },
       {
-        "ticker": "MCO",
+        "ticker": "KEYS",
         "mentions": 2
       },
       {
-        "ticker": "BRO",
+        "ticker": "UNH",
         "mentions": 2
       },
       {
-        "ticker": "AON",
+        "ticker": "LLY",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 26
-      },
-      {
-        "label": "Somewhat-Bullish",
-        "count": 10
+        "count": 15
       },
       {
         "label": "Bullish",
-        "count": 5
+        "count": 9
       },
       {
-        "label": "Bearish",
-        "count": 4
+        "label": "Somewhat-Bullish",
+        "count": 7
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 2
+        "count": 3
+      },
+      {
+        "label": "Bearish",
+        "count": 1
       }
     ]
   }
