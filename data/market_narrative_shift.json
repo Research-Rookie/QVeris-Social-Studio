@@ -1,94 +1,28 @@
 {
-  "updated_at": "2026-08-18T02:52:19.193129+00:00",
-  "date": "2026-08-18",
+  "updated_at": "2026-08-19T02:52:27.344670+00:00",
+  "date": "2026-08-19",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "TRV",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.3021,
-  "baseline_label": "2026-07-07",
+  "symbol": "KEYS",
+  "shift_label": "Baseline building",
+  "sentiment_delta": 0.0,
+  "baseline_label": "Building",
   "current": {
-    "date": "2026-08-18",
-    "symbol": "TRV",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.178,
+    "date": "2026-08-19",
+    "symbol": "KEYS",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.1048,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "white",
         "count": 2
       },
       {
-        "label": "mountains",
+        "label": "Technology",
         "count": 2
-      },
-      {
-        "label": "insurance",
-        "count": 2
-      },
-      {
-        "label": "wtm",
-        "count": 2
-      },
-      {
-        "label": "attention",
-        "count": 2
-      },
-      {
-        "label": "back",
-        "count": 1
-      },
-      {
-        "label": "focus",
-        "count": 1
-      },
-      {
-        "label": "what",
-        "count": 1
-      },
-      {
-        "label": "catching",
-        "count": 1
-      },
-      {
-        "label": "investors",
-        "count": 1
-      },
-      {
-        "label": "gaining",
-        "count": 1
-      },
-      {
-        "label": "reporting",
-        "count": 1
-      }
-    ],
-    "headline": "White Mountains Insurance Group (WTM) Is Back In Focus, What Is Catching Investors' Attention?",
-    "headline_source": "Simply Wall Street"
-  },
-  "previous": {
-    "date": "2026-07-07",
-    "symbol": "TRV",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": -0.1241,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
       },
       {
         "label": "Finance",
@@ -97,88 +31,74 @@
       {
         "label": "Financial Markets",
         "count": 1
-      },
-      {
-        "label": "Real Estate",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
       }
     ],
     "keywords": [
       {
+        "label": "keysight",
+        "count": 4
+      },
+      {
+        "label": "technologies",
+        "count": 4
+      },
+      {
+        "label": "earnings",
+        "count": 3
+      },
+      {
+        "label": "day",
+        "count": 2
+      },
+      {
+        "label": "call",
+        "count": 1
+      },
+      {
+        "label": "transcript",
+        "count": 1
+      },
+      {
+        "label": "reported",
+        "count": 1
+      },
+      {
+        "label": "outstanding",
+        "count": 1
+      },
+      {
+        "label": "results",
+        "count": 1
+      },
+      {
+        "label": "record",
+        "count": 1
+      },
+      {
+        "label": "orders",
+        "count": 1
+      },
+      {
         "label": "revenue",
-        "count": 2
-      },
-      {
-        "label": "fidelity",
-        "count": 2
-      },
-      {
-        "label": "national",
-        "count": 2
-      },
-      {
-        "label": "financial",
-        "count": 2
-      },
-      {
-        "label": "fnf",
-        "count": 2
-      },
-      {
-        "label": "growth",
-        "count": 1
-      },
-      {
-        "label": "softer",
-        "count": 1
-      },
-      {
-        "label": "margins",
-        "count": 1
-      },
-      {
-        "label": "altering",
-        "count": 1
-      },
-      {
-        "label": "investment",
-        "count": 1
-      },
-      {
-        "label": "case",
-        "count": 1
-      },
-      {
-        "label": "for",
         "count": 1
       }
     ],
-    "headline": "Is Revenue Growth With Softer Margins Altering The Investment Case For Fidelity National Financial (FNF)?",
-    "headline_source": "Simply Wall Street"
+    "headline": "Keysight Technologies Inc (KEYS) Q3 2026 Earnings Call Transcript",
+    "headline_source": "AlphaStreet"
   },
+  "previous": null,
   "emerging_themes": [
     "Earnings",
-    "Financial Markets"
+    "Technology",
+    "Finance"
   ],
-  "fading_themes": [
-    "Finance",
-    "Real Estate",
-    "Economy Macro"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "white",
-    "mountains",
-    "insurance"
+    "keysight",
+    "technologies",
+    "earnings"
   ],
-  "fading_keywords": [
-    "revenue",
-    "fidelity",
-    "national"
-  ],
-  "takeaway": "TRV's narrative is turning bullish: sentiment moved +0.30, while the leading theme shifted from Earnings to Earnings.",
+  "fading_keywords": [],
+  "takeaway": "KEYS leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
