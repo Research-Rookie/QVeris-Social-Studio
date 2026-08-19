@@ -1,5 +1,105 @@
 [
   {
+    "id": "api-reliability-arena-earnings-2026-08-19",
+    "date": "2026-08-19",
+    "runDate": "2026-08-19",
+    "createdAt": "2026-08-19T07:20:21.180830+00:00",
+    "contentType": "API RELIABILITY ARENA",
+    "title": "API Reliability Arena: Company earnings results",
+    "status": "ready",
+    "tweet": "Which API would an AI agent choose? ⚔️\n\nToday's task: Company earnings results\n🏆 Earnings Surprises\n✅ 100.0% success | ⚡ 403ms | 🪙 1 credits\n\nQVeris compares routing signals before the call, so agents can choose with evidence.\nhttps://qveris.ai",
+    "image": "/posts/api_reliability_arena_earnings_2026-08-19.png",
+    "dataSource": "QVeris Discover routing signals",
+    "dataUpdatedAt": "2026-08-19T07:20:18.416753+00:00",
+    "xPostId": null,
+    "primaryLabel": "Champion",
+    "primaryValue": "Earnings Surprises",
+    "secondaryLabel": "Route score",
+    "secondaryValue": "89.5",
+    "topSymbol": "API",
+    "topChangePct": 89.5,
+    "apiReliabilityArena": {
+      "updated_at": "2026-08-19T07:20:18.416753+00:00",
+      "date": "2026-08-19",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris Discover routing signals",
+      "title": "API Reliability Arena",
+      "scenario": {
+        "key": "earnings",
+        "label": "Company earnings results",
+        "task": "Retrieve reported EPS, estimated EPS, and earnings surprise",
+        "query": "company earnings results API actual EPS estimated EPS surprise reported date"
+      },
+      "search_id": "d84db445-64db-48c7-a5b1-6320659d446f",
+      "result_count": 10,
+      "competitors": [
+        {
+          "tool_id": "finnhub.stock.earnings.retrieve.v1",
+          "name": "Earnings Surprises",
+          "provider": "Finnhub",
+          "success_rate": 1.0,
+          "latency_ms": 403.41,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 89.5,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 1
+        },
+        {
+          "tool_id": "alphavantage.earnings.retrieve.v1.467a92c0",
+          "name": "Earnings History",
+          "provider": "Alpha Vantage",
+          "success_rate": 0.97561,
+          "latency_ms": 384.25,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 88.4,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 2
+        },
+        {
+          "tool_id": "finnhub.stock.earnings.execute.v1",
+          "name": "Global Company EPS Surprises",
+          "provider": "Finnhub",
+          "success_rate": 0.972973,
+          "latency_ms": 395.72,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 88.1,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 3
+        }
+      ],
+      "champion": {
+        "tool_id": "finnhub.stock.earnings.retrieve.v1",
+        "name": "Earnings Surprises",
+        "provider": "Finnhub",
+        "success_rate": 1.0,
+        "latency_ms": 403.41,
+        "cost_credits": 1.0,
+        "cost_known": true,
+        "freshness": "Not stated",
+        "route_score": 89.5,
+        "metric_count": 3,
+        "expected_cost_text": "1",
+        "rank": 1
+      },
+      "takeaway": "QVeris ranks Earnings Surprises first for company earnings results, led by 100.0% historical success.",
+      "methodology": {
+        "success_weight": 0.55,
+        "latency_weight": 0.25,
+        "cost_weight": 0.2,
+        "note": "Ranking uses QVeris historical routing signals; it is not a live load test."
+      }
+    }
+  },
+  {
     "id": "earnings-reality-check-aapl-2026-07-30",
     "date": "2026-08-19",
     "runDate": "2026-08-19",
