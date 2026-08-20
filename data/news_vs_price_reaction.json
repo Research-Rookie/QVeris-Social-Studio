@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-08-19T03:28:18.937118+00:00",
-  "date": "2026-08-19",
+  "updated_at": "2026-08-20T03:25:43.831479+00:00",
+  "date": "2026-08-20",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "STOK",
-  "news_tone": "Neutral",
+  "symbol": "PED",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "How Investors Are Reacting To Arch Capital Group (ACGL) Earnings Beat Amid Softer Premium Growth",
+  "headline": "Is Bristol-Myers Squibb (BMY) Fully Priced As FDA Approval And $2.3b Expansion Lift Outlook?",
   "headline_source": "Simply Wall Street",
-  "price": 0.0,
+  "price": 13.23,
   "change_pct": 0.0,
   "change_amount": 0.0,
-  "volume": 0,
-  "reaction_label": "Price pending",
-  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for STOK: {'status_code': 200, 'data': {'c': 32.14, 'd': 0.01, 'dp': 0.0311, 'h': 32.67, 'l': 31.4, 'o': 31.85, 'pc': 32.13, 't': 1787083200}}",
+  "volume": 38670,
+  "reaction_label": "Muted reaction",
+  "takeaway": "News tone and price action are both relatively muted.",
+  "price_error": null,
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "STOK",
-        "mentions": 3
-      },
-      {
-        "ticker": "WMT",
+        "ticker": "PED",
         "mentions": 2
       },
       {
-        "ticker": "KEYS",
+        "ticker": "TKO",
         "mentions": 2
       },
       {
-        "ticker": "UNH",
-        "mentions": 2
+        "ticker": "BMY",
+        "mentions": 1
       },
       {
         "ticker": "LLY",
-        "mentions": 2
+        "mentions": 1
+      },
+      {
+        "ticker": "JNJ",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Neutral",
-        "count": 15
-      },
-      {
-        "label": "Bullish",
+        "label": "Somewhat-Bullish",
         "count": 9
       },
       {
-        "label": "Somewhat-Bullish",
-        "count": 7
+        "label": "Neutral",
+        "count": 9
+      },
+      {
+        "label": "Bullish",
+        "count": 5
       },
       {
         "label": "Somewhat-Bearish",
@@ -59,7 +59,7 @@
       },
       {
         "label": "Bearish",
-        "count": 1
+        "count": 2
       }
     ]
   }

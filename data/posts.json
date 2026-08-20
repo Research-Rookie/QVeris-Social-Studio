@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-ped-2026-08-20",
+    "date": "2026-08-20",
+    "runDate": "2026-08-20",
+    "createdAt": "2026-08-20T03:25:46.725230+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$PED news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Muted reaction\n\nNews tone and price action are both relatively muted.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-20.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-20T03:25:43.831479+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$PED",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Muted reaction",
+    "topSymbol": "PED",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-20T03:25:43.831479+00:00",
+      "date": "2026-08-20",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "PED",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "Is Bristol-Myers Squibb (BMY) Fully Priced As FDA Approval And $2.3b Expansion Lift Outlook?",
+      "headline_source": "Simply Wall Street",
+      "price": 13.23,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 38670,
+      "reaction_label": "Muted reaction",
+      "takeaway": "News tone and price action are both relatively muted.",
+      "price_error": null,
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "PED",
+            "mentions": 2
+          },
+          {
+            "ticker": "TKO",
+            "mentions": 2
+          },
+          {
+            "ticker": "BMY",
+            "mentions": 1
+          },
+          {
+            "ticker": "LLY",
+            "mentions": 1
+          },
+          {
+            "ticker": "JNJ",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 9
+          },
+          {
+            "label": "Neutral",
+            "count": 9
+          },
+          {
+            "label": "Bullish",
+            "count": 5
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          },
+          {
+            "label": "Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-apa-2026-08-20",
     "date": "2026-08-20",
     "runDate": "2026-08-20",
