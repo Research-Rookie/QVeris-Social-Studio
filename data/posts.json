@@ -1,5 +1,199 @@
 [
   {
+    "id": "market-narrative-shift-apa-2026-08-20",
+    "date": "2026-08-20",
+    "runDate": "2026-08-20",
+    "createdAt": "2026-08-20T02:51:35.464644+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $APA",
+    "status": "ready",
+    "tweet": "What changed in $APA's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.46\n📌 Top theme: Earnings\n🔎 Emerging term: corp\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_APA_2026-08-20.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-20T02:51:33.830106+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$APA",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "APA",
+    "topChangePct": 45.53,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-20T02:51:33.830106+00:00",
+      "date": "2026-08-20",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "APA",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.4553,
+      "baseline_label": "2026-08-13",
+      "current": {
+        "date": "2026-08-20",
+        "symbol": "APA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.6392,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "corp",
+            "count": 2
+          },
+          {
+            "label": "permian",
+            "count": 2
+          },
+          {
+            "label": "oil",
+            "count": 2
+          },
+          {
+            "label": "production",
+            "count": 2
+          },
+          {
+            "label": "forecast",
+            "count": 2
+          },
+          {
+            "label": "raises",
+            "count": 1
+          },
+          {
+            "label": "efficiency",
+            "count": 1
+          },
+          {
+            "label": "gains",
+            "count": 1
+          },
+          {
+            "label": "cut",
+            "count": 1
+          },
+          {
+            "label": "operating",
+            "count": 1
+          },
+          {
+            "label": "costs",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          }
+        ],
+        "headline": "APA Corp. raises Permian oil production forecast after efficiency gains cut operating costs",
+        "headline_source": "Energies Media"
+      },
+      "previous": {
+        "date": "2026-08-13",
+        "symbol": "APA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1839,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "alaska",
+            "count": 1
+          },
+          {
+            "label": "oil",
+            "count": 1
+          },
+          {
+            "label": "exploration",
+            "count": 1
+          },
+          {
+            "label": "buybacks",
+            "count": 1
+          },
+          {
+            "label": "will",
+            "count": 1
+          },
+          {
+            "label": "shape",
+            "count": 1
+          },
+          {
+            "label": "balanced",
+            "count": 1
+          },
+          {
+            "label": "future",
+            "count": 1
+          },
+          {
+            "label": "outlook",
+            "count": 1
+          },
+          {
+            "label": "have",
+            "count": 1
+          },
+          {
+            "label": "slightly",
+            "count": 1
+          },
+          {
+            "label": "increased",
+            "count": 1
+          }
+        ],
+        "headline": "APA: Alaska Oil Exploration And Buybacks Will Shape Balanced Future Outlook",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Energy Transportation"
+      ],
+      "fading_themes": [
+        "Financial Markets"
+      ],
+      "emerging_keywords": [
+        "corp",
+        "permian",
+        "production"
+      ],
+      "fading_keywords": [
+        "alaska",
+        "exploration",
+        "buybacks"
+      ],
+      "takeaway": "APA's narrative is turning bullish: sentiment moved +0.46, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-20",
     "date": "2026-08-20",
     "runDate": "2026-08-20",
