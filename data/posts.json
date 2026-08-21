@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-abt-2026-08-21",
+    "date": "2026-08-21",
+    "runDate": "2026-08-21",
+    "createdAt": "2026-08-21T03:30:36.572362+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$ABT news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-21.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-21T03:30:33.674782+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$ABT",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "ABT",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-21T03:30:33.674782+00:00",
+      "date": "2026-08-21",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "ABT",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Intchains H1FY26 revenue, EPS miss analyst estimates",
+      "headline_source": "scanx.trade",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for ABT: {'status_code': 200, 'data': {'status': 'OK', 'request_id': 'dbe07f85232c47c6b8bb82e648f400de', 'results': [{'ticker': 'ABT', 'date': '2024-02-06', 'total_volume': 1713206.0, 'short_volume': 845378.0, 'exempt_volume': 3772.0, 'non_exempt_volume': 841606.0, 'short_volume_ratio': 49.34, 'nyse_short_volume': 7682, 'nyse_short_volume_exempt': 41, 'nasdaq_carteret_short_volume': 836205, 'nasdaq_carteret_short_volume_exempt': 3731, 'nasdaq_chicago_short_volume': 1491, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-07', 'total_volume': 1487274.0, 'short_volume': 650584.0, 'exempt_volume': 19646.0, 'non_exempt_volume': 630938.0, 'short_volume_ratio': 43.74, 'nyse_short_volume': 6393, 'nyse_short_volume_exempt': 232, 'nasdaq_carteret_short_volume': 643442, 'nasdaq_carteret_short_volume_exempt': 19414, 'nasdaq_chicago_short_volume': 749, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-08', 'total_volume': 2253868.0, 'short_volume': 886784.0, 'exempt_volume': 2514.0, 'non_exempt_volume': 884270.0, 'short_volume_ratio': 39.34, 'nyse_short_volume': 15982, 'nyse_short_volume_exempt': 23, 'nasdaq_carteret_short_volume': 870308, 'nasdaq_carteret_short_volume_exempt': 2491, 'nasdaq_chicago_short_volume': 494, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-09', 'total_volume': 1654171.0, 'short_volume': 781896.0, 'exempt_volume': 1736.0, 'non_exempt_volume': 780160.0, 'short_volume_ratio': 47.27, 'nyse_short_volume': 12036, 'nyse_short_volume_exempt': 36, 'nasdaq_carteret_short_volume': 769231, 'nasdaq_carteret_short_volume_exempt': 1700, 'nasdaq_chicago_short_volume': 629, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-12', 'total_volume': 1280691.0, 'short_volume': 508286.0, 'exempt_volume': 3149.0, 'non_exempt_volume': 505137.0, 'short_volume_ratio': 39.69, 'nyse_short_volume': 4114, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 503781, 'nasdaq_carteret_short_volume_exempt': 3149, 'nasdaq_chicago_short_volume': 391, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-13', 'total_volume': 1050348.0, 'short_volume': 576415.0, 'exempt_volume': 18385.0, 'non_exempt_volume': 558030.0, 'short_volume_ratio': 54.88, 'nyse_short_volume': 7045, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 569160, 'nasdaq_carteret_short_volume_exempt': 18385, 'nasdaq_chicago_short_volume': 210, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-14', 'total_volume': 1394110.0, 'short_volume': 584353.0, 'exempt_volume': 3995.0, 'non_exempt_volume': 580358.0, 'short_volume_ratio': 41.92, 'nyse_short_volume': 45552, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 538434, 'nasdaq_carteret_short_volume_exempt': 3995, 'nasdaq_chicago_short_volume': 367, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-15', 'total_volume': 2038945.0, 'short_volume': 1400864.0, 'exempt_volume': 2919.0, 'non_exempt_volume': 1397945.0, 'short_volume_ratio': 68.71, 'nyse_short_volume': 8006, 'nyse_short_volume_exempt': 844, 'nasdaq_carteret_short_volume': 1392368, 'nasdaq_carteret_short_volume_exempt': 2075, 'nasdaq_chicago_short_volume': 490, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-16', 'total_volume': 3232945.0, 'short_volume': 2147017.0, 'exempt_volume': 10797.0, 'non_exempt_volume': 2136220.0, 'short_volume_ratio': 66.41, 'nyse_short_volume': 21190, 'nyse_short_volume_exempt': 66, 'nasdaq_carteret_short_volume': 2125552, 'nasdaq_carteret_short_volume_exempt': 10731, 'nasdaq_chicago_short_volume': 275, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-20', 'total_volume': 2885506.0, 'short_volume': 1736405.0, 'exempt_volume': 1220.0, 'non_exempt_volume': 1735185.0, 'short_volume_ratio': 60.18, 'nyse_short_volume': 14792, 'nyse_short_volume_exempt': 98, 'nasdaq_carteret_short_volume': 1718902, 'nasdaq_carteret_short_volume_exempt': 1122, 'nasdaq_chicago_short_volume': 2711, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-21', 'total_volume': 1898807.0, 'short_volume': 1237875.0, 'exempt_volume': 890.0, 'non_exempt_volume': 1236985.0, 'short_volume_ratio': 65.19, 'nyse_short_volume': 11483, 'nyse_short_volume_exempt': 27, 'nasdaq_carteret_short_volume': 1222663, 'nasdaq_carteret_short_volume_exempt': 863, 'nasdaq_chicago_short_volume': 3729, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-22', 'total_volume': 1400119.0, 'short_volume': 779966.0, 'exempt_volume': 2897.0, 'non_exempt_volume': 777069.0, 'short_volume_ratio': 55.71, 'nyse_short_volume': 8339, 'nyse_short_volume_exempt': 88, 'nasdaq_carteret_short_volume': 771404, 'nasdaq_carteret_short_volume_exempt': 2809, 'nasdaq_chicago_short_volume': 223, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-23', 'total_volume': 1351888.0, 'short_volume': 708620.0, 'exempt_volume': 4569.0, 'non_exempt_volume': 704051.0, 'short_volume_ratio': 52.42, 'nyse_short_volume': 19527, 'nyse_short_volume_exempt': 99, 'nasdaq_carteret_short_volume': 688827, 'nasdaq_carteret_short_volume_exempt': 4470, 'nasdaq_chicago_short_volume': 266, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-26', 'total_volume': 1175648.0, 'short_volume': 539204.0, 'exempt_volume': 2627.0, 'non_exempt_volume': 536577.0, 'short_volume_ratio': 45.86, 'nyse_short_volume': 2097, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 534191, 'nasdaq_carteret_short_volume_exempt': 2627, 'nasdaq_chicago_short_volume': 2916, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-27', 'total_volume': 997262.0, 'short_volume': 472969.0, 'exempt_volume': 3487.0, 'non_exempt_volume': 469482.0, 'short_volume_ratio': 47.43, 'nyse_short_volume': 5589, 'nyse_short_volume_exempt': 26, 'nasdaq_carteret_short_volume': 465875, 'nasdaq_carteret_short_volume_exempt': 3461, 'nasdaq_chicago_short_volume': 1505, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-28', 'total_volume': 1004327.0, 'short_volume': 472347.0, 'exempt_volume': 1950.0, 'non_exempt_volume': 470397.0, 'short_volume_ratio': 47.03, 'nyse_short_volume': 4607, 'nyse_short_volume_exempt': 26, 'nasdaq_carteret_short_volume': 465521, 'nasdaq_carteret_short_volume_exempt': 1924, 'nasdaq_chicago_short_volume': 2219, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-02-29', 'total_volume': 1100954.0, 'short_volume': 613370.0, 'exempt_volume': 3936.0, 'non_exempt_volume': 609434.0, 'short_volume_ratio': 55.71, 'nyse_short_volume': 3715, 'nyse_short_volume_exempt': 72, 'nasdaq_carteret_short_volume': 608735, 'nasdaq_carteret_short_volume_exempt': 3864, 'nasdaq_chicago_short_volume': 920, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-03-01', 'total_volume': 1382920.0, 'short_volume': 878303.0, 'exempt_volume': 1598.0, 'non_exempt_volume': 876705.0, 'short_volume_ratio': 63.51, 'nyse_short_volume': 9116, 'nyse_short_volume_exempt': 141, 'nasdaq_carteret_short_volume': 867685, 'nasdaq_carteret_short_volume_exempt': 1457, 'nasdaq_chicago_short_volume': 1502, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-03-04', 'total_volume': 948987.0, 'short_volume': 442871.0, 'exempt_volume': 722.0, 'non_exempt_volume': 442149.0, 'short_volume_ratio': 46.67, 'nyse_short_volume': 2096, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 439978, 'nasdaq_carteret_short_volume_exempt': 722, 'nasdaq_chicago_short_volume': 797, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'ABT', 'date': '2024-03-05', 'total_volume': 1020098.0, 'short_volume': 483737.0, 'exempt_volume': 2034.0, 'non_exempt_volume': 481703.0, 'short_volume_ratio': 47.42, 'nyse_short_volume': 4524, 'nyse_short_volume_exempt': 36, 'nasdaq_carteret_short_volume': 478867, 'nasdaq_carteret_short_volume_exempt': 1998, 'nasdaq_chicago_short_volume': 346, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}], 'next_url': 'https://api.massive.com/stocks/v1/short-volume?cursor=AQwPA0FCVAIAAAEBAAEBFAACAQ8DQUJUAQ8KMjAyNC0wMy0wNQ=='}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "ABT",
+            "mentions": 2
+          },
+          {
+            "ticker": "GOOGL",
+            "mentions": 2
+          },
+          {
+            "ticker": "MRNA",
+            "mentions": 2
+          },
+          {
+            "ticker": "FSLY",
+            "mentions": 2
+          },
+          {
+            "ticker": "JHX",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 12
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 7
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 6
+          },
+          {
+            "label": "Bearish",
+            "count": 5
+          },
+          {
+            "label": "Bullish",
+            "count": 4
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-nvda-2026-08-21",
     "date": "2026-08-21",
     "runDate": "2026-08-21",
