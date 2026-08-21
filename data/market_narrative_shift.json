@@ -1,98 +1,32 @@
 {
-  "updated_at": "2026-08-20T02:51:33.830106+00:00",
-  "date": "2026-08-20",
+  "updated_at": "2026-08-21T02:57:24.676402+00:00",
+  "date": "2026-08-21",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "APA",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.4553,
-  "baseline_label": "2026-08-13",
+  "symbol": "NVDA",
+  "shift_label": "Attention rising",
+  "sentiment_delta": -0.0438,
+  "baseline_label": "2026-08-15",
   "current": {
-    "date": "2026-08-20",
-    "symbol": "APA",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.6392,
+    "date": "2026-08-21",
+    "symbol": "NVDA",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.1564,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Energy Transportation",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "corp",
         "count": 2
       },
       {
-        "label": "permian",
+        "label": "Technology",
         "count": 2
       },
       {
-        "label": "oil",
+        "label": "Manufacturing",
         "count": 2
-      },
-      {
-        "label": "production",
-        "count": 2
-      },
-      {
-        "label": "forecast",
-        "count": 2
-      },
-      {
-        "label": "raises",
-        "count": 1
-      },
-      {
-        "label": "efficiency",
-        "count": 1
-      },
-      {
-        "label": "gains",
-        "count": 1
-      },
-      {
-        "label": "cut",
-        "count": 1
-      },
-      {
-        "label": "operating",
-        "count": 1
-      },
-      {
-        "label": "costs",
-        "count": 1
-      },
-      {
-        "label": "has",
-        "count": 1
-      }
-    ],
-    "headline": "APA Corp. raises Permian oil production forecast after efficiency gains cut operating costs",
-    "headline_source": "Energies Media"
-  },
-  "previous": {
-    "date": "2026-08-13",
-    "symbol": "APA",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.1839,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Energy Transportation",
-        "count": 1
       },
       {
         "label": "Financial Markets",
@@ -101,74 +35,153 @@
     ],
     "keywords": [
       {
-        "label": "alaska",
+        "label": "lenovo",
+        "count": 3
+      },
+      {
+        "label": "boom",
+        "count": 3
+      },
+      {
+        "label": "limited",
+        "count": 2
+      },
+      {
+        "label": "intel",
+        "count": 2
+      },
+      {
+        "label": "both",
+        "count": 2
+      },
+      {
+        "label": "hardware",
+        "count": 2
+      },
+      {
+        "label": "significant",
+        "count": 2
+      },
+      {
+        "label": "trane",
+        "count": 2
+      },
+      {
+        "label": "technologies",
+        "count": 2
+      },
+      {
+        "label": "plc",
+        "count": 2
+      },
+      {
+        "label": "eaton",
+        "count": 2
+      },
+      {
+        "label": "etn",
+        "count": 2
+      }
+    ],
+    "headline": "Lenovo Group Limited (LNVGY) and Intel Corporation (INTC) are Both Riding the AI Hardware Boom. One Just Posted a L...",
+    "headline_source": "Yahoo Finance UK"
+  },
+  "previous": {
+    "date": "2026-08-15",
+    "symbol": "NVDA",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.2002,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
         "count": 1
       },
       {
-        "label": "oil",
+        "label": "Technology",
         "count": 1
       },
       {
-        "label": "exploration",
+        "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "buybacks",
-        "count": 1
-      },
-      {
-        "label": "will",
-        "count": 1
-      },
-      {
-        "label": "shape",
-        "count": 1
-      },
-      {
-        "label": "balanced",
-        "count": 1
-      },
-      {
-        "label": "future",
-        "count": 1
-      },
-      {
-        "label": "outlook",
-        "count": 1
-      },
-      {
-        "label": "have",
-        "count": 1
-      },
-      {
-        "label": "slightly",
-        "count": 1
-      },
-      {
-        "label": "increased",
+        "label": "Economy Macro",
         "count": 1
       }
     ],
-    "headline": "APA: Alaska Oil Exploration And Buybacks Will Shape Balanced Future Outlook",
-    "headline_source": "Simply Wall Street"
+    "keywords": [
+      {
+        "label": "jim",
+        "count": 2
+      },
+      {
+        "label": "cramer",
+        "count": 2
+      },
+      {
+        "label": "reviews",
+        "count": 1
+      },
+      {
+        "label": "data",
+        "count": 1
+      },
+      {
+        "label": "center",
+        "count": 1
+      },
+      {
+        "label": "demand",
+        "count": 1
+      },
+      {
+        "label": "highlighted",
+        "count": 1
+      },
+      {
+        "label": "strength",
+        "count": 1
+      },
+      {
+        "label": "due",
+        "count": 1
+      },
+      {
+        "label": "expanding",
+        "count": 1
+      },
+      {
+        "label": "infrastructure",
+        "count": 1
+      },
+      {
+        "label": "emphasizing",
+        "count": 1
+      }
+    ],
+    "headline": "Jim Cramer Reviews NVIDIA (NVDA) and Data Center Demand",
+    "headline_source": "Yahoo! Finance Canada"
   },
   "emerging_themes": [
+    "Manufacturing",
     "Earnings",
-    "Energy Transportation"
+    "Technology"
   ],
   "fading_themes": [
-    "Financial Markets"
+    "Economy Macro"
   ],
   "emerging_keywords": [
-    "corp",
-    "permian",
-    "production"
+    "lenovo",
+    "boom",
+    "limited"
   ],
   "fading_keywords": [
-    "alaska",
-    "exploration",
-    "buybacks"
+    "jim",
+    "cramer",
+    "reviews"
   ],
-  "takeaway": "APA's narrative is turning bullish: sentiment moved +0.46, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "NVDA's narrative is attention rising: sentiment moved -0.04, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

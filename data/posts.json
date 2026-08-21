@@ -1,5 +1,212 @@
 [
   {
+    "id": "market-narrative-shift-nvda-2026-08-21",
+    "date": "2026-08-21",
+    "runDate": "2026-08-21",
+    "createdAt": "2026-08-21T02:57:26.227163+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $NVDA",
+    "status": "ready",
+    "tweet": "What changed in $NVDA's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: -0.04\n📌 Top theme: Earnings\n🔎 Emerging term: lenovo\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_NVDA_2026-08-21.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-21T02:57:24.676402+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NVDA",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "NVDA",
+    "topChangePct": -4.38,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-21T02:57:24.676402+00:00",
+      "date": "2026-08-21",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "NVDA",
+      "shift_label": "Attention rising",
+      "sentiment_delta": -0.0438,
+      "baseline_label": "2026-08-15",
+      "current": {
+        "date": "2026-08-21",
+        "symbol": "NVDA",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.1564,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Technology",
+            "count": 2
+          },
+          {
+            "label": "Manufacturing",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "lenovo",
+            "count": 3
+          },
+          {
+            "label": "boom",
+            "count": 3
+          },
+          {
+            "label": "limited",
+            "count": 2
+          },
+          {
+            "label": "intel",
+            "count": 2
+          },
+          {
+            "label": "both",
+            "count": 2
+          },
+          {
+            "label": "hardware",
+            "count": 2
+          },
+          {
+            "label": "significant",
+            "count": 2
+          },
+          {
+            "label": "trane",
+            "count": 2
+          },
+          {
+            "label": "technologies",
+            "count": 2
+          },
+          {
+            "label": "plc",
+            "count": 2
+          },
+          {
+            "label": "eaton",
+            "count": 2
+          },
+          {
+            "label": "etn",
+            "count": 2
+          }
+        ],
+        "headline": "Lenovo Group Limited (LNVGY) and Intel Corporation (INTC) are Both Riding the AI Hardware Boom. One Just Posted a L...",
+        "headline_source": "Yahoo Finance UK"
+      },
+      "previous": {
+        "date": "2026-08-15",
+        "symbol": "NVDA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2002,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "jim",
+            "count": 2
+          },
+          {
+            "label": "cramer",
+            "count": 2
+          },
+          {
+            "label": "reviews",
+            "count": 1
+          },
+          {
+            "label": "data",
+            "count": 1
+          },
+          {
+            "label": "center",
+            "count": 1
+          },
+          {
+            "label": "demand",
+            "count": 1
+          },
+          {
+            "label": "highlighted",
+            "count": 1
+          },
+          {
+            "label": "strength",
+            "count": 1
+          },
+          {
+            "label": "due",
+            "count": 1
+          },
+          {
+            "label": "expanding",
+            "count": 1
+          },
+          {
+            "label": "infrastructure",
+            "count": 1
+          },
+          {
+            "label": "emphasizing",
+            "count": 1
+          }
+        ],
+        "headline": "Jim Cramer Reviews NVIDIA (NVDA) and Data Center Demand",
+        "headline_source": "Yahoo! Finance Canada"
+      },
+      "emerging_themes": [
+        "Manufacturing",
+        "Earnings",
+        "Technology"
+      ],
+      "fading_themes": [
+        "Economy Macro"
+      ],
+      "emerging_keywords": [
+        "lenovo",
+        "boom",
+        "limited"
+      ],
+      "fading_keywords": [
+        "jim",
+        "cramer",
+        "reviews"
+      ],
+      "takeaway": "NVDA's narrative is attention rising: sentiment moved -0.04, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-21",
     "date": "2026-08-21",
     "runDate": "2026-08-21",
