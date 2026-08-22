@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-tsla-2026-08-22",
+    "date": "2026-08-22",
+    "runDate": "2026-08-22",
+    "createdAt": "2026-08-22T03:21:59.317577+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$TSLA news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-22.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-22T03:21:56.723152+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$TSLA",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "TSLA",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-22T03:21:56.723152+00:00",
+      "date": "2026-08-22",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "TSLA",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "XPeng set to report Q2 earnings with $3.02B revenue forecast, stock seen undervalued at $12.20 vs $29.01 fair value",
+      "headline_source": "Pluang",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for TSLA: {'status_code': 200, 'data': {'c': 362.86, 'd': 17.73, 'dp': 5.1372, 'h': 366.5, 'l': 346.9, 'o': 349.88, 'pc': 345.13, 't': 1787342400}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "TSLA",
+            "mentions": 2
+          },
+          {
+            "ticker": "NVDA",
+            "mentions": 2
+          },
+          {
+            "ticker": "TTMI",
+            "mentions": 2
+          },
+          {
+            "ticker": "CL",
+            "mentions": 2
+          },
+          {
+            "ticker": "DAL",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 18
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 7
+          },
+          {
+            "label": "Bullish",
+            "count": 6
+          },
+          {
+            "label": "Bearish",
+            "count": 3
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-tsla-2026-08-22",
     "date": "2026-08-22",
     "runDate": "2026-08-22",
