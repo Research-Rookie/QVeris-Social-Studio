@@ -1,97 +1,19 @@
 {
-  "updated_at": "2026-08-21T02:57:24.676402+00:00",
-  "date": "2026-08-21",
+  "updated_at": "2026-08-22T02:49:19.918237+00:00",
+  "date": "2026-08-22",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "NVDA",
-  "shift_label": "Attention rising",
-  "sentiment_delta": -0.0438,
-  "baseline_label": "2026-08-15",
+  "symbol": "TSLA",
+  "shift_label": "Turning bullish",
+  "sentiment_delta": 0.4299,
+  "baseline_label": "2026-08-05",
   "current": {
-    "date": "2026-08-21",
-    "symbol": "NVDA",
-    "article_count": 2,
-    "source_count": 2,
-    "sentiment_score": 0.1564,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 2
-      },
-      {
-        "label": "Technology",
-        "count": 2
-      },
-      {
-        "label": "Manufacturing",
-        "count": 2
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "lenovo",
-        "count": 3
-      },
-      {
-        "label": "boom",
-        "count": 3
-      },
-      {
-        "label": "limited",
-        "count": 2
-      },
-      {
-        "label": "intel",
-        "count": 2
-      },
-      {
-        "label": "both",
-        "count": 2
-      },
-      {
-        "label": "hardware",
-        "count": 2
-      },
-      {
-        "label": "significant",
-        "count": 2
-      },
-      {
-        "label": "trane",
-        "count": 2
-      },
-      {
-        "label": "technologies",
-        "count": 2
-      },
-      {
-        "label": "plc",
-        "count": 2
-      },
-      {
-        "label": "eaton",
-        "count": 2
-      },
-      {
-        "label": "etn",
-        "count": 2
-      }
-    ],
-    "headline": "Lenovo Group Limited (LNVGY) and Intel Corporation (INTC) are Both Riding the AI Hardware Boom. One Just Posted a L...",
-    "headline_source": "Yahoo Finance UK"
-  },
-  "previous": {
-    "date": "2026-08-15",
-    "symbol": "NVDA",
+    "date": "2026-08-22",
+    "symbol": "TSLA",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.2002,
+    "sentiment_score": 0.2869,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -99,11 +21,15 @@
         "count": 1
       },
       {
-        "label": "Technology",
+        "label": "Energy Transportation",
         "count": 1
       },
       {
         "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Technology",
         "count": 1
       },
       {
@@ -113,75 +39,153 @@
     ],
     "keywords": [
       {
-        "label": "jim",
+        "label": "share",
         "count": 2
       },
       {
-        "label": "cramer",
+        "label": "since",
         "count": 2
       },
       {
-        "label": "reviews",
+        "label": "controls",
         "count": 1
       },
       {
-        "label": "data",
+        "label": "highest",
         "count": 1
       },
       {
-        "label": "center",
+        "label": "has",
         "count": 1
       },
       {
-        "label": "demand",
+        "label": "increased",
         "count": 1
       },
       {
-        "label": "highlighted",
+        "label": "level",
         "count": 1
       },
       {
-        "label": "strength",
+        "label": "not",
         "count": 1
       },
       {
-        "label": "due",
+        "label": "seen",
         "count": 1
       },
       {
-        "label": "expanding",
+        "label": "despite",
         "count": 1
       },
       {
-        "label": "infrastructure",
+        "label": "drop",
         "count": 1
       },
       {
-        "label": "emphasizing",
+        "label": "while",
         "count": 1
       }
     ],
-    "headline": "Jim Cramer Reviews NVIDIA (NVDA) and Data Center Demand",
-    "headline_source": "Yahoo! Finance Canada"
+    "headline": "Tesla Controls 59% of the U.S. EV Market -- Its Highest Share Since 2023",
+    "headline_source": "Yahoo Finance"
+  },
+  "previous": {
+    "date": "2026-08-05",
+    "symbol": "TSLA",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": -0.143,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Ipo",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "spacex",
+        "count": 2
+      },
+      {
+        "label": "overvalued",
+        "count": 2
+      },
+      {
+        "label": "earnings",
+        "count": 1
+      },
+      {
+        "label": "significantly",
+        "count": 1
+      },
+      {
+        "label": "massive",
+        "count": 1
+      },
+      {
+        "label": "investments",
+        "count": 1
+      },
+      {
+        "label": "outweigh",
+        "count": 1
+      },
+      {
+        "label": "hefty",
+        "count": 1
+      },
+      {
+        "label": "neocloud",
+        "count": 1
+      },
+      {
+        "label": "rent",
+        "count": 1
+      },
+      {
+        "label": "morningstar",
+        "count": 1
+      },
+      {
+        "label": "maintains",
+        "count": 1
+      }
+    ],
+    "headline": "SpaceX Earnings: Stock Significantly Overvalued as Massive AI Investments Outweigh Hefty Neocloud Rent",
+    "headline_source": "Morningstar"
   },
   "emerging_themes": [
-    "Manufacturing",
-    "Earnings",
-    "Technology"
+    "Energy Transportation",
+    "Economy Macro",
+    "Earnings"
   ],
   "fading_themes": [
-    "Economy Macro"
+    "Ipo"
   ],
   "emerging_keywords": [
-    "lenovo",
-    "boom",
-    "limited"
+    "share",
+    "since",
+    "controls"
   ],
   "fading_keywords": [
-    "jim",
-    "cramer",
-    "reviews"
+    "spacex",
+    "overvalued",
+    "earnings"
   ],
-  "takeaway": "NVDA's narrative is attention rising: sentiment moved -0.04, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "TSLA's narrative is turning bullish: sentiment moved +0.43, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

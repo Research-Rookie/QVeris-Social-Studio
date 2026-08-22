@@ -1,5 +1,216 @@
 [
   {
+    "id": "market-narrative-shift-tsla-2026-08-22",
+    "date": "2026-08-22",
+    "runDate": "2026-08-22",
+    "createdAt": "2026-08-22T02:49:21.520253+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $TSLA",
+    "status": "ready",
+    "tweet": "What changed in $TSLA's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.43\n📌 Top theme: Earnings\n🔎 Emerging term: share\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_TSLA_2026-08-22.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-22T02:49:19.918237+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$TSLA",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "TSLA",
+    "topChangePct": 42.99,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-22T02:49:19.918237+00:00",
+      "date": "2026-08-22",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "TSLA",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.4299,
+      "baseline_label": "2026-08-05",
+      "current": {
+        "date": "2026-08-22",
+        "symbol": "TSLA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2869,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "share",
+            "count": 2
+          },
+          {
+            "label": "since",
+            "count": 2
+          },
+          {
+            "label": "controls",
+            "count": 1
+          },
+          {
+            "label": "highest",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "increased",
+            "count": 1
+          },
+          {
+            "label": "level",
+            "count": 1
+          },
+          {
+            "label": "not",
+            "count": 1
+          },
+          {
+            "label": "seen",
+            "count": 1
+          },
+          {
+            "label": "despite",
+            "count": 1
+          },
+          {
+            "label": "drop",
+            "count": 1
+          },
+          {
+            "label": "while",
+            "count": 1
+          }
+        ],
+        "headline": "Tesla Controls 59% of the U.S. EV Market -- Its Highest Share Since 2023",
+        "headline_source": "Yahoo Finance"
+      },
+      "previous": {
+        "date": "2026-08-05",
+        "symbol": "TSLA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": -0.143,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Ipo",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "spacex",
+            "count": 2
+          },
+          {
+            "label": "overvalued",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 1
+          },
+          {
+            "label": "significantly",
+            "count": 1
+          },
+          {
+            "label": "massive",
+            "count": 1
+          },
+          {
+            "label": "investments",
+            "count": 1
+          },
+          {
+            "label": "outweigh",
+            "count": 1
+          },
+          {
+            "label": "hefty",
+            "count": 1
+          },
+          {
+            "label": "neocloud",
+            "count": 1
+          },
+          {
+            "label": "rent",
+            "count": 1
+          },
+          {
+            "label": "morningstar",
+            "count": 1
+          },
+          {
+            "label": "maintains",
+            "count": 1
+          }
+        ],
+        "headline": "SpaceX Earnings: Stock Significantly Overvalued as Massive AI Investments Outweigh Hefty Neocloud Rent",
+        "headline_source": "Morningstar"
+      },
+      "emerging_themes": [
+        "Energy Transportation",
+        "Economy Macro",
+        "Earnings"
+      ],
+      "fading_themes": [
+        "Ipo"
+      ],
+      "emerging_keywords": [
+        "share",
+        "since",
+        "controls"
+      ],
+      "fading_keywords": [
+        "spacex",
+        "overvalued",
+        "earnings"
+      ],
+      "takeaway": "TSLA's narrative is turning bullish: sentiment moved +0.43, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-22",
     "date": "2026-08-22",
     "runDate": "2026-08-22",
