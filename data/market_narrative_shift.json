@@ -1,101 +1,93 @@
 {
-  "updated_at": "2026-08-22T02:49:19.918237+00:00",
-  "date": "2026-08-22",
+  "updated_at": "2026-08-23T02:57:17.905969+00:00",
+  "date": "2026-08-23",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "TSLA",
+  "symbol": "VRTX",
   "shift_label": "Turning bullish",
-  "sentiment_delta": 0.4299,
-  "baseline_label": "2026-08-05",
+  "sentiment_delta": 0.3239,
+  "baseline_label": "2026-08-12",
   "current": {
-    "date": "2026-08-22",
-    "symbol": "TSLA",
-    "article_count": 1,
+    "date": "2026-08-23",
+    "symbol": "VRTX",
+    "article_count": 2,
     "source_count": 1,
-    "sentiment_score": 0.2869,
+    "sentiment_score": 0.3663,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
+        "count": 2
       },
       {
-        "label": "Energy Transportation",
-        "count": 1
+        "label": "Life Sciences",
+        "count": 2
       },
       {
         "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Technology",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
+        "count": 2
       }
     ],
     "keywords": [
       {
-        "label": "share",
+        "label": "vertex",
+        "count": 4
+      },
+      {
+        "label": "pharmaceuticals",
+        "count": 4
+      },
+      {
+        "label": "revenue",
+        "count": 4
+      },
+      {
+        "label": "guidance",
+        "count": 4
+      },
+      {
+        "label": "raised",
+        "count": 3
+      },
+      {
+        "label": "cheap",
         "count": 2
       },
       {
-        "label": "since",
+        "label": "following",
         "count": 2
       },
       {
-        "label": "controls",
-        "count": 1
+        "label": "due",
+        "count": 2
       },
       {
-        "label": "highest",
-        "count": 1
+        "label": "strong",
+        "count": 2
       },
       {
-        "label": "has",
-        "count": 1
+        "label": "demand",
+        "count": 2
       },
       {
-        "label": "increased",
-        "count": 1
+        "label": "cystic",
+        "count": 2
       },
       {
-        "label": "level",
-        "count": 1
-      },
-      {
-        "label": "not",
-        "count": 1
-      },
-      {
-        "label": "seen",
-        "count": 1
-      },
-      {
-        "label": "despite",
-        "count": 1
-      },
-      {
-        "label": "drop",
-        "count": 1
-      },
-      {
-        "label": "while",
-        "count": 1
+        "label": "fibrosis",
+        "count": 2
       }
     ],
-    "headline": "Tesla Controls 59% of the U.S. EV Market -- Its Highest Share Since 2023",
-    "headline_source": "Yahoo Finance"
+    "headline": "Is Vertex Pharmaceuticals (VRTX) Cheap Following Its Raised 2026 Revenue Guidance?",
+    "headline_source": "Simply Wall Street"
   },
   "previous": {
-    "date": "2026-08-05",
-    "symbol": "TSLA",
+    "date": "2026-08-12",
+    "symbol": "VRTX",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": -0.143,
+    "sentiment_score": 0.0424,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -103,89 +95,83 @@
         "count": 1
       },
       {
-        "label": "Technology",
+        "label": "Life Sciences",
         "count": 1
       },
       {
         "label": "Financial Markets",
         "count": 1
-      },
-      {
-        "label": "Ipo",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "spacex",
+        "label": "vertex",
         "count": 2
       },
       {
-        "label": "overvalued",
+        "label": "pharmaceuticals",
         "count": 2
+      },
+      {
+        "label": "insightful",
+        "count": 1
+      },
+      {
+        "label": "questions",
+        "count": 1
       },
       {
         "label": "earnings",
         "count": 1
       },
       {
-        "label": "significantly",
+        "label": "call",
         "count": 1
       },
       {
-        "label": "massive",
+        "label": "delivered",
         "count": 1
       },
       {
-        "label": "investments",
+        "label": "strong",
         "count": 1
       },
       {
-        "label": "outweigh",
+        "label": "cy2026",
         "count": 1
       },
       {
-        "label": "hefty",
+        "label": "surpassing",
         "count": 1
       },
       {
-        "label": "neocloud",
+        "label": "revenue",
         "count": 1
       },
       {
-        "label": "rent",
-        "count": 1
-      },
-      {
-        "label": "morningstar",
-        "count": 1
-      },
-      {
-        "label": "maintains",
+        "label": "estimates",
         "count": 1
       }
     ],
-    "headline": "SpaceX Earnings: Stock Significantly Overvalued as Massive AI Investments Outweigh Hefty Neocloud Rent",
-    "headline_source": "Morningstar"
+    "headline": "5 Insightful Analyst Questions From Vertex Pharmaceuticals’s Q2 Earnings Call",
+    "headline_source": "Yahoo Finance"
   },
   "emerging_themes": [
-    "Energy Transportation",
-    "Economy Macro",
-    "Earnings"
+    "Earnings",
+    "Life Sciences",
+    "Financial Markets"
   ],
-  "fading_themes": [
-    "Ipo"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "share",
-    "since",
-    "controls"
+    "guidance",
+    "revenue",
+    "raised"
   ],
   "fading_keywords": [
-    "spacex",
-    "overvalued",
+    "insightful",
+    "questions",
     "earnings"
   ],
-  "takeaway": "TSLA's narrative is turning bullish: sentiment moved +0.43, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "VRTX's narrative is turning bullish: sentiment moved +0.32, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
