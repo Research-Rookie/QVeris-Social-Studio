@@ -1,65 +1,57 @@
 {
-  "updated_at": "2026-08-22T03:21:56.723152+00:00",
-  "date": "2026-08-22",
+  "updated_at": "2026-08-23T03:30:22.168074+00:00",
+  "date": "2026-08-23",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "TSLA",
+  "symbol": "NVDA",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "XPeng set to report Q2 earnings with $3.02B revenue forecast, stock seen undervalued at $12.20 vs $29.01 fair value",
-  "headline_source": "Pluang",
+  "headline": "Constellation Energy Shares Drop 3.4%, Four New Price Targets Remain Higher Than Friday Close",
+  "headline_source": "TechStock²",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for TSLA: {'status_code': 200, 'data': {'c': 362.86, 'd': 17.73, 'dp': 5.1372, 'h': 366.5, 'l': 346.9, 'o': 349.88, 'pc': 345.13, 't': 1787342400}}",
+  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 214.72, 'd': -2.13, 'dp': -0.9822, 'h': 218.74, 'l': 214.5, 'o': 218.42, 'pc': 216.85, 't': 1787342400}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "TSLA",
-        "mentions": 2
-      },
-      {
         "ticker": "NVDA",
-        "mentions": 2
+        "mentions": 4
       },
       {
-        "ticker": "TTMI",
-        "mentions": 2
+        "ticker": "MSFT",
+        "mentions": 4
       },
       {
-        "ticker": "CL",
-        "mentions": 2
+        "ticker": "CSCO",
+        "mentions": 3
       },
       {
-        "ticker": "DAL",
+        "ticker": "ANET",
+        "mentions": 3
+      },
+      {
+        "ticker": "VRTX",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 18
+        "count": 22
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 7
+        "count": 14
       },
       {
         "label": "Bullish",
-        "count": 6
-      },
-      {
-        "label": "Bearish",
-        "count": 3
-      },
-      {
-        "label": "Somewhat-Bearish",
-        "count": 1
+        "count": 10
       }
     ]
   }

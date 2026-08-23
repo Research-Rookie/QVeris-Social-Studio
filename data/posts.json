@@ -1,5 +1,83 @@
 [
   {
+    "id": "news-vs-price-reaction-nvda-2026-08-23",
+    "date": "2026-08-23",
+    "runDate": "2026-08-23",
+    "createdAt": "2026-08-23T03:30:24.606717+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$NVDA news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-23.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-23T03:30:22.168074+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NVDA",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "NVDA",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-23T03:30:22.168074+00:00",
+      "date": "2026-08-23",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "NVDA",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Constellation Energy Shares Drop 3.4%, Four New Price Targets Remain Higher Than Friday Close",
+      "headline_source": "TechStock²",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 214.72, 'd': -2.13, 'dp': -0.9822, 'h': 218.74, 'l': 214.5, 'o': 218.42, 'pc': 216.85, 't': 1787342400}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "NVDA",
+            "mentions": 4
+          },
+          {
+            "ticker": "MSFT",
+            "mentions": 4
+          },
+          {
+            "ticker": "CSCO",
+            "mentions": 3
+          },
+          {
+            "ticker": "ANET",
+            "mentions": 3
+          },
+          {
+            "ticker": "VRTX",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 22
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 14
+          },
+          {
+            "label": "Bullish",
+            "count": 10
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-vrtx-2026-08-23",
     "date": "2026-08-23",
     "runDate": "2026-08-23",
