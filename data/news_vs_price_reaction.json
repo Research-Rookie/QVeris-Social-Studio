@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-23T03:30:22.168074+00:00",
-  "date": "2026-08-23",
+  "updated_at": "2026-08-24T03:32:09.723209+00:00",
+  "date": "2026-08-24",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
   "symbol": "NVDA",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Constellation Energy Shares Drop 3.4%, Four New Price Targets Remain Higher Than Friday Close",
-  "headline_source": "TechStock²",
+  "headline": "Affirm Stock Wavers Ahead of Earnings: Will it Fall Like Klarna?",
+  "headline_source": "Benzinga",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
@@ -21,37 +21,41 @@
     "top_tickers": [
       {
         "ticker": "NVDA",
-        "mentions": 4
+        "mentions": 3
+      },
+      {
+        "ticker": "CRWD",
+        "mentions": 2
       },
       {
         "ticker": "MSFT",
-        "mentions": 4
+        "mentions": 2
       },
       {
-        "ticker": "CSCO",
-        "mentions": 3
+        "ticker": "FCX",
+        "mentions": 2
       },
       {
-        "ticker": "ANET",
-        "mentions": 3
-      },
-      {
-        "ticker": "VRTX",
+        "ticker": "EMN",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 22
+        "count": 18
       },
       {
         "label": "Somewhat-Bullish",
         "count": 14
       },
       {
+        "label": "Bearish",
+        "count": 4
+      },
+      {
         "label": "Bullish",
-        "count": 10
+        "count": 3
       }
     ]
   }
