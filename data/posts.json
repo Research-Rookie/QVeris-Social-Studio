@@ -1,5 +1,220 @@
 [
   {
+    "id": "market-narrative-shift-nvda-2026-08-24",
+    "date": "2026-08-24",
+    "runDate": "2026-08-24",
+    "createdAt": "2026-08-24T02:57:56.735877+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $NVDA",
+    "status": "ready",
+    "tweet": "What changed in $NVDA's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: -0.07\n📌 Top theme: Earnings\n🔎 Emerging term: networks\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_NVDA_2026-08-24.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-24T02:57:52.994579+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NVDA",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "NVDA",
+    "topChangePct": -6.909999999999999,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-24T02:57:52.994579+00:00",
+      "date": "2026-08-24",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "NVDA",
+      "shift_label": "Attention rising",
+      "sentiment_delta": -0.0691,
+      "baseline_label": "2026-08-22",
+      "current": {
+        "date": "2026-08-24",
+        "symbol": "NVDA",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.2178,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Technology",
+            "count": 2
+          },
+          {
+            "label": "Mergers And Acquisitions",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "networks",
+            "count": 3
+          },
+          {
+            "label": "stocks",
+            "count": 2
+          },
+          {
+            "label": "week",
+            "count": 2
+          },
+          {
+            "label": "workday",
+            "count": 2
+          },
+          {
+            "label": "palo",
+            "count": 2
+          },
+          {
+            "label": "alto",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          },
+          {
+            "label": "ai-era",
+            "count": 2
+          },
+          {
+            "label": "cybersecurity",
+            "count": 2
+          },
+          {
+            "label": "top",
+            "count": 1
+          },
+          {
+            "label": "watch",
+            "count": 1
+          },
+          {
+            "label": "crowdstrike",
+            "count": 1
+          }
+        ],
+        "headline": "Top S&P 500 Stocks to Watch This Week: CrowdStrike, Salesforce, Workday",
+        "headline_source": "Benzinga"
+      },
+      "previous": {
+        "date": "2026-08-22",
+        "symbol": "NVDA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2869,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "tesla",
+            "count": 2
+          },
+          {
+            "label": "share",
+            "count": 2
+          },
+          {
+            "label": "since",
+            "count": 2
+          },
+          {
+            "label": "controls",
+            "count": 1
+          },
+          {
+            "label": "highest",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "increased",
+            "count": 1
+          },
+          {
+            "label": "level",
+            "count": 1
+          },
+          {
+            "label": "not",
+            "count": 1
+          },
+          {
+            "label": "seen",
+            "count": 1
+          },
+          {
+            "label": "despite",
+            "count": 1
+          },
+          {
+            "label": "drop",
+            "count": 1
+          }
+        ],
+        "headline": "Tesla Controls 59% of the U.S. EV Market -- Its Highest Share Since 2023",
+        "headline_source": "Yahoo Finance"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "fading_themes": [
+        "Energy Transportation"
+      ],
+      "emerging_keywords": [
+        "networks",
+        "stocks",
+        "week"
+      ],
+      "fading_keywords": [
+        "tesla",
+        "share",
+        "since"
+      ],
+      "takeaway": "NVDA's narrative is attention rising: sentiment moved -0.07, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-24",
     "date": "2026-08-24",
     "runDate": "2026-08-24",
