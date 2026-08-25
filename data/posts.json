@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-spgi-2026-08-25",
+    "date": "2026-08-25",
+    "runDate": "2026-08-25",
+    "createdAt": "2026-08-25T03:27:25.284506+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$SPGI news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-25.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-25T03:27:20.829229+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$SPGI",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "SPGI",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-25T03:27:20.829229+00:00",
+      "date": "2026-08-25",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "SPGI",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Moody’s Beat Every Line and the Stock Fell. Analysts Raised Their Targets Anyway",
+      "headline_source": "TIKR.com",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for SPGI: {'status_code': 200, 'data': {'c': 435.42, 'd': 4.13, 'dp': 0.9576, 'h': 439.02, 'l': 431.5, 'o': 431.95, 'pc': 431.29, 't': 1787601600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "SPGI",
+            "mentions": 2
+          },
+          {
+            "ticker": "GE",
+            "mentions": 2
+          },
+          {
+            "ticker": "DAL",
+            "mentions": 2
+          },
+          {
+            "ticker": "WMT",
+            "mentions": 2
+          },
+          {
+            "ticker": "MCO",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 11
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 10
+          },
+          {
+            "label": "Bullish",
+            "count": 6
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 5
+          },
+          {
+            "label": "Bearish",
+            "count": 5
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-spgi-2026-08-25",
     "date": "2026-08-25",
     "runDate": "2026-08-25",

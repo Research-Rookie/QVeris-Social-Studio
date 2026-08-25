@@ -1,61 +1,65 @@
 {
-  "updated_at": "2026-08-24T03:32:09.723209+00:00",
-  "date": "2026-08-24",
+  "updated_at": "2026-08-25T03:27:20.829229+00:00",
+  "date": "2026-08-25",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "NVDA",
+  "symbol": "SPGI",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Affirm Stock Wavers Ahead of Earnings: Will it Fall Like Klarna?",
-  "headline_source": "Benzinga",
+  "headline": "Moody’s Beat Every Line and the Stock Fell. Analysts Raised Their Targets Anyway",
+  "headline_source": "TIKR.com",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 214.72, 'd': -2.13, 'dp': -0.9822, 'h': 218.74, 'l': 214.5, 'o': 218.42, 'pc': 216.85, 't': 1787342400}}",
+  "price_error": "Could not parse quote data for SPGI: {'status_code': 200, 'data': {'c': 435.42, 'd': 4.13, 'dp': 0.9576, 'h': 439.02, 'l': 431.5, 'o': 431.95, 'pc': 431.29, 't': 1787601600}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "NVDA",
-        "mentions": 3
-      },
-      {
-        "ticker": "CRWD",
+        "ticker": "SPGI",
         "mentions": 2
       },
       {
-        "ticker": "MSFT",
+        "ticker": "GE",
         "mentions": 2
       },
       {
-        "ticker": "FCX",
+        "ticker": "DAL",
         "mentions": 2
       },
       {
-        "ticker": "EMN",
+        "ticker": "WMT",
         "mentions": 2
+      },
+      {
+        "ticker": "MCO",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 18
+        "count": 11
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 14
-      },
-      {
-        "label": "Bearish",
-        "count": 4
+        "count": 10
       },
       {
         "label": "Bullish",
-        "count": 3
+        "count": 6
+      },
+      {
+        "label": "Somewhat-Bearish",
+        "count": 5
+      },
+      {
+        "label": "Bearish",
+        "count": 5
       }
     ]
   }
