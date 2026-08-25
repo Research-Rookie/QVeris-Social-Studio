@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-spgi-2026-08-25",
+    "date": "2026-08-25",
+    "runDate": "2026-08-25",
+    "createdAt": "2026-08-25T02:53:02.197874+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $SPGI",
+    "status": "ready",
+    "tweet": "What changed in $SPGI's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.20\n📌 Top theme: Financial Markets\n🔎 Emerging term: max\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_SPGI_2026-08-25.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-25T02:53:00.656001+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$SPGI",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "SPGI",
+    "topChangePct": -20.44,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-25T02:53:00.656001+00:00",
+      "date": "2026-08-25",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "SPGI",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.2044,
+      "baseline_label": "2026-08-17",
+      "current": {
+        "date": "2026-08-25",
+        "symbol": "SPGI",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": -0.1007,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Real Estate",
+            "count": 1
+          },
+          {
+            "label": "Mergers And Acquisitions",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "max",
+            "count": 2
+          },
+          {
+            "label": "rmax",
+            "count": 2
+          },
+          {
+            "label": "global",
+            "count": 2
+          },
+          {
+            "label": "bmi",
+            "count": 2
+          },
+          {
+            "label": "index",
+            "count": 2
+          },
+          {
+            "label": "dropped",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "been",
+            "count": 1
+          },
+          {
+            "label": "removed",
+            "count": 1
+          },
+          {
+            "label": "announcement",
+            "count": 1
+          },
+          {
+            "label": "was",
+            "count": 1
+          },
+          {
+            "label": "made",
+            "count": 1
+          }
+        ],
+        "headline": "RE/MAX Holdings, Inc.(NYSE: RMAX) dropped from S&P Global BMI Index",
+        "headline_source": "marketscreener.com"
+      },
+      "previous": {
+        "date": "2026-08-17",
+        "symbol": "SPGI",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1037,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "msci",
+            "count": 4
+          },
+          {
+            "label": "rundown",
+            "count": 2
+          },
+          {
+            "label": "other",
+            "count": 2
+          },
+          {
+            "label": "financial",
+            "count": 2
+          },
+          {
+            "label": "exchanges",
+            "count": 2
+          },
+          {
+            "label": "data",
+            "count": 2
+          },
+          {
+            "label": "stocks",
+            "count": 2
+          },
+          {
+            "label": "article",
+            "count": 1
+          },
+          {
+            "label": "provides",
+            "count": 1
+          },
+          {
+            "label": "for",
+            "count": 1
+          },
+          {
+            "label": "reported",
+            "count": 1
+          },
+          {
+            "label": "in-line",
+            "count": 1
+          }
+        ],
+        "headline": "Q2 Rundown: MSCI (NYSE:MSCI) Vs Other Financial Exchanges & Data Stocks",
+        "headline_source": "Yahoo Finance UK"
+      },
+      "emerging_themes": [
+        "Real Estate",
+        "Mergers And Acquisitions",
+        "Finance"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "max",
+        "rmax",
+        "global"
+      ],
+      "fading_keywords": [
+        "msci",
+        "rundown",
+        "other"
+      ],
+      "takeaway": "SPGI's narrative is turning bearish: sentiment moved -0.20, while the leading theme shifted from Earnings to Financial Markets.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-25",
     "date": "2026-08-25",
     "runDate": "2026-08-25",

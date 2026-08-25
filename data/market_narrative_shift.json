@@ -1,143 +1,65 @@
 {
-  "updated_at": "2026-08-24T02:57:52.994579+00:00",
-  "date": "2026-08-24",
+  "updated_at": "2026-08-25T02:53:00.656001+00:00",
+  "date": "2026-08-25",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "NVDA",
-  "shift_label": "Attention rising",
-  "sentiment_delta": -0.0691,
-  "baseline_label": "2026-08-22",
+  "symbol": "SPGI",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.2044,
+  "baseline_label": "2026-08-17",
   "current": {
-    "date": "2026-08-24",
-    "symbol": "NVDA",
-    "article_count": 2,
-    "source_count": 2,
-    "sentiment_score": 0.2178,
-    "top_theme": "Earnings",
+    "date": "2026-08-25",
+    "symbol": "SPGI",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": -0.1007,
+    "top_theme": "Financial Markets",
     "themes": [
       {
-        "label": "Earnings",
-        "count": 2
-      },
-      {
         "label": "Financial Markets",
-        "count": 2
+        "count": 1
       },
       {
-        "label": "Technology",
-        "count": 2
+        "label": "Real Estate",
+        "count": 1
       },
       {
         "label": "Mergers And Acquisitions",
         "count": 1
       },
       {
-        "label": "Economy Macro",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "networks",
-        "count": 3
-      },
-      {
-        "label": "stocks",
-        "count": 2
-      },
-      {
-        "label": "week",
-        "count": 2
-      },
-      {
-        "label": "workday",
-        "count": 2
-      },
-      {
-        "label": "palo",
-        "count": 2
-      },
-      {
-        "label": "alto",
-        "count": 2
-      },
-      {
-        "label": "for",
-        "count": 2
-      },
-      {
-        "label": "ai-era",
-        "count": 2
-      },
-      {
-        "label": "cybersecurity",
-        "count": 2
-      },
-      {
-        "label": "top",
-        "count": 1
-      },
-      {
-        "label": "watch",
-        "count": 1
-      },
-      {
-        "label": "crowdstrike",
-        "count": 1
-      }
-    ],
-    "headline": "Top S&P 500 Stocks to Watch This Week: CrowdStrike, Salesforce, Workday",
-    "headline_source": "Benzinga"
-  },
-  "previous": {
-    "date": "2026-08-22",
-    "symbol": "NVDA",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.2869,
-    "top_theme": "Earnings",
-    "themes": [
-      {
         "label": "Earnings",
         "count": 1
       },
       {
-        "label": "Energy Transportation",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Technology",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
+        "label": "Finance",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "tesla",
+        "label": "max",
         "count": 2
       },
       {
-        "label": "share",
+        "label": "rmax",
         "count": 2
       },
       {
-        "label": "since",
+        "label": "global",
         "count": 2
       },
       {
-        "label": "controls",
-        "count": 1
+        "label": "bmi",
+        "count": 2
       },
       {
-        "label": "highest",
+        "label": "index",
+        "count": 2
+      },
+      {
+        "label": "dropped",
         "count": 1
       },
       {
@@ -145,51 +67,115 @@
         "count": 1
       },
       {
-        "label": "increased",
+        "label": "been",
         "count": 1
       },
       {
-        "label": "level",
+        "label": "removed",
         "count": 1
       },
       {
-        "label": "not",
+        "label": "announcement",
         "count": 1
       },
       {
-        "label": "seen",
+        "label": "was",
         "count": 1
       },
       {
-        "label": "despite",
-        "count": 1
-      },
-      {
-        "label": "drop",
+        "label": "made",
         "count": 1
       }
     ],
-    "headline": "Tesla Controls 59% of the U.S. EV Market -- Its Highest Share Since 2023",
-    "headline_source": "Yahoo Finance"
+    "headline": "RE/MAX Holdings, Inc.(NYSE: RMAX) dropped from S&P Global BMI Index",
+    "headline_source": "marketscreener.com"
+  },
+  "previous": {
+    "date": "2026-08-17",
+    "symbol": "SPGI",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.1037,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "msci",
+        "count": 4
+      },
+      {
+        "label": "rundown",
+        "count": 2
+      },
+      {
+        "label": "other",
+        "count": 2
+      },
+      {
+        "label": "financial",
+        "count": 2
+      },
+      {
+        "label": "exchanges",
+        "count": 2
+      },
+      {
+        "label": "data",
+        "count": 2
+      },
+      {
+        "label": "stocks",
+        "count": 2
+      },
+      {
+        "label": "article",
+        "count": 1
+      },
+      {
+        "label": "provides",
+        "count": 1
+      },
+      {
+        "label": "for",
+        "count": 1
+      },
+      {
+        "label": "reported",
+        "count": 1
+      },
+      {
+        "label": "in-line",
+        "count": 1
+      }
+    ],
+    "headline": "Q2 Rundown: MSCI (NYSE:MSCI) Vs Other Financial Exchanges & Data Stocks",
+    "headline_source": "Yahoo Finance UK"
   },
   "emerging_themes": [
-    "Earnings",
-    "Financial Markets",
-    "Technology"
+    "Real Estate",
+    "Mergers And Acquisitions",
+    "Finance"
   ],
-  "fading_themes": [
-    "Energy Transportation"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "networks",
-    "stocks",
-    "week"
+    "max",
+    "rmax",
+    "global"
   ],
   "fading_keywords": [
-    "tesla",
-    "share",
-    "since"
+    "msci",
+    "rundown",
+    "other"
   ],
-  "takeaway": "NVDA's narrative is attention rising: sentiment moved -0.07, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "SPGI's narrative is turning bearish: sentiment moved -0.20, while the leading theme shifted from Earnings to Financial Markets.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
