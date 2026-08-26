@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-cdlr-2026-08-26",
+    "date": "2026-08-26",
+    "runDate": "2026-08-26",
+    "createdAt": "2026-08-26T03:34:01.871838+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$CDLR news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Muted reaction\n\nNews tone and price action are both relatively muted.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-26.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-26T03:33:58.991054+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$CDLR",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Muted reaction",
+    "topSymbol": "CDLR",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-26T03:33:58.991054+00:00",
+      "date": "2026-08-26",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "CDLR",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "How BrightSpring’s Q2 Beat, Guidance Hike and M&A Momentum Could Shape BrightSpring Health Services (BTSG) Investors",
+      "headline_source": "Simply Wall Street",
+      "price": 26.04,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 136726,
+      "reaction_label": "Muted reaction",
+      "takeaway": "News tone and price action are both relatively muted.",
+      "price_error": null,
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "CDLR",
+            "mentions": 2
+          },
+          {
+            "ticker": "MS",
+            "mentions": 2
+          },
+          {
+            "ticker": "XOM",
+            "mentions": 2
+          },
+          {
+            "ticker": "CVX",
+            "mentions": 2
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 12
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 9
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 7
+          },
+          {
+            "label": "Bullish",
+            "count": 7
+          },
+          {
+            "label": "Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-msft-2026-08-26",
     "date": "2026-08-26",
     "runDate": "2026-08-26",

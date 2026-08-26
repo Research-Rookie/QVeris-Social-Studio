@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-08-25T03:27:20.829229+00:00",
-  "date": "2026-08-25",
+  "updated_at": "2026-08-26T03:33:58.991054+00:00",
+  "date": "2026-08-26",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "SPGI",
+  "symbol": "CDLR",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Moody’s Beat Every Line and the Stock Fell. Analysts Raised Their Targets Anyway",
-  "headline_source": "TIKR.com",
-  "price": 0.0,
+  "headline": "How BrightSpring’s Q2 Beat, Guidance Hike and M&A Momentum Could Shape BrightSpring Health Services (BTSG) Investors",
+  "headline_source": "Simply Wall Street",
+  "price": 26.04,
   "change_pct": 0.0,
   "change_amount": 0.0,
-  "volume": 0,
-  "reaction_label": "Price pending",
-  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for SPGI: {'status_code': 200, 'data': {'c': 435.42, 'd': 4.13, 'dp': 0.9576, 'h': 439.02, 'l': 431.5, 'o': 431.95, 'pc': 431.29, 't': 1787601600}}",
+  "volume": 136726,
+  "reaction_label": "Muted reaction",
+  "takeaway": "News tone and price action are both relatively muted.",
+  "price_error": null,
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "SPGI",
+        "ticker": "CDLR",
         "mentions": 2
       },
       {
-        "ticker": "GE",
+        "ticker": "MS",
         "mentions": 2
       },
       {
-        "ticker": "DAL",
+        "ticker": "XOM",
         "mentions": 2
       },
       {
-        "ticker": "WMT",
+        "ticker": "CVX",
         "mentions": 2
       },
       {
-        "ticker": "MCO",
-        "mentions": 1
+        "ticker": "AMZN",
+        "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 11
+        "count": 12
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 10
-      },
-      {
-        "label": "Bullish",
-        "count": 6
+        "count": 9
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 5
+        "count": 7
+      },
+      {
+        "label": "Bullish",
+        "count": 7
       },
       {
         "label": "Bearish",
-        "count": 5
+        "count": 2
       }
     ]
   }
