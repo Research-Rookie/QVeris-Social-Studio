@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-msft-2026-08-26",
+    "date": "2026-08-26",
+    "runDate": "2026-08-26",
+    "createdAt": "2026-08-26T02:59:09.247659+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $MSFT",
+    "status": "ready",
+    "tweet": "What changed in $MSFT's market narrative? 🔄\n\n🧭 Signal: Theme rotation\n💬 Sentiment shift: -0.11\n📌 Top theme: Earnings\n🔎 Emerging term: oracle\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_MSFT_2026-08-26.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-26T02:59:05.725903+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MSFT",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Theme rotation",
+    "topSymbol": "MSFT",
+    "topChangePct": -10.72,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-26T02:59:05.725903+00:00",
+      "date": "2026-08-26",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "MSFT",
+      "shift_label": "Theme rotation",
+      "sentiment_delta": -0.1072,
+      "baseline_label": "2026-08-24",
+      "current": {
+        "date": "2026-08-26",
+        "symbol": "MSFT",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.0383,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Technology",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "oracle",
+            "count": 2
+          },
+          {
+            "label": "near",
+            "count": 2
+          },
+          {
+            "label": "multi-year",
+            "count": 2
+          },
+          {
+            "label": "lows",
+            "count": 2
+          },
+          {
+            "label": "has",
+            "count": 2
+          },
+          {
+            "label": "allegro",
+            "count": 2
+          },
+          {
+            "label": "microsystems",
+            "count": 2
+          },
+          {
+            "label": "algm",
+            "count": 2
+          },
+          {
+            "label": "computer",
+            "count": 2
+          },
+          {
+            "label": "technology",
+            "count": 2
+          },
+          {
+            "label": "backlog",
+            "count": 1
+          },
+          {
+            "label": "now",
+            "count": 1
+          }
+        ],
+        "headline": "Oracle Near Multi-Year Lows: The $638 Billion Backlog Now Depends on a Gas Pipeline",
+        "headline_source": "TIKR.com"
+      },
+      "previous": {
+        "date": "2026-08-24",
+        "symbol": "MSFT",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1455,
+        "top_theme": "Technology",
+        "themes": [
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "networks",
+            "count": 3
+          },
+          {
+            "label": "palo",
+            "count": 2
+          },
+          {
+            "label": "alto",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          },
+          {
+            "label": "ai-era",
+            "count": 2
+          },
+          {
+            "label": "cybersecurity",
+            "count": 2
+          },
+          {
+            "label": "panw",
+            "count": 1
+          },
+          {
+            "label": "quietly",
+            "count": 1
+          },
+          {
+            "label": "becoming",
+            "count": 1
+          },
+          {
+            "label": "operating",
+            "count": 1
+          },
+          {
+            "label": "system",
+            "count": 1
+          },
+          {
+            "label": "solidifying",
+            "count": 1
+          }
+        ],
+        "headline": "Is Palo Alto Networks (PANW) Quietly Becoming the Operating System for AI-Era Cybersecurity?",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "oracle",
+        "near",
+        "multi-year"
+      ],
+      "fading_keywords": [
+        "networks",
+        "palo",
+        "alto"
+      ],
+      "takeaway": "MSFT's narrative is theme rotation: sentiment moved -0.11, while the leading theme shifted from Technology to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-26",
     "date": "2026-08-26",
     "runDate": "2026-08-26",

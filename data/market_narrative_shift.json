@@ -1,105 +1,105 @@
 {
-  "updated_at": "2026-08-25T02:53:00.656001+00:00",
-  "date": "2026-08-25",
+  "updated_at": "2026-08-26T02:59:05.725903+00:00",
+  "date": "2026-08-26",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "SPGI",
-  "shift_label": "Turning bearish",
-  "sentiment_delta": -0.2044,
-  "baseline_label": "2026-08-17",
+  "symbol": "MSFT",
+  "shift_label": "Theme rotation",
+  "sentiment_delta": -0.1072,
+  "baseline_label": "2026-08-24",
   "current": {
-    "date": "2026-08-25",
-    "symbol": "SPGI",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": -0.1007,
-    "top_theme": "Financial Markets",
-    "themes": [
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Real Estate",
-        "count": 1
-      },
-      {
-        "label": "Mergers And Acquisitions",
-        "count": 1
-      },
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "max",
-        "count": 2
-      },
-      {
-        "label": "rmax",
-        "count": 2
-      },
-      {
-        "label": "global",
-        "count": 2
-      },
-      {
-        "label": "bmi",
-        "count": 2
-      },
-      {
-        "label": "index",
-        "count": 2
-      },
-      {
-        "label": "dropped",
-        "count": 1
-      },
-      {
-        "label": "has",
-        "count": 1
-      },
-      {
-        "label": "been",
-        "count": 1
-      },
-      {
-        "label": "removed",
-        "count": 1
-      },
-      {
-        "label": "announcement",
-        "count": 1
-      },
-      {
-        "label": "was",
-        "count": 1
-      },
-      {
-        "label": "made",
-        "count": 1
-      }
-    ],
-    "headline": "RE/MAX Holdings, Inc.(NYSE: RMAX) dropped from S&P Global BMI Index",
-    "headline_source": "marketscreener.com"
-  },
-  "previous": {
-    "date": "2026-08-17",
-    "symbol": "SPGI",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.1037,
+    "date": "2026-08-26",
+    "symbol": "MSFT",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.0383,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
+        "count": 2
+      },
+      {
+        "label": "Technology",
+        "count": 2
+      },
+      {
+        "label": "Financial Markets",
+        "count": 2
+      },
+      {
+        "label": "Energy Transportation",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "oracle",
+        "count": 2
+      },
+      {
+        "label": "near",
+        "count": 2
+      },
+      {
+        "label": "multi-year",
+        "count": 2
+      },
+      {
+        "label": "lows",
+        "count": 2
+      },
+      {
+        "label": "has",
+        "count": 2
+      },
+      {
+        "label": "allegro",
+        "count": 2
+      },
+      {
+        "label": "microsystems",
+        "count": 2
+      },
+      {
+        "label": "algm",
+        "count": 2
+      },
+      {
+        "label": "computer",
+        "count": 2
+      },
+      {
+        "label": "technology",
+        "count": 2
+      },
+      {
+        "label": "backlog",
+        "count": 1
+      },
+      {
+        "label": "now",
+        "count": 1
+      }
+    ],
+    "headline": "Oracle Near Multi-Year Lows: The $638 Billion Backlog Now Depends on a Gas Pipeline",
+    "headline_source": "TIKR.com"
+  },
+  "previous": {
+    "date": "2026-08-24",
+    "symbol": "MSFT",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.1455,
+    "top_theme": "Technology",
+    "themes": [
+      {
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Earnings",
         "count": 1
       },
       {
@@ -109,73 +109,73 @@
     ],
     "keywords": [
       {
-        "label": "msci",
-        "count": 4
+        "label": "networks",
+        "count": 3
       },
       {
-        "label": "rundown",
+        "label": "palo",
         "count": 2
       },
       {
-        "label": "other",
+        "label": "alto",
         "count": 2
-      },
-      {
-        "label": "financial",
-        "count": 2
-      },
-      {
-        "label": "exchanges",
-        "count": 2
-      },
-      {
-        "label": "data",
-        "count": 2
-      },
-      {
-        "label": "stocks",
-        "count": 2
-      },
-      {
-        "label": "article",
-        "count": 1
-      },
-      {
-        "label": "provides",
-        "count": 1
       },
       {
         "label": "for",
+        "count": 2
+      },
+      {
+        "label": "ai-era",
+        "count": 2
+      },
+      {
+        "label": "cybersecurity",
+        "count": 2
+      },
+      {
+        "label": "panw",
         "count": 1
       },
       {
-        "label": "reported",
+        "label": "quietly",
         "count": 1
       },
       {
-        "label": "in-line",
+        "label": "becoming",
+        "count": 1
+      },
+      {
+        "label": "operating",
+        "count": 1
+      },
+      {
+        "label": "system",
+        "count": 1
+      },
+      {
+        "label": "solidifying",
         "count": 1
       }
     ],
-    "headline": "Q2 Rundown: MSCI (NYSE:MSCI) Vs Other Financial Exchanges & Data Stocks",
-    "headline_source": "Yahoo Finance UK"
+    "headline": "Is Palo Alto Networks (PANW) Quietly Becoming the Operating System for AI-Era Cybersecurity?",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
-    "Real Estate",
-    "Mergers And Acquisitions",
-    "Finance"
+    "Earnings",
+    "Technology",
+    "Financial Markets"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "max",
-    "rmax",
-    "global"
+    "oracle",
+    "near",
+    "multi-year"
   ],
   "fading_keywords": [
-    "msci",
-    "rundown",
-    "other"
+    "networks",
+    "palo",
+    "alto"
   ],
-  "takeaway": "SPGI's narrative is turning bearish: sentiment moved -0.20, while the leading theme shifted from Earnings to Financial Markets.",
+  "takeaway": "MSFT's narrative is theme rotation: sentiment moved -0.11, while the leading theme shifted from Technology to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
