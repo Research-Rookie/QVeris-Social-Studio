@@ -1,21 +1,38 @@
 {
-  "updated_at": "2026-08-25T03:27:17.973525+00:00",
-  "date": "2026-08-25",
+  "updated_at": "2026-08-26T02:43:06.748695+00:00",
+  "date": "2026-08-26",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Moody’s Beat Every Line and the Stock Fell. Analysts Raised Their Targets Anyway",
-      "summary": "Moody's Corporation (MCO) exceeded Q2 expectations and raised guidance, yet its stock dropped 3.6% on July 22. Despite this, analysts from Wells Fargo and BofA raised their pric...",
-      "url": "https://www.tikr.com/blog/moodys-beat-every-line-and-the-stock-fell-analysts-raised-their-targets-anyway",
-      "source": "TIKR.com",
-      "published_at": "20260825T000931",
-      "sentiment_score": 0.215113,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Wolverine Worldwide raises full-year outlook",
+      "summary": "Wolverine Worldwide has increased its full-year outlook for 2026 after a strong second quarter, with revenue now expected to reach between 1.98 and 2.00 billion USD. This positi...",
+      "url": "https://www.worldfootwear.com/news/wolverine-worldwide-raises-fullyear-outlook/11721.html",
+      "source": "World Footwear",
+      "published_at": "20260825T231435",
+      "sentiment_score": 0.621418,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "MCO",
-        "SPGI"
+        "WWW"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "Full Truck Alliance rises as recent earnings, dividend plan, and steady outlook support shares",
+      "summary": "Full Truck Alliance (YMM) shares rose 4.0% today, driven by positive reactions to its strong second-quarter results, which included higher revenue and order growth. Investor sen...",
+      "url": "https://www.quiverquant.com/news/Full+Truck+Alliance+rises+as+recent+earnings%2C+dividend+plan%2C+and+steady+outlook+support+shares",
+      "source": "Quiver Quantitative",
+      "published_at": "20260826T014358",
+      "sentiment_score": 0.462081,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "YMM"
       ],
       "topics": [
         "Earnings",
@@ -27,189 +44,196 @@
       "is_noise": false
     },
     {
-      "title": "Target Stock Is Up 60% in 2026. Wall Street’s Average Target Now Sits Below It",
-      "summary": "Target (TGT) stock has surged 60% in 2026, reaching a 52-week high of $165.44 after strong Q2 earnings, yet the average Wall Street target remains below its current trading pric...",
-      "url": "https://www.tikr.com/blog/target-stock-is-up-60-in-2026-wall-streets-average-target-now-sits-below-it",
+      "title": "Will WeRide’s (WRD) Rising Revenue and Steady Losses Reframe Its Robotaxi Investment Narrative?",
+      "summary": "WeRide Inc. recently reported its half-year 2026 results, showing a significant increase in revenue to CNY 345.86 million while net losses remained steady at CNY 789.75 million....",
+      "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-wrd/weride/news/will-werides-wrd-rising-revenue-and-steady-losses-reframe-it",
+      "source": "Simply Wall Street",
+      "published_at": "20260826T004206",
+      "sentiment_score": 0.118402,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "WRD"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Oracle Near Multi-Year Lows: The $638 Billion Backlog Now Depends on a Gas Pipeline",
+      "summary": "Oracle's stock is trading near multi-year lows despite strong cloud infrastructure growth, due to significant cash burn on AI data centers, a credit rating cut, and a six-month...",
+      "url": "https://www.tikr.com/blog/oracle-near-multi-year-lows-the-638-billion-backlog-now-depends-on-a-gas-pipeline",
       "source": "TIKR.com",
-      "published_at": "20260825T004438",
-      "sentiment_score": 0.152616,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TGT",
-        "EXC",
-        "GE",
-        "META",
-        "COST"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale",
-        "Financial Markets"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Can T. Rowe Price Group (TROW) Be A Bargain After Its Fixed Income Push?",
-      "summary": "T. Rowe Price Group (TROW) shares have fallen 37.1% over five years but current valuations suggest the stock is undervalued based on the Excess Returns model and market multiple...",
-      "url": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-trow/t-rowe-price-group/news/can-t-rowe-price-group-trow-be-a-bargain-after-its-fixed-inc",
-      "source": "Simply Wall Street",
-      "published_at": "20260825T014139",
-      "sentiment_score": 0.333403,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TROW"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Mergers And Acquisitions"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Is PMI’s New U.S. Cigarette Manufacturing Deal Quietly Reframing Its Smoke-Free Pivot Narrative (PM)?",
-      "summary": "Philip Morris International (PMI) recently announced a contract manufacturing deal for combustible cigarettes with Philip Morris USA, an Altria Group company. While this deal le...",
-      "url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-pm/philip-morris-international/news/is-pmis-new-us-cigarette-manufacturing-deal-quietly-reframin",
-      "source": "Simply Wall Street",
-      "published_at": "20260825T012803",
-      "sentiment_score": 0.189229,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "PM",
-        "MO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "General Electric (GE) Wins Air Force Engine Contract, Is The Premium Already Priced In?",
-      "summary": "General Electric (GE) Aerospace recently secured a U.S. Air Force contract to develop the F143 turbofan engine. Despite this win, the stock has seen a recent pullback, though it...",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-ge/general-electric/news/general-electric-ge-wins-air-force-engine-contract-is-the-pr",
-      "source": "Simply Wall Street",
-      "published_at": "20260825T012737",
-      "sentiment_score": 0.043137,
+      "published_at": "20260825T232806",
+      "sentiment_score": -0.134162,
       "sentiment_label": "Neutral",
       "tickers": [
-        "GE",
-        "BA"
+        "ORCL",
+        "CRM",
+        "MSFT",
+        "NOW"
       ],
       "topics": [
         "Earnings",
+        "Technology",
         "Financial Markets",
-        "Manufacturing",
-        "Economy Macro",
         "Energy Transportation"
       ],
       "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "RE/MAX Holdings, Inc.(NYSE: RMAX) dropped from S&P Global BMI Index",
-      "summary": "RE/MAX Holdings, Inc. (NYSE:RMAX) has been removed from the S&P Global BMI Index. This announcement was made on August 24, 2026, at 09:07 pm EDT. The company operates as a real...",
-      "url": "https://www.marketscreener.com/news/re-max-holdings-inc-nyse-rmax-dropped-from-s-p-global-bmi-index-ce7858dbd18fff26",
-      "source": "marketscreener.com",
-      "published_at": "20260825T010806",
-      "sentiment_score": -0.108842,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SPGI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Real Estate",
-        "Mergers And Acquisitions",
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "$1000 Invested In Delta Air Lines 15 Years Ago Would Be Worth This Much Today",
-      "summary": "Delta Air Lines (NYSE: DAL) has significantly outperformed the market over the last 15 years, achieving an average annual return of 17.22%. An initial investment of $1000 in DAL...",
-      "url": "https://www.benzinga.com/news/26/08/61398957/1000-invested-delta-air-lines-15-years-ago-would-be-worth-much-today",
-      "source": "Benzinga",
-      "published_at": "20260824T233046",
-      "sentiment_score": 0.331071,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "DAL"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Certain Stock Options of Editas Medicine, Inc. are subject to a Lock-Up Agreement Ending on 25-AUG-2026.",
-      "summary": "Certain stock options for Editas Medicine, Inc. (EDIT) are subject to a lock-up agreement that ends on August 25, 2026. This lock-up period prevents executive officers and direc...",
-      "url": "https://www.marketscreener.com/news/certain-stock-options-of-editas-medicine-inc-are-subject-to-a-lock-up-agreement-ending-on-25-aug-2-ce7858dbd18ff023",
-      "source": "www.marketscreener.com",
-      "published_at": "20260825T004604",
-      "sentiment_score": 0.040001,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "EDIT"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Life Sciences",
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "PepsiCo faces 4% beverage volume decline as Mountain Dew Trolli launch rolls out",
-      "summary": "PepsiCo has launched a new Mountain Dew Trolli variant, Mango Pineapple Punch, to counter a 4% decline in beverage volume, despite a 7% rise in North American beverage revenues...",
-      "url": "https://ts2.tech/en/mountain-dew-trolli-launch-tests-pepsicos-4-beverage-volume-slide/",
-      "source": "TechStock²",
-      "published_at": "20260824T233629",
-      "sentiment_score": 0.043346,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PEP",
-        "KO",
-        "KDP",
-        "MNST",
-        "WMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Economy Macro",
-        "Finance"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Host Hotels & Resorts: Valuation Still Looks Attractive (NASDAQ:HST)",
-      "summary": "Host Hotels & Resorts (HST) maintains its Buy rating due to strong Q2 results, including an 8.6% YoY Adjusted FFO per share growth and improved RevPAR and EBITDA margins, leadin...",
-      "url": "https://seekingalpha.com/article/4939790-host-hotels-and-resorts-valuation-still-looks-attractive",
-      "source": "Seeking Alpha",
-      "published_at": "20260825T021556",
-      "sentiment_score": 0.609425,
+      "title": "Morgan Stanley Sees ExxonMobil (XOM) Breaking its Record High. Can the Oil Giant Deliver?",
+      "summary": "Morgan Stanley has increased its price target for ExxonMobil (XOM) to $177, maintaining an 'Overweight' rating, and expects the stock to surpass its previous record high. The fi...",
+      "url": "https://ca.finance.yahoo.com/news/morgan-stanley-sees-exxonmobil-xom-014458079.html",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260826T014406",
+      "sentiment_score": 0.355747,
       "sentiment_label": "Bullish",
       "tickers": [
-        "HST"
+        "MS",
+        "XOM",
+        "VLO",
+        "MPC",
+        "CVX"
       ],
       "topics": [
         "Earnings",
-        "Real Estate",
+        "Financial Markets",
+        "Energy Transportation",
+        "Economy Macro"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Has Allegro MicroSystems (ALGM) Outpaced Other Computer and Technology Stocks This Year?",
+      "summary": "Allegro MicroSystems (ALGM) has significantly outperformed the Computer and Technology sector and its specific industry (Electronics - Semiconductors) this year, returning 83.4%...",
+      "url": "https://qz.com/has-allegro-microsystems-algm-outpaced-other-computer-and-technology-stocks-this-year",
+      "source": "qz.com",
+      "published_at": "20260826T004330",
+      "sentiment_score": 0.210837,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ALGM",
+        "JBL",
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "NVIDIA’s credit rating “Neutral”? Q2 earnings report imminent as Morgan Stanley “drops a bombshell”!",
+      "summary": "This article discusses Morgan Stanley's recent \"Neutral\" rating on NVIDIA's credit ahead of its Q2 earnings report. The bank's analyst, Joseph Moore, revised his price target to...",
+      "url": "https://www.moomoo.com/news/post/75252616/nvidia-s-credit-rating-neutral-q2-earnings-report-imminent-as",
+      "source": "Moomoo",
+      "published_at": "20260826T000906",
+      "sentiment_score": 0.119575,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MS",
+        "NVDA",
+        "INTC",
+        "AMD",
+        "AMZN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "XPeng Inc (XPEV) Shares Surge 4.0% -- What GF Score of 62 Tells Investors",
+      "summary": "XPeng Inc (XPEV) shares surged 4.0% to $11.60, despite the company being unprofitable and cash-flow-negative. The stock has a GF Score of 62/100, indicating it's above average i...",
+      "url": "https://www.gurufocus.com/news/9052357/xpeng-inc-xpev-shares-surge-40-what-gf-score-of-62-tells-investors",
+      "source": "GuruFocus",
+      "published_at": "20260826T014317",
+      "sentiment_score": -0.245763,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "XPEV"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Why Everyone Is Watching Kroger (KR) Today",
+      "summary": "Kroger (KR) is gaining investor attention following the launch of a combined grocery and prescription delivery service with Instacart, highlighting its online pharmacy and retai...",
+      "url": "https://simplywall.st/stocks/us/consumer-retailing/nyse-kr/kroger/news/why-everyone-is-watching-kroger-kr-today",
+      "source": "Simply Wall Street",
+      "published_at": "20260826T003849",
+      "sentiment_score": 0.147049,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KR"
+      ],
+      "topics": [
+        "Retail Wholesale",
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Pfizer Is Back Near Its 52-Week High. Is It Too Late to Buy?",
+      "summary": "Pfizer (PFE) is trading near its 52-week high after a 12% gain this year, raising questions about whether the easy money has already been made. Despite strong Q2 results, increa...",
+      "url": "https://www.tikr.com/blog/pfizer-is-back-near-its-52-week-high-is-it-too-late-to-buy",
+      "source": "TIKR.com",
+      "published_at": "20260826T000906",
+      "sentiment_score": 0.142128,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "PFE",
+        "JNJ",
+        "BMY"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "AROC - AI Needs Power. Power Needs Gas. Gas Needs Compression: The Archrock Investment Thesis",
+      "summary": "This article presents an investment thesis for Archrock, Inc. (AROC), arguing that the company is uniquely positioned to benefit from the growing demand for natural gas compress...",
+      "url": "https://simplywall.st/community/narratives/us/energy/nyse-aroc/archrock/g05u61ld-ai-needs-power-power-needs-gas-gas-needs-compression-the-archrock-investment-thesis",
+      "source": "Simply Wall Street",
+      "published_at": "20260825T234147",
+      "sentiment_score": 0.394326,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "AROC",
+        "KMI",
+        "WMB",
+        "CAT"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation",
+        "Technology",
         "Financial Markets",
         "Economy Macro"
       ],
@@ -217,116 +241,78 @@
       "is_noise": false
     },
     {
-      "title": "AMC vs. Cinemark: Which Theater Stock Is the Better Buy Now?",
-      "summary": "This article compares AMC Entertainment Holdings (AMC) and Cinemark Holdings (CNK) as investment opportunities within the recovering movie theater industry. While both companies...",
-      "url": "https://www.tradingview.com/news/zacks:f9c5f132f094b:0-amc-vs-cinemark-which-theater-stock-is-the-better-buy-now/",
-      "source": "TradingView",
-      "published_at": "20260825T021201",
-      "sentiment_score": 0.307574,
+      "title": "HP partners with U.S.-blacklisted Huawei for licensing the Chinese company's WiFi tech",
+      "summary": "HP has signed a multi-year global licensing agreement with Huawei for certain WiFi patents, despite Huawei being blacklisted by the U.S. in 2019. This agreement follows a patent...",
+      "url": "https://www.cnbc.com/2026/08/25/hp-partners-huawei-wifi-tech-us-entity-list.html",
+      "source": "CNBC",
+      "published_at": "20260826T020124",
+      "sentiment_score": 0.227157,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "CNK"
+        "HPQ"
+      ],
+      "topics": [
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "ExxonMobil Set to Raise Dividend for 44th Consecutive Year",
+      "summary": "ExxonMobil is anticipated to announce its 44th consecutive dividend increase, likely alongside its Q3 results, despite recent annual increases being modest at around 4%. The com...",
+      "url": "https://intellectia.ai/news/stock/exxonmobil-set-to-raise-dividend-for-44th-consecutive-year",
+      "source": "Intellectia AI",
+      "published_at": "20260826T011249",
+      "sentiment_score": 0.218691,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "COP",
+        "WMB"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation",
+        "Mergers And Acquisitions"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Is VF Corp (VFC) a Bargain After 3.2% Drop? GF Value Says Underv",
+      "summary": "VF Corp (VFC) shares recently dropped 3.2%, closing at $13.85, which is 11.9% below GuruFocus's GF Value™ estimate of $15.72, suggesting the stock is undervalued. Despite an abo...",
+      "url": "https://www.gurufocus.com/news/9052408/is-vf-corp-vfc-a-bargain-after-32-drop-gf-value-says-undervalued",
+      "source": "GuruFocus",
+      "published_at": "20260826T004451",
+      "sentiment_score": 0.29162,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "VFC"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Retail Wholesale"
       ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Wearable Devices H1FY26 net loss widens 49% to $5.5 million",
-      "summary": "Wearable Devices Ltd (NASDAQ: WLDS) reported a significant widening of its net loss by 49% to $5.5 million for the first half of FY26, despite a 19% increase in revenue to $350...",
-      "url": "https://scanx.trade/stock-market-news/companies/wearable-devices-h1fy26-results-net-loss-widens-49-5-5-million/49147791",
-      "source": "scanx.trade",
-      "published_at": "20260825T014000",
-      "sentiment_score": -0.228205,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "WLDS"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Is Synchrony Financial (SYF) Cheap As Its OpenAI Push Lifts AI Ambitions?",
-      "summary": "Synchrony Financial is making a significant push into AI, collaborating with OpenAI and appointing a Chief AI Officer, which has coincided with a recent share price bounce. Desp...",
-      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-syf/synchrony-financial/news/is-synchrony-financial-syf-cheap-as-its-openai-push-lifts-ai",
-      "source": "Simply Wall Street",
-      "published_at": "20260825T012736",
-      "sentiment_score": 0.298517,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SYF",
-        "PYPL",
-        "WMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Delta Flight 182 Diversion Leaves Stock Flat as A330 Fleet Risk Stays Contained",
-      "summary": "Delta Flight 182 made a safe emergency diversion due to an engine mechanical issue, yet Delta's stock remained nearly flat, suggesting investors view it as an isolated incident...",
-      "url": "https://ts2.tech/en/delta-flight-182-diversion-leaves-stock-flat-as-a330-fleet-risk-stays-contained/",
-      "source": "TechStock²",
-      "published_at": "20260825T010307",
-      "sentiment_score": 0.132243,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DAL",
-        "UAL",
-        "LUV"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Coda Octopus Group Announces Fiscal Third Quarter 2026",
-      "summary": "Coda Octopus Group, a leader in real-time 3D/4D/5D and 6D imaging sonar technology and augmented reality diving technology, will host an earnings conference call on September 14...",
-      "url": "https://www.globenewswire.com/news-release/2026/08/24/3350088/0/en/coda-octopus-group-announces-fiscal-third-quarter-2026-earnings-conference-call-for-september-14-2026-at-10-00-a-m-eastern-time.html",
-      "source": "GlobeNewswire",
-      "published_at": "20260825T021347",
-      "sentiment_score": 0.109824,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CODA"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology"
-      ],
       "quality_score": 6,
       "is_noise": false
     },
     {
-      "title": "Abbott Pays $670 Million to Settle Formula Claims as Legal Risks Persist",
-      "summary": "Abbott Laboratories has agreed to pay $670 million to settle claims from approximately 2,000 individuals alleging that its preterm infant formulas caused necrotizing enterocolit...",
-      "url": "https://finance.yahoo.com/healthcare/articles/abbott-pays-670-million-settle-013404956.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260825T013657",
-      "sentiment_score": -0.142997,
-      "sentiment_label": "Neutral",
+      "title": "A Look at Veracyte Inc (VCYT) After 6.2% Gain -- GF Value $38.77 vs Price $44.08",
+      "summary": "Veracyte Inc (VCYT) shares recently rose 6.2% to $44.08, but GuruFocus assesses the stock as \"modestly overvalued\" with a GF Value of $38.77. Despite a strong GF Score of 80/100...",
+      "url": "https://www.gurufocus.com/news/9052448/a-look-at-veracyte-inc-vcyt-after-62-gain-gf-value-3877-vs-price-4408",
+      "source": "GuruFocus",
+      "published_at": "20260826T001143",
+      "sentiment_score": -0.224762,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "ABT",
-        "COIN"
+        "VCYT"
       ],
       "topics": [
+        "Financial Markets",
         "Life Sciences",
         "Earnings"
       ],
@@ -334,53 +320,15 @@
       "is_noise": false
     },
     {
-      "title": "Spruce House Investment Management Trims Cimpress PLC (CMPR) Sta",
-      "summary": "Spruce House Investment Management has reduced its stake in Cimpress PLC (CMPR) by 182,127 shares, a 14.90% decrease, though it retains a significant 4.30% ownership. The transa...",
-      "url": "https://www.gurufocus.com/news/9050659/spruce-house-investment-management-trims-cimpress-plc-cmpr-stake-in-recent-13dg-filing",
+      "title": "A Look at Telecom Argentina SA (TEO) After 3.1% Gain -- GF Value $11.40 vs Price $13.55",
+      "summary": "Telecom Argentina SA (TEO) shares recently gained 3.1%, reaching $13.55, but GuruFocus indicates the stock is 18.9% overvalued compared to its GF Value™ of $11.40. Despite this...",
+      "url": "https://www.gurufocus.com/news/9050493/a-look-at-telecom-argentina-sa-teo-after-31-gain-gf-value-1140-vs-price-1355",
       "source": "GuruFocus",
-      "published_at": "20260825T011421",
-      "sentiment_score": -0.21473,
+      "published_at": "20260825T234625",
+      "sentiment_score": -0.234577,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "CMPR"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Diana Shipping extends charter with Cargill for panamax Leto",
-      "summary": "Diana Shipping has extended its time charter contract with Cargill International SA for its Panamax dry bulk vessel, m/v Leto. The new charter rate is US$18,000 per day, a signi...",
-      "url": "https://shippingtelegraph.com/dry-bulk-shipping-news/diana-shipping-extends-charter-with-cargill-for-panamax-leto/",
-      "source": "Shipping Telegraph",
-      "published_at": "20260825T004409",
-      "sentiment_score": 0.403865,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DSX"
-      ],
-      "topics": [
-        "Earnings",
-        "Energy Transportation",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Is Bilibili Inc (BILI) a Bargain After 3.2% Drop? GF Value Says Undervalued",
-      "summary": "Bilibili Inc (BILI) shares recently dropped 3.2% to $16.50, but GuruFocus' GF Value indicates the stock is undervalued by 23.0% with a GF Value of $21.43. The company has a GF S...",
-      "url": "https://www.gurufocus.com/news/9050466/is-bilibili-inc-bili-a-bargain-after-32-drop-gf-value-says-undervalued",
-      "source": "GuruFocus",
-      "published_at": "20260824T234635",
-      "sentiment_score": 0.316582,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "BILI"
+        "TEO"
       ],
       "topics": [
         "Financial Markets",
@@ -390,81 +338,152 @@
       "is_noise": false
     },
     {
-      "title": "Google, Wix team up to help build websites inside AI Gemini",
-      "summary": "Wix.com and Alphabet's Google have announced a collaboration to embed Wix Harmony website creation directly within Google's AI service Gemini as a connected app. Following the a...",
-      "url": "https://seekingalpha.com/news/4636264-google-wix-team-up-to-help-build-websites-inside-ai-gemini",
-      "source": "Seeking Alpha",
-      "published_at": "20260824T234150",
-      "sentiment_score": 0.361093,
-      "sentiment_label": "Bullish",
+      "title": "Verizon Just Signed Its Second Google Deal. Is the Stock Still a Buy Near Its High?",
+      "summary": "Verizon (VZ) has seen a significant recovery in its stock, up 23% for the year and near its 52-week high, following its second Google deal and strong Q2 results. The company's f...",
+      "url": "https://www.tikr.com/de/blog/verizon-just-signed-its-second-google-deal-is-the-stock-still-a-buy-near-its-high?",
+      "source": "TIKR.com",
+      "published_at": "20260825T232752",
+      "sentiment_score": 0.232026,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "WIX",
+        "VZ",
         "GOOG",
+        "T",
         "GOOGL"
       ],
       "topics": [
-        "Technology",
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Ardelyx chief patient officer sells $41,419 in stock By Investing.com",
+      "summary": "Laura A. Williams, Chief Patient Officer at Ardelyx, Inc. (NASDAQ:ARDX), sold 10,739 shares of company stock for $41,419 on August 21, 2026, to cover withholding taxes from RSU...",
+      "url": "https://ng.investing.com/news/stock-market-news/ardelyx-chief-patient-officer-sells-41419-in-stock-93CH-2674430",
+      "source": "Investing.com Nigeria",
+      "published_at": "20260826T020601",
+      "sentiment_score": -0.183467,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ARDX"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Ardelyx CCO Eric Foster sells $33,022 in stock By Investing.com",
+      "summary": "Ardelyx Chief Commercial Officer Eric Foster sold 8,562 shares of Ardelyx (NASDAQ: ARDX) stock for a total of $33,022 on August 21, 2026. These \"sell-to-cover\" transactions were...",
+      "url": "https://ng.investing.com/news/stock-market-news/ardelyx-cco-eric-foster-sells-33022-in-stock-93CH-2674420",
+      "source": "Investing.com Nigeria",
+      "published_at": "20260826T015101",
+      "sentiment_score": -0.248982,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ARDX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Should Value Investors Buy Ultrapar Participacoes (UGP) Stock?",
+      "summary": "Ultrapar Participacoes (UGP) is presented as a strong candidate for value investors, currently holding a Zacks Rank #2 (Buy) and an \"A\" grade for Value. The article highlights U...",
+      "url": "https://qz.com/should-value-investors-buy-ultrapar-participacoes-ugp-stock",
+      "source": "qz.com",
+      "published_at": "20260826T000000",
+      "sentiment_score": 0.441304,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "UGP"
+      ],
+      "topics": [
         "Financial Markets",
         "Earnings"
       ],
-      "quality_score": 6,
+      "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "Arrow Electronics Inc (ARW) Stock Down 4.3% but Still Overvalued -- GF Score: 86/100",
-      "summary": "Arrow Electronics Inc (ARW) shares dropped 4.3% to $201.84, yet the stock remains overvalued according to its GF Value™ estimate of $159.08. Despite a strong GF Score™ of 86/100...",
-      "url": "https://www.gurufocus.com/news/9050414/arrow-electronics-inc-arw-stock-down-43-but-still-overvalued-gf-score-86100",
+      "title": "Grocery outlet EVP Frank Kerr sells $16,181 in shares By Investing.com",
+      "summary": "Frank Michael Kerr, EVP and Chief Store Operations Officer at Grocery Outlet Holding Corp. (NASDAQ:GO), sold 1,432 shares of company stock for $11.3 per share, totaling $16,181....",
+      "url": "https://ng.investing.com/news/stock-market-news/grocery-outlet-evp-frank-kerr-sells-16181-in-shares-93CH-2672782",
+      "source": "Investing.com",
+      "published_at": "20260825T234338",
+      "sentiment_score": 0.13596,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "GO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "A Look at Argan Inc (AGX) After 6.5% Decline -- GF Value $188.45 vs Price $468.98",
+      "summary": "Argan Inc (AGX) shares declined by 6.5% to $468.98, trading significantly above its GF Value™ estimate of $188.45, indicating it is overvalued. Despite strong financial strength...",
+      "url": "https://www.gurufocus.com/news/9050471/a-look-at-argan-inc-agx-after-65-decline-gf-value-18845-vs-price-46898",
       "source": "GuruFocus",
-      "published_at": "20260824T231159",
-      "sentiment_score": -0.420912,
+      "published_at": "20260825T234215",
+      "sentiment_score": -0.428137,
       "sentiment_label": "Bearish",
       "tickers": [
-        "ARW"
+        "AGX"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "BTC Digital Jumps 53% as Georgia Mining Site Nears Launch",
-      "summary": "BTC Digital (NASDAQ: BTCT) saw its shares jump 52.6% after announcing that its 10 MW Georgia cryptocurrency mining site is nearing deployment readiness, expected within two mont...",
-      "url": "https://ts2.tech/en/btc-digital-jumps-53-as-georgia-mining-site-nears-launch/",
-      "source": "TechStock²",
-      "published_at": "20260825T014339",
-      "sentiment_score": 0.362984,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "BTCT"
-      ],
-      "topics": [
-        "Blockchain",
         "Financial Markets",
-        "Earnings",
-        "Technology"
+        "Finance"
       ],
       "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "Blend Labs' Nima Ghamsari Reports RSU Vesting and Tax-Related Share Withholding",
-      "summary": "Nima Ghamsari, Director and Head of Blend at Blend Labs, Inc. (NYSE:BLND), reported the vesting of three tranches of Restricted Stock Units (RSUs) on August 20, 2026. Following...",
-      "url": "https://kalkinemedia.com/us/news/announcements/blend-labs-nima-ghamsari-reports-rsu-vesting-and-tax-related-share-withholding",
-      "source": "Kalkine Media",
-      "published_at": "20260825T014133",
-      "sentiment_score": 0.201461,
+      "title": "Community West Bancshares director Lokey acquires $1,405 common stock By Investing.com",
+      "summary": "James W. Lokey, a director at Community West Bancshares (NASDAQ:CWBC), recently acquired 54.23 shares of common stock totaling $1,405 through dividend reinvestment. This transac...",
+      "url": "https://ng.investing.com/news/stock-market-news/community-west-bancshares-director-lokey-acquires-1405-common-stock-93CH-2672774",
+      "source": "Investing.com",
+      "published_at": "20260825T231114",
+      "sentiment_score": 0.344828,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "BLND",
-        "CSCO",
-        "DUK",
-        "NEE",
-        "QCOM"
+        "CWBC"
       ],
       "topics": [
-        "Finance",
+        "Financial Markets",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "AeroVironment Inc (AVAV) Shares Fall 7.5% -- What GF Score of 79 Tells Investors",
+      "summary": "AeroVironment Inc (AVAV) shares dropped 7.5% to $148.20, significantly below its GF Value™ of $258.26, indicating it is undervalued by 42.6%. Despite a GF Score™ of 79/100, sugg...",
+      "url": "https://www.gurufocus.com/news/9050455/aerovironment-inc-avav-shares-fall-75-what-gf-score-of-79-tells-investors",
+      "source": "GuruFocus",
+      "published_at": "20260825T231042",
+      "sentiment_score": 0.019847,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AVAV"
+      ],
+      "topics": [
         "Earnings",
         "Financial Markets"
       ],
@@ -472,468 +491,295 @@
       "is_noise": false
     },
     {
-      "title": "Packaging corp of America exec. VP Donald Shirley sells $3.01m in stock",
-      "summary": "Donald R. Shirley, Executive Vice President at Packaging Corp of America (NASDAQ:PKG), sold 12,000 shares of company stock for approximately $3.01 million. The sale occurred on...",
-      "url": "https://ca.investing.com/news/stock-market-news/packaging-corp-of-america-exec-vp-donald-shirley-sells-301m-in-stock-93CH-4814504",
+      "title": "Allison Transmission CEO David Graziosi sells $3.55m in stock By Investing.com",
+      "summary": "Allison Transmission Holdings Inc. CEO David Graziosi sold approximately $3.55 million worth of company stock on August 21, 2026, after exercising employee stock options. The tr...",
+      "url": "https://ca.investing.com/news/stock-market-news/allison-transmission-ceo-david-graziosi-sells-355m-in-stock-93CH-4816514",
       "source": "Investing.com Canada",
-      "published_at": "20260825T010530",
-      "sentiment_score": -0.206446,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "PKG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Delek US Holdings Inc (DK) Shares Fall 4.7% -- What GF Score of 47 Tells Investors",
-      "summary": "Delek US Holdings Inc (DK) shares dropped 4.7% to $68.08, which is 203.9% above its GF Value™ estimate of $22.40, indicating it is significantly overvalued. The company holds a...",
-      "url": "https://www.gurufocus.com/news/9050592/delek-us-holdings-inc-dk-shares-fall-47-what-gf-score-of-47-tells-investors",
-      "source": "GuruFocus",
-      "published_at": "20260825T004234",
-      "sentiment_score": -0.618548,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "DK"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "$100 Invested In Regeneron Pharmaceuticals 15 Years Ago Would Be Worth This Much Today",
-      "summary": "Regeneron Pharmaceuticals (NASDAQ: REGN) has shown significant outperformance over the past 15 years, achieving an average annual return of 19.2%. An initial investment of $100...",
-      "url": "https://www.benzinga.com/news/26/08/61399076/100-invested-regeneron-pharmaceuticals-15-years-ago-would-be-worth-much-today",
-      "source": "Benzinga",
-      "published_at": "20260825T001028",
-      "sentiment_score": 0.498627,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "REGN"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Life Sciences",
-        "Earnings"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Bruker Corp (BRKR) Shares Fall 4.3% -- What GF Score of 84 Tells Investors",
-      "summary": "Bruker Corp (BRKR) shares dropped 4.3% to $56.98, yet its GF Score of 84/100 indicates strong overall performance. The stock is considered slightly undervalued with a GF Value o...",
-      "url": "https://www.gurufocus.com/news/9050443/bruker-corp-brkr-shares-fall-43-what-gf-score-of-84-tells-investors",
-      "source": "GuruFocus",
-      "published_at": "20260824T231549",
-      "sentiment_score": -0.199098,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "BRKR"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Westlake Corp (WLK) Shares Fall 3.1% -- What GF Score of 64 Tells Investors",
-      "summary": "Westlake Corp (WLK) shares recently fell 3.1% to $76.49, significantly below its GF Value™ of $105.74, suggesting it is undervalued by 27.7%. However, the company is currently u...",
-      "url": "https://www.gurufocus.com/news/9050426/westlake-corp-wlk-shares-fall-31-what-gf-score-of-64-tells-investors",
-      "source": "GuruFocus",
-      "published_at": "20260824T230127",
-      "sentiment_score": -0.251809,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "WLK"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Cameco vs. Denison: Which Uranium Stock Has an Edge Right Now?",
-      "summary": "This article compares two Canadian uranium companies, Cameco (CCJ) and Denison Mines (DNN), to determine which offers a stronger investment opportunity. Cameco is presented as a...",
-      "url": "https://ca.finance.yahoo.com/news/cameco-vs-denison-uranium-stock-160400641.html",
-      "source": "Yahoo! Finance Canada",
-      "published_at": "20260825T021235",
-      "sentiment_score": 0.112023,
+      "published_at": "20260826T013556",
+      "sentiment_score": 0.13192,
       "sentiment_label": "Neutral",
       "tickers": [
-        "CCJ"
+        "ALSN"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Energy Transportation"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Japan Post Holdings Co., Ltd. Trims Aflac Inc (AFL) Stake -- Shares Trade 8% Below GF Value",
-      "summary": "Japan Post Holdings Co., Ltd. recently reduced its stake in Aflac Inc (AFL) by 13,100 shares, a minor trim that still leaves Aflac as 99.29% of its portfolio. Aflac, a supplemen...",
-      "url": "https://www.gurufocus.com/news/9050691/japan-post-holdings-co-ltd-trims-aflac-inc-afl-stake-shares-trade-8-below-gf-value",
-      "source": "GuruFocus",
-      "published_at": "20260825T012106",
-      "sentiment_score": 0.040811,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AFL"
-      ],
-      "topics": [
         "Financial Markets",
         "Finance",
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "WM declares quarterly dividend of $0.945 per share",
-      "summary": "WM (Waste Management) has announced a quarterly cash dividend of $0.945 per share, payable on September 25, 2026, to stockholders of record as of September 11, 2026. The company...",
-      "url": "https://www.investing.com/news/company-news/wm-declares-quarterly-dividend-of-0945-per-share-93CH-4874327",
-      "source": "Investing.com",
-      "published_at": "20260825T011052",
-      "sentiment_score": 0.360171,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "WM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Hormel Foods appoints new executive vice president CFO",
-      "summary": "Hormel Foods (HRL) has appointed Ash Bhumbla as its new Executive Vice President and Chief Financial Officer, effective September 8, 2026. Bhumbla, with previous experience at T...",
-      "url": "https://www.tipranks.com/news/company-announcements/hormel-foods-appoints-new-executive-vice-president-cfo",
-      "source": "TipRanks",
-      "published_at": "20260825T010508",
-      "sentiment_score": 0.129868,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HRL"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "CVR Energy Inc (CVI) Shares Fall 3.8% -- GF Value Says Still Overvalued",
-      "summary": "CVR Energy Inc (CVI) shares recently fell 3.8% to $38.03, yet the company is still considered significantly overvalued according to its GF Value™ estimate of $28.26. Despite str...",
-      "url": "https://www.gurufocus.com/news/9050598/cvr-energy-inc-cvi-shares-fall-38-gf-value-says-still-overvalued",
-      "source": "GuruFocus",
-      "published_at": "20260825T004330",
-      "sentiment_score": 0.023772,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CVI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
         "Energy Transportation"
       ],
       "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "Diodes Inc (DIOD) Stock Down 4.6% but Still Overvalued -- GF Sco",
-      "summary": "Diodes Inc (DIOD) shares dropped 4.6% to $89.67, yet the stock is considered overvalued according to GuruFocus's GF Value™ of $71.11. Despite a strong GF Score™ of 83/100, indic...",
-      "url": "https://www.gurufocus.com/news/9050594/diodes-inc-diod-stock-down-46-but-still-overvalued-gf-score-83100",
-      "source": "GuruFocus",
-      "published_at": "20260825T004252",
-      "sentiment_score": -0.409926,
-      "sentiment_label": "Bearish",
+      "title": "Amtech Systems president & CEO Guy Shechter buys $49,455 in ASYS stock",
+      "summary": "Amtech Systems President and CEO Guy Shechter recently purchased 3,450 shares of ASYS stock for $49,455, following a 15.6% drop in the stock price over the past week. Despite th...",
+      "url": "https://ca.investing.com/news/stock-market-news/amtech-systems-president--ceo-guy-shechter-buys-49455-in-asys-stock-93CH-4816434",
+      "source": "Investing.com Canada",
+      "published_at": "20260826T001345",
+      "sentiment_score": 0.524263,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "DIOD"
+        "ASYS"
       ],
       "topics": [
-        "Financial Markets",
         "Earnings",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Core Scientific Inc (CORZ) Shares Fall 3.0% -- GF Value Says Still Overvalued",
-      "summary": "Core Scientific Inc (CORZ) shares dropped 3.0% to $17.27, yet GuruFocus's GF Value™ still identifies the stock as significantly overvalued at $11.49, indicating a 50.3% overvalu...",
-      "url": "https://www.gurufocus.com/news/9050497/core-scientific-inc-corz-shares-fall-30-gf-value-says-still-overvalued",
-      "source": "GuruFocus",
-      "published_at": "20260825T001518",
-      "sentiment_score": -0.489586,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "CORZ"
-      ],
-      "topics": [
         "Financial Markets",
-        "Earnings"
+        "Technology"
       ],
       "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "Applied Optoelectronics Inc (AAOI) Shares Fall 13.7% -- GF Value Says Still Overvalued",
-      "summary": "Applied Optoelectronics Inc (AAOI) shares recently dropped by 13.7% to $107.63, making the stock significantly overvalued according to GuruFocus's GF Value of $25.37. The compan...",
-      "url": "https://www.gurufocus.com/news/9050430/applied-optoelectronics-inc-aaoi-shares-fall-137-gf-value-says-still-overvalued",
+      "title": "Amprius Technologies Inc (AMPX) Stock Up 3.2% and Still Undervalued -- GF Score: 79/100",
+      "summary": "Amprius Technologies Inc (AMPX) saw its stock rise 3.2% to $10.18, and GuruFocus assesses it as undervalued with a GF Value™ of $16.85, indicating a 39.6% upside potential. Desp...",
+      "url": "https://www.gurufocus.com/news/9052512/amprius-technologies-inc-ampx-stock-up-32-and-still-undervalued-gf-score-79100",
       "source": "GuruFocus",
-      "published_at": "20260824T231407",
-      "sentiment_score": -0.441267,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "AAOI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Bausch + Lomb Advancing Two First-in-Class Eye Health Therapies Based on Trial Results",
-      "summary": "Bausch + Lomb announced positive trial results for two first-in-class eye health therapies, pushing both into further development. A dual-action eye drop for dry eye disease wil...",
-      "url": "https://www.stocktitan.net/news/BLCO/bausch-lomb-advancing-two-first-in-class-eye-health-therapies-based-guj3ijos33zi.html",
-      "source": "Stock Titan",
-      "published_at": "20260825T001548",
-      "sentiment_score": 0.302292,
+      "published_at": "20260826T001218",
+      "sentiment_score": 0.317092,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "BLCO"
+        "AMPX"
       ],
       "topics": [
-        "Life Sciences",
-        "Earnings"
+        "Financial Markets",
+        "Earnings",
+        "Technology"
       ],
-      "quality_score": 2,
+      "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "Citizens & Northern (CZNC) EVP now holds 14,822 ESOP shares",
-      "summary": "Citizens & Northern Corp. Executive Vice President Thomas L. Rudy Jr. indirectly acquired 160 shares of common stock through an ESOP dividend reinvestment plan on August 20, 202...",
-      "url": "https://www.stocktitan.net/sec-filings/CZNC/form-4-citizens-northern-corp-insider-trading-activity-2a3e41b38a6b.html",
-      "source": "Stock Titan",
-      "published_at": "20260825T023724",
-      "sentiment_score": 0.06983,
+      "title": "Walmart makes changes to how millions of customers can pay at checkout",
+      "summary": "Walmart is implementing tap-to-pay technology across its U.S. stores and Sam's Club locations, providing customers with more convenient payment options using contactless cards,...",
+      "url": "https://www.foxbusiness.com/retail/walmart-makes-changes-how-millions-customers-can-pay-checkout",
+      "source": "Fox Business",
+      "published_at": "20260826T000945",
+      "sentiment_score": 0.011667,
       "sentiment_label": "Neutral",
       "tickers": [
-        "CZNC"
+        "WMT"
       ],
       "topics": [
+        "Retail Wholesale",
+        "Earnings",
         "Finance",
-        "Financial Markets",
-        "Earnings"
+        "Technology"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "After $7.9M stock sale, Cabot (NYSE: CBT) insider plans another trade",
-      "summary": "Cabot Corporation insider Sean D. Keohane plans to sell 2,779 shares of common stock on or about August 24, 2026, following a stock option exercise. This proposed sale comes aft...",
-      "url": "https://www.stocktitan.net/sec-filings/CBT/144-cabot-corp-sec-filing-e0a092f8ca85.html",
-      "source": "Stock Titan",
-      "published_at": "20260825T014415",
-      "sentiment_score": 0.011257,
-      "sentiment_label": "Neutral",
+      "title": "Chipotle Recovered From Its Salmonella Scare in Weeks. Is the Stock a Buy?",
+      "summary": "Chipotle Mexican Grill quickly recovered from a salmonella outbreak linked to jalapeños in August, demonstrating effective use of its ingredient traceability system. Despite the...",
+      "url": "https://www.tikr.com/blog/chipotle-recovered-from-its-salmonella-scare-in-weeks-is-the-stock-a-buy?",
+      "source": "TIKR.com",
+      "published_at": "20260826T000728",
+      "sentiment_score": 0.159081,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "CBT"
+        "CMG",
+        "SBUX",
+        "MCD",
+        "YUM"
       ],
       "topics": [
+        "Earnings",
         "Financial Markets",
-        "Earnings"
+        "Retail Wholesale",
+        "Economy Macro"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "Blend Labs (NYSE: BLND) converts 100K RSUs, withholds 24K shares for taxes",
-      "summary": "Blend Labs (NYSE: BLND) officer Matthew Christopher Thomson, Head of Revenue, converted 100,000 Restricted Stock Units into Class A Common Stock on August 20, 2026. Following th...",
-      "url": "https://www.stocktitan.net/sec-filings/BLND/form-4-blend-labs-inc-insider-trading-activity-76920b0d3da3.html",
-      "source": "Stock Titan",
-      "published_at": "20260825T014133",
-      "sentiment_score": 0.097341,
+      "title": "Hasbro WOTC president John Hight sells $1.1m in stock By Investing.com",
+      "summary": "John Hight, President of Wizards of the Coast (a division of Hasbro Inc.), sold 11,593 shares of Hasbro common stock for approximately $1.1 million on August 19, 2026. This tran...",
+      "url": "https://ca.investing.com/news/stock-market-news/hasbro-wotc-president-john-hight-sells-11m-in-stock-93CH-4816427",
+      "source": "Investing.com Canada",
+      "published_at": "20260825T233317",
+      "sentiment_score": 0.125556,
       "sentiment_label": "Neutral",
       "tickers": [
-        "BLND"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "INTU INVESTOR DEADLINE: Intuit Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit...",
-      "summary": "Robbins Geller Rudman & Dowd LLP announces a class action lawsuit against Intuit Inc. (NASDAQ: INTU) for alleged violations of the Securities Exchange Act of 1934. The lawsuit c...",
-      "url": "https://www.newsfilecorp.com/release/310799/INTU-INVESTOR-DEADLINE-Intuit-Inc.-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit-Before-September-8-2026-Deadline",
-      "source": "TMX Newsfile",
-      "published_at": "20260825T013901",
-      "sentiment_score": -0.465433,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "INTU"
+        "HAS"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Finance",
-        "Economy Macro",
-        "Technology"
+        "Retail Wholesale"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "After June stock sales, Cadre (NYSE: CDRE) insider plans more",
-      "summary": "Cadre Holdings (CDRE) insider Warren B. Kanders plans to sell an additional 100,000 shares of common stock, valued at $3,336,000, following previous sales in June 2026 totaling...",
-      "url": "https://www.stocktitan.net/sec-filings/CDRE/144-cadre-holdings-inc-sec-filing-44b66b45ae55.html",
-      "source": "Stock Titan",
-      "published_at": "20260825T013755",
-      "sentiment_score": -0.14984,
-      "sentiment_label": "Neutral",
+      "title": "NOC Stock Inches Ahead — Northrop CEO Reportedly Eyes ‘Decent Share’ In Potential $1 Trillion Golden Dome Defense C...",
+      "summary": "Northrop Grumman CEO Kathy Warden expects the company to secure a substantial share of the U.S. government's \"Golden Dome\" space-based defense architecture, a program potentiall...",
+      "url": "https://stocktwits.com/news-articles/markets/equity/noc-stock-inches-ahead-northrop-ceo-reportedly-eyes-decent-share-in-potential-1-trillion-golden-dome-defense-contracts/cZYl2D3RJok",
+      "source": "Stocktwits",
+      "published_at": "20260825T232458",
+      "sentiment_score": 0.324315,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "CDRE"
+        "NOC",
+        "BA"
       ],
       "topics": [
+        "Manufacturing",
         "Financial Markets",
-        "Finance",
+        "Economy Fiscal",
         "Earnings"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "Business First Bancshares (BFST) director plans $76K sale",
-      "summary": "Business First Bancshares (BFST) director George W. Cummings has filed a Form 144 to sell up to 2,435 common shares, valued at $76,215.50. These shares were acquired between 200...",
-      "url": "https://www.stocktitan.net/sec-filings/BFST/144-business-first-bancshares-inc-sec-filing-5eefb68a77e6.html",
-      "source": "Stock Titan",
-      "published_at": "20260825T011311",
-      "sentiment_score": 0.10346,
-      "sentiment_label": "Neutral",
+      "title": "Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another $1.1 Million Shares",
+      "summary": "Alpha Metallurgical Resources Director Kenneth S. Courtis recently purchased 5,000 shares of AMR for approximately $1.1 million, marking his third significant purchase in the pa...",
+      "url": "https://www.fool.com/coverage/filings/2026/08/25/alpha-metallurgical-director-courtis-keeps-buying-as-he-adds-another-usd1-1-million-shares/",
+      "source": "The Motley Fool",
+      "published_at": "20260825T231347",
+      "sentiment_score": 0.416075,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "BFST"
-      ],
-      "topics": [
-        "Finance",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Western Digital CLO Tregillis sells $417,338 in WDC shares",
-      "summary": "Cynthia L. Tregillis, Western Digital's Chief Legal Officer, sold WDC shares worth $417,338 between August 21 and August 24, 2026, under a pre-arranged trading plan. She also di...",
-      "url": "https://www.investing.com/news/insider-trading-news/western-digital-clo-tregillis-sells-417338-in-wdc-shares-93CH-4874321",
-      "source": "Investing.com",
-      "published_at": "20260825T004059",
-      "sentiment_score": -0.32323,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "WDC"
+        "AMR"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Technology"
+        "Financial Markets"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "Criteo (NASDAQ: CRTO) CFO to sell 671 shares for tax withholding",
-      "summary": "Criteo's Chief Financial Officer, Connor McGogney, has filed a notice to sell 671 ordinary shares of the company for tax withholding purposes. These shares were acquired through...",
-      "url": "https://www.stocktitan.net/sec-filings/CRTO/144-criteo-s-a-sec-filing-5cb8fb3bd9e5.html",
-      "source": "Stock Titan",
-      "published_at": "20260825T001210",
-      "sentiment_score": 0.040729,
+      "title": "Tenable Holdings CFO Matthew Brown Reports RSU Conversion and Share Withholding for Taxes",
+      "summary": "Tenable Holdings CFO Matthew Brown converted 14,544 restricted stock units (RSUs) into common stock on August 21, 2026. Concurrently, the company withheld 7,400 shares at $34.38...",
+      "url": "https://kalkinemedia.com/us/news/announcements/tenable-holdings-cfo-matthew-brown-reports-rsu-conversion-and-share-withholding-for-taxes",
+      "source": "Kalkine Media",
+      "published_at": "20260825T231315",
+      "sentiment_score": 0.032573,
       "sentiment_label": "Neutral",
       "tickers": [
-        "CRTO"
+        "TENB"
       ],
       "topics": [
         "Earnings",
         "Finance",
         "Economy Fiscal"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "Palantir (NYSE: PLTR) CEO offloads stock after big RSU vesting",
-      "summary": "Palantir Technologies Inc. CEO Alexander C. Karp sold 492,348 shares of Class A Common Stock on August 20, 2026, generating approximately $86.06 million. These sales were primar...",
-      "url": "https://www.stocktitan.net/sec-filings/PLTR/form-4-palantir-technologies-inc-insider-trading-activity-c654c12a92fa.html",
-      "source": "Stock Titan",
-      "published_at": "20260825T000933",
-      "sentiment_score": 0.047599,
+      "title": "Is Phillips 66 (PSX) Still a Buy After its Massive 2026 Rally?",
+      "summary": "Phillips 66 (PSX) has experienced a significant rally in 2026, driven by strong refining margins due to global supply disruptions. While the company's financial performance, deb...",
+      "url": "https://sg.finance.yahoo.com/news/phillips-66-psx-still-buy-000904377.html",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260825T230923",
+      "sentiment_score": 0.19356,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "PSX",
+        "KMI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Energy Transportation"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Down 7.7% in 4 Weeks, Here's Why You Should You Buy the Dip in Roper Technologies (ROP)",
+      "summary": "Roper Technologies (ROP) has experienced a 7.7% decline over the past four weeks, placing it in oversold territory according to its Relative Strength Index (RSI) of 29.26. This...",
+      "url": "https://qz.com/down-7-7-in-4-weeks-here-s-why-you-should-you-buy-the-dip-in-roper-technologies-rop",
+      "source": "qz.com",
+      "published_at": "20260825T230912",
+      "sentiment_score": 0.36533,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ROP",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "ORCL"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "FinancialContent - Kaplan Fox Encourages Wix.com Ltd. (NASDAQ: WIX) Investors Seeking Recovery to Contact the Firm...",
+      "summary": "Kaplan Fox & Kilsheimer LLP has filed a class action lawsuit against Wix.com Ltd. (NASDAQ: WIX) on behalf of investors who purchased securities between February 19, 2025, and Ma...",
+      "url": "https://markets.financialcontent.com/stocks/article/newmediawire-2026-8-25-kaplan-fox-encourages-wixcom-ltd-nasdaq-wix-investors-seeking-recovery-to-contact-the-firm-before-september-22-2026",
+      "source": "FinancialContent",
+      "published_at": "20260826T014010",
+      "sentiment_score": 0.02767,
       "sentiment_label": "Neutral",
       "tickers": [
-        "PLTR"
+        "WIX"
       ],
       "topics": [
         "Finance",
         "Earnings",
-        "Financial Markets"
+        "Technology"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Community West Bancshares director Lokey acquires $1,405 common stock",
-      "summary": "James W. Lokey, a director at Community West Bancshares (NASDAQ: CWBC), recently acquired 54.23 shares of common stock totaling $1,405 through dividend reinvestment. This transa...",
-      "url": "https://www.investing.com/news/insider-trading-news/community-west-bancshares-director-lokey-acquires-1405-common-stock-93CH-4874276",
+      "title": "Cadence design sr. VP Teng sells $1.49m in stock",
+      "summary": "Chin-Chi Teng, Senior Vice President at Cadence Design Systems Inc., sold 4,732 shares of company stock for $1,488,166, while also acquiring 1,000 shares through option exercise...",
+      "url": "https://m.investing.com/news/insider-trading-news/cadence-design-sr-vp-teng-sells-149m-in-stock-93CH-4876032?ampMode=1",
       "source": "Investing.com",
-      "published_at": "20260824T234536",
-      "sentiment_score": 0.438113,
-      "sentiment_label": "Bullish",
+      "published_at": "20260826T013730",
+      "sentiment_score": 0.287658,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "CWBC"
+        "CDNS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Unity Software (U) officer to sell 26,017 shares for tax bill",
+      "summary": "An officer of Unity Software (U), Jarrod Yahes, plans to sell 26,017 shares of common stock valued at $1,178,797.00. This sale is intended to cover tax obligations arising from...",
+      "url": "https://www.stocktitan.net/sec-filings/U/144-unity-software-inc-sec-filing-6f1c7f7d7f04.html",
+      "source": "Stock Titan",
+      "published_at": "20260826T011017",
+      "sentiment_score": -0.058926,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "U"
       ],
       "topics": [
         "Finance",
-        "Financial Markets",
         "Earnings"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Aveanna Healthcare director-linked entities sell $192.6m in stock",
-      "summary": "Entities linked to Aveanna Healthcare Holdings Inc. director and 10% owner Paul R. Vigano sold approximately $192.6 million in company stock through secondary offerings on Augus...",
-      "url": "https://m.investing.com/news/insider-trading-news/aveanna-healthcare-directorlinked-entities-sell-1926m-in-stock-93CH-4874301?ampMode=1",
+      "title": "Ardelux CFO Susan Hohenleitner sells $6,009 in shares",
+      "summary": "Ardelux CFO Susan Hohenleitner sold 1,558 shares of ARDELYX (NASDAQ:ARDX) stock for approximately $6,009 to cover tax obligations from vesting restricted stock units. This trans...",
+      "url": "https://m.investing.com/news/insider-trading-news/ardelux-cfo-susan-hohenleitner-sells-6009-in-shares-93CH-4876069?ampMode=1",
       "source": "Investing.com",
-      "published_at": "20260824T234446",
-      "sentiment_score": 0.170687,
-      "sentiment_label": "Somewhat-Bullish",
+      "published_at": "20260826T001301",
+      "sentiment_score": -0.271734,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "AVAH",
-        "RJF"
+        "ARDX"
       ],
       "topics": [
         "Earnings",
@@ -944,16 +790,168 @@
       "is_noise": true
     },
     {
-      "title": "Alexander Coleman Levy Sells 3,829 Shares of Yelp (NYSE:YELP) Stock",
-      "summary": "Yelp CTO Alexander Coleman Levy sold 3,829 shares of Yelp (NYSE:YELP) stock for approximately $89,599 on August 24th, reducing his total holdings by 6.61% to 54,124 shares. This...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-alexander-coleman-levy-sells-3829-shares-of-yelp-nyse-yelp-stock-2026-08-24/",
+      "title": "Ardelyx chief human resources officer sells $58,378 in stock",
+      "summary": "James Parker Brady, Chief Human Resources Officer at ARDELYX, Inc. (NASDAQ:ARDX), sold 15,136 shares of company stock worth $58,378. The sale was an automatic \"sell-to-cover\" tr...",
+      "url": "https://www.investing.com/news/insider-trading-news/ardelyx-chief-human-resources-officer-sells-58378-in-stock-93CH-4876066",
+      "source": "Investing.com",
+      "published_at": "20260826T001301",
+      "sentiment_score": -0.202141,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ARDX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Ardelyx SVP Joseph Reilly sells $15,358 of company stock",
+      "summary": "Joseph James Reilly, SVP and Chief Accounting Officer at Ardelyx (NASDAQ: ARDX), sold 3,982 shares of company stock worth $15,358 on August 21, 2026. These transactions were for...",
+      "url": "https://m.investing.com/news/insider-trading-news/ardelyx-svp-joseph-reilly-sells-15358-of-company-stock-93CH-4876068?ampMode=1",
+      "source": "Investing.com",
+      "published_at": "20260826T001301",
+      "sentiment_score": -0.25912,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ARDX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Amrize (AMRZ) marketing chief buys 1,500 company shares",
+      "summary": "Amrize Ltd's Chief Marketing & Corporate Affairs Officer, Forrest Nollaig, purchased 1,500 Ordinary Shares of the company on August 25, 2026, at a price of $44.15 per share in a...",
+      "url": "https://www.stocktitan.net/sec-filings/AMRZ/form-4-amrize-ltd-insider-trading-activity-45091815f8eb.html",
+      "source": "Stock Titan",
+      "published_at": "20260826T001251",
+      "sentiment_score": 0.437484,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "AMRZ"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Insider Selling: Alarm.com (NASDAQ:ALRM) CEO Sells 50,000 Shares of Stock",
+      "summary": "Alarm.com CEO Stephen Trundle sold 50,000 shares of ALRM stock for approximately $2.88 million, reducing his ownership by 13.34%. Despite this insider sale, the company recently...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-alarmcom-nasdaq-alrm-ceo-sells-50000-shares-of-stock-2026-08-25/",
       "source": "MarketBeat",
-      "published_at": "20260824T232446",
-      "sentiment_score": 0.102304,
+      "published_at": "20260825T234254",
+      "sentiment_score": 0.148866,
       "sentiment_label": "Neutral",
       "tickers": [
-        "YELP",
-        "JPM"
+        "ALRM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Kaplan Fox Encourages Wix.com Ltd. (NASDAQ: WIX) Investors Seeking Recovery to Contact the Firm Before September 22...",
+      "summary": "Kaplan Fox & Kilsheimer LLP has filed a class action lawsuit against Wix.com Ltd. on behalf of investors who purchased securities between February 19, 2025, and May 12, 2026. Th...",
+      "url": "https://natlawreview.com/press-releases/kaplan-fox-encourages-wixcom-ltd-nasdaq-wix-investors-seeking-recovery",
+      "source": "The National Law Review",
+      "published_at": "20260825T234010",
+      "sentiment_score": -0.616425,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "WIX"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "EOG Resources chairman & CEO Yacob disposes of $5.47 million in stock",
+      "summary": "Ezra Y. Yacob, Chairman and CEO of EOG Resources Inc, sold 35,942 shares of the company’s common stock for approximately $5.47 million on August 24, 2026. This transaction occur...",
+      "url": "https://m.investing.com/news/insider-trading-news/eog-resources-chairman--ceo-yacob-disposes-of-547-million-in-stock-93CH-4876047?ampMode=1",
+      "source": "Investing.com",
+      "published_at": "20260825T233806",
+      "sentiment_score": 0.000298,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "EOG"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Amazon.com (NASDAQ:AMZN) CEO Sells 14,541 Shares of Stock",
+      "summary": "Amazon.com CEO Matthew Garman sold 14,541 shares of the company's stock, totaling approximately $3.77 million, reducing his direct ownership by about 45%. This transaction occur...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-amazoncom-nasdaq-amzn-ceo-sells-14541-shares-of-stock-2026-08-25/",
+      "source": "MarketBeat",
+      "published_at": "20260825T233706",
+      "sentiment_score": -0.131115,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AMZN",
+        "TTD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Technology",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "EOG Resources (NYSE:EOG) CEO Ezra Yacob Sells 35,942 Shares of Stock",
+      "summary": "EOG Resources CEO Ezra Yacob sold 35,942 shares of the company's stock for approximately $5.47 million, reducing his direct ownership by 12.91%. This sale occurred despite stron...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-eog-resources-nyse-eog-ceo-ezra-yacob-sells-35942-shares-of-stock-2026-08-25/",
+      "source": "MarketBeat",
+      "published_at": "20260825T232552",
+      "sentiment_score": 0.006403,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "EOG"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Insider Buying: Alpha Metallurgical Resources (NYSE:AMR) Director Purchases 5,000 Shares of Stock",
+      "summary": "Alpha Metallurgical Resources (NYSE:AMR) Director Kenneth Courtis purchased 5,000 shares of the company's stock for approximately $1.08 million, increasing his holdings by 0.49%...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-buying-alpha-metallurgical-resources-nyse-amr-director-purchases-5000-shares-of-stock-2026-08-25/",
+      "source": "MarketBeat",
+      "published_at": "20260825T231347",
+      "sentiment_score": 0.031737,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AMR"
       ],
       "topics": [
         "Earnings",
@@ -963,18 +961,37 @@
       "is_noise": true
     },
     {
-      "title": "Western Digital (NASDAQ: WDC) legal chief sells shares, 1,488 withheld for taxes",
-      "summary": "Cynthia L. Tregillis, Western Digital's Chief Legal Officer, sold 919 shares of common stock across two transactions on August 21 and 24, 2026, totaling approximately $417,000,...",
-      "url": "https://www.stocktitan.net/sec-filings/WDC/form-4-western-digital-corp-insider-trading-activity-a22ee650cb38.html",
-      "source": "Stock Titan",
-      "published_at": "20260824T230105",
-      "sentiment_score": -0.161757,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Pentair plc (PNR) Investors: Securities Fraud Class Action",
+      "summary": "Hagens Berman Sobol Shapiro LLP has expanded a securities fraud class action lawsuit against Pentair plc (PNR) with an extended class period of March 11, 2025, to July 14, 2026....",
+      "url": "https://www.globenewswire.com/news-release/2026/08/25/3351039/0/en/pentair-plc-pnr-investors-securities-fraud-class-action-filed-contact-hagens-berman-before-october-2-2026-lead-plaintiff-deadline.html",
+      "source": "GlobeNewswire",
+      "published_at": "20260825T230923",
+      "sentiment_score": -0.633926,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "WDCVV",
-        "WDC"
+        "PNR"
       ],
       "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Kaplan Fox & Kilsheimer LLP Encourages Pentair plc (NYSE: PNR) Investors to Contact the Firm Before October 2, 2026",
+      "summary": "Kaplan Fox & Kilsheimer LLP has filed a class action lawsuit against Pentair plc (NYSE: PNR) on behalf of investors who purchased securities between April 28, 2026, and July 14,...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/BAC/pressreleases/4043218/kaplan-fox-kilsheimer-llp-encourages-pentair-plc-nyse-pnr-investors-to-contact-the-firm-before-october-2-2026/",
+      "source": "The Globe and Mail",
+      "published_at": "20260825T230906",
+      "sentiment_score": -0.716301,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "PNR"
+      ],
+      "topics": [
+        "Finance",
         "Financial Markets",
         "Earnings"
       ],
@@ -983,22 +1000,39 @@
     }
   ],
   "article_count": 50,
-  "top_ticker": "SPGI",
+  "top_ticker": "MSFT",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Moody’s Beat Every Line and the Stock Fell. Analysts Raised Their Targets Anyway",
+  "top_story": "Wolverine Worldwide raises full-year outlook",
   "signal_articles": [
     {
-      "title": "Moody’s Beat Every Line and the Stock Fell. Analysts Raised Their Targets Anyway",
-      "summary": "Moody's Corporation (MCO) exceeded Q2 expectations and raised guidance, yet its stock dropped 3.6% on July 22. Despite this, analysts from Wells Fargo and BofA raised their pric...",
-      "url": "https://www.tikr.com/blog/moodys-beat-every-line-and-the-stock-fell-analysts-raised-their-targets-anyway",
-      "source": "TIKR.com",
-      "published_at": "20260825T000931",
-      "sentiment_score": 0.215113,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Wolverine Worldwide raises full-year outlook",
+      "summary": "Wolverine Worldwide has increased its full-year outlook for 2026 after a strong second quarter, with revenue now expected to reach between 1.98 and 2.00 billion USD. This positi...",
+      "url": "https://www.worldfootwear.com/news/wolverine-worldwide-raises-fullyear-outlook/11721.html",
+      "source": "World Footwear",
+      "published_at": "20260825T231435",
+      "sentiment_score": 0.621418,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "MCO",
-        "SPGI"
+        "WWW"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "Full Truck Alliance rises as recent earnings, dividend plan, and steady outlook support shares",
+      "summary": "Full Truck Alliance (YMM) shares rose 4.0% today, driven by positive reactions to its strong second-quarter results, which included higher revenue and order growth. Investor sen...",
+      "url": "https://www.quiverquant.com/news/Full+Truck+Alliance+rises+as+recent+earnings%2C+dividend+plan%2C+and+steady+outlook+support+shares",
+      "source": "Quiver Quantitative",
+      "published_at": "20260826T014358",
+      "sentiment_score": 0.462081,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "YMM"
       ],
       "topics": [
         "Earnings",
@@ -1010,191 +1044,174 @@
       "is_noise": false
     },
     {
-      "title": "Target Stock Is Up 60% in 2026. Wall Street’s Average Target Now Sits Below It",
-      "summary": "Target (TGT) stock has surged 60% in 2026, reaching a 52-week high of $165.44 after strong Q2 earnings, yet the average Wall Street target remains below its current trading pric...",
-      "url": "https://www.tikr.com/blog/target-stock-is-up-60-in-2026-wall-streets-average-target-now-sits-below-it",
+      "title": "Will WeRide’s (WRD) Rising Revenue and Steady Losses Reframe Its Robotaxi Investment Narrative?",
+      "summary": "WeRide Inc. recently reported its half-year 2026 results, showing a significant increase in revenue to CNY 345.86 million while net losses remained steady at CNY 789.75 million....",
+      "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-wrd/weride/news/will-werides-wrd-rising-revenue-and-steady-losses-reframe-it",
+      "source": "Simply Wall Street",
+      "published_at": "20260826T004206",
+      "sentiment_score": 0.118402,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "WRD"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Oracle Near Multi-Year Lows: The $638 Billion Backlog Now Depends on a Gas Pipeline",
+      "summary": "Oracle's stock is trading near multi-year lows despite strong cloud infrastructure growth, due to significant cash burn on AI data centers, a credit rating cut, and a six-month...",
+      "url": "https://www.tikr.com/blog/oracle-near-multi-year-lows-the-638-billion-backlog-now-depends-on-a-gas-pipeline",
       "source": "TIKR.com",
-      "published_at": "20260825T004438",
-      "sentiment_score": 0.152616,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TGT",
-        "EXC",
-        "GE",
-        "META",
-        "COST"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale",
-        "Financial Markets"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Can T. Rowe Price Group (TROW) Be A Bargain After Its Fixed Income Push?",
-      "summary": "T. Rowe Price Group (TROW) shares have fallen 37.1% over five years but current valuations suggest the stock is undervalued based on the Excess Returns model and market multiple...",
-      "url": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-trow/t-rowe-price-group/news/can-t-rowe-price-group-trow-be-a-bargain-after-its-fixed-inc",
-      "source": "Simply Wall Street",
-      "published_at": "20260825T014139",
-      "sentiment_score": 0.333403,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TROW"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Mergers And Acquisitions"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Is PMI’s New U.S. Cigarette Manufacturing Deal Quietly Reframing Its Smoke-Free Pivot Narrative (PM)?",
-      "summary": "Philip Morris International (PMI) recently announced a contract manufacturing deal for combustible cigarettes with Philip Morris USA, an Altria Group company. While this deal le...",
-      "url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-pm/philip-morris-international/news/is-pmis-new-us-cigarette-manufacturing-deal-quietly-reframin",
-      "source": "Simply Wall Street",
-      "published_at": "20260825T012803",
-      "sentiment_score": 0.189229,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "PM",
-        "MO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "General Electric (GE) Wins Air Force Engine Contract, Is The Premium Already Priced In?",
-      "summary": "General Electric (GE) Aerospace recently secured a U.S. Air Force contract to develop the F143 turbofan engine. Despite this win, the stock has seen a recent pullback, though it...",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-ge/general-electric/news/general-electric-ge-wins-air-force-engine-contract-is-the-pr",
-      "source": "Simply Wall Street",
-      "published_at": "20260825T012737",
-      "sentiment_score": 0.043137,
+      "published_at": "20260825T232806",
+      "sentiment_score": -0.134162,
       "sentiment_label": "Neutral",
       "tickers": [
-        "GE",
-        "BA"
+        "ORCL",
+        "CRM",
+        "MSFT",
+        "NOW"
       ],
       "topics": [
         "Earnings",
+        "Technology",
         "Financial Markets",
-        "Manufacturing",
-        "Economy Macro",
         "Energy Transportation"
       ],
       "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "RE/MAX Holdings, Inc.(NYSE: RMAX) dropped from S&P Global BMI Index",
-      "summary": "RE/MAX Holdings, Inc. (NYSE:RMAX) has been removed from the S&P Global BMI Index. This announcement was made on August 24, 2026, at 09:07 pm EDT. The company operates as a real...",
-      "url": "https://www.marketscreener.com/news/re-max-holdings-inc-nyse-rmax-dropped-from-s-p-global-bmi-index-ce7858dbd18fff26",
-      "source": "marketscreener.com",
-      "published_at": "20260825T010806",
-      "sentiment_score": -0.108842,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SPGI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Real Estate",
-        "Mergers And Acquisitions",
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "$1000 Invested In Delta Air Lines 15 Years Ago Would Be Worth This Much Today",
-      "summary": "Delta Air Lines (NYSE: DAL) has significantly outperformed the market over the last 15 years, achieving an average annual return of 17.22%. An initial investment of $1000 in DAL...",
-      "url": "https://www.benzinga.com/news/26/08/61398957/1000-invested-delta-air-lines-15-years-ago-would-be-worth-much-today",
-      "source": "Benzinga",
-      "published_at": "20260824T233046",
-      "sentiment_score": 0.331071,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "DAL"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Certain Stock Options of Editas Medicine, Inc. are subject to a Lock-Up Agreement Ending on 25-AUG-2026.",
-      "summary": "Certain stock options for Editas Medicine, Inc. (EDIT) are subject to a lock-up agreement that ends on August 25, 2026. This lock-up period prevents executive officers and direc...",
-      "url": "https://www.marketscreener.com/news/certain-stock-options-of-editas-medicine-inc-are-subject-to-a-lock-up-agreement-ending-on-25-aug-2-ce7858dbd18ff023",
-      "source": "www.marketscreener.com",
-      "published_at": "20260825T004604",
-      "sentiment_score": 0.040001,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "EDIT"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Life Sciences",
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "PepsiCo faces 4% beverage volume decline as Mountain Dew Trolli launch rolls out",
-      "summary": "PepsiCo has launched a new Mountain Dew Trolli variant, Mango Pineapple Punch, to counter a 4% decline in beverage volume, despite a 7% rise in North American beverage revenues...",
-      "url": "https://ts2.tech/en/mountain-dew-trolli-launch-tests-pepsicos-4-beverage-volume-slide/",
-      "source": "TechStock²",
-      "published_at": "20260824T233629",
-      "sentiment_score": 0.043346,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PEP",
-        "KO",
-        "KDP",
-        "MNST",
-        "WMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Economy Macro",
-        "Finance"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Host Hotels & Resorts: Valuation Still Looks Attractive (NASDAQ:HST)",
-      "summary": "Host Hotels & Resorts (HST) maintains its Buy rating due to strong Q2 results, including an 8.6% YoY Adjusted FFO per share growth and improved RevPAR and EBITDA margins, leadin...",
-      "url": "https://seekingalpha.com/article/4939790-host-hotels-and-resorts-valuation-still-looks-attractive",
-      "source": "Seeking Alpha",
-      "published_at": "20260825T021556",
-      "sentiment_score": 0.609425,
+      "title": "Morgan Stanley Sees ExxonMobil (XOM) Breaking its Record High. Can the Oil Giant Deliver?",
+      "summary": "Morgan Stanley has increased its price target for ExxonMobil (XOM) to $177, maintaining an 'Overweight' rating, and expects the stock to surpass its previous record high. The fi...",
+      "url": "https://ca.finance.yahoo.com/news/morgan-stanley-sees-exxonmobil-xom-014458079.html",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260826T014406",
+      "sentiment_score": 0.355747,
       "sentiment_label": "Bullish",
       "tickers": [
-        "HST"
+        "MS",
+        "XOM",
+        "VLO",
+        "MPC",
+        "CVX"
       ],
       "topics": [
         "Earnings",
-        "Real Estate",
         "Financial Markets",
+        "Energy Transportation",
         "Economy Macro"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Has Allegro MicroSystems (ALGM) Outpaced Other Computer and Technology Stocks This Year?",
+      "summary": "Allegro MicroSystems (ALGM) has significantly outperformed the Computer and Technology sector and its specific industry (Electronics - Semiconductors) this year, returning 83.4%...",
+      "url": "https://qz.com/has-allegro-microsystems-algm-outpaced-other-computer-and-technology-stocks-this-year",
+      "source": "qz.com",
+      "published_at": "20260826T004330",
+      "sentiment_score": 0.210837,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ALGM",
+        "JBL",
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "NVIDIA’s credit rating “Neutral”? Q2 earnings report imminent as Morgan Stanley “drops a bombshell”!",
+      "summary": "This article discusses Morgan Stanley's recent \"Neutral\" rating on NVIDIA's credit ahead of its Q2 earnings report. The bank's analyst, Joseph Moore, revised his price target to...",
+      "url": "https://www.moomoo.com/news/post/75252616/nvidia-s-credit-rating-neutral-q2-earnings-report-imminent-as",
+      "source": "Moomoo",
+      "published_at": "20260826T000906",
+      "sentiment_score": 0.119575,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MS",
+        "NVDA",
+        "INTC",
+        "AMD",
+        "AMZN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "XPeng Inc (XPEV) Shares Surge 4.0% -- What GF Score of 62 Tells Investors",
+      "summary": "XPeng Inc (XPEV) shares surged 4.0% to $11.60, despite the company being unprofitable and cash-flow-negative. The stock has a GF Score of 62/100, indicating it's above average i...",
+      "url": "https://www.gurufocus.com/news/9052357/xpeng-inc-xpev-shares-surge-40-what-gf-score-of-62-tells-investors",
+      "source": "GuruFocus",
+      "published_at": "20260826T014317",
+      "sentiment_score": -0.245763,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "XPEV"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Why Everyone Is Watching Kroger (KR) Today",
+      "summary": "Kroger (KR) is gaining investor attention following the launch of a combined grocery and prescription delivery service with Instacart, highlighting its online pharmacy and retai...",
+      "url": "https://simplywall.st/stocks/us/consumer-retailing/nyse-kr/kroger/news/why-everyone-is-watching-kroger-kr-today",
+      "source": "Simply Wall Street",
+      "published_at": "20260826T003849",
+      "sentiment_score": 0.147049,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KR"
+      ],
+      "topics": [
+        "Retail Wholesale",
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Pfizer Is Back Near Its 52-Week High. Is It Too Late to Buy?",
+      "summary": "Pfizer (PFE) is trading near its 52-week high after a 12% gain this year, raising questions about whether the easy money has already been made. Despite strong Q2 results, increa...",
+      "url": "https://www.tikr.com/blog/pfizer-is-back-near-its-52-week-high-is-it-too-late-to-buy",
+      "source": "TIKR.com",
+      "published_at": "20260826T000906",
+      "sentiment_score": 0.142128,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "PFE",
+        "JNJ",
+        "BMY"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Earnings",
+        "Financial Markets",
+        "Finance"
       ],
       "quality_score": 7,
       "is_noise": false
@@ -1202,46 +1219,46 @@
   ],
   "top_tickers": [
     {
-      "ticker": "SPGI",
+      "ticker": "MSFT",
+      "mentions": 3
+    },
+    {
+      "ticker": "GOOGL",
+      "mentions": 3
+    },
+    {
+      "ticker": "AMZN",
+      "mentions": 3
+    },
+    {
+      "ticker": "ORCL",
       "mentions": 2
     },
     {
-      "ticker": "GE",
+      "ticker": "MS",
       "mentions": 2
-    },
-    {
-      "ticker": "DAL",
-      "mentions": 2
-    },
-    {
-      "ticker": "WMT",
-      "mentions": 2
-    },
-    {
-      "ticker": "MCO",
-      "mentions": 1
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 37
+      "mentions": 35
     },
     {
       "topic": "Financial Markets",
       "mentions": 31
     },
     {
-      "topic": "Finance",
-      "mentions": 14
-    },
-    {
-      "topic": "Energy Transportation",
-      "mentions": 7
-    },
-    {
       "topic": "Technology",
-      "mentions": 6
+      "mentions": 13
+    },
+    {
+      "topic": "Finance",
+      "mentions": 8
+    },
+    {
+      "topic": "Retail Wholesale",
+      "mentions": 7
     }
   ],
   "sentiment_counts": [
@@ -1255,7 +1272,7 @@
     },
     {
       "label": "Bullish",
-      "count": 6
+      "count": 8
     },
     {
       "label": "Somewhat-Bearish",
@@ -1263,30 +1280,30 @@
     },
     {
       "label": "Bearish",
-      "count": 5
+      "count": 1
     }
   ],
   "top_sources": [
     {
       "source": "GuruFocus",
-      "count": 11
-    },
-    {
-      "source": "Simply Wall Street",
-      "count": 4
-    },
-    {
-      "source": "TechStock²",
-      "count": 3
+      "count": 7
     },
     {
       "source": "TIKR.com",
-      "count": 2
+      "count": 4
     },
     {
-      "source": "Benzinga",
-      "count": 2
+      "source": "Simply Wall Street",
+      "count": 3
+    },
+    {
+      "source": "qz.com",
+      "count": 3
+    },
+    {
+      "source": "Investing.com Canada",
+      "count": 3
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with SPGI appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with MSFT appearing most often and the headline tone mostly neutral."
 }
