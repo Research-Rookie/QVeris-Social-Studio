@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-ame-2026-08-27",
+    "date": "2026-08-27",
+    "runDate": "2026-08-27",
+    "createdAt": "2026-08-27T13:01:37.008610+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$AME news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-27.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-27T13:01:34.220882+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AME",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "AME",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-27T13:01:34.220882+00:00",
+      "date": "2026-08-27",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "AME",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "Lam Research (LRCX) Earnings History & Trends",
+      "headline_source": "24/7 Wall St.",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for AME: {'status_code': 200, 'data': {'c': 245.2, 'd': 3.43, 'dp': 1.4187, 'h': 246.35, 'l': 243.01, 'o': 243.01, 'pc': 241.77, 't': 1787774400}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "AME",
+            "mentions": 4
+          },
+          {
+            "ticker": "CINF",
+            "mentions": 4
+          },
+          {
+            "ticker": "MPC",
+            "mentions": 4
+          },
+          {
+            "ticker": "RJF",
+            "mentions": 4
+          },
+          {
+            "ticker": "BLK",
+            "mentions": 3
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 14
+          },
+          {
+            "label": "Bullish",
+            "count": 13
+          },
+          {
+            "label": "Neutral",
+            "count": 8
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-phm-2026-08-27",
     "date": "2026-08-27",
     "runDate": "2026-08-27",
