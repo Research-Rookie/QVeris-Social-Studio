@@ -1,5 +1,129 @@
 [
   {
+    "id": "market-narrative-shift-phm-2026-08-27",
+    "date": "2026-08-27",
+    "runDate": "2026-08-27",
+    "createdAt": "2026-08-27T12:15:10.775452+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $PHM",
+    "status": "ready",
+    "tweet": "What changed in $PHM's market narrative? 🔄\n\n🧭 Signal: Baseline building\n💬 Sentiment shift: baseline\n📌 Top theme: Earnings\n🔎 Emerging term: pultegroup\n📰 Coverage: 2 vs n/a\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_PHM_2026-08-27.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-27T12:15:09.178346+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$PHM",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Baseline building",
+    "topSymbol": "PHM",
+    "topChangePct": 0.0,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-27T12:15:09.178346+00:00",
+      "date": "2026-08-27",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "PHM",
+      "shift_label": "Baseline building",
+      "sentiment_delta": 0.0,
+      "baseline_label": "Building",
+      "current": {
+        "date": "2026-08-27",
+        "symbol": "PHM",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.2117,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Real Estate",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "pultegroup",
+            "count": 3
+          },
+          {
+            "label": "estimates",
+            "count": 3
+          },
+          {
+            "label": "firm",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "zacks",
+            "count": 2
+          },
+          {
+            "label": "industry",
+            "count": 2
+          },
+          {
+            "label": "holds",
+            "count": 1
+          },
+          {
+            "label": "diverge",
+            "count": 1
+          },
+          {
+            "label": "holding",
+            "count": 1
+          },
+          {
+            "label": "despite",
+            "count": 1
+          },
+          {
+            "label": "divergence",
+            "count": 1
+          },
+          {
+            "label": "lifting",
+            "count": 1
+          }
+        ],
+        "headline": "PulteGroup stock holds firm as earnings and estimates diverge",
+        "headline_source": "Ad-hoc-news.de"
+      },
+      "previous": null,
+      "emerging_themes": [
+        "Earnings",
+        "Real Estate",
+        "Economy Macro"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "pultegroup",
+        "estimates",
+        "firm"
+      ],
+      "fading_keywords": [],
+      "takeaway": "PHM leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-27",
     "date": "2026-08-27",
     "runDate": "2026-08-27",

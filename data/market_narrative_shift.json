@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-26T02:59:05.725903+00:00",
-  "date": "2026-08-26",
+  "updated_at": "2026-08-27T12:15:09.178346+00:00",
+  "date": "2026-08-27",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "MSFT",
-  "shift_label": "Theme rotation",
-  "sentiment_delta": -0.1072,
-  "baseline_label": "2026-08-24",
+  "symbol": "PHM",
+  "shift_label": "Baseline building",
+  "sentiment_delta": 0.0,
+  "baseline_label": "Building",
   "current": {
-    "date": "2026-08-26",
-    "symbol": "MSFT",
+    "date": "2026-08-27",
+    "symbol": "PHM",
     "article_count": 2,
     "source_count": 2,
-    "sentiment_score": 0.0383,
+    "sentiment_score": 0.2117,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,86 +21,12 @@
         "count": 2
       },
       {
-        "label": "Technology",
+        "label": "Real Estate",
         "count": 2
       },
       {
-        "label": "Financial Markets",
+        "label": "Economy Macro",
         "count": 2
-      },
-      {
-        "label": "Energy Transportation",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "oracle",
-        "count": 2
-      },
-      {
-        "label": "near",
-        "count": 2
-      },
-      {
-        "label": "multi-year",
-        "count": 2
-      },
-      {
-        "label": "lows",
-        "count": 2
-      },
-      {
-        "label": "has",
-        "count": 2
-      },
-      {
-        "label": "allegro",
-        "count": 2
-      },
-      {
-        "label": "microsystems",
-        "count": 2
-      },
-      {
-        "label": "algm",
-        "count": 2
-      },
-      {
-        "label": "computer",
-        "count": 2
-      },
-      {
-        "label": "technology",
-        "count": 2
-      },
-      {
-        "label": "backlog",
-        "count": 1
-      },
-      {
-        "label": "now",
-        "count": 1
-      }
-    ],
-    "headline": "Oracle Near Multi-Year Lows: The $638 Billion Backlog Now Depends on a Gas Pipeline",
-    "headline_source": "TIKR.com"
-  },
-  "previous": {
-    "date": "2026-08-24",
-    "symbol": "MSFT",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.1455,
-    "top_theme": "Technology",
-    "themes": [
-      {
-        "label": "Technology",
-        "count": 1
-      },
-      {
-        "label": "Earnings",
-        "count": 1
       },
       {
         "label": "Financial Markets",
@@ -109,73 +35,70 @@
     ],
     "keywords": [
       {
-        "label": "networks",
+        "label": "pultegroup",
         "count": 3
       },
       {
-        "label": "palo",
+        "label": "estimates",
+        "count": 3
+      },
+      {
+        "label": "firm",
         "count": 2
       },
       {
-        "label": "alto",
+        "label": "earnings",
         "count": 2
       },
       {
-        "label": "for",
+        "label": "zacks",
         "count": 2
       },
       {
-        "label": "ai-era",
+        "label": "industry",
         "count": 2
       },
       {
-        "label": "cybersecurity",
-        "count": 2
-      },
-      {
-        "label": "panw",
+        "label": "holds",
         "count": 1
       },
       {
-        "label": "quietly",
+        "label": "diverge",
         "count": 1
       },
       {
-        "label": "becoming",
+        "label": "holding",
         "count": 1
       },
       {
-        "label": "operating",
+        "label": "despite",
         "count": 1
       },
       {
-        "label": "system",
+        "label": "divergence",
         "count": 1
       },
       {
-        "label": "solidifying",
+        "label": "lifting",
         "count": 1
       }
     ],
-    "headline": "Is Palo Alto Networks (PANW) Quietly Becoming the Operating System for AI-Era Cybersecurity?",
-    "headline_source": "Simply Wall Street"
+    "headline": "PulteGroup stock holds firm as earnings and estimates diverge",
+    "headline_source": "Ad-hoc-news.de"
   },
+  "previous": null,
   "emerging_themes": [
     "Earnings",
-    "Technology",
-    "Financial Markets"
+    "Real Estate",
+    "Economy Macro"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "oracle",
-    "near",
-    "multi-year"
+    "pultegroup",
+    "estimates",
+    "firm"
   ],
-  "fading_keywords": [
-    "networks",
-    "palo",
-    "alto"
-  ],
-  "takeaway": "MSFT's narrative is theme rotation: sentiment moved -0.11, while the leading theme shifted from Technology to Earnings.",
+  "fading_keywords": [],
+  "takeaway": "PHM leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
