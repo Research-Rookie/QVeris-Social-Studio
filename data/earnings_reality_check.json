@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-27T14:22:52.109606+00:00",
-  "date": "2026-08-27",
+  "updated_at": "2026-08-28T15:31:27.876497+00:00",
+  "date": "2026-08-28",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via earnings history and daily prices",
   "title": "Earnings Reality Check",
@@ -9,18 +9,20 @@
   "reported_date": "2026-08-26",
   "fiscal_date": "2026-07-31",
   "report_time": "post-market",
-  "actual_eps": 0.99,
+  "actual_eps": 2.22,
   "estimated_eps": 2.09,
-  "surprise": -1.1,
-  "surprise_pct": -52.6316,
+  "surprise": 0.13,
+  "surprise_pct": 6.2201,
   "price_reaction": {
-    "available": false,
-    "change_pct": 0.0,
-    "base_date": "",
-    "reaction_date": ""
+    "available": true,
+    "base_date": "2026-08-26",
+    "base_close": 209.66,
+    "reaction_date": "2026-08-27",
+    "reaction_close": 227.98,
+    "change_pct": 8.737956691786696
   },
-  "verdict": "Price pending",
-  "takeaway": "The earnings result is in; the first full market reaction is not available yet.",
+  "verdict": "Beat and rewarded",
+  "takeaway": "Earnings cleared expectations and the next session confirmed the result.",
   "universe_size": 10,
   "candidate_count": 10
 }
