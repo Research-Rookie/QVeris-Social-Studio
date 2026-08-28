@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-tgt-2026-08-28",
+    "date": "2026-08-28",
+    "runDate": "2026-08-28",
+    "createdAt": "2026-08-28T14:32:18.420157+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$TGT news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-28.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-28T14:32:16.848280+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$TGT",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "TGT",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-28T14:32:16.848280+00:00",
+      "date": "2026-08-28",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "TGT",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "Ulta Beauty Beats Wall Street Expectations, Raises Full-year Forecasts Amid Strong Q2 Performance",
+      "headline_source": "WWD",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for TGT: {'status_code': 200, 'data': {'c': 163.21, 'd': -2.72, 'dp': -1.6392, 'h': 166.145, 'l': 162.87, 'o': 166.145, 'pc': 165.93, 't': 1787927514}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "TGT",
+            "mentions": 3
+          },
+          {
+            "ticker": "EMR",
+            "mentions": 3
+          },
+          {
+            "ticker": "ULTA",
+            "mentions": 2
+          },
+          {
+            "ticker": "SNPS",
+            "mentions": 2
+          },
+          {
+            "ticker": "CAT",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 17
+          },
+          {
+            "label": "Bullish",
+            "count": 11
+          },
+          {
+            "label": "Neutral",
+            "count": 9
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          },
+          {
+            "label": "Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-28",
     "date": "2026-08-28",
     "runDate": "2026-08-28",
