@@ -1,61 +1,37 @@
 {
-  "updated_at": "2026-08-27T12:15:09.178346+00:00",
-  "date": "2026-08-27",
+  "updated_at": "2026-08-29T08:31:26.920481+00:00",
+  "date": "2026-08-29",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "PHM",
-  "shift_label": "Baseline building",
-  "sentiment_delta": 0.0,
-  "baseline_label": "Building",
+  "symbol": "CSX",
+  "shift_label": "Bullish momentum cooling",
+  "sentiment_delta": -0.3299,
+  "baseline_label": "2026-07-23",
   "current": {
-    "date": "2026-08-27",
-    "symbol": "PHM",
-    "article_count": 2,
-    "source_count": 2,
-    "sentiment_score": 0.2117,
+    "date": "2026-08-29",
+    "symbol": "CSX",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.4901,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 2
-      },
-      {
-        "label": "Real Estate",
-        "count": 2
-      },
-      {
-        "label": "Economy Macro",
-        "count": 2
+        "count": 1
       },
       {
         "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Energy Transportation",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "pultegroup",
-        "count": 3
-      },
-      {
-        "label": "estimates",
-        "count": 3
-      },
-      {
-        "label": "firm",
-        "count": 2
-      },
-      {
-        "label": "earnings",
-        "count": 2
-      },
-      {
-        "label": "zacks",
-        "count": 2
-      },
-      {
-        "label": "industry",
+        "label": "above",
         "count": 2
       },
       {
@@ -63,42 +39,141 @@
         "count": 1
       },
       {
-        "label": "diverge",
+        "label": "beat",
         "count": 1
       },
       {
-        "label": "holding",
+        "label": "higher",
         "count": 1
       },
       {
-        "label": "despite",
+        "label": "guidance",
         "count": 1
       },
       {
-        "label": "divergence",
+        "label": "support",
         "count": 1
       },
       {
-        "label": "lifting",
+        "label": "outlook",
+        "count": 1
+      },
+      {
+        "label": "trading",
+        "count": 1
+      },
+      {
+        "label": "reported",
+        "count": 1
+      },
+      {
+        "label": "strong",
+        "count": 1
+      },
+      {
+        "label": "exceeding",
+        "count": 1
+      },
+      {
+        "label": "earnings",
         "count": 1
       }
     ],
-    "headline": "PulteGroup stock holds firm as earnings and estimates diverge",
+    "headline": "CSX stock holds above $51 as Q2 2026 beat and higher guidance support outlook",
     "headline_source": "Ad-hoc-news.de"
   },
-  "previous": null,
+  "previous": {
+    "date": "2026-07-23",
+    "symbol": "CSX",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.82,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Energy Transportation",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "record",
+        "count": 2
+      },
+      {
+        "label": "revenue",
+        "count": 2
+      },
+      {
+        "label": "freight",
+        "count": 2
+      },
+      {
+        "label": "demand",
+        "count": 2
+      },
+      {
+        "label": "posts",
+        "count": 1
+      },
+      {
+        "label": "data",
+        "count": 1
+      },
+      {
+        "label": "center",
+        "count": 1
+      },
+      {
+        "label": "boom",
+        "count": 1
+      },
+      {
+        "label": "drives",
+        "count": 1
+      },
+      {
+        "label": "corp",
+        "count": 1
+      },
+      {
+        "label": "reported",
+        "count": 1
+      },
+      {
+        "label": "net",
+        "count": 1
+      }
+    ],
+    "headline": "CSX posts record revenue as data center boom drives freight demand",
+    "headline_source": "The Business Journals"
+  },
   "emerging_themes": [
+    "Financial Markets",
     "Earnings",
-    "Real Estate",
+    "Energy Transportation"
+  ],
+  "fading_themes": [
     "Economy Macro"
   ],
-  "fading_themes": [],
   "emerging_keywords": [
-    "pultegroup",
-    "estimates",
-    "firm"
+    "above",
+    "holds",
+    "beat"
   ],
-  "fading_keywords": [],
-  "takeaway": "PHM leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+  "fading_keywords": [
+    "record",
+    "revenue",
+    "freight"
+  ],
+  "takeaway": "CSX's narrative is bullish momentum cooling: sentiment moved -0.33, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

@@ -1,5 +1,204 @@
 [
   {
+    "id": "market-narrative-shift-csx-2026-08-29",
+    "date": "2026-08-29",
+    "runDate": "2026-08-29",
+    "createdAt": "2026-08-29T08:31:29.660123+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $CSX",
+    "status": "ready",
+    "tweet": "What changed in $CSX's market narrative? 🔄\n\n🧭 Signal: Bullish momentum cooling\n💬 Sentiment shift: -0.33\n📌 Top theme: Earnings\n🔎 Emerging term: above\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_CSX_2026-08-29.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-29T08:31:26.920481+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$CSX",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Bullish momentum cooling",
+    "topSymbol": "CSX",
+    "topChangePct": -32.99,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-29T08:31:26.920481+00:00",
+      "date": "2026-08-29",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "CSX",
+      "shift_label": "Bullish momentum cooling",
+      "sentiment_delta": -0.3299,
+      "baseline_label": "2026-07-23",
+      "current": {
+        "date": "2026-08-29",
+        "symbol": "CSX",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.4901,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "above",
+            "count": 2
+          },
+          {
+            "label": "holds",
+            "count": 1
+          },
+          {
+            "label": "beat",
+            "count": 1
+          },
+          {
+            "label": "higher",
+            "count": 1
+          },
+          {
+            "label": "guidance",
+            "count": 1
+          },
+          {
+            "label": "support",
+            "count": 1
+          },
+          {
+            "label": "outlook",
+            "count": 1
+          },
+          {
+            "label": "trading",
+            "count": 1
+          },
+          {
+            "label": "reported",
+            "count": 1
+          },
+          {
+            "label": "strong",
+            "count": 1
+          },
+          {
+            "label": "exceeding",
+            "count": 1
+          },
+          {
+            "label": "earnings",
+            "count": 1
+          }
+        ],
+        "headline": "CSX stock holds above $51 as Q2 2026 beat and higher guidance support outlook",
+        "headline_source": "Ad-hoc-news.de"
+      },
+      "previous": {
+        "date": "2026-07-23",
+        "symbol": "CSX",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.82,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "record",
+            "count": 2
+          },
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "freight",
+            "count": 2
+          },
+          {
+            "label": "demand",
+            "count": 2
+          },
+          {
+            "label": "posts",
+            "count": 1
+          },
+          {
+            "label": "data",
+            "count": 1
+          },
+          {
+            "label": "center",
+            "count": 1
+          },
+          {
+            "label": "boom",
+            "count": 1
+          },
+          {
+            "label": "drives",
+            "count": 1
+          },
+          {
+            "label": "corp",
+            "count": 1
+          },
+          {
+            "label": "reported",
+            "count": 1
+          },
+          {
+            "label": "net",
+            "count": 1
+          }
+        ],
+        "headline": "CSX posts record revenue as data center boom drives freight demand",
+        "headline_source": "The Business Journals"
+      },
+      "emerging_themes": [
+        "Financial Markets",
+        "Earnings",
+        "Energy Transportation"
+      ],
+      "fading_themes": [
+        "Economy Macro"
+      ],
+      "emerging_keywords": [
+        "above",
+        "holds",
+        "beat"
+      ],
+      "fading_keywords": [
+        "record",
+        "revenue",
+        "freight"
+      ],
+      "takeaway": "CSX's narrative is bullish momentum cooling: sentiment moved -0.33, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-29",
     "date": "2026-08-29",
     "runDate": "2026-08-29",
