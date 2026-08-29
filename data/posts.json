@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-tjx-2026-08-29",
+    "date": "2026-08-29",
+    "runDate": "2026-08-29",
+    "createdAt": "2026-08-29T09:18:54.343080+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$TJX news vs price reaction:\n📰 News tone: Bullish\n📈 Price move: +0.00%\n💡 Signal: Muted reaction\n\nNews tone and price action are both relatively muted.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-29.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-29T09:18:52.827428+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$TJX",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Muted reaction",
+    "topSymbol": "TJX",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-29T09:18:52.827428+00:00",
+      "date": "2026-08-29",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "TJX",
+      "news_tone": "Bullish",
+      "top_theme": "Earnings",
+      "headline": "CSX stock holds above $51 as Q2 2026 beat and higher guidance support outlook",
+      "headline_source": "Ad-hoc-news.de",
+      "price": 135.12,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 6801149,
+      "reaction_label": "Muted reaction",
+      "takeaway": "News tone and price action are both relatively muted.",
+      "price_error": null,
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "TJX",
+            "mentions": 6
+          },
+          {
+            "ticker": "PH",
+            "mentions": 4
+          },
+          {
+            "ticker": "LOW",
+            "mentions": 4
+          },
+          {
+            "ticker": "ZBH",
+            "mentions": 3
+          },
+          {
+            "ticker": "JPM",
+            "mentions": 3
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Bullish",
+            "count": 20
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 16
+          },
+          {
+            "label": "Neutral",
+            "count": 9
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-csx-2026-08-29",
     "date": "2026-08-29",
     "runDate": "2026-08-29",
