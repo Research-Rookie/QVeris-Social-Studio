@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-slb-2026-08-30",
+    "date": "2026-08-30",
+    "runDate": "2026-08-30",
+    "createdAt": "2026-08-30T07:44:53.429765+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $SLB",
+    "status": "ready",
+    "tweet": "What changed in $SLB's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: -0.06\n📌 Top theme: Earnings\n🔎 Emerging term: data\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_SLB_2026-08-30.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-30T07:44:52.072596+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$SLB",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "SLB",
+    "topChangePct": -5.8500000000000005,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-30T07:44:52.072596+00:00",
+      "date": "2026-08-30",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "SLB",
+      "shift_label": "Attention rising",
+      "sentiment_delta": -0.0585,
+      "baseline_label": "2026-08-23",
+      "current": {
+        "date": "2026-08-30",
+        "symbol": "SLB",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.1193,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "data",
+            "count": 3
+          },
+          {
+            "label": "venezuela",
+            "count": 2
+          },
+          {
+            "label": "agreement",
+            "count": 2
+          },
+          {
+            "label": "carbon",
+            "count": 2
+          },
+          {
+            "label": "storage",
+            "count": 2
+          },
+          {
+            "label": "role",
+            "count": 2
+          },
+          {
+            "label": "climb",
+            "count": 1
+          },
+          {
+            "label": "remain",
+            "count": 1
+          },
+          {
+            "label": "above",
+            "count": 1
+          },
+          {
+            "label": "consensus",
+            "count": 1
+          },
+          {
+            "label": "rose",
+            "count": 1
+          },
+          {
+            "label": "securing",
+            "count": 1
+          }
+        ],
+        "headline": "SLB Shares Climb 4.2% After Venezuela Data Agreement, Analysts Remain 8% Above Consensus",
+        "headline_source": "TechStock²"
+      },
+      "previous": {
+        "date": "2026-08-23",
+        "symbol": "SLB",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1778,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "halliburton",
+            "count": 2
+          },
+          {
+            "label": "hal",
+            "count": 1
+          },
+          {
+            "label": "looks",
+            "count": 1
+          },
+          {
+            "label": "cheap",
+            "count": 1
+          },
+          {
+            "label": "earnings",
+            "count": 1
+          },
+          {
+            "label": "while",
+            "count": 1
+          },
+          {
+            "label": "run",
+            "count": 1
+          },
+          {
+            "label": "raises",
+            "count": 1
+          },
+          {
+            "label": "questions",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "seen",
+            "count": 1
+          },
+          {
+            "label": "return",
+            "count": 1
+          }
+        ],
+        "headline": "Halliburton (HAL) Stock Looks Cheap On Earnings While Its 89% Run Raises Questions",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "data",
+        "venezuela",
+        "agreement"
+      ],
+      "fading_keywords": [
+        "halliburton",
+        "hal",
+        "looks"
+      ],
+      "takeaway": "SLB's narrative is attention rising: sentiment moved -0.06, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-30",
     "date": "2026-08-30",
     "runDate": "2026-08-30",

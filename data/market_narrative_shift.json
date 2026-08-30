@@ -1,19 +1,97 @@
 {
-  "updated_at": "2026-08-29T08:31:26.920481+00:00",
-  "date": "2026-08-29",
+  "updated_at": "2026-08-30T07:44:52.072596+00:00",
+  "date": "2026-08-30",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "CSX",
-  "shift_label": "Bullish momentum cooling",
-  "sentiment_delta": -0.3299,
-  "baseline_label": "2026-07-23",
+  "symbol": "SLB",
+  "shift_label": "Attention rising",
+  "sentiment_delta": -0.0585,
+  "baseline_label": "2026-08-23",
   "current": {
-    "date": "2026-08-29",
-    "symbol": "CSX",
+    "date": "2026-08-30",
+    "symbol": "SLB",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.1193,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 2
+      },
+      {
+        "label": "Financial Markets",
+        "count": 2
+      },
+      {
+        "label": "Energy Transportation",
+        "count": 2
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "data",
+        "count": 3
+      },
+      {
+        "label": "venezuela",
+        "count": 2
+      },
+      {
+        "label": "agreement",
+        "count": 2
+      },
+      {
+        "label": "carbon",
+        "count": 2
+      },
+      {
+        "label": "storage",
+        "count": 2
+      },
+      {
+        "label": "role",
+        "count": 2
+      },
+      {
+        "label": "climb",
+        "count": 1
+      },
+      {
+        "label": "remain",
+        "count": 1
+      },
+      {
+        "label": "above",
+        "count": 1
+      },
+      {
+        "label": "consensus",
+        "count": 1
+      },
+      {
+        "label": "rose",
+        "count": 1
+      },
+      {
+        "label": "securing",
+        "count": 1
+      }
+    ],
+    "headline": "SLB Shares Climb 4.2% After Venezuela Data Agreement, Analysts Remain 8% Above Consensus",
+    "headline_source": "TechStock²"
+  },
+  "previous": {
+    "date": "2026-08-23",
+    "symbol": "SLB",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.4901,
+    "sentiment_score": 0.1778,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -31,149 +109,73 @@
     ],
     "keywords": [
       {
-        "label": "above",
+        "label": "halliburton",
         "count": 2
       },
       {
-        "label": "holds",
+        "label": "hal",
         "count": 1
       },
       {
-        "label": "beat",
+        "label": "looks",
         "count": 1
       },
       {
-        "label": "higher",
-        "count": 1
-      },
-      {
-        "label": "guidance",
-        "count": 1
-      },
-      {
-        "label": "support",
-        "count": 1
-      },
-      {
-        "label": "outlook",
-        "count": 1
-      },
-      {
-        "label": "trading",
-        "count": 1
-      },
-      {
-        "label": "reported",
-        "count": 1
-      },
-      {
-        "label": "strong",
-        "count": 1
-      },
-      {
-        "label": "exceeding",
+        "label": "cheap",
         "count": 1
       },
       {
         "label": "earnings",
         "count": 1
-      }
-    ],
-    "headline": "CSX stock holds above $51 as Q2 2026 beat and higher guidance support outlook",
-    "headline_source": "Ad-hoc-news.de"
-  },
-  "previous": {
-    "date": "2026-07-23",
-    "symbol": "CSX",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.82,
-    "top_theme": "Earnings",
-    "themes": [
+      },
       {
-        "label": "Earnings",
+        "label": "while",
         "count": 1
       },
       {
-        "label": "Energy Transportation",
+        "label": "run",
         "count": 1
       },
       {
-        "label": "Economy Macro",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "record",
-        "count": 2
-      },
-      {
-        "label": "revenue",
-        "count": 2
-      },
-      {
-        "label": "freight",
-        "count": 2
-      },
-      {
-        "label": "demand",
-        "count": 2
-      },
-      {
-        "label": "posts",
+        "label": "raises",
         "count": 1
       },
       {
-        "label": "data",
+        "label": "questions",
         "count": 1
       },
       {
-        "label": "center",
+        "label": "has",
         "count": 1
       },
       {
-        "label": "boom",
+        "label": "seen",
         "count": 1
       },
       {
-        "label": "drives",
-        "count": 1
-      },
-      {
-        "label": "corp",
-        "count": 1
-      },
-      {
-        "label": "reported",
-        "count": 1
-      },
-      {
-        "label": "net",
+        "label": "return",
         "count": 1
       }
     ],
-    "headline": "CSX posts record revenue as data center boom drives freight demand",
-    "headline_source": "The Business Journals"
+    "headline": "Halliburton (HAL) Stock Looks Cheap On Earnings While Its 89% Run Raises Questions",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
-    "Financial Markets",
     "Earnings",
+    "Financial Markets",
     "Energy Transportation"
   ],
-  "fading_themes": [
-    "Economy Macro"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "above",
-    "holds",
-    "beat"
+    "data",
+    "venezuela",
+    "agreement"
   ],
   "fading_keywords": [
-    "record",
-    "revenue",
-    "freight"
+    "halliburton",
+    "hal",
+    "looks"
   ],
-  "takeaway": "CSX's narrative is bullish momentum cooling: sentiment moved -0.33, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "SLB's narrative is attention rising: sentiment moved -0.06, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
