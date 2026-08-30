@@ -1,60 +1,60 @@
 {
-  "updated_at": "2026-08-29T09:18:52.827428+00:00",
-  "date": "2026-08-29",
+  "updated_at": "2026-08-30T08:29:59.624416+00:00",
+  "date": "2026-08-30",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "TJX",
-  "news_tone": "Bullish",
+  "symbol": "BLK",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "CSX stock holds above $51 as Q2 2026 beat and higher guidance support outlook",
-  "headline_source": "Ad-hoc-news.de",
-  "price": 135.12,
+  "headline": "WEC Energy Group stock holds steady as guidance and analyst targets support 2026 outlook",
+  "headline_source": "AD HOC NEWS",
+  "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
-  "volume": 6801149,
-  "reaction_label": "Muted reaction",
-  "takeaway": "News tone and price action are both relatively muted.",
-  "price_error": null,
+  "volume": 0,
+  "reaction_label": "Price pending",
+  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+  "price_error": "Could not parse quote data for BLK: {'status_code': 200, 'data': {'c': 1164.48, 'd': -3.09, 'dp': -0.2647, 'h': 1183.39, 'l': 1158.32, 'o': 1170.56, 'pc': 1167.57, 't': 1787947200}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "TJX",
-        "mentions": 6
+        "ticker": "BLK",
+        "mentions": 5
       },
       {
-        "ticker": "PH",
+        "ticker": "BAC",
         "mentions": 4
-      },
-      {
-        "ticker": "LOW",
-        "mentions": 4
-      },
-      {
-        "ticker": "ZBH",
-        "mentions": 3
       },
       {
         "ticker": "JPM",
+        "mentions": 4
+      },
+      {
+        "ticker": "PH",
+        "mentions": 3
+      },
+      {
+        "ticker": "SLB",
         "mentions": 3
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Bullish",
-        "count": 20
+        "label": "Somewhat-Bullish",
+        "count": 26
       },
       {
-        "label": "Somewhat-Bullish",
-        "count": 16
+        "label": "Bullish",
+        "count": 13
       },
       {
         "label": "Neutral",
-        "count": 9
+        "count": 8
       },
       {
-        "label": "Somewhat-Bearish",
+        "label": "Bearish",
         "count": 1
       }
     ]

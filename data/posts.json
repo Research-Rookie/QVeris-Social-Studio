@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-blk-2026-08-30",
+    "date": "2026-08-30",
+    "runDate": "2026-08-30",
+    "createdAt": "2026-08-30T08:30:01.146174+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$BLK news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-30.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-30T08:29:59.624416+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BLK",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "BLK",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-30T08:29:59.624416+00:00",
+      "date": "2026-08-30",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "BLK",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "WEC Energy Group stock holds steady as guidance and analyst targets support 2026 outlook",
+      "headline_source": "AD HOC NEWS",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for BLK: {'status_code': 200, 'data': {'c': 1164.48, 'd': -3.09, 'dp': -0.2647, 'h': 1183.39, 'l': 1158.32, 'o': 1170.56, 'pc': 1167.57, 't': 1787947200}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "BLK",
+            "mentions": 5
+          },
+          {
+            "ticker": "BAC",
+            "mentions": 4
+          },
+          {
+            "ticker": "JPM",
+            "mentions": 4
+          },
+          {
+            "ticker": "PH",
+            "mentions": 3
+          },
+          {
+            "ticker": "SLB",
+            "mentions": 3
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 26
+          },
+          {
+            "label": "Bullish",
+            "count": 13
+          },
+          {
+            "label": "Neutral",
+            "count": 8
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-slb-2026-08-30",
     "date": "2026-08-30",
     "runDate": "2026-08-30",
