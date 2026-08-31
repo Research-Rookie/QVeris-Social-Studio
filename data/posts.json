@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-blk-2026-08-31",
+    "date": "2026-08-31",
+    "runDate": "2026-08-31",
+    "createdAt": "2026-08-31T08:51:07.048172+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$BLK news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-08-31.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-08-31T08:51:04.346223+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BLK",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "BLK",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-08-31T08:51:04.346223+00:00",
+      "date": "2026-08-31",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "BLK",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "Qualcomm stock holds steady as guidance anchors earnings outlook",
+      "headline_source": "AD HOC NEWS",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "第三方服务暂时不可用，请稍后重试: Too many requests are being made to this site. You have been temporarily rate-limited.",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "BLK",
+            "mentions": 8
+          },
+          {
+            "ticker": "TJX",
+            "mentions": 4
+          },
+          {
+            "ticker": "BAC",
+            "mentions": 4
+          },
+          {
+            "ticker": "DLTR",
+            "mentions": 3
+          },
+          {
+            "ticker": "RMD",
+            "mentions": 3
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 21
+          },
+          {
+            "label": "Bullish",
+            "count": 12
+          },
+          {
+            "label": "Neutral",
+            "count": 12
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-dltr-2026-08-31",
     "date": "2026-08-31",
     "runDate": "2026-08-31",
