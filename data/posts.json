@@ -1,5 +1,214 @@
 [
   {
+    "id": "market-narrative-shift-dltr-2026-08-31",
+    "date": "2026-08-31",
+    "runDate": "2026-08-31",
+    "createdAt": "2026-08-31T07:59:09.812855+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $DLTR",
+    "status": "ready",
+    "tweet": "What changed in $DLTR's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.13\n📌 Top theme: Earnings\n🔎 Emerging term: tree\n📰 Coverage: 3 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_DLTR_2026-08-31.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-08-31T07:59:08.164917+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$DLTR",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "DLTR",
+    "topChangePct": 12.870000000000001,
+    "marketNarrativeShift": {
+      "updated_at": "2026-08-31T07:59:08.164917+00:00",
+      "date": "2026-08-31",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "DLTR",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.1287,
+      "baseline_label": "2026-08-27",
+      "current": {
+        "date": "2026-08-31",
+        "symbol": "DLTR",
+        "article_count": 3,
+        "source_count": 2,
+        "sentiment_score": 0.1966,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 3
+          },
+          {
+            "label": "Financial Markets",
+            "count": 3
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 3
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "dollar",
+            "count": 6
+          },
+          {
+            "label": "tree",
+            "count": 6
+          },
+          {
+            "label": "acquired",
+            "count": 3
+          },
+          {
+            "label": "kingsview",
+            "count": 2
+          },
+          {
+            "label": "wealth",
+            "count": 2
+          },
+          {
+            "label": "management",
+            "count": 2
+          },
+          {
+            "label": "llc",
+            "count": 2
+          },
+          {
+            "label": "recently",
+            "count": 2
+          },
+          {
+            "label": "valued",
+            "count": 2
+          },
+          {
+            "label": "jefferies",
+            "count": 2
+          },
+          {
+            "label": "financial",
+            "count": 2
+          },
+          {
+            "label": "very",
+            "count": 2
+          }
+        ],
+        "headline": "12,679 Shares in Dollar Tree, Inc. $DLTR Bought by Kingsview Wealth Management LLC",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-08-27",
+        "symbol": "DLTR",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0679,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "dollar",
+            "count": 2
+          },
+          {
+            "label": "general",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "steadies",
+            "count": 1
+          },
+          {
+            "label": "key",
+            "count": 1
+          },
+          {
+            "label": "test",
+            "count": 1
+          },
+          {
+            "label": "trading",
+            "count": 1
+          },
+          {
+            "label": "low",
+            "count": 1
+          },
+          {
+            "label": "prepares",
+            "count": 1
+          },
+          {
+            "label": "release",
+            "count": 1
+          },
+          {
+            "label": "second-quarter",
+            "count": 1
+          },
+          {
+            "label": "august",
+            "count": 1
+          }
+        ],
+        "headline": "Dollar General stock steadies ahead of key earnings test",
+        "headline_source": "Ad-hoc-news.de"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "tree",
+        "dollar",
+        "acquired"
+      ],
+      "fading_keywords": [
+        "general",
+        "earnings",
+        "steadies"
+      ],
+      "takeaway": "DLTR's narrative is turning bullish: sentiment moved +0.13, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-08-31",
     "date": "2026-08-31",
     "runDate": "2026-08-31",

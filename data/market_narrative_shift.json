@@ -1,32 +1,114 @@
 {
-  "updated_at": "2026-08-30T07:44:52.072596+00:00",
-  "date": "2026-08-30",
+  "updated_at": "2026-08-31T07:59:08.164917+00:00",
+  "date": "2026-08-31",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "SLB",
-  "shift_label": "Attention rising",
-  "sentiment_delta": -0.0585,
-  "baseline_label": "2026-08-23",
+  "symbol": "DLTR",
+  "shift_label": "Turning bullish",
+  "sentiment_delta": 0.1287,
+  "baseline_label": "2026-08-27",
   "current": {
-    "date": "2026-08-30",
-    "symbol": "SLB",
-    "article_count": 2,
+    "date": "2026-08-31",
+    "symbol": "DLTR",
+    "article_count": 3,
     "source_count": 2,
-    "sentiment_score": 0.1193,
+    "sentiment_score": 0.1966,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 2
+        "count": 3
       },
       {
         "label": "Financial Markets",
-        "count": 2
+        "count": 3
+      },
+      {
+        "label": "Retail Wholesale",
+        "count": 3
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
       },
       {
         "label": "Energy Transportation",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "dollar",
+        "count": 6
+      },
+      {
+        "label": "tree",
+        "count": 6
+      },
+      {
+        "label": "acquired",
+        "count": 3
+      },
+      {
+        "label": "kingsview",
         "count": 2
+      },
+      {
+        "label": "wealth",
+        "count": 2
+      },
+      {
+        "label": "management",
+        "count": 2
+      },
+      {
+        "label": "llc",
+        "count": 2
+      },
+      {
+        "label": "recently",
+        "count": 2
+      },
+      {
+        "label": "valued",
+        "count": 2
+      },
+      {
+        "label": "jefferies",
+        "count": 2
+      },
+      {
+        "label": "financial",
+        "count": 2
+      },
+      {
+        "label": "very",
+        "count": 2
+      }
+    ],
+    "headline": "12,679 Shares in Dollar Tree, Inc. $DLTR Bought by Kingsview Wealth Management LLC",
+    "headline_source": "MarketBeat"
+  },
+  "previous": {
+    "date": "2026-08-27",
+    "symbol": "DLTR",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.0679,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Retail Wholesale",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
       },
       {
         "label": "Economy Macro",
@@ -35,147 +117,73 @@
     ],
     "keywords": [
       {
-        "label": "data",
-        "count": 3
-      },
-      {
-        "label": "venezuela",
+        "label": "dollar",
         "count": 2
       },
       {
-        "label": "agreement",
+        "label": "general",
         "count": 2
-      },
-      {
-        "label": "carbon",
-        "count": 2
-      },
-      {
-        "label": "storage",
-        "count": 2
-      },
-      {
-        "label": "role",
-        "count": 2
-      },
-      {
-        "label": "climb",
-        "count": 1
-      },
-      {
-        "label": "remain",
-        "count": 1
-      },
-      {
-        "label": "above",
-        "count": 1
-      },
-      {
-        "label": "consensus",
-        "count": 1
-      },
-      {
-        "label": "rose",
-        "count": 1
-      },
-      {
-        "label": "securing",
-        "count": 1
-      }
-    ],
-    "headline": "SLB Shares Climb 4.2% After Venezuela Data Agreement, Analysts Remain 8% Above Consensus",
-    "headline_source": "TechStock²"
-  },
-  "previous": {
-    "date": "2026-08-23",
-    "symbol": "SLB",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.1778,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Energy Transportation",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "halliburton",
-        "count": 2
-      },
-      {
-        "label": "hal",
-        "count": 1
-      },
-      {
-        "label": "looks",
-        "count": 1
-      },
-      {
-        "label": "cheap",
-        "count": 1
       },
       {
         "label": "earnings",
+        "count": 2
+      },
+      {
+        "label": "steadies",
         "count": 1
       },
       {
-        "label": "while",
+        "label": "key",
         "count": 1
       },
       {
-        "label": "run",
+        "label": "test",
         "count": 1
       },
       {
-        "label": "raises",
+        "label": "trading",
         "count": 1
       },
       {
-        "label": "questions",
+        "label": "low",
         "count": 1
       },
       {
-        "label": "has",
+        "label": "prepares",
         "count": 1
       },
       {
-        "label": "seen",
+        "label": "release",
         "count": 1
       },
       {
-        "label": "return",
+        "label": "second-quarter",
+        "count": 1
+      },
+      {
+        "label": "august",
         "count": 1
       }
     ],
-    "headline": "Halliburton (HAL) Stock Looks Cheap On Earnings While Its 89% Run Raises Questions",
-    "headline_source": "Simply Wall Street"
+    "headline": "Dollar General stock steadies ahead of key earnings test",
+    "headline_source": "Ad-hoc-news.de"
   },
   "emerging_themes": [
     "Earnings",
     "Financial Markets",
-    "Energy Transportation"
+    "Retail Wholesale"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "data",
-    "venezuela",
-    "agreement"
+    "tree",
+    "dollar",
+    "acquired"
   ],
   "fading_keywords": [
-    "halliburton",
-    "hal",
-    "looks"
+    "general",
+    "earnings",
+    "steadies"
   ],
-  "takeaway": "SLB's narrative is attention rising: sentiment moved -0.06, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "DLTR's narrative is turning bullish: sentiment moved +0.13, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
