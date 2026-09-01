@@ -1,101 +1,19 @@
 {
-  "updated_at": "2026-08-31T07:59:08.164917+00:00",
-  "date": "2026-08-31",
+  "updated_at": "2026-09-01T07:06:05.246327+00:00",
+  "date": "2026-09-01",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "DLTR",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.1287,
-  "baseline_label": "2026-08-27",
+  "symbol": "BXP",
+  "shift_label": "Narrative steady",
+  "sentiment_delta": -0.0502,
+  "baseline_label": "2026-08-29",
   "current": {
-    "date": "2026-08-31",
-    "symbol": "DLTR",
-    "article_count": 3,
-    "source_count": 2,
-    "sentiment_score": 0.1966,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 3
-      },
-      {
-        "label": "Financial Markets",
-        "count": 3
-      },
-      {
-        "label": "Retail Wholesale",
-        "count": 3
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      },
-      {
-        "label": "Energy Transportation",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "dollar",
-        "count": 6
-      },
-      {
-        "label": "tree",
-        "count": 6
-      },
-      {
-        "label": "acquired",
-        "count": 3
-      },
-      {
-        "label": "kingsview",
-        "count": 2
-      },
-      {
-        "label": "wealth",
-        "count": 2
-      },
-      {
-        "label": "management",
-        "count": 2
-      },
-      {
-        "label": "llc",
-        "count": 2
-      },
-      {
-        "label": "recently",
-        "count": 2
-      },
-      {
-        "label": "valued",
-        "count": 2
-      },
-      {
-        "label": "jefferies",
-        "count": 2
-      },
-      {
-        "label": "financial",
-        "count": 2
-      },
-      {
-        "label": "very",
-        "count": 2
-      }
-    ],
-    "headline": "12,679 Shares in Dollar Tree, Inc. $DLTR Bought by Kingsview Wealth Management LLC",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-08-27",
-    "symbol": "DLTR",
+    "date": "2026-09-01",
+    "symbol": "BXP",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.0679,
+    "sentiment_score": 0.3452,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -103,25 +21,25 @@
         "count": 1
       },
       {
-        "label": "Retail Wholesale",
+        "label": "Real Estate",
         "count": 1
       },
       {
         "label": "Financial Markets",
         "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "dollar",
+        "label": "boston",
         "count": 2
       },
       {
-        "label": "general",
+        "label": "properties",
+        "count": 2
+      },
+      {
+        "label": "high",
         "count": 2
       },
       {
@@ -129,15 +47,19 @@
         "count": 2
       },
       {
-        "label": "steadies",
+        "label": "holds",
         "count": 1
       },
       {
-        "label": "key",
+        "label": "guidance",
         "count": 1
       },
       {
-        "label": "test",
+        "label": "targets",
+        "count": 1
+      },
+      {
+        "label": "growth",
         "count": 1
       },
       {
@@ -145,45 +67,122 @@
         "count": 1
       },
       {
-        "label": "low",
+        "label": "recent",
         "count": 1
       },
       {
-        "label": "prepares",
+        "label": "quarterly",
         "count": 1
       },
       {
-        "label": "release",
-        "count": 1
-      },
-      {
-        "label": "second-quarter",
-        "count": 1
-      },
-      {
-        "label": "august",
+        "label": "results",
         "count": 1
       }
     ],
-    "headline": "Dollar General stock steadies ahead of key earnings test",
+    "headline": "Boston Properties stock holds in the high $60s as guidance targets 2026 earnings growth",
+    "headline_source": "AD HOC NEWS"
+  },
+  "previous": {
+    "date": "2026-08-29",
+    "symbol": "BXP",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.3954,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Real Estate",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "boston",
+        "count": 2
+      },
+      {
+        "label": "properties",
+        "count": 2
+      },
+      {
+        "label": "holds",
+        "count": 1
+      },
+      {
+        "label": "firm",
+        "count": 1
+      },
+      {
+        "label": "see",
+        "count": 1
+      },
+      {
+        "label": "trading",
+        "count": 1
+      },
+      {
+        "label": "near",
+        "count": 1
+      },
+      {
+        "label": "maintaining",
+        "count": 1
+      },
+      {
+        "label": "consensus",
+        "count": 1
+      },
+      {
+        "label": "target",
+        "count": 1
+      },
+      {
+        "label": "quarterly",
+        "count": 1
+      },
+      {
+        "label": "revenue",
+        "count": 1
+      }
+    ],
+    "headline": "Boston Properties stock holds firm as analysts see $74.79",
     "headline_source": "Ad-hoc-news.de"
   },
   "emerging_themes": [
     "Earnings",
-    "Financial Markets",
-    "Retail Wholesale"
+    "Real Estate",
+    "Financial Markets"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Finance",
+    "Economy Macro"
+  ],
   "emerging_keywords": [
-    "tree",
-    "dollar",
-    "acquired"
+    "high",
+    "earnings",
+    "guidance"
   ],
   "fading_keywords": [
-    "general",
-    "earnings",
-    "steadies"
+    "firm",
+    "see",
+    "near"
   ],
-  "takeaway": "DLTR's narrative is turning bullish: sentiment moved +0.13, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "BXP's narrative is narrative steady: sentiment moved -0.05, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
