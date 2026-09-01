@@ -1,5 +1,105 @@
 [
   {
+    "id": "api-reliability-arena-stock-quotes-2026-09-01",
+    "date": "2026-09-01",
+    "runDate": "2026-09-01",
+    "createdAt": "2026-09-01T11:52:16.927235+00:00",
+    "contentType": "API RELIABILITY ARENA",
+    "title": "API Reliability Arena: Live U.S. stock quotes",
+    "status": "ready",
+    "tweet": "Which API would an AI agent choose? ⚔️\n\nToday's task: Live U.S. stock quotes\n🏆 Realtime Bulk Bid & Ask Prices\n✅ 100.0% success | ⚡ 621ms | 🪙 1 credits\n\nQVeris compares routing signals before the call, so agents can choose with evidence.\nhttps://qveris.ai",
+    "image": "/posts/api_reliability_arena_stock-quotes_2026-09-01.png",
+    "dataSource": "QVeris Discover routing signals",
+    "dataUpdatedAt": "2026-09-01T11:52:15.275289+00:00",
+    "xPostId": null,
+    "primaryLabel": "Champion",
+    "primaryValue": "Realtime Bulk Bid & Ask Prices",
+    "secondaryLabel": "Route score",
+    "secondaryValue": "87.1",
+    "topSymbol": "API",
+    "topChangePct": 87.1,
+    "apiReliabilityArena": {
+      "updated_at": "2026-09-01T11:52:15.275289+00:00",
+      "date": "2026-09-01",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris Discover routing signals",
+      "title": "API Reliability Arena",
+      "scenario": {
+        "key": "stock-quotes",
+        "label": "Live U.S. stock quotes",
+        "task": "Retrieve the latest U.S. stock price, change, and volume",
+        "query": "real-time US stock quote API latest price change percent and volume"
+      },
+      "search_id": "f4a7e0d5-ee05-4d16-97b3-3a28f1b36971",
+      "result_count": 10,
+      "competitors": [
+        {
+          "tool_id": "alphavantage.realtime_bulk_bid_ask_prices.retrieve.v1.9b8a7c6d",
+          "name": "Realtime Bulk Bid & Ask Prices",
+          "provider": "Alpha Vantage",
+          "success_rate": 1.0,
+          "latency_ms": 620.86,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 87.1,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 1
+        },
+        {
+          "tool_id": "cn_financial_pro.real_time_quotation.v1",
+          "name": "实时行情 (Real-time Quotation)",
+          "provider": "Provider not stated",
+          "success_rate": 0.957783,
+          "latency_ms": 891.04,
+          "cost_credits": 0.00132,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 85.9,
+          "metric_count": 3,
+          "expected_cost_text": "1 credits/result",
+          "rank": 2
+        },
+        {
+          "tool_id": "massive_stocks.stocks.short_volume.list.v1.ab57f5a6",
+          "name": "List Short Volume Data",
+          "provider": "Provider not stated",
+          "success_rate": 1.0,
+          "latency_ms": 786.71,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 85.7,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 3
+        }
+      ],
+      "champion": {
+        "tool_id": "alphavantage.realtime_bulk_bid_ask_prices.retrieve.v1.9b8a7c6d",
+        "name": "Realtime Bulk Bid & Ask Prices",
+        "provider": "Alpha Vantage",
+        "success_rate": 1.0,
+        "latency_ms": 620.86,
+        "cost_credits": 1.0,
+        "cost_known": true,
+        "freshness": "Not stated",
+        "route_score": 87.1,
+        "metric_count": 3,
+        "expected_cost_text": "1",
+        "rank": 1
+      },
+      "takeaway": "QVeris ranks Realtime Bulk Bid & Ask Prices first for live u.s. stock quotes, led by 100.0% historical success.",
+      "methodology": {
+        "success_weight": 0.55,
+        "latency_weight": 0.25,
+        "cost_weight": 0.2,
+        "note": "Ranking uses QVeris historical routing signals; it is not a live load test."
+      }
+    }
+  },
+  {
     "id": "earnings-reality-check-nvda-2026-08-26",
     "date": "2026-09-01",
     "runDate": "2026-09-01",
