@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-azo-2026-09-01",
+    "date": "2026-09-01",
+    "runDate": "2026-09-01",
+    "createdAt": "2026-09-01T07:57:07.362568+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$AZO news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Muted reaction\n\nNews tone and price action are both relatively muted.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-01.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-01T07:57:05.970557+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AZO",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Muted reaction",
+    "topSymbol": "AZO",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-01T07:57:05.970557+00:00",
+      "date": "2026-09-01",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "AZO",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "Boston Properties stock holds in the high $60s as guidance targets 2026 earnings growth",
+      "headline_source": "AD HOC NEWS",
+      "price": 2991.24,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 378688,
+      "reaction_label": "Muted reaction",
+      "takeaway": "News tone and price action are both relatively muted.",
+      "price_error": null,
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "AZO",
+            "mentions": 4
+          },
+          {
+            "ticker": "NEE",
+            "mentions": 4
+          },
+          {
+            "ticker": "CEG",
+            "mentions": 4
+          },
+          {
+            "ticker": "NFLX",
+            "mentions": 3
+          },
+          {
+            "ticker": "D",
+            "mentions": 3
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 15
+          },
+          {
+            "label": "Bullish",
+            "count": 15
+          },
+          {
+            "label": "Neutral",
+            "count": 13
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-bxp-2026-09-01",
     "date": "2026-09-01",
     "runDate": "2026-09-01",
