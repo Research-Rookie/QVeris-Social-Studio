@@ -1,95 +1,103 @@
 {
-  "updated_at": "2026-09-01T07:06:05.246327+00:00",
-  "date": "2026-09-01",
+  "updated_at": "2026-09-02T06:42:50.876955+00:00",
+  "date": "2026-09-02",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "BXP",
-  "shift_label": "Narrative steady",
-  "sentiment_delta": -0.0502,
-  "baseline_label": "2026-08-29",
+  "symbol": "PANW",
+  "shift_label": "Theme rotation",
+  "sentiment_delta": -0.0651,
+  "baseline_label": "2026-08-24",
   "current": {
-    "date": "2026-09-01",
-    "symbol": "BXP",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.3452,
+    "date": "2026-09-02",
+    "symbol": "PANW",
+    "article_count": 4,
+    "source_count": 3,
+    "sentiment_score": 0.0804,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Real Estate",
-        "count": 1
+        "count": 4
       },
       {
         "label": "Financial Markets",
-        "count": 1
+        "count": 4
+      },
+      {
+        "label": "Technology",
+        "count": 4
+      },
+      {
+        "label": "Mergers And Acquisitions",
+        "count": 2
       }
     ],
     "keywords": [
       {
-        "label": "boston",
+        "label": "palo",
+        "count": 8
+      },
+      {
+        "label": "alto",
+        "count": 8
+      },
+      {
+        "label": "networks",
+        "count": 8
+      },
+      {
+        "label": "demand",
+        "count": 5
+      },
+      {
+        "label": "for",
+        "count": 5
+      },
+      {
+        "label": "strong",
+        "count": 3
+      },
+      {
+        "label": "cybersecurity",
+        "count": 3
+      },
+      {
+        "label": "driven",
+        "count": 3
+      },
+      {
+        "label": "estimates",
+        "count": 3
+      },
+      {
+        "label": "fiscal",
+        "count": 3
+      },
+      {
+        "label": "despite",
         "count": 2
       },
       {
-        "label": "properties",
+        "label": "beats",
         "count": 2
-      },
-      {
-        "label": "high",
-        "count": 2
-      },
-      {
-        "label": "earnings",
-        "count": 2
-      },
-      {
-        "label": "holds",
-        "count": 1
-      },
-      {
-        "label": "guidance",
-        "count": 1
-      },
-      {
-        "label": "targets",
-        "count": 1
-      },
-      {
-        "label": "growth",
-        "count": 1
-      },
-      {
-        "label": "trading",
-        "count": 1
-      },
-      {
-        "label": "recent",
-        "count": 1
-      },
-      {
-        "label": "quarterly",
-        "count": 1
-      },
-      {
-        "label": "results",
-        "count": 1
       }
     ],
-    "headline": "Boston Properties stock holds in the high $60s as guidance targets 2026 earnings growth",
-    "headline_source": "AD HOC NEWS"
+    "headline": "Palo Alto Networks’ stock falls despite strong AI cybersecurity demand",
+    "headline_source": "MarketWatch"
   },
   "previous": {
-    "date": "2026-08-29",
-    "symbol": "BXP",
+    "date": "2026-08-24",
+    "symbol": "PANW",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.3954,
-    "top_theme": "Earnings",
+    "sentiment_score": 0.1455,
+    "top_theme": "Technology",
     "themes": [
+      {
+        "label": "Technology",
+        "count": 1
+      },
       {
         "label": "Earnings",
         "count": 1
@@ -97,92 +105,77 @@
       {
         "label": "Financial Markets",
         "count": 1
-      },
-      {
-        "label": "Real Estate",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "boston",
+        "label": "networks",
+        "count": 3
+      },
+      {
+        "label": "palo",
         "count": 2
       },
       {
-        "label": "properties",
+        "label": "alto",
         "count": 2
       },
       {
-        "label": "holds",
+        "label": "for",
+        "count": 2
+      },
+      {
+        "label": "ai-era",
+        "count": 2
+      },
+      {
+        "label": "cybersecurity",
+        "count": 2
+      },
+      {
+        "label": "quietly",
         "count": 1
       },
       {
-        "label": "firm",
+        "label": "becoming",
         "count": 1
       },
       {
-        "label": "see",
+        "label": "operating",
         "count": 1
       },
       {
-        "label": "trading",
+        "label": "system",
         "count": 1
       },
       {
-        "label": "near",
+        "label": "solidifying",
         "count": 1
       },
       {
-        "label": "maintaining",
-        "count": 1
-      },
-      {
-        "label": "consensus",
-        "count": 1
-      },
-      {
-        "label": "target",
-        "count": 1
-      },
-      {
-        "label": "quarterly",
-        "count": 1
-      },
-      {
-        "label": "revenue",
+        "label": "role",
         "count": 1
       }
     ],
-    "headline": "Boston Properties stock holds firm as analysts see $74.79",
-    "headline_source": "Ad-hoc-news.de"
+    "headline": "Is Palo Alto Networks (PANW) Quietly Becoming the Operating System for AI-Era Cybersecurity?",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
     "Earnings",
-    "Real Estate",
-    "Financial Markets"
+    "Financial Markets",
+    "Technology"
   ],
-  "fading_themes": [
-    "Finance",
-    "Economy Macro"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "high",
-    "earnings",
-    "guidance"
+    "palo",
+    "alto",
+    "networks"
   ],
   "fading_keywords": [
-    "firm",
-    "see",
-    "near"
+    "ai-era",
+    "quietly",
+    "becoming"
   ],
-  "takeaway": "BXP's narrative is narrative steady: sentiment moved -0.05, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "PANW's narrative is theme rotation: sentiment moved -0.07, while the leading theme shifted from Technology to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

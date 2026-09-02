@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-panw-2026-09-02",
+    "date": "2026-09-02",
+    "runDate": "2026-09-02",
+    "createdAt": "2026-09-02T06:42:52.381454+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $PANW",
+    "status": "ready",
+    "tweet": "What changed in $PANW's market narrative? 🔄\n\n🧭 Signal: Theme rotation\n💬 Sentiment shift: -0.07\n📌 Top theme: Earnings\n🔎 Emerging term: palo\n📰 Coverage: 4 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_PANW_2026-09-02.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-02T06:42:50.876955+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$PANW",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Theme rotation",
+    "topSymbol": "PANW",
+    "topChangePct": -6.510000000000001,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-02T06:42:50.876955+00:00",
+      "date": "2026-09-02",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "PANW",
+      "shift_label": "Theme rotation",
+      "sentiment_delta": -0.0651,
+      "baseline_label": "2026-08-24",
+      "current": {
+        "date": "2026-09-02",
+        "symbol": "PANW",
+        "article_count": 4,
+        "source_count": 3,
+        "sentiment_score": 0.0804,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 4
+          },
+          {
+            "label": "Financial Markets",
+            "count": 4
+          },
+          {
+            "label": "Technology",
+            "count": 4
+          },
+          {
+            "label": "Mergers And Acquisitions",
+            "count": 2
+          }
+        ],
+        "keywords": [
+          {
+            "label": "palo",
+            "count": 8
+          },
+          {
+            "label": "alto",
+            "count": 8
+          },
+          {
+            "label": "networks",
+            "count": 8
+          },
+          {
+            "label": "demand",
+            "count": 5
+          },
+          {
+            "label": "for",
+            "count": 5
+          },
+          {
+            "label": "strong",
+            "count": 3
+          },
+          {
+            "label": "cybersecurity",
+            "count": 3
+          },
+          {
+            "label": "driven",
+            "count": 3
+          },
+          {
+            "label": "estimates",
+            "count": 3
+          },
+          {
+            "label": "fiscal",
+            "count": 3
+          },
+          {
+            "label": "despite",
+            "count": 2
+          },
+          {
+            "label": "beats",
+            "count": 2
+          }
+        ],
+        "headline": "Palo Alto Networks’ stock falls despite strong AI cybersecurity demand",
+        "headline_source": "MarketWatch"
+      },
+      "previous": {
+        "date": "2026-08-24",
+        "symbol": "PANW",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1455,
+        "top_theme": "Technology",
+        "themes": [
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "networks",
+            "count": 3
+          },
+          {
+            "label": "palo",
+            "count": 2
+          },
+          {
+            "label": "alto",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          },
+          {
+            "label": "ai-era",
+            "count": 2
+          },
+          {
+            "label": "cybersecurity",
+            "count": 2
+          },
+          {
+            "label": "quietly",
+            "count": 1
+          },
+          {
+            "label": "becoming",
+            "count": 1
+          },
+          {
+            "label": "operating",
+            "count": 1
+          },
+          {
+            "label": "system",
+            "count": 1
+          },
+          {
+            "label": "solidifying",
+            "count": 1
+          },
+          {
+            "label": "role",
+            "count": 1
+          }
+        ],
+        "headline": "Is Palo Alto Networks (PANW) Quietly Becoming the Operating System for AI-Era Cybersecurity?",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "palo",
+        "alto",
+        "networks"
+      ],
+      "fading_keywords": [
+        "ai-era",
+        "quietly",
+        "becoming"
+      ],
+      "takeaway": "PANW's narrative is theme rotation: sentiment moved -0.07, while the leading theme shifted from Technology to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-02",
     "date": "2026-09-02",
     "runDate": "2026-09-02",
