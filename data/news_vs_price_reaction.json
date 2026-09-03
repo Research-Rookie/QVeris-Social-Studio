@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-09-02T07:26:13.913877+00:00",
-  "date": "2026-09-02",
+  "updated_at": "2026-09-03T07:20:26.294450+00:00",
+  "date": "2026-09-03",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "PANW",
-  "news_tone": "Somewhat Bullish",
+  "symbol": "AVGO",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "American Tower (NYSE:AMT) Raises Guidance As Data-Center Leasing Hits Records",
-  "headline_source": "Kalkine Media",
-  "price": 362.09,
+  "headline": "Broadcom beats expectations as AI labs double down on custom chips",
+  "headline_source": "SiliconANGLE",
+  "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
-  "volume": 9282651,
-  "reaction_label": "Muted reaction",
-  "takeaway": "News tone and price action are both relatively muted.",
-  "price_error": null,
+  "volume": 0,
+  "reaction_label": "Price pending",
+  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+  "price_error": "Could not parse quote data for AVGO: {'status_code': 200, 'data': {'c': 367.24, 'd': -2.44, 'dp': -0.66, 'h': 371.09, 'l': 364.65, 'o': 369.68, 'pc': 369.68, 't': 1788379200}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "PANW",
+        "ticker": "AVGO",
+        "mentions": 6
+      },
+      {
+        "ticker": "NVDA",
+        "mentions": 6
+      },
+      {
+        "ticker": "MSFT",
         "mentions": 4
       },
       {
-        "ticker": "CVX",
-        "mentions": 2
+        "ticker": "MDT",
+        "mentions": 4
       },
       {
-        "ticker": "CRWD",
-        "mentions": 2
-      },
-      {
-        "ticker": "IBM",
-        "mentions": 2
-      },
-      {
-        "ticker": "ORCL",
-        "mentions": 2
+        "ticker": "HD",
+        "mentions": 4
       }
     ],
     "sentiment_counts": [
       {
+        "label": "Neutral",
+        "count": 18
+      },
+      {
         "label": "Somewhat-Bullish",
-        "count": 10
+        "count": 13
       },
       {
         "label": "Bullish",
-        "count": 8
-      },
-      {
-        "label": "Neutral",
-        "count": 7
+        "count": 4
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 5
+        "count": 4
       },
       {
         "label": "Bearish",
-        "count": 3
+        "count": 2
       }
     ]
   }
