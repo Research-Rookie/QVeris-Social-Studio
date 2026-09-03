@@ -1,69 +1,69 @@
 {
-  "updated_at": "2026-09-02T06:42:50.876955+00:00",
-  "date": "2026-09-02",
+  "updated_at": "2026-09-03T06:45:27.406857+00:00",
+  "date": "2026-09-03",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "PANW",
-  "shift_label": "Theme rotation",
-  "sentiment_delta": -0.0651,
-  "baseline_label": "2026-08-24",
+  "symbol": "AVGO",
+  "shift_label": "Turning bullish",
+  "sentiment_delta": 0.1297,
+  "baseline_label": "2026-07-26",
   "current": {
-    "date": "2026-09-02",
-    "symbol": "PANW",
-    "article_count": 4,
-    "source_count": 3,
-    "sentiment_score": 0.0804,
+    "date": "2026-09-03",
+    "symbol": "AVGO",
+    "article_count": 5,
+    "source_count": 4,
+    "sentiment_score": 0.1594,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 4
+        "count": 5
+      },
+      {
+        "label": "Technology",
+        "count": 5
       },
       {
         "label": "Financial Markets",
         "count": 4
-      },
-      {
-        "label": "Technology",
-        "count": 4
-      },
-      {
-        "label": "Mergers And Acquisitions",
-        "count": 2
       }
     ],
     "keywords": [
       {
-        "label": "palo",
-        "count": 8
+        "label": "broadcom",
+        "count": 10
       },
       {
-        "label": "alto",
-        "count": 8
-      },
-      {
-        "label": "networks",
-        "count": 8
-      },
-      {
-        "label": "demand",
+        "label": "earnings",
         "count": 5
       },
       {
-        "label": "for",
-        "count": 5
+        "label": "chips",
+        "count": 4
       },
       {
-        "label": "strong",
-        "count": 3
-      },
-      {
-        "label": "cybersecurity",
-        "count": 3
+        "label": "revenue",
+        "count": 4
       },
       {
         "label": "driven",
+        "count": 4
+      },
+      {
+        "label": "strong",
+        "count": 4
+      },
+      {
+        "label": "results",
+        "count": 4
+      },
+      {
+        "label": "demand",
+        "count": 3
+      },
+      {
+        "label": "reporting",
         "count": 3
       },
       {
@@ -71,33 +71,25 @@
         "count": 3
       },
       {
-        "label": "fiscal",
-        "count": 3
-      },
-      {
-        "label": "despite",
+        "label": "expectations",
         "count": 2
       },
       {
-        "label": "beats",
+        "label": "labs",
         "count": 2
       }
     ],
-    "headline": "Palo Alto Networks’ stock falls despite strong AI cybersecurity demand",
-    "headline_source": "MarketWatch"
+    "headline": "Broadcom beats expectations as AI labs double down on custom chips",
+    "headline_source": "SiliconANGLE"
   },
   "previous": {
-    "date": "2026-08-24",
-    "symbol": "PANW",
+    "date": "2026-07-26",
+    "symbol": "AVGO",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1455,
-    "top_theme": "Technology",
+    "sentiment_score": 0.0297,
+    "top_theme": "Earnings",
     "themes": [
-      {
-        "label": "Technology",
-        "count": 1
-      },
       {
         "label": "Earnings",
         "count": 1
@@ -105,77 +97,81 @@
       {
         "label": "Financial Markets",
         "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "networks",
-        "count": 3
-      },
-      {
-        "label": "palo",
+        "label": "texas",
         "count": 2
       },
       {
-        "label": "alto",
+        "label": "instruments",
         "count": 2
       },
       {
-        "label": "for",
+        "label": "txn",
         "count": 2
       },
       {
-        "label": "ai-era",
+        "label": "eps",
         "count": 2
       },
       {
-        "label": "cybersecurity",
+        "label": "growth",
         "count": 2
       },
       {
-        "label": "quietly",
+        "label": "faces",
         "count": 1
       },
       {
-        "label": "becoming",
+        "label": "rich",
         "count": 1
       },
       {
-        "label": "operating",
+        "label": "valuation",
         "count": 1
       },
       {
-        "label": "system",
+        "label": "reshapes",
         "count": 1
       },
       {
-        "label": "solidifying",
+        "label": "narratives",
         "count": 1
       },
       {
-        "label": "role",
+        "label": "reported",
+        "count": 1
+      },
+      {
+        "label": "revenue",
         "count": 1
       }
     ],
-    "headline": "Is Palo Alto Networks (PANW) Quietly Becoming the Operating System for AI-Era Cybersecurity?",
+    "headline": "Texas Instruments (TXN) Stock Faces Rich Valuation As 20.2% EPS Growth Reshapes Narratives",
     "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
     "Earnings",
-    "Financial Markets",
-    "Technology"
+    "Technology",
+    "Financial Markets"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "palo",
-    "alto",
-    "networks"
+    "broadcom",
+    "earnings",
+    "chips"
   ],
   "fading_keywords": [
-    "ai-era",
-    "quietly",
-    "becoming"
+    "texas",
+    "instruments",
+    "txn"
   ],
-  "takeaway": "PANW's narrative is theme rotation: sentiment moved -0.07, while the leading theme shifted from Technology to Earnings.",
+  "takeaway": "AVGO's narrative is turning bullish: sentiment moved +0.13, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

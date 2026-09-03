@@ -1,5 +1,202 @@
 [
   {
+    "id": "market-narrative-shift-avgo-2026-09-03",
+    "date": "2026-09-03",
+    "runDate": "2026-09-03",
+    "createdAt": "2026-09-03T06:45:29.059459+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $AVGO",
+    "status": "ready",
+    "tweet": "What changed in $AVGO's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.13\n📌 Top theme: Earnings\n🔎 Emerging term: broadcom\n📰 Coverage: 5 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_AVGO_2026-09-03.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-03T06:45:27.406857+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AVGO",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "AVGO",
+    "topChangePct": 12.97,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-03T06:45:27.406857+00:00",
+      "date": "2026-09-03",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "AVGO",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.1297,
+      "baseline_label": "2026-07-26",
+      "current": {
+        "date": "2026-09-03",
+        "symbol": "AVGO",
+        "article_count": 5,
+        "source_count": 4,
+        "sentiment_score": 0.1594,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 5
+          },
+          {
+            "label": "Technology",
+            "count": 5
+          },
+          {
+            "label": "Financial Markets",
+            "count": 4
+          }
+        ],
+        "keywords": [
+          {
+            "label": "broadcom",
+            "count": 10
+          },
+          {
+            "label": "earnings",
+            "count": 5
+          },
+          {
+            "label": "chips",
+            "count": 4
+          },
+          {
+            "label": "revenue",
+            "count": 4
+          },
+          {
+            "label": "driven",
+            "count": 4
+          },
+          {
+            "label": "strong",
+            "count": 4
+          },
+          {
+            "label": "results",
+            "count": 4
+          },
+          {
+            "label": "demand",
+            "count": 3
+          },
+          {
+            "label": "reporting",
+            "count": 3
+          },
+          {
+            "label": "estimates",
+            "count": 3
+          },
+          {
+            "label": "expectations",
+            "count": 2
+          },
+          {
+            "label": "labs",
+            "count": 2
+          }
+        ],
+        "headline": "Broadcom beats expectations as AI labs double down on custom chips",
+        "headline_source": "SiliconANGLE"
+      },
+      "previous": {
+        "date": "2026-07-26",
+        "symbol": "AVGO",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0297,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "texas",
+            "count": 2
+          },
+          {
+            "label": "instruments",
+            "count": 2
+          },
+          {
+            "label": "txn",
+            "count": 2
+          },
+          {
+            "label": "eps",
+            "count": 2
+          },
+          {
+            "label": "growth",
+            "count": 2
+          },
+          {
+            "label": "faces",
+            "count": 1
+          },
+          {
+            "label": "rich",
+            "count": 1
+          },
+          {
+            "label": "valuation",
+            "count": 1
+          },
+          {
+            "label": "reshapes",
+            "count": 1
+          },
+          {
+            "label": "narratives",
+            "count": 1
+          },
+          {
+            "label": "reported",
+            "count": 1
+          },
+          {
+            "label": "revenue",
+            "count": 1
+          }
+        ],
+        "headline": "Texas Instruments (TXN) Stock Faces Rich Valuation As 20.2% EPS Growth Reshapes Narratives",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "broadcom",
+        "earnings",
+        "chips"
+      ],
+      "fading_keywords": [
+        "texas",
+        "instruments",
+        "txn"
+      ],
+      "takeaway": "AVGO's narrative is turning bullish: sentiment moved +0.13, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-03",
     "date": "2026-09-03",
     "runDate": "2026-09-03",
