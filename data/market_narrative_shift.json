@@ -1,93 +1,19 @@
 {
-  "updated_at": "2026-09-03T06:45:27.406857+00:00",
-  "date": "2026-09-03",
+  "updated_at": "2026-09-04T06:50:21.912200+00:00",
+  "date": "2026-09-04",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "AVGO",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.1297,
-  "baseline_label": "2026-07-26",
+  "symbol": "KIM",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.3531,
+  "baseline_label": "2026-08-30",
   "current": {
-    "date": "2026-09-03",
-    "symbol": "AVGO",
-    "article_count": 5,
-    "source_count": 4,
-    "sentiment_score": 0.1594,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 5
-      },
-      {
-        "label": "Technology",
-        "count": 5
-      },
-      {
-        "label": "Financial Markets",
-        "count": 4
-      }
-    ],
-    "keywords": [
-      {
-        "label": "broadcom",
-        "count": 10
-      },
-      {
-        "label": "earnings",
-        "count": 5
-      },
-      {
-        "label": "chips",
-        "count": 4
-      },
-      {
-        "label": "revenue",
-        "count": 4
-      },
-      {
-        "label": "driven",
-        "count": 4
-      },
-      {
-        "label": "strong",
-        "count": 4
-      },
-      {
-        "label": "results",
-        "count": 4
-      },
-      {
-        "label": "demand",
-        "count": 3
-      },
-      {
-        "label": "reporting",
-        "count": 3
-      },
-      {
-        "label": "estimates",
-        "count": 3
-      },
-      {
-        "label": "expectations",
-        "count": 2
-      },
-      {
-        "label": "labs",
-        "count": 2
-      }
-    ],
-    "headline": "Broadcom beats expectations as AI labs double down on custom chips",
-    "headline_source": "SiliconANGLE"
-  },
-  "previous": {
-    "date": "2026-07-26",
-    "symbol": "AVGO",
+    "date": "2026-09-04",
+    "symbol": "KIM",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.0297,
+    "sentiment_score": 0.0427,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -99,79 +25,165 @@
         "count": 1
       },
       {
-        "label": "Technology",
+        "label": "Finance",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "texas",
+        "label": "earnings",
+        "count": 3
+      },
+      {
+        "label": "ofs",
         "count": 2
       },
       {
-        "label": "instruments",
+        "label": "credit",
         "count": 2
       },
       {
-        "label": "txn",
+        "label": "occi",
         "count": 2
       },
       {
-        "label": "eps",
+        "label": "quarterly",
         "count": 2
       },
       {
-        "label": "growth",
+        "label": "friday",
         "count": 2
       },
       {
-        "label": "faces",
+        "label": "expected",
         "count": 1
       },
       {
-        "label": "rich",
+        "label": "announce",
         "count": 1
       },
       {
-        "label": "valuation",
+        "label": "anticipated",
         "count": 1
       },
       {
-        "label": "reshapes",
+        "label": "release",
         "count": 1
       },
       {
-        "label": "narratives",
+        "label": "open",
         "count": 1
       },
       {
-        "label": "reported",
-        "count": 1
-      },
-      {
-        "label": "revenue",
+        "label": "september",
         "count": 1
       }
     ],
-    "headline": "Texas Instruments (TXN) Stock Faces Rich Valuation As 20.2% EPS Growth Reshapes Narratives",
-    "headline_source": "Simply Wall Street"
+    "headline": "OFS Credit (OCCI) Expected to Announce Quarterly Earnings on Friday",
+    "headline_source": "MarketBeat"
+  },
+  "previous": {
+    "date": "2026-08-30",
+    "symbol": "KIM",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.3958,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Real Estate",
+        "count": 1
+      },
+      {
+        "label": "Retail Wholesale",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "kimco",
+        "count": 2
+      },
+      {
+        "label": "realty",
+        "count": 2
+      },
+      {
+        "label": "trades",
+        "count": 1
+      },
+      {
+        "label": "institutional",
+        "count": 1
+      },
+      {
+        "label": "buying",
+        "count": 1
+      },
+      {
+        "label": "moderate",
+        "count": 1
+      },
+      {
+        "label": "optimism",
+        "count": 1
+      },
+      {
+        "label": "shape",
+        "count": 1
+      },
+      {
+        "label": "trading",
+        "count": 1
+      },
+      {
+        "label": "reflecting",
+        "count": 1
+      },
+      {
+        "label": "year-to-date",
+        "count": 1
+      },
+      {
+        "label": "gain",
+        "count": 1
+      }
+    ],
+    "headline": "Kimco Realty stock trades around $23.78 as institutional buying and moderate analyst optimism shape",
+    "headline_source": "Ad-hoc-news.de"
   },
   "emerging_themes": [
+    "Finance",
     "Earnings",
-    "Technology",
     "Financial Markets"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Real Estate",
+    "Retail Wholesale",
+    "Economy Macro"
+  ],
   "emerging_keywords": [
-    "broadcom",
     "earnings",
-    "chips"
+    "ofs",
+    "credit"
   ],
   "fading_keywords": [
-    "texas",
-    "instruments",
-    "txn"
+    "kimco",
+    "realty",
+    "trades"
   ],
-  "takeaway": "AVGO's narrative is turning bullish: sentiment moved +0.13, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "KIM's narrative is turning bearish: sentiment moved -0.35, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
