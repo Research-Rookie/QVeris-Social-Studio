@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-09-03T07:20:26.294450+00:00",
-  "date": "2026-09-03",
+  "updated_at": "2026-09-04T07:23:10.921075+00:00",
+  "date": "2026-09-04",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "AVGO",
+  "symbol": "NRDS",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Broadcom beats expectations as AI labs double down on custom chips",
-  "headline_source": "SiliconANGLE",
+  "headline": "OFS Credit (OCCI) Expected to Announce Quarterly Earnings on Friday",
+  "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for AVGO: {'status_code': 200, 'data': {'c': 367.24, 'd': -2.44, 'dp': -0.66, 'h': 371.09, 'l': 364.65, 'o': 369.68, 'pc': 369.68, 't': 1788379200}}",
+  "price_error": "Could not parse quote data for NRDS: {'status_code': 200, 'data': {'c': 9.91, 'd': -0.07, 'dp': -0.7014, 'h': 10.33, 'l': 9.89, 'o': 10.11, 'pc': 9.98, 't': 1788465600}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "AVGO",
-        "mentions": 6
+        "ticker": "NRDS",
+        "mentions": 2
       },
       {
-        "ticker": "NVDA",
-        "mentions": 6
+        "ticker": "OCCI",
+        "mentions": 1
       },
       {
-        "ticker": "MSFT",
-        "mentions": 4
+        "ticker": "RJF",
+        "mentions": 1
       },
       {
-        "ticker": "MDT",
-        "mentions": 4
+        "ticker": "KIM",
+        "mentions": 1
       },
       {
-        "ticker": "HD",
-        "mentions": 4
+        "ticker": "KHC",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 18
+        "count": 20
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 13
-      },
-      {
-        "label": "Bullish",
-        "count": 4
+        "count": 6
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 4
+        "count": 3
+      },
+      {
+        "label": "Bullish",
+        "count": 3
       },
       {
         "label": "Bearish",
-        "count": 2
+        "count": 1
       }
     ]
   }
