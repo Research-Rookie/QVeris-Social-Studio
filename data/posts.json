@@ -1,5 +1,210 @@
 [
   {
+    "id": "market-narrative-shift-ter-2026-09-05",
+    "date": "2026-09-05",
+    "runDate": "2026-09-05",
+    "createdAt": "2026-09-05T06:35:36.156059+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $TER",
+    "status": "ready",
+    "tweet": "What changed in $TER's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: -0.08\n📌 Top theme: Earnings\n🔎 Emerging term: technology\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_TER_2026-09-05.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-05T06:35:34.624374+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$TER",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "TER",
+    "topChangePct": -8.14,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-05T06:35:34.624374+00:00",
+      "date": "2026-09-05",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "TER",
+      "shift_label": "Attention rising",
+      "sentiment_delta": -0.0814,
+      "baseline_label": "2026-07-16",
+      "current": {
+        "date": "2026-09-05",
+        "symbol": "TER",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.3415,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Economy Monetary",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 2
+          },
+          {
+            "label": "Technology",
+            "count": 2
+          }
+        ],
+        "keywords": [
+          {
+            "label": "technology",
+            "count": 5
+          },
+          {
+            "label": "formfactor",
+            "count": 4
+          },
+          {
+            "label": "entegris",
+            "count": 4
+          },
+          {
+            "label": "penguin",
+            "count": 4
+          },
+          {
+            "label": "solutions",
+            "count": 4
+          },
+          {
+            "label": "teradyne",
+            "count": 4
+          },
+          {
+            "label": "marvell",
+            "count": 4
+          },
+          {
+            "label": "stocks",
+            "count": 4
+          },
+          {
+            "label": "trade",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 2
+          },
+          {
+            "label": "you",
+            "count": 2
+          },
+          {
+            "label": "need",
+            "count": 2
+          }
+        ],
+        "headline": "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
+        "headline_source": "Yahoo Finance"
+      },
+      "previous": {
+        "date": "2026-07-16",
+        "symbol": "TER",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.4229,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "aehr",
+            "count": 4
+          },
+          {
+            "label": "guidance",
+            "count": 2
+          },
+          {
+            "label": "test",
+            "count": 2
+          },
+          {
+            "label": "systems",
+            "count": 2
+          },
+          {
+            "label": "lake",
+            "count": 1
+          },
+          {
+            "label": "street",
+            "count": 1
+          },
+          {
+            "label": "says",
+            "count": 1
+          },
+          {
+            "label": "well",
+            "count": 1
+          },
+          {
+            "label": "above",
+            "count": 1
+          },
+          {
+            "label": "estimates",
+            "count": 1
+          },
+          {
+            "label": "justifies",
+            "count": 1
+          },
+          {
+            "label": "target",
+            "count": 1
+          }
+        ],
+        "headline": "Lake Street Says Guidance ‘Well Above’ Estimates Justifies Its Aehr Test Systems Stock (AEHR) Price Target Increase",
+        "headline_source": "TipRanks"
+      },
+      "emerging_themes": [
+        "Economy Monetary",
+        "Economy Macro",
+        "Earnings"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "technology",
+        "formfactor",
+        "entegris"
+      ],
+      "fading_keywords": [
+        "aehr",
+        "guidance",
+        "test"
+      ],
+      "takeaway": "TER's narrative is attention rising: sentiment moved -0.08, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-05",
     "date": "2026-09-05",
     "runDate": "2026-09-05",

@@ -1,17 +1,36 @@
 {
-  "updated_at": "2026-09-05T05:58:19.604593+00:00",
+  "updated_at": "2026-09-05T06:35:34.497000+00:00",
   "date": "2026-09-05",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
+      "title": "Wall Street Zen Upgrades NetApp (NASDAQ:NTAP) to \"Strong-Buy\"",
+      "summary": "Wall Street Zen has upgraded NetApp (NASDAQ:NTAP) to a \"strong-buy\" rating, though the overall analyst consensus remains \"hold\" with an average price target of $192.07. This upg...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-wall-street-zen-upgrades-netapp-nasdaq-ntap-to-strong-buy-2026-09-05/",
+      "source": "MarketBeat",
+      "published_at": "20260905T052840",
+      "sentiment_score": 0.496603,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NTAP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 17,
+      "is_noise": false
+    },
+    {
       "title": "Ambarella Beat Estimates but Fell as NXP Buyout Talk Lingered. Is the Edge-AI Upside Already Priced In?",
       "summary": "Ambarella reported strong fiscal Q2 results, exceeding revenue and earnings estimates, but its shares declined due to investor uncertainty surrounding potential acquisition talk...",
       "url": "https://uk.finance.yahoo.com/news/ambarella-beat-estimates-fell-nxp-224000253.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260904T224018",
-      "sentiment_score": 0.142948,
+      "sentiment_score": 0.104501,
       "sentiment_label": "Neutral",
       "tickers": [
         "NXPI"
@@ -27,11 +46,33 @@
     },
     {
       "title": "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
+      "summary": "Several semiconductor and technology stocks, including FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology, saw significant gains after investors appeared...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-entegris-penguin-solutions-teradyne-021410145.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260905T024139",
+      "sentiment_score": 0.341797,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "TER",
+        "AMD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Monetary",
+        "Economy Macro",
+        "Technology"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "summary": "Several semiconductor stocks, including FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology, saw significant gains after investors re-evaluated interest ra...",
       "url": "https://ca.finance.yahoo.com/news/formfactor-entegris-penguin-solutions-teradyne-021410145.html",
       "source": "Yahoo! Finance Canada",
       "published_at": "20260905T021354",
-      "sentiment_score": 0.348878,
+      "sentiment_score": 0.341113,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "TER",
@@ -54,7 +95,7 @@
       "url": "https://www.tipranks.com/news/company-announcements/vail-resorts-sets-date-for-fiscal-2026-earnings-release-and-investor-call",
       "source": "TipRanks",
       "published_at": "20260904T235709",
-      "sentiment_score": 0.031292,
+      "sentiment_score": 0.046653,
       "sentiment_label": "Neutral",
       "tickers": [
         "MTN"
@@ -67,12 +108,34 @@
       "is_noise": false
     },
     {
+      "title": "The Goldman Sachs Group (NYSE:GS) Rating Increased to Buy at Wall Street Zen",
+      "summary": "Wall Street Zen has upgraded its rating for The Goldman Sachs Group (NYSE:GS) from \"hold\" to \"buy.\" This upgrade follows strong quarterly results where Goldman Sachs exceeded EP...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-the-goldman-sachs-group-nyse-gs-rating-increased-to-buy-at-wall-street-zen-2026-09-05/",
+      "source": "MarketBeat",
+      "published_at": "20260905T054637",
+      "sentiment_score": 0.310623,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GS",
+        "MS",
+        "WFC"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Financial Markets",
+        "Ipo"
+      ],
+      "quality_score": 11,
+      "is_noise": false
+    },
+    {
       "title": "Alphabet raises its dividend 4.8% as AI spending leaves room for cash returns",
       "summary": "Alphabet has increased its quarterly dividend by 4.8% to $0.22 per share, signaling financial confidence despite heavy AI infrastructure investments. This marks the company's se...",
       "url": "https://247wallst.com/cards/google-googl-dividend-01m1qdmywkk13523m0byrzjm17",
       "source": "24/7 Wall St.",
       "published_at": "20260905T001702",
-      "sentiment_score": 0.170377,
+      "sentiment_score": 0.205377,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GOOGL",
@@ -91,33 +154,12 @@
       "is_noise": false
     },
     {
-      "title": "Steel Dynamics (STLD) Dips More Than Broader Market: What You Should Know",
-      "summary": "Steel Dynamics (STLD) closed down 1.61%, underperforming the broader market. Despite this recent dip and a 5.91% loss over the past month, analysts project strong future growth...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/steel-dynamics-stld-dips-more-221502193.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260904T221509",
-      "sentiment_score": 0.116143,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "STLD",
-        "COIN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Economy Macro"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
       "title": "How Investors May Respond To Chipotle Mexican Grill (CMG) Using South Korea As Its Asian Testbed",
       "summary": "Chipotle Mexican Grill has opened its first Asian restaurant in Seoul, South Korea, as a joint venture, aiming to use it as a testbed for future regional growth in Asia. This mo...",
       "url": "https://uk.finance.yahoo.com/news/investors-may-respond-chipotle-mexican-031012173.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260905T031049",
-      "sentiment_score": 0.280946,
+      "sentiment_score": 0.258562,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CMG"
@@ -135,7 +177,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/landstar-system-lstr-stock-trades-010740167.html",
       "source": "Yahoo Finance",
       "published_at": "20260905T012403",
-      "sentiment_score": 0.044137,
+      "sentiment_score": 0.006455,
       "sentiment_label": "Neutral",
       "tickers": [
         "LSTR"
@@ -150,31 +192,12 @@
       "is_noise": false
     },
     {
-      "title": "Dine Brands Global, Inc. Announces Quarterly Dividend of $0.19 (NYSE:DIN)",
-      "summary": "Dine Brands Global, Inc. (NYSE:DIN) has declared a quarterly dividend of $0.19 per share, payable on October 9th to shareholders of record on September 16th. This dividend repre...",
-      "url": "https://www.marketbeat.com/instant-alerts/dividend-dine-brands-global-inc-announces-quarterly-dividend-of-019-nyse-din-2026-09-04/",
-      "source": "MarketBeat",
-      "published_at": "20260904T223457",
-      "sentiment_score": -0.197277,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "DIN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
       "title": "Gartner (IT) Stock Looks Priced At A Discount To Fair Value",
       "summary": "Gartner's stock appears undervalued based on discounted cash flow (DCF) models and P/E ratio comparisons, despite a 47% decline over the past three years. The estimated intrinsi...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/gartner-stock-looks-priced-discount-041629796.html",
       "source": "Yahoo Finance",
       "published_at": "20260905T041813",
-      "sentiment_score": 0.336106,
+      "sentiment_score": 0.311847,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "IT"
@@ -188,12 +211,32 @@
       "is_noise": false
     },
     {
+      "title": "Bull Run Coming? Morgan Stanley Sees Sensex At 89,000, 16% Upside By June 2027",
+      "summary": "Morgan Stanley predicts the BSE Sensex could reach 89,000 by June 2027, representing a 16% upside from current levels, citing India's multi-quarter growth upcycle. The brokerage...",
+      "url": "https://www.ndtvprofit.com/markets/market-watch-morgan-stanley-sees-sensex-at-89-000-by-june-2027-12004591",
+      "source": "NDTV Profit",
+      "published_at": "20260905T030959",
+      "sentiment_score": 0.300678,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "MS"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Economy Macro",
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "Falcon's Beyond Global Announces Quarterly Dividend for Series B Preferred Stock",
       "summary": "Falcon's Beyond Global, Inc. has announced the details for its quarterly dividend on the 11% Series B Cumulative Convertible Preferred Stock. The dividend will be paid in PIK Di...",
       "url": "https://kalkinemedia.com/us/news/announcements/falcons-beyond-global-announces-quarterly-dividend-for-series-b-preferred-stock",
       "source": "Kalkine Media",
       "published_at": "20260904T232705",
-      "sentiment_score": 0.204555,
+      "sentiment_score": 0.207693,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "FBYD"
@@ -211,7 +254,7 @@
       "url": "https://www.gurufocus.com/news/9068896",
       "source": "GuruFocus",
       "published_at": "20260904T224208",
-      "sentiment_score": 0.252303,
+      "sentiment_score": 0.276066,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "TYL"
@@ -226,30 +269,12 @@
       "is_noise": false
     },
     {
-      "title": "Novartis Pelacarsen Fails to Cut Cardiovascular Events in Key Phase III Lp(a) Trial",
-      "summary": "Novartis's Phase III Lp(a)HORIZON trial for pelacarsen did not meet its primary endpoint, failing to significantly reduce major cardiovascular events despite effectively lowerin...",
-      "url": "https://www.tipranks.com/news/company-announcements/novartis-pelacarsen-fails-to-cut-cardiovascular-events-in-key-phase-iii-lpa-trial",
-      "source": "TipRanks",
-      "published_at": "20260904T215653",
-      "sentiment_score": -0.455727,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "NVS"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
       "title": "S&P Global (SPGI) Just Gave Investors Something To Think About",
       "summary": "S&P Global (SPGI) is highlighted as its CFO prepares to speak at Barclays' 24th Annual Global Financial Services Conference, offering investors a chance to assess its data and i...",
       "url": "https://uk.finance.yahoo.com/news/p-global-spgi-just-gave-021311808.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260905T021347",
-      "sentiment_score": -0.234763,
+      "sentiment_score": -0.220145,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "SPGI"
@@ -269,7 +294,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/red-river-bancshares-nasdaq-rrbi-shares-june-30-financials-ahead-of-september-2026-investor-conferences",
       "source": "Kalkine Media",
       "published_at": "20260904T235053",
-      "sentiment_score": 0.186447,
+      "sentiment_score": 0.220836,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "RRBI"
@@ -287,7 +312,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/helen-of-troy-ceo-george-scott-uzzell-reports-share-withholding-transaction-on-september-2-2026",
       "source": "Kalkine Media",
       "published_at": "20260904T232500",
-      "sentiment_score": 0.028234,
+      "sentiment_score": 0.047006,
       "sentiment_label": "Neutral",
       "tickers": [
         "HELE"
@@ -305,7 +330,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/courtney-phillips-executes-11000-zero-cost-options-in-maze-therapeutics-nasdaq-maze-on-september-1-2026",
       "source": "Kalkine Media",
       "published_at": "20260904T232123",
-      "sentiment_score": 0.113599,
+      "sentiment_score": 0.149294,
       "sentiment_label": "Neutral",
       "tickers": [
         "MAZE"
@@ -324,7 +349,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/inogen-inc-nasdaq-ingn-grants-1500-shares-to-chief-accounting-officer-mary-e-wright-at-533-each",
       "source": "Kalkine Media",
       "published_at": "20260904T231807",
-      "sentiment_score": 0.079336,
+      "sentiment_score": 0.108513,
       "sentiment_label": "Neutral",
       "tickers": [
         "INGN",
@@ -346,7 +371,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/newmont-corp-nyse-nem-evp-toth-peter-sells-3000-shares-at-123-each",
       "source": "Kalkine Media",
       "published_at": "20260904T230734",
-      "sentiment_score": -0.222546,
+      "sentiment_score": -0.194902,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "NEM"
@@ -365,7 +390,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/sysco-nyse-syy-grants-jennifer-l-johnson-6283-shares-at-zero-cost",
       "source": "Kalkine Media",
       "published_at": "20260904T224019",
-      "sentiment_score": 0.10946,
+      "sentiment_score": 0.140513,
       "sentiment_label": "Neutral",
       "tickers": [
         "SYY"
@@ -379,51 +404,12 @@
       "is_noise": false
     },
     {
-      "title": "Maze Therapeutics CSBO Atul Dandekar Sells 6,434 Shares to Cover RSU Tax Withholding",
-      "summary": "Atul Dandekar, CSBO of Maze Therapeutics, Inc. (NASDAQ:MAZE), sold a total of 6,434 shares of Common Stock on September 2 and 3, 2026. These sales were executed solely to satisf...",
-      "url": "https://kalkinemedia.com/us/news/announcements/maze-therapeutics-csbo-atul-dandekar-sells-6434-shares-to-cover-rsu-tax-withholding",
-      "source": "Kalkine Media",
-      "published_at": "20260904T222123",
-      "sentiment_score": 0.029923,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MAZE"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Life Sciences",
-        "Financial Markets",
-        "Economy Fiscal"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Otis Worldwide EVP & CPO Kimberly Shannon Gosk Reports RSU Vesting and Share Withholding on September 2, 2026",
-      "summary": "Kimberly Shannon Gosk, EVP & CPO of Otis Worldwide Corp (NYSE:OTIS), reported the vesting of 933 restricted stock units (RSUs) into common stock on September 2, 2026. Concurrent...",
-      "url": "https://kalkinemedia.com/us/news/announcements/otis-worldwide-evp-cpo-kimberly-shannon-gosk-reports-rsu-vesting-and-share-withholding-on-september-2-2026",
-      "source": "Kalkine Media",
-      "published_at": "20260904T221124",
-      "sentiment_score": 0.094626,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "OTIS"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
       "title": "General Motors (GM) Has One Operational US EV Battery Plant",
       "summary": "General Motors (GM) now has only one operational US electric vehicle battery plant, reflecting a shift in its North American manufacturing strategy. The company is scaling back...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/general-motors-gm-one-operational-230602338.html",
       "source": "Yahoo Finance",
       "published_at": "20260905T000609",
-      "sentiment_score": 0.057433,
+      "sentiment_score": 0.0658,
       "sentiment_label": "Neutral",
       "tickers": [
         "GM"
@@ -442,7 +428,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/radiant-logistics-amex-rlgt-appoints-david-buss-as-coo-with-250000-base-salary-and-incentive-plan",
       "source": "Kalkine Media",
       "published_at": "20260904T232405",
-      "sentiment_score": 0.319837,
+      "sentiment_score": 0.31824,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "RLGT"
@@ -461,7 +447,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/hollander-david-receives-9650-shares-and-19300-derivative-securities-from-veradermics-on-september-1-2026",
       "source": "Kalkine Media",
       "published_at": "20260904T232034",
-      "sentiment_score": 0.250939,
+      "sentiment_score": 0.275409,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "MANE"
@@ -479,7 +465,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/loyd-kelly-william-forfeits-12300-shares-of-evolution-petroleum-at-369-each",
       "source": "Kalkine Media",
       "published_at": "20260904T231511",
-      "sentiment_score": -0.332454,
+      "sentiment_score": -0.329407,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "EPM"
@@ -498,7 +484,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/evercommerce-director-eric-remer-sells-117961-in-company-stock-93CH-4829527",
       "source": "Investing.com Canada",
       "published_at": "20260904T230512",
-      "sentiment_score": -0.211075,
+      "sentiment_score": -0.232927,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "EVCM"
@@ -516,7 +502,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/jfrog-cfo-eduard-grabscheid-reports-sale-of-ordinary-shares-in-early-september-2026",
       "source": "Kalkine Media",
       "published_at": "20260904T225300",
-      "sentiment_score": 0.027816,
+      "sentiment_score": 0.041329,
       "sentiment_label": "Neutral",
       "tickers": [
         "FROG"
@@ -534,7 +520,7 @@
       "url": "https://in.investing.com/news/stock-market-news/keurig-dr-pepper-senior-vp-sells-310650-in-stock-93CH-5583285",
       "source": "Investing.com India",
       "published_at": "20260904T224814",
-      "sentiment_score": 0.108215,
+      "sentiment_score": 0.087525,
       "sentiment_label": "Neutral",
       "tickers": [
         "KDP",
@@ -553,12 +539,30 @@
       "is_noise": false
     },
     {
+      "title": "Winship Henry Ward IV Acquires 10 Shares of Bunge Global SA at $119.25 Each",
+      "summary": "Winship Henry Ward IV, a director at Bunge Global SA, acquired 10 shares of the company on September 1, 2026, at a price of $119.25 per share. This transaction increases his tot...",
+      "url": "https://kalkinemedia.com/us/news/announcements/winship-henry-ward-iv-acquires-10-shares-of-bunge-global-sa-at-11925-each",
+      "source": "Kalkine Media",
+      "published_at": "20260904T224536",
+      "sentiment_score": 0.142439,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BG"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
       "title": "Datadog CFO David M. Obstler Sells 16,524 Shares to Cover Tax Withholding on RSU Vesting",
       "summary": "Datadog CFO David M. Obstler sold 16,524 shares of Class A Common Stock on September 2, 2026, to cover tax withholding obligations arising from the vesting of restricted stock u...",
       "url": "https://kalkinemedia.com/us/news/announcements/datadog-cfo-david-m-obstler-sells-16524-shares-to-cover-tax-withholding-on-rsu-vesting",
       "source": "Kalkine Media",
       "published_at": "20260904T224419",
-      "sentiment_score": 0.081501,
+      "sentiment_score": 0.07477,
       "sentiment_label": "Neutral",
       "tickers": [
         "DDOG"
@@ -571,40 +575,98 @@
       "is_noise": false
     },
     {
-      "title": "Paramount Skydance Corp EVP Katherine Gill Charest Reports RSU Vesting and Tax Withholding on Shares",
-      "summary": "Katherine Gill Charest, EVP, Controller, and Chief Accounting Officer of Paramount Skydance Corp, reported the vesting of Restricted Stock Units (RSUs) and subsequent tax withho...",
-      "url": "https://kalkinemedia.com/us/news/announcements/paramount-skydance-corp-evp-katherine-gill-charest-reports-rsu-vesting-and-tax-withholding-on-shares",
-      "source": "Kalkine Media",
-      "published_at": "20260904T220910",
-      "sentiment_score": 0.007397,
+      "title": "Liberty Latin America (NASDAQ:LILA) Director Buys $6,559,528.80 in Stock",
+      "summary": "A director at Liberty Latin America (NASDAQ:LILA), Angoitia Alfonso De, recently purchased 313,104 shares of the company's stock for over $6.5 million, significantly increasing...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-liberty-latin-america-nasdaq-lila-director-buys-655952880-in-stock-2026-09-04/",
+      "source": "MarketBeat",
+      "published_at": "20260905T032805",
+      "sentiment_score": 0.032403,
       "sentiment_label": "Neutral",
       "tickers": [
-        "PSKY"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Mondelez COO Luca Zaramella Executes Stock Option Exercise and Share Surrender",
-      "summary": "Mondelez International's COO, Luca Zaramella, exercised stock options for 22,570 shares of Class A Common Stock at $43.20 per share on September 2, 2026. Concurrently, he surren...",
-      "url": "https://kalkinemedia.com/us/news/announcements/mondelez-coo-luca-zaramella-executes-stock-option-exercise-and-share-surrender",
-      "source": "Kalkine Media",
-      "published_at": "20260904T220716",
-      "sentiment_score": 0.022999,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MDLZ"
+        "LILAP"
       ],
       "topics": [
         "Earnings",
         "Financial Markets"
       ],
-      "quality_score": 3,
-      "is_noise": false
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Insider Buying: Liberty Latin America (NASDAQ:LILA) Director Purchases 17,596 Shares",
+      "summary": "Liberty Latin America (NASDAQ:LILA) Director Angoitia Alfonso De recently purchased 17,596 shares of the company's stock, valued at over $363,000, significantly increasing his d...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-buying-liberty-latin-america-nasdaq-lila-director-purchases-17596-shares-2026-09-04/",
+      "source": "MarketBeat",
+      "published_at": "20260905T032805",
+      "sentiment_score": 0.031507,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "LILAP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Angoitia Alfonso De Acquires 145,490 Shares of Liberty Global (NASDAQ:LILAK) Stock",
+      "summary": "Director Angoitia Alfonso De recently acquired 145,490 shares of Liberty Global (NASDAQ:LILAK) stock for $3.06 million on August 31st, alongside additional purchases totaling ap...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-angoitia-alfonso-de-acquires-145490-shares-of-liberty-global-nasdaq-lilak-stock-2026-09-04/",
+      "source": "MarketBeat",
+      "published_at": "20260905T032522",
+      "sentiment_score": 0.014348,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "LILKV"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Angoitia Alfonso De Purchases 313,104 Shares of Liberty Global (NASDAQ:LILAK) Stock",
+      "summary": "Director Angoitia Alfonso De recently acquired 313,104 shares of Liberty Global (NASDAQ:LILAK) stock for approximately $6.56 million, significantly increasing his direct ownersh...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-angoitia-alfonso-de-purchases-313104-shares-of-liberty-global-nasdaq-lilak-stock-2026-09-04/",
+      "source": "MarketBeat",
+      "published_at": "20260905T032522",
+      "sentiment_score": 0.044315,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "LILKV"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Insider Buying: Liberty Global (NASDAQ:LILAK) Director Acquires $363,357.40 in Stock",
+      "summary": "Liberty Global (NASDAQ:LILAK) Director Angoitia Alfonso De recently acquired 17,596 shares of the company's stock for $363,357.40, increasing his ownership by 12.09%. This purch...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-buying-liberty-global-nasdaq-lilak-director-acquires-36335740-in-stock-2026-09-04/",
+      "source": "MarketBeat",
+      "published_at": "20260905T032521",
+      "sentiment_score": 0.04468,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "LILKV"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
     },
     {
       "title": "Kymera Therapeutics (NASDAQ:KYMR) Insider Brian Adams Sells 6,371 Shares of Stock",
@@ -612,7 +674,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-kymera-therapeutics-nasdaq-kymr-insider-brian-adams-sells-6371-shares-of-stock-2026-09-04/",
       "source": "MarketBeat",
       "published_at": "20260905T015254",
-      "sentiment_score": 0.106639,
+      "sentiment_score": 0.115093,
       "sentiment_label": "Neutral",
       "tickers": [
         "KYMR"
@@ -631,7 +693,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/resmed-director-peter-farrell-executes-sale-of-970-shares-via-10b5-1-trading-plan",
       "source": "Kalkine Media",
       "published_at": "20260905T014008",
-      "sentiment_score": 0.011143,
+      "sentiment_score": 0.038658,
       "sentiment_label": "Neutral",
       "tickers": [
         "RMD"
@@ -649,7 +711,7 @@
       "url": "https://m.investing.com/news/insider-trading-news/kymera-therapeutics-chief-legal-officer-adams-disposes-of-744k-in-kymr-stock-93CH-4890109?ampMode=1",
       "source": "Investing.com",
       "published_at": "20260905T005254",
-      "sentiment_score": 0.111299,
+      "sentiment_score": 0.126885,
       "sentiment_label": "Neutral",
       "tickers": [
         "KYMR"
@@ -669,7 +731,7 @@
       "url": "https://www.marketscreener.com/news/keurig-dr-pepper-insider-sold-shares-worth-310-650-according-to-a-recent-sec-filing-ce785bdbd881f620",
       "source": "www.marketscreener.com",
       "published_at": "20260905T001704",
-      "sentiment_score": -0.206787,
+      "sentiment_score": -0.217396,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "KDP"
@@ -688,7 +750,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-arthur-j-gallagher-co-nyse-ajg-vp-scott-hudson-sells-12000-shares-2026-09-04/",
       "source": "MarketBeat",
       "published_at": "20260904T233913",
-      "sentiment_score": 0.135413,
+      "sentiment_score": 0.124528,
       "sentiment_label": "Neutral",
       "tickers": [
         "AJG"
@@ -708,7 +770,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-hudson-technologies-nasdaq-hdsn-major-shareholder-purchases-5317-shares-of-stock-2026-09-04/",
       "source": "MarketBeat",
       "published_at": "20260904T233130",
-      "sentiment_score": 0.101425,
+      "sentiment_score": 0.14392,
       "sentiment_label": "Neutral",
       "tickers": [
         "HDSN"
@@ -728,7 +790,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/hartree-partners-hudson-technologies-10-owner-buys-27116-stock-93CH-4890093",
       "source": "Investing.com",
       "published_at": "20260904T232630",
-      "sentiment_score": -0.089083,
+      "sentiment_score": -0.068262,
       "sentiment_label": "Neutral",
       "tickers": [
         "HDSN",
@@ -751,7 +813,7 @@
       "url": "https://m.investing.com/news/insider-trading-news/krystal-biotech-president-rd-suma-krishnan-sells-898m-in-stock-93CH-4890115?ampMode=1",
       "source": "Investing.com",
       "published_at": "20260904T231811",
-      "sentiment_score": -0.196408,
+      "sentiment_score": -0.22995,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "KRYS"
@@ -770,7 +832,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/keurig-dr-pepper-senior-vp-sells-310650-in-stock-93CH-4890092",
       "source": "Investing.com",
       "published_at": "20260904T231634",
-      "sentiment_score": 0.001696,
+      "sentiment_score": 0.028124,
       "sentiment_label": "Neutral",
       "tickers": [
         "KDP"
@@ -790,7 +852,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-keurig-dr-pepper-nasdaq-kdp-vp-sells-31065000-in-stock-2026-09-04/",
       "source": "MarketBeat",
       "published_at": "20260904T231114",
-      "sentiment_score": 0.192032,
+      "sentiment_score": 0.194063,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "KDP"
@@ -809,7 +871,7 @@
       "url": "https://www.gurufocus.com/news/9068926/formfactor-inc-form-stock-up-73-but-gf-value-says-overvalued-gf-score-78100",
       "source": "GuruFocus",
       "published_at": "20260904T225646",
-      "sentiment_score": -0.261058,
+      "sentiment_score": -0.266699,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "FORM"
@@ -827,7 +889,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/gevo-ceo-paul-bloom-sells-2588-in-stock-for-tax-obligations-93CH-4890088",
       "source": "Investing.com",
       "published_at": "20260904T225629",
-      "sentiment_score": 0.294105,
+      "sentiment_score": 0.275572,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GEVO"
@@ -846,7 +908,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/gevo-chief-of-staff-bowron-sells-2087-in-company-stock-93CH-4890089",
       "source": "Investing.com",
       "published_at": "20260904T225629",
-      "sentiment_score": 0.268155,
+      "sentiment_score": 0.256381,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GEVO"
@@ -864,7 +926,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-norwood-financial-nasdaq-nwfl-evp-sells-10356000-in-stock-2026-09-04/",
       "source": "MarketBeat",
       "published_at": "20260904T225513",
-      "sentiment_score": -0.204956,
+      "sentiment_score": -0.243958,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "NWFL"
@@ -883,7 +945,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/health-catalyst-grants-insider-julie-larson-green-9766-shares-at-no-cost-nasdaq-hcat",
       "source": "Kalkine Media",
       "published_at": "20260904T225037",
-      "sentiment_score": 0.075293,
+      "sentiment_score": 0.08113,
       "sentiment_label": "Neutral",
       "tickers": [
         "HCAT"
@@ -901,7 +963,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/trimble-cfo-kenneth-bement-reports-rsu-vesting-and-tax-withholding-in-form-4-filing",
       "source": "Kalkine Media",
       "published_at": "20260904T224014",
-      "sentiment_score": 0.126434,
+      "sentiment_score": 0.118517,
       "sentiment_label": "Neutral",
       "tickers": [
         "TRMB"
@@ -912,79 +974,40 @@
       ],
       "quality_score": -10,
       "is_noise": true
-    },
-    {
-      "title": "Nextdoor Holdings CFO Antoinette How Sells 35,581 Shares Under 10b5-1 Plan",
-      "summary": "Antoinette How, Chief Accounting Officer of Nextdoor Holdings, Inc., sold 35,581 shares of Class A Common Stock on September 2, 2026. The sale was executed under a Rule 10b5-1 t...",
-      "url": "https://kalkinemedia.com/us/news/announcements/nextdoor-holdings-cfo-antoinette-how-sells-35581-shares-under-10b5-1-plan",
-      "source": "Kalkine Media",
-      "published_at": "20260904T221855",
-      "sentiment_score": -0.222093,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "NXDR"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "IQVIA Holdings EVP James G. Berkshire Executes Stock Appreciation Rights and Sells Shares",
-      "summary": "James G. Berkshire, EVP of Global Infrastructure and Operations at IQVIA Holdings Inc., recently executed 5,381 stock appreciation rights at $131.82 per share and subsequently s...",
-      "url": "https://kalkinemedia.com/us/news/announcements/iqvia-holdings-evp-james-g-berkshire-executes-stock-appreciation-rights-and-sells-shares",
-      "source": "Kalkine Media",
-      "published_at": "20260904T221550",
-      "sentiment_score": 0.088135,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "IQV",
-        "CRM",
-        "AVGO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Gevo Director Patrick Gruber Executes Sale of 3,333 Shares via 10b5-1 Trading Plan",
-      "summary": "Gevo, Inc. director Patrick R. Gruber sold 3,333 shares of the company's common stock on September 3, 2026, under a pre-established Rule 10b5-1 trading plan. The shares were sol...",
-      "url": "https://kalkinemedia.com/us/news/announcements/gevo-director-patrick-gruber-executes-sale-of-3333-shares-via-10b5-1-trading-plan",
-      "source": "Kalkine Media",
-      "published_at": "20260904T215629",
-      "sentiment_score": -0.147892,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GEVO"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
     }
   ],
   "article_count": 50,
-  "top_ticker": "PEP",
+  "top_ticker": "TER",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Ambarella Beat Estimates but Fell as NXP Buyout Talk Lingered. Is the Edge-AI Upside Already Priced In?",
+  "top_story": "Wall Street Zen Upgrades NetApp (NASDAQ:NTAP) to \"Strong-Buy\"",
   "signal_articles": [
+    {
+      "title": "Wall Street Zen Upgrades NetApp (NASDAQ:NTAP) to \"Strong-Buy\"",
+      "summary": "Wall Street Zen has upgraded NetApp (NASDAQ:NTAP) to a \"strong-buy\" rating, though the overall analyst consensus remains \"hold\" with an average price target of $192.07. This upg...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-wall-street-zen-upgrades-netapp-nasdaq-ntap-to-strong-buy-2026-09-05/",
+      "source": "MarketBeat",
+      "published_at": "20260905T052840",
+      "sentiment_score": 0.496603,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NTAP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 17,
+      "is_noise": false
+    },
     {
       "title": "Ambarella Beat Estimates but Fell as NXP Buyout Talk Lingered. Is the Edge-AI Upside Already Priced In?",
       "summary": "Ambarella reported strong fiscal Q2 results, exceeding revenue and earnings estimates, but its shares declined due to investor uncertainty surrounding potential acquisition talk...",
       "url": "https://uk.finance.yahoo.com/news/ambarella-beat-estimates-fell-nxp-224000253.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260904T224018",
-      "sentiment_score": 0.142948,
+      "sentiment_score": 0.104501,
       "sentiment_label": "Neutral",
       "tickers": [
         "NXPI"
@@ -1000,11 +1023,33 @@
     },
     {
       "title": "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
+      "summary": "Several semiconductor and technology stocks, including FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology, saw significant gains after investors appeared...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-entegris-penguin-solutions-teradyne-021410145.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260905T024139",
+      "sentiment_score": 0.341797,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "TER",
+        "AMD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Monetary",
+        "Economy Macro",
+        "Technology"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "summary": "Several semiconductor stocks, including FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology, saw significant gains after investors re-evaluated interest ra...",
       "url": "https://ca.finance.yahoo.com/news/formfactor-entegris-penguin-solutions-teradyne-021410145.html",
       "source": "Yahoo! Finance Canada",
       "published_at": "20260905T021354",
-      "sentiment_score": 0.348878,
+      "sentiment_score": 0.341113,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "TER",
@@ -1027,7 +1072,7 @@
       "url": "https://www.tipranks.com/news/company-announcements/vail-resorts-sets-date-for-fiscal-2026-earnings-release-and-investor-call",
       "source": "TipRanks",
       "published_at": "20260904T235709",
-      "sentiment_score": 0.031292,
+      "sentiment_score": 0.046653,
       "sentiment_label": "Neutral",
       "tickers": [
         "MTN"
@@ -1040,12 +1085,34 @@
       "is_noise": false
     },
     {
+      "title": "The Goldman Sachs Group (NYSE:GS) Rating Increased to Buy at Wall Street Zen",
+      "summary": "Wall Street Zen has upgraded its rating for The Goldman Sachs Group (NYSE:GS) from \"hold\" to \"buy.\" This upgrade follows strong quarterly results where Goldman Sachs exceeded EP...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-the-goldman-sachs-group-nyse-gs-rating-increased-to-buy-at-wall-street-zen-2026-09-05/",
+      "source": "MarketBeat",
+      "published_at": "20260905T054637",
+      "sentiment_score": 0.310623,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GS",
+        "MS",
+        "WFC"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Financial Markets",
+        "Ipo"
+      ],
+      "quality_score": 11,
+      "is_noise": false
+    },
+    {
       "title": "Alphabet raises its dividend 4.8% as AI spending leaves room for cash returns",
       "summary": "Alphabet has increased its quarterly dividend by 4.8% to $0.22 per share, signaling financial confidence despite heavy AI infrastructure investments. This marks the company's se...",
       "url": "https://247wallst.com/cards/google-googl-dividend-01m1qdmywkk13523m0byrzjm17",
       "source": "24/7 Wall St.",
       "published_at": "20260905T001702",
-      "sentiment_score": 0.170377,
+      "sentiment_score": 0.205377,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GOOGL",
@@ -1064,33 +1131,12 @@
       "is_noise": false
     },
     {
-      "title": "Steel Dynamics (STLD) Dips More Than Broader Market: What You Should Know",
-      "summary": "Steel Dynamics (STLD) closed down 1.61%, underperforming the broader market. Despite this recent dip and a 5.91% loss over the past month, analysts project strong future growth...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/steel-dynamics-stld-dips-more-221502193.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260904T221509",
-      "sentiment_score": 0.116143,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "STLD",
-        "COIN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Economy Macro"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
       "title": "How Investors May Respond To Chipotle Mexican Grill (CMG) Using South Korea As Its Asian Testbed",
       "summary": "Chipotle Mexican Grill has opened its first Asian restaurant in Seoul, South Korea, as a joint venture, aiming to use it as a testbed for future regional growth in Asia. This mo...",
       "url": "https://uk.finance.yahoo.com/news/investors-may-respond-chipotle-mexican-031012173.html",
       "source": "Yahoo Finance UK",
       "published_at": "20260905T031049",
-      "sentiment_score": 0.280946,
+      "sentiment_score": 0.258562,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CMG"
@@ -1108,7 +1154,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/landstar-system-lstr-stock-trades-010740167.html",
       "source": "Yahoo Finance",
       "published_at": "20260905T012403",
-      "sentiment_score": 0.044137,
+      "sentiment_score": 0.006455,
       "sentiment_label": "Neutral",
       "tickers": [
         "LSTR"
@@ -1123,31 +1169,12 @@
       "is_noise": false
     },
     {
-      "title": "Dine Brands Global, Inc. Announces Quarterly Dividend of $0.19 (NYSE:DIN)",
-      "summary": "Dine Brands Global, Inc. (NYSE:DIN) has declared a quarterly dividend of $0.19 per share, payable on October 9th to shareholders of record on September 16th. This dividend repre...",
-      "url": "https://www.marketbeat.com/instant-alerts/dividend-dine-brands-global-inc-announces-quarterly-dividend-of-019-nyse-din-2026-09-04/",
-      "source": "MarketBeat",
-      "published_at": "20260904T223457",
-      "sentiment_score": -0.197277,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "DIN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
       "title": "Gartner (IT) Stock Looks Priced At A Discount To Fair Value",
       "summary": "Gartner's stock appears undervalued based on discounted cash flow (DCF) models and P/E ratio comparisons, despite a 47% decline over the past three years. The estimated intrinsi...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/gartner-stock-looks-priced-discount-041629796.html",
       "source": "Yahoo Finance",
       "published_at": "20260905T041813",
-      "sentiment_score": 0.336106,
+      "sentiment_score": 0.311847,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "IT"
@@ -1159,92 +1186,74 @@
       ],
       "quality_score": 6,
       "is_noise": false
-    },
-    {
-      "title": "Falcon's Beyond Global Announces Quarterly Dividend for Series B Preferred Stock",
-      "summary": "Falcon's Beyond Global, Inc. has announced the details for its quarterly dividend on the 11% Series B Cumulative Convertible Preferred Stock. The dividend will be paid in PIK Di...",
-      "url": "https://kalkinemedia.com/us/news/announcements/falcons-beyond-global-announces-quarterly-dividend-for-series-b-preferred-stock",
-      "source": "Kalkine Media",
-      "published_at": "20260904T232705",
-      "sentiment_score": 0.204555,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "FBYD"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
     }
   ],
   "top_tickers": [
+    {
+      "ticker": "TER",
+      "mentions": 2
+    },
+    {
+      "ticker": "AMD",
+      "mentions": 2
+    },
+    {
+      "ticker": "MS",
+      "mentions": 2
+    },
     {
       "ticker": "PEP",
       "mentions": 2
     },
     {
-      "ticker": "MAZE",
-      "mentions": 2
-    },
-    {
       "ticker": "GM",
       "mentions": 2
-    },
-    {
-      "ticker": "NXPI",
-      "mentions": 1
-    },
-    {
-      "ticker": "TER",
-      "mentions": 1
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 31
+      "mentions": 29
     },
     {
       "topic": "Financial Markets",
-      "mentions": 17
+      "mentions": 18
     },
     {
       "topic": "Finance",
-      "mentions": 16
+      "mentions": 15
     },
     {
       "topic": "Technology",
-      "mentions": 5
+      "mentions": 7
     },
     {
       "topic": "Economy Macro",
-      "mentions": 4
+      "mentions": 5
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 16
+      "count": 12
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 9
+      "count": 12
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 5
+      "count": 4
     },
     {
-      "label": "Bearish",
+      "label": "Bullish",
       "count": 1
     }
   ],
   "top_sources": [
     {
       "source": "Kalkine Media",
-      "count": 16
+      "count": 13
     },
     {
       "source": "Yahoo Finance",
@@ -1255,7 +1264,7 @@
       "count": 3
     },
     {
-      "source": "TipRanks",
+      "source": "MarketBeat",
       "count": 2
     },
     {
@@ -1263,5 +1272,5 @@
       "count": 1
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with PEP appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with TER appearing most often and the headline tone mostly neutral."
 }
