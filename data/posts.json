@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-ter-2026-09-05",
+    "date": "2026-09-05",
+    "runDate": "2026-09-05",
+    "createdAt": "2026-09-05T07:05:04.334241+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$TER news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Muted reaction\n\nNews tone and price action are both relatively muted.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-05.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-05T07:05:01.712132+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$TER",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Muted reaction",
+    "topSymbol": "TER",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-05T07:05:01.712132+00:00",
+      "date": "2026-09-05",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "TER",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Wall Street Zen Upgrades NetApp (NASDAQ:NTAP) to \"Strong-Buy\"",
+      "headline_source": "MarketBeat",
+      "price": 357.03,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 2247433,
+      "reaction_label": "Muted reaction",
+      "takeaway": "News tone and price action are both relatively muted.",
+      "price_error": null,
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "TER",
+            "mentions": 2
+          },
+          {
+            "ticker": "AMD",
+            "mentions": 2
+          },
+          {
+            "ticker": "MS",
+            "mentions": 2
+          },
+          {
+            "ticker": "PEP",
+            "mentions": 2
+          },
+          {
+            "ticker": "GM",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 12
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 12
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 4
+          },
+          {
+            "label": "Bullish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-ter-2026-09-05",
     "date": "2026-09-05",
     "runDate": "2026-09-05",
