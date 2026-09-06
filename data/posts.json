@@ -1,5 +1,1314 @@
 [
   {
+    "id": "financial-news-signal-2026-09-06",
+    "date": "2026-09-06",
+    "runDate": "2026-09-06",
+    "createdAt": "2026-09-06T06:10:09.487980+00:00",
+    "contentType": "FINANCIAL NEWS SIGNAL",
+    "title": "Financial News Signal",
+    "status": "ready",
+    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 50\n🏷️ Ticker: NVDA\n📌 Theme: Earnings\n🧭 Tone: Somewhat Bullish\n\nSignals from live news data: https://qveris.ai",
+    "image": "/posts/financial_news_signal_2026-09-06.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-06T06:10:07.514920+00:00",
+    "xPostId": null,
+    "primaryLabel": "Top ticker",
+    "primaryValue": "NVDA",
+    "secondaryLabel": "Tone",
+    "secondaryValue": "Somewhat Bullish",
+    "topSymbol": "NVDA",
+    "topChangePct": 0,
+    "financialNewsSignal": {
+      "updated_at": "2026-09-06T06:10:07.514920+00:00",
+      "date": "2026-09-06",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Financial News Signal",
+      "articles": [
+        {
+          "title": "Matrix Service (NASDAQ:MTRX) Issues Quarterly Earnings Results, Misses Estimates By $0.01 EPS",
+          "summary": "Matrix Service (NASDAQ:MTRX) reported its quarterly earnings, missing analyst estimates by $0.01 EPS with a reported $0.16 EPS against an expected $0.17. The company also fell s...",
+          "url": "https://www.marketbeat.com/instant-alerts/earnings-matrix-service-nasdaq-mtrx-posts-earnings-results-misses-estimates-by-001-eps-2026-09-02/",
+          "source": "MarketBeat",
+          "published_at": "20260905T123059",
+          "sentiment_score": -0.201712,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "MTRX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing",
+            "Energy Transportation"
+          ],
+          "quality_score": 19,
+          "is_noise": false
+        },
+        {
+          "title": "Gilead Sciences Strategically Prepares for HIV Market Changes",
+          "summary": "Gilead Sciences is strategically preparing for shifts in the HIV market, evidenced by three recent FDA approvals for HIV treatments, including Bixlenvo. The company demonstrates...",
+          "url": "https://intellectia.ai/news/stock/gilead-sciences-strategically-prepares-for-hiv-market-changes",
+          "source": "Intellectia AI",
+          "published_at": "20260905T152746",
+          "sentiment_score": 0.421059,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "GILD"
+          ],
+          "topics": [
+            "Life Sciences",
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 18,
+          "is_noise": false
+        },
+        {
+          "title": "JinkoSolar (NYSE:JKS) Downgraded by Zacks Research to \"Strong Sell\"",
+          "summary": "Zacks Research has downgraded JinkoSolar (NYSE:JKS) to a \"Strong Sell\" rating, citing the company's recent earnings miss and lower-than-expected revenue. The stock opened near i...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-jinkosolar-nyse-jks-downgraded-by-zacks-research-to-strong-sell-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T122124",
+          "sentiment_score": -0.636551,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "JKS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 16,
+          "is_noise": false
+        },
+        {
+          "title": "Align Technology (ALGN) Could Be 24% Undervalued On Mixed Earnings Guidance",
+          "summary": "Align Technology (ALGN) is considered 24% undervalued despite recent mixed earnings guidance, which included meeting revenue, exceeding earnings forecasts, but also issuing soft...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/align-technology-algn-could-24-141317011.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260905T141353",
+          "sentiment_score": 0.2863,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "ALGN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Technology"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "How Investors Are Reacting To Halliburton (HAL) Winning BP’s Integrated Deepwater Brazil Digital Drilling Deal",
+          "summary": "Halliburton secured an integrated contract from BP for a deepwater appraisal campaign in Brazil, which includes drilling, evaluation, and digital automation services. This win r...",
+          "url": "https://simplywall.st/stocks/us/energy/nyse-hal/halliburton/news/how-investors-are-reacting-to-halliburton-hal-winning-bps-in/amp",
+          "source": "Simply Wall Street",
+          "published_at": "20260905T111431",
+          "sentiment_score": 0.109385,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HAL",
+            "BKR",
+            "SLB"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": 14,
+          "is_noise": false
+        },
+        {
+          "title": "Marriott International (MAR) Q1 2025 Earnings: Results, Market Reaction & History",
+          "summary": "Marriott International reported strong Q1 2025 earnings, surpassing Wall Street expectations with adjusted diluted EPS of $2.32 and revenue of $6.26 billion, driven by robust gl...",
+          "url": "https://247wallst.com/companies/mar/earnings/2025/Q1/",
+          "source": "24/7 Wall St.",
+          "published_at": "20260905T131413",
+          "sentiment_score": 0.78123,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "MAR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Ferguson (NYSE:FERG) Upgraded at Jefferies Financial Group",
+          "summary": "Jefferies Financial Group upgraded Ferguson (NYSE:FERG) to a \"strong-buy\" rating, contributing to a \"Moderate Buy\" consensus rating and an average analyst price target of $285.5...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-ferguson-nyse-ferg-upgraded-at-jefferies-financial-group-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T122409",
+          "sentiment_score": 0.089869,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "JEF",
+            "GS",
+            "BAC"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "HA Sustainable Infrastructure Capital (NYSE:HASI) Rating Lowered to Hold at UBS Group",
+          "summary": "UBS Group downgraded HA Sustainable Infrastructure Capital (NYSE:HASI) from \"strong buy\" to \"hold\" in a recent research report, causing the stock to fall by 3.7%. Despite this,...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-ha-sustainable-infrastructure-capital-nyse-hasi-rating-lowered-to-hold-at-ubs-group-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T122255",
+          "sentiment_score": -0.110252,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HASI"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Real Estate",
+            "Finance"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Sonida Senior Living (NYSE:SNDA) Rating Increased to Strong-Buy at Robert W. Baird",
+          "summary": "Robert W. Baird upgraded Sonida Senior Living (NYSE:SNDA) from a \"hold\" to a \"strong-buy\" rating. The company's stock trades within a 52-week range of $24.94 to $44.38 and analy...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-sonida-senior-living-nyse-snda-rating-increased-to-strong-buy-at-robert-w-baird-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T115223",
+          "sentiment_score": 0.332641,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SNDA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Gogo (NASDAQ:GOGO): Is Weak Earnings Momentum A Bigger Risk?",
+          "summary": "Gogo (NASDAQ:GOGO) is under market scrutiny due to cautious analyst sentiment, disappointing quarterly results, and a struggling share price. The company, which specializes in i...",
+          "url": "https://kalkinemedia.com/us/stocks/communication/gogo-nasdaqgogo-is-weak-earnings-momentum-a-bigger-risk",
+          "source": "Kalkine Media",
+          "published_at": "20260905T105926",
+          "sentiment_score": -0.430176,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "GOGO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Altria's PM Deal Can Strengthen Efficiency of Its Tobacco Business",
+          "summary": "Altria's Philip Morris USA business has entered a new contract manufacturing arrangement with overseas affiliates of Philip Morris International Inc. This deal aims to enhance P...",
+          "url": "https://qz.com/altria-s-pm-deal-can-strengthen-efficiency-of-its-tobacco-business",
+          "source": "qz.com",
+          "published_at": "20260905T190719",
+          "sentiment_score": 0.248602,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MO",
+            "PM"
+          ],
+          "topics": [
+            "Earnings",
+            "Manufacturing",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "The Bull Case For HCA Healthcare (HCA) Could Change Following 2026 Guidance Cut And Payer Mix Strain",
+          "summary": "HCA Healthcare recently cut its full-year 2026 earnings guidance due to a worsening payer mix, softer elective surgeries, and rising costs, leading to layoffs and a hospital div...",
+          "url": "https://finance.yahoo.com/healthcare/articles/bull-case-hca-healthcare-hca-190715030.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260905T185052",
+          "sentiment_score": -0.444793,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "HCA"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Financial Markets",
+            "Economy Fiscal"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Odyssean LLC Raises Stake in Nexstar Media Group, Inc. $NXST",
+          "summary": "Odyssean LLC significantly increased its holdings in Nexstar Media Group, Inc. by 188.6% in Q2, bringing its total to 17,036 shares valued at $3.04 million. Institutional invest...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-odyssean-llc-raises-stake-in-nexstar-media-group-inc-nxst-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T105919",
+          "sentiment_score": 0.238374,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "NXST"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "F&G Annuities & Life (NYSE:FG) Downgraded to Strong Sell Rating by Zacks Research",
+          "summary": "Zacks Research has downgraded F&G Annuities & Life (NYSE:FG) from a \"hold\" to a \"strong sell\" rating, contributing to an overall \"Reduce\" consensus and a $30 average price targe...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-fg-annuities-life-nyse-fg-downgraded-to-strong-sell-rating-by-zacks-research-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T120403",
+          "sentiment_score": -0.356206,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "FG",
+            "RJF"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "KinderCare Learning Companies, Inc. (NYSE:KLC) Receives Average Recommendation of \"Reduce\" from Brokerages",
+          "summary": "KinderCare Learning Companies (NYSE:KLC) has received an average \"Reduce\" recommendation from brokerages, with ten analysts giving four sell ratings, five hold ratings, and one...",
+          "url": "https://www.marketbeat.com/instant-alerts/consensus-kindercare-learning-companies-inc-nyse-klc-receives-average-recommendation-of-reduce-from-brokerages-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T105111",
+          "sentiment_score": -0.463593,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "KLC"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Why Ermenegildo Zegna (ZGN) Is Down 8.5% After EPS Softens Despite Reaffirmed 2027 Targets",
+          "summary": "Ermenegildo Zegna (ZGN) shares dropped 8.5% despite the company reaffirming its 2027 revenue and EBIT targets. The decline follows a softening in first-half 2026 earnings per sh...",
+          "url": "https://sg.finance.yahoo.com/news/why-ermenegildo-zegna-zgn-down-170707115.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260905T170700",
+          "sentiment_score": -0.375767,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "ZGN"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Financial Markets"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Principal Financial Group (PFG) Stock May Be 49% Undervalued After Beam Benefits Deal",
+          "summary": "Principal Financial Group's stock shows a mixed valuation picture. While the Excess Returns model suggests it is 49% undervalued, especially after the Beam Benefits acquisition,...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/principal-financial-group-pfg-stock-170646693.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260905T164111",
+          "sentiment_score": 0.164178,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "PFG"
+          ],
+          "topics": [
+            "Earnings",
+            "Mergers And Acquisitions",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Is Rising Analyst Optimism Around PWR’s Dividend Sharpening Quanta’s Grid Expansion Investment Case?",
+          "summary": "Quanta Services (PWR) recently declared a quarterly dividend of US$0.11 per share, alongside generally favorable analyst views and upward earnings estimate revisions. This artic...",
+          "url": "https://ca.finance.yahoo.com/news/rising-analyst-optimism-around-pwr-141148421.html",
+          "source": "Yahoo! Finance Canada",
+          "published_at": "20260905T141204",
+          "sentiment_score": 0.429782,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "PWR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Palantir Jumped 7.7% on an Expanded PwC Alliance as Globant Launched a Salesforce AI Pod. Which Services Model Scal...",
+          "summary": "Palantir's shares rose 7.7% following an expanded alliance with PwC focused on enterprise AI and M&A, aiming to accelerate transactions and cut costs, though no new contract val...",
+          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-jumped-7-7-expanded-123838463.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260905T125509",
+          "sentiment_score": 0.193627,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GLOB",
+            "PLTR",
+            "CRM",
+            "NVDA"
+          ],
+          "topics": [
+            "Technology",
+            "Financial Markets",
+            "Earnings",
+            "Mergers And Acquisitions",
+            "Finance"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Is ZIM Integrated Shipping Services Ltd (ZIM) Overvalued After 3.6% Rally? GF Value Says Overvalued",
+          "summary": "ZIM Integrated Shipping Services Ltd (ZIM) recently rallied 3.6% but is deemed significantly overvalued by GuruFocus' GF Value, trading 76.1% above its estimated fair value of $...",
+          "url": "https://www.gurufocus.com/news/9068967/is-zim-integrated-shipping-services-ltd-zim-overvalued-after-36-rally-gf-value-says-overvalued",
+          "source": "GuruFocus",
+          "published_at": "20260905T230300",
+          "sentiment_score": -0.744544,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "ZIM"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "HCA Healthcare (HCA) Faces Securities Fraud Investigation With Shareholder Risks In Focus",
+          "summary": "Pomerantz Law Firm has initiated an investigation into HCA Healthcare (NYSE:HCA) for potential securities fraud and unlawful business practices. The probe aims to determine if t...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hca-healthcare-hca-faces-securities-121239467.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260905T114937",
+          "sentiment_score": -0.398255,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "HCA"
+          ],
+          "topics": [
+            "Finance",
+            "Life Sciences",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Old Mission Investment Co LLC Buys New Holdings in Nicolet Bankshares Inc. $NIC",
+          "summary": "Old Mission Investment Co LLC has acquired a new position in Nicolet Bankshares Inc. (NYSE:NIC), purchasing 5,839 shares valued at $966,000. This move aligns with other institut...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-old-mission-investment-co-llc-buys-new-holdings-in-nicolet-bankshares-inc-nic-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T105433",
+          "sentiment_score": 0.417372,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "NIC"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "William John Sempolinski Invests $1.23 Million in Independent Bank Corp. $INDB",
+          "summary": "William John Sempolinski has invested approximately $1.23 million in Independent Bank Corp. (NASDAQ: INDB) by purchasing 14,689 shares in the second quarter. Despite two directo...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-william-john-sempolinski-invests-123-million-in-independent-bank-corp-indb-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T105234",
+          "sentiment_score": 0.124249,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "INDB"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Marcus Corporation (The) (NYSE:MCS) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
+          "summary": "The Marcus Corporation (NYSE:MCS) has received a consensus \"Moderate Buy\" recommendation from six brokerages, with an average 12-month price target of $32.25. This positive sent...",
+          "url": "https://www.marketbeat.com/instant-alerts/consensus-marcus-corporation-the-nyse-mcs-receives-consensus-recommendation-of-moderate-buy-from-brokerages-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T105130",
+          "sentiment_score": 0.520506,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "MCS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Did Aptiv's (APTV) Deeper NVIDIA Jetson Orin Nano 2 Tie-Up Just Reframe Its Edge AI Ambitions?",
+          "summary": "Aptiv PLC has deepened its collaboration with NVIDIA by supporting the Jetson Orin Nano 2 platform, aiming to deliver production-ready edge AI solutions for drones, robotics, an...",
+          "url": "https://uk.finance.yahoo.com/news/did-aptivs-aptv-deeper-nvidia-190518003.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260905T191629",
+          "sentiment_score": 0.315483,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "APTV",
+            "NVDA"
+          ],
+          "topics": [
+            "Technology",
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Freedom Broker Turns Bullish on Argan (AGX) After Record Quarter",
+          "summary": "Freedom Broker has upgraded its rating on Argan (AGX) from Hold to Buy, setting a price target of $700, after the company reported a record-breaking second quarter for fiscal ye...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/freedom-broker-turns-bullish-argan-190902032.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260905T185318",
+          "sentiment_score": 0.289294,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AGX",
+            "COIN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Citigroup (C) Stock May Be 31% Undervalued After Record Revenue Quarter",
+          "summary": "Citigroup (C) stock appears to be significantly undervalued, with an Excess Returns model suggesting a 31.1% discount to its intrinsic value despite strong recent performance an...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-c-stock-may-31-181022509.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260905T174542",
+          "sentiment_score": 0.274466,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "C",
+            "COIN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Technology"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Why Gabelli’s Global Content & Connectivity Fund Likes T-Mobile US (TMUS)",
+          "summary": "Gabelli's Global Content & Connectivity Fund reported strong Q2 2026 performance, driven by AI interest and easing geopolitical tensions. The fund highlighted T-Mobile US (TMUS)...",
+          "url": "https://uk.finance.yahoo.com/news/why-gabelli-global-content-connectivity-154254300.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260905T154200",
+          "sentiment_score": 0.437787,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "TMUS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Is The Geo Group (GEO) Outperforming Other Business Services Stocks This Year?",
+          "summary": "Geo Group (GEO) is outperforming the Business Services sector, returning 94.9% year-to-date compared to the sector's average loss of 6.8%. The company holds a Zacks Rank of #2 (...",
+          "url": "https://www.easternprogress.com/is-the-geo-group-geo-outperforming-other-business-services-stocks-this-year/article_64797cef-2611-5da2-8fcd-0b81964d4f77.html",
+          "source": "Eastern Progress",
+          "published_at": "20260905T152634",
+          "sentiment_score": 0.710165,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "GEO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Dollar General (DG) or Dollar Tree (DLTR): Which Stock Is Better?",
+          "summary": "This article compares Dollar General (DG) and Dollar Tree (DLTR) after both discount retailers reported strong quarterly results, benefiting from lower-priced essentials and tar...",
+          "url": "https://uk.finance.yahoo.com/news/dollar-general-dg-dollar-tree-124227102.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260905T151745",
+          "sentiment_score": 0.27435,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "DLTR",
+            "DG"
+          ],
+          "topics": [
+            "Retail Wholesale",
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Global Payments (GPN) Could Be 9% Undervalued Following Its Genius World Conference Appearance",
+          "summary": "Global Payments (GPN) is currently considered 9% undervalued at $92.54, with a fair value estimated at $101.71, a narrative supported by its upcoming appearance at the Genius Wo...",
+          "url": "https://ca.finance.yahoo.com/news/global-payments-gpn-could-9-150631966.html",
+          "source": "Yahoo! Finance Canada",
+          "published_at": "20260905T150708",
+          "sentiment_score": 0.293163,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GPN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "ServiceNow (NOW) Q1 2026 Earnings Call Transcript",
+          "summary": "This article provides the Q1 2026 Earnings Call Transcript for ServiceNow (NOW), powered by Quartr. It focuses solely on presenting the transcript of the company's financial res...",
+          "url": "https://fortune.com/company/servicenow/earnings/q1-2026/",
+          "source": "Fortune",
+          "published_at": "20260905T134143",
+          "sentiment_score": 0.149199,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NOW"
+          ],
+          "topics": [
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Morgan Stanley estimates Apple foldable iPhone could generate $14 billion in December-quarter revenue",
+          "summary": "Morgan Stanley projects that Apple's first foldable iPhone could bring in approximately $14 billion in revenue during the December quarter, marking it as the most significant iP...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-estimates-apple-foldable-131000560.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260905T131126",
+          "sentiment_score": 0.273974,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MS",
+            "AAPL",
+            "COIN"
+          ],
+          "topics": [
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Acquisitive Strategy Offers Long-Term Prospects for QXO Inc. (QXO) Despite Dilution and Integration Risks",
+          "summary": "QXO Inc. is pursuing an aggressive acquisitive growth strategy, recently finalizing a $17 billion acquisition of TopBuild Corp., making it a dominant player in North American bu...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/acquisitive-strategy-offers-long-term-125906273.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260905T125900",
+          "sentiment_score": 0.076725,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "QXO-P-B",
+            "COIN",
+            "MS"
+          ],
+          "topics": [
+            "Mergers And Acquisitions",
+            "Earnings",
+            "Real Estate",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "FirstWave Capital Management LLC Makes New Investment in Galaxy Digital Inc. $GLXY",
+          "summary": "FirstWave Capital Management LLC has made a new investment in Galaxy Digital Inc., acquiring 46,152 shares valued at approximately $1.26 million. This move aligns with other maj...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-firstwave-capital-management-llc-makes-new-investment-in-galaxy-digital-inc-glxy-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T125606",
+          "sentiment_score": 0.301765,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GLXY"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Blockchain",
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "HII Looks 4.7% Undervalued on GF Value™",
+          "summary": "Huntington Ingalls Industries (HII) recently secured a significant $336.11 million contract for the USS William J. Clinton, a project extending to 2039. Despite a current Price-...",
+          "url": "https://www.gurufocus.com/news/9069420/hii-looks-47-undervalued-on-gf-value",
+          "source": "GuruFocus",
+          "published_at": "20260905T125454",
+          "sentiment_score": 0.270817,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "HII"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Jim Cramer Breaks Down P/E Multiples Explaining Why NVIDIA (NVDA) Looks Cheaper Than ServiceNow",
+          "summary": "Jim Cramer highlighted on Mad Money that despite its higher nominal share price, NVIDIA (NVDA) is cheaper than ServiceNow (NOW) when considering their P/E multiples, both curren...",
+          "url": "https://ca.finance.yahoo.com/news/jim-cramer-breaks-down-p-111844638.html",
+          "source": "Yahoo! Finance Canada",
+          "published_at": "20260905T111847",
+          "sentiment_score": 0.209103,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "NOW",
+            "NVDA",
+            "CRM",
+            "NFLX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Jim Cramer Breaks Down P/E Multiples Explaining Why NVIDIA (NVDA) Looks Cheaper Than ServiceNow",
+          "summary": "Jim Cramer argued on Mad Money that NVIDIA (NVDA), despite its higher nominal stock price, is fundamentally cheaper than ServiceNow (NOW) when evaluated by P/E multiples. He hig...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-breaks-down-p-111844638.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260905T111844",
+          "sentiment_score": 0.08347,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NOW",
+            "NVDA",
+            "CRM",
+            "NFLX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Munich Reinsurance Co Stock Corp in Munich Takes $3.75 Million Position in Zimmer Biomet Holdings, Inc. $ZBH",
+          "summary": "Munich Reinsurance Co Stock Corp has acquired a new position in Zimmer Biomet Holdings, Inc., purchasing 43,598 shares valued at approximately $3.75 million during the second qu...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-munich-reinsurance-co-stock-corp-in-munich-takes-375-million-position-in-zimmer-biomet-holdings-inc-zbh-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T111115",
+          "sentiment_score": 0.419442,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ZBH"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Step Capital Management Pte. Ltd. Has $48.67 Million Stake in Moderna, Inc. $MRNA",
+          "summary": "Step Capital Management Pte. Ltd. increased its stake in Moderna, Inc. by 7.8% in the second quarter, now holding 695,000 shares valued at $48.67 million. Moderna constitutes 10...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-step-capital-management-pte-ltd-has-4867-million-stake-in-moderna-inc-mrna-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T110821",
+          "sentiment_score": 0.185076,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MRNA",
+            "MRK"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Kimball Electronics COO Steven T. Korn Donates 5,000 Shares to Charity",
+          "summary": "Steven T. Korn, COO of Kimball Electronics, Inc. (NASDAQ:KE), donated a total of 5,000 shares of common stock to charitable organizations on September 3, 2026. This included 4,0...",
+          "url": "https://kalkinemedia.com/us/news/announcements/kimball-electronics-coo-steven-t-korn-donates-5000-shares-to-charity",
+          "source": "Kalkine Media",
+          "published_at": "20260905T152322",
+          "sentiment_score": 0.02964,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "KE"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Keurig Dr Pepper senior VP sells $310,650 in stock By Investing.com",
+          "summary": "Angela A. Stephens, Senior Vice President and Controller at Keurig Dr Pepper Inc., sold 9,500 shares of company stock totaling $310,650 on September 3, 2026. Following the sale,...",
+          "url": "https://ng.investing.com/news/stock-market-news/keurig-dr-pepper-senior-vp-sells-310650-in-stock-93CH-2686404",
+          "source": "Investing.com Nigeria",
+          "published_at": "20260905T224910",
+          "sentiment_score": 0.05555,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "KDP"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Ceribell CEO Chao Xingjuan sells $973,079 in company stock By Investing.com",
+          "summary": "Ceribell (CBLL) CEO Chao Xingjuan sold 39,540 shares of company stock for approximately $973,079, while also acquiring 25,000 shares through option exercises totaling $117,500,...",
+          "url": "https://za.investing.com/news/stock-market-news/ceribell-ceo-chao-xingjuan-sells-973079-in-company-stock-93CH-4455124",
+          "source": "Investing.com South Africa",
+          "published_at": "20260905T155614",
+          "sentiment_score": 0.144578,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CBLL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Life Sciences",
+            "Earnings"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Dollar General (DG) or Dollar Tree (DLTR): Which Stock Is Better?",
+          "summary": "This article compares Dollar General (DG) and Dollar Tree (DLTR), both of which reported strong quarterly results driven by consumer demand for lower-priced essentials and tarif...",
+          "url": "https://sg.finance.yahoo.com/news/dollar-general-dg-dollar-tree-124227102.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260905T121745",
+          "sentiment_score": 0.230139,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "DLTR",
+            "DG"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Avino Silver and Gold Records Strong Quarter Results, Reserve Update Signalling Long Mine Life",
+          "summary": "Avino Silver & Gold (TSX:ASM) reported strong Q2 2026 results with $144.2 million cash and no debt, positioning the company to self-fund a standalone processing plant at La Prec...",
+          "url": "https://www.cruxinvestor.com/posts/avino-silver-and-gold-records-strong-quarter-results-with-reserve-update-signalling-long-mine-life",
+          "source": "Crux Investor",
+          "published_at": "20260905T115239",
+          "sentiment_score": 0.45268,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ASM"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Evolus president & CEO David Moatazedi sells $950,018 in shares",
+          "summary": "David Moatazedi, President and CEO of Evolus Inc. (NASDAQ:EOLS), sold 105,108 shares of the company's common stock for a total of $950,018 on September 2, 2026. This sale occurr...",
+          "url": "https://m.investing.com/news/insider-trading-news/evolus-president--ceo-david-moatazedi-sells-950018-in-shares-93CH-4890116?ampMode=1",
+          "source": "Investing.com",
+          "published_at": "20260905T233027",
+          "sentiment_score": 0.002299,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "EOLS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Life Sciences"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "WIX CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Wix.com (WIX) Investors of Securities Class Action Lawsuit De...",
+          "summary": "Faruqi & Faruqi, LLP has reminded investors of Wix.com (WIX) about the September 22, 2026 deadline to seek lead plaintiff status in a federal securities class action lawsuit. Th...",
+          "url": "https://natlawreview.com/press-releases/wix-class-action-notice-faruqi-faruqi-llp-reminds-wixcom-wix-investors",
+          "source": "The National Law Review",
+          "published_at": "20260905T125612",
+          "sentiment_score": -0.782092,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "WIX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Technology"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "RXT CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Rackspace Technology Investors of Securities Class Action Law...",
+          "summary": "Faruqi & Faruqi, LLP has announced a class action lawsuit against Rackspace Technology, Inc. (NASDAQ: RXT), reminding investors of the September 28, 2026, deadline to seek lead...",
+          "url": "https://natlawreview.com/press-releases/rxt-class-action-notice-faruqi-faruqi-llp-reminds-rackspace-technology",
+          "source": "The National Law Review",
+          "published_at": "20260905T122551",
+          "sentiment_score": -0.817402,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "RXT"
+          ],
+          "topics": [
+            "Finance",
+            "Technology",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "DICK’S Sporting Goods Faces Investor Class Action",
+          "summary": "DICK’S Sporting Goods (NYSE: DKS) is facing a securities class action lawsuit after its stock price significantly declined following weaker-than-expected second-quarter results...",
+          "url": "https://www.stl.news/dicks-sporting-goods-faces-investor-class-action/",
+          "source": "STL.News",
+          "published_at": "20260905T112040",
+          "sentiment_score": -0.481668,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "DKS"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Finance",
+            "Financial Markets"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "How Home Depot’s AI Magic Apron Rollout and Capital Moves Will Impact Home Depot (HD) Investors",
+          "summary": "Home Depot has expanded its AI-powered Magic Apron assistant to over 2,000 U.S. stores and completed a significant share buyback program, alongside filing a shelf registration f...",
+          "url": "https://ca.finance.yahoo.com/news/home-depot-ai-magic-apron-110753784.html",
+          "source": "Yahoo! Finance Canada",
+          "published_at": "20260905T111849",
+          "sentiment_score": 0.101003,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HD"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale",
+            "Technology"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        }
+      ],
+      "article_count": 50,
+      "top_ticker": "NVDA",
+      "top_topic": "Earnings",
+      "dominant_sentiment": "Somewhat-Bullish",
+      "top_story": "Matrix Service (NASDAQ:MTRX) Issues Quarterly Earnings Results, Misses Estimates By $0.01 EPS",
+      "signal_articles": [
+        {
+          "title": "Matrix Service (NASDAQ:MTRX) Issues Quarterly Earnings Results, Misses Estimates By $0.01 EPS",
+          "summary": "Matrix Service (NASDAQ:MTRX) reported its quarterly earnings, missing analyst estimates by $0.01 EPS with a reported $0.16 EPS against an expected $0.17. The company also fell s...",
+          "url": "https://www.marketbeat.com/instant-alerts/earnings-matrix-service-nasdaq-mtrx-posts-earnings-results-misses-estimates-by-001-eps-2026-09-02/",
+          "source": "MarketBeat",
+          "published_at": "20260905T123059",
+          "sentiment_score": -0.201712,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "MTRX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing",
+            "Energy Transportation"
+          ],
+          "quality_score": 19,
+          "is_noise": false
+        },
+        {
+          "title": "Gilead Sciences Strategically Prepares for HIV Market Changes",
+          "summary": "Gilead Sciences is strategically preparing for shifts in the HIV market, evidenced by three recent FDA approvals for HIV treatments, including Bixlenvo. The company demonstrates...",
+          "url": "https://intellectia.ai/news/stock/gilead-sciences-strategically-prepares-for-hiv-market-changes",
+          "source": "Intellectia AI",
+          "published_at": "20260905T152746",
+          "sentiment_score": 0.421059,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "GILD"
+          ],
+          "topics": [
+            "Life Sciences",
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 18,
+          "is_noise": false
+        },
+        {
+          "title": "JinkoSolar (NYSE:JKS) Downgraded by Zacks Research to \"Strong Sell\"",
+          "summary": "Zacks Research has downgraded JinkoSolar (NYSE:JKS) to a \"Strong Sell\" rating, citing the company's recent earnings miss and lower-than-expected revenue. The stock opened near i...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-jinkosolar-nyse-jks-downgraded-by-zacks-research-to-strong-sell-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T122124",
+          "sentiment_score": -0.636551,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "JKS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 16,
+          "is_noise": false
+        },
+        {
+          "title": "Align Technology (ALGN) Could Be 24% Undervalued On Mixed Earnings Guidance",
+          "summary": "Align Technology (ALGN) is considered 24% undervalued despite recent mixed earnings guidance, which included meeting revenue, exceeding earnings forecasts, but also issuing soft...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/align-technology-algn-could-24-141317011.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260905T141353",
+          "sentiment_score": 0.2863,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "ALGN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Technology"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "How Investors Are Reacting To Halliburton (HAL) Winning BP’s Integrated Deepwater Brazil Digital Drilling Deal",
+          "summary": "Halliburton secured an integrated contract from BP for a deepwater appraisal campaign in Brazil, which includes drilling, evaluation, and digital automation services. This win r...",
+          "url": "https://simplywall.st/stocks/us/energy/nyse-hal/halliburton/news/how-investors-are-reacting-to-halliburton-hal-winning-bps-in/amp",
+          "source": "Simply Wall Street",
+          "published_at": "20260905T111431",
+          "sentiment_score": 0.109385,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HAL",
+            "BKR",
+            "SLB"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": 14,
+          "is_noise": false
+        },
+        {
+          "title": "Marriott International (MAR) Q1 2025 Earnings: Results, Market Reaction & History",
+          "summary": "Marriott International reported strong Q1 2025 earnings, surpassing Wall Street expectations with adjusted diluted EPS of $2.32 and revenue of $6.26 billion, driven by robust gl...",
+          "url": "https://247wallst.com/companies/mar/earnings/2025/Q1/",
+          "source": "24/7 Wall St.",
+          "published_at": "20260905T131413",
+          "sentiment_score": 0.78123,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "MAR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Ferguson (NYSE:FERG) Upgraded at Jefferies Financial Group",
+          "summary": "Jefferies Financial Group upgraded Ferguson (NYSE:FERG) to a \"strong-buy\" rating, contributing to a \"Moderate Buy\" consensus rating and an average analyst price target of $285.5...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-ferguson-nyse-ferg-upgraded-at-jefferies-financial-group-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T122409",
+          "sentiment_score": 0.089869,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "JEF",
+            "GS",
+            "BAC"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "HA Sustainable Infrastructure Capital (NYSE:HASI) Rating Lowered to Hold at UBS Group",
+          "summary": "UBS Group downgraded HA Sustainable Infrastructure Capital (NYSE:HASI) from \"strong buy\" to \"hold\" in a recent research report, causing the stock to fall by 3.7%. Despite this,...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-ha-sustainable-infrastructure-capital-nyse-hasi-rating-lowered-to-hold-at-ubs-group-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T122255",
+          "sentiment_score": -0.110252,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HASI"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Real Estate",
+            "Finance"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Sonida Senior Living (NYSE:SNDA) Rating Increased to Strong-Buy at Robert W. Baird",
+          "summary": "Robert W. Baird upgraded Sonida Senior Living (NYSE:SNDA) from a \"hold\" to a \"strong-buy\" rating. The company's stock trades within a 52-week range of $24.94 to $44.38 and analy...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-sonida-senior-living-nyse-snda-rating-increased-to-strong-buy-at-robert-w-baird-2026-09-05/",
+          "source": "MarketBeat",
+          "published_at": "20260905T115223",
+          "sentiment_score": 0.332641,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SNDA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Gogo (NASDAQ:GOGO): Is Weak Earnings Momentum A Bigger Risk?",
+          "summary": "Gogo (NASDAQ:GOGO) is under market scrutiny due to cautious analyst sentiment, disappointing quarterly results, and a struggling share price. The company, which specializes in i...",
+          "url": "https://kalkinemedia.com/us/stocks/communication/gogo-nasdaqgogo-is-weak-earnings-momentum-a-bigger-risk",
+          "source": "Kalkine Media",
+          "published_at": "20260905T105926",
+          "sentiment_score": -0.430176,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "GOGO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        }
+      ],
+      "top_tickers": [
+        {
+          "ticker": "NVDA",
+          "mentions": 4
+        },
+        {
+          "ticker": "COIN",
+          "mentions": 4
+        },
+        {
+          "ticker": "CRM",
+          "mentions": 3
+        },
+        {
+          "ticker": "NOW",
+          "mentions": 3
+        },
+        {
+          "ticker": "HCA",
+          "mentions": 2
+        }
+      ],
+      "top_topics": [
+        {
+          "topic": "Earnings",
+          "mentions": 45
+        },
+        {
+          "topic": "Financial Markets",
+          "mentions": 40
+        },
+        {
+          "topic": "Finance",
+          "mentions": 20
+        },
+        {
+          "topic": "Technology",
+          "mentions": 9
+        },
+        {
+          "topic": "Life Sciences",
+          "mentions": 7
+        }
+      ],
+      "sentiment_counts": [
+        {
+          "label": "Somewhat-Bullish",
+          "count": 17
+        },
+        {
+          "label": "Neutral",
+          "count": 10
+        },
+        {
+          "label": "Bullish",
+          "count": 9
+        },
+        {
+          "label": "Bearish",
+          "count": 8
+        },
+        {
+          "label": "Somewhat-Bearish",
+          "count": 1
+        }
+      ],
+      "top_sources": [
+        {
+          "source": "MarketBeat",
+          "count": 14
+        },
+        {
+          "source": "Yahoo Finance",
+          "count": 10
+        },
+        {
+          "source": "Yahoo! Finance Canada",
+          "count": 3
+        },
+        {
+          "source": "Yahoo Finance UK",
+          "count": 3
+        },
+        {
+          "source": "Kalkine Media",
+          "count": 2
+        }
+      ],
+      "takeaway": "News flow is centered on Earnings, with NVDA appearing most often and the headline tone mostly somewhat-bullish."
+    }
+  },
+  {
     "id": "polymarket-pulse-2026-09-06",
     "date": "2026-09-06",
     "runDate": "2026-09-06",
