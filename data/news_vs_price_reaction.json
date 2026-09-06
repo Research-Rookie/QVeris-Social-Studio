@@ -1,60 +1,64 @@
 {
-  "updated_at": "2026-09-05T07:05:01.712132+00:00",
-  "date": "2026-09-05",
+  "updated_at": "2026-09-06T07:16:06.815344+00:00",
+  "date": "2026-09-06",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "TER",
-  "news_tone": "Neutral",
+  "symbol": "NVDA",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "Wall Street Zen Upgrades NetApp (NASDAQ:NTAP) to \"Strong-Buy\"",
+  "headline": "Matrix Service (NASDAQ:MTRX) Issues Quarterly Earnings Results, Misses Estimates By $0.01 EPS",
   "headline_source": "MarketBeat",
-  "price": 357.03,
+  "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
-  "volume": 2247433,
-  "reaction_label": "Muted reaction",
-  "takeaway": "News tone and price action are both relatively muted.",
-  "price_error": null,
+  "volume": 0,
+  "reaction_label": "Price pending",
+  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 230.36, 'd': 1.91, 'dp': 0.8361, 'h': 234.76, 'l': 229.63, 'o': 231.09, 'pc': 228.45, 't': 1788552000}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "TER",
-        "mentions": 2
+        "ticker": "NVDA",
+        "mentions": 4
       },
       {
-        "ticker": "AMD",
-        "mentions": 2
+        "ticker": "COIN",
+        "mentions": 4
       },
       {
-        "ticker": "MS",
-        "mentions": 2
+        "ticker": "CRM",
+        "mentions": 3
       },
       {
-        "ticker": "PEP",
-        "mentions": 2
+        "ticker": "NOW",
+        "mentions": 3
       },
       {
-        "ticker": "GM",
+        "ticker": "ALGN",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Neutral",
-        "count": 12
-      },
-      {
         "label": "Somewhat-Bullish",
-        "count": 12
+        "count": 19
       },
       {
-        "label": "Somewhat-Bearish",
-        "count": 4
+        "label": "Neutral",
+        "count": 11
       },
       {
         "label": "Bullish",
+        "count": 7
+      },
+      {
+        "label": "Bearish",
+        "count": 7
+      },
+      {
+        "label": "Somewhat-Bearish",
         "count": 1
       }
     ]
