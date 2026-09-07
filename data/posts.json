@@ -1,5 +1,216 @@
 [
   {
+    "id": "market-narrative-shift-coin-2026-09-07",
+    "date": "2026-09-07",
+    "runDate": "2026-09-07",
+    "createdAt": "2026-09-07T06:53:44.874219+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $COIN",
+    "status": "ready",
+    "tweet": "What changed in $COIN's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: +0.05\n📌 Top theme: Earnings\n🔎 Emerging term: revenue\n📰 Coverage: 3 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_COIN_2026-09-07.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-07T06:53:43.307258+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$COIN",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "COIN",
+    "topChangePct": 4.68,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-07T06:53:43.307258+00:00",
+      "date": "2026-09-07",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "COIN",
+      "shift_label": "Attention rising",
+      "sentiment_delta": 0.0468,
+      "baseline_label": "2026-09-05",
+      "current": {
+        "date": "2026-09-07",
+        "symbol": "COIN",
+        "article_count": 3,
+        "source_count": 1,
+        "sentiment_score": 0.1629,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 3
+          },
+          {
+            "label": "Financial Markets",
+            "count": 3
+          },
+          {
+            "label": "Technology",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "revenue",
+            "count": 4
+          },
+          {
+            "label": "applied",
+            "count": 3
+          },
+          {
+            "label": "digital",
+            "count": 3
+          },
+          {
+            "label": "netflix",
+            "count": 3
+          },
+          {
+            "label": "siga",
+            "count": 3
+          },
+          {
+            "label": "iren",
+            "count": 2
+          },
+          {
+            "label": "accelerating",
+            "count": 2
+          },
+          {
+            "label": "growth",
+            "count": 2
+          },
+          {
+            "label": "prices",
+            "count": 2
+          },
+          {
+            "label": "increase",
+            "count": 2
+          },
+          {
+            "label": "has",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          }
+        ],
+        "headline": "Analyzing Applied Digital vs. IREN: Accelerating Upward Trajectories vs. Sequential Contractions in Quarterly Reven...",
+        "headline_source": "Yahoo Finance"
+      },
+      "previous": {
+        "date": "2026-09-05",
+        "symbol": "COIN",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1161,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Manufacturing",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "steel",
+            "count": 2
+          },
+          {
+            "label": "dynamics",
+            "count": 2
+          },
+          {
+            "label": "stld",
+            "count": 2
+          },
+          {
+            "label": "broader",
+            "count": 2
+          },
+          {
+            "label": "dips",
+            "count": 1
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "you",
+            "count": 1
+          },
+          {
+            "label": "should",
+            "count": 1
+          },
+          {
+            "label": "know",
+            "count": 1
+          },
+          {
+            "label": "closed",
+            "count": 1
+          },
+          {
+            "label": "down",
+            "count": 1
+          },
+          {
+            "label": "underperforming",
+            "count": 1
+          }
+        ],
+        "headline": "Steel Dynamics (STLD) Dips More Than Broader Market: What You Should Know",
+        "headline_source": "Yahoo Finance"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "fading_themes": [
+        "Manufacturing"
+      ],
+      "emerging_keywords": [
+        "revenue",
+        "applied",
+        "digital"
+      ],
+      "fading_keywords": [
+        "steel",
+        "dynamics",
+        "stld"
+      ],
+      "takeaway": "COIN's narrative is attention rising: sentiment moved +0.05, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-07",
     "date": "2026-09-07",
     "runDate": "2026-09-07",
