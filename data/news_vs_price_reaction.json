@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-09-06T07:16:06.815344+00:00",
-  "date": "2026-09-06",
+  "updated_at": "2026-09-07T07:30:14.584705+00:00",
+  "date": "2026-09-07",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "NVDA",
-  "news_tone": "Somewhat Bullish",
+  "symbol": "COIN",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Matrix Service (NASDAQ:MTRX) Issues Quarterly Earnings Results, Misses Estimates By $0.01 EPS",
-  "headline_source": "MarketBeat",
-  "price": 0.0,
+  "headline": "Entergy Corp. stock steadies after guidance and cash flow signals",
+  "headline_source": "AD HOC NEWS",
+  "price": 79417.8450285481,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
-  "reaction_label": "Price pending",
-  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 230.36, 'd': 1.91, 'dp': 0.8361, 'h': 234.76, 'l': 229.63, 'o': 231.09, 'pc': 228.45, 't': 1788552000}}",
+  "reaction_label": "Muted reaction",
+  "takeaway": "News tone and price action are both relatively muted.",
+  "price_error": null,
   "news": {
     "article_count": 50,
     "top_tickers": [
+      {
+        "ticker": "COIN",
+        "mentions": 5
+      },
       {
         "ticker": "NVDA",
         "mentions": 4
       },
       {
-        "ticker": "COIN",
-        "mentions": 4
-      },
-      {
-        "ticker": "CRM",
+        "ticker": "NFLX",
         "mentions": 3
       },
       {
-        "ticker": "NOW",
+        "ticker": "AMZN",
         "mentions": 3
       },
       {
-        "ticker": "ALGN",
-        "mentions": 2
+        "ticker": "MSFT",
+        "mentions": 3
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Somewhat-Bullish",
-        "count": 19
+        "label": "Neutral",
+        "count": 18
       },
       {
-        "label": "Neutral",
-        "count": 11
+        "label": "Somewhat-Bullish",
+        "count": 13
       },
       {
         "label": "Bullish",
-        "count": 7
+        "count": 9
       },
       {
         "label": "Bearish",
-        "count": 7
+        "count": 4
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 1
+        "count": 3
       }
     ]
   }
