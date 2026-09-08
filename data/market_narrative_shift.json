@@ -1,101 +1,93 @@
 {
-  "updated_at": "2026-09-07T06:53:43.307258+00:00",
-  "date": "2026-09-07",
+  "updated_at": "2026-09-08T06:49:42.147573+00:00",
+  "date": "2026-09-08",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "COIN",
-  "shift_label": "Attention rising",
-  "sentiment_delta": 0.0468,
+  "symbol": "AMD",
+  "shift_label": "Narrative steady",
+  "sentiment_delta": -0.0243,
   "baseline_label": "2026-09-05",
   "current": {
-    "date": "2026-09-07",
-    "symbol": "COIN",
-    "article_count": 3,
+    "date": "2026-09-08",
+    "symbol": "AMD",
+    "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1629,
+    "sentiment_score": 0.3246,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 3
-      },
-      {
-        "label": "Financial Markets",
-        "count": 3
+        "count": 1
       },
       {
         "label": "Technology",
-        "count": 2
-      },
-      {
-        "label": "Economy Macro",
         "count": 1
       },
       {
-        "label": "Life Sciences",
+        "label": "Financial Markets",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "revenue",
-        "count": 4
+        "label": "wall",
+        "count": 1
       },
       {
-        "label": "applied",
-        "count": 3
+        "label": "street",
+        "count": 1
       },
       {
-        "label": "digital",
-        "count": 3
+        "label": "worried",
+        "count": 1
       },
       {
-        "label": "netflix",
-        "count": 3
+        "label": "here",
+        "count": 1
       },
       {
-        "label": "siga",
-        "count": 3
+        "label": "why",
+        "count": 1
       },
       {
-        "label": "iren",
-        "count": 2
+        "label": "long-term",
+        "count": 1
       },
       {
-        "label": "accelerating",
-        "count": 2
+        "label": "investors",
+        "count": 1
       },
       {
-        "label": "growth",
-        "count": 2
+        "label": "shouldn",
+        "count": 1
       },
       {
-        "label": "prices",
-        "count": 2
+        "label": "despite",
+        "count": 1
       },
       {
-        "label": "increase",
-        "count": 2
+        "label": "posting",
+        "count": 1
       },
       {
-        "label": "has",
-        "count": 2
+        "label": "strong",
+        "count": 1
       },
       {
-        "label": "for",
-        "count": 2
+        "label": "earnings",
+        "count": 1
       }
     ],
-    "headline": "Analyzing Applied Digital vs. IREN: Accelerating Upward Trajectories vs. Sequential Contractions in Quarterly Reven...",
-    "headline_source": "Yahoo Finance"
+    "headline": "Wall Street Is Worried About AMD. Here’s Why Long-Term Investors Shouldn’t Be",
+    "headline_source": "24/7 Wall St."
   },
   "previous": {
     "date": "2026-09-05",
-    "symbol": "COIN",
+    "symbol": "AMD",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1161,
+    "sentiment_score": 0.3489,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -107,33 +99,53 @@
         "count": 1
       },
       {
-        "label": "Manufacturing",
+        "label": "Economy Monetary",
         "count": 1
       },
       {
         "label": "Economy Macro",
         "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "steel",
+        "label": "formfactor",
         "count": 2
       },
       {
-        "label": "dynamics",
+        "label": "entegris",
         "count": 2
       },
       {
-        "label": "stld",
+        "label": "penguin",
         "count": 2
       },
       {
-        "label": "broader",
+        "label": "solutions",
         "count": 2
       },
       {
-        "label": "dips",
+        "label": "teradyne",
+        "count": 2
+      },
+      {
+        "label": "marvell",
+        "count": 2
+      },
+      {
+        "label": "technology",
+        "count": 2
+      },
+      {
+        "label": "stocks",
+        "count": 2
+      },
+      {
+        "label": "trade",
         "count": 1
       },
       {
@@ -145,47 +157,32 @@
         "count": 1
       },
       {
-        "label": "should",
-        "count": 1
-      },
-      {
-        "label": "know",
-        "count": 1
-      },
-      {
-        "label": "closed",
-        "count": 1
-      },
-      {
-        "label": "down",
-        "count": 1
-      },
-      {
-        "label": "underperforming",
+        "label": "need",
         "count": 1
       }
     ],
-    "headline": "Steel Dynamics (STLD) Dips More Than Broader Market: What You Should Know",
-    "headline_source": "Yahoo Finance"
+    "headline": "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
+    "headline_source": "Yahoo! Finance Canada"
   },
   "emerging_themes": [
     "Earnings",
-    "Financial Markets",
-    "Technology"
+    "Technology",
+    "Financial Markets"
   ],
   "fading_themes": [
-    "Manufacturing"
+    "Economy Monetary",
+    "Economy Macro"
   ],
   "emerging_keywords": [
-    "revenue",
-    "applied",
-    "digital"
+    "wall",
+    "street",
+    "worried"
   ],
   "fading_keywords": [
-    "steel",
-    "dynamics",
-    "stld"
+    "formfactor",
+    "entegris",
+    "penguin"
   ],
-  "takeaway": "COIN's narrative is attention rising: sentiment moved +0.05, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "AMD's narrative is narrative steady: sentiment moved -0.02, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

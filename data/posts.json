@@ -1,5 +1,213 @@
 [
   {
+    "id": "market-narrative-shift-amd-2026-09-08",
+    "date": "2026-09-08",
+    "runDate": "2026-09-08",
+    "createdAt": "2026-09-08T06:49:43.692612+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $AMD",
+    "status": "ready",
+    "tweet": "What changed in $AMD's market narrative? 🔄\n\n🧭 Signal: Narrative steady\n💬 Sentiment shift: -0.02\n📌 Top theme: Earnings\n🔎 Emerging term: wall\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_AMD_2026-09-08.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-08T06:49:42.147573+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AMD",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Narrative steady",
+    "topSymbol": "AMD",
+    "topChangePct": -2.4299999999999997,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-08T06:49:42.147573+00:00",
+      "date": "2026-09-08",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "AMD",
+      "shift_label": "Narrative steady",
+      "sentiment_delta": -0.0243,
+      "baseline_label": "2026-09-05",
+      "current": {
+        "date": "2026-09-08",
+        "symbol": "AMD",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.3246,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "wall",
+            "count": 1
+          },
+          {
+            "label": "street",
+            "count": 1
+          },
+          {
+            "label": "worried",
+            "count": 1
+          },
+          {
+            "label": "here",
+            "count": 1
+          },
+          {
+            "label": "why",
+            "count": 1
+          },
+          {
+            "label": "long-term",
+            "count": 1
+          },
+          {
+            "label": "investors",
+            "count": 1
+          },
+          {
+            "label": "shouldn",
+            "count": 1
+          },
+          {
+            "label": "despite",
+            "count": 1
+          },
+          {
+            "label": "posting",
+            "count": 1
+          },
+          {
+            "label": "strong",
+            "count": 1
+          },
+          {
+            "label": "earnings",
+            "count": 1
+          }
+        ],
+        "headline": "Wall Street Is Worried About AMD. Here’s Why Long-Term Investors Shouldn’t Be",
+        "headline_source": "24/7 Wall St."
+      },
+      "previous": {
+        "date": "2026-09-05",
+        "symbol": "AMD",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.3489,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Economy Monetary",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "formfactor",
+            "count": 2
+          },
+          {
+            "label": "entegris",
+            "count": 2
+          },
+          {
+            "label": "penguin",
+            "count": 2
+          },
+          {
+            "label": "solutions",
+            "count": 2
+          },
+          {
+            "label": "teradyne",
+            "count": 2
+          },
+          {
+            "label": "marvell",
+            "count": 2
+          },
+          {
+            "label": "technology",
+            "count": 2
+          },
+          {
+            "label": "stocks",
+            "count": 2
+          },
+          {
+            "label": "trade",
+            "count": 1
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "you",
+            "count": 1
+          },
+          {
+            "label": "need",
+            "count": 1
+          }
+        ],
+        "headline": "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
+        "headline_source": "Yahoo! Finance Canada"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Economy Monetary",
+        "Economy Macro"
+      ],
+      "emerging_keywords": [
+        "wall",
+        "street",
+        "worried"
+      ],
+      "fading_keywords": [
+        "formfactor",
+        "entegris",
+        "penguin"
+      ],
+      "takeaway": "AMD's narrative is narrative steady: sentiment moved -0.02, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-08",
     "date": "2026-09-08",
     "runDate": "2026-09-08",
