@@ -1,5 +1,1343 @@
 [
   {
+    "id": "financial-news-signal-2026-09-08",
+    "date": "2026-09-08",
+    "runDate": "2026-09-08",
+    "createdAt": "2026-09-08T06:07:34.377020+00:00",
+    "contentType": "FINANCIAL NEWS SIGNAL",
+    "title": "Financial News Signal",
+    "status": "ready",
+    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 50\n🏷️ Ticker: NVDA\n📌 Theme: Earnings\n🧭 Tone: Somewhat Bullish\n\nSignals from live news data: https://qveris.ai",
+    "image": "/posts/financial_news_signal_2026-09-08.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-08T06:07:32.825424+00:00",
+    "xPostId": null,
+    "primaryLabel": "Top ticker",
+    "primaryValue": "NVDA",
+    "secondaryLabel": "Tone",
+    "secondaryValue": "Somewhat Bullish",
+    "topSymbol": "NVDA",
+    "topChangePct": 0,
+    "financialNewsSignal": {
+      "updated_at": "2026-09-08T06:07:32.825424+00:00",
+      "date": "2026-09-08",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Financial News Signal",
+      "articles": [
+        {
+          "title": "Wall Street Is Worried About AMD. Here’s Why Long-Term Investors Shouldn’t Be",
+          "summary": "Despite AMD posting strong Q2 AI earnings, including doubled Data Center revenue and positive Q3 guidance, its stock dropped due to product-mix margin concerns and China export...",
+          "url": "https://247wallst.com/investing/2026/09/07/wall-street-is-worried-about-amd-heres-why-long-term-investors-shouldnt-be/",
+          "source": "24/7 Wall St.",
+          "published_at": "20260907T173018",
+          "sentiment_score": 0.340943,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AMD",
+            "NVDA",
+            "MSFT"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Financial Markets"
+          ],
+          "quality_score": 20,
+          "is_noise": false
+        },
+        {
+          "title": "NetApp Q1 Beat and Raised Guidance Put AI Storage Growth in Focus",
+          "summary": "NetApp reported strong Q1 fiscal 2027 results, exceeding revenue and earnings expectations, and subsequently raised its full-year outlook. The company's growth was driven by dem...",
+          "url": "https://uk.finance.yahoo.com/news/netapp-q1-beat-raised-guidance-163600631.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260907T164111",
+          "sentiment_score": 0.323854,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "NTAP",
+            "DELL"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Financial Markets"
+          ],
+          "quality_score": 18,
+          "is_noise": false
+        },
+        {
+          "title": "NXP Semiconductors stock gains on strong market value",
+          "summary": "NXP Semiconductors stock is gaining value, currently at USD 57.45 billion, with investors focused on earnings quality and valuation metrics like a P/E ratio of 19.44 and a PEG r...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nxp-semiconductors-stock-gains-on-strong-market-value/70065475",
+          "source": "AD HOC NEWS",
+          "published_at": "20260907T210900",
+          "sentiment_score": 0.339638,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "NXPI"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 16,
+          "is_noise": false
+        },
+        {
+          "title": "CooperCompanies (COO) To Report Earnings Tomorrow: Here Is What To Expect",
+          "summary": "CooperCompanies (COO) is set to report its earnings after market close on Wednesday. Analysts expect revenue to grow 3.5% year-over-year, a slowdown from the previous year's 5.7...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coopercompanies-coo-report-earnings-tomorrow-032451499.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260908T031438",
+          "sentiment_score": 0.183256,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "COO",
+            "BAX",
+            "GEHC"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "Omnicom Group stock gains on strong Q2 2026 revenue jump after Interpublic merger",
+          "summary": "Omnicom Group's stock is gaining after a significant revenue jump in Q2 2026, driven by its merger with Interpublic. The company reported a 63.4% year-over-year revenue increase...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/omnicom-group-stock-gains-on-strong-q2-2026-revenue-jump-after-interpublic/70064698",
+          "source": "AD HOC NEWS",
+          "published_at": "20260907T181200",
+          "sentiment_score": 0.373726,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "OMC",
+            "IPG"
+          ],
+          "topics": [
+            "Earnings",
+            "Mergers And Acquisitions",
+            "Financial Markets"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "AIG stock holds firm as leadership transition and analyst support shape outlook",
+          "summary": "AIG stock is maintaining its value in early September 2026, influenced by a leadership transition and strong analyst support, along with recent institutional investments. The co...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/aig-stock-holds-firm-as-leadership-transition-and-analyst-support-shape/70064381",
+          "source": "AD HOC NEWS",
+          "published_at": "20260907T170300",
+          "sentiment_score": 0.291142,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AIG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "High Gas Prices Aren't Budging—Here Are 3 Stocks That Benefit",
+          "summary": "Despite high gas prices, the article identifies opportunities in the energy sector beyond just oil producers, focusing on refiners, fuel distributors, and convenience store comp...",
+          "url": "https://www.marketbeat.com/articles/high-gas-prices-arent-budginghere-are-3-stocks-that-benefit/",
+          "source": "MarketBeat",
+          "published_at": "20260907T161349",
+          "sentiment_score": 0.414839,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "PSX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation",
+            "Retail Wholesale"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "CoStar Favicon: U.S. hotel results for week ending 29 August; U.S. hotels posted their 20th straight week of year-o...",
+          "summary": "The U.S. hotel industry recorded its 20th consecutive week of year-over-year gains, with Revenue Per Available Room (RevPAR) increasing by 1.7% to $100.69 for the week ending Au...",
+          "url": "https://www.marketscreener.com/news/costar-favicon-u-s-hotel-results-for-week-ending-29-august-u-s-hotels-posted-their-20th-straight-ce785bdbd089ff24",
+          "source": "www.marketscreener.com",
+          "published_at": "20260907T152540",
+          "sentiment_score": 0.215029,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CSGP"
+          ],
+          "topics": [
+            "Real Estate",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Walmart's Ad Business Expands: Can High-Margin Growth Lift Profits?",
+          "summary": "Walmart is significantly expanding its advertising business, integrating it into its digital operations to drive higher-margin revenue growth. In Q2 fiscal 2027, global advertis...",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/COST/pressreleases/4475196/walmarts-ad-business-expands-can-high-margin-growth-lift-profits/",
+          "source": "The Globe and Mail",
+          "published_at": "20260907T144409",
+          "sentiment_score": 0.022266,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "WMT"
+          ],
+          "topics": [
+            "Retail Wholesale",
+            "Earnings",
+            "Finance",
+            "Technology"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Should Investors Buy KVUE as Margin Gains Offset Slow Sales Growth?",
+          "summary": "Kenvue Inc. (KVUE) has shown improved earnings leverage due to strong margin gains, with adjusted operating margin rising 180 basis points and adjusted earnings increasing by 18...",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/PG/pressreleases/4477802/should-investors-buy-kvue-as-margin-gains-offset-slow-sales-growth/",
+          "source": "The Globe and Mail",
+          "published_at": "20260907T203622",
+          "sentiment_score": 0.064744,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "KVUE",
+            "CHD",
+            "PG",
+            "KMB"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "General Motors stock gains on institutional buying and solid Q2 earnings",
+          "summary": "General Motors stock is performing strongly, trading near its 52-week high, driven by significant institutional buying and better-than-expected Q2 2026 earnings. The company rep...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/general-motors-stock-gains-on-institutional-buying-and-solid-q2-earnings/70065103",
+          "source": "AD HOC NEWS",
+          "published_at": "20260907T171440",
+          "sentiment_score": 0.200977,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GM",
+            "BAC",
+            "C",
+            "JPM",
+            "MS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation",
+            "Economy Macro",
+            "Manufacturing"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Cabot (NYSE:CBT): Is the Market Too Cautious Now?",
+          "summary": "Cabot Corporation (NYSE:CBT), a specialty chemicals company, is facing mixed market sentiment despite exceeding recent earnings expectations. The article discusses how its diver...",
+          "url": "https://kalkinemedia.com/us/news/basic-materials/cabot-nysecbt-is-the-market-too-cautious-now",
+          "source": "Kalkine Media",
+          "published_at": "20260907T160028",
+          "sentiment_score": 0.286253,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CBT"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing",
+            "Economy Macro"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Bank of Hawaii : Hawai‘i to Temporarily Close Branches and Offices on Kaua‘i Due to Hurricane Lowell",
+          "summary": "Bank of Hawaii announced the temporary closure of all its branch operations and offices on Kaua‘i starting September 8, 2026, due to Hurricane Lowell. The bank will provide upda...",
+          "url": "https://www.marketscreener.com/news/bank-of-hawaii-hawaia-i-to-temporarily-close-branches-and-offices-on-kauaa-i-due-to-hurricane-lo-ce785bd8d981f224",
+          "source": "www.marketscreener.com",
+          "published_at": "20260908T005755",
+          "sentiment_score": 0.046332,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "BOH-P-B"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "SLB Bets $4.1 Billion on the AI Data Center Boom",
+          "summary": "SLB announced it will acquire Kelvion for $3.4 billion in cash and $0.7 billion in assumed debt to expand its data center business, focusing on thermal management for the AI boo...",
+          "url": "https://finance.yahoo.com/technology/ai/articles/slb-bets-4-1-billion-202013359.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260907T204236",
+          "sentiment_score": 0.116144,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SLB",
+            "APO",
+            "COIN",
+            "XOM"
+          ],
+          "topics": [
+            "Mergers And Acquisitions",
+            "Technology",
+            "Earnings",
+            "Finance",
+            "Energy Transportation"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "SLB Bets $4.1 Billion on the AI Data Center Boom",
+          "summary": "SLB announced it will acquire Kelvion for $4.1 billion ($3.4 billion in cash and $0.7 billion in assumed debt) to expand its data center business, capitalizing on the AI-driven...",
+          "url": "https://ca.finance.yahoo.com/news/slb-bets-4-1-billion-202013359.html",
+          "source": "Yahoo! Finance Canada",
+          "published_at": "20260907T201215",
+          "sentiment_score": 0.209382,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SLB",
+            "APO",
+            "XOM"
+          ],
+          "topics": [
+            "Mergers And Acquisitions",
+            "Technology",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "3 Under-the-Radar Defense Stocks With Record Backlogs",
+          "summary": "This article examines three under-the-radar defense stocks—ATI, Astronics, and Ducommun—that have reported record backlogs amid increased U.S. military spending. While backlogs...",
+          "url": "https://www.marketbeat.com/articles/3-under-the-radar-defense-stocks-with-record-backlogs/",
+          "source": "MarketBeat",
+          "published_at": "20260907T183018",
+          "sentiment_score": -0.057319,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "DCO",
+            "LMT",
+            "RTX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Fiscal",
+            "Manufacturing"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Buy, Sell Or Hold: Vodafone Idea, Infosys, Havells India, PNB Housing Finance And Urban Company — Ask Profit",
+          "summary": "Market experts, Vishnu Kant Upadhyay and Rajesh Agarwal, provided insights on whether to buy, sell, or hold shares of several key companies including Vodafone Idea, Infosys, Hav...",
+          "url": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-vodafone-idea-infosys-havells-india-pnb-housing-finance-and-urban-company-ask-profit-12014847",
+          "source": "NDTV Profit",
+          "published_at": "20260907T172201",
+          "sentiment_score": 0.144243,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "INFY"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Allegion (ALLE) Earnings Expected to Grow: Should You Buy?",
+          "summary": "Allegion (ALLE) is projected to report a year-over-year increase in earnings and revenue for the quarter ending June 2026, with an expected EPS of $2.23 and revenues of $1.11 bi...",
+          "url": "https://www.easternprogress.com/allegion-alle-earnings-expected-to-grow-should-you-buy/article_3bd772d9-e0d0-5deb-bad5-b0a4f76fd6c4.html",
+          "source": "Eastern Progress",
+          "published_at": "20260907T171310",
+          "sentiment_score": 0.414276,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ALLE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Nvidia Is No Longer Just a Chip Company. It’s the Infrastructure Platform for All of AI",
+          "summary": "Nvidia has evolved from a chip vendor to a full-stack AI factory platform, significantly increasing its revenue per gigawatt with newer generations of technology and securing ma...",
+          "url": "https://247wallst.com/investing/2026/09/07/nvidia-is-no-longer-just-a-chip-company-its-the-infrastructure-platform-for-all-of-ai/",
+          "source": "24/7 Wall St.",
+          "published_at": "20260907T171250",
+          "sentiment_score": 0.035744,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NVDA"
+          ],
+          "topics": [
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Is Netflix Stock More Likely to Hit $100 or $60 by the End of 2026?",
+          "summary": "Netflix stock has seen a 17% decline in 2026, leading to investor concerns about its future, especially with Reed Hastings stepping away and potential acquisitions. While some s...",
+          "url": "https://www.fool.com/investing/2026/09/07/is-netflix-stock-more-likely-to-hit-100-or-60-by-the-end-of-2026/",
+          "source": "The Motley Fool",
+          "published_at": "20260907T171103",
+          "sentiment_score": -0.217533,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "NFLX"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Economy Monetary",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Will Casey's (CASY) Beat Estimates Again in Its Next Earnings Report?",
+          "summary": "Casey's General Stores (CASY) is anticipated to continue its trend of beating earnings estimates in its upcoming quarterly report. The company has surpassed estimates by an aver...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/caseys-casy-beat-estimates-again-161001120.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260907T160028",
+          "sentiment_score": 0.413446,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "CASY"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "EWAV PE Ratio & Valuation, Is EWAV Overvalued",
+          "summary": "This article analyzes the valuation of East West Ave Acquisition Corp (EWAV) using various financial metrics. It indicates that EWAV is currently in the \"Fair zone\" based on its...",
+          "url": "https://intellectia.ai/stock/EWAV/valuation",
+          "source": "Intellectia AI",
+          "published_at": "20260907T155914",
+          "sentiment_score": -0.141887,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "EWAV"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Strength in Transportation & Electronics Unit Drives 3M: A Sign of More Upside?",
+          "summary": "3M Company is experiencing robust growth in its Transportation and Electronics segment, driven by strong performance in semiconductor, data center, aerospace, and commercial bra...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/strength-transportation-electronics-unit-drives-154300110.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260907T154329",
+          "sentiment_score": 0.322022,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MMM",
+            "EMR"
+          ],
+          "topics": [
+            "Earnings",
+            "Manufacturing",
+            "Financial Markets",
+            "Technology",
+            "Energy Transportation"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Amgen Shares Fall as Novartis' Pelacarsen Misses Phase III Study Goal",
+          "summary": "Amgen's shares fell by 5% after Novartis announced its investigational drug, pelacarsen, failed to meet its primary endpoint in a Phase III study for reducing cardiovascular eve...",
+          "url": "https://finance.yahoo.com/healthcare/articles/amgen-shares-fall-novartis-pelacarsen-152300294.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260907T154222",
+          "sentiment_score": -0.42482,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "AMGN"
+          ],
+          "topics": [
+            "Life Sciences",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Lands’ End swings back to profit in Q2 as net revenue rises 2.7%",
+          "summary": "Lands' End reported a return to profit in Q2 FY26, with net revenue increasing by 2.7% to $302 million. This growth was primarily driven by a strong performance in its US e-comm...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lands-end-swings-back-profit-111112375.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260907T151100",
+          "sentiment_score": 0.278614,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "LE",
+            "COIN"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Onfolio Q2 Loss Widens Y/Y as Revenues Fall & Cash Remains Tight",
+          "summary": "Onfolio Holdings Inc. reported a wider loss in Q2 2026, with revenues falling significantly by 52% year-over-year to $1.50 million. The net loss attributable to Onfolio increase...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/onfolio-q2-loss-widens-y-150900330.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260907T145153",
+          "sentiment_score": -0.705343,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "ONFO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Mergers And Acquisitions"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Abbott Laboratories stock holds valuation premium amid steady earnings",
+          "summary": "Abbott Laboratories' stock maintains a valuation premium, with a trailing P/E ratio around 35.05, driven by steady earnings growth and a robust product portfolio in diagnostics...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/abbott-laboratories-stock-holds-valuation-premium-amid-steady-earnings/70064387",
+          "source": "AD HOC NEWS",
+          "published_at": "20260907T144330",
+          "sentiment_score": 0.478868,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ABT"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Financial Markets"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Is Corteva (NYSE:CTVA) Priced for A Bigger Vylor Win?",
+          "summary": "Corteva's new Vylor corn pipeline, focusing on yield stability, insect control, and disease resistance, is generating significant market interest. While this innovation strength...",
+          "url": "https://kalkinemedia.com/us/news/basic-materials/is-corteva-nysectva-priced-for-a-bigger-vylor-win",
+          "source": "Kalkine Media",
+          "published_at": "20260907T161559",
+          "sentiment_score": 0.057062,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CTVA",
+            "ADI",
+            "POOL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Economy Macro"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Here's How Much $100 Invested In Nucor 5 Years Ago Would Be Worth Today",
+          "summary": "Nucor (NYSE: NUE) has outperformed the market over the past five years, with an annualized return of 18.39%. A $100 investment in Nucor five years ago would now be worth $231.92...",
+          "url": "https://www.benzinga.com/news/26/09/61648403/here-s-how-much-100-invested-nucor-5-years-ago-would-be-worth-today",
+          "source": "Benzinga",
+          "published_at": "20260907T161156",
+          "sentiment_score": 0.502803,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "NUE"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Manufacturing"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Is Lennox International (NYSE:LII) Finally Undervalued?",
+          "summary": "Lennox International is expanding its HVAC training and customer service facilities, attracting attention amidst recent share-price weakness. The company's focus on operational...",
+          "url": "https://kalkinemedia.com/us/stocks/industrial/is-lennox-international-nyselii-finally-undervalued",
+          "source": "Kalkine Media",
+          "published_at": "20260907T154338",
+          "sentiment_score": 0.11152,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "LII",
+            "UHS",
+            "PRU"
+          ],
+          "topics": [
+            "Manufacturing",
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "ExxonMobil (NYSE:XOM): Can Strong Cash Flow Support Its Dividend?",
+          "summary": "ExxonMobil is under renewed scrutiny due to institutional activity, its mixed quarterly results, and the impact of oil prices and refining conditions. The company's diversified...",
+          "url": "https://kalkinemedia.com/us/stocks/energy/exxonmobil-nysexom-can-strong-cash-flow-support-its-dividend",
+          "source": "Kalkine Media",
+          "published_at": "20260907T145348",
+          "sentiment_score": 0.270132,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "XOM"
+          ],
+          "topics": [
+            "Earnings",
+            "Energy Transportation",
+            "Financial Markets",
+            "Economy Macro",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "New Kroger CEO adds top exec team, aims for turnaround",
+          "summary": "Kroger's new CEO, Greg Foran, is set to face challenges from a cyclospora outbreak and a sluggish U.S. economy as the company prepares to announce its second-quarter results on...",
+          "url": "https://eu.cincinnati.com/story/money/2026/09/08/kroger-report-quarterly-results-amid-cyclospora-slower-economy/91357840007/",
+          "source": "Cincinnati Enquirer",
+          "published_at": "20260908T043012",
+          "sentiment_score": 0.113464,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "KR"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Nvidia supplier Wistron's shares drop after it announces $1.5 billion global stock sale",
+          "summary": "Shares of Nvidia supplier Wistron Corporation fell over 6% after announcing a $1.47 billion global depositary receipt offering. The Taiwanese tech giant aims to raise funds for...",
+          "url": "https://www.cnbc.com/2026/09/08/nvidia-supplier-wistron-share-sale.html",
+          "source": "CNBC",
+          "published_at": "20260908T024134",
+          "sentiment_score": -0.112523,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NVDA"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Manufacturing",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Sigma Lithium Confirms Its Mining and Industrial Operations Remain Unaffected by a Preliminary Judicial Ruling Issu...",
+          "summary": "Sigma Lithium confirmed that its mining and industrial operations are continuing without interruption, despite a preliminary judicial ruling allegedly suspending its environment...",
+          "url": "https://investingnews.com/sigma-lithium-confirms-its-mining-and-industrial-operations-remain-unaffected-by-a-preliminary-judicial-ruling-issued-without-due-process/",
+          "source": "Investing News Network",
+          "published_at": "20260908T005146",
+          "sentiment_score": 0.449567,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "SGML"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Manufacturing"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Sigma Lithium Confirms Ongoing Operations and Expansion Plans",
+          "summary": "Sigma Lithium confirmed that its mining and industrial activities are continuing, with plans to deliver 240,000 tonnes of lithium oxide concentrate in the next year and 330,000...",
+          "url": "https://intellectia.ai/news/stock/sigma-lithium-confirms-ongoing-operations-and-expansion-plans",
+          "source": "Intellectia AI",
+          "published_at": "20260907T232146",
+          "sentiment_score": 0.331477,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SGML"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Paylocity Director Kenneth Robinson Sells 800 Shares for $127,000",
+          "summary": "Paylocity Director Kenneth B. Robinson sold 800 shares of common stock for $127,000 on August 27, 2026, reducing his direct holdings by 11% but still retaining 6,745 shares. Des...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/paylocity-director-kenneth-robinson-sells-221501612.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260907T215247",
+          "sentiment_score": -0.029098,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PCTY",
+            "COIN",
+            "NFLX",
+            "NVDA"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Ferrari buys back 22,300 shares for about €8m",
+          "summary": "Ferrari NV announced it repurchased 22,300 shares for approximately €7.9 million between September 2 and 4, at an average price of €355.8703 per share. This transaction increase...",
+          "url": "https://www.marketscreener.com/news/ferrari-buys-back-22-300-shares-for-about-128-8m-ce785bdbd081f624",
+          "source": "marketscreener.com",
+          "published_at": "20260907T175309",
+          "sentiment_score": 0.317652,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "RACE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Tencent Music prices USD $1B bond offering, with proceeds earmarked for refinancing and buybacks",
+          "summary": "Tencent Music Entertainment (TME) has priced a USD $1 billion bond offering consisting of two tranches of senior unsecured notes due 2031 and 2036. The company intends to use th...",
+          "url": "https://www.musicbusinessworldwide.com/tencent-music-prices-usd-1bn-bond-offering-with-proceeds-earmarked-for-refinancing-and-buybacks/",
+          "source": "Music Business Worldwide",
+          "published_at": "20260907T175050",
+          "sentiment_score": 0.132491,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "TME"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Nvidia (NVDA) Board Member Sells $410 Million of Company Stock",
+          "summary": "Nvidia board member Mark Stevens sold 1.85 million shares of NVDA stock between August 31 and September 4, totaling $410 million, but still retains a significant stake. This sal...",
+          "url": "https://www.tipranks.com/news/nvidia-nvda-board-member-sells-410-million-of-company-stock",
+          "source": "TipRanks",
+          "published_at": "20260907T172016",
+          "sentiment_score": 0.102276,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NVDA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "PNC Financial Services Stock: Is PNC Underperforming the Financials Sector?",
+          "summary": "PNC Financial Services Group Inc. is performing strongly in 2026, driven by increased net interest income and loan growth, with an updated full-year NII growth outlook of 15% to...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/pnc-financial-services-stock-pnc-162934561.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260907T162900",
+          "sentiment_score": 0.256296,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "PNC",
+            "FITB"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Super Micro Has Gained 35% in 2026. What Would It Take to Get SMCI Stock Up to $50?",
+          "summary": "Super Micro Computer (SMCI) has gained 35% in 2026, outperforming the S&P 500 but trailing its peers like Dell and HPE due to significant negative operating cash flow. To reach...",
+          "url": "https://247wallst.com/investing/2026/09/07/super-micro-has-gained-35-in-2026-what-would-it-take-to-get-smci-stock-up-to-50/",
+          "source": "24/7 Wall St.",
+          "published_at": "20260907T155008",
+          "sentiment_score": 0.222924,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SMCI",
+            "DELL",
+            "HPE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Microsoft Is Close to a New All-Time High. This Number Will Determine If It Keeps Climbing",
+          "summary": "Microsoft is nearing its all-time high of $549, but its future stock performance hinges on free cash flow amidst surging capital expenditures for AI infrastructure. While robust...",
+          "url": "https://247wallst.com/investing/2026/09/07/microsoft-is-close-to-a-new-all-time-high-this-number-will-determine-if-it-keeps-climbing/",
+          "source": "24/7 Wall St.",
+          "published_at": "20260907T154501",
+          "sentiment_score": 0.257496,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MSFT",
+            "KLAC",
+            "NRG",
+            "STX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Archer Daniels Targets $500M-$750M in Savings: Can It Deliver?",
+          "summary": "Archer Daniels Midland Company (ADM) aims to achieve $500-$750 million in cumulative savings over three to five years by enhancing manufacturing efficiency, streamlining supply...",
+          "url": "https://www.easternprogress.com/archer-daniels-targets-500m--750m-in-savings-can-it-deliver/article_7ac48c0a-8485-59b8-8847-4484d1cfe0b3.html",
+          "source": "Eastern Progress",
+          "published_at": "20260907T153928",
+          "sentiment_score": 0.474847,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ADM"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Mosaic Company stock gains as Brazil rare earths study begins",
+          "summary": "Mosaic Company's stock saw a 1.41% increase after the company announced a pre-feasibility study for a rare earths project in Brazil, diversifying its portfolio beyond traditiona...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/mosaic-company-stock-gains-as-brazil-rare-earths-study-begins/70064425",
+          "source": "AD HOC NEWS",
+          "published_at": "20260907T151130",
+          "sentiment_score": 0.324377,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MOS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "What's Powering Bank of America's Strong Capital Return Strategy?",
+          "summary": "Bank of America's strong capital return strategy is driven by improving earnings, a healthy capital cushion, and disciplined balance-sheet management. The company has authorized...",
+          "url": "https://ca.finance.yahoo.com/news/whats-powering-bank-americas-strong-150800237.html",
+          "source": "Yahoo! Finance Canada",
+          "published_at": "20260907T150842",
+          "sentiment_score": 0.363428,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "BAC",
+            "JPM",
+            "MS"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Which Solar Stock Has Dominated in 2026: SolarEdge, Enphase Energy, or First Solar?",
+          "summary": "In 2026, SolarEdge Technologies outperformed its peers, surging 19%, while Enphase Energy rose 13%, and First Solar, despite being the most profitable, dropped 22%. This diverge...",
+          "url": "https://247wallst.com/investing/2026/09/07/which-solar-stock-has-dominated-in-2026-solaredge-enphase-energy-or-first-solar/",
+          "source": "24/7 Wall St.",
+          "published_at": "20260907T144820",
+          "sentiment_score": -0.071017,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "FSLR",
+            "ENPH"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation",
+            "Economy Fiscal"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Walmart Settles a Potential Multibillion-Dollar Opioid Case for $50 Million",
+          "summary": "Walmart has settled a significant opioid case with the US government for $50 million, considerably less than the billions initially sought. While Walmart did not admit liability...",
+          "url": "https://finance.yahoo.com/healthcare/articles/walmart-settles-potential-multibillion-dollar-001906958.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260908T000837",
+          "sentiment_score": 0.267531,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "WMT"
+          ],
+          "topics": [
+            "Retail Wholesale",
+            "Earnings",
+            "Finance",
+            "Life Sciences"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Jim Cramer Wants Nvidia to Buy Back $500 Billion. Can Apple’s Playbook Work?",
+          "summary": "Jim Cramer has proposed that NVIDIA Corporation undertake a $500 billion share buyback, using Apple Inc.'s strategy as a model. While Apple's substantial cash generation support...",
+          "url": "https://uk.finance.yahoo.com/news/jim-cramer-wants-nvidia-buy-203415967.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260907T203441",
+          "sentiment_score": 0.087093,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AAPL",
+            "NVDA",
+            "SMCI"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Forget the Dividend. This Could Be the Real Reason to Buy Pfizer Stock Now",
+          "summary": "Pfizer's stock is rated a \"BUY\" with a price target of $32.72, implying a 14% upside in addition to its nearly 6% dividend yield. The company's 9x forward P/E is significantly l...",
+          "url": "https://247wallst.com/investing/2026/09/07/forget-the-dividend-this-could-be-the-real-reason-to-buy-pfizer-stock-now/",
+          "source": "24/7 Wall St.",
+          "published_at": "20260907T163836",
+          "sentiment_score": 0.277144,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "PFE",
+            "BMY",
+            "MRK"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Why Fifth Third Bancorp (FITB) is a Great Dividend Stock Right Now",
+          "summary": "Fifth Third Bancorp (FITB) is presented as an attractive dividend stock due to its consistent cash flow generation, competitive dividend yield of 2.92% (compared to its industry...",
+          "url": "https://sg.finance.yahoo.com/news/why-fifth-third-bancorp-fitb-154503535.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260907T154800",
+          "sentiment_score": 0.490528,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "FITB"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Financial Markets",
+            "Economy Monetary"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        }
+      ],
+      "article_count": 50,
+      "top_ticker": "NVDA",
+      "top_topic": "Earnings",
+      "dominant_sentiment": "Somewhat-Bullish",
+      "top_story": "Wall Street Is Worried About AMD. Here’s Why Long-Term Investors Shouldn’t Be",
+      "signal_articles": [
+        {
+          "title": "Wall Street Is Worried About AMD. Here’s Why Long-Term Investors Shouldn’t Be",
+          "summary": "Despite AMD posting strong Q2 AI earnings, including doubled Data Center revenue and positive Q3 guidance, its stock dropped due to product-mix margin concerns and China export...",
+          "url": "https://247wallst.com/investing/2026/09/07/wall-street-is-worried-about-amd-heres-why-long-term-investors-shouldnt-be/",
+          "source": "24/7 Wall St.",
+          "published_at": "20260907T173018",
+          "sentiment_score": 0.340943,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AMD",
+            "NVDA",
+            "MSFT"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Financial Markets"
+          ],
+          "quality_score": 20,
+          "is_noise": false
+        },
+        {
+          "title": "NetApp Q1 Beat and Raised Guidance Put AI Storage Growth in Focus",
+          "summary": "NetApp reported strong Q1 fiscal 2027 results, exceeding revenue and earnings expectations, and subsequently raised its full-year outlook. The company's growth was driven by dem...",
+          "url": "https://uk.finance.yahoo.com/news/netapp-q1-beat-raised-guidance-163600631.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260907T164111",
+          "sentiment_score": 0.323854,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "NTAP",
+            "DELL"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Financial Markets"
+          ],
+          "quality_score": 18,
+          "is_noise": false
+        },
+        {
+          "title": "NXP Semiconductors stock gains on strong market value",
+          "summary": "NXP Semiconductors stock is gaining value, currently at USD 57.45 billion, with investors focused on earnings quality and valuation metrics like a P/E ratio of 19.44 and a PEG r...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nxp-semiconductors-stock-gains-on-strong-market-value/70065475",
+          "source": "AD HOC NEWS",
+          "published_at": "20260907T210900",
+          "sentiment_score": 0.339638,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "NXPI"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 16,
+          "is_noise": false
+        },
+        {
+          "title": "CooperCompanies (COO) To Report Earnings Tomorrow: Here Is What To Expect",
+          "summary": "CooperCompanies (COO) is set to report its earnings after market close on Wednesday. Analysts expect revenue to grow 3.5% year-over-year, a slowdown from the previous year's 5.7...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coopercompanies-coo-report-earnings-tomorrow-032451499.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260908T031438",
+          "sentiment_score": 0.183256,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "COO",
+            "BAX",
+            "GEHC"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "Omnicom Group stock gains on strong Q2 2026 revenue jump after Interpublic merger",
+          "summary": "Omnicom Group's stock is gaining after a significant revenue jump in Q2 2026, driven by its merger with Interpublic. The company reported a 63.4% year-over-year revenue increase...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/omnicom-group-stock-gains-on-strong-q2-2026-revenue-jump-after-interpublic/70064698",
+          "source": "AD HOC NEWS",
+          "published_at": "20260907T181200",
+          "sentiment_score": 0.373726,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "OMC",
+            "IPG"
+          ],
+          "topics": [
+            "Earnings",
+            "Mergers And Acquisitions",
+            "Financial Markets"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "AIG stock holds firm as leadership transition and analyst support shape outlook",
+          "summary": "AIG stock is maintaining its value in early September 2026, influenced by a leadership transition and strong analyst support, along with recent institutional investments. The co...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/aig-stock-holds-firm-as-leadership-transition-and-analyst-support-shape/70064381",
+          "source": "AD HOC NEWS",
+          "published_at": "20260907T170300",
+          "sentiment_score": 0.291142,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AIG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "High Gas Prices Aren't Budging—Here Are 3 Stocks That Benefit",
+          "summary": "Despite high gas prices, the article identifies opportunities in the energy sector beyond just oil producers, focusing on refiners, fuel distributors, and convenience store comp...",
+          "url": "https://www.marketbeat.com/articles/high-gas-prices-arent-budginghere-are-3-stocks-that-benefit/",
+          "source": "MarketBeat",
+          "published_at": "20260907T161349",
+          "sentiment_score": 0.414839,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "PSX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation",
+            "Retail Wholesale"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "CoStar Favicon: U.S. hotel results for week ending 29 August; U.S. hotels posted their 20th straight week of year-o...",
+          "summary": "The U.S. hotel industry recorded its 20th consecutive week of year-over-year gains, with Revenue Per Available Room (RevPAR) increasing by 1.7% to $100.69 for the week ending Au...",
+          "url": "https://www.marketscreener.com/news/costar-favicon-u-s-hotel-results-for-week-ending-29-august-u-s-hotels-posted-their-20th-straight-ce785bdbd089ff24",
+          "source": "www.marketscreener.com",
+          "published_at": "20260907T152540",
+          "sentiment_score": 0.215029,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CSGP"
+          ],
+          "topics": [
+            "Real Estate",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Walmart's Ad Business Expands: Can High-Margin Growth Lift Profits?",
+          "summary": "Walmart is significantly expanding its advertising business, integrating it into its digital operations to drive higher-margin revenue growth. In Q2 fiscal 2027, global advertis...",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/COST/pressreleases/4475196/walmarts-ad-business-expands-can-high-margin-growth-lift-profits/",
+          "source": "The Globe and Mail",
+          "published_at": "20260907T144409",
+          "sentiment_score": 0.022266,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "WMT"
+          ],
+          "topics": [
+            "Retail Wholesale",
+            "Earnings",
+            "Finance",
+            "Technology"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Should Investors Buy KVUE as Margin Gains Offset Slow Sales Growth?",
+          "summary": "Kenvue Inc. (KVUE) has shown improved earnings leverage due to strong margin gains, with adjusted operating margin rising 180 basis points and adjusted earnings increasing by 18...",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/PG/pressreleases/4477802/should-investors-buy-kvue-as-margin-gains-offset-slow-sales-growth/",
+          "source": "The Globe and Mail",
+          "published_at": "20260907T203622",
+          "sentiment_score": 0.064744,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "KVUE",
+            "CHD",
+            "PG",
+            "KMB"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        }
+      ],
+      "top_tickers": [
+        {
+          "ticker": "NVDA",
+          "mentions": 6
+        },
+        {
+          "ticker": "COIN",
+          "mentions": 3
+        },
+        {
+          "ticker": "XOM",
+          "mentions": 3
+        },
+        {
+          "ticker": "MSFT",
+          "mentions": 2
+        },
+        {
+          "ticker": "DELL",
+          "mentions": 2
+        }
+      ],
+      "top_topics": [
+        {
+          "topic": "Earnings",
+          "mentions": 50
+        },
+        {
+          "topic": "Financial Markets",
+          "mentions": 38
+        },
+        {
+          "topic": "Technology",
+          "mentions": 16
+        },
+        {
+          "topic": "Finance",
+          "mentions": 16
+        },
+        {
+          "topic": "Economy Macro",
+          "mentions": 12
+        }
+      ],
+      "sentiment_counts": [
+        {
+          "label": "Somewhat-Bullish",
+          "count": 20
+        },
+        {
+          "label": "Neutral",
+          "count": 17
+        },
+        {
+          "label": "Bullish",
+          "count": 10
+        },
+        {
+          "label": "Bearish",
+          "count": 2
+        },
+        {
+          "label": "Somewhat-Bearish",
+          "count": 1
+        }
+      ],
+      "top_sources": [
+        {
+          "source": "Yahoo Finance",
+          "count": 10
+        },
+        {
+          "source": "24/7 Wall St.",
+          "count": 6
+        },
+        {
+          "source": "AD HOC NEWS",
+          "count": 6
+        },
+        {
+          "source": "Kalkine Media",
+          "count": 4
+        },
+        {
+          "source": "Yahoo Finance UK",
+          "count": 2
+        }
+      ],
+      "takeaway": "News flow is centered on Earnings, with NVDA appearing most often and the headline tone mostly somewhat-bullish."
+    }
+  },
+  {
     "id": "polymarket-pulse-2026-09-08",
     "date": "2026-09-08",
     "runDate": "2026-09-08",
