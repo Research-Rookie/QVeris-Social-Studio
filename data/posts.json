@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-dell-2026-09-09",
+    "date": "2026-09-09",
+    "runDate": "2026-09-09",
+    "createdAt": "2026-09-09T07:32:01.438248+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$DELL news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-09.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-09T07:31:59.775572+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$DELL",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "DELL",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-09T07:31:59.775572+00:00",
+      "date": "2026-09-09",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "DELL",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "AtaiBeckley Inc.(NasdaqGM: ATAI) dropped from S&P Global BMI Index",
+      "headline_source": "www.marketscreener.com",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for DELL: {'status_code': 200, 'data': {'c': 533.88, 'd': 9.74, 'dp': 1.8583, 'h': 538.47, 'l': 515.5601, 'o': 521.15, 'pc': 524.14, 't': 1788897600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "DELL",
+            "mentions": 4
+          },
+          {
+            "ticker": "AMD",
+            "mentions": 3
+          },
+          {
+            "ticker": "AVGO",
+            "mentions": 3
+          },
+          {
+            "ticker": "MS",
+            "mentions": 3
+          },
+          {
+            "ticker": "NVDA",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 16
+          },
+          {
+            "label": "Neutral",
+            "count": 12
+          },
+          {
+            "label": "Bullish",
+            "count": 7
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 6
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-spgi-2026-09-09",
     "date": "2026-09-09",
     "runDate": "2026-09-09",
