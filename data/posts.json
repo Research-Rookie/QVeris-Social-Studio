@@ -1,5 +1,213 @@
 [
   {
+    "id": "market-narrative-shift-spgi-2026-09-09",
+    "date": "2026-09-09",
+    "runDate": "2026-09-09",
+    "createdAt": "2026-09-09T06:58:22.338898+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $SPGI",
+    "status": "ready",
+    "tweet": "What changed in $SPGI's market narrative? 🔄\n\n🧭 Signal: Narrative steady\n💬 Sentiment shift: -0.09\n📌 Top theme: Financial Markets\n🔎 Emerging term: ataibeckley\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_SPGI_2026-09-09.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-09T06:58:20.225146+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$SPGI",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Narrative steady",
+    "topSymbol": "SPGI",
+    "topChangePct": -9.35,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-09T06:58:20.225146+00:00",
+      "date": "2026-09-09",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "SPGI",
+      "shift_label": "Narrative steady",
+      "sentiment_delta": -0.0935,
+      "baseline_label": "2026-09-04",
+      "current": {
+        "date": "2026-09-09",
+        "symbol": "SPGI",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1329,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Mergers And Acquisitions",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "ataibeckley",
+            "count": 2
+          },
+          {
+            "label": "nasdaqgm",
+            "count": 2
+          },
+          {
+            "label": "atai",
+            "count": 2
+          },
+          {
+            "label": "global",
+            "count": 2
+          },
+          {
+            "label": "bmi",
+            "count": 2
+          },
+          {
+            "label": "index",
+            "count": 2
+          },
+          {
+            "label": "dropped",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "been",
+            "count": 1
+          },
+          {
+            "label": "removed",
+            "count": 1
+          },
+          {
+            "label": "announced",
+            "count": 1
+          },
+          {
+            "label": "september",
+            "count": 1
+          }
+        ],
+        "headline": "AtaiBeckley Inc.(NasdaqGM: ATAI) dropped from S&P Global BMI Index",
+        "headline_source": "www.marketscreener.com"
+      },
+      "previous": {
+        "date": "2026-09-04",
+        "symbol": "SPGI",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2264,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Economy Monetary",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "sofi",
+            "count": 2
+          },
+          {
+            "label": "wisdomtree",
+            "count": 2
+          },
+          {
+            "label": "ridgepost",
+            "count": 2
+          },
+          {
+            "label": "capital",
+            "count": 2
+          },
+          {
+            "label": "ares",
+            "count": 2
+          },
+          {
+            "label": "global",
+            "count": 2
+          },
+          {
+            "label": "soaring",
+            "count": 1
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "you",
+            "count": 1
+          },
+          {
+            "label": "need",
+            "count": 1
+          },
+          {
+            "label": "know",
+            "count": 1
+          },
+          {
+            "label": "jumped",
+            "count": 1
+          }
+        ],
+        "headline": "SoFi, WisdomTree, Ridgepost Capital, Ares, and S&P Global Shares Are Soaring, What You Need To Know",
+        "headline_source": "Yahoo Finance"
+      },
+      "emerging_themes": [
+        "Life Sciences",
+        "Mergers And Acquisitions",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Economy Monetary",
+        "Finance"
+      ],
+      "emerging_keywords": [
+        "ataibeckley",
+        "nasdaqgm",
+        "atai"
+      ],
+      "fading_keywords": [
+        "sofi",
+        "wisdomtree",
+        "ridgepost"
+      ],
+      "takeaway": "SPGI's narrative is narrative steady: sentiment moved -0.09, while the leading theme shifted from Financial Markets to Financial Markets.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-09",
     "date": "2026-09-09",
     "runDate": "2026-09-09",
