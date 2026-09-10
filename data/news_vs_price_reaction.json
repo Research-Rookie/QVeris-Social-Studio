@@ -1,61 +1,65 @@
 {
-  "updated_at": "2026-09-09T07:31:59.775572+00:00",
-  "date": "2026-09-09",
+  "updated_at": "2026-09-10T07:29:10.035823+00:00",
+  "date": "2026-09-10",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "DELL",
-  "news_tone": "Somewhat Bullish",
+  "symbol": "AMAT",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "AtaiBeckley Inc.(NasdaqGM: ATAI) dropped from S&P Global BMI Index",
-  "headline_source": "www.marketscreener.com",
+  "headline": "Medtronic Raised its Outlook as Heart Devices Accelerate, But Can the Momentum Last?",
+  "headline_source": "Yahoo Finance UK",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for DELL: {'status_code': 200, 'data': {'c': 533.88, 'd': 9.74, 'dp': 1.8583, 'h': 538.47, 'l': 515.5601, 'o': 521.15, 'pc': 524.14, 't': 1788897600}}",
+  "price_error": "Could not parse quote data for AMAT: {'status_code': 200, 'data': {'c': 468.85, 'd': -3.94, 'dp': -0.8334, 'h': 474.04, 'l': 463.78, 'o': 466.66, 'pc': 472.79, 't': 1788984000}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "DELL",
-        "mentions": 4
-      },
-      {
-        "ticker": "AMD",
-        "mentions": 3
-      },
-      {
-        "ticker": "AVGO",
-        "mentions": 3
-      },
-      {
-        "ticker": "MS",
-        "mentions": 3
-      },
-      {
-        "ticker": "NVDA",
+        "ticker": "AMAT",
         "mentions": 2
+      },
+      {
+        "ticker": "GNRC",
+        "mentions": 2
+      },
+      {
+        "ticker": "GEN",
+        "mentions": 2
+      },
+      {
+        "ticker": "MDT",
+        "mentions": 1
+      },
+      {
+        "ticker": "ISRG",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Somewhat-Bullish",
-        "count": 16
-      },
-      {
         "label": "Neutral",
-        "count": 12
+        "count": 11
       },
       {
         "label": "Bullish",
-        "count": 7
+        "count": 9
+      },
+      {
+        "label": "Somewhat-Bullish",
+        "count": 8
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 6
+        "count": 2
+      },
+      {
+        "label": "Bearish",
+        "count": 1
       }
     ]
   }
