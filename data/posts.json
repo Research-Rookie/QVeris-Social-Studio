@@ -1,5 +1,208 @@
 [
   {
+    "id": "market-narrative-shift-mdt-2026-09-10",
+    "date": "2026-09-10",
+    "runDate": "2026-09-10",
+    "createdAt": "2026-09-10T06:55:06.388362+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $MDT",
+    "status": "ready",
+    "tweet": "What changed in $MDT's market narrative? 🔄\n\n🧭 Signal: Narrative steady\n💬 Sentiment shift: -0.01\n📌 Top theme: Earnings\n🔎 Emerging term: medtronic\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_MDT_2026-09-10.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-10T06:55:03.556790+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MDT",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Narrative steady",
+    "topSymbol": "MDT",
+    "topChangePct": -1.16,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-10T06:55:03.556790+00:00",
+      "date": "2026-09-10",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "MDT",
+      "shift_label": "Narrative steady",
+      "sentiment_delta": -0.0116,
+      "baseline_label": "2026-08-21",
+      "current": {
+        "date": "2026-09-10",
+        "symbol": "MDT",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2201,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Mergers And Acquisitions",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "medtronic",
+            "count": 2
+          },
+          {
+            "label": "raised",
+            "count": 2
+          },
+          {
+            "label": "outlook",
+            "count": 2
+          },
+          {
+            "label": "heart",
+            "count": 1
+          },
+          {
+            "label": "devices",
+            "count": 1
+          },
+          {
+            "label": "accelerate",
+            "count": 1
+          },
+          {
+            "label": "but",
+            "count": 1
+          },
+          {
+            "label": "can",
+            "count": 1
+          },
+          {
+            "label": "momentum",
+            "count": 1
+          },
+          {
+            "label": "last",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "fiscal",
+            "count": 1
+          }
+        ],
+        "headline": "Medtronic Raised its Outlook as Heart Devices Accelerate, But Can the Momentum Last?",
+        "headline_source": "Yahoo Finance UK"
+      },
+      "previous": {
+        "date": "2026-08-21",
+        "symbol": "MDT",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2317,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "abbott",
+            "count": 3
+          },
+          {
+            "label": "profit",
+            "count": 2
+          },
+          {
+            "label": "laboratories",
+            "count": 2
+          },
+          {
+            "label": "abt",
+            "count": 2
+          },
+          {
+            "label": "did",
+            "count": 1
+          },
+          {
+            "label": "beat",
+            "count": 1
+          },
+          {
+            "label": "hike",
+            "count": 1
+          },
+          {
+            "label": "just",
+            "count": 1
+          },
+          {
+            "label": "shift",
+            "count": 1
+          },
+          {
+            "label": "investment",
+            "count": 1
+          },
+          {
+            "label": "narrative",
+            "count": 1
+          },
+          {
+            "label": "reported",
+            "count": 1
+          }
+        ],
+        "headline": "Did Abbott’s Q2 Beat and Profit Hike Just Shift Abbott Laboratories’ (ABT) Investment Narrative?",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Finance",
+        "Mergers And Acquisitions",
+        "Earnings"
+      ],
+      "fading_themes": [
+        "Financial Markets"
+      ],
+      "emerging_keywords": [
+        "medtronic",
+        "raised",
+        "outlook"
+      ],
+      "fading_keywords": [
+        "abbott",
+        "profit",
+        "laboratories"
+      ],
+      "takeaway": "MDT's narrative is narrative steady: sentiment moved -0.01, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-10",
     "date": "2026-09-10",
     "runDate": "2026-09-10",

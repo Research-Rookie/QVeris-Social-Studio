@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-09-09T06:58:20.225146+00:00",
-  "date": "2026-09-09",
+  "updated_at": "2026-09-10T06:55:03.556790+00:00",
+  "date": "2026-09-10",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "SPGI",
+  "symbol": "MDT",
   "shift_label": "Narrative steady",
-  "sentiment_delta": -0.0935,
-  "baseline_label": "2026-09-04",
+  "sentiment_delta": -0.0116,
+  "baseline_label": "2026-08-21",
   "current": {
-    "date": "2026-09-09",
-    "symbol": "SPGI",
+    "date": "2026-09-10",
+    "symbol": "MDT",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1329,
-    "top_theme": "Financial Markets",
+    "sentiment_score": 0.2201,
+    "top_theme": "Earnings",
     "themes": [
       {
-        "label": "Financial Markets",
+        "label": "Earnings",
         "count": 1
       },
       {
@@ -25,7 +25,7 @@
         "count": 1
       },
       {
-        "label": "Earnings",
+        "label": "Finance",
         "count": 1
       },
       {
@@ -35,31 +35,43 @@
     ],
     "keywords": [
       {
-        "label": "ataibeckley",
+        "label": "medtronic",
         "count": 2
       },
       {
-        "label": "nasdaqgm",
+        "label": "raised",
         "count": 2
       },
       {
-        "label": "atai",
+        "label": "outlook",
         "count": 2
       },
       {
-        "label": "global",
-        "count": 2
+        "label": "heart",
+        "count": 1
       },
       {
-        "label": "bmi",
-        "count": 2
+        "label": "devices",
+        "count": 1
       },
       {
-        "label": "index",
-        "count": 2
+        "label": "accelerate",
+        "count": 1
       },
       {
-        "label": "dropped",
+        "label": "but",
+        "count": 1
+      },
+      {
+        "label": "can",
+        "count": 1
+      },
+      {
+        "label": "momentum",
+        "count": 1
+      },
+      {
+        "label": "last",
         "count": 1
       },
       {
@@ -67,122 +79,105 @@
         "count": 1
       },
       {
-        "label": "been",
-        "count": 1
-      },
-      {
-        "label": "removed",
-        "count": 1
-      },
-      {
-        "label": "announced",
-        "count": 1
-      },
-      {
-        "label": "september",
+        "label": "fiscal",
         "count": 1
       }
     ],
-    "headline": "AtaiBeckley Inc.(NasdaqGM: ATAI) dropped from S&P Global BMI Index",
-    "headline_source": "www.marketscreener.com"
+    "headline": "Medtronic Raised its Outlook as Heart Devices Accelerate, But Can the Momentum Last?",
+    "headline_source": "Yahoo Finance UK"
   },
   "previous": {
-    "date": "2026-09-04",
-    "symbol": "SPGI",
+    "date": "2026-08-21",
+    "symbol": "MDT",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.2264,
-    "top_theme": "Financial Markets",
+    "sentiment_score": 0.2317,
+    "top_theme": "Earnings",
     "themes": [
       {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Economy Monetary",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      },
-      {
         "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Life Sciences",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "sofi",
+        "label": "abbott",
+        "count": 3
+      },
+      {
+        "label": "profit",
         "count": 2
       },
       {
-        "label": "wisdomtree",
+        "label": "laboratories",
         "count": 2
       },
       {
-        "label": "ridgepost",
+        "label": "abt",
         "count": 2
       },
       {
-        "label": "capital",
-        "count": 2
-      },
-      {
-        "label": "ares",
-        "count": 2
-      },
-      {
-        "label": "global",
-        "count": 2
-      },
-      {
-        "label": "soaring",
+        "label": "did",
         "count": 1
       },
       {
-        "label": "what",
+        "label": "beat",
         "count": 1
       },
       {
-        "label": "you",
+        "label": "hike",
         "count": 1
       },
       {
-        "label": "need",
+        "label": "just",
         "count": 1
       },
       {
-        "label": "know",
+        "label": "shift",
         "count": 1
       },
       {
-        "label": "jumped",
+        "label": "investment",
+        "count": 1
+      },
+      {
+        "label": "narrative",
+        "count": 1
+      },
+      {
+        "label": "reported",
         "count": 1
       }
     ],
-    "headline": "SoFi, WisdomTree, Ridgepost Capital, Ares, and S&P Global Shares Are Soaring, What You Need To Know",
-    "headline_source": "Yahoo Finance"
+    "headline": "Did Abbott’s Q2 Beat and Profit Hike Just Shift Abbott Laboratories’ (ABT) Investment Narrative?",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
-    "Life Sciences",
+    "Finance",
     "Mergers And Acquisitions",
-    "Financial Markets"
+    "Earnings"
   ],
   "fading_themes": [
-    "Economy Monetary",
-    "Finance"
+    "Financial Markets"
   ],
   "emerging_keywords": [
-    "ataibeckley",
-    "nasdaqgm",
-    "atai"
+    "medtronic",
+    "raised",
+    "outlook"
   ],
   "fading_keywords": [
-    "sofi",
-    "wisdomtree",
-    "ridgepost"
+    "abbott",
+    "profit",
+    "laboratories"
   ],
-  "takeaway": "SPGI's narrative is narrative steady: sentiment moved -0.09, while the leading theme shifted from Financial Markets to Financial Markets.",
+  "takeaway": "MDT's narrative is narrative steady: sentiment moved -0.01, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
