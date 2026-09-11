@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-10T07:29:10.035823+00:00",
-  "date": "2026-09-10",
+  "updated_at": "2026-09-11T07:26:55.136468+00:00",
+  "date": "2026-09-11",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "AMAT",
+  "symbol": "WAB",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Medtronic Raised its Outlook as Heart Devices Accelerate, But Can the Momentum Last?",
+  "headline": "Here's Why RCM Technologies, Inc. (RCMT) Fell More Than Broader Market",
   "headline_source": "Yahoo Finance UK",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,51 +15,47 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for AMAT: {'status_code': 200, 'data': {'c': 468.85, 'd': -3.94, 'dp': -0.8334, 'h': 474.04, 'l': 463.78, 'o': 466.66, 'pc': 472.79, 't': 1788984000}}",
+  "price_error": "Could not parse quote data for WAB: {'status_code': 200, 'data': {'c': 280.27, 'd': -0.2, 'dp': -0.0713, 'h': 281.11, 'l': 275.0944, 'o': 278.8, 'pc': 280.47, 't': 1789070400}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "AMAT",
-        "mentions": 2
+        "ticker": "WAB",
+        "mentions": 5
       },
       {
-        "ticker": "GNRC",
-        "mentions": 2
+        "ticker": "TRMB",
+        "mentions": 5
       },
       {
-        "ticker": "GEN",
-        "mentions": 2
+        "ticker": "TDG",
+        "mentions": 5
       },
       {
-        "ticker": "MDT",
-        "mentions": 1
+        "ticker": "TSCO",
+        "mentions": 4
       },
       {
-        "ticker": "ISRG",
-        "mentions": 1
+        "ticker": "IBM",
+        "mentions": 4
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 11
-      },
-      {
-        "label": "Bullish",
-        "count": 9
+        "count": 14
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 8
+        "count": 9
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 2
+        "count": 7
       },
       {
-        "label": "Bearish",
-        "count": 1
+        "label": "Bullish",
+        "count": 3
       }
     ]
   }

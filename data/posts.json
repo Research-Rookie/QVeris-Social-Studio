@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-wab-2026-09-11",
+    "date": "2026-09-11",
+    "runDate": "2026-09-11",
+    "createdAt": "2026-09-11T07:26:59.278293+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$WAB news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-11.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-11T07:26:55.136468+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$WAB",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "WAB",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-11T07:26:55.136468+00:00",
+      "date": "2026-09-11",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "WAB",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Here's Why RCM Technologies, Inc. (RCMT) Fell More Than Broader Market",
+      "headline_source": "Yahoo Finance UK",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for WAB: {'status_code': 200, 'data': {'c': 280.27, 'd': -0.2, 'dp': -0.0713, 'h': 281.11, 'l': 275.0944, 'o': 278.8, 'pc': 280.47, 't': 1789070400}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "WAB",
+            "mentions": 5
+          },
+          {
+            "ticker": "TRMB",
+            "mentions": 5
+          },
+          {
+            "ticker": "TDG",
+            "mentions": 5
+          },
+          {
+            "ticker": "TSCO",
+            "mentions": 4
+          },
+          {
+            "ticker": "IBM",
+            "mentions": 4
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 14
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 9
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 7
+          },
+          {
+            "label": "Bullish",
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-wab-2026-09-11",
     "date": "2026-09-11",
     "runDate": "2026-09-11",
