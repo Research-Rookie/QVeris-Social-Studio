@@ -1,183 +1,187 @@
 {
-  "updated_at": "2026-09-10T06:55:03.556790+00:00",
-  "date": "2026-09-10",
+  "updated_at": "2026-09-11T06:54:45.059647+00:00",
+  "date": "2026-09-11",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "MDT",
-  "shift_label": "Narrative steady",
-  "sentiment_delta": -0.0116,
-  "baseline_label": "2026-08-21",
+  "symbol": "WAB",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.3522,
+  "baseline_label": "2026-09-03",
   "current": {
-    "date": "2026-09-10",
-    "symbol": "MDT",
-    "article_count": 1,
+    "date": "2026-09-11",
+    "symbol": "WAB",
+    "article_count": 4,
     "source_count": 1,
-    "sentiment_score": 0.2201,
+    "sentiment_score": -0.0628,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
+        "count": 4
       },
       {
-        "label": "Life Sciences",
-        "count": 1
+        "label": "Financial Markets",
+        "count": 4
       },
       {
         "label": "Finance",
+        "count": 2
+      },
+      {
+        "label": "Technology",
         "count": 1
       },
       {
-        "label": "Mergers And Acquisitions",
+        "label": "Economy Fiscal",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "medtronic",
-        "count": 2
+        "label": "april",
+        "count": 8
       },
       {
-        "label": "raised",
-        "count": 2
+        "label": "mcclain",
+        "count": 8
       },
       {
-        "label": "outlook",
-        "count": 2
+        "label": "delaney",
+        "count": 8
       },
       {
-        "label": "heart",
-        "count": 1
+        "label": "rep",
+        "count": 4
       },
       {
-        "label": "devices",
-        "count": 1
+        "label": "teledyne",
+        "count": 4
       },
       {
-        "label": "accelerate",
-        "count": 1
+        "label": "technologies",
+        "count": 4
       },
       {
-        "label": "but",
-        "count": 1
+        "label": "incorporated",
+        "count": 4
       },
       {
-        "label": "can",
-        "count": 1
+        "label": "tdy",
+        "count": 4
       },
       {
-        "label": "momentum",
-        "count": 1
+        "label": "representative",
+        "count": 4
       },
       {
-        "label": "last",
-        "count": 1
+        "label": "sold",
+        "count": 4
       },
       {
-        "label": "has",
-        "count": 1
+        "label": "august",
+        "count": 4
       },
       {
-        "label": "fiscal",
-        "count": 1
+        "label": "sells",
+        "count": 3
       }
     ],
-    "headline": "Medtronic Raised its Outlook as Heart Devices Accelerate, But Can the Momentum Last?",
-    "headline_source": "Yahoo Finance UK"
+    "headline": "Rep. April McClain Delaney Sells Off Teledyne Technologies Incorporated (NYSE:TDY) Stock",
+    "headline_source": "MarketBeat"
   },
   "previous": {
-    "date": "2026-08-21",
-    "symbol": "MDT",
+    "date": "2026-09-03",
+    "symbol": "WAB",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.2317,
+    "sentiment_score": 0.2894,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Life Sciences",
         "count": 1
       },
       {
         "label": "Financial Markets",
         "count": 1
+      },
+      {
+        "label": "Life Sciences",
+        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "abbott",
-        "count": 3
-      },
-      {
-        "label": "profit",
+        "label": "amgen",
         "count": 2
       },
       {
-        "label": "laboratories",
-        "count": 2
-      },
-      {
-        "label": "abt",
-        "count": 2
-      },
-      {
-        "label": "did",
+        "label": "signals",
         "count": 1
       },
       {
-        "label": "beat",
+        "label": "confidence",
         "count": 1
       },
       {
-        "label": "hike",
+        "label": "agrees",
         "count": 1
       },
       {
-        "label": "just",
+        "label": "climbing",
         "count": 1
       },
       {
-        "label": "shift",
+        "label": "due",
         "count": 1
       },
       {
-        "label": "investment",
+        "label": "strong",
         "count": 1
       },
       {
-        "label": "narrative",
+        "label": "current",
         "count": 1
       },
       {
-        "label": "reported",
+        "label": "performance",
+        "count": 1
+      },
+      {
+        "label": "driven",
+        "count": 1
+      },
+      {
+        "label": "six",
+        "count": 1
+      },
+      {
+        "label": "key",
         "count": 1
       }
     ],
-    "headline": "Did Abbott’s Q2 Beat and Profit Hike Just Shift Abbott Laboratories’ (ABT) Investment Narrative?",
-    "headline_source": "Simply Wall Street"
+    "headline": "Amgen Stock Signals Its Confidence. The Market Agrees.",
+    "headline_source": "Trefis"
   },
   "emerging_themes": [
-    "Finance",
-    "Mergers And Acquisitions",
-    "Earnings"
+    "Earnings",
+    "Financial Markets",
+    "Finance"
   ],
   "fading_themes": [
-    "Financial Markets"
+    "Life Sciences"
   ],
   "emerging_keywords": [
-    "medtronic",
-    "raised",
-    "outlook"
+    "april",
+    "mcclain",
+    "delaney"
   ],
   "fading_keywords": [
-    "abbott",
-    "profit",
-    "laboratories"
+    "amgen",
+    "signals",
+    "confidence"
   ],
-  "takeaway": "MDT's narrative is narrative steady: sentiment moved -0.01, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "WAB's narrative is turning bearish: sentiment moved -0.35, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

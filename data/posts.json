@@ -1,5 +1,212 @@
 [
   {
+    "id": "market-narrative-shift-wab-2026-09-11",
+    "date": "2026-09-11",
+    "runDate": "2026-09-11",
+    "createdAt": "2026-09-11T06:54:47.072218+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $WAB",
+    "status": "ready",
+    "tweet": "What changed in $WAB's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.35\n📌 Top theme: Earnings\n🔎 Emerging term: april\n📰 Coverage: 4 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_WAB_2026-09-11.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-11T06:54:45.059647+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$WAB",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "WAB",
+    "topChangePct": -35.22,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-11T06:54:45.059647+00:00",
+      "date": "2026-09-11",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "WAB",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.3522,
+      "baseline_label": "2026-09-03",
+      "current": {
+        "date": "2026-09-11",
+        "symbol": "WAB",
+        "article_count": 4,
+        "source_count": 1,
+        "sentiment_score": -0.0628,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 4
+          },
+          {
+            "label": "Financial Markets",
+            "count": 4
+          },
+          {
+            "label": "Finance",
+            "count": 2
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Economy Fiscal",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "april",
+            "count": 8
+          },
+          {
+            "label": "mcclain",
+            "count": 8
+          },
+          {
+            "label": "delaney",
+            "count": 8
+          },
+          {
+            "label": "rep",
+            "count": 4
+          },
+          {
+            "label": "teledyne",
+            "count": 4
+          },
+          {
+            "label": "technologies",
+            "count": 4
+          },
+          {
+            "label": "incorporated",
+            "count": 4
+          },
+          {
+            "label": "tdy",
+            "count": 4
+          },
+          {
+            "label": "representative",
+            "count": 4
+          },
+          {
+            "label": "sold",
+            "count": 4
+          },
+          {
+            "label": "august",
+            "count": 4
+          },
+          {
+            "label": "sells",
+            "count": 3
+          }
+        ],
+        "headline": "Rep. April McClain Delaney Sells Off Teledyne Technologies Incorporated (NYSE:TDY) Stock",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-09-03",
+        "symbol": "WAB",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2894,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "amgen",
+            "count": 2
+          },
+          {
+            "label": "signals",
+            "count": 1
+          },
+          {
+            "label": "confidence",
+            "count": 1
+          },
+          {
+            "label": "agrees",
+            "count": 1
+          },
+          {
+            "label": "climbing",
+            "count": 1
+          },
+          {
+            "label": "due",
+            "count": 1
+          },
+          {
+            "label": "strong",
+            "count": 1
+          },
+          {
+            "label": "current",
+            "count": 1
+          },
+          {
+            "label": "performance",
+            "count": 1
+          },
+          {
+            "label": "driven",
+            "count": 1
+          },
+          {
+            "label": "six",
+            "count": 1
+          },
+          {
+            "label": "key",
+            "count": 1
+          }
+        ],
+        "headline": "Amgen Stock Signals Its Confidence. The Market Agrees.",
+        "headline_source": "Trefis"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "fading_themes": [
+        "Life Sciences"
+      ],
+      "emerging_keywords": [
+        "april",
+        "mcclain",
+        "delaney"
+      ],
+      "fading_keywords": [
+        "amgen",
+        "signals",
+        "confidence"
+      ],
+      "takeaway": "WAB's narrative is turning bearish: sentiment moved -0.35, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-11",
     "date": "2026-09-11",
     "runDate": "2026-09-11",
