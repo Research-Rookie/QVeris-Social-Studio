@@ -1,643 +1,500 @@
 {
-  "updated_at": "2026-09-10T07:28:13.813616+00:00",
-  "date": "2026-09-10",
+  "updated_at": "2026-09-11T06:15:34.288975+00:00",
+  "date": "2026-09-11",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Medtronic Raised its Outlook as Heart Devices Accelerate, But Can the Momentum Last?",
-      "summary": "Medtronic (NYSE: MDT) has raised its fiscal 2027 organic revenue growth outlook and the lower end of its adjusted earnings forecast, driven by strong demand for cardiovascular d...",
-      "url": "https://uk.finance.yahoo.com/news/medtronic-raised-outlook-heart-devices-231801427.html",
+      "title": "Here's Why RCM Technologies, Inc. (RCMT) Fell More Than Broader Market",
+      "summary": "RCM Technologies, Inc. (RCMT) recently experienced a 2.9% drop, underperforming the broader market despite a 41.27% gain over the past month. Analysts predict strong earnings an...",
+      "url": "https://uk.finance.yahoo.com/news/heres-why-rcm-technologies-inc-220005238.html",
       "source": "Yahoo Finance UK",
-      "published_at": "20260909T231800",
-      "sentiment_score": 0.218573,
+      "published_at": "20260910T222939",
+      "sentiment_score": 0.236974,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "MDT",
-        "ISRG"
+        "RCMT"
       ],
       "topics": [
         "Earnings",
-        "Life Sciences",
-        "Finance",
-        "Mergers And Acquisitions"
+        "Financial Markets"
       ],
-      "quality_score": 19,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "Kroger to Report Q2 FY26 Results on Sept. 11. Here’s What to Expect",
-      "summary": "Kroger Co. (NYSE: KR) is set to release its Q2 FY26 results on September 11, with analysts expecting adjusted earnings of $1.05 per share and revenue of $34.56 billion. The repo...",
-      "url": "https://news.alphastreet.com/kroger-to-report-q2-fy26-results-on-sept-11-heres-what-to-expect/",
-      "source": "AlphaStreet",
-      "published_at": "20260910T044935",
-      "sentiment_score": 0.128685,
+      "title": "Merck & Co., Inc. (NYSE:MRK) Trading Down 1.9% - Should You Sell?",
+      "summary": "Shares of Merck & Co., Inc. (NYSE:MRK) traded down 1.9% on Thursday, with analysts maintaining a \"Moderate Buy\" consensus rating and an average price target of $151.32. The comp...",
+      "url": "https://www.marketbeat.com/instant-alerts/price-merck-co-inc-nyse-mrk-trading-down-19-should-you-sell-2026-09-10/",
+      "source": "MarketBeat",
+      "published_at": "20260910T220811",
+      "sentiment_score": 0.101519,
       "sentiment_label": "Neutral",
       "tickers": [
-        "KR",
-        "WMT",
-        "COST"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Huntington Ingalls Industries, Inc. (NYSE:HII) Receives Average Recommendation of \"Moderate Buy\" from Analysts",
-      "summary": "Huntington Ingalls Industries (NYSE:HII) has received an average \"Moderate Buy\" recommendation from analysts, with five recommending a buy and five a hold. The average 12-month...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-huntington-ingalls-industries-inc-nyse-hii-receives-average-recommendation-of-moderate-buy-from-analysts-2026-09-10/",
-      "source": "MarketBeat",
-      "published_at": "20260910T061836",
-      "sentiment_score": 0.168198,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "HII",
-        "PLTR",
-        "NOC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Manufacturing"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Wall Street Analysts Believe Airgain (AIRG) Could Rally 53.2%: Here's is How to Trade",
-      "summary": "Wall Street analysts project a 53.2% upside for Airgain (AIRG), with a mean price target of $8.38. Despite potential biases in analyst price targets, a low standard deviation in...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-believe-airgain-135503099.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260909T225511",
-      "sentiment_score": 0.462429,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "AIRG"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Boeing raises estimated costs of Spirit AeroSystems agreements by $455 million",
-      "summary": "Boeing has increased its estimated costs for fulfilling customer agreements inherited from Spirit AeroSystems by $455 million, bringing the total projected cost to $1.52 billion...",
-      "url": "https://ua.news/en/world/boeing-zbilshila-otsinku-vitrat-na-ugodi-spirit-aerosystems-na-455-mln",
-      "source": "UA.NEWS",
-      "published_at": "20260910T011646",
-      "sentiment_score": -0.264234,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "BA"
-      ],
-      "topics": [
-        "Mergers And Acquisitions",
-        "Earnings",
-        "Manufacturing",
-        "Energy Transportation"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Idexx Laboratories stock hits 52-week low at $517.00 By Investing.com",
-      "summary": "Idexx Laboratories Inc. (IDXX) stock has hit a 52-week low of $517.00, despite the company reporting strong second-quarter earnings that surpassed analyst expectations. The comp...",
-      "url": "https://m.au.investing.com/news/stock-market-news/idexx-laboratories-stock-hits-52week-low-at-51700-93CH-4634638?ampMode=1",
-      "source": "Investing.com Australia",
-      "published_at": "20260910T011454",
-      "sentiment_score": 0.255333,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "IDXX"
+        "MRK"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Life Sciences"
       ],
-      "quality_score": 9,
+      "quality_score": 14,
       "is_noise": false
     },
     {
-      "title": "Lumexa Imaging at Wells Fargo conference: growth plan stays on track",
-      "summary": "Lumexa Imaging (LMRI) presented at the Wells Fargo 21st Annual Healthcare Conference, outlining its growth strategy focused on steady outpatient revenue gains, new center openin...",
-      "url": "https://www.investing.com/news/transcripts/lumexa-imaging-at-wells-fargo-conference-growth-plan-stays-on-track-93CH-4894805",
-      "source": "Investing.com",
-      "published_at": "20260910T005543",
-      "sentiment_score": 0.28285,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "LMRI",
-        "WFC"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Finance",
-        "Ipo"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Lumentum at Citi’s 2026 Global TMT Conference: ai demand lifts outlook",
-      "summary": "Lumentum (LITE) presented at Citi's 2026 Global TMT Conference, highlighting that AI-driven demand for optical components significantly outpaces current supply, leading to a str...",
-      "url": "https://www.investing.com/news/transcripts/lumentum-at-citis-2026-global-tmt-conference-ai-demand-lifts-outlook-93CH-4894771",
-      "source": "Investing.com",
-      "published_at": "20260910T002623",
-      "sentiment_score": 0.872872,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "LITE"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Novavax Highlights Matrix-M Licensing Push, Oncology Ambitions at Cantor Conference",
-      "summary": "Novavax is pivoting its business model towards licensing its Matrix-M adjuvant platform, focusing on partnerships with major pharmaceutical companies for wider application, incl...",
-      "url": "https://finance.yahoo.com/healthcare/articles/novavax-highlights-matrix-m-licensing-050205077.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260910T052511",
-      "sentiment_score": 0.341735,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "NVAX"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Teradyne at Goldman Sachs Communacopia + Technology Conference: ai push widens",
-      "summary": "Teradyne (TER) outlined its comprehensive AI-driven strategy at the Goldman Sachs Communacopia + Technology Conference, highlighting how all three of its main businesses—semicon...",
-      "url": "https://uk.investing.com/news/stock-market-news/teradyne-at-goldman-sachs-communacopia--technology-conference-ai-push-widens-93CH-4863635",
-      "source": "Investing.com UK",
-      "published_at": "20260910T033410",
-      "sentiment_score": 0.280269,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TER",
-        "AMAT",
-        "NVDA",
-        "QCOM",
-        "INTC"
-      ],
-      "topics": [
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Coca-Cola CEO Braun Targets Growth With Digital, Consumer Insights and Innovation",
-      "summary": "Coca-Cola CEO Henrique Braun is focused on driving growth by prioritizing consumer insights, digital capabilities, and a culture of continuous improvement, while maintaining the...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ceo-braun-targets-020215514.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260910T014449",
-      "sentiment_score": 0.455342,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "KO"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale",
-        "Technology"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Generac home president Norman Taffe sells $75,481 of Generac stock By Investing.com",
-      "summary": "Norman P. Taffe, President of Generac Home, sold 400 shares of Generac Holdings Inc. stock for a total of $75,481, following an earlier acquisition of 100 shares through stock o...",
-      "url": "https://ca.investing.com/news/stock-market-news/generac-home-president-norman-taffe-sells-75481-of-generac-stock-93CH-4833688",
-      "source": "Investing.com Canada",
-      "published_at": "20260910T000020",
-      "sentiment_score": 0.117024,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GNRC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Fair Isaac (FICO) Jumps 5.7% to $986.93",
-      "summary": "Fair Isaac (FICO) shares rose 5.7% to $986.93 after the company announced the return of its Educational Analytics Challenge, focusing on AI models for cyber attack detection. Th...",
-      "url": "https://news.alphastreet.com/fair-isaac-fico-jumps-5-7-to-986-93/",
-      "source": "AlphaStreet",
-      "published_at": "20260909T234942",
-      "sentiment_score": 0.450805,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "FICO"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Transcript : Applied Materials, Inc. Presents at Goldman Sachs Communacopia + Technology Conference 2026, Sep-09-20...",
-      "summary": "This article is a transcript of Applied Materials, Inc.'s presentation at the Goldman Sachs Communacopia + Technology Conference 2026. The full content of the transcript is rese...",
-      "url": "https://www.marketscreener.com/news/transcript-applied-materials-inc-presents-at-goldman-sachs-communacopia-technology-conference-ce785bded889f525",
-      "source": "www.marketscreener.com",
-      "published_at": "20260909T234224",
-      "sentiment_score": 0.035232,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AMAT"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Transcript : PayPal Holdings, Inc. Presents at Goldman Sachs Communacopia + Technology Conference 2026, Sep-09-2026...",
-      "summary": "This article provides a transcript of PayPal Holdings, Inc.'s presentation at the Goldman Sachs Communacopia + Technology Conference 2026, held on September 9, 2026, at 02:25 PM...",
-      "url": "https://www.marketscreener.com/news/transcript-paypal-holdings-inc-presents-at-goldman-sachs-communacopia-technology-conference-20-ce785bded98ef725",
-      "source": "www.marketscreener.com",
-      "published_at": "20260909T231301",
-      "sentiment_score": 0.105259,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PYPL"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Technology",
-        "Financial Markets"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Dell director Silver Lake Technology Investors IV sells $583,908 in stock By Investing.com",
-      "summary": "Silver Lake Technology Investors IV, a director and 10% owner of Dell Technologies Inc. (NASDAQ:DELL), sold 1,120 shares of Class C Common Stock worth $583,908 on September 4, 2...",
-      "url": "https://ng.investing.com/news/stock-market-news/dell-director-silver-lake-technology-investors-iv-sells-583908-in-stock-93CH-2690538",
-      "source": "Investing.com Nigeria",
-      "published_at": "20260910T030806",
-      "sentiment_score": -0.195415,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "DELL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Finance"
-      ],
-      "quality_score": 5,
-      "is_noise": false
-    },
-    {
-      "title": "Global Payments To Go Ex-Dividend On September 11th, 2026 With 0.25 USD Dividend Per Share",
-      "summary": "Global Payments (NYSE: GPN) is scheduled to go ex-dividend on September 11th, 2026, with a dividend payout of $0.25 per share. Investors who wish to receive this dividend must o...",
-      "url": "https://www.moomoo.com/news/post/76037608/global-payments-to-go-ex-dividend-on-september-11th-2026",
-      "source": "Moomoo",
-      "published_at": "20260910T021539",
-      "sentiment_score": 0.121669,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GPN"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 5,
-      "is_noise": false
-    },
-    {
-      "title": "Gen digital COO Bryan Ko sells $866,450 in company stock By Investing.com",
-      "summary": "Bryan Ko, COO of Gen Digital Inc. (NASDAQ:GEN), sold 28,248 shares for a total of $866,450 through a pre-arranged trading plan. This sale occurred while the stock was near its 5...",
-      "url": "https://uk.investing.com/news/stock-market-news/gen-digital-coo-bryan-ko-sells-866450-in-company-stock-93CH-4863540",
-      "source": "Investing.com UK",
-      "published_at": "20260910T003230",
-      "sentiment_score": 0.253387,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "GEN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 5,
-      "is_noise": false
-    },
-    {
-      "title": "Generac home president Norman Taffe sells $75,481 of Generac stock By Investing.com",
-      "summary": "Norman P. Taffe, President of Generac Home, sold 400 shares of Generac Holdings Inc. (NASDAQ:GNRC) common stock for $75,481 on September 8, 2026, through a pre-arranged trading...",
-      "url": "https://m.za.investing.com/news/stock-market-news/generac-home-president-norman-taffe-sells-75481-of-generac-stock-93CH-4459142?ampMode=1",
-      "source": "Investing.com South Africa",
-      "published_at": "20260910T001601",
-      "sentiment_score": 0.122995,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GNRC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 5,
-      "is_noise": false
-    },
-    {
-      "title": "Gen digital COO Bryan Ko sells $866,450 in company stock By Investing.com",
-      "summary": "Bryan Ko, COO, Chief Legal Officer, and Secretary of Gen Digital Inc. (NASDAQ:GEN), sold 28,248 shares of the company's common stock for $866,450 on September 4, 2026. The sale...",
-      "url": "https://ca.investing.com/news/stock-market-news/gen-digital-coo-bryan-ko-sells-866450-in-company-stock-93CH-4833727",
-      "source": "Investing.com Canada",
-      "published_at": "20260910T004803",
-      "sentiment_score": 0.024692,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GEN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Starbucks international CEO Brady Brewer sells $235k in shares By Investing.com",
-      "summary": "Brady Brewer, international CEO of Starbucks Corp. (NASDAQ:SBUX), sold 2,229 shares of common stock for $235,382 on September 4, 2026, at $105.6 per share. This sale was part of...",
-      "url": "https://in.investing.com/news/stock-market-news/starbucks-international-ceo-brady-brewer-sells-235k-in-shares-93CH-5587416",
-      "source": "Investing.com India",
-      "published_at": "20260910T000909",
-      "sentiment_score": 0.035557,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SBUX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Live Oak Bancshares director William Williams sells $264,220 in stock By Investing.com",
-      "summary": "William L. Williams III, a director at Live Oak Bancshares Inc. (NASDAQ:LOB), recently sold 6,590 shares of the company’s voting common stock for approximately $264,220. The tra...",
-      "url": "https://m.au.investing.com/news/stock-market-news/live-oak-bancshares-director-william-williams-sells-264220-in-stock-93CH-4633114?ampMode=1",
-      "source": "Investing.com Australia",
-      "published_at": "20260910T000157",
-      "sentiment_score": 0.224169,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "LOB"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Workday director David Duffield disposes of $17.95m in Class A shares",
-      "summary": "Workday director David Duffield sold approximately $17.95 million worth of Class A Common Stock through a pre-arranged trading plan, while also acquiring an equal number of shar...",
-      "url": "https://ca.investing.com/news/stock-market-news/workday-director-david-duffield-disposes-of-1795m-in-class-a-shares-93CH-4833677",
-      "source": "Investing.com Canada",
-      "published_at": "20260909T234029",
-      "sentiment_score": 0.018809,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "WDAY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Finance"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Coca-Cola Europacific Partners (NASDAQ: CCEP) Announces Cancellation of Repurchased Shares Under EUR 1 Billion Buyb...",
-      "summary": "Coca-Cola Europacific Partners (CCEP) has announced the cancellation of ordinary shares repurchased between August 31 and September 4, 2026, as part of its EUR 1 billion buyback...",
-      "url": "https://kalkinemedia.com/us/news/announcements/coca-cola-europacific-partners-nasdaq-ccep-announces-cancellation-of-repurchased-shares-under-eur-1-billion-buyback-program",
+      "title": "Southern Company (NYSE:SO) Gains as Utilities Outperform Amid Crude Surge",
+      "summary": "Southern Company (NYSE:SO) saw its stock rise as utility companies generally outperformed the broader market, driven by a surge in crude oil prices and increasing demand from da...",
+      "url": "https://kalkinemedia.com/us/stocks/utility/southern-company-nyseso-gains-as-utilities-outperform-amid-crude-surge",
       "source": "Kalkine Media",
-      "published_at": "20260909T225505",
-      "sentiment_score": 0.403803,
-      "sentiment_label": "Bullish",
+      "published_at": "20260910T224505",
+      "sentiment_score": 0.31777,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "CCEP"
+        "SO",
+        "AEP",
+        "DUK",
+        "NEE",
+        "F"
       ],
       "topics": [
         "Financial Markets",
         "Earnings",
-        "Finance",
-        "Retail Wholesale"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "G-III’s (GIII) $1.2B Bet On Life After Calvin Klein",
-      "summary": "G-III Apparel (GIII) is undergoing a significant transition, shedding its Calvin Klein and Tommy Hilfiger licenses while investing heavily in owned brands like Donna Karan, DKNY...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/g-iii-giii-1-2b-020946153.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260910T023001",
-      "sentiment_score": 0.090489,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GIII"
-      ],
-      "topics": [
-        "Earnings",
-        "Mergers And Acquisitions",
-        "Retail Wholesale",
-        "Financial Markets",
+        "Energy Transportation",
         "Economy Macro"
       ],
-      "quality_score": 3,
+      "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "Enbridge to Buy Tallgrass Crude Pipeline Business for $2.55 Billion",
-      "summary": "Enbridge has agreed to acquire Tallgrass Energy's crude transportation business for $2.55 billion in cash, significantly expanding its U.S. crude infrastructure. This acquisitio...",
-      "url": "https://ca.finance.yahoo.com/news/enbridge-buy-tallgrass-crude-pipeline-013000983.html",
-      "source": "Yahoo! Finance Canada",
-      "published_at": "20260910T013031",
-      "sentiment_score": 0.472413,
-      "sentiment_label": "Bullish",
+      "title": "Merck (MRK) Dips More Than Broader Market: What You Should Know",
+      "summary": "Merck (MRK) shares fell by 1.91%, underperforming the broader market indices like the S&P 500, Dow, and Nasdaq. Analysts anticipate a 12.02% year-over-year decline in earnings p...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/merck-mrk-dips-more-broader-215004599.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260910T215054",
+      "sentiment_score": -0.27585,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "ENB"
+        "MRK"
       ],
       "topics": [
-        "Mergers And Acquisitions",
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Redwood Trust (NYSE:RWT) Reaches New 52-Week Low - Time to Sell?",
+      "summary": "Redwood Trust (NYSE:RWT) recently hit a new 52-week low of $3.22 before closing at $3.60, amid unusually high trading volume. Analyst sentiment is divided, with an average \"Hold...",
+      "url": "https://www.marketbeat.com/instant-alerts/price-redwood-trust-nyse-rwt-reaches-new-52-week-low-time-to-sell-2026-09-10/",
+      "source": "MarketBeat",
+      "published_at": "20260911T002756",
+      "sentiment_score": 0.008635,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RWTO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Real Estate",
+        "Finance"
+      ],
+      "quality_score": 11,
+      "is_noise": false
+    },
+    {
+      "title": "American Electric Power (NASDAQ:AEP) Gains As Utilities Outperform Broader Market",
+      "summary": "American Electric Power (AEP) saw its stock advance as utility companies outperformed the broader market. This gain is attributed to surging crude prices, increased demand from...",
+      "url": "https://kalkinemedia.com/us/stocks/utility/american-electric-power-nasdaqaep-gains-as-utilities-outperform-broader-market",
+      "source": "Kalkine Media",
+      "published_at": "20260910T224516",
+      "sentiment_score": 0.307672,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "AEP",
+        "SO",
+        "DUK"
+      ],
+      "topics": [
+        "Financial Markets",
         "Energy Transportation",
         "Earnings"
       ],
-      "quality_score": 3,
+      "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Vertex at Wells Fargo healthcare conference: renal pipeline takes center stage",
-      "summary": "Vertex Pharmaceuticals showcased its strategic expansion beyond cystic fibrosis at the Wells Fargo 21st Annual Healthcare Conference, highlighting its burgeoning renal pipeline,...",
-      "url": "https://www.investing.com/news/transcripts/vertex-at-wells-fargo-healthcare-conference-renal-pipeline-takes-center-stage-93CH-4894817",
-      "source": "Investing.com",
-      "published_at": "20260910T005901",
-      "sentiment_score": 0.403684,
+      "title": "Needham initiates Kodiak AI stock with buy rating on autonomous trucking outlook By Investing.com",
+      "summary": "Needham has initiated coverage on Kodiak AI (NASDAQ: KDK) with a buy rating and an $8.00 price target, citing its strong position in autonomous long-haul trucking. The firm anti...",
+      "url": "https://za.investing.com/news/stock-market-news/needham-initiates-kodiak-ai-stock-with-buy-rating-on-autonomous-trucking-outlook-93CH-4458058",
+      "source": "Investing.com South Africa",
+      "published_at": "20260910T223241",
+      "sentiment_score": 0.441586,
       "sentiment_label": "Bullish",
       "tickers": [
-        "VRTX"
+        "KDK"
       ],
       "topics": [
-        "Life Sciences",
+        "Technology",
+        "Financial Markets",
         "Earnings",
-        "Finance"
+        "Energy Transportation"
       ],
-      "quality_score": 3,
+      "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "HP Shares Jumping 5.9% on HP Inc’s Dividend Analysis",
-      "summary": "HP Inc. (HPQ) saw its shares surge by 5.9% to $32.70 following the release of a favorable dividend analysis from Yahoo, which likely highlighted the company's strong shareholder...",
-      "url": "https://news.alphastreet.com/hp-shares-jumping-5-9-on-hp-incs-dividend-analysis/",
-      "source": "AlphaStreet",
-      "published_at": "20260910T004852",
-      "sentiment_score": 0.438191,
-      "sentiment_label": "Bullish",
+      "title": "SLB (SLB) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "summary": "SLB (SLB) recently experienced a 1.82% decline, underperforming the broader market indices like the S&P 500, Dow, and Nasdaq. Despite this, the stock had gained 8.44% over the p...",
+      "url": "https://uk.finance.yahoo.com/news/slb-slb-registers-bigger-fall-220006813.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260910T221640",
+      "sentiment_score": 0.035189,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "HPQ"
+        "SLB"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Technology",
-        "Finance"
+        "Energy Transportation"
       ],
-      "quality_score": 3,
+      "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Fidelity & Guaranty Life sells $2.7m of Crescent Capital BDC stock",
-      "summary": "Fidelity & Guaranty Life Insurance Co., a 10% owner of Crescent Capital BDC, sold 265,490 shares totaling approximately $2.73 million in early September 2026. These sales occurr...",
-      "url": "https://uk.investing.com/news/stock-market-news/fidelity--guaranty-life-sells-27m-of-crescent-capital-bdc-stock-93CH-4863526",
-      "source": "Investing.com UK",
-      "published_at": "20260910T001647",
-      "sentiment_score": -0.386325,
-      "sentiment_label": "Bearish",
+      "title": "McKesson (MCK) Suffers a Larger Drop Than the General Market: Key Insights",
+      "summary": "McKesson (MCK) recently experienced a 1.21% stock drop, underperforming the S&P 500, Dow, and Nasdaq on the same day. Despite this, the company's stock showed a 1.47% gain over...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mckesson-mck-suffers-larger-drop-220005871.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260910T220110",
+      "sentiment_score": -0.195162,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "CCAP"
+        "MCK"
       ],
       "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "IBM (IBM) Dips More Than Broader Market: What You Should Know",
+      "summary": "IBM (IBM) closed down 2.47% at $234.02, underperforming the broader market. The technology and consulting company is set to announce its earnings on October 21, 2026, with antic...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-ibm-dips-more-broader-214504944.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260910T222254",
+      "sentiment_score": 0.032459,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "IBM",
+        "COIN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Chinese Nvidia rival Enflame soars 206% on stock market debut as AI demand stays hot",
+      "summary": "Chinese chipmaker Enflame, a domestic rival to Nvidia, saw its stock surge 206% on its Shanghai market debut, drawing significant investor interest. The company is the last of C...",
+      "url": "https://www.cnbc.com/2026/09/11/chinese-nvidia-rival-enflame-stock-market-debut-ai.html",
+      "source": "CNBC",
+      "published_at": "20260910T215300",
+      "sentiment_score": -0.3107,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "NVDA"
+      ],
+      "topics": [
+        "Ipo",
+        "Technology",
         "Financial Markets",
         "Earnings"
       ],
-      "quality_score": 3,
+      "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "American States Water director Bonta sells $48,486 in shares By Investing.com",
-      "summary": "Diana M. Bonta, a director at American States Water Co (AWR), sold 546 common shares totaling $48,486 on September 4, 2026. This transaction leaves Ms. Bonta with 16,611.9537 sh...",
-      "url": "https://uk.investing.com/news/stock-market-news/american-states-water-director-bonta-sells-48486-in-shares-93CH-4863491",
-      "source": "Investing.com UK",
-      "published_at": "20260909T233440",
-      "sentiment_score": -0.107571,
+      "title": "Raytech Holding Limited (ATTT) Company Information",
+      "summary": "This article provides a comprehensive stock analysis of Atlas Trinity Tech Limited (Nasdaq: ATTT), formerly Raytech Holding Limited, detailing its company overview, valuation, p...",
+      "url": "https://simplywall.st/stocks/us/retail/nasdaq-attt/atlas-trinity-tech",
+      "source": "Simply Wall Street",
+      "published_at": "20260910T223437",
+      "sentiment_score": 0.068426,
       "sentiment_label": "Neutral",
       "tickers": [
-        "AWR"
+        "RAY"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance"
+        "Retail Wholesale"
       ],
-      "quality_score": 3,
+      "quality_score": 8,
       "is_noise": false
     },
     {
-      "title": "ING Groep NV Completes 69.20% of €1 Billion Share Buyback with 1.36 Million Shares Repurchased at €31.01",
-      "summary": "ING Groep NV has completed approximately 69.20% of its €1.0 billion share buyback program, having repurchased 1.36 million shares at an average price of €31.01 in the week endin...",
-      "url": "https://kalkinemedia.com/us/news/announcements/ing-groep-nv-completes-6920-of-eur1-billion-share-buyback-with-136-million-shares-repurchased-at-eur3101",
-      "source": "Kalkine Media",
-      "published_at": "20260909T225841",
-      "sentiment_score": 0.393107,
+      "title": "Realty Income stock heads into the open after a 0.75% dip",
+      "summary": "Realty Income stock closed down 0.75% at USD 59.72 on September 10, 2026, after trading around the USD 60 mark. The company announced its 136th dividend increase, raising the mo...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/realty-income-stock-heads-into-the-open-after-a-0-75-percent-dip/70084417",
+      "source": "ad-hoc-news.de",
+      "published_at": "20260911T010957",
+      "sentiment_score": 0.119038,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "O"
+      ],
+      "topics": [
+        "Real Estate",
+        "Financial Markets",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Here's How Much $100 Invested In Williams-Sonoma 15 Years Ago Would Be Worth Today",
+      "summary": "Williams-Sonoma (NYSE: WSM) has significantly outperformed the market over the last 15 years, achieving an average annual return of 18.76%. An investment of $100 in WSM stock 15...",
+      "url": "https://www.benzinga.com/news/26/09/61730242/here-s-how-much-100-invested-williams-sonoma-15-years-ago-would-be-worth-today",
+      "source": "Benzinga",
+      "published_at": "20260910T231519",
+      "sentiment_score": 0.433173,
       "sentiment_label": "Bullish",
       "tickers": [
-        "ING"
+        "WSM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Redwood Trust, Inc. (NYSE:RWT) Plans Quarterly Dividend of $0.18",
+      "summary": "Redwood Trust, Inc. (NYSE:RWT) announced a quarterly dividend of $0.18 per share, payable on September 30th to shareholders of record on September 23rd. This represents an annua...",
+      "url": "https://www.marketbeat.com/instant-alerts/dividend-redwood-trust-inc-nyse-rwt-plans-quarterly-dividend-of-018-2026-09-10/",
+      "source": "MarketBeat",
+      "published_at": "20260910T222756",
+      "sentiment_score": 0.022406,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RWTO"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
+        "Real Estate",
         "Finance"
       ],
-      "quality_score": 3,
+      "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "Silver Lake Partners IV, Dell director sell $48m in Dell stock",
-      "summary": "Silver Lake Partners IV and Dell director Egon Durban recently sold Dell Technologies (NASDAQ:DELL) Class C Common Stock worth approximately $48.1 million. The sales occurred on...",
-      "url": "https://m.investing.com/news/insider-trading-news/silver-lake-partners-iv-dell-director-sell-48m-in-dell-stock-93CH-4894916?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260910T032025",
-      "sentiment_score": 0.010726,
+      "title": "$1000 Invested In Cummins 10 Years Ago Would Be Worth This Much Today",
+      "summary": "An investment of $1000 in Cummins (NYSE: CMI) 10 years ago would now be worth $4,688.69, demonstrating an annualized return of 16.64%. This performance outpaces the market by 3....",
+      "url": "https://www.benzinga.com/news/26/09/61729944/1000-invested-cummins-10-years-ago-would-be-worth-much-today",
+      "source": "Benzinga",
+      "published_at": "20260910T221902",
+      "sentiment_score": 0.500575,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "CMI"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Manufacturing",
+        "Earnings",
+        "Energy Transportation"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Boeing Delivers 51 Jets In August",
+      "summary": "Boeing announced it delivered 51 jets in August, a decrease from the previous month and year, mainly due to fewer 787 Dreamliner handovers. The company shipped 41 737 MAX jets a...",
+      "url": "https://www.aero-news.net/index.cfm?do=main.textpost&id=A69116A1-FABE-443D-8449-5D8EE252DED0",
+      "source": "Aero-News.net",
+      "published_at": "20260911T050113",
+      "sentiment_score": 0.035814,
       "sentiment_label": "Neutral",
       "tickers": [
-        "DELL"
+        "BA",
+        "LUV",
+        "UAL"
+      ],
+      "topics": [
+        "Earnings",
+        "Manufacturing",
+        "Energy Transportation"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Why Did HP, SHEL, ET Stocks Hit 52-Week Highs Today?",
+      "summary": "HP Inc., Shell plc, and Energy Transfer LP stocks reached new 52-week highs due to strong execution, strategic moves, and resilient cash generation. HP's rise is attributed to A...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-hp-shel-et-032358301.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260911T032403",
+      "sentiment_score": 0.227135,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "HPQ",
+        "CEG",
+        "DVN"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Energy Transportation",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Arista Networks vs. HPE: A $42,000 gap over five years in AI networking",
+      "summary": "An analysis over five years shows that a $10,000 investment in Arista Networks (ANET) yielded $86,169, significantly outperforming Hewlett Packard Enterprise (HPE) which returne...",
+      "url": "https://247wallst.com/cards/same-10-000-in-the-ai-networking-race-five-years-ago-arist-anet-winner-loser-01m26x73wnxnb13a2mm6bz41j4",
+      "source": "24/7 Wall St.",
+      "published_at": "20260911T002928",
+      "sentiment_score": 0.347997,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ANET",
+        "HPE"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Earnings",
+        "Economy Macro"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Is Dow weighing the sale of its stake in Saudi petrochemical venture?",
+      "summary": "Dow Inc. is reportedly considering selling its 35% stake in Sadara Chemical Co., a joint venture in Saudi Arabia with Saudi Aramco, for an estimated $10 billion. This potential...",
+      "url": "https://www.ourmidland.com/news/article/dow-weighing-sale-stake-saudi-petrochemical-22426441.php",
+      "source": "Midland Daily News",
+      "published_at": "20260910T222629",
+      "sentiment_score": 0.117181,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DOW"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Manufacturing",
+        "Financial Markets",
+        "Earnings",
+        "Economy Macro"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Annaly Capital Management (NLY) Suffers a Larger Drop Than the General Market: Key Insights",
+      "summary": "Annaly Capital Management (NLY) closed at $22.00, experiencing a 2.7% drop, which is worse than the general market's performance. The stock has underperformed its sector and the...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/annaly-capital-management-nly-suffers-221505331.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260910T221553",
+      "sentiment_score": 0.000257,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NLY-P-F"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Finance",
-        "Technology"
+        "Real Estate"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 6,
+      "is_noise": false
     },
     {
-      "title": "Sl spv-2, l.p., Dell director, sells $26m in Dell stock",
-      "summary": "SL SPV-2, L.P., a Dell Technologies Inc. director and significant shareholder, sold 49,946 shares of Class C Common Stock totaling approximately $26 million on September 4, 2026...",
-      "url": "https://m.investing.com/news/insider-trading-news/sl-spv2-lp-dell-director-sells-26m-in-dell-stock-93CH-4894914?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260910T032025",
-      "sentiment_score": 0.046722,
+      "title": "Microsoft plans 38 gigawatts of data center capacity by 2032, Bloomberg News reports",
+      "summary": "Microsoft intends to significantly expand its data center capacity to 38 gigawatts by 2032, more than tripling its current footprint of 12 gigawatts, according to a Bloomberg Ne...",
+      "url": "https://www.reuters.com/business/microsoft-plans-38-gigawatts-data-center-capacity-by-2032-bloomberg-news-reports-2026-09-10/",
+      "source": "Reuters",
+      "published_at": "20260910T221241",
+      "sentiment_score": 0.202703,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "MSFT",
+        "ORCL",
+        "INTC",
+        "AAPL",
+        "NVDA"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Texas Instruments (TXN) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "summary": "Texas Instruments (TXN) stock closed down 1.07%, underperforming the broader market. The company's stock has fallen 5.42% in the past month, worse than its sector and the S&P 50...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-registers-bigger-220006005.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260910T220839",
+      "sentiment_score": 0.092797,
       "sentiment_label": "Neutral",
+      "tickers": [
+        "TXN",
+        "COIN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Texas Instruments (TXN) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "summary": "Texas Instruments (TXN) stock closed at $258.80, down 1.07%, lagging behind the broader market indices. The chipmaker's stock has also underperformed its sector and the S&P 500...",
+      "url": "https://uk.finance.yahoo.com/news/texas-instruments-txn-registers-bigger-220006005.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260910T220000",
+      "sentiment_score": 0.109178,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TXN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Dell Technologies director SL SPV-2, L.P. sells $26.3 million in shares",
+      "summary": "SL SPV-2, L.P., a director and 10% owner of Dell Technologies Inc. (NASDAQ:DELL), sold 49,909 shares of Class C Common Stock totaling $26.3 million on September 8, 2026. This tr...",
+      "url": "https://uk.investing.com/news/stock-market-news/dell-technologies-director-sl-spv2-lp-sells-263-million-in-shares-93CH-4865701",
+      "source": "Investing.com UK",
+      "published_at": "20260911T014917",
+      "sentiment_score": -0.230668,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "DELL"
       ],
@@ -646,135 +503,186 @@
         "Technology",
         "Earnings"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 4,
+      "is_noise": false
     },
     {
-      "title": "Silver Lake Partners v DE (AIV) director sells $14.96m in Dell shares",
-      "summary": "A director and 10% owner of Dell Technologies Inc. (NASDAQ:DELL), Silver Lake Partners V DE (AIV), L.P., along with affiliates, sold approximately $14.96 million worth of Dell C...",
-      "url": "https://m.investing.com/news/insider-trading-news/silver-lake-partners-v-de-aiv-director-sells-1496m-in-dell-shares-93CH-4894903?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260910T031847",
-      "sentiment_score": -0.209207,
+      "title": "Keurig Dr Pepper CHRO sells $778k in stock By Investing.com",
+      "summary": "Mary Beth DeNooyer, Chief Human Resources Officer at Keurig Dr Pepper Inc. (NASDAQ:KDP), recently sold shares totaling $778,199 across two transactions on September 8 and 9, 202...",
+      "url": "https://uk.investing.com/news/stock-market-news/keurig-dr-pepper-chro-sells-778k-in-stock-93CH-4865619",
+      "source": "Investing.com UK",
+      "published_at": "20260910T231838",
+      "sentiment_score": -0.244969,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "DELL"
+        "KDP"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Technology"
+        "Financial Markets"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 4,
+      "is_noise": false
     },
     {
-      "title": "Dell director Silver Lake affiliates sell $262,758 in Nasdaq:DELL stock",
-      "summary": "Silver Lake affiliates, including a Dell Technologies Inc. (NASDAQ:DELL) director, sold 504 shares of Dell stock for $262,758 on September 4, 2026. This transaction occurred aft...",
-      "url": "https://m.investing.com/news/insider-trading-news/dell-director-silver-lake-affiliates-sell-262758-in-nasdaqdell-stock-93CH-4894915?ampMode=1",
+      "title": "8 Rivers Capital sells $469,595 of Net Power (NPWR) shares By Investing.com",
+      "summary": "8 Rivers Capital, a director and 10% owner of Net Power Inc. (NASDAQ:NPWR), recently sold 250,000 shares of the company's Class A Common Stock for a total of $469,595. These tra...",
+      "url": "https://in.investing.com/news/stock-market-news/8-rivers-capital-sells-469595-of-net-power-npwr-shares-93CH-5589405",
+      "source": "Investing.com India",
+      "published_at": "20260910T223846",
+      "sentiment_score": -0.223962,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "NPWR"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Vistra prices $1.5 billion junior subordinated notes offering",
+      "summary": "Vistra Corp. announced the pricing of a $1.5 billion offering of junior subordinated notes through its subsidiary, Vistra Operations Company LLC. The offering includes Series A...",
+      "url": "https://www.investing.com/news/company-news/vistra-prices-15-billion-junior-subordinated-notes-offering-93CH-4897048",
       "source": "Investing.com",
-      "published_at": "20260910T031847",
-      "sentiment_score": 0.275448,
+      "published_at": "20260911T000050",
+      "sentiment_score": 0.215979,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "DELL"
+        "VST"
       ],
       "topics": [
+        "Finance",
         "Earnings",
-        "Financial Markets",
-        "Technology"
+        "Financial Markets"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "Hope Bancorp SEVP Thomas Stenger sells $22,770 in common stock By Investing.com",
-      "summary": "Thomas Stenger, SEVP and Chief Risk Officer at Hope Bancorp Inc. (NASDAQ:HOPE), sold 1,650 shares of common stock totaling $22,770 on September 1, 2026. This insider sale occurr...",
-      "url": "https://ca.investing.com/news/stock-market-news/hope-bancorp-sevp-thomas-stenger-sells-22770-in-common-stock-93CH-4833762",
+      "title": "Pharvaris N.V. (PHVS) Discusses Topline Results of Chapter-3 Phase III Study on Deucrictibant for Prophylactic Trea...",
+      "summary": "Pharvaris N.V. (PHVS) has published a slide deck discussing the topline results of its Chapter-3 Phase III study for deucrictibant. This study investigates deucrictibant's effic...",
+      "url": "https://seekingalpha.com/article/4945318-pharvaris-n-v-phvs-discusses-topline-results-of-chapterminus-3-phase-iii-study-on?source=generic_rss",
+      "source": "Seeking Alpha",
+      "published_at": "20260910T232822",
+      "sentiment_score": 0.197462,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "PHVS"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Form 8K O-I Glass Inc For: 10 September By Investing.com",
+      "summary": "This article announces the filing of a Form 8K by O-I Glass Inc. on September 10, 2026. The content is brief, primarily serving as an alert for this financial disclosure without...",
+      "url": "https://ca.investing.com/news/stock-market-news/form-8k-oi-glass-inc-for-10-september-93CH-4835805",
       "source": "Investing.com Canada",
-      "published_at": "20260910T015404",
-      "sentiment_score": 0.109494,
+      "published_at": "20260910T231959",
+      "sentiment_score": 0.041593,
       "sentiment_label": "Neutral",
       "tickers": [
-        "HOPE"
+        "OI"
       ],
       "topics": [
-        "Earnings",
         "Financial Markets",
-        "Finance"
+        "Earnings"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "Intuit director Richard L. Dalzell sells $92,727 of stock",
-      "summary": "Intuit director Richard L. Dalzell sold 285 shares of the company's common stock for $92,727 on September 8, 2026, pursuant to a pre-arranged trading plan. Following the sale, D...",
-      "url": "https://www.investing.com/news/insider-trading-news/intuit-director-richard-l-dalzell-sells-92727-of-stock-93CH-4894852",
-      "source": "Investing.com",
-      "published_at": "20260910T014504",
-      "sentiment_score": -0.14104,
+      "title": "Form 8K Mexco Energy Corp For: 10 September By Investing.com",
+      "summary": "Investing.com reports the filing of a Form 8K by Mexco Energy Corp for September 10th. This brief article primarily serves as a notification of the regulatory filing. It include...",
+      "url": "https://uk.investing.com/news/stock-market-news/form-8k-mexco-energy-corp-for-10-september-93CH-4865611",
+      "source": "Investing.com UK",
+      "published_at": "20260910T231229",
+      "sentiment_score": 0.020103,
       "sentiment_label": "Neutral",
       "tickers": [
-        "INTU"
+        "MXC"
       ],
       "topics": [
-        "Earnings",
         "Financial Markets",
-        "Technology",
-        "Finance"
+        "Earnings"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 3,
+      "is_noise": false
     },
     {
-      "title": "Insider Selling: Intuit (NASDAQ:INTU) Director Sells $92,727.60 in Stock",
-      "summary": "Intuit Director Richard Dalzell sold 285 shares of INTU stock for $92,727.60 on September 8th, reducing his direct ownership by 2.41%. This sale occurred under a pre-arranged Ru...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-intuit-nasdaq-intu-director-sells-9272760-in-stock-2026-09-09/",
-      "source": "MarketBeat",
-      "published_at": "20260910T014433",
-      "sentiment_score": -0.17804,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "INTU"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Macerich Co chief accounting officer Zecchini sells $63,787 stock",
-      "summary": "Christopher J. Zecchini, Chief Accounting Officer at Macerich Co, sold 2,740 shares of the company's common stock for approximately $63,787. This insider sale follows strong yea...",
-      "url": "https://m.investing.com/news/insider-trading-news/macerich-co-chief-accounting-officer-zecchini-sells-63787-stock-93CH-4894857?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260910T012138",
-      "sentiment_score": 0.10393,
+      "title": "Realty Income director Gregory McLaughlin sells $209,021 in shares By Investing.com",
+      "summary": "Gregory McLaughlin, a director at Realty Income Corp, sold 3,475 shares of common stock for $209,021 on September 10, 2026. This transaction leaves him with 34,732 indirect shar...",
+      "url": "https://ca.investing.com/news/stock-market-news/realty-income-director-gregory-mclaughlin-sells-209021-in-shares-93CH-4835786",
+      "source": "Investing.com Canada",
+      "published_at": "20260910T231022",
+      "sentiment_score": 0.019355,
       "sentiment_label": "Neutral",
       "tickers": [
-        "MAC"
+        "O"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Real Estate"
       ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Silver Lake Technology Investors IV sells $589,787 in Dell Technologies stock By Investing.com",
+      "summary": "Silver Lake Technology Investors IV, a 10% owner and director of Dell Technologies Inc. (NYSE:DELL), sold 1,119 shares of Class C Common Stock for approximately $589,787 on Sept...",
+      "url": "https://m.investing.com/news/insider-trading-news/silver-lake-technology-investors-iv-sells-589787-in-dell-technologies-stock-93CH-4897168?ampMode=1",
+      "source": "Investing.com",
+      "published_at": "20260911T012552",
+      "sentiment_score": 0.220634,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "DELL",
+        "JPM"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Earnings"
+      ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Bryan Seuk Ko Sells 28,248 Shares of Gen Digital (NASDAQ:GEN) Stock",
-      "summary": "Bryan Seuk Ko, COO of Gen Digital (NASDAQ:GEN), sold 28,248 shares of company stock for over $866,000 under a Rule 10b5-1 trading plan, reducing his direct holdings by 3.66%. Th...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-bryan-seuk-ko-sells-28248-shares-of-gen-digital-nasdaq-gen-stock-2026-09-09/",
-      "source": "MarketBeat",
-      "published_at": "20260910T011545",
-      "sentiment_score": 0.111894,
+      "title": "Dell Technologies director SL SPV-2, L.P. sells $26.3 million in shares",
+      "summary": "SL SPV-2, L.P., a director and 10% owner of Dell Technologies, sold 49,909 shares of Class C Common Stock for $26.3 million. Concurrently, the entity acquired 74,083 shares thro...",
+      "url": "https://m.investing.com/news/insider-trading-news/dell-technologies-director-sl-spv2-lp-sells-263-million-in-shares-93CH-4897169?ampMode=1",
+      "source": "Investing.com",
+      "published_at": "20260911T012527",
+      "sentiment_score": -0.244577,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "DELL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Dell director Egon Durban, Silver Lake Partners IV sell $30.38m stock",
+      "summary": "Dell director Egon Durban and Silver Lake Partners IV sold approximately $30.38 million worth of Dell Technologies Inc. Class C Common Stock on September 8, 2026. The sale invol...",
+      "url": "https://m.investing.com/news/insider-trading-news/dell-director-egon-durban-silver-lake-partners-iv-sell-3038m-stock-93CH-4897150?ampMode=1",
+      "source": "Investing.com",
+      "published_at": "20260911T012527",
+      "sentiment_score": 0.021607,
       "sentiment_label": "Neutral",
       "tickers": [
-        "GEN"
+        "DELL"
       ],
       "topics": [
         "Earnings",
@@ -786,53 +694,76 @@
       "is_noise": true
     },
     {
-      "title": "DocuSign CFO Blake Grayson sells $3.08m in DOCU stock By Investing.com",
-      "summary": "DocuSign CFO Blake Grayson sold 45,000 shares of DOCU stock for approximately $3.08 million across two dates in September 2026, pursuant to a Rule 10b5-1 plan. Despite a 32.5% r...",
-      "url": "https://ca.investing.com/news/stock-market-news/docusign-cfo-blake-grayson-sells-308m-in-docu-stock-93CH-4833730",
-      "source": "Investing.com Canada",
-      "published_at": "20260910T010818",
-      "sentiment_score": 0.033859,
+      "title": "David Meniane Buys 13,250 Shares of CarParts.com (NASDAQ:PRTS) Stock",
+      "summary": "CarParts.com CEO David Meniane recently purchased 13,250 shares of the company's stock for $133,295, increasing his direct holdings to 312,664 shares. This transaction is part o...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-david-meniane-buys-13250-shares-of-carpartscom-nasdaq-prts-stock-2026-09-10/",
+      "source": "MarketBeat",
+      "published_at": "20260911T011350",
+      "sentiment_score": -0.125787,
       "sentiment_label": "Neutral",
       "tickers": [
-        "DOCU"
+        "PRTS"
       ],
       "topics": [
-        "Financial Markets",
         "Earnings",
-        "Technology"
+        "Financial Markets"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Starbucks international CEO Brady Brewer sells $235k in shares",
-      "summary": "Brady Brewer, international CEO of Starbucks Corp. (NASDAQ:SBUX), sold 2,229 shares worth $235,382 on September 4, 2026, as part of a pre-arranged trading plan. This sale occurr...",
-      "url": "https://www.investing.com/news/insider-trading-news/starbucks-international-ceo-brady-brewer-sells-235k-in-shares-93CH-4894810",
-      "source": "Investing.com",
-      "published_at": "20260910T005740",
-      "sentiment_score": -0.204327,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "CarParts.com (NASDAQ:PRTS) COO Michael Huffaker Purchases 13,250 Shares",
+      "summary": "CarParts.com (NASDAQ:PRTS) COO Michael Huffaker recently purchased 13,250 shares at $10.06 each, totaling $133,295, increasing his ownership by 9.49% to 152,810 shares. This fol...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-carpartscom-nasdaq-prts-coo-michael-huffaker-purchases-13250-shares-2026-09-10/",
+      "source": "MarketBeat",
+      "published_at": "20260911T011350",
+      "sentiment_score": -0.146647,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "SBUX"
+        "PRTS"
       ],
       "topics": [
+        "Earnings",
         "Financial Markets",
         "Retail Wholesale",
-        "Earnings"
+        "Finance"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Gen digital COO Bryan Ko sells $866,450 in company stock",
-      "summary": "Bryan Ko, COO of Gen Digital Inc. (NASDAQ:GEN), sold 28,248 shares of company stock for a total of $866,450, executed via a Rule 10b5-1 trading plan. Despite this insider sale,...",
-      "url": "https://www.investing.com/news/insider-trading-news/gen-digital-coo-bryan-ko-sells-866450-in-company-stock-93CH-4894811",
+      "title": "eBay CEO Jamie Iannone sells $2.29 million in company stock",
+      "summary": "eBay CEO Jamie Iannone sold 22,220 shares of company stock in early September 2026, totaling approximately $2.29 million, executed under a Rule 10b5-1 trading plan. Despite the...",
+      "url": "https://www.investing.com/news/insider-trading-news/ebay-ceo-jamie-iannone-sells-229-million-in-company-stock-93CH-4897128",
       "source": "Investing.com",
-      "published_at": "20260910T005645",
-      "sentiment_score": -0.218799,
-      "sentiment_label": "Somewhat-Bearish",
+      "published_at": "20260911T005421",
+      "sentiment_score": -0.045258,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "GEN"
+        "EBAY",
+        "ADBE",
+        "ORCL",
+        "NVDA",
+        "AAPL"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Ooma SVP & CLO Jenny Yeh sells $32,867 in company stock",
+      "summary": "Ooma's SVP & CLO, Jenny Yeh, recently sold 1,429 shares of company stock worth $32,867 under a pre-arranged 10b5-1 trading plan. Additionally, she disposed of 1,313 shares value...",
+      "url": "https://ca.investing.com/news/stock-market-news/ooma-svp--clo-jenny-yeh-sells-32867-in-company-stock-93CH-4835820",
+      "source": "Investing.com Canada",
+      "published_at": "20260911T003912",
+      "sentiment_score": -0.12799,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "OOMA"
       ],
       "topics": [
         "Earnings",
@@ -843,34 +774,33 @@
       "is_noise": true
     },
     {
-      "title": "Insider Selling: Hope Bancorp (NASDAQ:HOPE) EVP Sells $22,770.00 in Stock",
-      "summary": "Hope Bancorp (NASDAQ:HOPE) Executive Vice President Thomas Stenger sold 1,650 shares of the company's stock for $22,770.00 on September 1st, reducing his holdings by 6.32%. The...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-hope-bancorp-nasdaq-hope-evp-sells-2277000-in-stock-2026-09-09/",
-      "source": "MarketBeat",
-      "published_at": "20260910T005404",
-      "sentiment_score": 0.134449,
-      "sentiment_label": "Neutral",
+      "title": "RB Global director Deborah Stein buys $40,454 in shares",
+      "summary": "RB Global director Deborah Stein recently purchased 500 common shares of the company for a total of $40,454. These transactions occurred on September 9, 2026, with shares bought...",
+      "url": "https://www.investing.com/news/insider-trading-news/rb-global-director-deborah-stein-buys-40454-in-shares-93CH-4897120",
+      "source": "Investing.com",
+      "published_at": "20260911T003030",
+      "sentiment_score": 0.296837,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "HOPE"
+        "RBA"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Finance"
+        "Financial Markets"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Workday director David Duffield disposes of $17.95m in Class A shares",
-      "summary": "Workday director David A. Duffield sold $17.95 million worth of Class A Common Stock through a Rule 10b5-1 trading plan on September 4, 2026. This transaction involved 90,815 sh...",
-      "url": "https://uk.investing.com/news/stock-market-news/workday-director-david-duffield-disposes-of-1795m-in-class-a-shares-93CH-4863494",
-      "source": "Investing.com UK",
-      "published_at": "20260910T003400",
-      "sentiment_score": 0.074119,
+      "title": "Keurig Dr Pepper CHRO sells $778k in stock",
+      "summary": "Mary Beth DeNooyer, CHRO of Keurig Dr Pepper (NASDAQ:KDP), sold shares worth $778,199 in two transactions on September 8 and 9, 2026. The sales occurred as KDP shares traded nea...",
+      "url": "https://www.investing.com/news/insider-trading-news/keurig-dr-pepper-chro-sells-778k-in-stock-93CH-4897067",
+      "source": "Investing.com",
+      "published_at": "20260911T002624",
+      "sentiment_score": 0.109101,
       "sentiment_label": "Neutral",
       "tickers": [
-        "WDAY"
+        "KDP"
       ],
       "topics": [
         "Financial Markets",
@@ -880,35 +810,77 @@
       "is_noise": true
     },
     {
-      "title": "Dorian LPG CFO Theodore Young sells $753,576 in shares",
-      "summary": "Dorian LPG's CFO, Theodore Young, recently sold shares totaling $753,576 over two days in September 2026. This insider sale occurred while the stock was near its 52-week high an...",
-      "url": "https://www.investing.com/news/insider-trading-news/dorian-lpg-cfo-theodore-young-sells-753576-in-shares-93CH-4894794",
+      "title": "Dell Technologies director sells $15.1m in company shares",
+      "summary": "A director of Dell Technologies Inc. (NASDAQ:DELL), Silver Lake Partners V DE (AIV), L.P., sold 29,504 Class C Common Stock shares for over $15.1 million on September 8, 2026. T...",
+      "url": "https://m.investing.com/news/insider-trading-news/dell-technologies-director-sells-151m-in-company-shares-93CH-4897110?ampMode=1",
       "source": "Investing.com",
-      "published_at": "20260910T002747",
-      "sentiment_score": -0.392031,
-      "sentiment_label": "Bearish",
+      "published_at": "20260911T002527",
+      "sentiment_score": -0.13674,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "LPG"
+        "DELL"
       ],
       "topics": [
+        "Finance",
         "Earnings",
         "Financial Markets",
-        "Energy Transportation",
-        "Finance"
+        "Technology"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Intuitive surgical EVP Brosius sells $24,671 in stock",
-      "summary": "Mark Brosius, EVP & Chief Manufacturing and Supply Chain Officer at Intuitive Surgical Inc., recently sold $24,671 worth of company stock through a pre-arranged trading plan. Th...",
-      "url": "https://www.investing.com/news/insider-trading-news/intuitive-surgical-evp-brosius-sells-24671-in-stock-93CH-4894775",
+      "title": "Apple SVP Jennifer Newstead sells $456,176 of company stock",
+      "summary": "Jennifer Newstead, Apple's SVP, General Counsel, and Government Affairs, sold 1,438 shares of AAPL stock for $456,176 on September 8, 2026, as part of a Rule 10b5-1 trading plan...",
+      "url": "https://www.investing.com/news/insider-trading-news/apple-svp-jennifer-newstead-sells-456176-of-company-stock-93CH-4897097",
       "source": "Investing.com",
-      "published_at": "20260910T000429",
-      "sentiment_score": 0.031847,
+      "published_at": "20260911T001854",
+      "sentiment_score": 0.172652,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "AAPL",
+        "JPM",
+        "MS",
+        "BAC"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "GBank financial director Voinovich buys $50,000 in company stock",
+      "summary": "GBank Financial Holdings Inc. (GBFH) director Michael C. Voinovich recently purchased 2,500 shares of company stock for $50,000, at $20 per share, increasing his direct holdings...",
+      "url": "https://m.investing.com/news/insider-trading-news/gbank-financial-director-voinovich-buys-50000-in-company-stock-93CH-4897087?ampMode=1",
+      "source": "Investing.com",
+      "published_at": "20260910T233615",
+      "sentiment_score": 0.132921,
       "sentiment_label": "Neutral",
       "tickers": [
-        "ISRG"
+        "GBFH"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Revolution Medicines director Lorence Kim sells $3.58m in stock",
+      "summary": "Lorence H. Kim, a director at Revolution Medicines, Inc. (NASDAQ:RVMD), sold 17,190 shares of common stock totaling $3,585,836 on September 8, 2026, through a 10b5-1 trading pla...",
+      "url": "https://www.investing.com/news/insider-trading-news/revolution-medicines-director-lorence-kim-sells-358m-in-stock-93CH-4897068",
+      "source": "Investing.com",
+      "published_at": "20260910T232852",
+      "sentiment_score": 0.227123,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "RVMD",
+        "MS"
       ],
       "topics": [
         "Earnings",
@@ -920,324 +892,356 @@
       "is_noise": true
     },
     {
-      "title": "Five below COO Kenneth Bull sells $2.6m in company stock",
-      "summary": "Kenneth R. Bull, COO of Five Below Inc. (NASDAQ:FIVE), sold 10,031 shares of company stock for approximately $2.6 million on September 4, 2026. This transaction leaves him with...",
-      "url": "https://m.investing.com/news/insider-trading-news/five-below-coo-kenneth-bull-sells-26m-in-company-stock-93CH-4894762?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260909T235254",
-      "sentiment_score": 0.054911,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "FIVE"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Retail Wholesale",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Workday director David Duffield disposes of $17.95m in Class A shares",
-      "summary": "Workday director David A. Duffield sold Class A Common Stock worth approximately $17.95 million on September 4, 2026, through a pre-arranged trading plan. Despite this insider s...",
-      "url": "https://m.investing.com/news/insider-trading-news/workday-director-david-duffield-disposes-of-1795m-in-class-a-shares-93CH-4894752?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260909T234022",
-      "sentiment_score": 0.14716,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "WDAY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Insider Selling: Analog Devices (NASDAQ:ADI) CFO Sells 1,500 Shares",
-      "summary": "Analog Devices (NASDAQ:ADI) CFO Richard Puccio, Jr. sold 1,500 shares of the company's stock for over $545,000. This sale, conducted under a pre-arranged Rule 10b5-1 trading pla...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-analog-devices-nasdaq-adi-cfo-sells-1500-shares-2026-09-09/",
+      "title": "Insider Selling: Analog Devices (NASDAQ:ADI) Director Sells $513,795.60 in Stock",
+      "summary": "Analog Devices (NASDAQ:ADI) Director Ray Stata sold 1,416 shares of company stock worth approximately $513,795.60 on September 8th, reducing his holdings by 1.25%. This transact...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-analog-devices-nasdaq-adi-director-sells-51379560-in-stock-2026-09-10/",
       "source": "MarketBeat",
-      "published_at": "20260909T231017",
-      "sentiment_score": -0.130569,
+      "published_at": "20260910T231434",
+      "sentiment_score": 0.110692,
       "sentiment_label": "Neutral",
       "tickers": [
         "ADI"
       ],
       "topics": [
         "Earnings",
-        "Technology",
         "Financial Markets",
-        "Mergers And Acquisitions",
+        "Technology",
+        "Mergers And Acquisitions"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Keurig Dr Pepper (NASDAQ:KDP) Insider Mary Beth Denooyer Sells 12,000 Shares",
+      "summary": "Mary Beth Denooyer, an insider at Keurig Dr Pepper (NASDAQ:KDP), sold 12,000 shares of the company's stock for a total of $390,600, reducing her ownership by 12.48%. The company...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-keurig-dr-pepper-nasdaq-kdp-insider-mary-beth-denooyer-sells-12000-shares-2026-09-10/",
+      "source": "MarketBeat",
+      "published_at": "20260910T231138",
+      "sentiment_score": 0.126295,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KDP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Tapestry (NYSE:TPR) Insider Denise Kulikowsky Sells 5,810 Shares of Stock",
+      "summary": "Tapestry insider Denise Kulikowsky sold 5,810 shares of the company's stock for approximately $670,358, reducing her direct ownership by 21.56% to 21,136 shares. The company rec...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-tapestry-nyse-tpr-insider-denise-kulikowsky-sells-5810-shares-of-stock-2026-09-10/",
+      "source": "MarketBeat",
+      "published_at": "20260910T231055",
+      "sentiment_score": 0.015216,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TPR"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
         "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Realty Income director Gregory McLaughlin sells $209,021 in shares",
+      "summary": "Realty Income Corp director Gregory McLaughlin sold 3,475 shares of common stock for a total of $209,021 on September 10, 2026. The sale occurred when the REIT was trading near...",
+      "url": "https://www.investing.com/news/insider-trading-news/realty-income-director-gregory-mclaughlin-sells-209021-in-shares-93CH-4897039",
+      "source": "Investing.com",
+      "published_at": "20260910T231022",
+      "sentiment_score": -0.132654,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "O"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Keurig Dr Pepper Insider Sold Shares Worth $778,200, According to a Recent SEC Filing",
+      "summary": "A Keurig Dr Pepper insider recently sold shares valued at $778,200, as disclosed in a new SEC filing. The article highlights this transaction and provides a comprehensive overvi...",
+      "url": "https://www.marketscreener.com/news/keurig-dr-pepper-insider-sold-shares-worth-778-200-according-to-a-recent-sec-filing-ce785bdfd98af020",
+      "source": "www.marketscreener.com",
+      "published_at": "20260910T215500",
+      "sentiment_score": -0.301905,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "KDP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
       ],
       "quality_score": -10,
       "is_noise": true
     }
   ],
   "article_count": 50,
-  "top_ticker": "AMAT",
+  "top_ticker": "MRK",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Medtronic Raised its Outlook as Heart Devices Accelerate, But Can the Momentum Last?",
+  "top_story": "Here's Why RCM Technologies, Inc. (RCMT) Fell More Than Broader Market",
   "signal_articles": [
     {
-      "title": "Medtronic Raised its Outlook as Heart Devices Accelerate, But Can the Momentum Last?",
-      "summary": "Medtronic (NYSE: MDT) has raised its fiscal 2027 organic revenue growth outlook and the lower end of its adjusted earnings forecast, driven by strong demand for cardiovascular d...",
-      "url": "https://uk.finance.yahoo.com/news/medtronic-raised-outlook-heart-devices-231801427.html",
+      "title": "Here's Why RCM Technologies, Inc. (RCMT) Fell More Than Broader Market",
+      "summary": "RCM Technologies, Inc. (RCMT) recently experienced a 2.9% drop, underperforming the broader market despite a 41.27% gain over the past month. Analysts predict strong earnings an...",
+      "url": "https://uk.finance.yahoo.com/news/heres-why-rcm-technologies-inc-220005238.html",
       "source": "Yahoo Finance UK",
-      "published_at": "20260909T231800",
-      "sentiment_score": 0.218573,
+      "published_at": "20260910T222939",
+      "sentiment_score": 0.236974,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "MDT",
-        "ISRG"
+        "RCMT"
       ],
       "topics": [
         "Earnings",
-        "Life Sciences",
-        "Finance",
-        "Mergers And Acquisitions"
+        "Financial Markets"
       ],
-      "quality_score": 19,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "Kroger to Report Q2 FY26 Results on Sept. 11. Here’s What to Expect",
-      "summary": "Kroger Co. (NYSE: KR) is set to release its Q2 FY26 results on September 11, with analysts expecting adjusted earnings of $1.05 per share and revenue of $34.56 billion. The repo...",
-      "url": "https://news.alphastreet.com/kroger-to-report-q2-fy26-results-on-sept-11-heres-what-to-expect/",
-      "source": "AlphaStreet",
-      "published_at": "20260910T044935",
-      "sentiment_score": 0.128685,
+      "title": "Merck & Co., Inc. (NYSE:MRK) Trading Down 1.9% - Should You Sell?",
+      "summary": "Shares of Merck & Co., Inc. (NYSE:MRK) traded down 1.9% on Thursday, with analysts maintaining a \"Moderate Buy\" consensus rating and an average price target of $151.32. The comp...",
+      "url": "https://www.marketbeat.com/instant-alerts/price-merck-co-inc-nyse-mrk-trading-down-19-should-you-sell-2026-09-10/",
+      "source": "MarketBeat",
+      "published_at": "20260910T220811",
+      "sentiment_score": 0.101519,
       "sentiment_label": "Neutral",
       "tickers": [
-        "KR",
-        "WMT",
-        "COST"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Huntington Ingalls Industries, Inc. (NYSE:HII) Receives Average Recommendation of \"Moderate Buy\" from Analysts",
-      "summary": "Huntington Ingalls Industries (NYSE:HII) has received an average \"Moderate Buy\" recommendation from analysts, with five recommending a buy and five a hold. The average 12-month...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-huntington-ingalls-industries-inc-nyse-hii-receives-average-recommendation-of-moderate-buy-from-analysts-2026-09-10/",
-      "source": "MarketBeat",
-      "published_at": "20260910T061836",
-      "sentiment_score": 0.168198,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "HII",
-        "PLTR",
-        "NOC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Manufacturing"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Wall Street Analysts Believe Airgain (AIRG) Could Rally 53.2%: Here's is How to Trade",
-      "summary": "Wall Street analysts project a 53.2% upside for Airgain (AIRG), with a mean price target of $8.38. Despite potential biases in analyst price targets, a low standard deviation in...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-believe-airgain-135503099.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260909T225511",
-      "sentiment_score": 0.462429,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "AIRG"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Boeing raises estimated costs of Spirit AeroSystems agreements by $455 million",
-      "summary": "Boeing has increased its estimated costs for fulfilling customer agreements inherited from Spirit AeroSystems by $455 million, bringing the total projected cost to $1.52 billion...",
-      "url": "https://ua.news/en/world/boeing-zbilshila-otsinku-vitrat-na-ugodi-spirit-aerosystems-na-455-mln",
-      "source": "UA.NEWS",
-      "published_at": "20260910T011646",
-      "sentiment_score": -0.264234,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "BA"
-      ],
-      "topics": [
-        "Mergers And Acquisitions",
-        "Earnings",
-        "Manufacturing",
-        "Energy Transportation"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Idexx Laboratories stock hits 52-week low at $517.00 By Investing.com",
-      "summary": "Idexx Laboratories Inc. (IDXX) stock has hit a 52-week low of $517.00, despite the company reporting strong second-quarter earnings that surpassed analyst expectations. The comp...",
-      "url": "https://m.au.investing.com/news/stock-market-news/idexx-laboratories-stock-hits-52week-low-at-51700-93CH-4634638?ampMode=1",
-      "source": "Investing.com Australia",
-      "published_at": "20260910T011454",
-      "sentiment_score": 0.255333,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "IDXX"
+        "MRK"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Life Sciences"
       ],
-      "quality_score": 9,
+      "quality_score": 14,
       "is_noise": false
     },
     {
-      "title": "Lumexa Imaging at Wells Fargo conference: growth plan stays on track",
-      "summary": "Lumexa Imaging (LMRI) presented at the Wells Fargo 21st Annual Healthcare Conference, outlining its growth strategy focused on steady outpatient revenue gains, new center openin...",
-      "url": "https://www.investing.com/news/transcripts/lumexa-imaging-at-wells-fargo-conference-growth-plan-stays-on-track-93CH-4894805",
-      "source": "Investing.com",
-      "published_at": "20260910T005543",
-      "sentiment_score": 0.28285,
+      "title": "Southern Company (NYSE:SO) Gains as Utilities Outperform Amid Crude Surge",
+      "summary": "Southern Company (NYSE:SO) saw its stock rise as utility companies generally outperformed the broader market, driven by a surge in crude oil prices and increasing demand from da...",
+      "url": "https://kalkinemedia.com/us/stocks/utility/southern-company-nyseso-gains-as-utilities-outperform-amid-crude-surge",
+      "source": "Kalkine Media",
+      "published_at": "20260910T224505",
+      "sentiment_score": 0.31777,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "LMRI",
-        "WFC"
+        "SO",
+        "AEP",
+        "DUK",
+        "NEE",
+        "F"
       ],
       "topics": [
+        "Financial Markets",
         "Earnings",
-        "Life Sciences",
-        "Finance",
-        "Ipo"
+        "Energy Transportation",
+        "Economy Macro"
       ],
-      "quality_score": 9,
+      "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "Lumentum at Citi’s 2026 Global TMT Conference: ai demand lifts outlook",
-      "summary": "Lumentum (LITE) presented at Citi's 2026 Global TMT Conference, highlighting that AI-driven demand for optical components significantly outpaces current supply, leading to a str...",
-      "url": "https://www.investing.com/news/transcripts/lumentum-at-citis-2026-global-tmt-conference-ai-demand-lifts-outlook-93CH-4894771",
-      "source": "Investing.com",
-      "published_at": "20260910T002623",
-      "sentiment_score": 0.872872,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "LITE"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Novavax Highlights Matrix-M Licensing Push, Oncology Ambitions at Cantor Conference",
-      "summary": "Novavax is pivoting its business model towards licensing its Matrix-M adjuvant platform, focusing on partnerships with major pharmaceutical companies for wider application, incl...",
-      "url": "https://finance.yahoo.com/healthcare/articles/novavax-highlights-matrix-m-licensing-050205077.html",
+      "title": "Merck (MRK) Dips More Than Broader Market: What You Should Know",
+      "summary": "Merck (MRK) shares fell by 1.91%, underperforming the broader market indices like the S&P 500, Dow, and Nasdaq. Analysts anticipate a 12.02% year-over-year decline in earnings p...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/merck-mrk-dips-more-broader-215004599.html",
       "source": "Yahoo Finance",
-      "published_at": "20260910T052511",
-      "sentiment_score": 0.341735,
-      "sentiment_label": "Somewhat-Bullish",
+      "published_at": "20260910T215054",
+      "sentiment_score": -0.27585,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "NVAX"
+        "MRK"
       ],
       "topics": [
-        "Life Sciences",
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Redwood Trust (NYSE:RWT) Reaches New 52-Week Low - Time to Sell?",
+      "summary": "Redwood Trust (NYSE:RWT) recently hit a new 52-week low of $3.22 before closing at $3.60, amid unusually high trading volume. Analyst sentiment is divided, with an average \"Hold...",
+      "url": "https://www.marketbeat.com/instant-alerts/price-redwood-trust-nyse-rwt-reaches-new-52-week-low-time-to-sell-2026-09-10/",
+      "source": "MarketBeat",
+      "published_at": "20260911T002756",
+      "sentiment_score": 0.008635,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RWTO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Real Estate",
+        "Finance"
+      ],
+      "quality_score": 11,
+      "is_noise": false
+    },
+    {
+      "title": "American Electric Power (NASDAQ:AEP) Gains As Utilities Outperform Broader Market",
+      "summary": "American Electric Power (AEP) saw its stock advance as utility companies outperformed the broader market. This gain is attributed to surging crude prices, increased demand from...",
+      "url": "https://kalkinemedia.com/us/stocks/utility/american-electric-power-nasdaqaep-gains-as-utilities-outperform-broader-market",
+      "source": "Kalkine Media",
+      "published_at": "20260910T224516",
+      "sentiment_score": 0.307672,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "AEP",
+        "SO",
+        "DUK"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Energy Transportation",
         "Earnings"
       ],
-      "quality_score": 6,
+      "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Teradyne at Goldman Sachs Communacopia + Technology Conference: ai push widens",
-      "summary": "Teradyne (TER) outlined its comprehensive AI-driven strategy at the Goldman Sachs Communacopia + Technology Conference, highlighting how all three of its main businesses—semicon...",
-      "url": "https://uk.investing.com/news/stock-market-news/teradyne-at-goldman-sachs-communacopia--technology-conference-ai-push-widens-93CH-4863635",
-      "source": "Investing.com UK",
-      "published_at": "20260910T033410",
-      "sentiment_score": 0.280269,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Needham initiates Kodiak AI stock with buy rating on autonomous trucking outlook By Investing.com",
+      "summary": "Needham has initiated coverage on Kodiak AI (NASDAQ: KDK) with a buy rating and an $8.00 price target, citing its strong position in autonomous long-haul trucking. The firm anti...",
+      "url": "https://za.investing.com/news/stock-market-news/needham-initiates-kodiak-ai-stock-with-buy-rating-on-autonomous-trucking-outlook-93CH-4458058",
+      "source": "Investing.com South Africa",
+      "published_at": "20260910T223241",
+      "sentiment_score": 0.441586,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "TER",
-        "AMAT",
-        "NVDA",
-        "QCOM",
-        "INTC"
+        "KDK"
       ],
       "topics": [
         "Technology",
-        "Earnings"
+        "Financial Markets",
+        "Earnings",
+        "Energy Transportation"
       ],
-      "quality_score": 6,
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "SLB (SLB) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "summary": "SLB (SLB) recently experienced a 1.82% decline, underperforming the broader market indices like the S&P 500, Dow, and Nasdaq. Despite this, the stock had gained 8.44% over the p...",
+      "url": "https://uk.finance.yahoo.com/news/slb-slb-registers-bigger-fall-220006813.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260910T221640",
+      "sentiment_score": 0.035189,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SLB"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "McKesson (MCK) Suffers a Larger Drop Than the General Market: Key Insights",
+      "summary": "McKesson (MCK) recently experienced a 1.21% stock drop, underperforming the S&P 500, Dow, and Nasdaq on the same day. Despite this, the company's stock showed a 1.47% gain over...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mckesson-mck-suffers-larger-drop-220005871.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260910T220110",
+      "sentiment_score": -0.195162,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "MCK"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "IBM (IBM) Dips More Than Broader Market: What You Should Know",
+      "summary": "IBM (IBM) closed down 2.47% at $234.02, underperforming the broader market. The technology and consulting company is set to announce its earnings on October 21, 2026, with antic...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-ibm-dips-more-broader-214504944.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260910T222254",
+      "sentiment_score": 0.032459,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "IBM",
+        "COIN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 9,
       "is_noise": false
     }
   ],
   "top_tickers": [
     {
-      "ticker": "AMAT",
+      "ticker": "MRK",
       "mentions": 2
     },
     {
-      "ticker": "GNRC",
+      "ticker": "SO",
       "mentions": 2
     },
     {
-      "ticker": "GEN",
+      "ticker": "AEP",
       "mentions": 2
     },
     {
-      "ticker": "MDT",
-      "mentions": 1
+      "ticker": "DUK",
+      "mentions": 2
     },
     {
-      "ticker": "ISRG",
-      "mentions": 1
+      "ticker": "RWTO",
+      "mentions": 2
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 31
+      "mentions": 32
     },
     {
       "topic": "Financial Markets",
-      "mentions": 20
-    },
-    {
-      "topic": "Finance",
-      "mentions": 17
+      "mentions": 29
     },
     {
       "topic": "Technology",
-      "mentions": 11
+      "mentions": 9
     },
     {
-      "topic": "Life Sciences",
+      "topic": "Energy Transportation",
+      "mentions": 7
+    },
+    {
+      "topic": "Real Estate",
       "mentions": 5
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 11
-    },
-    {
-      "label": "Bullish",
-      "count": 9
+      "count": 15
     },
     {
       "label": "Somewhat-Bullish",
@@ -1245,34 +1249,34 @@
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 2
+      "count": 6
     },
     {
-      "label": "Bearish",
-      "count": 1
+      "label": "Bullish",
+      "count": 3
     }
   ],
   "top_sources": [
     {
       "source": "Yahoo Finance",
-      "count": 4
+      "count": 6
+    },
+    {
+      "source": "Yahoo Finance UK",
+      "count": 3
+    },
+    {
+      "source": "MarketBeat",
+      "count": 3
     },
     {
       "source": "Investing.com UK",
-      "count": 4
-    },
-    {
-      "source": "AlphaStreet",
       "count": 3
     },
     {
-      "source": "Investing.com",
-      "count": 3
-    },
-    {
-      "source": "Investing.com Canada",
-      "count": 3
+      "source": "Kalkine Media",
+      "count": 2
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with AMAT appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with MRK appearing most often and the headline tone mostly neutral."
 }
