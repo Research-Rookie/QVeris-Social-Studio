@@ -1,61 +1,65 @@
 {
-  "updated_at": "2026-09-11T07:26:55.136468+00:00",
-  "date": "2026-09-11",
+  "updated_at": "2026-09-12T07:18:57.628138+00:00",
+  "date": "2026-09-12",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "WAB",
+  "symbol": "ADBE",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Here's Why RCM Technologies, Inc. (RCMT) Fell More Than Broader Market",
-  "headline_source": "Yahoo Finance UK",
+  "headline": "Beyond Air at cantors conference: generation 2 is the focus",
+  "headline_source": "Investing.com India",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for WAB: {'status_code': 200, 'data': {'c': 280.27, 'd': -0.2, 'dp': -0.0713, 'h': 281.11, 'l': 275.0944, 'o': 278.8, 'pc': 280.47, 't': 1789070400}}",
+  "price_error": "Could not parse quote data for ADBE: {'status_code': 200, 'data': {'c': 252.23, 'd': 3.4, 'dp': 1.3664, 'h': 255.3, 'l': 241.51, 'o': 242.17, 'pc': 248.83, 't': 1789156800}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "WAB",
-        "mentions": 5
+        "ticker": "ADBE",
+        "mentions": 3
       },
       {
-        "ticker": "TRMB",
-        "mentions": 5
+        "ticker": "NVDA",
+        "mentions": 3
       },
       {
-        "ticker": "TDG",
-        "mentions": 5
+        "ticker": "TSLA",
+        "mentions": 3
       },
       {
-        "ticker": "TSCO",
-        "mentions": 4
+        "ticker": "AMGN",
+        "mentions": 2
       },
       {
-        "ticker": "IBM",
-        "mentions": 4
+        "ticker": "MRK",
+        "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 14
+        "count": 13
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 9
-      },
-      {
-        "label": "Somewhat-Bearish",
-        "count": 7
+        "count": 8
       },
       {
         "label": "Bullish",
-        "count": 3
+        "count": 5
+      },
+      {
+        "label": "Somewhat-Bearish",
+        "count": 4
+      },
+      {
+        "label": "Bearish",
+        "count": 2
       }
     ]
   }
