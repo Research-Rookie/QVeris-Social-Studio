@@ -1,5 +1,208 @@
 [
   {
+    "id": "market-narrative-shift-adbe-2026-09-12",
+    "date": "2026-09-12",
+    "runDate": "2026-09-12",
+    "createdAt": "2026-09-12T06:46:28.629138+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $ADBE",
+    "status": "ready",
+    "tweet": "What changed in $ADBE's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.46\n📌 Top theme: Earnings\n🔎 Emerging term: revenue\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_ADBE_2026-09-12.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-12T06:46:26.646788+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$ADBE",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "ADBE",
+    "topChangePct": -45.61,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-12T06:46:26.646788+00:00",
+      "date": "2026-09-12",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "ADBE",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.4561,
+      "baseline_label": "2026-09-05",
+      "current": {
+        "date": "2026-09-12",
+        "symbol": "ADBE",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": -0.2857,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Technology",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "revenue",
+            "count": 4
+          },
+          {
+            "label": "earnings",
+            "count": 4
+          },
+          {
+            "label": "both",
+            "count": 3
+          },
+          {
+            "label": "beats",
+            "count": 2
+          },
+          {
+            "label": "lines",
+            "count": 2
+          },
+          {
+            "label": "but",
+            "count": 2
+          },
+          {
+            "label": "guides",
+            "count": 2
+          },
+          {
+            "label": "below",
+            "count": 2
+          },
+          {
+            "label": "consensus",
+            "count": 2
+          },
+          {
+            "label": "rising",
+            "count": 2
+          },
+          {
+            "label": "record",
+            "count": 2
+          },
+          {
+            "label": "non-gaap",
+            "count": 2
+          }
+        ],
+        "headline": "Adobe Beats on Both Lines But Guides Below Consensus",
+        "headline_source": "Yahoo Finance"
+      },
+      "previous": {
+        "date": "2026-09-05",
+        "symbol": "ADBE",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1704,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "alphabet",
+            "count": 2
+          },
+          {
+            "label": "dividend",
+            "count": 2
+          },
+          {
+            "label": "raises",
+            "count": 1
+          },
+          {
+            "label": "spending",
+            "count": 1
+          },
+          {
+            "label": "leaves",
+            "count": 1
+          },
+          {
+            "label": "room",
+            "count": 1
+          },
+          {
+            "label": "for",
+            "count": 1
+          },
+          {
+            "label": "cash",
+            "count": 1
+          },
+          {
+            "label": "returns",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "increased",
+            "count": 1
+          },
+          {
+            "label": "quarterly",
+            "count": 1
+          }
+        ],
+        "headline": "Alphabet raises its dividend 4.8% as AI spending leaves room for cash returns",
+        "headline_source": "24/7 Wall St."
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Technology",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Finance"
+      ],
+      "emerging_keywords": [
+        "revenue",
+        "earnings",
+        "both"
+      ],
+      "fading_keywords": [
+        "alphabet",
+        "dividend",
+        "raises"
+      ],
+      "takeaway": "ADBE's narrative is turning bearish: sentiment moved -0.46, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-12",
     "date": "2026-09-12",
     "runDate": "2026-09-12",

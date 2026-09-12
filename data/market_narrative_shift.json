@@ -1,187 +1,183 @@
 {
-  "updated_at": "2026-09-11T06:54:45.059647+00:00",
-  "date": "2026-09-11",
+  "updated_at": "2026-09-12T06:46:26.646788+00:00",
+  "date": "2026-09-12",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "WAB",
+  "symbol": "ADBE",
   "shift_label": "Turning bearish",
-  "sentiment_delta": -0.3522,
-  "baseline_label": "2026-09-03",
+  "sentiment_delta": -0.4561,
+  "baseline_label": "2026-09-05",
   "current": {
-    "date": "2026-09-11",
-    "symbol": "WAB",
-    "article_count": 4,
-    "source_count": 1,
-    "sentiment_score": -0.0628,
+    "date": "2026-09-12",
+    "symbol": "ADBE",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": -0.2857,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 4
+        "count": 2
+      },
+      {
+        "label": "Technology",
+        "count": 2
       },
       {
         "label": "Financial Markets",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "revenue",
         "count": 4
       },
       {
-        "label": "Finance",
+        "label": "earnings",
+        "count": 4
+      },
+      {
+        "label": "both",
+        "count": 3
+      },
+      {
+        "label": "beats",
         "count": 2
+      },
+      {
+        "label": "lines",
+        "count": 2
+      },
+      {
+        "label": "but",
+        "count": 2
+      },
+      {
+        "label": "guides",
+        "count": 2
+      },
+      {
+        "label": "below",
+        "count": 2
+      },
+      {
+        "label": "consensus",
+        "count": 2
+      },
+      {
+        "label": "rising",
+        "count": 2
+      },
+      {
+        "label": "record",
+        "count": 2
+      },
+      {
+        "label": "non-gaap",
+        "count": 2
+      }
+    ],
+    "headline": "Adobe Beats on Both Lines But Guides Below Consensus",
+    "headline_source": "Yahoo Finance"
+  },
+  "previous": {
+    "date": "2026-09-05",
+    "symbol": "ADBE",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.1704,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
       },
       {
         "label": "Technology",
         "count": 1
       },
       {
-        "label": "Economy Fiscal",
+        "label": "Finance",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "april",
-        "count": 8
-      },
-      {
-        "label": "mcclain",
-        "count": 8
-      },
-      {
-        "label": "delaney",
-        "count": 8
-      },
-      {
-        "label": "rep",
-        "count": 4
-      },
-      {
-        "label": "teledyne",
-        "count": 4
-      },
-      {
-        "label": "technologies",
-        "count": 4
-      },
-      {
-        "label": "incorporated",
-        "count": 4
-      },
-      {
-        "label": "tdy",
-        "count": 4
-      },
-      {
-        "label": "representative",
-        "count": 4
-      },
-      {
-        "label": "sold",
-        "count": 4
-      },
-      {
-        "label": "august",
-        "count": 4
-      },
-      {
-        "label": "sells",
-        "count": 3
-      }
-    ],
-    "headline": "Rep. April McClain Delaney Sells Off Teledyne Technologies Incorporated (NYSE:TDY) Stock",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-09-03",
-    "symbol": "WAB",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.2894,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Life Sciences",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "amgen",
+        "label": "alphabet",
         "count": 2
       },
       {
-        "label": "signals",
+        "label": "dividend",
+        "count": 2
+      },
+      {
+        "label": "raises",
         "count": 1
       },
       {
-        "label": "confidence",
+        "label": "spending",
         "count": 1
       },
       {
-        "label": "agrees",
+        "label": "leaves",
         "count": 1
       },
       {
-        "label": "climbing",
+        "label": "room",
         "count": 1
       },
       {
-        "label": "due",
+        "label": "for",
         "count": 1
       },
       {
-        "label": "strong",
+        "label": "cash",
         "count": 1
       },
       {
-        "label": "current",
+        "label": "returns",
         "count": 1
       },
       {
-        "label": "performance",
+        "label": "has",
         "count": 1
       },
       {
-        "label": "driven",
+        "label": "increased",
         "count": 1
       },
       {
-        "label": "six",
-        "count": 1
-      },
-      {
-        "label": "key",
+        "label": "quarterly",
         "count": 1
       }
     ],
-    "headline": "Amgen Stock Signals Its Confidence. The Market Agrees.",
-    "headline_source": "Trefis"
+    "headline": "Alphabet raises its dividend 4.8% as AI spending leaves room for cash returns",
+    "headline_source": "24/7 Wall St."
   },
   "emerging_themes": [
     "Earnings",
-    "Financial Markets",
-    "Finance"
+    "Technology",
+    "Financial Markets"
   ],
   "fading_themes": [
-    "Life Sciences"
+    "Finance"
   ],
   "emerging_keywords": [
-    "april",
-    "mcclain",
-    "delaney"
+    "revenue",
+    "earnings",
+    "both"
   ],
   "fading_keywords": [
-    "amgen",
-    "signals",
-    "confidence"
+    "alphabet",
+    "dividend",
+    "raises"
   ],
-  "takeaway": "WAB's narrative is turning bearish: sentiment moved -0.35, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "ADBE's narrative is turning bearish: sentiment moved -0.46, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
