@@ -1,147 +1,73 @@
 {
-  "updated_at": "2026-09-12T06:46:26.646788+00:00",
-  "date": "2026-09-12",
+  "updated_at": "2026-09-13T07:04:15.449993+00:00",
+  "date": "2026-09-13",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "ADBE",
-  "shift_label": "Turning bearish",
-  "sentiment_delta": -0.4561,
-  "baseline_label": "2026-09-05",
+  "symbol": "GS",
+  "shift_label": "Narrative steady",
+  "sentiment_delta": -0.0694,
+  "baseline_label": "2026-09-06",
   "current": {
-    "date": "2026-09-12",
-    "symbol": "ADBE",
-    "article_count": 2,
-    "source_count": 2,
-    "sentiment_score": -0.2857,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 2
-      },
-      {
-        "label": "Technology",
-        "count": 2
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "revenue",
-        "count": 4
-      },
-      {
-        "label": "earnings",
-        "count": 4
-      },
-      {
-        "label": "both",
-        "count": 3
-      },
-      {
-        "label": "beats",
-        "count": 2
-      },
-      {
-        "label": "lines",
-        "count": 2
-      },
-      {
-        "label": "but",
-        "count": 2
-      },
-      {
-        "label": "guides",
-        "count": 2
-      },
-      {
-        "label": "below",
-        "count": 2
-      },
-      {
-        "label": "consensus",
-        "count": 2
-      },
-      {
-        "label": "rising",
-        "count": 2
-      },
-      {
-        "label": "record",
-        "count": 2
-      },
-      {
-        "label": "non-gaap",
-        "count": 2
-      }
-    ],
-    "headline": "Adobe Beats on Both Lines But Guides Below Consensus",
-    "headline_source": "Yahoo Finance"
-  },
-  "previous": {
-    "date": "2026-09-05",
-    "symbol": "ADBE",
+    "date": "2026-09-13",
+    "symbol": "GS",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1704,
+    "sentiment_score": 0.0205,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Technology",
         "count": 1
       },
       {
         "label": "Finance",
         "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "alphabet",
+        "label": "goldman",
         "count": 2
       },
       {
-        "label": "dividend",
+        "label": "sachs",
         "count": 2
       },
       {
-        "label": "raises",
+        "label": "hold",
+        "count": 2
+      },
+      {
+        "label": "wall",
+        "count": 2
+      },
+      {
+        "label": "street",
+        "count": 2
+      },
+      {
+        "label": "zen",
+        "count": 2
+      },
+      {
+        "label": "buy",
+        "count": 2
+      },
+      {
+        "label": "rating",
         "count": 1
       },
       {
-        "label": "spending",
-        "count": 1
-      },
-      {
-        "label": "leaves",
-        "count": 1
-      },
-      {
-        "label": "room",
-        "count": 1
-      },
-      {
-        "label": "for",
-        "count": 1
-      },
-      {
-        "label": "cash",
-        "count": 1
-      },
-      {
-        "label": "returns",
+        "label": "lowered",
         "count": 1
       },
       {
@@ -149,35 +75,103 @@
         "count": 1
       },
       {
-        "label": "increased",
+        "label": "downgraded",
         "count": 1
       },
       {
-        "label": "quarterly",
+        "label": "though",
         "count": 1
       }
     ],
-    "headline": "Alphabet raises its dividend 4.8% as AI spending leaves room for cash returns",
-    "headline_source": "24/7 Wall St."
+    "headline": "The Goldman Sachs Group (NYSE:GS) Rating Lowered to \"Hold\" at Wall Street Zen",
+    "headline_source": "MarketBeat"
+  },
+  "previous": {
+    "date": "2026-09-06",
+    "symbol": "GS",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.0899,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "ferguson",
+        "count": 2
+      },
+      {
+        "label": "ferg",
+        "count": 2
+      },
+      {
+        "label": "upgraded",
+        "count": 2
+      },
+      {
+        "label": "jefferies",
+        "count": 2
+      },
+      {
+        "label": "financial",
+        "count": 2
+      },
+      {
+        "label": "rating",
+        "count": 2
+      },
+      {
+        "label": "strong-buy",
+        "count": 1
+      },
+      {
+        "label": "contributing",
+        "count": 1
+      },
+      {
+        "label": "moderate",
+        "count": 1
+      },
+      {
+        "label": "buy",
+        "count": 1
+      },
+      {
+        "label": "consensus",
+        "count": 1
+      },
+      {
+        "label": "average",
+        "count": 1
+      }
+    ],
+    "headline": "Ferguson (NYSE:FERG) Upgraded at Jefferies Financial Group",
+    "headline_source": "MarketBeat"
   },
   "emerging_themes": [
-    "Earnings",
+    "Finance",
     "Technology",
-    "Financial Markets"
+    "Earnings"
   ],
-  "fading_themes": [
-    "Finance"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "revenue",
-    "earnings",
-    "both"
+    "goldman",
+    "sachs",
+    "hold"
   ],
   "fading_keywords": [
-    "alphabet",
-    "dividend",
-    "raises"
+    "ferguson",
+    "ferg",
+    "upgraded"
   ],
-  "takeaway": "ADBE's narrative is turning bearish: sentiment moved -0.46, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "GS's narrative is narrative steady: sentiment moved -0.07, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
