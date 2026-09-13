@@ -1,80 +1,123 @@
 {
-  "updated_at": "2026-09-12T07:18:54.912277+00:00",
-  "date": "2026-09-12",
+  "updated_at": "2026-09-13T06:26:08.402501+00:00",
+  "date": "2026-09-13",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Beyond Air at cantors conference: generation 2 is the focus",
-      "summary": "Beyond Air is focusing on securing FDA approval for its Generation 2 LungFit nitric oxide platform by the end of 2026, which is crucial for expanding its addressable market in p...",
-      "url": "https://in.investing.com/news/stock-market-news/beyond-air-at-cantors-conference-generation-2-is-the-focus-93CH-5589311",
-      "source": "Investing.com India",
-      "published_at": "20260911T203036",
-      "sentiment_score": 0.322626,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "The Goldman Sachs Group (NYSE:GS) Rating Lowered to \"Hold\" at Wall Street Zen",
+      "summary": "Wall Street Zen has downgraded The Goldman Sachs Group (NYSE:GS) from \"Buy\" to \"Hold,\" though the broader analyst consensus remains a \"Moderate Buy\" with an average price target...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-the-goldman-sachs-group-nyse-gs-rating-lowered-to-hold-at-wall-street-zen-2026-09-13/",
+      "source": "MarketBeat",
+      "published_at": "20260913T051720",
+      "sentiment_score": 0.019994,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "XAIR"
+        "GS"
       ],
       "topics": [
-        "Life Sciences",
-        "Earnings"
+        "Earnings",
+        "Finance",
+        "Financial Markets",
+        "Technology"
       ],
-      "quality_score": 15,
+      "quality_score": 17,
       "is_noise": false
     },
     {
-      "title": "Adobe Beats on Both Lines But Guides Below Consensus",
-      "summary": "Adobe Inc. (NASDAQ:ADBE) surpassed third-quarter revenue and earnings expectations, with revenue rising 13% to a record $6.76 billion and non-GAAP earnings at $6.13 per share. H...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/adobe-beats-both-lines-guides-211054501.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260911T211604",
-      "sentiment_score": -0.250325,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Q2 (NYSE:QTWO) Rating Increased to Strong-Buy at Piper Sandler",
+      "summary": "Piper Sandler has upgraded Q2 Holdings (NYSE:QTWO) to a \"strong-buy\" rating, while the average analyst consensus remains a \"moderate buy\" with a target price of $76.17. The comp...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-q2-nyse-qtwo-rating-increased-to-strong-buy-at-piper-sandler-2026-09-12/",
+      "source": "MarketBeat",
+      "published_at": "20260912T115948",
+      "sentiment_score": 0.416612,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "ADBE"
+        "QTWO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "8X8 Inc (EGT) Q2 2026 Earnings Report - Results, Call & Slides",
+      "summary": "8X8 Inc (CH:EGT) reported its Q2 2026 earnings, beating analyst expectations with an actual EPS of CHF0.07 against a consensus of CHF0.06 and actual revenue of CHF148.89M agains...",
+      "url": "https://www.tipranks.com/stocks/ch:egt/earnings/q2-2026-report?hash=earningsAudio",
+      "source": "TipRanks",
+      "published_at": "20260912T123020",
+      "sentiment_score": 0.029248,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "EGHT"
       ],
       "topics": [
         "Earnings",
         "Technology"
       ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "Super Micro Computer (NASDAQ: SMCI) Sits On $60B Order Book As Fiscal 2027 Guidance Reaches $72B",
+      "summary": "Super Micro Computer (SMCI) announced an order book exceeding $60 billion in its fiscal fourth quarter, reflecting strong demand in the AI infrastructure market. The company als...",
+      "url": "https://www.foreignpolicyjournal.com/2026/09/12/super-micro-computer-nasdaq-smci-sits-on-60b-order-book-as-fiscal-2027-guidance-reaches-72b/",
+      "source": "Foreign Policy Journal",
+      "published_at": "20260913T011027",
+      "sentiment_score": 0.486563,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SMCI"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets",
+        "Economy Macro"
+      ],
       "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "Qorvo, Qualcomm, Texas Instruments, Vishay Intertechnology, and Impinj Stocks Trade Up, What You Need To Know",
-      "summary": "Shares of Qorvo, Qualcomm, Texas Instruments, Vishay Intertechnology, and Impinj saw significant gains due to macroeconomic relief from declining Treasury yields and lower oil p...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-qualcomm-texas-instruments-vishay-041105294.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260912T041158",
-      "sentiment_score": 0.411535,
-      "sentiment_label": "Bullish",
+      "title": "Arabian Drilling signs $800 million land rig deal with SLB Middle East and expands offshore operations across GCC r...",
+      "summary": "Arabian Drilling has secured an $800 million land rig contract with SLB Middle East for gas drilling operations, reinforcing its revenue visibility for the next five years. Conc...",
+      "url": "https://energiesmedia.com/arabian-drilling-slb-land-rig-deal/",
+      "source": "Energies Media",
+      "published_at": "20260913T011607",
+      "sentiment_score": 0.316728,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "TXN",
-        "QCOM"
+        "SLB"
       ],
       "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings",
-        "Economy Macro"
+        "Energy Transportation",
+        "Earnings"
       ],
       "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "Fitch upgrades Citizens Financial rating on profitability By Investing.com",
-      "summary": "Fitch Ratings has upgraded Citizens Financial Group and its subsidiary Citizens Bank to 'A-' from 'BBB+', citing consistent improvements in earnings power and profitability. The...",
-      "url": "https://uk.investing.com/news/stock-market-news/fitch-upgrades-citizens-financial-rating-on-profitability-93CH-4866855",
-      "source": "Investing.com UK",
-      "published_at": "20260911T220200",
-      "sentiment_score": 0.823582,
-      "sentiment_label": "Bullish",
+      "title": "Kimberly-Clark's 54-Year Dividend Streak Faces Its Biggest Test Yet With $48.7 Billion Kenvue Deal",
+      "summary": "Kimberly-Clark (KMB) recently extended its 54-year dividend increase streak while simultaneously pursuing a $48.7 billion acquisition of Kenvue (KVUE), raising concerns among in...",
+      "url": "https://247wallst.com/investing/2026/09/12/kimberly-clarks-54-year-dividend-streak-faces-its-biggest-test-yet-with-48-7-billion-kenvue-deal/",
+      "source": "24/7 Wall St.",
+      "published_at": "20260912T174943",
+      "sentiment_score": -0.082777,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "CFG"
+        "KMB",
+        "KVUE",
+        "DE",
+        "CVX",
+        "XOM"
       ],
       "topics": [
-        "Finance",
+        "Mergers And Acquisitions",
         "Earnings",
         "Financial Markets"
       ],
@@ -82,1000 +125,1017 @@
       "is_noise": false
     },
     {
-      "title": "Adobe Beats on Both Lines But Guides Below Consensus",
-      "summary": "Adobe Inc. reported a beat on both revenue and earnings for its third quarter, with revenue rising 13% to a record $6.76 billion and non-GAAP earnings at $6.13 per share. Despit...",
-      "url": "https://ca.finance.yahoo.com/news/adobe-beats-both-lines-guides-211054501.html",
-      "source": "Yahoo! Finance Canada",
-      "published_at": "20260911T211000",
-      "sentiment_score": -0.273033,
+      "title": "Okta Nearly Doubled This Year. So Why Is SailPoint Still Below Its IPO Price?",
+      "summary": "Despite beating earnings expectations and rapidly acquiring AI-driven identity contracts, SailPoint (SAIL) stock remains below its IPO price, while Okta (OKTA) has more than dou...",
+      "url": "https://247wallst.com/investing/2026/09/12/okta-nearly-doubled-this-year-so-why-is-sailpoint-still-below-its-ipo-price/",
+      "source": "24/7 Wall St.",
+      "published_at": "20260912T132945",
+      "sentiment_score": 0.267892,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "SAIL",
+        "CRWD",
+        "HPE",
+        "DELL"
+      ],
+      "topics": [
+        "Earnings",
+        "Ipo",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "NXP Semiconductors Eyes Physical AI Leadership, Sees Data Center Growth Surge",
+      "summary": "NXP Semiconductors is strategically positioning itself as a leader in \"physical AI\" by integrating security, safety, real-time processing, and reliability into intelligent edge...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nxp-semiconductors-eyes-physical-ai-130200789.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260912T130812",
+      "sentiment_score": 0.475023,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NXPI"
+      ],
+      "topics": [
+        "Technology",
+        "Earnings",
+        "Manufacturing"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Short Interest in FIGX Capital Acquisition Corp. (NASDAQ:FIGX) Drops By 67.2%",
+      "summary": "Short interest in FIGX Capital Acquisition Corp. (NASDAQ:FIGX) declined significantly by 67.2% in August, totaling 380 shares. Despite institutional investments from firms like...",
+      "url": "https://www.marketbeat.com/instant-alerts/options-short-interest-in-figx-capital-acquisition-corp-nasdaq-figx-drops-by-672-2026-09-12/",
+      "source": "MarketBeat",
+      "published_at": "20260912T170355",
+      "sentiment_score": -0.254402,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "ADBE"
+        "FIGX"
       ],
       "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "S&P Global downgrades Hormel Foods outlook on high leverage",
-      "summary": "S&P Global Ratings has downgraded Hormel Foods Corp.'s outlook from stable to negative due to sustained high leverage, which has consistently been at or above 1.8x, exceeding th...",
-      "url": "https://www.investing.com/news/stock-market-news/sp-global-downgrades-hormel-foods-outlook-on-high-leverage-93CH-4898368",
-      "source": "Investing.com",
-      "published_at": "20260911T193601",
-      "sentiment_score": -0.119438,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SPGI",
-        "HRL",
-        "MU",
-        "NVDA",
-        "ORCL"
-      ],
-      "topics": [
+        "Financial Markets",
         "Earnings",
         "Finance",
-        "Financial Markets",
-        "Economy Macro"
+        "Mergers And Acquisitions"
       ],
-      "quality_score": 12,
+      "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Best Buy (NYSE:BBY) Sets New 52-Week High - Should You Buy?",
-      "summary": "Best Buy (NYSE:BBY) recently hit a new 52-week high of $91.37, despite cautious analyst sentiment with a \"Hold\" consensus rating and an average price target of $85.40. The compa...",
-      "url": "https://www.marketbeat.com/instant-alerts/price-best-buy-nyse-bby-sets-new-52-week-high-should-you-buy-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T204211",
-      "sentiment_score": -0.135565,
-      "sentiment_label": "Neutral",
+      "title": "Descartes (DSGX) Posts Record Q2 Results, Analysts See 30% Upside",
+      "summary": "The Descartes Systems Group Inc. (NASDAQ:DSGX) reported record financial results for Q2 fiscal 2027, with revenue up 12% year-over-year and income from operations increasing by...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/descartes-dsgx-posts-record-q2-135154400.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260912T133643",
+      "sentiment_score": 0.413336,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "BBY",
-        "AMGN",
-        "TSLA"
+        "DSGX"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Retail Wholesale",
-        "Finance",
+        "Mergers And Acquisitions",
+        "Economy Macro",
         "Technology"
       ],
       "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Invitation Home Announces Quarterly Dividend of $0.30 (NYSE:INVH)",
-      "summary": "Invitation Home (NYSE: INVH) has declared a quarterly dividend of $0.30 per share, payable on October 16th to shareholders of record on September 24th, representing an annualize...",
-      "url": "https://www.marketbeat.com/instant-alerts/dividend-invitation-home-announces-quarterly-dividend-of-030-nyse-invh-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260912T005413",
-      "sentiment_score": 0.218464,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Genesco (GCO) Proves Smaller Sales Can Still Mean Bigger Profits",
+      "summary": "Genesco (GCO) reported a strong second quarter, achieving increased profits despite a 3% dip in revenue by focusing on strategic initiatives and expense leverage. The company's...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/genesco-gco-proves-smaller-sales-150521690.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260912T150007",
+      "sentiment_score": 0.114216,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "INVH"
+        "GCO"
       ],
       "topics": [
         "Earnings",
-        "Real Estate",
+        "Retail Wholesale",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Descartes (DSGX) Posts Record Q2 Results, Analysts See 30% Upside",
+      "summary": "The Descartes Systems Group Inc. (DSGX) reported record Q2 fiscal 2027 results with 12% revenue growth and a 36% increase in operating income, driven by strong demand and strate...",
+      "url": "https://uk.finance.yahoo.com/news/descartes-dsgx-posts-record-q2-135154400.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260912T133643",
+      "sentiment_score": 0.485577,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "DSGX"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets",
+        "Mergers And Acquisitions",
+        "Economy Macro"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "First Trust Emerging Markets AlphaDEX Fund (NASDAQ:FEM) Short Interest Up 262.1% in August",
+      "summary": "Short interest in First Trust Emerging Markets AlphaDEX Fund (FEM) surged by 262.1% in August, reaching 137,270 shares, which represents about 0.6% of its outstanding shares and...",
+      "url": "https://www.marketbeat.com/instant-alerts/options-first-trust-emerging-markets-alphadex-fund-nasdaq-fem-short-interest-up-2621-in-august-2026-09-12/",
+      "source": "MarketBeat",
+      "published_at": "20260912T173149",
+      "sentiment_score": 0.169306,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "FEM",
+        "MS",
+        "BAC"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Prediction: Synopsys Could Be The Next AI Winner",
+      "summary": "Synopsys (NASDAQ: SNPS) is identified as a potential AI winner due to its position in silicon design software and engineering simulation, despite a 15.45% year-to-date pullback....",
+      "url": "https://247wallst.com/investing/2026/09/12/prediction-synopsys-could-be-the-next-ai-winner/",
+      "source": "24/7 Wall St.",
+      "published_at": "20260912T150050",
+      "sentiment_score": 0.383009,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "ADSK",
+        "HPE",
+        "DELL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Short Interest in GCL Global Holdings Ltd. (NASDAQ:GCL) Rises By 278.4%",
+      "summary": "Short interest in GCL Global Holdings Ltd. (NASDAQ:GCL) significantly increased by 278.4% in August, reaching 314,353 shares. This surge occurred alongside the company's announc...",
+      "url": "https://www.marketbeat.com/instant-alerts/options-short-interest-in-gcl-global-holdings-ltd-nasdaq-gcl-rises-by-2784-2026-09-12/",
+      "source": "MarketBeat",
+      "published_at": "20260912T143232",
+      "sentiment_score": -0.219951,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "GCL"
+      ],
+      "topics": [
+        "Earnings",
         "Financial Markets"
       ],
       "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "7,741 Shares in Merck & Co., Inc. $MRK Bought by Talon Private Wealth LLC",
-      "summary": "Talon Private Wealth LLC acquired 7,741 shares of Merck & Co., Inc. (NYSE:MRK) valued at approximately $995,000 during the second quarter, bringing institutional ownership in Me...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-7741-shares-in-merck-co-inc-mrk-bought-by-talon-private-wealth-llc-2026-09-11/",
+      "title": "Liberty Global Ltd (NASDAQ:LBTYB) Short Interest Up 290.8% in August",
+      "summary": "Liberty Global Ltd (NASDAQ:LBTYB) experienced a significant surge in short interest in August, increasing by 290.8% to 4,963 shares, though this still represents a small fractio...",
+      "url": "https://www.marketbeat.com/instant-alerts/options-liberty-global-ltd-nasdaq-lbtyb-short-interest-up-2908-in-august-2026-09-12/",
       "source": "MarketBeat",
-      "published_at": "20260912T000753",
-      "sentiment_score": 0.046658,
+      "published_at": "20260912T142920",
+      "sentiment_score": 0.048994,
       "sentiment_label": "Neutral",
       "tickers": [
-        "MRK",
-        "LLY"
+        "LBYAV"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Short Interest in Saga Communications, Inc. (NASDAQ:SGA) Decreases By 67.8%",
+      "summary": "Short interest in Saga Communications (NASDAQ:SGA) significantly dropped by 67.8% to 4,227 shares as of August 31st. Despite beating quarterly EPS estimates and declaring a $0.2...",
+      "url": "https://www.marketbeat.com/instant-alerts/options-short-interest-in-saga-communications-inc-nasdaq-sga-decreases-by-678-2026-09-12/",
+      "source": "MarketBeat",
+      "published_at": "20260912T135435",
+      "sentiment_score": 0.122028,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SGA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Retail Wholesale"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "DuPont de Nemours Inc Share Price - DD, RNS News, Articles, Quotes, & Charts (NYSE:DD)",
+      "summary": "This article provides an overview of DuPont de Nemours Inc (NYSE:DD), highlighting its role as a global innovation leader in materials and solutions across various key markets....",
+      "url": "https://www.proactiveinvestors.com/companies/5302/DuPont-de-Nemours-Inc",
+      "source": "Proactive financial news",
+      "published_at": "20260912T131746",
+      "sentiment_score": 0.077792,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DD",
+        "MMM",
+        "CTVA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Manufacturing",
+        "Life Sciences"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "First Financial Bankshares, Inc. Declares Quarterly Dividend of $0.22 (NASDAQ:FFIN)",
+      "summary": "First Financial Bankshares, Inc. (NASDAQ:FFIN) has declared a quarterly dividend of $0.22 per share, payable on October 1st to shareholders of record as of September 14th. This...",
+      "url": "https://www.marketbeat.com/instant-alerts/dividend-first-financial-bankshares-inc-declares-quarterly-dividend-of-022-nasdaq-ffin-2026-09-12/",
+      "source": "MarketBeat",
+      "published_at": "20260912T123645",
+      "sentiment_score": 0.539533,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "FFIN"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Microchip Technology (MCHP) Stock May Be Fully Valued After A 18% Gain",
+      "summary": "Microchip Technology (MCHP) has seen an 18% gain over the past year, but analyses suggest the stock is currently overvalued. Both Discounted Cash Flow (DCF) and Price-to-Earning...",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mchp/microchip-technology/news/microchip-technology-mchp-stock-may-be-fully-valued-after-a",
+      "source": "Simply Wall Street",
+      "published_at": "20260912T122617",
+      "sentiment_score": -0.428665,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "MCHP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Booking Sees Resilient Travel Demand, Touts AI-Powered Connected Trip Growth",
+      "summary": "Booking Holdings Inc. experienced resilient travel demand in Q2, with bookings strengthening from June as Middle East conflict concerns eased. The company's AI-powered Connected...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/booking-sees-resilient-travel-demand-050202310.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260913T050251",
+      "sentiment_score": 0.271502,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "BKNG",
+        "COIN",
+        "ABNB",
+        "EXPE"
+      ],
+      "topics": [
+        "Earnings",
+        "Economy Macro",
+        "Technology",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "SLB agrees to acquire thermal management company Kelvion for $3.4 billion to expand its data center infrastructure...",
+      "summary": "SLB announced its agreement to acquire Kelvion, a thermal management and heat exchange technology provider, for $3.4 billion in cash and assumption of $0.7 billion in debt. This...",
+      "url": "https://energiesmedia.com/slb-acquires-kelvion-thermal-management/",
+      "source": "Energies Media",
+      "published_at": "20260913T003532",
+      "sentiment_score": 0.25874,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "SLB",
+        "APO",
+        "IBM"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Technology",
+        "Earnings",
+        "Energy Transportation",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Palo Alto Networks (PANW)’s AI Growth Faces a Higher Valuation Bar",
+      "summary": "Palo Alto Networks (PANW) is experiencing strong growth in next-generation security, driven by AI and platformization, with NGS ARR surging 63% in fiscal 2026. However, its stoc...",
+      "url": "https://uk.finance.yahoo.com/news/palo-alto-networks-panw-ai-215116717.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260912T221520",
+      "sentiment_score": -0.232688,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "PANW"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Consumer Tech (Sep 7-11): Apple Launches First Foldable iPhone, XPeng Commissioned IRON Humanoid Robot Pr",
+      "summary": "This article summarizes key developments in consumer tech from September 7-11, highlighting Apple's launch of a new foldable iPhone and Watch Series 12, and XPeng's commissionin...",
+      "url": "https://www.benzinga.com/markets/tech/26/09/61754574/consumer-tech-sep-7-11-apple-launches-first-foldable-iphone-xpeng-commissioned-iron-humanoid-robot-production-more",
+      "source": "Benzinga",
+      "published_at": "20260912T212311",
+      "sentiment_score": 0.073114,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AAPL",
+        "PM",
+        "NVDA",
+        "ORCL",
+        "CPRT"
+      ],
+      "topics": [
+        "Technology",
+        "Earnings",
+        "Retail Wholesale",
+        "Energy Transportation"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "A Tale of Two Dollars: Why Dollar General Outpaced Dollar Tree This Quarter",
+      "summary": "Dollar General and Dollar Tree both reported strong second-quarter results, beating expectations. However, Dollar General's performance was seen as more straightforward and indi...",
+      "url": "https://uk.finance.yahoo.com/news/tale-two-dollars-why-dollar-170915358.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260912T170946",
+      "sentiment_score": 0.144561,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DLTR",
+        "DG"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Economy Monetary"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Dividend King Altria Recently Raised Its Quarterly Dividend by Nearly 5%. Is the Stock a Buy?",
+      "summary": "Altria, a Dividend King, recently increased its quarterly dividend by nearly 5% to $1.11 per share, resulting in an annualized dividend of $4.44 and a strong yield over 6.5%. Wh...",
+      "url": "https://www.fool.com/investing/2026/09/12/dividend-king-altria-raise-dividend-stock-buy/",
+      "source": "The Motley Fool",
+      "published_at": "20260912T170600",
+      "sentiment_score": 0.275836,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "MO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Jim Cramer on Oracle: $664B Backlog Signals Major Shift in Company’s Growth Trajectory",
+      "summary": "Jim Cramer highlighted Oracle's massive $664 billion revenue backlog, a significant increase from previous years, as a sign of dramatic growth opportunity. However, despite this...",
+      "url": "https://247wallst.com/investing/2026/09/12/jim-cramer-on-oracle-664b-backlog-signals-major-shift-in-companys-growth-trajectory/",
+      "source": "24/7 Wall St.",
+      "published_at": "20260912T150916",
+      "sentiment_score": 0.143907,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ORCL",
+        "HPE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Morgan Stanley delivers blunt message to America’s pet owners",
+      "summary": "Morgan Stanley reviewed Chewy's Q2 fiscal 2026 results, cutting its price target to $36 from $37 but maintaining an Overweight rating, despite the stock being down significantly...",
+      "url": "https://au.finance.yahoo.com/news/morgan-stanley-delivers-blunt-message-143700482.html",
+      "source": "Yahoo Finance Australia",
+      "published_at": "20260912T150013",
+      "sentiment_score": -0.085288,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MS",
+        "HD",
+        "JPM"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets",
+        "Economy Macro",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Vistra and NRG Escape Nuclear Selloff as UBS Exposes SMR Risk",
+      "summary": "On September 11, the nuclear energy sector experienced a significant selloff, primarily affecting advanced-reactor developers, while Vistra Corp. and NRG Energy saw their stocks...",
+      "url": "https://drrobertcastellano.substack.com/p/vistra-and-nrg-escape-nuclear-selloff",
+      "source": "Dr. Robert Castellano's Semicondu...",
+      "published_at": "20260912T145431",
+      "sentiment_score": 0.442369,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "VST",
+        "NRG"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation",
+        "Financial Markets"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Hershey’s Dividend Is Finally Growing Again After a Nearly 2-Year Freeze",
+      "summary": "Hershey has resumed dividend growth after a nearly two-year freeze, signaling improved financial confidence following a significant drop in net income in 2025 due to record coco...",
+      "url": "https://247wallst.com/investing/2026/09/12/hersheys-dividend-is-finally-growing-again-after-a-nearly-2-year-freeze/",
+      "source": "24/7 Wall St.",
+      "published_at": "20260912T143000",
+      "sentiment_score": 0.312705,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "HSY"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Retail Wholesale"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Spotify vs. Netflix: I’d Bet on This Streaming Stock for the Next 5 Years",
+      "summary": "The article compares Spotify and Netflix's Q2 2026 performance and future prospects, arguing that Spotify offers more asymmetric upside due to its operating leverage, subscriber...",
+      "url": "https://finance.yahoo.com/media-advertising/articles/spotify-vs-netflix-d-bet-143026377.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260912T143000",
+      "sentiment_score": -0.071171,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NFLX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Spotify vs. Netflix: I’d Bet on This Streaming Stock for the Next 5 Years",
+      "summary": "This article compares Spotify and Netflix's recent quarterly performances and long-term strategies, concluding that Spotify offers more compelling upside. Spotify's focus on Pre...",
+      "url": "https://247wallst.com/investing/2026/09/12/spotify-vs-netflix-id-bet-on-this-streaming-stock-for-the-next-5-years/",
+      "source": "24/7 Wall St.",
+      "published_at": "20260912T142955",
+      "sentiment_score": -0.117608,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NFLX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Deere reported third-quarter net income of $1.379 billion",
+      "summary": "Deere & Company reported a third-quarter net income of $1.379 billion, or $5.10 per share, for the period ending August 2, 2026, marking an increase from the previous year. Worl...",
+      "url": "https://hpj.com/2026/09/12/deere-income/",
+      "source": "High Plains Journal",
+      "published_at": "20260912T135143",
+      "sentiment_score": 0.608959,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "DE"
+      ],
+      "topics": [
+        "Earnings",
+        "Manufacturing",
+        "Economy Macro"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Frequency Electronics (FEIM) Soars After Record Revenue",
+      "summary": "Frequency Electronics (FEIM) reported record revenue of $23.5 million for Q1 fiscal 2027, up 70% year-over-year, and a funded backlog of $129 million. This strong performance ha...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/frequency-electronics-feim-soars-record-133402974.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260912T133417",
+      "sentiment_score": 0.404551,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "FEIM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Frequency Electronics (FEIM) Soars After Record Revenue",
+      "summary": "Frequency Electronics, Inc. (FEIM) reported record first-quarter fiscal 2027 revenue of $23.5 million, marking a 70% year-over-year increase, and achieved a record funded backlo...",
+      "url": "https://uk.finance.yahoo.com/news/frequency-electronics-feim-soars-record-133402974.html",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260912T133417",
+      "sentiment_score": 0.557756,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "FEIM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Goldman Sachs Is Bullish. Here Are 3 Reasons AFRM Stock Could Climb 69%.",
+      "summary": "Goldman Sachs has raised its price target for Affirm Holdings (AFRM) to $115, implying a potential 69% upside, due to robust growth in interest-bearing loans, the Affirm Card, a...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-bullish-3-reasons-130003545.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260912T132555",
+      "sentiment_score": 0.264436,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GS",
+        "AMZN",
+        "JPM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Bank of Nova Scotia (TSX:BNS): Undervalued After Record Quarter?",
+      "summary": "Bank of Nova Scotia (TSX:BNS) recently reported a record quarter, with strong contributions across all divisions and profitability exceeding internal targets. Despite a steady c...",
+      "url": "https://kalkinemedia.com/ca/stocks/financial/bank-of-nova-scotia-tsxbns-undervalued-after-record-quarter",
+      "source": "Kalkine Media",
+      "published_at": "20260912T114054",
+      "sentiment_score": 0.383669,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "BNS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Strong Results And Net Cash Will Impact Costamare (CMRE) Investors",
+      "summary": "Costamare Bulkers Holdings reported strong Q2 2026 results with adjusted net income of US$9.8 million and a net cash position of US$108.9 million after its spin-off from Costama...",
+      "url": "https://simplywall.st/stocks/us/transportation/nyse-cmre/costamare/news/strong-results-and-net-cash-will-impact-costamare-cmre-inves",
+      "source": "Simply Wall Street",
+      "published_at": "20260912T132704",
+      "sentiment_score": 0.033157,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CMRE-P-B"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 5,
+      "is_noise": false
+    },
+    {
+      "title": "RTX Corporation (NYSE: RTX) Bets Big On Defense Capacity With $50 Million Mississippi Expansion",
+      "summary": "RTX Corporation has completed a $50 million expansion of its Raytheon manufacturing facility in Mississippi, enhancing its defense production capabilities and creating 100 new j...",
+      "url": "https://www.foreignpolicyjournal.com/2026/09/12/rtx-corporation-nyse-rtx-bets-big-on-defense-capacity-with-50-million-mississippi-expansion/",
+      "source": "Foreign Policy Journal",
+      "published_at": "20260912T215052",
+      "sentiment_score": -0.073711,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RTX",
+        "LMT",
+        "NOC",
+        "GD"
+      ],
+      "topics": [
+        "Manufacturing",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Reliance Global Group director Blumenfrucht sells $35,040 in stock By Investing.com",
+      "summary": "Alex Blumenfrucht, a director at Reliance Global Group, Inc. (NASDAQ:EZRA), sold 8,830 shares of the company's common stock for approximately $35,040 on August 3, 2026. This tra...",
+      "url": "https://ng.investing.com/news/stock-market-news/reliance-global-group-director-blumenfrucht-sells-35040-in-stock-93CH-2692703",
+      "source": "Investing.com Nigeria",
+      "published_at": "20260912T173803",
+      "sentiment_score": -0.230687,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "EZRA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Sl spv-2, l.p. sells $26 million in Dell Technologies stock By Investing.com",
+      "summary": "SL SPV-2, L.P. and affiliated entities sold approximately $26 million worth of Dell Technologies (NYSE:DELL) Class C Common Stock on September 9, 2026, disposing of 43,198 share...",
+      "url": "https://za.investing.com/news/stock-market-news/sl-spv2-lp-sells-26-million-in-dell-technologies-stock-93CH-4462471",
+      "source": "Investing.com South Africa",
+      "published_at": "20260912T132704",
+      "sentiment_score": -0.139248,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DELL"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Lucas GC Ltd (LGCL) Stock Price, Quote, News & History",
+      "summary": "This article provides comprehensive information on Lucas GC Ltd (LGCL) stock, including its current price, key statistics, recent news, and financial data. It also covers valuat...",
+      "url": "https://www.benzinga.com/quote/LGCL",
+      "source": "Benzinga",
+      "published_at": "20260912T233044",
+      "sentiment_score": 0.014398,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "LGCL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Biogen Sees Pivotal Pipeline Moment as It Expands Beyond Neurology",
+      "summary": "Biogen is diversifying its pipeline beyond neurology into immunology and nephrology, with 10 Phase III programs nearing clinical readouts. The company expects significant cost s...",
+      "url": "https://finance.yahoo.com/healthcare/articles/biogen-sees-pivotal-pipeline-moment-210158269.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260912T210211",
+      "sentiment_score": 0.309232,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "BIIB"
       ],
       "topics": [
         "Life Sciences",
         "Earnings",
-        "Financial Markets"
+        "Mergers And Acquisitions"
       ],
-      "quality_score": 7,
+      "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "Talon Private Wealth LLC Acquires New Position in Advanced Micro Devices, Inc. $AMD",
-      "summary": "Talon Private Wealth LLC has acquired a new stake in Advanced Micro Devices (NASDAQ:AMD), purchasing 2,328 shares valued at approximately $1.35 million in the second quarter. Th...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-talon-private-wealth-llc-acquires-new-position-in-advanced-micro-devices-inc-amd-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T233053",
-      "sentiment_score": 0.209932,
+      "title": "L3harris Technologies stock hits 52-week low at 246.43 USD By Investing.com",
+      "summary": "L3Harris Technologies (LHX) stock has fallen to a new 52-week low of $246.43, marking a over 31% drop in the past six months despite the company's recent Q2 2026 financial resul...",
+      "url": "https://za.investing.com/news/stock-market-news/l3harris-technologies-stock-hits-52week-low-at-24643-usd-93CH-4462183",
+      "source": "Investing.com South Africa",
+      "published_at": "20260912T202131",
+      "sentiment_score": -0.236278,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "LHX"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Ipo"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "How Much Do You Really Need Invested in Bristol Myers Squibb to Collect $10,000 a Year?",
+      "summary": "This article calculates the investment needed in Bristol Myers Squibb (BMY) to generate $10,000 in annual dividend income, highlighting that it requires approximately 3,968 shar...",
+      "url": "https://247wallst.com/investing/2026/09/12/how-much-do-you-really-need-invested-in-bristol-myers-squibb-to-collect-10000-a-year/",
+      "source": "24/7 Wall St.",
+      "published_at": "20260912T191500",
+      "sentiment_score": 0.475204,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "BMY",
+        "HPE",
+        "DELL",
+        "NTAP",
+        "ON"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Sirius XM CEO Highlights Cash Flow Growth, New Sports Plans and Ad Expansion at Conference",
+      "summary": "Sirius XM's CEO, Jennifer Witz, outlined the company's strategy focusing on strengthening its subscription business, expanding advertising, and improving efficiency. The company...",
+      "url": "https://finance.yahoo.com/media-advertising/articles/sirius-xm-ceo-highlights-cash-160158796.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260912T155427",
+      "sentiment_score": 0.298553,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "AMD",
+        "SIRI",
+        "AMZN",
+        "AAPL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Costco fixed the one thing members hated about shopping there",
+      "summary": "Costco has significantly improved its digital sales and delivery services, with same-day delivery now averaging less than 45 minutes in the U.S. This strategic focus, spearheade...",
+      "url": "https://www.thestreet.com/retail/costco-is-winning-a-fight-walmart-and-amazon-thought-theyd-won",
+      "source": "TheStreet",
+      "published_at": "20260912T152422",
+      "sentiment_score": 0.191892,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "COST",
+        "AMZN",
+        "WMT"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Technology"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Home Depot vs. Walmart: Which Consumer Stock Is a Better Buy in 2026?",
+      "summary": "This article compares Home Depot (HD) and Walmart (WMT) as investment opportunities in 2026, analyzing their business models, financial performance, risk profiles, and valuation...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-vs-walmart-consumer-140308112.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260912T140403",
+      "sentiment_score": 0.231171,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "HD",
+        "WMT",
+        "NFLX",
         "NVDA"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Smith Chas P & Associates PA Cpas Has $46.21 Million Stake in Merck & Co., Inc. $MRK",
-      "summary": "Smith Chas P & Associates PA Cpas has a $46.21 million stake in Merck & Co., Inc. (MRK), despite reducing its holdings by 2.2% in the second quarter. Institutional investors hol...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-smith-chas-p-associates-pa-cpas-has-4621-million-stake-in-merck-co-inc-mrk-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T232553",
-      "sentiment_score": 0.069035,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MRK",
-        "LLY",
-        "AMGN"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Bullseye Investment Management LLC Invests $1.14 Million in American Express Company $AXP",
-      "summary": "Bullseye Investment Management LLC has made a new investment of $1.14 million in American Express Company (NYSE:AXP), acquiring 3,373 shares during the second quarter. This move...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-bullseye-investment-management-llc-invests-114-million-in-american-express-company-axp-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T231924",
-      "sentiment_score": 0.284297,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AXP",
-        "COF"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Economy Macro"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "LENZ Therapeutics, Inc. (LENZ) Investigation: Bronstein, Gewirtz & Grossman, LLC Encourages Investors to Contact th...",
-      "summary": "Bronstein, Gewirtz & Grossman, LLC is investigating potential claims against LENZ Therapeutics, Inc. (LENZ) following a significant drop in its stock price. This decline occurre...",
-      "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/lenz-therapeutics-inc.-lenz-investigation-bronstein-gewirtz-and-1213027",
-      "source": "ACCESS Newswire",
-      "published_at": "20260911T213327",
-      "sentiment_score": 0.022346,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "LENZ"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Enphase Energy (ENPH) Stock Looks Fairly Valued Despite New Product Hopes",
-      "summary": "Enphase Energy (ENPH) stock appears fairly valued based on a Discounted Cash Flow (DCF) model, suggesting it's slightly undervalued, despite a 76.4% price drop over five years....",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-enph/enphase-energy/news/enphase-energy-enph-stock-looks-fairly-valued-despite-new-pr",
-      "source": "Simply Wall Street",
-      "published_at": "20260911T212659",
-      "sentiment_score": 0.174093,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ENPH",
-        "TSLA",
-        "NVDA",
-        "AMZN",
-        "GOOGL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Energy Transportation"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Evolution Petroleum declares $0.12 quarterly dividend",
-      "summary": "Evolution Petroleum Corporation (NYSE American: EPM) announced a quarterly cash dividend of $0.12 per share for its fiscal 2027 first quarter. This dividend will be paid on Sept...",
-      "url": "https://in.investing.com/news/stock-market-news/evolution-petroleum-declares-012-quarterly-dividend-93CH-5589344",
-      "source": "Investing.com India",
-      "published_at": "20260911T193607",
-      "sentiment_score": 0.456918,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "EPM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "AM Best Revises Outlooks to Negative for Kemper Corporation, Its Affiliates and Subsidiaries",
-      "summary": "AM Best has revised the outlooks to negative from stable for Kemper Corporation and its property/casualty and life subsidiaries, while affirming their existing credit ratings. T...",
-      "url": "https://insurancenewsnet.com/oarticle/am-best-revises-outlooks-to-negative-for-kemper-corporation-its-affiliates-and-subsidiaries-2",
-      "source": "InsuranceNewsNet",
-      "published_at": "20260911T234840",
-      "sentiment_score": 0.003887,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "KMPB"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Palo Alto (PANW)’s CEO Puts a Trillion-Dollar Number on the AI Security Gap",
-      "summary": "Palo Alto Networks CEO Nikesh Arora estimates that AI is driving a need to modernize approximately $1 trillion of outdated cybersecurity infrastructure. The company reported str...",
-      "url": "https://ca.finance.yahoo.com/news/palo-alto-panw-ceo-puts-234621341.html",
-      "source": "Yahoo! Finance Canada",
-      "published_at": "20260911T234655",
-      "sentiment_score": 0.161616,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "PANW",
-        "CRWD",
-        "META",
-        "TSLA"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Structure Therapeutics (GPCR): Will Repeat Dosing Confirm Its 3.3% Weight-Loss Signal?",
-      "summary": "Structure Therapeutics (GPCR) reported a 3.3% mean body-weight reduction with a single dose of ACCG-2671 in a Phase 1/2a trial. The company is now testing daily and weekly regim...",
-      "url": "https://finance.yahoo.com/healthcare/articles/structure-therapeutics-gpcr-repeat-dosing-234610550.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260911T234005",
-      "sentiment_score": 0.072656,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GPCR",
-        "COIN"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Smith Chas P & Associates PA Cpas Has $78.66 Million Stake in Walmart Inc. $WMT",
-      "summary": "Smith Chas P & Associates PA Cpas reduced its stake in Walmart Inc. (WMT) by 3.7% in Q2 2026, selling 26,996 shares but still holding 694,499 shares valued at $78.66 million. Wa...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-smith-chas-p-associates-pa-cpas-has-7866-million-stake-in-walmart-inc-wmt-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T231734",
-      "sentiment_score": 0.136092,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "WMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Kaspi.kz Stock Stumbles After Dividend-Fueled Rally",
-      "summary": "Kaspi.kz (KSPI) stock is experiencing volatility as traders take profits following a recent rally. The earlier surge was due to a new KZT 1,000 per share dividend and an increas...",
-      "url": "https://www.tipranks.com/news/catalyst/kaspi-kz-stock-stumbles-after-dividend-fueled-rally",
-      "source": "TipRanks",
-      "published_at": "20260911T223712",
-      "sentiment_score": -0.201738,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "KSPI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Finance",
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Walmart and Target’s Shelves are Becoming a Battleground for Budget-Conscious Shoppers",
-      "summary": "Walmart and Target are leveraging their scale to secure better deals from suppliers like Haleon, which is offering lower prices and exclusive products for more prominent shelf p...",
-      "url": "https://ca.finance.yahoo.com/news/walmart-target-shelves-becoming-battleground-223132477.html",
-      "source": "Yahoo! Finance Canada",
-      "published_at": "20260911T223140",
-      "sentiment_score": 0.103255,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TGT",
-        "WMT"
-      ],
-      "topics": [
-        "Retail Wholesale",
-        "Economy Macro",
-        "Finance",
-        "Life Sciences",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "ADM’s ex-CFO gets SEC to produce over 307,000 documents in fraud case",
-      "summary": "The SEC's accounting fraud lawsuit against former Archer-Daniels-Midland CFO Vikram Luthar is progressing, with the SEC having already provided over 307,000 documents during the...",
-      "url": "https://www.cfodive.com/news/adm-ex-cfo-gets-sec-produce-307000-documents-fraud-case-vikram-luthar/830218/",
-      "source": "CFO Dive",
-      "published_at": "20260911T210116",
-      "sentiment_score": -0.443833,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "ADM"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Goodyear Tire & Rubber Co stock hits 52-week low at 5.42 USD",
-      "summary": "Goodyear Tire & Rubber Co's stock has hit a 52-week low of $5.42, marking a 35.72% decline over the past year due to market challenges and operational pressures, reflected in it...",
-      "url": "https://www.investing.com/news/company-news/goodyear-tire--rubber-co-stock-hits-52week-low-at-542-usd-93CH-4898378",
-      "source": "Investing.com",
-      "published_at": "20260911T194032",
-      "sentiment_score": -0.623759,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "GT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "ESAB declares $0.12 quarterly dividend payable in October",
-      "summary": "ESAB Corporation has announced a quarterly cash dividend of $0.12 per share of common stock. The dividend is scheduled to be paid on October 16, 2026, to shareholders of record...",
-      "url": "https://www.investing.com/news/company-news/esab-declares-012-quarterly-dividend-payable-in-october-93CH-4897019",
-      "source": "Investing.com",
-      "published_at": "20260911T193559",
-      "sentiment_score": 0.047963,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ESAB"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Manufacturing"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Morgan Stanley makes its first call on major crypto stock",
-      "summary": "Morgan Stanley has initiated coverage of Coinbase Global (Nasdaq: COIN) with an \"Equal Weight\" rating and a $250 price target, marking its first call on the crypto exchange. The...",
-      "url": "https://sg.finance.yahoo.com/news/morgan-stanley-makes-first-call-220222586.html",
-      "source": "Yahoo Finance Singapore",
-      "published_at": "20260911T221408",
-      "sentiment_score": 0.217661,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MS",
-        "COIN",
-        "ADBE"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Blockchain",
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Korea Electric Power Stock Rises Friday: What's Going On?",
-      "summary": "Shares of Korea Electric Power Corp. (NYSE: KEP) rose on Friday due to reports of a significant energy investment agreement between Seoul and Washington exceeding $100 billion....",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61749862/korea-electric-power-stock-rises-friday-whats-going-on",
-      "source": "Benzinga",
-      "published_at": "20260911T193539",
-      "sentiment_score": 0.424098,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "KEP"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Energy Transportation",
-        "Economy Macro"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Hayward Holdings stock hits 52-week low at 12.92 USD By Investing.com",
-      "summary": "Hayward Holdings Inc. (HAYW) stock has dropped to a new 52-week low of $12.92, representing a 19.18% decrease over the past year. Despite this downturn, InvestingPro data sugges...",
-      "url": "https://za.investing.com/news/stock-market-news/hayward-holdings-stock-hits-52week-low-at-1292-usd-93CH-4460476",
-      "source": "Investing.com South Africa",
-      "published_at": "20260911T234010",
-      "sentiment_score": 0.253417,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "HAYW"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "3D Systems CFO Phyllis Nordstrom Reports Tax-Related Share Withholding Transactions",
-      "summary": "3D Systems CFO Phyllis Nordstrom reported two tax-related share withholding transactions on September 8, 2026, involving the company's common stock. A total of 47,396 shares wer...",
-      "url": "https://kalkinemedia.com/us/news/announcements/3d-systems-cfo-phyllis-nordstrom-reports-tax-related-share-withholding-transactions",
-      "source": "Kalkine Media",
-      "published_at": "20260911T223119",
-      "sentiment_score": 0.034977,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DDD"
-      ],
-      "topics": [
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Form 8K Professional Diversity Network Inc For: 11 September By Investing.com",
-      "summary": "This article reports on the filing of a Form 8K by Professional Diversity Network Inc. on September 11. It's a brief announcement indicating a regulatory filing by the company....",
-      "url": "https://ca.investing.com/news/stock-market-news/form-8k-professional-diversity-network-inc-for-11-september-93CH-4837080",
-      "source": "Investing.com Canada",
-      "published_at": "20260911T213704",
-      "sentiment_score": 0.027726,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "IPDN"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "IDW Announces Results for Third Quarter Fiscal Year 2026",
-      "summary": "IDW Media Holdings, Inc. (OTCQB:IDWM) reported its financial results for the third quarter ended July 31, 2026. The company will host a conference call on September 14, 2026, at...",
-      "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/idw-announces-results-for-third-quarter-fiscal-year-2026-1219570",
-      "source": "ACCESS Newswire",
-      "published_at": "20260911T213559",
-      "sentiment_score": 0.015622,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ACCS"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Illinois Tool Exhibits Strong Prospects Despite Persisting Headwinds",
-      "summary": "Illinois Tool Works (ITW) is showing strong prospects despite economic headwinds, driven by positive momentum across most of its segments, including Welding, Polymers & Fluids,...",
-      "url": "https://ca.finance.yahoo.com/news/illinois-tool-exhibits-strong-prospects-152600842.html",
-      "source": "Yahoo! Finance Canada",
-      "published_at": "20260911T205600",
-      "sentiment_score": 0.449554,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "ITW",
-        "GNRC"
-      ],
-      "topics": [
-        "Earnings",
-        "Manufacturing",
-        "Financial Markets",
-        "Economy Macro",
-        "Real Estate"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Cms energy stock hits 52-week low at 67.19 USD",
-      "summary": "CMS Energy Corporation's stock has hit a 52-week low at $67.19, reflecting a 6.24% decline over the past year amidst broader energy sector challenges. Despite this, the company...",
-      "url": "https://www.investing.com/news/company-news/cms-energy-stock-hits-52week-low-at-6719-usd-93CH-4898370",
-      "source": "Investing.com",
-      "published_at": "20260911T195909",
-      "sentiment_score": -0.25963,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "CMS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Phinia SVP and CIO Matthew Logar sells $83,372 in shares",
-      "summary": "Phinia's SVP and CIO, Matthew Logar, sold 1,257 shares of PHINIA INC. stock for approximately $83,372 on September 10, 2026. This transaction occurred amidst a significant drop...",
-      "url": "https://m.investing.com/news/insider-trading-news/phinia-svp-and-cio-matthew-logar-sells-83372-in-shares-93CH-4898441?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260912T042134",
-      "sentiment_score": -0.238311,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "PHIN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Manufacturing"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Silver Lake technology investors IV sells $580,907 of Dell stock By Investing.com",
-      "summary": "Silver Lake Technology Investors IV, L.P., a significant Dell Technologies shareholder, sold 1,075 shares of Class C Common Stock for over $580,000 on September 9, 2026. This sa...",
-      "url": "https://m.investing.com/news/insider-trading-news/silver-lake-technology-investors-iv-sells-580907-of-dell-stock-93CH-4898559?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260912T004906",
-      "sentiment_score": 0.270157,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "DELL"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Edwards Lifesciences CVP Daniel Lippis sells $54,168 in stock",
-      "summary": "Daniel J. Lippis, CVP, TAVR at Edwards Lifesciences Corp, sold 619 shares of company stock worth $54,168 at $87.51 per share on September 11, 2026. Concurrently, he acquired 619...",
-      "url": "https://www.investing.com/news/insider-trading-news/edwards-lifesciences-cvp-daniel-lippis-sells-54168-in-stock-93CH-4898565",
-      "source": "Investing.com",
-      "published_at": "20260912T000208",
-      "sentiment_score": -0.111007,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "EW"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Intuitive surgical EVP Mark Brosius sells $17,140 in stock",
-      "summary": "Mark Brosius, EVP at Intuitive Surgical Inc. (NASDAQ:ISRG), sold $17,140 worth of company stock through two transactions last week under a pre-arranged trading plan. Despite the...",
-      "url": "https://www.investing.com/news/insider-trading-news/intuitive-surgical-evp-mark-brosius-sells-17140-in-stock-93CH-4898564",
-      "source": "Investing.com",
-      "published_at": "20260912T000202",
-      "sentiment_score": 0.106556,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ISRG"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Qualcomm EVP, CFO & COO Palkhiwala sells $457,129 in QCOM stock",
-      "summary": "Akash J. Palkhiwala, EVP, CFO, and COO of QUALCOMM INC/DE (NASDAQ:QCOM), sold 2,500 shares of company stock for approximately $457,129 on September 11, 2026. These transactions...",
-      "url": "https://www.investing.com/news/insider-trading-news/qualcomm-evp-cfo--coo-palkhiwala-sells-457129-in-qcom-stock-93CH-4898563",
-      "source": "Investing.com",
-      "published_at": "20260912T000143",
-      "sentiment_score": 0.232825,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "QCOM",
-        "AMZN"
-      ],
-      "topics": [
-        "Finance",
-        "Technology",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Silver Lake Partners IV sells $29.5m of Dell Technologies stock",
-      "summary": "Silver Lake Partners IV and its affiliates sold approximately $29.5 million worth of Dell Technologies (NASDAQ:DELL) Class C Common Stock on September 9, 2026, at prices ranging...",
-      "url": "https://www.investing.com/news/insider-trading-news/silver-lake-partners-iv-sells-295m-of-dell-technologies-stock-93CH-4898556",
-      "source": "Investing.com",
-      "published_at": "20260911T233520",
-      "sentiment_score": 0.108596,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DELL"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Lockheed Martin Corporation $LMT Shares Sold by Smith Chas P & Associates PA Cpas",
-      "summary": "Smith Chas P & Associates PA Cpas reduced its stake in Lockheed Martin Corporation by 3.2% in the second quarter, selling 2,881 shares and retaining 88,040 shares valued at appr...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-lockheed-martin-corporation-lmt-shares-sold-by-smith-chas-p-associates-pa-cpas-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T232338",
-      "sentiment_score": 0.143183,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "LMT",
-        "IBM",
-        "RTX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Manufacturing"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Officer at Seagate (STX) to sell shares only to cover RSU taxes",
-      "summary": "An officer at Seagate Technology Holdings plc (STX), John Christopher Morris, plans to sell 601 shares of common stock valued at $518,022.27. This sale, occurring on or after Se...",
-      "url": "https://www.stocktitan.net/sec-filings/STX/144-seagate-technology-holdings-plc-sec-filing-747d04afdb93.html",
-      "source": "Stock Titan",
-      "published_at": "20260911T231600",
-      "sentiment_score": 0.049849,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "STX"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Sl spv-2, l.p. sells $26 million in Dell Technologies stock",
-      "summary": "SL SPV-2, L.P. and its affiliates, significant owners and directors of Dell Technologies Inc., sold approximately $26 million worth of Class C Common Stock on September 9, 2026....",
-      "url": "https://www.investing.com/news/insider-trading-news/sl-spv2-lp-sells-26-million-in-dell-technologies-stock-93CH-4898541",
-      "source": "Investing.com",
-      "published_at": "20260911T230223",
-      "sentiment_score": -0.217614,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "DELL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Public Service Enterprise Group CEO Sells 2,083 Shares",
-      "summary": "Public Service Enterprise Group (NYSE:PEG) CEO Ralph A. LaRossa sold 2,083 shares of the company stock for $153,000 on September 1, 2026. This transaction represents 0.7% of his...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/public-enterprise-group-ceo-sells-215001532.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260911T215016",
-      "sentiment_score": -0.194925,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "PEG"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Thrivent Financial sells $91,518 in Gloo Holdings stock",
-      "summary": "Thrivent Financial for Lutherans, a major shareholder in Gloo Holdings (NASDAQ:GLOO), recently sold $91,518 worth of the company's Class A Common Stock across three transactions...",
-      "url": "https://m.investing.com/news/insider-trading-news/thrivent-financial-sells-91518-in-gloo-holdings-stock-93CH-4897075?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260911T212848",
-      "sentiment_score": -0.203093,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "GLOO"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Insider Selling: Home Depot (NYSE:HD) CAO Sells $206,516.25 in Stock",
-      "summary": "Home Depot's Chief Accounting Officer, Kimberly Scardino, sold 675 shares of company stock for $206,516.25, reducing her stake by 7.62%. This transaction comes as Home Depot rep...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-home-depot-nyse-hd-cao-sells-20651625-in-stock-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T212529",
-      "sentiment_score": 0.111687,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HD",
-        "COST"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale",
-        "Financial Markets",
-        "Real Estate",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "eBay CEO Jamie Iannone Sells Company Shares Worth $2.3 Million Amid a 12% One-Year Return",
-      "summary": "eBay CEO Jamie Iannone sold 22,220 shares of eBay stock worth approximately $2.3 million. This transaction was executed under a pre-established Rule 10b5-1 plan, indicating it w...",
-      "url": "https://www.fool.com/coverage/filings/2026/09/11/ebay-ceo-jamie-iannone-sells-company-shares-worth-usd2-3-million-amid-a-12-one-year-return/",
-      "source": "The Motley Fool",
-      "published_at": "20260911T212220",
-      "sentiment_score": 0.125149,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "EBAY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Retail Wholesale",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "PHINIA (NYSE:PHIN) SVP Sells $83,376.81 in Stock",
-      "summary": "PHINIA (NYSE:PHIN) Senior Vice President Matthew Logar sold 1,257 shares of the company's stock for $83,376.81, reducing his direct ownership by 7.47%. The transaction was discl...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-phinia-nyse-phin-svp-sells-8337681-in-stock-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T212134",
-      "sentiment_score": -0.229963,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "PHIN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "PHINIA (NYSE:PHIN) CFO Sells $900,585.00 in Stock",
-      "summary": "PHINIA's CFO, Chris Gropp, sold 13,500 shares of company stock for $900,585, reducing his position by 23.55%. The company recently reported quarterly revenue of $940 million, su...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-phinia-nyse-phin-cfo-sells-90058500-in-stock-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T212134",
-      "sentiment_score": -0.12618,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PHIN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Seagate Technology Holdings Insider Sold Shares Worth $1,162,156, According to a Recent SEC Filing",
-      "summary": "An insider at Seagate Technology Holdings sold shares valued at $1,162,156, as reported in a recent SEC filing. This transaction is part of several insider share sales from the...",
-      "url": "https://www.marketscreener.com/news/seagate-technology-holdings-insider-sold-shares-worth-1-162-156-according-to-a-recent-sec-filing-ce785bdfd189f523",
-      "source": "www.marketscreener.com",
-      "published_at": "20260911T211554",
-      "sentiment_score": -0.233988,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "STX"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "William Frank Jr. Cruger Sells 6,164 Shares of MarketAxess (NASDAQ:MKTX) Stock",
-      "summary": "Director William Frank Jr. Cruger sold 6,164 shares of MarketAxess (NASDAQ:MKTX) stock for over $1 million, reducing his direct stake by 60.45%. This sale comes as MarketAxess r...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-william-frank-jr-cruger-sells-6164-shares-of-marketaxess-nasdaq-mktx-stock-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T211235",
-      "sentiment_score": -0.104757,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MKTX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "CCF deal adds $589M revenue and $1.50B debt, Katapult (KPLT) says",
-      "summary": "Katapult Holdings, Inc. (KPLT) has filed an amendment detailing the financial statements of acquired companies CCF Holdings LLC and Aaron's Intermediate Holdco, Inc., following...",
-      "url": "https://www.stocktitan.net/sec-filings/KPLT/8-k-a-katapult-holdings-inc-amends-material-event-report-6e24b25bbbfe.html",
-      "source": "Stock Titan",
-      "published_at": "20260911T203028",
-      "sentiment_score": -0.069791,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "KPLT",
-        "IQV",
-        "AOS"
-      ],
-      "topics": [
-        "Mergers And Acquisitions",
-        "Earnings",
-        "Finance",
         "Economy Macro",
         "Retail Wholesale"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Form 8K Boston Omaha Corp For: 11 September By Investing.com",
+      "summary": "This article reports on Boston Omaha Corp.'s (BOC) Form 8K filing for September 11, 2026. The filing is a regulatory requirement for significant events that shareholders should...",
+      "url": "https://ng.investing.com/news/stock-market-news/form-8k-boston-omaha-corp-for-11-september-93CH-2693193",
+      "source": "Investing.com Nigeria",
+      "published_at": "20260912T133421",
+      "sentiment_score": 0.022416,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BOC"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Greenwave Technology Solutions raises $3.75 million in private placement of preferred stock",
+      "summary": "Greenwave Technology Solutions (NASDAQ:GWAV) has completed a private placement, raising $3.75 million through the issuance of Series B Convertible Preferred Stock to five instit...",
+      "url": "https://www.investing.com/news/sec-filings/greenwave-technology-solutions-raises-375-million-in-private-placement-of-preferred-stock-93CH-4898509",
+      "source": "Investing.com",
+      "published_at": "20260912T193434",
+      "sentiment_score": 0.333862,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GWAV"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
       ],
       "quality_score": -10,
       "is_noise": true
     }
   ],
   "article_count": 50,
-  "top_ticker": "ADBE",
+  "top_ticker": "HPE",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Beyond Air at cantors conference: generation 2 is the focus",
+  "top_story": "The Goldman Sachs Group (NYSE:GS) Rating Lowered to \"Hold\" at Wall Street Zen",
   "signal_articles": [
     {
-      "title": "Beyond Air at cantors conference: generation 2 is the focus",
-      "summary": "Beyond Air is focusing on securing FDA approval for its Generation 2 LungFit nitric oxide platform by the end of 2026, which is crucial for expanding its addressable market in p...",
-      "url": "https://in.investing.com/news/stock-market-news/beyond-air-at-cantors-conference-generation-2-is-the-focus-93CH-5589311",
-      "source": "Investing.com India",
-      "published_at": "20260911T203036",
-      "sentiment_score": 0.322626,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "The Goldman Sachs Group (NYSE:GS) Rating Lowered to \"Hold\" at Wall Street Zen",
+      "summary": "Wall Street Zen has downgraded The Goldman Sachs Group (NYSE:GS) from \"Buy\" to \"Hold,\" though the broader analyst consensus remains a \"Moderate Buy\" with an average price target...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-the-goldman-sachs-group-nyse-gs-rating-lowered-to-hold-at-wall-street-zen-2026-09-13/",
+      "source": "MarketBeat",
+      "published_at": "20260913T051720",
+      "sentiment_score": 0.019994,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "XAIR"
+        "GS"
       ],
       "topics": [
-        "Life Sciences",
-        "Earnings"
+        "Earnings",
+        "Finance",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 17,
+      "is_noise": false
+    },
+    {
+      "title": "Q2 (NYSE:QTWO) Rating Increased to Strong-Buy at Piper Sandler",
+      "summary": "Piper Sandler has upgraded Q2 Holdings (NYSE:QTWO) to a \"strong-buy\" rating, while the average analyst consensus remains a \"moderate buy\" with a target price of $76.17. The comp...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-q2-nyse-qtwo-rating-increased-to-strong-buy-at-piper-sandler-2026-09-12/",
+      "source": "MarketBeat",
+      "published_at": "20260912T115948",
+      "sentiment_score": 0.416612,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "QTWO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "8X8 Inc (EGT) Q2 2026 Earnings Report - Results, Call & Slides",
+      "summary": "8X8 Inc (CH:EGT) reported its Q2 2026 earnings, beating analyst expectations with an actual EPS of CHF0.07 against a consensus of CHF0.06 and actual revenue of CHF148.89M agains...",
+      "url": "https://www.tipranks.com/stocks/ch:egt/earnings/q2-2026-report?hash=earningsAudio",
+      "source": "TipRanks",
+      "published_at": "20260912T123020",
+      "sentiment_score": 0.029248,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "EGHT"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology"
       ],
       "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "Adobe Beats on Both Lines But Guides Below Consensus",
-      "summary": "Adobe Inc. (NASDAQ:ADBE) surpassed third-quarter revenue and earnings expectations, with revenue rising 13% to a record $6.76 billion and non-GAAP earnings at $6.13 per share. H...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/adobe-beats-both-lines-guides-211054501.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260911T211604",
-      "sentiment_score": -0.250325,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Super Micro Computer (NASDAQ: SMCI) Sits On $60B Order Book As Fiscal 2027 Guidance Reaches $72B",
+      "summary": "Super Micro Computer (SMCI) announced an order book exceeding $60 billion in its fiscal fourth quarter, reflecting strong demand in the AI infrastructure market. The company als...",
+      "url": "https://www.foreignpolicyjournal.com/2026/09/12/super-micro-computer-nasdaq-smci-sits-on-60b-order-book-as-fiscal-2027-guidance-reaches-72b/",
+      "source": "Foreign Policy Journal",
+      "published_at": "20260913T011027",
+      "sentiment_score": 0.486563,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "ADBE"
+        "SMCI"
       ],
       "topics": [
         "Earnings",
-        "Technology"
+        "Technology",
+        "Financial Markets",
+        "Economy Macro"
       ],
       "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "Qorvo, Qualcomm, Texas Instruments, Vishay Intertechnology, and Impinj Stocks Trade Up, What You Need To Know",
-      "summary": "Shares of Qorvo, Qualcomm, Texas Instruments, Vishay Intertechnology, and Impinj saw significant gains due to macroeconomic relief from declining Treasury yields and lower oil p...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-qualcomm-texas-instruments-vishay-041105294.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260912T041158",
-      "sentiment_score": 0.411535,
-      "sentiment_label": "Bullish",
+      "title": "Arabian Drilling signs $800 million land rig deal with SLB Middle East and expands offshore operations across GCC r...",
+      "summary": "Arabian Drilling has secured an $800 million land rig contract with SLB Middle East for gas drilling operations, reinforcing its revenue visibility for the next five years. Conc...",
+      "url": "https://energiesmedia.com/arabian-drilling-slb-land-rig-deal/",
+      "source": "Energies Media",
+      "published_at": "20260913T011607",
+      "sentiment_score": 0.316728,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "TXN",
-        "QCOM"
+        "SLB"
       ],
       "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings",
-        "Economy Macro"
+        "Energy Transportation",
+        "Earnings"
       ],
       "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "Fitch upgrades Citizens Financial rating on profitability By Investing.com",
-      "summary": "Fitch Ratings has upgraded Citizens Financial Group and its subsidiary Citizens Bank to 'A-' from 'BBB+', citing consistent improvements in earnings power and profitability. The...",
-      "url": "https://uk.investing.com/news/stock-market-news/fitch-upgrades-citizens-financial-rating-on-profitability-93CH-4866855",
-      "source": "Investing.com UK",
-      "published_at": "20260911T220200",
-      "sentiment_score": 0.823582,
-      "sentiment_label": "Bullish",
+      "title": "Kimberly-Clark's 54-Year Dividend Streak Faces Its Biggest Test Yet With $48.7 Billion Kenvue Deal",
+      "summary": "Kimberly-Clark (KMB) recently extended its 54-year dividend increase streak while simultaneously pursuing a $48.7 billion acquisition of Kenvue (KVUE), raising concerns among in...",
+      "url": "https://247wallst.com/investing/2026/09/12/kimberly-clarks-54-year-dividend-streak-faces-its-biggest-test-yet-with-48-7-billion-kenvue-deal/",
+      "source": "24/7 Wall St.",
+      "published_at": "20260912T174943",
+      "sentiment_score": -0.082777,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "CFG"
+        "KMB",
+        "KVUE",
+        "DE",
+        "CVX",
+        "XOM"
       ],
       "topics": [
-        "Finance",
+        "Mergers And Acquisitions",
         "Earnings",
         "Financial Markets"
       ],
@@ -1083,218 +1143,176 @@
       "is_noise": false
     },
     {
-      "title": "Adobe Beats on Both Lines But Guides Below Consensus",
-      "summary": "Adobe Inc. reported a beat on both revenue and earnings for its third quarter, with revenue rising 13% to a record $6.76 billion and non-GAAP earnings at $6.13 per share. Despit...",
-      "url": "https://ca.finance.yahoo.com/news/adobe-beats-both-lines-guides-211054501.html",
-      "source": "Yahoo! Finance Canada",
-      "published_at": "20260911T211000",
-      "sentiment_score": -0.273033,
+      "title": "Okta Nearly Doubled This Year. So Why Is SailPoint Still Below Its IPO Price?",
+      "summary": "Despite beating earnings expectations and rapidly acquiring AI-driven identity contracts, SailPoint (SAIL) stock remains below its IPO price, while Okta (OKTA) has more than dou...",
+      "url": "https://247wallst.com/investing/2026/09/12/okta-nearly-doubled-this-year-so-why-is-sailpoint-still-below-its-ipo-price/",
+      "source": "24/7 Wall St.",
+      "published_at": "20260912T132945",
+      "sentiment_score": 0.267892,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "SAIL",
+        "CRWD",
+        "HPE",
+        "DELL"
+      ],
+      "topics": [
+        "Earnings",
+        "Ipo",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "NXP Semiconductors Eyes Physical AI Leadership, Sees Data Center Growth Surge",
+      "summary": "NXP Semiconductors is strategically positioning itself as a leader in \"physical AI\" by integrating security, safety, real-time processing, and reliability into intelligent edge...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nxp-semiconductors-eyes-physical-ai-130200789.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260912T130812",
+      "sentiment_score": 0.475023,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NXPI"
+      ],
+      "topics": [
+        "Technology",
+        "Earnings",
+        "Manufacturing"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Short Interest in FIGX Capital Acquisition Corp. (NASDAQ:FIGX) Drops By 67.2%",
+      "summary": "Short interest in FIGX Capital Acquisition Corp. (NASDAQ:FIGX) declined significantly by 67.2% in August, totaling 380 shares. Despite institutional investments from firms like...",
+      "url": "https://www.marketbeat.com/instant-alerts/options-short-interest-in-figx-capital-acquisition-corp-nasdaq-figx-drops-by-672-2026-09-12/",
+      "source": "MarketBeat",
+      "published_at": "20260912T170355",
+      "sentiment_score": -0.254402,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "ADBE"
+        "FIGX"
       ],
       "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "S&P Global downgrades Hormel Foods outlook on high leverage",
-      "summary": "S&P Global Ratings has downgraded Hormel Foods Corp.'s outlook from stable to negative due to sustained high leverage, which has consistently been at or above 1.8x, exceeding th...",
-      "url": "https://www.investing.com/news/stock-market-news/sp-global-downgrades-hormel-foods-outlook-on-high-leverage-93CH-4898368",
-      "source": "Investing.com",
-      "published_at": "20260911T193601",
-      "sentiment_score": -0.119438,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SPGI",
-        "HRL",
-        "MU",
-        "NVDA",
-        "ORCL"
-      ],
-      "topics": [
+        "Financial Markets",
         "Earnings",
         "Finance",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Best Buy (NYSE:BBY) Sets New 52-Week High - Should You Buy?",
-      "summary": "Best Buy (NYSE:BBY) recently hit a new 52-week high of $91.37, despite cautious analyst sentiment with a \"Hold\" consensus rating and an average price target of $85.40. The compa...",
-      "url": "https://www.marketbeat.com/instant-alerts/price-best-buy-nyse-bby-sets-new-52-week-high-should-you-buy-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T204211",
-      "sentiment_score": -0.135565,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "BBY",
-        "AMGN",
-        "TSLA"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Finance",
-        "Technology"
+        "Mergers And Acquisitions"
       ],
       "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Invitation Home Announces Quarterly Dividend of $0.30 (NYSE:INVH)",
-      "summary": "Invitation Home (NYSE: INVH) has declared a quarterly dividend of $0.30 per share, payable on October 16th to shareholders of record on September 24th, representing an annualize...",
-      "url": "https://www.marketbeat.com/instant-alerts/dividend-invitation-home-announces-quarterly-dividend-of-030-nyse-invh-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260912T005413",
-      "sentiment_score": 0.218464,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Descartes (DSGX) Posts Record Q2 Results, Analysts See 30% Upside",
+      "summary": "The Descartes Systems Group Inc. (NASDAQ:DSGX) reported record financial results for Q2 fiscal 2027, with revenue up 12% year-over-year and income from operations increasing by...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/descartes-dsgx-posts-record-q2-135154400.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260912T133643",
+      "sentiment_score": 0.413336,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "INVH"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Financial Markets"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "7,741 Shares in Merck & Co., Inc. $MRK Bought by Talon Private Wealth LLC",
-      "summary": "Talon Private Wealth LLC acquired 7,741 shares of Merck & Co., Inc. (NYSE:MRK) valued at approximately $995,000 during the second quarter, bringing institutional ownership in Me...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-7741-shares-in-merck-co-inc-mrk-bought-by-talon-private-wealth-llc-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260912T000753",
-      "sentiment_score": 0.046658,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MRK",
-        "LLY"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Talon Private Wealth LLC Acquires New Position in Advanced Micro Devices, Inc. $AMD",
-      "summary": "Talon Private Wealth LLC has acquired a new stake in Advanced Micro Devices (NASDAQ:AMD), purchasing 2,328 shares valued at approximately $1.35 million in the second quarter. Th...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-talon-private-wealth-llc-acquires-new-position-in-advanced-micro-devices-inc-amd-2026-09-11/",
-      "source": "MarketBeat",
-      "published_at": "20260911T233053",
-      "sentiment_score": 0.209932,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AMD",
-        "NVDA"
+        "DSGX"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
+        "Mergers And Acquisitions",
+        "Economy Macro",
         "Technology"
       ],
-      "quality_score": 7,
+      "quality_score": 10,
       "is_noise": false
     }
   ],
   "top_tickers": [
     {
-      "ticker": "ADBE",
+      "ticker": "HPE",
+      "mentions": 4
+    },
+    {
+      "ticker": "DELL",
+      "mentions": 4
+    },
+    {
+      "ticker": "NFLX",
       "mentions": 3
     },
     {
-      "ticker": "NVDA",
+      "ticker": "AMZN",
       "mentions": 3
     },
     {
-      "ticker": "TSLA",
-      "mentions": 3
-    },
-    {
-      "ticker": "AMGN",
-      "mentions": 2
-    },
-    {
-      "ticker": "MRK",
+      "ticker": "GS",
       "mentions": 2
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 32
+      "mentions": 49
     },
     {
       "topic": "Financial Markets",
+      "mentions": 38
+    },
+    {
+      "topic": "Technology",
       "mentions": 23
     },
     {
       "topic": "Finance",
-      "mentions": 14
+      "mentions": 15
     },
     {
-      "topic": "Technology",
-      "mentions": 8
-    },
-    {
-      "topic": "Life Sciences",
-      "mentions": 6
+      "topic": "Economy Macro",
+      "mentions": 11
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
+      "count": 18
+    },
+    {
+      "label": "Bullish",
       "count": 13
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 8
-    },
-    {
-      "label": "Bullish",
-      "count": 5
+      "count": 12
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 4
+      "count": 5
     },
     {
       "label": "Bearish",
-      "count": 2
+      "count": 1
     }
   ],
   "top_sources": [
     {
+      "source": "Yahoo Finance",
+      "count": 10
+    },
+    {
       "source": "MarketBeat",
+      "count": 8
+    },
+    {
+      "source": "24/7 Wall St.",
       "count": 7
     },
     {
-      "source": "Yahoo! Finance Canada",
+      "source": "Yahoo Finance UK",
       "count": 4
     },
     {
-      "source": "Investing.com",
-      "count": 4
-    },
-    {
-      "source": "Yahoo Finance",
-      "count": 3
-    },
-    {
-      "source": "Investing.com India",
+      "source": "Foreign Policy Journal",
       "count": 2
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with ADBE appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with HPE appearing most often and the headline tone mostly neutral."
 }
