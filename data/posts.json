@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-hpe-2026-09-13",
+    "date": "2026-09-13",
+    "runDate": "2026-09-13",
+    "createdAt": "2026-09-13T07:37:04.379704+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$HPE news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-13.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-13T07:37:02.617274+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$HPE",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "HPE",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-13T07:37:02.617274+00:00",
+      "date": "2026-09-13",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "HPE",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "The Goldman Sachs Group (NYSE:GS) Rating Lowered to \"Hold\" at Wall Street Zen",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for HPE: {'status_code': 200, 'data': {'c': 62.09, 'd': 6.87, 'dp': 12.4411, 'h': 62.15, 'l': 56.335, 'o': 56.37, 'pc': 55.22, 't': 1789156800}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "HPE",
+            "mentions": 4
+          },
+          {
+            "ticker": "DELL",
+            "mentions": 4
+          },
+          {
+            "ticker": "NFLX",
+            "mentions": 3
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 3
+          },
+          {
+            "ticker": "GS",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 19
+          },
+          {
+            "label": "Bullish",
+            "count": 12
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 12
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 5
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-gs-2026-09-13",
     "date": "2026-09-13",
     "runDate": "2026-09-13",

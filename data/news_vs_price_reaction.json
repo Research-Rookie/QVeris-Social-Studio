@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-09-12T07:18:57.628138+00:00",
-  "date": "2026-09-12",
+  "updated_at": "2026-09-13T07:37:02.617274+00:00",
+  "date": "2026-09-13",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "ADBE",
+  "symbol": "HPE",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Beyond Air at cantors conference: generation 2 is the focus",
-  "headline_source": "Investing.com India",
+  "headline": "The Goldman Sachs Group (NYSE:GS) Rating Lowered to \"Hold\" at Wall Street Zen",
+  "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for ADBE: {'status_code': 200, 'data': {'c': 252.23, 'd': 3.4, 'dp': 1.3664, 'h': 255.3, 'l': 241.51, 'o': 242.17, 'pc': 248.83, 't': 1789156800}}",
+  "price_error": "Could not parse quote data for HPE: {'status_code': 200, 'data': {'c': 62.09, 'd': 6.87, 'dp': 12.4411, 'h': 62.15, 'l': 56.335, 'o': 56.37, 'pc': 55.22, 't': 1789156800}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "ADBE",
+        "ticker": "HPE",
+        "mentions": 4
+      },
+      {
+        "ticker": "DELL",
+        "mentions": 4
+      },
+      {
+        "ticker": "NFLX",
         "mentions": 3
       },
       {
-        "ticker": "NVDA",
+        "ticker": "AMZN",
         "mentions": 3
       },
       {
-        "ticker": "TSLA",
-        "mentions": 3
-      },
-      {
-        "ticker": "AMGN",
-        "mentions": 2
-      },
-      {
-        "ticker": "MRK",
+        "ticker": "GS",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 13
-      },
-      {
-        "label": "Somewhat-Bullish",
-        "count": 8
+        "count": 19
       },
       {
         "label": "Bullish",
-        "count": 5
+        "count": 12
+      },
+      {
+        "label": "Somewhat-Bullish",
+        "count": 12
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 4
+        "count": 5
       },
       {
         "label": "Bearish",
-        "count": 2
+        "count": 1
       }
     ]
   }
