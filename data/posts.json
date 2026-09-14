@@ -1,5 +1,1330 @@
 [
   {
+    "id": "financial-news-signal-2026-09-14",
+    "date": "2026-09-14",
+    "runDate": "2026-09-14",
+    "createdAt": "2026-09-14T06:36:11.495099+00:00",
+    "contentType": "FINANCIAL NEWS SIGNAL",
+    "title": "Financial News Signal",
+    "status": "ready",
+    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 50\n🏷️ Ticker: NVDA\n📌 Theme: Earnings\n🧭 Tone: Neutral\n\nSignals from live news data: https://qveris.ai",
+    "image": "/posts/financial_news_signal_2026-09-14.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-14T06:36:09.914679+00:00",
+    "xPostId": null,
+    "primaryLabel": "Top ticker",
+    "primaryValue": "NVDA",
+    "secondaryLabel": "Tone",
+    "secondaryValue": "Neutral",
+    "topSymbol": "NVDA",
+    "topChangePct": 0,
+    "financialNewsSignal": {
+      "updated_at": "2026-09-14T06:36:09.914679+00:00",
+      "date": "2026-09-14",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Financial News Signal",
+      "articles": [
+        {
+          "title": "What is Zacks Research's Forecast for BMY FY2026 Earnings?",
+          "summary": "Zacks Research has slightly increased its FY2026 EPS forecast for Bristol Myers Squibb (BMY) to $6.86, though this remains below the analyst consensus of $6.95. The biopharmaceu...",
+          "url": "https://www.marketbeat.com/instant-alerts/estimates-what-is-zacks-researchs-forecast-for-bmy-fy2026-earnings-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T053402",
+          "sentiment_score": 0.200078,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "BMY"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences"
+          ],
+          "quality_score": 18,
+          "is_noise": false
+        },
+        {
+          "title": "Lovesac Q2 EPS Beats Estimates but Sales Missed",
+          "summary": "Lovesac reported Q2 EPS that surpassed market expectations, indicating strong profitability, despite sales falling short of projections. The company raised its FY27 EPS guidance...",
+          "url": "https://intellectia.ai/news/stock/lovesac-q2-eps-beats-estimates-but-sales-missed",
+          "source": "Intellectia AI",
+          "published_at": "20260913T215416",
+          "sentiment_score": -0.058214,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "LOVE"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 18,
+          "is_noise": false
+        },
+        {
+          "title": "What is KeyCorp's Forecast for IFF Q3 Earnings?",
+          "summary": "KeyCorp forecasts International Flavors & Fragrances (IFF) to report Q3 2026 EPS of $0.89 and Q4 EPS of $0.71, maintaining a \"Sector Weight\" rating. This comes after IFF missed...",
+          "url": "https://www.marketbeat.com/instant-alerts/estimates-what-is-keycorps-forecast-for-iff-q3-earnings-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T051604",
+          "sentiment_score": 0.149348,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "IFF",
+            "KEY"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "Dollar Tree Q3 EPS Forecast Decreased by Zacks Research",
+          "summary": "Zacks Research has decreased its Q3 2027 EPS forecast for Dollar Tree (NASDAQ:DLTR) to $0.88 from $1.38, while maintaining a full-year 2027 EPS projection of $7.95. Despite this...",
+          "url": "https://www.marketbeat.com/instant-alerts/estimates-dollar-tree-q3-eps-forecast-decreased-by-zacks-research-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T053322",
+          "sentiment_score": 0.043537,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "DLTR",
+            "DG"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Financial Markets"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Sun Life Financial Inc. (LIE) Q4 2025 Earnings Report - Results, Call & Slides",
+          "summary": "Sun Life Financial Inc. (LIE) has released its Q4 2025 earnings report, showing it beat analyst expectations. The company reported actual EPS of €1.22 against a consensus of €1....",
+          "url": "https://www.tipranks.com/stocks/de:lie/earnings/q4-2025-report?hash=earningsAudio",
+          "source": "TipRanks",
+          "published_at": "20260914T000658",
+          "sentiment_score": 0.499541,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "SLF"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Nvidia (NVDA) Looks Cheap on Piper’s Forecasts, but the Earnings Assumptions Are the Real Test",
+          "summary": "Piper Sandler initiated coverage on Nvidia (NVDA) with an Overweight rating and a $300 price target, suggesting a 34% upside. The firm views Nvidia as an AI compute leader, cont...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-looks-cheap-piper-191328167.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260913T191413",
+          "sentiment_score": 0.407315,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "NVDA"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Financial Markets"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Goldman Sachs Says AI Is Driving Half of S&P 500 Earnings Growth. That Number Cuts Both Ways.",
+          "summary": "Goldman Sachs reports that AI investment spending accounts for roughly half of the S&P 500's earnings growth, largely driven by a few hyperscale buyers like Microsoft and suppli...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-says-ai-driving-180024217.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260913T180113",
+          "sentiment_score": 0.293808,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GS",
+            "MSFT",
+            "NVDA",
+            "AVGO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Economy Macro"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Signet Jewelers (SIG) Lifts Guidance on Tariff Refunds and Cost Discipline",
+          "summary": "Signet Jewelers (SIG) announced an increase in its full-year guidance for adjusted EPS by over 10% following strong second-quarter results for FY27. The improved outlook is attr...",
+          "url": "https://uk.finance.yahoo.com/news/signet-jewelers-sig-lifts-guidance-100950018.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260913T100900",
+          "sentiment_score": 0.345384,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SIG"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Financial Markets",
+            "Economy Fiscal"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Eagle Financial Services (NASDAQ:EFSI) Lowered to \"Strong Sell\" Rating by Wall Street Zen",
+          "summary": "Wall Street Zen has downgraded Eagle Financial Services (NASDAQ:EFSI) from \"Sell\" to \"Strong Sell,\" despite the company holding a \"Moderate Buy\" consensus rating from other anal...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-eagle-financial-services-nasdaq-efsi-lowered-to-strong-sell-rating-by-wall-street-zen-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T052313",
+          "sentiment_score": -0.415254,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "EFSI"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 11,
+          "is_noise": false
+        },
+        {
+          "title": "Applied Materials (AMAT) Is Back In Focus, But What Is The Market Weighing?",
+          "summary": "Applied Materials (AMAT) has declared a quarterly cash dividend of $0.53 per share, despite a recent share price pullback, yet maintains strong year-to-date and one-year returns...",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-amat/applied-materials/news/applied-materials-amat-is-back-in-focus-but-what-is-the-mark",
+          "source": "Simply Wall Street",
+          "published_at": "20260913T222742",
+          "sentiment_score": 0.137502,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AMAT",
+            "LRCX",
+            "KLAC"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Lululemon Stock Crashes – Is It Finally a Buy?",
+          "summary": "Lululemon's stock has crashed by about 52% in 2026, reaching an eight-year low, but the company remains highly profitable and financially stable with a strong balance sheet. The...",
+          "url": "https://www.stl.news/lululemon-stock-crashes-is-it-finally-a-buy/",
+          "source": "STL.News",
+          "published_at": "20260913T144552",
+          "sentiment_score": -0.082817,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "LULU",
+            "NKE"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Geron Sees RYTELO Revenue Near High End of 2026 Guidance as Community Use Expands",
+          "summary": "Geron anticipates RYTELO's 2026 revenue to be at the higher end of its $230 million–$240 million guidance, driven by consistent growth, a 24% increase in first-half revenue, and...",
+          "url": "https://finance.yahoo.com/healthcare/articles/geron-sees-rytelo-revenue-near-140156883.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260913T140619",
+          "sentiment_score": 0.444074,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "GERN"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Seagate Sees Storage Demand Outpacing Supply as AI and Cloud Drive HDD Growth",
+          "summary": "Seagate Technology expects demand for hard disk drives (HDDs) to continue outstripping supply through fiscal 2027, driven by public-cloud spending, enterprise data centers, and...",
+          "url": "https://finance.yahoo.com/technology/articles/seagate-sees-storage-demand-outpacing-130159369.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260913T130216",
+          "sentiment_score": 0.443104,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "STX"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Sundar Pichai Says Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter. Is Google Cloud...",
+          "summary": "Alphabet's Google Cloud reported an 82% year-over-year revenue growth in Q2 2026, with its backlog reaching $514 billion, exceeding the company's trailing 12-month revenue. Whil...",
+          "url": "https://www.fool.com/investing/2026/09/13/sundar-pichai-alphabets-backlog-514-billion/",
+          "source": "The Motley Fool",
+          "published_at": "20260913T125040",
+          "sentiment_score": 0.294527,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GOOGL",
+            "GOOG",
+            "NVDA",
+            "MSFT"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Sundar Pichai Says Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter. Is Google Cloud...",
+          "summary": "Alphabet's Google Cloud revenue grew 82% year over year in the last quarter, with its backlog reaching $514 billion, surpassing the company's trailing 12-month revenue. While Se...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sundar-pichai-says-alphabets-cloud-122300685.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260913T120828",
+          "sentiment_score": 0.019564,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "GOGL"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Financial Markets"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Waverly Advisors LLC Reduces Stock Position in Diageo plc $DEO",
+          "summary": "Waverly Advisors LLC significantly reduced its stake in Diageo plc by 36.9% in the second quarter, selling 14,328 shares and retaining 24,457 shares valued at approximately $1.9...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-waverly-advisors-llc-reduces-stock-position-in-diageo-plc-deo-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T090821",
+          "sentiment_score": 0.300919,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "DEO",
+            "STZ"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "The Kraft Heinz Company Primary Exchange Listing will Change to New York Stock Exchange from Nasdaq Global Select",
+          "summary": "The Kraft Heinz Company announced that its primary exchange listing will transition from Nasdaq Global Select to the New York Stock Exchange (NYSE), effective September 14, 2026...",
+          "url": "https://www.marketscreener.com/news/the-kraft-heinz-company-primary-exchange-listing-will-change-to-new-york-stock-exchange-from-nasdaq-ce785bdcd889f72d",
+          "source": "marketscreener.com",
+          "published_at": "20260913T203500",
+          "sentiment_score": 0.037778,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "KHC",
+            "HRL",
+            "SJM",
+            "PEP"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 8,
+          "is_noise": false
+        },
+        {
+          "title": "Boston Scientific (BSX) Didn’t Miss on Demand or Devices. A Cyberattack Just Broke Its Guidance.",
+          "summary": "Boston Scientific (BSX) experienced a 2.3% drop in early trading following a cyberattack on August 25, 2026, which disrupted its manufacturing and shipping. The company now expe...",
+          "url": "https://finance.yahoo.com/healthcare/articles/boston-scientific-bsx-didn-t-193111827.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260913T193136",
+          "sentiment_score": -0.158169,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "BSX",
+            "MDT"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Financial Markets",
+            "Technology",
+            "Manufacturing"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Basic earnings per share (basic EPS) of ONEOK, Inc. – SIX:OKE1.USD",
+          "summary": "This article displays the basic earnings per share (basic EPS) for ONEOK, Inc. (OKE1.USD) traded on the SIX Swiss Exchange. The content is primarily a financial data point prese...",
+          "url": "https://www.tradingview.com/symbols/SIX-OKE1.USD/financials-income-statement/earnings-per-share-basic/",
+          "source": "TradingView",
+          "published_at": "20260913T174257",
+          "sentiment_score": 0.015533,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "OKE"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Community Trust Bancorp, Inc. (NASDAQ:CTBI) to Issue Quarterly Dividend of $0.65",
+          "summary": "Community Trust Bancorp, Inc. (NASDAQ:CTBI) has declared a quarterly dividend of $0.65 per share, marking a 22.6% increase from its previous dividend. This dividend is payable o...",
+          "url": "https://www.marketbeat.com/instant-alerts/dividend-community-trust-bancorp-inc-nasdaq-ctbi-to-issue-quarterly-dividend-of-065-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T141351",
+          "sentiment_score": 0.456551,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "CTBI"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Public Storage (NYSE:PSA) Plans $3.00 Quarterly Dividend",
+          "summary": "Public Storage (NYSE:PSA) has declared a $3.00-per-share quarterly dividend, payable on October 6th to shareholders of record on September 15th. While the current payout ratio i...",
+          "url": "https://www.marketbeat.com/instant-alerts/dividend-public-storage-nyse-psa-plans-300-quarterly-dividend-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T141344",
+          "sentiment_score": 0.38369,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "PSA"
+          ],
+          "topics": [
+            "Earnings",
+            "Real Estate",
+            "Finance",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "InvestingPro Fair Value predicted 57% drop in Rackspace Technology By Investing.com",
+          "summary": "InvestingPro's Fair Value analysis accurately predicted a 57% decline in Rackspace Technology (NASDAQ:RXT) three months before it occurred, identifying the stock as significantl...",
+          "url": "https://www.investing.com/news/investment-ideas/investingpro-fair-value-predicted-57-drop-in-rackspace-technology-93CH-4898727",
+          "source": "Investing.com",
+          "published_at": "20260913T111022",
+          "sentiment_score": 0.000361,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "RXT"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "36,400 Shares in Qiagen N.V. $QGEN Purchased by WINTON GROUP Ltd",
+          "summary": "WINTON GROUP Ltd recently acquired 36,400 shares of Qiagen N.V. (NYSE:QGEN) for approximately $1.42 million during the second quarter. This purchase contributes to the roughly 7...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-36400-shares-in-qiagen-nv-qgen-purchased-by-winton-group-ltd-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T090905",
+          "sentiment_score": 0.300076,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "QGEN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "VIRGINIA RETIREMENT SYSTEMS ET Al Invests $1.27 Million in Affiliated Managers Group, Inc. $AMG",
+          "summary": "Virginia Retirement Systems Et Al recently invested $1.27 million in Affiliated Managers Group (NYSE:AMG) by purchasing 3,760 shares. The company has seen significant institutio...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-invests-127-million-in-affiliated-managers-group-inc-amg-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T090831",
+          "sentiment_score": 0.029115,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "MGRD"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Tidal Investments LLC Buys 38,104 Shares of Diageo plc $DEO",
+          "summary": "Tidal Investments LLC increased its stake in Diageo plc (NYSE:DEO) by 53.2% in the second quarter, acquiring an additional 38,104 shares, bringing its total holdings to 109,743...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-tidal-investments-llc-buys-38104-shares-of-diageo-plc-deo-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T090821",
+          "sentiment_score": 0.103103,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "DEO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "14,300 Shares in Nabors Industries Ltd. $NBR Purchased by VIRGINIA RETIREMENT SYSTEMS ET Al",
+          "summary": "Virginia Retirement Systems recently acquired 14,300 shares of Nabors Industries Ltd. (NYSE:NBR), valued at approximately $1.2 million, giving it a 0.09% stake in the company. I...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-14300-shares-in-nabors-industries-ltd-nbr-purchased-by-virginia-retirement-systems-et-al-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T090821",
+          "sentiment_score": 0.040343,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NBR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "T-Mobile US Sees Broadband, AI Growth as CFO Osvaldik Plans 2027 Retirement",
+          "summary": "T-Mobile US anticipates continued growth in wireless, broadband, and business services, expanding into areas like AI-enabled customer care and financial services. CFO Peter Osva...",
+          "url": "https://finance.yahoo.com/technology/ai/articles/t-mobile-us-sees-broadband-000201471.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260914T000104",
+          "sentiment_score": 0.270527,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "TMUS",
+            "COF",
+            "GEV"
+          ],
+          "topics": [
+            "Technology",
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Netflix Stock Will Be Worth More by 2028: My Case for Buying NFLX Now",
+          "summary": "Despite a significant drop in its stock price, Netflix is presented as a strong buying opportunity due to its consistent core strategy, expanding operating margins, and efficien...",
+          "url": "https://www.fool.com/investing/2026/09/13/netflix-stock-will-be-worth-more-by-2028-my-case-f/",
+          "source": "The Motley Fool",
+          "published_at": "20260913T234211",
+          "sentiment_score": 0.513458,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "NFLX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Adobe's user growth is soaring, but its stock rating isn't",
+          "summary": "Adobe Inc. (ADBE) reported its total user base surpassed one billion for the first time, along with record revenue and its fastest user growth in company history during its fisc...",
+          "url": "https://sg.finance.yahoo.com/news/adobes-user-growth-soaring-stock-214700533.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260913T214708",
+          "sentiment_score": -0.192041,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "ADBE",
+            "MS"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Cenovus Energy Inc. (TSE:CVE) to Issue Quarterly Dividend of $0.22",
+          "summary": "Cenovus Energy Inc. (TSE:CVE) has declared a quarterly dividend of C$0.22 per share, payable on September 29th to shareholders of record on the same day, resulting in an indicat...",
+          "url": "https://www.marketbeat.com/instant-alerts/dividend-cenovus-energy-inc-tse-cve-to-issue-quarterly-dividend-of-022-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T141340",
+          "sentiment_score": 0.258099,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CVE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "3 Super-Regional Banks Still Crushing Dividend Payouts Even After the Rate Whiplash",
+          "summary": "Despite recent financial stress tests on regional banks, a select group of super-regional banks have maintained strong dividend payouts, with some even increasing them. This art...",
+          "url": "https://247wallst.com/investing/2026/09/13/3-super-regional-banks-still-crushing-dividend-payouts-even-after-the-rate-whiplash/",
+          "source": "24/7 Wall St.",
+          "published_at": "20260913T134409",
+          "sentiment_score": 0.412312,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "USB",
+            "PNC",
+            "TFC"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "CPI Aerostructures Inc (FRA:WCP) Stock Price, Trades & News",
+          "summary": "This article provides a detailed overview of CPI Aerostructures Inc (FRA:WCP), including its current stock price, key financial metrics, business description, and various financ...",
+          "url": "https://www.gurufocus.com/stock/FRA:WCP/summary?mobile",
+          "source": "GuruFocus",
+          "published_at": "20260913T125831",
+          "sentiment_score": 0.056429,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CVU",
+            "RTX",
+            "BA",
+            "LMT",
+            "GD"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "If I put £9,999.86 into Lloyds shares, how much passive income could I earn over the next 5 years?",
+          "summary": "This article analyzes the potential passive income from investing £9,999.86 in Lloyds Banking Group (LSE:LLOY) shares over the next five years, based on analyst dividend forecas...",
+          "url": "https://uk.finance.yahoo.com/news/put-9-999-86-lloyds-073000841.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260913T123000",
+          "sentiment_score": 0.220649,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "LYG"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance",
+            "Earnings",
+            "Economy Fiscal"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Engineers Gate Manager LP Buys Shares of 204,843 Capri Holdings Limited $CPRI",
+          "summary": "Engineers Gate Manager LP recently acquired 204,843 shares of Capri Holdings Limited, valued at approximately $3.8 million, making up 0.18% of the company's stock. Capri Holding...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-engineers-gate-manager-lp-buys-shares-of-204843-capri-holdings-limited-cpri-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T090915",
+          "sentiment_score": 0.060383,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CPRI",
+            "TPR",
+            "RL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "REX American Resources (REX) Notches A Record Quarter, Then Doubts Creep In",
+          "summary": "REX American Resources (REX) reported a record second quarter with $1.06 net income per diluted share, marking its 24th consecutive profitable quarter, driven by strong crush ma...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rex-american-resources-rex-notches-103748951.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260913T090913",
+          "sentiment_score": 0.09638,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "REX",
+            "COIN"
+          ],
+          "topics": [
+            "Earnings",
+            "Economy Fiscal"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "National Pension Service Acquires 65,383 Shares of Casey's General Stores, Inc. $CASY",
+          "summary": "National Pension Service significantly increased its stake in Casey's General Stores by 3,138.9%, acquiring an additional 65,383 shares, bringing its total to 67,466 shares valu...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-national-pension-service-acquires-65383-shares-of-caseys-general-stores-inc-casy-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T090903",
+          "sentiment_score": -0.216074,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "CASY"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "VIRGINIA RETIREMENT SYSTEMS ET Al Invests $1.16 Million in National Beverage Corp. $FIZZ",
+          "summary": "Virginia Retirement Systems purchased 37,193 shares of National Beverage Corp. (FIZZ) during the second quarter, valued at approximately $1.16 million, increasing institutional...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-invests-116-million-in-national-beverage-corp-fizz-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T090858",
+          "sentiment_score": -0.205735,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "FIZZ"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Novartis (NVS) Just Handed Monte Rosa (GLUE) A $50M Milestone",
+          "summary": "Novartis has paid Monte Rosa Therapeutics a $50 million milestone payment after dosing the first patient in a Phase 2 trial for MRT-6160, a VAV1-targeted drug for Sjögren's dise...",
+          "url": "https://finance.yahoo.com/healthcare/articles/novartis-nvs-just-handed-monte-092912734.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260913T090837",
+          "sentiment_score": 0.261753,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GLUE"
+          ],
+          "topics": [
+            "Life Sciences",
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "WINTON GROUP Ltd Takes Position in Loar Holdings Inc. $LOAR",
+          "summary": "WINTON GROUP Ltd has acquired a new stake in Loar Holdings Inc., purchasing 18,600 shares valued at approximately $1.5 million. This move aligns with increased institutional inv...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-winton-group-ltd-takes-position-in-loar-holdings-inc-loar-2026-09-13/",
+          "source": "MarketBeat",
+          "published_at": "20260913T090835",
+          "sentiment_score": 0.43198,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "LOAR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "How Could Franklin Templeton (BEN) Korea Pick Shape Its Asia Pacific Growth?",
+          "summary": "Franklin Templeton has appointed Kim In-keun as President and CEO of Franklin Templeton Korea, a move designed to strengthen its presence in the Asia-Pacific region, particularl...",
+          "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-ben/franklin-templeton/news/how-could-franklin-templeton-ben-korea-pick-shape-its-asia-p",
+          "source": "Simply Wall Street",
+          "published_at": "20260913T205351",
+          "sentiment_score": 0.169985,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "BEN",
+            "BLK",
+            "BX"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Should You Buy Bristol Myers Squibb Stock Right Now for the Yield Alone?",
+          "summary": "Bristol Myers Squibb (NYSE: BMY) offers a nearly 4% forward yield and has a long dividend growth track record, making it appear attractive. Despite concerns about upcoming paten...",
+          "url": "https://currently.att.yahoo.com/att/buy-bristol-myers-squibb-stock-195300266.html",
+          "source": "Currently.com",
+          "published_at": "20260913T195300",
+          "sentiment_score": 0.221237,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "BMY",
+            "NFLX"
+          ],
+          "topics": [
+            "Life Sciences",
+            "Financial Markets",
+            "Mergers And Acquisitions",
+            "Earnings"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "GE Healthcare in Talks To Acquire Sofie Biosciences, Maker of Cancer Scan Chemicals",
+          "summary": "GE Healthcare Technologies (NASDAQ: GEHC) is reportedly in talks to acquire Sofie Biosciences for $1 billion to bolster its pharmaceutical diagnostics division, which manufactur...",
+          "url": "https://www.benzinga.com/markets/equities/26/09/61755546/ge-healthcare-in-talks-to-acquire-sofie-biosciences-a-maker-of-cancer-scan-chemicals",
+          "source": "Benzinga",
+          "published_at": "20260913T194604",
+          "sentiment_score": 0.033345,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "GEHC",
+            "GE",
+            "GEV"
+          ],
+          "topics": [
+            "Mergers And Acquisitions",
+            "Life Sciences",
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Two Medical Device Dividend Giants, One Better Buy: Medtronic vs. Abbott",
+          "summary": "This article compares two medical device dividend giants, Medtronic (MDT) and Abbott Laboratories (ABT), to determine which is the better buy for retirement investors. It analyz...",
+          "url": "https://247wallst.com/investing/2026/09/13/two-medical-device-dividend-giants-one-better-buy-medtronic-vs-abbott/?tpid=1660259&tv=link&tc=in_content",
+          "source": "24/7 Wall St.",
+          "published_at": "20260913T143657",
+          "sentiment_score": 0.156161,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MDT",
+            "ABT"
+          ],
+          "topics": [
+            "Life Sciences",
+            "Financial Markets",
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "GLXG: Galaxy Payroll Group Ltd Latest Stock Price, Analysis, News and Trading Ideas",
+          "summary": "This article provides a brief overview of Galaxy Payroll Group Ltd (GLXG), including its current stock price of $1.10, an increase of 14.39%, and key financial metrics like mark...",
+          "url": "https://stocktwits.com/symbol/GLXG",
+          "source": "Stocktwits",
+          "published_at": "20260913T134010",
+          "sentiment_score": -0.062687,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "GLXG",
+            "LULU"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "PayPal Stock Is Down But Is the Company Broken?",
+          "summary": "PayPal's stock has experienced a significant decline from its pandemic-era highs, leading investors to question its future growth and competitive position amidst new threats lik...",
+          "url": "https://www.stl.news/paypal-stock-is-down-but-is-the-company-broken/",
+          "source": "STL.News",
+          "published_at": "20260913T132613",
+          "sentiment_score": 0.04656,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PYPL",
+            "NKE",
+            "AAPL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Finance"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Elon Musk's Starlink Not a Threat to Wireless Carriers, Says T-Mobile CFO: ‘You Can Have a Million Satellites…’",
+          "summary": "T-Mobile's CFO, Pete Osvaldik, asserts that Elon Musk's Starlink is not a competitive threat to traditional wireless carriers, primarily due to fundamental physics limiting sate...",
+          "url": "https://finance.yahoo.com/technology/articles/elon-musks-starlink-not-threat-233012695.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260914T054257",
+          "sentiment_score": 0.113508,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "TMUS",
+            "TSLA",
+            "C",
+            "GOOGL",
+            "GOOG"
+          ],
+          "topics": [
+            "Technology",
+            "Earnings",
+            "Energy Transportation"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "HAM:CDW Dividend: 0.44% Yield, $0.63/Share — History & Dates",
+          "summary": "CDW Corp (HAM:CDW) offers a 0.44% dividend yield, paying $0.63 per share annually, with a 5-year dividend growth rate of 11.2%. The company has been consistently paying dividend...",
+          "url": "https://www.gurufocus.com/stock/HAM:CDW/dividend",
+          "source": "GuruFocus",
+          "published_at": "20260913T185549",
+          "sentiment_score": 0.275473,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CDW"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Cummins Returned 512% in a Decade. Its Dividend Did Something Even More Impressive",
+          "summary": "Cummins (CMI) generated a 512% return over the last decade, transforming a $1,000 investment into $6,120, but its dividend growth was even more remarkable, increasing for 17 con...",
+          "url": "https://247wallst.com/investing/2026/09/13/if-you-invested-1000-in-cummins-the-dividend-tells-a-stranger-story-than-the-stock/",
+          "source": "24/7 Wall St.",
+          "published_at": "20260913T154813",
+          "sentiment_score": 0.357432,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "CMI",
+            "DELL",
+            "HPE"
+          ],
+          "topics": [
+            "Earnings",
+            "Manufacturing",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "PureCycle (PCT) Turns Lab Promises Into Detergent Cap Reality",
+          "summary": "PureCycle Technologies (PCT) announced its Q2 2026 results, highlighting the commercial production of Downy detergent caps using its PureFive resin and upcoming use in Tide and...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/purecycle-pct-turns-lab-promises-133324594.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260913T133300",
+          "sentiment_score": 0.214568,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "PCT",
+            "PG",
+            "AMCR"
+          ],
+          "topics": [
+            "Earnings",
+            "Manufacturing",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Salesforce Spent a Record $27.1 Billion on Buybacks in One Quarter. Here Is Why That Signal Matters.",
+          "summary": "Salesforce has aggressively bought back its stock, spending a record $27.1 billion in Q1 and continuing repurchases in Q2. This strategy has been validated by a significant 40%...",
+          "url": "https://www.fool.com/investing/2026/09/13/salesforce-spent-a-record-271-billion-on-buybacks/",
+          "source": "The Motley Fool",
+          "published_at": "20260913T114807",
+          "sentiment_score": 0.342407,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CRM",
+            "ADBE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        }
+      ],
+      "article_count": 50,
+      "top_ticker": "NVDA",
+      "top_topic": "Earnings",
+      "dominant_sentiment": "Neutral",
+      "top_story": "What is Zacks Research's Forecast for BMY FY2026 Earnings?",
+      "signal_articles": [
+        {
+          "title": "What is Zacks Research's Forecast for BMY FY2026 Earnings?",
+          "summary": "Zacks Research has slightly increased its FY2026 EPS forecast for Bristol Myers Squibb (BMY) to $6.86, though this remains below the analyst consensus of $6.95. The biopharmaceu...",
+          "url": "https://www.marketbeat.com/instant-alerts/estimates-what-is-zacks-researchs-forecast-for-bmy-fy2026-earnings-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T053402",
+          "sentiment_score": 0.200078,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "BMY"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences"
+          ],
+          "quality_score": 18,
+          "is_noise": false
+        },
+        {
+          "title": "Lovesac Q2 EPS Beats Estimates but Sales Missed",
+          "summary": "Lovesac reported Q2 EPS that surpassed market expectations, indicating strong profitability, despite sales falling short of projections. The company raised its FY27 EPS guidance...",
+          "url": "https://intellectia.ai/news/stock/lovesac-q2-eps-beats-estimates-but-sales-missed",
+          "source": "Intellectia AI",
+          "published_at": "20260913T215416",
+          "sentiment_score": -0.058214,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "LOVE"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 18,
+          "is_noise": false
+        },
+        {
+          "title": "What is KeyCorp's Forecast for IFF Q3 Earnings?",
+          "summary": "KeyCorp forecasts International Flavors & Fragrances (IFF) to report Q3 2026 EPS of $0.89 and Q4 EPS of $0.71, maintaining a \"Sector Weight\" rating. This comes after IFF missed...",
+          "url": "https://www.marketbeat.com/instant-alerts/estimates-what-is-keycorps-forecast-for-iff-q3-earnings-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T051604",
+          "sentiment_score": 0.149348,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "IFF",
+            "KEY"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "Dollar Tree Q3 EPS Forecast Decreased by Zacks Research",
+          "summary": "Zacks Research has decreased its Q3 2027 EPS forecast for Dollar Tree (NASDAQ:DLTR) to $0.88 from $1.38, while maintaining a full-year 2027 EPS projection of $7.95. Despite this...",
+          "url": "https://www.marketbeat.com/instant-alerts/estimates-dollar-tree-q3-eps-forecast-decreased-by-zacks-research-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T053322",
+          "sentiment_score": 0.043537,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "DLTR",
+            "DG"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Financial Markets"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Sun Life Financial Inc. (LIE) Q4 2025 Earnings Report - Results, Call & Slides",
+          "summary": "Sun Life Financial Inc. (LIE) has released its Q4 2025 earnings report, showing it beat analyst expectations. The company reported actual EPS of €1.22 against a consensus of €1....",
+          "url": "https://www.tipranks.com/stocks/de:lie/earnings/q4-2025-report?hash=earningsAudio",
+          "source": "TipRanks",
+          "published_at": "20260914T000658",
+          "sentiment_score": 0.499541,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "SLF"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Nvidia (NVDA) Looks Cheap on Piper’s Forecasts, but the Earnings Assumptions Are the Real Test",
+          "summary": "Piper Sandler initiated coverage on Nvidia (NVDA) with an Overweight rating and a $300 price target, suggesting a 34% upside. The firm views Nvidia as an AI compute leader, cont...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-looks-cheap-piper-191328167.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260913T191413",
+          "sentiment_score": 0.407315,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "NVDA"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Financial Markets"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Goldman Sachs Says AI Is Driving Half of S&P 500 Earnings Growth. That Number Cuts Both Ways.",
+          "summary": "Goldman Sachs reports that AI investment spending accounts for roughly half of the S&P 500's earnings growth, largely driven by a few hyperscale buyers like Microsoft and suppli...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-says-ai-driving-180024217.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260913T180113",
+          "sentiment_score": 0.293808,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GS",
+            "MSFT",
+            "NVDA",
+            "AVGO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Economy Macro"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Signet Jewelers (SIG) Lifts Guidance on Tariff Refunds and Cost Discipline",
+          "summary": "Signet Jewelers (SIG) announced an increase in its full-year guidance for adjusted EPS by over 10% following strong second-quarter results for FY27. The improved outlook is attr...",
+          "url": "https://uk.finance.yahoo.com/news/signet-jewelers-sig-lifts-guidance-100950018.html",
+          "source": "Yahoo Finance UK",
+          "published_at": "20260913T100900",
+          "sentiment_score": 0.345384,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SIG"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Financial Markets",
+            "Economy Fiscal"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Eagle Financial Services (NASDAQ:EFSI) Lowered to \"Strong Sell\" Rating by Wall Street Zen",
+          "summary": "Wall Street Zen has downgraded Eagle Financial Services (NASDAQ:EFSI) from \"Sell\" to \"Strong Sell,\" despite the company holding a \"Moderate Buy\" consensus rating from other anal...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-eagle-financial-services-nasdaq-efsi-lowered-to-strong-sell-rating-by-wall-street-zen-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T052313",
+          "sentiment_score": -0.415254,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "EFSI"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 11,
+          "is_noise": false
+        },
+        {
+          "title": "Applied Materials (AMAT) Is Back In Focus, But What Is The Market Weighing?",
+          "summary": "Applied Materials (AMAT) has declared a quarterly cash dividend of $0.53 per share, despite a recent share price pullback, yet maintains strong year-to-date and one-year returns...",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-amat/applied-materials/news/applied-materials-amat-is-back-in-focus-but-what-is-the-mark",
+          "source": "Simply Wall Street",
+          "published_at": "20260913T222742",
+          "sentiment_score": 0.137502,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AMAT",
+            "LRCX",
+            "KLAC"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        }
+      ],
+      "top_tickers": [
+        {
+          "ticker": "NVDA",
+          "mentions": 3
+        },
+        {
+          "ticker": "BMY",
+          "mentions": 2
+        },
+        {
+          "ticker": "MSFT",
+          "mentions": 2
+        },
+        {
+          "ticker": "LULU",
+          "mentions": 2
+        },
+        {
+          "ticker": "NKE",
+          "mentions": 2
+        }
+      ],
+      "top_topics": [
+        {
+          "topic": "Earnings",
+          "mentions": 50
+        },
+        {
+          "topic": "Financial Markets",
+          "mentions": 39
+        },
+        {
+          "topic": "Finance",
+          "mentions": 21
+        },
+        {
+          "topic": "Technology",
+          "mentions": 14
+        },
+        {
+          "topic": "Life Sciences",
+          "mentions": 8
+        }
+      ],
+      "sentiment_counts": [
+        {
+          "label": "Neutral",
+          "count": 19
+        },
+        {
+          "label": "Somewhat-Bullish",
+          "count": 16
+        },
+        {
+          "label": "Bullish",
+          "count": 10
+        },
+        {
+          "label": "Somewhat-Bearish",
+          "count": 4
+        },
+        {
+          "label": "Bearish",
+          "count": 1
+        }
+      ],
+      "top_sources": [
+        {
+          "source": "MarketBeat",
+          "count": 16
+        },
+        {
+          "source": "Yahoo Finance",
+          "count": 11
+        },
+        {
+          "source": "The Motley Fool",
+          "count": 3
+        },
+        {
+          "source": "24/7 Wall St.",
+          "count": 3
+        },
+        {
+          "source": "Yahoo Finance UK",
+          "count": 2
+        }
+      ],
+      "takeaway": "News flow is centered on Earnings, with NVDA appearing most often and the headline tone mostly neutral."
+    }
+  },
+  {
     "id": "polymarket-pulse-2026-09-14",
     "date": "2026-09-14",
     "runDate": "2026-09-14",
