@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-13T07:37:02.617274+00:00",
-  "date": "2026-09-13",
+  "updated_at": "2026-09-14T08:04:07.222435+00:00",
+  "date": "2026-09-14",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "HPE",
-  "news_tone": "Neutral",
+  "symbol": "MSFT",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "The Goldman Sachs Group (NYSE:GS) Rating Lowered to \"Hold\" at Wall Street Zen",
+  "headline": "What is Zacks Research's Forecast for BMY FY2026 Earnings?",
   "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,47 +15,47 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for HPE: {'status_code': 200, 'data': {'c': 62.09, 'd': 6.87, 'dp': 12.4411, 'h': 62.15, 'l': 56.335, 'o': 56.37, 'pc': 55.22, 't': 1789156800}}",
+  "price_error": "Could not parse quote data for MSFT: {'status_code': 200, 'data': {'c': 495.63, 'd': 3.19, 'dp': 0.6478, 'h': 498.97, 'l': 492.58, 'o': 495.65, 'pc': 492.44, 't': 1789156800}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "HPE",
+        "ticker": "MSFT",
         "mentions": 4
       },
       {
-        "ticker": "DELL",
-        "mentions": 4
-      },
-      {
-        "ticker": "NFLX",
+        "ticker": "MS",
         "mentions": 3
+      },
+      {
+        "ticker": "NVDA",
+        "mentions": 3
+      },
+      {
+        "ticker": "BMY",
+        "mentions": 2
       },
       {
         "ticker": "AMZN",
-        "mentions": 3
-      },
-      {
-        "ticker": "GS",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
+        "label": "Somewhat-Bullish",
+        "count": 18
+      },
+      {
         "label": "Neutral",
-        "count": 19
+        "count": 18
       },
       {
         "label": "Bullish",
-        "count": 12
-      },
-      {
-        "label": "Somewhat-Bullish",
-        "count": 12
+        "count": 9
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 5
+        "count": 4
       },
       {
         "label": "Bearish",

@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-msft-2026-09-14",
+    "date": "2026-09-14",
+    "runDate": "2026-09-14",
+    "createdAt": "2026-09-14T08:04:08.794844+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$MSFT news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-14.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-14T08:04:07.222435+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MSFT",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "MSFT",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-14T08:04:07.222435+00:00",
+      "date": "2026-09-14",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "MSFT",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "What is Zacks Research's Forecast for BMY FY2026 Earnings?",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for MSFT: {'status_code': 200, 'data': {'c': 495.63, 'd': 3.19, 'dp': 0.6478, 'h': 498.97, 'l': 492.58, 'o': 495.65, 'pc': 492.44, 't': 1789156800}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "MSFT",
+            "mentions": 4
+          },
+          {
+            "ticker": "MS",
+            "mentions": 3
+          },
+          {
+            "ticker": "NVDA",
+            "mentions": 3
+          },
+          {
+            "ticker": "BMY",
+            "mentions": 2
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 18
+          },
+          {
+            "label": "Neutral",
+            "count": 18
+          },
+          {
+            "label": "Bullish",
+            "count": 9
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 4
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-nvda-2026-09-14",
     "date": "2026-09-14",
     "runDate": "2026-09-14",
