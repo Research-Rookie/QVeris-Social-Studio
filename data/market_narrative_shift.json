@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-09-13T07:04:15.449993+00:00",
-  "date": "2026-09-13",
+  "updated_at": "2026-09-14T07:27:20.928535+00:00",
+  "date": "2026-09-14",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "GS",
-  "shift_label": "Narrative steady",
-  "sentiment_delta": -0.0694,
-  "baseline_label": "2026-09-06",
+  "symbol": "NVDA",
+  "shift_label": "Turning bullish",
+  "sentiment_delta": 0.3699,
+  "baseline_label": "2026-09-12",
   "current": {
-    "date": "2026-09-13",
-    "symbol": "GS",
+    "date": "2026-09-14",
+    "symbol": "NVDA",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.0205,
+    "sentiment_score": 0.4242,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,11 +21,89 @@
         "count": 1
       },
       {
-        "label": "Finance",
+        "label": "Technology",
         "count": 1
       },
       {
         "label": "Financial Markets",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "piper",
+        "count": 2
+      },
+      {
+        "label": "looks",
+        "count": 1
+      },
+      {
+        "label": "cheap",
+        "count": 1
+      },
+      {
+        "label": "forecasts",
+        "count": 1
+      },
+      {
+        "label": "but",
+        "count": 1
+      },
+      {
+        "label": "earnings",
+        "count": 1
+      },
+      {
+        "label": "assumptions",
+        "count": 1
+      },
+      {
+        "label": "real",
+        "count": 1
+      },
+      {
+        "label": "test",
+        "count": 1
+      },
+      {
+        "label": "sandler",
+        "count": 1
+      },
+      {
+        "label": "initiated",
+        "count": 1
+      },
+      {
+        "label": "coverage",
+        "count": 1
+      }
+    ],
+    "headline": "Nvidia (NVDA) Looks Cheap on Piper’s Forecasts, but the Earnings Assumptions Are the Real Test",
+    "headline_source": "Yahoo Finance"
+  },
+  "previous": {
+    "date": "2026-09-12",
+    "symbol": "NVDA",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.0543,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 2
+      },
+      {
+        "label": "Financial Markets",
+        "count": 2
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
         "count": 1
       },
       {
@@ -35,143 +113,77 @@
     ],
     "keywords": [
       {
-        "label": "goldman",
-        "count": 2
-      },
-      {
-        "label": "sachs",
-        "count": 2
-      },
-      {
-        "label": "hold",
-        "count": 2
-      },
-      {
-        "label": "wall",
-        "count": 2
-      },
-      {
-        "label": "street",
-        "count": 2
-      },
-      {
-        "label": "zen",
-        "count": 2
-      },
-      {
-        "label": "buy",
-        "count": 2
-      },
-      {
-        "label": "rating",
-        "count": 1
-      },
-      {
-        "label": "lowered",
-        "count": 1
-      },
-      {
         "label": "has",
-        "count": 1
+        "count": 3
       },
       {
-        "label": "downgraded",
-        "count": 1
+        "label": "global",
+        "count": 2
       },
       {
-        "label": "though",
-        "count": 1
+        "label": "hormel",
+        "count": 2
+      },
+      {
+        "label": "foods",
+        "count": 2
+      },
+      {
+        "label": "outlook",
+        "count": 2
+      },
+      {
+        "label": "high",
+        "count": 2
+      },
+      {
+        "label": "leverage",
+        "count": 2
+      },
+      {
+        "label": "talon",
+        "count": 2
+      },
+      {
+        "label": "private",
+        "count": 2
+      },
+      {
+        "label": "wealth",
+        "count": 2
+      },
+      {
+        "label": "llc",
+        "count": 2
+      },
+      {
+        "label": "advanced",
+        "count": 2
       }
     ],
-    "headline": "The Goldman Sachs Group (NYSE:GS) Rating Lowered to \"Hold\" at Wall Street Zen",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-09-06",
-    "symbol": "GS",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.0899,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "ferguson",
-        "count": 2
-      },
-      {
-        "label": "ferg",
-        "count": 2
-      },
-      {
-        "label": "upgraded",
-        "count": 2
-      },
-      {
-        "label": "jefferies",
-        "count": 2
-      },
-      {
-        "label": "financial",
-        "count": 2
-      },
-      {
-        "label": "rating",
-        "count": 2
-      },
-      {
-        "label": "strong-buy",
-        "count": 1
-      },
-      {
-        "label": "contributing",
-        "count": 1
-      },
-      {
-        "label": "moderate",
-        "count": 1
-      },
-      {
-        "label": "buy",
-        "count": 1
-      },
-      {
-        "label": "consensus",
-        "count": 1
-      },
-      {
-        "label": "average",
-        "count": 1
-      }
-    ],
-    "headline": "Ferguson (NYSE:FERG) Upgraded at Jefferies Financial Group",
-    "headline_source": "MarketBeat"
+    "headline": "S&P Global downgrades Hormel Foods outlook on high leverage",
+    "headline_source": "Investing.com"
   },
   "emerging_themes": [
-    "Finance",
     "Technology",
-    "Earnings"
+    "Earnings",
+    "Financial Markets"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Earnings",
+    "Financial Markets",
+    "Finance"
+  ],
   "emerging_keywords": [
-    "goldman",
-    "sachs",
-    "hold"
+    "piper",
+    "looks",
+    "cheap"
   ],
   "fading_keywords": [
-    "ferguson",
-    "ferg",
-    "upgraded"
+    "has",
+    "global",
+    "hormel"
   ],
-  "takeaway": "GS's narrative is narrative steady: sentiment moved -0.07, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "NVDA's narrative is turning bullish: sentiment moved +0.37, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

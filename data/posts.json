@@ -1,5 +1,214 @@
 [
   {
+    "id": "market-narrative-shift-nvda-2026-09-14",
+    "date": "2026-09-14",
+    "runDate": "2026-09-14",
+    "createdAt": "2026-09-14T07:27:23.922613+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $NVDA",
+    "status": "ready",
+    "tweet": "What changed in $NVDA's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.37\n📌 Top theme: Earnings\n🔎 Emerging term: piper\n📰 Coverage: 1 vs 2\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_NVDA_2026-09-14.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-14T07:27:20.928535+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NVDA",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "NVDA",
+    "topChangePct": 36.99,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-14T07:27:20.928535+00:00",
+      "date": "2026-09-14",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "NVDA",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.3699,
+      "baseline_label": "2026-09-12",
+      "current": {
+        "date": "2026-09-14",
+        "symbol": "NVDA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.4242,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "piper",
+            "count": 2
+          },
+          {
+            "label": "looks",
+            "count": 1
+          },
+          {
+            "label": "cheap",
+            "count": 1
+          },
+          {
+            "label": "forecasts",
+            "count": 1
+          },
+          {
+            "label": "but",
+            "count": 1
+          },
+          {
+            "label": "earnings",
+            "count": 1
+          },
+          {
+            "label": "assumptions",
+            "count": 1
+          },
+          {
+            "label": "real",
+            "count": 1
+          },
+          {
+            "label": "test",
+            "count": 1
+          },
+          {
+            "label": "sandler",
+            "count": 1
+          },
+          {
+            "label": "initiated",
+            "count": 1
+          },
+          {
+            "label": "coverage",
+            "count": 1
+          }
+        ],
+        "headline": "Nvidia (NVDA) Looks Cheap on Piper’s Forecasts, but the Earnings Assumptions Are the Real Test",
+        "headline_source": "Yahoo Finance"
+      },
+      "previous": {
+        "date": "2026-09-12",
+        "symbol": "NVDA",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.0543,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "has",
+            "count": 3
+          },
+          {
+            "label": "global",
+            "count": 2
+          },
+          {
+            "label": "hormel",
+            "count": 2
+          },
+          {
+            "label": "foods",
+            "count": 2
+          },
+          {
+            "label": "outlook",
+            "count": 2
+          },
+          {
+            "label": "high",
+            "count": 2
+          },
+          {
+            "label": "leverage",
+            "count": 2
+          },
+          {
+            "label": "talon",
+            "count": 2
+          },
+          {
+            "label": "private",
+            "count": 2
+          },
+          {
+            "label": "wealth",
+            "count": 2
+          },
+          {
+            "label": "llc",
+            "count": 2
+          },
+          {
+            "label": "advanced",
+            "count": 2
+          }
+        ],
+        "headline": "S&P Global downgrades Hormel Foods outlook on high leverage",
+        "headline_source": "Investing.com"
+      },
+      "emerging_themes": [
+        "Technology",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "emerging_keywords": [
+        "piper",
+        "looks",
+        "cheap"
+      ],
+      "fading_keywords": [
+        "has",
+        "global",
+        "hormel"
+      ],
+      "takeaway": "NVDA's narrative is turning bullish: sentiment moved +0.37, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-14",
     "date": "2026-09-14",
     "runDate": "2026-09-14",
