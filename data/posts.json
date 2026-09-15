@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-nvda-2026-09-15",
+    "date": "2026-09-15",
+    "runDate": "2026-09-15",
+    "createdAt": "2026-09-15T07:58:47.120423+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$NVDA news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-15.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-15T07:58:45.509762+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NVDA",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "NVDA",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-15T07:58:45.509762+00:00",
+      "date": "2026-09-15",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "NVDA",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "NVIDIA Corporation (NASDAQ:NVDA) Receives Consensus Recommendation of \"Buy\" from Analysts",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 210.96, 'd': -7.33, 'dp': -3.3579, 'h': 212.77, 'l': 208.93, 'o': 211.24, 'pc': 218.29, 't': 1789416000}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "NVDA",
+            "mentions": 2
+          },
+          {
+            "ticker": "MSFT",
+            "mentions": 2
+          },
+          {
+            "ticker": "CSGP",
+            "mentions": 2
+          },
+          {
+            "ticker": "QCOM",
+            "mentions": 1
+          },
+          {
+            "ticker": "AMD",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 10
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 7
+          },
+          {
+            "label": "Bullish",
+            "count": 6
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 5
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-syk-2026-09-15",
     "date": "2026-09-15",
     "runDate": "2026-09-15",

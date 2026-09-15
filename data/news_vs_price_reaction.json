@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-14T08:04:07.222435+00:00",
-  "date": "2026-09-14",
+  "updated_at": "2026-09-15T07:58:45.509762+00:00",
+  "date": "2026-09-15",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "MSFT",
-  "news_tone": "Somewhat Bullish",
+  "symbol": "NVDA",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "What is Zacks Research's Forecast for BMY FY2026 Earnings?",
+  "headline": "NVIDIA Corporation (NASDAQ:NVDA) Receives Consensus Recommendation of \"Buy\" from Analysts",
   "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,47 +15,47 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for MSFT: {'status_code': 200, 'data': {'c': 495.63, 'd': 3.19, 'dp': 0.6478, 'h': 498.97, 'l': 492.58, 'o': 495.65, 'pc': 492.44, 't': 1789156800}}",
+  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 210.96, 'd': -7.33, 'dp': -3.3579, 'h': 212.77, 'l': 208.93, 'o': 211.24, 'pc': 218.29, 't': 1789416000}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "MSFT",
-        "mentions": 4
-      },
-      {
-        "ticker": "MS",
-        "mentions": 3
-      },
-      {
         "ticker": "NVDA",
-        "mentions": 3
-      },
-      {
-        "ticker": "BMY",
         "mentions": 2
       },
       {
-        "ticker": "AMZN",
+        "ticker": "MSFT",
         "mentions": 2
+      },
+      {
+        "ticker": "CSGP",
+        "mentions": 2
+      },
+      {
+        "ticker": "QCOM",
+        "mentions": 1
+      },
+      {
+        "ticker": "AMD",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Somewhat-Bullish",
-        "count": 18
+        "label": "Neutral",
+        "count": 10
       },
       {
-        "label": "Neutral",
-        "count": 18
+        "label": "Somewhat-Bullish",
+        "count": 7
       },
       {
         "label": "Bullish",
-        "count": 9
+        "count": 6
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 4
+        "count": 5
       },
       {
         "label": "Bearish",
