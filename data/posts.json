@@ -1,5 +1,1315 @@
 [
   {
+    "id": "financial-news-signal-2026-09-15",
+    "date": "2026-09-15",
+    "runDate": "2026-09-15",
+    "createdAt": "2026-09-15T06:18:33.900785+00:00",
+    "contentType": "FINANCIAL NEWS SIGNAL",
+    "title": "Financial News Signal",
+    "status": "ready",
+    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 50\n🏷️ Ticker: MSFT\n📌 Theme: Earnings\n🧭 Tone: Neutral\n\nSignals from live news data: https://qveris.ai",
+    "image": "/posts/financial_news_signal_2026-09-15.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-15T06:18:31.745425+00:00",
+    "xPostId": null,
+    "primaryLabel": "Top ticker",
+    "primaryValue": "MSFT",
+    "secondaryLabel": "Tone",
+    "secondaryValue": "Neutral",
+    "topSymbol": "MSFT",
+    "topChangePct": 0,
+    "financialNewsSignal": {
+      "updated_at": "2026-09-15T06:18:31.745425+00:00",
+      "date": "2026-09-15",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Financial News Signal",
+      "articles": [
+        {
+          "title": "CRWD, BAC, MSFT, ZS, GLW: 5 Trending Stocks Today - CrowdStrike Holdings (NASDAQ:CRWD)",
+          "summary": "On Monday, major U.S. stock indices closed lower, but security software stocks saw gains. CrowdStrike (CRWD) surged over 13% after its CEO advocated for AI safety, with Jim Cram...",
+          "url": "https://www.benzinga.com/markets/equities/26/09/61780564/crowdstrike-bank-of-america-microsoft-zscaler-and-corning-why-these-5-stocks-are-on-investors-radars-today",
+          "source": "Benzinga",
+          "published_at": "20260915T012347",
+          "sentiment_score": 0.154806,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GLW",
+            "CRWD",
+            "MSFT"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "ServiceNow Jumps 6.4% as AI Slowdown Flips the Software Trade",
+          "summary": "ServiceNow shares rose 6.4% as investors shifted from AI infrastructure stocks to software companies. This move suggests a reevaluation of where AI-driven returns will originate...",
+          "url": "https://finance.yahoo.com/technology/ai/articles/servicenow-jumps-6-4-ai-205808694.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260914T222800",
+          "sentiment_score": 0.388732,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "NOW",
+            "ADBE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "EOG Resources Price Target Raised to $183.00/Share From $158.00 by UBS",
+          "summary": "UBS has increased its price target for EOG Resources (NYSE: EOG) to $183.00 per share, up from the previous target of $158.00. This revision indicates a more optimistic outlook...",
+          "url": "https://www.moomoo.com/news/post/76230712/eog-resources-price-target-raised-to-183-00-share-from",
+          "source": "Moomoo",
+          "published_at": "20260914T222336",
+          "sentiment_score": 0.632451,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "EOG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Huntington Ingalls stock heads into the open after a 0.8% dip",
+          "summary": "Huntington Ingalls stock (HII) closed down 0.8% at USD 279.36 on September 11, 2026, underperforming the S&P 500's 0.9% gain, despite securing a significant contract for the CVN...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/huntington-ingalls-stock-heads-into-the-open-after-a-0-8-percent-dip/70102523",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260915T021513",
+          "sentiment_score": 0.046425,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HII",
+            "NOC",
+            "LMT",
+            "RTX",
+            "GD"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Economy Macro",
+            "Manufacturing"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "PayPal takes No. 1 in tech power ranking",
+          "summary": "PayPal Holdings (PYPL) has climbed to the No. 1 spot in this week's Roundtable 100 tech power ranking, moving up three places. The company's profit outlook, share repurchases, a...",
+          "url": "https://sg.finance.yahoo.com/news/paypal-takes-no-1-tech-235148135.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260914T235100",
+          "sentiment_score": 0.127145,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PYPL",
+            "AAPL",
+            "PANW"
+          ],
+          "topics": [
+            "Technology",
+            "Financial Markets",
+            "Finance",
+            "Earnings",
+            "Blockchain"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Intercontinental Exchange (ICE) Reports Record August Trading Activity With ADV Up 14%",
+          "summary": "Intercontinental Exchange (ICE) reported record operating metrics for August 2026 across various asset classes, with total average daily volume up 14% year-on-year and open inte...",
+          "url": "https://sg.finance.yahoo.com/news/intercontinental-exchange-ice-reports-record-032257042.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260915T032253",
+          "sentiment_score": 0.616994,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ICE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Procore chairman Craig F. Courtemanche Jr. sells $3m in shares",
+          "summary": "Craig F. Courtemanche Jr., Chairman of Procore Technologies Inc. (NYSE:PCOR), sold 56,122 shares of common stock for over $3 million on September 10, 2026, pursuant to a pre-arr...",
+          "url": "https://ng.investing.com/news/stock-market-news/procore-chairman-craig-f-courtemanche-jr-sells-3m-in-shares-93CH-2695634",
+          "source": "Investing.com Nigeria",
+          "published_at": "20260915T023701",
+          "sentiment_score": 0.001732,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PCOR"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "NextEra Energy schedules investor meetings for September and early October to discuss long-term growth outlook",
+          "summary": "NextEra Energy (NYSE: NEE) announced investor meetings for September and early October 2026, where senior management will discuss long-term growth-rate expectations. These meeti...",
+          "url": "https://energiesmedia.com/nextera-energy-meetings-growth-outlook/",
+          "source": "Energies Media",
+          "published_at": "20260915T015802",
+          "sentiment_score": 0.341239,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "NEE",
+            "D"
+          ],
+          "topics": [
+            "Mergers And Acquisitions",
+            "Earnings",
+            "Energy Transportation",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Caesars Entertainment director David Tomick sells $415,431 in shares By Investing.com",
+          "summary": "David P. Tomick, a director at Caesars Entertainment, Inc. (NASDAQ:CZR), recently sold 14,000 shares of the company's common stock for a total of $415,431 over two days in Septe...",
+          "url": "https://in.investing.com/news/stock-market-news/caesars-entertainment-director-david-tomick-sells-415431-in-shares-93CH-5592573",
+          "source": "Investing.com India",
+          "published_at": "20260915T005212",
+          "sentiment_score": -0.297312,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "CZR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Mergers And Acquisitions"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Is Gilead Sciences (GILD) Reasonable Given Its Sales Base?",
+          "summary": "Gilead Sciences (GILD) has seen significant share price growth over the past five years, leading investors to question if its market value aligns with its sales base. The stock...",
+          "url": "https://sg.finance.yahoo.com/news/gilead-sciences-gild-reasonable-given-231914482.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260914T231900",
+          "sentiment_score": 0.217522,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GILD"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "What’s Behind Duke Energy (NYSE:DUK) Reliability Focus?",
+          "summary": "This article examines Duke Energy (NYSE:DUK) through the lens of its generation mix and operating reliability within the Utility Stocks category. It emphasizes distinguishing be...",
+          "url": "https://kalkinemedia.com/us/stocks/utility/whats-behind-duke-energy-nyseduk-reliability-focus",
+          "source": "Kalkine Media",
+          "published_at": "20260914T223649",
+          "sentiment_score": 0.103542,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "DUK"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Energy Transportation",
+            "Economy Macro"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "NewtekOne, Inc. (NASDAQ:NEWT) Plans Quarterly Dividend of $0.19",
+          "summary": "NewtekOne, Inc. (NASDAQ:NEWT) has declared a quarterly dividend of $0.19 per share, payable on October 1st to shareholders of record on September 24th, resulting in an annualize...",
+          "url": "https://www.marketbeat.com/instant-alerts/dividend-newtekone-inc-nasdaq-newt-plans-quarterly-dividend-of-019-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T223301",
+          "sentiment_score": 0.03749,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NEWTZ"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "RadNet (RDNT) Stock May Be 23% Below Fair Value On Cash Flow",
+          "summary": "RadNet (RDNT) stock may be undervalued by as much as 23% based on its future cash flow generation. A Discounted Cash Flow (DCF) model suggests an intrinsic value meaningfully ab...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/radnet-rdnt-stock-may-23-020959687.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260915T033357",
+          "sentiment_score": 0.34395,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "RDNT"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Cathie Wood Keeps Buying Meta on Mark Zuckerberg's Muse Push, Dumps Amazon, AMD, Alphabet, Palantir Amid AI Slowdow...",
+          "summary": "Cathie Wood's Ark Invest made significant portfolio adjustments, selling shares in Amazon, AMD, Alphabet, and Palantir, while increasing its stake in Meta Platforms. These moves...",
+          "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/09/61780846/cathie-wood-buys-meta-dumps-amazon-amd-alphabet-palantir-ai-slowdown",
+          "source": "Benzinga",
+          "published_at": "20260915T023256",
+          "sentiment_score": 0.003883,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "GOOGL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "MannKind director Steven Binder sells $127,855 in company stock By Investing.com",
+          "summary": "Steven B. Binder, a director at MannKind Corp. (NASDAQ:MNKD), sold 33,558 shares of company stock for $127,855 on September 10, 2026, as part of a pre-established trading plan....",
+          "url": "https://in.investing.com/news/stock-market-news/mannkind-director-steven-binder-sells-127855-in-company-stock-93CH-5592569",
+          "source": "Investing.com India",
+          "published_at": "20260915T004728",
+          "sentiment_score": 0.04698,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "MNKD"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Life Sciences",
+            "Earnings"
+          ],
+          "quality_score": 5,
+          "is_noise": false
+        },
+        {
+          "title": "Should JPMorgan’s Long-Dated Callable Debt Push Require Action From JPMorgan Chase (JPM) Investors?",
+          "summary": "JPMorgan Chase recently issued a significant amount of long-dated, fixed-rate callable medium-term notes, which is seen as a strategic move given the anticipated higher-for-long...",
+          "url": "https://sg.finance.yahoo.com/news/jpmorgan-long-dated-callable-debt-043146577.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260915T043100",
+          "sentiment_score": 0.315671,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "JPM"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings",
+            "Economy Monetary"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Public Storage To Go Ex-Dividend On September 15th, 2026 With 3 USD Dividend Per Share",
+          "summary": "Public Storage (PSA) is scheduled to go ex-dividend on September 15th, 2026. The company will be distributing a dividend of $3.00 per share to its shareholders. Investors who wi...",
+          "url": "https://www.moomoo.com/news/post/76185519/public-storage-to-go-ex-dividend-on-september-15th-2026",
+          "source": "Moomoo",
+          "published_at": "20260915T023239",
+          "sentiment_score": 0.288905,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "PSA-P-R",
+            "PSA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Devon Energy EVP Lowe sells $344,218 in company stock on Sept. 14",
+          "summary": "Robert Ferrall Lowe III, EVP of Exploration & Production at Devon Energy Corp (NYSE:DVN), sold 6,756 shares of company stock worth $344,218 on September 14, 2026. This transacti...",
+          "url": "https://in.investing.com/news/stock-market-news/devon-energy-evp-lowe-sells-344218-in-company-stock-on-sept-14-93CH-5592578",
+          "source": "Investing.com India",
+          "published_at": "20260915T012126",
+          "sentiment_score": 0.014659,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "DVN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "CoStar Group Inc (CSGP) Shares Surge 3.5% -- What GF Score of 71 Tells Investors",
+          "summary": "CoStar Group Inc (CSGP) shares surged 3.5% on September 14, 2026, despite a significant 63.7% decline over the past year. With a GF Score of 71/100, the stock is categorized as...",
+          "url": "https://www.gurufocus.com/news/9080421",
+          "source": "GuruFocus",
+          "published_at": "20260914T232600",
+          "sentiment_score": 0.336721,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CSGP"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Does VICI Properties' (VICI) Modest Dividend Hike Reveal Its True Capital Allocation Priorities?",
+          "summary": "VICI Properties has announced a modest 2.2% increase in its quarterly cash dividend to US$0.46 per share. This increase provides insight into the REIT's capital return strategy...",
+          "url": "https://ca.finance.yahoo.com/news/does-vici-properties-vici-modest-232014014.html",
+          "source": "Yahoo! Finance Canada",
+          "published_at": "20260915T041352",
+          "sentiment_score": -0.037759,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "VICI",
+            "NVDA",
+            "MSFT"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Real Estate",
+            "Finance",
+            "Technology"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Power REIT announces date and deadlines for 2026 annual meeting of shareholders",
+          "summary": "Power REIT has announced that its 2026 annual meeting of shareholders will take place on October 27, 2026, with a record date of September 11, 2026, for eligible voters. Due to...",
+          "url": "https://au.investing.com/news/stock-market-news/power-reit-announces-date-and-deadlines-for-2026-annual-meeting-of-shareholders-93CH-4641658",
+          "source": "Investing.com Australia",
+          "published_at": "20260915T013754",
+          "sentiment_score": -0.175726,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "PW"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Real Estate",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Lumentum Holdings Inc (LITE) Shares Fall 9.9% -- GF Value Says Still Overvalued",
+          "summary": "Lumentum Holdings Inc (LITE) shares dropped 9.9% to $835.03, while GuruFocus's GF Value estimates its intrinsic value at $169.46, indicating it is significantly overvalued by 39...",
+          "url": "https://www.gurufocus.com/news/9080218/lumentum-holdings-inc-lite-shares-fall-99-gf-value-says-still-overvalued",
+          "source": "GuruFocus",
+          "published_at": "20260915T013402",
+          "sentiment_score": -0.820954,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "LITE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Lemonade CFO eyes self-driving car insurance, cross-selling growth",
+          "summary": "Lemonade's CFO, Timothy Bixby, highlighted the company's strategy to expand beyond its core renter and pet insurance, including ventures into self-driving car insurance, while a...",
+          "url": "https://www.cfodive.com/news/lemonade-cfo-eyes-self-driving-car-insurance-cross-selling-growth/830342/",
+          "source": "CFO Dive",
+          "published_at": "20260915T013249",
+          "sentiment_score": 0.143923,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "LMND",
+            "TSLA"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Technology"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Lifezone Metals CEO Christopher Showalter Converts 110,000 RSUs and Sells 48,949 Shares",
+          "summary": "Lifezone Metals Ltd CEO Christopher Michael Showalter recently converted 110,000 Restricted Stock Units (RSUs) into ordinary shares. Following this conversion, he sold 48,949 of...",
+          "url": "https://kalkinemedia.com/us/news/announcements/lifezone-metals-ceo-christopher-showalter-converts-110000-rsus-and-sells-48949-shares",
+          "source": "Kalkine Media",
+          "published_at": "20260915T012850",
+          "sentiment_score": -0.202379,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "LZM"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "CoStar Group Names Felix Kusch President of Homes.com",
+          "summary": "CoStar Group has appointed Felix Kusch as the new president of Homes.com, filling a two-year vacancy. Kusch brings extensive experience from leading top real estate portals in E...",
+          "url": "https://www.rismedia.com/2026/09/14/costar-group-names-felix-kusch-president-of-homes-com/",
+          "source": "RISMedia",
+          "published_at": "20260914T234119",
+          "sentiment_score": 0.435603,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "CSGP"
+          ],
+          "topics": [
+            "Earnings",
+            "Real Estate",
+            "Mergers And Acquisitions",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Prudential plc (PRU) Completes 3.5 Million Share Buyback Over Five Days, Total Repurchases Reach 64.6 Million Shares",
+          "summary": "Prudential plc has completed the repurchase of approximately 3.5 million ordinary shares between September 7 and 11, 2026, as part of an ongoing buyback program. These shares, b...",
+          "url": "https://kalkinemedia.com/uk/news/announcements/prudential-plc-pru-completes-35-million-share-buyback-over-five-days-total-repurchases-reach-646-million-shares",
+          "source": "Kalkine Media",
+          "published_at": "20260914T222913",
+          "sentiment_score": 0.274145,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "PUK",
+            "PRU"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Form 8K Chipotle Mexican Grill Inc For: 14 September By Investing.com",
+          "summary": "The article reports that Chipotle Mexican Grill Inc. filed a Form 8K on September 14, 2026. This filing is a standard requirement for public companies to announce significant ev...",
+          "url": "https://ca.investing.com/news/stock-market-news/form-8k-chipotle-mexican-grill-inc-for-14-september-93CH-4838961",
+          "source": "Investing.com Canada",
+          "published_at": "20260914T222357",
+          "sentiment_score": 0.040007,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CMG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Oxford Square director Novak sells $6,775 in company stock",
+          "summary": "Steven P. Novak, a director at Oxford Square Capital Corp. (NASDAQ:OXSQ), sold 5,000 shares of company stock for $6,775 on September 3, 2026. Following the sale, Novak directly...",
+          "url": "https://m.investing.com/news/insider-trading-news/oxford-square-director-novak-sells-6775-in-company-stock-93CH-4899997?ampMode=1",
+          "source": "Investing.com",
+          "published_at": "20260915T033741",
+          "sentiment_score": 0.045246,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "OXSQG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Parallel49 equity, CPI Card Group 10% owner, sells $54.9m stock",
+          "summary": "Parallel49 Equity, a 10% owner of CPI Card Group Inc. (NASDAQ:PMTS), has sold 2,687,921 shares of common stock for approximately $54.9 million. The shares were sold to underwrit...",
+          "url": "https://www.investing.com/news/insider-trading-news/parallel49-equity-cpi-card-group-10-owner-sells-549m-stock-93CH-4900747",
+          "source": "Investing.com",
+          "published_at": "20260915T022701",
+          "sentiment_score": 0.06939,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PMTS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Dividend stock rights add to Huntington Ingalls (NYSE: HII) exec's three-year grant",
+          "summary": "Eric D. Chewning, an executive at Huntington Ingalls Industries (HII), was granted an additional 10.971 Restricted Stock Rights (RSRs) on September 11, 2026. These RSRs are divi...",
+          "url": "https://www.stocktitan.net/sec-filings/HII/form-4-huntington-ingalls-industries-inc-insider-trading-activity-d20cec9dcf86.html",
+          "source": "Stock Titan",
+          "published_at": "20260915T021313",
+          "sentiment_score": 0.023491,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HII"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Devon Energy EVP Lowe sells $344,218 in company stock on Sept. 14",
+          "summary": "Robert Ferrall Lowe III, EVP at Devon Energy Corp/DE (NYSE:DVN), sold 6,756 shares of company stock for $344,218 on September 14, 2026. This sale occurred while DVN stock is nea...",
+          "url": "https://www.investing.com/news/insider-trading-news/devon-energy-evp-lowe-sells-344218-in-company-stock-on-sept-14-93CH-4900705",
+          "source": "Investing.com",
+          "published_at": "20260915T013048",
+          "sentiment_score": 0.052519,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "DVN",
+            "CTRA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Devon Energy CEO Clay Gaspar buys $199,876 in company stock",
+          "summary": "Devon Energy CEO Clay M. Gaspar recently purchased 3,913 shares of the company's common stock for a total of $199,876, with shares bought at prices between $51.07 and $51.09. Th...",
+          "url": "https://www.investing.com/news/insider-trading-news/devon-energy-ceo-clay-gaspar-buys-199876-in-company-stock-93CH-4900707",
+          "source": "Investing.com",
+          "published_at": "20260915T013048",
+          "sentiment_score": 0.290133,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "DVN",
+            "CTRA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "CPI Card Group director Mallela Ravi buys $21,500 in common stock",
+          "summary": "CPI Card Group director Mallela Ravi recently purchased 1,000 shares of the company's common stock for $21,500. This transaction increases his direct holdings to 12,471 shares....",
+          "url": "https://www.investing.com/news/insider-trading-news/cpi-card-group-director-mallela-ravi-buys-21500-in-common-stock-93CH-4900710",
+          "source": "Investing.com",
+          "published_at": "20260915T012701",
+          "sentiment_score": 0.227499,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "PMTS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "CPI Card Group chairman Riley Sanford buys $299,989 in shares",
+          "summary": "Riley Sanford, Non-Executive Chairman of CPI Card Group Inc. (NASDAQ:PMTS), purchased 13,953 shares for $299,989 on September 14, 2026, increasing his direct holdings to 277,232...",
+          "url": "https://www.investing.com/news/insider-trading-news/cpi-card-group-chairman-riley-sanford-buys-299989-in-shares-93CH-4900711",
+          "source": "Investing.com",
+          "published_at": "20260915T012701",
+          "sentiment_score": 0.415944,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "PMTS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "CPI Card Group director Marc Sheinbaum buys $99,996 in shares",
+          "summary": "Marc Sheinbaum, a Director at CPI Card Group Inc. (NASDAQ:PMTS), purchased 4,651 shares of the company's common stock for $99,996 on September 14, 2026. This acquisition followe...",
+          "url": "https://www.investing.com/news/insider-trading-news/cpi-card-group-director-marc-sheinbaum-buys-99996-in-shares-93CH-4900706",
+          "source": "Investing.com",
+          "published_at": "20260915T012701",
+          "sentiment_score": 0.305885,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "PMTS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Cascade Investment, L.L.C. Purchases 256,000 Shares of Republic Services (NYSE:RSG) Stock",
+          "summary": "Cascade Investment, L.L.C. recently purchased 256,000 shares of Republic Services (NYSE:RSG) stock for approximately $56.9 million, increasing its stake to 116.7 million shares....",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-cascade-investment-llc-purchases-256000-shares-of-republic-services-nyse-rsg-stock-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260915T011407",
+          "sentiment_score": 0.479855,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "RSG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Devon Energy (NYSE:DVN) EVP Sells $344,218.20 in Stock",
+          "summary": "Devon Energy (NYSE:DVN) EVP Robert Ferrall Lowe III sold 6,756 shares of the company's stock for $344,218.20, reducing his direct ownership by 8.5% to 72,720 shares. This transa...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-devon-energy-nyse-dvn-evp-sells-34421820-in-stock-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260915T011326",
+          "sentiment_score": 0.295322,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "DVN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "T-Mobile US VP & chief accounting officer sells $137k in shares",
+          "summary": "Daniel James Drobac, VP & Chief Accounting Officer at T-Mobile US, sold 772 shares for about $137,670 and acquired 1.769 shares for about $315, increasing his direct beneficial...",
+          "url": "https://m.investing.com/news/insider-trading-news/tmobile-us-vp--chief-accounting-officer-sells-137k-in-shares-93CH-4900698?ampMode=1",
+          "source": "Investing.com",
+          "published_at": "20260915T011149",
+          "sentiment_score": 0.136045,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "TMUS"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "T-Mobile US VP & chief accounting officer sells $137k in shares",
+          "summary": "Daniel James Drobac, VP & Chief Accounting Officer at T-Mobile US, sold 772 shares of common stock worth approximately $137,670 on September 10, 2026, under a Rule 10b5-1 tradin...",
+          "url": "https://ca.investing.com/news/stock-market-news/tmobile-us-vp--chief-accounting-officer-sells-137k-in-shares-93CH-4839050",
+          "source": "Investing.com Canada",
+          "published_at": "20260915T005442",
+          "sentiment_score": 0.040652,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "TMUS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Oportun financial SVP-controller Schueller sells $22,300 in shares",
+          "summary": "Joseph Andrew Schueller, SVP-Controller and Chief Accounting Officer at Oportun Financial Corp, sold common stock totaling $22,300 on September 10 and 11, 2026, primarily to cov...",
+          "url": "https://www.investing.com/news/insider-trading-news/oportun-financial-svpcontroller-schueller-sells-22300-in-shares-93CH-4900678",
+          "source": "Investing.com",
+          "published_at": "20260915T003349",
+          "sentiment_score": -0.228991,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "OPRT"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Caesars Entertainment director David Tomick sells $415,431 in shares",
+          "summary": "David P. Tomick, a director at Caesars Entertainment, Inc. (NASDAQ:CZR), sold 14,000 shares of company stock in two separate transactions totaling $415,431. These sales occurred...",
+          "url": "https://m.investing.com/news/insider-trading-news/caesars-entertainment-director-david-tomick-sells-415431-in-shares-93CH-4900699?ampMode=1",
+          "source": "Investing.com",
+          "published_at": "20260915T002148",
+          "sentiment_score": -0.075308,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CZR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Mergers And Acquisitions"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Cadence design systems director Ita M. Brennan sells $51,391 in shares",
+          "summary": "Ita M. Brennan, a director at Cadence Design Systems Inc. (NASDAQ:CDNS), sold 180 shares of common stock worth $51,391 on September 10, 2026. These sales were executed via a Rul...",
+          "url": "https://www.investing.com/news/insider-trading-news/cadence-design-systems-director-ita-m-brennan-sells-51391-in-shares-93CH-4900672",
+          "source": "Investing.com",
+          "published_at": "20260914T235338",
+          "sentiment_score": 0.126256,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CDNS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Insider Selling: Newegg Commerce (NASDAQ:NEGG) Director Sells $51,831.54 in Stock",
+          "summary": "Newegg Commerce Director Fred Chang sold 3,582 shares of NEGG stock for $51,831.54 on September 10th, bringing his direct holdings to 3,030,377 shares. This sale is part of a se...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-newegg-commerce-nasdaq-negg-director-sells-5183154-in-stock-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T232916",
+          "sentiment_score": -0.398628,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "NEGG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Axon Enterprise (NASDAQ:AXON) Insider Isaiah Fields Sells 1,017 Shares of Stock",
+          "summary": "Axon Enterprise insider Isaiah Fields sold 1,017 shares of the company's stock for approximately $488,618, reducing his total holdings by 1.78%. This transaction was executed un...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-axon-enterprise-nasdaq-axon-insider-isaiah-fields-sells-1017-shares-of-stock-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T232124",
+          "sentiment_score": 0.133038,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AXON"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Cascade Investment, L.L.C. Acquires 324,810 Shares of Republic Services (NYSE:RSG) Stock",
+          "summary": "Cascade Investment, L.L.C. recently acquired 324,810 shares of Republic Services (NYSE:RSG) stock for approximately $72.4 million, increasing its position by 0.28%. This purchas...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-cascade-investment-llc-acquires-324810-shares-of-republic-services-nyse-rsg-stock-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T232058",
+          "sentiment_score": 0.493312,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "RSG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "EOG Resources (NYSE:EOG) EVP Michael Donaldson Sells 7,336 Shares",
+          "summary": "EOG Resources EVP Michael Donaldson sold 7,336 shares of the company's stock for over $1 million, reducing his direct ownership by 6.8%. The company reported strong quarterly ea...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-eog-resources-nyse-eog-evp-michael-donaldson-sells-7336-shares-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T231645",
+          "sentiment_score": -0.077787,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "EOG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Energy Transportation"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Cascade investment buys $129.3m in Republic Services stock By Investing.com",
+          "summary": "Cascade Investment, L.L.C. recently purchased 580,710 shares of Republic Services (NASDAQ:RSG) common stock for approximately $129.3 million, increasing its direct holdings to o...",
+          "url": "https://www.investing.com/news/insider-trading-news/cascade-investment-buys-1293m-in-republic-services-stock-93CH-4900667",
+          "source": "Investing.com",
+          "published_at": "20260914T231607",
+          "sentiment_score": 0.302649,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "RSG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Insider Selling: Caesars Entertainment (NASDAQ:CZR) Director Sells 7,000 Shares",
+          "summary": "Caesars Entertainment (NASDAQ:CZR) Director David Tomick recently sold 7,000 shares of the company's stock for $207,690, reducing his ownership by 15.25%. This sale occurred whi...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-caesars-entertainment-nasdaq-czr-director-sells-7000-shares-2026-09-14/",
+          "source": "MarketBeat",
+          "published_at": "20260914T231258",
+          "sentiment_score": -0.038171,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CZR",
+            "LVS",
+            "MGM"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Progyny director Kevin Gordon sells $321,358 in company stock",
+          "summary": "Progyny director Kevin Gordon sold 11,500 shares of company stock worth $321,358 on September 10, 2026, after exercising options to acquire 22,000 shares. This transaction follo...",
+          "url": "https://m.investing.com/news/insider-trading-news/progyny-director-kevin-gordon-sells-321358-in-company-stock-93CH-4900657?ampMode=1",
+          "source": "Investing.com",
+          "published_at": "20260914T223711",
+          "sentiment_score": 0.046817,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PGNY"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Oportun financial chief legal officer Layton sells $32,939 in stock",
+          "summary": "Kathleen I. Layton, Chief Legal Officer at Oportun Financial Corp (NASDAQ:OPRT), sold 4,223 shares of common stock worth $32,939 on September 10, 2026, to cover tax obligations...",
+          "url": "https://m.investing.com/news/insider-trading-news/oportun-financial-chief-legal-officer-layton-sells-32939-in-stock-93CH-4900660?ampMode=1",
+          "source": "Investing.com",
+          "published_at": "20260914T223349",
+          "sentiment_score": 0.038255,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "OPRT"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        }
+      ],
+      "article_count": 50,
+      "top_ticker": "MSFT",
+      "top_topic": "Earnings",
+      "dominant_sentiment": "Neutral",
+      "top_story": "CRWD, BAC, MSFT, ZS, GLW: 5 Trending Stocks Today - CrowdStrike Holdings (NASDAQ:CRWD)",
+      "signal_articles": [
+        {
+          "title": "CRWD, BAC, MSFT, ZS, GLW: 5 Trending Stocks Today - CrowdStrike Holdings (NASDAQ:CRWD)",
+          "summary": "On Monday, major U.S. stock indices closed lower, but security software stocks saw gains. CrowdStrike (CRWD) surged over 13% after its CEO advocated for AI safety, with Jim Cram...",
+          "url": "https://www.benzinga.com/markets/equities/26/09/61780564/crowdstrike-bank-of-america-microsoft-zscaler-and-corning-why-these-5-stocks-are-on-investors-radars-today",
+          "source": "Benzinga",
+          "published_at": "20260915T012347",
+          "sentiment_score": 0.154806,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GLW",
+            "CRWD",
+            "MSFT"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "ServiceNow Jumps 6.4% as AI Slowdown Flips the Software Trade",
+          "summary": "ServiceNow shares rose 6.4% as investors shifted from AI infrastructure stocks to software companies. This move suggests a reevaluation of where AI-driven returns will originate...",
+          "url": "https://finance.yahoo.com/technology/ai/articles/servicenow-jumps-6-4-ai-205808694.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260914T222800",
+          "sentiment_score": 0.388732,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "NOW",
+            "ADBE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "EOG Resources Price Target Raised to $183.00/Share From $158.00 by UBS",
+          "summary": "UBS has increased its price target for EOG Resources (NYSE: EOG) to $183.00 per share, up from the previous target of $158.00. This revision indicates a more optimistic outlook...",
+          "url": "https://www.moomoo.com/news/post/76230712/eog-resources-price-target-raised-to-183-00-share-from",
+          "source": "Moomoo",
+          "published_at": "20260914T222336",
+          "sentiment_score": 0.632451,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "EOG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Huntington Ingalls stock heads into the open after a 0.8% dip",
+          "summary": "Huntington Ingalls stock (HII) closed down 0.8% at USD 279.36 on September 11, 2026, underperforming the S&P 500's 0.9% gain, despite securing a significant contract for the CVN...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/huntington-ingalls-stock-heads-into-the-open-after-a-0-8-percent-dip/70102523",
+          "source": "ad-hoc-news.de",
+          "published_at": "20260915T021513",
+          "sentiment_score": 0.046425,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HII",
+            "NOC",
+            "LMT",
+            "RTX",
+            "GD"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Economy Macro",
+            "Manufacturing"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "PayPal takes No. 1 in tech power ranking",
+          "summary": "PayPal Holdings (PYPL) has climbed to the No. 1 spot in this week's Roundtable 100 tech power ranking, moving up three places. The company's profit outlook, share repurchases, a...",
+          "url": "https://sg.finance.yahoo.com/news/paypal-takes-no-1-tech-235148135.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260914T235100",
+          "sentiment_score": 0.127145,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PYPL",
+            "AAPL",
+            "PANW"
+          ],
+          "topics": [
+            "Technology",
+            "Financial Markets",
+            "Finance",
+            "Earnings",
+            "Blockchain"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Intercontinental Exchange (ICE) Reports Record August Trading Activity With ADV Up 14%",
+          "summary": "Intercontinental Exchange (ICE) reported record operating metrics for August 2026 across various asset classes, with total average daily volume up 14% year-on-year and open inte...",
+          "url": "https://sg.finance.yahoo.com/news/intercontinental-exchange-ice-reports-record-032257042.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260915T032253",
+          "sentiment_score": 0.616994,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ICE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Procore chairman Craig F. Courtemanche Jr. sells $3m in shares",
+          "summary": "Craig F. Courtemanche Jr., Chairman of Procore Technologies Inc. (NYSE:PCOR), sold 56,122 shares of common stock for over $3 million on September 10, 2026, pursuant to a pre-arr...",
+          "url": "https://ng.investing.com/news/stock-market-news/procore-chairman-craig-f-courtemanche-jr-sells-3m-in-shares-93CH-2695634",
+          "source": "Investing.com Nigeria",
+          "published_at": "20260915T023701",
+          "sentiment_score": 0.001732,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PCOR"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "NextEra Energy schedules investor meetings for September and early October to discuss long-term growth outlook",
+          "summary": "NextEra Energy (NYSE: NEE) announced investor meetings for September and early October 2026, where senior management will discuss long-term growth-rate expectations. These meeti...",
+          "url": "https://energiesmedia.com/nextera-energy-meetings-growth-outlook/",
+          "source": "Energies Media",
+          "published_at": "20260915T015802",
+          "sentiment_score": 0.341239,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "NEE",
+            "D"
+          ],
+          "topics": [
+            "Mergers And Acquisitions",
+            "Earnings",
+            "Energy Transportation",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Caesars Entertainment director David Tomick sells $415,431 in shares By Investing.com",
+          "summary": "David P. Tomick, a director at Caesars Entertainment, Inc. (NASDAQ:CZR), recently sold 14,000 shares of the company's common stock for a total of $415,431 over two days in Septe...",
+          "url": "https://in.investing.com/news/stock-market-news/caesars-entertainment-director-david-tomick-sells-415431-in-shares-93CH-5592573",
+          "source": "Investing.com India",
+          "published_at": "20260915T005212",
+          "sentiment_score": -0.297312,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "CZR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Mergers And Acquisitions"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Is Gilead Sciences (GILD) Reasonable Given Its Sales Base?",
+          "summary": "Gilead Sciences (GILD) has seen significant share price growth over the past five years, leading investors to question if its market value aligns with its sales base. The stock...",
+          "url": "https://sg.finance.yahoo.com/news/gilead-sciences-gild-reasonable-given-231914482.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260914T231900",
+          "sentiment_score": 0.217522,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GILD"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        }
+      ],
+      "top_tickers": [
+        {
+          "ticker": "MSFT",
+          "mentions": 2
+        },
+        {
+          "ticker": "CSGP",
+          "mentions": 2
+        },
+        {
+          "ticker": "GLW",
+          "mentions": 1
+        },
+        {
+          "ticker": "CRWD",
+          "mentions": 1
+        },
+        {
+          "ticker": "NOW",
+          "mentions": 1
+        }
+      ],
+      "top_topics": [
+        {
+          "topic": "Earnings",
+          "mentions": 27
+        },
+        {
+          "topic": "Financial Markets",
+          "mentions": 24
+        },
+        {
+          "topic": "Finance",
+          "mentions": 13
+        },
+        {
+          "topic": "Technology",
+          "mentions": 8
+        },
+        {
+          "topic": "Economy Macro",
+          "mentions": 3
+        }
+      ],
+      "sentiment_counts": [
+        {
+          "label": "Neutral",
+          "count": 11
+        },
+        {
+          "label": "Somewhat-Bullish",
+          "count": 8
+        },
+        {
+          "label": "Bullish",
+          "count": 4
+        },
+        {
+          "label": "Somewhat-Bearish",
+          "count": 3
+        },
+        {
+          "label": "Bearish",
+          "count": 1
+        }
+      ],
+      "top_sources": [
+        {
+          "source": "Yahoo Finance Singapore",
+          "count": 4
+        },
+        {
+          "source": "Investing.com India",
+          "count": 3
+        },
+        {
+          "source": "Kalkine Media",
+          "count": 3
+        },
+        {
+          "source": "Benzinga",
+          "count": 2
+        },
+        {
+          "source": "Yahoo Finance",
+          "count": 2
+        }
+      ],
+      "takeaway": "News flow is centered on Earnings, with MSFT appearing most often and the headline tone mostly neutral."
+    }
+  },
+  {
     "id": "polymarket-pulse-2026-09-15",
     "date": "2026-09-15",
     "runDate": "2026-09-15",
