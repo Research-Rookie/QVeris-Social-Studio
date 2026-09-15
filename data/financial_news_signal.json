@@ -1,18 +1,37 @@
 {
-  "updated_at": "2026-09-15T06:18:31.745425+00:00",
+  "updated_at": "2026-09-15T07:03:48.314004+00:00",
   "date": "2026-09-15",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
+      "title": "Stryker Corporation (NYSE:SYK) Receives Average Rating of \"Moderate Buy\" from Analysts",
+      "summary": "Stryker Corporation (NYSE:SYK) has received a \"Moderate Buy\" rating from analysts, with 18 buy ratings and six hold ratings among 24 firms. The average 12-month price target is...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-stryker-corporation-nyse-syk-receives-average-rating-of-moderate-buy-from-analysts-2026-09-15/",
+      "source": "MarketBeat",
+      "published_at": "20260915T061905",
+      "sentiment_score": 0.484677,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SYK"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
       "title": "CRWD, BAC, MSFT, ZS, GLW: 5 Trending Stocks Today - CrowdStrike Holdings (NASDAQ:CRWD)",
       "summary": "On Monday, major U.S. stock indices closed lower, but security software stocks saw gains. CrowdStrike (CRWD) surged over 13% after its CEO advocated for AI safety, with Jim Cram...",
       "url": "https://www.benzinga.com/markets/equities/26/09/61780564/crowdstrike-bank-of-america-microsoft-zscaler-and-corning-why-these-5-stocks-are-on-investors-radars-today",
       "source": "Benzinga",
       "published_at": "20260915T012347",
-      "sentiment_score": 0.154806,
-      "sentiment_label": "Somewhat-Bullish",
+      "sentiment_score": 0.149693,
+      "sentiment_label": "Neutral",
       "tickers": [
         "GLW",
         "CRWD",
@@ -28,41 +47,22 @@
       "is_noise": false
     },
     {
-      "title": "ServiceNow Jumps 6.4% as AI Slowdown Flips the Software Trade",
-      "summary": "ServiceNow shares rose 6.4% as investors shifted from AI infrastructure stocks to software companies. This move suggests a reevaluation of where AI-driven returns will originate...",
-      "url": "https://finance.yahoo.com/technology/ai/articles/servicenow-jumps-6-4-ai-205808694.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260914T222800",
-      "sentiment_score": 0.388732,
+      "title": "Teledyne e2v Expands 3D Imaging Portfolio with New Perciva ToF Camera",
+      "summary": "Teledyne e2v has introduced the Perciva™ ToF, an industrial-grade 3D Time-of-Flight camera designed for demanding environments. This camera integrates high-performance depth sen...",
+      "url": "https://www.marketscreener.com/news/teledyne-e2v-expands-3d-imaging-portfolio-with-new-perciva-tof-camera-ce785bddd888f42d",
+      "source": "www.marketscreener.com",
+      "published_at": "20260915T060202",
+      "sentiment_score": 0.435183,
       "sentiment_label": "Bullish",
       "tickers": [
-        "NOW",
-        "ADBE"
+        "TDY"
       ],
       "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
+        "Technology",
+        "Manufacturing",
+        "Earnings"
       ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "EOG Resources Price Target Raised to $183.00/Share From $158.00 by UBS",
-      "summary": "UBS has increased its price target for EOG Resources (NYSE: EOG) to $183.00 per share, up from the previous target of $158.00. This revision indicates a more optimistic outlook...",
-      "url": "https://www.moomoo.com/news/post/76230712/eog-resources-price-target-raised-to-183-00-share-from",
-      "source": "Moomoo",
-      "published_at": "20260914T222336",
-      "sentiment_score": 0.632451,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "EOG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
+      "quality_score": 9,
       "is_noise": false
     },
     {
@@ -71,7 +71,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/huntington-ingalls-stock-heads-into-the-open-after-a-0-8-percent-dip/70102523",
       "source": "ad-hoc-news.de",
       "published_at": "20260915T021513",
-      "sentiment_score": 0.046425,
+      "sentiment_score": 0.051808,
       "sentiment_label": "Neutral",
       "tickers": [
         "HII",
@@ -95,7 +95,7 @@
       "url": "https://sg.finance.yahoo.com/news/paypal-takes-no-1-tech-235148135.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260914T235100",
-      "sentiment_score": 0.127145,
+      "sentiment_score": 0.131455,
       "sentiment_label": "Neutral",
       "tickers": [
         "PYPL",
@@ -118,7 +118,7 @@
       "url": "https://sg.finance.yahoo.com/news/intercontinental-exchange-ice-reports-record-032257042.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260915T032253",
-      "sentiment_score": 0.616994,
+      "sentiment_score": 0.631866,
       "sentiment_label": "Bullish",
       "tickers": [
         "ICE"
@@ -137,7 +137,7 @@
       "url": "https://ng.investing.com/news/stock-market-news/procore-chairman-craig-f-courtemanche-jr-sells-3m-in-shares-93CH-2695634",
       "source": "Investing.com Nigeria",
       "published_at": "20260915T023701",
-      "sentiment_score": 0.001732,
+      "sentiment_score": 0.037119,
       "sentiment_label": "Neutral",
       "tickers": [
         "PCOR"
@@ -156,7 +156,7 @@
       "url": "https://energiesmedia.com/nextera-energy-meetings-growth-outlook/",
       "source": "Energies Media",
       "published_at": "20260915T015802",
-      "sentiment_score": 0.341239,
+      "sentiment_score": 0.320294,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "NEE",
@@ -177,7 +177,7 @@
       "url": "https://in.investing.com/news/stock-market-news/caesars-entertainment-director-david-tomick-sells-415431-in-shares-93CH-5592573",
       "source": "Investing.com India",
       "published_at": "20260915T005212",
-      "sentiment_score": -0.297312,
+      "sentiment_score": -0.253705,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CZR"
@@ -196,7 +196,7 @@
       "url": "https://sg.finance.yahoo.com/news/gilead-sciences-gild-reasonable-given-231914482.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260914T231900",
-      "sentiment_score": 0.217522,
+      "sentiment_score": 0.244455,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GILD"
@@ -211,51 +211,12 @@
       "is_noise": false
     },
     {
-      "title": "What’s Behind Duke Energy (NYSE:DUK) Reliability Focus?",
-      "summary": "This article examines Duke Energy (NYSE:DUK) through the lens of its generation mix and operating reliability within the Utility Stocks category. It emphasizes distinguishing be...",
-      "url": "https://kalkinemedia.com/us/stocks/utility/whats-behind-duke-energy-nyseduk-reliability-focus",
-      "source": "Kalkine Media",
-      "published_at": "20260914T223649",
-      "sentiment_score": 0.103542,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DUK"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Energy Transportation",
-        "Economy Macro"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "NewtekOne, Inc. (NASDAQ:NEWT) Plans Quarterly Dividend of $0.19",
-      "summary": "NewtekOne, Inc. (NASDAQ:NEWT) has declared a quarterly dividend of $0.19 per share, payable on October 1st to shareholders of record on September 24th, resulting in an annualize...",
-      "url": "https://www.marketbeat.com/instant-alerts/dividend-newtekone-inc-nasdaq-newt-plans-quarterly-dividend-of-019-2026-09-14/",
-      "source": "MarketBeat",
-      "published_at": "20260914T223301",
-      "sentiment_score": 0.03749,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "NEWTZ"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
       "title": "RadNet (RDNT) Stock May Be 23% Below Fair Value On Cash Flow",
       "summary": "RadNet (RDNT) stock may be undervalued by as much as 23% based on its future cash flow generation. A Discounted Cash Flow (DCF) model suggests an intrinsic value meaningfully ab...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/radnet-rdnt-stock-may-23-020959687.html",
       "source": "Yahoo Finance",
       "published_at": "20260915T033357",
-      "sentiment_score": 0.34395,
+      "sentiment_score": 0.313198,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "RDNT"
@@ -269,12 +230,30 @@
       "is_noise": false
     },
     {
+      "title": "SFL announced Charter Extension for 6 x 15,400 TEU vessels adding $750 Million Backlog",
+      "summary": "SFL Corporation Ltd. has secured a charter extension for six 15,400 TEU container vessels with Hapag-Lloyd AG for an additional seven years, extending coverage until 2035-2036....",
+      "url": "https://cyprusshippingnews.com/2026/09/15/sfl-announced-charter-extension-for-6-x-15400-teu-vessels-adding-750-million-backlog/",
+      "source": "Cyprus Shipping News",
+      "published_at": "20260915T024347",
+      "sentiment_score": 0.715979,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SFL"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "Cathie Wood Keeps Buying Meta on Mark Zuckerberg's Muse Push, Dumps Amazon, AMD, Alphabet, Palantir Amid AI Slowdow...",
       "summary": "Cathie Wood's Ark Invest made significant portfolio adjustments, selling shares in Amazon, AMD, Alphabet, and Palantir, while increasing its stake in Meta Platforms. These moves...",
       "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/09/61780846/cathie-wood-buys-meta-dumps-amazon-amd-alphabet-palantir-ai-slowdown",
       "source": "Benzinga",
       "published_at": "20260915T023256",
-      "sentiment_score": 0.003883,
+      "sentiment_score": 0.015796,
       "sentiment_label": "Neutral",
       "tickers": [
         "GOOGL"
@@ -294,7 +273,7 @@
       "url": "https://in.investing.com/news/stock-market-news/mannkind-director-steven-binder-sells-127855-in-company-stock-93CH-5592569",
       "source": "Investing.com India",
       "published_at": "20260915T004728",
-      "sentiment_score": 0.04698,
+      "sentiment_score": 0.017684,
       "sentiment_label": "Neutral",
       "tickers": [
         "MNKD"
@@ -308,12 +287,31 @@
       "is_noise": false
     },
     {
+      "title": "RBC Capital initiates PPL stock with Sector Perform rating",
+      "summary": "RBC Capital has initiated coverage on PPL Corp (NYSE:PPL) with a Sector Perform rating and a $35.00 price target. The firm noted that PPL trades at a slight discount to its peer...",
+      "url": "https://www.investing.com/news/analyst-ratings/rbc-capital-initiates-ppl-stock-with-sector-perform-rating-93CH-4900830",
+      "source": "Investing.com",
+      "published_at": "20260915T062629",
+      "sentiment_score": 0.108342,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "PPL",
+        "BX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
       "title": "Should JPMorgan’s Long-Dated Callable Debt Push Require Action From JPMorgan Chase (JPM) Investors?",
       "summary": "JPMorgan Chase recently issued a significant amount of long-dated, fixed-rate callable medium-term notes, which is seen as a strategic move given the anticipated higher-for-long...",
       "url": "https://sg.finance.yahoo.com/news/jpmorgan-long-dated-callable-debt-043146577.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260915T043100",
-      "sentiment_score": 0.315671,
+      "sentiment_score": 0.308489,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "JPM"
@@ -332,7 +330,7 @@
       "url": "https://www.moomoo.com/news/post/76185519/public-storage-to-go-ex-dividend-on-september-15th-2026",
       "source": "Moomoo",
       "published_at": "20260915T023239",
-      "sentiment_score": 0.288905,
+      "sentiment_score": 0.296047,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PSA-P-R",
@@ -352,7 +350,7 @@
       "url": "https://in.investing.com/news/stock-market-news/devon-energy-evp-lowe-sells-344218-in-company-stock-on-sept-14-93CH-5592578",
       "source": "Investing.com India",
       "published_at": "20260915T012126",
-      "sentiment_score": 0.014659,
+      "sentiment_score": 0.020942,
       "sentiment_label": "Neutral",
       "tickers": [
         "DVN"
@@ -371,7 +369,7 @@
       "url": "https://www.gurufocus.com/news/9080421",
       "source": "GuruFocus",
       "published_at": "20260914T232600",
-      "sentiment_score": 0.336721,
+      "sentiment_score": 0.316729,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CSGP"
@@ -384,12 +382,51 @@
       "is_noise": false
     },
     {
+      "title": "PNC Financial Services Group (PNC) Stock May Be 40% Undervalued As Excess Returns Stay Strong",
+      "summary": "PNC Financial Services Group (PNC) has seen significant share price growth, prompting an evaluation of whether its current valuation is justified by its returns on capital. An E...",
+      "url": "https://sg.finance.yahoo.com/news/pnc-financial-services-group-pnc-061108859.html",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260915T061129",
+      "sentiment_score": 0.447829,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "PNC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "No Prenup, $930 Million on the Line: Lululemon Founder Chip Wilson's Divorce Could Reshape His Stake in the Company",
+      "summary": "Lululemon Athletica Inc. founder Chip Wilson's divorce from Shannon Gray, without a prenuptial agreement, could impact his $930 million stake in the company. While British Colum...",
+      "url": "https://www.benzinga.com/markets/equities/26/09/61781460/lululemon-founder-chip-wilson-divorce-stake-no-prenup",
+      "source": "Benzinga",
+      "published_at": "20260915T061021",
+      "sentiment_score": -0.269941,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "LULU"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
       "title": "Does VICI Properties' (VICI) Modest Dividend Hike Reveal Its True Capital Allocation Priorities?",
       "summary": "VICI Properties has announced a modest 2.2% increase in its quarterly cash dividend to US$0.46 per share. This increase provides insight into the REIT's capital return strategy...",
       "url": "https://ca.finance.yahoo.com/news/does-vici-properties-vici-modest-232014014.html",
       "source": "Yahoo! Finance Canada",
       "published_at": "20260915T041352",
-      "sentiment_score": -0.037759,
+      "sentiment_score": -0.052278,
       "sentiment_label": "Neutral",
       "tickers": [
         "VICI",
@@ -412,7 +449,7 @@
       "url": "https://au.investing.com/news/stock-market-news/power-reit-announces-date-and-deadlines-for-2026-annual-meeting-of-shareholders-93CH-4641658",
       "source": "Investing.com Australia",
       "published_at": "20260915T013754",
-      "sentiment_score": -0.175726,
+      "sentiment_score": -0.182456,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "PW"
@@ -432,7 +469,7 @@
       "url": "https://www.gurufocus.com/news/9080218/lumentum-holdings-inc-lite-shares-fall-99-gf-value-says-still-overvalued",
       "source": "GuruFocus",
       "published_at": "20260915T013402",
-      "sentiment_score": -0.820954,
+      "sentiment_score": -0.81686,
       "sentiment_label": "Bearish",
       "tickers": [
         "LITE"
@@ -451,7 +488,7 @@
       "url": "https://www.cfodive.com/news/lemonade-cfo-eyes-self-driving-car-insurance-cross-selling-growth/830342/",
       "source": "CFO Dive",
       "published_at": "20260915T013249",
-      "sentiment_score": 0.143923,
+      "sentiment_score": 0.120758,
       "sentiment_label": "Neutral",
       "tickers": [
         "LMND",
@@ -471,7 +508,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/lifezone-metals-ceo-christopher-showalter-converts-110000-rsus-and-sells-48949-shares",
       "source": "Kalkine Media",
       "published_at": "20260915T012850",
-      "sentiment_score": -0.202379,
+      "sentiment_score": -0.197649,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "LZM"
@@ -485,12 +522,31 @@
       "is_noise": false
     },
     {
+      "title": "Director Lorna Nagler Sells 600 Shares of Ulta Beauty Inc (ULTA)",
+      "summary": "Ulta Beauty Inc (ULTA) Director Lorna Nagler recently sold 600 shares of the company's common stock, reducing her direct ownership to 7,168 shares. This transaction is part of a...",
+      "url": "https://www.gurufocus.com/news/9080488/director-lorna-nagler-sells-600-shares-of-ulta-beauty-inc-ulta",
+      "source": "GuruFocus",
+      "published_at": "20260915T010749",
+      "sentiment_score": -0.235142,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ULTA"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Retail Wholesale",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
       "title": "CoStar Group Names Felix Kusch President of Homes.com",
       "summary": "CoStar Group has appointed Felix Kusch as the new president of Homes.com, filling a two-year vacancy. Kusch brings extensive experience from leading top real estate portals in E...",
       "url": "https://www.rismedia.com/2026/09/14/costar-group-names-felix-kusch-president-of-homes-com/",
       "source": "RISMedia",
       "published_at": "20260914T234119",
-      "sentiment_score": 0.435603,
+      "sentiment_score": 0.416928,
       "sentiment_label": "Bullish",
       "tickers": [
         "CSGP"
@@ -505,43 +561,23 @@
       "is_noise": false
     },
     {
-      "title": "Prudential plc (PRU) Completes 3.5 Million Share Buyback Over Five Days, Total Repurchases Reach 64.6 Million Shares",
-      "summary": "Prudential plc has completed the repurchase of approximately 3.5 million ordinary shares between September 7 and 11, 2026, as part of an ongoing buyback program. These shares, b...",
-      "url": "https://kalkinemedia.com/uk/news/announcements/prudential-plc-pru-completes-35-million-share-buyback-over-five-days-total-repurchases-reach-646-million-shares",
-      "source": "Kalkine Media",
-      "published_at": "20260914T222913",
-      "sentiment_score": 0.274145,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Rosen Law Firm Encourages The Cooper Companies, Inc. Investors to Inquire About Securities Class Action Investigati...",
+      "summary": "Rosen Law Firm has announced an investigation into potential securities claims against The Cooper Companies, Inc. (NASDAQ: COO). This follows allegations that CooperCompanies ma...",
+      "url": "https://natlawreview.com/press-releases/rosen-law-firm-encourages-cooper-companies-inc-investors-inquire-about",
+      "source": "The National Law Review",
+      "published_at": "20260915T034051",
+      "sentiment_score": -0.639721,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "PUK",
-        "PRU"
+        "COO"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Finance"
+        "Finance",
+        "Life Sciences"
       ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Form 8K Chipotle Mexican Grill Inc For: 14 September By Investing.com",
-      "summary": "The article reports that Chipotle Mexican Grill Inc. filed a Form 8K on September 14, 2026. This filing is a standard requirement for public companies to announce significant ev...",
-      "url": "https://ca.investing.com/news/stock-market-news/form-8k-chipotle-mexican-grill-inc-for-14-september-93CH-4838961",
-      "source": "Investing.com Canada",
-      "published_at": "20260914T222357",
-      "sentiment_score": 0.040007,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CMG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 3,
-      "is_noise": false
+      "quality_score": -10,
+      "is_noise": true
     },
     {
       "title": "Oxford Square director Novak sells $6,775 in company stock",
@@ -549,7 +585,7 @@
       "url": "https://m.investing.com/news/insider-trading-news/oxford-square-director-novak-sells-6775-in-company-stock-93CH-4899997?ampMode=1",
       "source": "Investing.com",
       "published_at": "20260915T033741",
-      "sentiment_score": 0.045246,
+      "sentiment_score": 0.011592,
       "sentiment_label": "Neutral",
       "tickers": [
         "OXSQG"
@@ -568,7 +604,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/parallel49-equity-cpi-card-group-10-owner-sells-549m-stock-93CH-4900747",
       "source": "Investing.com",
       "published_at": "20260915T022701",
-      "sentiment_score": 0.06939,
+      "sentiment_score": 0.095435,
       "sentiment_label": "Neutral",
       "tickers": [
         "PMTS"
@@ -587,7 +623,7 @@
       "url": "https://www.stocktitan.net/sec-filings/HII/form-4-huntington-ingalls-industries-inc-insider-trading-activity-d20cec9dcf86.html",
       "source": "Stock Titan",
       "published_at": "20260915T021313",
-      "sentiment_score": 0.023491,
+      "sentiment_score": 0.008535,
       "sentiment_label": "Neutral",
       "tickers": [
         "HII"
@@ -605,7 +641,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/devon-energy-evp-lowe-sells-344218-in-company-stock-on-sept-14-93CH-4900705",
       "source": "Investing.com",
       "published_at": "20260915T013048",
-      "sentiment_score": 0.052519,
+      "sentiment_score": 0.066564,
       "sentiment_label": "Neutral",
       "tickers": [
         "DVN",
@@ -626,7 +662,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/devon-energy-ceo-clay-gaspar-buys-199876-in-company-stock-93CH-4900707",
       "source": "Investing.com",
       "published_at": "20260915T013048",
-      "sentiment_score": 0.290133,
+      "sentiment_score": 0.295716,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "DVN",
@@ -646,7 +682,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/cpi-card-group-director-mallela-ravi-buys-21500-in-common-stock-93CH-4900710",
       "source": "Investing.com",
       "published_at": "20260915T012701",
-      "sentiment_score": 0.227499,
+      "sentiment_score": 0.211059,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PMTS"
@@ -665,7 +701,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/cpi-card-group-chairman-riley-sanford-buys-299989-in-shares-93CH-4900711",
       "source": "Investing.com",
       "published_at": "20260915T012701",
-      "sentiment_score": 0.415944,
+      "sentiment_score": 0.431638,
       "sentiment_label": "Bullish",
       "tickers": [
         "PMTS"
@@ -684,7 +720,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/cpi-card-group-director-marc-sheinbaum-buys-99996-in-shares-93CH-4900706",
       "source": "Investing.com",
       "published_at": "20260915T012701",
-      "sentiment_score": 0.305885,
+      "sentiment_score": 0.338931,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PMTS"
@@ -703,7 +739,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-cascade-investment-llc-purchases-256000-shares-of-republic-services-nyse-rsg-stock-2026-09-14/",
       "source": "MarketBeat",
       "published_at": "20260915T011407",
-      "sentiment_score": 0.479855,
+      "sentiment_score": 0.466475,
       "sentiment_label": "Bullish",
       "tickers": [
         "RSG"
@@ -721,7 +757,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-devon-energy-nyse-dvn-evp-sells-34421820-in-stock-2026-09-14/",
       "source": "MarketBeat",
       "published_at": "20260915T011326",
-      "sentiment_score": 0.295322,
+      "sentiment_score": 0.276973,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "DVN"
@@ -740,7 +776,7 @@
       "url": "https://m.investing.com/news/insider-trading-news/tmobile-us-vp--chief-accounting-officer-sells-137k-in-shares-93CH-4900698?ampMode=1",
       "source": "Investing.com",
       "published_at": "20260915T011149",
-      "sentiment_score": 0.136045,
+      "sentiment_score": 0.147928,
       "sentiment_label": "Neutral",
       "tickers": [
         "TMUS"
@@ -760,7 +796,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/tmobile-us-vp--chief-accounting-officer-sells-137k-in-shares-93CH-4839050",
       "source": "Investing.com Canada",
       "published_at": "20260915T005442",
-      "sentiment_score": 0.040652,
+      "sentiment_score": 0.044883,
       "sentiment_label": "Neutral",
       "tickers": [
         "TMUS"
@@ -779,7 +815,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/oportun-financial-svpcontroller-schueller-sells-22300-in-shares-93CH-4900678",
       "source": "Investing.com",
       "published_at": "20260915T003349",
-      "sentiment_score": -0.228991,
+      "sentiment_score": -0.199099,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "OPRT"
@@ -798,7 +834,7 @@
       "url": "https://m.investing.com/news/insider-trading-news/caesars-entertainment-director-david-tomick-sells-415431-in-shares-93CH-4900699?ampMode=1",
       "source": "Investing.com",
       "published_at": "20260915T002148",
-      "sentiment_score": -0.075308,
+      "sentiment_score": -0.056889,
       "sentiment_label": "Neutral",
       "tickers": [
         "CZR"
@@ -817,7 +853,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/cadence-design-systems-director-ita-m-brennan-sells-51391-in-shares-93CH-4900672",
       "source": "Investing.com",
       "published_at": "20260914T235338",
-      "sentiment_score": 0.126256,
+      "sentiment_score": 0.146104,
       "sentiment_label": "Neutral",
       "tickers": [
         "CDNS"
@@ -836,7 +872,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-newegg-commerce-nasdaq-negg-director-sells-5183154-in-stock-2026-09-14/",
       "source": "MarketBeat",
       "published_at": "20260914T232916",
-      "sentiment_score": -0.398628,
+      "sentiment_score": -0.429044,
       "sentiment_label": "Bearish",
       "tickers": [
         "NEGG"
@@ -855,7 +891,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-axon-enterprise-nasdaq-axon-insider-isaiah-fields-sells-1017-shares-of-stock-2026-09-14/",
       "source": "MarketBeat",
       "published_at": "20260914T232124",
-      "sentiment_score": 0.133038,
+      "sentiment_score": 0.135864,
       "sentiment_label": "Neutral",
       "tickers": [
         "AXON"
@@ -873,7 +909,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-cascade-investment-llc-acquires-324810-shares-of-republic-services-nyse-rsg-stock-2026-09-14/",
       "source": "MarketBeat",
       "published_at": "20260914T232058",
-      "sentiment_score": 0.493312,
+      "sentiment_score": 0.516644,
       "sentiment_label": "Bullish",
       "tickers": [
         "RSG"
@@ -892,7 +928,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-eog-resources-nyse-eog-evp-michael-donaldson-sells-7336-shares-2026-09-14/",
       "source": "MarketBeat",
       "published_at": "20260914T231645",
-      "sentiment_score": -0.077787,
+      "sentiment_score": -0.087278,
       "sentiment_label": "Neutral",
       "tickers": [
         "EOG"
@@ -912,7 +948,7 @@
       "url": "https://www.investing.com/news/insider-trading-news/cascade-investment-buys-1293m-in-republic-services-stock-93CH-4900667",
       "source": "Investing.com",
       "published_at": "20260914T231607",
-      "sentiment_score": 0.302649,
+      "sentiment_score": 0.304234,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "RSG"
@@ -930,7 +966,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-caesars-entertainment-nasdaq-czr-director-sells-7000-shares-2026-09-14/",
       "source": "MarketBeat",
       "published_at": "20260914T231258",
-      "sentiment_score": -0.038171,
+      "sentiment_score": -0.038563,
       "sentiment_label": "Neutral",
       "tickers": [
         "CZR",
@@ -945,61 +981,41 @@
       ],
       "quality_score": -10,
       "is_noise": true
-    },
-    {
-      "title": "Progyny director Kevin Gordon sells $321,358 in company stock",
-      "summary": "Progyny director Kevin Gordon sold 11,500 shares of company stock worth $321,358 on September 10, 2026, after exercising options to acquire 22,000 shares. This transaction follo...",
-      "url": "https://m.investing.com/news/insider-trading-news/progyny-director-kevin-gordon-sells-321358-in-company-stock-93CH-4900657?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260914T223711",
-      "sentiment_score": 0.046817,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PGNY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Oportun financial chief legal officer Layton sells $32,939 in stock",
-      "summary": "Kathleen I. Layton, Chief Legal Officer at Oportun Financial Corp (NASDAQ:OPRT), sold 4,223 shares of common stock worth $32,939 on September 10, 2026, to cover tax obligations...",
-      "url": "https://m.investing.com/news/insider-trading-news/oportun-financial-chief-legal-officer-layton-sells-32939-in-stock-93CH-4900660?ampMode=1",
-      "source": "Investing.com",
-      "published_at": "20260914T223349",
-      "sentiment_score": 0.038255,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "OPRT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
     }
   ],
   "article_count": 50,
   "top_ticker": "MSFT",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "CRWD, BAC, MSFT, ZS, GLW: 5 Trending Stocks Today - CrowdStrike Holdings (NASDAQ:CRWD)",
+  "top_story": "Stryker Corporation (NYSE:SYK) Receives Average Rating of \"Moderate Buy\" from Analysts",
   "signal_articles": [
+    {
+      "title": "Stryker Corporation (NYSE:SYK) Receives Average Rating of \"Moderate Buy\" from Analysts",
+      "summary": "Stryker Corporation (NYSE:SYK) has received a \"Moderate Buy\" rating from analysts, with 18 buy ratings and six hold ratings among 24 firms. The average 12-month price target is...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-stryker-corporation-nyse-syk-receives-average-rating-of-moderate-buy-from-analysts-2026-09-15/",
+      "source": "MarketBeat",
+      "published_at": "20260915T061905",
+      "sentiment_score": 0.484677,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SYK"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
     {
       "title": "CRWD, BAC, MSFT, ZS, GLW: 5 Trending Stocks Today - CrowdStrike Holdings (NASDAQ:CRWD)",
       "summary": "On Monday, major U.S. stock indices closed lower, but security software stocks saw gains. CrowdStrike (CRWD) surged over 13% after its CEO advocated for AI safety, with Jim Cram...",
       "url": "https://www.benzinga.com/markets/equities/26/09/61780564/crowdstrike-bank-of-america-microsoft-zscaler-and-corning-why-these-5-stocks-are-on-investors-radars-today",
       "source": "Benzinga",
       "published_at": "20260915T012347",
-      "sentiment_score": 0.154806,
-      "sentiment_label": "Somewhat-Bullish",
+      "sentiment_score": 0.149693,
+      "sentiment_label": "Neutral",
       "tickers": [
         "GLW",
         "CRWD",
@@ -1015,41 +1031,22 @@
       "is_noise": false
     },
     {
-      "title": "ServiceNow Jumps 6.4% as AI Slowdown Flips the Software Trade",
-      "summary": "ServiceNow shares rose 6.4% as investors shifted from AI infrastructure stocks to software companies. This move suggests a reevaluation of where AI-driven returns will originate...",
-      "url": "https://finance.yahoo.com/technology/ai/articles/servicenow-jumps-6-4-ai-205808694.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260914T222800",
-      "sentiment_score": 0.388732,
+      "title": "Teledyne e2v Expands 3D Imaging Portfolio with New Perciva ToF Camera",
+      "summary": "Teledyne e2v has introduced the Perciva™ ToF, an industrial-grade 3D Time-of-Flight camera designed for demanding environments. This camera integrates high-performance depth sen...",
+      "url": "https://www.marketscreener.com/news/teledyne-e2v-expands-3d-imaging-portfolio-with-new-perciva-tof-camera-ce785bddd888f42d",
+      "source": "www.marketscreener.com",
+      "published_at": "20260915T060202",
+      "sentiment_score": 0.435183,
       "sentiment_label": "Bullish",
       "tickers": [
-        "NOW",
-        "ADBE"
+        "TDY"
       ],
       "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
+        "Technology",
+        "Manufacturing",
+        "Earnings"
       ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "EOG Resources Price Target Raised to $183.00/Share From $158.00 by UBS",
-      "summary": "UBS has increased its price target for EOG Resources (NYSE: EOG) to $183.00 per share, up from the previous target of $158.00. This revision indicates a more optimistic outlook...",
-      "url": "https://www.moomoo.com/news/post/76230712/eog-resources-price-target-raised-to-183-00-share-from",
-      "source": "Moomoo",
-      "published_at": "20260914T222336",
-      "sentiment_score": 0.632451,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "EOG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
+      "quality_score": 9,
       "is_noise": false
     },
     {
@@ -1058,7 +1055,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/huntington-ingalls-stock-heads-into-the-open-after-a-0-8-percent-dip/70102523",
       "source": "ad-hoc-news.de",
       "published_at": "20260915T021513",
-      "sentiment_score": 0.046425,
+      "sentiment_score": 0.051808,
       "sentiment_label": "Neutral",
       "tickers": [
         "HII",
@@ -1082,7 +1079,7 @@
       "url": "https://sg.finance.yahoo.com/news/paypal-takes-no-1-tech-235148135.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260914T235100",
-      "sentiment_score": 0.127145,
+      "sentiment_score": 0.131455,
       "sentiment_label": "Neutral",
       "tickers": [
         "PYPL",
@@ -1105,7 +1102,7 @@
       "url": "https://sg.finance.yahoo.com/news/intercontinental-exchange-ice-reports-record-032257042.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260915T032253",
-      "sentiment_score": 0.616994,
+      "sentiment_score": 0.631866,
       "sentiment_label": "Bullish",
       "tickers": [
         "ICE"
@@ -1124,7 +1121,7 @@
       "url": "https://ng.investing.com/news/stock-market-news/procore-chairman-craig-f-courtemanche-jr-sells-3m-in-shares-93CH-2695634",
       "source": "Investing.com Nigeria",
       "published_at": "20260915T023701",
-      "sentiment_score": 0.001732,
+      "sentiment_score": 0.037119,
       "sentiment_label": "Neutral",
       "tickers": [
         "PCOR"
@@ -1143,7 +1140,7 @@
       "url": "https://energiesmedia.com/nextera-energy-meetings-growth-outlook/",
       "source": "Energies Media",
       "published_at": "20260915T015802",
-      "sentiment_score": 0.341239,
+      "sentiment_score": 0.320294,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "NEE",
@@ -1164,7 +1161,7 @@
       "url": "https://in.investing.com/news/stock-market-news/caesars-entertainment-director-david-tomick-sells-415431-in-shares-93CH-5592573",
       "source": "Investing.com India",
       "published_at": "20260915T005212",
-      "sentiment_score": -0.297312,
+      "sentiment_score": -0.253705,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CZR"
@@ -1183,7 +1180,7 @@
       "url": "https://sg.finance.yahoo.com/news/gilead-sciences-gild-reasonable-given-231914482.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260914T231900",
-      "sentiment_score": 0.217522,
+      "sentiment_score": 0.244455,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GILD"
@@ -1208,26 +1205,26 @@
       "mentions": 2
     },
     {
+      "ticker": "SYK",
+      "mentions": 1
+    },
+    {
       "ticker": "GLW",
       "mentions": 1
     },
     {
       "ticker": "CRWD",
       "mentions": 1
-    },
-    {
-      "ticker": "NOW",
-      "mentions": 1
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 27
+      "mentions": 28
     },
     {
       "topic": "Financial Markets",
-      "mentions": 24
+      "mentions": 23
     },
     {
       "topic": "Finance",
@@ -1238,26 +1235,26 @@
       "mentions": 8
     },
     {
-      "topic": "Economy Macro",
-      "mentions": 3
+      "topic": "Life Sciences",
+      "mentions": 4
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 11
-    },
-    {
-      "label": "Somewhat-Bullish",
-      "count": 8
+      "count": 10
     },
     {
       "label": "Bullish",
-      "count": 4
+      "count": 6
+    },
+    {
+      "label": "Somewhat-Bullish",
+      "count": 6
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 3
+      "count": 5
     },
     {
       "label": "Bearish",
@@ -1267,23 +1264,23 @@
   "top_sources": [
     {
       "source": "Yahoo Finance Singapore",
-      "count": 4
+      "count": 5
+    },
+    {
+      "source": "Benzinga",
+      "count": 3
     },
     {
       "source": "Investing.com India",
       "count": 3
     },
     {
-      "source": "Kalkine Media",
+      "source": "GuruFocus",
       "count": 3
     },
     {
-      "source": "Benzinga",
-      "count": 2
-    },
-    {
-      "source": "Yahoo Finance",
-      "count": 2
+      "source": "MarketBeat",
+      "count": 1
     }
   ],
   "takeaway": "News flow is centered on Earnings, with MSFT appearing most often and the headline tone mostly neutral."
