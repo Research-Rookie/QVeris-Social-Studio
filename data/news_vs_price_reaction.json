@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-15T07:58:45.509762+00:00",
-  "date": "2026-09-15",
+  "updated_at": "2026-09-16T07:51:52.356718+00:00",
+  "date": "2026-09-16",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
   "symbol": "NVDA",
-  "news_tone": "Neutral",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "NVIDIA Corporation (NASDAQ:NVDA) Receives Consensus Recommendation of \"Buy\" from Analysts",
+  "headline": "Cintas (CTAS) Expected to Release Earnings on Wednesday",
   "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,51 +15,51 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 210.96, 'd': -7.33, 'dp': -3.3579, 'h': 212.77, 'l': 208.93, 'o': 211.24, 'pc': 218.29, 't': 1789416000}}",
+  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 212.17, 'd': 1.21, 'dp': 0.5736, 'h': 213.94, 'l': 211.16, 'o': 213.375, 'pc': 210.96, 't': 1789502400}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
         "ticker": "NVDA",
+        "mentions": 4
+      },
+      {
+        "ticker": "WMT",
+        "mentions": 3
+      },
+      {
+        "ticker": "BLK",
+        "mentions": 3
+      },
+      {
+        "ticker": "COIN",
         "mentions": 2
       },
       {
-        "ticker": "MSFT",
+        "ticker": "BAC",
         "mentions": 2
-      },
-      {
-        "ticker": "CSGP",
-        "mentions": 2
-      },
-      {
-        "ticker": "QCOM",
-        "mentions": 1
-      },
-      {
-        "ticker": "AMD",
-        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Neutral",
-        "count": 10
+        "label": "Somewhat-Bullish",
+        "count": 16
       },
       {
-        "label": "Somewhat-Bullish",
-        "count": 7
+        "label": "Neutral",
+        "count": 9
       },
       {
         "label": "Bullish",
-        "count": 6
+        "count": 8
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 5
+        "count": 3
       },
       {
         "label": "Bearish",
-        "count": 1
+        "count": 2
       }
     ]
   }
