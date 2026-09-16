@@ -1,5 +1,210 @@
 [
   {
+    "id": "market-narrative-shift-coin-2026-09-16",
+    "date": "2026-09-16",
+    "runDate": "2026-09-16",
+    "createdAt": "2026-09-16T07:04:50.829355+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $COIN",
+    "status": "ready",
+    "tweet": "What changed in $COIN's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: -0.00\n📌 Top theme: Earnings\n🔎 Emerging term: ppl\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_COIN_2026-09-16.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-16T07:04:49.232049+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$COIN",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "COIN",
+    "topChangePct": -0.19,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-16T07:04:49.232049+00:00",
+      "date": "2026-09-16",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "COIN",
+      "shift_label": "Attention rising",
+      "sentiment_delta": -0.0019,
+      "baseline_label": "2026-09-11",
+      "current": {
+        "date": "2026-09-16",
+        "symbol": "COIN",
+        "article_count": 2,
+        "source_count": 1,
+        "sentiment_score": 0.0306,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Manufacturing",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "ppl",
+            "count": 4
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "zacks",
+            "count": 2
+          },
+          {
+            "label": "rank",
+            "count": 2
+          },
+          {
+            "label": "emerson",
+            "count": 2
+          },
+          {
+            "label": "electric",
+            "count": 2
+          },
+          {
+            "label": "emr",
+            "count": 2
+          },
+          {
+            "label": "investors",
+            "count": 2
+          },
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "broader",
+            "count": 2
+          },
+          {
+            "label": "should",
+            "count": 1
+          },
+          {
+            "label": "upbeat",
+            "count": 1
+          }
+        ],
+        "headline": "Should Upbeat Earnings Revisions and Zacks Rank Upgrade Require Action From Emerson Electric (EMR) Investors?",
+        "headline_source": "Yahoo Finance"
+      },
+      "previous": {
+        "date": "2026-09-11",
+        "symbol": "COIN",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0325,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "ibm",
+            "count": 4
+          },
+          {
+            "label": "broader",
+            "count": 2
+          },
+          {
+            "label": "dips",
+            "count": 1
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "you",
+            "count": 1
+          },
+          {
+            "label": "should",
+            "count": 1
+          },
+          {
+            "label": "know",
+            "count": 1
+          },
+          {
+            "label": "closed",
+            "count": 1
+          },
+          {
+            "label": "down",
+            "count": 1
+          },
+          {
+            "label": "underperforming",
+            "count": 1
+          },
+          {
+            "label": "technology",
+            "count": 1
+          },
+          {
+            "label": "consulting",
+            "count": 1
+          }
+        ],
+        "headline": "IBM (IBM) Dips More Than Broader Market: What You Should Know",
+        "headline_source": "Yahoo Finance"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "ppl",
+        "earnings",
+        "zacks"
+      ],
+      "fading_keywords": [
+        "ibm",
+        "dips",
+        "what"
+      ],
+      "takeaway": "COIN's narrative is attention rising: sentiment moved -0.00, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-16",
     "date": "2026-09-16",
     "runDate": "2026-09-16",

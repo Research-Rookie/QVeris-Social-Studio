@@ -1,93 +1,101 @@
 {
-  "updated_at": "2026-09-15T07:03:48.462639+00:00",
-  "date": "2026-09-15",
+  "updated_at": "2026-09-16T07:04:49.232049+00:00",
+  "date": "2026-09-16",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "SYK",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.253,
-  "baseline_label": "2026-08-21",
+  "symbol": "COIN",
+  "shift_label": "Attention rising",
+  "sentiment_delta": -0.0019,
+  "baseline_label": "2026-09-11",
   "current": {
-    "date": "2026-09-15",
-    "symbol": "SYK",
-    "article_count": 1,
+    "date": "2026-09-16",
+    "symbol": "COIN",
+    "article_count": 2,
     "source_count": 1,
-    "sentiment_score": 0.4847,
+    "sentiment_score": 0.0306,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
+        "count": 2
       },
       {
         "label": "Financial Markets",
+        "count": 2
+      },
+      {
+        "label": "Manufacturing",
         "count": 1
       },
       {
-        "label": "Life Sciences",
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "buy",
-        "count": 3
+        "label": "ppl",
+        "count": 4
       },
       {
-        "label": "stryker",
+        "label": "earnings",
         "count": 2
       },
       {
-        "label": "average",
+        "label": "zacks",
         "count": 2
       },
       {
-        "label": "rating",
+        "label": "rank",
         "count": 2
       },
       {
-        "label": "moderate",
+        "label": "emerson",
         "count": 2
       },
       {
-        "label": "ratings",
+        "label": "electric",
         "count": 2
       },
       {
-        "label": "receives",
+        "label": "emr",
+        "count": 2
+      },
+      {
+        "label": "investors",
+        "count": 2
+      },
+      {
+        "label": "revenue",
+        "count": 2
+      },
+      {
+        "label": "broader",
+        "count": 2
+      },
+      {
+        "label": "should",
         "count": 1
       },
       {
-        "label": "has",
-        "count": 1
-      },
-      {
-        "label": "received",
-        "count": 1
-      },
-      {
-        "label": "six",
-        "count": 1
-      },
-      {
-        "label": "hold",
-        "count": 1
-      },
-      {
-        "label": "among",
+        "label": "upbeat",
         "count": 1
       }
     ],
-    "headline": "Stryker Corporation (NYSE:SYK) Receives Average Rating of \"Moderate Buy\" from Analysts",
-    "headline_source": "MarketBeat"
+    "headline": "Should Upbeat Earnings Revisions and Zacks Rank Upgrade Require Action From Emerson Electric (EMR) Investors?",
+    "headline_source": "Yahoo Finance"
   },
   "previous": {
-    "date": "2026-08-21",
-    "symbol": "SYK",
+    "date": "2026-09-11",
+    "symbol": "COIN",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.2317,
+    "sentiment_score": 0.0325,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -95,83 +103,83 @@
         "count": 1
       },
       {
-        "label": "Life Sciences",
+        "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "Financial Markets",
+        "label": "Technology",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "abbott",
-        "count": 3
+        "label": "ibm",
+        "count": 4
       },
       {
-        "label": "profit",
+        "label": "broader",
         "count": 2
       },
       {
-        "label": "laboratories",
-        "count": 2
-      },
-      {
-        "label": "abt",
-        "count": 2
-      },
-      {
-        "label": "did",
+        "label": "dips",
         "count": 1
       },
       {
-        "label": "beat",
+        "label": "what",
         "count": 1
       },
       {
-        "label": "hike",
+        "label": "you",
         "count": 1
       },
       {
-        "label": "just",
+        "label": "should",
         "count": 1
       },
       {
-        "label": "shift",
+        "label": "know",
         "count": 1
       },
       {
-        "label": "investment",
+        "label": "closed",
         "count": 1
       },
       {
-        "label": "narrative",
+        "label": "down",
         "count": 1
       },
       {
-        "label": "reported",
+        "label": "underperforming",
+        "count": 1
+      },
+      {
+        "label": "technology",
+        "count": 1
+      },
+      {
+        "label": "consulting",
         "count": 1
       }
     ],
-    "headline": "Did Abbott’s Q2 Beat and Profit Hike Just Shift Abbott Laboratories’ (ABT) Investment Narrative?",
-    "headline_source": "Simply Wall Street"
+    "headline": "IBM (IBM) Dips More Than Broader Market: What You Should Know",
+    "headline_source": "Yahoo Finance"
   },
   "emerging_themes": [
     "Earnings",
     "Financial Markets",
-    "Life Sciences"
+    "Manufacturing"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "buy",
-    "stryker",
-    "average"
+    "ppl",
+    "earnings",
+    "zacks"
   ],
   "fading_keywords": [
-    "abbott",
-    "profit",
-    "laboratories"
+    "ibm",
+    "dips",
+    "what"
   ],
-  "takeaway": "SYK's narrative is turning bullish: sentiment moved +0.25, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "COIN's narrative is attention rising: sentiment moved -0.00, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
