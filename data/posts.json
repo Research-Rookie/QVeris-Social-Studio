@@ -1,5 +1,1294 @@
 [
   {
+    "id": "financial-news-signal-2026-09-17",
+    "date": "2026-09-17",
+    "runDate": "2026-09-17",
+    "createdAt": "2026-09-17T06:18:37.926595+00:00",
+    "contentType": "FINANCIAL NEWS SIGNAL",
+    "title": "Financial News Signal",
+    "status": "ready",
+    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 50\n🏷️ Ticker: GS\n📌 Theme: Earnings\n🧭 Tone: Neutral\n\nSignals from live news data: https://qveris.ai",
+    "image": "/posts/financial_news_signal_2026-09-17.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-17T06:18:36.327931+00:00",
+    "xPostId": null,
+    "primaryLabel": "Top ticker",
+    "primaryValue": "GS",
+    "secondaryLabel": "Tone",
+    "secondaryValue": "Neutral",
+    "topSymbol": "GS",
+    "topChangePct": 0,
+    "financialNewsSignal": {
+      "updated_at": "2026-09-17T06:18:36.327931+00:00",
+      "date": "2026-09-17",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Financial News Signal",
+      "articles": [
+        {
+          "title": "Costco Wholesale (COST) Projected to Post Quarterly Earnings on Thursday",
+          "summary": "Costco Wholesale (COST) is expected to announce its Q4 2026 earnings on Thursday, September 24th, with analysts forecasting earnings of $6.55 per share and revenue of $94.87 bil...",
+          "url": "https://www.marketbeat.com/instant-alerts/upcoming-costco-wholesale-cost-projected-to-post-quarterly-earnings-on-thursday-2026-09-17/",
+          "source": "MarketBeat",
+          "published_at": "20260917T051625",
+          "sentiment_score": 0.177058,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "COST",
+            "UBER"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Financial Markets"
+          ],
+          "quality_score": 18,
+          "is_noise": false
+        },
+        {
+          "title": "RTB Digital lands Nasdaq listing via reverse merger with Ryvyl",
+          "summary": "RTB Digital has gone public on the Nasdaq Capital Market through a reverse merger with Ryvyl Inc., with trading under the ticker RTB commencing on May 13, 2026. Ryvyl issued nea...",
+          "url": "https://app.dealroom.co/news/note/rtb-digital-lands-nasdaq-listing-via-reverse-merger-with-ryvyl",
+          "source": "Dealroom",
+          "published_at": "20260917T010811",
+          "sentiment_score": -0.080326,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "RTB",
+            "NDAQ"
+          ],
+          "topics": [
+            "Ipo",
+            "Mergers And Acquisitions",
+            "Earnings"
+          ],
+          "quality_score": 14,
+          "is_noise": false
+        },
+        {
+          "title": "Snap’s losses set to shrink as revenue growth and cost cuts take hold",
+          "summary": "Snap Inc. is projected to achieve profitability by 2027, with its GAAP net loss expected to shrink significantly in 2026 due to aggressive cost cuts and double-digit revenue gro...",
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/09/snap-s-losses-set-to-shrink-as-revenue-growth-and-cost-cuts-take-hold",
+          "source": "S&P Global",
+          "published_at": "20260916T234111",
+          "sentiment_score": 0.146683,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SPGI"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Aeluma FY2026 slides: AI pivot amid revenue miss, losses widen",
+          "summary": "Aeluma Inc. reported its fiscal year 2026 results, revealing a pivot towards AI datacom opportunities despite missing revenue forecasts and widening losses. The company secured...",
+          "url": "https://www.investing.com/news/company-news/aeluma-fy2026-slides-ai-pivot-amid-revenue-miss-losses-widen-93CH-4904641",
+          "source": "Investing.com",
+          "published_at": "20260916T230550",
+          "sentiment_score": -0.435514,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "ALMU"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Aeluma Q4 2026 Earnings Call: Complete Transcript",
+          "summary": "Aeluma reported Q4 2026 revenue of $582,000, bringing its full-year revenue to $4.5 million, primarily from government contracts, and a GAAP net loss of $9.2 million for the yea...",
+          "url": "https://www.benzinga.com/news/26/09/61831587/aeluma-q4-2026-earnings-call-complete-transcript?utm_source=googlefinance",
+          "source": "Benzinga",
+          "published_at": "20260916T220550",
+          "sentiment_score": 0.606564,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ALMU"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Generac’s stock soars more than 30% after Amazon deal cements company’s status as an AI-power player",
+          "summary": "Generac's stock surged over 30% after securing an $8 billion deal with Amazon for backup-power generators, with initial deliveries valued at $2.4 billion for 2027-2028. This agr...",
+          "url": "https://www.marketwatch.com/story/generacs-stock-soars-more-than-30-after-amazon-deal-cements-its-status-as-ai-power-player-a842b0dc",
+          "source": "MarketWatch",
+          "published_at": "20260916T215640",
+          "sentiment_score": 0.039309,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "GNRC"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Manufacturing",
+            "Earnings"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Goldman Sachs Eyes $70B Revenue Base as Asset, Wealth Growth Accelerates",
+          "summary": "Goldman Sachs CEO David Solomon announced that the firm anticipates its revenue base to reach approximately $70 billion this year, a significant increase from $30 billion in 201...",
+          "url": "https://www.marketbeat.com/instant-alerts/event-goldman-sachs-eyes-70b-revenue-base-as-asset-wealth-growth-accelerates-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T215549",
+          "sentiment_score": 0.344967,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GS",
+            "TROW"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Chipotle Mexican Grill (CMG) Dips More Than Broader Market: What You Should Know",
+          "summary": "Chipotle Mexican Grill (CMG) experienced a 3.3% dip, underperforming the broader market's daily losses. Despite recent monthly gains, the company's shares are trading at a premi...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chipotle-mexican-grill-cmg-dips-214502590.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260916T215549",
+          "sentiment_score": 0.0366,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CMG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Eaton (ETN) Advances While Market Declines: Some Information for Investors",
+          "summary": "Eaton (ETN) closed up 1.38% at $397.80, outperforming the S&P 500's daily loss despite broader market declines. The power management company is projected to see a 14.98% EPS inc...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-etn-advances-while-market-214504537.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260916T215220",
+          "sentiment_score": 0.338866,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "ETN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "The Bull Case For Nutanix (NTNX) Could Change Following New Gartner Nod And Parallels Deal",
+          "summary": "Nutanix (NTNX) has strengthened its market position with an expanded collaboration with Parallels and its recognition as a Leader in the 2026 Gartner Magic Quadrant for Server V...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-nutanix-ntnx-could-051615826.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260917T051554",
+          "sentiment_score": 0.234025,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "IT",
+            "COIN"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "SailPoint (SAIL) Reaches $1.2 Billion ARR. Can AI Growth Lift Revenue and Cash Flow?",
+          "summary": "SailPoint (SAIL) reported a 17% increase in Q2 2027 revenue to $308.8 million and a 25% rise in annual recurring revenue (ARR) to $1.231 billion, with AI-driven solutions contri...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sailpoint-sail-reaches-1-2-200914884.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260916T235823",
+          "sentiment_score": 0.136858,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SAIL"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Chipotle Mexican Grill (CMG) Dips More Than Broader Market: What You Should Know",
+          "summary": "Chipotle Mexican Grill (CMG) shares fell 3.3% in the latest session, underperforming the broader market. The company is set to release its earnings on October 28, 2026, with ana...",
+          "url": "https://sg.finance.yahoo.com/news/chipotle-mexican-grill-cmg-dips-214502590.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260916T215546",
+          "sentiment_score": -0.0569,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CMG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Eaton (ETN) Advances While Market Declines: Some Information for Investors",
+          "summary": "Eaton (ETN) closed up 1.38% while the broader market declined, outperforming the S&P 500 and Dow. Despite a monthly loss for its shares, the company is projected to see signific...",
+          "url": "https://sg.finance.yahoo.com/news/eaton-etn-advances-while-market-214504537.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260917T035219",
+          "sentiment_score": 0.021557,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ETN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "HBK Investments L P Invests $6.16 Million in Liftoff Mobile, Inc. $LFTO",
+          "summary": "HBK Investments L P recently acquired a new stake of 256,250 shares in Liftoff Mobile, Inc. (NASDAQ:LFTO), valued at approximately $6.16 million, representing 0.15% of the compa...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-hbk-investments-l-p-invests-616-million-in-liftoff-mobile-inc-lfto-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260917T030516",
+          "sentiment_score": 0.282942,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "LFTO",
+            "GS",
+            "JPM"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Technology"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Kenvue Inc. $KVUE Holdings Increased by HBK Investments L P",
+          "summary": "HBK Investments L P significantly increased its stake in Kenvue Inc. (NYSE:KVUE) by 33.3% in the second quarter, now holding 28 million shares valued at approximately $535.1 mil...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-kenvue-inc-kvue-holdings-increased-by-hbk-investments-l-p-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T232045",
+          "sentiment_score": 0.047034,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "KVUE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Life Sciences"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "HBK Investments L P Invests $14.44 Million in Versigent $VGNT",
+          "summary": "HBK Investments L P has invested $14.44 million in Versigent (NYSE:VGNT) by acquiring 343,706 shares, representing approximately 0.49% of the company. Other institutional invest...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-hbk-investments-l-p-invests-1444-million-in-versigent-vgnt-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T230751",
+          "sentiment_score": 0.519132,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "VGNT"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "HBK Investments L P Buys New Stake in Innio N.V. $INIO",
+          "summary": "HBK Investments L P has acquired a new stake in Innio N.V. (NASDAQ:INIO) during the second quarter, purchasing 152,500 shares valued at approximately $6.03 million. Several othe...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-hbk-investments-l-p-buys-new-stake-in-innio-nv-inio-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T230334",
+          "sentiment_score": 0.327639,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "INIO",
+            "BAC",
+            "GS",
+            "JPM",
+            "MS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "HBK Investments L P Makes New Investment in Honeywell Aerospace $HONA",
+          "summary": "HBK Investments L P has made a new investment in Honeywell Aerospace (NASDAQ: HONA), purchasing 25,004 shares valued at approximately $5.53 million in the second quarter. Severa...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-hbk-investments-l-p-makes-new-investment-in-honeywell-aerospace-hona-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T230331",
+          "sentiment_score": 0.040235,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HONA",
+            "HON"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Finance",
+            "Manufacturing"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Bristol Myers Squibb Company Declares Quarterly Dividend of $0.63 (NYSE:BMY)",
+          "summary": "Bristol Myers Squibb (NYSE: BMY) has declared a quarterly dividend of $0.63 per share, with an annualized dividend of $2.52, yielding approximately 4.0%. The company has consist...",
+          "url": "https://www.marketbeat.com/instant-alerts/dividend-bristol-myers-squibb-company-declares-quarterly-dividend-of-063-nyse-bmy-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T225146",
+          "sentiment_score": 0.206586,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "BMY",
+            "PFE"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Life Sciences"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Best Buy (NYSE:BBY): What’s Behind the Options Surge?",
+          "summary": "Best Buy (NYSE:BBY) is experiencing a surge in options activity, particularly in call options, drawing renewed market attention. This interest coincides with the company's stron...",
+          "url": "https://kalkinemedia.com/us/stocks/consumer/best-buy-nysebby-whats-behind-the-options-surge",
+          "source": "Kalkine Media",
+          "published_at": "20260916T224249",
+          "sentiment_score": 0.112492,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "BBY",
+            "V",
+            "GE",
+            "EBAY"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale",
+            "Technology"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Spotify (SPOT) Dips More Than Broader Market: What You Should Know",
+          "summary": "Spotify (SPOT) recently experienced a dip, underperforming the broader market with a -2.07% change, while the S&P 500, Dow, and Nasdaq also saw losses. Despite this, Spotify's s...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spotify-spot-dips-more-broader-214507775.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260916T220030",
+          "sentiment_score": -0.113851,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SPOT",
+            "COIN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Intuit Inc (INTU) Shares Fall 3.4% -- What GF Score of 77 Tells Investors",
+          "summary": "Intuit Inc (INTU) shares fell 3.4% to $318.13, yet the company is deemed significantly undervalued by GuruFocus's GF Value™ with a 61.5% upside potential. Despite strong profita...",
+          "url": "https://www.gurufocus.com/news/9084722/intuit-inc-intu-shares-fall-34-what-gf-score-of-77-tells-investors",
+          "source": "GuruFocus",
+          "published_at": "20260916T215214",
+          "sentiment_score": 0.280663,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "INTU"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Paychex shares may move 2.6% on Sept. 23 earnings release By Investing.com",
+          "summary": "Paychex Inc. (PAYX) shares are predicted to move 2.6% following its earnings release on September 23, according to options data. The company has a mixed track record of exceedin...",
+          "url": "https://au.investing.com/news/stock-market-news/paychex-shares-may-move-26-on-sept-23-earnings-release-93CH-4645422",
+          "source": "Investing.com Australia",
+          "published_at": "20260917T033830",
+          "sentiment_score": 0.009045,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PAYX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "IDEX Corporation Declares Regular Quarterly Cash Dividend, Payable on October 16, 2026",
+          "summary": "IDEX Corporation announced a regular quarterly cash dividend of $0.73 per common share, payable on October 16, 2026, to shareholders of record as of October 2, 2026. This marks...",
+          "url": "https://www.marketscreener.com/news/idex-corporation-declares-regular-quarterly-cash-dividend-payable-on-october-16-2026-ce785bd3d98ef721",
+          "source": "marketscreener.com",
+          "published_at": "20260917T033621",
+          "sentiment_score": 0.276396,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "IEX",
+            "JPM"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Manufacturing"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Southwest Airlines (LUV) Heads To Morgan Stanley Conference, Is The Stock Cheap?",
+          "summary": "Southwest Airlines (LUV) is scheduled to speak at Morgan Stanley's 14th Annual Laguna Conference. The stock has seen a recent decline but shows a 24.06% one-year return, and Sim...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/southwest-airlines-luv-heads-morgan-021307686.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260917T021408",
+          "sentiment_score": 0.073429,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "MS",
+            "LUV",
+            "BA"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Energy Transportation",
+            "Economy Macro"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Rate of 47 Max Jets Per Month Still Eludes Boeing",
+          "summary": "Boeing is struggling to reach its target production rate of 47 737 Max jets per month due to constraints in its wing production in Renton, rather than external supply chain issu...",
+          "url": "https://leehamnews.com/2026/09/16/rate-of-47-max-jets-per-month-still-eludes-boeing/",
+          "source": "Leeham News and Analysis",
+          "published_at": "20260917T005338",
+          "sentiment_score": -0.253086,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "BA"
+          ],
+          "topics": [
+            "Manufacturing",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Radiopharm Theranostics Completes A$3 Million Share Purchase Plan",
+          "summary": "Radiopharm Theranostics has successfully completed its share purchase plan, raising approximately A$3.0 million, contributing to a total of A$15.5 million in recent capital rais...",
+          "url": "https://www.tipranks.com/news/company-announcements/radiopharm-theranostics-completes-a3-million-share-purchase-plan",
+          "source": "TipRanks",
+          "published_at": "20260917T000829",
+          "sentiment_score": 0.524934,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "RADX"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Life Sciences"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "HBK Investments L P Invests $72.75 Million in DPC Holdings PLC $DPC",
+          "summary": "HBK Investments L P has acquired a significant new stake in DPC Holdings PLC, purchasing 1.48 million shares valued at approximately $72.75 million. This investment represents 0...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-hbk-investments-l-p-invests-7275-million-in-dpc-holdings-plc-dpc-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T230555",
+          "sentiment_score": 0.394137,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "DPC",
+            "DPZ"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Retail Wholesale"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "ON Semiconductor Corp (ON) Shares Fall 9.0% -- GF Value Says Still Overvalued",
+          "summary": "ON Semiconductor Corp (ON) shares dropped 9.0% to $66.60, making the stock 7.8% overvalued according to GuruFocus's GF Value™ estimate of $61.79. Despite a strong GF Score™ of 8...",
+          "url": "https://www.gurufocus.com/news/9084758/on-semiconductor-corp-on-shares-fall-90-gf-value-says-still-overvalued",
+          "source": "GuruFocus",
+          "published_at": "20260916T224006",
+          "sentiment_score": -0.269733,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "ON"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "CORRECTING and REPLACING One Liberty Properties Dividend Announcement",
+          "summary": "One Liberty Properties, Inc. (NYSE: OLP) issued a correction and update regarding its quarterly dividend announcement. The record date for stockholders entitled to the dividend...",
+          "url": "https://www.manilatimes.net/2026/09/17/tmt-newswire/globenewswire/correcting-and-replacing-one-liberty-properties-dividend-announcement/2426958/amp",
+          "source": "The Manila Times",
+          "published_at": "20260917T031700",
+          "sentiment_score": 0.179381,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "OLP"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Real Estate",
+            "Finance"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Seagate (STX) Retired its 2028 Notes. Was the Cash and Share Cost Worth it?",
+          "summary": "Seagate Technology Holdings plc (NASDAQ: STX) recently completed the redemption and exchange of its 2028 notes, eliminating a future maturity and its associated settlement uncer...",
+          "url": "https://sg.finance.yahoo.com/news/seagate-stx-retired-2028-notes-224217935.html",
+          "source": "Yahoo Finance Singapore",
+          "published_at": "20260916T224333",
+          "sentiment_score": 0.335917,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "STX"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Hershey Trust, 10% owner, sells $5.17m in Hershey Co. stock By Investing.com",
+          "summary": "The Hershey Trust, a 10% owner and director of The Hershey Company (NYSE:HSY), recently sold 29,900 shares of Hershey Co. common stock for approximately $5.17 million. These tra...",
+          "url": "https://uk.investing.com/news/stock-market-news/hershey-trust-10-owner-sells-517m-in-hershey-co-stock-93CH-4872300",
+          "source": "Investing.com UK",
+          "published_at": "20260916T215424",
+          "sentiment_score": -0.148284,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HSY"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Retail Wholesale"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Public Service Enterprise Group stock hits 52-week low at 70.12 USD",
+          "summary": "Public Service Enterprise Group (PEG) stock has dropped to a 52-week low of $70.08, reflecting a 12.82% decline over the past year. Despite this, InvestingPro analysis suggests...",
+          "url": "https://in.investing.com/news/stock-market-news/public-service-enterprise-group-stock-hits-52week-low-at-7012-usd-93CH-5595716",
+          "source": "Investing.com India",
+          "published_at": "20260917T044129",
+          "sentiment_score": -0.205469,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "PEG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Boston Scientific (BSX) Recalls LUX Dx Cardiac Monitor Over Delayed AF Alerts",
+          "summary": "Boston Scientific (BSX) has initiated a voluntary global recall of its LUX-Dx Insertable Cardiac Monitor System and associated software due to delays in atrial fibrillation Burd...",
+          "url": "https://finance.yahoo.com/healthcare/articles/boston-scientific-bsx-recalls-lux-021144874.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260917T021123",
+          "sentiment_score": -0.267064,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "BSX"
+          ],
+          "topics": [
+            "Life Sciences",
+            "Earnings"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Hewlett Packard Enterprise director Gary Reiner sells $967k in stock",
+          "summary": "Hewlett Packard Enterprise director Gary Reiner sold 17,000 shares of HPE common stock worth $967,429 on September 14, 2026, while the stock has surged 138% year-to-date. This t...",
+          "url": "https://uk.investing.com/news/stock-market-news/hewlett-packard-enterprise-director-gary-reiner-sells-967k-in-stock-93CH-4872377",
+          "source": "Investing.com UK",
+          "published_at": "20260916T235502",
+          "sentiment_score": 0.015658,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "HPE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Wynn Resorts Shares Hit 52-Week Low Amid Macau and UAE Concerns",
+          "summary": "Wynn Resorts' shares have dropped to a 52-week low due to investor concerns regarding softening gaming trends in Macau and rising geopolitical tensions in the Middle East, parti...",
+          "url": "https://www.igamingtoday.com/wynn-resorts-shares-hit-52-week-low-amid-macau-and-uae-concerns/",
+          "source": "iGamingToday.com",
+          "published_at": "20260916T232316",
+          "sentiment_score": -0.434185,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "WYNN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Centene Corporation Officer Reports RSU Tax Withholding Transaction on September 15, 2026",
+          "summary": "The article reports that Theodore J. Pienkos, Corporate Controller and Chief Accounting Officer of Centene Corporation, engaged in an RSU tax withholding transaction on Septembe...",
+          "url": "https://kalkinemedia.com/us/news/announcements/centene-corporation-officer-reports-rsu-tax-withholding-transaction-on-september-15-2026",
+          "source": "Kalkine Media",
+          "published_at": "20260916T215234",
+          "sentiment_score": 0.053649,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CNC",
+            "CFG"
+          ],
+          "topics": [
+            "Earnings",
+            "Economy Fiscal",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "TransDigm COO Joel Reiss Executes Stock Option Exercise and Sells Shares Under Rule 10b5-1 Plan",
+          "summary": "TransDigm Group Inc.'s Co-Chief Operating Officer, Joel Reiss, exercised 3,900 stock options and subsequently sold all 3,900 acquired shares on September 15, 2026, under a Rule...",
+          "url": "https://kalkinemedia.com/us/news/announcements/transdigm-coo-joel-reiss-executes-stock-option-exercise-and-sells-shares-under-rule-10b5-1-plan",
+          "source": "Kalkine Media",
+          "published_at": "20260917T022228",
+          "sentiment_score": 0.032946,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "TDG"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Hewlett Packard Enterprise director Gary Reiner sells $967k in stock",
+          "summary": "Gary Reiner, a director at Hewlett Packard Enterprise (NYSE:HPE), sold 17,000 shares of company stock for approximately $967,429 on September 14, 2026. This sale follows a signi...",
+          "url": "https://www.investing.com/news/insider-trading-news/hewlett-packard-enterprise-director-gary-reiner-sells-967k-in-stock-93CH-4904714",
+          "source": "Investing.com",
+          "published_at": "20260917T005454",
+          "sentiment_score": 0.267436,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "HPE",
+            "GS",
+            "FDS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Insider Selling: Transdigm Group (NYSE:TDG) COO Sells $4,268,862.00 in Stock",
+          "summary": "TransDigm Group's COO, Joel Reiss, sold 3,900 shares of company stock for over $4.2 million on September 15th, reducing his holdings by 52%. This follows a similar sale in Augus...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-transdigm-group-nyse-tdg-coo-sells-426886200-in-stock-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260917T004139",
+          "sentiment_score": -0.242756,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "TDG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Kingsway Corp president & CEO Fitzgerald buys $2,494 in stock",
+          "summary": "Kingsway Corp's President and CEO, John Taylor Maloney Fitzgerald, purchased 254 shares of company stock worth $2,494 at $9.82 per share. This acquisition was made through an Em...",
+          "url": "https://www.investing.com/news/insider-trading-news/kingsway-corp-president--ceo-fitzgerald-buys-2494-in-stock-93CH-4904705",
+          "source": "Investing.com",
+          "published_at": "20260917T000556",
+          "sentiment_score": 0.162223,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "KWY"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "NetApp (NASDAQ:NTAP) Director Sells $684,185.04 in Stock",
+          "summary": "NetApp (NASDAQ:NTAP) Director Deepak Ahuja sold 3,526 shares of the company's stock for $684,185.04, reducing his ownership by 17.82%. This sale occurred after NetApp reported s...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-netapp-nasdaq-ntap-director-sells-68418504-in-stock-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T231034",
+          "sentiment_score": 0.015624,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NTAP"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Caesars Entertainment (NASDAQ:CZR) Director David Tomick Sells 7,142 Shares of Stock",
+          "summary": "Caesars Entertainment Director David Tomick sold 7,142 shares of the company's stock for approximately $212,189. This transaction reduced his stake by 28.67% to 17,769 shares. D...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-caesars-entertainment-nasdaq-czr-director-david-tomick-sells-7142-shares-of-stock-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T230958",
+          "sentiment_score": 0.039038,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CZR",
+            "MGM",
+            "LVS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Caesars Entertainment (NASDAQ:CZR) Director David Tomick Sells 7,000 Shares",
+          "summary": "Caesars Entertainment (NASDAQ:CZR) Director David Tomick sold 7,000 shares of the company's stock for $207,620, reducing his position by nearly 22%. Despite missing EPS estimate...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-caesars-entertainment-nasdaq-czr-director-david-tomick-sells-7000-shares-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T230958",
+          "sentiment_score": -0.208476,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "CZR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Diego Rotsztain Sells 30,327 Shares of StoneX Group (NASDAQ:SNEX) Stock",
+          "summary": "Diego Rotsztain, an insider at StoneX Group (NASDAQ:SNEX), sold 30,327 shares of the company's stock for approximately $2.09 million. This transaction, executed under a Rule 10b...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-diego-rotsztain-sells-30327-shares-of-stonex-group-nasdaq-snex-stock-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T230404",
+          "sentiment_score": -0.227984,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "SNEX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "StoneX Group (NASDAQ:SNEX) Insider Diego Rotsztain Sells 20,298 Shares of Stock",
+          "summary": "Diego Rotsztain, an insider at StoneX Group (NASDAQ:SNEX), sold 20,298 shares of the company's stock for approximately $1.36 million on September 16th. This sale, conducted unde...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-stonex-group-nasdaq-snex-insider-diego-rotsztain-sells-20298-shares-of-stock-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T230404",
+          "sentiment_score": -0.10278,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SNEX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Seagate (STX) Retired its 2028 Notes. Was the Cash and Share Cost Worth it?",
+          "summary": "Seagate Technology Holdings plc (NASDAQ:STX) retired its 2028 notes using $150.97 million in cash and issuing 1.65 million shares, resulting in approximately $5.3 million in ann...",
+          "url": "https://www.insidermonkey.com/news/seagate-stx-retired-its-2028-notes-was-the-cash-and-share-cost-worth-it-1836059/",
+          "source": "Insider Monkey",
+          "published_at": "20260916T224339",
+          "sentiment_score": 0.284457,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "STX"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Technology",
+            "Financial Markets"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Slide Insurance (NASDAQ:SLDE) Director Stephen Rohde Sells 7,500 Shares",
+          "summary": "Stephen Rohde, a Director at Slide Insurance (NASDAQ:SLDE), sold 7,500 shares of the company's stock for $198,000, reducing his direct ownership by 50%. The sale occurred on Sep...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-slide-insurance-nasdaq-slde-director-stephen-rohde-sells-7500-shares-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T220932",
+          "sentiment_score": 0.149566,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SLDE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Insider Selling: Slide Insurance (NASDAQ:SLDE) Insider Sells 11,374 Shares of Stock",
+          "summary": "Slide Insurance (NASDAQ:SLDE) insider Matthew Larson sold 11,374 shares of the company's stock for $295,724 on September 14, following a previous sale on September 3. This trans...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-slide-insurance-nasdaq-slde-insider-sells-11374-shares-of-stock-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T220932",
+          "sentiment_score": -0.241598,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "SLDE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Datadog's General Counsel Kerry Acocella Sells 5,280 Shares Under 10b5-1 Plan in September 2026",
+          "summary": "Datadog's General Counsel and Secretary, Kerry Acocella, sold 5,280 shares of Class A Common Stock on September 14, 2026. These sales were conducted under a pre-established Rule...",
+          "url": "https://kalkinemedia.com/us/news/announcements/datadogs-general-counsel-kerry-acocella-sells-5280-shares-under-10b5-1-plan-in-september-2026",
+          "source": "Kalkine Media",
+          "published_at": "20260916T215323",
+          "sentiment_score": 0.048571,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "DDOG"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        }
+      ],
+      "article_count": 50,
+      "top_ticker": "GS",
+      "top_topic": "Earnings",
+      "dominant_sentiment": "Neutral",
+      "top_story": "Costco Wholesale (COST) Projected to Post Quarterly Earnings on Thursday",
+      "signal_articles": [
+        {
+          "title": "Costco Wholesale (COST) Projected to Post Quarterly Earnings on Thursday",
+          "summary": "Costco Wholesale (COST) is expected to announce its Q4 2026 earnings on Thursday, September 24th, with analysts forecasting earnings of $6.55 per share and revenue of $94.87 bil...",
+          "url": "https://www.marketbeat.com/instant-alerts/upcoming-costco-wholesale-cost-projected-to-post-quarterly-earnings-on-thursday-2026-09-17/",
+          "source": "MarketBeat",
+          "published_at": "20260917T051625",
+          "sentiment_score": 0.177058,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "COST",
+            "UBER"
+          ],
+          "topics": [
+            "Earnings",
+            "Retail Wholesale",
+            "Financial Markets"
+          ],
+          "quality_score": 18,
+          "is_noise": false
+        },
+        {
+          "title": "RTB Digital lands Nasdaq listing via reverse merger with Ryvyl",
+          "summary": "RTB Digital has gone public on the Nasdaq Capital Market through a reverse merger with Ryvyl Inc., with trading under the ticker RTB commencing on May 13, 2026. Ryvyl issued nea...",
+          "url": "https://app.dealroom.co/news/note/rtb-digital-lands-nasdaq-listing-via-reverse-merger-with-ryvyl",
+          "source": "Dealroom",
+          "published_at": "20260917T010811",
+          "sentiment_score": -0.080326,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "RTB",
+            "NDAQ"
+          ],
+          "topics": [
+            "Ipo",
+            "Mergers And Acquisitions",
+            "Earnings"
+          ],
+          "quality_score": 14,
+          "is_noise": false
+        },
+        {
+          "title": "Snap’s losses set to shrink as revenue growth and cost cuts take hold",
+          "summary": "Snap Inc. is projected to achieve profitability by 2027, with its GAAP net loss expected to shrink significantly in 2026 due to aggressive cost cuts and double-digit revenue gro...",
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/09/snap-s-losses-set-to-shrink-as-revenue-growth-and-cost-cuts-take-hold",
+          "source": "S&P Global",
+          "published_at": "20260916T234111",
+          "sentiment_score": 0.146683,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SPGI"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Aeluma FY2026 slides: AI pivot amid revenue miss, losses widen",
+          "summary": "Aeluma Inc. reported its fiscal year 2026 results, revealing a pivot towards AI datacom opportunities despite missing revenue forecasts and widening losses. The company secured...",
+          "url": "https://www.investing.com/news/company-news/aeluma-fy2026-slides-ai-pivot-amid-revenue-miss-losses-widen-93CH-4904641",
+          "source": "Investing.com",
+          "published_at": "20260916T230550",
+          "sentiment_score": -0.435514,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "ALMU"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Aeluma Q4 2026 Earnings Call: Complete Transcript",
+          "summary": "Aeluma reported Q4 2026 revenue of $582,000, bringing its full-year revenue to $4.5 million, primarily from government contracts, and a GAAP net loss of $9.2 million for the yea...",
+          "url": "https://www.benzinga.com/news/26/09/61831587/aeluma-q4-2026-earnings-call-complete-transcript?utm_source=googlefinance",
+          "source": "Benzinga",
+          "published_at": "20260916T220550",
+          "sentiment_score": 0.606564,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ALMU"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Generac’s stock soars more than 30% after Amazon deal cements company’s status as an AI-power player",
+          "summary": "Generac's stock surged over 30% after securing an $8 billion deal with Amazon for backup-power generators, with initial deliveries valued at $2.4 billion for 2027-2028. This agr...",
+          "url": "https://www.marketwatch.com/story/generacs-stock-soars-more-than-30-after-amazon-deal-cements-its-status-as-ai-power-player-a842b0dc",
+          "source": "MarketWatch",
+          "published_at": "20260916T215640",
+          "sentiment_score": 0.039309,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "GNRC"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Manufacturing",
+            "Earnings"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Goldman Sachs Eyes $70B Revenue Base as Asset, Wealth Growth Accelerates",
+          "summary": "Goldman Sachs CEO David Solomon announced that the firm anticipates its revenue base to reach approximately $70 billion this year, a significant increase from $30 billion in 201...",
+          "url": "https://www.marketbeat.com/instant-alerts/event-goldman-sachs-eyes-70b-revenue-base-as-asset-wealth-growth-accelerates-2026-09-16/",
+          "source": "MarketBeat",
+          "published_at": "20260916T215549",
+          "sentiment_score": 0.344967,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GS",
+            "TROW"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Chipotle Mexican Grill (CMG) Dips More Than Broader Market: What You Should Know",
+          "summary": "Chipotle Mexican Grill (CMG) experienced a 3.3% dip, underperforming the broader market's daily losses. Despite recent monthly gains, the company's shares are trading at a premi...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chipotle-mexican-grill-cmg-dips-214502590.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260916T215549",
+          "sentiment_score": 0.0366,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CMG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Eaton (ETN) Advances While Market Declines: Some Information for Investors",
+          "summary": "Eaton (ETN) closed up 1.38% at $397.80, outperforming the S&P 500's daily loss despite broader market declines. The power management company is projected to see a 14.98% EPS inc...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-etn-advances-while-market-214504537.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260916T215220",
+          "sentiment_score": 0.338866,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "ETN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "The Bull Case For Nutanix (NTNX) Could Change Following New Gartner Nod And Parallels Deal",
+          "summary": "Nutanix (NTNX) has strengthened its market position with an expanded collaboration with Parallels and its recognition as a Leader in the 2026 Gartner Magic Quadrant for Server V...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-nutanix-ntnx-could-051615826.html",
+          "source": "Yahoo Finance",
+          "published_at": "20260917T051554",
+          "sentiment_score": 0.234025,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "IT",
+            "COIN"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        }
+      ],
+      "top_tickers": [
+        {
+          "ticker": "GS",
+          "mentions": 3
+        },
+        {
+          "ticker": "JPM",
+          "mentions": 3
+        },
+        {
+          "ticker": "ALMU",
+          "mentions": 2
+        },
+        {
+          "ticker": "CMG",
+          "mentions": 2
+        },
+        {
+          "ticker": "ETN",
+          "mentions": 2
+        }
+      ],
+      "top_topics": [
+        {
+          "topic": "Earnings",
+          "mentions": 37
+        },
+        {
+          "topic": "Financial Markets",
+          "mentions": 25
+        },
+        {
+          "topic": "Finance",
+          "mentions": 14
+        },
+        {
+          "topic": "Technology",
+          "mentions": 11
+        },
+        {
+          "topic": "Retail Wholesale",
+          "mentions": 6
+        }
+      ],
+      "sentiment_counts": [
+        {
+          "label": "Neutral",
+          "count": 16
+        },
+        {
+          "label": "Somewhat-Bullish",
+          "count": 11
+        },
+        {
+          "label": "Bullish",
+          "count": 4
+        },
+        {
+          "label": "Somewhat-Bearish",
+          "count": 4
+        },
+        {
+          "label": "Bearish",
+          "count": 2
+        }
+      ],
+      "top_sources": [
+        {
+          "source": "MarketBeat",
+          "count": 9
+        },
+        {
+          "source": "Yahoo Finance",
+          "count": 7
+        },
+        {
+          "source": "Yahoo Finance Singapore",
+          "count": 3
+        },
+        {
+          "source": "Kalkine Media",
+          "count": 2
+        },
+        {
+          "source": "GuruFocus",
+          "count": 2
+        }
+      ],
+      "takeaway": "News flow is centered on Earnings, with GS appearing most often and the headline tone mostly neutral."
+    }
+  },
+  {
     "id": "polymarket-pulse-2026-09-17",
     "date": "2026-09-17",
     "runDate": "2026-09-17",
