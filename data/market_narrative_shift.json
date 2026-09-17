@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-09-16T07:04:49.232049+00:00",
-  "date": "2026-09-16",
+  "updated_at": "2026-09-17T07:00:46.795529+00:00",
+  "date": "2026-09-17",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "COIN",
-  "shift_label": "Attention rising",
-  "sentiment_delta": -0.0019,
-  "baseline_label": "2026-09-11",
+  "symbol": "ALMU",
+  "shift_label": "Baseline building",
+  "sentiment_delta": 0.0,
+  "baseline_label": "Building",
   "current": {
-    "date": "2026-09-16",
-    "symbol": "COIN",
+    "date": "2026-09-17",
+    "symbol": "ALMU",
     "article_count": 2,
-    "source_count": 1,
-    "sentiment_score": 0.0306,
+    "source_count": 2,
+    "sentiment_score": 0.1099,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,165 +21,80 @@
         "count": 2
       },
       {
-        "label": "Financial Markets",
+        "label": "Technology",
         "count": 2
       },
       {
-        "label": "Manufacturing",
-        "count": 1
-      },
-      {
-        "label": "Technology",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
+        "label": "Finance",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "ppl",
+        "label": "aeluma",
         "count": 4
-      },
-      {
-        "label": "earnings",
-        "count": 2
-      },
-      {
-        "label": "zacks",
-        "count": 2
-      },
-      {
-        "label": "rank",
-        "count": 2
-      },
-      {
-        "label": "emerson",
-        "count": 2
-      },
-      {
-        "label": "electric",
-        "count": 2
-      },
-      {
-        "label": "emr",
-        "count": 2
-      },
-      {
-        "label": "investors",
-        "count": 2
       },
       {
         "label": "revenue",
-        "count": 2
-      },
-      {
-        "label": "broader",
-        "count": 2
-      },
-      {
-        "label": "should",
-        "count": 1
-      },
-      {
-        "label": "upbeat",
-        "count": 1
-      }
-    ],
-    "headline": "Should Upbeat Earnings Revisions and Zacks Rank Upgrade Require Action From Emerson Electric (EMR) Investors?",
-    "headline_source": "Yahoo Finance"
-  },
-  "previous": {
-    "date": "2026-09-11",
-    "symbol": "COIN",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.0325,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Technology",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "ibm",
         "count": 4
       },
       {
-        "label": "broader",
+        "label": "pivot",
         "count": 2
       },
       {
-        "label": "dips",
+        "label": "losses",
+        "count": 2
+      },
+      {
+        "label": "reported",
+        "count": 2
+      },
+      {
+        "label": "fy2026",
         "count": 1
       },
       {
-        "label": "what",
+        "label": "slides",
         "count": 1
       },
       {
-        "label": "you",
+        "label": "amid",
         "count": 1
       },
       {
-        "label": "should",
+        "label": "miss",
         "count": 1
       },
       {
-        "label": "know",
+        "label": "widen",
         "count": 1
       },
       {
-        "label": "closed",
+        "label": "fiscal",
         "count": 1
       },
       {
-        "label": "down",
-        "count": 1
-      },
-      {
-        "label": "underperforming",
-        "count": 1
-      },
-      {
-        "label": "technology",
-        "count": 1
-      },
-      {
-        "label": "consulting",
+        "label": "results",
         "count": 1
       }
     ],
-    "headline": "IBM (IBM) Dips More Than Broader Market: What You Should Know",
-    "headline_source": "Yahoo Finance"
+    "headline": "Aeluma FY2026 slides: AI pivot amid revenue miss, losses widen",
+    "headline_source": "Investing.com"
   },
+  "previous": null,
   "emerging_themes": [
     "Earnings",
-    "Financial Markets",
-    "Manufacturing"
+    "Technology",
+    "Finance"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "ppl",
-    "earnings",
-    "zacks"
+    "aeluma",
+    "revenue",
+    "pivot"
   ],
-  "fading_keywords": [
-    "ibm",
-    "dips",
-    "what"
-  ],
-  "takeaway": "COIN's narrative is attention rising: sentiment moved -0.00, while the leading theme shifted from Earnings to Earnings.",
+  "fading_keywords": [],
+  "takeaway": "ALMU leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
