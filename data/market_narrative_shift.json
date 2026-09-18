@@ -1,100 +1,191 @@
 {
-  "updated_at": "2026-09-17T07:00:46.795529+00:00",
-  "date": "2026-09-17",
+  "updated_at": "2026-09-18T06:57:00.837970+00:00",
+  "date": "2026-09-18",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "ALMU",
-  "shift_label": "Baseline building",
-  "sentiment_delta": 0.0,
-  "baseline_label": "Building",
+  "symbol": "STLD",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.3384,
+  "baseline_label": "2026-09-05",
   "current": {
-    "date": "2026-09-17",
-    "symbol": "ALMU",
-    "article_count": 2,
-    "source_count": 2,
-    "sentiment_score": 0.1099,
+    "date": "2026-09-18",
+    "symbol": "STLD",
+    "article_count": 3,
+    "source_count": 3,
+    "sentiment_score": -0.2223,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
+        "count": 3
+      },
+      {
+        "label": "Manufacturing",
+        "count": 3
+      },
+      {
+        "label": "Financial Markets",
         "count": 2
       },
       {
-        "label": "Technology",
-        "count": 2
+        "label": "Real Estate",
+        "count": 1
       },
       {
-        "label": "Finance",
+        "label": "Economy Fiscal",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "aeluma",
+        "label": "steel",
+        "count": 5
+      },
+      {
+        "label": "dynamics",
+        "count": 5
+      },
+      {
+        "label": "guidance",
         "count": 4
       },
       {
-        "label": "revenue",
+        "label": "earnings",
         "count": 4
       },
       {
-        "label": "pivot",
+        "label": "third-quarter",
+        "count": 3
+      },
+      {
+        "label": "falls",
         "count": 2
       },
       {
-        "label": "losses",
+        "label": "weaker",
         "count": 2
       },
       {
-        "label": "reported",
+        "label": "third",
         "count": 2
       },
       {
-        "label": "fy2026",
+        "label": "quarter",
+        "count": 2
+      },
+      {
+        "label": "dropped",
+        "count": 2
+      },
+      {
+        "label": "after-hours",
+        "count": 2
+      },
+      {
+        "label": "nucor",
+        "count": 2
+      }
+    ],
+    "headline": "Steel Dynamics stock falls on weaker third quarter guidance",
+    "headline_source": "Investing.com India"
+  },
+  "previous": {
+    "date": "2026-09-05",
+    "symbol": "STLD",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.1161,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
         "count": 1
       },
       {
-        "label": "slides",
+        "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "amid",
+        "label": "Manufacturing",
         "count": 1
       },
       {
-        "label": "miss",
-        "count": 1
-      },
-      {
-        "label": "widen",
-        "count": 1
-      },
-      {
-        "label": "fiscal",
-        "count": 1
-      },
-      {
-        "label": "results",
+        "label": "Economy Macro",
         "count": 1
       }
     ],
-    "headline": "Aeluma FY2026 slides: AI pivot amid revenue miss, losses widen",
-    "headline_source": "Investing.com"
+    "keywords": [
+      {
+        "label": "steel",
+        "count": 2
+      },
+      {
+        "label": "dynamics",
+        "count": 2
+      },
+      {
+        "label": "broader",
+        "count": 2
+      },
+      {
+        "label": "dips",
+        "count": 1
+      },
+      {
+        "label": "what",
+        "count": 1
+      },
+      {
+        "label": "you",
+        "count": 1
+      },
+      {
+        "label": "should",
+        "count": 1
+      },
+      {
+        "label": "know",
+        "count": 1
+      },
+      {
+        "label": "closed",
+        "count": 1
+      },
+      {
+        "label": "down",
+        "count": 1
+      },
+      {
+        "label": "underperforming",
+        "count": 1
+      },
+      {
+        "label": "despite",
+        "count": 1
+      }
+    ],
+    "headline": "Steel Dynamics (STLD) Dips More Than Broader Market: What You Should Know",
+    "headline_source": "Yahoo Finance"
   },
-  "previous": null,
   "emerging_themes": [
     "Earnings",
-    "Technology",
-    "Finance"
+    "Manufacturing",
+    "Financial Markets"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Economy Macro"
+  ],
   "emerging_keywords": [
-    "aeluma",
-    "revenue",
-    "pivot"
+    "guidance",
+    "earnings",
+    "steel"
   ],
-  "fading_keywords": [],
-  "takeaway": "ALMU leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+  "fading_keywords": [
+    "broader",
+    "dips",
+    "what"
+  ],
+  "takeaway": "STLD's narrative is turning bearish: sentiment moved -0.34, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
