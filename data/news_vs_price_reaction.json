@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-17T07:56:49.393111+00:00",
-  "date": "2026-09-17",
+  "updated_at": "2026-09-18T07:34:22.244368+00:00",
+  "date": "2026-09-18",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "JPM",
+  "symbol": "STLD",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Tamboran Resources (TBN) Projected to Release Earnings on Thursday",
+  "headline": "Live Nation Entertainment, Inc. (NYSE:LYV) Receives Average Recommendation of \"Moderate Buy\" from Analysts",
   "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,29 +15,29 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for JPM: {'status_code': 200, 'data': {'c': 348.92, 'd': -3.57, 'dp': -1.0128, 'h': 355.6, 'l': 344.685, 'o': 353.38, 'pc': 352.49, 't': 1789588800}}",
+  "price_error": "Could not parse quote data for STLD: {'status_code': 200, 'data': {'c': 245.35, 'd': 7.12, 'dp': 2.9887, 'h': 247.1, 'l': 242.3, 'o': 242.44, 'pc': 238.23, 't': 1789675200}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "JPM",
+        "ticker": "STLD",
         "mentions": 4
       },
       {
-        "ticker": "BAC",
+        "ticker": "VICI",
         "mentions": 2
       },
       {
-        "ticker": "GS",
+        "ticker": "AMZN",
         "mentions": 2
       },
       {
-        "ticker": "MS",
+        "ticker": "NVDA",
         "mentions": 2
       },
       {
-        "ticker": "BA",
-        "mentions": 2
+        "ticker": "LYV",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
@@ -46,20 +46,20 @@
         "count": 14
       },
       {
-        "label": "Somewhat-Bullish",
-        "count": 12
-      },
-      {
         "label": "Bullish",
-        "count": 4
+        "count": 9
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 4
+        "count": 8
+      },
+      {
+        "label": "Somewhat-Bullish",
+        "count": 7
       },
       {
         "label": "Bearish",
-        "count": 2
+        "count": 3
       }
     ]
   }

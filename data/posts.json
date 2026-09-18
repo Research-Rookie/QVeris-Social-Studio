@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-stld-2026-09-18",
+    "date": "2026-09-18",
+    "runDate": "2026-09-18",
+    "createdAt": "2026-09-18T07:34:23.897110+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$STLD news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-18.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-18T07:34:22.244368+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$STLD",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "STLD",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-18T07:34:22.244368+00:00",
+      "date": "2026-09-18",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "STLD",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Live Nation Entertainment, Inc. (NYSE:LYV) Receives Average Recommendation of \"Moderate Buy\" from Analysts",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for STLD: {'status_code': 200, 'data': {'c': 245.35, 'd': 7.12, 'dp': 2.9887, 'h': 247.1, 'l': 242.3, 'o': 242.44, 'pc': 238.23, 't': 1789675200}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "STLD",
+            "mentions": 4
+          },
+          {
+            "ticker": "VICI",
+            "mentions": 2
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 2
+          },
+          {
+            "ticker": "NVDA",
+            "mentions": 2
+          },
+          {
+            "ticker": "LYV",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 14
+          },
+          {
+            "label": "Bullish",
+            "count": 9
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 8
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 7
+          },
+          {
+            "label": "Bearish",
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-stld-2026-09-18",
     "date": "2026-09-18",
     "runDate": "2026-09-18",
