@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-18T07:34:22.244368+00:00",
-  "date": "2026-09-18",
+  "updated_at": "2026-09-19T07:29:59.552246+00:00",
+  "date": "2026-09-19",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "STLD",
+  "symbol": "JPM",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Live Nation Entertainment, Inc. (NYSE:LYV) Receives Average Recommendation of \"Moderate Buy\" from Analysts",
+  "headline": "Parke Bancorp (NASDAQ:PKBK) Lowered to \"Hold\" Rating by Wall Street Zen",
   "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,51 +15,51 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for STLD: {'status_code': 200, 'data': {'c': 245.35, 'd': 7.12, 'dp': 2.9887, 'h': 247.1, 'l': 242.3, 'o': 242.44, 'pc': 238.23, 't': 1789675200}}",
+  "price_error": "Could not parse quote data for JPM: {'status_code': 200, 'data': {'c': 349.67, 'd': 0.36, 'dp': 0.1031, 'h': 349.67, 'l': 345.01, 'o': 347.89, 'pc': 349.31, 't': 1789761600}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "STLD",
-        "mentions": 4
-      },
-      {
-        "ticker": "VICI",
+        "ticker": "JPM",
         "mentions": 2
       },
       {
-        "ticker": "AMZN",
+        "ticker": "DOW",
         "mentions": 2
       },
       {
-        "ticker": "NVDA",
+        "ticker": "WSM",
         "mentions": 2
       },
       {
-        "ticker": "LYV",
+        "ticker": "PKBK",
+        "mentions": 1
+      },
+      {
+        "ticker": "HUM",
         "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 14
+        "count": 18
       },
       {
         "label": "Bullish",
-        "count": 9
-      },
-      {
-        "label": "Somewhat-Bearish",
         "count": 8
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 7
+        "count": 4
+      },
+      {
+        "label": "Somewhat-Bearish",
+        "count": 3
       },
       {
         "label": "Bearish",
-        "count": 3
+        "count": 2
       }
     ]
   }
