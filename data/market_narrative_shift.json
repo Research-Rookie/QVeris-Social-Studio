@@ -1,101 +1,101 @@
 {
-  "updated_at": "2026-09-18T06:57:00.837970+00:00",
-  "date": "2026-09-18",
+  "updated_at": "2026-09-19T06:55:55.553159+00:00",
+  "date": "2026-09-19",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "STLD",
+  "symbol": "JPM",
   "shift_label": "Turning bearish",
-  "sentiment_delta": -0.3384,
-  "baseline_label": "2026-09-05",
+  "sentiment_delta": -0.2284,
+  "baseline_label": "2026-08-31",
   "current": {
-    "date": "2026-09-18",
-    "symbol": "STLD",
-    "article_count": 3,
-    "source_count": 3,
-    "sentiment_score": -0.2223,
+    "date": "2026-09-19",
+    "symbol": "JPM",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": -0.0001,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 3
-      },
-      {
-        "label": "Manufacturing",
-        "count": 3
+        "count": 2
       },
       {
         "label": "Financial Markets",
         "count": 2
       },
       {
-        "label": "Real Estate",
+        "label": "Finance",
+        "count": 2
+      },
+      {
+        "label": "Retail Wholesale",
         "count": 1
       },
       {
-        "label": "Economy Fiscal",
+        "label": "Technology",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "steel",
-        "count": 5
-      },
-      {
-        "label": "dynamics",
-        "count": 5
-      },
-      {
-        "label": "guidance",
-        "count": 4
-      },
-      {
-        "label": "earnings",
-        "count": 4
-      },
-      {
-        "label": "third-quarter",
+        "label": "clorox",
         "count": 3
       },
       {
-        "label": "falls",
+        "label": "clx",
         "count": 2
       },
       {
-        "label": "weaker",
+        "label": "raised",
         "count": 2
       },
       {
-        "label": "third",
+        "label": "hold",
         "count": 2
       },
       {
-        "label": "quarter",
+        "label": "wall",
         "count": 2
       },
       {
-        "label": "dropped",
+        "label": "street",
         "count": 2
       },
       {
-        "label": "after-hours",
+        "label": "zen",
         "count": 2
       },
       {
-        "label": "nucor",
+        "label": "analog",
+        "count": 2
+      },
+      {
+        "label": "devices",
+        "count": 2
+      },
+      {
+        "label": "senior",
+        "count": 2
+      },
+      {
+        "label": "notes",
+        "count": 2
+      },
+      {
+        "label": "offering",
         "count": 2
       }
     ],
-    "headline": "Steel Dynamics stock falls on weaker third quarter guidance",
-    "headline_source": "Investing.com India"
+    "headline": "Clorox (NYSE:CLX) Raised to \"Hold\" at Wall Street Zen",
+    "headline_source": "MarketBeat"
   },
   "previous": {
-    "date": "2026-09-05",
-    "symbol": "STLD",
+    "date": "2026-08-31",
+    "symbol": "JPM",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1161,
+    "sentiment_score": 0.2283,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -107,85 +107,79 @@
         "count": 1
       },
       {
-        "label": "Manufacturing",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
+        "label": "Retail Wholesale",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "steel",
+        "label": "dollar",
         "count": 2
       },
       {
-        "label": "dynamics",
+        "label": "tree",
         "count": 2
+      },
+      {
+        "label": "dltr",
+        "count": 2
+      },
+      {
+        "label": "acquired",
+        "count": 2
+      },
+      {
+        "label": "jefferies",
+        "count": 2
+      },
+      {
+        "label": "financial",
+        "count": 2
+      },
+      {
+        "label": "recently",
+        "count": 1
+      },
+      {
+        "label": "valued",
+        "count": 1
+      },
+      {
+        "label": "approximately",
+        "count": 1
+      },
+      {
+        "label": "acquisition",
+        "count": 1
+      },
+      {
+        "label": "part",
+        "count": 1
       },
       {
         "label": "broader",
-        "count": 2
-      },
-      {
-        "label": "dips",
-        "count": 1
-      },
-      {
-        "label": "what",
-        "count": 1
-      },
-      {
-        "label": "you",
-        "count": 1
-      },
-      {
-        "label": "should",
-        "count": 1
-      },
-      {
-        "label": "know",
-        "count": 1
-      },
-      {
-        "label": "closed",
-        "count": 1
-      },
-      {
-        "label": "down",
-        "count": 1
-      },
-      {
-        "label": "underperforming",
-        "count": 1
-      },
-      {
-        "label": "despite",
         "count": 1
       }
     ],
-    "headline": "Steel Dynamics (STLD) Dips More Than Broader Market: What You Should Know",
-    "headline_source": "Yahoo Finance"
+    "headline": "14,538 Shares in Dollar Tree, Inc. $DLTR Acquired by Jefferies Financial Group Inc.",
+    "headline_source": "MarketBeat"
   },
   "emerging_themes": [
+    "Finance",
     "Earnings",
-    "Manufacturing",
     "Financial Markets"
   ],
-  "fading_themes": [
-    "Economy Macro"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "guidance",
-    "earnings",
-    "steel"
+    "clorox",
+    "clx",
+    "raised"
   ],
   "fading_keywords": [
-    "broader",
-    "dips",
-    "what"
+    "dollar",
+    "tree",
+    "dltr"
   ],
-  "takeaway": "STLD's narrative is turning bearish: sentiment moved -0.34, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "JPM's narrative is turning bearish: sentiment moved -0.23, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
