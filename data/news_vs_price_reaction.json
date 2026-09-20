@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-19T07:29:59.552246+00:00",
-  "date": "2026-09-19",
+  "updated_at": "2026-09-20T07:53:25.999698+00:00",
+  "date": "2026-09-20",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "JPM",
-  "news_tone": "Neutral",
+  "symbol": "BAC",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "Parke Bancorp (NASDAQ:PKBK) Lowered to \"Hold\" Rating by Wall Street Zen",
+  "headline": "Lockheed Martin (NYSE:LMT) Upgraded to \"Strong-Buy\" at Wall Street Zen",
   "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,47 +15,47 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for JPM: {'status_code': 200, 'data': {'c': 349.67, 'd': 0.36, 'dp': 0.1031, 'h': 349.67, 'l': 345.01, 'o': 347.89, 'pc': 349.31, 't': 1789761600}}",
+  "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 57.73, 'd': -0.45, 'dp': -0.7735, 'h': 58.23, 'l': 57.52, 'o': 57.52, 'pc': 58.18, 't': 1789761600}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
+        "ticker": "BAC",
+        "mentions": 6
+      },
+      {
+        "ticker": "NVDA",
+        "mentions": 6
+      },
+      {
+        "ticker": "MSFT",
+        "mentions": 3
+      },
+      {
         "ticker": "JPM",
+        "mentions": 3
+      },
+      {
+        "ticker": "CVS",
         "mentions": 2
-      },
-      {
-        "ticker": "DOW",
-        "mentions": 2
-      },
-      {
-        "ticker": "WSM",
-        "mentions": 2
-      },
-      {
-        "ticker": "PKBK",
-        "mentions": 1
-      },
-      {
-        "ticker": "HUM",
-        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
+        "label": "Somewhat-Bullish",
+        "count": 15
+      },
+      {
         "label": "Neutral",
-        "count": 18
+        "count": 13
       },
       {
         "label": "Bullish",
-        "count": 8
-      },
-      {
-        "label": "Somewhat-Bullish",
-        "count": 4
+        "count": 11
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 3
+        "count": 6
       },
       {
         "label": "Bearish",
