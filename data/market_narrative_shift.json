@@ -1,57 +1,49 @@
 {
-  "updated_at": "2026-09-19T06:55:55.553159+00:00",
-  "date": "2026-09-19",
+  "updated_at": "2026-09-20T07:20:54.201759+00:00",
+  "date": "2026-09-20",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "JPM",
-  "shift_label": "Turning bearish",
-  "sentiment_delta": -0.2284,
-  "baseline_label": "2026-08-31",
+  "symbol": "LMT",
+  "shift_label": "Turning bullish",
+  "sentiment_delta": 0.2727,
+  "baseline_label": "2026-09-15",
   "current": {
-    "date": "2026-09-19",
-    "symbol": "JPM",
-    "article_count": 2,
-    "source_count": 2,
-    "sentiment_score": -0.0001,
+    "date": "2026-09-20",
+    "symbol": "LMT",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.3191,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 2
-      },
-      {
-        "label": "Financial Markets",
-        "count": 2
-      },
-      {
-        "label": "Finance",
-        "count": 2
-      },
-      {
-        "label": "Retail Wholesale",
         "count": 1
       },
       {
-        "label": "Technology",
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Manufacturing",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "clorox",
-        "count": 3
-      },
-      {
-        "label": "clx",
+        "label": "lockheed",
         "count": 2
       },
       {
-        "label": "raised",
+        "label": "martin",
         "count": 2
       },
       {
-        "label": "hold",
+        "label": "upgraded",
+        "count": 2
+      },
+      {
+        "label": "strong-buy",
         "count": 2
       },
       {
@@ -67,93 +59,19 @@
         "count": 2
       },
       {
-        "label": "analog",
-        "count": 2
-      },
-      {
-        "label": "devices",
-        "count": 2
-      },
-      {
-        "label": "senior",
-        "count": 2
-      },
-      {
-        "label": "notes",
-        "count": 2
-      },
-      {
-        "label": "offering",
-        "count": 2
-      }
-    ],
-    "headline": "Clorox (NYSE:CLX) Raised to \"Hold\" at Wall Street Zen",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-08-31",
-    "symbol": "JPM",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.2283,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
+        "label": "has",
         "count": 1
       },
       {
-        "label": "Financial Markets",
+        "label": "rating",
         "count": 1
       },
       {
-        "label": "Retail Wholesale",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "dollar",
-        "count": 2
-      },
-      {
-        "label": "tree",
-        "count": 2
-      },
-      {
-        "label": "dltr",
-        "count": 2
-      },
-      {
-        "label": "acquired",
-        "count": 2
-      },
-      {
-        "label": "jefferies",
-        "count": 2
-      },
-      {
-        "label": "financial",
-        "count": 2
-      },
-      {
-        "label": "recently",
+        "label": "buy",
         "count": 1
       },
       {
-        "label": "valued",
-        "count": 1
-      },
-      {
-        "label": "approximately",
-        "count": 1
-      },
-      {
-        "label": "acquisition",
-        "count": 1
-      },
-      {
-        "label": "part",
+        "label": "while",
         "count": 1
       },
       {
@@ -161,25 +79,105 @@
         "count": 1
       }
     ],
-    "headline": "14,538 Shares in Dollar Tree, Inc. $DLTR Acquired by Jefferies Financial Group Inc.",
+    "headline": "Lockheed Martin (NYSE:LMT) Upgraded to \"Strong-Buy\" at Wall Street Zen",
     "headline_source": "MarketBeat"
   },
+  "previous": {
+    "date": "2026-09-15",
+    "symbol": "LMT",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.0464,
+    "top_theme": "Financial Markets",
+    "themes": [
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      },
+      {
+        "label": "Manufacturing",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "huntington",
+        "count": 2
+      },
+      {
+        "label": "ingalls",
+        "count": 2
+      },
+      {
+        "label": "heads",
+        "count": 1
+      },
+      {
+        "label": "open",
+        "count": 1
+      },
+      {
+        "label": "dip",
+        "count": 1
+      },
+      {
+        "label": "hii",
+        "count": 1
+      },
+      {
+        "label": "closed",
+        "count": 1
+      },
+      {
+        "label": "down",
+        "count": 1
+      },
+      {
+        "label": "usd",
+        "count": 1
+      },
+      {
+        "label": "september",
+        "count": 1
+      },
+      {
+        "label": "underperforming",
+        "count": 1
+      },
+      {
+        "label": "gain",
+        "count": 1
+      }
+    ],
+    "headline": "Huntington Ingalls stock heads into the open after a 0.8% dip",
+    "headline_source": "ad-hoc-news.de"
+  },
   "emerging_themes": [
-    "Finance",
     "Earnings",
-    "Financial Markets"
+    "Financial Markets",
+    "Manufacturing"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Economy Macro"
+  ],
   "emerging_keywords": [
-    "clorox",
-    "clx",
-    "raised"
+    "lockheed",
+    "martin",
+    "upgraded"
   ],
   "fading_keywords": [
-    "dollar",
-    "tree",
-    "dltr"
+    "huntington",
+    "ingalls",
+    "heads"
   ],
-  "takeaway": "JPM's narrative is turning bearish: sentiment moved -0.23, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "LMT's narrative is turning bullish: sentiment moved +0.27, while the leading theme shifted from Financial Markets to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
