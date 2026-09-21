@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-20T07:53:25.999698+00:00",
-  "date": "2026-09-20",
+  "updated_at": "2026-09-21T08:09:22.547092+00:00",
+  "date": "2026-09-21",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "BAC",
-  "news_tone": "Somewhat Bullish",
+  "symbol": "SPGI",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Lockheed Martin (NYSE:LMT) Upgraded to \"Strong-Buy\" at Wall Street Zen",
+  "headline": "Equities Analysts Offer Predictions for Evergy Q1 Earnings",
   "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,51 +15,51 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 57.73, 'd': -0.45, 'dp': -0.7735, 'h': 58.23, 'l': 57.52, 'o': 57.52, 'pc': 58.18, 't': 1789761600}}",
+  "price_error": "Could not parse quote data for SPGI: {'status_code': 200, 'data': {'c': 405.32, 'd': 1.21, 'dp': 0.2994, 'h': 408.08, 'l': 400.83, 'o': 401.4, 'pc': 404.11, 't': 1789761600}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "BAC",
+        "ticker": "SPGI",
         "mentions": 6
       },
       {
-        "ticker": "NVDA",
-        "mentions": 6
+        "ticker": "COIN",
+        "mentions": 4
       },
       {
-        "ticker": "MSFT",
-        "mentions": 3
-      },
-      {
-        "ticker": "JPM",
-        "mentions": 3
-      },
-      {
-        "ticker": "CVS",
+        "ticker": "MA",
         "mentions": 2
+      },
+      {
+        "ticker": "EVRG",
+        "mentions": 1
+      },
+      {
+        "ticker": "HBAN",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
-      {
-        "label": "Somewhat-Bullish",
-        "count": 15
-      },
       {
         "label": "Neutral",
         "count": 13
       },
       {
         "label": "Bullish",
-        "count": 11
+        "count": 9
+      },
+      {
+        "label": "Bearish",
+        "count": 8
+      },
+      {
+        "label": "Somewhat-Bullish",
+        "count": 8
       },
       {
         "label": "Somewhat-Bearish",
         "count": 6
-      },
-      {
-        "label": "Bearish",
-        "count": 2
       }
     ]
   }
