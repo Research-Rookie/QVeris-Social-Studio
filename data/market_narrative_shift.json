@@ -1,19 +1,97 @@
 {
-  "updated_at": "2026-09-20T07:20:54.201759+00:00",
-  "date": "2026-09-20",
+  "updated_at": "2026-09-21T07:31:10.132999+00:00",
+  "date": "2026-09-21",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "LMT",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.2727,
-  "baseline_label": "2026-09-15",
+  "symbol": "SPGI",
+  "shift_label": "Theme rotation",
+  "sentiment_delta": -0.008,
+  "baseline_label": "2026-09-17",
   "current": {
-    "date": "2026-09-20",
-    "symbol": "LMT",
+    "date": "2026-09-21",
+    "symbol": "SPGI",
+    "article_count": 2,
+    "source_count": 1,
+    "sentiment_score": 0.1387,
+    "top_theme": "Financial Markets",
+    "themes": [
+      {
+        "label": "Financial Markets",
+        "count": 2
+      },
+      {
+        "label": "Technology",
+        "count": 2
+      },
+      {
+        "label": "Earnings",
+        "count": 2
+      },
+      {
+        "label": "Energy Transportation",
+        "count": 2
+      }
+    ],
+    "keywords": [
+      {
+        "label": "pony",
+        "count": 4
+      },
+      {
+        "label": "global",
+        "count": 4
+      },
+      {
+        "label": "bmi",
+        "count": 4
+      },
+      {
+        "label": "index",
+        "count": 4
+      },
+      {
+        "label": "stem",
+        "count": 4
+      },
+      {
+        "label": "nasdaqgs",
+        "count": 2
+      },
+      {
+        "label": "dropped",
+        "count": 2
+      },
+      {
+        "label": "has",
+        "count": 2
+      },
+      {
+        "label": "been",
+        "count": 2
+      },
+      {
+        "label": "removed",
+        "count": 2
+      },
+      {
+        "label": "services",
+        "count": 2
+      },
+      {
+        "label": "operates",
+        "count": 1
+      }
+    ],
+    "headline": "Pony AI Inc.(NasdaqGS: PONY) dropped from S&P Global BMI Index",
+    "headline_source": "www.marketscreener.com"
+  },
+  "previous": {
+    "date": "2026-09-17",
+    "symbol": "SPGI",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.3191,
+    "sentiment_score": 0.1467,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,163 +99,79 @@
         "count": 1
       },
       {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Manufacturing",
+        "label": "Technology",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "lockheed",
+        "label": "snap",
         "count": 2
       },
       {
-        "label": "martin",
+        "label": "shrink",
         "count": 2
       },
       {
-        "label": "upgraded",
+        "label": "revenue",
         "count": 2
       },
       {
-        "label": "strong-buy",
+        "label": "cost",
         "count": 2
       },
       {
-        "label": "wall",
+        "label": "cuts",
         "count": 2
       },
       {
-        "label": "street",
-        "count": 2
-      },
-      {
-        "label": "zen",
-        "count": 2
-      },
-      {
-        "label": "has",
+        "label": "losses",
         "count": 1
       },
       {
-        "label": "rating",
+        "label": "set",
         "count": 1
       },
       {
-        "label": "buy",
+        "label": "growth",
         "count": 1
       },
       {
-        "label": "while",
+        "label": "take",
         "count": 1
       },
       {
-        "label": "broader",
+        "label": "hold",
+        "count": 1
+      },
+      {
+        "label": "projected",
+        "count": 1
+      },
+      {
+        "label": "achieve",
         "count": 1
       }
     ],
-    "headline": "Lockheed Martin (NYSE:LMT) Upgraded to \"Strong-Buy\" at Wall Street Zen",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-09-15",
-    "symbol": "LMT",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.0464,
-    "top_theme": "Financial Markets",
-    "themes": [
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      },
-      {
-        "label": "Manufacturing",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "huntington",
-        "count": 2
-      },
-      {
-        "label": "ingalls",
-        "count": 2
-      },
-      {
-        "label": "heads",
-        "count": 1
-      },
-      {
-        "label": "open",
-        "count": 1
-      },
-      {
-        "label": "dip",
-        "count": 1
-      },
-      {
-        "label": "hii",
-        "count": 1
-      },
-      {
-        "label": "closed",
-        "count": 1
-      },
-      {
-        "label": "down",
-        "count": 1
-      },
-      {
-        "label": "usd",
-        "count": 1
-      },
-      {
-        "label": "september",
-        "count": 1
-      },
-      {
-        "label": "underperforming",
-        "count": 1
-      },
-      {
-        "label": "gain",
-        "count": 1
-      }
-    ],
-    "headline": "Huntington Ingalls stock heads into the open after a 0.8% dip",
-    "headline_source": "ad-hoc-news.de"
+    "headline": "Snap’s losses set to shrink as revenue growth and cost cuts take hold",
+    "headline_source": "S&P Global"
   },
   "emerging_themes": [
-    "Earnings",
     "Financial Markets",
-    "Manufacturing"
+    "Energy Transportation",
+    "Technology"
   ],
-  "fading_themes": [
-    "Economy Macro"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "lockheed",
-    "martin",
-    "upgraded"
+    "pony",
+    "global",
+    "bmi"
   ],
   "fading_keywords": [
-    "huntington",
-    "ingalls",
-    "heads"
+    "snap",
+    "shrink",
+    "revenue"
   ],
-  "takeaway": "LMT's narrative is turning bullish: sentiment moved +0.27, while the leading theme shifted from Financial Markets to Earnings.",
+  "takeaway": "SPGI's narrative is theme rotation: sentiment moved -0.01, while the leading theme shifted from Earnings to Financial Markets.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

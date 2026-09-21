@@ -1,5 +1,202 @@
 [
   {
+    "id": "market-narrative-shift-spgi-2026-09-21",
+    "date": "2026-09-21",
+    "runDate": "2026-09-21",
+    "createdAt": "2026-09-21T07:31:13.137694+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $SPGI",
+    "status": "ready",
+    "tweet": "What changed in $SPGI's market narrative? 🔄\n\n🧭 Signal: Theme rotation\n💬 Sentiment shift: -0.01\n📌 Top theme: Financial Markets\n🔎 Emerging term: pony\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_SPGI_2026-09-21.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-21T07:31:10.132999+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$SPGI",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Theme rotation",
+    "topSymbol": "SPGI",
+    "topChangePct": -0.8,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-21T07:31:10.132999+00:00",
+      "date": "2026-09-21",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "SPGI",
+      "shift_label": "Theme rotation",
+      "sentiment_delta": -0.008,
+      "baseline_label": "2026-09-17",
+      "current": {
+        "date": "2026-09-21",
+        "symbol": "SPGI",
+        "article_count": 2,
+        "source_count": 1,
+        "sentiment_score": 0.1387,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Technology",
+            "count": 2
+          },
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 2
+          }
+        ],
+        "keywords": [
+          {
+            "label": "pony",
+            "count": 4
+          },
+          {
+            "label": "global",
+            "count": 4
+          },
+          {
+            "label": "bmi",
+            "count": 4
+          },
+          {
+            "label": "index",
+            "count": 4
+          },
+          {
+            "label": "stem",
+            "count": 4
+          },
+          {
+            "label": "nasdaqgs",
+            "count": 2
+          },
+          {
+            "label": "dropped",
+            "count": 2
+          },
+          {
+            "label": "has",
+            "count": 2
+          },
+          {
+            "label": "been",
+            "count": 2
+          },
+          {
+            "label": "removed",
+            "count": 2
+          },
+          {
+            "label": "services",
+            "count": 2
+          },
+          {
+            "label": "operates",
+            "count": 1
+          }
+        ],
+        "headline": "Pony AI Inc.(NasdaqGS: PONY) dropped from S&P Global BMI Index",
+        "headline_source": "www.marketscreener.com"
+      },
+      "previous": {
+        "date": "2026-09-17",
+        "symbol": "SPGI",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1467,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "snap",
+            "count": 2
+          },
+          {
+            "label": "shrink",
+            "count": 2
+          },
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "cost",
+            "count": 2
+          },
+          {
+            "label": "cuts",
+            "count": 2
+          },
+          {
+            "label": "losses",
+            "count": 1
+          },
+          {
+            "label": "set",
+            "count": 1
+          },
+          {
+            "label": "growth",
+            "count": 1
+          },
+          {
+            "label": "take",
+            "count": 1
+          },
+          {
+            "label": "hold",
+            "count": 1
+          },
+          {
+            "label": "projected",
+            "count": 1
+          },
+          {
+            "label": "achieve",
+            "count": 1
+          }
+        ],
+        "headline": "Snap’s losses set to shrink as revenue growth and cost cuts take hold",
+        "headline_source": "S&P Global"
+      },
+      "emerging_themes": [
+        "Financial Markets",
+        "Energy Transportation",
+        "Technology"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "pony",
+        "global",
+        "bmi"
+      ],
+      "fading_keywords": [
+        "snap",
+        "shrink",
+        "revenue"
+      ],
+      "takeaway": "SPGI's narrative is theme rotation: sentiment moved -0.01, while the leading theme shifted from Earnings to Financial Markets.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-21",
     "date": "2026-09-21",
     "runDate": "2026-09-21",
