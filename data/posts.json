@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-ms-2026-09-22",
+    "date": "2026-09-22",
+    "runDate": "2026-09-22",
+    "createdAt": "2026-09-22T07:11:15.124712+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $MS",
+    "status": "ready",
+    "tweet": "What changed in $MS's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.25\n📌 Top theme: Earnings\n🔎 Emerging term: expedia\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_MS_2026-09-22.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-22T07:11:13.493311+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MS",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "MS",
+    "topChangePct": -24.91,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-22T07:11:13.493311+00:00",
+      "date": "2026-09-22",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "MS",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.2491,
+      "baseline_label": "2026-09-16",
+      "current": {
+        "date": "2026-09-22",
+        "symbol": "MS",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0161,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "expedia",
+            "count": 3
+          },
+          {
+            "label": "morgan",
+            "count": 2
+          },
+          {
+            "label": "stanley",
+            "count": 2
+          },
+          {
+            "label": "expe",
+            "count": 2
+          },
+          {
+            "label": "underweight",
+            "count": 2
+          },
+          {
+            "label": "rivals",
+            "count": 2
+          },
+          {
+            "label": "cuts",
+            "count": 1
+          },
+          {
+            "label": "pull",
+            "count": 1
+          },
+          {
+            "label": "users",
+            "count": 1
+          },
+          {
+            "label": "downgraded",
+            "count": 1
+          },
+          {
+            "label": "equal",
+            "count": 1
+          },
+          {
+            "label": "weight",
+            "count": 1
+          }
+        ],
+        "headline": "Morgan Stanley Cuts Expedia (EXPE) to Underweight as Rivals Pull Ahead on Users",
+        "headline_source": "Yahoo Finance"
+      },
+      "previous": {
+        "date": "2026-09-16",
+        "symbol": "MS",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2652,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "reynders",
+            "count": 2
+          },
+          {
+            "label": "mcveigh",
+            "count": 2
+          },
+          {
+            "label": "capital",
+            "count": 2
+          },
+          {
+            "label": "management",
+            "count": 2
+          },
+          {
+            "label": "llc",
+            "count": 2
+          },
+          {
+            "label": "analog",
+            "count": 2
+          },
+          {
+            "label": "devices",
+            "count": 2
+          },
+          {
+            "label": "adi",
+            "count": 2
+          },
+          {
+            "label": "sells",
+            "count": 1
+          },
+          {
+            "label": "reduced",
+            "count": 1
+          },
+          {
+            "label": "stake",
+            "count": 1
+          },
+          {
+            "label": "second",
+            "count": 1
+          }
+        ],
+        "headline": "Reynders McVeigh Capital Management LLC Sells 4,424 Shares of Analog Devices, Inc. $ADI",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Finance",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "expedia",
+        "morgan",
+        "stanley"
+      ],
+      "fading_keywords": [
+        "reynders",
+        "mcveigh",
+        "capital"
+      ],
+      "takeaway": "MS's narrative is turning bearish: sentiment moved -0.25, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-22",
     "date": "2026-09-22",
     "runDate": "2026-09-22",

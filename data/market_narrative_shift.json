@@ -1,97 +1,19 @@
 {
-  "updated_at": "2026-09-21T07:31:10.132999+00:00",
-  "date": "2026-09-21",
+  "updated_at": "2026-09-22T07:11:13.493311+00:00",
+  "date": "2026-09-22",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "SPGI",
-  "shift_label": "Theme rotation",
-  "sentiment_delta": -0.008,
-  "baseline_label": "2026-09-17",
+  "symbol": "MS",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.2491,
+  "baseline_label": "2026-09-16",
   "current": {
-    "date": "2026-09-21",
-    "symbol": "SPGI",
-    "article_count": 2,
-    "source_count": 1,
-    "sentiment_score": 0.1387,
-    "top_theme": "Financial Markets",
-    "themes": [
-      {
-        "label": "Financial Markets",
-        "count": 2
-      },
-      {
-        "label": "Technology",
-        "count": 2
-      },
-      {
-        "label": "Earnings",
-        "count": 2
-      },
-      {
-        "label": "Energy Transportation",
-        "count": 2
-      }
-    ],
-    "keywords": [
-      {
-        "label": "pony",
-        "count": 4
-      },
-      {
-        "label": "global",
-        "count": 4
-      },
-      {
-        "label": "bmi",
-        "count": 4
-      },
-      {
-        "label": "index",
-        "count": 4
-      },
-      {
-        "label": "stem",
-        "count": 4
-      },
-      {
-        "label": "nasdaqgs",
-        "count": 2
-      },
-      {
-        "label": "dropped",
-        "count": 2
-      },
-      {
-        "label": "has",
-        "count": 2
-      },
-      {
-        "label": "been",
-        "count": 2
-      },
-      {
-        "label": "removed",
-        "count": 2
-      },
-      {
-        "label": "services",
-        "count": 2
-      },
-      {
-        "label": "operates",
-        "count": 1
-      }
-    ],
-    "headline": "Pony AI Inc.(NasdaqGS: PONY) dropped from S&P Global BMI Index",
-    "headline_source": "www.marketscreener.com"
-  },
-  "previous": {
-    "date": "2026-09-17",
-    "symbol": "SPGI",
+    "date": "2026-09-22",
+    "symbol": "MS",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1467,
+    "sentiment_score": 0.0161,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -99,79 +21,161 @@
         "count": 1
       },
       {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      },
+      {
         "label": "Technology",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "snap",
+        "label": "expedia",
+        "count": 3
+      },
+      {
+        "label": "morgan",
         "count": 2
       },
       {
-        "label": "shrink",
+        "label": "stanley",
         "count": 2
       },
       {
-        "label": "revenue",
+        "label": "expe",
         "count": 2
       },
       {
-        "label": "cost",
+        "label": "underweight",
+        "count": 2
+      },
+      {
+        "label": "rivals",
         "count": 2
       },
       {
         "label": "cuts",
-        "count": 2
-      },
-      {
-        "label": "losses",
         "count": 1
       },
       {
-        "label": "set",
+        "label": "pull",
         "count": 1
       },
       {
-        "label": "growth",
+        "label": "users",
         "count": 1
       },
       {
-        "label": "take",
+        "label": "downgraded",
         "count": 1
       },
       {
-        "label": "hold",
+        "label": "equal",
         "count": 1
       },
       {
-        "label": "projected",
-        "count": 1
-      },
-      {
-        "label": "achieve",
+        "label": "weight",
         "count": 1
       }
     ],
-    "headline": "Snap’s losses set to shrink as revenue growth and cost cuts take hold",
-    "headline_source": "S&P Global"
+    "headline": "Morgan Stanley Cuts Expedia (EXPE) to Underweight as Rivals Pull Ahead on Users",
+    "headline_source": "Yahoo Finance"
+  },
+  "previous": {
+    "date": "2026-09-16",
+    "symbol": "MS",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.2652,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "reynders",
+        "count": 2
+      },
+      {
+        "label": "mcveigh",
+        "count": 2
+      },
+      {
+        "label": "capital",
+        "count": 2
+      },
+      {
+        "label": "management",
+        "count": 2
+      },
+      {
+        "label": "llc",
+        "count": 2
+      },
+      {
+        "label": "analog",
+        "count": 2
+      },
+      {
+        "label": "devices",
+        "count": 2
+      },
+      {
+        "label": "adi",
+        "count": 2
+      },
+      {
+        "label": "sells",
+        "count": 1
+      },
+      {
+        "label": "reduced",
+        "count": 1
+      },
+      {
+        "label": "stake",
+        "count": 1
+      },
+      {
+        "label": "second",
+        "count": 1
+      }
+    ],
+    "headline": "Reynders McVeigh Capital Management LLC Sells 4,424 Shares of Analog Devices, Inc. $ADI",
+    "headline_source": "MarketBeat"
   },
   "emerging_themes": [
-    "Financial Markets",
-    "Energy Transportation",
-    "Technology"
+    "Finance",
+    "Earnings",
+    "Financial Markets"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "pony",
-    "global",
-    "bmi"
+    "expedia",
+    "morgan",
+    "stanley"
   ],
   "fading_keywords": [
-    "snap",
-    "shrink",
-    "revenue"
+    "reynders",
+    "mcveigh",
+    "capital"
   ],
-  "takeaway": "SPGI's narrative is theme rotation: sentiment moved -0.01, while the leading theme shifted from Earnings to Financial Markets.",
+  "takeaway": "MS's narrative is turning bearish: sentiment moved -0.25, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
