@@ -1,65 +1,61 @@
 {
-  "updated_at": "2026-09-21T08:09:22.547092+00:00",
-  "date": "2026-09-21",
+  "updated_at": "2026-09-22T07:54:32.509676+00:00",
+  "date": "2026-09-22",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "SPGI",
+  "symbol": "AMD",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Equities Analysts Offer Predictions for Evergy Q1 Earnings",
-  "headline_source": "MarketBeat",
+  "headline": "NXP Semiconductors (NXPI) Beats Stock Market Upswing: What Investors Need to Know",
+  "headline_source": "Yahoo Finance Singapore",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for SPGI: {'status_code': 200, 'data': {'c': 405.32, 'd': 1.21, 'dp': 0.2994, 'h': 408.08, 'l': 400.83, 'o': 401.4, 'pc': 404.11, 't': 1789761600}}",
+  "price_error": "Could not parse quote data for AMD: {'status_code': 200, 'data': {'c': 615.52, 'd': 55.7, 'dp': 9.9496, 'h': 616.69, 'l': 582.27, 'o': 583.88, 'pc': 559.82, 't': 1790020800}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "SPGI",
-        "mentions": 6
+        "ticker": "AMD",
+        "mentions": 5
       },
       {
-        "ticker": "COIN",
+        "ticker": "MS",
         "mentions": 4
       },
       {
-        "ticker": "MA",
+        "ticker": "XEL",
+        "mentions": 3
+      },
+      {
+        "ticker": "TSLA",
+        "mentions": 3
+      },
+      {
+        "ticker": "MCD",
         "mentions": 2
-      },
-      {
-        "ticker": "EVRG",
-        "mentions": 1
-      },
-      {
-        "ticker": "HBAN",
-        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 13
+        "count": 17
+      },
+      {
+        "label": "Somewhat-Bullish",
+        "count": 12
       },
       {
         "label": "Bullish",
         "count": 9
       },
       {
-        "label": "Bearish",
-        "count": 8
-      },
-      {
-        "label": "Somewhat-Bullish",
-        "count": 8
-      },
-      {
         "label": "Somewhat-Bearish",
-        "count": 6
+        "count": 4
       }
     ]
   }
