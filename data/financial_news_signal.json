@@ -1,1265 +1,1278 @@
 {
-  "updated_at": "2026-09-21T08:09:19.537476+00:00",
-  "date": "2026-09-21",
+  "updated_at": "2026-09-22T06:28:01.936384+00:00",
+  "date": "2026-09-22",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Equities Analysts Offer Predictions for Evergy Q1 Earnings",
-      "summary": "Zacks Research has increased its Q1 2027 EPS forecast for Evergy to $0.71, projecting full-year 2027 and 2028 earnings of $4.59 and $4.92 per share respectively. Evergy recently...",
-      "url": "https://www.marketbeat.com/instant-alerts/estimates-equities-analysts-offer-predictions-for-evergy-q1-earnings-2026-09-21/",
-      "source": "MarketBeat",
-      "published_at": "20260921T051708",
-      "sentiment_score": 0.540624,
+      "title": "NXP Semiconductors (NXPI) Beats Stock Market Upswing: What Investors Need to Know",
+      "summary": "NXP Semiconductors (NXPI) saw a 1.94% increase, outperforming the S&P 500, Dow, and Nasdaq in its latest trading session. The company is set to report earnings on October 27, 20...",
+      "url": "https://sg.finance.yahoo.com/news/nxp-semiconductors-nxpi-beats-stock-221504499.html",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260921T221256",
+      "sentiment_score": 0.436359,
       "sentiment_label": "Bullish",
       "tickers": [
-        "EVRG"
+        "NXPI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 18,
+      "is_noise": false
+    },
+    {
+      "title": "Micron (MU) Beats Stock Market Upswing: What Investors Need to Know",
+      "summary": "Micron (MU) experienced a significant stock market upswing, closing with a 2.73% gain and outperforming major indices like the S&P 500, Dow, and Nasdaq. The company's shares hav...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-beats-stock-market-214506765.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260921T214536",
+      "sentiment_score": 0.318739,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "MU",
+        "COIN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 14,
+      "is_noise": false
+    },
+    {
+      "title": "Waste Management (WM) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "summary": "Waste Management (WM) stock fell 1.92% to $207.04, underperforming the broader market's gains. The company is expected to report Q3 earnings of $2.18 per share, a 10.1% year-ove...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/waste-management-wm-stock-falls-221505049.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260921T223920",
+      "sentiment_score": -0.203336,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "WM"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Economy Macro",
-        "Energy Transportation",
         "Finance"
       ],
-      "quality_score": 15,
+      "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "Huntington Cut Its Outlook Right as the Fed Hiked. First Crack in Regional-Bank Margins?",
-      "summary": "Huntington Bancshares (HBAN) lowered its 2027 EPS and 2026 net interest income growth guidance, causing its stock to drop. This profit warning, attributed to rising deposit cost...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/huntington-cut-outlook-fed-hiked-234006771.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260920T234304",
-      "sentiment_score": -0.107134,
+      "title": "McDonald's Tests Placing Ads For Other Brands On Menu Screens",
+      "summary": "McDonald's is testing displaying advertisements from other brands on its digital menu boards in select restaurants. This initiative aims to generate a new revenue stream by leve...",
+      "url": "https://www.ndtvprofit.com/world/mcdonalds-tests-placing-ads-for-other-brands-on-menu-screens-12078954",
+      "source": "NDTV Profit",
+      "published_at": "20260922T025320",
+      "sentiment_score": -0.048026,
       "sentiment_label": "Neutral",
       "tickers": [
-        "HBAN",
-        "FITB",
-        "WFC"
+        "MCD",
+        "CMG",
+        "SBUX",
+        "YUM",
+        "DPZ"
       ],
       "topics": [
-        "Earnings",
-        "Finance",
-        "Economy Monetary",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
-      "title": "CoStar Group, Inc.(NasdaqGS: CSGP) dropped from FTSE All-World Index",
-      "summary": "CoStar Group, Inc. (NasdaqGS: CSGP) has been removed from the FTSE All-World Index. This news follows recent analyst target adjustments and an $800 million acquisition by CoStar...",
-      "url": "https://www.marketscreener.com/news/costar-group-inc-nasdaqgs-csgp-dropped-from-ftse-all-world-index-ce785adbd980f720",
-      "source": "marketscreener.com",
-      "published_at": "20260921T040512",
-      "sentiment_score": -0.243297,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "CSGP"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Real Estate",
+        "Retail Wholesale",
         "Earnings"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Pony AI Inc.(NasdaqGS: PONY) dropped from S&P Global BMI Index",
-      "summary": "Pony AI Inc. (NasdaqGS: PONY) has been removed from the S&P Global BMI Index. The company operates in the IT Services & Consulting sector, specializing in autonomous driving tec...",
-      "url": "https://www.marketscreener.com/news/pony-ai-inc-nasdaqgs-pony-dropped-from-s-p-global-bmi-index-ce785adbd98df225",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T024139",
-      "sentiment_score": 0.118513,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SPGI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "AXT, Inc.(NasdaqGS: AXTI) added to S&P 600",
-      "summary": "AXT, Inc. (NasdaqGS:AXTI), a material science company specializing in semiconductor wafer substrates, has been added to the S&P 600 index. The company's shares experienced a sig...",
-      "url": "https://www.marketscreener.com/news/axt-inc-nasdaqgs-axti-added-to-s-p-600-ce785adad08ef021",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T004646",
-      "sentiment_score": 0.419035,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "AXTI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "FY2026 Earnings Estimate for Enbridge Issued By Scotiabank",
-      "summary": "Scotiabank has issued its FY2026 and FY2027 earnings per share estimates for Enbridge, forecasting $2.11 and $2.34 respectively, with a \"Strong-Buy\" rating. The company recently...",
-      "url": "https://www.marketbeat.com/instant-alerts/estimates-fy2026-earnings-estimate-for-enbridge-issued-by-scotiabank-2026-09-21/",
-      "source": "MarketBeat",
-      "published_at": "20260921T051428",
-      "sentiment_score": 0.429042,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "ENB"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation",
-        "Finance"
       ],
       "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "Zacks Research Has Negative View of Campbell's Q1 Earnings",
-      "summary": "Zacks Research has issued a \"Strong Sell\" rating for Campbell's (NASDAQ: CPB) and significantly cut its Q1 2027 EPS estimate from $0.65 to $0.42, citing weaker expected earnings...",
-      "url": "https://www.marketbeat.com/instant-alerts/estimates-zacks-research-has-negative-view-of-campbells-q1-earnings-2026-09-21/",
-      "source": "MarketBeat",
-      "published_at": "20260921T051649",
-      "sentiment_score": -0.636414,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "CPB"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Franklin BSP Realty Trust, Inc.(NYSE: FBRT) dropped from S&P Composite 1500",
-      "summary": "Franklin BSP Realty Trust, Inc. (NYSE: FBRT) has been removed from the S&P Composite 1500 index. This news follows recent company developments including a downgrade by BTIG Rese...",
-      "url": "https://www.marketscreener.com/news/franklin-bsp-realty-trust-inc-nyse-fbrt-dropped-from-s-p-composite-1500-ce785adad081f626",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T005706",
-      "sentiment_score": -0.422447,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "FBRT"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Real Estate",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Stem, Inc.(NYSE: STEM) dropped from S&P Global BMI Index",
-      "summary": "Stem, Inc. (NYSE: STEM), a provider of AI-driven software and services for clean energy assets, has been removed from the S&P Global BMI Index. This announcement was made on Sep...",
-      "url": "https://www.marketscreener.com/news/stem-inc-nyse-stem-dropped-from-s-p-global-bmi-index-ce785adbd988f223",
-      "source": "www.marketscreener.com",
-      "published_at": "20260920T220400",
-      "sentiment_score": 0.121485,
+      "title": "Morgan Stanley Cuts Expedia (EXPE) to Underweight as Rivals Pull Ahead on Users",
+      "summary": "Morgan Stanley downgraded Expedia (EXPE) to Underweight from Equal Weight, citing concerns that the company is losing ground to rivals in user acquisition. While Expedia's busin...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-cuts-expedia-expe-215829626.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260921T215935",
+      "sentiment_score": 0.024265,
       "sentiment_label": "Neutral",
       "tickers": [
-        "SPGI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Technology",
-        "Energy Transportation"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Stanley Black & Decker Targets Margin Gains as DEWALT Takes Share",
-      "summary": "Stanley Black & Decker (NYSE: SWK) is focusing on strengthening core brands, improving operations, and accelerating innovation, with DEWALT expanding its market share beyond res...",
-      "url": "https://www.marketbeat.com/instant-alerts/event-stanley-black-decker-targets-margin-gains-as-dewalt-takes-share-2026-09-20/",
-      "source": "MarketBeat",
-      "published_at": "20260920T193742",
-      "sentiment_score": 0.331913,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SWK"
-      ],
-      "topics": [
-        "Earnings",
-        "Manufacturing",
-        "Real Estate",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Chip Boom to Boost Korean Companies’ Cash, Goldman Sachs Says",
-      "summary": "Goldman Sachs analysts predict that the chip industry boom will significantly increase corporate cash for South Korean companies, with repatriated overseas earnings influencing...",
-      "url": "https://www.wsj.com/finance/stocks/chip-boom-to-boost-korean-companies-cash-goldman-sachs-says-8862719a",
-      "source": "WSJ",
-      "published_at": "20260921T025448",
-      "sentiment_score": 0.290986,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "GS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Technology"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Booking Holdings stock gains analyst support despite 2026 pullback",
-      "summary": "Booking Holdings (BKNG) stock is gaining analyst support as a top leisure pick, despite a recent 20% decline from its earlier 2026 highs. The company's diversified online travel...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/booking-holdings-stock-gains-analyst-support-despite-2026-pullback/70139820",
-      "source": "AD HOC NEWS",
-      "published_at": "20260920T211000",
-      "sentiment_score": 0.404123,
-      "sentiment_label": "Bullish",
-      "tickers": [
+        "MS",
+        "EXPE",
+        "ABNB",
         "BKNG"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Economy Macro",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "QuasarEdge Acquisition Corp Releases Q2 2026 10-Q Report Detailing Post-IPO Financials",
+      "summary": "QuasarEdge Acquisition Corporation (NYSE:QRED) has released its Q2 2026 10-Q report for the period ending July 31, 2026, detailing financial outcomes post-IPO. Key highlights in...",
+      "url": "https://kalkinemedia.com/us/news/announcements/quasaredge-acquisition-corp-releases-q2-2026-10-q-report-detailing-post-ipo-financials",
+      "source": "Kalkine Media",
+      "published_at": "20260922T024825",
+      "sentiment_score": 0.117572,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "QRED",
+        "XEL",
+        "TSLA",
+        "AMD"
+      ],
+      "topics": [
+        "Earnings",
+        "Ipo",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Coca-Cola (KO) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "summary": "Coca-Cola's stock (KO) experienced a decline of 1.13% to $87.25, while the broader market saw an uptick, with the S&P 500 gaining 1.49%. This performance follows a 3.13% loss fo...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-stock-falls-214501030.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260921T214536",
+      "sentiment_score": -0.105265,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
         "Retail Wholesale"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Boeing (BA) Strengthens its Backlog with Korean Air’s 103-Aircraft Commitment",
+      "summary": "Boeing has finalized a deal with Korean Air for 103 aircraft, valued at $36.2 billion at list prices, significantly bolstering its commercial backlog. While the order adds long-...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-strengthens-backlog-korean-014438823.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260922T011452",
+      "sentiment_score": 0.145351,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BA"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation",
+        "Manufacturing"
       ],
       "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Nykredit A S Makes New $12.46 Million Investment in Humana Inc. $HUM",
-      "summary": "Nykredit A S has made a new investment of $12.46 million in Humana Inc. (NYSE:HUM) by purchasing 31,361 shares during the second quarter. This move is part of broader institutio...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-nykredit-a-s-makes-new-1246-million-investment-in-humana-inc-hum-2026-09-21/",
-      "source": "MarketBeat",
-      "published_at": "20260921T074120",
-      "sentiment_score": 0.32656,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "HUM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Teledyne Technologies Incorporated (NYSE:TDY) Given Average Rating of \"Moderate Buy\" by Brokerages",
-      "summary": "Teledyne Technologies (NYSE:TDY) has received a consensus \"Moderate Buy\" rating from eight brokerages, with an average 12-month price target of $723.33. This implies potential u...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-teledyne-technologies-incorporated-nyse-tdy-given-average-rating-of-moderate-buy-by-brokerages-2026-09-21/",
-      "source": "MarketBeat",
-      "published_at": "20260921T061653",
-      "sentiment_score": 0.466968,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "TDY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Allegion plc(NYSE: ALLE) dropped from FTSE All-World Index",
-      "summary": "Allegion plc (NYSE: ALLE), a company specializing in security systems, has been removed from the FTSE All-World Index. This news comes amidst other recent announcements includin...",
-      "url": "https://www.marketscreener.com/news/allegion-plc-nyse-alle-dropped-from-ftse-all-world-index-ce785adbd88cf726",
-      "source": "marketscreener.com",
-      "published_at": "20260921T044249",
-      "sentiment_score": -0.423188,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "ALLE"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Finance",
-        "Manufacturing"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Leidos Holdings, Inc.(NYSE: LDOS) dropped from FTSE All-World Index",
-      "summary": "Leidos Holdings, Inc. (NYSE: LDOS) has been removed from the FTSE All-World Index. The article also notes recent news concerning Leidos, including BofA Securities adjusting its...",
-      "url": "https://www.marketscreener.com/news/leidos-holdings-inc-nyse-ldos-dropped-from-ftse-all-world-index-ce785adbd980f327",
-      "source": "marketscreener.com",
-      "published_at": "20260921T041152",
-      "sentiment_score": -0.237996,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "LDOS"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "EnCore Energy Corp.(NasdaqCM: EU) dropped from S&P/TSX Global Mining Index",
-      "summary": "EnCore Energy Corp. (NasdaqCM: EU) has been removed from the S&P/TSX Global Mining Index. The company, which is focused on domestic uranium production using In-Situ Recovery tec...",
-      "url": "https://www.marketscreener.com/news/encore-energy-corp-nasdaqcm-eu-dropped-from-s-p-tsx-global-mining-index-ce785adbd98ff124",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T035559",
-      "sentiment_score": -0.427409,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "EU"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Delcath Systems, Inc.(NasdaqCM:DCTH) added to S&P Healthcare Equipment Select Industry Index",
-      "summary": "Delcath Systems, Inc. (NasdaqCM:DCTH) has been added to the S&P Healthcare Equipment Select Industry Index. This news follows a series of other recent index inclusions for the c...",
-      "url": "https://www.marketscreener.com/news/delcath-systems-inc-nasdaqcm-dcth-added-to-s-p-healthcare-equipment-select-industry-index-ce785adbd98fff2d",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T034325",
-      "sentiment_score": 0.401898,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DCTH"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Wheels Up Experience Inc.(NYSE: UP) dropped from S&P Global BMI Index",
-      "summary": "Wheels Up Experience Inc. (NYSE: UP), a provider of on-demand private aviation, has been removed from the S&P Global BMI Index. This announcement follows a series of other recen...",
-      "url": "https://www.marketscreener.com/news/wheels-up-experience-inc-nyse-up-dropped-from-s-p-global-bmi-index-ce785adbd98df326",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T024139",
-      "sentiment_score": 0.001736,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SPGI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "AudioEye, Inc.(NasdaqCM: AEYE) dropped from S&P Global BMI Index",
-      "summary": "AudioEye, Inc. (NasdaqCM: AEYE) has been dropped from the S&P Global BMI Index. The company's stock, listed on Nasdaq, saw a 2.39% decrease by market close on September 18, 2026...",
-      "url": "https://www.marketscreener.com/news/audioeye-inc-nasdaqcm-aeye-dropped-from-s-p-global-bmi-index-ce785adbd98af225",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T024139",
-      "sentiment_score": -0.148404,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SPGI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Vivid Seats Inc.(NasdaqGS: SEAT) dropped from S&P Global BMI Index",
-      "summary": "Vivid Seats Inc. (NasdaqGS: SEAT) has been removed from the S&P Global BMI Index. This announcement follows several other recent index changes for the company, including being d...",
-      "url": "https://www.marketscreener.com/news/vivid-seats-inc-nasdaqgs-seat-dropped-from-s-p-global-bmi-index-ce785adbd988fe2c",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T022745",
-      "sentiment_score": 0.115928,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SPGI"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Biomea Fusion, Inc.(NasdaqGS: BMEA) dropped from S&P Global BMI Index",
-      "summary": "Biomea Fusion, Inc. (NasdaqGS: BMEA) has been removed from the S&P Global BMI Index. The company is a clinical-stage biopharmaceutical firm focusing on oral small molecule thera...",
-      "url": "https://www.marketscreener.com/news/biomea-fusion-inc-nasdaqgs-bmea-dropped-from-s-p-global-bmi-index-ce785adbd988ff2c",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T021818",
-      "sentiment_score": -0.440978,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "BMEA"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Life Sciences",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "American Vanguard Corporation(NYSE: AVD) dropped from S&P Global BMI Index",
-      "summary": "American Vanguard Corporation (NYSE: AVD) has been removed from the S&P Global BMI Index, effective September 20, 2026. This follows several similar removals from various Russel...",
-      "url": "https://www.marketscreener.com/news/american-vanguard-corporation-nyse-avd-dropped-from-s-p-global-bmi-index-ce785adad081f223",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T014428",
-      "sentiment_score": -0.327968,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "AVD"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "AMERISAFE, Inc.(NasdaqGS: AMSF) dropped from S&P 1000",
-      "summary": "AMERISAFE, Inc. (NasdaqGS: AMSF), a specialty provider of workers' compensation insurance, has been dropped from the S&P 1000 index. This news, published on September 20, 2026,...",
-      "url": "https://www.marketscreener.com/news/amerisafe-inc-nasdaqgs-amsf-dropped-from-s-p-1000-ce785adad08ef527",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T011748",
-      "sentiment_score": -0.335159,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "AMSF"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "TTEC Holdings, Inc.(NasdaqGS: TTEC) dropped from S&P Global BMI Index",
-      "summary": "TTEC Holdings, Inc. (NasdaqGS: TTEC), a global customer experience technology and services company, has been removed from the S&P Global BMI Index. This follows several other in...",
-      "url": "https://www.marketscreener.com/news/ttec-holdings-inc-nasdaqgs-ttec-dropped-from-s-p-global-bmi-index-ce785adad081f125",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T011735",
-      "sentiment_score": -0.436798,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "TTEC"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "The Trade Desk, Inc.(NasdaqGM: TTD) dropped from S&P Global 1200",
-      "summary": "The Trade Desk, Inc. (NasdaqGM: TTD) has been removed from the S&P Global 1200 index. This news follows several other index adjustments for the company, including being added to...",
-      "url": "https://www.marketscreener.com/news/the-trade-desk-inc-nasdaqgm-ttd-dropped-from-s-p-global-1200-ce785adad08ef12c",
-      "source": "marketscreener.com",
-      "published_at": "20260921T004045",
-      "sentiment_score": -0.182794,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "SPGI",
-        "TTD"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "InvestingPro predicted Quantum Computing’s 48% drop 11 months early By Investing.com",
-      "summary": "InvestingPro's Fair Value models successfully predicted a 48% drop in Quantum Computing Inc. (QUBT) stock 11 months in advance. In August 2025, when QUBT was trading at $15.23,...",
-      "url": "https://www.investing.com/news/investment-ideas/investingpro-predicted-quantum-computings-48-drop-11-months-early-93CH-4908162",
-      "source": "Investing.com",
-      "published_at": "20260920T221935",
-      "sentiment_score": -0.457825,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "QUBT"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Bank of America Corp DE Acquires New Stake in Hormel Foods Corporation $HRL",
-      "summary": "Bank of America Corp DE has acquired a new stake in Hormel Foods Corporation, purchasing over 2 million shares valued at approximately $51.8 million, representing 0.38% of the c...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-acquires-new-stake-in-hormel-foods-corporation-hrl-2026-09-21/",
-      "source": "MarketBeat",
-      "published_at": "20260921T071515",
-      "sentiment_score": 0.006561,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HRL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Retail Wholesale"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Bank of America Stock Fell 8% Last Week After Its CEO Spoke at an Industry Conference. Here’s What He Said That Spo...",
-      "summary": "Bank of America (BAC) stock dropped 7.91% last week after CEO Brian Moynihan projected a more than 10% year-over-year decline in Q3 investment banking fees at the Barclays Finan...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-stock-fell-8-052209841.html",
+      "title": "Diamondback Energy (FANG) Stock Drops Despite Market Gains: Important Facts to Note",
+      "summary": "Diamondback Energy (FANG) shares dropped by 1.64% despite overall market gains, closing at $189.27. The company is anticipated to report a 45.45% rise in EPS and a 6.46% increas...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/diamondback-energy-fang-stock-drops-221502011.html",
       "source": "Yahoo Finance",
-      "published_at": "20260921T062240",
-      "sentiment_score": 0.008271,
+      "published_at": "20260921T221550",
+      "sentiment_score": 0.029003,
       "sentiment_label": "Neutral",
       "tickers": [
-        "BAC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Economy Monetary"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Four-Year-Old iPhones Are Hitting Trade-In Bins, and Assurant (AIZ) Is Ready",
-      "summary": "Assurant (AIZ) is benefiting from consumers holding onto their iPhones longer, with the average iPhone traded in now over four years old. The company's Global Lifestyle segment,...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/four-old-iphones-hitting-trade-044621474.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260921T044609",
-      "sentiment_score": 0.107683,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AIZ",
-        "AAPL",
-        "COIN",
-        "MSFT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Technology",
-        "Economy Macro"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "AI-Driven Cybersecurity Concerns Heighten, Says Citigroup CEO (C)",
-      "summary": "Citigroup CEO Jane Fraser has highlighted increasing cybersecurity concerns due to advanced AI technologies, emphasizing the urgent need for enhanced security measures. Despite...",
-      "url": "https://www.gurufocus.com/news/9089344/aidriven-cybersecurity-concerns-heighten-says-citigroup-ceo-c",
-      "source": "GuruFocus",
-      "published_at": "20260921T015104",
-      "sentiment_score": -0.272823,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "C"
-      ],
-      "topics": [
-        "Finance",
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Nova Minerals Releases September 2026 Corporate Presentation on Estelle Gold and Antimony Supply Chain",
-      "summary": "Nova Minerals (ASX:NVA) has issued its September 2026 Corporate Presentation, detailing its focus on developing the Estelle Gold and Critical Minerals Project in Alaska. The pre...",
-      "url": "https://kalkine.com.au/news/announcements/nova-minerals-releases-september-2026-corporate-presentation-on-estelle-gold-and-antimony-supply-chain",
-      "source": "Kalkine",
-      "published_at": "20260920T232045",
-      "sentiment_score": 0.426718,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "NVA"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Atmos Energy stock eases after strong Q3 earnings support",
-      "summary": "Atmos Energy stock eased to USD 160.30 after strong Q3 FY26 earnings of USD 1.43 per share, surpassing consensus estimates. While the stock has seen a recent pullback, its long-...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/atmos-energy-stock-eases-after-strong-q3-earnings-support/70139330",
-      "source": "AD HOC NEWS",
-      "published_at": "20260920T194800",
-      "sentiment_score": 0.193,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ATO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Bronstein, Gewirtz & Grossman, LLC Encourages The Cooper Companies, Inc. (COO) Stockholders to Inquire about Securi...",
-      "summary": "Bronstein, Gewirtz & Grossman, LLC is investigating potential claims on behalf of purchasers of The Cooper Companies, Inc. (COO) following a significant drop in its stock price....",
-      "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/bronstein-gewirtz-and-grossman-llc-encourages-the-cooper-compani-1219837",
-      "source": "ACCESS Newswire",
-      "published_at": "20260920T194009",
-      "sentiment_score": -0.643364,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "COO"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Viatris (VTRS) Wins Japan WAKIX Approval. Can it Build a Meaningful Specialty Business?",
-      "summary": "Viatris Inc. (VTRS) has received approval from Japan's Ministry of Health, Labour and Welfare for WAKIX (pitolisant) to treat narcolepsy and excessive daytime sleepiness associa...",
-      "url": "https://finance.yahoo.com/healthcare/articles/viatris-vtrs-wins-japan-wakix-000301726.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260920T190300",
-      "sentiment_score": 0.122459,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "VTRS",
-        "COIN",
-        "MA"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings",
-        "Mergers And Acquisitions"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Synchrony Financial Sees Resilient Spending, Reaffirms Receivables Growth Outlook",
-      "summary": "Synchrony Financial reported resilient consumer spending with high-single-digit purchase-volume growth early in Q3, led by super-prime and prime customers. The company reaffirme...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/synchrony-financial-sees-resilient-spending-180219397.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260920T180235",
-      "sentiment_score": 0.307124,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SYF",
-        "WMT",
-        "LOW",
-        "AMZN"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Economy Macro",
-        "Retail Wholesale"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Texas Instruments (TXN) Soars 3.3%: Is Further Upside Left in the Stock?",
-      "summary": "Texas Instruments (TXN) shares rose 3.3% in the last trading session, closing at $266.64, driven by high volume and positive news such as a 7% dividend increase and strong deman...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-soars-3-053900794.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260921T054551",
-      "sentiment_score": 0.408767,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "TXN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Manufacturing"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Dollar General EVP Reardon Sells 5,578 Shares",
-      "summary": "Kathleen A. Reardon, EVP & Chief People Officer of Dollar General (NYSE:DG), sold 5,578 shares of common stock for a total of $733,000 on September 3, 2026. Despite the sale, Re...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-general-evp-reardon-sells-223502393.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260920T224348",
-      "sentiment_score": 0.035244,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DG",
+        "FANG",
         "COIN"
       ],
       "topics": [
         "Earnings",
-        "Retail Wholesale",
         "Financial Markets",
-        "Finance"
+        "Energy Transportation"
       ],
-      "quality_score": 4,
+      "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Amcor plc stock holds steady as valuation debate grows",
-      "summary": "Amcor plc stock is trading near recent levels, with a Simply Wall St valuation suggesting a 19 percent upside driven by the company's focus on lower-carbon packaging initiatives...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/amcor-plc-stock-holds-steady-as-valuation-debate-grows/70139715",
+      "title": "Stryker stock gains from Raymond James support",
+      "summary": "Stryker Corp. (SYK) stock is receiving a \"Buy\" rating from Raymond James, with a consensus target price of $372.68 from 28 analysts, significantly higher than its last closing p...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/stryker-stock-gains-from-raymond-james-support/70147454",
       "source": "AD HOC NEWS",
-      "published_at": "20260920T185416",
-      "sentiment_score": 0.290862,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AMCR"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Manufacturing"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Textron (TXT) Unveils a Cargo Plane Concept That Needs No Pilot",
-      "summary": "Textron Aviation, a unit of Textron (TXT), and Merlin, an autonomous flight software company, have introduced the Cessna SkyCourier UX, a pilotless cargo plane concept. This ini...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/textron-txt-unveils-cargo-plane-051634574.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260921T051655",
-      "sentiment_score": 0.104732,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TXT",
-        "COIN"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Manufacturing",
-        "Financial Markets"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Unisys (UIS) Transfers $200M of Pension Obligations. Does the Charge Obscure Progress?",
-      "summary": "Unisys (UIS) announced the transfer of $200 million in U.S. pension obligations to New York Life Insurance Company, covering about 1,700 retirees and beneficiaries. This move is...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/unisys-uis-transfers-200m-pension-001213315.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260921T001446",
-      "sentiment_score": 0.093907,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "UIS",
-        "MA"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Franklin Templeton (BEN) Could Be 6% Undervalued Following Credit Acceptance Settlement",
-      "summary": "Franklin Templeton (BEN) is considered 6% undervalued following Credit Acceptance Corporation's recent settlement, despite a slight cool-down in short-term share price sentiment...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/franklin-templeton-ben-could-6-190954877.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260920T190909",
-      "sentiment_score": 0.346064,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "BEN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Boston Properties stock holds steady as office REIT fundamentals improve",
-      "summary": "Boston Properties (BXP) stock closed at $63.93 on September 18, 2026, positioning it above its 52-week low but still below its high, indicating a recovery without reaching peak...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/boston-properties-stock-holds-steady-as-office-reit-fundamentals-improve/70139299",
-      "source": "AD HOC NEWS",
-      "published_at": "20260920T174117",
-      "sentiment_score": 0.418088,
+      "published_at": "20260921T212500",
+      "sentiment_score": 0.491116,
       "sentiment_label": "Bullish",
       "tickers": [
-        "BXP"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Real Estate"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "O'Reilly Automotive (ORLY) Could Be 23% Undervalued After 232 Store Expansion Plan",
-      "summary": "O'Reilly Automotive (ORLY) plans to open a record 232 stores in 2026 across the U.S., Mexico, and Canada, signaling a significant expansion. Despite a recent dip in its stock pr...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oreilly-automotive-orly-could-23-171054693.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260920T174028",
-      "sentiment_score": 0.213931,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ORLY"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "A Failed Auction and a 15% Drop: Is Cooper Companies (COO) a Value Trap or a Bargain?",
-      "summary": "The Cooper Companies (COO) abandoned the sale of its CooperSurgical unit after nine months, as bids did not align with shareholder interests, leading to a 15% stock drop to a 52...",
-      "url": "https://www.insidermonkey.com/news/a-failed-auction-and-a-15-drop-is-cooper-companies-coo-a-value-trap-or-a-bargain-1837695/",
-      "source": "Insider Monkey",
-      "published_at": "20260921T034009",
-      "sentiment_score": -0.294862,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "COO"
+        "SYK"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Life Sciences"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 9,
+      "is_noise": false
     },
     {
-      "title": "HSBC Bank Unit Executes Early Repurchase of $16 Million Warrants",
-      "summary": "HSBC Bank Unit has executed an early repurchase of $16 million in warrants. This news is part of several recent announcements from HSBC regarding early repurchases of various fi...",
-      "url": "https://www.marketscreener.com/news/hsbc-bank-unit-executes-early-repurchase-of-16-million-warrants-ce785adbdb8bff25",
-      "source": "marketscreener.com",
-      "published_at": "20260921T024000",
-      "sentiment_score": 0.022202,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HSBC"
-      ],
-      "topics": [
-        "Finance",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Starbucks (SBUX)’s New Chai Recipe has its Most Loyal Customers Revolting",
-      "summary": "Starbucks faces backlash from loyal customers over its reformulated chai latte recipe, which was introduced in March with less sweetener and a new low-sugar base. While the comp...",
-      "url": "https://www.insidermonkey.com/news/starbucks-sbuxs-new-chai-recipe-has-its-most-loyal-customers-revolting-1837744/",
-      "source": "Insider Monkey",
-      "published_at": "20260920T225531",
-      "sentiment_score": 0.11354,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SBUX",
-        "MCD"
-      ],
-      "topics": [
-        "Retail Wholesale",
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Amazon (AMZN) Sued Again, This Time over How it Treats Pregnant Warehouse Workers",
-      "summary": "Amazon is facing another lawsuit, a proposed nationwide class action, accusing it of systematically discriminating against pregnant warehouse workers by denying accommodations a...",
-      "url": "https://finance.yahoo.com/healthcare/articles/amazon-amzn-sued-again-time-212413687.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260920T212440",
-      "sentiment_score": -0.221469,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "AMZN"
-      ],
-      "topics": [
-        "Retail Wholesale",
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Lennox is Down 38% and Trading at 52-Week Lows. Bargain or Value Trap?",
-      "summary": "Lennox International Inc. (LII) stock is trading at 52-week lows, down 38% from its peak, prompting a \"Hold\" rating from Deutsche Bank, though the bank's price target suggests a...",
-      "url": "https://www.insidermonkey.com/news/lennox-is-down-38-and-trading-at-52-week-lows-bargain-or-value-trap-1839183/",
-      "source": "Insider Monkey",
-      "published_at": "20260920T195100",
-      "sentiment_score": -0.233652,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "LII"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Economy Macro",
-        "Manufacturing",
-        "Real Estate"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Axon Enterprise (AXON) Prices $1B of Zero-Coupon Notes. What is the Real Cost?",
-      "summary": "Axon Enterprise (NASDAQ: AXON) has priced $1 billion of 0% convertible senior notes due in 2031, expecting to retain about $886.1 million after offering costs and capped calls....",
-      "url": "https://www.insidermonkey.com/news/axon-enterprise-axon-prices-1b-of-zero-coupon-notes-what-is-the-real-cost-1838897/",
-      "source": "Insider Monkey",
-      "published_at": "20260920T194740",
-      "sentiment_score": 0.147538,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AXON"
-      ],
-      "topics": [
-        "Finance",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    }
-  ],
-  "article_count": 50,
-  "top_ticker": "SPGI",
-  "top_topic": "Earnings",
-  "dominant_sentiment": "Neutral",
-  "top_story": "Equities Analysts Offer Predictions for Evergy Q1 Earnings",
-  "signal_articles": [
-    {
-      "title": "Equities Analysts Offer Predictions for Evergy Q1 Earnings",
-      "summary": "Zacks Research has increased its Q1 2027 EPS forecast for Evergy to $0.71, projecting full-year 2027 and 2028 earnings of $4.59 and $4.92 per share respectively. Evergy recently...",
-      "url": "https://www.marketbeat.com/instant-alerts/estimates-equities-analysts-offer-predictions-for-evergy-q1-earnings-2026-09-21/",
-      "source": "MarketBeat",
-      "published_at": "20260921T051708",
-      "sentiment_score": 0.540624,
+      "title": "Baron Capital Maintains Outlook on Ventas (VTR)",
+      "summary": "Baron Capital has maintained its positive outlook on Ventas (VTR) following the company's strong second-quarter 2026 results, which demonstrated accelerating operational momentu...",
+      "url": "https://news.alphastreet.com/baron-capital-maintains-outlook-on-ventas-vtr/amp/",
+      "source": "AlphaStreet",
+      "published_at": "20260921T211327",
+      "sentiment_score": 0.452221,
       "sentiment_label": "Bullish",
       "tickers": [
-        "EVRG"
+        "VTR"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Energy Transportation",
+        "Real Estate",
         "Finance"
       ],
-      "quality_score": 15,
+      "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Huntington Cut Its Outlook Right as the Fed Hiked. First Crack in Regional-Bank Margins?",
-      "summary": "Huntington Bancshares (HBAN) lowered its 2027 EPS and 2026 net interest income growth guidance, causing its stock to drop. This profit warning, attributed to rising deposit cost...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/huntington-cut-outlook-fed-hiked-234006771.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260920T234304",
-      "sentiment_score": -0.107134,
-      "sentiment_label": "Neutral",
+      "title": "General Electric Company Authorizes Quarterly Dividend, Payable on October 26, 2026",
+      "summary": "General Electric Company's Board of Directors has authorized a quarterly dividend of $0.47 per share on its common stock. This dividend is scheduled to be paid on October 26, 20...",
+      "url": "https://www.marketscreener.com/news/general-electric-company-authorizes-quarterly-dividend-payable-on-october-26-2026-ce785adbd08af723",
+      "source": "www.marketscreener.com",
+      "published_at": "20260921T204850",
+      "sentiment_score": 0.321085,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "HBAN",
-        "FITB",
-        "WFC"
+        "GE"
       ],
       "topics": [
         "Earnings",
-        "Finance",
-        "Economy Monetary",
-        "Financial Markets",
-        "Economy Macro"
+        "Financial Markets"
       ],
-      "quality_score": 15,
+      "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "CoStar Group, Inc.(NasdaqGS: CSGP) dropped from FTSE All-World Index",
-      "summary": "CoStar Group, Inc. (NasdaqGS: CSGP) has been removed from the FTSE All-World Index. This news follows recent analyst target adjustments and an $800 million acquisition by CoStar...",
-      "url": "https://www.marketscreener.com/news/costar-group-inc-nasdaqgs-csgp-dropped-from-ftse-all-world-index-ce785adbd980f720",
-      "source": "marketscreener.com",
-      "published_at": "20260921T040512",
-      "sentiment_score": -0.243297,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Pentair Announces Quarterly Cash Dividend, Payable on November 6, 2026",
+      "summary": "Pentair plc announced a regular quarterly cash dividend of $0.27 per share. This dividend will be paid on November 6, 2026, to shareholders who are on record at the close of bus...",
+      "url": "https://www.marketscreener.com/news/pentair-announces-quarterly-cash-dividend-payable-on-november-6-2026-ce785adbd08af621",
+      "source": "www.marketscreener.com",
+      "published_at": "20260921T204151",
+      "sentiment_score": 0.193235,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "CSGP"
+        "PNR"
       ],
       "topics": [
-        "Financial Markets",
-        "Real Estate",
-        "Earnings"
+        "Earnings",
+        "Finance"
       ],
-      "quality_score": 13,
+      "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Pony AI Inc.(NasdaqGS: PONY) dropped from S&P Global BMI Index",
-      "summary": "Pony AI Inc. (NasdaqGS: PONY) has been removed from the S&P Global BMI Index. The company operates in the IT Services & Consulting sector, specializing in autonomous driving tec...",
-      "url": "https://www.marketscreener.com/news/pony-ai-inc-nasdaqgs-pony-dropped-from-s-p-global-bmi-index-ce785adbd98df225",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T024139",
-      "sentiment_score": 0.118513,
+      "title": "Altria Group (NYSE:MO) Trading Down 1.3% - Here's Why",
+      "summary": "Altria Group (NYSE:MO) saw its stock price drop by 1.3% during mid-day trading on Monday, with trading volume significantly below average. This decline follows the company's rec...",
+      "url": "https://www.marketbeat.com/instant-alerts/price-altria-group-nyse-mo-trading-down-13-heres-why-2026-09-21/",
+      "source": "MarketBeat",
+      "published_at": "20260921T214130",
+      "sentiment_score": -0.186663,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "MO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
+      "title": "Qualcomm Surges 7.6% After Hours, Adding About $15 Billion in Market Value",
+      "summary": "Qualcomm (QCOM) experienced a significant 7.6% surge in after-hours trading, adding approximately $15 billion to its market value, reaching $194.23 per share. This substantial g...",
+      "url": "https://247wallst.com/cards/qualcomm-qcom-price-swing-01m32t2sx14h7akswc03k9d3xg",
+      "source": "24/7 Wall St.",
+      "published_at": "20260921T203907",
+      "sentiment_score": 0.082779,
       "sentiment_label": "Neutral",
       "tickers": [
-        "SPGI"
+        "QCOM",
+        "GM",
+        "IBM",
+        "MRK"
       ],
       "topics": [
         "Financial Markets",
         "Technology",
-        "Earnings",
-        "Energy Transportation"
+        "Earnings"
       ],
-      "quality_score": 13,
+      "quality_score": 8,
       "is_noise": false
     },
     {
-      "title": "AXT, Inc.(NasdaqGS: AXTI) added to S&P 600",
-      "summary": "AXT, Inc. (NasdaqGS:AXTI), a material science company specializing in semiconductor wafer substrates, has been added to the S&P 600 index. The company's shares experienced a sig...",
-      "url": "https://www.marketscreener.com/news/axt-inc-nasdaqgs-axti-added-to-s-p-600-ce785adad08ef021",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T004646",
-      "sentiment_score": 0.419035,
-      "sentiment_label": "Bullish",
+      "title": "Applied Materials Commits $5 Billion to India as Chip Manufacturing Expands",
+      "summary": "Applied Materials (NASDAQ: AMAT) plans to invest $5 billion in India over the next decade to expand its research, supply chain, and workforce capabilities, aligning with India's...",
+      "url": "https://finance.yahoo.com/technology/articles/applied-materials-commits-5-billion-014025894.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260922T014052",
+      "sentiment_score": 0.115125,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "AXTI"
+        "AMAT",
+        "LRCX",
+        "TER",
+        "KLAC"
       ],
       "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Technology"
+        "Technology",
+        "Manufacturing",
+        "Earnings"
       ],
-      "quality_score": 13,
+      "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "FY2026 Earnings Estimate for Enbridge Issued By Scotiabank",
-      "summary": "Scotiabank has issued its FY2026 and FY2027 earnings per share estimates for Enbridge, forecasting $2.11 and $2.34 respectively, with a \"Strong-Buy\" rating. The company recently...",
-      "url": "https://www.marketbeat.com/instant-alerts/estimates-fy2026-earnings-estimate-for-enbridge-issued-by-scotiabank-2026-09-21/",
+      "title": "Silicon Valley Capital Partners Acquires 27,283 Shares of Bank of America Corporation $BAC",
+      "summary": "Silicon Valley Capital Partners increased its stake in Bank of America (NYSE: BAC) by 12.9% in the second quarter, acquiring an additional 27,283 shares, bringing their total ho...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-silicon-valley-capital-partners-acquires-27283-shares-of-bank-of-america-corporation-bac-2026-09-21/",
       "source": "MarketBeat",
-      "published_at": "20260921T051428",
-      "sentiment_score": 0.429042,
-      "sentiment_label": "Bullish",
+      "published_at": "20260921T232616",
+      "sentiment_score": 0.211294,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "ENB"
+        "MER-P-K",
+        "BAC"
       ],
       "topics": [
         "Earnings",
+        "Finance",
         "Financial Markets",
-        "Energy Transportation",
-        "Finance"
+        "Technology",
+        "Economy Macro"
       ],
-      "quality_score": 12,
+      "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "Zacks Research Has Negative View of Campbell's Q1 Earnings",
-      "summary": "Zacks Research has issued a \"Strong Sell\" rating for Campbell's (NASDAQ: CPB) and significantly cut its Q1 2027 EPS estimate from $0.65 to $0.42, citing weaker expected earnings...",
-      "url": "https://www.marketbeat.com/instant-alerts/estimates-zacks-research-has-negative-view-of-campbells-q1-earnings-2026-09-21/",
-      "source": "MarketBeat",
-      "published_at": "20260921T051649",
-      "sentiment_score": -0.636414,
-      "sentiment_label": "Bearish",
+      "title": "McDonald’s Becomes a Dividend King: What its 50-Year Streak Means for Income Investors",
+      "summary": "McDonald's has achieved Dividend King status with 50 consecutive years of dividend increases, raising its quarterly dividend by 4% to $1.93 per share, representing a 3.1% yield....",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-becomes-dividend-king-50-015851040.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260921T215800",
+      "sentiment_score": 0.110091,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "CPB"
+        "MCD",
+        "UNP"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Retail Wholesale"
       ],
-      "quality_score": 10,
+      "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "Franklin BSP Realty Trust, Inc.(NYSE: FBRT) dropped from S&P Composite 1500",
-      "summary": "Franklin BSP Realty Trust, Inc. (NYSE: FBRT) has been removed from the S&P Composite 1500 index. This news follows recent company developments including a downgrade by BTIG Rese...",
-      "url": "https://www.marketscreener.com/news/franklin-bsp-realty-trust-inc-nyse-fbrt-dropped-from-s-p-composite-1500-ce785adad081f626",
-      "source": "www.marketscreener.com",
-      "published_at": "20260921T005706",
-      "sentiment_score": -0.422447,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "FBRT"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Real Estate",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Stem, Inc.(NYSE: STEM) dropped from S&P Global BMI Index",
-      "summary": "Stem, Inc. (NYSE: STEM), a provider of AI-driven software and services for clean energy assets, has been removed from the S&P Global BMI Index. This announcement was made on Sep...",
-      "url": "https://www.marketscreener.com/news/stem-inc-nyse-stem-dropped-from-s-p-global-bmi-index-ce785adbd988f223",
-      "source": "www.marketscreener.com",
-      "published_at": "20260920T220400",
-      "sentiment_score": 0.121485,
+      "title": "Turning Point Brands Announces CEO Resignation and Successor",
+      "summary": "Turning Point Brands (TPB) announced the resignation of CEO Graham Purdy, effective September 30, 2026, due to personal reasons. Executive Chairman David E. Glazek will succeed...",
+      "url": "https://www.tipranks.com/news/company-announcements/turning-point-brands-announces-ceo-resignation-and-successor",
+      "source": "TipRanks",
+      "published_at": "20260922T055217",
+      "sentiment_score": 0.125516,
       "sentiment_label": "Neutral",
       "tickers": [
-        "SPGI"
+        "TPB"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Retail Wholesale"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Ryerson Holding CAO Molly D Kannan Acquires Dividend Equivalent Rights on RSUs",
+      "summary": "Molly D Kannan, Ryerson Holding's CAO and Corporate Controller, acquired dividend equivalent rights on restricted stock units (RSUs) on September 17, 2026, as detailed in a rece...",
+      "url": "https://kalkinemedia.com/us/news/announcements/ryerson-holding-cao-molly-d-kannan-acquires-dividend-equivalent-rights-on-rsus",
+      "source": "Kalkine Media",
+      "published_at": "20260922T022502",
+      "sentiment_score": 0.017458,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RYI"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Silicon Valley Capital Partners Has $48.25 Million Holdings in Advanced Micro Devices, Inc. $AMD",
+      "summary": "Silicon Valley Capital Partners reduced its stake in Advanced Micro Devices (AMD) by 26.9% in the second quarter, now holding 83,054 shares valued at $48.25 million, making it t...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-silicon-valley-capital-partners-has-4825-million-holdings-in-advanced-micro-devices-inc-amd-2026-09-21/",
+      "source": "MarketBeat",
+      "published_at": "20260922T001157",
+      "sentiment_score": 0.439065,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "AMD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Cencora Sees Specialty Strategy Fueling Growth Into Fiscal 2027",
+      "summary": "Cencora anticipates sustained growth through fiscal 2027, driven by its focus on specialty pharmaceuticals, particularly in oncology and retina. The company plans to leverage it...",
+      "url": "https://finance.yahoo.com/healthcare/articles/cencora-sees-specialty-strategy-fueling-230208448.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260921T230213",
+      "sentiment_score": 0.142621,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "COR",
+        "CAH",
+        "MCK",
+        "WBA"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Mergers And Acquisitions"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Lockheed Martin secures $1.2B Army contract for missile system",
+      "summary": "Lockheed Martin has been awarded an indefinite delivery, indefinite quantity contract worth up to $1.2 billion by the U.S. Army for the production of Increment 2 of the Precisio...",
+      "url": "https://www.investing.com/news/company-news/lockheed-martin-secures-12b-army-contract-for-missile-system-93CH-4909704",
+      "source": "Investing.com",
+      "published_at": "20260921T220841",
+      "sentiment_score": 0.457537,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "LMT"
+      ],
+      "topics": [
+        "Manufacturing",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Seneca Foods Board Approves Amendments to Certificate of Incorporation on September 21, 2026",
+      "summary": "Seneca Foods Corporation's Board of Directors approved amendments to its Certificate of Incorporation on September 21, 2026. These changes, detailed in an 8-K filing, reduce the...",
+      "url": "https://kalkinemedia.com/us/news/announcements/seneca-foods-board-approves-amendments-to-certificate-of-incorporation-on-september-21-2026",
+      "source": "Kalkine Media",
+      "published_at": "20260921T214629",
+      "sentiment_score": 0.007776,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SENEB"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Capital One stock ends the day slightly higher at the close",
+      "summary": "Capital One stock saw a modest gain on the New York Stock Exchange, closing at USD 202.36 on September 21, 2026. The shares traded within a tight intraday range, broadly alignin...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/capital-one-stock-ends-the-day-slightly-higher-at-the-close/70147696",
+      "source": "AD HOC NEWS",
+      "published_at": "20260921T214354",
+      "sentiment_score": 0.111773,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "COF"
       ],
       "topics": [
         "Financial Markets",
         "Earnings",
-        "Technology",
-        "Energy Transportation"
+        "Finance"
       ],
-      "quality_score": 10,
+      "quality_score": 6,
       "is_noise": false
     },
     {
-      "title": "Stanley Black & Decker Targets Margin Gains as DEWALT Takes Share",
-      "summary": "Stanley Black & Decker (NYSE: SWK) is focusing on strengthening core brands, improving operations, and accelerating innovation, with DEWALT expanding its market share beyond res...",
-      "url": "https://www.marketbeat.com/instant-alerts/event-stanley-black-decker-targets-margin-gains-as-dewalt-takes-share-2026-09-20/",
-      "source": "MarketBeat",
-      "published_at": "20260920T193742",
-      "sentiment_score": 0.331913,
+      "title": "RTX (NYSE: RTX) Offers Superior Risk-Reward Profile Over Lockheed Martin (NYSE: LMT) For Long-Term Investors",
+      "summary": "This article argues that RTX (NYSE: RTX) presents a stronger long-term investment opportunity compared to Lockheed Martin (NYSE: LMT). This is attributed to RTX's lower exposure...",
+      "url": "https://www.foreignpolicyjournal.com/2026/09/21/rtx-nyse-rtx-offers-superior-risk-reward-profile-over-lockheed-martin-nyse-lmt-for-long-term-investors/",
+      "source": "Foreign Policy Journal",
+      "published_at": "20260922T003803",
+      "sentiment_score": -0.114668,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RTX",
+        "LMT",
+        "BA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Finance"
+      ],
+      "quality_score": 5,
+      "is_noise": false
+    },
+    {
+      "title": "Nyxoah shares fall after CFO departure announcement",
+      "summary": "Nyxoah SA's shares dropped 2% in after-hours trading following the announcement that CFO John Landry will resign on October 2, 2026. Loïc Moreau, former CFO and current Presiden...",
+      "url": "https://www.investing.com/news/stock-market-news/nyxoah-shares-fall-after-cfo-departure-announcement-93CH-4909588",
+      "source": "Investing.com",
+      "published_at": "20260921T205152",
+      "sentiment_score": -0.232988,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "NYXH"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets"
+      ],
+      "quality_score": 5,
+      "is_noise": false
+    },
+    {
+      "title": "Ulta Beauty CEO Kecia Steelman sells $1.09m in stock By Investing.com",
+      "summary": "Ulta Beauty CEO Kecia Steelman sold 2,000 shares of company stock for over $1 million on September 17, 2026. This transaction occurred while ULTA stock is trading above its Inve...",
+      "url": "https://ca.investing.com/news/stock-market-news/ulta-beauty-ceo-kecia-steelman-sells-109m-in-stock-93CH-4846987",
+      "source": "Investing.com Canada",
+      "published_at": "20260921T221422",
+      "sentiment_score": -0.243114,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ULTA"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Industrial Logistics Properties Trust CEO Yael Duffy Reports Share Withholding Transaction",
+      "summary": "Yael Duffy, President and CEO of Industrial Logistics Properties Trust (NASDAQ:ILPT), reported a share withholding transaction on September 21, 2026. This transaction involved t...",
+      "url": "https://kalkinemedia.com/us/news/announcements/industrial-logistics-properties-trust-ceo-yael-duffy-reports-share-withholding-transaction",
+      "source": "Kalkine Media",
+      "published_at": "20260921T220928",
+      "sentiment_score": 0.04851,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ILPT"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Real Estate",
+        "Economy Fiscal"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Ryerson Holding EVP Andrew S. Greiff Acquires 89.819 RSU Dividend Equivalent Units",
+      "summary": "Andrew S. Greiff, Executive Vice President of Ryerson Holding Corp (NYSE:RYZ), acquired 89.819 restricted stock units (RSUs) representing dividend equivalent rights. This acquis...",
+      "url": "https://kalkinemedia.com/us/news/announcements/ryerson-holding-evp-andrew-s-greiff-acquires-89819-rsu-dividend-equivalent-units",
+      "source": "Kalkine Media",
+      "published_at": "20260921T214702",
+      "sentiment_score": 0.074467,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RYI",
+        "AMD",
+        "TSLA",
+        "XEL"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "J.P. Morgan Assigns Overweight Rating to Sigma Lithium, Highlighting Brownfield Expansion and Growth Potential",
+      "summary": "J.P. Morgan has initiated equity research coverage on Sigma Lithium Corporation with an \"Overweight\" rating, citing the company's brownfield expansion strategy and undervalued o...",
+      "url": "https://kalkinemedia.com/ca/news/announcements/jp-morgan-assigns-overweight-rating-to-sigma-lithium-highlighting-brownfield-expansion-and-growth-potential",
+      "source": "Kalkine Media",
+      "published_at": "20260922T024825",
+      "sentiment_score": 0.493506,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SGML"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Manufacturing"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Rocket Lab Poised to Become \"Only Viable Alternative\" to SpaceX, Says Cantor Fitzgerald",
+      "summary": "Cantor Fitzgerald has reiterated its Overweight rating and $122 price target for Rocket Lab, citing its Neutron rocket as the only credible commercial rival to SpaceX's Falcon 9...",
+      "url": "https://247wallst.com/investing/2026/09/21/rocket-lab-poised-to-become-only-viable-alternative-to-spacex-says-cantor-fitzgerald/",
+      "source": "24/7 Wall St.",
+      "published_at": "20260922T022109",
+      "sentiment_score": 0.603478,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "RKLB"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Financial Markets",
+        "Mergers And Acquisitions"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Alma Metals Reports 383.8m at 0.25% Copper from Briggs Infill Drill Hole 26BRD0042",
+      "summary": "Alma Metals announced significant assay results from infill drill hole 26BRD0042 at its Briggs Copper Project, revealing 383.8m at 0.25% copper, including a higher-grade section...",
+      "url": "https://kalkinemedia.com/au/news/announcements/alma-metals-reports-3838m-at-025-copper-from-briggs-infill-drill-hole-26brd0042",
+      "source": "Kalkine Media",
+      "published_at": "20260922T021942",
+      "sentiment_score": 0.411979,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ALM"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Why Rackspace Technology (RXT) Is Up 15.8% After Joining NVIDIA’s Cloud Partner Program",
+      "summary": "Rackspace Technology (RXT) experienced a 15.8% stock increase after joining NVIDIA’s Cloud Partner Program, which enhances its ability to offer NVIDIA-accelerated computing and...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/why-rackspace-technology-rxt-15-011428011.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260922T004553",
+      "sentiment_score": 0.267467,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "SWK"
+        "RXT",
+        "NVDA",
+        "AMD",
+        "PLTR"
+      ],
+      "topics": [
+        "Technology",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Home Depot (HD) Falls to $297.20, a Fresh 52-Week Low",
+      "summary": "Home Depot (HD) stock has fallen to a new 52-week low of $297.20, undercutting its previous low from May 15 and marking a significant drop from a year ago. The company, a Dow co...",
+      "url": "https://247wallst.com/cards/home-depot-just-marked-a-fresh-52-week-low-at-297-20-under-hd-price-extreme-01m335sxbzfqy0styvd2pt2sy5",
+      "source": "24/7 Wall St.",
+      "published_at": "20260922T001708",
+      "sentiment_score": -0.334246,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "HD",
+        "LOW"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Ulta Beauty CEO Kecia Steelman Offloads 2,000 Shares at Weighted Average Price of $545.88",
+      "summary": "Kecia Steelman, President and CEO of Ulta Beauty, Inc., sold 2,000 shares of the company's common stock on September 17, 2026, at a weighted average price of $545.8828 per share...",
+      "url": "https://kalkinemedia.com/us/news/announcements/ulta-beauty-ceo-kecia-steelman-offloads-2000-shares-at-weighted-average-price-of-54588",
+      "source": "Kalkine Media",
+      "published_at": "20260921T220815",
+      "sentiment_score": -0.225394,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ULTA"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "NeuroPace CFO Patrick Williams Discloses Tax-Related Share Withholding on RSU Vesting",
+      "summary": "NeuroPace Inc.'s CFO, Patrick F. Williams, reported the disposition of 1,162 shares of common stock on September 20, 2026. This transaction, classified as code \"F,\" was undertak...",
+      "url": "https://kalkinemedia.com/us/news/announcements/neuropace-cfo-patrick-williams-discloses-tax-related-share-withholding-on-rsu-vesting",
+      "source": "Kalkine Media",
+      "published_at": "20260921T214812",
+      "sentiment_score": 0.00049,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NPCE",
+        "AMD",
+        "TSLA",
+        "XEL"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "PNC president makes the case for organic growth strategy",
+      "summary": "PNC's president, Mark Wiedman, is advocating for an organic growth strategy, highlighting the success of the bank's asset management business in Colorado as its fastest-growing...",
+      "url": "https://www.bizjournals.com/pittsburgh/news/2026/09/21/pnc-president-talks-organic-growth-strategy.html",
+      "source": "The Business Journals",
+      "published_at": "20260921T214130",
+      "sentiment_score": 0.202632,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "PNC",
+        "CFG",
+        "BK"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Economy Monetary",
+        "Economy Macro"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Sea Ltd COO Ye Gang Executes Sale of 40,000 Class A Shares in September 2026 Under Rule 10b5-1 Plan",
+      "summary": "Sea Ltd's COO and Director, Ye Gang, sold 40,000 Class A ordinary shares across six transactions on September 17 and 18, 2026. These sales, conducted under a Rule 10b5-1 trading...",
+      "url": "https://kalkinemedia.com/us/news/announcements/sea-ltd-coo-ye-gang-executes-sale-of-40000-class-a-shares-in-september-2026-under-rule-10b5-1-plan",
+      "source": "Kalkine Media",
+      "published_at": "20260922T022140",
+      "sentiment_score": 0.076042,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SE",
+        "AMD",
+        "TSLA",
+        "XEL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Sea Ltd's CCO Wang Yanjun Executes Share Sales via 10b5-1 Trading Plan",
+      "summary": "Sea Ltd's Chief Compliance Officer and General Counsel, Wang Yanjun, sold 2,400 Class A ordinary shares on September 17 and 18, 2026, through a controlled BVI entity. These sale...",
+      "url": "https://kalkinemedia.com/us/news/announcements/sea-ltds-cco-wang-yanjun-executes-share-sales-via-10b5-1-trading-plan",
+      "source": "Kalkine Media",
+      "published_at": "20260922T022140",
+      "sentiment_score": -0.141844,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Why Mohawk Industries (MHK) Shares Are Getting Obliterated Today",
+      "summary": "Mohawk Industries (MHK) shares dropped 7% after SEC filings revealed substantial insider share sales by CEO Jeffrey Lorberbaum prior to his retirement. Broader industry margin c...",
+      "url": "https://ca.finance.yahoo.com/news/why-mohawk-industries-mhk-shares-015025482.html",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260922T015035",
+      "sentiment_score": -0.411527,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "MHK"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Lockheed Martin Fast-Tracks Secret Missile as Global Weapons Demand Rises",
+      "summary": "Lockheed Martin has unveiled the AIM-260 Joint Advanced Tactical Missile (JATM), a new air-to-air weapon, and is accelerating its production to meet rising demand from the U.S....",
+      "url": "https://www.insidermonkey.com/news/lockheed-martin-fast-tracks-secret-missile-as-global-weapons-demand-rises-1841751/",
+      "source": "Insider Monkey",
+      "published_at": "20260922T011334",
+      "sentiment_score": 0.424316,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "LMT"
       ],
       "topics": [
         "Earnings",
         "Manufacturing",
+        "Economy Macro"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Ulta Beauty (NASDAQ:ULTA) CEO Sells 2,000 Shares",
+      "summary": "Ulta Beauty's CEO, Kecia Steelman, sold 2,000 shares of ULTA stock for approximately $1.09 million, reducing her direct ownership by 4.71%. Despite the sale, Ulta Beauty shares...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-ulta-beauty-nasdaq-ulta-ceo-sells-2000-shares-2026-09-21/",
+      "source": "MarketBeat",
+      "published_at": "20260921T231422",
+      "sentiment_score": 0.126028,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ULTA"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "PodcastOne director Merriman buys $15,812 in stock",
+      "summary": "D. Jonathan Merriman, a director at PodcastOne, Inc. (NASDAQ:PODC), recently purchased 6,700 shares of the company's common stock for $15,812. This transaction occurred on Septe...",
+      "url": "https://www.investing.com/news/insider-trading-news/podcastone-director-merriman-buys-15812-in-stock-93CH-4909741",
+      "source": "Investing.com",
+      "published_at": "20260921T225318",
+      "sentiment_score": 0.001538,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "PODC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "D Jonathan Merriman Purchases 6,700 Shares of PodcastOne (NASDAQ:PODC) Stock",
+      "summary": "PodcastOne Director D. Jonathan Merriman recently purchased 6,700 shares of the company's stock for $2.36 per share, totaling $15,812. This transaction increased his holdings to...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-d-jonathan-merriman-purchases-6700-shares-of-podcastone-nasdaq-podc-stock-2026-09-21/",
+      "source": "MarketBeat",
+      "published_at": "20260921T225318",
+      "sentiment_score": -0.324638,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "PODC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "DoorDash CBO Keith Yandell Sells 2,184 Shares Under Rule 10b5-1 Plan",
+      "summary": "DoorDash Chief Business Officer Keith Yandell sold 2,184 shares of Class A Common Stock on September 17, 2026, for $200.76 per share, under a pre-established Rule 10b5-1 trading...",
+      "url": "https://kalkinemedia.com/us/news/announcements/doordash-cbo-keith-yandell-sells-2184-shares-under-rule-10b5-1-plan",
+      "source": "Kalkine Media",
+      "published_at": "20260921T215939",
+      "sentiment_score": -0.052764,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DASH"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Insider Selling: Equitable (NYSE:EQH) Director Sells $151,093.00 in Stock",
+      "summary": "Equitable Holdings Director Bertram Scott sold 2,780 shares of the company's stock for $151,093.00, reducing his direct stake by 10.5%. The company's stock recently traded near...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-equitable-nyse-eqh-director-sells-15109300-in-stock-2026-09-21/",
+      "source": "MarketBeat",
+      "published_at": "20260921T211719",
+      "sentiment_score": 0.020632,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "EQH-P-C"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Patterson-UTI Energy CEO sells $2.98m in common stock",
+      "summary": "The CEO of Patterson-UTI Energy Inc. (NASDAQ:PTEN), William Andrew Hendricks Jr., sold 250,000 shares of common stock for approximately $2.98 million on September 18, 2026. This...",
+      "url": "https://www.investing.com/news/insider-trading-news/pattersonuti-energy-ceo-sells-298m-in-common-stock-93CH-4909695",
+      "source": "Investing.com",
+      "published_at": "20260921T211656",
+      "sentiment_score": -0.04217,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "PTEN",
+        "HAL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Insider Buying: Redwood Trust (NYSE:RWT) Insider Acquires 4,895 Shares of Stock",
+      "summary": "Redwood Trust (NYSE:RWT) insider Sasha Macomber recently acquired 4,895 shares of the company's stock for $4.08 per share, increasing their total holdings to 95,298 shares. This...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-buying-redwood-trust-nyse-rwt-insider-acquires-4895-shares-of-stock-2026-09-21/",
+      "source": "MarketBeat",
+      "published_at": "20260921T204556",
+      "sentiment_score": 0.032543,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RWTP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
         "Real Estate",
         "Finance"
       ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Form DEF 14A CARDINAL HEALTH INC For: Nov 12",
+      "summary": "This DEF 14A filing from Cardinal Health Inc. outlines the company's proxy statement for its Annual Meeting of Shareholders on November 12, 2026. It details proposals including...",
+      "url": "https://www.streetinsider.com/SEC+Filings/Form+DEF+14A+CARDINAL+HEALTH+INC+For:+Nov+12/27085563.html",
+      "source": "StreetInsider",
+      "published_at": "20260921T204442",
+      "sentiment_score": 0.374457,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "CAH",
+        "UNP",
+        "BA",
+        "DVA"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Life Sciences"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    }
+  ],
+  "article_count": 50,
+  "top_ticker": "AMD",
+  "top_topic": "Earnings",
+  "dominant_sentiment": "Neutral",
+  "top_story": "NXP Semiconductors (NXPI) Beats Stock Market Upswing: What Investors Need to Know",
+  "signal_articles": [
+    {
+      "title": "NXP Semiconductors (NXPI) Beats Stock Market Upswing: What Investors Need to Know",
+      "summary": "NXP Semiconductors (NXPI) saw a 1.94% increase, outperforming the S&P 500, Dow, and Nasdaq in its latest trading session. The company is set to report earnings on October 27, 20...",
+      "url": "https://sg.finance.yahoo.com/news/nxp-semiconductors-nxpi-beats-stock-221504499.html",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20260921T221256",
+      "sentiment_score": 0.436359,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NXPI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 18,
+      "is_noise": false
+    },
+    {
+      "title": "Micron (MU) Beats Stock Market Upswing: What Investors Need to Know",
+      "summary": "Micron (MU) experienced a significant stock market upswing, closing with a 2.73% gain and outperforming major indices like the S&P 500, Dow, and Nasdaq. The company's shares hav...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-beats-stock-market-214506765.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260921T214536",
+      "sentiment_score": 0.318739,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "MU",
+        "COIN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 14,
+      "is_noise": false
+    },
+    {
+      "title": "Waste Management (WM) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "summary": "Waste Management (WM) stock fell 1.92% to $207.04, underperforming the broader market's gains. The company is expected to report Q3 earnings of $2.18 per share, a 10.1% year-ove...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/waste-management-wm-stock-falls-221505049.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260921T223920",
+      "sentiment_score": -0.203336,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "WM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Finance"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "McDonald's Tests Placing Ads For Other Brands On Menu Screens",
+      "summary": "McDonald's is testing displaying advertisements from other brands on its digital menu boards in select restaurants. This initiative aims to generate a new revenue stream by leve...",
+      "url": "https://www.ndtvprofit.com/world/mcdonalds-tests-placing-ads-for-other-brands-on-menu-screens-12078954",
+      "source": "NDTV Profit",
+      "published_at": "20260922T025320",
+      "sentiment_score": -0.048026,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MCD",
+        "CMG",
+        "SBUX",
+        "YUM",
+        "DPZ"
+      ],
+      "topics": [
+        "Retail Wholesale",
+        "Earnings"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "Morgan Stanley Cuts Expedia (EXPE) to Underweight as Rivals Pull Ahead on Users",
+      "summary": "Morgan Stanley downgraded Expedia (EXPE) to Underweight from Equal Weight, citing concerns that the company is losing ground to rivals in user acquisition. While Expedia's busin...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-cuts-expedia-expe-215829626.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260921T215935",
+      "sentiment_score": 0.024265,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MS",
+        "EXPE",
+        "ABNB",
+        "BKNG"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "QuasarEdge Acquisition Corp Releases Q2 2026 10-Q Report Detailing Post-IPO Financials",
+      "summary": "QuasarEdge Acquisition Corporation (NYSE:QRED) has released its Q2 2026 10-Q report for the period ending July 31, 2026, detailing financial outcomes post-IPO. Key highlights in...",
+      "url": "https://kalkinemedia.com/us/news/announcements/quasaredge-acquisition-corp-releases-q2-2026-10-q-report-detailing-post-ipo-financials",
+      "source": "Kalkine Media",
+      "published_at": "20260922T024825",
+      "sentiment_score": 0.117572,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "QRED",
+        "XEL",
+        "TSLA",
+        "AMD"
+      ],
+      "topics": [
+        "Earnings",
+        "Ipo",
+        "Finance",
+        "Financial Markets"
+      ],
       "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Coca-Cola (KO) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "summary": "Coca-Cola's stock (KO) experienced a decline of 1.13% to $87.25, while the broader market saw an uptick, with the S&P 500 gaining 1.49%. This performance follows a 3.13% loss fo...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-stock-falls-214501030.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260921T214536",
+      "sentiment_score": -0.105265,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Retail Wholesale"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Boeing (BA) Strengthens its Backlog with Korean Air’s 103-Aircraft Commitment",
+      "summary": "Boeing has finalized a deal with Korean Air for 103 aircraft, valued at $36.2 billion at list prices, significantly bolstering its commercial backlog. While the order adds long-...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-strengthens-backlog-korean-014438823.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260922T011452",
+      "sentiment_score": 0.145351,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BA"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation",
+        "Manufacturing"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Diamondback Energy (FANG) Stock Drops Despite Market Gains: Important Facts to Note",
+      "summary": "Diamondback Energy (FANG) shares dropped by 1.64% despite overall market gains, closing at $189.27. The company is anticipated to report a 45.45% rise in EPS and a 6.46% increas...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/diamondback-energy-fang-stock-drops-221502011.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260921T221550",
+      "sentiment_score": 0.029003,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "FANG",
+        "COIN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Stryker stock gains from Raymond James support",
+      "summary": "Stryker Corp. (SYK) stock is receiving a \"Buy\" rating from Raymond James, with a consensus target price of $372.68 from 28 analysts, significantly higher than its last closing p...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/stryker-stock-gains-from-raymond-james-support/70147454",
+      "source": "AD HOC NEWS",
+      "published_at": "20260921T212500",
+      "sentiment_score": 0.491116,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "SYK"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": 9,
       "is_noise": false
     }
   ],
   "top_tickers": [
     {
-      "ticker": "SPGI",
-      "mentions": 6
+      "ticker": "AMD",
+      "mentions": 5
+    },
+    {
+      "ticker": "XEL",
+      "mentions": 3
+    },
+    {
+      "ticker": "TSLA",
+      "mentions": 3
     },
     {
       "ticker": "COIN",
-      "mentions": 4
-    },
-    {
-      "ticker": "MA",
       "mentions": 2
     },
     {
-      "ticker": "EVRG",
-      "mentions": 1
-    },
-    {
-      "ticker": "HBAN",
-      "mentions": 1
+      "ticker": "MCD",
+      "mentions": 2
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 44
+      "mentions": 38
     },
     {
       "topic": "Financial Markets",
-      "mentions": 37
+      "mentions": 24
     },
     {
       "topic": "Finance",
-      "mentions": 19
+      "mentions": 20
     },
     {
       "topic": "Technology",
-      "mentions": 13
+      "mentions": 9
     },
     {
-      "topic": "Economy Macro",
+      "topic": "Retail Wholesale",
       "mentions": 7
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 13
+      "count": 18
     },
     {
       "label": "Bullish",
-      "count": 9
-    },
-    {
-      "label": "Bearish",
       "count": 8
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 8
+      "count": 6
     },
     {
       "label": "Somewhat-Bearish",
@@ -1268,25 +1281,25 @@
   ],
   "top_sources": [
     {
-      "source": "www.marketscreener.com",
-      "count": 13
+      "source": "Yahoo Finance",
+      "count": 10
     },
     {
-      "source": "Yahoo Finance",
-      "count": 11
+      "source": "Kalkine Media",
+      "count": 9
     },
     {
       "source": "MarketBeat",
-      "count": 7
+      "count": 3
     },
     {
-      "source": "marketscreener.com",
-      "count": 4
+      "source": "24/7 Wall St.",
+      "count": 3
     },
     {
       "source": "AD HOC NEWS",
-      "count": 4
+      "count": 2
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with SPGI appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with AMD appearing most often and the headline tone mostly neutral."
 }
