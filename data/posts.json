@@ -1,5 +1,105 @@
 [
   {
+    "id": "api-reliability-arena-financial-news-2026-09-22",
+    "date": "2026-09-22",
+    "runDate": "2026-09-22",
+    "createdAt": "2026-09-22T11:55:47.280312+00:00",
+    "contentType": "API RELIABILITY ARENA",
+    "title": "API Reliability Arena: Financial news signals",
+    "status": "ready",
+    "tweet": "Which API would an AI agent choose? ⚔️\n\nToday's task: Financial news signals\n🏆 Market News\n✅ 100.0% success | ⚡ 433ms | 🪙 1 credits\n\nQVeris compares routing signals before the call, so agents can choose with evidence.\nhttps://qveris.ai",
+    "image": "/posts/api_reliability_arena_financial-news_2026-09-22.png",
+    "dataSource": "QVeris Discover routing signals",
+    "dataUpdatedAt": "2026-09-22T11:55:44.880659+00:00",
+    "xPostId": null,
+    "primaryLabel": "Champion",
+    "primaryValue": "Market News",
+    "secondaryLabel": "Route score",
+    "secondaryValue": "89.1",
+    "topSymbol": "API",
+    "topChangePct": 89.1,
+    "apiReliabilityArena": {
+      "updated_at": "2026-09-22T11:55:44.880659+00:00",
+      "date": "2026-09-22",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris Discover routing signals",
+      "title": "API Reliability Arena",
+      "scenario": {
+        "key": "financial-news",
+        "label": "Financial news signals",
+        "task": "Retrieve current financial headlines, tickers, and sentiment",
+        "query": "financial news API latest headlines ticker sentiment source published time"
+      },
+      "search_id": "203d5db4-3b17-43d1-8186-a3773e9760c1",
+      "result_count": 10,
+      "competitors": [
+        {
+          "tool_id": "finnhub.news.retrieve.v1",
+          "name": "Market News",
+          "provider": "Finnhub",
+          "success_rate": 1.0,
+          "latency_ms": 432.86,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 89.1,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 1
+        },
+        {
+          "tool_id": "alphavantage.news_sentiment.query.v1.7aca3c4a",
+          "name": "Market News & Sentiment",
+          "provider": "Alpha Vantage",
+          "success_rate": 0.980392,
+          "latency_ms": 392.92,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 88.5,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 2
+        },
+        {
+          "tool_id": "massive_stocks.stocks.short_interest.list.v1.7214116c",
+          "name": "List Short Interest Data",
+          "provider": "Provider not stated",
+          "success_rate": 1.0,
+          "latency_ms": 954.63,
+          "cost_credits": 1.0,
+          "cost_known": true,
+          "freshness": "Not stated",
+          "route_score": 84.5,
+          "metric_count": 3,
+          "expected_cost_text": "1",
+          "rank": 3
+        }
+      ],
+      "champion": {
+        "tool_id": "finnhub.news.retrieve.v1",
+        "name": "Market News",
+        "provider": "Finnhub",
+        "success_rate": 1.0,
+        "latency_ms": 432.86,
+        "cost_credits": 1.0,
+        "cost_known": true,
+        "freshness": "Not stated",
+        "route_score": 89.1,
+        "metric_count": 3,
+        "expected_cost_text": "1",
+        "rank": 1
+      },
+      "takeaway": "QVeris ranks Market News first for financial news signals, led by 100.0% historical success.",
+      "methodology": {
+        "success_weight": 0.55,
+        "latency_weight": 0.25,
+        "cost_weight": 0.2,
+        "note": "Ranking uses QVeris historical routing signals; it is not a live load test."
+      }
+    }
+  },
+  {
     "id": "earnings-reality-check-nvda-2026-08-26",
     "date": "2026-09-22",
     "runDate": "2026-09-22",
