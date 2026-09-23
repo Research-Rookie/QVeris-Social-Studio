@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-09-22T07:11:13.493311+00:00",
-  "date": "2026-09-22",
+  "updated_at": "2026-09-23T07:09:06.122642+00:00",
+  "date": "2026-09-23",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "MS",
-  "shift_label": "Turning bearish",
-  "sentiment_delta": -0.2491,
-  "baseline_label": "2026-09-16",
+  "symbol": "ANET",
+  "shift_label": "Bullish momentum cooling",
+  "sentiment_delta": -0.1704,
+  "baseline_label": "2026-09-09",
   "current": {
-    "date": "2026-09-22",
-    "symbol": "MS",
+    "date": "2026-09-23",
+    "symbol": "ANET",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.0161,
+    "sentiment_score": 0.2056,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,11 +21,81 @@
         "count": 1
       },
       {
+        "label": "Technology",
+        "count": 1
+      },
+      {
         "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "Finance",
+        "label": "Economy Macro",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "arista",
+        "count": 2
+      },
+      {
+        "label": "networks",
+        "count": 2
+      },
+      {
+        "label": "why",
+        "count": 1
+      },
+      {
+        "label": "back",
+        "count": 1
+      },
+      {
+        "label": "spotlight",
+        "count": 1
+      },
+      {
+        "label": "seeing",
+        "count": 1
+      },
+      {
+        "label": "renewed",
+        "count": 1
+      },
+      {
+        "label": "optimism",
+        "count": 1
+      },
+      {
+        "label": "driven",
+        "count": 1
+      },
+      {
+        "label": "higher",
+        "count": 1
+      },
+      {
+        "label": "earnings",
+        "count": 1
+      },
+      {
+        "label": "revenue",
+        "count": 1
+      }
+    ],
+    "headline": "Why Arista Networks (ANET) Is Back In The Spotlight",
+    "headline_source": "Simply Wall Street"
+  },
+  "previous": {
+    "date": "2026-09-09",
+    "symbol": "ANET",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.376,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
         "count": 1
       },
       {
@@ -35,147 +105,73 @@
     ],
     "keywords": [
       {
-        "label": "expedia",
+        "label": "growth",
         "count": 3
       },
       {
-        "label": "morgan",
+        "label": "arista",
         "count": 2
       },
       {
-        "label": "stanley",
+        "label": "networks",
         "count": 2
       },
       {
-        "label": "expe",
+        "label": "campus",
         "count": 2
       },
       {
-        "label": "underweight",
+        "label": "cloud",
         "count": 2
       },
       {
-        "label": "rivals",
+        "label": "networking",
         "count": 2
       },
       {
-        "label": "cuts",
+        "label": "revenue",
+        "count": 2
+      },
+      {
+        "label": "targets",
         "count": 1
       },
       {
-        "label": "pull",
+        "label": "accelerates",
         "count": 1
       },
       {
-        "label": "users",
+        "label": "targeting",
         "count": 1
       },
       {
-        "label": "downgraded",
+        "label": "driven",
         "count": 1
       },
       {
-        "label": "equal",
-        "count": 1
-      },
-      {
-        "label": "weight",
+        "label": "anticipates",
         "count": 1
       }
     ],
-    "headline": "Morgan Stanley Cuts Expedia (EXPE) to Underweight as Rivals Pull Ahead on Users",
+    "headline": "Arista Networks Targets $12.6B as AI, Campus and Cloud Networking Growth Accelerates",
     "headline_source": "Yahoo Finance"
   },
-  "previous": {
-    "date": "2026-09-16",
-    "symbol": "MS",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.2652,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Technology",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "reynders",
-        "count": 2
-      },
-      {
-        "label": "mcveigh",
-        "count": 2
-      },
-      {
-        "label": "capital",
-        "count": 2
-      },
-      {
-        "label": "management",
-        "count": 2
-      },
-      {
-        "label": "llc",
-        "count": 2
-      },
-      {
-        "label": "analog",
-        "count": 2
-      },
-      {
-        "label": "devices",
-        "count": 2
-      },
-      {
-        "label": "adi",
-        "count": 2
-      },
-      {
-        "label": "sells",
-        "count": 1
-      },
-      {
-        "label": "reduced",
-        "count": 1
-      },
-      {
-        "label": "stake",
-        "count": 1
-      },
-      {
-        "label": "second",
-        "count": 1
-      }
-    ],
-    "headline": "Reynders McVeigh Capital Management LLC Sells 4,424 Shares of Analog Devices, Inc. $ADI",
-    "headline_source": "MarketBeat"
-  },
   "emerging_themes": [
-    "Finance",
-    "Earnings",
-    "Financial Markets"
+    "Financial Markets",
+    "Economy Macro",
+    "Earnings"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "expedia",
-    "morgan",
-    "stanley"
+    "why",
+    "back",
+    "spotlight"
   ],
   "fading_keywords": [
-    "reynders",
-    "mcveigh",
-    "capital"
+    "growth",
+    "campus",
+    "cloud"
   ],
-  "takeaway": "MS's narrative is turning bearish: sentiment moved -0.25, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "ANET's narrative is bullish momentum cooling: sentiment moved -0.17, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
