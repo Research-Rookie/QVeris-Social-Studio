@@ -1,61 +1,65 @@
 {
-  "updated_at": "2026-09-22T07:54:32.509676+00:00",
-  "date": "2026-09-22",
+  "updated_at": "2026-09-23T07:55:42.997083+00:00",
+  "date": "2026-09-23",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "AMD",
+  "symbol": "SPGI",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "NXP Semiconductors (NXPI) Beats Stock Market Upswing: What Investors Need to Know",
-  "headline_source": "Yahoo Finance Singapore",
+  "headline": "Why Arista Networks (ANET) Is Back In The Spotlight",
+  "headline_source": "Simply Wall Street",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for AMD: {'status_code': 200, 'data': {'c': 615.52, 'd': 55.7, 'dp': 9.9496, 'h': 616.69, 'l': 582.27, 'o': 583.88, 'pc': 559.82, 't': 1790020800}}",
+  "price_error": "Could not parse quote data for SPGI: {'status_code': 200, 'data': {'status': 'OK', 'request_id': '2c2d7d17bae445f3b6bb5c678d350812', 'results': [{'ticker': 'SPGI', 'date': '2024-02-06', 'total_volume': 310410.0, 'short_volume': 149580.0, 'exempt_volume': 152.0, 'non_exempt_volume': 149428.0, 'short_volume_ratio': 48.19, 'nyse_short_volume': 892, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 148182, 'nasdaq_carteret_short_volume_exempt': 152, 'nasdaq_chicago_short_volume': 506, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-07', 'total_volume': 490406.0, 'short_volume': 249566.0, 'exempt_volume': 631.0, 'non_exempt_volume': 248935.0, 'short_volume_ratio': 50.89, 'nyse_short_volume': 2123, 'nyse_short_volume_exempt': 53, 'nasdaq_carteret_short_volume': 246972, 'nasdaq_carteret_short_volume_exempt': 578, 'nasdaq_chicago_short_volume': 471, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-08', 'total_volume': 1448935.0, 'short_volume': 848307.0, 'exempt_volume': 2206.0, 'non_exempt_volume': 846101.0, 'short_volume_ratio': 58.55, 'nyse_short_volume': 8345, 'nyse_short_volume_exempt': 743, 'nasdaq_carteret_short_volume': 835591, 'nasdaq_carteret_short_volume_exempt': 1463, 'nasdaq_chicago_short_volume': 4371, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-09', 'total_volume': 722399.0, 'short_volume': 375528.0, 'exempt_volume': 294.0, 'non_exempt_volume': 375234.0, 'short_volume_ratio': 51.98, 'nyse_short_volume': 874, 'nyse_short_volume_exempt': 202, 'nasdaq_carteret_short_volume': 371476, 'nasdaq_carteret_short_volume_exempt': 92, 'nasdaq_chicago_short_volume': 3178, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-12', 'total_volume': 666000.0, 'short_volume': 231013.0, 'exempt_volume': 3668.0, 'non_exempt_volume': 227345.0, 'short_volume_ratio': 34.69, 'nyse_short_volume': 695, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 229651, 'nasdaq_carteret_short_volume_exempt': 3668, 'nasdaq_chicago_short_volume': 667, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-13', 'total_volume': 718071.0, 'short_volume': 338220.0, 'exempt_volume': 629.0, 'non_exempt_volume': 337591.0, 'short_volume_ratio': 47.1, 'nyse_short_volume': 2167, 'nyse_short_volume_exempt': 232, 'nasdaq_carteret_short_volume': 335856, 'nasdaq_carteret_short_volume_exempt': 397, 'nasdaq_chicago_short_volume': 197, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-14', 'total_volume': 549421.0, 'short_volume': 244031.0, 'exempt_volume': 484.0, 'non_exempt_volume': 243547.0, 'short_volume_ratio': 44.42, 'nyse_short_volume': 1004, 'nyse_short_volume_exempt': 36, 'nasdaq_carteret_short_volume': 242737, 'nasdaq_carteret_short_volume_exempt': 448, 'nasdaq_chicago_short_volume': 290, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-15', 'total_volume': 500534.0, 'short_volume': 201418.0, 'exempt_volume': 185.0, 'non_exempt_volume': 201233.0, 'short_volume_ratio': 40.24, 'nyse_short_volume': 1595, 'nyse_short_volume_exempt': 63, 'nasdaq_carteret_short_volume': 199601, 'nasdaq_carteret_short_volume_exempt': 122, 'nasdaq_chicago_short_volume': 222, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-16', 'total_volume': 608847.0, 'short_volume': 221916.0, 'exempt_volume': 163.0, 'non_exempt_volume': 221753.0, 'short_volume_ratio': 36.45, 'nyse_short_volume': 1546, 'nyse_short_volume_exempt': 12, 'nasdaq_carteret_short_volume': 219909, 'nasdaq_carteret_short_volume_exempt': 151, 'nasdaq_chicago_short_volume': 461, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-20', 'total_volume': 562809.0, 'short_volume': 269692.0, 'exempt_volume': 115.0, 'non_exempt_volume': 269577.0, 'short_volume_ratio': 47.92, 'nyse_short_volume': 9805, 'nyse_short_volume_exempt': 47, 'nasdaq_carteret_short_volume': 259811, 'nasdaq_carteret_short_volume_exempt': 68, 'nasdaq_chicago_short_volume': 76, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-21', 'total_volume': 348075.0, 'short_volume': 165389.0, 'exempt_volume': 414.0, 'non_exempt_volume': 164975.0, 'short_volume_ratio': 47.52, 'nyse_short_volume': 1248, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 163707, 'nasdaq_carteret_short_volume_exempt': 414, 'nasdaq_chicago_short_volume': 434, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-22', 'total_volume': 455433.0, 'short_volume': 261941.0, 'exempt_volume': 593.0, 'non_exempt_volume': 261348.0, 'short_volume_ratio': 57.51, 'nyse_short_volume': 655, 'nyse_short_volume_exempt': 22, 'nasdaq_carteret_short_volume': 261071, 'nasdaq_carteret_short_volume_exempt': 571, 'nasdaq_chicago_short_volume': 215, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-23', 'total_volume': 270511.0, 'short_volume': 167954.0, 'exempt_volume': 59.0, 'non_exempt_volume': 167895.0, 'short_volume_ratio': 62.09, 'nyse_short_volume': 729, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 167150, 'nasdaq_carteret_short_volume_exempt': 59, 'nasdaq_chicago_short_volume': 75, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-26', 'total_volume': 388637.0, 'short_volume': 147250.0, 'exempt_volume': 18.0, 'non_exempt_volume': 147232.0, 'short_volume_ratio': 37.89, 'nyse_short_volume': 1471, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 145653, 'nasdaq_carteret_short_volume_exempt': 18, 'nasdaq_chicago_short_volume': 126, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-27', 'total_volume': 525354.0, 'short_volume': 139549.0, 'exempt_volume': 298.0, 'non_exempt_volume': 139251.0, 'short_volume_ratio': 26.56, 'nyse_short_volume': 566, 'nyse_short_volume_exempt': 115, 'nasdaq_carteret_short_volume': 138518, 'nasdaq_carteret_short_volume_exempt': 183, 'nasdaq_chicago_short_volume': 465, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-28', 'total_volume': 303149.0, 'short_volume': 123996.0, 'exempt_volume': 34.0, 'non_exempt_volume': 123962.0, 'short_volume_ratio': 40.9, 'nyse_short_volume': 1019, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 122657, 'nasdaq_carteret_short_volume_exempt': 34, 'nasdaq_chicago_short_volume': 320, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-02-29', 'total_volume': 494815.0, 'short_volume': 147889.0, 'exempt_volume': 211.0, 'non_exempt_volume': 147678.0, 'short_volume_ratio': 29.89, 'nyse_short_volume': 923, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 146508, 'nasdaq_carteret_short_volume_exempt': 211, 'nasdaq_chicago_short_volume': 458, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-03-01', 'total_volume': 523002.0, 'short_volume': 171017.0, 'exempt_volume': 1307.0, 'non_exempt_volume': 169710.0, 'short_volume_ratio': 32.7, 'nyse_short_volume': 2899, 'nyse_short_volume_exempt': 851, 'nasdaq_carteret_short_volume': 167595, 'nasdaq_carteret_short_volume_exempt': 456, 'nasdaq_chicago_short_volume': 523, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-03-04', 'total_volume': 566325.0, 'short_volume': 185814.0, 'exempt_volume': 2187.0, 'non_exempt_volume': 183627.0, 'short_volume_ratio': 32.81, 'nyse_short_volume': 998, 'nyse_short_volume_exempt': 16, 'nasdaq_carteret_short_volume': 184045, 'nasdaq_carteret_short_volume_exempt': 2171, 'nasdaq_chicago_short_volume': 771, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}, {'ticker': 'SPGI', 'date': '2024-03-05', 'total_volume': 402674.0, 'short_volume': 184348.0, 'exempt_volume': 267.0, 'non_exempt_volume': 184081.0, 'short_volume_ratio': 45.78, 'nyse_short_volume': 1017, 'nyse_short_volume_exempt': 0, 'nasdaq_carteret_short_volume': 183028, 'nasdaq_carteret_short_volume_exempt': 267, 'nasdaq_chicago_short_volume': 303, 'nasdaq_chicago_short_volume_exempt': 0, 'adf_short_volume': 0, 'adf_short_volume_exempt': 0}], 'next_url': 'https://api.massive.com/stocks/v1/short-volume?cursor=AQwPBFNQR0kCAAABAQABARQAAgEPBFNQR0kBDwoyMDI0LTAzLTA1'}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "AMD",
-        "mentions": 5
-      },
-      {
-        "ticker": "MS",
+        "ticker": "SPGI",
         "mentions": 4
       },
       {
-        "ticker": "XEL",
-        "mentions": 3
+        "ticker": "OMC",
+        "mentions": 2
       },
       {
-        "ticker": "TSLA",
-        "mentions": 3
+        "ticker": "JPM",
+        "mentions": 2
       },
       {
-        "ticker": "MCD",
+        "ticker": "NDAQ",
+        "mentions": 2
+      },
+      {
+        "ticker": "ED",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 17
+        "count": 18
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 12
-      },
-      {
-        "label": "Bullish",
-        "count": 9
+        "count": 14
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 4
+        "count": 10
+      },
+      {
+        "label": "Bullish",
+        "count": 5
+      },
+      {
+        "label": "Bearish",
+        "count": 1
       }
     ]
   }
