@@ -1,27 +1,23 @@
 {
-  "updated_at": "2026-09-23T07:09:06.122642+00:00",
-  "date": "2026-09-23",
+  "updated_at": "2026-09-24T07:02:54.375633+00:00",
+  "date": "2026-09-24",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "ANET",
-  "shift_label": "Bullish momentum cooling",
-  "sentiment_delta": -0.1704,
-  "baseline_label": "2026-09-09",
+  "symbol": "BXP",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.4322,
+  "baseline_label": "2026-09-01",
   "current": {
-    "date": "2026-09-23",
-    "symbol": "ANET",
+    "date": "2026-09-24",
+    "symbol": "BXP",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.2056,
+    "sentiment_score": -0.087,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Technology",
         "count": 1
       },
       {
@@ -29,49 +25,29 @@
         "count": 1
       },
       {
+        "label": "Real Estate",
+        "count": 1
+      },
+      {
         "label": "Economy Macro",
+        "count": 1
+      },
+      {
+        "label": "Finance",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "arista",
+        "label": "green",
         "count": 2
       },
       {
-        "label": "networks",
+        "label": "realty",
         "count": 2
       },
       {
-        "label": "why",
-        "count": 1
-      },
-      {
-        "label": "back",
-        "count": 1
-      },
-      {
-        "label": "spotlight",
-        "count": 1
-      },
-      {
-        "label": "seeing",
-        "count": 1
-      },
-      {
-        "label": "renewed",
-        "count": 1
-      },
-      {
-        "label": "optimism",
-        "count": 1
-      },
-      {
-        "label": "driven",
-        "count": 1
-      },
-      {
-        "label": "higher",
+        "label": "should",
         "count": 1
       },
       {
@@ -79,19 +55,47 @@
         "count": 1
       },
       {
-        "label": "revenue",
+        "label": "estimate",
+        "count": 1
+      },
+      {
+        "label": "upgrade",
+        "count": 1
+      },
+      {
+        "label": "require",
+        "count": 1
+      },
+      {
+        "label": "action",
+        "count": 1
+      },
+      {
+        "label": "investors",
+        "count": 1
+      },
+      {
+        "label": "corp",
+        "count": 1
+      },
+      {
+        "label": "recently",
+        "count": 1
+      },
+      {
+        "label": "declared",
         "count": 1
       }
     ],
-    "headline": "Why Arista Networks (ANET) Is Back In The Spotlight",
+    "headline": "Should Earnings Estimate Upgrade Require Action From SL Green Realty Stock Investors?",
     "headline_source": "Simply Wall Street"
   },
   "previous": {
-    "date": "2026-09-09",
-    "symbol": "ANET",
+    "date": "2026-09-01",
+    "symbol": "BXP",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.376,
+    "sentiment_score": 0.3452,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -99,79 +103,83 @@
         "count": 1
       },
       {
-        "label": "Technology",
+        "label": "Real Estate",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "growth",
-        "count": 3
-      },
-      {
-        "label": "arista",
+        "label": "boston",
         "count": 2
       },
       {
-        "label": "networks",
+        "label": "properties",
         "count": 2
       },
       {
-        "label": "campus",
+        "label": "high",
         "count": 2
       },
       {
-        "label": "cloud",
+        "label": "earnings",
         "count": 2
       },
       {
-        "label": "networking",
-        "count": 2
+        "label": "holds",
+        "count": 1
       },
       {
-        "label": "revenue",
-        "count": 2
+        "label": "guidance",
+        "count": 1
       },
       {
         "label": "targets",
         "count": 1
       },
       {
-        "label": "accelerates",
+        "label": "growth",
         "count": 1
       },
       {
-        "label": "targeting",
+        "label": "trading",
         "count": 1
       },
       {
-        "label": "driven",
+        "label": "recent",
         "count": 1
       },
       {
-        "label": "anticipates",
+        "label": "quarterly",
+        "count": 1
+      },
+      {
+        "label": "results",
         "count": 1
       }
     ],
-    "headline": "Arista Networks Targets $12.6B as AI, Campus and Cloud Networking Growth Accelerates",
-    "headline_source": "Yahoo Finance"
+    "headline": "Boston Properties stock holds in the high $60s as guidance targets 2026 earnings growth",
+    "headline_source": "AD HOC NEWS"
   },
   "emerging_themes": [
-    "Financial Markets",
     "Economy Macro",
+    "Finance",
     "Earnings"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "why",
-    "back",
-    "spotlight"
+    "green",
+    "realty",
+    "should"
   ],
   "fading_keywords": [
-    "growth",
-    "campus",
-    "cloud"
+    "boston",
+    "properties",
+    "high"
   ],
-  "takeaway": "ANET's narrative is bullish momentum cooling: sentiment moved -0.17, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "BXP's narrative is turning bearish: sentiment moved -0.43, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

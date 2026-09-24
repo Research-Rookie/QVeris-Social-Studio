@@ -1,5 +1,210 @@
 [
   {
+    "id": "market-narrative-shift-bxp-2026-09-24",
+    "date": "2026-09-24",
+    "runDate": "2026-09-24",
+    "createdAt": "2026-09-24T07:02:57.891176+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $BXP",
+    "status": "ready",
+    "tweet": "What changed in $BXP's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.43\n📌 Top theme: Earnings\n🔎 Emerging term: green\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_BXP_2026-09-24.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-24T07:02:54.375633+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BXP",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "BXP",
+    "topChangePct": -43.22,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-24T07:02:54.375633+00:00",
+      "date": "2026-09-24",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "BXP",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.4322,
+      "baseline_label": "2026-09-01",
+      "current": {
+        "date": "2026-09-24",
+        "symbol": "BXP",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": -0.087,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Real Estate",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "green",
+            "count": 2
+          },
+          {
+            "label": "realty",
+            "count": 2
+          },
+          {
+            "label": "should",
+            "count": 1
+          },
+          {
+            "label": "earnings",
+            "count": 1
+          },
+          {
+            "label": "estimate",
+            "count": 1
+          },
+          {
+            "label": "upgrade",
+            "count": 1
+          },
+          {
+            "label": "require",
+            "count": 1
+          },
+          {
+            "label": "action",
+            "count": 1
+          },
+          {
+            "label": "investors",
+            "count": 1
+          },
+          {
+            "label": "corp",
+            "count": 1
+          },
+          {
+            "label": "recently",
+            "count": 1
+          },
+          {
+            "label": "declared",
+            "count": 1
+          }
+        ],
+        "headline": "Should Earnings Estimate Upgrade Require Action From SL Green Realty Stock Investors?",
+        "headline_source": "Simply Wall Street"
+      },
+      "previous": {
+        "date": "2026-09-01",
+        "symbol": "BXP",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.3452,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Real Estate",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "boston",
+            "count": 2
+          },
+          {
+            "label": "properties",
+            "count": 2
+          },
+          {
+            "label": "high",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "holds",
+            "count": 1
+          },
+          {
+            "label": "guidance",
+            "count": 1
+          },
+          {
+            "label": "targets",
+            "count": 1
+          },
+          {
+            "label": "growth",
+            "count": 1
+          },
+          {
+            "label": "trading",
+            "count": 1
+          },
+          {
+            "label": "recent",
+            "count": 1
+          },
+          {
+            "label": "quarterly",
+            "count": 1
+          },
+          {
+            "label": "results",
+            "count": 1
+          }
+        ],
+        "headline": "Boston Properties stock holds in the high $60s as guidance targets 2026 earnings growth",
+        "headline_source": "AD HOC NEWS"
+      },
+      "emerging_themes": [
+        "Economy Macro",
+        "Finance",
+        "Earnings"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "green",
+        "realty",
+        "should"
+      ],
+      "fading_keywords": [
+        "boston",
+        "properties",
+        "high"
+      ],
+      "takeaway": "BXP's narrative is turning bearish: sentiment moved -0.43, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-24",
     "date": "2026-09-24",
     "runDate": "2026-09-24",
