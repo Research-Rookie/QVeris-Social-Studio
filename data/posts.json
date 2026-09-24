@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-spgi-2026-09-24",
+    "date": "2026-09-24",
+    "runDate": "2026-09-24",
+    "createdAt": "2026-09-24T07:45:56.601657+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$SPGI news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-24.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-24T07:45:54.880229+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$SPGI",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "SPGI",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-24T07:45:54.880229+00:00",
+      "date": "2026-09-24",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "SPGI",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Should Earnings Estimate Upgrade Require Action From SL Green Realty Stock Investors?",
+      "headline_source": "Simply Wall Street",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for SPGI: {'status_code': 200, 'data': {'c': 406.5, 'd': 4.06, 'dp': 1.0088, 'h': 410, 'l': 401.04, 'o': 403.1, 'pc': 402.44, 't': 1790193600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "SPGI",
+            "mentions": 5
+          },
+          {
+            "ticker": "SRE",
+            "mentions": 3
+          },
+          {
+            "ticker": "CLX",
+            "mentions": 3
+          },
+          {
+            "ticker": "JPM",
+            "mentions": 2
+          },
+          {
+            "ticker": "SLG-P-I",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 16
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 15
+          },
+          {
+            "label": "Bullish",
+            "count": 6
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 6
+          },
+          {
+            "label": "Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-bxp-2026-09-24",
     "date": "2026-09-24",
     "runDate": "2026-09-24",
