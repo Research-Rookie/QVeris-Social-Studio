@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-09-24T07:45:54.880229+00:00",
-  "date": "2026-09-24",
+  "updated_at": "2026-09-25T08:07:06.280859+00:00",
+  "date": "2026-09-25",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "SPGI",
-  "news_tone": "Neutral",
+  "symbol": "BAC",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "Should Earnings Estimate Upgrade Require Action From SL Green Realty Stock Investors?",
-  "headline_source": "Simply Wall Street",
+  "headline": "Northern Oil and Gas, Inc. $NOG Stock Sold by Bank of America Corp DE",
+  "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for SPGI: {'status_code': 200, 'data': {'c': 406.5, 'd': 4.06, 'dp': 1.0088, 'h': 410, 'l': 401.04, 'o': 403.1, 'pc': 402.44, 't': 1790193600}}",
+  "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 56.03, 'd': 0.03, 'dp': 0.0536, 'h': 56.53, 'l': 55.84, 'o': 56.39, 'pc': 56, 't': 1790280000}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "SPGI",
+        "ticker": "BAC",
+        "mentions": 10
+      },
+      {
+        "ticker": "AMZN",
+        "mentions": 10
+      },
+      {
+        "ticker": "BBY",
         "mentions": 5
       },
       {
-        "ticker": "SRE",
-        "mentions": 3
-      },
-      {
-        "ticker": "CLX",
-        "mentions": 3
-      },
-      {
         "ticker": "JPM",
-        "mentions": 2
+        "mentions": 3
       },
       {
-        "ticker": "SLG-P-I",
-        "mentions": 1
+        "ticker": "GNRC",
+        "mentions": 3
       }
     ],
     "sentiment_counts": [
+      {
+        "label": "Somewhat-Bullish",
+        "count": 22
+      },
       {
         "label": "Neutral",
         "count": 16
       },
       {
-        "label": "Somewhat-Bearish",
-        "count": 15
-      },
-      {
         "label": "Bullish",
-        "count": 6
-      },
-      {
-        "label": "Somewhat-Bullish",
-        "count": 6
+        "count": 3
       },
       {
         "label": "Bearish",
-        "count": 2
+        "count": 3
+      },
+      {
+        "label": "Somewhat-Bearish",
+        "count": 1
       }
     ]
   }
