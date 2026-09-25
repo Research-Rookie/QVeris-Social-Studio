@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T06:16:58.025749+00:00",
+  "updated_at": "2026-09-25T06:58:57.017553+00:00",
   "date": "2026-09-25",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
@@ -11,7 +11,7 @@
       "url": "https://simplywall.st/stocks/us/energy/nyse-nat/nordic-american-tankers/news/why-nordic-american-tankers-nat-is-getting-attention-today",
       "source": "Simply Wall Street",
       "published_at": "20260925T041915",
-      "sentiment_score": -0.221157,
+      "sentiment_score": -0.247291,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "NAT"
@@ -30,7 +30,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/event-ingersoll-rand-sees-broad-demand-recovery-long-cycle-orders-accelerate-2026-09-24/",
       "source": "MarketBeat",
       "published_at": "20260925T040543",
-      "sentiment_score": 0.508135,
+      "sentiment_score": 0.542106,
       "sentiment_label": "Bullish",
       "tickers": [
         "IR"
@@ -50,7 +50,7 @@
       "url": "https://www.itpro.com/cloud/cloud-storage/what-to-expect-at-netapp-insight-2026",
       "source": "IT Pro",
       "published_at": "20260925T050311",
-      "sentiment_score": 0.093998,
+      "sentiment_score": 0.101256,
       "sentiment_label": "Neutral",
       "tickers": [
         "NTAP",
@@ -70,7 +70,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/s-and-p-global-stock-heads-into-the-open-after-a-0-02-percent-gain/70181386",
       "source": "AD HOC NEWS",
       "published_at": "20260925T050252",
-      "sentiment_score": 0.001858,
+      "sentiment_score": 0.039543,
       "sentiment_label": "Neutral",
       "tickers": [
         "SPGI"
@@ -88,8 +88,8 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/hasbro-inc-stock-heads-into-the-open-after-goldman-cuts-target/70181080",
       "source": "AD HOC NEWS",
       "published_at": "20260925T043306",
-      "sentiment_score": -0.142935,
-      "sentiment_label": "Neutral",
+      "sentiment_score": -0.163076,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "HAS",
         "GS"
@@ -108,7 +108,7 @@
       "url": "https://scanx.trade/stock-market-news/companies/novagold-resources-q3fy26-results-earnings-release-call-set-oct-8/51829791",
       "source": "scanx.trade",
       "published_at": "20260925T042123",
-      "sentiment_score": 0.013075,
+      "sentiment_score": 0.038273,
       "sentiment_label": "Neutral",
       "tickers": [
         "NG"
@@ -126,7 +126,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/campbell-soup-stock-slips-14-5-percent-ahead-of-the-open/70180635",
       "source": "AD HOC NEWS",
       "published_at": "20260925T033618",
-      "sentiment_score": -0.736532,
+      "sentiment_score": -0.709695,
       "sentiment_label": "Bearish",
       "tickers": [
         "CPB"
@@ -141,23 +141,41 @@
       "is_noise": false
     },
     {
-      "title": "Emerson Electric stock adds 1 percent ahead of the open",
-      "summary": "Emerson Electric stock gained 1 percent on September 24, 2026, closing at USD 156.14, outperforming the S&P 500 which slipped 0.03 percent. The company has upcoming earnings sch...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/emerson-electric-stock-adds-1-percent-ahead-of-the-open/70180483",
+      "title": "Intuitive Surgical stock heads into the open after a 0.3 percent gain",
+      "summary": "Intuitive Surgical (ISIN US46120E6023) stock gained 0.3 percent to USD 399.52 on September 24, 2026, slightly outperforming the Nasdaq Composite's less than 0.1 percent rise. Th...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/intuitive-surgical-stock-heads-into-the-open-after-a-0-3-percent-gain/70180943",
       "source": "AD HOC NEWS",
-      "published_at": "20260925T031632",
-      "sentiment_score": 0.262244,
-      "sentiment_label": "Somewhat-Bullish",
+      "published_at": "20260925T062000",
+      "sentiment_score": 0.111652,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "EMR",
-        "SPGI"
+        "ISRG"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Manufacturing"
+        "Life Sciences"
       ],
-      "quality_score": 9,
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Elevance Health stock heads into the open after a 0.8 percent gain",
+      "summary": "Elevance Health stock gained 0.8 percent on September 24, 2026, closing at USD 398.00 on the NYSE, outperforming the S&P 500 which fell 0.02 percent. The company has also schedu...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/elevance-health-stock-heads-into-the-open-after-a-0-8-percent-gain/70181725",
+      "source": "AD HOC NEWS",
+      "published_at": "20260925T055127",
+      "sentiment_score": 0.287245,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ELV"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Life Sciences",
+        "Earnings"
+      ],
+      "quality_score": 7,
       "is_noise": false
     },
     {
@@ -166,7 +184,7 @@
       "url": "https://seekingalpha.com/article/4147132-rci-hospitality-holdings-inc-2017-q4-results-earnings-call-slides?utm_source=now_read_partner_investingcom",
       "source": "Seeking Alpha",
       "published_at": "20260925T054830",
-      "sentiment_score": 0.015644,
+      "sentiment_score": 0.026956,
       "sentiment_label": "Neutral",
       "tickers": [
         "RICK"
@@ -183,7 +201,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/deckers-outdoor-stock-falls-1-55-percent-ahead-of-the-open/70181675",
       "source": "AD HOC NEWS",
       "published_at": "20260925T054135",
-      "sentiment_score": -0.321696,
+      "sentiment_score": -0.328375,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "DECK"
@@ -198,12 +216,32 @@
       "is_noise": false
     },
     {
+      "title": "Elizabeth Warren Says Walmart's Patent Enables Surveillance Pricing - Walmart (NASDAQ:WMT)",
+      "summary": "Senator Elizabeth Warren claims Walmart's patented technology could lead to \"surveillance pricing,\" where item prices adjust based on other products in a shopper's cart. This co...",
+      "url": "https://www.benzinga.com/markets/economic-data/26/09/61988516/elizabeth-warren-walmart-patent-surveillance-pricing-mayo-tuna",
+      "source": "Benzinga",
+      "published_at": "20260925T051345",
+      "sentiment_score": -0.258551,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "WMT"
+      ],
+      "topics": [
+        "Retail Wholesale",
+        "Technology",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "Teradyne stock heads into the open after a 2.40 percent drop",
       "summary": "Teradyne (TER) stock dropped 2.40 percent to USD 389.14 on September 24, 2026, underperforming the Nasdaq Composite which gained less than 0.1 percent. The article notes a Zacks...",
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/teradyne-stock-heads-into-the-open-after-a-2-40-percent-drop/70181489",
       "source": "AD HOC NEWS",
       "published_at": "20260925T051300",
-      "sentiment_score": -0.086761,
+      "sentiment_score": -0.082605,
       "sentiment_label": "Neutral",
       "tickers": [
         "TER",
@@ -223,7 +261,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/abbvie-stock-heads-into-the-open-after-a-flat-close/70181311",
       "source": "AD HOC NEWS",
       "published_at": "20260925T045534",
-      "sentiment_score": 0.023607,
+      "sentiment_score": 0.040326,
       "sentiment_label": "Neutral",
       "tickers": [
         "ABBV"
@@ -242,7 +280,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/cummins-stock-heads-into-the-open-after-a-0-4-percent-gain/70181309",
       "source": "AD HOC NEWS",
       "published_at": "20260925T045532",
-      "sentiment_score": 0.158808,
+      "sentiment_score": 0.159834,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CMI"
@@ -262,7 +300,7 @@
       "url": "https://simplywall.st/stocks/us/tech/nasdaq-ntap/netapp/news/what-netapp-ntaps-buccaneers-partnership-means-for-sharehold",
       "source": "Simply Wall Street",
       "published_at": "20260925T045111",
-      "sentiment_score": 0.26706,
+      "sentiment_score": 0.254148,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "NTAP"
@@ -280,7 +318,7 @@
       "url": "https://sg.finance.yahoo.com/research/reports/ARGUS_4174_QuantitativeReport_1790121600000",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260925T044908",
-      "sentiment_score": -0.321458,
+      "sentiment_score": -0.301409,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "OLN",
@@ -301,7 +339,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/arch-capital-group-stock-heads-into-the-open-after-a-0-1-percent-gain/70180652",
       "source": "AD HOC NEWS",
       "published_at": "20260925T044100",
-      "sentiment_score": 0.188416,
+      "sentiment_score": 0.209371,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ACGL"
@@ -320,7 +358,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/alphabet-stock-heads-into-the-open-after-a-1-3-percent-gain/70180882",
       "source": "AD HOC NEWS",
       "published_at": "20260925T041732",
-      "sentiment_score": 0.54273,
+      "sentiment_score": 0.502963,
       "sentiment_label": "Bullish",
       "tickers": [
         "GOOGL"
@@ -333,13 +371,32 @@
       "is_noise": false
     },
     {
+      "title": "T-Mobile US stock heads into the open after a 2.0 percent gain",
+      "summary": "T-Mobile US (TMUS) stock gained 2.0 percent, closing at USD 165.66 on September 24, 2026, outperforming the Nasdaq Composite. The company declared a quarterly cash dividend of U...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/t-mobile-us-stock-heads-into-the-open-after-a-2-0-percent-gain/70181134",
+      "source": "AD HOC NEWS",
+      "published_at": "20260925T041036",
+      "sentiment_score": 0.428554,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "TMUS"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Economy Monetary"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "VeriSign (VRSN) Anchors Internet Infrastructure, Is The Stock Fully Priced?",
       "summary": "VeriSign (VRSN) is a key player in internet infrastructure through its .com and .net domain services. While recent share price performance shows a slight dip over the last week,...",
       "url": "https://simplywall.st/stocks/us/software/nasdaq-vrsn/verisign/news/verisign-vrsn-anchors-internet-infrastructure-is-the-stock-f",
       "source": "Simply Wall Street",
       "published_at": "20260925T034003",
-      "sentiment_score": 0.145595,
-      "sentiment_label": "Neutral",
+      "sentiment_score": 0.159713,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "VRSN",
         "BR"
@@ -353,32 +410,12 @@
       "is_noise": false
     },
     {
-      "title": "Thermo Fisher Scientific (TMO) Launches CHO K1 Media Suite, Is The Stock Too Pricey?",
-      "summary": "Thermo Fisher Scientific has launched its new Gibco CHO-K1 Catalog Panel, a cGMP-ready media suite for biologics and biosimilars developers. Despite this positive development an...",
-      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-tmo/thermo-fisher-scientific/news/thermo-fisher-scientific-tmo-launches-cho-k1-media-suite-is",
-      "source": "Simply Wall Street",
-      "published_at": "20260925T025155",
-      "sentiment_score": -0.240191,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "TMO"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
       "title": "Transcript : Procore Technologies, Inc. Presents at Goldman Sachs Communacopia + Technology Conference 2026, Sep-10...",
       "summary": "This article provides a transcript of Procore Technologies, Inc.'s presentation at the Goldman Sachs Communacopia + Technology Conference 2026, held on September 10, 2026. The s...",
       "url": "https://www.marketscreener.com/news/transcript-procore-technologies-inc-presents-at-goldman-sachs-communacopia-technology-conferen-ce785adfda8bf42d",
       "source": "www.marketscreener.com",
       "published_at": "20260925T053117",
-      "sentiment_score": 0.25556,
+      "sentiment_score": 0.292535,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PCOR"
@@ -398,7 +435,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/travelers-companies-stock-rises-0-56-percent-ahead-of-the-open/70181351",
       "source": "AD HOC NEWS",
       "published_at": "20260925T050013",
-      "sentiment_score": 0.484021,
+      "sentiment_score": 0.458047,
       "sentiment_label": "Bullish",
       "tickers": [
         "TRV"
@@ -416,7 +453,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/adm-stock-heads-into-the-open-after-a-1-25-percent-drop/70181326",
       "source": "AD HOC NEWS",
       "published_at": "20260925T045653",
-      "sentiment_score": -0.33529,
+      "sentiment_score": -0.344547,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "ADM"
@@ -434,7 +471,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/honeywell-international-stock-gains-2-6-percent-ahead-of-the-open/70181126",
       "source": "AD HOC NEWS",
       "published_at": "20260925T044719",
-      "sentiment_score": 0.530224,
+      "sentiment_score": 0.524482,
       "sentiment_label": "Bullish",
       "tickers": [
         "HON"
@@ -452,7 +489,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/preferred-bank-stock-keeps-its-usd-0-80-quarterly-dividend/70181037",
       "source": "AD HOC NEWS",
       "published_at": "20260925T042957",
-      "sentiment_score": 0.01059,
+      "sentiment_score": 0.005079,
       "sentiment_label": "Neutral",
       "tickers": [
         "PFBC"
@@ -471,7 +508,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/newmont-corp-stock-slips-1-8-percent-ahead-of-the-open/70180926",
       "source": "AD HOC NEWS",
       "published_at": "20260925T041851",
-      "sentiment_score": -0.303709,
+      "sentiment_score": -0.311684,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "NEM"
@@ -489,7 +526,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/progressive-corp-stock-falls-0-69-percent-ahead-of-the-open/70180799",
       "source": "AD HOC NEWS",
       "published_at": "20260925T040700",
-      "sentiment_score": -0.302348,
+      "sentiment_score": -0.317433,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "PGR"
@@ -508,7 +545,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/ingersoll-rand-sees-broad-demand-040206498.html",
       "source": "Yahoo Finance",
       "published_at": "20260925T040253",
-      "sentiment_score": 0.827572,
+      "sentiment_score": 0.831998,
       "sentiment_label": "Bullish",
       "tickers": [
         "IR"
@@ -527,7 +564,7 @@
       "url": "https://sg.finance.yahoo.com/news/mercadolibre-meli-sees-more-significant-205004165.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260925T035000",
-      "sentiment_score": -0.221107,
+      "sentiment_score": -0.219071,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "MELI"
@@ -546,7 +583,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/mckesson-stock-heads-into-the-open-after-a-0-1-percent-gain/70180686",
       "source": "AD HOC NEWS",
       "published_at": "20260925T034914",
-      "sentiment_score": 0.156807,
+      "sentiment_score": 0.171348,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "MCK",
@@ -567,7 +604,7 @@
       "url": "https://sg.finance.yahoo.com/news/digital-realty-vs-equinix-ai-035955863.html",
       "source": "Yahoo Finance Singapore",
       "published_at": "20260925T034348",
-      "sentiment_score": 0.309108,
+      "sentiment_score": 0.2995,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "EQIX",
@@ -583,83 +620,42 @@
       "is_noise": false
     },
     {
-      "title": "Cincinnati Financial stock gains 0.93 percent ahead of the open",
-      "summary": "Cincinnati Financial (US1720621011) stock gained 0.93 percent to close at USD 164.08 on September 24, 2026, outperforming the S&P 500, which slipped 0.02 percent. The company's...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/cincinnati-financial-stock-gains-0-93-percent-ahead-of-the-open/70180353",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T032700",
-      "sentiment_score": 0.436176,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "CINF"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "J.M. Smucker stock heads into the open after a 0.8 percent rise",
-      "summary": "J.M. Smucker stock gained 0.8% to USD 122.41 on September 24, 2026, outperforming the S&P 500. The company's shares were 8.8% below their 52-week high and had seen significant g...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/j-m-smucker-stock-heads-into-the-open-after-a-0-8-percent-rise/70180004",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T030200",
-      "sentiment_score": 0.322863,
+      "title": "Shuttle Pharmaceuticals Q2 Results: Loss per share narrows 90.6% YoY",
+      "summary": "Shuttle Pharmaceuticals (NASDAQ: SHPH) reported a significant improvement in its Q2 financial performance, with loss per share narrowing by 90.58% year-over-year to $(3.10) from...",
+      "url": "https://scanx.trade/stock-market-news/companies/shuttle-pharmaceuticals-q2-results-loss-per-share-narrows-90-6-yoy/51833303",
+      "source": "scanx.trade",
+      "published_at": "20260925T062417",
+      "sentiment_score": 0.230494,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "SJM"
+        "SHPH"
       ],
       "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Kenvue stock slips 1.06 percent ahead of the open",
-      "summary": "Kenvue stock (US49177J1025) closed at USD 17.67 on September 24, 2026, marking a 1.06 percent decline on the NYSE, underperforming the S&P 500. Trading volume was over 16 millio...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/kenvue-stock-slips-1-06-percent-ahead-of-the-open/70180572",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T031943",
-      "sentiment_score": -0.130485,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "KVUE",
-        "KMB"
-      ],
-      "topics": [
-        "Financial Markets",
         "Earnings",
         "Life Sciences",
-        "Mergers And Acquisitions"
+        "Finance"
       ],
-      "quality_score": 5,
+      "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "Should Magnet Shipments Require Action From MP Materials Stock Investors?",
-      "summary": "MP Materials is nearing commercial rare earth magnet shipments to General Motors, signifying a strategic shift from raw material production to higher-value manufacturing. This m...",
-      "url": "https://simplywall.st/stocks/us/materials/nyse-mp/mp-materials/news/should-magnet-shipments-require-action-from-mp-materials-sto",
-      "source": "Simply Wall Street",
-      "published_at": "20260925T031709",
-      "sentiment_score": 0.236153,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Becton Dickinson stock heads into the open after closing at USD 166.35",
+      "summary": "Becton Dickinson (NYSE: BDX) closed at USD 166.35 on September 24, 2026, down 0.6 percent, while the S&P 500 fell 0.02 percent. The article notes the stock's performance relativ...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/becton-dickinson-stock-heads-into-the-open-after-closing-at-usd-166-35/70181243",
+      "source": "AD HOC NEWS",
+      "published_at": "20260925T051414",
+      "sentiment_score": 0.016329,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "MP",
-        "GM"
+        "BDX"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Manufacturing",
-        "Economy Macro",
-        "Energy Transportation"
+        "Life Sciences",
+        "Economy Macro"
       ],
-      "quality_score": 5,
+      "quality_score": 4,
       "is_noise": false
     },
     {
@@ -668,7 +664,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/thermo-fisher-scientific-stock-rises-1-64-percent-ahead-of-the-open/70181324",
       "source": "AD HOC NEWS",
       "published_at": "20260925T045707",
-      "sentiment_score": 0.034176,
+      "sentiment_score": 0.014925,
       "sentiment_label": "Neutral",
       "tickers": [
         "TMO"
@@ -687,7 +683,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/international-paper-stock-slips-1-6-percent-ahead-of-the-open/70180723",
       "source": "AD HOC NEWS",
       "published_at": "20260925T035727",
-      "sentiment_score": -0.239977,
+      "sentiment_score": -0.238195,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "IP"
@@ -700,31 +696,12 @@
       "is_noise": false
     },
     {
-      "title": "Dollar Tree Inc. stock heads into the open after a 1.63 percent drop",
-      "summary": "Dollar Tree Inc. stock closed at USD 113.16 on Nasdaq on September 23, 2026, marking a 1.63 percent drop and standing 20.5 percent below its 52-week high. The company recently r...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/dollar-tree-inc-stock-heads-into-the-open-after-a-1-63-percent-drop/70180517",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T030606",
-      "sentiment_score": -0.244901,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "DLTR"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
       "title": "Medtronic stock heads into the open after a 0.88 percent drop",
       "summary": "Medtronic stock closed down 0.88 percent at USD 88.51 on September 24, 2026, the day before its ex-dividend date. The company is set to pay a quarterly dividend of USD 0.72 per...",
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/medtronic-stock-heads-into-the-open-after-a-0-88-percent-drop/70181357",
       "source": "AD HOC NEWS",
       "published_at": "20260925T052001",
-      "sentiment_score": -0.119726,
+      "sentiment_score": -0.122767,
       "sentiment_label": "Neutral",
       "tickers": [
         "MDT"
@@ -738,12 +715,31 @@
       "is_noise": false
     },
     {
+      "title": "IDEX Corporation stock slips before the bell after a 0.4 percent drop",
+      "summary": "IDEX Corporation's stock saw a 0.4 percent decline, closing at USD 216.68 on September 24, 2026, underperforming the S&P 500. The stock's 52-week range is USD 158.19 to USD 243....",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/idex-corporation-stock-slips-before-the-bell-after-a-0-4-percent-drop/70181473",
+      "source": "AD HOC NEWS",
+      "published_at": "20260925T051316",
+      "sentiment_score": -0.243335,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "IEX"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Economy Macro"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
       "title": "Ferrari stock heads into the open after a 0.3 percent rise",
       "summary": "Ferrari stock rose by 0.3% to USD 413.21 at the close on September 24, 2026, outperforming the S&P 500, which was down 0.02%. The company also saw an increase in holdings by And...",
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/ferrari-stock-heads-into-the-open-after-a-0-3-percent-rise/70181082",
       "source": "AD HOC NEWS",
       "published_at": "20260925T045638",
-      "sentiment_score": 0.270235,
+      "sentiment_score": 0.254914,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "RACE"
@@ -762,7 +758,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/altria-group-stock-slips-0-45-percent-ahead-of-the-open/70180464",
       "source": "AD HOC NEWS",
       "published_at": "20260925T045200",
-      "sentiment_score": 0.094733,
+      "sentiment_score": 0.08853,
       "sentiment_label": "Neutral",
       "tickers": [
         "MO",
@@ -781,7 +777,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/linde-stock-heads-into-the-open-after-a-0-34-percent-drop/70181242",
       "source": "AD HOC NEWS",
       "published_at": "20260925T044836",
-      "sentiment_score": -0.20006,
+      "sentiment_score": -0.202938,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "LIN"
@@ -799,7 +795,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/3m-stock-heads-into-the-open-after-a-0-9-percent-drop/70180857",
       "source": "AD HOC NEWS",
       "published_at": "20260925T044021",
-      "sentiment_score": -0.21286,
+      "sentiment_score": -0.243161,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "MMM"
@@ -818,7 +814,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/intuit-stock-falls-3-37-percent-ahead-of-the-open/70180700",
       "source": "AD HOC NEWS",
       "published_at": "20260925T041807",
-      "sentiment_score": -0.361383,
+      "sentiment_score": -0.390555,
       "sentiment_label": "Bearish",
       "tickers": [
         "INTU"
@@ -834,12 +830,32 @@
       "is_noise": false
     },
     {
+      "title": "Starbucks stock slips 1.2 percent ahead of the open",
+      "summary": "Starbucks stock fell 1.2 percent on September 24, 2026, after the company announced plans to close approximately 250 underperforming North American cafes. This move represents a...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/starbucks-stock-slips-1-2-percent-ahead-of-the-open/70181145",
+      "source": "AD HOC NEWS",
+      "published_at": "20260925T040938",
+      "sentiment_score": -0.264914,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "SBUX"
+      ],
+      "topics": [
+        "Retail Wholesale",
+        "Financial Markets",
+        "Earnings",
+        "Economy Macro"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
       "title": "Marcus Corp. director Diane Gershowitz sells $1.38m in shares By Investing.com",
       "summary": "Marcus Corporation director and 10% owner Diane M. Gershowitz sold 50,000 shares of common stock for $1.38 million. This transaction occurred on September 23, 2026, with shares...",
       "url": "https://ca.investing.com/news/stock-market-news/marcus-corp-director-diane-gershowitz-sells-138m-in-shares-93CH-4852857",
       "source": "Investing.com Canada",
       "published_at": "20260925T035144",
-      "sentiment_score": -0.236543,
+      "sentiment_score": -0.234268,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "MCS"
@@ -852,31 +868,12 @@
       "is_noise": false
     },
     {
-      "title": "Paychex stock heads into the open after an 8.77 percent drop",
-      "summary": "Paychex stock experienced an 8.77% drop, closing at USD 104.49 on September 23, 2026, outperforming the S&P 500's 0.02% loss. This decline followed the release of fiscal first-q...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/paychex-stock-heads-into-the-open-after-an-8-77-percent-drop/70180477",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T031124",
-      "sentiment_score": -0.42849,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "PAYX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
       "title": "Form 4 Stanley Black & Decker Inc For: 25 September By Investing.com",
       "summary": "This article reports the filing of a Form 4 for Stanley Black & Decker Inc. on September 25. Form 4 filings are legally required documents submitted to the SEC whenever there's...",
       "url": "https://ng.investing.com/news/stock-market-news/form-4-stanley-black--decker-inc-for-25-september-93CH-2709058",
       "source": "Investing.com Nigeria",
       "published_at": "20260925T052525",
-      "sentiment_score": 0.003261,
+      "sentiment_score": 0.002469,
       "sentiment_label": "Neutral",
       "tickers": [
         "SWK"
@@ -889,12 +886,32 @@
       "is_noise": true
     },
     {
+      "title": "Shuttle Pharmaceuticals Corrects Pre-Funded Warrant Count to 9,741,751 From 16,932,508",
+      "summary": "Shuttle Pharmaceuticals Holdings, Inc. (Nasdaq: SHPH) has corrected the number of pre-funded warrants issued as of September 9, 2026, to 9,741,751, a significant reduction from...",
+      "url": "https://www.minichart.com.sg/2026/09/24/shuttle-pharmaceuticals-corrects-pre-funded-warrant-count-to-9741751-from-16932508/",
+      "source": "Minichart",
+      "published_at": "20260925T051300",
+      "sentiment_score": 0.333444,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "SHPH"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
       "title": "Dell vs. HPE: Which AI Server Stock Is the Better Buy?",
       "summary": "This article compares Dell (DELL) and Hewlett Packard Enterprise (HPE) as investments in the AI server market. While Dell has a larger AI server backlog and higher revenue growt...",
       "url": "https://www.insidermonkey.com/news/dell-vs-hpe-which-ai-server-stock-is-the-better-buy-1843782/",
       "source": "Insider Monkey",
       "published_at": "20260925T044351",
-      "sentiment_score": 0.109892,
+      "sentiment_score": 0.093151,
       "sentiment_label": "Neutral",
       "tickers": [
         "HPE",
@@ -914,7 +931,7 @@
       "url": "https://www.stocktitan.net/sec-filings/MNPR/144-monopar-therapeutics-sec-filing-c377c8ee1bfd.html",
       "source": "Stock Titan",
       "published_at": "20260925T041628",
-      "sentiment_score": 0.041903,
+      "sentiment_score": 0.045043,
       "sentiment_label": "Neutral",
       "tickers": [
         "MNPR"
@@ -933,7 +950,7 @@
       "url": "https://www.insidermonkey.com/news/constellation-vs-vistra-which-ai-power-stock-is-the-better-buy-1843699/",
       "source": "Insider Monkey",
       "published_at": "20260925T041124",
-      "sentiment_score": 0.162061,
+      "sentiment_score": 0.174887,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "VST",
@@ -947,30 +964,10 @@
       ],
       "quality_score": -10,
       "is_noise": true
-    },
-    {
-      "title": "Photronics (NASDAQ:PLAB) Director Sells $297,000.00 in Stock",
-      "summary": "Photronics (NASDAQ:PLAB) Director Kang Lee sold 10,000 shares of the company's stock for $297,000, reducing his direct holdings by 2.74%. The sale, disclosed on September 22nd,...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-photronics-nasdaq-plab-director-sells-29700000-in-stock-2026-09-24/",
-      "source": "MarketBeat",
-      "published_at": "20260925T032437",
-      "sentiment_score": 0.003441,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PLAB"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
     }
   ],
   "article_count": 50,
-  "top_ticker": "SPGI",
+  "top_ticker": "IR",
   "top_topic": "Earnings",
   "dominant_sentiment": "Somewhat-Bearish",
   "top_story": "Why Nordic American Tankers (NAT) Is Getting Attention Today",
@@ -981,7 +978,7 @@
       "url": "https://simplywall.st/stocks/us/energy/nyse-nat/nordic-american-tankers/news/why-nordic-american-tankers-nat-is-getting-attention-today",
       "source": "Simply Wall Street",
       "published_at": "20260925T041915",
-      "sentiment_score": -0.221157,
+      "sentiment_score": -0.247291,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "NAT"
@@ -1000,7 +997,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/event-ingersoll-rand-sees-broad-demand-recovery-long-cycle-orders-accelerate-2026-09-24/",
       "source": "MarketBeat",
       "published_at": "20260925T040543",
-      "sentiment_score": 0.508135,
+      "sentiment_score": 0.542106,
       "sentiment_label": "Bullish",
       "tickers": [
         "IR"
@@ -1020,7 +1017,7 @@
       "url": "https://www.itpro.com/cloud/cloud-storage/what-to-expect-at-netapp-insight-2026",
       "source": "IT Pro",
       "published_at": "20260925T050311",
-      "sentiment_score": 0.093998,
+      "sentiment_score": 0.101256,
       "sentiment_label": "Neutral",
       "tickers": [
         "NTAP",
@@ -1040,7 +1037,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/s-and-p-global-stock-heads-into-the-open-after-a-0-02-percent-gain/70181386",
       "source": "AD HOC NEWS",
       "published_at": "20260925T050252",
-      "sentiment_score": 0.001858,
+      "sentiment_score": 0.039543,
       "sentiment_label": "Neutral",
       "tickers": [
         "SPGI"
@@ -1058,8 +1055,8 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/hasbro-inc-stock-heads-into-the-open-after-goldman-cuts-target/70181080",
       "source": "AD HOC NEWS",
       "published_at": "20260925T043306",
-      "sentiment_score": -0.142935,
-      "sentiment_label": "Neutral",
+      "sentiment_score": -0.163076,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "HAS",
         "GS"
@@ -1078,7 +1075,7 @@
       "url": "https://scanx.trade/stock-market-news/companies/novagold-resources-q3fy26-results-earnings-release-call-set-oct-8/51829791",
       "source": "scanx.trade",
       "published_at": "20260925T042123",
-      "sentiment_score": 0.013075,
+      "sentiment_score": 0.038273,
       "sentiment_label": "Neutral",
       "tickers": [
         "NG"
@@ -1096,7 +1093,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/campbell-soup-stock-slips-14-5-percent-ahead-of-the-open/70180635",
       "source": "AD HOC NEWS",
       "published_at": "20260925T033618",
-      "sentiment_score": -0.736532,
+      "sentiment_score": -0.709695,
       "sentiment_label": "Bearish",
       "tickers": [
         "CPB"
@@ -1111,23 +1108,41 @@
       "is_noise": false
     },
     {
-      "title": "Emerson Electric stock adds 1 percent ahead of the open",
-      "summary": "Emerson Electric stock gained 1 percent on September 24, 2026, closing at USD 156.14, outperforming the S&P 500 which slipped 0.03 percent. The company has upcoming earnings sch...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/emerson-electric-stock-adds-1-percent-ahead-of-the-open/70180483",
+      "title": "Intuitive Surgical stock heads into the open after a 0.3 percent gain",
+      "summary": "Intuitive Surgical (ISIN US46120E6023) stock gained 0.3 percent to USD 399.52 on September 24, 2026, slightly outperforming the Nasdaq Composite's less than 0.1 percent rise. Th...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/intuitive-surgical-stock-heads-into-the-open-after-a-0-3-percent-gain/70180943",
       "source": "AD HOC NEWS",
-      "published_at": "20260925T031632",
-      "sentiment_score": 0.262244,
-      "sentiment_label": "Somewhat-Bullish",
+      "published_at": "20260925T062000",
+      "sentiment_score": 0.111652,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "EMR",
-        "SPGI"
+        "ISRG"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Manufacturing"
+        "Life Sciences"
       ],
-      "quality_score": 9,
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Elevance Health stock heads into the open after a 0.8 percent gain",
+      "summary": "Elevance Health stock gained 0.8 percent on September 24, 2026, closing at USD 398.00 on the NYSE, outperforming the S&P 500 which fell 0.02 percent. The company has also schedu...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/elevance-health-stock-heads-into-the-open-after-a-0-8-percent-gain/70181725",
+      "source": "AD HOC NEWS",
+      "published_at": "20260925T055127",
+      "sentiment_score": 0.287245,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ELV"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Life Sciences",
+        "Earnings"
+      ],
+      "quality_score": 7,
       "is_noise": false
     },
     {
@@ -1136,7 +1151,7 @@
       "url": "https://seekingalpha.com/article/4147132-rci-hospitality-holdings-inc-2017-q4-results-earnings-call-slides?utm_source=now_read_partner_investingcom",
       "source": "Seeking Alpha",
       "published_at": "20260925T054830",
-      "sentiment_score": 0.015644,
+      "sentiment_score": 0.026956,
       "sentiment_label": "Neutral",
       "tickers": [
         "RICK"
@@ -1146,33 +1161,9 @@
       ],
       "quality_score": 7,
       "is_noise": false
-    },
-    {
-      "title": "Deckers Outdoor stock falls 1.55 percent ahead of the open",
-      "summary": "Deckers Outdoor (DECK) stock fell 1.55% to USD 78.59 on September 24, 2026, ahead of the market open, while the Nasdaq Composite saw a slight increase of 0.01%. The company's st...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/deckers-outdoor-stock-falls-1-55-percent-ahead-of-the-open/70181675",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T054135",
-      "sentiment_score": -0.321696,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "DECK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Economy Macro"
-      ],
-      "quality_score": 7,
-      "is_noise": false
     }
   ],
   "top_tickers": [
-    {
-      "ticker": "SPGI",
-      "mentions": 3
-    },
     {
       "ticker": "IR",
       "mentions": 2
@@ -1182,12 +1173,16 @@
       "mentions": 2
     },
     {
+      "ticker": "SPGI",
+      "mentions": 2
+    },
+    {
       "ticker": "GS",
       "mentions": 2
     },
     {
-      "ticker": "TMO",
-      "mentions": 2
+      "ticker": "NAT",
+      "mentions": 1
     }
   ],
   "top_topics": [
@@ -1197,29 +1192,29 @@
     },
     {
       "topic": "Financial Markets",
-      "mentions": 39
+      "mentions": 37
     },
     {
       "topic": "Economy Macro",
       "mentions": 11
     },
     {
-      "topic": "Manufacturing",
-      "mentions": 7
+      "topic": "Technology",
+      "mentions": 8
     },
     {
-      "topic": "Technology",
-      "mentions": 7
+      "topic": "Life Sciences",
+      "mentions": 8
     }
   ],
   "sentiment_counts": [
     {
       "label": "Somewhat-Bearish",
-      "count": 13
+      "count": 15
     },
     {
       "label": "Neutral",
-      "count": 13
+      "count": 12
     },
     {
       "label": "Somewhat-Bullish",
@@ -1231,7 +1226,7 @@
     },
     {
       "label": "Bearish",
-      "count": 3
+      "count": 2
     }
   ],
   "top_sources": [
@@ -1241,20 +1236,20 @@
     },
     {
       "source": "Simply Wall Street",
-      "count": 5
+      "count": 3
     },
     {
       "source": "Yahoo Finance Singapore",
       "count": 3
     },
     {
-      "source": "MarketBeat",
-      "count": 1
+      "source": "scanx.trade",
+      "count": 2
     },
     {
-      "source": "IT Pro",
+      "source": "MarketBeat",
       "count": 1
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with SPGI appearing most often and the headline tone mostly somewhat-bearish."
+  "takeaway": "News flow is centered on Earnings, with IR appearing most often and the headline tone mostly somewhat-bearish."
 }

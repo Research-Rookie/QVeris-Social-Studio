@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-09-24T07:02:54.375633+00:00",
-  "date": "2026-09-24",
+  "updated_at": "2026-09-25T06:58:57.191898+00:00",
+  "date": "2026-09-25",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "BXP",
+  "symbol": "NTAP",
   "shift_label": "Turning bearish",
-  "sentiment_delta": -0.4322,
-  "baseline_label": "2026-09-01",
+  "sentiment_delta": -0.2226,
+  "baseline_label": "2026-09-08",
   "current": {
-    "date": "2026-09-24",
-    "symbol": "BXP",
+    "date": "2026-09-25",
+    "symbol": "NTAP",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": -0.087,
+    "sentiment_score": 0.1013,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,131 +21,49 @@
         "count": 1
       },
       {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Real Estate",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      },
-      {
-        "label": "Finance",
+        "label": "Technology",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "green",
+        "label": "netapp",
+        "count": 3
+      },
+      {
+        "label": "insight",
         "count": 2
       },
       {
-        "label": "realty",
-        "count": 2
-      },
-      {
-        "label": "should",
+        "label": "what",
         "count": 1
       },
       {
-        "label": "earnings",
+        "label": "expect",
         "count": 1
       },
       {
-        "label": "estimate",
+        "label": "will",
         "count": 1
       },
       {
-        "label": "upgrade",
+        "label": "focus",
         "count": 1
       },
       {
-        "label": "require",
+        "label": "intelligent",
         "count": 1
       },
       {
-        "label": "action",
+        "label": "data",
         "count": 1
       },
       {
-        "label": "investors",
+        "label": "infrastructure",
         "count": 1
       },
       {
-        "label": "corp",
-        "count": 1
-      },
-      {
-        "label": "recently",
-        "count": 1
-      },
-      {
-        "label": "declared",
-        "count": 1
-      }
-    ],
-    "headline": "Should Earnings Estimate Upgrade Require Action From SL Green Realty Stock Investors?",
-    "headline_source": "Simply Wall Street"
-  },
-  "previous": {
-    "date": "2026-09-01",
-    "symbol": "BXP",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.3452,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Real Estate",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "boston",
-        "count": 2
-      },
-      {
-        "label": "properties",
-        "count": 2
-      },
-      {
-        "label": "high",
-        "count": 2
-      },
-      {
-        "label": "earnings",
-        "count": 2
-      },
-      {
-        "label": "holds",
-        "count": 1
-      },
-      {
-        "label": "guidance",
-        "count": 1
-      },
-      {
-        "label": "targets",
-        "count": 1
-      },
-      {
-        "label": "growth",
-        "count": 1
-      },
-      {
-        "label": "trading",
+        "label": "strategy",
         "count": 1
       },
       {
@@ -153,7 +71,77 @@
         "count": 1
       },
       {
-        "label": "quarterly",
+        "label": "acquisition",
+        "count": 1
+      }
+    ],
+    "headline": "What to expect at NetApp Insight 2026",
+    "headline_source": "IT Pro"
+  },
+  "previous": {
+    "date": "2026-09-08",
+    "symbol": "NTAP",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.3239,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "netapp",
+        "count": 2
+      },
+      {
+        "label": "raised",
+        "count": 2
+      },
+      {
+        "label": "growth",
+        "count": 2
+      },
+      {
+        "label": "beat",
+        "count": 1
+      },
+      {
+        "label": "guidance",
+        "count": 1
+      },
+      {
+        "label": "put",
+        "count": 1
+      },
+      {
+        "label": "storage",
+        "count": 1
+      },
+      {
+        "label": "focus",
+        "count": 1
+      },
+      {
+        "label": "reported",
+        "count": 1
+      },
+      {
+        "label": "strong",
+        "count": 1
+      },
+      {
+        "label": "fiscal",
         "count": 1
       },
       {
@@ -161,25 +149,26 @@
         "count": 1
       }
     ],
-    "headline": "Boston Properties stock holds in the high $60s as guidance targets 2026 earnings growth",
-    "headline_source": "AD HOC NEWS"
+    "headline": "NetApp Q1 Beat and Raised Guidance Put AI Storage Growth in Focus",
+    "headline_source": "Yahoo Finance UK"
   },
   "emerging_themes": [
-    "Economy Macro",
-    "Finance",
-    "Earnings"
+    "Earnings",
+    "Technology"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Financial Markets"
+  ],
   "emerging_keywords": [
-    "green",
-    "realty",
-    "should"
+    "insight",
+    "netapp",
+    "what"
   ],
   "fading_keywords": [
-    "boston",
-    "properties",
-    "high"
+    "raised",
+    "growth",
+    "beat"
   ],
-  "takeaway": "BXP's narrative is turning bearish: sentiment moved -0.43, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "NTAP's narrative is turning bearish: sentiment moved -0.22, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

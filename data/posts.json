@@ -1,5 +1,199 @@
 [
   {
+    "id": "market-narrative-shift-ntap-2026-09-25",
+    "date": "2026-09-25",
+    "runDate": "2026-09-25",
+    "createdAt": "2026-09-25T06:58:59.054306+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $NTAP",
+    "status": "ready",
+    "tweet": "What changed in $NTAP's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.22\n📌 Top theme: Earnings\n🔎 Emerging term: insight\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_NTAP_2026-09-25.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-25T06:58:57.191898+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NTAP",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "NTAP",
+    "topChangePct": -22.259999999999998,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-25T06:58:57.191898+00:00",
+      "date": "2026-09-25",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "NTAP",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.2226,
+      "baseline_label": "2026-09-08",
+      "current": {
+        "date": "2026-09-25",
+        "symbol": "NTAP",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1013,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "netapp",
+            "count": 3
+          },
+          {
+            "label": "insight",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "expect",
+            "count": 1
+          },
+          {
+            "label": "will",
+            "count": 1
+          },
+          {
+            "label": "focus",
+            "count": 1
+          },
+          {
+            "label": "intelligent",
+            "count": 1
+          },
+          {
+            "label": "data",
+            "count": 1
+          },
+          {
+            "label": "infrastructure",
+            "count": 1
+          },
+          {
+            "label": "strategy",
+            "count": 1
+          },
+          {
+            "label": "recent",
+            "count": 1
+          },
+          {
+            "label": "acquisition",
+            "count": 1
+          }
+        ],
+        "headline": "What to expect at NetApp Insight 2026",
+        "headline_source": "IT Pro"
+      },
+      "previous": {
+        "date": "2026-09-08",
+        "symbol": "NTAP",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.3239,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "netapp",
+            "count": 2
+          },
+          {
+            "label": "raised",
+            "count": 2
+          },
+          {
+            "label": "growth",
+            "count": 2
+          },
+          {
+            "label": "beat",
+            "count": 1
+          },
+          {
+            "label": "guidance",
+            "count": 1
+          },
+          {
+            "label": "put",
+            "count": 1
+          },
+          {
+            "label": "storage",
+            "count": 1
+          },
+          {
+            "label": "focus",
+            "count": 1
+          },
+          {
+            "label": "reported",
+            "count": 1
+          },
+          {
+            "label": "strong",
+            "count": 1
+          },
+          {
+            "label": "fiscal",
+            "count": 1
+          },
+          {
+            "label": "results",
+            "count": 1
+          }
+        ],
+        "headline": "NetApp Q1 Beat and Raised Guidance Put AI Storage Growth in Focus",
+        "headline_source": "Yahoo Finance UK"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Technology"
+      ],
+      "fading_themes": [
+        "Financial Markets"
+      ],
+      "emerging_keywords": [
+        "insight",
+        "netapp",
+        "what"
+      ],
+      "fading_keywords": [
+        "raised",
+        "growth",
+        "beat"
+      ],
+      "takeaway": "NTAP's narrative is turning bearish: sentiment moved -0.22, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-25",
     "date": "2026-09-25",
     "runDate": "2026-09-25",
