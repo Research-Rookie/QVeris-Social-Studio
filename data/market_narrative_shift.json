@@ -1,89 +1,101 @@
 {
-  "updated_at": "2026-09-25T06:58:57.191898+00:00",
-  "date": "2026-09-25",
+  "updated_at": "2026-09-26T06:57:50.209981+00:00",
+  "date": "2026-09-26",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "NTAP",
-  "shift_label": "Turning bearish",
-  "sentiment_delta": -0.2226,
-  "baseline_label": "2026-09-08",
+  "symbol": "COST",
+  "shift_label": "Attention rising",
+  "sentiment_delta": -0.0777,
+  "baseline_label": "2026-09-17",
   "current": {
-    "date": "2026-09-25",
-    "symbol": "NTAP",
-    "article_count": 1,
+    "date": "2026-09-26",
+    "symbol": "COST",
+    "article_count": 3,
     "source_count": 1,
-    "sentiment_score": 0.1013,
+    "sentiment_score": 0.0994,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
+        "count": 3
+      },
+      {
+        "label": "Financial Markets",
+        "count": 3
+      },
+      {
+        "label": "Finance",
+        "count": 2
+      },
+      {
+        "label": "Economy Macro",
         "count": 1
       },
       {
-        "label": "Technology",
+        "label": "Real Estate",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "netapp",
+        "label": "wall",
+        "count": 6
+      },
+      {
+        "label": "street",
+        "count": 6
+      },
+      {
+        "label": "zen",
+        "count": 6
+      },
+      {
+        "label": "rating",
+        "count": 5
+      },
+      {
+        "label": "hold",
+        "count": 4
+      },
+      {
+        "label": "maa",
         "count": 3
       },
       {
-        "label": "insight",
+        "label": "archer",
         "count": 2
       },
       {
-        "label": "what",
-        "count": 1
+        "label": "daniels",
+        "count": 2
       },
       {
-        "label": "expect",
-        "count": 1
+        "label": "midland",
+        "count": 2
       },
       {
-        "label": "will",
-        "count": 1
+        "label": "adm",
+        "count": 2
       },
       {
-        "label": "focus",
-        "count": 1
+        "label": "has",
+        "count": 2
       },
       {
-        "label": "intelligent",
-        "count": 1
-      },
-      {
-        "label": "data",
-        "count": 1
-      },
-      {
-        "label": "infrastructure",
-        "count": 1
-      },
-      {
-        "label": "strategy",
-        "count": 1
-      },
-      {
-        "label": "recent",
-        "count": 1
-      },
-      {
-        "label": "acquisition",
-        "count": 1
+        "label": "buy",
+        "count": 2
       }
     ],
-    "headline": "What to expect at NetApp Insight 2026",
-    "headline_source": "IT Pro"
+    "headline": "Wall Street Zen Upgrades Archer Daniels Midland (NYSE:ADM) to Strong-Buy",
+    "headline_source": "MarketBeat"
   },
   "previous": {
-    "date": "2026-09-08",
-    "symbol": "NTAP",
+    "date": "2026-09-17",
+    "symbol": "COST",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.3239,
+    "sentiment_score": 0.1771,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -91,7 +103,7 @@
         "count": 1
       },
       {
-        "label": "Technology",
+        "label": "Retail Wholesale",
         "count": 1
       },
       {
@@ -101,74 +113,75 @@
     ],
     "keywords": [
       {
-        "label": "netapp",
+        "label": "earnings",
+        "count": 3
+      },
+      {
+        "label": "costco",
         "count": 2
       },
       {
-        "label": "raised",
+        "label": "wholesale",
         "count": 2
       },
       {
-        "label": "growth",
+        "label": "thursday",
         "count": 2
       },
       {
-        "label": "beat",
+        "label": "projected",
         "count": 1
       },
       {
-        "label": "guidance",
+        "label": "post",
         "count": 1
       },
       {
-        "label": "put",
+        "label": "quarterly",
         "count": 1
       },
       {
-        "label": "storage",
+        "label": "expected",
         "count": 1
       },
       {
-        "label": "focus",
+        "label": "announce",
         "count": 1
       },
       {
-        "label": "reported",
+        "label": "september",
         "count": 1
       },
       {
-        "label": "strong",
+        "label": "forecasting",
         "count": 1
       },
       {
-        "label": "fiscal",
-        "count": 1
-      },
-      {
-        "label": "results",
+        "label": "per",
         "count": 1
       }
     ],
-    "headline": "NetApp Q1 Beat and Raised Guidance Put AI Storage Growth in Focus",
-    "headline_source": "Yahoo Finance UK"
+    "headline": "Costco Wholesale (COST) Projected to Post Quarterly Earnings on Thursday",
+    "headline_source": "MarketBeat"
   },
   "emerging_themes": [
     "Earnings",
-    "Technology"
+    "Financial Markets",
+    "Finance"
   ],
   "fading_themes": [
-    "Financial Markets"
+    "Retail Wholesale"
   ],
   "emerging_keywords": [
-    "insight",
-    "netapp",
-    "what"
+    "wall",
+    "street",
+    "zen"
   ],
   "fading_keywords": [
-    "raised",
-    "growth",
-    "beat"
+    "earnings",
+    "costco",
+    "wholesale"
   ],
-  "takeaway": "NTAP's narrative is turning bearish: sentiment moved -0.22, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "COST's narrative is attention rising: sentiment moved -0.08, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

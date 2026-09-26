@@ -1,5 +1,212 @@
 [
   {
+    "id": "market-narrative-shift-cost-2026-09-26",
+    "date": "2026-09-26",
+    "runDate": "2026-09-26",
+    "createdAt": "2026-09-26T06:57:51.777322+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $COST",
+    "status": "ready",
+    "tweet": "What changed in $COST's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: -0.08\n📌 Top theme: Earnings\n🔎 Emerging term: wall\n📰 Coverage: 3 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_COST_2026-09-26.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-26T06:57:50.209981+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$COST",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "COST",
+    "topChangePct": -7.7700000000000005,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-26T06:57:50.209981+00:00",
+      "date": "2026-09-26",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "COST",
+      "shift_label": "Attention rising",
+      "sentiment_delta": -0.0777,
+      "baseline_label": "2026-09-17",
+      "current": {
+        "date": "2026-09-26",
+        "symbol": "COST",
+        "article_count": 3,
+        "source_count": 1,
+        "sentiment_score": 0.0994,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 3
+          },
+          {
+            "label": "Financial Markets",
+            "count": 3
+          },
+          {
+            "label": "Finance",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Real Estate",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "wall",
+            "count": 6
+          },
+          {
+            "label": "street",
+            "count": 6
+          },
+          {
+            "label": "zen",
+            "count": 6
+          },
+          {
+            "label": "rating",
+            "count": 5
+          },
+          {
+            "label": "hold",
+            "count": 4
+          },
+          {
+            "label": "maa",
+            "count": 3
+          },
+          {
+            "label": "archer",
+            "count": 2
+          },
+          {
+            "label": "daniels",
+            "count": 2
+          },
+          {
+            "label": "midland",
+            "count": 2
+          },
+          {
+            "label": "adm",
+            "count": 2
+          },
+          {
+            "label": "has",
+            "count": 2
+          },
+          {
+            "label": "buy",
+            "count": 2
+          }
+        ],
+        "headline": "Wall Street Zen Upgrades Archer Daniels Midland (NYSE:ADM) to Strong-Buy",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-09-17",
+        "symbol": "COST",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1771,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "earnings",
+            "count": 3
+          },
+          {
+            "label": "costco",
+            "count": 2
+          },
+          {
+            "label": "wholesale",
+            "count": 2
+          },
+          {
+            "label": "thursday",
+            "count": 2
+          },
+          {
+            "label": "projected",
+            "count": 1
+          },
+          {
+            "label": "post",
+            "count": 1
+          },
+          {
+            "label": "quarterly",
+            "count": 1
+          },
+          {
+            "label": "expected",
+            "count": 1
+          },
+          {
+            "label": "announce",
+            "count": 1
+          },
+          {
+            "label": "september",
+            "count": 1
+          },
+          {
+            "label": "forecasting",
+            "count": 1
+          },
+          {
+            "label": "per",
+            "count": 1
+          }
+        ],
+        "headline": "Costco Wholesale (COST) Projected to Post Quarterly Earnings on Thursday",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "fading_themes": [
+        "Retail Wholesale"
+      ],
+      "emerging_keywords": [
+        "wall",
+        "street",
+        "zen"
+      ],
+      "fading_keywords": [
+        "earnings",
+        "costco",
+        "wholesale"
+      ],
+      "takeaway": "COST's narrative is attention rising: sentiment moved -0.08, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-26",
     "date": "2026-09-26",
     "runDate": "2026-09-26",
