@@ -1,36 +1,17 @@
 {
-  "updated_at": "2026-09-26T06:57:50.051526+00:00",
+  "updated_at": "2026-09-26T07:57:15.674581+00:00",
   "date": "2026-09-26",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "AeroVironment slips as investors weigh unchanged outlook and recent target cuts",
-      "summary": "AeroVironment (AVAV) stock dipped 3.8% due to investor caution following its Q1 2027 earnings report and recent analyst target cuts. Despite solid revenue growth, strong backlog...",
-      "url": "https://www.quiverquant.com/news/AeroVironment+slips+as+investors+weigh+unchanged+outlook+and+recent+target+cuts",
-      "source": "Quiver Quantitative",
-      "published_at": "20260926T015057",
-      "sentiment_score": -0.278054,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "AVAV"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 19,
-      "is_noise": false
-    },
-    {
       "title": "Wall Street Zen Upgrades Archer Daniels Midland (NYSE:ADM) to Strong-Buy",
       "summary": "Wall Street Zen has upgraded Archer Daniels Midland (NYSE:ADM) to a \"strong buy\" rating, joining other analysts who have also raised ratings or price targets. Despite this, the...",
       "url": "https://www.marketbeat.com/instant-alerts/analyst-wall-street-zen-upgrades-archer-daniels-midland-nyse-adm-to-strong-buy-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T052346",
-      "sentiment_score": 0.234237,
+      "sentiment_score": 0.235988,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ADM",
@@ -54,7 +35,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/analyst-mid-america-apartment-communities-nyse-maa-stock-rating-lowered-by-wall-street-zen-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T052321",
-      "sentiment_score": 0.031701,
+      "sentiment_score": 0.013871,
       "sentiment_label": "Neutral",
       "tickers": [
         "MAA",
@@ -74,7 +55,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/analyst-wall-street-zen-downgrades-gevo-nasdaq-gevo-to-strong-sell-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T051432",
-      "sentiment_score": -0.485851,
+      "sentiment_score": -0.461014,
       "sentiment_label": "Bearish",
       "tickers": [
         "GEVO"
@@ -88,12 +69,32 @@
       "is_noise": false
     },
     {
+      "title": "LSI Industries (NASDAQ:LYTS) Upgraded at Wall Street Zen",
+      "summary": "Wall Street Zen has upgraded LSI Industries (NASDAQ:LYTS) from a \"hold\" to a \"buy\" rating, despite a broader analyst consensus of \"Moderate Buy\" with a $29 target price. The upg...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-lsi-industries-nasdaq-lyts-upgraded-at-wall-street-zen-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T055622",
+      "sentiment_score": 0.307865,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "LYTS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Real Estate",
+        "Finance"
+      ],
+      "quality_score": 14,
+      "is_noise": false
+    },
+    {
       "title": "GSI Technology (NASDAQ:GSIT) Stock Rating Lowered by Wall Street Zen",
       "summary": "Wall Street Zen has downgraded GSI Technology (NASDAQ:GSIT) from a \"sell\" to a \"strong sell\" rating. Despite a consensus price target of $9.00, analysts are split, leading to an...",
       "url": "https://www.marketbeat.com/instant-alerts/analyst-gsi-technology-nasdaq-gsit-stock-rating-lowered-by-wall-street-zen-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T051519",
-      "sentiment_score": -0.221958,
+      "sentiment_score": -0.24811,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "GSIT"
@@ -112,7 +113,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/analyst-invesco-nyse-ivz-stock-rating-cut-to-hold-at-wall-street-zen-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T051257",
-      "sentiment_score": 0.032271,
+      "sentiment_score": 0.046516,
       "sentiment_label": "Neutral",
       "tickers": [
         "IVZ",
@@ -130,12 +131,32 @@
       "is_noise": false
     },
     {
+      "title": "JD.com, Inc. (NASDAQ:JD) Stock Rated \"Moderate Buy\" by Sell-Side Brokerages",
+      "summary": "JD.com, Inc. (NASDAQ:JD) has received a consensus \"Moderate Buy\" rating from 14 analysts, with an average 12-month price target of $35.25 against its current share price of $26....",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-jdcom-inc-nasdaq-jd-stock-rated-moderate-buy-by-sell-side-brokerages-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T063644",
+      "sentiment_score": 0.182364,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "JD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Technology"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
       "title": "Core & Main, Inc. (CNM) Stock forecasts",
       "summary": "This article from Yahoo Finance is largely empty, displaying an error message where content should be. It lists various financial market data such as indices, currencies, and co...",
       "url": "https://uk.finance.yahoo.com/research/reports/ARGUS_6173_QuantitativeReport_1790121600000",
       "source": "Yahoo Finance UK",
       "published_at": "20260926T031808",
-      "sentiment_score": 0.030746,
+      "sentiment_score": 0.016702,
       "sentiment_label": "Neutral",
       "tickers": [
         "CNM",
@@ -152,53 +173,12 @@
       "is_noise": false
     },
     {
-      "title": "AAON Stock Rises As DA Davidson Sets $110 Price Target",
-      "summary": "AAON Inc. stock rose by 6.67% following strong earnings and optimistic guidance. DA Davidson initiated coverage with a Buy rating and a $110 price target, citing AAON's premium...",
-      "url": "https://stockstotrade.com/news/aaoninc-aaon-news-2026_09_25/",
-      "source": "StocksToTrade",
-      "published_at": "20260926T012133",
-      "sentiment_score": 0.473011,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "AAON"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Real Estate",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "ServiceNow Effectively Integrates AI into Services",
-      "summary": "ServiceNow is successfully integrating AI into its services, aiming to boost competitiveness and client acquisition, though specific details remain undisclosed. Despite this, th...",
-      "url": "https://intellectia.ai/news/stock/servicenow-effectively-integrates-ai-into-services",
-      "source": "Intellectia AI",
-      "published_at": "20260926T010842",
-      "sentiment_score": 0.215412,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "NOW",
-        "CRM"
-      ],
-      "topics": [
-        "Technology",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
       "title": "L3Harris Technologies (NYSE:LHX) Stock Rating Cut to Hold at Wall Street Zen",
       "summary": "Wall Street Zen has downgraded L3Harris Technologies (NYSE:LHX) from a \"buy\" to a \"hold\" rating, mirroring recent downgrades from other firms like Argus and Weiss Ratings. Despi...",
       "url": "https://www.marketbeat.com/instant-alerts/analyst-l3harris-technologies-nyse-lhx-stock-rating-cut-to-hold-at-wall-street-zen-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T052349",
-      "sentiment_score": -0.222461,
+      "sentiment_score": -0.183976,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "LHX"
@@ -212,12 +192,72 @@
       "is_noise": false
     },
     {
+      "title": "ResMed Inc. (NYSE:RMD) Receives Consensus Recommendation of \"Hold\" from Brokerages",
+      "summary": "ResMed Inc. (NYSE:RMD) has received a consensus \"Hold\" recommendation from sixteen brokerages, with nine analysts rating it a \"hold\" and seven a \"buy.\" The average 12-month pric...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-resmed-inc-nyse-rmd-receives-consensus-recommendation-of-hold-from-brokerages-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T063744",
+      "sentiment_score": 0.049523,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RMD"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Edwards Lifesciences Corporation (NYSE:EW) Stock Has Average Target Price of $100.27",
+      "summary": "Edwards Lifesciences (NYSE:EW) has received a \"Moderate Buy\" rating from analysts, with an average target price of $100.27, suggesting an upside from its current share price of...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-edwards-lifesciences-corporation-nyse-ew-stock-has-average-target-price-of-10027-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T063623",
+      "sentiment_score": 0.380268,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "EW",
+        "BLK",
+        "BMY",
+        "ZBH"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Kearny Financial (NASDAQ:KRNY) Stock Crosses Above Two Hundred Day Moving Average - Here's What Happened",
+      "summary": "Kearny Financial (NASDAQ:KRNY) stock recently crossed above its 200-day moving average, reaching $9.43 and closing at $9.36. The company has received positive analyst sentiment,...",
+      "url": "https://www.marketbeat.com/instant-alerts/price-kearny-financial-nasdaq-krny-stock-crosses-above-two-hundred-day-moving-average-heres-what-happened-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T063619",
+      "sentiment_score": 0.406724,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "KRNY"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
       "title": "Emerson Electric (EMR) Stock Looks Above Fair Value Despite Qatar Service Center Plans",
       "summary": "Emerson Electric (EMR) stock has seen significant growth over the past five years, prompting an analysis of whether its current share price aligns with its earnings. Despite pla...",
       "url": "https://simplywall.st/stocks/us/capital-goods/nyse-emr/emerson-electric/news/emerson-electric-emr-stock-looks-above-fair-value-despite-qa/amp",
       "source": "Simply Wall Street",
       "published_at": "20260926T044654",
-      "sentiment_score": -0.298593,
+      "sentiment_score": -0.28651,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "EMR"
@@ -237,7 +277,7 @@
       "url": "https://www.tradingkey.com/news/market-movers/262187042-market-movers-panw-20260925",
       "source": "TradingKey",
       "published_at": "20260926T024130",
-      "sentiment_score": 0.011421,
+      "sentiment_score": 0.002359,
       "sentiment_label": "Neutral",
       "tickers": [
         "PANW",
@@ -257,7 +297,7 @@
       "url": "https://www.tradingview.com/symbols/BCBA-WMT.CI/financials-income-statement/gross-profit/",
       "source": "TradingView",
       "published_at": "20260926T024032",
-      "sentiment_score": 0.029818,
+      "sentiment_score": 0.004241,
       "sentiment_label": "Neutral",
       "tickers": [
         "WMT"
@@ -272,30 +312,12 @@
       "is_noise": false
     },
     {
-      "title": "Wynn Resorts (WYNN) Stock Looks About Right On A 37% Slide",
-      "summary": "Wynn Resorts (WYNN) has seen a significant 37% stock slide over the past year, prompting an evaluation of its current valuation against its earnings power. Despite recent refina...",
-      "url": "https://simplywall.st/stocks/us/consumer-services/nasdaq-wynn/wynn-resorts/news/wynn-resorts-wynn-stock-looks-about-right-on-a-37-slide",
-      "source": "Simply Wall Street",
-      "published_at": "20260926T014139",
-      "sentiment_score": 0.112373,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "WYNN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
       "title": "Can Fortis Inc (TSX:FTS) Maintain Stability As Rates Shift?",
       "summary": "Fortis Inc. (TSX:FTS) operates primarily regulated electric and gas utilities across North America and the Caribbean, providing predictable cash flows largely insulated from eco...",
       "url": "https://kalkinemedia.com/ca/stocks/utility/can-fortis-inc-tsxfts-maintain-stability-as-rates-shift",
       "source": "Kalkine Media",
       "published_at": "20260926T045004",
-      "sentiment_score": 0.345891,
+      "sentiment_score": 0.327801,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "FTS"
@@ -316,7 +338,7 @@
       "url": "https://www.gurufocus.com/news/9098266/live-nation-lyv-extends-general-counsels-contract-and-names-successor-in-leadership-transition",
       "source": "GuruFocus",
       "published_at": "20260926T030853",
-      "sentiment_score": 0.235766,
+      "sentiment_score": 0.233516,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "LYV"
@@ -334,7 +356,7 @@
       "url": "https://progressivegrocer.com/instacart-adds-metas-muse-latest-ai-grocery-connector",
       "source": "Progressive Grocer",
       "published_at": "20260926T024415",
-      "sentiment_score": 0.260865,
+      "sentiment_score": 0.2429,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CART",
@@ -350,23 +372,21 @@
       "is_noise": false
     },
     {
-      "title": "Dycom Eyes 10%-12% Growth as Data Center, Fiber Demand Accelerates",
-      "summary": "Dycom Industries is projecting 10%-12% organic growth for fiscal year 2027, driven by strong demand in telecommunications, including fiber deployments and BEAD-funded projects,...",
-      "url": "https://finance.yahoo.com/technology/articles/dycom-eyes-10-12-growth-020200222.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260926T015404",
-      "sentiment_score": 0.263582,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Kratos Defense & Security Solutions (NASDAQ:KTOS) Stock Price Down 3% - Should You Sell?",
+      "summary": "Kratos Defense & Security Solutions (NASDAQ:KTOS) saw its stock price drop 3% to around $45.62, trading below its 50-day and 200-day moving averages and boasting a high P/E rati...",
+      "url": "https://www.marketbeat.com/instant-alerts/price-kratos-defense-security-solutions-nasdaq-ktos-stock-price-down-3-should-you-sell-2026-09-25/",
+      "source": "MarketBeat",
+      "published_at": "20260926T065054",
+      "sentiment_score": 0.026,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "DY",
-        "QCOM",
-        "COIN"
+        "KTOS"
       ],
       "topics": [
         "Earnings",
-        "Technology"
+        "Financial Markets"
       ],
-      "quality_score": 9,
+      "quality_score": 8,
       "is_noise": false
     },
     {
@@ -375,7 +395,7 @@
       "url": "https://ca.finance.yahoo.com/news/why-griffon-gff-outpaced-stock-211502769.html",
       "source": "Yahoo! Finance Canada",
       "published_at": "20260926T041500",
-      "sentiment_score": 0.294345,
+      "sentiment_score": 0.251868,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GFF"
@@ -390,12 +410,113 @@
       "is_noise": false
     },
     {
+      "title": "Devon Energy Corporation $DVN Shares Purchased by Envestnet Asset Management Inc.",
+      "summary": "Envestnet Asset Management Inc. significantly increased its stake in Devon Energy Corporation (NYSE:DVN) by 305.9% in the second quarter, now holding over 3 million shares. Othe...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-devon-energy-corporation-dvn-shares-purchased-by-envestnet-asset-management-inc-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T070936",
+      "sentiment_score": 0.045246,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DVN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Energy Transportation",
+        "Economy Macro"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Bank of America Corp DE Makes New Investment in First Watch Restaurant Group, Inc. $FWRG",
+      "summary": "Bank of America Corp DE has acquired a new position in First Watch Restaurant Group, Inc. (NASDAQ:FWRG), purchasing over 1 million shares valued at approximately $13.78 million,...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-makes-new-investment-in-first-watch-restaurant-group-inc-fwrg-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T070913",
+      "sentiment_score": 0.042944,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BAC"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Finance",
+        "Retail Wholesale"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "NextDecade Corporation $NEXT Shares Newly Bought by Bank of America Corp DE",
+      "summary": "Bank of America Corp DE has acquired a new position in NextDecade Corporation (NASDAQ:NEXT), purchasing over 1.9 million shares valued at approximately $14.4 million in the seco...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-nextdecade-corporation-next-shares-newly-bought-by-bank-of-america-corp-de-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T070912",
+      "sentiment_score": 0.18644,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "BAC",
+        "BLK",
+        "BK"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Cummins Inc. (NYSE:CMI) Stock Has Consensus Target Price of $736.59 According to Brokerages",
+      "summary": "Eighteen research firms currently covering Cummins Inc. (NYSE:CMI) have given the stock a \"Moderate Buy\" consensus rating, with an average 12-month price target of $736.59. Rece...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-cummins-inc-nyse-cmi-stock-has-consensus-target-price-of-73659-according-to-brokerages-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T063720",
+      "sentiment_score": 0.046854,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CMI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "United Dominion Realty Trust, Inc. (NYSE:UDR) Receives Average Rating of \"Hold\" from Brokerages",
+      "summary": "United Dominion Realty Trust (NYSE:UDR) has received an average \"Hold\" rating from eighteen brokerages, with an average 12-month price target of $40.97. The company recently rep...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-united-dominion-realty-trust-inc-nyse-udr-receives-average-rating-of-hold-from-brokerages-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T063620",
+      "sentiment_score": 0.144946,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "UDR"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Real Estate",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "Is Tesla’s (TSLA) Stock Really Priced Like a Car Company?",
       "summary": "Tesla's stock valuation extends beyond a traditional car company, with investors heavily weighing its future in AI, autonomous driving (Robotaxi, FSD), and robotics (Optimus). D...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-stock-really-priced-050301615.html",
       "source": "Yahoo Finance",
       "published_at": "20260926T050315",
-      "sentiment_score": 0.074994,
+      "sentiment_score": 0.060074,
       "sentiment_label": "Neutral",
       "tickers": [
         "TSLA",
@@ -417,7 +538,7 @@
       "url": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-falls-to-new-52-week-low-d7c028b4-1ebc8548fa31?mod=mw_quote_news",
       "source": "MarketWatch",
       "published_at": "20260926T024902",
-      "sentiment_score": -0.401646,
+      "sentiment_score": -0.44343,
       "sentiment_label": "Bearish",
       "tickers": [
         "BYND"
@@ -430,12 +551,76 @@
       "is_noise": false
     },
     {
+      "title": "The TJX Companies, Inc. (0LCE.L) latest stock news and headlines",
+      "summary": "This Yahoo Finance page provides a compilation of recent news and headlines concerning The TJX Companies, Inc. (0LCE.L). The articles cover stock performance, analyst insights,...",
+      "url": "https://uk.finance.yahoo.com/quote/0LCE.L/news/",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260926T070954",
+      "sentiment_score": 0.031924,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TJX",
+        "DLTR",
+        "TGT",
+        "ROST"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Jefferies Financial Group (JEF) Could Be 2% Below Fair Value Following New Bond Offerings",
+      "summary": "Jefferies Financial Group (JEF) recently issued new fixed-income offerings, including 6.00% notes due 2030, floating rate notes due 2028, and 7.00% notes maturing in 2041. Despi...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-financial-group-jef-could-060949947.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260926T060939",
+      "sentiment_score": 0.120398,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "JEF"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Comstock Targets 25% Utilization at Industrial-Scale Solar Recycling Plant",
+      "summary": "Comstock is targeting 25% utilization at its industrial-scale solar-panel recycling facility in Nevada during the fourth quarter, aiming to validate its process, unit economics,...",
+      "url": "https://finance.yahoo.com/energy/articles/comstock-targets-25-utilization-industrial-040201602.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260926T035343",
+      "sentiment_score": 0.207738,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "LODE",
+        "NEE",
+        "COIN"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation",
+        "Technology",
+        "Manufacturing"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "Enphase (ENPH) Wins 80 Utility Approvals. Can Easier Installation Boost Battery Sales?",
       "summary": "Enphase Energy, Inc. (ENPH) has secured approvals from 80 utilities in the U.S. and Canada for its IQ Meter Collar, which simplifies the installation of home battery backup syst...",
       "url": "https://finance.yahoo.com/energy/articles/enphase-enph-wins-80-utility-033043125.html",
       "source": "Yahoo Finance",
       "published_at": "20260926T031642",
-      "sentiment_score": 0.056458,
+      "sentiment_score": 0.047872,
       "sentiment_label": "Neutral",
       "tickers": [
         "ENPH",
@@ -456,7 +641,7 @@
       "url": "https://kalkinemedia.com/us/news/announcements/exxonmobil-holdings-submits-2025-resource-extraction-payment-disclosure-report",
       "source": "Kalkine Media",
       "published_at": "20260926T024330",
-      "sentiment_score": 0.267231,
+      "sentiment_score": 0.262178,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "XOM"
@@ -475,7 +660,7 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/KO/pressreleases/4810970/coca-cola-hasnt-sold-much-more-soda-in-a-decade-its-dividend-has-gone-up-every-year-anyway/",
       "source": "The Globe and Mail",
       "published_at": "20260926T021536",
-      "sentiment_score": 0.112428,
+      "sentiment_score": 0.134483,
       "sentiment_label": "Neutral",
       "tickers": [
         "KO",
@@ -493,23 +678,21 @@
       "is_noise": false
     },
     {
-      "title": "Grupo Aeroportuario del Sureste, S. A. B. de C. V. (ASR) stock price, news, quote and history",
-      "summary": "This article provides a detailed financial overview of Grupo Aeroportuario del Sureste, S. A. B. de C. V. (ASR), including its current stock price, historical data, key financia...",
-      "url": "https://uk.finance.yahoo.com/quote/ASR/",
-      "source": "Yahoo Finance UK",
-      "published_at": "20260926T015040",
-      "sentiment_score": 0.098231,
-      "sentiment_label": "Neutral",
+      "title": "Johnson Outdoors Declares Quarterly Dividend of $0.33 Per Class A Share",
+      "summary": "Johnson Outdoors Inc. (Nasdaq: JOUT) announced that its Board of Directors approved a quarterly cash dividend of $0.33 per Class A share and $0.30 per Class B share. The dividen...",
+      "url": "https://www.minichart.com.sg/2026/09/25/johnson-outdoors-declares-quarterly-dividend-of-0-33-per-class-a-share/",
+      "source": "Minichart",
+      "published_at": "20260926T062049",
+      "sentiment_score": 0.324898,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "ASR"
+        "JOUT"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Energy Transportation",
         "Finance"
       ],
-      "quality_score": 6,
+      "quality_score": 4,
       "is_noise": false
     },
     {
@@ -518,7 +701,7 @@
       "url": "https://www.gurufocus.com/news/9097951/palo-alto-networks-inc-panw-shares-fall-39-what-gf-score-of-81-tells-investors",
       "source": "GuruFocus",
       "published_at": "20260926T044130",
-      "sentiment_score": -0.493094,
+      "sentiment_score": -0.4992,
       "sentiment_label": "Bearish",
       "tickers": [
         "PANW"
@@ -536,7 +719,7 @@
       "url": "https://simplywall.st/stocks/us/utilities/nyse-sre/sempra/news/sempra-sre-why-is-it-back-in-focus",
       "source": "Simply Wall Street",
       "published_at": "20260926T023529",
-      "sentiment_score": 0.111174,
+      "sentiment_score": 0.134399,
       "sentiment_label": "Neutral",
       "tickers": [
         "SRE"
@@ -557,7 +740,7 @@
       "url": "https://www.morningstar.com/news/pr-newswire/20260925da57377/geron-investigation-initiated-kahn-swick-foti-llc-investigates-the-officers-and-directors-of-geron-corporation-gern",
       "source": "Morningstar",
       "published_at": "20260926T022103",
-      "sentiment_score": -0.407105,
+      "sentiment_score": -0.429114,
       "sentiment_label": "Bearish",
       "tickers": [
         "GERN"
@@ -571,43 +754,39 @@
       "is_noise": false
     },
     {
-      "title": "Did Excess Returns Focus Just Shift First BanCorp (FBP) Investment Narrative?",
-      "summary": "A recent focus on First BanCorp's strong returns on capital and efficient reinvestment, highlighted by an excess returns model, suggests its intrinsic value may be above its cur...",
-      "url": "https://simplywall.st/stocks/us/banks/nyse-fbp/first-bancorp/news/did-excess-returns-focus-just-shift-first-bancorp-fbp-invest",
-      "source": "Simply Wall Street",
-      "published_at": "20260926T014939",
-      "sentiment_score": 0.237698,
+      "title": "FactSet Research Systems' CAO Gregory Moskoff Granted 97 Performance Share Units After Performance Milestone",
+      "summary": "Gregory T. Moskoff, FactSet Research Systems' Controller and Chief Accounting Officer, was granted 97 Performance Share Units (PSUs) after achieving performance goals certified...",
+      "url": "https://kalkinemedia.com/us/news/announcements/factset-research-systems-cao-gregory-moskoff-granted-97-performance-share-units-after-performance-milestone",
+      "source": "Kalkine Media",
+      "published_at": "20260926T062530",
+      "sentiment_score": 0.299196,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "FBNC",
-        "NVDA"
+        "FDS"
       ],
       "topics": [
-        "Finance",
         "Earnings",
-        "Financial Markets",
-        "Economy Macro"
+        "Finance"
       ],
-      "quality_score": 4,
+      "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "Japan Post Holdings sells $1.55 million of Aflac stock By Investing.com",
-      "summary": "Japan Post Holdings, a director and 10% owner of Aflac Inc. (NYSE:AFL), sold approximately $1.55 million worth of Aflac common stock on September 23, 2026, through two separate...",
-      "url": "https://za.investing.com/news/stock-market-news/japan-post-holdings-sells-155-million-of-aflac-stock-93CH-4478495",
-      "source": "Investing.com South Africa",
-      "published_at": "20260926T014048",
-      "sentiment_score": -0.201194,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Form 8K Johnson Outdoors Inc For: 25 September By Investing.com",
+      "summary": "This article reports that Johnson Outdoors Inc. filed a Form 8K on September 25. The brief announcement provides the company's stock symbol JOUT and indicates a slight price inc...",
+      "url": "https://ng.investing.com/news/stock-market-news/form-8k-johnson-outdoors-inc-for-25-september-93CH-2709951",
+      "source": "Investing.com Nigeria",
+      "published_at": "20260926T062049",
+      "sentiment_score": 0.02704,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "AFL"
+        "JOUT"
       ],
       "topics": [
         "Financial Markets",
-        "Finance",
         "Earnings"
       ],
-      "quality_score": 4,
+      "quality_score": 3,
       "is_noise": false
     },
     {
@@ -616,7 +795,7 @@
       "url": "https://www.gurufocus.com/news/9098010/a-look-at-hubspot-inc-hubs-after-35-decline-gf-value-75383-vs-price-21374",
       "source": "GuruFocus",
       "published_at": "20260926T055227",
-      "sentiment_score": 0.280811,
+      "sentiment_score": 0.271912,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "HUBS"
@@ -635,7 +814,7 @@
       "url": "https://au.investing.com/news/stock-market-news/dycom-industries-stock-hits-52week-low-at-2720-usd-93CH-4659703",
       "source": "Investing.com Australia",
       "published_at": "20260926T035404",
-      "sentiment_score": -0.41482,
+      "sentiment_score": -0.408833,
       "sentiment_label": "Bearish",
       "tickers": [
         "DY"
@@ -649,53 +828,12 @@
       "is_noise": false
     },
     {
-      "title": "Las Vegas Sands Corp (LCR.HM) stock price, news, quote and history",
-      "summary": "This page provides comprehensive financial information for Las Vegas Sands Corp (LCR.HM), including its current stock price, historical data, and performance metrics. As of the...",
-      "url": "https://au.finance.yahoo.com/quote/LCR.HM/",
-      "source": "Yahoo Finance Australia",
-      "published_at": "20260926T014911",
-      "sentiment_score": -0.267569,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "LVS"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "What is Charles Schwab’s (SCHW) Economic Moat, and is it Widening or Narrowing?",
-      "summary": "Charles Schwab's economic moat, primarily driven by its vast scale and client assets reaching $13.41 trillion, is narrowing despite continuous client growth. While its custody a...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/charles-schwab-schw-economic-moat-031822884.html",
-      "source": "Yahoo Finance",
-      "published_at": "20260926T011800",
-      "sentiment_score": -0.153456,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "SCHW",
-        "V",
-        "AXP"
-      ],
-      "topics": [
-        "Finance",
-        "Financial Markets",
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
       "title": "Form 4 Humana Inc For: 25 September By Investing.com",
       "summary": "This article from Investing.com is a regulatory filing update, specifically a Form 4 for Humana Inc., dated September 25. It reports on insider transactions for the company and...",
       "url": "https://ng.investing.com/news/stock-market-news/form-4-humana-inc-for-25-september-93CH-2709500",
       "source": "Investing.com Nigeria",
       "published_at": "20260926T051640",
-      "sentiment_score": 0.025258,
+      "sentiment_score": 0.031809,
       "sentiment_label": "Neutral",
       "tickers": [
         "HUM"
@@ -714,7 +852,7 @@
       "url": "https://www.insidermonkey.com/news/old-dominion-odfl-announces-a-rate-increase-can-it-keep-customers-1841848/",
       "source": "Insider Monkey",
       "published_at": "20260926T041454",
-      "sentiment_score": 0.118658,
+      "sentiment_score": 0.140473,
       "sentiment_label": "Neutral",
       "tickers": [
         "ODFL"
@@ -734,7 +872,7 @@
       "url": "https://www.insidermonkey.com/news/can-caterpillar-cat-keep-growing-as-construction-slows-ai-may-hold-the-key-1842730/",
       "source": "Insider Monkey",
       "published_at": "20260926T041251",
-      "sentiment_score": 0.204872,
+      "sentiment_score": 0.231318,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "CAT",
@@ -756,7 +894,7 @@
       "url": "https://www.insidermonkey.com/news/bio-techne-tech-shareholders-approve-the-merck-kgaa-takeover-and-reject-the-pay-package-1844490/",
       "source": "Insider Monkey",
       "published_at": "20260926T041051",
-      "sentiment_score": 0.278616,
+      "sentiment_score": 0.278431,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "TECH",
@@ -778,7 +916,7 @@
       "url": "https://in.investing.com/news/stock-market-news/form-4-boeing-co-for-26-september-93CH-5607447",
       "source": "Investing.com India",
       "published_at": "20260926T040518",
-      "sentiment_score": 0.022279,
+      "sentiment_score": 0.046047,
       "sentiment_label": "Neutral",
       "tickers": [
         "BA"
@@ -796,7 +934,7 @@
       "url": "https://www.stocktitan.net/sec-filings/CYPH/form-4-cypherpunk-technologies-inc-insider-trading-activity-6a1ff7645085.html",
       "source": "Stock Titan",
       "published_at": "20260926T035032",
-      "sentiment_score": -0.213553,
+      "sentiment_score": -0.219643,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CYPH"
@@ -816,7 +954,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/form-4-boeing-co-for-26-september-93CH-4854387",
       "source": "Investing.com Canada",
       "published_at": "20260926T034743",
-      "sentiment_score": 0.036988,
+      "sentiment_score": 0.030086,
       "sentiment_label": "Neutral",
       "tickers": [
         "BA"
@@ -835,7 +973,7 @@
       "url": "https://www.insidermonkey.com/news/costco-cost-vs-walmart-wmt-which-is-a-better-stock-to-buy-1844486/",
       "source": "Insider Monkey",
       "published_at": "20260926T034002",
-      "sentiment_score": 0.198399,
+      "sentiment_score": 0.199872,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "WMT",
@@ -855,7 +993,7 @@
       "url": "https://www.stocktitan.net/sec-filings/CWEN/form-4-clearway-energy-inc-insider-trading-activity-3b05fe214c01.html",
       "source": "Stock Titan",
       "published_at": "20260926T032238",
-      "sentiment_score": 0.018929,
+      "sentiment_score": 0.004665,
       "sentiment_label": "Neutral",
       "tickers": [
         "CWEN"
@@ -867,175 +1005,21 @@
       ],
       "quality_score": -10,
       "is_noise": true
-    },
-    {
-      "title": "A quarterly dividend left Avnet (AVT) director Virginia Henkels holding 7,717 stock-linked units.",
-      "summary": "Avnet (AVT) director Virginia Henkels acquired 29 Phantom Stock Units on September 23, 2026, as a result of a quarterly dividend. These units will convert to common stock upon h...",
-      "url": "https://www.stocktitan.net/sec-filings/AVT/form-4-avnet-inc-insider-trading-activity-0dc25b6f9ea8.html",
-      "source": "Stock Titan",
-      "published_at": "20260926T014634",
-      "sentiment_score": 0.122401,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AVT"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Applied Digital Corp. SEC Filing (Sep 25, 2026)",
-      "summary": "This article announces an SEC filing (Form ARS) by Applied Digital Corp. (APLD) on September 25, 2026, which was accepted by the SEC at 04:34 PM. It provides details on the fili...",
-      "url": "https://www.stocktitan.net/sec-filings/APLD/ars-applied-digital-corp-sec-filing-ebccf70d50fa.html",
-      "source": "Stock Titan",
-      "published_at": "20260926T012717",
-      "sentiment_score": 0.022334,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "APLD"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Form 4 Cohu Inc For: 25 September By Investing.com",
-      "summary": "This article announces the filing of Form 4 for Cohu Inc. on September 25. It is a brief financial news update indicating a transaction or change in ownership for the company's...",
-      "url": "https://in.investing.com/news/stock-market-news/form-4-cohu-inc-for-25-september-93CH-5607408",
-      "source": "Investing.com India",
-      "published_at": "20260926T011948",
-      "sentiment_score": 0.000885,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "COHU"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "A 27,236-share sale under a trading plan leaves Cohu (COHU) CEO Luis Muller reporting 844,589 shares.",
-      "summary": "Cohu Inc.'s President & CEO, Luis A. Muller, sold 27,236 shares of common stock at $65.00 per share on September 25, 2026, under a Rule 10b5-1(c) plan adopted on May 28, 2026. F...",
-      "url": "https://www.stocktitan.net/sec-filings/COHU/form-4-cohu-inc-insider-trading-activity-791731b7a3de.html",
-      "source": "Stock Titan",
-      "published_at": "20260926T011948",
-      "sentiment_score": -0.296134,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "COHU"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Cohu (COHU) director Andrew M. Caggia received 326 stock units as fees, bringing his reported total to 65,104 shares.",
-      "summary": "Cohu director Andrew M. Caggia was granted 326 Deferred Stock Units (DSUs) as director fees on September 25, 2026. This transaction increased his total reported holdings to 65,1...",
-      "url": "https://www.stocktitan.net/sec-filings/COHU/form-4-cohu-inc-insider-trading-activity-52132a2387e2.html",
-      "source": "Stock Titan",
-      "published_at": "20260926T011947",
-      "sentiment_score": 0.015537,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "COHU"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Kaplan Fox & Kilsheimer LLP Alerts DICK's Sporting Goods, Inc. (NYSE: DKS) Investors to the Lead Plaintiff Deadline...",
-      "summary": "Kaplan Fox & Kilsheimer LLP has filed a class action lawsuit against DICK's Sporting Goods, Inc. (NYSE: DKS) on behalf of investors who purchased stock between September 8, 2025...",
-      "url": "https://www.financialcontent.com/article/newmediawire-2026-9-26-kaplan-fox-and-kilsheimer-llp-alerts-dicks-sporting-goods-inc-nyse-dks-investors-to-the-lead-plaintiff-deadline-on-november-3-2026",
-      "source": "FinancialContent",
-      "published_at": "20260926T011714",
-      "sentiment_score": -0.490268,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "DKS"
-      ],
-      "topics": [
-        "Finance",
-        "Retail Wholesale",
-        "Earnings",
-        "Mergers And Acquisitions"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "HSBC Upgrades Dollar General (DG) and Lifts its Target to $160",
-      "summary": "HSBC upgraded Dollar General (DG) from Hold to Buy, raising its price target to $160, significantly above the street average of $137. The upgrade is based on the argument that D...",
-      "url": "https://www.insidermonkey.com/news/hsbc-upgrades-dollar-general-dg-and-lifts-its-target-to-160-1844516/",
-      "source": "Insider Monkey",
-      "published_at": "20260926T011622",
-      "sentiment_score": 0.140017,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DG",
-        "DLTR",
-        "WMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": -10,
-      "is_noise": true
     }
   ],
   "article_count": 50,
-  "top_ticker": "COST",
+  "top_ticker": "BLK",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "AeroVironment slips as investors weigh unchanged outlook and recent target cuts",
+  "top_story": "Wall Street Zen Upgrades Archer Daniels Midland (NYSE:ADM) to Strong-Buy",
   "signal_articles": [
-    {
-      "title": "AeroVironment slips as investors weigh unchanged outlook and recent target cuts",
-      "summary": "AeroVironment (AVAV) stock dipped 3.8% due to investor caution following its Q1 2027 earnings report and recent analyst target cuts. Despite solid revenue growth, strong backlog...",
-      "url": "https://www.quiverquant.com/news/AeroVironment+slips+as+investors+weigh+unchanged+outlook+and+recent+target+cuts",
-      "source": "Quiver Quantitative",
-      "published_at": "20260926T015057",
-      "sentiment_score": -0.278054,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "AVAV"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 19,
-      "is_noise": false
-    },
     {
       "title": "Wall Street Zen Upgrades Archer Daniels Midland (NYSE:ADM) to Strong-Buy",
       "summary": "Wall Street Zen has upgraded Archer Daniels Midland (NYSE:ADM) to a \"strong buy\" rating, joining other analysts who have also raised ratings or price targets. Despite this, the...",
       "url": "https://www.marketbeat.com/instant-alerts/analyst-wall-street-zen-upgrades-archer-daniels-midland-nyse-adm-to-strong-buy-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T052346",
-      "sentiment_score": 0.234237,
+      "sentiment_score": 0.235988,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ADM",
@@ -1059,7 +1043,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/analyst-mid-america-apartment-communities-nyse-maa-stock-rating-lowered-by-wall-street-zen-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T052321",
-      "sentiment_score": 0.031701,
+      "sentiment_score": 0.013871,
       "sentiment_label": "Neutral",
       "tickers": [
         "MAA",
@@ -1079,7 +1063,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/analyst-wall-street-zen-downgrades-gevo-nasdaq-gevo-to-strong-sell-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T051432",
-      "sentiment_score": -0.485851,
+      "sentiment_score": -0.461014,
       "sentiment_label": "Bearish",
       "tickers": [
         "GEVO"
@@ -1093,12 +1077,32 @@
       "is_noise": false
     },
     {
+      "title": "LSI Industries (NASDAQ:LYTS) Upgraded at Wall Street Zen",
+      "summary": "Wall Street Zen has upgraded LSI Industries (NASDAQ:LYTS) from a \"hold\" to a \"buy\" rating, despite a broader analyst consensus of \"Moderate Buy\" with a $29 target price. The upg...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-lsi-industries-nasdaq-lyts-upgraded-at-wall-street-zen-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T055622",
+      "sentiment_score": 0.307865,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "LYTS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Real Estate",
+        "Finance"
+      ],
+      "quality_score": 14,
+      "is_noise": false
+    },
+    {
       "title": "GSI Technology (NASDAQ:GSIT) Stock Rating Lowered by Wall Street Zen",
       "summary": "Wall Street Zen has downgraded GSI Technology (NASDAQ:GSIT) from a \"sell\" to a \"strong sell\" rating. Despite a consensus price target of $9.00, analysts are split, leading to an...",
       "url": "https://www.marketbeat.com/instant-alerts/analyst-gsi-technology-nasdaq-gsit-stock-rating-lowered-by-wall-street-zen-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T051519",
-      "sentiment_score": -0.221958,
+      "sentiment_score": -0.24811,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "GSIT"
@@ -1117,7 +1121,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/analyst-invesco-nyse-ivz-stock-rating-cut-to-hold-at-wall-street-zen-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T051257",
-      "sentiment_score": 0.032271,
+      "sentiment_score": 0.046516,
       "sentiment_label": "Neutral",
       "tickers": [
         "IVZ",
@@ -1135,12 +1139,32 @@
       "is_noise": false
     },
     {
+      "title": "JD.com, Inc. (NASDAQ:JD) Stock Rated \"Moderate Buy\" by Sell-Side Brokerages",
+      "summary": "JD.com, Inc. (NASDAQ:JD) has received a consensus \"Moderate Buy\" rating from 14 analysts, with an average 12-month price target of $35.25 against its current share price of $26....",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-jdcom-inc-nasdaq-jd-stock-rated-moderate-buy-by-sell-side-brokerages-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T063644",
+      "sentiment_score": 0.182364,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "JD"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Technology"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
       "title": "Core & Main, Inc. (CNM) Stock forecasts",
       "summary": "This article from Yahoo Finance is largely empty, displaying an error message where content should be. It lists various financial market data such as indices, currencies, and co...",
       "url": "https://uk.finance.yahoo.com/research/reports/ARGUS_6173_QuantitativeReport_1790121600000",
       "source": "Yahoo Finance UK",
       "published_at": "20260926T031808",
-      "sentiment_score": 0.030746,
+      "sentiment_score": 0.016702,
       "sentiment_label": "Neutral",
       "tickers": [
         "CNM",
@@ -1157,53 +1181,12 @@
       "is_noise": false
     },
     {
-      "title": "AAON Stock Rises As DA Davidson Sets $110 Price Target",
-      "summary": "AAON Inc. stock rose by 6.67% following strong earnings and optimistic guidance. DA Davidson initiated coverage with a Buy rating and a $110 price target, citing AAON's premium...",
-      "url": "https://stockstotrade.com/news/aaoninc-aaon-news-2026_09_25/",
-      "source": "StocksToTrade",
-      "published_at": "20260926T012133",
-      "sentiment_score": 0.473011,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "AAON"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Real Estate",
-        "Technology"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "ServiceNow Effectively Integrates AI into Services",
-      "summary": "ServiceNow is successfully integrating AI into its services, aiming to boost competitiveness and client acquisition, though specific details remain undisclosed. Despite this, th...",
-      "url": "https://intellectia.ai/news/stock/servicenow-effectively-integrates-ai-into-services",
-      "source": "Intellectia AI",
-      "published_at": "20260926T010842",
-      "sentiment_score": 0.215412,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "NOW",
-        "CRM"
-      ],
-      "topics": [
-        "Technology",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
       "title": "L3Harris Technologies (NYSE:LHX) Stock Rating Cut to Hold at Wall Street Zen",
       "summary": "Wall Street Zen has downgraded L3Harris Technologies (NYSE:LHX) from a \"buy\" to a \"hold\" rating, mirroring recent downgrades from other firms like Argus and Weiss Ratings. Despi...",
       "url": "https://www.marketbeat.com/instant-alerts/analyst-l3harris-technologies-nyse-lhx-stock-rating-cut-to-hold-at-wall-street-zen-2026-09-26/",
       "source": "MarketBeat",
       "published_at": "20260926T052349",
-      "sentiment_score": -0.222461,
+      "sentiment_score": -0.183976,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "LHX"
@@ -1215,15 +1198,34 @@
       ],
       "quality_score": 11,
       "is_noise": false
+    },
+    {
+      "title": "ResMed Inc. (NYSE:RMD) Receives Consensus Recommendation of \"Hold\" from Brokerages",
+      "summary": "ResMed Inc. (NYSE:RMD) has received a consensus \"Hold\" recommendation from sixteen brokerages, with nine analysts rating it a \"hold\" and seven a \"buy.\" The average 12-month pric...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-resmed-inc-nyse-rmd-receives-consensus-recommendation-of-hold-from-brokerages-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T063744",
+      "sentiment_score": 0.049523,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RMD"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets"
+      ],
+      "quality_score": 10,
+      "is_noise": false
     }
   ],
   "top_tickers": [
     {
-      "ticker": "COST",
-      "mentions": 3
+      "ticker": "BLK",
+      "mentions": 4
     },
     {
-      "ticker": "NVDA",
+      "ticker": "COST",
       "mentions": 3
     },
     {
@@ -1231,70 +1233,70 @@
       "mentions": 3
     },
     {
-      "ticker": "BLK",
+      "ticker": "WMT",
       "mentions": 2
     },
     {
-      "ticker": "WMT",
+      "ticker": "NVDA",
       "mentions": 2
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 34
+      "mentions": 41
     },
     {
       "topic": "Financial Markets",
-      "mentions": 28
+      "mentions": 33
     },
     {
       "topic": "Finance",
-      "mentions": 17
-    },
-    {
-      "topic": "Technology",
-      "mentions": 10
+      "mentions": 20
     },
     {
       "topic": "Energy Transportation",
-      "mentions": 7
+      "mentions": 9
+    },
+    {
+      "topic": "Technology",
+      "mentions": 8
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 11
+      "count": 18
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 10
-    },
-    {
-      "label": "Somewhat-Bearish",
-      "count": 7
+      "count": 13
     },
     {
       "label": "Bearish",
       "count": 5
     },
     {
+      "label": "Somewhat-Bearish",
+      "count": 3
+    },
+    {
       "label": "Bullish",
-      "count": 1
+      "count": 2
     }
   ],
   "top_sources": [
     {
       "source": "MarketBeat",
-      "count": 6
-    },
-    {
-      "source": "Simply Wall Street",
-      "count": 4
+      "count": 17
     },
     {
       "source": "Yahoo Finance",
       "count": 4
+    },
+    {
+      "source": "Kalkine Media",
+      "count": 3
     },
     {
       "source": "GuruFocus",
@@ -1305,5 +1307,5 @@
       "count": 2
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with COST appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with BLK appearing most often and the headline tone mostly neutral."
 }

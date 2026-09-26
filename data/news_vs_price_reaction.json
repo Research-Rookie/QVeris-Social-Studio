@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-25T08:07:06.280859+00:00",
-  "date": "2026-09-25",
+  "updated_at": "2026-09-26T07:57:19.123008+00:00",
+  "date": "2026-09-26",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "BAC",
-  "news_tone": "Somewhat Bullish",
+  "symbol": "BLK",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Northern Oil and Gas, Inc. $NOG Stock Sold by Bank of America Corp DE",
+  "headline": "Wall Street Zen Upgrades Archer Daniels Midland (NYSE:ADM) to Strong-Buy",
   "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,51 +15,51 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 56.03, 'd': 0.03, 'dp': 0.0536, 'h': 56.53, 'l': 55.84, 'o': 56.39, 'pc': 56, 't': 1790280000}}",
+  "price_error": "Could not parse quote data for BLK: {'status_code': 200, 'data': {'c': 1086.31, 'd': 12.86, 'dp': 1.198, 'h': 1087.83, 'l': 1066.525, 'o': 1076.22, 'pc': 1073.45, 't': 1790366400}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "BAC",
-        "mentions": 10
+        "ticker": "BLK",
+        "mentions": 4
       },
       {
-        "ticker": "AMZN",
-        "mentions": 10
-      },
-      {
-        "ticker": "BBY",
-        "mentions": 5
-      },
-      {
-        "ticker": "JPM",
+        "ticker": "COST",
         "mentions": 3
       },
       {
-        "ticker": "GNRC",
+        "ticker": "COIN",
         "mentions": 3
+      },
+      {
+        "ticker": "WMT",
+        "mentions": 2
+      },
+      {
+        "ticker": "NVDA",
+        "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Somewhat-Bullish",
-        "count": 22
-      },
-      {
         "label": "Neutral",
-        "count": 16
+        "count": 18
       },
       {
-        "label": "Bullish",
-        "count": 3
+        "label": "Somewhat-Bullish",
+        "count": 13
       },
       {
         "label": "Bearish",
-        "count": 3
+        "count": 5
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 1
+        "count": 3
+      },
+      {
+        "label": "Bullish",
+        "count": 2
       }
     ]
   }
