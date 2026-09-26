@@ -1,745 +1,206 @@
 {
-  "updated_at": "2026-09-25T08:07:02.362421+00:00",
-  "date": "2026-09-25",
+  "updated_at": "2026-09-26T06:16:48.477618+00:00",
+  "date": "2026-09-26",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Northern Oil and Gas, Inc. $NOG Stock Sold by Bank of America Corp DE",
-      "summary": "Bank of America Corp DE reduced its stake in Northern Oil and Gas, Inc. ($NOG) by 8.4% in the second quarter, selling 104,396 shares and retaining 1,141,243 shares valued at $20...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-northern-oil-and-gas-inc-nog-stock-sold-by-bank-of-america-corp-de-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T071048",
-      "sentiment_score": -0.058051,
-      "sentiment_label": "Neutral",
+      "title": "AeroVironment slips as investors weigh unchanged outlook and recent target cuts",
+      "summary": "AeroVironment (AVAV) stock dipped 3.8% due to investor caution following its Q1 2027 earnings report and recent analyst target cuts. Despite solid revenue growth, strong backlog...",
+      "url": "https://www.quiverquant.com/news/AeroVironment+slips+as+investors+weigh+unchanged+outlook+and+recent+target+cuts",
+      "source": "Quiver Quantitative",
+      "published_at": "20260926T015057",
+      "sentiment_score": -0.27217,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "BAC",
-        "RJF",
-        "MS",
-        "C"
+        "AVAV"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Energy Transportation",
         "Finance"
+      ],
+      "quality_score": 19,
+      "is_noise": false
+    },
+    {
+      "title": "Wall Street Zen Upgrades Archer Daniels Midland (NYSE:ADM) to Strong-Buy",
+      "summary": "Wall Street Zen has upgraded Archer Daniels Midland (NYSE:ADM) to a \"strong buy\" rating, joining other analysts who have also raised ratings or price targets. Despite this, the...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-wall-street-zen-upgrades-archer-daniels-midland-nyse-adm-to-strong-buy-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T052346",
+      "sentiment_score": 0.219077,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ADM",
+        "BLK",
+        "WMT",
+        "COST",
+        "AMZN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 17,
+      "is_noise": false
+    },
+    {
+      "title": "Wall Street Zen Downgrades Gevo (NASDAQ:GEVO) to Strong Sell",
+      "summary": "Wall Street Zen has downgraded Gevo (NASDAQ:GEVO) to a \"strong sell,\" despite the broader analyst consensus remaining a \"hold\" with a $2.55 average price target. The company's s...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-wall-street-zen-downgrades-gevo-nasdaq-gevo-to-strong-sell-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T051432",
+      "sentiment_score": -0.472507,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "GEVO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 17,
+      "is_noise": false
+    },
+    {
+      "title": "GSI Technology (NASDAQ:GSIT) Stock Rating Lowered by Wall Street Zen",
+      "summary": "Wall Street Zen has downgraded GSI Technology (NASDAQ:GSIT) from a \"sell\" to a \"strong sell\" rating. Despite a consensus price target of $9.00, analysts are split, leading to an...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-gsi-technology-nasdaq-gsit-stock-rating-lowered-by-wall-street-zen-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T051519",
+      "sentiment_score": -0.236303,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "GSIT"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 14,
+      "is_noise": false
+    },
+    {
+      "title": "Invesco (NYSE:IVZ) Stock Rating Cut to \"Hold\" at Wall Street Zen",
+      "summary": "Wall Street Zen downgraded Invesco (NYSE:IVZ) from a \"Buy\" to a \"Hold\" rating, aligning with the broader analyst consensus. The company recently exceeded quarterly EPS and reven...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-invesco-nyse-ivz-stock-rating-cut-to-hold-at-wall-street-zen-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T051257",
+      "sentiment_score": 0.028349,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "IVZ",
+        "BLK",
+        "JPM",
+        "COST",
+        "FANG"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 14,
+      "is_noise": false
+    },
+    {
+      "title": "Core & Main, Inc. (CNM) Stock forecasts",
+      "summary": "This article from Yahoo Finance is largely empty, displaying an error message where content should be. It lists various financial market data such as indices, currencies, and co...",
+      "url": "https://uk.finance.yahoo.com/research/reports/ARGUS_6173_QuantitativeReport_1790121600000",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260926T031808",
+      "sentiment_score": 0.046379,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CNM",
+        "NVDA",
+        "TSLA",
+        "AAPL",
+        "MSFT"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
       ],
       "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "Simulations Plus, Inc. (NASDAQ:SLP) Receives Average Rating of \"Reduce\" from Analysts",
-      "summary": "Simulations Plus, Inc. (NASDAQ:SLP) has received an average \"Reduce\" rating from eight brokerages, with an average 12-month price target of $17.25, below its current trading pri...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-simulations-plus-inc-nasdaq-slp-receives-average-rating-of-reduce-from-analysts-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T062411",
-      "sentiment_score": -0.340027,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "AAON Stock Rises As DA Davidson Sets $110 Price Target",
+      "summary": "AAON Inc. stock rose by 6.67% following strong earnings and optimistic guidance. DA Davidson initiated coverage with a Buy rating and a $110 price target, citing AAON's premium...",
+      "url": "https://stockstotrade.com/news/aaoninc-aaon-news-2026_09_25/",
+      "source": "StocksToTrade",
+      "published_at": "20260926T012133",
+      "sentiment_score": 0.460516,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "SLP"
+        "AAON"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
+        "Manufacturing",
+        "Real Estate",
+        "Technology"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "ServiceNow Effectively Integrates AI into Services",
+      "summary": "ServiceNow is successfully integrating AI into its services, aiming to boost competitiveness and client acquisition, though specific details remain undisclosed. Despite this, th...",
+      "url": "https://intellectia.ai/news/stock/servicenow-effectively-integrates-ai-into-services",
+      "source": "Intellectia AI",
+      "published_at": "20260926T010842",
+      "sentiment_score": 0.205763,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "NOW",
+        "CRM"
+      ],
+      "topics": [
         "Technology",
-        "Life Sciences"
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "L3Harris Technologies (NYSE:LHX) Stock Rating Cut to Hold at Wall Street Zen",
+      "summary": "Wall Street Zen has downgraded L3Harris Technologies (NYSE:LHX) from a \"buy\" to a \"hold\" rating, mirroring recent downgrades from other firms like Argus and Weiss Ratings. Despi...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-l3harris-technologies-nyse-lhx-stock-rating-cut-to-hold-at-wall-street-zen-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T052349",
+      "sentiment_score": -0.22553,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "LHX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
       ],
       "quality_score": 11,
       "is_noise": false
     },
     {
-      "title": "NewEdge Advisors LLC Reduces Position in Live Nation Entertainment, Inc. $LYV",
-      "summary": "NewEdge Advisors LLC significantly reduced its stake in Live Nation Entertainment, Inc. (NYSE:LYV) by 85.2% during the second quarter, selling 18,557 shares and retaining 3,212...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-newedge-advisors-llc-reduces-position-in-live-nation-entertainment-inc-lyv-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T073130",
-      "sentiment_score": 0.160361,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Emerson Electric (EMR) Stock Looks Above Fair Value Despite Qatar Service Center Plans",
+      "summary": "Emerson Electric (EMR) stock has seen significant growth over the past five years, prompting an analysis of whether its current share price aligns with its earnings. Despite pla...",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-emr/emerson-electric/news/emerson-electric-emr-stock-looks-above-fair-value-despite-qa/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260926T044654",
+      "sentiment_score": -0.281869,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "LYV"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Artedge Capital Management LLC Purchases 84,860 Shares of Amazon.com, Inc. $AMZN",
-      "summary": "Artedge Capital Management LLC has acquired a new position in Amazon.com, Inc. (NASDAQ:AMZN), purchasing 84,860 shares valued at approximately $20.2 million. This acquisition ma...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-arthedge-capital-management-llc-purchases-84860-shares-of-amazoncom-inc-amzn-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072317",
-      "sentiment_score": 0.284153,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AMZN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Technology",
-        "Economy Macro"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Targa Resources, Inc. $TRGP Stock Holdings Raised by Envestnet Asset Management Inc.",
-      "summary": "Envestnet Asset Management Inc. has increased its stake in Targa Resources, Inc. (NYSE:TRGP) by 5.8%, bringing its total holdings to 756,768 shares. This comes as institutional...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-targa-resources-inc-trgp-stock-holdings-raised-by-envestnet-asset-management-inc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072303",
-      "sentiment_score": 0.23457,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TRGP",
-        "STT",
-        "JPM",
-        "TFC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Gilead Sciences, Inc. $GILD Stake Decreased by Envestnet Asset Management Inc.",
-      "summary": "Envestnet Asset Management Inc. reduced its stake in Gilead Sciences (NASDAQ:GILD) by 5.9% in the second quarter, selling 109,500 shares but still retaining over 1.7 million sha...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-gilead-sciences-inc-gild-stake-decreased-by-envestnet-asset-management-inc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072300",
-      "sentiment_score": 0.128495,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GILD"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "IFF stock heads into the open after a 0.3 percent gain",
-      "summary": "International Flavors & Fragrances (IFF) stock saw a 0.3 percent gain, closing at USD 86.74 on September 24, 2026, despite a slight dip in the S&P 500 and Dow. Analysts have iss...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/iff-stock-heads-into-the-open-after-a-0-3-percent-gain/70181306",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T065403",
-      "sentiment_score": 0.11334,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "IFF",
-        "SPGI",
-        "BKR"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Economy Macro"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "9,807 Shares in Amazon.com, Inc. $AMZN Acquired by Philadelphia Investment Partners LLC",
-      "summary": "Philadelphia Investment Partners LLC recently acquired 9,807 shares of Amazon.com, Inc. (NASDAQ:AMZN) in the second quarter, valuing their new stake at approximately $2.338 mill...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-9807-shares-in-amazoncom-inc-amzn-acquired-by-philadelphia-investment-partners-llc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T073317",
-      "sentiment_score": 0.23404,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AMZN",
-        "GNRC",
-        "BBY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Technology",
-        "Economy Macro"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Park West Asset Management LLC Acquires New Stake in Amazon.com, Inc. $AMZN",
-      "summary": "Park West Asset Management LLC has acquired a new stake in Amazon.com, Inc. (NASDAQ:AMZN) by purchasing 324,570 shares valued at approximately $77.36 million, making it their se...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-park-west-asset-management-llc-acquires-new-stake-in-amazoncom-inc-amzn-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T073317",
-      "sentiment_score": 0.184181,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AMZN",
-        "BBY",
-        "WMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Point Break Capital Management LLC Buys New Shares in Amazon.com, Inc. $AMZN",
-      "summary": "Point Break Capital Management LLC has acquired a new stake in Amazon.com, Inc. (NASDAQ:AMZN) during the second quarter, purchasing 32,607 shares valued at approximately $7.77 m...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-point-break-capital-management-llc-buys-new-shares-in-amazoncom-inc-amzn-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T073317",
-      "sentiment_score": 0.146296,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AMZN",
-        "BAC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Jacobs Equity LLC Buys New Position in Amazon.com, Inc. $AMZN",
-      "summary": "Jacobs Equity LLC has initiated a new position in Amazon.com, Inc. (NASDAQ:AMZN), acquiring 5,691 shares valued at approximately $1.36 million during the second quarter. Amazon...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-jacobs-equity-llc-buys-new-position-in-amazoncom-inc-amzn-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072517",
-      "sentiment_score": 0.160203,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AMZN",
-        "BBY",
-        "BAC",
-        "BK",
-        "IVZ"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Technology",
-        "Economy Macro"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Blodgett Wealth Advisors LLC Buys New Position in Amazon.com, Inc. $AMZN",
-      "summary": "Blodgett Wealth Advisors LLC has acquired a new stake in Amazon.com, Inc. (NASDAQ:AMZN) during the second quarter, purchasing 40,952 shares valued at approximately $9.76 million...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-blodgett-wealth-advisors-llc-buys-new-position-in-amazoncom-inc-amzn-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072317",
-      "sentiment_score": 0.213185,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AMZN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Retail Wholesale",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Ausdal Financial Partners Inc. Acquires New Stake in Amazon.com, Inc. $AMZN",
-      "summary": "Ausdal Financial Partners Inc. has acquired a new stake in Amazon.com, Inc. (NASDAQ:AMZN) during the second quarter, purchasing 93,630 shares valued at approximately $22.3 milli...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-ausdal-financial-partners-inc-acquires-new-stake-in-amazoncom-inc-amzn-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072317",
-      "sentiment_score": 0.114691,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AMZN",
-        "ADBE",
-        "META",
-        "WMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Amazon.com, Inc. $AMZN Shares Newly Purchased by Bcwm LLC",
-      "summary": "Bcwm LLC recently acquired a new stake in Amazon.com, Inc. (NASDAQ:AMZN), purchasing 33,145 shares valued at approximately $7.9 million, making it the firm's 22nd largest holdin...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-shares-newly-purchased-by-bcwm-llc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072317",
-      "sentiment_score": 0.224027,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AMZN",
-        "GNRC",
-        "META",
-        "MSFT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Retail Wholesale",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "837,205 Shares in Amazon.com, Inc. $AMZN Acquired by Avala Global LP",
-      "summary": "Avala Global LP has acquired a significant new position in Amazon.com, Inc. (NASDAQ:AMZN) during the second quarter, purchasing 837,205 shares valued at approximately $199.5 mil...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-837205-shares-in-amazoncom-inc-amzn-acquired-by-avala-global-lp-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072317",
-      "sentiment_score": 0.114665,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AMZN",
-        "BBY",
-        "MSFT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Amazon.com, Inc. $AMZN Shares Newly Acquired by Bank of America Corp DE",
-      "summary": "Bank of America Corp DE recently acquired a significant new position in Amazon.com, Inc. (NASDAQ:AMZN) during the second quarter, purchasing over 93 million shares valued at app...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-shares-newly-acquired-by-bank-of-america-corp-de-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072317",
-      "sentiment_score": 0.155161,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AMZN",
-        "BAC",
-        "GNRC",
-        "BBY"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Envestnet Asset Management Inc. Buys 214,108 Shares of Altria Group, Inc. $MO",
-      "summary": "Envestnet Asset Management Inc. has increased its stake in Altria Group (NYSE:MO) by 5.9%, purchasing an additional 214,108 shares, bringing its total holdings to 3.83 million s...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-asset-management-inc-buys-214108-shares-of-altria-group-inc-mo-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072256",
-      "sentiment_score": 0.137443,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Community Financial System, Inc. $CBU Shares Newly Acquired by Bank of America Corp DE",
-      "summary": "Bank of America Corp DE has recently acquired 246,960 shares of Community Financial System, Inc. (NYSE:CBU) worth approximately $16.6 million, representing a 0.47% stake in the...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-community-financial-system-inc-cbu-shares-newly-acquired-by-bank-of-america-corp-de-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072254",
-      "sentiment_score": 0.261024,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "BAC"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets",
-        "Mergers And Acquisitions"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Bank of America Corp DE Purchases 5,170,574 Shares of Gogo Inc. $GOGO",
-      "summary": "Bank of America Corp DE has acquired 5,170,574 shares of Gogo Inc. (NASDAQ:GOGO) during the second quarter, valuing its new stake at approximately $16.0 million and giving it a...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-purchases-5170574-shares-of-gogo-inc-gogo-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072254",
-      "sentiment_score": 0.141083,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "BAC",
-        "BLK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Bank of America Corp DE Makes New Investment in Smithfield Foods, Inc. $SFD",
-      "summary": "Bank of America Corp DE has acquired a new stake in Smithfield Foods, Inc. (NASDAQ:SFD), purchasing 818,432 shares valued at approximately $19.86 million, representing about 0.2...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-makes-new-investment-in-smithfield-foods-inc-sfd-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072254",
-      "sentiment_score": 0.223923,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "BAC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Retail Wholesale"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Bank of America Corp DE Makes New $20.10 Million Investment in Tetra Technologies, Inc. $TTI",
-      "summary": "Bank of America Corp DE has acquired a new stake worth $20.10 million in Tetra Technologies, Inc. (NYSE:TTI) during the second quarter, now owning 1.20% of the company. Other in...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-makes-new-2010-million-investment-in-tetra-technologies-inc-tti-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072254",
-      "sentiment_score": 0.338034,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "BAC",
-        "BLK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Envestnet Portfolio Solutions Inc. Purchases 44,411 Shares of Dollar Tree, Inc. $DLTR",
-      "summary": "Envestnet Portfolio Solutions Inc. recently purchased 44,411 shares of Dollar Tree, Inc. (NASDAQ:DLTR) for approximately $5.37 million. This transaction highlights increased ins...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-portfolio-solutions-inc-purchases-44411-shares-of-dollar-tree-inc-dltr-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072232",
-      "sentiment_score": 0.344464,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "DLTR",
-        "DG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Envestnet Portfolio Solutions Inc. Buys 49,803 Shares of Colgate-Palmolive Company $CL",
-      "summary": "Envestnet Portfolio Solutions Inc. significantly increased its stake in Colgate-Palmolive Company (NYSE:CL) by 257.3% in the second quarter, acquiring an additional 49,803 share...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-portfolio-solutions-inc-buys-49803-shares-of-colgate-palmolive-company-cl-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072159",
-      "sentiment_score": 0.200275,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CL",
-        "C"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Bank of America Corp DE Makes New Investment in UMH Properties, Inc. $UMH",
-      "summary": "Bank of America Corp DE has acquired a new position in UMH Properties, Inc. (NYSE:UMH), purchasing over 1 million shares valued at approximately $15.65 million during the second...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-makes-new-investment-in-umh-properties-inc-umh-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072155",
-      "sentiment_score": 0.146922,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "BAC",
-        "BK",
-        "JPM",
-        "MS"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Real Estate",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "173,163 Chipotle Mexican Grill, Inc. $CMG Shares Bought by Envestnet Portfolio Solutions Inc.",
-      "summary": "Envestnet Portfolio Solutions Inc. significantly increased its stake in Chipotle Mexican Grill (NYSE:CMG) during the second quarter, acquiring an additional 173,163 shares, brin...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-173163-chipotle-mexican-grill-inc-cmg-shares-bought-by-envestnet-portfolio-solutions-inc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T070909",
-      "sentiment_score": 0.006691,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CMG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Salesforce Inc. $CRM Shares Purchased by Envestnet Portfolio Solutions Inc.",
-      "summary": "Envestnet Portfolio Solutions Inc. increased its stake in Salesforce (NYSE:CRM) by 11.9% in the second quarter, bringing its total holdings to 43,398 shares valued at approximat...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-salesforce-inc-crm-shares-purchased-by-envestnet-portfolio-solutions-inc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T070907",
-      "sentiment_score": 0.167691,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CRM",
-        "NOW",
-        "ADBE"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "9,016 Cadence Design Systems, Inc. $CDNS Shares Bought by Envestnet Portfolio Solutions Inc.",
-      "summary": "Envestnet Portfolio Solutions Inc. increased its stake in Cadence Design Systems (NASDAQ: CDNS) by 74.8% during the second quarter, purchasing 9,016 additional shares to reach a...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-9016-cadence-design-systems-inc-cdns-shares-bought-by-envestnet-portfolio-solutions-inc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T070646",
-      "sentiment_score": 0.464849,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "CDNS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Intel at $127 After a 300% Run – Wall Street Has It at $116",
-      "summary": "Intel's stock has surged over 300% from its 52-week low to $127.39, driven by increased AI inference demand for its Xeon server CPUs and progress in its 18A manufacturing proces...",
-      "url": "https://financefeeds.com/intel-intc-stock-127-ai-server-bid-bull-145-bear-116/",
-      "source": "FinanceFeeds",
-      "published_at": "20260925T065920",
-      "sentiment_score": 0.107198,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "INTC",
-        "META",
-        "AAPL"
-      ],
-      "topics": [
-        "Technology",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Monster Beverage (NASDAQ:MNST) Stock Price Crosses Above 200-Day Moving Average - Should You Sell?",
-      "summary": "Monster Beverage (NASDAQ:MNST) shares briefly surpassed their 200-day moving average of $43.49, touching $44.18 before settling at $42.67, marking a 2.8% decline for the session...",
-      "url": "https://www.marketbeat.com/instant-alerts/price-monster-beverage-nasdaq-mnst-stock-price-crosses-above-200-day-moving-average-should-you-sell-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T062357",
-      "sentiment_score": 0.19198,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MNST"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Intuitive Surgical stock heads into the open after a 0.3 percent gain",
-      "summary": "Intuitive Surgical (ISIN US46120E6023) stock gained 0.3 percent to USD 399.52 on September 24, 2026, slightly outperforming the Nasdaq Composite's less than 0.1 percent rise. Th...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/intuitive-surgical-stock-heads-into-the-open-after-a-0-3-percent-gain/70180943",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T062000",
-      "sentiment_score": 0.146922,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ISRG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Pool Corporation stock heads into the open after a 0.8 percent gain",
-      "summary": "Pool Corporation's stock gained 0.8 percent on the Nasdaq on September 24, 2026, closing at USD 316.42, while the Nasdaq Composite saw a modest increase of 0.01 percent. The bro...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/pool-corporation-stock-heads-into-the-open-after-a-0-8-percent-gain/70181892",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T061757",
-      "sentiment_score": 0.344472,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "POOL"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Economy Macro",
-        "Retail Wholesale"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Elevance Health stock heads into the open after a 0.8 percent gain",
-      "summary": "Elevance Health stock gained 0.8 percent on September 24, 2026, closing at USD 398.00 on the NYSE, outperforming the S&P 500 which fell 0.02 percent. The company has also schedu...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/elevance-health-stock-heads-into-the-open-after-a-0-8-percent-gain/70181725",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T055127",
-      "sentiment_score": 0.291751,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ELV"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Life Sciences",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "RCI Hospitality Holdings, Inc. 2017 Q4 - Results - Earnings Call Slides (NASDAQ:RICK) 2018-02-15",
-      "summary": "RCI Hospitality Holdings, Inc. published its 2017 Q4 earnings call slides on February 15, 2018. The company's Q4 earnings per share of $0.36 missed estimates by $0.02, while rev...",
-      "url": "https://seekingalpha.com/article/4147132-rci-hospitality-holdings-inc-2017-q4-results-earnings-call-slides?utm_source=now_read_partner_investingcom",
-      "source": "Seeking Alpha",
-      "published_at": "20260925T054830",
-      "sentiment_score": 0.042845,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "RICK"
-      ],
-      "topics": [
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Washington Trust Bank Sells 9,518 Shares of JPMorgan Chase & Co. $JPM",
-      "summary": "Washington Trust Bank has reduced its stake in JPMorgan Chase & Co. by 11.1%, selling 9,518 shares and bringing its total holdings to 76,431 shares valued at $25.02 million. Thi...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-washington-trust-bank-sells-9518-shares-of-jpmorgan-chase-co-jpm-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T073154",
-      "sentiment_score": 0.070121,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "JPM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Economy Macro"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Envestnet Asset Management Inc. Purchases 70,634 Shares of Stryker Corporation $SYK",
-      "summary": "Envestnet Asset Management Inc. increased its holdings in Stryker Corporation by 12.2% in the second quarter, purchasing 70,634 additional shares to own a total of 650,461 share...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-asset-management-inc-purchases-70634-shares-of-stryker-corporation-syk-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072255",
-      "sentiment_score": 0.460846,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "SYK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Bank of America Corp DE Buys 184,138 Shares of Griffon Corporation $GFF",
-      "summary": "Bank of America Corp DE has acquired a new stake of 184,138 shares in Griffon Corporation, valued at approximately $17.96 million, representing 0.41% of the company. Institution...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-buys-184138-shares-of-griffon-corporation-gff-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072254",
-      "sentiment_score": 0.26801,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "BAC"
+        "EMR"
       ],
       "topics": [
         "Earnings",
@@ -747,305 +208,300 @@
         "Finance",
         "Manufacturing"
       ],
-      "quality_score": 6,
+      "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Hershey Company (The) $HSY Shares Purchased by Envestnet Asset Management Inc.",
-      "summary": "Envestnet Asset Management Inc. increased its stake in Hershey Company (HSY) by 11.8% during the second quarter, bringing its total ownership to 1.13 million shares valued at ap...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-hershey-company-the-hsy-shares-purchased-by-envestnet-asset-management-inc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072242",
-      "sentiment_score": 0.257348,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "HSY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Envestnet Portfolio Solutions Inc. Increases Position in Fortinet, Inc. $FTNT",
-      "summary": "Envestnet Portfolio Solutions Inc. significantly increased its stake in Fortinet, Inc. by 681.7% in the second quarter, bringing its total holdings to 40,608 shares valued at $6...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-portfolio-solutions-inc-increases-position-in-fortinet-inc-ftnt-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072155",
-      "sentiment_score": 0.296299,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "FTNT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "American Tower Corporation $AMT Stock Acquired by Envestnet Asset Management Inc.",
-      "summary": "Envestnet Asset Management Inc. increased its stake in American Tower Corporation (AMT) by 6.7% in the second quarter, bringing its total holdings to 1.10 million shares valued...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-american-tower-corporation-amt-stock-acquired-by-envestnet-asset-management-inc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T070906",
-      "sentiment_score": 0.042009,
+      "title": "Palo Alto Networks Inc Stock (PANW) Moved Down by 3.95% on Sep 25: Key Drivers Unveiled",
+      "summary": "Palo Alto Networks Inc (PANW) stock dropped 3.95% on September 25 due to profit-taking in high-valuation tech stocks, concerns over stretched valuation metrics, and recent insid...",
+      "url": "https://www.tradingkey.com/news/market-movers/262187042-market-movers-panw-20260925",
+      "source": "TradingKey",
+      "published_at": "20260926T024130",
+      "sentiment_score": 0.020818,
       "sentiment_label": "Neutral",
       "tickers": [
-        "AMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Real Estate",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "McDonald's Corporation $MCD Stock Acquired by Envestnet Portfolio Solutions Inc.",
-      "summary": "Envestnet Portfolio Solutions Inc. increased its stake in McDonald's Corporation by 41.3% in the second quarter, acquiring an additional 6,980 shares. This brings their total ho...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-mcdonalds-corporation-mcd-stock-acquired-by-envestnet-portfolio-solutions-inc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T070851",
-      "sentiment_score": 0.083353,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MCD",
-        "STT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Economy Macro",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "ConocoPhillips stock heads into the open after a 2.77 percent gain",
-      "summary": "ConocoPhillips stock closed up 2.77 percent at USD 112.10 on September 24, 2026, outperforming the S&P 500. The company's shares have seen a 38.60 percent one-year performance a...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/conocophillips-stock-heads-into-the-open-after-a-2-77-percent-gain/70180929",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T061900",
-      "sentiment_score": 0.402133,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "COP"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Aptiv plc stock falls 3.79 percent ahead of the open",
-      "summary": "Aptiv plc's stock declined by 3.79 percent on September 24, 2026, closing at USD 43.46 on the NYSE, underperforming the S&P 500. This drop is attributed to the company lowering...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/aptiv-plc-stock-falls-3-79-percent-ahead-of-the-open/70181929",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T062501",
-      "sentiment_score": -0.437409,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "APTV"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Energy Transportation"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Shuttle Pharmaceuticals Q2 Results: Loss per share narrows 90.6% YoY",
-      "summary": "Shuttle Pharmaceuticals (NASDAQ: SHPH) reported a significant improvement in its Q2 financial performance, with loss per share narrowing by 90.58% year-over-year to $(3.10) from...",
-      "url": "https://scanx.trade/stock-market-news/companies/shuttle-pharmaceuticals-q2-results-loss-per-share-narrows-90-6-yoy/51833303",
-      "source": "scanx.trade",
-      "published_at": "20260925T062417",
-      "sentiment_score": 0.200414,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SHPH"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Finance"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Xylem stock heads into the open after a 3.21 percent drop",
-      "summary": "Xylem Inc. stock fell 3.21 percent to USD 105.19 on September 24, 2026, touching its 52-week low amidst bearish technical signals. This decline contrasted with the Dow Jones Ind...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/xylem-stock-heads-into-the-open-after-a-3-21-percent-drop/70182004",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T063606",
-      "sentiment_score": -0.459115,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "XYL"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "SNDL stock faces a proposed share consolidation vote",
-      "summary": "SNDL stock is facing a critical shareholder vote on October 15, 2026, regarding a proposed share consolidation in a range of 1-for-2 to 1-for-10. This comes as the cannabis comp...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/sndl-stock-faces-a-proposed-share-consolidation-vote/70181912",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T062219",
-      "sentiment_score": -0.416741,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "SNDL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Best Buy Co., Inc. $BBY Shares Newly Purchased by Andra AP fonden",
-      "summary": "Andra AP fonden has acquired a new stake of 17,417 shares in Best Buy Co., Inc. valued at approximately $1.32 million, as disclosed in its latest SEC filing. This institutional...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-best-buy-co-inc-bby-shares-newly-purchased-by-andra-ap-fonden-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072319",
-      "sentiment_score": 0.162126,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "BBY",
-        "AMZN"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale",
-        "Financial Markets",
-        "Technology",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Regency Centers Corporation $REG Shares Sold by Andra AP fonden",
-      "summary": "Andra AP fonden reduced its stake in Regency Centers Corporation (NASDAQ:REG) by 58.7% during the second quarter, selling 15,100 shares. Despite this, other institutional invest...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-regency-centers-corporation-reg-shares-sold-by-andra-ap-fonden-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072227",
-      "sentiment_score": 0.17331,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "REG",
-        "JPM",
-        "BAC",
-        "PFE"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Real Estate",
-        "Retail Wholesale",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Autodesk, Inc. $ADSK Shares Sold by Engineers Gate Manager LP",
-      "summary": "Engineers Gate Manager LP reduced its stake in Autodesk, Inc. (NASDAQ:ADSK) by 75.8% during the second quarter, selling 6,232 shares and leaving them with 1,987 shares valued at...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-autodesk-inc-adsk-shares-sold-by-engineers-gate-manager-lp-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072117",
-      "sentiment_score": 0.043349,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ADSK"
+        "PANW",
+        "MSFT"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Technology"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 10,
+      "is_noise": false
     },
     {
-      "title": "18,377 Phillips 66 $PSX Shares Sold by Envestnet Asset Management Inc.",
-      "summary": "Envestnet Asset Management Inc. has reduced its stake in Phillips 66 (NYSE:PSX) by 1.8%, selling 18,377 shares but still retaining over 1 million shares valued at approximately...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-18377-phillips-66-psx-shares-sold-by-envestnet-asset-management-inc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T070830",
-      "sentiment_score": 0.43742,
-      "sentiment_label": "Bullish",
+      "title": "Gross profit of Walmart Inc Shs Cert Deposito Arg Repr 0.0555555 Sh – BCBA:WMT.CI",
+      "summary": "The article focuses on the gross profit of Walmart Inc Shs Cert Deposito Arg Repr 0.0555555 Sh, traded on the Buenos Aires Stock Exchange under the ticker WMT.CI. It mentions \"P...",
+      "url": "https://www.tradingview.com/symbols/BCBA-WMT.CI/financials-income-statement/gross-profit/",
+      "source": "TradingView",
+      "published_at": "20260926T024032",
+      "sentiment_score": 0.032658,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "PSX"
+        "WMT"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Energy Transportation"
+        "Retail Wholesale",
+        "Finance"
       ],
-      "quality_score": -10,
-      "is_noise": true
+      "quality_score": 10,
+      "is_noise": false
     },
     {
-      "title": "Form 4 Aura Minerals Inc For: 25 September By Investing.com",
-      "summary": "This article announces the filing of Form 4 for Aura Minerals Inc. on September 25, published by Investing.com. It is a brief news item indicating a regulatory filing by the com...",
-      "url": "https://in.investing.com/news/stock-market-news/form-4-aura-minerals-inc-for-25-september-93CH-5606017",
-      "source": "Investing.com India",
-      "published_at": "20260925T062028",
-      "sentiment_score": 0.007156,
+      "title": "Wynn Resorts (WYNN) Stock Looks About Right On A 37% Slide",
+      "summary": "Wynn Resorts (WYNN) has seen a significant 37% stock slide over the past year, prompting an evaluation of its current valuation against its earnings power. Despite recent refina...",
+      "url": "https://simplywall.st/stocks/us/consumer-services/nasdaq-wynn/wynn-resorts/news/wynn-resorts-wynn-stock-looks-about-right-on-a-37-slide",
+      "source": "Simply Wall Street",
+      "published_at": "20260926T014139",
+      "sentiment_score": 0.122474,
       "sentiment_label": "Neutral",
       "tickers": [
-        "AUGO"
+        "WYNN"
       ],
       "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Can Fortis Inc (TSX:FTS) Maintain Stability As Rates Shift?",
+      "summary": "Fortis Inc. (TSX:FTS) operates primarily regulated electric and gas utilities across North America and the Caribbean, providing predictable cash flows largely insulated from eco...",
+      "url": "https://kalkinemedia.com/ca/stocks/utility/can-fortis-inc-tsxfts-maintain-stability-as-rates-shift",
+      "source": "Kalkine Media",
+      "published_at": "20260926T045004",
+      "sentiment_score": 0.330104,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "FTS"
+      ],
+      "topics": [
+        "Economy Monetary",
         "Financial Markets",
+        "Finance",
+        "Earnings",
+        "Energy Transportation"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Live Nation (LYV) Extends General Counsel's Contract and Names Successor in Leadership Transition",
+      "summary": "Live Nation Entertainment, Inc. (LYV) has announced a significant leadership transition in its legal department. Michael G. Rowles, the current Executive Vice President, General...",
+      "url": "https://www.gurufocus.com/news/9098266/live-nation-lyv-extends-general-counsels-contract-and-names-successor-in-leadership-transition",
+      "source": "GuruFocus",
+      "published_at": "20260926T030853",
+      "sentiment_score": 0.212709,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "LYV"
+      ],
+      "topics": [
+        "Finance",
         "Earnings"
       ],
-      "quality_score": -10,
-      "is_noise": true
-    }
-  ],
-  "article_count": 50,
-  "top_ticker": "BAC",
-  "top_topic": "Earnings",
-  "dominant_sentiment": "Somewhat-Bullish",
-  "top_story": "Northern Oil and Gas, Inc. $NOG Stock Sold by Bank of America Corp DE",
-  "signal_articles": [
+      "quality_score": 9,
+      "is_noise": false
+    },
     {
-      "title": "Northern Oil and Gas, Inc. $NOG Stock Sold by Bank of America Corp DE",
-      "summary": "Bank of America Corp DE reduced its stake in Northern Oil and Gas, Inc. ($NOG) by 8.4% in the second quarter, selling 104,396 shares and retaining 1,141,243 shares valued at $20...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-northern-oil-and-gas-inc-nog-stock-sold-by-bank-of-america-corp-de-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T071048",
-      "sentiment_score": -0.058051,
+      "title": "Instacart Adds Meta’s Muse as Latest AI Grocery Connector",
+      "summary": "Instacart is expanding its AI partnerships by integrating with Meta's new AI platform, Muse. This collaboration allows users to create accounts and shop on Instacart through Mus...",
+      "url": "https://progressivegrocer.com/instacart-adds-metas-muse-latest-ai-grocery-connector",
+      "source": "Progressive Grocer",
+      "published_at": "20260926T024415",
+      "sentiment_score": 0.263653,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CART",
+        "META",
+        "GOOGL"
+      ],
+      "topics": [
+        "Retail Wholesale",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Dycom Eyes 10%-12% Growth as Data Center, Fiber Demand Accelerates",
+      "summary": "Dycom Industries is projecting 10%-12% organic growth for fiscal year 2027, driven by strong demand in telecommunications, including fiber deployments and BEAD-funded projects,...",
+      "url": "https://finance.yahoo.com/technology/articles/dycom-eyes-10-12-growth-020200222.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260926T015404",
+      "sentiment_score": 0.244807,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "DY",
+        "QCOM",
+        "COIN"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Why Griffon (GFF) Outpaced the Stock Market Today",
+      "summary": "Griffon (GFF) stock closed up 1.92% on the most recent trading day, outperforming the S&P 500, Dow, and Nasdaq. Despite a recent monthly loss, it surpassed its sector's performa...",
+      "url": "https://ca.finance.yahoo.com/news/why-griffon-gff-outpaced-stock-211502769.html",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20260926T041500",
+      "sentiment_score": 0.282921,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GFF"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing",
+        "Real Estate"
+      ],
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
+      "title": "Is Tesla’s (TSLA) Stock Really Priced Like a Car Company?",
+      "summary": "Tesla's stock valuation extends beyond a traditional car company, with investors heavily weighing its future in AI, autonomous driving (Robotaxi, FSD), and robotics (Optimus). D...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-stock-really-priced-050301615.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260926T050315",
+      "sentiment_score": 0.068629,
       "sentiment_label": "Neutral",
       "tickers": [
-        "BAC",
-        "RJF",
-        "MS",
-        "C"
+        "TSLA",
+        "COIN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Energy Transportation",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Beyond Meat Inc. stock falls to new 52-week low",
+      "summary": "Beyond Meat Inc. (BYND) shares dropped 9.14% to $8.35, hitting a new 52-week low. This decline occurred on a day when the broader stock market, including the NASDAQ Composite In...",
+      "url": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-falls-to-new-52-week-low-d7c028b4-1ebc8548fa31?mod=mw_quote_news",
+      "source": "MarketWatch",
+      "published_at": "20260926T024902",
+      "sentiment_score": -0.411753,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "BYND"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Darden Restaurants Director Daryl Kenningham Reports Acquisition of RSUs and Stock Holdings",
+      "summary": "Daryl Kenningham, a director at Darden Restaurants Inc. (NYSE:DRI), reported the acquisition of 936 Restricted Stock Units (RSUs) on September 23, 2026. These RSUs, part of the...",
+      "url": "https://kalkinemedia.com/us/news/announcements/darden-restaurants-director-daryl-kenningham-reports-acquisition-of-rsus-and-stock-holdings",
+      "source": "Kalkine Media",
+      "published_at": "20260926T004623",
+      "sentiment_score": 0.110974,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DRI"
+      ],
+      "topics": [
+        "Retail Wholesale",
+        "Finance",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Enphase (ENPH) Wins 80 Utility Approvals. Can Easier Installation Boost Battery Sales?",
+      "summary": "Enphase Energy, Inc. (ENPH) has secured approvals from 80 utilities in the U.S. and Canada for its IQ Meter Collar, which simplifies the installation of home battery backup syst...",
+      "url": "https://finance.yahoo.com/energy/articles/enphase-enph-wins-80-utility-033043125.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260926T031642",
+      "sentiment_score": 0.07435,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ENPH",
+        "COIN",
+        "LEN"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "ExxonMobil Holdings Submits 2025 Resource Extraction Payment Disclosure Report",
+      "summary": "ExxonMobil Holdings Corporation has filed its 2025 Resource Extraction Payment Disclosure Report, detailing $40 billion in global tax and duties expenses and nearly $29 billion...",
+      "url": "https://kalkinemedia.com/us/news/announcements/exxonmobil-holdings-submits-2025-resource-extraction-payment-disclosure-report",
+      "source": "Kalkine Media",
+      "published_at": "20260926T024330",
+      "sentiment_score": 0.266556,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "XOM"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation",
+        "Economy Fiscal"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Coca-Cola Hasn't Sold Much More Soda in a Decade. Its Dividend Has Gone Up Every Year Anyway.",
+      "summary": "Despite Coca-Cola's unit case volume growing by only about 16% over the last decade, the company has increased its dividend every year, with a total increase of 61%. This has be...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/KO/pressreleases/4810970/coca-cola-hasnt-sold-much-more-soda-in-a-decade-its-dividend-has-gone-up-every-year-anyway/",
+      "source": "The Globe and Mail",
+      "published_at": "20260926T021536",
+      "sentiment_score": 0.114543,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KO",
+        "PEP",
+        "NFLX",
+        "NVDA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Retail Wholesale"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Grupo Aeroportuario del Sureste, S. A. B. de C. V. (ASR) stock price, news, quote and history",
+      "summary": "This article provides a detailed financial overview of Grupo Aeroportuario del Sureste, S. A. B. de C. V. (ASR), including its current stock price, historical data, key financia...",
+      "url": "https://uk.finance.yahoo.com/quote/ASR/",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260926T015040",
+      "sentiment_score": 0.111811,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ASR"
       ],
       "topics": [
         "Earnings",
@@ -1053,284 +509,798 @@
         "Energy Transportation",
         "Finance"
       ],
-      "quality_score": 12,
+      "quality_score": 6,
       "is_noise": false
     },
     {
-      "title": "Simulations Plus, Inc. (NASDAQ:SLP) Receives Average Rating of \"Reduce\" from Analysts",
-      "summary": "Simulations Plus, Inc. (NASDAQ:SLP) has received an average \"Reduce\" rating from eight brokerages, with an average 12-month price target of $17.25, below its current trading pri...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-simulations-plus-inc-nasdaq-slp-receives-average-rating-of-reduce-from-analysts-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T062411",
-      "sentiment_score": -0.340027,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Kandal M Venture Switches From Share Purchase to $2.5 Million Convertible Bond in Dumaine",
+      "summary": "Kandal M Venture terminated its agreement to purchase a 15% stake in Dumaine International Ltd. and instead facilitated a related-party financing structure. Padachi M Venture, a...",
+      "url": "https://www.tipranks.com/news/company-announcements/kandal-m-venture-switches-from-share-purchase-to-2-5-million-convertible-bond-in-dumaine",
+      "source": "TipRanks",
+      "published_at": "20260926T005138",
+      "sentiment_score": 0.035562,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "SLP"
+        "FMFC"
+      ],
+      "topics": [
+        "Finance",
+        "Mergers And Acquisitions",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Palo Alto Networks Inc (PANW) Shares Fall 3.9% -- What GF Score of 81 Tells Investors",
+      "summary": "Palo Alto Networks Inc (PANW) shares recently fell 3.9% and are considered significantly overvalued based on its GF Value™ estimate of $233.38 compared to its current price of $...",
+      "url": "https://www.gurufocus.com/news/9097951/palo-alto-networks-inc-panw-shares-fall-39-what-gf-score-of-81-tells-investors",
+      "source": "GuruFocus",
+      "published_at": "20260926T044130",
+      "sentiment_score": -0.471405,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "PANW"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Sempra (SRE), Why Is It Back In Focus?",
+      "summary": "Sempra (SRE) is back in focus following a dividend announcement of $0.66 per share, despite recent share price declines of 8.62% over 30 days and 17.33% over 90 days. The stock...",
+      "url": "https://simplywall.st/stocks/us/utilities/nyse-sre/sempra/news/sempra-sre-why-is-it-back-in-focus",
+      "source": "Simply Wall Street",
+      "published_at": "20260926T023529",
+      "sentiment_score": 0.102549,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SRE"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Technology",
-        "Life Sciences"
+        "Finance",
+        "Energy Transportation",
+        "Economy Macro"
       ],
-      "quality_score": 11,
+      "quality_score": 4,
       "is_noise": false
     },
     {
-      "title": "NewEdge Advisors LLC Reduces Position in Live Nation Entertainment, Inc. $LYV",
-      "summary": "NewEdge Advisors LLC significantly reduced its stake in Live Nation Entertainment, Inc. (NYSE:LYV) by 85.2% during the second quarter, selling 18,557 shares and retaining 3,212...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-newedge-advisors-llc-reduces-position-in-live-nation-entertainment-inc-lyv-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T073130",
-      "sentiment_score": 0.160361,
+      "title": "Geron Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of Geron Corporation...",
+      "summary": "Kahn Swick & Foti, LLC (KSF) has initiated an investigation into the officers and directors of Geron Corporation (NasdaqGS: GERN). The investigation follows a securities class a...",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260925da57377/geron-investigation-initiated-kahn-swick-foti-llc-investigates-the-officers-and-directors-of-geron-corporation-gern",
+      "source": "Morningstar",
+      "published_at": "20260926T022103",
+      "sentiment_score": -0.446852,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "GERN"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Did Excess Returns Focus Just Shift First BanCorp (FBP) Investment Narrative?",
+      "summary": "A recent focus on First BanCorp's strong returns on capital and efficient reinvestment, highlighted by an excess returns model, suggests its intrinsic value may be above its cur...",
+      "url": "https://simplywall.st/stocks/us/banks/nyse-fbp/first-bancorp/news/did-excess-returns-focus-just-shift-first-bancorp-fbp-invest",
+      "source": "Simply Wall Street",
+      "published_at": "20260926T014939",
+      "sentiment_score": 0.248175,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "LYV"
+        "FBNC",
+        "NVDA"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Japan Post Holdings sells $1.55 million of Aflac stock By Investing.com",
+      "summary": "Japan Post Holdings, a director and 10% owner of Aflac Inc. (NYSE:AFL), sold approximately $1.55 million worth of Aflac common stock on September 23, 2026, through two separate...",
+      "url": "https://za.investing.com/news/stock-market-news/japan-post-holdings-sells-155-million-of-aflac-stock-93CH-4478495",
+      "source": "Investing.com South Africa",
+      "published_at": "20260926T014048",
+      "sentiment_score": -0.244691,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "AFL"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "A Look at HubSpot Inc (HUBS) After 3.5% Decline -- GF Value $753",
+      "summary": "HubSpot Inc (HUBS) shares dropped 3.5% to $213.74, placing it significantly undervalued at 71.6% below its GF Value of $753.83. Despite a strong Growth Rank of 8/10, its Valuati...",
+      "url": "https://www.gurufocus.com/news/9098010/a-look-at-hubspot-inc-hubs-after-35-decline-gf-value-75383-vs-price-21374",
+      "source": "GuruFocus",
+      "published_at": "20260926T055227",
+      "sentiment_score": 0.258784,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "HUBS"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Technology"
       ],
-      "quality_score": 10,
+      "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "Artedge Capital Management LLC Purchases 84,860 Shares of Amazon.com, Inc. $AMZN",
-      "summary": "Artedge Capital Management LLC has acquired a new position in Amazon.com, Inc. (NASDAQ:AMZN), purchasing 84,860 shares valued at approximately $20.2 million. This acquisition ma...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-arthedge-capital-management-llc-purchases-84860-shares-of-amazoncom-inc-amzn-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T072317",
-      "sentiment_score": 0.284153,
+      "title": "Dycom Industries stock hits 52-week low at 272.0 USD By Investing.com",
+      "summary": "Dycom Industries (DY) stock reached a 52-week low of $271.88, having declined 6.75% over the past week and 23% over the last six months. Despite the downturn, InvestingPro data...",
+      "url": "https://au.investing.com/news/stock-market-news/dycom-industries-stock-hits-52week-low-at-2720-usd-93CH-4659703",
+      "source": "Investing.com Australia",
+      "published_at": "20260926T035404",
+      "sentiment_score": -0.416901,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "DY"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Las Vegas Sands Corp (LCR.HM) stock price, news, quote and history",
+      "summary": "This page provides comprehensive financial information for Las Vegas Sands Corp (LCR.HM), including its current stock price, historical data, and performance metrics. As of the...",
+      "url": "https://au.finance.yahoo.com/quote/LCR.HM/",
+      "source": "Yahoo Finance Australia",
+      "published_at": "20260926T014911",
+      "sentiment_score": -0.270544,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "LVS"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "What is Charles Schwab’s (SCHW) Economic Moat, and is it Widening or Narrowing?",
+      "summary": "Charles Schwab's economic moat, primarily driven by its vast scale and client assets reaching $13.41 trillion, is narrowing despite continuous client growth. While its custody a...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/charles-schwab-schw-economic-moat-031822884.html",
+      "source": "Yahoo Finance",
+      "published_at": "20260926T011800",
+      "sentiment_score": -0.1726,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "SCHW",
+        "V",
+        "AXP"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Form 4 Humana Inc For: 25 September By Investing.com",
+      "summary": "This article from Investing.com is a regulatory filing update, specifically a Form 4 for Humana Inc., dated September 25. It reports on insider transactions for the company and...",
+      "url": "https://ng.investing.com/news/stock-market-news/form-4-humana-inc-for-25-september-93CH-2709500",
+      "source": "Investing.com Nigeria",
+      "published_at": "20260926T051640",
+      "sentiment_score": 0.000539,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "HUM"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Life Sciences"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Old Dominion (ODFL) Announces a Rate Increase. Can it Keep Customers?",
+      "summary": "Old Dominion Freight Line (ODFL) announced a 4.9% general rate increase effective October 5, 2026, aiming to offset rising operational costs. The company's strong service qualit...",
+      "url": "https://www.insidermonkey.com/news/old-dominion-odfl-announces-a-rate-increase-can-it-keep-customers-1841848/",
+      "source": "Insider Monkey",
+      "published_at": "20260926T041454",
+      "sentiment_score": 0.106391,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ODFL"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Can Caterpillar (CAT) Keep Growing as Construction Slows? AI May Hold the Key",
+      "summary": "Caterpillar (CAT) has seen its stock surge by 37% year-to-date, largely due to strong earnings and its expanding data-center power generation business, leading to a premium valu...",
+      "url": "https://www.insidermonkey.com/news/can-caterpillar-cat-keep-growing-as-construction-slows-ai-may-hold-the-key-1842730/",
+      "source": "Insider Monkey",
+      "published_at": "20260926T041251",
+      "sentiment_score": 0.225812,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
+        "CAT",
+        "NVDA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Manufacturing",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Bio-Techne (TECH) Shareholders Approve the Merck KGaA Takeover and Reject the Pay Package",
+      "summary": "Bio-Techne (TECH) shareholders have approved the acquisition of the company by Merck KGaA for $73 a share, valuing the business at approximately $11.3 billion. Simultaneously, s...",
+      "url": "https://www.insidermonkey.com/news/bio-techne-tech-shareholders-approve-the-merck-kgaa-takeover-and-reject-the-pay-package-1844490/",
+      "source": "Insider Monkey",
+      "published_at": "20260926T041051",
+      "sentiment_score": 0.277635,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "TECH",
+        "TMO"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Life Sciences",
+        "Financial Markets",
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Form 4 Boeing Co For: 26 September",
+      "summary": "This article from Investing.com is a regulatory filing update titled \"Form 4 Boeing Co For: 26 September.\" It indicates a financial transaction related to Boeing Co (BA) that wa...",
+      "url": "https://in.investing.com/news/stock-market-news/form-4-boeing-co-for-26-september-93CH-5607447",
+      "source": "Investing.com India",
+      "published_at": "20260926T040518",
+      "sentiment_score": 0.019006,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BA"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "A Cypherpunk Technologies (CYPH) director sold 50,000 shares at $3.86 each to cover estimated taxes.",
+      "summary": "Cypherpunk Technologies (CYPH) director Patricia A. Martin sold 50,000 shares of common stock at $3.86 per share on September 23, 2026. The sale was executed to cover estimated...",
+      "url": "https://www.stocktitan.net/sec-filings/CYPH/form-4-cypherpunk-technologies-inc-insider-trading-activity-6a1ff7645085.html",
+      "source": "Stock Titan",
+      "published_at": "20260926T035032",
+      "sentiment_score": -0.233181,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "CYPH"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Economy Fiscal"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Form 4 Boeing Co For: 26 September By Investing.com",
+      "summary": "This article announces the filing of a Form 4 for Boeing Co, dated September 26. It briefly mentions Boeing's stock performance (BA +0.65%) within the context of the filing. The...",
+      "url": "https://ca.investing.com/news/stock-market-news/form-4-boeing-co-for-26-september-93CH-4854387",
+      "source": "Investing.com Canada",
+      "published_at": "20260926T034743",
+      "sentiment_score": 0.028429,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BA"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Manufacturing",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Costco (COST) vs Walmart (WMT): Which is a Better Stock to Buy?",
+      "summary": "This article compares Costco (COST) and Walmart (WMT), analyzing their recent financial performance and market positioning. While Costco remains a strong business with high rene...",
+      "url": "https://www.insidermonkey.com/news/costco-cost-vs-walmart-wmt-which-is-a-better-stock-to-buy-1844486/",
+      "source": "Insider Monkey",
+      "published_at": "20260926T034002",
+      "sentiment_score": 0.163501,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "WMT",
+        "COST"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Employee stock awards at Clearway Energy (CWEN) led to 5,275 forfeited shares and 260 withheld for taxes.",
+      "summary": "Clearway Energy (CWEN) reported on September 23, 2026, that 5,275 employee-linked restricted stock shares were forfeited and 260 shares were withheld for tax obligations at $30....",
+      "url": "https://www.stocktitan.net/sec-filings/CWEN/form-4-clearway-energy-inc-insider-trading-activity-3b05fe214c01.html",
+      "source": "Stock Titan",
+      "published_at": "20260926T032238",
+      "sentiment_score": 0.037229,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CWEN"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "A quarterly dividend left Avnet (AVT) director Virginia Henkels holding 7,717 stock-linked units.",
+      "summary": "Avnet (AVT) director Virginia Henkels acquired 29 Phantom Stock Units on September 23, 2026, as a result of a quarterly dividend. These units will convert to common stock upon h...",
+      "url": "https://www.stocktitan.net/sec-filings/AVT/form-4-avnet-inc-insider-trading-activity-0dc25b6f9ea8.html",
+      "source": "Stock Titan",
+      "published_at": "20260926T014634",
+      "sentiment_score": 0.133814,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AVT"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Applied Digital Corp. SEC Filing (Sep 25, 2026)",
+      "summary": "This article announces an SEC filing (Form ARS) by Applied Digital Corp. (APLD) on September 25, 2026, which was accepted by the SEC at 04:34 PM. It provides details on the fili...",
+      "url": "https://www.stocktitan.net/sec-filings/APLD/ars-applied-digital-corp-sec-filing-ebccf70d50fa.html",
+      "source": "Stock Titan",
+      "published_at": "20260926T012717",
+      "sentiment_score": 0.043322,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "APLD"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Form 4 Cohu Inc For: 25 September By Investing.com",
+      "summary": "This article announces the filing of Form 4 for Cohu Inc. on September 25. It is a brief financial news update indicating a transaction or change in ownership for the company's...",
+      "url": "https://in.investing.com/news/stock-market-news/form-4-cohu-inc-for-25-september-93CH-5607408",
+      "source": "Investing.com India",
+      "published_at": "20260926T011948",
+      "sentiment_score": 0.035562,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "COHU"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "A 27,236-share sale under a trading plan leaves Cohu (COHU) CEO Luis Muller reporting 844,589 shares.",
+      "summary": "Cohu Inc.'s President & CEO, Luis A. Muller, sold 27,236 shares of common stock at $65.00 per share on September 25, 2026, under a Rule 10b5-1(c) plan adopted on May 28, 2026. F...",
+      "url": "https://www.stocktitan.net/sec-filings/COHU/form-4-cohu-inc-insider-trading-activity-791731b7a3de.html",
+      "source": "Stock Titan",
+      "published_at": "20260926T011948",
+      "sentiment_score": -0.298665,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "COHU"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Cohu (COHU) director Andrew M. Caggia received 326 stock units as fees, bringing his reported total to 65,104 shares.",
+      "summary": "Cohu director Andrew M. Caggia was granted 326 Deferred Stock Units (DSUs) as director fees on September 25, 2026. This transaction increased his total reported holdings to 65,1...",
+      "url": "https://www.stocktitan.net/sec-filings/COHU/form-4-cohu-inc-insider-trading-activity-52132a2387e2.html",
+      "source": "Stock Titan",
+      "published_at": "20260926T011947",
+      "sentiment_score": 0.021948,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "COHU"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Kaplan Fox & Kilsheimer LLP Alerts DICK's Sporting Goods, Inc. (NYSE: DKS) Investors to the Lead Plaintiff Deadline...",
+      "summary": "Kaplan Fox & Kilsheimer LLP has filed a class action lawsuit against DICK's Sporting Goods, Inc. (NYSE: DKS) on behalf of investors who purchased stock between September 8, 2025...",
+      "url": "https://www.financialcontent.com/article/newmediawire-2026-9-26-kaplan-fox-and-kilsheimer-llp-alerts-dicks-sporting-goods-inc-nyse-dks-investors-to-the-lead-plaintiff-deadline-on-november-3-2026",
+      "source": "FinancialContent",
+      "published_at": "20260926T011714",
+      "sentiment_score": -0.460752,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "DKS"
+      ],
+      "topics": [
+        "Finance",
+        "Retail Wholesale",
+        "Earnings",
+        "Mergers And Acquisitions"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    }
+  ],
+  "article_count": 50,
+  "top_ticker": "NVDA",
+  "top_topic": "Earnings",
+  "dominant_sentiment": "Neutral",
+  "top_story": "AeroVironment slips as investors weigh unchanged outlook and recent target cuts",
+  "signal_articles": [
+    {
+      "title": "AeroVironment slips as investors weigh unchanged outlook and recent target cuts",
+      "summary": "AeroVironment (AVAV) stock dipped 3.8% due to investor caution following its Q1 2027 earnings report and recent analyst target cuts. Despite solid revenue growth, strong backlog...",
+      "url": "https://www.quiverquant.com/news/AeroVironment+slips+as+investors+weigh+unchanged+outlook+and+recent+target+cuts",
+      "source": "Quiver Quantitative",
+      "published_at": "20260926T015057",
+      "sentiment_score": -0.27217,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "AVAV"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 19,
+      "is_noise": false
+    },
+    {
+      "title": "Wall Street Zen Upgrades Archer Daniels Midland (NYSE:ADM) to Strong-Buy",
+      "summary": "Wall Street Zen has upgraded Archer Daniels Midland (NYSE:ADM) to a \"strong buy\" rating, joining other analysts who have also raised ratings or price targets. Despite this, the...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-wall-street-zen-upgrades-archer-daniels-midland-nyse-adm-to-strong-buy-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T052346",
+      "sentiment_score": 0.219077,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ADM",
+        "BLK",
+        "WMT",
+        "COST",
         "AMZN"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Retail Wholesale",
-        "Technology",
+        "Finance",
         "Economy Macro"
       ],
-      "quality_score": 10,
+      "quality_score": 17,
       "is_noise": false
     },
     {
-      "title": "Targa Resources, Inc. $TRGP Stock Holdings Raised by Envestnet Asset Management Inc.",
-      "summary": "Envestnet Asset Management Inc. has increased its stake in Targa Resources, Inc. (NYSE:TRGP) by 5.8%, bringing its total holdings to 756,768 shares. This comes as institutional...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-targa-resources-inc-trgp-stock-holdings-raised-by-envestnet-asset-management-inc-2026-09-25/",
+      "title": "Wall Street Zen Downgrades Gevo (NASDAQ:GEVO) to Strong Sell",
+      "summary": "Wall Street Zen has downgraded Gevo (NASDAQ:GEVO) to a \"strong sell,\" despite the broader analyst consensus remaining a \"hold\" with a $2.55 average price target. The company's s...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-wall-street-zen-downgrades-gevo-nasdaq-gevo-to-strong-sell-2026-09-26/",
       "source": "MarketBeat",
-      "published_at": "20260925T072303",
-      "sentiment_score": 0.23457,
-      "sentiment_label": "Somewhat-Bullish",
+      "published_at": "20260926T051432",
+      "sentiment_score": -0.472507,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "TRGP",
-        "STT",
-        "JPM",
-        "TFC"
+        "GEVO"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Energy Transportation"
       ],
-      "quality_score": 10,
+      "quality_score": 17,
       "is_noise": false
     },
     {
-      "title": "Gilead Sciences, Inc. $GILD Stake Decreased by Envestnet Asset Management Inc.",
-      "summary": "Envestnet Asset Management Inc. reduced its stake in Gilead Sciences (NASDAQ:GILD) by 5.9% in the second quarter, selling 109,500 shares but still retaining over 1.7 million sha...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-gilead-sciences-inc-gild-stake-decreased-by-envestnet-asset-management-inc-2026-09-25/",
+      "title": "GSI Technology (NASDAQ:GSIT) Stock Rating Lowered by Wall Street Zen",
+      "summary": "Wall Street Zen has downgraded GSI Technology (NASDAQ:GSIT) from a \"sell\" to a \"strong sell\" rating. Despite a consensus price target of $9.00, analysts are split, leading to an...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-gsi-technology-nasdaq-gsit-stock-rating-lowered-by-wall-street-zen-2026-09-26/",
       "source": "MarketBeat",
-      "published_at": "20260925T072300",
-      "sentiment_score": 0.128495,
-      "sentiment_label": "Neutral",
+      "published_at": "20260926T051519",
+      "sentiment_score": -0.236303,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "GILD"
+        "GSIT"
       ],
       "topics": [
-        "Life Sciences",
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Technology"
       ],
-      "quality_score": 10,
+      "quality_score": 14,
       "is_noise": false
     },
     {
-      "title": "IFF stock heads into the open after a 0.3 percent gain",
-      "summary": "International Flavors & Fragrances (IFF) stock saw a 0.3 percent gain, closing at USD 86.74 on September 24, 2026, despite a slight dip in the S&P 500 and Dow. Analysts have iss...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/iff-stock-heads-into-the-open-after-a-0-3-percent-gain/70181306",
-      "source": "AD HOC NEWS",
-      "published_at": "20260925T065403",
-      "sentiment_score": 0.11334,
+      "title": "Invesco (NYSE:IVZ) Stock Rating Cut to \"Hold\" at Wall Street Zen",
+      "summary": "Wall Street Zen downgraded Invesco (NYSE:IVZ) from a \"Buy\" to a \"Hold\" rating, aligning with the broader analyst consensus. The company recently exceeded quarterly EPS and reven...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-invesco-nyse-ivz-stock-rating-cut-to-hold-at-wall-street-zen-2026-09-26/",
+      "source": "MarketBeat",
+      "published_at": "20260926T051257",
+      "sentiment_score": 0.028349,
       "sentiment_label": "Neutral",
       "tickers": [
-        "IFF",
-        "SPGI",
-        "BKR"
+        "IVZ",
+        "BLK",
+        "JPM",
+        "COST",
+        "FANG"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 14,
+      "is_noise": false
+    },
+    {
+      "title": "Core & Main, Inc. (CNM) Stock forecasts",
+      "summary": "This article from Yahoo Finance is largely empty, displaying an error message where content should be. It lists various financial market data such as indices, currencies, and co...",
+      "url": "https://uk.finance.yahoo.com/research/reports/ARGUS_6173_QuantitativeReport_1790121600000",
+      "source": "Yahoo Finance UK",
+      "published_at": "20260926T031808",
+      "sentiment_score": 0.046379,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CNM",
+        "NVDA",
+        "TSLA",
+        "AAPL",
+        "MSFT"
       ],
       "topics": [
         "Financial Markets",
-        "Earnings",
-        "Economy Macro"
+        "Earnings"
       ],
-      "quality_score": 9,
+      "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "9,807 Shares in Amazon.com, Inc. $AMZN Acquired by Philadelphia Investment Partners LLC",
-      "summary": "Philadelphia Investment Partners LLC recently acquired 9,807 shares of Amazon.com, Inc. (NASDAQ:AMZN) in the second quarter, valuing their new stake at approximately $2.338 mill...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-9807-shares-in-amazoncom-inc-amzn-acquired-by-philadelphia-investment-partners-llc-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T073317",
-      "sentiment_score": 0.23404,
+      "title": "AAON Stock Rises As DA Davidson Sets $110 Price Target",
+      "summary": "AAON Inc. stock rose by 6.67% following strong earnings and optimistic guidance. DA Davidson initiated coverage with a Buy rating and a $110 price target, citing AAON's premium...",
+      "url": "https://stockstotrade.com/news/aaoninc-aaon-news-2026_09_25/",
+      "source": "StocksToTrade",
+      "published_at": "20260926T012133",
+      "sentiment_score": 0.460516,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "AAON"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing",
+        "Real Estate",
+        "Technology"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "ServiceNow Effectively Integrates AI into Services",
+      "summary": "ServiceNow is successfully integrating AI into its services, aiming to boost competitiveness and client acquisition, though specific details remain undisclosed. Despite this, th...",
+      "url": "https://intellectia.ai/news/stock/servicenow-effectively-integrates-ai-into-services",
+      "source": "Intellectia AI",
+      "published_at": "20260926T010842",
+      "sentiment_score": 0.205763,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "AMZN",
-        "GNRC",
-        "BBY"
+        "NOW",
+        "CRM"
       ],
       "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
         "Technology",
-        "Economy Macro"
+        "Financial Markets",
+        "Earnings"
       ],
-      "quality_score": 7,
+      "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "Park West Asset Management LLC Acquires New Stake in Amazon.com, Inc. $AMZN",
-      "summary": "Park West Asset Management LLC has acquired a new stake in Amazon.com, Inc. (NASDAQ:AMZN) by purchasing 324,570 shares valued at approximately $77.36 million, making it their se...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-park-west-asset-management-llc-acquires-new-stake-in-amazoncom-inc-amzn-2026-09-25/",
+      "title": "L3Harris Technologies (NYSE:LHX) Stock Rating Cut to Hold at Wall Street Zen",
+      "summary": "Wall Street Zen has downgraded L3Harris Technologies (NYSE:LHX) from a \"buy\" to a \"hold\" rating, mirroring recent downgrades from other firms like Argus and Weiss Ratings. Despi...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-l3harris-technologies-nyse-lhx-stock-rating-cut-to-hold-at-wall-street-zen-2026-09-26/",
       "source": "MarketBeat",
-      "published_at": "20260925T073317",
-      "sentiment_score": 0.184181,
-      "sentiment_label": "Somewhat-Bullish",
+      "published_at": "20260926T052349",
+      "sentiment_score": -0.22553,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "AMZN",
-        "BBY",
-        "WMT"
+        "LHX"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Retail Wholesale",
-        "Technology"
+        "Finance"
       ],
-      "quality_score": 7,
+      "quality_score": 11,
       "is_noise": false
     },
     {
-      "title": "Point Break Capital Management LLC Buys New Shares in Amazon.com, Inc. $AMZN",
-      "summary": "Point Break Capital Management LLC has acquired a new stake in Amazon.com, Inc. (NASDAQ:AMZN) during the second quarter, purchasing 32,607 shares valued at approximately $7.77 m...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-point-break-capital-management-llc-buys-new-shares-in-amazoncom-inc-amzn-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260925T073317",
-      "sentiment_score": 0.146296,
-      "sentiment_label": "Neutral",
+      "title": "Emerson Electric (EMR) Stock Looks Above Fair Value Despite Qatar Service Center Plans",
+      "summary": "Emerson Electric (EMR) stock has seen significant growth over the past five years, prompting an analysis of whether its current share price aligns with its earnings. Despite pla...",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-emr/emerson-electric/news/emerson-electric-emr-stock-looks-above-fair-value-despite-qa/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20260926T044654",
+      "sentiment_score": -0.281869,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "AMZN",
-        "BAC"
+        "EMR"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Retail Wholesale",
-        "Technology"
+        "Finance",
+        "Manufacturing"
       ],
-      "quality_score": 7,
+      "quality_score": 10,
       "is_noise": false
     }
   ],
   "top_tickers": [
     {
-      "ticker": "BAC",
-      "mentions": 10
-    },
-    {
-      "ticker": "AMZN",
-      "mentions": 10
-    },
-    {
-      "ticker": "BBY",
-      "mentions": 5
-    },
-    {
-      "ticker": "JPM",
+      "ticker": "NVDA",
       "mentions": 3
     },
     {
-      "ticker": "GNRC",
+      "ticker": "COIN",
       "mentions": 3
+    },
+    {
+      "ticker": "BLK",
+      "mentions": 2
+    },
+    {
+      "ticker": "WMT",
+      "mentions": 2
+    },
+    {
+      "ticker": "COST",
+      "mentions": 2
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 45
+      "mentions": 35
     },
     {
       "topic": "Financial Markets",
-      "mentions": 43
+      "mentions": 28
     },
     {
       "topic": "Finance",
-      "mentions": 16
+      "mentions": 19
     },
     {
       "topic": "Technology",
-      "mentions": 16
+      "mentions": 10
     },
     {
-      "topic": "Retail Wholesale",
-      "mentions": 16
+      "topic": "Energy Transportation",
+      "mentions": 7
     }
   ],
   "sentiment_counts": [
     {
-      "label": "Somewhat-Bullish",
-      "count": 22
-    },
-    {
       "label": "Neutral",
-      "count": 16
+      "count": 12
     },
     {
-      "label": "Bullish",
-      "count": 3
-    },
-    {
-      "label": "Bearish",
-      "count": 3
+      "label": "Somewhat-Bullish",
+      "count": 10
     },
     {
       "label": "Somewhat-Bearish",
+      "count": 7
+    },
+    {
+      "label": "Bearish",
+      "count": 5
+    },
+    {
+      "label": "Bullish",
       "count": 1
     }
   ],
   "top_sources": [
     {
       "source": "MarketBeat",
-      "count": 34
+      "count": 5
     },
     {
-      "source": "AD HOC NEWS",
-      "count": 8
+      "source": "Simply Wall Street",
+      "count": 4
     },
     {
-      "source": "FinanceFeeds",
-      "count": 1
+      "source": "Yahoo Finance",
+      "count": 4
     },
     {
-      "source": "Seeking Alpha",
-      "count": 1
+      "source": "Kalkine Media",
+      "count": 3
     },
     {
-      "source": "scanx.trade",
-      "count": 1
+      "source": "GuruFocus",
+      "count": 3
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with BAC appearing most often and the headline tone mostly somewhat-bullish."
+  "takeaway": "News flow is centered on Earnings, with NVDA appearing most often and the headline tone mostly neutral."
 }
