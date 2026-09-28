@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-bac-2026-09-28",
+    "date": "2026-09-28",
+    "runDate": "2026-09-28",
+    "createdAt": "2026-09-28T08:54:16.995459+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$BAC news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-28.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-28T08:54:15.401724+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BAC",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "BAC",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-28T08:54:15.401724+00:00",
+      "date": "2026-09-28",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "BAC",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Envestnet Asset Management Inc. Raises Stock Position in Ball Corporation $BALL",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 56.7, 'd': 0.67, 'dp': 1.1958, 'h': 56.745, 'l': 55.865, 'o': 56.31, 'pc': 56.03, 't': 1790366400}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "BAC",
+            "mentions": 10
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 8
+          },
+          {
+            "ticker": "GNRC",
+            "mentions": 8
+          },
+          {
+            "ticker": "AAPL",
+            "mentions": 8
+          },
+          {
+            "ticker": "META",
+            "mentions": 7
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 22
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 17
+          },
+          {
+            "label": "Bullish",
+            "count": 4
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-bac-2026-09-28",
     "date": "2026-09-28",
     "runDate": "2026-09-28",

@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-27T08:29:36.724024+00:00",
-  "date": "2026-09-27",
+  "updated_at": "2026-09-28T08:54:15.401724+00:00",
+  "date": "2026-09-28",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
   "symbol": "BAC",
-  "news_tone": "Somewhat Bullish",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Clarus (NASDAQ:CLAR) Stock Rating Raised to \"Buy\" at Wall Street Zen",
+  "headline": "Envestnet Asset Management Inc. Raises Stock Position in Ball Corporation $BALL",
   "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
@@ -21,7 +21,7 @@
     "top_tickers": [
       {
         "ticker": "BAC",
-        "mentions": 11
+        "mentions": 10
       },
       {
         "ticker": "AMZN",
@@ -29,37 +29,33 @@
       },
       {
         "ticker": "GNRC",
-        "mentions": 5
+        "mentions": 8
       },
       {
-        "ticker": "AKAM",
-        "mentions": 4
+        "ticker": "AAPL",
+        "mentions": 8
       },
       {
-        "ticker": "WMT",
-        "mentions": 3
+        "ticker": "META",
+        "mentions": 7
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Somewhat-Bullish",
-        "count": 18
+        "label": "Neutral",
+        "count": 22
       },
       {
-        "label": "Neutral",
+        "label": "Somewhat-Bullish",
         "count": 17
       },
       {
         "label": "Bullish",
-        "count": 5
+        "count": 4
       },
       {
         "label": "Somewhat-Bearish",
         "count": 3
-      },
-      {
-        "label": "Bearish",
-        "count": 1
       }
     ]
   }
