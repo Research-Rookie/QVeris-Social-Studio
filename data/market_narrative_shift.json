@@ -1,89 +1,101 @@
 {
-  "updated_at": "2026-09-27T07:27:46.421654+00:00",
-  "date": "2026-09-27",
+  "updated_at": "2026-09-28T08:05:38.418276+00:00",
+  "date": "2026-09-28",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "CB",
-  "shift_label": "Theme rotation",
-  "sentiment_delta": -0.0637,
-  "baseline_label": "2026-08-10",
+  "symbol": "BAC",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.2288,
+  "baseline_label": "2026-09-20",
   "current": {
-    "date": "2026-09-27",
-    "symbol": "CB",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.0267,
-    "top_theme": "Financial Markets",
+    "date": "2026-09-28",
+    "symbol": "BAC",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.1364,
+    "top_theme": "Earnings",
     "themes": [
       {
+        "label": "Earnings",
+        "count": 2
+      },
+      {
         "label": "Financial Markets",
+        "count": 2
+      },
+      {
+        "label": "Economy Macro",
+        "count": 2
+      },
+      {
+        "label": "Retail Wholesale",
         "count": 1
       },
       {
-        "label": "Earnings",
+        "label": "Finance",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "chubb",
+        "label": "bank",
+        "count": 3
+      },
+      {
+        "label": "america",
+        "count": 3
+      },
+      {
+        "label": "has",
+        "count": 3
+      },
+      {
+        "label": "nike",
         "count": 2
       },
       {
-        "label": "ltd",
+        "label": "lowest",
         "count": 2
       },
       {
-        "label": "chbb",
+        "label": "consensus",
         "count": 2
       },
       {
-        "label": "recommendations",
+        "label": "target",
         "count": 2
       },
       {
-        "label": "insights",
+        "label": "wall",
         "count": 1
       },
       {
-        "label": "targets",
+        "label": "street",
         "count": 1
       },
       {
-        "label": "yahoo",
+        "label": "fandom",
         "count": 1
       },
       {
-        "label": "finance",
+        "label": "bofa",
         "count": 1
       },
       {
-        "label": "article",
-        "count": 1
-      },
-      {
-        "label": "provides",
-        "count": 1
-      },
-      {
-        "label": "summary",
-        "count": 1
-      },
-      {
-        "label": "for",
+        "label": "downgrades",
         "count": 1
       }
     ],
-    "headline": "CHUBB LTD (CHBB.VI) Analyst Insights, Price Targets & Recommendations - Yahoo Finance",
-    "headline_source": "Yahoo! Finance Canada"
+    "headline": "Wall Street’s Nike fandom lowest in 25 years as BofA downgrades",
+    "headline_source": "FashionNetwork USA"
   },
   "previous": {
-    "date": "2026-08-10",
-    "symbol": "CB",
+    "date": "2026-09-20",
+    "symbol": "BAC",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.0904,
+    "sentiment_score": 0.3652,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -93,76 +105,91 @@
       {
         "label": "Financial Markets",
         "count": 1
+      },
+      {
+        "label": "Retail Wholesale",
+        "count": 1
+      },
+      {
+        "label": "Life Sciences",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "zhibao",
+        "label": "cvs",
+        "count": 4
+      },
+      {
+        "label": "health",
         "count": 2
       },
       {
-        "label": "technology",
+        "label": "strong-buy",
         "count": 2
       },
       {
-        "label": "zbao",
+        "label": "wall",
         "count": 2
       },
       {
-        "label": "earnings",
+        "label": "street",
         "count": 2
       },
       {
-        "label": "forecast",
+        "label": "zen",
         "count": 2
       },
       {
-        "label": "future",
+        "label": "raised",
         "count": 1
       },
       {
-        "label": "eps",
+        "label": "upgraded",
         "count": 1
       },
       {
-        "label": "revenue",
+        "label": "rating",
         "count": 1
       },
       {
-        "label": "growth",
+        "label": "contributing",
         "count": 1
       },
       {
-        "label": "estimates",
+        "label": "overall",
         "count": 1
       },
       {
-        "label": "article",
-        "count": 1
-      },
-      {
-        "label": "provides",
+        "label": "moderate",
         "count": 1
       }
     ],
-    "headline": "Zhibao Technology Inc (ZBAO) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-    "headline_source": "TradingKey"
+    "headline": "CVS Health (NYSE:CVS) Raised to \"Strong-Buy\" at Wall Street Zen",
+    "headline_source": "MarketBeat"
   },
   "emerging_themes": [
-    "Financial Markets",
-    "Earnings"
+    "Economy Macro",
+    "Earnings",
+    "Financial Markets"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Life Sciences"
+  ],
   "emerging_keywords": [
-    "chubb",
-    "ltd",
-    "chbb"
+    "bank",
+    "america",
+    "has"
   ],
   "fading_keywords": [
-    "zhibao",
-    "technology",
-    "zbao"
+    "cvs",
+    "health",
+    "strong-buy"
   ],
-  "takeaway": "CB's narrative is theme rotation: sentiment moved -0.06, while the leading theme shifted from Earnings to Financial Markets.",
+  "takeaway": "BAC's narrative is turning bearish: sentiment moved -0.23, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

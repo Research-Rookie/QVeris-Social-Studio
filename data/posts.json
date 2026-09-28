@@ -1,5 +1,220 @@
 [
   {
+    "id": "market-narrative-shift-bac-2026-09-28",
+    "date": "2026-09-28",
+    "runDate": "2026-09-28",
+    "createdAt": "2026-09-28T08:05:40.409636+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $BAC",
+    "status": "ready",
+    "tweet": "What changed in $BAC's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.23\n📌 Top theme: Earnings\n🔎 Emerging term: bank\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_BAC_2026-09-28.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-28T08:05:38.418276+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BAC",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "BAC",
+    "topChangePct": -22.88,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-28T08:05:38.418276+00:00",
+      "date": "2026-09-28",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "BAC",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.2288,
+      "baseline_label": "2026-09-20",
+      "current": {
+        "date": "2026-09-28",
+        "symbol": "BAC",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.1364,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 2
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "bank",
+            "count": 3
+          },
+          {
+            "label": "america",
+            "count": 3
+          },
+          {
+            "label": "has",
+            "count": 3
+          },
+          {
+            "label": "nike",
+            "count": 2
+          },
+          {
+            "label": "lowest",
+            "count": 2
+          },
+          {
+            "label": "consensus",
+            "count": 2
+          },
+          {
+            "label": "target",
+            "count": 2
+          },
+          {
+            "label": "wall",
+            "count": 1
+          },
+          {
+            "label": "street",
+            "count": 1
+          },
+          {
+            "label": "fandom",
+            "count": 1
+          },
+          {
+            "label": "bofa",
+            "count": 1
+          },
+          {
+            "label": "downgrades",
+            "count": 1
+          }
+        ],
+        "headline": "Wall Street’s Nike fandom lowest in 25 years as BofA downgrades",
+        "headline_source": "FashionNetwork USA"
+      },
+      "previous": {
+        "date": "2026-09-20",
+        "symbol": "BAC",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.3652,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "cvs",
+            "count": 4
+          },
+          {
+            "label": "health",
+            "count": 2
+          },
+          {
+            "label": "strong-buy",
+            "count": 2
+          },
+          {
+            "label": "wall",
+            "count": 2
+          },
+          {
+            "label": "street",
+            "count": 2
+          },
+          {
+            "label": "zen",
+            "count": 2
+          },
+          {
+            "label": "raised",
+            "count": 1
+          },
+          {
+            "label": "upgraded",
+            "count": 1
+          },
+          {
+            "label": "rating",
+            "count": 1
+          },
+          {
+            "label": "contributing",
+            "count": 1
+          },
+          {
+            "label": "overall",
+            "count": 1
+          },
+          {
+            "label": "moderate",
+            "count": 1
+          }
+        ],
+        "headline": "CVS Health (NYSE:CVS) Raised to \"Strong-Buy\" at Wall Street Zen",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Economy Macro",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Life Sciences"
+      ],
+      "emerging_keywords": [
+        "bank",
+        "america",
+        "has"
+      ],
+      "fading_keywords": [
+        "cvs",
+        "health",
+        "strong-buy"
+      ],
+      "takeaway": "BAC's narrative is turning bearish: sentiment moved -0.23, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-28",
     "date": "2026-09-28",
     "runDate": "2026-09-28",
