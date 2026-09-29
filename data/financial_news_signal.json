@@ -1,17 +1,36 @@
 {
-  "updated_at": "2026-09-29T07:07:36.505199+00:00",
+  "updated_at": "2026-09-29T07:46:26.922714+00:00",
   "date": "2026-09-29",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
+      "title": "Nucor stock falls 1.11 percent as Q3 guidance trails estimates",
+      "summary": "Nucor Corporation's stock fell 1.11% after its Q3 EPS guidance of $5.55 to $5.65 trailed the consensus estimate of $6.17. Despite the lower outlook compared to analyst expectati...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nucor-stock-falls-1-11-percent-as-q3-guidance-trails-estimates/70196288",
+      "source": "AD HOC NEWS",
+      "published_at": "20260929T073500",
+      "sentiment_score": -0.210501,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "NUE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
       "title": "Copart stock falls 1.34 percent as analyst target rises to USD 43.00",
       "summary": "Copart Inc. stock fell 1.34% to USD 27.22 despite BNP Paribas Exane raising its price target to USD 43.00. While fiscal Q4 revenue increased by 2.4%, gross profit and net income...",
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/copart-stock-falls-1-34-percent-as-analyst-target-rises-to-usd-43-00/70196349",
       "source": "AD HOC NEWS",
       "published_at": "20260929T065600",
-      "sentiment_score": -0.18876,
+      "sentiment_score": -0.194759,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CPRT"
@@ -25,24 +44,23 @@
       "is_noise": false
     },
     {
-      "title": "Best Buy stock trades at USD 89.91 after analyst upgrade",
-      "summary": "Best Buy stock is trading at $89.91 after DA Davidson upgraded the retailer from Hold to Strong Buy. This upgrade comes despite a broader Hold consensus and an average 12-month...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/best-buy-stock-trades-at-usd-89-91-after-analyst-upgrade/70196065",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T041330",
-      "sentiment_score": 0.444578,
-      "sentiment_label": "Bullish",
+      "title": "Bank of America Corp DE Makes New $3.96 Million Investment in Marcus & Millichap, Inc. $MMI",
+      "summary": "Bank of America Corp DE has invested $3.96 million in Marcus & Millichap, acquiring 127,219 shares and representing a 0.34% stake. Despite this new investment, analysts maintain...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-makes-new-396-million-investment-in-marcus-millichap-inc-mmi-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070851",
+      "sentiment_score": 0.144233,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "BBY"
+        "BAC"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Retail Wholesale",
-        "Technology",
-        "Economy Macro"
+        "Real Estate",
+        "Finance"
       ],
-      "quality_score": 13,
+      "quality_score": 12,
       "is_noise": false
     },
     {
@@ -51,7 +69,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/molina-healthcare-stock-faces-october-results-after-profit-drop/70196601",
       "source": "AD HOC NEWS",
       "published_at": "20260929T063629",
-      "sentiment_score": -0.249133,
+      "sentiment_score": -0.236367,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "MOH"
@@ -65,12 +83,55 @@
       "is_noise": false
     },
     {
+      "title": "Allegion PLC (NYSE:ALLE) Stock Has Average Target Price of $162.50",
+      "summary": "Allegion PLC (NYSE:ALLE) has an average \"Hold\" rating from analysts with a target price of $162.50, slightly above its current trading price. The company recently reported stron...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-allegion-plc-nyse-alle-stock-has-average-target-price-of-16250-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T063753",
+      "sentiment_score": 0.261867,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ALLE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 11,
+      "is_noise": false
+    },
+    {
+      "title": "Colgate-Palmolive Company (NYSE:CL) Stock Has Consensus Target Price of $98.94",
+      "summary": "Colgate-Palmolive Company (NYSE:CL) has a \"Moderate Buy\" consensus rating from analysts, with an average 12-month price target of $98.94, exceeding its current share price of $8...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-colgate-palmolive-company-nyse-cl-stock-has-consensus-target-price-of-9894-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T063850",
+      "sentiment_score": 0.170559,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CL",
+        "JPM",
+        "MS",
+        "BAC",
+        "WFC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Retail Wholesale",
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
       "title": "Royal Bank Of Canada (NYSE:RY) Stock Has Consensus Price Target of $225.00 According to Brokerages",
       "summary": "Royal Bank of Canada (NYSE:RY) has a \"Moderate Buy\" consensus rating from analysts, with an average 12-month price target of $225.00, exceeding its opening price of $201.10. The...",
       "url": "https://www.marketbeat.com/instant-alerts/consensus-royal-bank-of-canada-nyse-ry-stock-has-consensus-price-target-of-22500-according-to-brokerages-2026-09-29/",
       "source": "MarketBeat",
       "published_at": "20260929T062506",
-      "sentiment_score": 0.304136,
+      "sentiment_score": 0.306571,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "RY"
@@ -89,7 +150,7 @@
       "url": "https://www.investing.com/news/analyst-ratings/da-davidson-cuts-procore-stock-price-target-on-construction-headwinds-93CH-4920634",
       "source": "Investing.com",
       "published_at": "20260929T055213",
-      "sentiment_score": -0.186946,
+      "sentiment_score": -0.221438,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "PCOR"
@@ -105,12 +166,113 @@
       "is_noise": false
     },
     {
+      "title": "Intercontinental Exchange stock expands fixed income with MarketAxess deal",
+      "summary": "Intercontinental Exchange (ICE) is set to acquire MarketAxess for $5.7 billion, a move that will expand its fixed income and data platform by adding over 2,100 institutional fir...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/intercontinental-exchange-stock-expands-fixed-income-with-marketaxess-deal/70196473",
+      "source": "AD HOC NEWS",
+      "published_at": "20260929T071724",
+      "sentiment_score": 0.371124,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ICE",
+        "MKTX"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Amazon.com, Inc. $AMZN Stock Sold by Ancora Advisors LLC",
+      "summary": "Ancora Advisors LLC reduced its stake in Amazon.com (AMZN) by 2.6% in the second quarter, selling 4,519 shares but retaining 167,856 shares valued at $40 million. Despite this,...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-stock-sold-by-ancora-advisors-llc-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070923",
+      "sentiment_score": 0.170256,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "AMZN",
+        "BBY"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology",
+        "Retail Wholesale"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Caesars Entertainment stock trades at USD 29.59 as FTC review extends",
+      "summary": "Caesars Entertainment (CZR) stock closed at USD 29.59, with its value impacted by an extended FTC review of the Fertitta transaction. The Federal Trade Commission requested addi...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/caesars-entertainment-stock-trades-at-usd-29-59-as-ftc-review-extends/70196712",
+      "source": "AD HOC NEWS",
+      "published_at": "20260929T070000",
+      "sentiment_score": 0.080976,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CZR"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Hasbro stock gained 1.54 percent as Goldman cut its target",
+      "summary": "Hasbro (HAS) stock rose 1.54% to USD 89.45 on September 28, 2026, despite Goldman Sachs lowering its price target from USD 117.00 to USD 115.00. The company's Q2 2026 revenue in...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/hasbro-stock-gained-1-54-percent-as-goldman-cut-its-target/70196342",
+      "source": "AD HOC NEWS",
+      "published_at": "20260929T061705",
+      "sentiment_score": 0.140915,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "HAS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Retail Wholesale"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "The Goldman Sachs Group, Inc. Disclosure in NORWEGIAN AIR SHUTTLE ASA- 25 September 2026",
+      "summary": "This article announces a disclosure from The Goldman Sachs Group, Inc. regarding Norwegian Air Shuttle ASA, dated September 25, 2026. It provides a link to the official disclosu...",
+      "url": "https://www.marketscreener.com/news/the-goldman-sachs-group-inc-disclosure-in-norwegian-air-shuttle-asa-25-september-2026-ce785adddb88f024",
+      "source": "www.marketscreener.com",
+      "published_at": "20260929T061703",
+      "sentiment_score": 0.008519,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "GS"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Earnings",
+        "Energy Transportation"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
       "title": "Cboe Global Markets stock fell 1.87 percent as Q3 date was set",
       "summary": "Cboe Global Markets stock fell by 1.87% to USD 253.20 on September 28, 2026, after the company announced its third-quarter earnings date for October 30, 2026. This follows a str...",
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/cboe-global-markets-stock-fell-1-87-percent-as-q3-date-was-set/70196417",
       "source": "AD HOC NEWS",
       "published_at": "20260929T060840",
-      "sentiment_score": -0.227534,
+      "sentiment_score": -0.213829,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CBOE"
@@ -128,7 +290,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/mettler-toledo-stock-gains-2-22-percent-near-its-yearly-high/70196393",
       "source": "AD HOC NEWS",
       "published_at": "20260929T060439",
-      "sentiment_score": 0.291921,
+      "sentiment_score": 0.271591,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "MTD"
@@ -143,171 +305,12 @@
       "is_noise": false
     },
     {
-      "title": "W. R. Berkley stock gained 1.26 percent as Mizuho cut target",
-      "summary": "W. R. Berkley stock gained 1.26% after Mizuho cut its price target from $74.00 to $72.00, maintaining a neutral rating. Despite the cautious analyst stance, W. R. Berkley's Q2 2...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/w-r-berkley-stock-gained-1-26-percent-as-mizuho-cut-target/70196254",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T051914",
-      "sentiment_score": 0.123498,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "WRB",
-        "TFC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Centene stock gains 1.08 percent as EPS guidance holds",
-      "summary": "Centene stock increased by 1.08% after the company reaffirmed its full-year 2026 GAAP diluted EPS guidance above USD 3.11 and adjusted diluted EPS guidance above USD 4.80. Analy...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/centene-stock-gains-1-08-percent-as-eps-guidance-holds/70196181",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T045316",
-      "sentiment_score": 0.314705,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CNC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences",
-        "Finance"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Omnicom Group stock trades below its yearly high as targets diverge",
-      "summary": "Omnicom Group's stock was quoted at USD 76.15 on September 28, 2026, below its yearly high despite strong revenue growth of 63.4% following its merger with Interpublic Group. Th...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/omnicom-group-stock-trades-below-its-yearly-high-as-targets-diverge/70196170",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T044941",
-      "sentiment_score": 0.009723,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "OMC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Mergers And Acquisitions"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Raised guidance supports Henry Schein stock after Q2 beat",
-      "summary": "Henry Schein (HSIC) stock is supported by raised guidance after the company reported strong Q2 2026 results, with sales up 6.7% to $3.5 billion and adjusted EPS increasing 15.5%...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/raised-guidance-supports-henry-schein-stock-after-q2-beat/70196142",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T044123",
-      "sentiment_score": 0.499744,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "HSIC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Hershey Company stock falls 1.18 percent as targets stay higher",
-      "summary": "Hershey Company's stock fell 1.18% to USD 164.41 on September 28, 2026, despite analysts setting an average target of USD 204.78. The company reported a strong Q2 2026 earnings...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/hershey-company-stock-falls-1-18-percent-as-targets-stay-higher/70196149",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T041423",
-      "sentiment_score": 0.012353,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HSY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Economy Macro",
-        "Retail Wholesale"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Darden Restaurants' (DRI) \"Buy\" Rating Reiterated at BTIG Research",
-      "summary": "BTIG Research has reiterated its \"buy\" rating on Darden Restaurants (DRI), setting a price target of $235.00, suggesting a potential upside of 19.22%. Several other analysts hav...",
-      "url": "https://www.marketbeat.com/instant-alerts/analyst-darden-restaurants-dri-buy-rating-reiterated-at-btig-research-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260929T035113",
-      "sentiment_score": 0.472661,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DRI"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Darden Restaurants' (DRI) Equal Weight Rating Reaffirmed at Stephens",
-      "summary": "Stephens has reiterated its \"equal weight\" rating for Darden Restaurants (DRI) with a $220.00 price target, suggesting an 11.61% potential upside. Other analysts have also issue...",
-      "url": "https://www.marketbeat.com/instant-alerts/analyst-darden-restaurants-dri-equal-weight-rating-reaffirmed-at-stephens-2026-09-25/",
-      "source": "MarketBeat",
-      "published_at": "20260929T035040",
-      "sentiment_score": 0.164986,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "DRI",
-        "CMG",
-        "MCD",
-        "SBUX",
-        "DPZ"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Finance"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Cboe Global Markets sets Q3FY26 earnings date for October 30",
-      "summary": "Cboe Global Markets (CBOE) has announced that it will release its financial results for the third quarter of fiscal year 2026 before market open on Friday, October 30, 2026. A c...",
-      "url": "https://scanx.trade/stock-market-news/companies/cboe-global-markets-sets-q3fy26-earnings-date-october-30/52173420",
-      "source": "scanx.trade",
-      "published_at": "20260929T034513",
-      "sentiment_score": 0.016837,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CBOE"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
       "title": "Sanmina (NASDAQ:SANM) Stock Price Crosses Above Two Hundred Day Moving Average - Here's What Happened",
       "summary": "Sanmina (NASDAQ:SANM) shares have recently crossed above their 200-day moving average, trading as high as $226.57 before closing at $220.06, significantly above the average of $...",
       "url": "https://www.marketbeat.com/instant-alerts/price-sanmina-nasdaq-sanm-stock-price-crosses-above-two-hundred-day-moving-average-heres-what-happened-2026-09-29/",
       "source": "MarketBeat",
       "published_at": "20260929T061115",
-      "sentiment_score": 0.315503,
+      "sentiment_score": 0.328605,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "SANM"
@@ -323,45 +326,256 @@
       "is_noise": false
     },
     {
-      "title": "Provident Financial Services (NYSE:PFS) Stock Crosses Above Two Hundred Day Moving Average - Should You Sell?",
-      "summary": "Provident Financial Services (NYSE:PFS) stock recently crossed above its 200-day moving average, trading at $22.54, though still below its 50-day average. The company reported s...",
-      "url": "https://www.marketbeat.com/instant-alerts/price-provident-financial-services-nyse-pfs-stock-crosses-above-two-hundred-day-moving-average-should-you-sell-2026-09-29/",
+      "title": "Baypointe Partners LLC Sells 5,000 Shares of JPMorgan Chase & Co. $JPM",
+      "summary": "Baypointe Partners LLC has reduced its stake in JPMorgan Chase & Co. (NYSE:JPM) by 20%, selling 5,000 shares and now holding 20,000 shares valued at approximately $6.55 million....",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-baypointe-partners-llc-sells-5000-shares-of-jpmorgan-chase-co-jpm-2026-09-29/",
       "source": "MarketBeat",
-      "published_at": "20260929T054308",
-      "sentiment_score": 0.315586,
+      "published_at": "20260929T071008",
+      "sentiment_score": 0.265576,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "PFS"
+        "JPM",
+        "BAC",
+        "GS",
+        "MS"
       ],
       "topics": [
-        "Earnings",
         "Financial Markets",
-        "Finance",
-        "Economy Macro"
+        "Earnings",
+        "Finance"
       ],
-      "quality_score": 8,
+      "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "Is Old National Bancorp (ONB) Undervalued As Its Shares Trade Below Fair Value?",
-      "summary": "Old National Bancorp (ONB) shares are currently trading below their estimated fair value of $30.00, suggesting a potential undervaluation of 16%. This assessment is based on the...",
-      "url": "https://simplywall.st/stocks/us/banks/nasdaq-onb/old-national-bancorp/news/is-old-national-bancorp-onb-undervalued-as-its-shares-trade",
-      "source": "Simply Wall Street",
-      "published_at": "20260929T044852",
-      "sentiment_score": 0.069926,
+      "title": "Amazon.com, Inc. $AMZN Shares Purchased by Benjamin Edwards Inc.",
+      "summary": "Benjamin Edwards Inc. increased its stake in Amazon.com, Inc. (NASDAQ:AMZN) by 5.3% in the second quarter, bringing its total holdings to 318,490 shares valued at $75.9 million....",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-shares-purchased-by-benjamin-edwards-inc-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070924",
+      "sentiment_score": 0.112112,
       "sentiment_label": "Neutral",
       "tickers": [
-        "ONBPP",
-        "HBAN",
-        "RF"
+        "AMZN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "CTC Alternative Strategies Ltd. Purchases 13,200 Shares of Amazon.com, Inc. $AMZN",
+      "summary": "CTC Alternative Strategies Ltd. recently acquired 13,200 shares of Amazon.com, Inc. (NASDAQ:AMZN), valued at approximately $3.15 million, making Amazon its fifth-largest holding...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-ctc-alternative-strategies-ltd-purchases-13200-shares-of-amazoncom-inc-amzn-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070924",
+      "sentiment_score": 0.220982,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "AMZN",
+        "BAC",
+        "BK",
+        "IVZ",
+        "AAPL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Bank of America Corp DE Makes New $4.81 Million Investment in Nicolet Bankshares Inc. $NIC",
+      "summary": "Bank of America Corp DE has acquired a new stake in Nicolet Bankshares Inc. (NYSE:NIC), purchasing 29,075 shares valued at approximately $4.81 million during the second quarter....",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-makes-new-481-million-investment-in-nicolet-bankshares-inc-nic-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070851",
+      "sentiment_score": 0.300651,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "BAC"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Bank of America Corp DE Acquires New Shares in PAR Technology Corporation $PAR",
+      "summary": "Bank of America Corp DE has acquired a new stake of 297,398 shares in PAR Technology Corporation (NYSE:PAR) during the second quarter, valued at approximately $5.18 million. Thi...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-acquires-new-shares-in-par-technology-corporation-par-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070851",
+      "sentiment_score": 0.129042,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BAC",
+        "GS"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Bank of America Corp DE Purchases 491,590 Shares of Wealthfront $WLTH",
+      "summary": "Bank of America Corp DE has acquired a new stake of 491,590 shares in Wealthfront (NASDAQ:WLTH), valued at approximately $4.395 million, making it a 0.33% owner of the company....",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-purchases-491590-shares-of-wealthfront-wlth-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070850",
+      "sentiment_score": 0.025712,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BAC"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Bank of America Corp DE Acquires New Shares in Employers Holdings Inc $EIG",
+      "summary": "Bank of America Corp DE has acquired 78,564 new shares of Employers Holdings Inc (NYSE:EIG), valued at approximately $3.97 million, representing a 0.44% stake in the company. In...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-acquires-new-shares-in-employers-holdings-inc-eig-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070850",
+      "sentiment_score": 0.137299,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BAC",
+        "TFC",
+        "JPM"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Bank of America Corp DE Buys 128,688 Shares of Financial Institutions, Inc. $FISI",
+      "summary": "Bank of America Corp DE significantly increased its stake in Financial Institutions, Inc. (NASDAQ:FISI) during the second quarter, purchasing 128,688 shares valued at approximat...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-buys-128688-shares-of-financial-institutions-inc-fisi-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070850",
+      "sentiment_score": 0.12365,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BAC",
+        "BLK",
+        "JPM"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Bank of America Corp DE Buys New Stake in LGI Homes, Inc. $LGIH",
+      "summary": "Bank of America Corp DE has acquired a new stake of 79,274 shares in LGI Homes, Inc. (NASDAQ:LGIH) during the second quarter, valued at approximately $5.05 million. This purchas...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-buys-new-stake-in-lgi-homes-inc-lgih-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070850",
+      "sentiment_score": 0.226227,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "BAC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Real Estate",
+        "Economy Macro"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Key facts: Amazon.com, Inc. $10B PrimeDay; 1k+ Sites; CSL AI Pact",
+      "summary": "Amazon (AMZN) is projected to generate $10 billion in sales during Prime Day and is expanding its Sub Same-Day network to over 1,000 sites by 2031. The company is also partnerin...",
+      "url": "https://www.tradingview.com/news/tradingview:88b1216afa360:0-key-facts-amazon-com-inc-10b-primeday-1k-sites-csl-ai-pact/",
+      "source": "TradingView",
+      "published_at": "20260929T070023",
+      "sentiment_score": 0.277411,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "AMZN",
+        "ADBE"
+      ],
+      "topics": [
+        "Retail Wholesale",
+        "Technology",
+        "Earnings",
+        "Finance",
+        "Life Sciences"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Key facts: Alphabet Inc. Class C $400 PT from Piper Sandler; Shares $337.58; 2027 Cloud $204B",
+      "summary": "Piper Sandler has raised its price target for Alphabet Inc. Class C (GOOG) to $400 from $395, maintaining an Overweight rating, with the stock currently trading at $337.58. The...",
+      "url": "https://www.tradingview.com/news/tradingview:30bc3378ec7d9:0-key-facts-alphabet-inc-class-c-400-pt-from-piper-sandler-shares-337-58-2027-cloud-204b/",
+      "source": "TradingView",
+      "published_at": "20260929T070009",
+      "sentiment_score": 0.234503,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GOOGL"
       ],
       "topics": [
         "Financial Markets",
-        "Earnings",
-        "Finance",
-        "Economy Macro"
+        "Technology",
+        "Earnings"
       ],
-      "quality_score": 8,
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Emerson Electric (NYSE:EMR) Stock Sale Revealed by Rep. Kevin Hern",
+      "summary": "Representative Kevin Hern of Oklahoma sold between $15,001 and $50,000 worth of Emerson Electric (NYSE: EMR) shares on September 14th through his family foundation account. This...",
+      "url": "https://www.marketbeat.com/instant-alerts/congress-emerson-electric-nyse-emr-stock-sale-revealed-by-rep-kevin-hern-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T061523",
+      "sentiment_score": -0.07365,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "EMR",
+        "CNP",
+        "TJX",
+        "STE",
+        "STX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Manufacturing",
+        "Economy Fiscal"
+      ],
+      "quality_score": 7,
       "is_noise": false
     },
     {
@@ -370,7 +584,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/congress-devon-energy-nyse-dvn-stock-sale-reported-by-rep-kevin-hern-2026-09-29/",
       "source": "MarketBeat",
       "published_at": "20260929T061110",
-      "sentiment_score": 0.083179,
+      "sentiment_score": 0.08755,
       "sentiment_label": "Neutral",
       "tickers": [
         "DVN",
@@ -394,7 +608,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/congress-centerpoint-energy-nyse-cnp-stock-sale-disclosed-by-rep-kevin-hern-2026-09-29/",
       "source": "MarketBeat",
       "published_at": "20260929T061101",
-      "sentiment_score": 0.033233,
+      "sentiment_score": 0.007715,
       "sentiment_label": "Neutral",
       "tickers": [
         "CNP"
@@ -409,12 +623,35 @@
       "is_noise": false
     },
     {
+      "title": "Rep. Kevin Hern Unloads Shares of STERIS plc (NYSE:STE)",
+      "summary": "Rep. Kevin Hern sold between $15,001 and $50,000 worth of STERIS plc (NYSE:STE) shares from his traditional IRA on September 15, 2026, alongside other stock sales. STERIS recent...",
+      "url": "https://www.marketbeat.com/instant-alerts/congress-rep-kevin-hern-unloads-shares-of-steris-plc-nyse-ste-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T061058",
+      "sentiment_score": 0.061949,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "STE",
+        "CNP",
+        "TJX",
+        "STX",
+        "NEE"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Life Sciences"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
       "title": "Apple (NASDAQ:AAPL) Stock Unloaded by Rep. Kevin Hern",
       "summary": "Representative Kevin Hern sold shares of Apple stock, valued between $1,001 and $15,000, from his trust account on September 8th, alongside other stock sales. This occurred whil...",
       "url": "https://www.marketbeat.com/instant-alerts/congress-apple-nasdaq-aapl-stock-unloaded-by-rep-kevin-hern-2026-09-29/",
       "source": "MarketBeat",
       "published_at": "20260929T061036",
-      "sentiment_score": 0.075185,
+      "sentiment_score": 0.079165,
       "sentiment_label": "Neutral",
       "tickers": [
         "AAPL",
@@ -438,7 +675,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/congress-tjx-companies-nyse-tjx-stock-sold-off-by-rep-kevin-hern-2026-09-29/",
       "source": "MarketBeat",
       "published_at": "20260929T060827",
-      "sentiment_score": -0.243331,
+      "sentiment_score": -0.224374,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "TJX",
@@ -457,12 +694,56 @@
       "is_noise": false
     },
     {
+      "title": "Cookson Peirce & Co. Inc. Boosts Position in Amazon.com, Inc. $AMZN",
+      "summary": "Cookson Peirce & Co. Inc. increased its stake in Amazon.com, Inc. by 18.3% during the second quarter, bringing its total holdings to 14,307 shares valued at $3.41 million. This...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-cookson-peirce-co-inc-boosts-position-in-amazoncom-inc-amzn-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070924",
+      "sentiment_score": 0.048479,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AMZN",
+        "BBY",
+        "AAPL",
+        "META"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology",
+        "Retail Wholesale",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Bank of America Corp DE Buys 74,309 Shares of Westamerica Bancorporation $WABC",
+      "summary": "Bank of America Corp DE has acquired a new position in Westamerica Bancorporation, purchasing 74,309 shares valued at approximately $4.36 million. This move makes Bank of Americ...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-buys-74309-shares-of-westamerica-bancorporation-wabc-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070851",
+      "sentiment_score": 0.110879,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BAC",
+        "PNC"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "Dominion Energy stock faces a lower Morgan Stanley target quickly? no",
       "summary": "Dominion Energy's stock traded at USD 60.26 on September 28, 2026, after Morgan Stanley lowered its price target to USD 66.00 while maintaining an Equal-weight rating. Despite t...",
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/dominion-energy-stock-faces-a-lower-morgan-stanley-target-quickly-no/70196438",
       "source": "AD HOC NEWS",
       "published_at": "20260929T061043",
-      "sentiment_score": 0.019126,
+      "sentiment_score": 0.012613,
       "sentiment_label": "Neutral",
       "tickers": [
         "D"
@@ -477,12 +758,49 @@
       "is_noise": false
     },
     {
+      "title": "Pool Corporation stock trades 2.27 percent above its yearly low",
+      "summary": "Pool Corporation's stock traded at $164.02 on September 28, 2026, 2.27 percent above its 52-week low. The company recently appointed Jean-Marc Germain to its board and reported...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/pool-corporation-stock-trades-2-27-percent-above-its-yearly-low/70196345",
+      "source": "AD HOC NEWS",
+      "published_at": "20260929T060755",
+      "sentiment_score": 0.336275,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "POOL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Albemarle stock falls 2.13 percent as estimates turn lower",
+      "summary": "Albemarle stock (ALB) fell 2.13% on September 28, 2026, to USD 107.39 despite reporting a strong Q2 2026 with revenue up 31.10% and adjusted EPS beating estimates. The decline i...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/albemarle-stock-falls-2-13-percent-as-estimates-turn-lower/70196396",
+      "source": "AD HOC NEWS",
+      "published_at": "20260929T060754",
+      "sentiment_score": -0.239353,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ALB"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "Ameren Corporation stock outlines a 20-year power plan for Missouri",
       "summary": "Ameren Missouri has released a 20-year Integrated Resource Plan, detailing significant investments in natural gas, solar, wind, battery storage, fuel cells, and nuclear generati...",
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/ameren-corporation-stock-outlines-a-20-year-power-plan-for-missouri/70196387",
       "source": "AD HOC NEWS",
       "published_at": "20260929T060300",
-      "sentiment_score": 0.100436,
+      "sentiment_score": 0.147787,
       "sentiment_label": "Neutral",
       "tickers": [
         "AEE"
@@ -496,106 +814,12 @@
       "is_noise": false
     },
     {
-      "title": "McKesson stock falls 1.19 percent as targets split",
-      "summary": "McKesson stock dropped 1.19% on September 28, 2026, closing at USD 856.29. The company reported a 20% year-over-year increase in adjusted EPS for Q1 fiscal 2027, with guidance f...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/mckesson-stock-falls-1-19-percent-as-targets-split/70196233",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T050900",
-      "sentiment_score": 0.029416,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MCK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Life Sciences"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Form 8K Keurig Dr Pepper Inc For: 28 September By Investing.com",
-      "summary": "This article reports on Keurig Dr Pepper Inc.'s Form 8K filing for September 28, 2026. It is a brief financial news item from Investing.com, providing a straightforward update o...",
-      "url": "https://ca.investing.com/news/stock-market-news/form-8k-keurig-dr-pepper-inc-for-28-september-93CH-4856720",
-      "source": "Investing.com Canada",
-      "published_at": "20260929T045200",
-      "sentiment_score": 0.029819,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "KDP"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Textron stock gains 1.08 percent after a new 52-week low",
-      "summary": "Textron stock saw a 1.08 percent increase to USD 77.35 on September 28, 2026, after hitting a 52-week low of USD 75.51. The company's Q2 adjusted EPS of USD 1.62 surpassed conse...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/textron-stock-gains-1-08-percent-after-a-new-52-week-low/70196115",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T044054",
-      "sentiment_score": 0.27085,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TXT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "MillerKnoll Announces Q1 Fiscal 2027 Financial Results with Earnings Growth Despite Sales Dip",
-      "summary": "MillerKnoll, Inc. reported its Q1 Fiscal 2027 financial results, revealing a decrease in net sales to $923.4 million from $955.7 million year-over-year. Despite the sales dip, t...",
-      "url": "https://kalkinemedia.com/us/news/announcements/millerknoll-announces-q1-fiscal-2027-financial-results-with-earnings-growth-despite-sales-dip",
-      "source": "Kalkine Media",
-      "published_at": "20260929T042144",
-      "sentiment_score": 0.299285,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MLKN"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Bank of America Corp DE Makes New $7.42 Million Investment in Mercury General Corporation $MCY",
-      "summary": "Bank of America Corp DE has invested $7.42 million in Mercury General Corporation, acquiring 69,634 shares, representing a 0.13% stake. This investment follows strong quarterly...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-makes-new-742-million-investment-in-mercury-general-corporation-mcy-2026-09-28/",
-      "source": "MarketBeat",
-      "published_at": "20260929T035527",
-      "sentiment_score": 0.014318,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MCY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
       "title": "Simon Property Group stock trades 14.24 percent below its yearly high",
       "summary": "Simon Property Group stock is trading 14.24% below its 52-week high, despite reporting strong second-quarter FFO which rose 7.9% year over year and exceeding consensus estimates...",
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/simon-property-group-stock-trades-14-24-percent-below-its-yearly-high/70196424",
       "source": "AD HOC NEWS",
       "published_at": "20260929T060956",
-      "sentiment_score": 0.245308,
+      "sentiment_score": 0.239321,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "SPG"
@@ -609,68 +833,12 @@
       "is_noise": false
     },
     {
-      "title": "Atmos Energy stock trades near its 52-week low as targets fall",
-      "summary": "Atmos Energy (ATO) stock is trading near its 52-week low, currently at USD 157.21, which is only 1.43 percent above its yearly low. Morgan Stanley recently lowered its price tar...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/atmos-energy-stock-trades-near-its-52-week-low-as-targets-fall/70196184",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T045414",
-      "sentiment_score": -0.235541,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "ATO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Keurig Dr Pepper completes $925M disposition including $800M Chobani equity redemption",
-      "summary": "Keurig Dr Pepper (KDP) has completed a $925 million disposition, which includes the redemption of its Chobani equity for $800 million and the sale of other assets for $125 milli...",
-      "url": "https://www.tradingview.com/news/tradingview:1a4a34384c4e0:0-keurig-dr-pepper-completes-925m-disposition-including-800m-chobani-equity-redemption/",
-      "source": "TradingView",
-      "published_at": "20260929T044359",
-      "sentiment_score": 0.414345,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "KDP"
-      ],
-      "topics": [
-        "Mergers And Acquisitions",
-        "Earnings"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Why CoStar (CSGP) Stock Is Trading Lower Today",
-      "summary": "CoStar Group (CSGP) stock fell 3.8% today after the company's Commercial Repeat Sale Indices projected a sharp drop in commercial property deliveries and softer demand signals,...",
-      "url": "https://www.tradingview.com/news/stockstory:59adf40db094b:0-why-costar-csgp-stock-is-trading-lower-today/",
-      "source": "TradingView",
-      "published_at": "20260929T034642",
-      "sentiment_score": -0.388327,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "CSGP"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Financial Markets"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
       "title": "Skyworks Solutions stock fell 1.96 percent as Qorvo date shifts",
       "summary": "Skyworks Solutions stock fell 1.96% after the company extended the deadline for its Qorvo note exchange offer to October 2, 2026. This exchange is part of Skyworks' planned $22....",
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/skyworks-solutions-stock-fell-1-96-percent-as-qorvo-date-shifts/70196596",
       "source": "AD HOC NEWS",
       "published_at": "20260929T063541",
-      "sentiment_score": -0.20942,
+      "sentiment_score": -0.202601,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "SWKS"
@@ -690,7 +858,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/epam-ranks-1-for-satisfaction-and-delivery-in-2026-swiss-whitelane/70196407",
       "source": "AD HOC NEWS",
       "published_at": "20260929T060509",
-      "sentiment_score": 0.474628,
+      "sentiment_score": 0.483006,
       "sentiment_label": "Bullish",
       "tickers": [
         "EPAM"
@@ -708,7 +876,7 @@
       "url": "https://finance.biggo.com/news/f7f247e3-fc1a-4808-bcc0-da5f84992d5c",
       "source": "BigGo Finance",
       "published_at": "20260929T055536",
-      "sentiment_score": 0.262477,
+      "sentiment_score": 0.230598,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "AXP",
@@ -728,7 +896,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/form-8k-polar-power-inc-for-28-september-93CH-4856806",
       "source": "Investing.com Canada",
       "published_at": "20260929T054807",
-      "sentiment_score": 0.049531,
+      "sentiment_score": 0.048441,
       "sentiment_label": "Neutral",
       "tickers": [
         "POLA"
@@ -740,87 +908,12 @@
       "is_noise": false
     },
     {
-      "title": "NextCure stock fell 3.79 percent as court review loomed",
-      "summary": "NextCure stock dropped 3.79 percent to $5.08 on September 25, 2026, ahead of a November 6, 2026 Delaware court hearing regarding the validation of its 1-for-12 reverse stock spl...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/nextcure-stock-fell-3-79-percent-as-court-review-loomed/70195778",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T051617",
-      "sentiment_score": -0.405512,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "NXTC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "PodcastOne director D. Jonathan Merriman buys $24,310 in shares",
-      "summary": "PodcastOne director D. Jonathan Merriman purchased 11,000 shares of the company's common stock for $24,310, at a weighted average price of $2.21 per share. This transaction foll...",
-      "url": "https://in.investing.com/news/stock-market-news/podcastone-director-d-jonathan-merriman-buys-24310-in-shares-93CH-5609892",
-      "source": "Investing.com India",
-      "published_at": "20260929T045000",
-      "sentiment_score": 0.034728,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PODC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "La-Z-Boy stock hits 52-week low at 28.96 USD",
-      "summary": "La-Z-Boy Inc. stock has hit a 52-week low of $28.96, representing a 35% drop from its high and an 18% decline year-to-date. Despite this, InvestingPro analysis suggests the stoc...",
-      "url": "https://ng.investing.com/news/stock-market-news/lazboy-stock-hits-52week-low-at-2896-usd-93CH-2712525",
-      "source": "Investing.com Nigeria",
-      "published_at": "20260929T042016",
-      "sentiment_score": 0.045436,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "LZB"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Cigna Group stock holds at USD 272.01 before investor day",
-      "summary": "Cigna Group's stock is holding at USD 272.01 ahead of its September 30 investor day, where the company's pharmacy benefit management strategy will be a key focus. This event fol...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/cigna-group-stock-holds-at-usd-272-01-before-investor-day/70196038",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T041554",
-      "sentiment_score": 0.274008,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CI"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
       "title": "About $100 million in stock was bought back by Primoris in the third quarter.",
       "summary": "Primoris Services Corporation announced that five of its six utility-scale solar projects have reached mechanical completion, with the final project expected to achieve this in...",
       "url": "https://www.stocktitan.net/news/PRIM/primoris-services-corporation-provides-business-byfrwmrlosuk.html",
       "source": "Stock Titan",
       "published_at": "20260929T062027",
-      "sentiment_score": 0.439037,
+      "sentiment_score": 0.406145,
       "sentiment_label": "Bullish",
       "tickers": [
         "PRIM"
@@ -834,12 +927,56 @@
       "is_noise": false
     },
     {
+      "title": "Huntington Ingalls Industries, Inc. $HII Shares Sold by Envestnet Asset Management Inc.",
+      "summary": "Envestnet Asset Management Inc. reduced its stake in Huntington Ingalls Industries (NYSE:HII) by 7.1% in the second quarter, selling 9,296 shares. Despite this, HII reported str...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-huntington-ingalls-industries-inc-hii-shares-sold-by-envestnet-asset-management-inc-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070941",
+      "sentiment_score": 0.024579,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "HII"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Rep. Kevin Hern Sells Shares of The Home Depot, Inc. (NYSE:HD)",
+      "summary": "Rep. Kevin Hern recently sold shares of The Home Depot (NYSE: HD) worth between $15,001 and $50,000 from his family foundation account on September 14, 2026. This comes as Home...",
+      "url": "https://www.marketbeat.com/instant-alerts/congress-rep-kevin-hern-sells-shares-of-the-home-depot-inc-nyse-hd-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T061509",
+      "sentiment_score": -0.231298,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "HD",
+        "CNP",
+        "TJX",
+        "STE",
+        "NEE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Retail Wholesale"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
       "title": "Rep. Kevin Hern Sells Shares of O'Reilly Automotive, Inc. (NASDAQ:ORLY)",
       "summary": "Representative Kevin Hern recently sold between $15,001 and $50,000 worth of O'Reilly Automotive (NASDAQ:ORLY) stock on September 2nd through the HERN FAMILY FOUNDATION account....",
       "url": "https://www.marketbeat.com/instant-alerts/congress-rep-kevin-hern-sells-shares-of-oreilly-automotive-inc-nasdaq-orly-2026-09-29/",
       "source": "MarketBeat",
       "published_at": "20260929T061131",
-      "sentiment_score": 0.101871,
+      "sentiment_score": 0.105646,
       "sentiment_label": "Neutral",
       "tickers": [
         "ORLY"
@@ -860,7 +997,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/congress-rep-kevin-hern-sells-shares-of-colgate-palmolive-company-nyse-cl-2026-09-29/",
       "source": "MarketBeat",
       "published_at": "20260929T061109",
-      "sentiment_score": -0.183552,
+      "sentiment_score": -0.216728,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CL",
@@ -882,7 +1019,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/congress-rep-kevin-hern-sells-shares-of-cadence-design-systems-inc-nasdaq-cdns-2026-09-29/",
       "source": "MarketBeat",
       "published_at": "20260929T060527",
-      "sentiment_score": 0.034173,
+      "sentiment_score": 0.04482,
       "sentiment_label": "Neutral",
       "tickers": [
         "CDNS",
@@ -899,114 +1036,40 @@
       ],
       "quality_score": -10,
       "is_noise": true
-    },
-    {
-      "title": "Form 4 Teradyne Inc For: 29 September By Investing.com",
-      "summary": "This article from Investing.com reports on a Form 4 filing for Teradyne Inc. on September 29. A Form 4 is a document that must be filed with the U.S. Securities and Exchange Com...",
-      "url": "https://ng.investing.com/news/stock-market-news/form-4-teradyne-inc-for-29-september-93CH-2713076",
-      "source": "Investing.com Nigeria",
-      "published_at": "20260929T050412",
-      "sentiment_score": 0.031032,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TER"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "A planned sale of 34,000 shares would cover taxes on stock awards for a National CineMedia (NCMI) officer.",
-      "summary": "Ronnie Y. Ng, an officer at National CineMedia (NCMI), intends to sell 34,000 common shares valued at approximately $74,800 on September 30, 2026. This sale is primarily to cove...",
-      "url": "https://www.stocktitan.net/sec-filings/NCMI/144-national-cine-media-inc-sec-filing-7401c8a3a701.html",
-      "source": "Stock Titan",
-      "published_at": "20260929T044751",
-      "sentiment_score": 0.044074,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "NCMI"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "A $19.1M loss narrowed at MacKenzie Realty Capital (MKZR), but operating cash outflow grew.",
-      "summary": "MacKenzie Realty Capital (MKZR) reported a narrowed net loss attributable to common stockholders of $19.1 million for fiscal year 2026, down from $27.3 million in fiscal year 20...",
-      "url": "https://www.stocktitan.net/sec-filings/MKZR/10-k-mac-kenzie-realty-capital-inc-files-annual-report-cade89a37528.html",
-      "source": "Stock Titan",
-      "published_at": "20260929T035545",
-      "sentiment_score": -0.238824,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "MKZR"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Finance",
-        "Economy Macro"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "With $700M of notes due in 2026, Kyndryl (KD) agrees to sell new debt at two interest rates.",
-      "summary": "Kyndryl Holdings, Inc. has agreed to sell $1 billion in senior notes across two series: $600 million at 7.800% due in 2029 and $400 million at 7.875% due in 2032. The proceeds w...",
-      "url": "https://www.stocktitan.net/sec-filings/KD/8-k-kyndryl-holdings-inc-reports-material-event-f2e28de21bd4.html",
-      "source": "Stock Titan",
-      "published_at": "20260929T035148",
-      "sentiment_score": 0.126009,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "KD"
-      ],
-      "topics": [
-        "Finance",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Fortive (FTV) legal chief holds 13,953.627 notional shares after a deferred incentive credit",
-      "summary": "Fortive Corp's SVP - Chief Legal Officer, Peter C. Underwood, acquired 17.392 unfunded, notional shares in the Executive Deferred Incentive Program's Fortive Stock Fund on Septe...",
-      "url": "https://www.stocktitan.net/sec-filings/FTV/form-4-fortive-corp-insider-trading-activity-9b5ce0a3fd5d.html",
-      "source": "Stock Titan",
-      "published_at": "20260929T034642",
-      "sentiment_score": 0.019099,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "FTV"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
     }
   ],
   "article_count": 50,
-  "top_ticker": "CNP",
+  "top_ticker": "BAC",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Copart stock falls 1.34 percent as analyst target rises to USD 43.00",
+  "top_story": "Nucor stock falls 1.11 percent as Q3 guidance trails estimates",
   "signal_articles": [
+    {
+      "title": "Nucor stock falls 1.11 percent as Q3 guidance trails estimates",
+      "summary": "Nucor Corporation's stock fell 1.11% after its Q3 EPS guidance of $5.55 to $5.65 trailed the consensus estimate of $6.17. Despite the lower outlook compared to analyst expectati...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nucor-stock-falls-1-11-percent-as-q3-guidance-trails-estimates/70196288",
+      "source": "AD HOC NEWS",
+      "published_at": "20260929T073500",
+      "sentiment_score": -0.210501,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "NUE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
     {
       "title": "Copart stock falls 1.34 percent as analyst target rises to USD 43.00",
       "summary": "Copart Inc. stock fell 1.34% to USD 27.22 despite BNP Paribas Exane raising its price target to USD 43.00. While fiscal Q4 revenue increased by 2.4%, gross profit and net income...",
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/copart-stock-falls-1-34-percent-as-analyst-target-rises-to-usd-43-00/70196349",
       "source": "AD HOC NEWS",
       "published_at": "20260929T065600",
-      "sentiment_score": -0.18876,
+      "sentiment_score": -0.194759,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CPRT"
@@ -1020,24 +1083,23 @@
       "is_noise": false
     },
     {
-      "title": "Best Buy stock trades at USD 89.91 after analyst upgrade",
-      "summary": "Best Buy stock is trading at $89.91 after DA Davidson upgraded the retailer from Hold to Strong Buy. This upgrade comes despite a broader Hold consensus and an average 12-month...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/best-buy-stock-trades-at-usd-89-91-after-analyst-upgrade/70196065",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T041330",
-      "sentiment_score": 0.444578,
-      "sentiment_label": "Bullish",
+      "title": "Bank of America Corp DE Makes New $3.96 Million Investment in Marcus & Millichap, Inc. $MMI",
+      "summary": "Bank of America Corp DE has invested $3.96 million in Marcus & Millichap, acquiring 127,219 shares and representing a 0.34% stake. Despite this new investment, analysts maintain...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-makes-new-396-million-investment-in-marcus-millichap-inc-mmi-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070851",
+      "sentiment_score": 0.144233,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "BBY"
+        "BAC"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Retail Wholesale",
-        "Technology",
-        "Economy Macro"
+        "Real Estate",
+        "Finance"
       ],
-      "quality_score": 13,
+      "quality_score": 12,
       "is_noise": false
     },
     {
@@ -1046,7 +1108,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/molina-healthcare-stock-faces-october-results-after-profit-drop/70196601",
       "source": "AD HOC NEWS",
       "published_at": "20260929T063629",
-      "sentiment_score": -0.249133,
+      "sentiment_score": -0.236367,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "MOH"
@@ -1060,12 +1122,55 @@
       "is_noise": false
     },
     {
+      "title": "Allegion PLC (NYSE:ALLE) Stock Has Average Target Price of $162.50",
+      "summary": "Allegion PLC (NYSE:ALLE) has an average \"Hold\" rating from analysts with a target price of $162.50, slightly above its current trading price. The company recently reported stron...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-allegion-plc-nyse-alle-stock-has-average-target-price-of-16250-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T063753",
+      "sentiment_score": 0.261867,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "ALLE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 11,
+      "is_noise": false
+    },
+    {
+      "title": "Colgate-Palmolive Company (NYSE:CL) Stock Has Consensus Target Price of $98.94",
+      "summary": "Colgate-Palmolive Company (NYSE:CL) has a \"Moderate Buy\" consensus rating from analysts, with an average 12-month price target of $98.94, exceeding its current share price of $8...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-colgate-palmolive-company-nyse-cl-stock-has-consensus-target-price-of-9894-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T063850",
+      "sentiment_score": 0.170559,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CL",
+        "JPM",
+        "MS",
+        "BAC",
+        "WFC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Retail Wholesale",
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
       "title": "Royal Bank Of Canada (NYSE:RY) Stock Has Consensus Price Target of $225.00 According to Brokerages",
       "summary": "Royal Bank of Canada (NYSE:RY) has a \"Moderate Buy\" consensus rating from analysts, with an average 12-month price target of $225.00, exceeding its opening price of $201.10. The...",
       "url": "https://www.marketbeat.com/instant-alerts/consensus-royal-bank-of-canada-nyse-ry-stock-has-consensus-price-target-of-22500-according-to-brokerages-2026-09-29/",
       "source": "MarketBeat",
       "published_at": "20260929T062506",
-      "sentiment_score": 0.304136,
+      "sentiment_score": 0.306571,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "RY"
@@ -1084,7 +1189,7 @@
       "url": "https://www.investing.com/news/analyst-ratings/da-davidson-cuts-procore-stock-price-target-on-construction-headwinds-93CH-4920634",
       "source": "Investing.com",
       "published_at": "20260929T055213",
-      "sentiment_score": -0.186946,
+      "sentiment_score": -0.221438,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "PCOR"
@@ -1100,97 +1205,43 @@
       "is_noise": false
     },
     {
-      "title": "Cboe Global Markets stock fell 1.87 percent as Q3 date was set",
-      "summary": "Cboe Global Markets stock fell by 1.87% to USD 253.20 on September 28, 2026, after the company announced its third-quarter earnings date for October 30, 2026. This follows a str...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/cboe-global-markets-stock-fell-1-87-percent-as-q3-date-was-set/70196417",
+      "title": "Intercontinental Exchange stock expands fixed income with MarketAxess deal",
+      "summary": "Intercontinental Exchange (ICE) is set to acquire MarketAxess for $5.7 billion, a move that will expand its fixed income and data platform by adding over 2,100 institutional fir...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/intercontinental-exchange-stock-expands-fixed-income-with-marketaxess-deal/70196473",
       "source": "AD HOC NEWS",
-      "published_at": "20260929T060840",
-      "sentiment_score": -0.227534,
-      "sentiment_label": "Somewhat-Bearish",
+      "published_at": "20260929T071724",
+      "sentiment_score": 0.371124,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "CBOE"
+        "ICE",
+        "MKTX"
       ],
       "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Mettler-Toledo stock gains 2.22 percent near its yearly high",
-      "summary": "Mettler-Toledo stock gained 2.22 percent, reaching USD 1,545.26 and closing just USD 0.19 below its 52-week high of USD 1,545.45. The company's second-quarter revenue rose 4.5 p...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/mettler-toledo-stock-gains-2-22-percent-near-its-yearly-high/70196393",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T060439",
-      "sentiment_score": 0.291921,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MTD"
-      ],
-      "topics": [
+        "Mergers And Acquisitions",
         "Earnings",
         "Financial Markets",
-        "Manufacturing",
-        "Life Sciences"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "W. R. Berkley stock gained 1.26 percent as Mizuho cut target",
-      "summary": "W. R. Berkley stock gained 1.26% after Mizuho cut its price target from $74.00 to $72.00, maintaining a neutral rating. Despite the cautious analyst stance, W. R. Berkley's Q2 2...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/w-r-berkley-stock-gained-1-26-percent-as-mizuho-cut-target/70196254",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T051914",
-      "sentiment_score": 0.123498,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "WRB",
-        "TFC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Centene stock gains 1.08 percent as EPS guidance holds",
-      "summary": "Centene stock increased by 1.08% after the company reaffirmed its full-year 2026 GAAP diluted EPS guidance above USD 3.11 and adjusted diluted EPS guidance above USD 4.80. Analy...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/centene-stock-gains-1-08-percent-as-eps-guidance-holds/70196181",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T045316",
-      "sentiment_score": 0.314705,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CNC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences",
         "Finance"
       ],
       "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Omnicom Group stock trades below its yearly high as targets diverge",
-      "summary": "Omnicom Group's stock was quoted at USD 76.15 on September 28, 2026, below its yearly high despite strong revenue growth of 63.4% following its merger with Interpublic Group. Th...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/omnicom-group-stock-trades-below-its-yearly-high-as-targets-diverge/70196170",
-      "source": "AD HOC NEWS",
-      "published_at": "20260929T044941",
-      "sentiment_score": 0.009723,
-      "sentiment_label": "Neutral",
+      "title": "Amazon.com, Inc. $AMZN Stock Sold by Ancora Advisors LLC",
+      "summary": "Ancora Advisors LLC reduced its stake in Amazon.com (AMZN) by 2.6% in the second quarter, selling 4,519 shares but retaining 167,856 shares valued at $40 million. Despite this,...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-stock-sold-by-ancora-advisors-llc-2026-09-29/",
+      "source": "MarketBeat",
+      "published_at": "20260929T070923",
+      "sentiment_score": 0.170256,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "OMC"
+        "AMZN",
+        "BBY"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Mergers And Acquisitions"
+        "Technology",
+        "Retail Wholesale"
       ],
       "quality_score": 9,
       "is_noise": false
@@ -1198,82 +1249,74 @@
   ],
   "top_tickers": [
     {
+      "ticker": "BAC",
+      "mentions": 11
+    },
+    {
       "ticker": "CNP",
-      "mentions": 4
+      "mentions": 6
+    },
+    {
+      "ticker": "AMZN",
+      "mentions": 5
     },
     {
       "ticker": "TJX",
-      "mentions": 3
+      "mentions": 5
     },
     {
       "ticker": "STE",
-      "mentions": 3
-    },
-    {
-      "ticker": "CBOE",
-      "mentions": 2
-    },
-    {
-      "ticker": "DRI",
-      "mentions": 2
+      "mentions": 5
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 42
+      "mentions": 45
     },
     {
       "topic": "Financial Markets",
-      "mentions": 36
+      "mentions": 38
     },
     {
       "topic": "Finance",
+      "mentions": 20
+    },
+    {
+      "topic": "Technology",
       "mentions": 12
     },
     {
-      "topic": "Life Sciences",
-      "mentions": 7
-    },
-    {
-      "topic": "Mergers And Acquisitions",
-      "mentions": 6
+      "topic": "Retail Wholesale",
+      "mentions": 9
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 16
+      "count": 19
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 11
+      "count": 15
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 7
+      "count": 8
     },
     {
       "label": "Bullish",
-      "count": 6
-    },
-    {
-      "label": "Bearish",
-      "count": 2
+      "count": 3
     }
   ],
   "top_sources": [
     {
-      "source": "AD HOC NEWS",
-      "count": 20
-    },
-    {
       "source": "MarketBeat",
-      "count": 10
+      "count": 23
     },
     {
-      "source": "Investing.com Canada",
-      "count": 2
+      "source": "AD HOC NEWS",
+      "count": 15
     },
     {
       "source": "TradingView",
@@ -1282,7 +1325,11 @@
     {
       "source": "Investing.com",
       "count": 1
+    },
+    {
+      "source": "www.marketscreener.com",
+      "count": 1
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with CNP appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with BAC appearing most often and the headline tone mostly neutral."
 }

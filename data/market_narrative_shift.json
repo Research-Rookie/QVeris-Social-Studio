@@ -1,14 +1,92 @@
 {
-  "updated_at": "2026-09-28T08:05:38.418276+00:00",
-  "date": "2026-09-28",
+  "updated_at": "2026-09-29T07:46:27.097437+00:00",
+  "date": "2026-09-29",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
   "symbol": "BAC",
-  "shift_label": "Turning bearish",
-  "sentiment_delta": -0.2288,
-  "baseline_label": "2026-09-20",
+  "shift_label": "Attention cooling",
+  "sentiment_delta": 0.0078,
+  "baseline_label": "2026-09-28",
   "current": {
+    "date": "2026-09-29",
+    "symbol": "BAC",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.1442,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Real Estate",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "bank",
+        "count": 2
+      },
+      {
+        "label": "america",
+        "count": 2
+      },
+      {
+        "label": "corp",
+        "count": 2
+      },
+      {
+        "label": "investment",
+        "count": 2
+      },
+      {
+        "label": "marcus",
+        "count": 2
+      },
+      {
+        "label": "millichap",
+        "count": 2
+      },
+      {
+        "label": "makes",
+        "count": 1
+      },
+      {
+        "label": "mmi",
+        "count": 1
+      },
+      {
+        "label": "has",
+        "count": 1
+      },
+      {
+        "label": "invested",
+        "count": 1
+      },
+      {
+        "label": "acquiring",
+        "count": 1
+      },
+      {
+        "label": "representing",
+        "count": 1
+      }
+    ],
+    "headline": "Bank of America Corp DE Makes New $3.96 Million Investment in Marcus & Millichap, Inc. $MMI",
+    "headline_source": "MarketBeat"
+  },
+  "previous": {
     "date": "2026-09-28",
     "symbol": "BAC",
     "article_count": 2,
@@ -90,106 +168,26 @@
     "headline": "Wall Street’s Nike fandom lowest in 25 years as BofA downgrades",
     "headline_source": "FashionNetwork USA"
   },
-  "previous": {
-    "date": "2026-09-20",
-    "symbol": "BAC",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.3652,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Retail Wholesale",
-        "count": 1
-      },
-      {
-        "label": "Life Sciences",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "cvs",
-        "count": 4
-      },
-      {
-        "label": "health",
-        "count": 2
-      },
-      {
-        "label": "strong-buy",
-        "count": 2
-      },
-      {
-        "label": "wall",
-        "count": 2
-      },
-      {
-        "label": "street",
-        "count": 2
-      },
-      {
-        "label": "zen",
-        "count": 2
-      },
-      {
-        "label": "raised",
-        "count": 1
-      },
-      {
-        "label": "upgraded",
-        "count": 1
-      },
-      {
-        "label": "rating",
-        "count": 1
-      },
-      {
-        "label": "contributing",
-        "count": 1
-      },
-      {
-        "label": "overall",
-        "count": 1
-      },
-      {
-        "label": "moderate",
-        "count": 1
-      }
-    ],
-    "headline": "CVS Health (NYSE:CVS) Raised to \"Strong-Buy\" at Wall Street Zen",
-    "headline_source": "MarketBeat"
-  },
   "emerging_themes": [
+    "Real Estate",
+    "Finance",
+    "Earnings"
+  ],
+  "fading_themes": [
     "Economy Macro",
     "Earnings",
     "Financial Markets"
   ],
-  "fading_themes": [
-    "Life Sciences"
-  ],
   "emerging_keywords": [
-    "bank",
-    "america",
-    "has"
+    "corp",
+    "investment",
+    "marcus"
   ],
   "fading_keywords": [
-    "cvs",
-    "health",
-    "strong-buy"
+    "has",
+    "nike",
+    "lowest"
   ],
-  "takeaway": "BAC's narrative is turning bearish: sentiment moved -0.23, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "BAC's narrative is attention cooling: sentiment moved +0.01, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
