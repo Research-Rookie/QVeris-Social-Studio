@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-bac-2026-09-29",
+    "date": "2026-09-29",
+    "runDate": "2026-09-29",
+    "createdAt": "2026-09-29T08:56:23.105669+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$BAC news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-29.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-29T08:56:21.350266+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BAC",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "BAC",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-29T08:56:21.350266+00:00",
+      "date": "2026-09-29",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "BAC",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Nucor stock falls 1.11 percent as Q3 guidance trails estimates",
+      "headline_source": "AD HOC NEWS",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 55.47, 'd': -1.23, 'dp': -2.1693, 'h': 56.67, 'l': 55.365, 'o': 56.415, 'pc': 56.7, 't': 1790625600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "BAC",
+            "mentions": 13
+          },
+          {
+            "ticker": "AAPL",
+            "mentions": 10
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 10
+          },
+          {
+            "ticker": "QCOM",
+            "mentions": 7
+          },
+          {
+            "ticker": "JPM",
+            "mentions": 5
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 22
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 20
+          },
+          {
+            "label": "Bullish",
+            "count": 5
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-bac-2026-09-29",
     "date": "2026-09-29",
     "runDate": "2026-09-29",
