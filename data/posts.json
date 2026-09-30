@@ -1,5 +1,212 @@
 [
   {
+    "id": "market-narrative-shift-tdg-2026-09-30",
+    "date": "2026-09-30",
+    "runDate": "2026-09-30",
+    "createdAt": "2026-09-30T07:49:17.745514+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $TDG",
+    "status": "ready",
+    "tweet": "What changed in $TDG's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.17\n📌 Top theme: Earnings\n🔎 Emerging term: transdigm\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_TDG_2026-09-30.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-09-30T07:49:14.904028+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$TDG",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "TDG",
+    "topChangePct": -16.71,
+    "marketNarrativeShift": {
+      "updated_at": "2026-09-30T07:49:14.904028+00:00",
+      "date": "2026-09-30",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "TDG",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.1671,
+      "baseline_label": "2026-08-05",
+      "current": {
+        "date": "2026-09-30",
+        "symbol": "TDG",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0416,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Manufacturing",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "transdigm",
+            "count": 2
+          },
+          {
+            "label": "incorporated",
+            "count": 2
+          },
+          {
+            "label": "hold",
+            "count": 2
+          },
+          {
+            "label": "wall",
+            "count": 2
+          },
+          {
+            "label": "street",
+            "count": 2
+          },
+          {
+            "label": "brokerages",
+            "count": 2
+          },
+          {
+            "label": "now",
+            "count": 1
+          },
+          {
+            "label": "rated",
+            "count": 1
+          },
+          {
+            "label": "have",
+            "count": 1
+          },
+          {
+            "label": "assigned",
+            "count": 1
+          },
+          {
+            "label": "consensus",
+            "count": 1
+          },
+          {
+            "label": "rating",
+            "count": 1
+          }
+        ],
+        "headline": "Transdigm Group Incorporated (NYSE:TDG) Stock Now Rated \"Hold\" by Wall Street Brokerages",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-08-05",
+        "symbol": "TDG",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2087,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Manufacturing",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "jacobs",
+            "count": 2
+          },
+          {
+            "label": "solutions",
+            "count": 2
+          },
+          {
+            "label": "quarterly",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "expectations",
+            "count": 2
+          },
+          {
+            "label": "eps",
+            "count": 2
+          },
+          {
+            "label": "releases",
+            "count": 1
+          },
+          {
+            "label": "results",
+            "count": 1
+          },
+          {
+            "label": "beats",
+            "count": 1
+          },
+          {
+            "label": "reported",
+            "count": 1
+          },
+          {
+            "label": "strong",
+            "count": 1
+          },
+          {
+            "label": "beating",
+            "count": 1
+          }
+        ],
+        "headline": "Jacobs Solutions (NYSE:J) Releases Quarterly Earnings Results, Beats Expectations By $0.01 EPS",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Finance",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Technology"
+      ],
+      "emerging_keywords": [
+        "transdigm",
+        "incorporated",
+        "hold"
+      ],
+      "fading_keywords": [
+        "jacobs",
+        "solutions",
+        "quarterly"
+      ],
+      "takeaway": "TDG's narrative is turning bearish: sentiment moved -0.17, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-09-30",
     "date": "2026-09-30",
     "runDate": "2026-09-30",
