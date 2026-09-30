@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-09-29T08:56:21.350266+00:00",
-  "date": "2026-09-29",
+  "updated_at": "2026-09-30T08:55:08.636953+00:00",
+  "date": "2026-09-30",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "BAC",
+  "symbol": "AMZN",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Nucor stock falls 1.11 percent as Q3 guidance trails estimates",
-  "headline_source": "AD HOC NEWS",
+  "headline": "Mach Natural Resources (NYSE:MNR) Sets New 52-Week Low - Here's What Happened",
+  "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 55.47, 'd': -1.23, 'dp': -2.1693, 'h': 56.67, 'l': 55.365, 'o': 56.415, 'pc': 56.7, 't': 1790625600}}",
+  "price_error": "Could not parse quote data for AMZN: {'status_code': 200, 'data': {'c': 246.67, 'd': 0.52, 'dp': 0.2113, 'h': 248.8389, 'l': 245.14, 'o': 246.705, 'pc': 246.15, 't': 1790712000}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
-      {
-        "ticker": "BAC",
-        "mentions": 13
-      },
-      {
-        "ticker": "AAPL",
-        "mentions": 10
-      },
       {
         "ticker": "AMZN",
         "mentions": 10
       },
       {
-        "ticker": "QCOM",
-        "mentions": 7
+        "ticker": "AAPL",
+        "mentions": 9
       },
       {
-        "ticker": "JPM",
-        "mentions": 5
+        "ticker": "BAC",
+        "mentions": 9
+      },
+      {
+        "ticker": "META",
+        "mentions": 6
+      },
+      {
+        "ticker": "BBY",
+        "mentions": 4
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 22
+        "count": 23
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 20
+        "count": 15
       },
       {
         "label": "Bullish",
-        "count": 5
+        "count": 4
       },
       {
         "label": "Somewhat-Bearish",

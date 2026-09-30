@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-amzn-2026-09-30",
+    "date": "2026-09-30",
+    "runDate": "2026-09-30",
+    "createdAt": "2026-09-30T08:55:10.153099+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$AMZN news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-09-30.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-09-30T08:55:08.636953+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AMZN",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "AMZN",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-09-30T08:55:08.636953+00:00",
+      "date": "2026-09-30",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "AMZN",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Mach Natural Resources (NYSE:MNR) Sets New 52-Week Low - Here's What Happened",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for AMZN: {'status_code': 200, 'data': {'c': 246.67, 'd': 0.52, 'dp': 0.2113, 'h': 248.8389, 'l': 245.14, 'o': 246.705, 'pc': 246.15, 't': 1790712000}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "AMZN",
+            "mentions": 10
+          },
+          {
+            "ticker": "AAPL",
+            "mentions": 9
+          },
+          {
+            "ticker": "BAC",
+            "mentions": 9
+          },
+          {
+            "ticker": "META",
+            "mentions": 6
+          },
+          {
+            "ticker": "BBY",
+            "mentions": 4
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 23
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 15
+          },
+          {
+            "label": "Bullish",
+            "count": 4
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-tdg-2026-09-30",
     "date": "2026-09-30",
     "runDate": "2026-09-30",
