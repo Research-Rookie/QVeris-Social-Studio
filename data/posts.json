@@ -1,5 +1,202 @@
 [
   {
+    "id": "market-narrative-shift-lh-2026-10-01",
+    "date": "2026-10-01",
+    "runDate": "2026-10-01",
+    "createdAt": "2026-10-01T08:08:56.384786+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $LH",
+    "status": "ready",
+    "tweet": "What changed in $LH's market narrative? 🔄\n\n🧭 Signal: Narrative steady\n💬 Sentiment shift: -0.04\n📌 Top theme: Earnings\n🔎 Emerging term: has\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_LH_2026-10-01.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-01T08:08:54.719785+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$LH",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Narrative steady",
+    "topSymbol": "LH",
+    "topChangePct": -4.32,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-01T08:08:54.719785+00:00",
+      "date": "2026-10-01",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "LH",
+      "shift_label": "Narrative steady",
+      "sentiment_delta": -0.0432,
+      "baseline_label": "2026-07-29",
+      "current": {
+        "date": "2026-10-01",
+        "symbol": "LH",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2083,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "labcorp",
+            "count": 2
+          },
+          {
+            "label": "has",
+            "count": 2
+          },
+          {
+            "label": "average",
+            "count": 2
+          },
+          {
+            "label": "target",
+            "count": 2
+          },
+          {
+            "label": "brokerages",
+            "count": 2
+          },
+          {
+            "label": "according",
+            "count": 1
+          },
+          {
+            "label": "maintaining",
+            "count": 1
+          },
+          {
+            "label": "moderate",
+            "count": 1
+          },
+          {
+            "label": "buy",
+            "count": 1
+          },
+          {
+            "label": "rating",
+            "count": 1
+          },
+          {
+            "label": "exceeded",
+            "count": 1
+          },
+          {
+            "label": "quarterly",
+            "count": 1
+          }
+        ],
+        "headline": "Labcorp Holdings Inc. (NYSE:LH) Stock Has Average Price Target of $337.73 According to Brokerages",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-07-29",
+        "symbol": "LH",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2515,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "expect",
+            "count": 2
+          },
+          {
+            "label": "labcorp",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "set",
+            "count": 1
+          },
+          {
+            "label": "announce",
+            "count": 1
+          },
+          {
+            "label": "thursday",
+            "count": 1
+          },
+          {
+            "label": "year-on-year",
+            "count": 1
+          },
+          {
+            "label": "revenue",
+            "count": 1
+          },
+          {
+            "label": "growth",
+            "count": 1
+          },
+          {
+            "label": "slowdown",
+            "count": 1
+          },
+          {
+            "label": "previous",
+            "count": 1
+          }
+        ],
+        "headline": "What To Expect From Labcorp’s (LH) Q2 Earnings",
+        "headline_source": "TradingView"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "has",
+        "average",
+        "target"
+      ],
+      "fading_keywords": [
+        "expect",
+        "earnings",
+        "what"
+      ],
+      "takeaway": "LH's narrative is narrative steady: sentiment moved -0.04, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-01",
     "date": "2026-10-01",
     "runDate": "2026-10-01",
