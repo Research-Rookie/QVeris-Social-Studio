@@ -1,61 +1,65 @@
 {
-  "updated_at": "2026-09-30T08:55:08.636953+00:00",
-  "date": "2026-09-30",
+  "updated_at": "2026-10-01T09:19:15.026796+00:00",
+  "date": "2026-10-01",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "AMZN",
+  "symbol": "JPM",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Mach Natural Resources (NYSE:MNR) Sets New 52-Week Low - Here's What Happened",
-  "headline_source": "MarketBeat",
+  "headline": "Concentrix earnings analysis: questions answered and next catalysts",
+  "headline_source": "Investing.com",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for AMZN: {'status_code': 200, 'data': {'c': 246.67, 'd': 0.52, 'dp': 0.2113, 'h': 248.8389, 'l': 245.14, 'o': 246.705, 'pc': 246.15, 't': 1790712000}}",
+  "price_error": "Could not parse quote data for JPM: {'status_code': 200, 'data': {'c': 330.83, 'd': -4.15, 'dp': -1.2389, 'h': 336.34, 'l': 330.83, 'o': 334.89, 'pc': 334.98, 't': 1790798400}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "AMZN",
-        "mentions": 10
-      },
-      {
-        "ticker": "AAPL",
-        "mentions": 9
+        "ticker": "JPM",
+        "mentions": 2
       },
       {
         "ticker": "BAC",
-        "mentions": 9
+        "mentions": 2
       },
       {
-        "ticker": "META",
-        "mentions": 6
+        "ticker": "NVDA",
+        "mentions": 2
       },
       {
-        "ticker": "BBY",
-        "mentions": 4
+        "ticker": "KLXER",
+        "mentions": 2
+      },
+      {
+        "ticker": "CNXC",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 23
+        "count": 16
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 15
+        "count": 11
       },
       {
         "label": "Bullish",
-        "count": 4
+        "count": 9
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 2
+        "count": 4
+      },
+      {
+        "label": "Bearish",
+        "count": 1
       }
     ]
   }
