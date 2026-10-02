@@ -1,177 +1,185 @@
 {
-  "updated_at": "2026-10-01T08:08:54.719785+00:00",
-  "date": "2026-10-01",
+  "updated_at": "2026-10-02T07:50:26.826326+00:00",
+  "date": "2026-10-02",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "LH",
-  "shift_label": "Narrative steady",
-  "sentiment_delta": -0.0432,
-  "baseline_label": "2026-07-29",
+  "symbol": "ROST",
+  "shift_label": "Turning bullish",
+  "sentiment_delta": 0.2855,
+  "baseline_label": "2026-08-23",
   "current": {
-    "date": "2026-10-01",
-    "symbol": "LH",
-    "article_count": 1,
+    "date": "2026-10-02",
+    "symbol": "ROST",
+    "article_count": 2,
     "source_count": 1,
-    "sentiment_score": 0.2083,
+    "sentiment_score": 0.5585,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
+        "count": 2
       },
       {
-        "label": "Life Sciences",
-        "count": 1
+        "label": "Retail Wholesale",
+        "count": 2
       },
       {
         "label": "Financial Markets",
+        "count": 2
+      },
+      {
+        "label": "Economy Macro",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "labcorp",
-        "count": 2
+        "label": "ross",
+        "count": 4
       },
       {
-        "label": "has",
-        "count": 2
-      },
-      {
-        "label": "average",
-        "count": 2
-      },
-      {
-        "label": "target",
-        "count": 2
-      },
-      {
-        "label": "brokerages",
-        "count": 2
-      },
-      {
-        "label": "according",
-        "count": 1
-      },
-      {
-        "label": "maintaining",
-        "count": 1
-      },
-      {
-        "label": "moderate",
-        "count": 1
-      },
-      {
-        "label": "buy",
-        "count": 1
-      },
-      {
-        "label": "rating",
-        "count": 1
-      },
-      {
-        "label": "exceeded",
-        "count": 1
-      },
-      {
-        "label": "quarterly",
-        "count": 1
-      }
-    ],
-    "headline": "Labcorp Holdings Inc. (NYSE:LH) Stock Has Average Price Target of $337.73 According to Brokerages",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-07-29",
-    "symbol": "LH",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.2515,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Life Sciences",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "expect",
-        "count": 2
-      },
-      {
-        "label": "labcorp",
-        "count": 2
+        "label": "stores",
+        "count": 4
       },
       {
         "label": "earnings",
+        "count": 4
+      },
+      {
+        "label": "results",
         "count": 2
       },
       {
-        "label": "what",
-        "count": 1
+        "label": "reaction",
+        "count": 2
       },
       {
-        "label": "set",
-        "count": 1
+        "label": "history",
+        "count": 2
       },
       {
-        "label": "announce",
-        "count": 1
+        "label": "reported",
+        "count": 2
       },
       {
-        "label": "thursday",
-        "count": 1
+        "label": "surpassing",
+        "count": 2
       },
       {
-        "label": "year-on-year",
-        "count": 1
+        "label": "diluted",
+        "count": 2
+      },
+      {
+        "label": "eps",
+        "count": 2
       },
       {
         "label": "revenue",
-        "count": 1
+        "count": 2
       },
       {
-        "label": "growth",
-        "count": 1
-      },
-      {
-        "label": "slowdown",
-        "count": 1
-      },
-      {
-        "label": "previous",
+        "label": "strong",
         "count": 1
       }
     ],
-    "headline": "What To Expect From Labcorp’s (LH) Q2 Earnings",
-    "headline_source": "TradingView"
+    "headline": "Ross Stores (ROST) Q3 2025 Earnings: Results, Market Reaction & History",
+    "headline_source": "24/7 Wall St."
+  },
+  "previous": {
+    "date": "2026-08-23",
+    "symbol": "ROST",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.273,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Retail Wholesale",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "ross",
+        "count": 3
+      },
+      {
+        "label": "stores",
+        "count": 2
+      },
+      {
+        "label": "grew",
+        "count": 2
+      },
+      {
+        "label": "tjx",
+        "count": 2
+      },
+      {
+        "label": "comparable",
+        "count": 1
+      },
+      {
+        "label": "sales",
+        "count": 1
+      },
+      {
+        "label": "only",
+        "count": 1
+      },
+      {
+        "label": "one",
+        "count": 1
+      },
+      {
+        "label": "went",
+        "count": 1
+      },
+      {
+        "label": "two",
+        "count": 1
+      },
+      {
+        "label": "major",
+        "count": 1
+      },
+      {
+        "label": "off-price",
+        "count": 1
+      }
+    ],
+    "headline": "Ross Stores Grew Comparable Sales 10%. TJX Grew 4%. Only One Stock Went Up.",
+    "headline_source": "The Globe and Mail"
   },
   "emerging_themes": [
     "Earnings",
-    "Life Sciences",
+    "Retail Wholesale",
     "Financial Markets"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "has",
-    "average",
-    "target"
+    "earnings",
+    "stores",
+    "results"
   ],
   "fading_keywords": [
-    "expect",
-    "earnings",
-    "what"
+    "grew",
+    "tjx",
+    "comparable"
   ],
-  "takeaway": "LH's narrative is narrative steady: sentiment moved -0.04, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "ROST's narrative is turning bullish: sentiment moved +0.29, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
