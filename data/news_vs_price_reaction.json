@@ -1,61 +1,61 @@
 {
-  "updated_at": "2026-10-01T09:19:15.026796+00:00",
-  "date": "2026-10-01",
+  "updated_at": "2026-10-02T08:52:18.503844+00:00",
+  "date": "2026-10-02",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "JPM",
-  "news_tone": "Neutral",
+  "symbol": "CMG",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "Concentrix earnings analysis: questions answered and next catalysts",
-  "headline_source": "Investing.com",
+  "headline": "Analyst cuts Rockwell Medical fair value to USD 20 for Rockwell Medical stock",
+  "headline_source": "AD HOC NEWS",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for JPM: {'status_code': 200, 'data': {'c': 330.83, 'd': -4.15, 'dp': -1.2389, 'h': 336.34, 'l': 330.83, 'o': 334.89, 'pc': 334.98, 't': 1790798400}}",
+  "price_error": "Could not parse quote data for CMG: {'status_code': 200, 'data': {'c': 32.32, 'd': 0.37, 'dp': 1.1581, 'h': 32.445, 'l': 31.7336, 'o': 31.95, 'pc': 31.95, 't': 1790884800}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "JPM",
+        "ticker": "CMG",
         "mentions": 2
       },
       {
-        "ticker": "BAC",
+        "ticker": "AMD",
         "mentions": 2
       },
       {
-        "ticker": "NVDA",
+        "ticker": "PLTR",
         "mentions": 2
       },
       {
-        "ticker": "KLXER",
+        "ticker": "AMZN",
         "mentions": 2
       },
       {
-        "ticker": "CNXC",
-        "mentions": 1
+        "ticker": "CEG",
+        "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Neutral",
-        "count": 16
+        "label": "Somewhat-Bullish",
+        "count": 15
       },
       {
-        "label": "Somewhat-Bullish",
-        "count": 11
+        "label": "Neutral",
+        "count": 12
       },
       {
         "label": "Bullish",
-        "count": 9
+        "count": 6
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 4
+        "count": 3
       },
       {
         "label": "Bearish",
