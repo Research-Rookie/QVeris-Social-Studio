@@ -1,137 +1,122 @@
 {
-  "updated_at": "2026-10-01T09:19:12.207807+00:00",
-  "date": "2026-10-01",
+  "updated_at": "2026-10-02T07:10:54.163669+00:00",
+  "date": "2026-10-02",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Concentrix earnings analysis: questions answered and next catalysts",
-      "summary": "Concentrix (CNXC) experienced a sharp market reaction following its Q3 earnings, with an EPS beat but a revenue miss. The company is actively pivoting towards AI-generated reven...",
-      "url": "https://www.investing.com/news/stock-market-news/concentrix-earnings-analysis-questions-answered-and-next-catalysts-93CH-4925775",
-      "source": "Investing.com",
-      "published_at": "20261001T070222",
-      "sentiment_score": 0.070725,
-      "sentiment_label": "Neutral",
+      "title": "Analyst cuts Rockwell Medical fair value to USD 20 for Rockwell Medical stock",
+      "summary": "An analyst has reduced Rockwell Medical's fair value from $40.00 to $20.00, citing lower future price-to-earnings assumptions and adjusted revenue/profit expectations. Despite t...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/analyst-cuts-rockwell-medical-fair-value-to-usd-20-for-rockwell-medical-stock/70213453",
+      "source": "AD HOC NEWS",
+      "published_at": "20261002T032529",
+      "sentiment_score": -0.438736,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "CNXC"
+        "RMTI"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance",
-        "Technology"
+        "Life Sciences"
       ],
-      "quality_score": 15,
+      "quality_score": 21,
       "is_noise": false
     },
     {
-      "title": "Envestnet Asset Management Inc. Cuts Stock Holdings in Tractor Supply Company $TSCO",
-      "summary": "Envestnet Asset Management Inc. significantly reduced its stake in Tractor Supply Company (NASDAQ:TSCO) by 90.6% during the second quarter, selling 3.92 million shares and retai...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-asset-management-inc-cuts-stock-holdings-in-tractor-supply-company-tsco-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T070937",
-      "sentiment_score": 0.034267,
-      "sentiment_label": "Neutral",
+      "title": "Ross Stores (ROST) Q3 2025 Earnings: Results, Market Reaction & History",
+      "summary": "Ross Stores (ROST) reported strong Q3 2025 earnings, surpassing analyst expectations with diluted EPS of $1.58 and revenue of $5.60 billion. The company attributed its success t...",
+      "url": "https://247wallst.com/companies/rost/earnings/2025/Q3/",
+      "source": "24/7 Wall St.",
+      "published_at": "20261002T030801",
+      "sentiment_score": 0.845954,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "TSCO"
+        "ROST"
       ],
       "topics": [
         "Earnings",
         "Retail Wholesale",
         "Financial Markets"
       ],
-      "quality_score": 13,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "Labcorp Holdings Inc. (NYSE:LH) Stock Has Average Price Target of $337.73 According to Brokerages",
-      "summary": "Labcorp Holdings Inc. (NYSE:LH) has an average price target of $337.73 from brokerages, with analysts maintaining a \"Moderate Buy\" rating. The company exceeded quarterly expecta...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-labcorp-holdings-inc-nyse-lh-stock-has-average-price-target-of-33773-according-to-brokerages-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T065623",
-      "sentiment_score": 0.244135,
+      "title": "Illinois Tool Works (ITW), Why Is The Stock Drawing Fresh Attention?",
+      "summary": "Illinois Tool Works (ITW) is gaining renewed investor attention after a Zacks upgrade, driven by higher earnings estimates, valuation interest, and strong long-term shareholder...",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-itw/illinois-tool-works/news/illinois-tool-works-itw-why-is-the-stock-drawing-fresh-atten",
+      "source": "Simply Wall Street",
+      "published_at": "20261002T022950",
+      "sentiment_score": 0.274615,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "LH",
-        "LHX"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Seagate stock pre-market at EUR 833.00: plus 2.33 percent",
-      "summary": "Seagate stock saw a pre-market gain of 2.33 percent, trading at EUR 833.00 on October 1, 2026, compared to its previous close of EUR 814.00. Investors are anticipating the Xetra...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/seagate-stock-pre-market-at-eur-833-00-plus-2-33-percent/70208726",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T070000",
-      "sentiment_score": 0.350606,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "STX"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Xylem Inc. (NYSE:XYL) Stock Rated \"Moderate Buy\" by Wall Street Analysts",
-      "summary": "Xylem Inc. (NYSE:XYL) has received a \"Moderate Buy\" rating from Wall Street analysts, with an average 12-month price target of $155.00. The company recently reported strong quar...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-xylem-inc-nyse-xyl-stock-rated-moderate-buy-by-wall-street-analysts-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T065908",
-      "sentiment_score": 0.395997,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "XYL"
+        "ITW",
+        "CRM",
+        "DOV",
+        "XYL",
+        "PEP"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Manufacturing",
+        "Economy Macro",
         "Finance"
       ],
-      "quality_score": 11,
+      "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "Arch Capital Group stock pre-market at EUR 82.04: plus 0.00 percent",
-      "summary": "Arch Capital Group's stock remained unchanged at EUR 82.04 in pre-market trading on October 1, 2026, at Lang & Schwarz. The company is set to release its third-quarter results o...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/arch-capital-group-stock-pre-market-at-eur-82-04-plus-0-00-percent/70208680",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T065600",
-      "sentiment_score": 0.001538,
-      "sentiment_label": "Neutral",
+      "title": "Ross Stores (ROST) Q2 2025 Earnings: Results, Market Reaction & History",
+      "summary": "Ross Stores (ROST) reported a modest earnings beat for Q2 2025 with GAAP diluted EPS of $1.56, surpassing estimates despite revenue of $5.53 billion slightly missing expectation...",
+      "url": "https://247wallst.com/companies/rost/earnings/2025/Q2/",
+      "source": "24/7 Wall St.",
+      "published_at": "20261002T033828",
+      "sentiment_score": 0.286525,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "ACGL"
+        "ROST"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "First Solar (FSLR) Stock May Be 46% Undervalued On Pricing Pressure",
+      "summary": "First Solar's stock has declined, prompting an analysis of its intrinsic value against its current trading price of US$172.11, especially given pricing pressures and new tariffs...",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-fslr/first-solar/news/first-solar-fslr-stock-may-be-46-undervalued-on-pricing-pres",
+      "source": "Simply Wall Street",
+      "published_at": "20261002T021451",
+      "sentiment_score": 0.268394,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "FSLR"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance"
+        "Energy Transportation"
       ],
       "quality_score": 11,
       "is_noise": false
     },
     {
-      "title": "Crocs (NASDAQ:CROX) Stock Crosses Above 200 Day Moving Average - Should You Sell?",
-      "summary": "Crocs (NASDAQ:CROX) stock recently crossed above its 200-day moving average, reaching $123.52 before settling at $117.4330. Analysts have a \"Moderate Buy\" consensus rating with...",
-      "url": "https://www.marketbeat.com/instant-alerts/price-crocs-nasdaq-crox-stock-crosses-above-200-day-moving-average-should-you-sell-2026-10-01/",
+      "title": "Chipotle Mexican Grill, Inc. (NYSE:CMG) Stock Has Consensus Target Price of $43.91 According to Analysts",
+      "summary": "Chipotle Mexican Grill (NYSE:CMG) has a \"Moderate Buy\" consensus rating from analysts, with an average 12-month price target of $43.91, significantly higher than its current sha...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-chipotle-mexican-grill-inc-nyse-cmg-stock-has-consensus-target-price-of-4391-according-to-analysts-2026-10-02/",
       "source": "MarketBeat",
-      "published_at": "20261001T065837",
-      "sentiment_score": 0.3073,
-      "sentiment_label": "Somewhat-Bullish",
+      "published_at": "20261002T063234",
+      "sentiment_score": 0.436467,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "CROX"
+        "CMG"
       ],
       "topics": [
         "Earnings",
@@ -142,390 +127,544 @@
       "is_noise": false
     },
     {
-      "title": "KKR & Co. Inc. (NYSE:KKR) Stock Has Consensus Target Price of $130.00 According to Analysts",
-      "summary": "KKR & Co. Inc. has received a consensus \"Moderate Buy\" rating from analysts, with an average 12-month price target of $130.00, significantly higher than its recent opening price...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-kkr-co-inc-nyse-kkr-stock-has-consensus-target-price-of-13000-according-to-analysts-2026-10-01/",
+      "title": "PPG Industries, Inc. (NYSE:PPG) Stock Has Average Price Target of $126.62 According to Brokerages",
+      "summary": "PPG Industries (NYSE:PPG) has received an average \"Hold\" recommendation from seventeen analysts, with a consensus 12-month price target of $126.62, significantly above its curre...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-ppg-industries-inc-nyse-ppg-stock-has-average-price-target-of-12662-according-to-brokerages-2026-10-02/",
       "source": "MarketBeat",
-      "published_at": "20261001T065815",
-      "sentiment_score": 0.429035,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "KKR"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Mergers And Acquisitions",
-        "Technology"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Fortinet, Inc. (NASDAQ:FTNT) Stock Has Average Target Price of $152.79 According to Analysts",
-      "summary": "Analysts have issued a consensus \"Hold\" rating for Fortinet, Inc. (NASDAQ:FTNT), with an average 12-month price target of $152.79, which is below its current share price of $178...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-fortinet-inc-nasdaq-ftnt-stock-has-average-target-price-of-15279-according-to-analysts-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T065620",
-      "sentiment_score": 0.261305,
+      "published_at": "20261002T063157",
+      "sentiment_score": 0.270133,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "FTNT",
-        "CRWD"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Cheetah Net Announces ATM Stock Sales and 1-for-150 Reverse Split",
-      "summary": "Cheetah Net Supply Chain Service Inc. announced it sold approximately 196,850,000 Class A Common Stock shares through an at-the-market (ATM) offering. The company also executed...",
-      "url": "https://kalkinemedia.com/us/news/announcements/cheetah-net-announces-atm-stock-sales-and-1-for-150-reverse-split",
-      "source": "Kalkine Media",
-      "published_at": "20261001T072321",
-      "sentiment_score": -0.298912,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "CTNT"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "JPMorgan Chase & Co. $JPM Stock Sold by HighTower Advisors LLC",
-      "summary": "HighTower Advisors LLC has reduced its stake in JPMorgan Chase & Co. by 1.4% in the second quarter, selling 36,007 shares. Despite this, JPMorgan remains a significant holding f...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-jpmorgan-chase-co-jpm-stock-sold-by-hightower-advisors-llc-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T070819",
-      "sentiment_score": 0.043714,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "JPM",
-        "BAC",
-        "NFLX",
-        "NVDA",
-        "ORCL"
-      ],
-      "topics": [
-        "Finance",
-        "Financial Markets",
-        "Earnings",
-        "Economy Monetary",
-        "Economy Macro"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Cincinnati Financial stock reports a 21.4 percent Q2 earnings miss",
-      "summary": "Cincinnati Financial (CINF) reported a 21.4% Q2 earnings miss with operating income of $1.43 per share, despite a 6.8% year-over-year increase in operating revenue to $3.0 billi...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/cincinnati-financial-stock-reports-a-21-4-percent-q2-earnings-miss/70207697",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T070100",
-      "sentiment_score": -0.210865,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "CINF"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Cinemark stock weighs Q2 EPS beat against USD 40.00 target",
-      "summary": "Cinemark Holdings, Inc. (CNK) reported Q2 2026 EPS of USD 1.19, exceeding the USD 1.03 consensus, with revenue reaching USD 1.09 billion. Despite this strong performance and a r...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/cinemark-stock-weighs-q2-eps-beat-against-usd-40-00-target/70206928",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T070020",
-      "sentiment_score": 0.212028,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CNK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "KLX Energy Services Closes Rights Offering, Raises $37.2 Million - News and Statistics",
-      "summary": "KLX Energy Services Holdings, Inc. successfully completed its rights offering, raising $37.2 million through the sale of 24,975,001 shares at $1.49 each. The proceeds will be us...",
-      "url": "https://www.indexbox.io/blog/klx-energy-services-completes-372-million-rights-offering-and-backstop-exchange/",
-      "source": "IndexBox",
-      "published_at": "20261001T065904",
-      "sentiment_score": 0.404357,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "KLXER"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Energy Transportation"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Lamb Weston stock pre-market at EUR 36.78: minus 0.05 percent",
-      "summary": "Lamb Weston stock is trading pre-market at EUR 36.78, reflecting a 0.05 percent decrease compared to its previous close. The company is scheduled to release its fiscal 2027 firs...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/lamb-weston-stock-pre-market-at-eur-36-78-minus-0-05-percent/70208581",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T084206",
-      "sentiment_score": -0.080844,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "LW"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "CSX stock pre-market at EUR 41.18: plus 0.59 percent",
-      "summary": "CSX stock is trading at EUR 41.18 in pre-market, marking a 0.59 percent increase from its previous close. The company is scheduled to release its third-quarter financial and ope...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/csx-stock-pre-market-at-eur-41-18-plus-0-59-percent/70208214",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T081200",
-      "sentiment_score": 0.283409,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CSX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Copart stock pre-market at EUR 24.29: plus 0.54 percent",
-      "summary": "Copart stock is trading pre-market at EUR 24.29, marking a 0.54 percent increase from its previous close. This rise follows the company's recent announcement on September 10, 20...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/copart-stock-pre-market-at-eur-24-29-plus-0-54-percent/70207950",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T074800",
-      "sentiment_score": 0.266493,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CPRT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Mergers And Acquisitions"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "How Claims Fraud Tool Integration Will Impact Verisk Analytics Stock",
-      "summary": "Verisk Analytics (NasdaqGS:VRSK) has integrated Truepic's image and video authentication tools into its ClaimSearch platform, enhancing fraud detection for insurers. This move a...",
-      "url": "https://simplywall.st/stocks/us/commercial-services/nasdaq-vrsk/verisk-analytics/news/how-claims-fraud-tool-integration-will-impact-verisk-analyti",
-      "source": "Simply Wall Street",
-      "published_at": "20261001T074641",
-      "sentiment_score": 0.103713,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "VRSK",
-        "EFX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Crown Castle stock pre-market at EUR 58.75: plus 0.00 percent",
-      "summary": "Crown Castle stock showed no change in pre-market trading at EUR 58.75 on October 1, 2026, ahead of its third-quarter results release scheduled for October 21, 2026. The company...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/crown-castle-stock-pre-market-at-eur-58-75-plus-0-00-percent/70208627",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T071941",
-      "sentiment_score": 0.039179,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CCI"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Thermo Fisher Scientific stock pre-market at EUR 598.30: plus 0.28 percent",
-      "summary": "Thermo Fisher Scientific stock rose 0.28 percent to EUR 598.30 in pre-market trading, compared to its previous close of EUR 596.60. The company also announced that it will relea...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/thermo-fisher-scientific-stock-pre-market-at-eur-598-30-plus-0-28-percent/70207951",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T071325",
-      "sentiment_score": 0.141262,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TMO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Euroseas Ltd. (NASDAQ:ESEA) Shares Shorted: Short Interest Up 66.2% in September",
-      "summary": "Euroseas Ltd. (NASDAQ:ESEA) experienced a significant 66.2% increase in short interest in September, reaching 55,584 shares. Despite this, the company reported strong quarterly...",
-      "url": "https://www.marketbeat.com/instant-alerts/options-euroseas-ltd-nasdaq-esea-shares-shorted-short-interest-up-662-in-september-2026-09-30/",
-      "source": "MarketBeat",
-      "published_at": "20261001T082236",
-      "sentiment_score": 0.181923,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ESEA"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Energy Transportation"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "BridgeBio Oncology Therapeutics, Inc (NASDAQ:BBOT) Short Interest Update",
-      "summary": "BridgeBio Oncology Therapeutics (NASDAQ:BBOT) experienced a significant 41.9% decrease in short interest during September, with 3.60 million shares shorted as of September 15th....",
-      "url": "https://www.marketbeat.com/instant-alerts/options-bridgebio-oncology-therapeutics-inc-nasdaq-bbot-short-interest-update-2026-09-30/",
-      "source": "MarketBeat",
-      "published_at": "20261001T075718",
-      "sentiment_score": 0.067826,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "BBOT"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Steel Dynamics stock pre-market at EUR 197.38: plus 0.91 percent",
-      "summary": "Steel Dynamics stock traded at EUR 197.38 pre-market, marking a 0.91 percent increase from its previous close. The company anticipates significantly higher steel-operations prof...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/steel-dynamics-stock-pre-market-at-eur-197-38-plus-0-91-percent/70207890",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T074200",
-      "sentiment_score": 0.384071,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "STLD"
+        "PPG",
+        "AMD",
+        "PLTR"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Manufacturing"
       ],
-      "quality_score": 7,
+      "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Bank of America Corp DE Purchases New Position in Arbor Realty Trust $ABR",
-      "summary": "Bank of America Corp DE has acquired a new position in Arbor Realty Trust (NYSE: ABR), purchasing 349,044 shares valued at approximately $1.89 million, representing 0.19% of the...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-purchases-new-position-in-arbor-realty-trust-abr-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T073732",
-      "sentiment_score": 0.114903,
-      "sentiment_label": "Neutral",
+      "title": "Cigna (CI) Stock Looks Cheap Following Its 44% Five Year Gain",
+      "summary": "Cigna (CI) has seen a 43.7% gain over the past five years, but its stock is down in the last year, leading to questions about its current valuation relative to earnings. Despite...",
+      "url": "https://simplywall.st/stocks/us/healthcare/nyse-ci/cigna-group/news/cigna-ci-stock-looks-cheap-following-its-44-five-year-gain",
+      "source": "Simply Wall Street",
+      "published_at": "20261002T035256",
+      "sentiment_score": 0.223128,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "BAC",
-        "PNC",
-        "JPM"
+        "CI",
+        "CVS"
       ],
       "topics": [
         "Earnings",
-        "Finance",
-        "Real Estate",
-        "Financial Markets"
+        "Financial Markets",
+        "Life Sciences"
       ],
-      "quality_score": 7,
+      "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Intuit Inc. (NASDAQ:INTU) Stock Has Average Price Target of $431.55 According to Brokerages",
-      "summary": "Thirty-one brokerages have issued a consensus \"Hold\" rating for Intuit Inc. (NASDAQ:INTU), with an average 12-month price target of $431.55. While recent financial results excee...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-intuit-inc-nasdaq-intu-stock-has-average-price-target-of-43155-according-to-brokerages-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T065843",
-      "sentiment_score": 0.150553,
+      "title": "American Savings Bank sets Q3FY26 results date for October 29",
+      "summary": "American Savings Bank (NYSE: ASBH) announced it would release its third quarter 2026 earnings on Thursday, October 29, 2026, after the market closes. The bank will host a confer...",
+      "url": "https://scanx.trade/stock-market-news/companies/american-savings-bank-sets-q3fy26-results-date-october-29/52433647",
+      "source": "scanx.trade",
+      "published_at": "20261002T035004",
+      "sentiment_score": 0.110631,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ASBH"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "NatWest Group PLC Stock (NWG) Moved Down by 5.37% on Oct 1: What Signal Does It Send?",
+      "summary": "NatWest Group PLC (NWG) shares fell by 5.37% on October 1st, primarily due to global bond market sell-offs, rising yields, and profit-taking after a period of strong performance...",
+      "url": "https://www.tradingkey.com/news/market-movers/262196560-market-movers-nwg-20261001",
+      "source": "TradingKey",
+      "published_at": "20261002T022758",
+      "sentiment_score": 0.179287,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "INTU"
+        "NWG",
+        "NVDA"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Finance",
-        "Technology"
+        "Economy Macro"
       ],
-      "quality_score": 7,
+      "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "DICK'S Sporting Goods, Inc. (NYSE:DKS) Stock Rated \"Hold\" by Sell-Side Brokerages",
-      "summary": "DICK'S Sporting Goods (NYSE:DKS) has received a consensus \"Hold\" rating from sell-side brokerages, with an average 12-month price target of $167.20. This comes after the company...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-dicks-sporting-goods-inc-nyse-dks-stock-rated-hold-by-sell-side-brokerages-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T065816",
-      "sentiment_score": -0.246686,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "ChronoScale Announces Agreements Bringing Total Company Contracted Run-Rate Revenue to $1 Billion and Sale of Ekso...",
+      "summary": "ChronoScale Holdings Corporation has announced an expansion of an existing customer agreement and a new customer agreement, which are expected to increase its annualized revenue...",
+      "url": "https://www.manilatimes.net/2026/10/02/tmt-newswire/globenewswire/chronoscale-announces-agreements-bringing-total-company-contracted-run-rate-revenue-to-1-billion-and-sale-of-ekso-bionics-business-unit/2437684/amp",
+      "source": "The Manila Times",
+      "published_at": "20261002T044848",
+      "sentiment_score": 0.401947,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "DKS"
+        "CHRN"
+      ],
+      "topics": [
+        "Earnings",
+        "Mergers And Acquisitions",
+        "Technology"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "QCRH Assumes Coverage by Raymond James -- Rating Outlook Outperf",
+      "summary": "Raymond James analyst Nicholas Holowko initiated coverage on QCR Holdings Inc. (QCRH) with an \"Outperform\" rating and a $110.00 price target. Despite this positive outlook, Guru...",
+      "url": "https://www.gurufocus.com/news/9106168/qcrh-assumes-coverage-by-raymond-james-rating-outlook-outperform",
+      "source": "GuruFocus",
+      "published_at": "20261002T032803",
+      "sentiment_score": 0.28497,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "QCRH"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "J.B. Hunt sets October 15 date. J.B. Hunt Transport Services stock is valued at USD 21.3 billion",
+      "summary": "J.B. Hunt Transport Services (JBHT) has a market capitalization of USD 21.3 billion and has set October 15, 2026, as the release date for its third-quarter earnings. This follow...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/j-b-hunt-sets-october-15-date-j-b-hunt-transport-services-stock-is/70213933",
+      "source": "AD HOC NEWS",
+      "published_at": "20261002T032500",
+      "sentiment_score": 0.279336,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "JBHT"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Nvidia’s $96 Billion Quarter Has a Hidden Partner: KLA",
+      "summary": "Nvidia's extraordinary financial success, with a $96 billion quarter, relies heavily on a robust semiconductor supply chain. This article highlights KLA Corporation (KLAC) as a...",
+      "url": "https://drrobertcastellano.substack.com/p/nvidias-96-billion-quarter-has-a",
+      "source": "Dr. Robert Castellano's Semicondu...",
+      "published_at": "20261002T023951",
+      "sentiment_score": 0.471251,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "KLAC",
+        "NVDA"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology",
+        "Manufacturing"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "RBC Capital Sticks to Its Buy Rating for Wells Fargo (WFC)",
+      "summary": "RBC Capital has reaffirmed its Buy rating for Wells Fargo (WFC) with a price target of $100.00. Analyst Gerard Cassidy, known for a 13.8% average return, highlighted the bank's...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/WFC/pressreleases/4919916/rbc-capital-sticks-to-its-buy-rating-for-wells-fargo-wfc/",
+      "source": "The Globe and Mail",
+      "published_at": "20261002T021131",
+      "sentiment_score": 0.00348,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "WFC"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "RBC Capital Reaffirms Their Buy Rating on Bank of America (BAC)",
+      "summary": "RBC Capital has reaffirmed its Buy rating on Bank of America (BAC) with a price target of $65.00, noting analyst Gerard Cassidy's strong track record. This aligns with a general...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/BAC/pressreleases/4919934/rbc-capital-reaffirms-their-buy-rating-on-bank-of-america-bac/",
+      "source": "The Globe and Mail",
+      "published_at": "20261002T020930",
+      "sentiment_score": 0.37282,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "USB",
+        "BAC",
+        "GS",
+        "JPM"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "MarketAxess Holdings Inc. (NASDAQ:MKTX) Stock Rated \"Hold\" by Wall Street Brokerages",
+      "summary": "MarketAxess Holdings Inc. (NASDAQ:MKTX) has received a consensus \"Hold\" rating from thirteen Wall Street brokerages, with an average 12-month price target of $156.10, which is b...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-marketaxess-holdings-inc-nasdaq-mktx-stock-rated-hold-by-wall-street-brokerages-2026-10-02/",
+      "source": "MarketBeat",
+      "published_at": "20261002T063157",
+      "sentiment_score": -0.090794,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MKTX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
+      "title": "Is Keurig Dr Pepper (KDP) Undervalued On Its Jacobs Cold Espresso Launch?",
+      "summary": "Keurig Dr Pepper (KDP) recently launched a Jacobs cold espresso concentrate range, its first major beverage launch since the JDE Peet’s acquisition. Despite this, the stock trad...",
+      "url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nasdaq-kdp/keurig-dr-pepper/news/is-keurig-dr-pepper-kdp-undervalued-on-its-jacobs-cold-espre",
+      "source": "Simply Wall Street",
+      "published_at": "20261002T055207",
+      "sentiment_score": 0.229955,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "KDP",
+        "KO",
+        "PEP"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Retail Wholesale",
+        "Economy Macro"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "ChronoScale Holdings Corporation (CHRN) Stock Price, News, Quote & History",
+      "summary": "This article provides a detailed financial overview of ChronoScale Holdings Corporation (CHRN), including its current stock price, trading activity, key historical data, and per...",
+      "url": "https://ca.finance.yahoo.com/quote/CHRN/",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20261002T044848",
+      "sentiment_score": 0.267891,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CHRN"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Vulcan Materials Company (Holding Company) Stock 12‑Month Price Target Cut to $322.29, Implies 32% Upside",
+      "summary": "Analysts have cut the average 12-month price target for Vulcan Materials Company (VMC) stock from $324.67 to $322.29, implying a 32% potential upside from its Sep. 30 closing pr...",
+      "url": "https://www.tradingview.com/news/tradingview:659f4582dd2c0:0-vulcan-materials-company-holding-company-stock-12-month-price-target-cut-to-322-29-implies-32-upside/",
+      "source": "TradingView",
+      "published_at": "20261002T043311",
+      "sentiment_score": 0.275194,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "VMC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Real Estate"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "SM Energy Co (SM) Shares Surge 3.8% -- What GF Score of 81 Tells Investors",
+      "summary": "SM Energy Co (SM) shares rose 3.8% to $35.06, with GuruFocus estimating the stock to be 32.5% undervalued against a fair value of $51.93. Despite a strong GF Score of 81/100, in...",
+      "url": "https://www.gurufocus.com/news/9106635/sm-energy-co-sm-shares-surge-38-what-gf-score-of-81-tells-investors",
+      "source": "GuruFocus",
+      "published_at": "20261002T042247",
+      "sentiment_score": 0.134665,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SM"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Finance",
+        "Energy Transportation"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Asset turnover of Cintas Corporation – HAM:CIT",
+      "summary": "This article provides an overview of the asset turnover for Cintas Corporation, traded under the ticker HAM:CIT on the Hamburg Stock Exchange. It notes that the market is curren...",
+      "url": "https://www.tradingview.com/symbols/HAM-CIT/financials-statistics-and-ratios/asset-turnover/",
+      "source": "TradingView",
+      "published_at": "20261002T031703",
+      "sentiment_score": 0.027107,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CTAS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
         "Finance"
       ],
       "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "Envestnet Asset Management Inc. Increases Position in Humana Inc. $HUM",
-      "summary": "Envestnet Asset Management Inc. significantly increased its stake in Humana Inc. by 180.2% in the second quarter of 2026, bringing its total holdings to 38,820 shares valued at...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-asset-management-inc-increases-position-in-humana-inc-hum-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T070915",
-      "sentiment_score": 0.231661,
+      "title": "Mohawk Industries to host Q3 2026 earnings call on Oct 30",
+      "summary": "Mohawk Industries (NYSE: MHK) will hold its Third Quarter 2026 earnings conference call on Friday, October 30, 2026, at 11:00 am ET, following the release of its earnings report...",
+      "url": "https://scanx.trade/stock-market-news/companies/mohawk-industries-host-q3-2026-earnings-call-oct-30/52436800",
+      "source": "scanx.trade",
+      "published_at": "20261002T030948",
+      "sentiment_score": 0.222102,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "HUM",
-        "UNH"
+        "MHK"
+      ],
+      "topics": [
+        "Earnings",
+        "Manufacturing",
+        "Real Estate"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "A Look at TD Synnex Corp (SNX) After 5.8% Gain -- GF Value $190.",
+      "summary": "TD Synnex Corp (SNX) recently saw a 5.8% gain, but GuruFocus estimates the stock to be significantly overvalued at $271.76 compared to its GF Value of $190.61. Despite a strong...",
+      "url": "https://www.gurufocus.com/news/9106537/a-look-at-td-synnex-corp-snx-after-58-gain-gf-value-19061-vs-price-27176",
+      "source": "GuruFocus",
+      "published_at": "20261002T065424",
+      "sentiment_score": -0.273896,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "SNX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Allegion’s Elite Portfolio of North American Building Access Brands Is Key to Its Wide Moat",
+      "summary": "Morningstar relaunched coverage of Allegion PLC (ALLE) with a wide moat rating and a fair value estimate of $202. The company's strong portfolio of North American building acces...",
+      "url": "https://www.morningstar.com/company-reports/1501574-allegions-elite-portfolio-of-north-american-building-access-brands-is-key-to-its-wide-moat",
+      "source": "Morningstar",
+      "published_at": "20261002T063941",
+      "sentiment_score": 0.430604,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ALLE"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "NORTHERN TRUST CORP NORTHERN TR (0K91.L) Q2 FY2026 earnings call transcript",
+      "summary": "Northern Trust Corporation reported strong Q2 FY2026 earnings, driven by significant organic fee growth, disciplined expense management, and positive operating leverage. The com...",
+      "url": "https://finance.yahoo.com/quote/0K91.L/earnings/0K91.L-Q2-2026-earnings_call-546150.html",
+      "source": "Yahoo Finance",
+      "published_at": "20261002T041017",
+      "sentiment_score": 0.398838,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NTRS",
+        "V"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Is Kimberly-Clark Corp (KMB) a Bargain After 3.2% Drop? GF Value Says Undervalued",
+      "summary": "Kimberly-Clark Corp (KMB) shares dropped 3.2% to $94.34, placing it 18.6% below its GF Value™ estimate of $115.93, suggesting it is undervalued. The company holds a GF Score™ of...",
+      "url": "https://www.gurufocus.com/news/9106521/is-kimberlyclark-corp-kmb-a-bargain-after-32-drop-gf-value-says-undervalued",
+      "source": "GuruFocus",
+      "published_at": "20261002T034404",
+      "sentiment_score": 0.314143,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "KMB"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Accenture Is Strengthening Its Position in the AI Ecosystem",
+      "summary": "Accenture is reinforcing its position in the AI ecosystem, leveraging its strong reputation, customer base, and technological expertise in professional services. This move comes...",
+      "url": "https://www.morningstar.com/company-reports/1501600-accenture-is-strengthening-its-position-in-the-ai-ecosystem",
+      "source": "Morningstar",
+      "published_at": "20261002T031107",
+      "sentiment_score": 0.436641,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ACN"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Oak Valley Bancp CA (OVLY-Q) Stock Price and News",
+      "summary": "This article provides stock information and recent news for Oak Valley Bancorp (OVLY-Q), a California-based holding company for Oak Valley Community Bank. It details the company...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/OVLY/",
+      "source": "The Globe and Mail",
+      "published_at": "20261002T024659",
+      "sentiment_score": 0.088392,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "OVLY",
+        "CBOE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Total equity of Eocene Ltd. – NASDAQ:EOCN",
+      "summary": "This article focuses on the total equity of Eocene Ltd., traded under the NASDAQ symbol EOCN. It's a brief financial data point, likely part of a larger financial overview on th...",
+      "url": "https://www.tradingview.com/symbols/NASDAQ-EOCN/financials-balance-sheet/total-equity/",
+      "source": "TradingView",
+      "published_at": "20261002T022258",
+      "sentiment_score": 0.037104,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "EOCN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 5,
+      "is_noise": false
+    },
+    {
+      "title": "Alexandria Real Estate Equities (ARE) Stock Looks In Line After A 70% Slide",
+      "summary": "Alexandria Real Estate Equities (ARE) has experienced a significant 70% stock price decline over the past five years, prompting an evaluation of whether its current valuation al...",
+      "url": "https://simplywall.st/stocks/us/real-estate/nyse-are/alexandria-real-estate-equities/news/alexandria-real-estate-equities-are-stock-looks-in-line-afte",
+      "source": "Simply Wall Street",
+      "published_at": "20261002T045242",
+      "sentiment_score": 0.106594,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ARE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Real Estate",
+        "Life Sciences",
+        "Economy Macro"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "SITE Centers sells Chicago property for $15.3 million",
+      "summary": "SITE Centers Corp. (NYSE:SITC), a real estate investment trust, announced the sale of its Chicago property, The Maxwell, for approximately $15.3 million. The company received ne...",
+      "url": "https://in.investing.com/news/stock-market-news/site-centers-sells-chicago-property-for-153-million-93CH-5615723",
+      "source": "Investing.com India",
+      "published_at": "20261002T042133",
+      "sentiment_score": 0.035231,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SITC"
+      ],
+      "topics": [
+        "Real Estate",
+        "Earnings"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "What Is Drawing Fresh Attention To General Dynamics (GD)?",
+      "summary": "General Dynamics (GD) has recently experienced a price pullback, with its stock down around 10-11% over the past one to three months, despite stronger longer-term returns. The c...",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-gd/general-dynamics/news/what-is-drawing-fresh-attention-to-general-dynamics-gd",
+      "source": "Simply Wall Street",
+      "published_at": "20261002T031551",
+      "sentiment_score": 0.28746,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GD",
+        "HWM",
+        "TDG",
+        "CRM",
+        "PEP"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Economy Macro",
+        "Manufacturing"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "A Look at Repligen Corp (RGEN) After 7.8% Decline -- GF Value $179.80 vs Price $177.23",
+      "summary": "Repligen Corp (RGEN) experienced a 7.8% stock decline, bringing its price to $177.23, which is 1.4% below its GF Value™ of $179.80, indicating it is slightly undervalued. The co...",
+      "url": "https://www.gurufocus.com/news/9106622/a-look-at-repligen-corp-rgen-after-78-decline-gf-value-17980-vs-price-17723",
+      "source": "GuruFocus",
+      "published_at": "20261002T030052",
+      "sentiment_score": -0.117191,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "RGEN"
       ],
       "topics": [
         "Earnings",
@@ -533,41 +672,40 @@
         "Finance",
         "Life Sciences"
       ],
-      "quality_score": 6,
+      "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "Independence Bank of Kentucky Boosts Holdings in Amazon.com, Inc. $AMZN",
-      "summary": "Independence Bank of Kentucky increased its stake in Amazon.com, Inc. by 3.4% during the second quarter, making it their 8th largest holding. Several other institutional investo...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-independence-bank-of-kentucky-boosts-holdings-in-amazoncom-inc-amzn-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T070912",
-      "sentiment_score": 0.398432,
-      "sentiment_label": "Bullish",
+      "title": "STAAR Surgical: A Recovery Story Priced As Growth",
+      "summary": "STAAR Surgical faces significant concentration risk in China, with a large portion of its sales and receivables tied to two distributors. The company's valuation is considered p...",
+      "url": "https://seekingalpha.com/article/4951499-staar-surgical-stock-recovery-story-priced-as-growth",
+      "source": "Seeking Alpha",
+      "published_at": "20261002T025319",
+      "sentiment_score": -0.435062,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "AMZN",
-        "CEG"
+        "STAA"
       ],
       "topics": [
-        "Earnings",
+        "Finance",
+        "Life Sciences",
         "Financial Markets",
-        "Retail Wholesale",
-        "Technology",
-        "Finance"
+        "Earnings"
       ],
-      "quality_score": 6,
+      "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "NVIDIA Corporation $NVDA Holdings Lifted by Deutsche Bank AG",
-      "summary": "Deutsche Bank AG increased its stake in NVIDIA Corporation by 2.3% in the second quarter, making it their largest holding. NVIDIA reported strong financial results, including a...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-nvidia-corporation-nvda-holdings-lifted-by-deutsche-bank-ag-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T070750",
-      "sentiment_score": 0.211132,
+      "title": "Samsung Electronics, SK hynix trade near flat after trimming losses",
+      "summary": "Shares of South Korean chipmakers Samsung Electronics and SK hynix pared earlier losses to trade near flat on Friday, driven by improved investor sentiment following stronger-th...",
+      "url": "https://pulse.mk.co.kr/news/english/12167000",
+      "source": "매일경제",
+      "published_at": "20261002T021840",
+      "sentiment_score": 0.294113,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "DB",
+        "SKHY",
+        "MU",
         "NVDA"
       ],
       "topics": [
@@ -575,314 +713,189 @@
         "Financial Markets",
         "Technology"
       ],
-      "quality_score": 6,
+      "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "Envela Corp (ELA) Shares Fall 3.0% -- What GF Score of 81 Tells Investors",
-      "summary": "Envela Corp (ELA) shares recently fell 3.0%, trading at $12.08, which is 24.9% above its GF Value™ estimate of $9.67, indicating it is overvalued despite a strong GF Score™ of 8...",
-      "url": "https://www.gurufocus.com/news/9104559/envela-corp-ela-shares-fall-30-what-gf-score-of-81-tells-investors",
-      "source": "GuruFocus",
-      "published_at": "20261001T075258",
-      "sentiment_score": -0.276961,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "Old Dominion Freight Line (ODFL) Could Be 33% Undervalued On Its Capacity Growth Story",
+      "summary": "Old Dominion Freight Line (ODFL) is undergoing a boardroom change and has experienced recent share price weakness despite a strong one-year return. While one valuation model sug...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/old-dominion-freight-line-odfl-160955221.html",
+      "source": "Yahoo Finance",
+      "published_at": "20261002T020820",
+      "sentiment_score": 0.341541,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "ELA"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 5,
-      "is_noise": false
-    },
-    {
-      "title": "Enerflex sold most of its Asia-Pacific operations but will keep delivering gas and power systems there.",
-      "summary": "Enerflex has completed the sale of the majority of its Asia Pacific operations to INNIO Group, focusing on its After-Market Services product line. This divestiture allows Enerfl...",
-      "url": "https://www.stocktitan.net/news/EFXT/enerflex-ltd-completes-asia-pacific-divestiture-and-confirms-timing-h4m480rzogi7.html",
-      "source": "Stock Titan",
-      "published_at": "20261001T074440",
-      "sentiment_score": 0.023757,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "EFXT"
-      ],
-      "topics": [
-        "Mergers And Acquisitions",
-        "Earnings",
-        "Energy Transportation",
-        "Finance"
-      ],
-      "quality_score": 5,
-      "is_noise": false
-    },
-    {
-      "title": "A stock offering and debt exchange will reduce KLX Energy's debt by $94M.",
-      "summary": "KLX Energy Services Holdings (KLXE) completed its subscription rights offering and a related debt-for-stock exchange, raising $37.2 million in gross proceeds. This transaction w...",
-      "url": "https://www.stocktitan.net/news/KLXE/klx-energy-services-announces-completion-of-subscription-rights-6v4p5r0uhilu.html",
-      "source": "Stock Titan",
-      "published_at": "20261001T065904",
-      "sentiment_score": 0.047162,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "KLXER"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 5,
-      "is_noise": false
-    },
-    {
-      "title": "CHPT Stock Price and Chart — NYSE:CHPT",
-      "summary": "This article provides an overview of ChargePoint Holdings, Inc. (CHPT) stock performance, key financial metrics, and company information. It includes various analyses such as hi...",
-      "url": "https://www.tradingview.com/symbols/NYSE-CHPT/",
-      "source": "TradingView",
-      "published_at": "20261001T065600",
-      "sentiment_score": 0.130459,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CHPT",
-        "TSLA"
+        "ODFL"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Technology",
         "Energy Transportation"
       ],
-      "quality_score": 5,
-      "is_noise": false
-    },
-    {
-      "title": "RBC Capital initiates Digital Turbine stock with outperform rating By Investing.com",
-      "summary": "RBC Capital has initiated coverage on Digital Turbine Inc. (NASDAQ:APPS) with an outperform rating and a $15.00 price target, suggesting a potential 35% upside from its current...",
-      "url": "https://ng.investing.com/news/stock-market-news/rbc-capital-initiates-digital-turbine-stock-with-outperform-rating-93CH-2716833",
-      "source": "Investing.com Nigeria",
-      "published_at": "20261001T075630",
-      "sentiment_score": 0.453939,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "APPS"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Enterprise value to EBITDA forward of Northrop Grumman Corp. – HAN:NTH",
-      "summary": "This article provides the enterprise value to EBITDA forward for Northrop Grumman Corp. (HAN:NTH). It is a financial data point for the company listed on the Hannover Stock Exch...",
-      "url": "https://www.tradingview.com/symbols/HAN-NTH/financials-statistics-and-ratios/enterprise-value-ebitda-fwd/",
-      "source": "TradingView",
-      "published_at": "20261001T074355",
-      "sentiment_score": 0.00785,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "NOC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "City Holding declares $1.00 quarterly dividend, up 15%",
-      "summary": "City Holding Company (NASDAQ:CHCO) has declared a quarterly dividend of $1.00 per common share, representing a 15% increase from the previous quarter's dividend. This decision i...",
-      "url": "https://www.investing.com/news/company-news/city-holding-declares-100-quarterly-dividend-up-15-93CH-4925751",
-      "source": "Investing.com",
-      "published_at": "20261001T070139",
-      "sentiment_score": 0.470363,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "CHCO"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Fidelity National Financial (FNF) Drops 5.7% to $38.82",
-      "summary": "Fidelity National Financial (FNF) shares tumbled 5.7% to $38.82 after being featured in a \"dividend dog\" stock screen. This designation, suggesting a high yield due to a price d...",
-      "url": "https://news.alphastreet.com/fidelity-national-financial-fnf-drops-5-7-to-38-82/",
-      "source": "AlphaStreet",
-      "published_at": "20261001T082847",
-      "sentiment_score": -0.433454,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "FNF"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Finance",
-        "Real Estate",
-        "Earnings"
-      ],
       "quality_score": 3,
       "is_noise": false
     },
     {
-      "title": "BMO targets 15% ROE while Bank of Montreal stock trades above EUR 147.60",
-      "summary": "Bank of Montreal (BMO) is targeting a 15% return on equity (ROE) by the end of fiscal 2027, with its ROE reaching 14% in the fiscal third quarter of 2026. The bank's stock was t...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/bmo-targets-15-percent-roe-while-bank-of-montreal-stock-trades-above-eur/70208911",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T073539",
-      "sentiment_score": 0.048265,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "FNGS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Clipper Realty COO Jacob Bistricer buys $246k in stock By Investing.com",
-      "summary": "Clipper Realty Inc.'s COO, Jacob Bistricer, purchased 73,500 shares worth $246,225 on September 28, 2026, taking advantage of a recent stock dip. On the same day, he gifted 63,0...",
-      "url": "https://uk.investing.com/news/stock-market-news/clipper-realty-coo-jacob-bistricer-buys-246k-in-stock-93CH-4890503",
-      "source": "Investing.com UK",
-      "published_at": "20261001T072333",
-      "sentiment_score": 0.119694,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CLPR"
-      ],
-      "topics": [
-        "Real Estate",
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Parker-Hannifin stock: Shareholders to vote at October 28 annual meeting",
-      "summary": "Parker-Hannifin has scheduled its annual shareholder meeting for October 28, 2026, at its Cleveland headquarters. The agenda includes the election of directors, a nonbinding adv...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/parker-hannifin-stock-shareholders-to-vote-at-october-28-annual-meeting/70208717",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T065936",
-      "sentiment_score": 0.322221,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "PH"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Cavco Industries Positioned for Demand, Margin Recovery, Oppenheimer Says",
-      "summary": "Oppenheimer has reiterated an Outperform rating and $380 price target for Cavco Industries, citing the company's strong positioning for a rebound in demand for affordable housin...",
-      "url": "https://www.moomoo.com/news/post/1000472238/cavco-industries-positioned-for-demand-margin-recovery-oppenheimer-says",
-      "source": "Moomoo",
-      "published_at": "20261001T065904",
-      "sentiment_score": 0.476303,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "CVCO"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Financial Markets",
-        "Manufacturing",
-        "Economy Macro"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Most Asia Pacific operations sold as Enerflex (EFXT) divests a mainly after-market services business.",
-      "summary": "Enerflex Ltd. has completed the divestiture of the majority of its Asia Pacific operations to INNIO Group, focusing on its After-Market Services product line. The company will c...",
-      "url": "https://www.stocktitan.net/sec-filings/EFXT/6-k-enerflex-ltd-current-report-foreign-issuer-5cba1b9cec75.html",
+      "title": "A director proposes selling 5,757 NetApp (NTAP) shares around October 1, 2026.",
+      "summary": "NetApp director Gerald D. Held has filed a notice to sell 5,757 common shares of NTAP, valued at approximately $1.22 million, with an approximate sale date of October 1, 2026. T...",
+      "url": "https://www.stocktitan.net/sec-filings/NTAP/144-net-app-inc-sec-filing-c8faa6e3b615.html",
       "source": "Stock Titan",
-      "published_at": "20261001T075540",
-      "sentiment_score": 0.020485,
+      "published_at": "20261002T060930",
+      "sentiment_score": 0.01621,
       "sentiment_label": "Neutral",
       "tickers": [
-        "EFXT"
+        "NTAP"
       ],
       "topics": [
-        "Mergers And Acquisitions",
         "Earnings",
-        "Finance"
+        "Financial Markets",
+        "Technology"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "5,269 Amazon.com, Inc. $AMZN Shares Acquired by Symphony Financial Ltd. Co.",
-      "summary": "Symphony Financial Ltd. Co. has increased its stake in Amazon.com, Inc. by 6.3%, acquiring an additional 5,269 shares and bringing its total holdings to 88,652 shares valued at...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-5269-amazoncom-inc-amzn-shares-acquired-by-symphony-financial-ltd-co-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T073423",
-      "sentiment_score": 0.285511,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "AMZN",
-        "BAC",
-        "BK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Technology",
-        "Economy Macro"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Asset sales lead to CEO award conversions at Apartment Investment & Management (AIV).",
-      "summary": "Apartment Investment & Management Co. (AIV) CEO Wesley William Powell converted two performance-based stock awards totaling 376,331 shares into time-based restricted stock award...",
-      "url": "https://www.stocktitan.net/sec-filings/AIV/form-4-apartment-investment-management-co-insider-trading-activity-f60259b9b96f.html",
+      "title": "[Form 3] MiniMed Group, Inc. Initial Statement of Beneficial Ownership",
+      "summary": "This article reports on the filing of Form 3 by Sheila A. Denton for MiniMed Group, Inc. (MMED). The filing is an Initial Statement of Beneficial Ownership, indicating Denton's...",
+      "url": "https://www.stocktitan.net/sec-filings/MMED/form-3-mini-med-group-inc-initial-statement-of-beneficial-ownership-57d9926dc5c0.html",
       "source": "Stock Titan",
-      "published_at": "20261001T072912",
-      "sentiment_score": 0.135559,
+      "published_at": "20261002T054924",
+      "sentiment_score": 0.039112,
       "sentiment_label": "Neutral",
       "tickers": [
-        "AIV"
+        "MMED",
+        "MDT"
       ],
       "topics": [
-        "Earnings",
-        "Real Estate",
         "Finance",
-        "Financial Markets",
+        "Life Sciences",
+        "Earnings",
         "Mergers And Acquisitions"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Ten days at $1 or more bring a Nasdaq decision for Pop Culture Group (Nasdaq: CPOP).",
-      "summary": "Pop Culture Group (CPOP) has regained compliance with Nasdaq's minimum bid price requirement of $1.00 per share. This was achieved by maintaining a closing bid price of $1.00 or...",
-      "url": "https://www.stocktitan.net/sec-filings/CPOP/6-k-pop-culture-group-co-ltd-current-report-foreign-issuer-98753d20c273.html",
+      "title": "A 300,000-unit stock grant to Boost Run (BRUN)'s COO vests annually, subject to continued service.",
+      "summary": "Boost Run Inc. (BRUN) has granted its Chief Operating Officer, Harilaos Georgakopoulos, 300,000 restricted stock units. These units will vest in substantially equal annual insta...",
+      "url": "https://www.stocktitan.net/sec-filings/BRUN/form-4-boost-run-inc-insider-trading-activity-129f484658ad.html",
       "source": "Stock Titan",
-      "published_at": "20261001T072611",
-      "sentiment_score": 0.449331,
-      "sentiment_label": "Bullish",
+      "published_at": "20261002T044822",
+      "sentiment_score": 0.148093,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "CPOP"
+        "BRUN"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Bruker Corp (BRKR) Shares Fall 4.3% -- GF Value Says Still Overvalued",
+      "summary": "Bruker Corp (BRKR) shares dropped 4.3% to $61.94, yet GuruFocus's GF Value still indicates the stock is 2.6% overvalued at $60.38, despite a strong GF Score of 84/100. Insider s...",
+      "url": "https://www.gurufocus.com/news/9106626/bruker-corp-brkr-shares-fall-43-gf-value-says-still-overvalued",
+      "source": "GuruFocus",
+      "published_at": "20261002T044749",
+      "sentiment_score": 0.039463,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BRKRP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Apple (AAPL) general counsel sells 2,399 shares under a preset trading plan.",
+      "summary": "Jennifer Newstead, SVP, GC and Government Affairs at Apple Inc. (AAPL), sold 2,399 shares of common stock at $336.18 per share on September 29, 2026. This transaction was execut...",
+      "url": "https://www.stocktitan.net/sec-filings/AAPL/form-4-apple-inc-insider-trading-activity-3a7ea6d39783.html",
+      "source": "Stock Titan",
+      "published_at": "20261002T044337",
+      "sentiment_score": -0.206805,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "AAPL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Officer Daniel Long proposes selling 10,001 Septerna (SEPN) common shares.",
+      "summary": "Septerna officer Daniel Long has proposed selling 10,001 common shares of SEPN, valued at approximately $391,339.13, with an approximate sale date of October 1, 2026. These shar...",
+      "url": "https://www.stocktitan.net/sec-filings/SEPN/144-septerna-inc-sec-filing-50400dcd6db7.html",
+      "source": "Stock Titan",
+      "published_at": "20261002T041926",
+      "sentiment_score": -0.102914,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SEPN"
+      ],
+      "topics": [
+        "Finance",
+        "Life Sciences",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "40% of Boost Run (BRUN) CFO Erik Guckel’s new stock grant vests May 15, 2027, subject to continued service.",
+      "summary": "Boost Run Inc.'s CFO, Erik Guckel, received a grant of 2,890,000 restricted stock units on September 29, 2026. These units represent a contingent right to receive one common sha...",
+      "url": "https://www.stocktitan.net/sec-filings/BRUN/form-4-boost-run-inc-insider-trading-activity-ca3518b590e2.html",
+      "source": "Stock Titan",
+      "published_at": "20261002T040822",
+      "sentiment_score": 0.139358,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "BRUN"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "A 1,203-unit stock grant vested immediately for APA Corp (APA) director Peter A. Ragauss.",
+      "summary": "APA Corp director Peter A. Ragauss received a grant of 1,203 restricted stock units on September 30, 2026. These units immediately vested and were automatically deferred under A...",
+      "url": "https://www.stocktitan.net/sec-filings/APA/form-4-apa-corp-insider-trading-activity-815becf384cc.html",
+      "source": "Stock Titan",
+      "published_at": "20261002T034829",
+      "sentiment_score": 0.022811,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "APA"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Form 4 Xylem Inc For: 1 October By Investing.com",
+      "summary": "This article from Investing.com reports on a Form 4 filing for Xylem Inc. dated October 1. Form 4s are filed with the SEC to disclose transactions by company insiders, and this...",
+      "url": "https://ca.investing.com/news/stock-market-news/form-4-xylem-inc-for-1-october-93CH-4862967",
+      "source": "Investing.com Canada",
+      "published_at": "20261002T033939",
+      "sentiment_score": 0.01179,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "XYL"
       ],
       "topics": [
         "Financial Markets",
@@ -892,18 +905,37 @@
       "is_noise": true
     },
     {
-      "title": "Clipper Realty (NYSE:CLPR) COO Jacob Bistricer Purchases 73,500 Shares of Stock",
-      "summary": "Clipper Realty's COO, Jacob Bistricer, recently purchased 73,500 shares of the company's stock for a total of $246,225. This transaction increased his holdings to 73,500 shares....",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-clipper-realty-nyse-clpr-coo-jacob-bistricer-purchases-73500-shares-of-stock-2026-09-30/",
-      "source": "MarketBeat",
-      "published_at": "20261001T072333",
-      "sentiment_score": 0.131688,
-      "sentiment_label": "Neutral",
+      "title": "Revolution Medicines’ CDO Sandler sells $1.2m in stock",
+      "summary": "Alan B. Sandler, Chief Development Officer at Revolution Medicines, Inc., sold 6,309 shares of the company’s common stock for $1,275,294 and acquired 6,000 shares by exercising...",
+      "url": "https://www.investing.com/news/insider-trading-news/revolution-medicines-cdo-sandler-sells-12m-in-stock-93CH-4928624",
+      "source": "Investing.com",
+      "published_at": "20261002T030637",
+      "sentiment_score": 0.302588,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "CLPR"
+        "RVMD"
       ],
       "topics": [
+        "Life Sciences",
         "Financial Markets",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "With Bill Bayless joining, Pebblebrook Hotel Trust (PEB) has eight trustees, seven independent.",
+      "summary": "Pebblebrook Hotel Trust (PEB) has appointed Bill Bayless to its Board of Trustees, effective October 1, 2026, increasing the board size from seven to eight members, with seven n...",
+      "url": "https://www.stocktitan.net/sec-filings/PEB/8-k-pebblebrook-hotel-trust-reports-material-event-65731ded57c4.html",
+      "source": "Stock Titan",
+      "published_at": "20261002T025357",
+      "sentiment_score": 0.007463,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "PEB-P-G"
+      ],
+      "topics": [
         "Real Estate",
         "Finance",
         "Earnings"
@@ -912,80 +944,36 @@
       "is_noise": true
     },
     {
-      "title": "Form 4 Alphabet Inc Class C For: 1 October By Investing.com",
-      "summary": "This article announces the filing of Form 4 for Alphabet Inc. Class C shares, dated October 1. It is a brief, informative piece from Investing.com, likely detailing insider tran...",
-      "url": "https://ca.investing.com/news/stock-market-news/form-4-alphabet-inc-class-c-for-1-october-93CH-4861220",
-      "source": "Investing.com Canada",
-      "published_at": "20261001T071934",
-      "sentiment_score": 0.033077,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GOOG"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Economy Macro",
-        "Technology"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "9,373 NVIDIA Corporation $NVDA Shares Acquired by Citizens Financial Group Inc. RI",
-      "summary": "Citizens Financial Group Inc. RI increased its stake in NVIDIA Corporation by 9,373 shares, bringing its total holdings to 1.66 million shares valued at $331.2 million, making N...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-9373-nvidia-corporation-nvda-shares-acquired-by-citizens-financial-group-inc-ri-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T070840",
-      "sentiment_score": 0.225948,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CFG",
-        "NVDA"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "A 15% dividend increase lifts shareholder payouts at City Holding (CHCO).",
-      "summary": "City Holding Company (CHCO) has announced a 15% increase in its quarterly cash dividend, raising it to $1.00 per common share, payable on October 30, 2026, to shareholders of re...",
-      "url": "https://www.stocktitan.net/sec-filings/CHCO/8-k-city-holding-co-reports-material-event-5286468afad7.html",
+      "title": "12,216 shares were withheld for taxes as Oddity Tech (ODD) CFO converted stock awards.",
+      "summary": "Oddity Tech Ltd (ODD) Global CFO Mann Lindsay Drucker converted 23,929 Restricted Stock Units (RSUs) into Class A ordinary shares on September 30, 2026. A total of 12,216 shares...",
+      "url": "https://www.stocktitan.net/sec-filings/ODD/form-4-oddity-tech-ltd-insider-trading-activity-001407fc3fb9.html",
       "source": "Stock Titan",
-      "published_at": "20261001T070138",
-      "sentiment_score": 0.497175,
-      "sentiment_label": "Bullish",
+      "published_at": "20261002T023136",
+      "sentiment_score": 0.002387,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "CHCO"
+        "ODD"
       ],
       "topics": [
-        "Earnings",
-        "Finance"
+        "Finance",
+        "Earnings"
       ],
       "quality_score": -10,
       "is_noise": true
     },
     {
-      "title": "Corebridge Financial (NYSE:CRBG) Stock: Insider Life Insurance Co Nippon Buys 805,782 Shares",
-      "summary": "Life Insurance Co Nippon recently acquired 805,782 shares of Corebridge Financial (NYSE:CRBG) for approximately $27.5 million, increasing its total stake to 125.6 million shares...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-corebridge-financial-nyse-crbg-stock-insider-life-insurance-co-nippon-buys-805782-shares-2026-09-30/",
-      "source": "MarketBeat",
-      "published_at": "20261001T070039",
-      "sentiment_score": -0.106579,
-      "sentiment_label": "Neutral",
+      "title": "NextDecade director Giovanni Oddo resigns from board, NIC to designate replacement",
+      "summary": "NextDecade announced that director Giovanni Oddo has resigned from its board, effective immediately, as per an SEC filing. Oddo's resignation, which he states is not due to disa...",
+      "url": "https://in.investing.com/news/stock-market-news/nextdecade-director-giovanni-oddo-resigns-from-board-nic-to-designate-replacement-93CH-5615717",
+      "source": "Investing.com India",
+      "published_at": "20261002T020004",
+      "sentiment_score": -0.221014,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "CRBD",
-        "NFLX",
-        "ORLY"
+        "NEXT"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
         "Finance"
       ],
       "quality_score": -10,
@@ -993,138 +981,123 @@
     }
   ],
   "article_count": 50,
-  "top_ticker": "JPM",
+  "top_ticker": "PEP",
   "top_topic": "Earnings",
-  "dominant_sentiment": "Neutral",
-  "top_story": "Concentrix earnings analysis: questions answered and next catalysts",
+  "dominant_sentiment": "Somewhat-Bullish",
+  "top_story": "Analyst cuts Rockwell Medical fair value to USD 20 for Rockwell Medical stock",
   "signal_articles": [
     {
-      "title": "Concentrix earnings analysis: questions answered and next catalysts",
-      "summary": "Concentrix (CNXC) experienced a sharp market reaction following its Q3 earnings, with an EPS beat but a revenue miss. The company is actively pivoting towards AI-generated reven...",
-      "url": "https://www.investing.com/news/stock-market-news/concentrix-earnings-analysis-questions-answered-and-next-catalysts-93CH-4925775",
-      "source": "Investing.com",
-      "published_at": "20261001T070222",
-      "sentiment_score": 0.070725,
-      "sentiment_label": "Neutral",
+      "title": "Analyst cuts Rockwell Medical fair value to USD 20 for Rockwell Medical stock",
+      "summary": "An analyst has reduced Rockwell Medical's fair value from $40.00 to $20.00, citing lower future price-to-earnings assumptions and adjusted revenue/profit expectations. Despite t...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/analyst-cuts-rockwell-medical-fair-value-to-usd-20-for-rockwell-medical-stock/70213453",
+      "source": "AD HOC NEWS",
+      "published_at": "20261002T032529",
+      "sentiment_score": -0.438736,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "CNXC"
+        "RMTI"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance",
-        "Technology"
+        "Life Sciences"
       ],
-      "quality_score": 15,
+      "quality_score": 21,
       "is_noise": false
     },
     {
-      "title": "Envestnet Asset Management Inc. Cuts Stock Holdings in Tractor Supply Company $TSCO",
-      "summary": "Envestnet Asset Management Inc. significantly reduced its stake in Tractor Supply Company (NASDAQ:TSCO) by 90.6% during the second quarter, selling 3.92 million shares and retai...",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-asset-management-inc-cuts-stock-holdings-in-tractor-supply-company-tsco-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T070937",
-      "sentiment_score": 0.034267,
-      "sentiment_label": "Neutral",
+      "title": "Ross Stores (ROST) Q3 2025 Earnings: Results, Market Reaction & History",
+      "summary": "Ross Stores (ROST) reported strong Q3 2025 earnings, surpassing analyst expectations with diluted EPS of $1.58 and revenue of $5.60 billion. The company attributed its success t...",
+      "url": "https://247wallst.com/companies/rost/earnings/2025/Q3/",
+      "source": "24/7 Wall St.",
+      "published_at": "20261002T030801",
+      "sentiment_score": 0.845954,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "TSCO"
+        "ROST"
       ],
       "topics": [
         "Earnings",
         "Retail Wholesale",
         "Financial Markets"
       ],
-      "quality_score": 13,
+      "quality_score": 15,
       "is_noise": false
     },
     {
-      "title": "Labcorp Holdings Inc. (NYSE:LH) Stock Has Average Price Target of $337.73 According to Brokerages",
-      "summary": "Labcorp Holdings Inc. (NYSE:LH) has an average price target of $337.73 from brokerages, with analysts maintaining a \"Moderate Buy\" rating. The company exceeded quarterly expecta...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-labcorp-holdings-inc-nyse-lh-stock-has-average-price-target-of-33773-according-to-brokerages-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T065623",
-      "sentiment_score": 0.244135,
+      "title": "Illinois Tool Works (ITW), Why Is The Stock Drawing Fresh Attention?",
+      "summary": "Illinois Tool Works (ITW) is gaining renewed investor attention after a Zacks upgrade, driven by higher earnings estimates, valuation interest, and strong long-term shareholder...",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-itw/illinois-tool-works/news/illinois-tool-works-itw-why-is-the-stock-drawing-fresh-atten",
+      "source": "Simply Wall Street",
+      "published_at": "20261002T022950",
+      "sentiment_score": 0.274615,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "LH",
-        "LHX"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Seagate stock pre-market at EUR 833.00: plus 2.33 percent",
-      "summary": "Seagate stock saw a pre-market gain of 2.33 percent, trading at EUR 833.00 on October 1, 2026, compared to its previous close of EUR 814.00. Investors are anticipating the Xetra...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/seagate-stock-pre-market-at-eur-833-00-plus-2-33-percent/70208726",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T070000",
-      "sentiment_score": 0.350606,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "STX"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Technology",
-        "Earnings"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Xylem Inc. (NYSE:XYL) Stock Rated \"Moderate Buy\" by Wall Street Analysts",
-      "summary": "Xylem Inc. (NYSE:XYL) has received a \"Moderate Buy\" rating from Wall Street analysts, with an average 12-month price target of $155.00. The company recently reported strong quar...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-xylem-inc-nyse-xyl-stock-rated-moderate-buy-by-wall-street-analysts-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T065908",
-      "sentiment_score": 0.395997,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "XYL"
+        "ITW",
+        "CRM",
+        "DOV",
+        "XYL",
+        "PEP"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Manufacturing",
+        "Economy Macro",
         "Finance"
       ],
-      "quality_score": 11,
+      "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "Arch Capital Group stock pre-market at EUR 82.04: plus 0.00 percent",
-      "summary": "Arch Capital Group's stock remained unchanged at EUR 82.04 in pre-market trading on October 1, 2026, at Lang & Schwarz. The company is set to release its third-quarter results o...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/arch-capital-group-stock-pre-market-at-eur-82-04-plus-0-00-percent/70208680",
-      "source": "AD HOC NEWS",
-      "published_at": "20261001T065600",
-      "sentiment_score": 0.001538,
-      "sentiment_label": "Neutral",
+      "title": "Ross Stores (ROST) Q2 2025 Earnings: Results, Market Reaction & History",
+      "summary": "Ross Stores (ROST) reported a modest earnings beat for Q2 2025 with GAAP diluted EPS of $1.56, surpassing estimates despite revenue of $5.53 billion slightly missing expectation...",
+      "url": "https://247wallst.com/companies/rost/earnings/2025/Q2/",
+      "source": "24/7 Wall St.",
+      "published_at": "20261002T033828",
+      "sentiment_score": 0.286525,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "ACGL"
+        "ROST"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "First Solar (FSLR) Stock May Be 46% Undervalued On Pricing Pressure",
+      "summary": "First Solar's stock has declined, prompting an analysis of its intrinsic value against its current trading price of US$172.11, especially given pricing pressures and new tariffs...",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-fslr/first-solar/news/first-solar-fslr-stock-may-be-46-undervalued-on-pricing-pres",
+      "source": "Simply Wall Street",
+      "published_at": "20261002T021451",
+      "sentiment_score": 0.268394,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "FSLR"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance"
+        "Energy Transportation"
       ],
       "quality_score": 11,
       "is_noise": false
     },
     {
-      "title": "Crocs (NASDAQ:CROX) Stock Crosses Above 200 Day Moving Average - Should You Sell?",
-      "summary": "Crocs (NASDAQ:CROX) stock recently crossed above its 200-day moving average, reaching $123.52 before settling at $117.4330. Analysts have a \"Moderate Buy\" consensus rating with...",
-      "url": "https://www.marketbeat.com/instant-alerts/price-crocs-nasdaq-crox-stock-crosses-above-200-day-moving-average-should-you-sell-2026-10-01/",
+      "title": "Chipotle Mexican Grill, Inc. (NYSE:CMG) Stock Has Consensus Target Price of $43.91 According to Analysts",
+      "summary": "Chipotle Mexican Grill (NYSE:CMG) has a \"Moderate Buy\" consensus rating from analysts, with an average 12-month price target of $43.91, significantly higher than its current sha...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-chipotle-mexican-grill-inc-nyse-cmg-stock-has-consensus-target-price-of-4391-according-to-analysts-2026-10-02/",
       "source": "MarketBeat",
-      "published_at": "20261001T065837",
-      "sentiment_score": 0.3073,
-      "sentiment_label": "Somewhat-Bullish",
+      "published_at": "20261002T063234",
+      "sentiment_score": 0.436467,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "CROX"
+        "CMG"
       ],
       "topics": [
         "Earnings",
@@ -1135,153 +1108,173 @@
       "is_noise": false
     },
     {
-      "title": "KKR & Co. Inc. (NYSE:KKR) Stock Has Consensus Target Price of $130.00 According to Analysts",
-      "summary": "KKR & Co. Inc. has received a consensus \"Moderate Buy\" rating from analysts, with an average 12-month price target of $130.00, significantly higher than its recent opening price...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-kkr-co-inc-nyse-kkr-stock-has-consensus-target-price-of-13000-according-to-analysts-2026-10-01/",
+      "title": "PPG Industries, Inc. (NYSE:PPG) Stock Has Average Price Target of $126.62 According to Brokerages",
+      "summary": "PPG Industries (NYSE:PPG) has received an average \"Hold\" recommendation from seventeen analysts, with a consensus 12-month price target of $126.62, significantly above its curre...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-ppg-industries-inc-nyse-ppg-stock-has-average-price-target-of-12662-according-to-brokerages-2026-10-02/",
       "source": "MarketBeat",
-      "published_at": "20261001T065815",
-      "sentiment_score": 0.429035,
-      "sentiment_label": "Bullish",
+      "published_at": "20261002T063157",
+      "sentiment_score": 0.270133,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "KKR"
+        "PPG",
+        "AMD",
+        "PLTR"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance",
-        "Mergers And Acquisitions",
-        "Technology"
+        "Manufacturing"
       ],
       "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Fortinet, Inc. (NASDAQ:FTNT) Stock Has Average Target Price of $152.79 According to Analysts",
-      "summary": "Analysts have issued a consensus \"Hold\" rating for Fortinet, Inc. (NASDAQ:FTNT), with an average 12-month price target of $152.79, which is below its current share price of $178...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-fortinet-inc-nasdaq-ftnt-stock-has-average-target-price-of-15279-according-to-analysts-2026-10-01/",
-      "source": "MarketBeat",
-      "published_at": "20261001T065620",
-      "sentiment_score": 0.261305,
+      "title": "Cigna (CI) Stock Looks Cheap Following Its 44% Five Year Gain",
+      "summary": "Cigna (CI) has seen a 43.7% gain over the past five years, but its stock is down in the last year, leading to questions about its current valuation relative to earnings. Despite...",
+      "url": "https://simplywall.st/stocks/us/healthcare/nyse-ci/cigna-group/news/cigna-ci-stock-looks-cheap-following-its-44-five-year-gain",
+      "source": "Simply Wall Street",
+      "published_at": "20261002T035256",
+      "sentiment_score": 0.223128,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "FTNT",
-        "CRWD"
+        "CI",
+        "CVS"
       ],
       "topics": [
         "Earnings",
-        "Technology",
         "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "American Savings Bank sets Q3FY26 results date for October 29",
+      "summary": "American Savings Bank (NYSE: ASBH) announced it would release its third quarter 2026 earnings on Thursday, October 29, 2026, after the market closes. The bank will host a confer...",
+      "url": "https://scanx.trade/stock-market-news/companies/american-savings-bank-sets-q3fy26-results-date-october-29/52433647",
+      "source": "scanx.trade",
+      "published_at": "20261002T035004",
+      "sentiment_score": 0.110631,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ASBH"
+      ],
+      "topics": [
+        "Earnings",
         "Finance"
       ],
       "quality_score": 10,
       "is_noise": false
     },
     {
-      "title": "Cheetah Net Announces ATM Stock Sales and 1-for-150 Reverse Split",
-      "summary": "Cheetah Net Supply Chain Service Inc. announced it sold approximately 196,850,000 Class A Common Stock shares through an at-the-market (ATM) offering. The company also executed...",
-      "url": "https://kalkinemedia.com/us/news/announcements/cheetah-net-announces-atm-stock-sales-and-1-for-150-reverse-split",
-      "source": "Kalkine Media",
-      "published_at": "20261001T072321",
-      "sentiment_score": -0.298912,
-      "sentiment_label": "Somewhat-Bearish",
+      "title": "NatWest Group PLC Stock (NWG) Moved Down by 5.37% on Oct 1: What Signal Does It Send?",
+      "summary": "NatWest Group PLC (NWG) shares fell by 5.37% on October 1st, primarily due to global bond market sell-offs, rising yields, and profit-taking after a period of strong performance...",
+      "url": "https://www.tradingkey.com/news/market-movers/262196560-market-movers-nwg-20261001",
+      "source": "TradingKey",
+      "published_at": "20261002T022758",
+      "sentiment_score": 0.179287,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "CTNT"
+        "NWG",
+        "NVDA"
       ],
       "topics": [
+        "Earnings",
         "Financial Markets",
-        "Earnings"
+        "Finance",
+        "Economy Macro"
       ],
-      "quality_score": 9,
+      "quality_score": 10,
       "is_noise": false
     }
   ],
   "top_tickers": [
     {
-      "ticker": "JPM",
-      "mentions": 2
-    },
-    {
-      "ticker": "BAC",
-      "mentions": 2
+      "ticker": "PEP",
+      "mentions": 3
     },
     {
       "ticker": "NVDA",
+      "mentions": 3
+    },
+    {
+      "ticker": "ROST",
       "mentions": 2
     },
     {
-      "ticker": "KLXER",
+      "ticker": "CRM",
       "mentions": 2
     },
     {
-      "ticker": "CNXC",
-      "mentions": 1
+      "ticker": "CHRN",
+      "mentions": 2
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 41
+      "mentions": 37
     },
     {
       "topic": "Financial Markets",
-      "mentions": 36
+      "mentions": 30
     },
     {
       "topic": "Finance",
-      "mentions": 23
+      "mentions": 14
     },
     {
-      "topic": "Technology",
-      "mentions": 10
+      "topic": "Economy Macro",
+      "mentions": 6
     },
     {
-      "topic": "Energy Transportation",
+      "topic": "Life Sciences",
       "mentions": 5
     }
   ],
   "sentiment_counts": [
     {
-      "label": "Neutral",
+      "label": "Somewhat-Bullish",
       "count": 16
     },
     {
-      "label": "Somewhat-Bullish",
-      "count": 11
+      "label": "Neutral",
+      "count": 10
     },
     {
       "label": "Bullish",
-      "count": 9
-    },
-    {
-      "label": "Somewhat-Bearish",
-      "count": 4
+      "count": 8
     },
     {
       "label": "Bearish",
+      "count": 2
+    },
+    {
+      "label": "Somewhat-Bearish",
       "count": 1
     }
   ],
   "top_sources": [
     {
+      "source": "Simply Wall Street",
+      "count": 6
+    },
+    {
+      "source": "GuruFocus",
+      "count": 5
+    },
+    {
       "source": "MarketBeat",
-      "count": 15
+      "count": 3
     },
     {
-      "source": "AD HOC NEWS",
-      "count": 12
-    },
-    {
-      "source": "Investing.com",
-      "count": 2
-    },
-    {
-      "source": "Stock Titan",
-      "count": 2
+      "source": "The Globe and Mail",
+      "count": 3
     },
     {
       "source": "TradingView",
-      "count": 2
+      "count": 3
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with JPM appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with PEP appearing most often and the headline tone mostly somewhat-bullish."
 }
