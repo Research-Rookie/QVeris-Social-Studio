@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-bac-2026-10-03",
+    "date": "2026-10-03",
+    "runDate": "2026-10-03",
+    "createdAt": "2026-10-03T08:29:10.743102+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$BAC news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-03.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-03T08:29:08.563965+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BAC",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "BAC",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-03T08:29:08.563965+00:00",
+      "date": "2026-10-03",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "BAC",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Plains All American Pipeline (NASDAQ:PAA) Stock Lifted to \"Buy\" by Wall Street Zen",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 53.75, 'd': 0.02, 'dp': 0.0372, 'h': 54, 'l': 53.305, 'o': 53.89, 'pc': 53.73, 't': 1790971200}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "BAC",
+            "mentions": 7
+          },
+          {
+            "ticker": "AAPL",
+            "mentions": 5
+          },
+          {
+            "ticker": "NVDA",
+            "mentions": 4
+          },
+          {
+            "ticker": "NFLX",
+            "mentions": 3
+          },
+          {
+            "ticker": "PLTR",
+            "mentions": 3
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 17
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 13
+          },
+          {
+            "label": "Bullish",
+            "count": 10
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-blk-2026-10-03",
     "date": "2026-10-03",
     "runDate": "2026-10-03",

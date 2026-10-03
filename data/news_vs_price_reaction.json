@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-10-02T08:52:18.503844+00:00",
-  "date": "2026-10-02",
+  "updated_at": "2026-10-03T08:29:08.563965+00:00",
+  "date": "2026-10-03",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "CMG",
-  "news_tone": "Somewhat Bullish",
+  "symbol": "BAC",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Analyst cuts Rockwell Medical fair value to USD 20 for Rockwell Medical stock",
-  "headline_source": "AD HOC NEWS",
+  "headline": "Plains All American Pipeline (NASDAQ:PAA) Stock Lifted to \"Buy\" by Wall Street Zen",
+  "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for CMG: {'status_code': 200, 'data': {'c': 32.32, 'd': 0.37, 'dp': 1.1581, 'h': 32.445, 'l': 31.7336, 'o': 31.95, 'pc': 31.95, 't': 1790884800}}",
+  "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 53.75, 'd': 0.02, 'dp': 0.0372, 'h': 54, 'l': 53.305, 'o': 53.89, 'pc': 53.73, 't': 1790971200}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "CMG",
-        "mentions": 2
+        "ticker": "BAC",
+        "mentions": 7
       },
       {
-        "ticker": "AMD",
-        "mentions": 2
+        "ticker": "AAPL",
+        "mentions": 5
+      },
+      {
+        "ticker": "NVDA",
+        "mentions": 4
+      },
+      {
+        "ticker": "NFLX",
+        "mentions": 3
       },
       {
         "ticker": "PLTR",
-        "mentions": 2
-      },
-      {
-        "ticker": "AMZN",
-        "mentions": 2
-      },
-      {
-        "ticker": "CEG",
-        "mentions": 2
+        "mentions": 3
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Somewhat-Bullish",
-        "count": 15
+        "label": "Neutral",
+        "count": 17
       },
       {
-        "label": "Neutral",
-        "count": 12
+        "label": "Somewhat-Bullish",
+        "count": 13
       },
       {
         "label": "Bullish",
-        "count": 6
+        "count": 10
       },
       {
         "label": "Somewhat-Bearish",
