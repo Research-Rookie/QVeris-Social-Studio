@@ -1,5 +1,217 @@
 [
   {
+    "id": "market-narrative-shift-blk-2026-10-03",
+    "date": "2026-10-03",
+    "runDate": "2026-10-03",
+    "createdAt": "2026-10-03T07:26:26.790187+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $BLK",
+    "status": "ready",
+    "tweet": "What changed in $BLK's market narrative? 🔄\n\n🧭 Signal: Narrative steady\n💬 Sentiment shift: +0.06\n📌 Top theme: Earnings\n🔎 Emerging term: buy\n📰 Coverage: 2 vs 2\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_BLK_2026-10-03.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-03T07:26:25.127593+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BLK",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Narrative steady",
+    "topSymbol": "BLK",
+    "topChangePct": 5.56,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-03T07:26:25.127593+00:00",
+      "date": "2026-10-03",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "BLK",
+      "shift_label": "Narrative steady",
+      "sentiment_delta": 0.0556,
+      "baseline_label": "2026-09-26",
+      "current": {
+        "date": "2026-10-03",
+        "symbol": "BLK",
+        "article_count": 2,
+        "source_count": 1,
+        "sentiment_score": 0.1793,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "buy",
+            "count": 7
+          },
+          {
+            "label": "wall",
+            "count": 4
+          },
+          {
+            "label": "street",
+            "count": 4
+          },
+          {
+            "label": "zen",
+            "count": 4
+          },
+          {
+            "label": "cvs",
+            "count": 4
+          },
+          {
+            "label": "nordic",
+            "count": 2
+          },
+          {
+            "label": "american",
+            "count": 2
+          },
+          {
+            "label": "tankers",
+            "count": 2
+          },
+          {
+            "label": "nat",
+            "count": 2
+          },
+          {
+            "label": "downgraded",
+            "count": 2
+          },
+          {
+            "label": "strong",
+            "count": 2
+          },
+          {
+            "label": "though",
+            "count": 2
+          }
+        ],
+        "headline": "Wall Street Zen Downgrades Nordic American Tankers (NYSE:NAT) to Buy",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-09-26",
+        "symbol": "BLK",
+        "article_count": 2,
+        "source_count": 1,
+        "sentiment_score": 0.1237,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Finance",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "wall",
+            "count": 4
+          },
+          {
+            "label": "street",
+            "count": 4
+          },
+          {
+            "label": "zen",
+            "count": 4
+          },
+          {
+            "label": "rating",
+            "count": 3
+          },
+          {
+            "label": "archer",
+            "count": 2
+          },
+          {
+            "label": "daniels",
+            "count": 2
+          },
+          {
+            "label": "midland",
+            "count": 2
+          },
+          {
+            "label": "adm",
+            "count": 2
+          },
+          {
+            "label": "buy",
+            "count": 2
+          },
+          {
+            "label": "invesco",
+            "count": 2
+          },
+          {
+            "label": "ivz",
+            "count": 2
+          },
+          {
+            "label": "hold",
+            "count": 2
+          }
+        ],
+        "headline": "Wall Street Zen Upgrades Archer Daniels Midland (NYSE:ADM) to Strong-Buy",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Energy Transportation",
+        "Life Sciences",
+        "Retail Wholesale"
+      ],
+      "fading_themes": [
+        "Finance",
+        "Economy Macro"
+      ],
+      "emerging_keywords": [
+        "buy",
+        "cvs",
+        "nordic"
+      ],
+      "fading_keywords": [
+        "rating",
+        "archer",
+        "daniels"
+      ],
+      "takeaway": "BLK's narrative is narrative steady: sentiment moved +0.06, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-03",
     "date": "2026-10-03",
     "runDate": "2026-10-03",

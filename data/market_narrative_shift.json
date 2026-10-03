@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-02T07:50:26.826326+00:00",
-  "date": "2026-10-02",
+  "updated_at": "2026-10-03T07:26:25.127593+00:00",
+  "date": "2026-10-03",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "ROST",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.2855,
-  "baseline_label": "2026-08-23",
+  "symbol": "BLK",
+  "shift_label": "Narrative steady",
+  "sentiment_delta": 0.0556,
+  "baseline_label": "2026-09-26",
   "current": {
-    "date": "2026-10-02",
-    "symbol": "ROST",
+    "date": "2026-10-03",
+    "symbol": "BLK",
     "article_count": 2,
     "source_count": 1,
-    "sentiment_score": 0.5585,
+    "sentiment_score": 0.1793,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,90 +21,94 @@
         "count": 2
       },
       {
-        "label": "Retail Wholesale",
-        "count": 2
-      },
-      {
         "label": "Financial Markets",
         "count": 2
       },
       {
-        "label": "Economy Macro",
+        "label": "Energy Transportation",
+        "count": 1
+      },
+      {
+        "label": "Life Sciences",
+        "count": 1
+      },
+      {
+        "label": "Retail Wholesale",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "ross",
+        "label": "buy",
+        "count": 7
+      },
+      {
+        "label": "wall",
         "count": 4
       },
       {
-        "label": "stores",
+        "label": "street",
         "count": 4
       },
       {
-        "label": "earnings",
+        "label": "zen",
         "count": 4
       },
       {
-        "label": "results",
+        "label": "cvs",
+        "count": 4
+      },
+      {
+        "label": "nordic",
         "count": 2
       },
       {
-        "label": "reaction",
+        "label": "american",
         "count": 2
       },
       {
-        "label": "history",
+        "label": "tankers",
         "count": 2
       },
       {
-        "label": "reported",
+        "label": "nat",
         "count": 2
       },
       {
-        "label": "surpassing",
-        "count": 2
-      },
-      {
-        "label": "diluted",
-        "count": 2
-      },
-      {
-        "label": "eps",
-        "count": 2
-      },
-      {
-        "label": "revenue",
+        "label": "downgraded",
         "count": 2
       },
       {
         "label": "strong",
-        "count": 1
+        "count": 2
+      },
+      {
+        "label": "though",
+        "count": 2
       }
     ],
-    "headline": "Ross Stores (ROST) Q3 2025 Earnings: Results, Market Reaction & History",
-    "headline_source": "24/7 Wall St."
+    "headline": "Wall Street Zen Downgrades Nordic American Tankers (NYSE:NAT) to Buy",
+    "headline_source": "MarketBeat"
   },
   "previous": {
-    "date": "2026-08-23",
-    "symbol": "ROST",
-    "article_count": 1,
+    "date": "2026-09-26",
+    "symbol": "BLK",
+    "article_count": 2,
     "source_count": 1,
-    "sentiment_score": 0.273,
+    "sentiment_score": 0.1237,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Retail Wholesale",
-        "count": 1
+        "count": 2
       },
       {
         "label": "Financial Markets",
-        "count": 1
+        "count": 2
+      },
+      {
+        "label": "Finance",
+        "count": 2
       },
       {
         "label": "Economy Macro",
@@ -113,73 +117,76 @@
     ],
     "keywords": [
       {
-        "label": "ross",
+        "label": "wall",
+        "count": 4
+      },
+      {
+        "label": "street",
+        "count": 4
+      },
+      {
+        "label": "zen",
+        "count": 4
+      },
+      {
+        "label": "rating",
         "count": 3
       },
       {
-        "label": "stores",
+        "label": "archer",
         "count": 2
       },
       {
-        "label": "grew",
+        "label": "daniels",
         "count": 2
       },
       {
-        "label": "tjx",
+        "label": "midland",
         "count": 2
       },
       {
-        "label": "comparable",
-        "count": 1
+        "label": "adm",
+        "count": 2
       },
       {
-        "label": "sales",
-        "count": 1
+        "label": "buy",
+        "count": 2
       },
       {
-        "label": "only",
-        "count": 1
+        "label": "invesco",
+        "count": 2
       },
       {
-        "label": "one",
-        "count": 1
+        "label": "ivz",
+        "count": 2
       },
       {
-        "label": "went",
-        "count": 1
-      },
-      {
-        "label": "two",
-        "count": 1
-      },
-      {
-        "label": "major",
-        "count": 1
-      },
-      {
-        "label": "off-price",
-        "count": 1
+        "label": "hold",
+        "count": 2
       }
     ],
-    "headline": "Ross Stores Grew Comparable Sales 10%. TJX Grew 4%. Only One Stock Went Up.",
-    "headline_source": "The Globe and Mail"
+    "headline": "Wall Street Zen Upgrades Archer Daniels Midland (NYSE:ADM) to Strong-Buy",
+    "headline_source": "MarketBeat"
   },
   "emerging_themes": [
-    "Earnings",
-    "Retail Wholesale",
-    "Financial Markets"
+    "Energy Transportation",
+    "Life Sciences",
+    "Retail Wholesale"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Finance",
+    "Economy Macro"
+  ],
   "emerging_keywords": [
-    "earnings",
-    "stores",
-    "results"
+    "buy",
+    "cvs",
+    "nordic"
   ],
   "fading_keywords": [
-    "grew",
-    "tjx",
-    "comparable"
+    "rating",
+    "archer",
+    "daniels"
   ],
-  "takeaway": "ROST's narrative is turning bullish: sentiment moved +0.29, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "BLK's narrative is narrative steady: sentiment moved +0.06, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
