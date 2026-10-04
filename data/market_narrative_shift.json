@@ -1,35 +1,31 @@
 {
-  "updated_at": "2026-10-03T07:26:25.127593+00:00",
-  "date": "2026-10-03",
+  "updated_at": "2026-10-04T07:39:51.307136+00:00",
+  "date": "2026-10-04",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "BLK",
+  "symbol": "KO",
   "shift_label": "Narrative steady",
-  "sentiment_delta": 0.0556,
-  "baseline_label": "2026-09-26",
+  "sentiment_delta": 0.0128,
+  "baseline_label": "2026-09-22",
   "current": {
-    "date": "2026-10-03",
-    "symbol": "BLK",
-    "article_count": 2,
+    "date": "2026-10-04",
+    "symbol": "KO",
+    "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1793,
+    "sentiment_score": -0.0925,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 2
-      },
-      {
-        "label": "Financial Markets",
-        "count": 2
-      },
-      {
-        "label": "Energy Transportation",
         "count": 1
       },
       {
-        "label": "Life Sciences",
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Finance",
         "count": 1
       },
       {
@@ -39,154 +35,151 @@
     ],
     "keywords": [
       {
-        "label": "buy",
-        "count": 7
-      },
-      {
-        "label": "wall",
-        "count": 4
-      },
-      {
-        "label": "street",
-        "count": 4
-      },
-      {
-        "label": "zen",
-        "count": 4
-      },
-      {
-        "label": "cvs",
-        "count": 4
-      },
-      {
-        "label": "nordic",
+        "label": "celsius",
         "count": 2
       },
       {
-        "label": "american",
-        "count": 2
-      },
-      {
-        "label": "tankers",
-        "count": 2
-      },
-      {
-        "label": "nat",
-        "count": 2
-      },
-      {
-        "label": "downgraded",
-        "count": 2
-      },
-      {
-        "label": "strong",
-        "count": 2
-      },
-      {
-        "label": "though",
-        "count": 2
-      }
-    ],
-    "headline": "Wall Street Zen Downgrades Nordic American Tankers (NYSE:NAT) to Buy",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-09-26",
-    "symbol": "BLK",
-    "article_count": 2,
-    "source_count": 1,
-    "sentiment_score": 0.1237,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 2
-      },
-      {
-        "label": "Financial Markets",
-        "count": 2
-      },
-      {
-        "label": "Finance",
-        "count": 2
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "wall",
-        "count": 4
-      },
-      {
-        "label": "street",
-        "count": 4
-      },
-      {
-        "label": "zen",
-        "count": 4
-      },
-      {
-        "label": "rating",
-        "count": 3
-      },
-      {
-        "label": "archer",
-        "count": 2
-      },
-      {
-        "label": "daniels",
-        "count": 2
-      },
-      {
-        "label": "midland",
-        "count": 2
-      },
-      {
-        "label": "adm",
-        "count": 2
-      },
-      {
-        "label": "buy",
-        "count": 2
-      },
-      {
-        "label": "invesco",
-        "count": 2
-      },
-      {
-        "label": "ivz",
+        "label": "celh",
         "count": 2
       },
       {
         "label": "hold",
         "count": 2
+      },
+      {
+        "label": "wall",
+        "count": 2
+      },
+      {
+        "label": "street",
+        "count": 2
+      },
+      {
+        "label": "zen",
+        "count": 2
+      },
+      {
+        "label": "raised",
+        "count": 1
+      },
+      {
+        "label": "has",
+        "count": 1
+      },
+      {
+        "label": "upgraded",
+        "count": 1
+      },
+      {
+        "label": "sell",
+        "count": 1
+      },
+      {
+        "label": "rating",
+        "count": 1
+      },
+      {
+        "label": "despite",
+        "count": 1
       }
     ],
-    "headline": "Wall Street Zen Upgrades Archer Daniels Midland (NYSE:ADM) to Strong-Buy",
+    "headline": "Celsius (NASDAQ:CELH) Raised to \"Hold\" at Wall Street Zen",
     "headline_source": "MarketBeat"
   },
+  "previous": {
+    "date": "2026-09-22",
+    "symbol": "KO",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": -0.1053,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      },
+      {
+        "label": "Retail Wholesale",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "coca-cola",
+        "count": 2
+      },
+      {
+        "label": "uptick",
+        "count": 2
+      },
+      {
+        "label": "falls",
+        "count": 1
+      },
+      {
+        "label": "amid",
+        "count": 1
+      },
+      {
+        "label": "what",
+        "count": 1
+      },
+      {
+        "label": "investors",
+        "count": 1
+      },
+      {
+        "label": "need",
+        "count": 1
+      },
+      {
+        "label": "know",
+        "count": 1
+      },
+      {
+        "label": "experienced",
+        "count": 1
+      },
+      {
+        "label": "decline",
+        "count": 1
+      },
+      {
+        "label": "while",
+        "count": 1
+      },
+      {
+        "label": "broader",
+        "count": 1
+      }
+    ],
+    "headline": "Coca-Cola (KO) Stock Falls Amid Market Uptick: What Investors Need to Know",
+    "headline_source": "Yahoo Finance"
+  },
   "emerging_themes": [
-    "Energy Transportation",
-    "Life Sciences",
-    "Retail Wholesale"
+    "Earnings",
+    "Financial Markets",
+    "Finance"
   ],
-  "fading_themes": [
-    "Finance",
-    "Economy Macro"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "buy",
-    "cvs",
-    "nordic"
+    "celsius",
+    "celh",
+    "hold"
   ],
   "fading_keywords": [
-    "rating",
-    "archer",
-    "daniels"
+    "coca-cola",
+    "uptick",
+    "falls"
   ],
-  "takeaway": "BLK's narrative is narrative steady: sentiment moved +0.06, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "KO's narrative is narrative steady: sentiment moved +0.01, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
