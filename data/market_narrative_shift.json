@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-04T07:39:51.307136+00:00",
-  "date": "2026-10-04",
+  "updated_at": "2026-10-05T08:06:26.787599+00:00",
+  "date": "2026-10-05",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "KO",
+  "symbol": "WFC",
   "shift_label": "Narrative steady",
-  "sentiment_delta": 0.0128,
-  "baseline_label": "2026-09-22",
+  "sentiment_delta": 0.1072,
+  "baseline_label": "2026-09-21",
   "current": {
-    "date": "2026-10-04",
-    "symbol": "KO",
+    "date": "2026-10-05",
+    "symbol": "WFC",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": -0.0925,
+    "sentiment_score": 0.004,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -29,37 +29,49 @@
         "count": 1
       },
       {
-        "label": "Retail Wholesale",
+        "label": "Economy Monetary",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "celsius",
+        "label": "morgan",
         "count": 2
       },
       {
-        "label": "celh",
+        "label": "stanley",
         "count": 2
       },
       {
-        "label": "hold",
+        "label": "wells",
         "count": 2
       },
       {
-        "label": "wall",
+        "label": "fargo",
         "count": 2
       },
       {
-        "label": "street",
-        "count": 2
+        "label": "upgrades",
+        "count": 1
       },
       {
-        "label": "zen",
-        "count": 2
+        "label": "rating",
+        "count": 1
       },
       {
-        "label": "raised",
+        "label": "profitability",
+        "count": 1
+      },
+      {
+        "label": "outlook",
+        "count": 1
+      },
+      {
+        "label": "investing",
+        "count": 1
+      },
+      {
+        "label": "com",
         "count": 1
       },
       {
@@ -69,29 +81,17 @@
       {
         "label": "upgraded",
         "count": 1
-      },
-      {
-        "label": "sell",
-        "count": 1
-      },
-      {
-        "label": "rating",
-        "count": 1
-      },
-      {
-        "label": "despite",
-        "count": 1
       }
     ],
-    "headline": "Celsius (NASDAQ:CELH) Raised to \"Hold\" at Wall Street Zen",
-    "headline_source": "MarketBeat"
+    "headline": "Morgan Stanley upgrades Wells Fargo stock rating on profitability outlook By Investing.com",
+    "headline_source": "Investing.com India"
   },
   "previous": {
-    "date": "2026-09-22",
-    "symbol": "KO",
+    "date": "2026-09-21",
+    "symbol": "WFC",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": -0.1053,
+    "sentiment_score": -0.1032,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -99,69 +99,73 @@
         "count": 1
       },
       {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
         "label": "Finance",
         "count": 1
       },
       {
-        "label": "Retail Wholesale",
+        "label": "Economy Monetary",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "coca-cola",
+        "label": "huntington",
         "count": 2
       },
       {
-        "label": "uptick",
-        "count": 2
-      },
-      {
-        "label": "falls",
+        "label": "cut",
         "count": 1
       },
       {
-        "label": "amid",
+        "label": "outlook",
         "count": 1
       },
       {
-        "label": "what",
+        "label": "right",
         "count": 1
       },
       {
-        "label": "investors",
+        "label": "fed",
         "count": 1
       },
       {
-        "label": "need",
+        "label": "hiked",
         "count": 1
       },
       {
-        "label": "know",
+        "label": "first",
         "count": 1
       },
       {
-        "label": "experienced",
+        "label": "crack",
         "count": 1
       },
       {
-        "label": "decline",
+        "label": "regional-bank",
         "count": 1
       },
       {
-        "label": "while",
+        "label": "margins",
         "count": 1
       },
       {
-        "label": "broader",
+        "label": "bancshares",
+        "count": 1
+      },
+      {
+        "label": "hban",
         "count": 1
       }
     ],
-    "headline": "Coca-Cola (KO) Stock Falls Amid Market Uptick: What Investors Need to Know",
+    "headline": "Huntington Cut Its Outlook Right as the Fed Hiked. First Crack in Regional-Bank Margins?",
     "headline_source": "Yahoo Finance"
   },
   "emerging_themes": [
@@ -169,17 +173,19 @@
     "Financial Markets",
     "Finance"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Economy Macro"
+  ],
   "emerging_keywords": [
-    "celsius",
-    "celh",
-    "hold"
+    "morgan",
+    "stanley",
+    "wells"
   ],
   "fading_keywords": [
-    "coca-cola",
-    "uptick",
-    "falls"
+    "huntington",
+    "cut",
+    "right"
   ],
-  "takeaway": "KO's narrative is narrative steady: sentiment moved +0.01, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "WFC's narrative is narrative steady: sentiment moved +0.11, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

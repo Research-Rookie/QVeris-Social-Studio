@@ -1,5 +1,216 @@
 [
   {
+    "id": "market-narrative-shift-wfc-2026-10-05",
+    "date": "2026-10-05",
+    "runDate": "2026-10-05",
+    "createdAt": "2026-10-05T08:06:28.387089+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $WFC",
+    "status": "ready",
+    "tweet": "What changed in $WFC's market narrative? 🔄\n\n🧭 Signal: Narrative steady\n💬 Sentiment shift: +0.11\n📌 Top theme: Earnings\n🔎 Emerging term: morgan\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_WFC_2026-10-05.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-05T08:06:26.787599+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$WFC",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Narrative steady",
+    "topSymbol": "WFC",
+    "topChangePct": 10.72,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-05T08:06:26.787599+00:00",
+      "date": "2026-10-05",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "WFC",
+      "shift_label": "Narrative steady",
+      "sentiment_delta": 0.1072,
+      "baseline_label": "2026-09-21",
+      "current": {
+        "date": "2026-10-05",
+        "symbol": "WFC",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.004,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Economy Monetary",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "morgan",
+            "count": 2
+          },
+          {
+            "label": "stanley",
+            "count": 2
+          },
+          {
+            "label": "wells",
+            "count": 2
+          },
+          {
+            "label": "fargo",
+            "count": 2
+          },
+          {
+            "label": "upgrades",
+            "count": 1
+          },
+          {
+            "label": "rating",
+            "count": 1
+          },
+          {
+            "label": "profitability",
+            "count": 1
+          },
+          {
+            "label": "outlook",
+            "count": 1
+          },
+          {
+            "label": "investing",
+            "count": 1
+          },
+          {
+            "label": "com",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "upgraded",
+            "count": 1
+          }
+        ],
+        "headline": "Morgan Stanley upgrades Wells Fargo stock rating on profitability outlook By Investing.com",
+        "headline_source": "Investing.com India"
+      },
+      "previous": {
+        "date": "2026-09-21",
+        "symbol": "WFC",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": -0.1032,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Economy Monetary",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "huntington",
+            "count": 2
+          },
+          {
+            "label": "cut",
+            "count": 1
+          },
+          {
+            "label": "outlook",
+            "count": 1
+          },
+          {
+            "label": "right",
+            "count": 1
+          },
+          {
+            "label": "fed",
+            "count": 1
+          },
+          {
+            "label": "hiked",
+            "count": 1
+          },
+          {
+            "label": "first",
+            "count": 1
+          },
+          {
+            "label": "crack",
+            "count": 1
+          },
+          {
+            "label": "regional-bank",
+            "count": 1
+          },
+          {
+            "label": "margins",
+            "count": 1
+          },
+          {
+            "label": "bancshares",
+            "count": 1
+          },
+          {
+            "label": "hban",
+            "count": 1
+          }
+        ],
+        "headline": "Huntington Cut Its Outlook Right as the Fed Hiked. First Crack in Regional-Bank Margins?",
+        "headline_source": "Yahoo Finance"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "fading_themes": [
+        "Economy Macro"
+      ],
+      "emerging_keywords": [
+        "morgan",
+        "stanley",
+        "wells"
+      ],
+      "fading_keywords": [
+        "huntington",
+        "cut",
+        "right"
+      ],
+      "takeaway": "WFC's narrative is narrative steady: sentiment moved +0.11, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-05",
     "date": "2026-10-05",
     "runDate": "2026-10-05",
