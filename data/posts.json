@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-aapl-2026-10-05",
+    "date": "2026-10-05",
+    "runDate": "2026-10-05",
+    "createdAt": "2026-10-05T09:31:39.609421+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$AAPL news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-05.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-05T09:31:38.094649+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AAPL",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "AAPL",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-05T09:31:38.094649+00:00",
+      "date": "2026-10-05",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "AAPL",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Financial Markets",
+      "headline": "Eli Lilly and Co. stock pre-market at EUR 1,021.50: plus 0.48 percent",
+      "headline_source": "AD HOC NEWS",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for AAPL: {'status_code': 200, 'data': {'c': 333.69, 'd': 3.37, 'dp': 1.0202, 'h': 334.54, 'l': 330.61, 'o': 333.26, 'pc': 330.32, 't': 1790971200}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "AAPL",
+            "mentions": 7
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 6
+          },
+          {
+            "ticker": "NVDA",
+            "mentions": 4
+          },
+          {
+            "ticker": "MS",
+            "mentions": 4
+          },
+          {
+            "ticker": "META",
+            "mentions": 4
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 17
+          },
+          {
+            "label": "Neutral",
+            "count": 14
+          },
+          {
+            "label": "Bullish",
+            "count": 10
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 6
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-wfc-2026-10-05",
     "date": "2026-10-05",
     "runDate": "2026-10-05",

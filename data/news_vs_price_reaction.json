@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-10-04T08:41:20.993902+00:00",
-  "date": "2026-10-04",
+  "updated_at": "2026-10-05T09:31:38.094649+00:00",
+  "date": "2026-10-05",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "NVDA",
-  "news_tone": "Neutral",
-  "top_theme": "Earnings",
-  "headline": "Celsius (NASDAQ:CELH) Raised to \"Hold\" at Wall Street Zen",
-  "headline_source": "MarketBeat",
+  "symbol": "AAPL",
+  "news_tone": "Somewhat Bullish",
+  "top_theme": "Financial Markets",
+  "headline": "Eli Lilly and Co. stock pre-market at EUR 1,021.50: plus 0.48 percent",
+  "headline_source": "AD HOC NEWS",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 233.95, 'd': 3.09, 'dp': 1.3385, 'h': 237.88, 'l': 233.6, 'o': 236.055, 'pc': 230.86, 't': 1790971200}}",
+  "price_error": "Could not parse quote data for AAPL: {'status_code': 200, 'data': {'c': 333.69, 'd': 3.37, 'dp': 1.0202, 'h': 334.54, 'l': 330.61, 'o': 333.26, 'pc': 330.32, 't': 1790971200}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "NVDA",
+        "ticker": "AAPL",
         "mentions": 7
       },
       {
@@ -28,33 +28,37 @@
         "mentions": 6
       },
       {
-        "ticker": "SNPS",
-        "mentions": 5
-      },
-      {
-        "ticker": "NFLX",
+        "ticker": "NVDA",
         "mentions": 4
       },
       {
-        "ticker": "MSFT",
+        "ticker": "MS",
+        "mentions": 4
+      },
+      {
+        "ticker": "META",
         "mentions": 4
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Neutral",
-        "count": 19
+        "label": "Somewhat-Bullish",
+        "count": 17
       },
       {
-        "label": "Somewhat-Bullish",
-        "count": 18
+        "label": "Neutral",
+        "count": 14
       },
       {
         "label": "Bullish",
-        "count": 9
+        "count": 10
       },
       {
         "label": "Somewhat-Bearish",
+        "count": 6
+      },
+      {
+        "label": "Bearish",
         "count": 1
       }
     ]
