@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-blk-2026-10-06",
+    "date": "2026-10-06",
+    "runDate": "2026-10-06",
+    "createdAt": "2026-10-06T09:17:22.900395+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$BLK news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-06.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-06T09:17:21.571231+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BLK",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "BLK",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-06T09:17:21.571231+00:00",
+      "date": "2026-10-06",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "BLK",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "JPMorgan reiterates Bank of America stock rating on NII outlook",
+      "headline_source": "Investing.com",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for BLK: {'status_code': 200, 'data': {'c': 1066.45, 'd': 6.82, 'dp': 0.6436, 'h': 1074.45, 'l': 1040.42, 'o': 1056.3, 'pc': 1059.63, 't': 1791230400}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "BLK",
+            "mentions": 4
+          },
+          {
+            "ticker": "BAC",
+            "mentions": 3
+          },
+          {
+            "ticker": "JPM",
+            "mentions": 3
+          },
+          {
+            "ticker": "C",
+            "mentions": 2
+          },
+          {
+            "ticker": "CAG",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 18
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 13
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 5
+          },
+          {
+            "label": "Bullish",
+            "count": 5
+          },
+          {
+            "label": "Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-ms-2026-10-06",
     "date": "2026-10-06",
     "runDate": "2026-10-06",
