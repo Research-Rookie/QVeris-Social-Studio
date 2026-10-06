@@ -1,19 +1,101 @@
 {
-  "updated_at": "2026-10-05T08:06:26.787599+00:00",
-  "date": "2026-10-05",
+  "updated_at": "2026-10-06T08:26:30.038845+00:00",
+  "date": "2026-10-06",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "WFC",
-  "shift_label": "Narrative steady",
-  "sentiment_delta": 0.1072,
-  "baseline_label": "2026-09-21",
+  "symbol": "MS",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.1973,
+  "baseline_label": "2026-10-04",
   "current": {
-    "date": "2026-10-05",
-    "symbol": "WFC",
+    "date": "2026-10-06",
+    "symbol": "MS",
+    "article_count": 2,
+    "source_count": 1,
+    "sentiment_score": -0.1344,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 2
+      },
+      {
+        "label": "Financial Markets",
+        "count": 2
+      },
+      {
+        "label": "Finance",
+        "count": 2
+      },
+      {
+        "label": "Retail Wholesale",
+        "count": 1
+      },
+      {
+        "label": "Energy Transportation",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "reduce",
+        "count": 4
+      },
+      {
+        "label": "kraft",
+        "count": 2
+      },
+      {
+        "label": "heinz",
+        "count": 2
+      },
+      {
+        "label": "khc",
+        "count": 2
+      },
+      {
+        "label": "now",
+        "count": 2
+      },
+      {
+        "label": "rated",
+        "count": 2
+      },
+      {
+        "label": "sell-side",
+        "count": 2
+      },
+      {
+        "label": "average",
+        "count": 2
+      },
+      {
+        "label": "rating",
+        "count": 2
+      },
+      {
+        "label": "edison",
+        "count": 2
+      },
+      {
+        "label": "international",
+        "count": 2
+      },
+      {
+        "label": "eix",
+        "count": 2
+      }
+    ],
+    "headline": "Kraft Heinz Company (NASDAQ:KHC) Stock Now Rated \"Reduce\" by Sell-Side Analysts",
+    "headline_source": "MarketBeat"
+  },
+  "previous": {
+    "date": "2026-10-04",
+    "symbol": "MS",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.004,
+    "sentiment_score": 0.0629,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -25,167 +107,79 @@
         "count": 1
       },
       {
-        "label": "Finance",
-        "count": 1
-      },
-      {
-        "label": "Economy Monetary",
+        "label": "Energy Transportation",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "morgan",
-        "count": 2
+        "label": "ppl",
+        "count": 3
       },
       {
-        "label": "stanley",
-        "count": 2
-      },
-      {
-        "label": "wells",
-        "count": 2
-      },
-      {
-        "label": "fargo",
+        "label": "miss",
         "count": 2
       },
       {
         "label": "upgrades",
-        "count": 1
-      },
-      {
-        "label": "rating",
-        "count": 1
-      },
-      {
-        "label": "profitability",
-        "count": 1
-      },
-      {
-        "label": "outlook",
-        "count": 1
-      },
-      {
-        "label": "investing",
-        "count": 1
-      },
-      {
-        "label": "com",
-        "count": 1
-      },
-      {
-        "label": "has",
-        "count": 1
-      },
-      {
-        "label": "upgraded",
-        "count": 1
-      }
-    ],
-    "headline": "Morgan Stanley upgrades Wells Fargo stock rating on profitability outlook By Investing.com",
-    "headline_source": "Investing.com India"
-  },
-  "previous": {
-    "date": "2026-09-21",
-    "symbol": "WFC",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": -0.1032,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      },
-      {
-        "label": "Economy Monetary",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "huntington",
         "count": 2
       },
       {
-        "label": "cut",
+        "label": "weighs",
         "count": 1
       },
       {
-        "label": "outlook",
+        "label": "closed",
         "count": 1
       },
       {
-        "label": "right",
+        "label": "usd",
         "count": 1
       },
       {
-        "label": "fed",
+        "label": "below",
         "count": 1
       },
       {
-        "label": "hiked",
+        "label": "yearly",
         "count": 1
       },
       {
-        "label": "first",
+        "label": "high",
         "count": 1
       },
       {
-        "label": "crack",
+        "label": "reporting",
         "count": 1
       },
       {
-        "label": "regional-bank",
+        "label": "revenue",
         "count": 1
       },
       {
-        "label": "margins",
-        "count": 1
-      },
-      {
-        "label": "bancshares",
-        "count": 1
-      },
-      {
-        "label": "hban",
+        "label": "but",
         "count": 1
       }
     ],
-    "headline": "Huntington Cut Its Outlook Right as the Fed Hiked. First Crack in Regional-Bank Margins?",
-    "headline_source": "Yahoo Finance"
+    "headline": "PPL Corporation stock weighs Q2 miss against analyst upgrades",
+    "headline_source": "AD HOC NEWS"
   },
   "emerging_themes": [
+    "Finance",
     "Earnings",
-    "Financial Markets",
-    "Finance"
+    "Financial Markets"
   ],
-  "fading_themes": [
-    "Economy Macro"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "morgan",
-    "stanley",
-    "wells"
+    "reduce",
+    "kraft",
+    "heinz"
   ],
   "fading_keywords": [
-    "huntington",
-    "cut",
-    "right"
+    "ppl",
+    "miss",
+    "upgrades"
   ],
-  "takeaway": "WFC's narrative is narrative steady: sentiment moved +0.11, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "MS's narrative is turning bearish: sentiment moved -0.20, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

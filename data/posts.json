@@ -1,5 +1,210 @@
 [
   {
+    "id": "market-narrative-shift-ms-2026-10-06",
+    "date": "2026-10-06",
+    "runDate": "2026-10-06",
+    "createdAt": "2026-10-06T08:26:32.962524+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $MS",
+    "status": "ready",
+    "tweet": "What changed in $MS's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.20\n📌 Top theme: Earnings\n🔎 Emerging term: reduce\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_MS_2026-10-06.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-06T08:26:30.038845+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MS",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "MS",
+    "topChangePct": -19.73,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-06T08:26:30.038845+00:00",
+      "date": "2026-10-06",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "MS",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.1973,
+      "baseline_label": "2026-10-04",
+      "current": {
+        "date": "2026-10-06",
+        "symbol": "MS",
+        "article_count": 2,
+        "source_count": 1,
+        "sentiment_score": -0.1344,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Finance",
+            "count": 2
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "reduce",
+            "count": 4
+          },
+          {
+            "label": "kraft",
+            "count": 2
+          },
+          {
+            "label": "heinz",
+            "count": 2
+          },
+          {
+            "label": "khc",
+            "count": 2
+          },
+          {
+            "label": "now",
+            "count": 2
+          },
+          {
+            "label": "rated",
+            "count": 2
+          },
+          {
+            "label": "sell-side",
+            "count": 2
+          },
+          {
+            "label": "average",
+            "count": 2
+          },
+          {
+            "label": "rating",
+            "count": 2
+          },
+          {
+            "label": "edison",
+            "count": 2
+          },
+          {
+            "label": "international",
+            "count": 2
+          },
+          {
+            "label": "eix",
+            "count": 2
+          }
+        ],
+        "headline": "Kraft Heinz Company (NASDAQ:KHC) Stock Now Rated \"Reduce\" by Sell-Side Analysts",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-10-04",
+        "symbol": "MS",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0629,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "ppl",
+            "count": 3
+          },
+          {
+            "label": "miss",
+            "count": 2
+          },
+          {
+            "label": "upgrades",
+            "count": 2
+          },
+          {
+            "label": "weighs",
+            "count": 1
+          },
+          {
+            "label": "closed",
+            "count": 1
+          },
+          {
+            "label": "usd",
+            "count": 1
+          },
+          {
+            "label": "below",
+            "count": 1
+          },
+          {
+            "label": "yearly",
+            "count": 1
+          },
+          {
+            "label": "high",
+            "count": 1
+          },
+          {
+            "label": "reporting",
+            "count": 1
+          },
+          {
+            "label": "revenue",
+            "count": 1
+          },
+          {
+            "label": "but",
+            "count": 1
+          }
+        ],
+        "headline": "PPL Corporation stock weighs Q2 miss against analyst upgrades",
+        "headline_source": "AD HOC NEWS"
+      },
+      "emerging_themes": [
+        "Finance",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "reduce",
+        "kraft",
+        "heinz"
+      ],
+      "fading_keywords": [
+        "ppl",
+        "miss",
+        "upgrades"
+      ],
+      "takeaway": "MS's narrative is turning bearish: sentiment moved -0.20, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-06",
     "date": "2026-10-06",
     "runDate": "2026-10-06",
