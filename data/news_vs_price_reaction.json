@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-10-06T09:17:21.571231+00:00",
-  "date": "2026-10-06",
+  "updated_at": "2026-10-07T09:07:32.774707+00:00",
+  "date": "2026-10-07",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "BLK",
+  "symbol": "AAPL",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "JPMorgan reiterates Bank of America stock rating on NII outlook",
-  "headline_source": "Investing.com",
+  "headline": "Nucor stock pre-market at EUR 223.30: plus 0.16 percent",
+  "headline_source": "AD HOC NEWS",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for BLK: {'status_code': 200, 'data': {'c': 1066.45, 'd': 6.82, 'dp': 0.6436, 'h': 1074.45, 'l': 1040.42, 'o': 1056.3, 'pc': 1059.63, 't': 1791230400}}",
+  "price_error": "Could not parse quote data for AAPL: {'status_code': 200, 'data': {'c': 333.63, 'd': 0.74, 'dp': 0.2223, 'h': 334.38, 'l': 330.62, 'o': 332.28, 'pc': 332.89, 't': 1791316800}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "BLK",
+        "ticker": "AAPL",
         "mentions": 4
+      },
+      {
+        "ticker": "CEG",
+        "mentions": 3
+      },
+      {
+        "ticker": "LW",
+        "mentions": 3
+      },
+      {
+        "ticker": "MSFT",
+        "mentions": 3
       },
       {
         "ticker": "BAC",
         "mentions": 3
-      },
-      {
-        "ticker": "JPM",
-        "mentions": 3
-      },
-      {
-        "ticker": "C",
-        "mentions": 2
-      },
-      {
-        "ticker": "CAG",
-        "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 18
+        "count": 19
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 13
-      },
-      {
-        "label": "Somewhat-Bearish",
-        "count": 5
+        "count": 14
       },
       {
         "label": "Bullish",
-        "count": 5
+        "count": 9
+      },
+      {
+        "label": "Somewhat-Bearish",
+        "count": 4
       },
       {
         "label": "Bearish",
-        "count": 2
+        "count": 1
       }
     ]
   }

@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-aapl-2026-10-07",
+    "date": "2026-10-07",
+    "runDate": "2026-10-07",
+    "createdAt": "2026-10-07T09:07:35.295288+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$AAPL news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-07.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-07T09:07:32.774707+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AAPL",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "AAPL",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-07T09:07:32.774707+00:00",
+      "date": "2026-10-07",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "AAPL",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Nucor stock pre-market at EUR 223.30: plus 0.16 percent",
+      "headline_source": "AD HOC NEWS",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for AAPL: {'status_code': 200, 'data': {'c': 333.63, 'd': 0.74, 'dp': 0.2223, 'h': 334.38, 'l': 330.62, 'o': 332.28, 'pc': 332.89, 't': 1791316800}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "AAPL",
+            "mentions": 4
+          },
+          {
+            "ticker": "CEG",
+            "mentions": 3
+          },
+          {
+            "ticker": "LW",
+            "mentions": 3
+          },
+          {
+            "ticker": "MSFT",
+            "mentions": 3
+          },
+          {
+            "ticker": "BAC",
+            "mentions": 3
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 19
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 14
+          },
+          {
+            "label": "Bullish",
+            "count": 9
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 4
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-crm-2026-10-07",
     "date": "2026-10-07",
     "runDate": "2026-10-07",
