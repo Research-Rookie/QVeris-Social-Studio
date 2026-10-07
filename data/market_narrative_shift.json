@@ -1,101 +1,97 @@
 {
-  "updated_at": "2026-10-06T08:26:30.038845+00:00",
-  "date": "2026-10-06",
+  "updated_at": "2026-10-07T08:02:07.032180+00:00",
+  "date": "2026-10-07",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "MS",
-  "shift_label": "Turning bearish",
-  "sentiment_delta": -0.1973,
-  "baseline_label": "2026-10-04",
+  "symbol": "CRM",
+  "shift_label": "Narrative steady",
+  "sentiment_delta": -0.0789,
+  "baseline_label": "2026-10-02",
   "current": {
-    "date": "2026-10-06",
-    "symbol": "MS",
-    "article_count": 2,
+    "date": "2026-10-07",
+    "symbol": "CRM",
+    "article_count": 1,
     "source_count": 1,
-    "sentiment_score": -0.1344,
+    "sentiment_score": 0.1957,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 2
+        "count": 1
       },
       {
         "label": "Financial Markets",
-        "count": 2
+        "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
       },
       {
         "label": "Finance",
-        "count": 2
-      },
-      {
-        "label": "Retail Wholesale",
-        "count": 1
-      },
-      {
-        "label": "Energy Transportation",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "reduce",
-        "count": 4
-      },
-      {
-        "label": "kraft",
+        "label": "legacy",
         "count": 2
       },
       {
-        "label": "heinz",
+        "label": "private",
         "count": 2
       },
       {
-        "label": "khc",
+        "label": "trust",
         "count": 2
       },
       {
-        "label": "now",
+        "label": "salesforce",
         "count": 2
       },
       {
-        "label": "rated",
-        "count": 2
+        "label": "cuts",
+        "count": 1
       },
       {
-        "label": "sell-side",
-        "count": 2
+        "label": "position",
+        "count": 1
       },
       {
-        "label": "average",
-        "count": 2
+        "label": "significantly",
+        "count": 1
       },
       {
-        "label": "rating",
-        "count": 2
+        "label": "reduced",
+        "count": 1
       },
       {
-        "label": "edison",
-        "count": 2
+        "label": "stake",
+        "count": 1
       },
       {
-        "label": "international",
-        "count": 2
+        "label": "third",
+        "count": 1
       },
       {
-        "label": "eix",
-        "count": 2
+        "label": "quarter",
+        "count": 1
+      },
+      {
+        "label": "selling",
+        "count": 1
       }
     ],
-    "headline": "Kraft Heinz Company (NASDAQ:KHC) Stock Now Rated \"Reduce\" by Sell-Side Analysts",
+    "headline": "Legacy Private Trust Co. Cuts Stock Position in Salesforce Inc. $CRM",
     "headline_source": "MarketBeat"
   },
   "previous": {
-    "date": "2026-10-04",
-    "symbol": "MS",
+    "date": "2026-10-02",
+    "symbol": "CRM",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.0629,
+    "sentiment_score": 0.2746,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -107,79 +103,90 @@
         "count": 1
       },
       {
-        "label": "Energy Transportation",
+        "label": "Manufacturing",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      },
+      {
+        "label": "Finance",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "ppl",
-        "count": 3
-      },
-      {
-        "label": "miss",
+        "label": "illinois",
         "count": 2
       },
       {
-        "label": "upgrades",
+        "label": "tool",
         "count": 2
       },
       {
-        "label": "weighs",
+        "label": "works",
+        "count": 2
+      },
+      {
+        "label": "itw",
+        "count": 2
+      },
+      {
+        "label": "attention",
+        "count": 2
+      },
+      {
+        "label": "why",
         "count": 1
       },
       {
-        "label": "closed",
+        "label": "drawing",
         "count": 1
       },
       {
-        "label": "usd",
+        "label": "fresh",
         "count": 1
       },
       {
-        "label": "below",
+        "label": "gaining",
         "count": 1
       },
       {
-        "label": "yearly",
+        "label": "renewed",
         "count": 1
       },
       {
-        "label": "high",
+        "label": "investor",
         "count": 1
       },
       {
-        "label": "reporting",
-        "count": 1
-      },
-      {
-        "label": "revenue",
-        "count": 1
-      },
-      {
-        "label": "but",
+        "label": "zacks",
         "count": 1
       }
     ],
-    "headline": "PPL Corporation stock weighs Q2 miss against analyst upgrades",
-    "headline_source": "AD HOC NEWS"
+    "headline": "Illinois Tool Works (ITW), Why Is The Stock Drawing Fresh Attention?",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
-    "Finance",
+    "Technology",
     "Earnings",
     "Financial Markets"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Manufacturing",
+    "Economy Macro"
+  ],
   "emerging_keywords": [
-    "reduce",
-    "kraft",
-    "heinz"
+    "legacy",
+    "private",
+    "trust"
   ],
   "fading_keywords": [
-    "ppl",
-    "miss",
-    "upgrades"
+    "illinois",
+    "tool",
+    "works"
   ],
-  "takeaway": "MS's narrative is turning bearish: sentiment moved -0.20, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "CRM's narrative is narrative steady: sentiment moved -0.08, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

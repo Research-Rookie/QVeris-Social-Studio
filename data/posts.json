@@ -1,5 +1,217 @@
 [
   {
+    "id": "market-narrative-shift-crm-2026-10-07",
+    "date": "2026-10-07",
+    "runDate": "2026-10-07",
+    "createdAt": "2026-10-07T08:02:09.453085+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $CRM",
+    "status": "ready",
+    "tweet": "What changed in $CRM's market narrative? 🔄\n\n🧭 Signal: Narrative steady\n💬 Sentiment shift: -0.08\n📌 Top theme: Earnings\n🔎 Emerging term: legacy\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_CRM_2026-10-07.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-07T08:02:07.032180+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$CRM",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Narrative steady",
+    "topSymbol": "CRM",
+    "topChangePct": -7.89,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-07T08:02:07.032180+00:00",
+      "date": "2026-10-07",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "CRM",
+      "shift_label": "Narrative steady",
+      "sentiment_delta": -0.0789,
+      "baseline_label": "2026-10-02",
+      "current": {
+        "date": "2026-10-07",
+        "symbol": "CRM",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1957,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "legacy",
+            "count": 2
+          },
+          {
+            "label": "private",
+            "count": 2
+          },
+          {
+            "label": "trust",
+            "count": 2
+          },
+          {
+            "label": "salesforce",
+            "count": 2
+          },
+          {
+            "label": "cuts",
+            "count": 1
+          },
+          {
+            "label": "position",
+            "count": 1
+          },
+          {
+            "label": "significantly",
+            "count": 1
+          },
+          {
+            "label": "reduced",
+            "count": 1
+          },
+          {
+            "label": "stake",
+            "count": 1
+          },
+          {
+            "label": "third",
+            "count": 1
+          },
+          {
+            "label": "quarter",
+            "count": 1
+          },
+          {
+            "label": "selling",
+            "count": 1
+          }
+        ],
+        "headline": "Legacy Private Trust Co. Cuts Stock Position in Salesforce Inc. $CRM",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-10-02",
+        "symbol": "CRM",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2746,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Manufacturing",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "illinois",
+            "count": 2
+          },
+          {
+            "label": "tool",
+            "count": 2
+          },
+          {
+            "label": "works",
+            "count": 2
+          },
+          {
+            "label": "itw",
+            "count": 2
+          },
+          {
+            "label": "attention",
+            "count": 2
+          },
+          {
+            "label": "why",
+            "count": 1
+          },
+          {
+            "label": "drawing",
+            "count": 1
+          },
+          {
+            "label": "fresh",
+            "count": 1
+          },
+          {
+            "label": "gaining",
+            "count": 1
+          },
+          {
+            "label": "renewed",
+            "count": 1
+          },
+          {
+            "label": "investor",
+            "count": 1
+          },
+          {
+            "label": "zacks",
+            "count": 1
+          }
+        ],
+        "headline": "Illinois Tool Works (ITW), Why Is The Stock Drawing Fresh Attention?",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Technology",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Manufacturing",
+        "Economy Macro"
+      ],
+      "emerging_keywords": [
+        "legacy",
+        "private",
+        "trust"
+      ],
+      "fading_keywords": [
+        "illinois",
+        "tool",
+        "works"
+      ],
+      "takeaway": "CRM's narrative is narrative steady: sentiment moved -0.08, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-07",
     "date": "2026-10-07",
     "runDate": "2026-10-07",
