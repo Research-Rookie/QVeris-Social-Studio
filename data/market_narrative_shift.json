@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-07T08:02:07.032180+00:00",
-  "date": "2026-10-07",
+  "updated_at": "2026-10-08T08:17:09.257409+00:00",
+  "date": "2026-10-08",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "CRM",
-  "shift_label": "Narrative steady",
-  "sentiment_delta": -0.0789,
-  "baseline_label": "2026-10-02",
+  "symbol": "SCHW",
+  "shift_label": "Theme rotation",
+  "sentiment_delta": 0.0675,
+  "baseline_label": "2026-10-05",
   "current": {
-    "date": "2026-10-07",
-    "symbol": "CRM",
+    "date": "2026-10-08",
+    "symbol": "SCHW",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1957,
+    "sentiment_score": 0.2677,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -21,172 +21,161 @@
         "count": 1
       },
       {
+        "label": "Finance",
+        "count": 1
+      },
+      {
         "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "Technology",
-        "count": 1
-      },
-      {
-        "label": "Finance",
+        "label": "Mergers And Acquisitions",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "legacy",
+        "label": "charles",
         "count": 2
       },
       {
-        "label": "private",
+        "label": "schwab",
         "count": 2
       },
       {
-        "label": "trust",
+        "label": "announce",
         "count": 2
       },
       {
-        "label": "salesforce",
+        "label": "earnings",
         "count": 2
       },
       {
-        "label": "cuts",
+        "label": "thursday",
+        "count": 2
+      },
+      {
+        "label": "set",
         "count": 1
       },
       {
-        "label": "position",
+        "label": "expected",
         "count": 1
       },
       {
-        "label": "significantly",
+        "label": "october",
         "count": 1
       },
       {
-        "label": "reduced",
+        "label": "forecasting",
         "count": 1
       },
       {
-        "label": "stake",
+        "label": "per",
         "count": 1
       },
       {
-        "label": "third",
+        "label": "share",
         "count": 1
       },
       {
-        "label": "quarter",
-        "count": 1
-      },
-      {
-        "label": "selling",
+        "label": "revenue",
         "count": 1
       }
     ],
-    "headline": "Legacy Private Trust Co. Cuts Stock Position in Salesforce Inc. $CRM",
+    "headline": "Charles Schwab (SCHW) Set to Announce Earnings on Thursday",
     "headline_source": "MarketBeat"
   },
   "previous": {
-    "date": "2026-10-02",
-    "symbol": "CRM",
+    "date": "2026-10-05",
+    "symbol": "SCHW",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.2746,
-    "top_theme": "Earnings",
+    "sentiment_score": 0.2002,
+    "top_theme": "Financial Markets",
     "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
       {
         "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "Manufacturing",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
-        "count": 1
-      },
-      {
         "label": "Finance",
+        "count": 1
+      },
+      {
+        "label": "Earnings",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "illinois",
+        "label": "charles",
         "count": 2
       },
       {
-        "label": "tool",
+        "label": "schwab",
         "count": 2
       },
       {
-        "label": "works",
+        "label": "pre-market",
         "count": 2
       },
       {
-        "label": "itw",
+        "label": "eur",
         "count": 2
       },
       {
-        "label": "attention",
+        "label": "october",
         "count": 2
       },
       {
-        "label": "why",
+        "label": "plus",
         "count": 1
       },
       {
-        "label": "drawing",
+        "label": "percent",
         "count": 1
       },
       {
-        "label": "fresh",
+        "label": "saw",
         "count": 1
       },
       {
-        "label": "gaining",
+        "label": "gain",
         "count": 1
       },
       {
-        "label": "renewed",
+        "label": "has",
         "count": 1
       },
       {
-        "label": "investor",
+        "label": "scheduled",
         "count": 1
       },
       {
-        "label": "zacks",
+        "label": "fall",
         "count": 1
       }
     ],
-    "headline": "Illinois Tool Works (ITW), Why Is The Stock Drawing Fresh Attention?",
-    "headline_source": "Simply Wall Street"
+    "headline": "Charles Schwab stock pre-market at EUR 86.15: plus 0.16 percent",
+    "headline_source": "AD HOC NEWS"
   },
   "emerging_themes": [
-    "Technology",
+    "Mergers And Acquisitions",
     "Earnings",
-    "Financial Markets"
+    "Finance"
   ],
-  "fading_themes": [
-    "Manufacturing",
-    "Economy Macro"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "legacy",
-    "private",
-    "trust"
+    "announce",
+    "earnings",
+    "thursday"
   ],
   "fading_keywords": [
-    "illinois",
-    "tool",
-    "works"
+    "pre-market",
+    "eur",
+    "october"
   ],
-  "takeaway": "CRM's narrative is narrative steady: sentiment moved -0.08, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "SCHW's narrative is theme rotation: sentiment moved +0.07, while the leading theme shifted from Financial Markets to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

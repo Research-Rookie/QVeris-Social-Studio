@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-schw-2026-10-08",
+    "date": "2026-10-08",
+    "runDate": "2026-10-08",
+    "createdAt": "2026-10-08T08:17:12.708560+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $SCHW",
+    "status": "ready",
+    "tweet": "What changed in $SCHW's market narrative? 🔄\n\n🧭 Signal: Theme rotation\n💬 Sentiment shift: +0.07\n📌 Top theme: Earnings\n🔎 Emerging term: announce\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_SCHW_2026-10-08.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-08T08:17:09.257409+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$SCHW",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Theme rotation",
+    "topSymbol": "SCHW",
+    "topChangePct": 6.75,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-08T08:17:09.257409+00:00",
+      "date": "2026-10-08",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "SCHW",
+      "shift_label": "Theme rotation",
+      "sentiment_delta": 0.0675,
+      "baseline_label": "2026-10-05",
+      "current": {
+        "date": "2026-10-08",
+        "symbol": "SCHW",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2677,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Mergers And Acquisitions",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "charles",
+            "count": 2
+          },
+          {
+            "label": "schwab",
+            "count": 2
+          },
+          {
+            "label": "announce",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "thursday",
+            "count": 2
+          },
+          {
+            "label": "set",
+            "count": 1
+          },
+          {
+            "label": "expected",
+            "count": 1
+          },
+          {
+            "label": "october",
+            "count": 1
+          },
+          {
+            "label": "forecasting",
+            "count": 1
+          },
+          {
+            "label": "per",
+            "count": 1
+          },
+          {
+            "label": "share",
+            "count": 1
+          },
+          {
+            "label": "revenue",
+            "count": 1
+          }
+        ],
+        "headline": "Charles Schwab (SCHW) Set to Announce Earnings on Thursday",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-10-05",
+        "symbol": "SCHW",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2002,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "charles",
+            "count": 2
+          },
+          {
+            "label": "schwab",
+            "count": 2
+          },
+          {
+            "label": "pre-market",
+            "count": 2
+          },
+          {
+            "label": "eur",
+            "count": 2
+          },
+          {
+            "label": "october",
+            "count": 2
+          },
+          {
+            "label": "plus",
+            "count": 1
+          },
+          {
+            "label": "percent",
+            "count": 1
+          },
+          {
+            "label": "saw",
+            "count": 1
+          },
+          {
+            "label": "gain",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "scheduled",
+            "count": 1
+          },
+          {
+            "label": "fall",
+            "count": 1
+          }
+        ],
+        "headline": "Charles Schwab stock pre-market at EUR 86.15: plus 0.16 percent",
+        "headline_source": "AD HOC NEWS"
+      },
+      "emerging_themes": [
+        "Mergers And Acquisitions",
+        "Earnings",
+        "Finance"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "announce",
+        "earnings",
+        "thursday"
+      ],
+      "fading_keywords": [
+        "pre-market",
+        "eur",
+        "october"
+      ],
+      "takeaway": "SCHW's narrative is theme rotation: sentiment moved +0.07, while the leading theme shifted from Financial Markets to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-08",
     "date": "2026-10-08",
     "runDate": "2026-10-08",
