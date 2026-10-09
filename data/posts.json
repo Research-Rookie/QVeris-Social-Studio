@@ -1,5 +1,217 @@
 [
   {
+    "id": "market-narrative-shift-ms-2026-10-09",
+    "date": "2026-10-09",
+    "runDate": "2026-10-09",
+    "createdAt": "2026-10-09T08:18:37.650312+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $MS",
+    "status": "ready",
+    "tweet": "What changed in $MS's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.38\n📌 Top theme: Earnings\n🔎 Emerging term: buy\n📰 Coverage: 2 vs 2\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_MS_2026-10-09.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-09T08:18:36.001095+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MS",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "MS",
+    "topChangePct": 37.74,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-09T08:18:36.001095+00:00",
+      "date": "2026-10-09",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "MS",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.3774,
+      "baseline_label": "2026-10-06",
+      "current": {
+        "date": "2026-10-09",
+        "symbol": "MS",
+        "article_count": 2,
+        "source_count": 1,
+        "sentiment_score": 0.243,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Finance",
+            "count": 2
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "buy",
+            "count": 4
+          },
+          {
+            "label": "consensus",
+            "count": 3
+          },
+          {
+            "label": "moderate",
+            "count": 3
+          },
+          {
+            "label": "rating",
+            "count": 3
+          },
+          {
+            "label": "willis",
+            "count": 2
+          },
+          {
+            "label": "towers",
+            "count": 2
+          },
+          {
+            "label": "watson",
+            "count": 2
+          },
+          {
+            "label": "public",
+            "count": 2
+          },
+          {
+            "label": "limited",
+            "count": 2
+          },
+          {
+            "label": "wtw",
+            "count": 2
+          },
+          {
+            "label": "has",
+            "count": 2
+          },
+          {
+            "label": "target",
+            "count": 2
+          }
+        ],
+        "headline": "Willis Towers Watson Public Limited Company (NASDAQ:WTW) Stock Has Consensus Price Target of $365.33 According to A...",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-10-06",
+        "symbol": "MS",
+        "article_count": 2,
+        "source_count": 1,
+        "sentiment_score": -0.1344,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Finance",
+            "count": 2
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "reduce",
+            "count": 4
+          },
+          {
+            "label": "kraft",
+            "count": 2
+          },
+          {
+            "label": "heinz",
+            "count": 2
+          },
+          {
+            "label": "khc",
+            "count": 2
+          },
+          {
+            "label": "now",
+            "count": 2
+          },
+          {
+            "label": "rated",
+            "count": 2
+          },
+          {
+            "label": "sell-side",
+            "count": 2
+          },
+          {
+            "label": "average",
+            "count": 2
+          },
+          {
+            "label": "rating",
+            "count": 2
+          },
+          {
+            "label": "edison",
+            "count": 2
+          },
+          {
+            "label": "international",
+            "count": 2
+          },
+          {
+            "label": "eix",
+            "count": 2
+          }
+        ],
+        "headline": "Kraft Heinz Company (NASDAQ:KHC) Stock Now Rated \"Reduce\" by Sell-Side Analysts",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Economy Macro",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Retail Wholesale",
+        "Energy Transportation"
+      ],
+      "emerging_keywords": [
+        "buy",
+        "consensus",
+        "moderate"
+      ],
+      "fading_keywords": [
+        "reduce",
+        "kraft",
+        "heinz"
+      ],
+      "takeaway": "MS's narrative is turning bullish: sentiment moved +0.38, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-09",
     "date": "2026-10-09",
     "runDate": "2026-10-09",
