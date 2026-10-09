@@ -1,60 +1,64 @@
 {
-  "updated_at": "2026-10-08T09:22:09.462340+00:00",
-  "date": "2026-10-08",
+  "updated_at": "2026-10-09T09:29:49.204888+00:00",
+  "date": "2026-10-09",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "NVDA",
-  "news_tone": "Neutral",
+  "symbol": "BAC",
+  "news_tone": "Somewhat Bullish",
   "top_theme": "Earnings",
-  "headline": "NetApp (NTAP) Wins An Analyst Upgrade, Is It 19% Overvalued?",
-  "headline_source": "Yahoo Finance",
+  "headline": "Is iPhone 18 Pro Demand Slowing? Apple Reportedly Cuts October Component Orders, Stock Slips Premarket",
+  "headline_source": "TradingView",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for NVDA: {'status_code': 200, 'data': {'c': 237.47, 'd': -1.77, 'dp': -0.7398, 'h': 239.08, 'l': 236.38, 'o': 237.685, 'pc': 239.24, 't': 1791403200}}",
+  "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 53.61, 'd': 0.09, 'dp': 0.1682, 'h': 53.61, 'l': 52.24, 'o': 52.98, 'pc': 53.52, 't': 1791489600}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
-      {
-        "ticker": "NVDA",
-        "mentions": 7
-      },
-      {
-        "ticker": "BLK",
-        "mentions": 5
-      },
-      {
-        "ticker": "AAPL",
-        "mentions": 5
-      },
       {
         "ticker": "BAC",
         "mentions": 4
       },
       {
-        "ticker": "AMZN",
-        "mentions": 4
+        "ticker": "JPM",
+        "mentions": 3
+      },
+      {
+        "ticker": "CL",
+        "mentions": 3
+      },
+      {
+        "ticker": "AMAT",
+        "mentions": 2
+      },
+      {
+        "ticker": "AMP",
+        "mentions": 2
       }
     ],
     "sentiment_counts": [
-      {
-        "label": "Neutral",
-        "count": 19
-      },
       {
         "label": "Somewhat-Bullish",
         "count": 15
       },
       {
+        "label": "Neutral",
+        "count": 13
+      },
+      {
         "label": "Bullish",
-        "count": 9
+        "count": 12
       },
       {
         "label": "Somewhat-Bearish",
+        "count": 3
+      },
+      {
+        "label": "Bearish",
         "count": 1
       }
     ]
