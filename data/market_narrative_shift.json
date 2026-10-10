@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-09T08:18:36.001095+00:00",
-  "date": "2026-10-09",
+  "updated_at": "2026-10-10T07:59:17.412393+00:00",
+  "date": "2026-10-10",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "MS",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.3774,
-  "baseline_label": "2026-10-06",
+  "symbol": "ANET",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.1326,
+  "baseline_label": "2026-09-23",
   "current": {
-    "date": "2026-10-09",
-    "symbol": "MS",
+    "date": "2026-10-10",
+    "symbol": "ANET",
     "article_count": 2,
     "source_count": 1,
-    "sentiment_score": 0.243,
+    "sentiment_score": 0.073,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -26,7 +26,85 @@
       },
       {
         "label": "Finance",
+        "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "earnings",
+        "count": 4
+      },
+      {
+        "label": "sell",
+        "count": 3
+      },
+      {
+        "label": "icici",
         "count": 2
+      },
+      {
+        "label": "bank",
+        "count": 2
+      },
+      {
+        "label": "ibn",
+        "count": 2
+      },
+      {
+        "label": "saturday",
+        "count": 2
+      },
+      {
+        "label": "per",
+        "count": 2
+      },
+      {
+        "label": "share",
+        "count": 2
+      },
+      {
+        "label": "jinkosolar",
+        "count": 2
+      },
+      {
+        "label": "jks",
+        "count": 2
+      },
+      {
+        "label": "strong",
+        "count": 2
+      },
+      {
+        "label": "wall",
+        "count": 2
+      }
+    ],
+    "headline": "ICICI Bank (IBN) Expected to Post Earnings on Saturday",
+    "headline_source": "MarketBeat"
+  },
+  "previous": {
+    "date": "2026-09-23",
+    "symbol": "ANET",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.2056,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
       },
       {
         "label": "Economy Macro",
@@ -35,158 +113,75 @@
     ],
     "keywords": [
       {
-        "label": "buy",
-        "count": 4
-      },
-      {
-        "label": "consensus",
-        "count": 3
-      },
-      {
-        "label": "moderate",
-        "count": 3
-      },
-      {
-        "label": "rating",
-        "count": 3
-      },
-      {
-        "label": "willis",
+        "label": "arista",
         "count": 2
       },
       {
-        "label": "towers",
+        "label": "networks",
         "count": 2
       },
       {
-        "label": "watson",
-        "count": 2
-      },
-      {
-        "label": "public",
-        "count": 2
-      },
-      {
-        "label": "limited",
-        "count": 2
-      },
-      {
-        "label": "wtw",
-        "count": 2
-      },
-      {
-        "label": "has",
-        "count": 2
-      },
-      {
-        "label": "target",
-        "count": 2
-      }
-    ],
-    "headline": "Willis Towers Watson Public Limited Company (NASDAQ:WTW) Stock Has Consensus Price Target of $365.33 According to A...",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-10-06",
-    "symbol": "MS",
-    "article_count": 2,
-    "source_count": 1,
-    "sentiment_score": -0.1344,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 2
-      },
-      {
-        "label": "Financial Markets",
-        "count": 2
-      },
-      {
-        "label": "Finance",
-        "count": 2
-      },
-      {
-        "label": "Retail Wholesale",
+        "label": "why",
         "count": 1
       },
       {
-        "label": "Energy Transportation",
+        "label": "back",
+        "count": 1
+      },
+      {
+        "label": "spotlight",
+        "count": 1
+      },
+      {
+        "label": "seeing",
+        "count": 1
+      },
+      {
+        "label": "renewed",
+        "count": 1
+      },
+      {
+        "label": "optimism",
+        "count": 1
+      },
+      {
+        "label": "driven",
+        "count": 1
+      },
+      {
+        "label": "higher",
+        "count": 1
+      },
+      {
+        "label": "earnings",
+        "count": 1
+      },
+      {
+        "label": "revenue",
         "count": 1
       }
     ],
-    "keywords": [
-      {
-        "label": "reduce",
-        "count": 4
-      },
-      {
-        "label": "kraft",
-        "count": 2
-      },
-      {
-        "label": "heinz",
-        "count": 2
-      },
-      {
-        "label": "khc",
-        "count": 2
-      },
-      {
-        "label": "now",
-        "count": 2
-      },
-      {
-        "label": "rated",
-        "count": 2
-      },
-      {
-        "label": "sell-side",
-        "count": 2
-      },
-      {
-        "label": "average",
-        "count": 2
-      },
-      {
-        "label": "rating",
-        "count": 2
-      },
-      {
-        "label": "edison",
-        "count": 2
-      },
-      {
-        "label": "international",
-        "count": 2
-      },
-      {
-        "label": "eix",
-        "count": 2
-      }
-    ],
-    "headline": "Kraft Heinz Company (NASDAQ:KHC) Stock Now Rated \"Reduce\" by Sell-Side Analysts",
-    "headline_source": "MarketBeat"
+    "headline": "Why Arista Networks (ANET) Is Back In The Spotlight",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
-    "Economy Macro",
     "Earnings",
-    "Financial Markets"
+    "Financial Markets",
+    "Finance"
   ],
   "fading_themes": [
-    "Retail Wholesale",
-    "Energy Transportation"
+    "Economy Macro"
   ],
   "emerging_keywords": [
-    "buy",
-    "consensus",
-    "moderate"
+    "earnings",
+    "sell",
+    "icici"
   ],
   "fading_keywords": [
-    "reduce",
-    "kraft",
-    "heinz"
+    "arista",
+    "networks",
+    "why"
   ],
-  "takeaway": "MS's narrative is turning bullish: sentiment moved +0.38, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "ANET's narrative is turning bearish: sentiment moved -0.13, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

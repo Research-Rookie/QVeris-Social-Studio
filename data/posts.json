@@ -1,5 +1,212 @@
 [
   {
+    "id": "market-narrative-shift-anet-2026-10-10",
+    "date": "2026-10-10",
+    "runDate": "2026-10-10",
+    "createdAt": "2026-10-10T07:59:19.988136+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $ANET",
+    "status": "ready",
+    "tweet": "What changed in $ANET's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.13\n📌 Top theme: Earnings\n🔎 Emerging term: earnings\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_ANET_2026-10-10.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-10T07:59:17.412393+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$ANET",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "ANET",
+    "topChangePct": -13.26,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-10T07:59:17.412393+00:00",
+      "date": "2026-10-10",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "ANET",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.1326,
+      "baseline_label": "2026-09-23",
+      "current": {
+        "date": "2026-10-10",
+        "symbol": "ANET",
+        "article_count": 2,
+        "source_count": 1,
+        "sentiment_score": 0.073,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "earnings",
+            "count": 4
+          },
+          {
+            "label": "sell",
+            "count": 3
+          },
+          {
+            "label": "icici",
+            "count": 2
+          },
+          {
+            "label": "bank",
+            "count": 2
+          },
+          {
+            "label": "ibn",
+            "count": 2
+          },
+          {
+            "label": "saturday",
+            "count": 2
+          },
+          {
+            "label": "per",
+            "count": 2
+          },
+          {
+            "label": "share",
+            "count": 2
+          },
+          {
+            "label": "jinkosolar",
+            "count": 2
+          },
+          {
+            "label": "jks",
+            "count": 2
+          },
+          {
+            "label": "strong",
+            "count": 2
+          },
+          {
+            "label": "wall",
+            "count": 2
+          }
+        ],
+        "headline": "ICICI Bank (IBN) Expected to Post Earnings on Saturday",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-09-23",
+        "symbol": "ANET",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2056,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "arista",
+            "count": 2
+          },
+          {
+            "label": "networks",
+            "count": 2
+          },
+          {
+            "label": "why",
+            "count": 1
+          },
+          {
+            "label": "back",
+            "count": 1
+          },
+          {
+            "label": "spotlight",
+            "count": 1
+          },
+          {
+            "label": "seeing",
+            "count": 1
+          },
+          {
+            "label": "renewed",
+            "count": 1
+          },
+          {
+            "label": "optimism",
+            "count": 1
+          },
+          {
+            "label": "driven",
+            "count": 1
+          },
+          {
+            "label": "higher",
+            "count": 1
+          },
+          {
+            "label": "earnings",
+            "count": 1
+          },
+          {
+            "label": "revenue",
+            "count": 1
+          }
+        ],
+        "headline": "Why Arista Networks (ANET) Is Back In The Spotlight",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "fading_themes": [
+        "Economy Macro"
+      ],
+      "emerging_keywords": [
+        "earnings",
+        "sell",
+        "icici"
+      ],
+      "fading_keywords": [
+        "arista",
+        "networks",
+        "why"
+      ],
+      "takeaway": "ANET's narrative is turning bearish: sentiment moved -0.13, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-10",
     "date": "2026-10-10",
     "runDate": "2026-10-10",
