@@ -1,5 +1,210 @@
 [
   {
+    "id": "market-narrative-shift-ste-2026-10-11",
+    "date": "2026-10-11",
+    "runDate": "2026-10-11",
+    "createdAt": "2026-10-11T08:08:28.633745+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $STE",
+    "status": "ready",
+    "tweet": "What changed in $STE's market narrative? 🔄\n\n🧭 Signal: Bullish momentum cooling\n💬 Sentiment shift: -0.29\n📌 Top theme: Earnings\n🔎 Emerging term: buy\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_STE_2026-10-11.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-11T08:08:26.878301+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$STE",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Bullish momentum cooling",
+    "topSymbol": "STE",
+    "topChangePct": -29.4,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-11T08:08:26.878301+00:00",
+      "date": "2026-10-11",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "STE",
+      "shift_label": "Bullish momentum cooling",
+      "sentiment_delta": -0.294,
+      "baseline_label": "2026-10-03",
+      "current": {
+        "date": "2026-10-11",
+        "symbol": "STE",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2227,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "buy",
+            "count": 4
+          },
+          {
+            "label": "steris",
+            "count": 2
+          },
+          {
+            "label": "wall",
+            "count": 2
+          },
+          {
+            "label": "street",
+            "count": 2
+          },
+          {
+            "label": "zen",
+            "count": 2
+          },
+          {
+            "label": "rating",
+            "count": 1
+          },
+          {
+            "label": "cut",
+            "count": 1
+          },
+          {
+            "label": "downgraded",
+            "count": 1
+          },
+          {
+            "label": "strong",
+            "count": 1
+          },
+          {
+            "label": "while",
+            "count": 1
+          },
+          {
+            "label": "broader",
+            "count": 1
+          },
+          {
+            "label": "consensus",
+            "count": 1
+          }
+        ],
+        "headline": "STERIS (NYSE:STE) Stock Rating Cut to Buy at Wall Street Zen",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-10-03",
+        "symbol": "STE",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.5167,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "steris",
+            "count": 2
+          },
+          {
+            "label": "strong-buy",
+            "count": 2
+          },
+          {
+            "label": "wall",
+            "count": 2
+          },
+          {
+            "label": "street",
+            "count": 2
+          },
+          {
+            "label": "zen",
+            "count": 2
+          },
+          {
+            "label": "buy",
+            "count": 2
+          },
+          {
+            "label": "raised",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "upgraded",
+            "count": 1
+          },
+          {
+            "label": "rating",
+            "count": 1
+          },
+          {
+            "label": "upgrade",
+            "count": 1
+          },
+          {
+            "label": "aligns",
+            "count": 1
+          }
+        ],
+        "headline": "STERIS (NYSE:STE) Raised to Strong-Buy at Wall Street Zen",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "buy",
+        "cut",
+        "downgraded"
+      ],
+      "fading_keywords": [
+        "strong-buy",
+        "raised",
+        "has"
+      ],
+      "takeaway": "STE's narrative is bullish momentum cooling: sentiment moved -0.29, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-11",
     "date": "2026-10-11",
     "runDate": "2026-10-11",
