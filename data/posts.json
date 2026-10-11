@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-blk-2026-10-11",
+    "date": "2026-10-11",
+    "runDate": "2026-10-11",
+    "createdAt": "2026-10-11T09:12:36.335081+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$BLK news vs price reaction:\n📰 News tone: Somewhat Bullish\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-11.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-11T09:12:35.068988+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BLK",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "BLK",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-11T09:12:35.068988+00:00",
+      "date": "2026-10-11",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "BLK",
+      "news_tone": "Somewhat Bullish",
+      "top_theme": "Earnings",
+      "headline": "Wall Street Zen Upgrades Five Below (NASDAQ:FIVE) to Buy",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for BLK: {'status_code': 200, 'data': {'c': 1082.39, 'd': 17.04, 'dp': 1.5995, 'h': 1086.6867, 'l': 1065.3094, 'o': 1068.35, 'pc': 1065.35, 't': 1791576000}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "BLK",
+            "mentions": 2
+          },
+          {
+            "ticker": "AAPL",
+            "mentions": 2
+          },
+          {
+            "ticker": "MSFT",
+            "mentions": 2
+          },
+          {
+            "ticker": "NKE",
+            "mentions": 2
+          },
+          {
+            "ticker": "ABNB",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Somewhat-Bullish",
+            "count": 19
+          },
+          {
+            "label": "Neutral",
+            "count": 15
+          },
+          {
+            "label": "Bullish",
+            "count": 7
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-ste-2026-10-11",
     "date": "2026-10-11",
     "runDate": "2026-10-11",
