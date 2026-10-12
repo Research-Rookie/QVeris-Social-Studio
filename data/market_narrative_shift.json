@@ -1,143 +1,61 @@
 {
-  "updated_at": "2026-10-11T08:08:26.878301+00:00",
-  "date": "2026-10-11",
+  "updated_at": "2026-10-12T08:25:33.460943+00:00",
+  "date": "2026-10-12",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "STE",
+  "symbol": "URI",
   "shift_label": "Bullish momentum cooling",
-  "sentiment_delta": -0.294,
-  "baseline_label": "2026-10-03",
+  "sentiment_delta": -0.3005,
+  "baseline_label": "2026-07-24",
   "current": {
-    "date": "2026-10-11",
-    "symbol": "STE",
+    "date": "2026-10-12",
+    "symbol": "URI",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.2227,
-    "top_theme": "Earnings",
+    "sentiment_score": 0.521,
+    "top_theme": "Financial Markets",
     "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
       {
         "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "Life Sciences",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "buy",
-        "count": 4
-      },
-      {
-        "label": "steris",
-        "count": 2
-      },
-      {
-        "label": "wall",
-        "count": 2
-      },
-      {
-        "label": "street",
-        "count": 2
-      },
-      {
-        "label": "zen",
-        "count": 2
-      },
-      {
-        "label": "rating",
-        "count": 1
-      },
-      {
-        "label": "cut",
-        "count": 1
-      },
-      {
-        "label": "downgraded",
-        "count": 1
-      },
-      {
-        "label": "strong",
-        "count": 1
-      },
-      {
-        "label": "while",
-        "count": 1
-      },
-      {
-        "label": "broader",
-        "count": 1
-      },
-      {
-        "label": "consensus",
-        "count": 1
-      }
-    ],
-    "headline": "STERIS (NYSE:STE) Stock Rating Cut to Buy at Wall Street Zen",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-10-03",
-    "symbol": "STE",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.5167,
-    "top_theme": "Earnings",
-    "themes": [
-      {
         "label": "Earnings",
         "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Life Sciences",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "steris",
+        "label": "global",
         "count": 2
       },
       {
-        "label": "strong-buy",
+        "label": "united",
         "count": 2
       },
       {
-        "label": "wall",
+        "label": "rentals",
         "count": 2
       },
       {
-        "label": "street",
+        "label": "bbb",
         "count": 2
       },
       {
-        "label": "zen",
+        "label": "eur",
         "count": 2
       },
       {
-        "label": "buy",
-        "count": 2
+        "label": "upgrades",
+        "count": 1
       },
       {
-        "label": "raised",
+        "label": "pre-market",
+        "count": 1
+      },
+      {
+        "label": "ratings",
         "count": 1
       },
       {
@@ -149,37 +67,104 @@
         "count": 1
       },
       {
-        "label": "rating",
+        "label": "issuer",
         "count": 1
       },
       {
-        "label": "upgrade",
-        "count": 1
-      },
-      {
-        "label": "aligns",
+        "label": "credit",
         "count": 1
       }
     ],
-    "headline": "STERIS (NYSE:STE) Raised to Strong-Buy at Wall Street Zen",
-    "headline_source": "MarketBeat"
+    "headline": "S&P Global upgrades United Rentals to BBB-: stock pre-market at EUR 944.60",
+    "headline_source": "ad-hoc-news.de"
+  },
+  "previous": {
+    "date": "2026-07-24",
+    "symbol": "URI",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.8215,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Real Estate",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "united",
+        "count": 2
+      },
+      {
+        "label": "rentals",
+        "count": 2
+      },
+      {
+        "label": "record",
+        "count": 2
+      },
+      {
+        "label": "results",
+        "count": 2
+      },
+      {
+        "label": "revenue",
+        "count": 2
+      },
+      {
+        "label": "posts",
+        "count": 1
+      },
+      {
+        "label": "raises",
+        "count": 1
+      },
+      {
+        "label": "guidance",
+        "count": 1
+      },
+      {
+        "label": "reported",
+        "count": 1
+      },
+      {
+        "label": "second-quarter",
+        "count": 1
+      },
+      {
+        "label": "total",
+        "count": 1
+      },
+      {
+        "label": "reaching",
+        "count": 1
+      }
+    ],
+    "headline": "United Rentals Posts Record Q2 Results, Raises Guidance",
+    "headline_source": "The Globe and Mail"
   },
   "emerging_themes": [
-    "Earnings",
     "Financial Markets",
-    "Life Sciences"
+    "Earnings"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Real Estate"
+  ],
   "emerging_keywords": [
-    "buy",
-    "cut",
-    "downgraded"
+    "global",
+    "bbb",
+    "eur"
   ],
   "fading_keywords": [
-    "strong-buy",
-    "raised",
-    "has"
+    "record",
+    "results",
+    "revenue"
   ],
-  "takeaway": "STE's narrative is bullish momentum cooling: sentiment moved -0.29, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "URI's narrative is bullish momentum cooling: sentiment moved -0.30, while the leading theme shifted from Earnings to Financial Markets.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

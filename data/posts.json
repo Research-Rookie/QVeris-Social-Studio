@@ -1,5 +1,195 @@
 [
   {
+    "id": "market-narrative-shift-uri-2026-10-12",
+    "date": "2026-10-12",
+    "runDate": "2026-10-12",
+    "createdAt": "2026-10-12T08:25:35.117541+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $URI",
+    "status": "ready",
+    "tweet": "What changed in $URI's market narrative? 🔄\n\n🧭 Signal: Bullish momentum cooling\n💬 Sentiment shift: -0.30\n📌 Top theme: Financial Markets\n🔎 Emerging term: global\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_URI_2026-10-12.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-12T08:25:33.460943+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$URI",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Bullish momentum cooling",
+    "topSymbol": "URI",
+    "topChangePct": -30.049999999999997,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-12T08:25:33.460943+00:00",
+      "date": "2026-10-12",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "URI",
+      "shift_label": "Bullish momentum cooling",
+      "sentiment_delta": -0.3005,
+      "baseline_label": "2026-07-24",
+      "current": {
+        "date": "2026-10-12",
+        "symbol": "URI",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.521,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "global",
+            "count": 2
+          },
+          {
+            "label": "united",
+            "count": 2
+          },
+          {
+            "label": "rentals",
+            "count": 2
+          },
+          {
+            "label": "bbb",
+            "count": 2
+          },
+          {
+            "label": "eur",
+            "count": 2
+          },
+          {
+            "label": "upgrades",
+            "count": 1
+          },
+          {
+            "label": "pre-market",
+            "count": 1
+          },
+          {
+            "label": "ratings",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "upgraded",
+            "count": 1
+          },
+          {
+            "label": "issuer",
+            "count": 1
+          },
+          {
+            "label": "credit",
+            "count": 1
+          }
+        ],
+        "headline": "S&P Global upgrades United Rentals to BBB-: stock pre-market at EUR 944.60",
+        "headline_source": "ad-hoc-news.de"
+      },
+      "previous": {
+        "date": "2026-07-24",
+        "symbol": "URI",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.8215,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Real Estate",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "united",
+            "count": 2
+          },
+          {
+            "label": "rentals",
+            "count": 2
+          },
+          {
+            "label": "record",
+            "count": 2
+          },
+          {
+            "label": "results",
+            "count": 2
+          },
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "posts",
+            "count": 1
+          },
+          {
+            "label": "raises",
+            "count": 1
+          },
+          {
+            "label": "guidance",
+            "count": 1
+          },
+          {
+            "label": "reported",
+            "count": 1
+          },
+          {
+            "label": "second-quarter",
+            "count": 1
+          },
+          {
+            "label": "total",
+            "count": 1
+          },
+          {
+            "label": "reaching",
+            "count": 1
+          }
+        ],
+        "headline": "United Rentals Posts Record Q2 Results, Raises Guidance",
+        "headline_source": "The Globe and Mail"
+      },
+      "emerging_themes": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "fading_themes": [
+        "Real Estate"
+      ],
+      "emerging_keywords": [
+        "global",
+        "bbb",
+        "eur"
+      ],
+      "fading_keywords": [
+        "record",
+        "results",
+        "revenue"
+      ],
+      "takeaway": "URI's narrative is bullish momentum cooling: sentiment moved -0.30, while the leading theme shifted from Earnings to Financial Markets.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-12",
     "date": "2026-10-12",
     "runDate": "2026-10-12",
