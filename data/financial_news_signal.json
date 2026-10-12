@@ -1,46 +1,84 @@
 {
-  "updated_at": "2026-10-12T08:25:33.277415+00:00",
+  "updated_at": "2026-10-12T09:37:57.799922+00:00",
   "date": "2026-10-12",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Zions Bancorporation, N.A. (ZION) Expected to Release Earnings on Monday",
-      "summary": "Zions Bancorporation, N.A. (ZION) is scheduled to release its Q3 2026 earnings on Monday, October 19th, with analysts forecasting earnings of $1.64 per share and revenue of $889...",
-      "url": "https://www.marketbeat.com/instant-alerts/upcoming-zions-bancorporation-na-zion-expected-to-release-earnings-on-monday-2026-10-12/",
-      "source": "MarketBeat",
-      "published_at": "20261012T054237",
-      "sentiment_score": 0.25022,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Goldman Strategists Upgrade Global Stocks on Earnings Boost",
+      "summary": "Goldman Sachs strategists have upgraded their short-term outlook on global stocks to overweight, citing strong earnings as a key driver. Despite markets trading near all-time hi...",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost",
+      "source": "Bloomberg.com",
+      "published_at": "20261012T083950",
+      "sentiment_score": 0.377097,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "ZION"
+        "GS",
+        "BAC"
       ],
       "topics": [
         "Earnings",
-        "Finance",
         "Financial Markets"
       ],
-      "quality_score": 18,
+      "quality_score": 19,
       "is_noise": false
     },
     {
-      "title": "S&P Global upgrades United Rentals to BBB-: stock pre-market at EUR 944.60",
-      "summary": "S&P Global Ratings has upgraded United Rentals' issuer credit rating to investment-grade BBB- from BB+, with a stable outlook. The company's stock was trading at EUR 944.60 in p...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/s-and-p-global-upgrades-united-rentals-to-bbb-stock-pre-market-at-eur/70297425",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T064149",
-      "sentiment_score": 0.520984,
-      "sentiment_label": "Bullish",
+      "title": "ASE Technology Holding Co., Ltd. Announces Monthly Net Revenues*",
+      "summary": "ASE Technology Holding Co., Ltd. has announced its monthly net revenues. This news item was published by PR Newswire and is classified under Earnings and Taiwanese stocks. The a...",
+      "url": "https://www.tradingview.com/news/prnewswire:59714d873b9cf:0-ase-technology-holding-co-ltd-announces-monthly-net-revenues/",
+      "source": "TradingView",
+      "published_at": "20261012T071030",
+      "sentiment_score": 0.048976,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "URI",
-        "SPGI"
+        "ASX"
       ],
       "topics": [
-        "Financial Markets",
-        "Earnings"
+        "Earnings",
+        "Financial Markets"
       ],
-      "quality_score": 14,
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "ONEOK completes Medallion deal: Stifel cuts target for ONEOK stock",
+      "summary": "ONEOK Inc. has completed its $2.60 billion acquisition of Medallion Midstream, adding over 1,200 miles of crude oil pipelines and significant transport/storage capacity. Followi...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/oneok-completes-medallion-deal-stifel-cuts-target-for-oneok-stock/70299543",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T090521",
+      "sentiment_score": -0.134298,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "OKE"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "Wells Fargo (WFC) Q3 Earnings: What To Expect",
+      "summary": "Wells Fargo (WFC) is set to report its Q3 earnings this Tuesday before market open. The market anticipates a 3.8% year-on-year revenue growth, a slowdown from the previous year,...",
+      "url": "https://stockstory.org/us/stocks/nyse/wfc/news/earnings/wells-fargo-wfc-q3-earnings-what-to-expect",
+      "source": "StockStory",
+      "published_at": "20261012T080920",
+      "sentiment_score": 0.032756,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "WFC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 15,
       "is_noise": false
     },
     {
@@ -49,7 +87,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-stock-congress-asset-management-co-raises-position-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T071939",
-      "sentiment_score": 0.445579,
+      "sentiment_score": 0.436281,
       "sentiment_label": "Bullish",
       "tickers": [
         "AMZN"
@@ -64,104 +102,139 @@
       "is_noise": false
     },
     {
-      "title": "Why Did Simon Property Group (NYSE:SPG) Climb After Raising Guidance?",
-      "summary": "Simon Property Group (NYSE:SPG) saw its stock firm up after increasing its full-year guidance and dividend. This positive market reaction stems from resilient foot traffic at it...",
-      "url": "https://kalkinemedia.com/us/stocks/infrastructure-and-real-estate/why-did-simon-property-group-nysespg-climb-after-raising-guidance",
-      "source": "Kalkine Media",
-      "published_at": "20261012T064059",
-      "sentiment_score": 0.265382,
+      "title": "CMG Stock Ticks Higher Overnight: Chipotle’s Digital Strategy Could Support Growth Despite Margin Squeeze, Says Ana...",
+      "summary": "Morningstar analyst Ari Felhandler believes Chipotle Mexican Grill (CMG) can gain market share through menu innovation, improved service, and digital strategies, despite near-te...",
+      "url": "https://www.tradingview.com/news/stocktwits:2ed51c4a7094b:0-cmg-stock-ticks-higher-overnight-chipotle-s-digital-strategy-could-support-growth-despite-margin-squeeze-says-analyst/",
+      "source": "TradingView",
+      "published_at": "20261012T071713",
+      "sentiment_score": 0.224699,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "SPG",
-        "C",
-        "FCX",
-        "NUE"
+        "CMG",
+        "SBUX"
       ],
       "topics": [
         "Earnings",
-        "Real Estate",
         "Retail Wholesale",
         "Financial Markets",
-        "Economy Macro"
+        "Mergers And Acquisitions"
       ],
       "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "DOWLING & PARTN Issues Pessimistic Estimate for WTM Earnings",
-      "summary": "DOWLING & PARTN has lowered its FY2026 earnings estimate for White Mountains Insurance Group (NYSE:WTM) to $106.20 per share, down from $134.00, aligning with the current consen...",
-      "url": "https://www.marketbeat.com/instant-alerts/estimates-dowling-partn-issues-pessimistic-estimate-for-wtm-earnings-2026-10-12/",
-      "source": "MarketBeat",
-      "published_at": "20261012T054321",
-      "sentiment_score": -0.397589,
-      "sentiment_label": "Bearish",
+      "title": "Stifel raises target for ServiceNow stock to USD 160.00",
+      "summary": "Stifel has raised its price target for ServiceNow (NOW) stock to $160.00 from $120.00, maintaining a Buy rating, following the company's strong second-quarter revenue of $3.99 b...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/stifel-raises-target-for-servicenow-stock-to-usd-160-00/70299493",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T090141",
+      "sentiment_score": 0.521038,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "WTM"
+        "NOW"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "PACCAR stock pre-market at EUR 96.63",
+      "summary": "PACCAR stock is trading pre-market at EUR 96.63 at Lang & Schwarz. The next earnings release for PACCAR is scheduled for October 27, 2026, with Zacks reporting a consensus estim...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/paccar-stock-pre-market-at-eur-96-63/70296922",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T081700",
+      "sentiment_score": 0.269265,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "PCAR"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing",
+        "Energy Transportation"
+      ],
+      "quality_score": 11,
+      "is_noise": false
+    },
+    {
+      "title": "Air Products stock pre-market at EUR 251.15",
+      "summary": "Air Products stock was trading at EUR 251.15 pre-market on October 12, 2026, at Lang & Schwarz. The bid price was EUR 249.40 and the ask price was EUR 252.90, ahead of the 9:00...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/air-products-stock-pre-market-at-eur-251-15/70296659",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T080500",
+      "sentiment_score": 0.003621,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "APD"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 11,
+      "is_noise": false
+    },
+    {
+      "title": "Is Procter & Gamble (PG) Fairly Valued As Evercore Sees E Commerce Momentum?",
+      "summary": "Evercore ISI has upgraded Procter & Gamble (PG) due to improving U.S. e-commerce share and reassessed cost pressures, leading to a recent share price increase. Despite this, Sim...",
+      "url": "https://simplywall.st/stocks/us/household/nyse-pg/procter-gamble/news/is-procter-gamble-pg-fairly-valued-as-evercore-sees-e-commer",
+      "source": "Simply Wall Street",
+      "published_at": "20261012T085117",
+      "sentiment_score": 0.187292,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "PG",
+        "AMZN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Is Microchip Technology (MCHP) Cheap Following Its New Touch Controller Launch?",
+      "summary": "Microchip Technology has released new touch controllers, but its stock performance has been mixed, with recent short-term declines despite longer-term gains. Analysts are divide...",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mchp/microchip-technology/news/is-microchip-technology-mchp-cheap-following-its-new-touch-c/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20261012T080733",
+      "sentiment_score": 0.237692,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "MCHP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "How Trump Account Defaults At State Street Stock Have Changed Its Investment Story",
+      "summary": "State Street is gaining attention due to millions of new \"Trump Accounts\" defaulting into one of its index ETFs, directly linking retail inflows to its asset management platform...",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-stt/state-street/news/how-trump-account-defaults-at-state-street-stock-have-change",
+      "source": "Simply Wall Street",
+      "published_at": "20261012T075255",
+      "sentiment_score": 0.107624,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "STT",
+        "BLK"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Finance"
       ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Washington Trust Bancorp (WASH) Projected to Post Earnings on Monday",
-      "summary": "Washington Trust Bancorp (WASH) is anticipated to release its Q3 2026 earnings after market close on Monday, October 19th, with analysts projecting $0.874 EPS and $62.62 million...",
-      "url": "https://www.marketbeat.com/instant-alerts/upcoming-washington-trust-bancorp-wash-projected-to-post-earnings-on-monday-2026-10-12/",
-      "source": "MarketBeat",
-      "published_at": "20261012T054301",
-      "sentiment_score": 0.284232,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "WASH"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
-      "title": "Danaher stock pre-market at EUR 195.75",
-      "summary": "Danaher stock was trading at EUR 195.75 in pre-market at Lang & Schwarz on October 12, 2026. The company is scheduled to announce its third-quarter 2026 earnings on October 21....",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/danaher-stock-pre-market-at-eur-195-75/70296730",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T060845",
-      "sentiment_score": 0.009082,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "DHR"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Fastenal stock pre-market at EUR 45.35 ahead of October 14 earnings call",
-      "summary": "Fastenal stock was trading pre-market at EUR 45.35 at Lang & Schwarz on October 12, 2026, at 7:41 a.m. CEST. The company has scheduled its third-quarter earnings call for Octobe...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/fastenal-stock-pre-market-at-eur-45-35-ahead-of-october-14-earnings-call/70296178",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T054337",
-      "sentiment_score": 0.038461,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "FAST"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Manufacturing"
-      ],
-      "quality_score": 11,
+      "quality_score": 10,
       "is_noise": false
     },
     {
@@ -170,7 +243,7 @@
       "url": "https://kalkinemedia.com/us/stocks/midcap/why-is-williams-sonoma-nysewsm-climbing-after-lifting-its-full-year-guidance",
       "source": "Kalkine Media",
       "published_at": "20261012T074047",
-      "sentiment_score": 0.425009,
+      "sentiment_score": 0.435753,
       "sentiment_label": "Bullish",
       "tickers": [
         "WSM"
@@ -185,12 +258,33 @@
       "is_noise": false
     },
     {
+      "title": "Can Firm Aluminum Prices Help Alcoa (NYSE:AA) Before Its Quarterly Update?",
+      "summary": "Alcoa (NYSE:AA) is under market scrutiny ahead of its quarterly earnings report, driven by firming aluminum prices and a strong broader metals market. The company, a vertically...",
+      "url": "https://kalkinemedia.com/us/stocks/metal-and-mining/can-firm-aluminum-prices-help-alcoa-nyseaa-before-its-quarterly-update",
+      "source": "Kalkine Media",
+      "published_at": "20261012T071234",
+      "sentiment_score": 0.300402,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "AA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing",
+        "Economy Macro",
+        "Energy Transportation"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
       "title": "The PNC Financial Services Group, Inc (NYSE:PNC) Stock Has Average Price Target of $270.11 According to Brokerages",
       "summary": "The PNC Financial Services Group (NYSE: PNC) has received an average \"Moderate Buy\" rating from twenty-one analysts, with a consensus 12-month price target of $270.11. The compa...",
       "url": "https://www.marketbeat.com/instant-alerts/consensus-the-pnc-financial-services-group-inc-nyse-pnc-stock-has-average-price-target-of-27011-according-to-brokerages-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T065025",
-      "sentiment_score": 0.438332,
+      "sentiment_score": 0.425395,
       "sentiment_label": "Bullish",
       "tickers": [
         "PNC"
@@ -204,99 +298,137 @@
       "is_noise": false
     },
     {
-      "title": "Nucor stock pre-market at EUR 223.45",
-      "summary": "Nucor stock traded at EUR 223.45 in pre-market at Lang & Schwarz on October 12, 2026. The company is scheduled to release its third-quarter 2026 earnings on October 26, 2026, af...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/nucor-stock-pre-market-at-eur-223-45/70297475",
+      "title": "Vertex Pharma reports ALYFTREK data. RBC raises target for Vertex Pharma stock to USD 576",
+      "summary": "RBC Capital has raised its price target for Vertex Pharma (VRTX) stock from USD 570 to USD 576, maintaining an Outperform rating. This increase follows Vertex Pharma's interim r...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/vertex-pharma-reports-alyftrek-data-rbc-raises-target-for-vertex-pharma/70299546",
       "source": "ad-hoc-news.de",
-      "published_at": "20261012T064344",
-      "sentiment_score": 0.039267,
-      "sentiment_label": "Neutral",
+      "published_at": "20261012T090524",
+      "sentiment_score": 0.491765,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "NUE"
+        "VRTX"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "TD Cowen raised target for Palo Alto Networks stock",
+      "summary": "TD Cowen has increased its price target for Palo Alto Networks (PANW) stock to USD 440, up from USD 400, maintaining a Buy rating. This upgrade follows strong fiscal fourth-quar...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/td-cowen-raised-target-for-palo-alto-networks-stock/70299509",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T090306",
+      "sentiment_score": 0.467671,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "PANW"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Manufacturing"
+        "Technology"
       ],
-      "quality_score": 10,
+      "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Can JPMorgan Chase (NYSE:JPM) Set the Tone as Bank Earnings Season Kicks Off?",
-      "summary": "JPMorgan Chase (NYSE:JPM) is under the market spotlight as it prepares to kick off the quarterly earnings season for major U.S. lenders. The bank's performance in lending, tradi...",
-      "url": "https://kalkinemedia.com/us/stocks/financial/can-jpmorgan-chase-nysejpm-set-the-tone-as-bank-earnings-season-kicks-off",
-      "source": "Kalkine Media",
-      "published_at": "20261012T063333",
-      "sentiment_score": 0.039537,
-      "sentiment_label": "Neutral",
+      "title": "McKesson extends CVS pact through 2032. CVS Health stock has results on November 4 2026",
+      "summary": "McKesson has agreed to extend its pharmaceutical distribution partnership with CVS Health through June 2032. CVS Health reported second-quarter 2026 revenue of $106.10 billion,...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/mckesson-extends-cvs-pact-through-2032-cvs-health-stock-has-results-on/70299505",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T090228",
+      "sentiment_score": 0.382685,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "JPM"
+        "MCK",
+        "CVS"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance",
-        "Economy Macro"
+        "Life Sciences",
+        "Retail Wholesale"
       ],
-      "quality_score": 10,
+      "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "3 Canadian Founder Led Stocks With Up To 144% Revenue Growth",
-      "summary": "This article highlights three founder-led Canadian stocks—Xanadu Quantum Technologies (TSX:XNDU), Southern Cross Gold Consolidated (TSX:SXGC), and Onex (TSX:ONEX)—that demonstra...",
-      "url": "https://simplywall.st/stocks/ca/software/tsx-xndu/xanadu-quantum-technologies-shares/news/3-canadian-founder-led-stocks-with-up-to-144-revenue-growth/amp",
-      "source": "Simply Wall Street",
-      "published_at": "20261012T061302",
-      "sentiment_score": 0.139134,
+      "title": "Sherwin-Williams stock pre-market at EUR 285.75",
+      "summary": "Sherwin-Williams stock traded at EUR 285.75 in pre-market trading at Lang & Schwarz on October 12, 2026. The company is scheduled to release its third-quarter results on October...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/sherwin-williams-stock-pre-market-at-eur-285-75/70297279",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T083400",
+      "sentiment_score": 0.025916,
       "sentiment_label": "Neutral",
       "tickers": [
-        "XNDU"
+        "SHW"
       ],
       "topics": [
-        "Financial Markets",
-        "Technology",
-        "Finance",
-        "Earnings"
+        "Earnings",
+        "Financial Markets"
       ],
-      "quality_score": 10,
+      "quality_score": 8,
       "is_noise": false
     },
     {
-      "title": "Vermilion Energy Inc. (TSE:VET) Stock Rated \"Moderate Buy\" by Sell-Side Analysts",
-      "summary": "Sell-side analysts have given Vermilion Energy Inc. (TSE:VET) a consensus rating of \"Moderate Buy,\" with an average 12-month price target of C$19.75. This rating is based on rep...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-vermilion-energy-inc-tse-vet-stock-rated-moderate-buy-by-sell-side-analysts-2026-10-12/",
-      "source": "MarketBeat",
-      "published_at": "20261012T064359",
-      "sentiment_score": 0.339724,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Norfolk Southern stock pre-market at EUR 284.20",
+      "summary": "Norfolk Southern stock is trading at EUR 284.20 in pre-market at Lang & Schwarz. The company is scheduled to release its third-quarter 2026 results on October 22, with an earnin...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/norfolk-southern-stock-pre-market-at-eur-284-20/70297092",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T082600",
+      "sentiment_score": 0.115743,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "VET"
+        "NSC"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Energy Transportation"
       ],
-      "quality_score": 9,
+      "quality_score": 8,
       "is_noise": false
     },
     {
-      "title": "Nasdaq stock pre-market at EUR 83.85",
-      "summary": "Nasdaq stock was trading pre-market at EUR 83.85 on October 12, 2026, at Lang & Schwarz. The company is set to announce its third-quarter 2026 results on October 22, 2026. The s...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/nasdaq-stock-pre-market-at-eur-83-85/70296392",
+      "title": "Cardinal Health stock pre-market at EUR 212.45",
+      "summary": "Cardinal Health stock was trading at EUR 212.45 pre-market on October 12, 2026, according to Lang & Schwarz, with the bid at EUR 211.70 and the ask at EUR 213.20. The company is...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/cardinal-health-stock-pre-market-at-eur-212-45/70296849",
       "source": "ad-hoc-news.de",
-      "published_at": "20261012T055240",
-      "sentiment_score": 0.02315,
+      "published_at": "20261012T081300",
+      "sentiment_score": 0.032667,
       "sentiment_label": "Neutral",
       "tickers": [
-        "NDAQ"
+        "CAH"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Life Sciences"
       ],
-      "quality_score": 9,
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
+      "title": "JPMorgan downgrades Enact Holdings stock rating on valuation By Investing.com",
+      "summary": "JPMorgan downgraded Enact Holdings Inc (NASDAQ:ACT) to Underweight from Neutral and lowered its price target due to concerns about its valuation. The stock is currently trading...",
+      "url": "https://ca.investing.com/news/stock-market-news/jpmorgan-downgrades-enact-holdings-stock-rating-on-valuation-93CH-4875311",
+      "source": "Investing.com Canada",
+      "published_at": "20261012T075412",
+      "sentiment_score": -0.443276,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "ACT"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 8,
       "is_noise": false
     },
     {
@@ -305,7 +437,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/union-pacific-stock-pre-market-at-eur-248-80-plus-0-24-percent-versus-the/70297564",
       "source": "ad-hoc-news.de",
       "published_at": "20261012T064802",
-      "sentiment_score": 0.128666,
+      "sentiment_score": 0.125369,
       "sentiment_label": "Neutral",
       "tickers": [
         "UNP"
@@ -319,348 +451,104 @@
       "is_noise": false
     },
     {
-      "title": "NextEra Energy stock pre-market at EUR 69.05",
-      "summary": "NextEra Energy's stock was trading at EUR 69.05 pre-market on October 12, 2026, at Lang & Schwarz. The company is scheduled to release its third-quarter 2026 financial results b...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/nextera-energy-stock-pre-market-at-eur-69-05/70297435",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T064210",
-      "sentiment_score": 0.067264,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "NEE"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Altria stock loses 0.16 percent pre-market to EUR 63.94",
-      "summary": "Altria stock experienced a slight dip of 0.16 percent in pre-market trading, settling at EUR 63.94 at Lang & Schwarz. This figure is EUR 0.10 below its Xetra close on October 9,...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/altria-stock-loses-0-16-percent-pre-market-to-eur-63-94/70297355",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T063846",
-      "sentiment_score": -0.207568,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "MO"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "EUR 55.36 at Lang & Schwarz: Unilever stock pre-market plus 0.22 percent versus the Xetra close",
-      "summary": "Unilever stock is trading at EUR 55.36 pre-market at Lang & Schwarz on October 12, 2026, marking a 0.22 percent increase compared to its Xetra close. The company's Q3 2026 tradi...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/eur-55-36-at-lang-and-schwarz-unilever-stock-pre-market-plus-0-22/70297123",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T062737",
-      "sentiment_score": 0.189814,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "UL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "CSX Corp. stock pre-market at EUR 42.34",
-      "summary": "CSX Corp. stock was trading at EUR 42.34 in pre-market at Lang & Schwarz on October 12, 2026, ahead of its third-quarter results release scheduled for October 21, 2026. The bid...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/csx-corp-stock-pre-market-at-eur-42-34/70296912",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T061710",
-      "sentiment_score": 0.015242,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CSX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Tenaris stock pre-market at EUR 51.50",
-      "summary": "Tenaris stock was trading at EUR 51.50 pre-market on October 12, 2026, according to Lang & Schwarz, with a bid of EUR 50.50 and an ask of EUR 52.50. The company is scheduled to...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/tenaris-stock-pre-market-at-eur-51-50/70296862",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T061351",
-      "sentiment_score": 0.048763,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Energy Transportation"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Ecolab stock pre-market at EUR 252.05",
-      "summary": "Ecolab stock traded at EUR 252.05 pre-market on October 12, 2026, at Lang & Schwarz. Investors are anticipating the company's third-quarter results webcast scheduled for October...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/ecolab-stock-pre-market-at-eur-252-05/70296833",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T061310",
-      "sentiment_score": 0.037499,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "ECL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Equinix stock pre-market at EUR 917.90",
-      "summary": "Equinix stock was trading at EUR 917.90 pre-market at Lang & Schwarz on October 12, 2026. MarketBeat reported a consensus price target of USD 1,206.55 and a 52-week range of USD...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/equinix-stock-pre-market-at-eur-917-90/70296679",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T060629",
-      "sentiment_score": 0.21081,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "EQIX"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Vertex Pharma stock pre-market at EUR 456.63",
-      "summary": "Vertex Pharma stock was trading at EUR 456.63 in pre-market at Lang & Schwarz on October 12, 2026, at 8:02 a.m. CEST, with a bid of EUR 454.95 and an ask of EUR 458.30. The comp...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/vertex-pharma-stock-pre-market-at-eur-456-63/70296652",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T060521",
-      "sentiment_score": 0.032441,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "VRTX"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Cintas stock pre-market at EUR 180.80",
-      "summary": "Cintas stock was trading at EUR 180.80 in pre-market at Lang & Schwarz on October 12, 2026. The company's virtual annual meeting is scheduled for October 27, 2026, at which dire...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/cintas-stock-pre-market-at-eur-180-80/70296479",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T055704",
-      "sentiment_score": 0.035772,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CTAS"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Howmet Aerospace stock pre-market at EUR 200.58",
-      "summary": "Howmet Aerospace stock was trading at EUR 200.58 pre-market on October 12, 2026, according to Lang & Schwarz. The bid and ask prices were EUR 199.25 and EUR 201.90, respectively...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/howmet-aerospace-stock-pre-market-at-eur-200-58/70296437",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T055516",
-      "sentiment_score": 0.085059,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "HWM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Energy Transportation"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Corning stock pre-market at EUR 140.09",
-      "summary": "Corning stock was trading at EUR 140.09 in pre-market at Lang & Schwarz as of 7:54 a.m. CEST on October 12, 2026. The company declared a quarterly dividend of USD 0.28 per share...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/corning-stock-pre-market-at-eur-140-09/70296452",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T055500",
-      "sentiment_score": 0.111345,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GLW"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "MetLife stock pre-market at EUR 88.01",
-      "summary": "MetLife stock was trading at EUR 88.01 in pre-market at Lang & Schwarz on October 12, 2026, with the company scheduled to release its third-quarter 2026 results on November 4, 2...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/metlife-stock-pre-market-at-eur-88-01/70296145",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T054234",
-      "sentiment_score": 0.011082,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MET"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Axon Enterprise, Inc (NASDAQ:AXON) Stock Has Consensus Price Target of $721.57",
-      "summary": "Axon Enterprise, Inc. (NASDAQ:AXON) has received a \"Moderate Buy\" consensus rating from 17 research firms, with an average 12-month price target of $721.57. Despite beating quar...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-axon-enterprise-inc-nasdaq-axon-stock-has-consensus-price-target-of-72157-2026-10-12/",
+      "title": "498,222 Apple Inc. $AAPL Shares Purchased by National Pension Service",
+      "summary": "National Pension Service increased its stake in Apple Inc. (NASDAQ:AAPL) by 1.6% in the second quarter, purchasing an additional 498,222 shares to bring its total holdings to 31...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-498222-apple-inc-aapl-shares-purchased-by-national-pension-service-2026-10-12/",
       "source": "MarketBeat",
-      "published_at": "20261012T064358",
-      "sentiment_score": 0.288347,
+      "published_at": "20261012T073959",
+      "sentiment_score": 0.268831,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "AXON"
+        "AAPL",
+        "BAC",
+        "AMZN",
+        "GOOG"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "What Should We Expect From Prologis (NYSE:PLD) Ahead of Quarterly Results?",
-      "summary": "Prologis (NYSE:PLD) is in the market spotlight ahead of its quarterly results, with expectations for steady warehouse demand and firm rent collections. The industrial landlord's...",
-      "url": "https://kalkinemedia.com/us/stocks/infrastructure-and-real-estate/what-should-we-expect-from-prologis-nysepld-ahead-of-quarterly-results",
-      "source": "Kalkine Media",
-      "published_at": "20261012T064007",
-      "sentiment_score": 0.300254,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "PLD"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Finance",
-        "Economy Macro",
         "Technology"
       ],
       "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "Why Is Ford Motor (NYSE:F) Sliding as It Idles Electric Pickup Output?",
-      "summary": "Ford Motor (NYSE:F) is experiencing a market slide after announcing it would idle production of its electric pickup due to sharply cooled demand for battery-powered vehicles. Th...",
-      "url": "https://kalkinemedia.com/us/stocks/automobile/why-is-ford-motor-nysef-sliding-as-it-idles-electric-pickup-output",
-      "source": "Kalkine Media",
-      "published_at": "20261012T062617",
-      "sentiment_score": 0.089243,
-      "sentiment_label": "Neutral",
+      "title": "Neville Rodie & Shaw Inc. Sells 10,685 Shares of Amazon.com, Inc. $AMZN",
+      "summary": "Neville Rodie & Shaw Inc. reduced its stake in Amazon.com, Inc. (NASDAQ:AMZN) by 8.9% in the third quarter, selling 10,685 shares but still holding 109,581 shares valued at $27....",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-neville-rodie-shaw-inc-sells-10685-shares-of-amazoncom-inc-amzn-2026-10-12/",
+      "source": "MarketBeat",
+      "published_at": "20261012T070917",
+      "sentiment_score": 0.248937,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "F",
-        "FCX",
-        "NUE",
-        "C"
+        "AMZN",
+        "SNPS"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Economy Fiscal",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Targa Resources Q2 2026 Earnings Call: Complete Transcript",
+      "summary": "Targa Resources reported a 38% year-over-year increase in adjusted EBITDA for Q2 2026, driven by record Permian Basin volumes, and now expects 2026 adjusted EBITDA to be at the...",
+      "url": "https://www.benzinga.com/news/26/10/62292121/targa-resources-q2-2026-earnings-call-complete-transcript",
+      "source": "Benzinga",
+      "published_at": "20261012T085541",
+      "sentiment_score": 0.430154,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "TRGP"
+      ],
+      "topics": [
+        "Earnings",
         "Energy Transportation",
-        "Manufacturing"
+        "Financial Markets"
       ],
-      "quality_score": 7,
+      "quality_score": 6,
       "is_noise": false
     },
     {
-      "title": "AbbVie presents 22 IBD abstracts; stock pre-market at EUR 247.15, plus 0.59 percent",
-      "summary": "AbbVie announced it will present 22 abstracts related to inflammatory bowel disease (IBD) at the American College of Gastroenterology's 2026 Annual Scientific Meeting. The compa...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/abbvie-presents-22-ibd-abstracts-stock-pre-market-at-eur-247-15-plus/70296795",
+      "title": "AstraZeneca completes Summit investment and AstraZeneca stock trades at EUR 142.63",
+      "summary": "AstraZeneca has completed a $2.0 billion equity investment in Summit Therapeutics, aimed at accelerating the development of ivonescimab in combination with AstraZeneca's cancer...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/astrazeneca-completes-summit-investment-and-astrazeneca-stock-trades-at/70299349",
       "source": "ad-hoc-news.de",
-      "published_at": "20261012T061110",
-      "sentiment_score": 0.318694,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ABBV"
-      ],
-      "topics": [
-        "Life Sciences",
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Newmont stock pre-market at EUR 105.13",
-      "summary": "Newmont stock traded pre-market at EUR 105.13 on October 12, 2026, at Lang & Schwarz. The company is scheduled to release its third-quarter 2026 results after North American mar...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/newmont-stock-pre-market-at-eur-105-13/70296396",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T055341",
-      "sentiment_score": 0.023088,
+      "published_at": "20261012T085037",
+      "sentiment_score": 0.020008,
       "sentiment_label": "Neutral",
       "tickers": [
-        "NEM"
+        "AZN"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Life Sciences"
       ],
-      "quality_score": 7,
+      "quality_score": 6,
       "is_noise": false
     },
     {
-      "title": "Fortinet stock pre-market at EUR 175.41: plus 1.82 percent versus the Xetra close of October 9, 2026",
-      "summary": "Fortinet stock traded at EUR 175.41 in pre-market at Lang & Schwarz on October 12, 2026, marking a 1.82 percent increase from its Xetra close of EUR 172.28 on October 9, 2026. T...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/fortinet-stock-pre-market-at-eur-175-41-plus-1-82-percent-versus-the/70296399",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T055300",
-      "sentiment_score": 0.27417,
+      "title": "Better High-Yield Dividend Stock: W. P. Carey vs. Healthpeak",
+      "summary": "This article compares W. P. Carey (WPC) and Healthpeak Properties (DOC) as high-yield dividend stocks. While Healthpeak currently offers a higher yield, W. P. Carey is identifie...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/better-high-yield-dividend-stock-073000859.html",
+      "source": "Yahoo Finance",
+      "published_at": "20261012T073131",
+      "sentiment_score": 0.297276,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "FTNT"
+        "WPC",
+        "DOC"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Real Estate",
+        "Finance"
       ],
-      "quality_score": 7,
+      "quality_score": 6,
       "is_noise": false
     },
     {
@@ -669,7 +557,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-stock-position-lowered-by-the-manufacturers-life-insurance-company-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T072811",
-      "sentiment_score": 0.053261,
+      "sentiment_score": 0.084576,
       "sentiment_label": "Neutral",
       "tickers": [
         "AAPL"
@@ -689,7 +577,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-stake-lifted-by-palogic-value-management-lp-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T072811",
-      "sentiment_score": 0.064618,
+      "sentiment_score": 0.055757,
       "sentiment_label": "Neutral",
       "tickers": [
         "AAPL",
@@ -709,7 +597,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/filing-farther-finance-advisors-llc-acquires-13741-shares-of-metlife-inc-met-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T071948",
-      "sentiment_score": 0.405471,
+      "sentiment_score": 0.410102,
       "sentiment_label": "Bullish",
       "tickers": [
         "MET"
@@ -728,7 +616,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-acquires-4165875-shares-of-nvidia-corporation-nvda-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T071941",
-      "sentiment_score": 0.296376,
+      "sentiment_score": 0.289836,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "BAC",
@@ -750,7 +638,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-stock-eleva-capital-sas-boosts-position-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T071939",
-      "sentiment_score": 0.332866,
+      "sentiment_score": 0.340842,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "AMZN",
@@ -770,12 +658,51 @@
       "is_noise": false
     },
     {
+      "title": "Moody National Bank Trust Division Buys 3,889 Shares of Amazon.com, Inc. $AMZN",
+      "summary": "Moody National Bank Trust Division increased its stake in Amazon.com by 5.2%, purchasing an additional 3,889 shares to bring its total holding to 79,178 shares valued at approxi...",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-moody-national-bank-trust-division-buys-3889-shares-of-amazoncom-inc-amzn-2026-10-12/",
+      "source": "MarketBeat",
+      "published_at": "20261012T071717",
+      "sentiment_score": 0.406988,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "AMZN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "September revenue rose 45.5% from a year earlier at ASE Technology.",
+      "summary": "ASE Technology Holding (NYSE: ASX) reported a significant increase in its unaudited September 2026 consolidated net revenues, reaching NT$88,130 million, which is a 45.5% rise f...",
+      "url": "https://www.stocktitan.net/news/ASX/ase-technology-holding-co-ltd-announces-monthly-net-5xrkl6j3n3dd.html",
+      "source": "Stock Titan",
+      "published_at": "20261012T071030",
+      "sentiment_score": 0.444142,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "ASX"
+      ],
+      "topics": [
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "Intel (INTC) CEO says quantum computing will become mainstream within three to five years",
       "summary": "Intel's CEO predicts quantum computing will become mainstream within three to five years, an optimistic timeline compared to typical researcher projections. This statement is se...",
       "url": "https://www.newsquawk.com/headlines/intel-intc-ceo-says-quantum-computing-will-become-mainstream-within-three-to-five-years",
       "source": "Newsquawk",
       "published_at": "20261012T070900",
-      "sentiment_score": 0.274174,
+      "sentiment_score": 0.284687,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "INTC"
@@ -788,42 +715,65 @@
       "is_noise": false
     },
     {
-      "title": "Urothelial Cancer Drugs Market to Expand at 19% CAGR, Exceeding $16 Billion by 2030, Pfizer Holds 28% Share",
-      "summary": "The urothelial cancer drugs market is projected to grow significantly, reaching over $16 billion by 2030 with a compound annual growth rate (CAGR) of 19%. North America is expec...",
-      "url": "https://www.einnews.com/pr_news/948452611/urothelial-cancer-drugs-market-to-expand-at-19-cagr-exceeding-16-billion-by-2030-pfizer-holds-28-share",
-      "source": "EIN News",
-      "published_at": "20261012T062414",
-      "sentiment_score": 0.018542,
+      "title": "Should Strong September Sales Require Action From Costco (COST) Investors?",
+      "summary": "Costco Wholesale reported strong September 2026 net sales of US$30.02 billion, a 13.0% increase year-over-year, driven by increased traffic in both warehouse and online channels...",
+      "url": "https://simplywall.st/stocks/us/consumer-retailing/nasdaq-cost/costco-wholesale/news/should-strong-september-sales-require-action-from-costco-cos",
+      "source": "Simply Wall Street",
+      "published_at": "20261012T075223",
+      "sentiment_score": 0.145748,
       "sentiment_label": "Neutral",
       "tickers": [
-        "PFE"
+        "COST",
+        "WMT",
+        "TGT",
+        "NKE"
       ],
       "topics": [
-        "Life Sciences",
-        "Earnings"
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets",
+        "Economy Macro"
       ],
-      "quality_score": 6,
+      "quality_score": 5,
       "is_noise": false
     },
     {
-      "title": "Applied Materials opens a $5 billion lab every chipmaker will need",
-      "summary": "Applied Materials has unveiled its $5 billion EPIC Center in Sunnyvale, a collaborative R&D facility aimed at accelerating chipmaking innovation. Major industry players like Sam...",
-      "url": "https://startupfortune.com/applied-materials-opens-a-5-billion-lab-every-chipmaker-will-need/",
-      "source": "Startup Fortune",
-      "published_at": "20261012T061309",
-      "sentiment_score": 0.449447,
-      "sentiment_label": "Bullish",
+      "title": "Avnet (AVT) Could Be 7% Undervalued Following Margin Expansion Narrative",
+      "summary": "Avnet (AVT) has seen a significant stock increase, up 101% year-to-date, but its valuation is subject to mixed interpretations. While a popular narrative suggests it is 6.5% und...",
+      "url": "https://simplywall.st/stocks/us/tech/nasdaq-avt/avnet/news/avnet-avt-could-be-7-undervalued-following-margin-expansion/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20261012T080953",
+      "sentiment_score": 0.254618,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "AMAT",
-        "MU",
-        "INTC"
+        "AVT"
       ],
       "topics": [
-        "Technology",
-        "Manufacturing",
-        "Earnings"
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Technology"
       ],
-      "quality_score": 6,
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Is Microchip Technology (MCHP) Cheap Following Its New Touch Controller Launch?",
+      "summary": "Microchip Technology (MCHP) recently expanded its product line with new capacitive touch controllers, but its short-term stock performance has been choppy despite longer-term ga...",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mchp/microchip-technology/news/is-microchip-technology-mchp-cheap-following-its-new-touch-c",
+      "source": "Simply Wall Street",
+      "published_at": "20261012T075231",
+      "sentiment_score": 0.127567,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MCHP"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 4,
       "is_noise": false
     },
     {
@@ -832,7 +782,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/keybanc-initiates-idexx-laboratories-stock-rating-at-sector-weight-93CH-4875271",
       "source": "Investing.com Canada",
       "published_at": "20261012T072351",
-      "sentiment_score": 0.11552,
+      "sentiment_score": 0.139396,
       "sentiment_label": "Neutral",
       "tickers": [
         "IDXX"
@@ -847,22 +797,80 @@
       "is_noise": false
     },
     {
-      "title": "Tango Therapeutics R&D president Adam Crystal sells $660,796 in shares By Investing.com",
-      "summary": "Adam Crystal, President, R&D at Tango Therapeutics, sold 27,000 shares for $660,796 on October 1, 2026, under a pre-arranged trading plan, while simultaneously exercising stock...",
-      "url": "https://ca.investing.com/news/stock-market-news/tango-therapeutics-rd-president-adam-crystal-sells-660796-in-shares-93CH-4874950",
-      "source": "Investing.com Canada",
-      "published_at": "20261012T064218",
-      "sentiment_score": 0.010502,
+      "title": "Cash flow from operating activities of Banco Bradesco SA Subscription Receipts For Shs – BMFBOVESPA:BBDC9F",
+      "summary": "The article focuses on the cash flow from operating activities for Banco Bradesco SA Subscription Receipts For Shs, traded under the symbol BBDC9F on B3. It presents the financi...",
+      "url": "https://www.tradingview.com/symbols/BMFBOVESPA-BBDC9F/financials-cash-flow/cash-f-operating-activities/",
+      "source": "TradingView",
+      "published_at": "20261012T071340",
+      "sentiment_score": 0.015897,
       "sentiment_label": "Neutral",
       "tickers": [
-        "TNGX"
+        "BBDO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Alcon posts 256-patient data while Alcon stock sits 21.38 percent below its high",
+      "summary": "Alcon (CH0432492467) has released clinical data from a 256-patient study for its Systane PRO Preservative-Free eye drops, demonstrating non-inferiority for dry eye relief. The s...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/alcon-posts-256-patient-data-while-alcon-stock-sits-21-38-percent-below/70298794",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T080941",
+      "sentiment_score": 0.034114,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ALC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Aegon approves US move and sets 40-to-1 exchange for Aegon stock",
+      "summary": "Aegon shareholders approved the company's US redomiciliation and an Omnibus Incentive Plan on October 8, 2026. The company expects a 40-to-1 exchange of Common Shares B on Octob...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/aegon-approves-us-move-and-sets-40-to-1-exchange-for-aegon-stock/70298590",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T075554",
+      "sentiment_score": 0.002685,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AEG"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets",
+        "Mergers And Acquisitions"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Argenx halts UNITY study. Argenx stock trades 1.18 percent higher",
+      "summary": "Argenx has stopped its Phase 3 UNITY study for Sjogren's disease due to futility after an interim analysis, but its stock still rose by 1.18 percent. This setback is partially o...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/argenx-halts-unity-study-argenx-stock-trades-1-18-percent-higher/70298434",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T074347",
+      "sentiment_score": 0.107729,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "ARGX"
       ],
       "topics": [
         "Earnings",
         "Life Sciences",
         "Financial Markets"
       ],
-      "quality_score": 4,
+      "quality_score": 3,
       "is_noise": false
     },
     {
@@ -871,7 +879,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/medtronic-set-4-5939-ratio-as-medtronic-stock-costs-eur-78-99/70298016",
       "source": "ad-hoc-news.de",
       "published_at": "20261012T071457",
-      "sentiment_score": 0.290173,
+      "sentiment_score": 0.258829,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "MDT"
@@ -890,7 +898,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/filing-34315-apple-inc-aapl-shares-sold-by-svb-wealth-llc-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T072812",
-      "sentiment_score": -0.109395,
+      "sentiment_score": -0.086247,
       "sentiment_label": "Neutral",
       "tickers": [
         "AAPL",
@@ -911,7 +919,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-shares-sold-by-tompkins-financial-corp-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T072739",
-      "sentiment_score": 0.279214,
+      "sentiment_score": 0.252564,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "AMZN"
@@ -932,7 +940,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/filing-25951-allegion-plc-alle-shares-acquired-by-farther-finance-advisors-llc-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T071914",
-      "sentiment_score": 0.204825,
+      "sentiment_score": 0.218238,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "ALLE",
@@ -952,7 +960,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/filing-4227-apple-inc-aapl-shares-sold-by-capital-analysts-llc-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T071912",
-      "sentiment_score": 0.196137,
+      "sentiment_score": 0.187288,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "AAPL",
@@ -972,7 +980,7 @@
       "url": "https://in.investing.com/news/stock-market-news/form-4-taketwo-interactive-software-inc-for-12-october-93CH-5627616",
       "source": "Investing.com India",
       "published_at": "20261012T070830",
-      "sentiment_score": 0.024328,
+      "sentiment_score": 0.019049,
       "sentiment_label": "Neutral",
       "tickers": [
         "TTWO"
@@ -986,47 +994,85 @@
     }
   ],
   "article_count": 50,
-  "top_ticker": "NUE",
+  "top_ticker": "AMZN",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Zions Bancorporation, N.A. (ZION) Expected to Release Earnings on Monday",
+  "top_story": "Goldman Strategists Upgrade Global Stocks on Earnings Boost",
   "signal_articles": [
     {
-      "title": "Zions Bancorporation, N.A. (ZION) Expected to Release Earnings on Monday",
-      "summary": "Zions Bancorporation, N.A. (ZION) is scheduled to release its Q3 2026 earnings on Monday, October 19th, with analysts forecasting earnings of $1.64 per share and revenue of $889...",
-      "url": "https://www.marketbeat.com/instant-alerts/upcoming-zions-bancorporation-na-zion-expected-to-release-earnings-on-monday-2026-10-12/",
-      "source": "MarketBeat",
-      "published_at": "20261012T054237",
-      "sentiment_score": 0.25022,
-      "sentiment_label": "Somewhat-Bullish",
+      "title": "Goldman Strategists Upgrade Global Stocks on Earnings Boost",
+      "summary": "Goldman Sachs strategists have upgraded their short-term outlook on global stocks to overweight, citing strong earnings as a key driver. Despite markets trading near all-time hi...",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost",
+      "source": "Bloomberg.com",
+      "published_at": "20261012T083950",
+      "sentiment_score": 0.377097,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "ZION"
+        "GS",
+        "BAC"
       ],
       "topics": [
         "Earnings",
-        "Finance",
         "Financial Markets"
       ],
-      "quality_score": 18,
+      "quality_score": 19,
       "is_noise": false
     },
     {
-      "title": "S&P Global upgrades United Rentals to BBB-: stock pre-market at EUR 944.60",
-      "summary": "S&P Global Ratings has upgraded United Rentals' issuer credit rating to investment-grade BBB- from BB+, with a stable outlook. The company's stock was trading at EUR 944.60 in p...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/s-and-p-global-upgrades-united-rentals-to-bbb-stock-pre-market-at-eur/70297425",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261012T064149",
-      "sentiment_score": 0.520984,
-      "sentiment_label": "Bullish",
+      "title": "ASE Technology Holding Co., Ltd. Announces Monthly Net Revenues*",
+      "summary": "ASE Technology Holding Co., Ltd. has announced its monthly net revenues. This news item was published by PR Newswire and is classified under Earnings and Taiwanese stocks. The a...",
+      "url": "https://www.tradingview.com/news/prnewswire:59714d873b9cf:0-ase-technology-holding-co-ltd-announces-monthly-net-revenues/",
+      "source": "TradingView",
+      "published_at": "20261012T071030",
+      "sentiment_score": 0.048976,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "URI",
-        "SPGI"
+        "ASX"
       ],
       "topics": [
-        "Financial Markets",
-        "Earnings"
+        "Earnings",
+        "Financial Markets"
       ],
-      "quality_score": 14,
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "ONEOK completes Medallion deal: Stifel cuts target for ONEOK stock",
+      "summary": "ONEOK Inc. has completed its $2.60 billion acquisition of Medallion Midstream, adding over 1,200 miles of crude oil pipelines and significant transport/storage capacity. Followi...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/oneok-completes-medallion-deal-stifel-cuts-target-for-oneok-stock/70299543",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T090521",
+      "sentiment_score": -0.134298,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "OKE"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "Wells Fargo (WFC) Q3 Earnings: What To Expect",
+      "summary": "Wells Fargo (WFC) is set to report its Q3 earnings this Tuesday before market open. The market anticipates a 3.8% year-on-year revenue growth, a slowdown from the previous year,...",
+      "url": "https://stockstory.org/us/stocks/nyse/wfc/news/earnings/wells-fargo-wfc-q3-earnings-what-to-expect",
+      "source": "StockStory",
+      "published_at": "20261012T080920",
+      "sentiment_score": 0.032756,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "WFC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 15,
       "is_noise": false
     },
     {
@@ -1035,7 +1081,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-stock-congress-asset-management-co-raises-position-2026-10-12/",
       "source": "MarketBeat",
       "published_at": "20261012T071939",
-      "sentiment_score": 0.445579,
+      "sentiment_score": 0.436281,
       "sentiment_label": "Bullish",
       "tickers": [
         "AMZN"
@@ -1050,141 +1096,98 @@
       "is_noise": false
     },
     {
-      "title": "Why Did Simon Property Group (NYSE:SPG) Climb After Raising Guidance?",
-      "summary": "Simon Property Group (NYSE:SPG) saw its stock firm up after increasing its full-year guidance and dividend. This positive market reaction stems from resilient foot traffic at it...",
-      "url": "https://kalkinemedia.com/us/stocks/infrastructure-and-real-estate/why-did-simon-property-group-nysespg-climb-after-raising-guidance",
-      "source": "Kalkine Media",
-      "published_at": "20261012T064059",
-      "sentiment_score": 0.265382,
+      "title": "CMG Stock Ticks Higher Overnight: Chipotle’s Digital Strategy Could Support Growth Despite Margin Squeeze, Says Ana...",
+      "summary": "Morningstar analyst Ari Felhandler believes Chipotle Mexican Grill (CMG) can gain market share through menu innovation, improved service, and digital strategies, despite near-te...",
+      "url": "https://www.tradingview.com/news/stocktwits:2ed51c4a7094b:0-cmg-stock-ticks-higher-overnight-chipotle-s-digital-strategy-could-support-growth-despite-margin-squeeze-says-analyst/",
+      "source": "TradingView",
+      "published_at": "20261012T071713",
+      "sentiment_score": 0.224699,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "SPG",
-        "C",
-        "FCX",
-        "NUE"
+        "CMG",
+        "SBUX"
       ],
       "topics": [
         "Earnings",
-        "Real Estate",
         "Retail Wholesale",
         "Financial Markets",
-        "Economy Macro"
+        "Mergers And Acquisitions"
       ],
       "quality_score": 13,
       "is_noise": false
     },
     {
-      "title": "DOWLING & PARTN Issues Pessimistic Estimate for WTM Earnings",
-      "summary": "DOWLING & PARTN has lowered its FY2026 earnings estimate for White Mountains Insurance Group (NYSE:WTM) to $106.20 per share, down from $134.00, aligning with the current consen...",
-      "url": "https://www.marketbeat.com/instant-alerts/estimates-dowling-partn-issues-pessimistic-estimate-for-wtm-earnings-2026-10-12/",
-      "source": "MarketBeat",
-      "published_at": "20261012T054321",
-      "sentiment_score": -0.397589,
-      "sentiment_label": "Bearish",
+      "title": "Stifel raises target for ServiceNow stock to USD 160.00",
+      "summary": "Stifel has raised its price target for ServiceNow (NOW) stock to $160.00 from $120.00, maintaining a Buy rating, following the company's strong second-quarter revenue of $3.99 b...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/stifel-raises-target-for-servicenow-stock-to-usd-160-00/70299493",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261012T090141",
+      "sentiment_score": 0.521038,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "WTM"
+        "NOW"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Washington Trust Bancorp (WASH) Projected to Post Earnings on Monday",
-      "summary": "Washington Trust Bancorp (WASH) is anticipated to release its Q3 2026 earnings after market close on Monday, October 19th, with analysts projecting $0.874 EPS and $62.62 million...",
-      "url": "https://www.marketbeat.com/instant-alerts/upcoming-washington-trust-bancorp-wash-projected-to-post-earnings-on-monday-2026-10-12/",
-      "source": "MarketBeat",
-      "published_at": "20261012T054301",
-      "sentiment_score": 0.284232,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "WASH"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance",
-        "Financial Markets"
+        "Technology"
       ],
       "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "Danaher stock pre-market at EUR 195.75",
-      "summary": "Danaher stock was trading at EUR 195.75 in pre-market at Lang & Schwarz on October 12, 2026. The company is scheduled to announce its third-quarter 2026 earnings on October 21....",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/danaher-stock-pre-market-at-eur-195-75/70296730",
+      "title": "PACCAR stock pre-market at EUR 96.63",
+      "summary": "PACCAR stock is trading pre-market at EUR 96.63 at Lang & Schwarz. The next earnings release for PACCAR is scheduled for October 27, 2026, with Zacks reporting a consensus estim...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/paccar-stock-pre-market-at-eur-96-63/70296922",
       "source": "ad-hoc-news.de",
-      "published_at": "20261012T060845",
-      "sentiment_score": 0.009082,
-      "sentiment_label": "Neutral",
+      "published_at": "20261012T081700",
+      "sentiment_score": 0.269265,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "DHR"
+        "PCAR"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Life Sciences"
+        "Manufacturing",
+        "Energy Transportation"
       ],
       "quality_score": 11,
       "is_noise": false
     },
     {
-      "title": "Fastenal stock pre-market at EUR 45.35 ahead of October 14 earnings call",
-      "summary": "Fastenal stock was trading pre-market at EUR 45.35 at Lang & Schwarz on October 12, 2026, at 7:41 a.m. CEST. The company has scheduled its third-quarter earnings call for Octobe...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/fastenal-stock-pre-market-at-eur-45-35-ahead-of-october-14-earnings-call/70296178",
+      "title": "Air Products stock pre-market at EUR 251.15",
+      "summary": "Air Products stock was trading at EUR 251.15 pre-market on October 12, 2026, at Lang & Schwarz. The bid price was EUR 249.40 and the ask price was EUR 252.90, ahead of the 9:00...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/air-products-stock-pre-market-at-eur-251-15/70296659",
       "source": "ad-hoc-news.de",
-      "published_at": "20261012T054337",
-      "sentiment_score": 0.038461,
+      "published_at": "20261012T080500",
+      "sentiment_score": 0.003621,
       "sentiment_label": "Neutral",
       "tickers": [
-        "FAST"
+        "APD"
       ],
       "topics": [
-        "Earnings",
         "Financial Markets",
-        "Retail Wholesale",
-        "Manufacturing"
+        "Earnings"
       ],
       "quality_score": 11,
       "is_noise": false
     },
     {
-      "title": "Why Is Williams-Sonoma (NYSE:WSM) Climbing After Lifting Its Full-Year Guidance?",
-      "summary": "Williams-Sonoma (NYSE:WSM) shares climbed after the home-furnishings retailer raised its full-year guidance and dividend, driven by stronger-than-expected comparable demand acro...",
-      "url": "https://kalkinemedia.com/us/stocks/midcap/why-is-williams-sonoma-nysewsm-climbing-after-lifting-its-full-year-guidance",
-      "source": "Kalkine Media",
-      "published_at": "20261012T074047",
-      "sentiment_score": 0.425009,
-      "sentiment_label": "Bullish",
+      "title": "Is Procter & Gamble (PG) Fairly Valued As Evercore Sees E Commerce Momentum?",
+      "summary": "Evercore ISI has upgraded Procter & Gamble (PG) due to improving U.S. e-commerce share and reassessed cost pressures, leading to a recent share price increase. Despite this, Sim...",
+      "url": "https://simplywall.st/stocks/us/household/nyse-pg/procter-gamble/news/is-procter-gamble-pg-fairly-valued-as-evercore-sees-e-commer",
+      "source": "Simply Wall Street",
+      "published_at": "20261012T085117",
+      "sentiment_score": 0.187292,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "WSM"
+        "PG",
+        "AMZN"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Economy Macro"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "The PNC Financial Services Group, Inc (NYSE:PNC) Stock Has Average Price Target of $270.11 According to Brokerages",
-      "summary": "The PNC Financial Services Group (NYSE: PNC) has received an average \"Moderate Buy\" rating from twenty-one analysts, with a consensus 12-month price target of $270.11. The compa...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-the-pnc-financial-services-group-inc-nyse-pnc-stock-has-average-price-target-of-27011-according-to-brokerages-2026-10-12/",
-      "source": "MarketBeat",
-      "published_at": "20261012T065025",
-      "sentiment_score": 0.438332,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "PNC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
+        "Financial Markets"
       ],
       "quality_score": 10,
       "is_noise": false
@@ -1192,23 +1195,23 @@
   ],
   "top_tickers": [
     {
-      "ticker": "NUE",
+      "ticker": "AMZN",
+      "mentions": 6
+    },
+    {
+      "ticker": "BAC",
+      "mentions": 4
+    },
+    {
+      "ticker": "AAPL",
       "mentions": 3
     },
     {
-      "ticker": "AMZN",
+      "ticker": "ASX",
       "mentions": 2
     },
     {
-      "ticker": "C",
-      "mentions": 2
-    },
-    {
-      "ticker": "FCX",
-      "mentions": 2
-    },
-    {
-      "ticker": "MET",
+      "ticker": "MCHP",
       "mentions": 2
     }
   ],
@@ -1219,64 +1222,60 @@
     },
     {
       "topic": "Financial Markets",
-      "mentions": 41
-    },
-    {
-      "topic": "Finance",
-      "mentions": 13
+      "mentions": 43
     },
     {
       "topic": "Technology",
-      "mentions": 9
+      "mentions": 15
+    },
+    {
+      "topic": "Finance",
+      "mentions": 11
     },
     {
       "topic": "Life Sciences",
-      "mentions": 7
+      "mentions": 8
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 23
+      "count": 19
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Bullish",
-      "count": 6
+      "count": 12
     },
     {
       "label": "Bearish",
-      "count": 1
-    },
-    {
-      "label": "Somewhat-Bearish",
       "count": 1
     }
   ],
   "top_sources": [
     {
       "source": "ad-hoc-news.de",
-      "count": 22
+      "count": 16
     },
     {
       "source": "MarketBeat",
-      "count": 12
-    },
-    {
-      "source": "Kalkine Media",
-      "count": 5
-    },
-    {
-      "source": "Investing.com Canada",
-      "count": 2
+      "count": 10
     },
     {
       "source": "Simply Wall Street",
-      "count": 1
+      "count": 6
+    },
+    {
+      "source": "TradingView",
+      "count": 3
+    },
+    {
+      "source": "Kalkine Media",
+      "count": 2
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with NUE appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with AMZN appearing most often and the headline tone mostly neutral."
 }

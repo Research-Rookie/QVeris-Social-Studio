@@ -1,61 +1,61 @@
 {
-  "updated_at": "2026-10-11T09:12:35.068988+00:00",
-  "date": "2026-10-11",
+  "updated_at": "2026-10-12T09:38:00.865961+00:00",
+  "date": "2026-10-12",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "BLK",
-  "news_tone": "Somewhat Bullish",
+  "symbol": "AMZN",
+  "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Wall Street Zen Upgrades Five Below (NASDAQ:FIVE) to Buy",
-  "headline_source": "MarketBeat",
+  "headline": "Goldman Strategists Upgrade Global Stocks on Earnings Boost",
+  "headline_source": "Bloomberg.com",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for BLK: {'status_code': 200, 'data': {'c': 1082.39, 'd': 17.04, 'dp': 1.5995, 'h': 1086.6867, 'l': 1065.3094, 'o': 1068.35, 'pc': 1065.35, 't': 1791576000}}",
+  "price_error": "Could not parse quote data for AMZN: {'status_code': 200, 'data': {'c': 262.43, 'd': 8.37, 'dp': 3.2945, 'h': 262.8, 'l': 256, 'o': 256.5, 'pc': 254.06, 't': 1791576000}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "BLK",
-        "mentions": 2
+        "ticker": "AMZN",
+        "mentions": 6
+      },
+      {
+        "ticker": "BAC",
+        "mentions": 4
       },
       {
         "ticker": "AAPL",
+        "mentions": 3
+      },
+      {
+        "ticker": "ASX",
         "mentions": 2
       },
       {
-        "ticker": "MSFT",
-        "mentions": 2
-      },
-      {
-        "ticker": "NKE",
-        "mentions": 2
-      },
-      {
-        "ticker": "ABNB",
+        "ticker": "MCHP",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
-        "label": "Somewhat-Bullish",
+        "label": "Neutral",
         "count": 19
       },
       {
-        "label": "Neutral",
-        "count": 15
+        "label": "Somewhat-Bullish",
+        "count": 13
       },
       {
         "label": "Bullish",
-        "count": 7
+        "count": 12
       },
       {
-        "label": "Somewhat-Bearish",
-        "count": 2
+        "label": "Bearish",
+        "count": 1
       }
     ]
   }
