@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-aapl-2026-10-13",
+    "date": "2026-10-13",
+    "runDate": "2026-10-13",
+    "createdAt": "2026-10-13T09:40:48.550520+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$AAPL news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-13.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-13T09:40:46.020167+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AAPL",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "AAPL",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-13T09:40:46.020167+00:00",
+      "date": "2026-10-13",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "AAPL",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "General Motors Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead O",
+      "headline_source": "Benzinga",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for AAPL: {'status_code': 200, 'data': {'c': 340.97, 'd': 4.33, 'dp': 1.2862, 'h': 342.63, 'l': 337.6, 'o': 338.215, 'pc': 336.64, 't': 1791835200}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "AAPL",
+            "mentions": 9
+          },
+          {
+            "ticker": "NVDA",
+            "mentions": 3
+          },
+          {
+            "ticker": "GS",
+            "mentions": 2
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 2
+          },
+          {
+            "ticker": "AVGO",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 20
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 13
+          },
+          {
+            "label": "Bullish",
+            "count": 6
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 4
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-amzn-2026-10-13",
     "date": "2026-10-13",
     "runDate": "2026-10-13",

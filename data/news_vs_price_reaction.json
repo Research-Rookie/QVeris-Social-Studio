@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-10-12T09:38:00.865961+00:00",
-  "date": "2026-10-12",
+  "updated_at": "2026-10-13T09:40:46.020167+00:00",
+  "date": "2026-10-13",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "AMZN",
+  "symbol": "AAPL",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Goldman Strategists Upgrade Global Stocks on Earnings Boost",
-  "headline_source": "Bloomberg.com",
+  "headline": "General Motors Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead O",
+  "headline_source": "Benzinga",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for AMZN: {'status_code': 200, 'data': {'c': 262.43, 'd': 8.37, 'dp': 3.2945, 'h': 262.8, 'l': 256, 'o': 256.5, 'pc': 254.06, 't': 1791576000}}",
+  "price_error": "Could not parse quote data for AAPL: {'status_code': 200, 'data': {'c': 340.97, 'd': 4.33, 'dp': 1.2862, 'h': 342.63, 'l': 337.6, 'o': 338.215, 'pc': 336.64, 't': 1791835200}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "AMZN",
-        "mentions": 6
-      },
-      {
-        "ticker": "BAC",
-        "mentions": 4
-      },
-      {
         "ticker": "AAPL",
+        "mentions": 9
+      },
+      {
+        "ticker": "NVDA",
         "mentions": 3
       },
       {
-        "ticker": "ASX",
+        "ticker": "GS",
         "mentions": 2
       },
       {
-        "ticker": "MCHP",
+        "ticker": "AMZN",
+        "mentions": 2
+      },
+      {
+        "ticker": "AVGO",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 19
+        "count": 20
       },
       {
         "label": "Somewhat-Bullish",
@@ -51,11 +51,11 @@
       },
       {
         "label": "Bullish",
-        "count": 12
+        "count": 6
       },
       {
-        "label": "Bearish",
-        "count": 1
+        "label": "Somewhat-Bearish",
+        "count": 4
       }
     ]
   }

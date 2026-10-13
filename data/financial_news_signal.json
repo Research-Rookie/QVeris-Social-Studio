@@ -1,27 +1,130 @@
 {
-  "updated_at": "2026-10-13T08:50:03.505299+00:00",
+  "updated_at": "2026-10-13T09:40:43.274139+00:00",
   "date": "2026-10-13",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "Eli Lilly stock gains 0.75 percent pre-market to EUR 1,063.90",
-      "summary": "Eli Lilly stock is up 0.75 percent pre-market, trading at EUR 1,063.90 compared to the previous day's Xetra close of EUR 1,056.00. The company's Q3 2026 earnings call is schedul...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/eli-lilly-stock-gains-0-75-percent-pre-market-to-eur-1-063-90/70309585",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261013T065200",
-      "sentiment_score": 0.215505,
+      "title": "General Motors Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead O",
+      "summary": "General Motors (NYSE: GM) is expected to report higher Q3 earnings and revenue on October 20th. Analysts forecast $3.61 earnings per share and $48.68 billion in revenue. Several...",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62315048/general-motors-likely-to-report-higher-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+      "source": "Benzinga",
+      "published_at": "20261013T080928",
+      "sentiment_score": 0.205795,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "LLY"
+        "GM",
+        "GS",
+        "WFC",
+        "MS",
+        "F"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Life Sciences"
+        "Manufacturing",
+        "Energy Transportation"
+      ],
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "Netflix's Regions Abroad Are All Growing Faster Than Its Home Market. I Don't Think That Makes the Stock a Bargain.",
+      "summary": "Netflix's international markets are growing faster than its U.S. and Canada home market, but the author argues this doesn't make the stock a bargain. While international revenue...",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/6579318/netflix-s-regions-abroad-are-all-growing-faster-than-its-home-market-i-don-t-think-that-makes-the-stock-a-bargain/",
+      "source": "The Globe and Mail",
+      "published_at": "20261013T073741",
+      "sentiment_score": -0.256344,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "NFLX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Technology"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "FedEx stock gains 0.92 percent pre-market to EUR 262.40",
+      "summary": "FedEx stock showed a pre-market gain of 0.92 percent, trading at EUR 262.40 at Lang & Schwarz on October 13, 2026. This increase is relative to the Xetra close of October 12, 20...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/fedex-stock-gains-0-92-percent-pre-market-to-eur-262-40/70310394",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261013T083300",
+      "sentiment_score": 0.332869,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "FDX"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Retail Wholesale",
+        "Earnings",
+        "Energy Transportation"
       ],
       "quality_score": 14,
+      "is_noise": false
+    },
+    {
+      "title": "Dollar General Corporation (NYSE:DG) Stock Has Average Target Price of $137.96 According to Analysts",
+      "summary": "Analysts have issued a \"Hold\" rating for Dollar General (NYSE:DG), with an average 12-month price target of $137.96. The company recently surpassed quarterly earnings expectatio...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-dollar-general-corporation-nyse-dg-stock-has-average-target-price-of-13796-according-to-analysts-2026-10-13/",
+      "source": "MarketBeat",
+      "published_at": "20261013T084136",
+      "sentiment_score": 0.035896,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DG"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Tyler Technologies, Inc. (NYSE:TYL) Stock Has Average Target Price of $453.89",
+      "summary": "Analysts maintain a \"Moderate Buy\" consensus on Tyler Technologies (NYSE:TYL) with an average 12-month price target of $453.89. The company recently reported quarterly EPS of $3...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-tyler-technologies-inc-nyse-tyl-stock-has-average-target-price-of-45389-2026-10-13/",
+      "source": "MarketBeat",
+      "published_at": "20261013T084119",
+      "sentiment_score": 0.114223,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TYL",
+        "MSI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Republic Servs Reports Q2 2026 Results: Full Earnings Call Transcript",
+      "summary": "Republic Services (NYSE: RSG) reported strong Q2 2026 financial results with revenue growth of 4.6% and adjusted EBITDA growth of 4.5%, maintaining a 32.1% EBITDA margin. The co...",
+      "url": "https://www.benzinga.com/news/26/10/62315071/republic-servs-reports-q2-2026-results-full-earnings-call-transcript",
+      "source": "Benzinga",
+      "published_at": "20261013T081458",
+      "sentiment_score": 0.816495,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "RSG"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 13,
       "is_noise": false
     },
     {
@@ -67,26 +170,6 @@
       "is_noise": false
     },
     {
-      "title": "Garmin launches Enduro 4 GPS watch: analysts raise Garmin stock target",
-      "summary": "Garmin launched its Enduro 4 GPS smartwatch on October 6, 2026, featuring an impressive 320 hours of activity battery life. Following this, analysts increased their average targ...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/garmin-launches-enduro-4-gps-watch-analysts-raise-garmin-stock-target/70310785",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261013T070154",
-      "sentiment_score": 0.415725,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "GRMN"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
       "title": "Southern Copper stock pre-market at EUR 187.15",
       "summary": "Southern Copper's stock was trading pre-market at EUR 187.15 at Lang & Schwarz on October 13, 2026, with an estimated next earnings date of October 22, 2026. A EUR 200.00 round-...",
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/southern-copper-stock-pre-market-at-eur-187-15/70309805",
@@ -105,45 +188,23 @@
       "is_noise": false
     },
     {
-      "title": "Qualcomm Incorporated (NASDAQ:QCOM) Stock Has Average Target Price of $204.10",
-      "summary": "Qualcomm (NASDAQ:QCOM) has an average 12-month price target of $204.10, above its current trading price of $174.43, with analysts generally recommending a \"Hold.\" The company is...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-qualcomm-incorporated-nasdaq-qcom-stock-has-average-target-price-of-20410-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T065907",
-      "sentiment_score": 0.131412,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "QCOM",
-        "AMZN",
-        "AMD",
-        "CRM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Darden Restaurants, Inc. (NYSE:DRI) Stock Now Rated \"Moderate Buy\" by Wall Street Analysts",
-      "summary": "Darden Restaurants (NYSE:DRI) has received a \"Moderate Buy\" consensus rating from Wall Street analysts, with an average 12-month price target of $232.48. The company recently re...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-darden-restaurants-inc-nyse-dri-stock-now-rated-moderate-buy-by-wall-street-analysts-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T064503",
-      "sentiment_score": 0.309522,
+      "title": "TechTarget Q2 2026 Earnings Call: Complete Transcript",
+      "summary": "TechTarget (NASDAQ: TTGT) announced its Q2 2026 financial results, with first-half revenues flat year-over-year at $222.2 million, and a slight decline in Q2. The company is str...",
+      "url": "https://www.benzinga.com/news/26/10/62315445/techtarget-q2-2026-earnings-call-complete-transcript",
+      "source": "Benzinga",
+      "published_at": "20261013T084636",
+      "sentiment_score": 0.289311,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "DRI"
+        "TTGT"
       ],
       "topics": [
         "Earnings",
+        "Technology",
         "Financial Markets",
-        "Retail Wholesale",
-        "Finance"
+        "Economy Macro"
       ],
-      "quality_score": 11,
+      "quality_score": 10,
       "is_noise": false
     },
     {
@@ -180,47 +241,6 @@
         "Earnings",
         "Financial Markets",
         "Technology"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Starbucks Corporation (NASDAQ:SBUX) Stock Has Average Target Price of $110.80",
-      "summary": "Starbucks Corporation (NASDAQ:SBUX) has an average target price of $110.80 from analysts, with a majority recommending a \"Hold\" rating. The company recently exceeded quarterly e...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-starbucks-corporation-nasdaq-sbux-stock-has-average-target-price-of-11080-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T064510",
-      "sentiment_score": 0.043196,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SBUX",
-        "CMG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Mergers And Acquisitions"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Ross Stores, Inc. (NASDAQ:ROST) Stock Has Consensus Price Target of $263.76",
-      "summary": "Analysts have issued a \"Moderate Buy\" consensus rating for Ross Stores, Inc. (NASDAQ:ROST), with an average 12-month price target of $263.76, significantly higher than its recen...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-ross-stores-inc-nasdaq-rost-stock-has-consensus-price-target-of-26376-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T064447",
-      "sentiment_score": 0.251851,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "ROST",
-        "TJX"
-      ],
-      "topics": [
-        "Earnings",
-        "Retail Wholesale",
-        "Financial Markets"
       ],
       "quality_score": 10,
       "is_noise": false
@@ -302,6 +322,25 @@
         "Technology"
       ],
       "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Aflac Incorporated (NYSE:AFL) Stock Now Rated \"Hold\" by Wall Street Brokerages",
+      "summary": "Aflac Incorporated (NYSE:AFL) has received an average \"Hold\" rating from Wall Street brokerages, with an average 12-month price target of $115.31. The company reported quarterly...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-aflac-incorporated-nyse-afl-stock-now-rated-hold-by-wall-street-brokerages-2026-10-13/",
+      "source": "MarketBeat",
+      "published_at": "20261013T085509",
+      "sentiment_score": 0.000175,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AFL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 8,
       "is_noise": false
     },
     {
@@ -437,81 +476,22 @@
       "is_noise": false
     },
     {
-      "title": "The Hartford Insurance Group, Inc. (NYSE:HIG) Stock Rated \"Hold\" by Wall Street Brokerages",
-      "summary": "The Hartford Insurance Group (NYSE:HIG) has received an average \"Hold\" rating from Wall Street brokerages, with an average 12-month price target of $145.25, surpassing its curre...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-the-hartford-insurance-group-inc-nyse-hig-stock-rated-hold-by-wall-street-brokerages-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T065854",
-      "sentiment_score": 0.240143,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "HIG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Thermo Fisher Scientific stock pre-market at EUR 594.80",
-      "summary": "Thermo Fisher Scientific stock was trading at EUR 594.80 pre-market on October 13, 2026, at Lang & Schwarz. The company is scheduled to release its third-quarter 2026 results on...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/thermo-fisher-scientific-stock-pre-market-at-eur-594-80/70310630",
+      "title": "Sumitomo Mitsui Financial Group received disclosure award: stock pre-market at EUR 22.50",
+      "summary": "Sumitomo Mitsui Financial Group (SMFG) traded pre-market at EUR 22.50 on October 13, 2026, at Lang & Schwarz. The company recently received the 2026 Award for Excellence in Corp...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/sumitomo-mitsui-financial-group-received-disclosure-award-stock/70310560",
       "source": "ad-hoc-news.de",
-      "published_at": "20261013T064523",
-      "sentiment_score": 0.133757,
-      "sentiment_label": "Neutral",
+      "published_at": "20261013T084100",
+      "sentiment_score": 0.410502,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "TMO"
+        "SMFG"
       ],
       "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Sound Financial Bancorp (NASDAQ:SFBC) Stock Breaks Below Two Hundred Day Moving Average - Should You Sell?",
-      "summary": "Sound Financial Bancorp (NASDAQ:SFBC) shares have fallen below their 200-day moving average, trading at $42.62, below the $44.57 average. Despite this technical dip, Weiss Ratin...",
-      "url": "https://www.marketbeat.com/instant-alerts/price-sound-financial-bancorp-nasdaq-sfbc-stock-breaks-below-two-hundred-day-moving-average-should-you-sell-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T064438",
-      "sentiment_score": 0.082612,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SFBC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "PepsiCo, Inc. (NASDAQ:PEP) Stock Rated \"Hold\" by Wall Street Brokerages",
-      "summary": "PepsiCo (NASDAQ:PEP) has received a consensus \"Hold\" rating from Wall Street brokerages, with an average 12-month price target of $145.50, although several firms recently lowere...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-pepsico-inc-nasdaq-pep-stock-rated-hold-by-wall-street-brokerages-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T064421",
-      "sentiment_score": -0.067224,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PEP"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
         "Finance",
-        "Retail Wholesale",
-        "Economy Macro"
+        "Financial Markets",
+        "Earnings"
       ],
-      "quality_score": 8,
+      "quality_score": 7,
       "is_noise": false
     },
     {
@@ -617,60 +597,26 @@
       "is_noise": false
     },
     {
-      "title": "Church & Dwight Co., Inc. (NYSE:CHD) Stock Rated \"Hold\" by Sell-Side Brokerages",
-      "summary": "Church & Dwight Co., Inc. (NYSE:CHD) has received an average \"Hold\" rating from sell-side brokerages, with an average 12-month price target of $104.06. The company reported mixe...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-church-dwight-co-inc-nyse-chd-stock-rated-hold-by-sell-side-brokerages-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T064502",
-      "sentiment_score": 0.060644,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CHD"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Apollo Global Management Inc. (NYSE:APO) Stock Now Rated \"Moderate Buy\" by Sell-Side Brokerages",
-      "summary": "Twenty brokerages have given Apollo Global Management Inc. (NYSE:APO) a consensus \"Moderate Buy\" rating, with an average 12-month price target of $153.05. Institutional investor...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-apollo-global-management-inc-nyse-apo-stock-now-rated-moderate-buy-by-sell-side-brokerages-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T064500",
-      "sentiment_score": 0.244231,
+      "title": "Microsoft market cap returns to 4 trillion dollars",
+      "summary": "Microsoft's market capitalization has returned to $4 trillion, reaching $4,013 billion after a 50% rebound from its June low. This marks the first time in a year that the compan...",
+      "url": "https://www.marketscreener.com/news/microsoft-market-cap-returns-to-4-trillion-dollars-ce785ddddd8cff25",
+      "source": "marketscreener.com",
+      "published_at": "20261013T080801",
+      "sentiment_score": 0.298378,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "APO",
-        "JPM"
+        "MSFT",
+        "NVDA",
+        "AAPL",
+        "GOOGL",
+        "AMZN"
       ],
       "topics": [
-        "Earnings",
         "Financial Markets",
-        "Finance"
+        "Technology",
+        "Earnings"
       ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Johnson Controls International plc (NYSE:JCI) Stock Has Average Price Target of $161.67",
-      "summary": "Johnson Controls International plc (NYSE:JCI) has received a \"Moderate Buy\" consensus rating from twenty-four research firms, with an average 12-month price target of $161.",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-johnson-controls-international-plc-nyse-jci-stock-has-average-price-target-of-16167-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T064447",
-      "sentiment_score": 0.412524,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "JCI"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing"
-      ],
-      "quality_score": 7,
+      "quality_score": 6,
       "is_noise": false
     },
     {
@@ -815,6 +761,25 @@
       "is_noise": false
     },
     {
+      "title": "F5 (FFIV) Pushes Further Into Cloud Native While The Stock Looks Fully Valued",
+      "summary": "F5 (FFIV) is expanding its cloud-native offerings, introducing new network functions and observability tools for service providers transitioning to Kubernetes. Despite a strong...",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-ffiv/f5/news/f5-ffiv-pushes-further-into-cloud-native-while-the-stock-loo",
+      "source": "Simply Wall Street",
+      "published_at": "20261013T074518",
+      "sentiment_score": 0.117822,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "FFIV"
+      ],
+      "topics": [
+        "Technology",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
       "title": "Stryker: Q2 Recovery And Portfolio Expansion Strengthen The Operating Story (NYSE:SYK)",
       "summary": "Stryker (SYK) demonstrated a strong recovery in Q2 2026, with sales increasing by 9.4% year-over-year and organic growth reaching approximately 9%, despite a prior cybersecurity...",
       "url": "https://seekingalpha.com/article/4953660-stryker-2q-recovery-and-portfolio-expansion-strengthen-the-operating-story",
@@ -831,6 +796,46 @@
         "Financial Markets"
       ],
       "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "T. Rowe Price reports $1.86 trillion AUM, $12.2 billion outflows",
+      "summary": "T. Rowe Price Group Inc. reported its assets under management (AUM) reached $1.86 trillion as of September 30, despite experiencing net outflows of $12.2 billion in September an...",
+      "url": "https://www.investing.com/news/company-news/t-rowe-price-reports-186-trillion-aum-122-billion-outflows-93CH-4944354",
+      "source": "Investing.com",
+      "published_at": "20261013T090736",
+      "sentiment_score": -0.283808,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "TROW"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Financial Markets"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Verisign EVP Thomas Indelicarto sells $142,190 in company stock By Investing.com",
+      "summary": "Verisign EVP Thomas C. Indelicarto sold 500 shares of the company's common stock for $142,190 on October 1, 2026, at a price of $284.38 per share. This transaction leaves him wi...",
+      "url": "https://ca.investing.com/news/stock-market-news/verisign-evp-thomas-indelicarto-sells-142190-in-company-stock-93CH-4877486",
+      "source": "Investing.com Canada",
+      "published_at": "20261013T090459",
+      "sentiment_score": -0.059609,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "VRSN",
+        "AVGO",
+        "AAPL",
+        "TSLA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 3,
       "is_noise": false
     },
     {
@@ -995,25 +1000,128 @@
   "top_ticker": "AAPL",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Eli Lilly stock gains 0.75 percent pre-market to EUR 1,063.90",
+  "top_story": "General Motors Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead O",
   "signal_articles": [
     {
-      "title": "Eli Lilly stock gains 0.75 percent pre-market to EUR 1,063.90",
-      "summary": "Eli Lilly stock is up 0.75 percent pre-market, trading at EUR 1,063.90 compared to the previous day's Xetra close of EUR 1,056.00. The company's Q3 2026 earnings call is schedul...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/eli-lilly-stock-gains-0-75-percent-pre-market-to-eur-1-063-90/70309585",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261013T065200",
-      "sentiment_score": 0.215505,
+      "title": "General Motors Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead O",
+      "summary": "General Motors (NYSE: GM) is expected to report higher Q3 earnings and revenue on October 20th. Analysts forecast $3.61 earnings per share and $48.68 billion in revenue. Several...",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62315048/general-motors-likely-to-report-higher-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+      "source": "Benzinga",
+      "published_at": "20261013T080928",
+      "sentiment_score": 0.205795,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "LLY"
+        "GM",
+        "GS",
+        "WFC",
+        "MS",
+        "F"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Life Sciences"
+        "Manufacturing",
+        "Energy Transportation"
+      ],
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "Netflix's Regions Abroad Are All Growing Faster Than Its Home Market. I Don't Think That Makes the Stock a Bargain.",
+      "summary": "Netflix's international markets are growing faster than its U.S. and Canada home market, but the author argues this doesn't make the stock a bargain. While international revenue...",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/6579318/netflix-s-regions-abroad-are-all-growing-faster-than-its-home-market-i-don-t-think-that-makes-the-stock-a-bargain/",
+      "source": "The Globe and Mail",
+      "published_at": "20261013T073741",
+      "sentiment_score": -0.256344,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "NFLX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Technology"
+      ],
+      "quality_score": 15,
+      "is_noise": false
+    },
+    {
+      "title": "FedEx stock gains 0.92 percent pre-market to EUR 262.40",
+      "summary": "FedEx stock showed a pre-market gain of 0.92 percent, trading at EUR 262.40 at Lang & Schwarz on October 13, 2026. This increase is relative to the Xetra close of October 12, 20...",
+      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/fedex-stock-gains-0-92-percent-pre-market-to-eur-262-40/70310394",
+      "source": "ad-hoc-news.de",
+      "published_at": "20261013T083300",
+      "sentiment_score": 0.332869,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "FDX"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Retail Wholesale",
+        "Earnings",
+        "Energy Transportation"
       ],
       "quality_score": 14,
+      "is_noise": false
+    },
+    {
+      "title": "Dollar General Corporation (NYSE:DG) Stock Has Average Target Price of $137.96 According to Analysts",
+      "summary": "Analysts have issued a \"Hold\" rating for Dollar General (NYSE:DG), with an average 12-month price target of $137.96. The company recently surpassed quarterly earnings expectatio...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-dollar-general-corporation-nyse-dg-stock-has-average-target-price-of-13796-according-to-analysts-2026-10-13/",
+      "source": "MarketBeat",
+      "published_at": "20261013T084136",
+      "sentiment_score": 0.035896,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "DG"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale",
+        "Financial Markets"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Tyler Technologies, Inc. (NYSE:TYL) Stock Has Average Target Price of $453.89",
+      "summary": "Analysts maintain a \"Moderate Buy\" consensus on Tyler Technologies (NYSE:TYL) with an average 12-month price target of $453.89. The company recently reported quarterly EPS of $3...",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-tyler-technologies-inc-nyse-tyl-stock-has-average-target-price-of-45389-2026-10-13/",
+      "source": "MarketBeat",
+      "published_at": "20261013T084119",
+      "sentiment_score": 0.114223,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "TYL",
+        "MSI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Republic Servs Reports Q2 2026 Results: Full Earnings Call Transcript",
+      "summary": "Republic Services (NYSE: RSG) reported strong Q2 2026 financial results with revenue growth of 4.6% and adjusted EBITDA growth of 4.5%, maintaining a 32.1% EBITDA margin. The co...",
+      "url": "https://www.benzinga.com/news/26/10/62315071/republic-servs-reports-q2-2026-results-full-earnings-call-transcript",
+      "source": "Benzinga",
+      "published_at": "20261013T081458",
+      "sentiment_score": 0.816495,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "RSG"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance",
+        "Economy Macro"
+      ],
+      "quality_score": 13,
       "is_noise": false
     },
     {
@@ -1059,26 +1167,6 @@
       "is_noise": false
     },
     {
-      "title": "Garmin launches Enduro 4 GPS watch: analysts raise Garmin stock target",
-      "summary": "Garmin launched its Enduro 4 GPS smartwatch on October 6, 2026, featuring an impressive 320 hours of activity battery life. Following this, analysts increased their average targ...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/garmin-launches-enduro-4-gps-watch-analysts-raise-garmin-stock-target/70310785",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261013T070154",
-      "sentiment_score": 0.415725,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "GRMN"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
       "title": "Southern Copper stock pre-market at EUR 187.15",
       "summary": "Southern Copper's stock was trading pre-market at EUR 187.15 at Lang & Schwarz on October 13, 2026, with an estimated next earnings date of October 22, 2026. A EUR 200.00 round-...",
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/southern-copper-stock-pre-market-at-eur-187-15/70309805",
@@ -1097,102 +1185,21 @@
       "is_noise": false
     },
     {
-      "title": "Qualcomm Incorporated (NASDAQ:QCOM) Stock Has Average Target Price of $204.10",
-      "summary": "Qualcomm (NASDAQ:QCOM) has an average 12-month price target of $204.10, above its current trading price of $174.43, with analysts generally recommending a \"Hold.\" The company is...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-qualcomm-incorporated-nasdaq-qcom-stock-has-average-target-price-of-20410-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T065907",
-      "sentiment_score": 0.131412,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "QCOM",
-        "AMZN",
-        "AMD",
-        "CRM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Darden Restaurants, Inc. (NYSE:DRI) Stock Now Rated \"Moderate Buy\" by Wall Street Analysts",
-      "summary": "Darden Restaurants (NYSE:DRI) has received a \"Moderate Buy\" consensus rating from Wall Street analysts, with an average 12-month price target of $232.48. The company recently re...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-darden-restaurants-inc-nyse-dri-stock-now-rated-moderate-buy-by-wall-street-analysts-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T064503",
-      "sentiment_score": 0.309522,
+      "title": "TechTarget Q2 2026 Earnings Call: Complete Transcript",
+      "summary": "TechTarget (NASDAQ: TTGT) announced its Q2 2026 financial results, with first-half revenues flat year-over-year at $222.2 million, and a slight decline in Q2. The company is str...",
+      "url": "https://www.benzinga.com/news/26/10/62315445/techtarget-q2-2026-earnings-call-complete-transcript",
+      "source": "Benzinga",
+      "published_at": "20261013T084636",
+      "sentiment_score": 0.289311,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "DRI"
+        "TTGT"
       ],
       "topics": [
         "Earnings",
+        "Technology",
         "Financial Markets",
-        "Retail Wholesale",
-        "Finance"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Wall Street Zen cut TE Connectivity stock to Hold",
-      "summary": "Wall Street Zen downgraded TE Connectivity (TEL) from Buy to Hold on October 10, 2026, despite the company reporting strong fiscal third-quarter revenues of $5.16 billion, a 13....",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/wall-street-zen-cut-te-connectivity-stock-to-hold/70311411",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261013T074607",
-      "sentiment_score": -0.216616,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "TEL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Gross profit of Spire Global, Inc. Class A – HAN:EL9",
-      "summary": "This article displays the gross profit information for Spire Global, Inc. Class A (HAN:EL9) on the Hannover Stock Exchange. It notes that the market is currently closed with no...",
-      "url": "https://www.tradingview.com/symbols/HAN-EL9/financials-income-statement/gross-profit/",
-      "source": "TradingView",
-      "published_at": "20261013T071049",
-      "sentiment_score": 0.013138,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SPIR",
-        "FDS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Starbucks Corporation (NASDAQ:SBUX) Stock Has Average Target Price of $110.80",
-      "summary": "Starbucks Corporation (NASDAQ:SBUX) has an average target price of $110.80 from analysts, with a majority recommending a \"Hold\" rating. The company recently exceeded quarterly e...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-starbucks-corporation-nasdaq-sbux-stock-has-average-target-price-of-11080-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261013T064510",
-      "sentiment_score": 0.043196,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SBUX",
-        "CMG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Mergers And Acquisitions"
+        "Economy Macro"
       ],
       "quality_score": 10,
       "is_noise": false
@@ -1201,22 +1208,22 @@
   "top_tickers": [
     {
       "ticker": "AAPL",
-      "mentions": 7
+      "mentions": 9
+    },
+    {
+      "ticker": "NVDA",
+      "mentions": 3
+    },
+    {
+      "ticker": "GS",
+      "mentions": 2
     },
     {
       "ticker": "AMZN",
       "mentions": 2
     },
     {
-      "ticker": "NVDA",
-      "mentions": 2
-    },
-    {
-      "ticker": "GRMN",
-      "mentions": 2
-    },
-    {
-      "ticker": "CRM",
+      "ticker": "AVGO",
       "mentions": 2
     }
   ],
@@ -1227,29 +1234,29 @@
     },
     {
       "topic": "Financial Markets",
-      "mentions": 42
+      "mentions": 41
     },
     {
       "topic": "Technology",
-      "mentions": 15
+      "mentions": 18
     },
     {
       "topic": "Finance",
-      "mentions": 14
+      "mentions": 12
     },
     {
-      "topic": "Retail Wholesale",
+      "topic": "Energy Transportation",
       "mentions": 7
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 21
+      "count": 20
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Bullish",
@@ -1257,29 +1264,29 @@
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 2
+      "count": 4
     }
   ],
   "top_sources": [
     {
-      "source": "MarketBeat",
-      "count": 20
+      "source": "ad-hoc-news.de",
+      "count": 14
     },
     {
-      "source": "ad-hoc-news.de",
-      "count": 15
+      "source": "MarketBeat",
+      "count": 13
+    },
+    {
+      "source": "Benzinga",
+      "count": 3
     },
     {
       "source": "Seeking Alpha",
       "count": 3
     },
     {
-      "source": "TradingView",
-      "count": 1
-    },
-    {
-      "source": "Stocktwits",
-      "count": 1
+      "source": "Simply Wall Street",
+      "count": 2
     }
   ],
   "takeaway": "News flow is centered on Earnings, with AAPL appearing most often and the headline tone mostly neutral."
