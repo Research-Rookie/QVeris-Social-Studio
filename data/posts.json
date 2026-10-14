@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-hd-2026-10-14",
+    "date": "2026-10-14",
+    "runDate": "2026-10-14",
+    "createdAt": "2026-10-14T07:56:45.867547+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$HD news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-14.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-14T07:56:44.179971+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$HD",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "HD",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-14T07:56:44.179971+00:00",
+      "date": "2026-10-14",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "HD",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "United Rentals (URI) Expected to Release Quarterly Earnings on Wednesday",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for HD: {'status_code': 200, 'data': {'c': 293.92, 'd': 3.3, 'dp': 1.1355, 'h': 296.6, 'l': 291.01, 'o': 295, 'pc': 290.62, 't': 1791921600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "HD",
+            "mentions": 4
+          },
+          {
+            "ticker": "FDX",
+            "mentions": 3
+          },
+          {
+            "ticker": "ADI",
+            "mentions": 3
+          },
+          {
+            "ticker": "WSM",
+            "mentions": 3
+          },
+          {
+            "ticker": "KHC",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 23
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 12
+          },
+          {
+            "label": "Bullish",
+            "count": 9
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-fsbc-2026-10-14",
     "date": "2026-10-14",
     "runDate": "2026-10-14",
