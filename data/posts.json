@@ -1,5 +1,125 @@
 [
   {
+    "id": "market-narrative-shift-fsbc-2026-10-14",
+    "date": "2026-10-14",
+    "runDate": "2026-10-14",
+    "createdAt": "2026-10-14T06:59:09.573288+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $FSBC",
+    "status": "ready",
+    "tweet": "What changed in $FSBC's market narrative? 🔄\n\n🧭 Signal: Baseline building\n💬 Sentiment shift: baseline\n📌 Top theme: Earnings\n🔎 Emerging term: five\n📰 Coverage: 3 vs n/a\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_FSBC_2026-10-14.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-14T06:59:04.861378+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$FSBC",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Baseline building",
+    "topSymbol": "FSBC",
+    "topChangePct": 0.0,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-14T06:59:04.861378+00:00",
+      "date": "2026-10-14",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "FSBC",
+      "shift_label": "Baseline building",
+      "sentiment_delta": 0.0,
+      "baseline_label": "Building",
+      "current": {
+        "date": "2026-10-14",
+        "symbol": "FSBC",
+        "article_count": 3,
+        "source_count": 3,
+        "sentiment_score": 0.0819,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 3
+          },
+          {
+            "label": "Finance",
+            "count": 3
+          },
+          {
+            "label": "Economy Monetary",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "five",
+            "count": 6
+          },
+          {
+            "label": "star",
+            "count": 6
+          },
+          {
+            "label": "bancorp",
+            "count": 6
+          },
+          {
+            "label": "release",
+            "count": 5
+          },
+          {
+            "label": "october",
+            "count": 5
+          },
+          {
+            "label": "for",
+            "count": 5
+          },
+          {
+            "label": "quarter",
+            "count": 4
+          },
+          {
+            "label": "webcast",
+            "count": 4
+          },
+          {
+            "label": "financial",
+            "count": 4
+          },
+          {
+            "label": "results",
+            "count": 4
+          },
+          {
+            "label": "third",
+            "count": 3
+          },
+          {
+            "label": "live",
+            "count": 3
+          }
+        ],
+        "headline": "Five Star Bancorp Announces Third Quarter 2026 Earnings Release Date and Webcast",
+        "headline_source": "The Manila Times"
+      },
+      "previous": null,
+      "emerging_themes": [
+        "Earnings",
+        "Finance",
+        "Economy Monetary"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "five",
+        "star",
+        "bancorp"
+      ],
+      "fading_keywords": [],
+      "takeaway": "FSBC leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-14",
     "date": "2026-10-14",
     "runDate": "2026-10-14",

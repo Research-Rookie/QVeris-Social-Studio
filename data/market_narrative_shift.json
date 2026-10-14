@@ -1,189 +1,100 @@
 {
-  "updated_at": "2026-10-13T08:50:03.684592+00:00",
-  "date": "2026-10-13",
+  "updated_at": "2026-10-14T06:59:04.861378+00:00",
+  "date": "2026-10-14",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "AMZN",
-  "shift_label": "Bullish momentum cooling",
-  "sentiment_delta": -0.1725,
-  "baseline_label": "2026-10-01",
+  "symbol": "FSBC",
+  "shift_label": "Baseline building",
+  "sentiment_delta": 0.0,
+  "baseline_label": "Building",
   "current": {
-    "date": "2026-10-13",
-    "symbol": "AMZN",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.1627,
+    "date": "2026-10-14",
+    "symbol": "FSBC",
+    "article_count": 3,
+    "source_count": 3,
+    "sentiment_score": 0.0819,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Technology",
-        "count": 1
-      },
-      {
-        "label": "Mergers And Acquisitions",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "com",
-        "count": 2
-      },
-      {
-        "label": "crumly",
-        "count": 2
-      },
-      {
-        "label": "associates",
-        "count": 2
-      },
-      {
-        "label": "raises",
-        "count": 1
-      },
-      {
-        "label": "position",
-        "count": 1
-      },
-      {
-        "label": "significantly",
-        "count": 1
-      },
-      {
-        "label": "increased",
-        "count": 1
-      },
-      {
-        "label": "stake",
-        "count": 1
-      },
-      {
-        "label": "third",
-        "count": 1
-      },
-      {
-        "label": "quarter",
-        "count": 1
-      },
-      {
-        "label": "bringing",
-        "count": 1
-      },
-      {
-        "label": "total",
-        "count": 1
-      }
-    ],
-    "headline": "Amazon.com, Inc. $AMZN Stock: Crumly & Associates Inc. Raises Position",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-10-01",
-    "symbol": "AMZN",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.3352,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Technology",
-        "count": 1
-      },
-      {
-        "label": "Mergers And Acquisitions",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "growth",
         "count": 3
       },
       {
-        "label": "synopsys",
-        "count": 2
+        "label": "Finance",
+        "count": 3
       },
       {
-        "label": "investor",
-        "count": 2
-      },
-      {
-        "label": "day",
-        "count": 2
-      },
-      {
-        "label": "outlook",
-        "count": 2
-      },
-      {
-        "label": "lifts",
-        "count": 1
-      },
-      {
-        "label": "ansys",
-        "count": 1
-      },
-      {
-        "label": "synergies",
-        "count": 1
-      },
-      {
-        "label": "outlined",
-        "count": 1
-      },
-      {
-        "label": "higher",
-        "count": 1
-      },
-      {
-        "label": "long-term",
-        "count": 1
-      },
-      {
-        "label": "projecting",
+        "label": "Economy Monetary",
         "count": 1
       }
     ],
-    "headline": "Synopsys Investor Day Lifts 2030 Growth Outlook on AI, IP and Ansys Synergies",
-    "headline_source": "Yahoo Finance"
+    "keywords": [
+      {
+        "label": "five",
+        "count": 6
+      },
+      {
+        "label": "star",
+        "count": 6
+      },
+      {
+        "label": "bancorp",
+        "count": 6
+      },
+      {
+        "label": "release",
+        "count": 5
+      },
+      {
+        "label": "october",
+        "count": 5
+      },
+      {
+        "label": "for",
+        "count": 5
+      },
+      {
+        "label": "quarter",
+        "count": 4
+      },
+      {
+        "label": "webcast",
+        "count": 4
+      },
+      {
+        "label": "financial",
+        "count": 4
+      },
+      {
+        "label": "results",
+        "count": 4
+      },
+      {
+        "label": "third",
+        "count": 3
+      },
+      {
+        "label": "live",
+        "count": 3
+      }
+    ],
+    "headline": "Five Star Bancorp Announces Third Quarter 2026 Earnings Release Date and Webcast",
+    "headline_source": "The Manila Times"
   },
+  "previous": null,
   "emerging_themes": [
-    "Finance",
     "Earnings",
-    "Financial Markets"
+    "Finance",
+    "Economy Monetary"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "com",
-    "crumly",
-    "associates"
+    "five",
+    "star",
+    "bancorp"
   ],
-  "fading_keywords": [
-    "growth",
-    "synopsys",
-    "investor"
-  ],
-  "takeaway": "AMZN's narrative is bullish momentum cooling: sentiment moved -0.17, while the leading theme shifted from Earnings to Earnings.",
+  "fading_keywords": [],
+  "takeaway": "FSBC leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
