@@ -1,100 +1,177 @@
 {
-  "updated_at": "2026-10-14T06:59:04.861378+00:00",
-  "date": "2026-10-14",
+  "updated_at": "2026-10-15T06:51:07.661529+00:00",
+  "date": "2026-10-15",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "FSBC",
-  "shift_label": "Baseline building",
-  "sentiment_delta": 0.0,
-  "baseline_label": "Building",
+  "symbol": "PG",
+  "shift_label": "Turning bullish",
+  "sentiment_delta": 0.2036,
+  "baseline_label": "2026-09-08",
   "current": {
-    "date": "2026-10-14",
-    "symbol": "FSBC",
-    "article_count": 3,
-    "source_count": 3,
-    "sentiment_score": 0.0819,
+    "date": "2026-10-15",
+    "symbol": "PG",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.2683,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 3
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
       },
       {
         "label": "Finance",
-        "count": 3
+        "count": 1
       },
       {
-        "label": "Economy Monetary",
+        "label": "Retail Wholesale",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "five",
-        "count": 6
+        "label": "procter",
+        "count": 2
       },
       {
-        "label": "star",
-        "count": 6
+        "label": "gamble",
+        "count": 2
       },
       {
-        "label": "bancorp",
-        "count": 6
+        "label": "earnings",
+        "count": 2
       },
       {
-        "label": "release",
-        "count": 5
+        "label": "thursday",
+        "count": 2
+      },
+      {
+        "label": "projected",
+        "count": 1
+      },
+      {
+        "label": "post",
+        "count": 1
+      },
+      {
+        "label": "quarterly",
+        "count": 1
+      },
+      {
+        "label": "expected",
+        "count": 1
+      },
+      {
+        "label": "announce",
+        "count": 1
+      },
+      {
+        "label": "open",
+        "count": 1
       },
       {
         "label": "october",
-        "count": 5
+        "count": 1
       },
       {
-        "label": "for",
-        "count": 5
-      },
-      {
-        "label": "quarter",
-        "count": 4
-      },
-      {
-        "label": "webcast",
-        "count": 4
-      },
-      {
-        "label": "financial",
-        "count": 4
-      },
-      {
-        "label": "results",
-        "count": 4
-      },
-      {
-        "label": "third",
-        "count": 3
-      },
-      {
-        "label": "live",
-        "count": 3
+        "label": "projecting",
+        "count": 1
       }
     ],
-    "headline": "Five Star Bancorp Announces Third Quarter 2026 Earnings Release Date and Webcast",
-    "headline_source": "The Manila Times"
+    "headline": "Procter & Gamble (PG) Projected to Post Quarterly Earnings on Thursday",
+    "headline_source": "MarketBeat"
   },
-  "previous": null,
+  "previous": {
+    "date": "2026-09-08",
+    "symbol": "PG",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.0647,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "margin",
+        "count": 3
+      },
+      {
+        "label": "kvue",
+        "count": 2
+      },
+      {
+        "label": "gains",
+        "count": 2
+      },
+      {
+        "label": "earnings",
+        "count": 2
+      },
+      {
+        "label": "adjusted",
+        "count": 2
+      },
+      {
+        "label": "should",
+        "count": 1
+      },
+      {
+        "label": "investors",
+        "count": 1
+      },
+      {
+        "label": "buy",
+        "count": 1
+      },
+      {
+        "label": "offset",
+        "count": 1
+      },
+      {
+        "label": "slow",
+        "count": 1
+      },
+      {
+        "label": "sales",
+        "count": 1
+      },
+      {
+        "label": "growth",
+        "count": 1
+      }
+    ],
+    "headline": "Should Investors Buy KVUE as Margin Gains Offset Slow Sales Growth?",
+    "headline_source": "The Globe and Mail"
+  },
   "emerging_themes": [
-    "Earnings",
     "Finance",
-    "Economy Monetary"
+    "Retail Wholesale",
+    "Earnings"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "five",
-    "star",
-    "bancorp"
+    "procter",
+    "gamble",
+    "thursday"
   ],
-  "fading_keywords": [],
-  "takeaway": "FSBC leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+  "fading_keywords": [
+    "margin",
+    "kvue",
+    "gains"
+  ],
+  "takeaway": "PG's narrative is turning bullish: sentiment moved +0.20, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
