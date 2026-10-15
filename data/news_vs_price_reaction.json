@@ -1,61 +1,65 @@
 {
-  "updated_at": "2026-10-14T07:56:44.179971+00:00",
-  "date": "2026-10-14",
+  "updated_at": "2026-10-15T07:40:49.109180+00:00",
+  "date": "2026-10-15",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "HD",
+  "symbol": "NEE",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "United Rentals (URI) Expected to Release Quarterly Earnings on Wednesday",
+  "headline": "Honeywell International (HON) Expected to Release Quarterly Earnings on Thursday",
   "headline_source": "MarketBeat",
-  "price": 0.0,
+  "price": 78.37,
   "change_pct": 0.0,
   "change_amount": 0.0,
-  "volume": 0,
-  "reaction_label": "Price pending",
-  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for HD: {'status_code': 200, 'data': {'c': 293.92, 'd': 3.3, 'dp': 1.1355, 'h': 296.6, 'l': 291.01, 'o': 295, 'pc': 290.62, 't': 1791921600}}",
+  "volume": 11055506,
+  "reaction_label": "Muted reaction",
+  "takeaway": "News tone and price action are both relatively muted.",
+  "price_error": null,
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "HD",
+        "ticker": "NEE",
+        "mentions": 6
+      },
+      {
+        "ticker": "LMT",
+        "mentions": 6
+      },
+      {
+        "ticker": "DVN",
+        "mentions": 6
+      },
+      {
+        "ticker": "MU",
+        "mentions": 5
+      },
+      {
+        "ticker": "SBUX",
         "mentions": 4
-      },
-      {
-        "ticker": "FDX",
-        "mentions": 3
-      },
-      {
-        "ticker": "ADI",
-        "mentions": 3
-      },
-      {
-        "ticker": "WSM",
-        "mentions": 3
-      },
-      {
-        "ticker": "KHC",
-        "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 23
-      },
-      {
-        "label": "Somewhat-Bullish",
-        "count": 12
+        "count": 21
       },
       {
         "label": "Bullish",
         "count": 9
       },
       {
+        "label": "Somewhat-Bullish",
+        "count": 9
+      },
+      {
         "label": "Somewhat-Bearish",
-        "count": 3
+        "count": 5
+      },
+      {
+        "label": "Bearish",
+        "count": 4
       }
     ]
   }
