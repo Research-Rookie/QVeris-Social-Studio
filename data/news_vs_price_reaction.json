@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-10-15T07:40:49.109180+00:00",
-  "date": "2026-10-15",
+  "updated_at": "2026-10-16T07:27:53.947410+00:00",
+  "date": "2026-10-16",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "NEE",
+  "symbol": "MS",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Honeywell International (HON) Expected to Release Quarterly Earnings on Thursday",
+  "headline": "SLB (SLB) Set to Post Quarterly Earnings on Friday",
   "headline_source": "MarketBeat",
-  "price": 78.37,
+  "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
-  "volume": 11055506,
-  "reaction_label": "Muted reaction",
-  "takeaway": "News tone and price action are both relatively muted.",
-  "price_error": null,
+  "volume": 0,
+  "reaction_label": "Price pending",
+  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+  "price_error": "Could not parse quote data for MS: {'status_code': 200, 'data': {'c': 182.1, 'd': 0.59, 'dp': 0.3251, 'h': 182.585, 'l': 177.05, 'o': 182.49, 'pc': 181.51, 't': 1792094400}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "NEE",
-        "mentions": 6
+        "ticker": "MS",
+        "mentions": 2
       },
       {
-        "ticker": "LMT",
-        "mentions": 6
+        "ticker": "SLB",
+        "mentions": 1
       },
       {
-        "ticker": "DVN",
-        "mentions": 6
+        "ticker": "EBAY",
+        "mentions": 1
       },
       {
-        "ticker": "MU",
-        "mentions": 5
+        "ticker": "WFC",
+        "mentions": 1
       },
       {
-        "ticker": "SBUX",
-        "mentions": 4
+        "ticker": "TMP",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 21
-      },
-      {
-        "label": "Bullish",
-        "count": 9
+        "count": 24
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 9
+        "count": 13
       },
       {
-        "label": "Somewhat-Bearish",
-        "count": 5
+        "label": "Bullish",
+        "count": 8
       },
       {
         "label": "Bearish",
-        "count": 4
+        "count": 2
+      },
+      {
+        "label": "Somewhat-Bearish",
+        "count": 1
       }
     ]
   }
