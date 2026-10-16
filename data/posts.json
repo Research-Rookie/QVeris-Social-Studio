@@ -1,5 +1,198 @@
 [
   {
+    "id": "market-narrative-shift-slb-2026-10-16",
+    "date": "2026-10-16",
+    "runDate": "2026-10-16",
+    "createdAt": "2026-10-16T06:38:56.682902+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $SLB",
+    "status": "ready",
+    "tweet": "What changed in $SLB's market narrative? 🔄\n\n🧭 Signal: Theme rotation\n💬 Sentiment shift: +0.01\n📌 Top theme: Earnings\n🔎 Emerging term: earnings\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_SLB_2026-10-16.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-16T06:38:55.480634+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$SLB",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Theme rotation",
+    "topSymbol": "SLB",
+    "topChangePct": 0.91,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-16T06:38:55.480634+00:00",
+      "date": "2026-10-16",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "SLB",
+      "shift_label": "Theme rotation",
+      "sentiment_delta": 0.0091,
+      "baseline_label": "2026-09-13",
+      "current": {
+        "date": "2026-10-16",
+        "symbol": "SLB",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.3258,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "earnings",
+            "count": 3
+          },
+          {
+            "label": "friday",
+            "count": 2
+          },
+          {
+            "label": "set",
+            "count": 1
+          },
+          {
+            "label": "post",
+            "count": 1
+          },
+          {
+            "label": "quarterly",
+            "count": 1
+          },
+          {
+            "label": "scheduled",
+            "count": 1
+          },
+          {
+            "label": "release",
+            "count": 1
+          },
+          {
+            "label": "opens",
+            "count": 1
+          },
+          {
+            "label": "october",
+            "count": 1
+          },
+          {
+            "label": "forecasting",
+            "count": 1
+          },
+          {
+            "label": "per",
+            "count": 1
+          },
+          {
+            "label": "share",
+            "count": 1
+          }
+        ],
+        "headline": "SLB (SLB) Set to Post Quarterly Earnings on Friday",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-09-13",
+        "symbol": "SLB",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.3167,
+        "top_theme": "Energy Transportation",
+        "themes": [
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "drilling",
+            "count": 3
+          },
+          {
+            "label": "arabian",
+            "count": 2
+          },
+          {
+            "label": "land",
+            "count": 2
+          },
+          {
+            "label": "rig",
+            "count": 2
+          },
+          {
+            "label": "middle",
+            "count": 2
+          },
+          {
+            "label": "east",
+            "count": 2
+          },
+          {
+            "label": "operations",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          },
+          {
+            "label": "signs",
+            "count": 1
+          },
+          {
+            "label": "deal",
+            "count": 1
+          },
+          {
+            "label": "expands",
+            "count": 1
+          },
+          {
+            "label": "offshore",
+            "count": 1
+          }
+        ],
+        "headline": "Arabian Drilling signs $800 million land rig deal with SLB Middle East and expands offshore operations across GCC r...",
+        "headline_source": "Energies Media"
+      },
+      "emerging_themes": [
+        "Financial Markets",
+        "Earnings",
+        "Energy Transportation"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "earnings",
+        "friday",
+        "set"
+      ],
+      "fading_keywords": [
+        "drilling",
+        "arabian",
+        "land"
+      ],
+      "takeaway": "SLB's narrative is theme rotation: sentiment moved +0.01, while the leading theme shifted from Energy Transportation to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-16",
     "date": "2026-10-16",
     "runDate": "2026-10-16",

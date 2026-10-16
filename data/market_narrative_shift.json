@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-15T06:51:07.661529+00:00",
-  "date": "2026-10-15",
+  "updated_at": "2026-10-16T06:38:55.480634+00:00",
+  "date": "2026-10-16",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "PG",
-  "shift_label": "Turning bullish",
-  "sentiment_delta": 0.2036,
-  "baseline_label": "2026-09-08",
+  "symbol": "SLB",
+  "shift_label": "Theme rotation",
+  "sentiment_delta": 0.0091,
+  "baseline_label": "2026-09-13",
   "current": {
-    "date": "2026-10-15",
-    "symbol": "PG",
+    "date": "2026-10-16",
+    "symbol": "SLB",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.2683,
+    "sentiment_score": 0.3258,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -25,33 +25,21 @@
         "count": 1
       },
       {
-        "label": "Finance",
-        "count": 1
-      },
-      {
-        "label": "Retail Wholesale",
+        "label": "Energy Transportation",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "procter",
-        "count": 2
-      },
-      {
-        "label": "gamble",
-        "count": 2
-      },
-      {
         "label": "earnings",
+        "count": 3
+      },
+      {
+        "label": "friday",
         "count": 2
       },
       {
-        "label": "thursday",
-        "count": 2
-      },
-      {
-        "label": "projected",
+        "label": "set",
         "count": 1
       },
       {
@@ -63,15 +51,15 @@
         "count": 1
       },
       {
-        "label": "expected",
+        "label": "scheduled",
         "count": 1
       },
       {
-        "label": "announce",
+        "label": "release",
         "count": 1
       },
       {
-        "label": "open",
+        "label": "opens",
         "count": 1
       },
       {
@@ -79,99 +67,107 @@
         "count": 1
       },
       {
-        "label": "projecting",
-        "count": 1
-      }
-    ],
-    "headline": "Procter & Gamble (PG) Projected to Post Quarterly Earnings on Thursday",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-09-08",
-    "symbol": "PG",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.0647,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
+        "label": "forecasting",
         "count": 1
       },
       {
-        "label": "Financial Markets",
+        "label": "per",
+        "count": 1
+      },
+      {
+        "label": "share",
+        "count": 1
+      }
+    ],
+    "headline": "SLB (SLB) Set to Post Quarterly Earnings on Friday",
+    "headline_source": "MarketBeat"
+  },
+  "previous": {
+    "date": "2026-09-13",
+    "symbol": "SLB",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.3167,
+    "top_theme": "Energy Transportation",
+    "themes": [
+      {
+        "label": "Energy Transportation",
+        "count": 1
+      },
+      {
+        "label": "Earnings",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "margin",
+        "label": "drilling",
         "count": 3
       },
       {
-        "label": "kvue",
+        "label": "arabian",
         "count": 2
       },
       {
-        "label": "gains",
+        "label": "land",
         "count": 2
       },
       {
-        "label": "earnings",
+        "label": "rig",
         "count": 2
       },
       {
-        "label": "adjusted",
+        "label": "middle",
         "count": 2
       },
       {
-        "label": "should",
+        "label": "east",
+        "count": 2
+      },
+      {
+        "label": "operations",
+        "count": 2
+      },
+      {
+        "label": "for",
+        "count": 2
+      },
+      {
+        "label": "signs",
         "count": 1
       },
       {
-        "label": "investors",
+        "label": "deal",
         "count": 1
       },
       {
-        "label": "buy",
+        "label": "expands",
         "count": 1
       },
       {
-        "label": "offset",
-        "count": 1
-      },
-      {
-        "label": "slow",
-        "count": 1
-      },
-      {
-        "label": "sales",
-        "count": 1
-      },
-      {
-        "label": "growth",
+        "label": "offshore",
         "count": 1
       }
     ],
-    "headline": "Should Investors Buy KVUE as Margin Gains Offset Slow Sales Growth?",
-    "headline_source": "The Globe and Mail"
+    "headline": "Arabian Drilling signs $800 million land rig deal with SLB Middle East and expands offshore operations across GCC r...",
+    "headline_source": "Energies Media"
   },
   "emerging_themes": [
-    "Finance",
-    "Retail Wholesale",
-    "Earnings"
+    "Financial Markets",
+    "Earnings",
+    "Energy Transportation"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "procter",
-    "gamble",
-    "thursday"
+    "earnings",
+    "friday",
+    "set"
   ],
   "fading_keywords": [
-    "margin",
-    "kvue",
-    "gains"
+    "drilling",
+    "arabian",
+    "land"
   ],
-  "takeaway": "PG's narrative is turning bullish: sentiment moved +0.20, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "SLB's narrative is theme rotation: sentiment moved +0.01, while the leading theme shifted from Energy Transportation to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
