@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-tsla-2026-10-17",
+    "date": "2026-10-17",
+    "runDate": "2026-10-17",
+    "createdAt": "2026-10-17T06:27:55.578459+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $TSLA",
+    "status": "ready",
+    "tweet": "What changed in $TSLA's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.34\n📌 Top theme: Earnings\n🔎 Emerging term: lcid\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_TSLA_2026-10-17.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-17T06:27:52.164919+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$TSLA",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "TSLA",
+    "topChangePct": -34.33,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-17T06:27:52.164919+00:00",
+      "date": "2026-10-17",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "TSLA",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.3433,
+      "baseline_label": "2026-09-26",
+      "current": {
+        "date": "2026-10-17",
+        "symbol": "TSLA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": -0.2969,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Energy Transportation",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "lcid",
+            "count": 3
+          },
+          {
+            "label": "lucid",
+            "count": 2
+          },
+          {
+            "label": "falls",
+            "count": 1
+          },
+          {
+            "label": "following",
+            "count": 1
+          },
+          {
+            "label": "downgrade",
+            "count": 1
+          },
+          {
+            "label": "dropped",
+            "count": 1
+          },
+          {
+            "label": "morgan",
+            "count": 1
+          },
+          {
+            "label": "stanley",
+            "count": 1
+          },
+          {
+            "label": "lowered",
+            "count": 1
+          },
+          {
+            "label": "target",
+            "count": 1
+          },
+          {
+            "label": "maintaining",
+            "count": 1
+          },
+          {
+            "label": "underweight",
+            "count": 1
+          }
+        ],
+        "headline": "Lucid Group (NASDAQ:LCID) Stock Falls 10.6% Following Analyst Downgrade",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-09-26",
+        "symbol": "TSLA",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0464,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "core",
+            "count": 1
+          },
+          {
+            "label": "main",
+            "count": 1
+          },
+          {
+            "label": "cnm",
+            "count": 1
+          },
+          {
+            "label": "forecasts",
+            "count": 1
+          },
+          {
+            "label": "article",
+            "count": 1
+          },
+          {
+            "label": "yahoo",
+            "count": 1
+          },
+          {
+            "label": "finance",
+            "count": 1
+          },
+          {
+            "label": "largely",
+            "count": 1
+          },
+          {
+            "label": "empty",
+            "count": 1
+          },
+          {
+            "label": "displaying",
+            "count": 1
+          },
+          {
+            "label": "error",
+            "count": 1
+          },
+          {
+            "label": "message",
+            "count": 1
+          }
+        ],
+        "headline": "Core & Main, Inc. (CNM) Stock forecasts",
+        "headline_source": "Yahoo Finance UK"
+      },
+      "emerging_themes": [
+        "Finance",
+        "Energy Transportation",
+        "Technology"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "lcid",
+        "lucid",
+        "falls"
+      ],
+      "fading_keywords": [
+        "core",
+        "main",
+        "cnm"
+      ],
+      "takeaway": "TSLA's narrative is turning bearish: sentiment moved -0.34, while the leading theme shifted from Financial Markets to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-17",
     "date": "2026-10-17",
     "runDate": "2026-10-17",

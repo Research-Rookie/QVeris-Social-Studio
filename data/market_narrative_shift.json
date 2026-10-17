@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-16T06:38:55.480634+00:00",
-  "date": "2026-10-16",
+  "updated_at": "2026-10-17T06:27:52.164919+00:00",
+  "date": "2026-10-17",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "SLB",
-  "shift_label": "Theme rotation",
-  "sentiment_delta": 0.0091,
-  "baseline_label": "2026-09-13",
+  "symbol": "TSLA",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.3433,
+  "baseline_label": "2026-09-26",
   "current": {
-    "date": "2026-10-16",
-    "symbol": "SLB",
+    "date": "2026-10-17",
+    "symbol": "TSLA",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.3258,
+    "sentiment_score": -0.2969,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -25,73 +25,81 @@
         "count": 1
       },
       {
+        "label": "Finance",
+        "count": 1
+      },
+      {
         "label": "Energy Transportation",
+        "count": 1
+      },
+      {
+        "label": "Technology",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "earnings",
+        "label": "lcid",
         "count": 3
       },
       {
-        "label": "friday",
+        "label": "lucid",
         "count": 2
       },
       {
-        "label": "set",
+        "label": "falls",
         "count": 1
       },
       {
-        "label": "post",
+        "label": "following",
         "count": 1
       },
       {
-        "label": "quarterly",
+        "label": "downgrade",
         "count": 1
       },
       {
-        "label": "scheduled",
+        "label": "dropped",
         "count": 1
       },
       {
-        "label": "release",
+        "label": "morgan",
         "count": 1
       },
       {
-        "label": "opens",
+        "label": "stanley",
         "count": 1
       },
       {
-        "label": "october",
+        "label": "lowered",
         "count": 1
       },
       {
-        "label": "forecasting",
+        "label": "target",
         "count": 1
       },
       {
-        "label": "per",
+        "label": "maintaining",
         "count": 1
       },
       {
-        "label": "share",
+        "label": "underweight",
         "count": 1
       }
     ],
-    "headline": "SLB (SLB) Set to Post Quarterly Earnings on Friday",
+    "headline": "Lucid Group (NASDAQ:LCID) Stock Falls 10.6% Following Analyst Downgrade",
     "headline_source": "MarketBeat"
   },
   "previous": {
-    "date": "2026-09-13",
-    "symbol": "SLB",
+    "date": "2026-09-26",
+    "symbol": "TSLA",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.3167,
-    "top_theme": "Energy Transportation",
+    "sentiment_score": 0.0464,
+    "top_theme": "Financial Markets",
     "themes": [
       {
-        "label": "Energy Transportation",
+        "label": "Financial Markets",
         "count": 1
       },
       {
@@ -101,73 +109,73 @@
     ],
     "keywords": [
       {
-        "label": "drilling",
-        "count": 3
-      },
-      {
-        "label": "arabian",
-        "count": 2
-      },
-      {
-        "label": "land",
-        "count": 2
-      },
-      {
-        "label": "rig",
-        "count": 2
-      },
-      {
-        "label": "middle",
-        "count": 2
-      },
-      {
-        "label": "east",
-        "count": 2
-      },
-      {
-        "label": "operations",
-        "count": 2
-      },
-      {
-        "label": "for",
-        "count": 2
-      },
-      {
-        "label": "signs",
+        "label": "core",
         "count": 1
       },
       {
-        "label": "deal",
+        "label": "main",
         "count": 1
       },
       {
-        "label": "expands",
+        "label": "cnm",
         "count": 1
       },
       {
-        "label": "offshore",
+        "label": "forecasts",
+        "count": 1
+      },
+      {
+        "label": "article",
+        "count": 1
+      },
+      {
+        "label": "yahoo",
+        "count": 1
+      },
+      {
+        "label": "finance",
+        "count": 1
+      },
+      {
+        "label": "largely",
+        "count": 1
+      },
+      {
+        "label": "empty",
+        "count": 1
+      },
+      {
+        "label": "displaying",
+        "count": 1
+      },
+      {
+        "label": "error",
+        "count": 1
+      },
+      {
+        "label": "message",
         "count": 1
       }
     ],
-    "headline": "Arabian Drilling signs $800 million land rig deal with SLB Middle East and expands offshore operations across GCC r...",
-    "headline_source": "Energies Media"
+    "headline": "Core & Main, Inc. (CNM) Stock forecasts",
+    "headline_source": "Yahoo Finance UK"
   },
   "emerging_themes": [
-    "Financial Markets",
-    "Earnings",
-    "Energy Transportation"
+    "Finance",
+    "Energy Transportation",
+    "Technology"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "earnings",
-    "friday",
-    "set"
+    "lcid",
+    "lucid",
+    "falls"
   ],
   "fading_keywords": [
-    "drilling",
-    "arabian",
-    "land"
+    "core",
+    "main",
+    "cnm"
   ],
-  "takeaway": "SLB's narrative is theme rotation: sentiment moved +0.01, while the leading theme shifted from Energy Transportation to Earnings.",
+  "takeaway": "TSLA's narrative is turning bearish: sentiment moved -0.34, while the leading theme shifted from Financial Markets to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
