@@ -1,489 +1,259 @@
 {
-  "updated_at": "2026-10-16T07:27:51.063482+00:00",
-  "date": "2026-10-16",
+  "updated_at": "2026-10-17T05:47:58.828765+00:00",
+  "date": "2026-10-17",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
-      "title": "SLB (SLB) Set to Post Quarterly Earnings on Friday",
-      "summary": "SLB (NYSE:SLB) is scheduled to release its Q3 2026 earnings before the market opens on Friday, October 23rd, with analysts forecasting earnings of $0.618 per share and revenue o...",
-      "url": "https://www.marketbeat.com/instant-alerts/upcoming-slb-slb-set-to-post-quarterly-earnings-on-friday-2026-10-16/",
+      "title": "Lucid Group (NASDAQ:LCID) Stock Falls 10.6% Following Analyst Downgrade",
+      "summary": "Lucid Group (NASDAQ:LCID) shares dropped 10.6% after Morgan Stanley lowered its price target from $5 to $3, maintaining an \"underweight\" rating. Analyst sentiment for LCID remai...",
+      "url": "https://www.marketbeat.com/instant-alerts/price-lucid-group-nasdaq-lcid-stock-falls-106-following-analyst-downgrade-2026-10-16/",
       "source": "MarketBeat",
-      "published_at": "20261016T051436",
-      "sentiment_score": 0.307537,
-      "sentiment_label": "Somewhat-Bullish",
+      "published_at": "20261017T041127",
+      "sentiment_score": -0.271036,
+      "sentiment_label": "Somewhat-Bearish",
       "tickers": [
-        "SLB"
+        "LCID",
+        "TSLA",
+        "UBER"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Energy Transportation"
+        "Finance",
+        "Energy Transportation",
+        "Technology"
       ],
-      "quality_score": 19,
+      "quality_score": 16,
       "is_noise": false
     },
     {
-      "title": "eBay Shares Rise After Hours - Morgan Stanley (NYSE:MS), eBay (NASDAQ:EBAY)",
-      "summary": "eBay shares rose in after-hours trading, continuing gains from the regular session, as Wall Street analysts present divided views ahead of its Q3 earnings. Morgan Stanley named...",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62403048/ebay-shares-after-hours-recommerce-report-secondhand-shopping",
-      "source": "Benzinga",
-      "published_at": "20261016T045214",
-      "sentiment_score": 0.175154,
+      "title": "Infleqtion (NYSE:INFQ) Hits New 1-Year Low - Should You Sell?",
+      "summary": "Infleqtion (NYSE:INFQ) recently hit a new 52-week low of $8.42, trading significantly below its 50-day moving average. Despite this, analysts maintain a \"Moderate Buy\" rating wi...",
+      "url": "https://www.marketbeat.com/instant-alerts/price-infleqtion-nyse-infq-hits-new-1-year-low-should-you-sell-2026-10-16/",
+      "source": "MarketBeat",
+      "published_at": "20261017T031117",
+      "sentiment_score": -0.406705,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "INFQ"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 14,
+      "is_noise": false
+    },
+    {
+      "title": "Oil Stocks In Focus As Hormuz Risk Puts Integrated Producers Under Pressure",
+      "summary": "The article highlights how rising oil prices and shipping risks in the Strait of Hormuz are impacting integrated oil and gas producers. It examines three companies—Kosmos Energy...",
+      "url": "https://simplywall.st/stocks/us/energy/nyse-kos/kosmos-energy/news/oil-stocks-in-focus-as-hormuz-risk-puts-integrated-producers",
+      "source": "Simply Wall Street",
+      "published_at": "20261017T034204",
+      "sentiment_score": 0.044973,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KOS"
+      ],
+      "topics": [
+        "Energy Transportation",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "UBS raises Five9 stock price target on large deal momentum",
+      "summary": "UBS has increased its price target for Five9 (NASDAQ:FIVN) to $48 from $36, while maintaining a Buy rating, citing momentum from large deal wins. The firm projects Five9's reven...",
+      "url": "https://www.investing.com/news/analyst-ratings/ubs-raises-five9-stock-price-target-on-large-deal-momentum-93CH-4954419",
+      "source": "Investing.com",
+      "published_at": "20261017T021015",
+      "sentiment_score": 0.480213,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "FIVN"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "General Mills Inc (GRM.HA) analyst ratings, estimates and forecasts",
+      "summary": "This article provides a snapshot of General Mills Inc (GRM.HA) stock information, including its current trading price and daily percentage change. It also features a table for g...",
+      "url": "https://uk.finance.yahoo.com/quote/GRM.HA/analysis/",
+      "source": "Yahoo Finance UK",
+      "published_at": "20261017T020924",
+      "sentiment_score": 0.119971,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "GIS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Weekly Market Update: Stocks Down as Consumer Defensives Climb and Technology Tumbles",
+      "summary": "The Morningstar US Total Market Index fell 2.07% this week, with technology stocks experiencing a significant decline while consumer defensives and energy sectors saw gains. Bat...",
+      "url": "https://www.morningstar.com/markets/weekly-market-update-stocks-down-consumer-defensives-climb-technology-tumbles",
+      "source": "Morningstar",
+      "published_at": "20261017T044117",
+      "sentiment_score": 0.029504,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MORN"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Economy Macro",
+        "Technology",
+        "Retail Wholesale"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "How Investors May Respond To Jazz Pharmaceuticals (JAZZ) FDA Cancer Drug Approval",
+      "summary": "Jazz Pharmaceuticals recently received FDA approval for its oncology drug Ziihera, which broadens its oncology portfolio beyond its historical focus on sleep therapies. This app...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-jazz/jazz-pharmaceuticals/news/how-investors-may-respond-to-jazz-pharmaceuticals-jazz-fda-c",
+      "source": "Simply Wall Street",
+      "published_at": "20261017T034043",
+      "sentiment_score": 0.273288,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "EBAY",
-        "MS",
+        "JAZZ",
+        "MRK",
+        "VTRS"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 11,
+      "is_noise": false
+    },
+    {
+      "title": "Marsh & McLennan Companies (NYSE:MRSH) Price Target Raised to $197.00",
+      "summary": "Wells Fargo has increased its price target for Marsh & McLennan Companies (NYSE:MRSH) to $197.00 from $183.00, maintaining an \"equal weight\" rating and suggesting a 5.15% upside...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-19700-2026-10-16/",
+      "source": "MarketBeat",
+      "published_at": "20261017T044237",
+      "sentiment_score": 0.288459,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "MRSH",
         "WFC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Stocktwits Defense Watch: RTX Continues Deal Momentum, Ondas-Palantir Launch AI Firm As AeroVironment Strike Four I...",
+      "summary": "This article highlights recent activities in the defense sector, with RTX securing significant counter-drone orders from the U.S., Qatar, and Jordan, totaling $729 million. Aero...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stocktwits-defense-watch-rtx-continues-041547455.html",
+      "source": "Yahoo Finance",
+      "published_at": "20261017T041449",
+      "sentiment_score": 0.30297,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "RTX",
+        "PLTR",
+        "HII",
+        "LHX"
+      ],
+      "topics": [
+        "Technology",
+        "Financial Markets",
+        "Earnings",
+        "Mergers And Acquisitions"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "NBT Bancorp Inc. (NBTB) Stock Forecasts",
+      "summary": "Argus has lowered its target price for NBT Bancorp Inc. (NBTB) to $55.00, while the current price stands at $50.85. NBT Bancorp, a financial holding company, generates its princ...",
+      "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_4443_QuantitativeReport_1791936000000",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20261017T031054",
+      "sentiment_score": 0.060779,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NBTB",
+        "MTB",
+        "BAC"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Home BancShares, Inc. (HOMB) Stock Forecasts",
+      "summary": "Argus has lowered its target price for Home BancShares, Inc. (HOMB) to $27.00, while the current price stands at $29.20. Home BancShares operates as a bank holding company throu...",
+      "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_4422_QuantitativeReport_1791936000000",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20261017T022911",
+      "sentiment_score": -0.070849,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "HOMB",
+        "PNC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Should Tyson Foods Stock Holders Look At JM Smucker Instead?",
+      "summary": "This article compares Tyson Foods (TSN) and JM Smucker (SJM), two companies in the grocery brands sector. It highlights that Smucker has a more positive outlook, having raised i...",
+      "url": "https://www.trefis.com/stock/tsn/articles/618998/should-tyson-foods-stock-holders-look-at-jm-smucker-instead/2026-10-16",
+      "source": "Trefis",
+      "published_at": "20261017T021340",
+      "sentiment_score": 0.034021,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SJM",
+        "TSN"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Retail Wholesale"
       ],
-      "quality_score": 17,
-      "is_noise": false
-    },
-    {
-      "title": "Tompkins Financial (TMP) Expected to Post Earnings on Friday",
-      "summary": "Tompkins Financial (NYSEAMERICAN:TMP) is scheduled to release its Q3 2026 earnings before market open on Friday, October 23rd. Analysts are forecasting earnings of $1.95 per sha...",
-      "url": "https://www.marketbeat.com/instant-alerts/upcoming-tompkins-financial-tmp-expected-to-post-earnings-on-friday-2026-10-16/",
-      "source": "MarketBeat",
-      "published_at": "20261016T060836",
-      "sentiment_score": 0.307587,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TMP"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 16,
-      "is_noise": false
-    },
-    {
-      "title": "Synchrony Financial (SYF) Shares Moved, So What Is Driving Attention Now?",
-      "summary": "Synchrony Financial (SYF) is attracting attention due to options pricing suggesting a significant move before its earnings report, coupled with analysts trimming profit expectat...",
-      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-syf/synchrony-financial/news/synchrony-financial-syf-shares-moved-so-what-is-driving-atte",
-      "source": "Simply Wall Street",
-      "published_at": "20261016T064002",
-      "sentiment_score": 0.130095,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SYF-P-A",
-        "SYF"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Stocktwits AI Roundup: AI Chip Selloff Deepens, CoreWeave Debt Concerns And Apple’s China AI Launch",
-      "summary": "The AI market experienced a significant selloff in chip and AI-linked stocks this week, driven by concerns over AI spending sustainability, high valuations, and CoreWeave's debt...",
-      "url": "https://www.tradingview.com/news/stocktwits:7f1df3535094b:0-stocktwits-ai-roundup-ai-chip-selloff-deepens-coreweave-debt-concerns-and-apple-s-china-ai-launch/",
-      "source": "TradingView",
-      "published_at": "20261016T061129",
-      "sentiment_score": -0.209169,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "AAPL",
-        "INTC",
-        "MU"
-      ],
-      "topics": [
-        "Technology",
-        "Financial Markets",
-        "Ipo",
-        "Earnings"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "MetLife brings pet insurance to ChatGPT: stock pre-market at EUR 89.40",
-      "summary": "MetLife has integrated its Pet Insurance portal with ChatGPT, allowing users to get quotes and information via the AI platform. The company's stock was trading pre-market at EUR...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/metlife-brings-pet-insurance-to-chatgpt-stock-pre-market-at-eur-89-40/70336298",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T060604",
-      "sentiment_score": 0.333748,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MET"
-      ],
-      "topics": [
-        "Technology",
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "W.W. Grainger stock pre-market at EUR 1,188.50",
-      "summary": "W.W. Grainger stock is trading pre-market at EUR 1,188.50 at Lang & Schwarz as of October 16, 2026. The company's investor relations materials include a September 2026 presentat...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/w-w-grainger-stock-pre-market-at-eur-1-188-50/70336094",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T055842",
-      "sentiment_score": 0.033637,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GWW"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Southern Company stock pre-market at EUR 79.46",
-      "summary": "Southern Company's stock is trading at EUR 79.46 pre-market on October 16, 2026, ahead of its next scheduled earnings release on November 5, 2026. The company is involved in a D...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/southern-company-stock-pre-market-at-eur-79-46/70335663",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T054357",
-      "sentiment_score": 0.228112,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SO",
-        "AEE",
-        "AEP",
-        "AES",
-        "AWK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Aflac stock pre-market at EUR 105.25",
-      "summary": "Aflac stock is trading pre-market at EUR 105.25 on October 16, 2026, ahead of its Q3 2026 earnings release scheduled for November 4, 2026. The insurer will publish results after...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/aflac-stock-pre-market-at-eur-105-25/70335433",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T053741",
-      "sentiment_score": 0.035145,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AFL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Danaher announces NVIDIA collaboration: stock pre-market at EUR 206.40 on October 16, 2026",
-      "summary": "Danaher stock was trading pre-market at EUR 206.40 on October 16, 2026, following the announcement of a collaboration with NVIDIA on October 14, 2026. This partnership integrate...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/danaher-announces-nvidia-collaboration-stock-pre-market-at-eur-206-40-on/70335447",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T053700",
-      "sentiment_score": 0.468048,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DHR",
-        "NVDA"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Life Sciences"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "American Tower stock pre-market at EUR 161.85",
-      "summary": "American Tower stock is trading pre-market at EUR 161.85 on October 16, 2026, at Lang & Schwarz. The company's next earnings report is scheduled for October 27, 2026. A key refe...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/american-tower-stock-pre-market-at-eur-161-85/70335350",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T053557",
-      "sentiment_score": 0.06935,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AMT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Teledyne Technologies Incorporated (NYSE:TDY) Stock Has Average Price Target of $723.33 According to Brokerages",
-      "summary": "Teledyne Technologies (NYSE:TDY) has received a \"Moderate Buy\" consensus recommendation from analysts, with an average 12-month price target of $723.33. The company recently sur...",
-      "url": "https://www.marketbeat.com/instant-alerts/consensus-teledyne-technologies-incorporated-nyse-tdy-stock-has-average-price-target-of-72333-according-to-brokerages-2026-10-16/",
-      "source": "MarketBeat",
-      "published_at": "20261016T062436",
-      "sentiment_score": 0.30611,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TDY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology",
-        "Manufacturing"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "AMETEK announces November 3 earnings release; stock pre-market at EUR 221.10",
-      "summary": "AMETEK Inc. announced that its third-quarter earnings release will be issued on November 3, 2026, before the market opens, with an investor conference call scheduled for 8:30 a....",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/ametek-announces-november-3-earnings-release-stock-pre-market-at-eur/70336389",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T060912",
-      "sentiment_score": 0.047072,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AME"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Corning stock gains 2.71 percent pre-market to EUR 124.83",
-      "summary": "Corning stock saw a pre-market gain of 2.71 percent, reaching EUR 124.83 at Lang & Schwarz on October 16, 2026. This increase is compared to the previous day's Xetra close. The...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/corning-stock-gains-2-71-percent-pre-market-to-eur-124-83/70335781",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T054851",
-      "sentiment_score": 0.401358,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "GLW"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Manufacturing",
-        "Life Sciences"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Regeneron Pharmaceuticals (NASDAQ:REGN) Upgraded at UBS Group",
-      "summary": "UBS Group upgraded Regeneron Pharmaceuticals (NASDAQ:REGN) from \"neutral\" to \"buy\" and increased its price target from $660 to $978, citing the long-term growth potential of its...",
-      "url": "https://www.marketbeat.com/instant-alerts/analyst-regeneron-pharmaceuticals-nasdaq-regn-upgraded-at-ubs-group-2026-10-15/",
-      "source": "MarketBeat",
-      "published_at": "20261016T043715",
-      "sentiment_score": 0.475493,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "REGN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "Gilead Sciences to Release Third Quarter 2026 Financial Results on Thursday, October 29, 2026",
-      "summary": "Gilead Sciences, Inc. (Nasdaq: GILD) announced it will release its third quarter 2026 financial results and guidance on Thursday, October 29, 2026, after the market closes. Foll...",
-      "url": "https://www.biospace.com/press-releases/gilead-sciences-to-release-third-quarter-2026-financial-results-on-thursday-october-29-2026",
-      "source": "BioSpace",
-      "published_at": "20261016T042549",
-      "sentiment_score": 0.127896,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GILD"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "AI Partnerships Might Change The Case For Lumen Stock",
-      "summary": "Lumen Technologies has announced new partnerships with Snowflake and Eminence Grey, integrating its network infrastructure with their platforms for secure AI data movement and s...",
-      "url": "https://simplywall.st/stocks/us/telecom/nasdaq-lumn/lumen-technologies/news/ai-partnerships-might-change-the-case-for-lumen-stock",
-      "source": "Simply Wall Street",
-      "published_at": "20261016T034353",
-      "sentiment_score": 0.217314,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "LUMN"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 10,
-      "is_noise": false
-    },
-    {
-      "title": "China Merchants lifts target for Tencent Music stock to USD 10.50",
-      "summary": "China Merchants Securities upgraded Tencent Music Entertainment Group (TME) from Hold to Buy, setting a new target price of USD 10.50. This target is 21.39 percent above the cur...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/china-merchants-lifts-target-for-tencent-music-stock-to-usd-10-50/70333734",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T064321",
-      "sentiment_score": 0.047791,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TME"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
       "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "Teradata to report Q3 2026 earnings and host co...",
-      "summary": "Teradata Corporation is scheduled to release its third-quarter 2026 financial results after market close on November 5, 2026. The company will also host a conference call and li...",
-      "url": "https://pluang.com/en/news-feed/teradata-umumkan-tanggal-rilis-laporan-keuangan-kuartal-3-2026",
-      "source": "Pluang",
-      "published_at": "20261016T064208",
-      "sentiment_score": 0.04269,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TDC"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "IDEXX Laboratories, Inc. (IDXX) Stock forecasts",
-      "summary": "Argus has raised its target price for IDEXX Laboratories, Inc. (IDXX) stock to $572.00, noting that the company primarily develops, manufactures, and distributes diagnostic prod...",
-      "url": "https://au.finance.yahoo.com/research/reports/ARGUS_4071_QuantitativeReport_1791936000000",
-      "source": "Yahoo Finance Australia",
-      "published_at": "20261016T053929",
-      "sentiment_score": 0.020254,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "IDXX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Mechanics Bancorp sets October 28 results date: what it means for Mechanics Bancorp stock",
-      "summary": "Mechanics Bancorp (MCHB) is set to release its third-quarter 2026 results after market close on October 28, 2026, with an earnings call scheduled for October 29, 2026. This anno...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/mechanics-bancorp-sets-october-28-results-date-what-it-means-for/70333989",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T051218",
-      "sentiment_score": 0.010976,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MCHB"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "MDxHealth Q3FY27 Results: Revenue flat at $22.7M, guidance suspended",
-      "summary": "MDxHealth reported flat preliminary Q3FY27 revenue of $22.7 million, leading to the suspension of its full-year 2026 revenue guidance. The company attributed this shortfall to u...",
-      "url": "https://scanx.trade/stock-market-news/companies/mdxhealth-q3fy27-results-revenue-flat-22-7m-guidance-suspended/53651050",
-      "source": "scanx.trade",
-      "published_at": "20261016T043400",
-      "sentiment_score": -0.42697,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "MDXH"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Why Did CRWV, OPEN, SOFI Stocks Tumble To 52-Week Lows Today?",
-      "summary": "CoreWeave (CRWV), Opendoor Technologies (OPEN), and SoFi Technologies (SOFI) stocks hit 52-week lows due to concerns over rising debt costs, a weak housing market, and slowing p...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-crwv-open-sofi-041528122.html",
-      "source": "Yahoo Finance",
-      "published_at": "20261016T041408",
-      "sentiment_score": 0.025981,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SOFI",
-        "COIN",
-        "MRNA",
-        "KO"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Economy Monetary",
-        "Real Estate",
-        "Finance"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Smith Micro joins AARP AgeTech group. November 4 is next for Smith Micro Software stock",
-      "summary": "Smith Micro Software (SMSI) joined AARP's AgeTech Collaborative on October 6, 2026, and reported Q2 2026 revenue of $4.34 million. The company is preparing for its Q3 earnings r...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/smith-micro-joins-aarp-agetech-group-november-4-is-next-for-smith-micro/70334601",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T033922",
-      "sentiment_score": 0.293135,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SMSI"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Financial Markets"
-      ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Ecolab stock pre-market at EUR 259.35",
-      "summary": "Ecolab stock is trading pre-market at EUR 259.35 on October 16, 2026, ahead of its third-quarter results webcast scheduled for October 27, 2026. The webcast will discuss the com...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/ecolab-stock-pre-market-at-eur-259-35/70336473",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T061159",
-      "sentiment_score": 0.041509,
+      "title": "Analysts Conflicted on These Materials Names: Corteva (CTVA), Vale SA (VALE) and Ecolab (ECL)",
+      "summary": "Analysts are divided on several Materials sector companies, with RBC Capital maintaining ratings for Corteva (CTVA), Vale SA (VALE), and Ecolab (ECL). Corteva received a Buy rat...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CTVA/pressreleases/8121222/analysts-conflicted-on-these-materials-names-corteva-ctva-vale-sa-vale-and-ecolab-ecl/",
+      "source": "The Globe and Mail",
+      "published_at": "20261017T020234",
+      "sentiment_score": 0.010435,
       "sentiment_label": "Neutral",
       "tickers": [
         "ECL"
@@ -492,780 +262,1029 @@
         "Earnings",
         "Financial Markets"
       ],
-      "quality_score": 8,
+      "quality_score": 9,
       "is_noise": false
     },
     {
-      "title": "CSX Corp. stock pre-market at EUR 43.36",
-      "summary": "CSX Corp. stock was trading at EUR 43.36 in pre-market trading at Lang & Schwarz on October 16, 2026. The company is scheduled to release its third-quarter results after market...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/csx-corp-stock-pre-market-at-eur-43-36/70336419",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T061006",
-      "sentiment_score": 0.028507,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "CSX"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "NextEra Energy stock pre-market at EUR 70.46",
-      "summary": "NextEra Energy's stock is trading at EUR 70.46 pre-market at Lang & Schwarz on October 16, 2026, ahead of its third-quarter results release scheduled for October 21, 2026. The c...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/nextera-energy-stock-pre-market-at-eur-70-46/70336306",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T060637",
-      "sentiment_score": 0.04594,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "NEE"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Sherwin-Williams stock pre-market at EUR 301.05",
-      "summary": "Sherwin-Williams stock is trading pre-market at EUR 301.05 on October 16, 2026, at Lang & Schwarz. The company is scheduled to release its third-quarter 2026 financial results b...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/sherwin-williams-stock-pre-market-at-eur-301-05/70335983",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T055426",
-      "sentiment_score": -0.096598,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SHW"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Cencora stock pre-market at EUR 304.65",
-      "summary": "Cencora stock is trading at EUR 304.65 in pre-market at Lang & Schwarz on October 16, 2026. The company is scheduled to release its fiscal fourth-quarter results on November 4,...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/cencora-stock-pre-market-at-eur-304-65/70335660",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T054343",
-      "sentiment_score": 0.005356,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "COR"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Thermo Fisher Scientific stock pre-market at EUR 621.70",
-      "summary": "Thermo Fisher Scientific's stock is trading pre-market at EUR 621.70 on October 16, 2026, ahead of its third-quarter results release scheduled for October 21. The company's pric...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/thermo-fisher-scientific-stock-pre-market-at-eur-621-70/70335642",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T054325",
-      "sentiment_score": 0.035353,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TMO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Altria schedules October 29 results webcast; stock pre-market at EUR 65.78",
-      "summary": "Altria Group Inc. has scheduled its third-quarter and nine-month results webcast for October 29, 2026. The company's stock was trading at EUR 65.78 in pre-market at Lang & Schwa...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/altria-schedules-october-29-results-webcast-stock-pre-market-at-eur-65-78/70335386",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T053624",
-      "sentiment_score": 0.012788,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MO"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "Parker-Hannifin schedules annual meeting for October 28, 2026: stock pre-market at EUR 857.40",
-      "summary": "Parker-Hannifin has scheduled its annual meeting for October 28, 2026, at 9:00 a.m. Eastern. The company's stock was trading pre-market at EUR 857.40 on October 16, 2026, at Lan...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/parker-hannifin-schedules-annual-meeting-for-october-28-2026-stock/70335312",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T053451",
-      "sentiment_score": 0.074754,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PH"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Manufacturing"
-      ],
-      "quality_score": 8,
-      "is_noise": false
-    },
-    {
-      "title": "What Fastenal Holders Got Right",
-      "summary": "Fastenal's stock has seen a 26.6% return this year, outperforming previous analyst expectations split between an 11% upside and 26% downside. The company's Q3 2026 report showed...",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-fast/fastenal/news/what-fastenal-holders-got-right",
+      "title": "Fastenal Stock And Other Defensive Dividend Names Back In Focus",
+      "summary": "With inflation and borrowing costs on the rise, investors are looking for resilient, dividend-paying companies. This article highlights three US large-cap defensive dividend sto...",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-fast/fastenal/news/fastenal-stock-and-other-defensive-dividend-names-back-in-fo/amp",
       "source": "Simply Wall Street",
-      "published_at": "20261016T054050",
-      "sentiment_score": 0.126218,
-      "sentiment_label": "Neutral",
+      "published_at": "20261017T050937",
+      "sentiment_score": 0.332545,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "FAST"
       ],
       "topics": [
         "Earnings",
-        "Retail Wholesale",
+        "Economy Monetary",
+        "Economy Macro",
+        "Finance",
+        "Retail Wholesale"
+      ],
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
+      "title": "Trinidad Nitrogen Shutdown Could Be A Game Changer For Nutrien Stock (TSX:NTR)",
+      "summary": "Nutrien (TSX:NTR) has announced the indefinite shutdown of its Trinidad Nitrogen operations due to natural gas constraints, a move expected to streamline its portfolio and enhan...",
+      "url": "https://simplywall.st/stocks/ca/materials/tsx-ntr/nutrien-shares/news/trinidad-nitrogen-shutdown-could-be-a-game-changer-for-nutri",
+      "source": "Simply Wall Street",
+      "published_at": "20261017T051305",
+      "sentiment_score": 0.269504,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "NTR"
+      ],
+      "topics": [
+        "Earnings",
         "Financial Markets",
-        "Manufacturing"
+        "Economy Macro",
+        "Finance",
+        "Energy Transportation"
       ],
       "quality_score": 7,
       "is_noise": false
     },
     {
-      "title": "MicroVision to report Q3FY26 results on October 28, 2026",
-      "summary": "MicroVision Inc. (NASDAQ: MVIS) will announce its Q3 FY26 financial results on October 28, 2026, after market close, followed by a conference call and webcast. The company, a pr...",
-      "url": "https://scanx.trade/stock-market-news/companies/microvision-report-q3fy26-results-october-28-2026/53649428",
-      "source": "scanx.trade",
-      "published_at": "20261016T040700",
-      "sentiment_score": 0.038557,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MVIS"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Manufacturing"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
-      "title": "Thor Industries Director Christopher Klein Awarded 2,912 RSUs, Details on Ownership Disclosed",
-      "summary": "Thor Industries Director Christopher J. Klein was awarded 2,912 Restricted Stock Units (RSUs) on October 13, 2026, which are set to fully vest a year later. This award, valued a...",
-      "url": "https://kalkinemedia.com/us/news/announcements/thor-industries-director-christopher-klein-awarded-2912-rsus-details-on-ownership-disclosed",
-      "source": "Kalkine Media",
-      "published_at": "20261016T064059",
-      "sentiment_score": 0.110809,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "THO"
-      ],
-      "topics": [
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "International Business Machines' (IBM) \"Outperform\" Rating Reiterated at Royal Bank Of Canada",
-      "summary": "Royal Bank Of Canada has reiterated its \"outperform\" rating for International Business Machines (IBM), setting a target price of $270.00, suggesting a potential upside of 15.36%...",
-      "url": "https://www.marketbeat.com/instant-alerts/analyst-international-business-machines-nyse-ibm-stock-keeps-outperform-rating-at-royal-bank-of-canada-2026-10-13/",
-      "source": "MarketBeat",
-      "published_at": "20261016T062731",
-      "sentiment_score": 0.226179,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "IBM"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "A 10-Day Winning Streak Has Republic Services Stock Up 11%",
-      "summary": "Republic Services (RSG) stock has experienced a 10-day winning streak, increasing by 11.3% and adding $7.2 billion to its market value, now at $70.6 billion. This rally appears...",
-      "url": "https://www.trefis.com/stock/rsg/articles/618983/a-10-day-winning-streak-has-republic-services-stock-up-11/2026-10-16",
-      "source": "Trefis",
-      "published_at": "20261016T060358",
-      "sentiment_score": 0.427101,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "RSG"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Labcorp To Pay Up To $872M For BioReference Health Assets, Including 4Kscore Prostate Test",
-      "summary": "Labcorp has agreed to acquire specific BioReference Health assets, including labs, patient service centers, and the FDA-approved 4Kscore prostate cancer test, for up to $872 mil...",
-      "url": "https://insights.citeline.com/medtech-insight/business/deals/labcorp-to-pay-up-to-872m-for-bioreference-health-assets-including-4kscore-prostate-test-GKKRFTKVLREPNBPBZ3NXL4FPNU/",
-      "source": "Medtech Insight",
-      "published_at": "20261016T050948",
-      "sentiment_score": 0.406334,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "LH"
-      ],
-      "topics": [
-        "Mergers And Acquisitions",
-        "Life Sciences",
-        "Earnings"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "RBC maintains USD 6.00 target for Pyxis Oncology stock",
-      "summary": "RBC Capital has maintained its \"Buy\" rating and USD 6.00 price target for Pyxis Oncology (PYXS) following the company's recent public offering, which generated USD 110.0 million...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/rbc-maintains-usd-6-00-target-for-pyxis-oncology-stock/70334744",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T043400",
-      "sentiment_score": 0.288508,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "PYXS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Freenome to Report Third Quarter 2026 Financial Results on November 10, 2026",
-      "summary": "Freenome, an early cancer detection company, announced it will release its third quarter 2026 financial results on November 10, 2026, after market close. The company will host a...",
-      "url": "https://www.manilatimes.net/2026/10/16/tmt-newswire/globenewswire/freenome-to-report-third-quarter-2026-financial-results-on-november-10-2026/2447085/amp",
-      "source": "The Manila Times",
-      "published_at": "20261016T043400",
-      "sentiment_score": 0.013104,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "FRNM"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Mobia Medical to report Q3FY26 results on November 5, 2026",
-      "summary": "Mobia Medical, Inc. will release its Q3 FY2026 financial results on Thursday, November 5, 2026. The company, which specializes in FDA-approved stroke recovery devices, will host...",
-      "url": "https://scanx.trade/stock-market-news/companies/mobia-medical-report-q3fy26-results-november-5-2026/53648944",
-      "source": "scanx.trade",
-      "published_at": "20261016T035900",
-      "sentiment_score": 0.032193,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MOBI"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Surgery Partners stock rises 2.34 percent to EUR 13.10",
-      "summary": "Surgery Partners stock increased by 2.34 percent to EUR 13.10 on October 15, 2026. Cantor Fitzgerald maintained an Overweight rating and an USD 18.00 price target for the compan...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/surgery-partners-stock-rises-2-34-percent-to-eur-13-10/70333374",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T032700",
-      "sentiment_score": 0.638325,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "SGRY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Morgan Stanley starts coverage on SiTime stock at USD 370.00",
-      "summary": "Morgan Stanley initiated coverage on SiTime stock (SITM) with an \"Overweight\" rating and a price target of USD 370.00. This target is significantly below SiTime's current Nasdaq...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/morgan-stanley-starts-coverage-on-sitime-stock-at-usd-370-00/70333670",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T061311",
-      "sentiment_score": 0.16935,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SITM",
-        "MS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Can Royal Caribbean Cruises (RCL) Justify Its Price On Cash Flow?",
-      "summary": "Royal Caribbean Cruises has seen significant share price growth over the past three years, prompting a review of whether its current valuation is supported by future cash flows,...",
-      "url": "https://simplywall.st/stocks/us/consumer-services/nyse-rcl/royal-caribbean-cruises/news/can-royal-caribbean-cruises-rcl-justify-its-price-on-cash-fl",
+      "title": "S&P Global (SPGI), What Is Behind The Fresh Attention?",
+      "summary": "S&P Global (SPGI) is expanding its AI tools, including integrating Visible Alpha’s sell-side consensus into its AI Data Portal, amidst a mixed stock performance. Despite a recen...",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-spgi/sp-global/news/sp-global-spgi-what-is-behind-the-fresh-attention-1",
       "source": "Simply Wall Street",
-      "published_at": "20261016T054048",
-      "sentiment_score": 0.229729,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "RCL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "SITE Centers Announces Sale of DTP Interests and Special Common Distribution",
-      "summary": "SITE Centers Corp. (NYSE: SITC) announced the sale of its interests in the Dividend Trust Portfolio joint venture for approximately $32.4 million. The company also declared a sp...",
-      "url": "https://sg.finance.yahoo.com/news/centers-announces-sale-dtp-interests-205800498.html",
-      "source": "Yahoo Finance Singapore",
-      "published_at": "20261016T034158",
-      "sentiment_score": 0.317118,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SITC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Real Estate"
-      ],
-      "quality_score": 4,
-      "is_noise": false
-    },
-    {
-      "title": "Sysco (SYY) Reaches Agreement with Teamsters, Easing LA Operatio",
-      "summary": "Sysco Corporation (SYY) has finalized an agreement with the Teamsters union, resolving labor disruptions in its Los Angeles operations. The company, a major foodservice distribu...",
-      "url": "https://www.gurufocus.com/news/9127251/sysco-syy-reaches-agreement-with-teamsters-easing-la-operations-disruption",
-      "source": "GuruFocus",
-      "published_at": "20261016T061320",
-      "sentiment_score": 0.423455,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "SYY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Kingsway director reports 3,575 share purchases: what it means for Kingsway stock",
-      "summary": "A director of Kingsway Corporation, Joshua Horowitz, indirectly increased holdings by 3,575 shares through Palm Global Small Cap Master Fund LP across September 28 and September...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kingsway-director-reports-3-575-share-purchases-what-it-means-for/70334768",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T044300",
-      "sentiment_score": 0.458029,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "KWY"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Williams Companies Inc (WMB) Shares Fall 4.9% -- GF Value Says S",
-      "summary": "Williams Companies Inc (WMB) shares dropped 4.9% to $69.22, with GuruFocus's GF Value indicating the stock is 8.7% overvalued at $63.70. Despite a strong GF Score of 81/100, WMB...",
-      "url": "https://www.gurufocus.com/news/9126574/williams-companies-inc-wmb-shares-fall-49-gf-value-says-still-overvalued?utm_source=marketwatch&utm_medium=syndication&utm_campaign=headlines&r=4bf001661e6fdd88d0cd7a5659ff9748&mod=mw_quote_news",
-      "source": "GuruFocus",
-      "published_at": "20261016T040741",
-      "sentiment_score": -0.409357,
-      "sentiment_label": "Bearish",
-      "tickers": [
-        "WMB"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings",
-        "Energy Transportation"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
-      "title": "Evolution Metals & Technologies Corp. Takes Delivery of Additional ULVAC Magnet Production Equipment, Unlocking Ten...",
-      "summary": "Evolution Metals & Technologies Corp. (EM&T) has received additional ULVAC magnet production equipment at its Pohang facility, marking a significant step in its ten-fold capacit...",
-      "url": "https://markets.businessinsider.com/news/stocks/evolution-metals-technologies-corp-takes-delivery-of-additional-ulvac-magnet-production-equipment-unlocking-ten-fold-magnet-capacity-expansion-1036630045",
-      "source": "markets.businessinsider.com",
-      "published_at": "20261016T044152",
-      "sentiment_score": 0.311905,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "EMAT",
-        "LMT",
-        "NOC"
-      ],
-      "topics": [
-        "Manufacturing",
-        "Earnings"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "Revenue rises 148% at ChronoScale (CHRN), but its continuing-operations loss widens.",
-      "summary": "ChronoScale (CHRN) reported a 148% revenue increase to $41.5 million in fiscal Q1 2027, driven by a new customer and AI infrastructure deals, including a 50 MW deployment with M...",
-      "url": "https://www.stocktitan.net/sec-filings/CHRN/8-k-chrono-scale-holdings-corp-reports-material-event-d6a5424a19a2.html",
-      "source": "Stock Titan",
-      "published_at": "20261016T041243",
-      "sentiment_score": 0.202521,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "CHRN",
-        "MSFT"
-      ],
-      "topics": [
-        "Earnings",
-        "Technology",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    }
-  ],
-  "article_count": 50,
-  "top_ticker": "MS",
-  "top_topic": "Earnings",
-  "dominant_sentiment": "Neutral",
-  "top_story": "SLB (SLB) Set to Post Quarterly Earnings on Friday",
-  "signal_articles": [
-    {
-      "title": "SLB (SLB) Set to Post Quarterly Earnings on Friday",
-      "summary": "SLB (NYSE:SLB) is scheduled to release its Q3 2026 earnings before the market opens on Friday, October 23rd, with analysts forecasting earnings of $0.618 per share and revenue o...",
-      "url": "https://www.marketbeat.com/instant-alerts/upcoming-slb-slb-set-to-post-quarterly-earnings-on-friday-2026-10-16/",
-      "source": "MarketBeat",
-      "published_at": "20261016T051436",
-      "sentiment_score": 0.307537,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SLB"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 19,
-      "is_noise": false
-    },
-    {
-      "title": "eBay Shares Rise After Hours - Morgan Stanley (NYSE:MS), eBay (NASDAQ:EBAY)",
-      "summary": "eBay shares rose in after-hours trading, continuing gains from the regular session, as Wall Street analysts present divided views ahead of its Q3 earnings. Morgan Stanley named...",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62403048/ebay-shares-after-hours-recommerce-report-secondhand-shopping",
-      "source": "Benzinga",
-      "published_at": "20261016T045214",
-      "sentiment_score": 0.175154,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "EBAY",
-        "MS",
-        "WFC"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale"
-      ],
-      "quality_score": 17,
-      "is_noise": false
-    },
-    {
-      "title": "Tompkins Financial (TMP) Expected to Post Earnings on Friday",
-      "summary": "Tompkins Financial (NYSEAMERICAN:TMP) is scheduled to release its Q3 2026 earnings before market open on Friday, October 23rd. Analysts are forecasting earnings of $1.95 per sha...",
-      "url": "https://www.marketbeat.com/instant-alerts/upcoming-tompkins-financial-tmp-expected-to-post-earnings-on-friday-2026-10-16/",
-      "source": "MarketBeat",
-      "published_at": "20261016T060836",
-      "sentiment_score": 0.307587,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TMP"
-      ],
-      "topics": [
-        "Earnings",
-        "Finance"
-      ],
-      "quality_score": 16,
-      "is_noise": false
-    },
-    {
-      "title": "Synchrony Financial (SYF) Shares Moved, So What Is Driving Attention Now?",
-      "summary": "Synchrony Financial (SYF) is attracting attention due to options pricing suggesting a significant move before its earnings report, coupled with analysts trimming profit expectat...",
-      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-syf/synchrony-financial/news/synchrony-financial-syf-shares-moved-so-what-is-driving-atte",
-      "source": "Simply Wall Street",
-      "published_at": "20261016T064002",
-      "sentiment_score": 0.130095,
+      "published_at": "20261017T045132",
+      "sentiment_score": 0.121357,
       "sentiment_label": "Neutral",
       "tickers": [
-        "SYF-P-A",
-        "SYF"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Stocktwits AI Roundup: AI Chip Selloff Deepens, CoreWeave Debt Concerns And Apple’s China AI Launch",
-      "summary": "The AI market experienced a significant selloff in chip and AI-linked stocks this week, driven by concerns over AI spending sustainability, high valuations, and CoreWeave's debt...",
-      "url": "https://www.tradingview.com/news/stocktwits:7f1df3535094b:0-stocktwits-ai-roundup-ai-chip-selloff-deepens-coreweave-debt-concerns-and-apple-s-china-ai-launch/",
-      "source": "TradingView",
-      "published_at": "20261016T061129",
-      "sentiment_score": -0.209169,
-      "sentiment_label": "Somewhat-Bearish",
-      "tickers": [
-        "AAPL",
-        "INTC",
-        "MU"
-      ],
-      "topics": [
-        "Technology",
-        "Financial Markets",
-        "Ipo",
-        "Earnings"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "MetLife brings pet insurance to ChatGPT: stock pre-market at EUR 89.40",
-      "summary": "MetLife has integrated its Pet Insurance portal with ChatGPT, allowing users to get quotes and information via the AI platform. The company's stock was trading pre-market at EUR...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/metlife-brings-pet-insurance-to-chatgpt-stock-pre-market-at-eur-89-40/70336298",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T060604",
-      "sentiment_score": 0.333748,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MET"
-      ],
-      "topics": [
-        "Technology",
-        "Finance",
-        "Earnings"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "W.W. Grainger stock pre-market at EUR 1,188.50",
-      "summary": "W.W. Grainger stock is trading pre-market at EUR 1,188.50 at Lang & Schwarz as of October 16, 2026. The company's investor relations materials include a September 2026 presentat...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/w-w-grainger-stock-pre-market-at-eur-1-188-50/70336094",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T055842",
-      "sentiment_score": 0.033637,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GWW"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Earnings"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Southern Company stock pre-market at EUR 79.46",
-      "summary": "Southern Company's stock is trading at EUR 79.46 pre-market on October 16, 2026, ahead of its next scheduled earnings release on November 5, 2026. The company is involved in a D...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/southern-company-stock-pre-market-at-eur-79-46/70335663",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T054357",
-      "sentiment_score": 0.228112,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "SO",
-        "AEE",
-        "AEP",
-        "AES",
-        "AWK"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Energy Transportation"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Aflac stock pre-market at EUR 105.25",
-      "summary": "Aflac stock is trading pre-market at EUR 105.25 on October 16, 2026, ahead of its Q3 2026 earnings release scheduled for November 4, 2026. The insurer will publish results after...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/aflac-stock-pre-market-at-eur-105-25/70335433",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T053741",
-      "sentiment_score": 0.035145,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "AFL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets"
-      ],
-      "quality_score": 11,
-      "is_noise": false
-    },
-    {
-      "title": "Danaher announces NVIDIA collaboration: stock pre-market at EUR 206.40 on October 16, 2026",
-      "summary": "Danaher stock was trading pre-market at EUR 206.40 on October 16, 2026, following the announcement of a collaboration with NVIDIA on October 14, 2026. This partnership integrate...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/danaher-announces-nvidia-collaboration-stock-pre-market-at-eur-206-40-on/70335447",
-      "source": "ad-hoc-news.de",
-      "published_at": "20261016T053700",
-      "sentiment_score": 0.468048,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DHR",
+        "SPGI",
+        "CME",
+        "MCO",
         "NVDA"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Technology",
+        "Economy Macro",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Edison International (EIX) Could Be 13% Undervalued As Judge Narrows Fire Claims",
+      "summary": "A US judge has significantly narrowed fire claims against Edison International (EIX) by dismissing several major lawsuits related to the January 2025 Palisades Fire, reducing th...",
+      "url": "https://simplywall.st/stocks/us/utilities/nyse-eix/edison-international/news/edison-international-eix-could-be-13-undervalued-as-judge-na",
+      "source": "Simply Wall Street",
+      "published_at": "20261017T044738",
+      "sentiment_score": 0.428708,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "EIX"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Energy Transportation",
+        "Finance"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Broker Upgrade Could Reframe The Case For ArcelorMittal Stock (ENXTAM:MT)",
+      "summary": "J.P. Morgan upgraded ArcelorMittal to overweight, citing expectations for stronger EBITDA in 2027 and 2028 from its North American, European, and Brazilian operations. This re-f...",
+      "url": "https://simplywall.st/stocks/nl/materials/ams-mt/arcelormittal-shares/news/broker-upgrade-could-reframe-the-case-for-arcelormittal-stoc",
+      "source": "Simply Wall Street",
+      "published_at": "20261017T044323",
+      "sentiment_score": 0.339564,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "MT"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing",
+        "Economy Macro"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Intuit Inc. Stock 12‑Month Price Target Cut to $393.89, Implies 21% Upside",
+      "summary": "The average 12-month price target for Intuit Inc. (INTU) stock has been reduced to $393.89 from $399.11, based on estimates from 27 analysts. This new target implies a potential...",
+      "url": "https://www.tradingview.com/news/tradingview:4901e7c1526d7:0-intuit-inc-stock-12-month-price-target-cut-to-393-89-implies-21-upside/",
+      "source": "TradingView",
+      "published_at": "20261017T041945",
+      "sentiment_score": 0.25197,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "INTU"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Earnings",
+        "Technology"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Steel Dynamics Earnings Ahead: What Past Reactions Say About The Stock",
+      "summary": "Steel Dynamics (NASDAQ:STLD) is set to report earnings on October 19, 2026. Analysis of past earnings reactions shows the stock has had positive one-day returns 50% of the time...",
+      "url": "https://www.trefis.com/stock/stld/articles/618973/steel-dynamics-earnings-ahead-what-past-reactions-say-about-the-stock/2026-10-16",
+      "source": "Trefis",
+      "published_at": "20261017T022809",
+      "sentiment_score": 0.051952,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "STLD",
+        "MRNA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "Fabrinet (FN) Stock Could Trade At A 12% Discount To Cash Flow",
+      "summary": "Fabrinet (FN) has experienced a significant stock pullback, prompting an evaluation of its current share price against its projected cash flow. A Discounted Cash Flow (DCF) mode...",
+      "url": "https://simplywall.st/stocks/us/tech/nyse-fn/fabrinet/news/fabrinet-fn-stock-could-trade-at-a-12-discount-to-cash-flow",
+      "source": "Simply Wall Street",
+      "published_at": "20261017T014224",
+      "sentiment_score": 0.312539,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "FN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 7,
+      "is_noise": false
+    },
+    {
+      "title": "A Nevada minerals deal came with shares equal to 19.9% of Newton Golf's stock.",
+      "summary": "Newton Golf (NASDAQ: NWTG) has acquired an option for the Pole Canyon beryllium-tungsten property in Nevada, marking its entry into the U.S. critical minerals sector. In exchang...",
+      "url": "https://www.stocktitan.net/news/NWTG/emerging-growth-research-publishes-update-on-newton-golf-s-pole-y7dkmsqq5i7q.html",
+      "source": "Stock Titan",
+      "published_at": "20261017T051106",
+      "sentiment_score": 0.01608,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NWTG"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "OSI Systems, Inc. (OSIS) Stock Forecasts",
+      "summary": "Argus has lowered its target price for OSI Systems, Inc. (OSIS) to $232.00, citing the company's role as a designer and manufacturer of electronic systems and components for var...",
+      "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_4371_QuantitativeReport_1788912000000",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20261017T031234",
+      "sentiment_score": -0.235384,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "OSIS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Should Tyson Foods Stock Holders Look At JM Smucker Instead?",
+      "summary": "This article compares Tyson Foods (TSN) and JM Smucker (SJM), noting that while both sell grocery brands, Smucker's stock has outperformed Tyson's recently. Smucker has raised i...",
+      "url": "https://www.trefis.com/articles/618998/should-tyson-foods-stock-holders-look-at-jm-smucker-instead/2026-10-16",
+      "source": "Trefis",
+      "published_at": "20261017T021343",
+      "sentiment_score": 0.039685,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "SJM",
+        "TSN"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Should Dividend Cut Require Action From Crown Castle (CCI) Investors?",
+      "summary": "Crown Castle (CCI) reduced its annual dividend from US$6.26 to US$4.75 per share following the sale of its fiber segment to focus on a pure-play U.S. tower model. This strategic...",
+      "url": "https://simplywall.st/stocks/us/real-estate/nyse-cci/crown-castle/news/should-dividend-cut-require-action-from-crown-castle-cci-inv",
+      "source": "Simply Wall Street",
+      "published_at": "20261017T014345",
+      "sentiment_score": -0.096452,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CCI",
+        "NEE"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro",
+        "Finance"
+      ],
+      "quality_score": 5,
+      "is_noise": false
+    },
+    {
+      "title": "Hut 8 Corp (HUT) Shares Fall 11.0% -- What GF Score of 37 Tells Investors",
+      "summary": "Hut 8 Corp (HUT) shares dropped 11.0% to $67.75, showing a concerning 105.4% overvaluation according to the GF Value™ of $32.98. The company also received a low GF Score™ of 37/...",
+      "url": "https://www.gurufocus.com/news/9128491/hut-8-corp-hut-shares-fall-110-what-gf-score-of-37-tells-investors",
+      "source": "GuruFocus",
+      "published_at": "20261017T031017",
+      "sentiment_score": -0.747354,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "HUT"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Blockchain"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Phase 3 Lung Trials Could Be A Big Test For Insmed (INSM)",
+      "summary": "Insmed is embarking on a significant expansion of its TPIP clinical development program with three active Phase 3 trials and a fourth planned, targeting over 2,000 patients acro...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-insm/insmed/news/phase-3-lung-trials-could-be-a-big-test-for-insmed-insm",
+      "source": "Simply Wall Street",
+      "published_at": "20261017T021017",
+      "sentiment_score": 0.289185,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "INSM"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 4,
+      "is_noise": false
+    },
+    {
+      "title": "Is Ovintiv Inc (OVV) Overvalued After 4.8% Rally? GF Value Says",
+      "summary": "Ovintiv Inc (OVV) shares rallied 4.8% to $69.33, but GuruFocus's GF Value™ indicates the stock is significantly overvalued at $42.59. The company has an average GF Score™ of 53/...",
+      "url": "https://www.gurufocus.com/news/9128450/is-ovintiv-inc-ovv-overvalued-after-48-rally-gf-value-says-overvalued",
+      "source": "GuruFocus",
+      "published_at": "20261017T051304",
+      "sentiment_score": -0.44051,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "OVV"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Mesoblast Ltd ADR stock hits 52-week low at 13.03 USD",
+      "summary": "Mesoblast Ltd ADR stock has fallen to a 52-week low of $13.03, a significant drop from its high of $21.50 and a 23.26% decline over the past year. Despite this, InvestingPro dat...",
+      "url": "https://ng.investing.com/news/stock-market-news/mesoblast-ltd-adr-stock-hits-52week-low-at-1303-usd-93CH-2741061",
+      "source": "Investing.com Nigeria",
+      "published_at": "20261017T044050",
+      "sentiment_score": -0.219827,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "MESO"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
         "Life Sciences"
       ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Ionis Pharmaceuticals Officer Shannon Devers Announces Intent to Sell 1,357 Shares Under Rule 144",
+      "summary": "Ionis Pharmaceuticals officer Shannon L. Devers has filed a Form 144 notice to sell 1,357 shares of common stock, valued at approximately $59,708.00. These shares were acquired...",
+      "url": "https://kalkinemedia.com/us/news/announcements/ionis-pharmaceuticals-officer-shannon-devers-announces-intent-to-sell-1357-shares-under-rule-144",
+      "source": "Kalkine Media",
+      "published_at": "20261017T034134",
+      "sentiment_score": 0.0049,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "IONS"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Life Sciences"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Cadence design systems Sr. VP Cunningham sells $648k in stock",
+      "summary": "Paul Cunningham, Senior Vice President at Cadence Design Systems Inc., sold 2,000 shares of common stock for $648,260 and acquired 1,000 shares through stock options for $138,02...",
+      "url": "https://in.investing.com/news/stock-market-news/cadence-design-systems-sr-vp-cunningham-sells-648k-in-stock-93CH-5638303",
+      "source": "Investing.com India",
+      "published_at": "20261017T023901",
+      "sentiment_score": -0.252026,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "CDNS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "NIP Group Inc. Shareholders Approve Increase in Authorized Share Capital and Amended Articles at EGM",
+      "summary": "NIP Group Inc. shareholders approved resolutions to increase the company's authorized share capital from $200,000 to $1,000,000 and to amend its memorandum and articles of assoc...",
+      "url": "https://www.quiverquant.com/news/NIP+Group+Inc.+Shareholders+Approve+Increase+in+Authorized+Share+Capital+and+Amended+Articles+at+EGM",
+      "source": "Quiver Quantitative",
+      "published_at": "20261017T021250",
+      "sentiment_score": 0.145327,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NIPG"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings",
+        "Blockchain"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Gauzy Ltd. Announces $7 Million PIPE and Court-Approved Debt Settlement Financing",
+      "summary": "Gauzy Ltd. announced a $7 million private investment in public equity (PIPE) led by CEO Eyal Peso, involving the issuance of 2,383,279 ordinary shares at $2.9371 per share. This...",
+      "url": "https://www.quiverquant.com/news/Gauzy+Ltd.+Announces+%247+Million+PIPE+and+Court-Approved+Debt+Settlement+Financing",
+      "source": "Quiver Quantitative",
+      "published_at": "20261017T021050",
+      "sentiment_score": 0.253595,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GAUZ"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "West Pharmaceutical Services stock hits 52-week high at $386.08",
+      "summary": "West Pharmaceutical Services (WST) stock has reached a new 52-week high of $386.08, demonstrating strong investor confidence with a 42.22% increase over the past year. The compa...",
+      "url": "https://www.investing.com/news/company-news/west-pharmaceutical-services-stock-hits-52week-high-at-38608-93CH-4954478",
+      "source": "Investing.com",
+      "published_at": "20261017T020748",
+      "sentiment_score": 0.330539,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "WST",
+        "FANG",
+        "KMI",
+        "APA",
+        "NOC"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Hingham Institution for Savings Q3 Results: EPS up 39%, sales down 15%",
+      "summary": "Hingham Institution for Savings reported a significant 39.12% year-over-year increase in adjusted EPS to $5.37 for the third quarter, despite a 14.68% decline in quarterly sales...",
+      "url": "https://scanx.trade/stock-market-news/companies/hingham-institution-savings-q3-results-eps-up-39-sales-down-15/53727948",
+      "source": "scanx.trade",
+      "published_at": "20261017T015500",
+      "sentiment_score": 0.263004,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "HIFS"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Eliott Trencher Receives Dividend Equivalent RSU Credits at Kilroy Realty Corp",
+      "summary": "Eliott Trencher, EVP, CIO, and CFO of Kilroy Realty Corp, acquired common stock and restricted stock units (RSUs) on October 14, 2026, through dividend equivalent rights. These...",
+      "url": "https://kalkinemedia.com/us/news/announcements/eliott-trencher-receives-dividend-equivalent-rsu-credits-at-kilroy-realty-corp",
+      "source": "Kalkine Media",
+      "published_at": "20261017T014114",
+      "sentiment_score": 0.134855,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KRC"
+      ],
+      "topics": [
+        "Earnings",
+        "Real Estate",
+        "Finance"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "A new Texas neighborhood includes quartz counters and kitchen appliances at no extra cost",
+      "summary": "LGI Homes has opened Chisolm Park, a new single-family home community in Weatherford, Texas, with homes starting from the $300s. These homes offer six floor plans ranging from 1...",
+      "url": "https://www.stocktitan.net/news/LGIH/lgi-homes-announces-the-opening-of-new-community-in-weatherford-ue170quplf5h.html",
+      "source": "Stock Titan",
+      "published_at": "20261017T041051",
+      "sentiment_score": 0.324878,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "LGIH"
+      ],
+      "topics": [
+        "Real Estate",
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": 2,
+      "is_noise": false
+    },
+    {
+      "title": "New Era Energy & Digital (NASDAQ:NUAI) Stock: Insider Kent Mccarthy Sells 4,090,000 Shares",
+      "summary": "New Era Energy & Digital (NASDAQ:NUAI) major shareholder Kent Mccarthy sold 4.09 million shares for approximately $14.76 million, reducing his stake by 42.83%. This sale occurre...",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-new-era-energy-digital-nasdaq-nuai-stock-insider-kent-mccarthy-sells-4090000-shares-2026-10-16/",
+      "source": "MarketBeat",
+      "published_at": "20261017T051110",
+      "sentiment_score": -0.148227,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NUAI",
+        "BAC",
+        "COST",
+        "CRM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Stock award taxes prompt 2,051-share withholding for New Jersey Resources (NJR) CIO Jacqueline K. Shea.",
+      "summary": "New Jersey Resources' SVP, Chief Information Officer Jacqueline K. Shea had 2,051 common shares withheld on October 15, 2026, to cover taxes upon the vesting of three tranches o...",
+      "url": "https://www.stocktitan.net/sec-filings/NJR/form-4-new-jersey-resources-corp-insider-trading-activity-67020eed0b8e.html",
+      "source": "Stock Titan",
+      "published_at": "20261017T044324",
+      "sentiment_score": 0.026336,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NJR"
+      ],
+      "topics": [
+        "Earnings",
+        "Finance"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Form 4 Progyny Inc: Melissa B. Cummings (COO) For: 14 October",
+      "summary": "This article reports on a Form 4 filing for Progyny Inc., indicating an insider transaction involving Melissa B. Cummings, the COO, on October 14th. The article is very brief an...",
+      "url": "https://in.investing.com/news/stock-market-news/form-4-progyny-inc-melissa-b-cummings-coo-for-14-october-93CH-5638363",
+      "source": "Investing.com India",
+      "published_at": "20261017T044013",
+      "sentiment_score": 0.049409,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "PGNY"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Life Sciences"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Progyny COO Melissa Cummings sells $52,612 in shares By Investing.com",
+      "summary": "Melissa Cummings, COO of Progyny, Inc., sold 1,879 shares of the company's common stock for a total of $52,612 on October 14, 2026, as part of a Rule 10b5-1 trading plan. Despit...",
+      "url": "https://au.investing.com/news/stock-market-news/progyny-coo-melissa-cummings-sells-52612-in-shares-93CH-4696223",
+      "source": "Investing.com Australia",
+      "published_at": "20261017T043913",
+      "sentiment_score": 0.236909,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "PGNY"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Life Sciences"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "MapLight Therapeutics chief scientific officer sells $93,025 in shares",
+      "summary": "MapLight Therapeutics Chief Scientific Officer Lillie James Woodruff sold 11,513 shares worth $93,025 on October 15, 2026, to cover tax withholding obligations related to restri...",
+      "url": "https://www.investing.com/news/insider-trading-news/maplight-therapeutics-chief-scientific-officer-sells-93025-in-shares-93CH-4954881",
+      "source": "Investing.com",
+      "published_at": "20261017T043654",
+      "sentiment_score": -0.283337,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "MPLT"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Life Sciences",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Oil-Dri group VP Christopher Lamson sells $561,890 in stock By Investing.com",
+      "summary": "Oil-Dri Corp of America's Group Vice President, Christopher B. Lamson, sold 7,000 shares of common stock for $561,890 on October 15, 2026. This insider sale occurred as ODC's st...",
+      "url": "https://ng.investing.com/news/stock-market-news/oildri-group-vp-christopher-lamson-sells-561890-in-stock-93CH-2741526",
+      "source": "Investing.com Nigeria",
+      "published_at": "20261017T043607",
+      "sentiment_score": -0.279348,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ODC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Qualcomm EVP Ann Chaplin sells $319,268 in common stock",
+      "summary": "Ann C. Chaplin, EVP, General Counsel, and Corporate Secretary at Qualcomm Inc. (NASDAQ:QCOM), sold 1,827 shares of common stock totaling $319,268 on October 16, 2026. This trans...",
+      "url": "https://www.investing.com/news/insider-trading-news/qualcomm-evp-ann-chaplin-sells-319268-in-common-stock-93CH-4955188",
+      "source": "Investing.com",
+      "published_at": "20261017T035231",
+      "sentiment_score": 0.113973,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "QCOM",
+        "AAPL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "[Form 3] Jackson Financial Inc. Initial Statement of Beneficial Ownership",
+      "summary": "This article details an Initial Statement of Beneficial Ownership (Form 3) filed by Jackson Financial Inc. (JXN) for Donald C. Templin, who has been elected as a Director. The f...",
+      "url": "https://www.stocktitan.net/sec-filings/JXN/form-3-jackson-financial-inc-initial-statement-of-beneficial-ownershi-84ca42efe826.html",
+      "source": "Stock Titan",
+      "published_at": "20261017T031259",
+      "sentiment_score": 0.027724,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "JXN-P-A"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "An 18% slice of Series XXV notes is repurchased by IRSA (IRS).",
+      "summary": "IRSA Investments & Representations Inc. (IRS) has repurchased $9 million of its Series XXV Notes on October 15, 2026. This repurchase represents 18.0% of the total outstanding p...",
+      "url": "https://www.stocktitan.net/sec-filings/IRS/6-k-irsa-investments-representations-inc-current-report-foreign-issue-d9370197f48f.html",
+      "source": "Stock Titan",
+      "published_at": "20261017T024219",
+      "sentiment_score": 0.119911,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "IRS"
+      ],
+      "topics": [
+        "Finance",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Insider Transaction: George Giannopoulos Sells $346K Worth Of Global Ship Lease Shares",
+      "summary": "George Giannopoulos, Chief Compliance Officer at Global Ship Lease (NYSE: GSL), sold 7,692 shares worth $346,729 on October 15, according to an SEC filing. This transaction occu...",
+      "url": "https://www.benzinga.com/news/26/10/62413759/insider-transaction-george-giannopoulos-sells-346k-worth-global-ship-lease-shares",
+      "source": "Benzinga",
+      "published_at": "20261017T024008",
+      "sentiment_score": 0.01292,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "GSL-P-B"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Energy Transportation"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "A $500M revolver stays intact as Global Partners (GLP) pushes back its credit maturity.",
+      "summary": "Global Partners LP has extended the maturity of its credit facility from March 20, 2028, to October 16, 2031. The amendment maintains the $1.0 billion Aggregate WC Commitment an...",
+      "url": "https://www.stocktitan.net/sec-filings/GLP/8-k-global-partners-lp-reports-material-event-aed860cb926b.html",
+      "source": "Stock Titan",
+      "published_at": "20261017T020631",
+      "sentiment_score": 0.113649,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "GLP"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Natera executive chairman Matthew Rabinowitz sells $20.1m in stock By Investing.com",
+      "summary": "Natera's executive chairman, Matthew Rabinowitz, sold 50,000 shares of the company's common stock for over $20.1 million on October 15, 2026, while also exercising options to ac...",
+      "url": "https://ng.investing.com/news/stock-market-news/natera-executive-chairman-matthew-rabinowitz-sells-201m-in-stock-93CH-2741433",
+      "source": "Investing.com Nigeria",
+      "published_at": "20261017T014336",
+      "sentiment_score": 0.031553,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NTRA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    },
+    {
+      "title": "Samsara CFO Benjamin Kirchhoff Sells 2,165 Shares at $40.40 Under 10b5-1 Plan",
+      "summary": "Samsara Inc. (NASDAQ:IOT) Chief Accounting Officer, Benjamin Louis Kirchhoff, sold 2,165 shares of Class A Common Stock on October 15, 2026, at a price of $40.40 per share. This...",
+      "url": "https://kalkinemedia.com/us/news/announcements/samsara-cfo-benjamin-kirchhoff-sells-2165-shares-at-4040-under-10b5-1-plan",
+      "source": "Kalkine Media",
+      "published_at": "20261017T014234",
+      "sentiment_score": -0.299003,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "IOT"
+      ],
+      "topics": [
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": -10,
+      "is_noise": true
+    }
+  ],
+  "article_count": 50,
+  "top_ticker": "SJM",
+  "top_topic": "Earnings",
+  "dominant_sentiment": "Neutral",
+  "top_story": "Lucid Group (NASDAQ:LCID) Stock Falls 10.6% Following Analyst Downgrade",
+  "signal_articles": [
+    {
+      "title": "Lucid Group (NASDAQ:LCID) Stock Falls 10.6% Following Analyst Downgrade",
+      "summary": "Lucid Group (NASDAQ:LCID) shares dropped 10.6% after Morgan Stanley lowered its price target from $5 to $3, maintaining an \"underweight\" rating. Analyst sentiment for LCID remai...",
+      "url": "https://www.marketbeat.com/instant-alerts/price-lucid-group-nasdaq-lcid-stock-falls-106-following-analyst-downgrade-2026-10-16/",
+      "source": "MarketBeat",
+      "published_at": "20261017T041127",
+      "sentiment_score": -0.271036,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "LCID",
+        "TSLA",
+        "UBER"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Energy Transportation",
+        "Technology"
+      ],
+      "quality_score": 16,
+      "is_noise": false
+    },
+    {
+      "title": "Infleqtion (NYSE:INFQ) Hits New 1-Year Low - Should You Sell?",
+      "summary": "Infleqtion (NYSE:INFQ) recently hit a new 52-week low of $8.42, trading significantly below its 50-day moving average. Despite this, analysts maintain a \"Moderate Buy\" rating wi...",
+      "url": "https://www.marketbeat.com/instant-alerts/price-infleqtion-nyse-infq-hits-new-1-year-low-should-you-sell-2026-10-16/",
+      "source": "MarketBeat",
+      "published_at": "20261017T031117",
+      "sentiment_score": -0.406705,
+      "sentiment_label": "Bearish",
+      "tickers": [
+        "INFQ"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 14,
+      "is_noise": false
+    },
+    {
+      "title": "Oil Stocks In Focus As Hormuz Risk Puts Integrated Producers Under Pressure",
+      "summary": "The article highlights how rising oil prices and shipping risks in the Strait of Hormuz are impacting integrated oil and gas producers. It examines three companies—Kosmos Energy...",
+      "url": "https://simplywall.st/stocks/us/energy/nyse-kos/kosmos-energy/news/oil-stocks-in-focus-as-hormuz-risk-puts-integrated-producers",
+      "source": "Simply Wall Street",
+      "published_at": "20261017T034204",
+      "sentiment_score": 0.044973,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "KOS"
+      ],
+      "topics": [
+        "Energy Transportation",
+        "Financial Markets",
+        "Earnings"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "UBS raises Five9 stock price target on large deal momentum",
+      "summary": "UBS has increased its price target for Five9 (NASDAQ:FIVN) to $48 from $36, while maintaining a Buy rating, citing momentum from large deal wins. The firm projects Five9's reven...",
+      "url": "https://www.investing.com/news/analyst-ratings/ubs-raises-five9-stock-price-target-on-large-deal-momentum-93CH-4954419",
+      "source": "Investing.com",
+      "published_at": "20261017T021015",
+      "sentiment_score": 0.480213,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "FIVN"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "General Mills Inc (GRM.HA) analyst ratings, estimates and forecasts",
+      "summary": "This article provides a snapshot of General Mills Inc (GRM.HA) stock information, including its current trading price and daily percentage change. It also features a table for g...",
+      "url": "https://uk.finance.yahoo.com/quote/GRM.HA/analysis/",
+      "source": "Yahoo Finance UK",
+      "published_at": "20261017T020924",
+      "sentiment_score": 0.119971,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "GIS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Weekly Market Update: Stocks Down as Consumer Defensives Climb and Technology Tumbles",
+      "summary": "The Morningstar US Total Market Index fell 2.07% this week, with technology stocks experiencing a significant decline while consumer defensives and energy sectors saw gains. Bat...",
+      "url": "https://www.morningstar.com/markets/weekly-market-update-stocks-down-consumer-defensives-climb-technology-tumbles",
+      "source": "Morningstar",
+      "published_at": "20261017T044117",
+      "sentiment_score": 0.029504,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "MORN"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Earnings",
+        "Economy Macro",
+        "Technology",
+        "Retail Wholesale"
+      ],
+      "quality_score": 12,
+      "is_noise": false
+    },
+    {
+      "title": "How Investors May Respond To Jazz Pharmaceuticals (JAZZ) FDA Cancer Drug Approval",
+      "summary": "Jazz Pharmaceuticals recently received FDA approval for its oncology drug Ziihera, which broadens its oncology portfolio beyond its historical focus on sleep therapies. This app...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-jazz/jazz-pharmaceuticals/news/how-investors-may-respond-to-jazz-pharmaceuticals-jazz-fda-c",
+      "source": "Simply Wall Street",
+      "published_at": "20261017T034043",
+      "sentiment_score": 0.273288,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "JAZZ",
+        "MRK",
+        "VTRS"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Earnings",
+        "Financial Markets"
+      ],
       "quality_score": 11,
+      "is_noise": false
+    },
+    {
+      "title": "Marsh & McLennan Companies (NYSE:MRSH) Price Target Raised to $197.00",
+      "summary": "Wells Fargo has increased its price target for Marsh & McLennan Companies (NYSE:MRSH) to $197.00 from $183.00, maintaining an \"equal weight\" rating and suggesting a 5.15% upside...",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-19700-2026-10-16/",
+      "source": "MarketBeat",
+      "published_at": "20261017T044237",
+      "sentiment_score": 0.288459,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "MRSH",
+        "WFC"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
+      "title": "Stocktwits Defense Watch: RTX Continues Deal Momentum, Ondas-Palantir Launch AI Firm As AeroVironment Strike Four I...",
+      "summary": "This article highlights recent activities in the defense sector, with RTX securing significant counter-drone orders from the U.S., Qatar, and Jordan, totaling $729 million. Aero...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stocktwits-defense-watch-rtx-continues-041547455.html",
+      "source": "Yahoo Finance",
+      "published_at": "20261017T041449",
+      "sentiment_score": 0.30297,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "RTX",
+        "PLTR",
+        "HII",
+        "LHX"
+      ],
+      "topics": [
+        "Technology",
+        "Financial Markets",
+        "Earnings",
+        "Mergers And Acquisitions"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "NBT Bancorp Inc. (NBTB) Stock Forecasts",
+      "summary": "Argus has lowered its target price for NBT Bancorp Inc. (NBTB) to $55.00, while the current price stands at $50.85. NBT Bancorp, a financial holding company, generates its princ...",
+      "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_4443_QuantitativeReport_1791936000000",
+      "source": "Yahoo! Finance Canada",
+      "published_at": "20261017T031054",
+      "sentiment_score": 0.060779,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "NBTB",
+        "MTB",
+        "BAC"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Finance",
+        "Earnings"
+      ],
+      "quality_score": 9,
       "is_noise": false
     }
   ],
   "top_tickers": [
     {
-      "ticker": "MS",
+      "ticker": "SJM",
       "mentions": 2
     },
     {
-      "ticker": "SLB",
+      "ticker": "TSN",
+      "mentions": 2
+    },
+    {
+      "ticker": "LCID",
       "mentions": 1
     },
     {
-      "ticker": "EBAY",
+      "ticker": "TSLA",
       "mentions": 1
     },
     {
-      "ticker": "WFC",
-      "mentions": 1
-    },
-    {
-      "ticker": "TMP",
+      "ticker": "UBER",
       "mentions": 1
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 48
+      "mentions": 37
     },
     {
       "topic": "Financial Markets",
-      "mentions": 39
-    },
-    {
-      "topic": "Technology",
-      "mentions": 13
-    },
-    {
-      "topic": "Life Sciences",
-      "mentions": 13
+      "mentions": 30
     },
     {
       "topic": "Finance",
-      "mentions": 12
+      "mentions": 16
+    },
+    {
+      "topic": "Technology",
+      "mentions": 8
+    },
+    {
+      "topic": "Economy Macro",
+      "mentions": 7
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 24
+      "count": 15
     },
     {
       "label": "Somewhat-Bullish",
       "count": 13
     },
     {
-      "label": "Bullish",
-      "count": 8
+      "label": "Somewhat-Bearish",
+      "count": 4
     },
     {
       "label": "Bearish",
-      "count": 2
+      "count": 3
     },
     {
-      "label": "Somewhat-Bearish",
-      "count": 1
+      "label": "Bullish",
+      "count": 2
     }
   ],
   "top_sources": [
     {
-      "source": "ad-hoc-news.de",
-      "count": 23
+      "source": "Simply Wall Street",
+      "count": 10
     },
     {
       "source": "MarketBeat",
-      "count": 5
-    },
-    {
-      "source": "Simply Wall Street",
-      "count": 4
-    },
-    {
-      "source": "scanx.trade",
       "count": 3
     },
     {
-      "source": "GuruFocus",
+      "source": "Yahoo! Finance Canada",
+      "count": 3
+    },
+    {
+      "source": "Trefis",
+      "count": 3
+    },
+    {
+      "source": "Investing.com",
       "count": 2
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with MS appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with SJM appearing most often and the headline tone mostly neutral."
 }
