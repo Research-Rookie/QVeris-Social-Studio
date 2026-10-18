@@ -1,5 +1,208 @@
 [
   {
+    "id": "market-narrative-shift-ivz-2026-10-18",
+    "date": "2026-10-18",
+    "runDate": "2026-10-18",
+    "createdAt": "2026-10-18T06:52:36.881326+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $IVZ",
+    "status": "ready",
+    "tweet": "What changed in $IVZ's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.28\n📌 Top theme: Earnings\n🔎 Emerging term: rating\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_IVZ_2026-10-18.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-18T06:52:35.046880+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$IVZ",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "IVZ",
+    "topChangePct": -28.29,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-18T06:52:35.046880+00:00",
+      "date": "2026-10-18",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "IVZ",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.2829,
+      "baseline_label": "2026-10-10",
+      "current": {
+        "date": "2026-10-18",
+        "symbol": "IVZ",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0281,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "invesco",
+            "count": 2
+          },
+          {
+            "label": "rating",
+            "count": 2
+          },
+          {
+            "label": "hold",
+            "count": 2
+          },
+          {
+            "label": "wall",
+            "count": 2
+          },
+          {
+            "label": "street",
+            "count": 2
+          },
+          {
+            "label": "zen",
+            "count": 2
+          },
+          {
+            "label": "buy",
+            "count": 2
+          },
+          {
+            "label": "cut",
+            "count": 1
+          },
+          {
+            "label": "downgraded",
+            "count": 1
+          },
+          {
+            "label": "though",
+            "count": 1
+          },
+          {
+            "label": "overall",
+            "count": 1
+          },
+          {
+            "label": "consensus",
+            "count": 1
+          }
+        ],
+        "headline": "Invesco (NYSE:IVZ) Stock Rating Cut to \"Hold\" at Wall Street Zen",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-10-10",
+        "symbol": "IVZ",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.311,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "buy",
+            "count": 3
+          },
+          {
+            "label": "invesco",
+            "count": 2
+          },
+          {
+            "label": "upgraded",
+            "count": 2
+          },
+          {
+            "label": "wall",
+            "count": 2
+          },
+          {
+            "label": "street",
+            "count": 2
+          },
+          {
+            "label": "zen",
+            "count": 2
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "hold",
+            "count": 1
+          },
+          {
+            "label": "rating",
+            "count": 1
+          },
+          {
+            "label": "upgrade",
+            "count": 1
+          },
+          {
+            "label": "aligns",
+            "count": 1
+          },
+          {
+            "label": "moderate",
+            "count": 1
+          }
+        ],
+        "headline": "Invesco (NYSE:IVZ) Upgraded to \"Buy\" at Wall Street Zen",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "fading_themes": [
+        "Economy Macro"
+      ],
+      "emerging_keywords": [
+        "rating",
+        "hold",
+        "cut"
+      ],
+      "fading_keywords": [
+        "upgraded",
+        "buy",
+        "has"
+      ],
+      "takeaway": "IVZ's narrative is turning bearish: sentiment moved -0.28, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-18",
     "date": "2026-10-18",
     "runDate": "2026-10-18",

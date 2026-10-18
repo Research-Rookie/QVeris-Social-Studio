@@ -1,19 +1,93 @@
 {
-  "updated_at": "2026-10-17T06:27:52.164919+00:00",
-  "date": "2026-10-17",
+  "updated_at": "2026-10-18T06:52:35.046880+00:00",
+  "date": "2026-10-18",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "TSLA",
+  "symbol": "IVZ",
   "shift_label": "Turning bearish",
-  "sentiment_delta": -0.3433,
-  "baseline_label": "2026-09-26",
+  "sentiment_delta": -0.2829,
+  "baseline_label": "2026-10-10",
   "current": {
-    "date": "2026-10-17",
-    "symbol": "TSLA",
+    "date": "2026-10-18",
+    "symbol": "IVZ",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": -0.2969,
+    "sentiment_score": 0.0281,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "invesco",
+        "count": 2
+      },
+      {
+        "label": "rating",
+        "count": 2
+      },
+      {
+        "label": "hold",
+        "count": 2
+      },
+      {
+        "label": "wall",
+        "count": 2
+      },
+      {
+        "label": "street",
+        "count": 2
+      },
+      {
+        "label": "zen",
+        "count": 2
+      },
+      {
+        "label": "buy",
+        "count": 2
+      },
+      {
+        "label": "cut",
+        "count": 1
+      },
+      {
+        "label": "downgraded",
+        "count": 1
+      },
+      {
+        "label": "though",
+        "count": 1
+      },
+      {
+        "label": "overall",
+        "count": 1
+      },
+      {
+        "label": "consensus",
+        "count": 1
+      }
+    ],
+    "headline": "Invesco (NYSE:IVZ) Stock Rating Cut to \"Hold\" at Wall Street Zen",
+    "headline_source": "MarketBeat"
+  },
+  "previous": {
+    "date": "2026-10-10",
+    "symbol": "IVZ",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.311,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -29,153 +103,81 @@
         "count": 1
       },
       {
-        "label": "Energy Transportation",
-        "count": 1
-      },
-      {
-        "label": "Technology",
+        "label": "Economy Macro",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "lcid",
+        "label": "buy",
         "count": 3
       },
       {
-        "label": "lucid",
+        "label": "invesco",
         "count": 2
       },
       {
-        "label": "falls",
+        "label": "upgraded",
+        "count": 2
+      },
+      {
+        "label": "wall",
+        "count": 2
+      },
+      {
+        "label": "street",
+        "count": 2
+      },
+      {
+        "label": "zen",
+        "count": 2
+      },
+      {
+        "label": "has",
         "count": 1
       },
       {
-        "label": "following",
+        "label": "hold",
         "count": 1
       },
       {
-        "label": "downgrade",
+        "label": "rating",
         "count": 1
       },
       {
-        "label": "dropped",
+        "label": "upgrade",
         "count": 1
       },
       {
-        "label": "morgan",
+        "label": "aligns",
         "count": 1
       },
       {
-        "label": "stanley",
-        "count": 1
-      },
-      {
-        "label": "lowered",
-        "count": 1
-      },
-      {
-        "label": "target",
-        "count": 1
-      },
-      {
-        "label": "maintaining",
-        "count": 1
-      },
-      {
-        "label": "underweight",
+        "label": "moderate",
         "count": 1
       }
     ],
-    "headline": "Lucid Group (NASDAQ:LCID) Stock Falls 10.6% Following Analyst Downgrade",
+    "headline": "Invesco (NYSE:IVZ) Upgraded to \"Buy\" at Wall Street Zen",
     "headline_source": "MarketBeat"
   },
-  "previous": {
-    "date": "2026-09-26",
-    "symbol": "TSLA",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.0464,
-    "top_theme": "Financial Markets",
-    "themes": [
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Earnings",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "core",
-        "count": 1
-      },
-      {
-        "label": "main",
-        "count": 1
-      },
-      {
-        "label": "cnm",
-        "count": 1
-      },
-      {
-        "label": "forecasts",
-        "count": 1
-      },
-      {
-        "label": "article",
-        "count": 1
-      },
-      {
-        "label": "yahoo",
-        "count": 1
-      },
-      {
-        "label": "finance",
-        "count": 1
-      },
-      {
-        "label": "largely",
-        "count": 1
-      },
-      {
-        "label": "empty",
-        "count": 1
-      },
-      {
-        "label": "displaying",
-        "count": 1
-      },
-      {
-        "label": "error",
-        "count": 1
-      },
-      {
-        "label": "message",
-        "count": 1
-      }
-    ],
-    "headline": "Core & Main, Inc. (CNM) Stock forecasts",
-    "headline_source": "Yahoo Finance UK"
-  },
   "emerging_themes": [
-    "Finance",
-    "Energy Transportation",
-    "Technology"
+    "Earnings",
+    "Financial Markets",
+    "Finance"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Economy Macro"
+  ],
   "emerging_keywords": [
-    "lcid",
-    "lucid",
-    "falls"
+    "rating",
+    "hold",
+    "cut"
   ],
   "fading_keywords": [
-    "core",
-    "main",
-    "cnm"
+    "upgraded",
+    "buy",
+    "has"
   ],
-  "takeaway": "TSLA's narrative is turning bearish: sentiment moved -0.34, while the leading theme shifted from Financial Markets to Earnings.",
+  "takeaway": "IVZ's narrative is turning bearish: sentiment moved -0.28, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
