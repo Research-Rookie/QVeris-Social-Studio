@@ -1,5 +1,1318 @@
 [
   {
+    "id": "financial-news-signal-2026-10-18",
+    "date": "2026-10-18",
+    "runDate": "2026-10-18",
+    "createdAt": "2026-10-18T06:11:59.334926+00:00",
+    "contentType": "FINANCIAL NEWS SIGNAL",
+    "title": "Financial News Signal",
+    "status": "ready",
+    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 50\n🏷️ Ticker: AVGO\n📌 Theme: Earnings\n🧭 Tone: Neutral\n\nSignals from live news data: https://qveris.ai",
+    "image": "/posts/financial_news_signal_2026-10-18.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-18T06:11:56.982980+00:00",
+    "xPostId": null,
+    "primaryLabel": "Top ticker",
+    "primaryValue": "AVGO",
+    "secondaryLabel": "Tone",
+    "secondaryValue": "Neutral",
+    "topSymbol": "AVGO",
+    "topChangePct": 0,
+    "financialNewsSignal": {
+      "updated_at": "2026-10-18T06:11:56.982980+00:00",
+      "date": "2026-10-18",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Financial News Signal",
+      "articles": [
+        {
+          "title": "Invesco (NYSE:IVZ) Stock Rating Cut to \"Hold\" at Wall Street Zen",
+          "summary": "Wall Street Zen downgraded Invesco (NYSE:IVZ) from a \"Buy\" to a \"Hold\" rating, though the overall analyst consensus remains a \"Moderate Buy\" with an average price target of $33....",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-invesco-nyse-ivz-stock-rating-cut-to-hold-at-wall-street-zen-2026-10-18/",
+          "source": "MarketBeat",
+          "published_at": "20261018T051426",
+          "sentiment_score": 0.033493,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "IVZ",
+            "MS",
+            "JPM"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 17,
+          "is_noise": false
+        },
+        {
+          "title": "Amgen (NASDAQ:AMGN) Upgraded at Wall Street Zen",
+          "summary": "Wall Street Zen has upgraded Amgen (NASDAQ:AMGN) from a \"hold\" to a \"buy\" rating, though the broader analyst consensus remains \"hold\" with an average price target of $387.93. Th...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-amgen-nasdaq-amgn-upgraded-at-wall-street-zen-2026-10-18/",
+          "source": "MarketBeat",
+          "published_at": "20261018T051401",
+          "sentiment_score": 0.411163,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "AMGN"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Finance",
+            "Financial Markets"
+          ],
+          "quality_score": 17,
+          "is_noise": false
+        },
+        {
+          "title": "Charles River Laboratories International (CRL) Earnings Beat Puts Fair Value Back In Focus",
+          "summary": "Charles River Laboratories International (CRL) saw its stock climb 31.5% after beating analyst expectations with US$1.00 billion in quarterly revenue, along with strong organic...",
+          "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-crl/charles-river-laboratories-international/news/charles-river-laboratories-international-crl-earnings-beat-p",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T012907",
+          "sentiment_score": 0.400651,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "CRL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences"
+          ],
+          "quality_score": 16,
+          "is_noise": false
+        },
+        {
+          "title": "Fifth Third Bancorp Earnings: What To Look For From FITB",
+          "summary": "Fifth Third Bancorp (NASDAQ:FITB) is set to report earnings, with analysts expecting a 44.3% year-on-year revenue growth. The company previously met revenue expectations, report...",
+          "url": "https://www.tradingview.com/news/stockstory:efc2054c1094b:0-fifth-third-bancorp-earnings-what-to-look-for-from-fitb/",
+          "source": "TradingView",
+          "published_at": "20261018T030940",
+          "sentiment_score": 0.15954,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "FITB",
+            "RF",
+            "PLTR",
+            "BAC",
+            "WFC"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 14,
+          "is_noise": false
+        },
+        {
+          "title": "ConocoPhillips (COP) Stock Looks About Right On Tight Oil Market News",
+          "summary": "ConocoPhillips (COP) stock has seen a strong share price run, leading to questions about whether its current valuation is justified by its earnings. The P/E ratio of 19.0x is cl...",
+          "url": "https://simplywall.st/stocks/us/energy/nyse-cop/conocophillips/news/conocophillips-cop-stock-looks-about-right-on-tight-oil-mark",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T044950",
+          "sentiment_score": 0.136071,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "COP",
+            "FANG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "How Earnings Beats At Canadian Natural Resources Stock Have Changed Its Investment Story",
+          "summary": "Canadian Natural Resources has consistently surpassed EPS and revenue expectations, coupled with an attractive 3.39% dividend yield. This performance, along with the company's f...",
+          "url": "https://simplywall.st/stocks/ca/energy/tsx-cnq/canadian-natural-resources-shares/news/how-earnings-beats-at-canadian-natural-resources-stock-have",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T034059",
+          "sentiment_score": 0.305439,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CNQ"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "AZZ Inc raises FY27 outlook after record Q2 sales and EPS beat",
+          "summary": "AZZ Inc. has raised its fiscal year 2027 sales outlook to $1.825 billion-$1.875 billion after achieving record Q2 sales of $486.9 million and adjusted EPS of $2.00, significantl...",
+          "url": "https://scanx.trade/stock-market-news/companies/azz-inc-q2-results-adjusted-eps-rises-29-yoy-2-00/53469238",
+          "source": "scanx.trade",
+          "published_at": "20261018T021110",
+          "sentiment_score": 0.448357,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "AZZ"
+          ],
+          "topics": [
+            "Earnings",
+            "Manufacturing",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Flotek Industries, Inc. (NYSE:FTK) Stock Has Consensus Price Target of $34.67",
+          "summary": "Flotek Industries (NYSE:FTK) has received a \"Moderate Buy\" rating from analysts, with a consensus price target of $34.67, significantly above its recent trading price of $23.91....",
+          "url": "https://www.marketbeat.com/instant-alerts/consensus-flotek-industries-inc-nyse-ftk-stock-has-consensus-price-target-of-3467-2026-10-17/",
+          "source": "MarketBeat",
+          "published_at": "20261018T054057",
+          "sentiment_score": 0.103522,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "FTK"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Energy Transportation"
+          ],
+          "quality_score": 11,
+          "is_noise": false
+        },
+        {
+          "title": "Is Texas Instruments (TXN) Undervalued On Its New Data Center Hardware Push?",
+          "summary": "Texas Instruments (TXN) has launched new analog hardware for AI data centers, influencing its stock valuation. While a popular narrative suggests the stock is 36.5% undervalued...",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-txn/texas-instruments/news/is-texas-instruments-txn-undervalued-on-its-new-data-center",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T045005",
+          "sentiment_score": 0.261775,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "TXN",
+            "AVGO",
+            "AMD",
+            "NVDA",
+            "MSFT"
+          ],
+          "topics": [
+            "Technology",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Argus lifts Encore Capital Group stock target to USD 104.00",
+          "summary": "Argus has raised its price target for Encore Capital Group (ECPG) to USD 104.00, an increase of 2.28% from its last Nasdaq price of USD 101.68. The company's next earnings repor...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/argus-lifts-encore-capital-group-stock-target-to-usd-104-00/70348680",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T044042",
+          "sentiment_score": 0.487526,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ECPG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "GraniteShares ETF Trust GraniteShares 2x Long META Daily ETF (NASDAQ:FBL) - Dividends",
+          "summary": "This article provides dividend information for the GraniteShares ETF Trust GraniteShares 2x Long META Daily ETF (NASDAQ:FBL). It lists recent cash dividends, including their ex-...",
+          "url": "https://www.intelligentinvestor.com.au/shares/nasdaq-fbl/graniteshares-etf-trust-graniteshares-2x-long-meta-daily-etf/dividends",
+          "source": "intelligentinvestor.com.au",
+          "published_at": "20261018T041236",
+          "sentiment_score": 0.140103,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "FBL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance",
+            "Earnings"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Darling Ingredients (DAR) Pauses After Recent Moves But Is The Undervalued Story Still Intact",
+          "summary": "Darling Ingredients (DAR) has paused recently but is still considered undervalued by analysts, with a fair value estimate of $82.08 against its current price of $61.36. The stoc...",
+          "url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-dar/darling-ingredients/news/darling-ingredients-dar-pauses-after-recent-moves-but-is-the",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T034116",
+          "sentiment_score": 0.242196,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "DAR",
+            "ADM"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Beamr Imaging stock fell 9.34 percent to USD 1.65 on Nasdaq",
+          "summary": "Beamr Imaging's stock (BMR) dropped 9.34% to USD 1.65 on Nasdaq on October 16, 2026, closing the session with a market capitalization of USD 25.6 million and a price-to-earnings...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/beamr-imaging-stock-fell-9-34-percent-to-usd-1-65-on-nasdaq/70351396",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T021228",
+          "sentiment_score": -0.71693,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "BMR"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "UBS cuts target to USD 16.00 for Canadian Solar stock, still a Buy",
+          "summary": "UBS has lowered its price target for Canadian Solar (CSIQ) stock to USD 16.00, down from USD 25.00, while maintaining a \"Buy\" rating. This adjustment comes ahead of the company'...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/ubs-cuts-target-to-usd-16-00-for-canadian-solar-stock-still-a-buy/70350812",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T034217",
+          "sentiment_score": 0.03595,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CSIQ",
+            "ENPH",
+            "FSLR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Energy Transportation"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "UBS cuts CubeSmart stock target to USD 38.00",
+          "summary": "UBS has lowered its price target for CubeSmart (CUBE) stock from USD 43.00 to USD 38.00, maintaining a Neutral rating. This adjustment comes ahead of CubeSmart's third-quarter 2...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/ubs-cuts-cubesmart-stock-target-to-usd-38-00/70351427",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T034208",
+          "sentiment_score": -0.260456,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "CUBE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Real Estate"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "BMO lifts Black Hills stock target to USD 86.00",
+          "summary": "BMO Capital Markets has increased its price target for Black Hills stock from USD 83.00 to USD 86.00, maintaining an outperform rating. The company's stock closed at USD 76.63 o...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/bmo-lifts-black-hills-stock-target-to-usd-86-00/70350941",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T024312",
+          "sentiment_score": 0.412643,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "BKH"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Energy Transportation"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Broadcom Stock Is Down 35% From Its Peak as AI Bubble Warnings Rise, but Analysts Stay Optimistic",
+          "summary": "Broadcom's stock has fallen 35% from its peak, reaching its lowest level since April 8 amidst rising fears of an AI bubble. Despite this significant drop and the shrinking marke...",
+          "url": "https://www.benzinga.com/markets/equities/26/10/62428348/broadcom-stock-is-down-35-from-its-peak-as-ai-bubble-warnings-rise-but-analysts-stay-optimistic",
+          "source": "Benzinga",
+          "published_at": "20261018T020818",
+          "sentiment_score": 0.148476,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "AVGO",
+            "NVDA",
+            "CBOE",
+            "GOOGL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Assured Guaranty stock yields 2.0 percent at 9.7 times earnings",
+          "summary": "Assured Guaranty stock (AGO) yielded 2.00 percent and traded at 9.71 times earnings on October 17, 2026, with a market capitalization of USD 3.1 billion. The stock closed at USD...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/assured-guaranty-stock-yields-2-0-percent-at-9-7-times-earnings/70351495",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T014104",
+          "sentiment_score": 0.194461,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AGO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "RBC keeps USD 89.00 target for AECOM stock",
+          "summary": "RBC Capital has maintained its Buy rating and USD 89.00 target for AECOM, representing a 51.00 percent premium to its current market price. AECOM reported robust fiscal 2025 rev...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/rbc-keeps-usd-89-00-target-for-aecom-stock/70350594",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T011241",
+          "sentiment_score": 0.136977,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ACM",
+            "J"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "Applied Industrial Technologies (AIT) Stock Forecasts",
+          "summary": "Argus has lowered its target price for Applied Industrial Technologies (AIT) to $368.00. The company, which is a distributor of industrial products, currently trades at $330.48....",
+          "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_3867_QuantitativeReport_1791936000000",
+          "source": "Yahoo! Finance Canada",
+          "published_at": "20261018T011155",
+          "sentiment_score": -0.207714,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "AIT"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "How Patent Counterclaim Will Impact Archer Aviation (ACHR) Investors",
+          "summary": "Vertical Aerospace Group has filed a patent infringement counterclaim against Archer Aviation concerning its Midnight eVTOL aircraft, alleging infringement of U.S. Patent No. 12...",
+          "url": "https://simplywall.st/stocks/us/capital-goods/nyse-achr/archer-aviation/news/how-patent-counterclaim-will-impact-archer-aviation-achr-inv",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T044936",
+          "sentiment_score": 0.009198,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "EVTL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 8,
+          "is_noise": false
+        },
+        {
+          "title": "Cronos Group stock stands 39.57 percent above the USD 2.30 target",
+          "summary": "Cronos Group (CRON) stock is trading 39.57% above analysts' average target of $2.30, with a Nasdaq price of $3.21 as of October 16, 2026. The company reported a significant 58%...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/cronos-group-stock-stands-39-57-percent-above-the-usd-2-30-target/70351173",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T031144",
+          "sentiment_score": 0.495764,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "CRON"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences"
+          ],
+          "quality_score": 8,
+          "is_noise": false
+        },
+        {
+          "title": "FOXF Investors with $100,000 in Losses Have Opportunity to Join Fox Factory Holding Corp. Fraud Investigation with...",
+          "summary": "Schall, Brown & Schwartz LLP (SBS) is investigating Fox Factory Holding Corp. (NASDAQ: FOXF) for alleged securities law violations after the company lowered its sales guidance f...",
+          "url": "https://www.businesswire.com/news/home/20261017150185/en/FOXF-Investors-with-%24100000-in-Losses-Have-Opportunity-to-Join-Fox-Factory-Holding-Corp.-Fraud-Investigation-with-SBS-Law",
+          "source": "Business Wire",
+          "published_at": "20261018T014051",
+          "sentiment_score": 0.041005,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "FOXF"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 8,
+          "is_noise": false
+        },
+        {
+          "title": "Analysts set USD 1.50 target for Accendra Health stock",
+          "summary": "Five analysts have set a consensus target of USD 1.50 for Accendra Health (ACH) stock, significantly higher than its recent NYSE trading price of USD 0.23. The company is curren...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/analysts-set-usd-1-50-target-for-accendra-health-stock/70350156",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T014040",
+          "sentiment_score": -0.246779,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "ACH"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences"
+          ],
+          "quality_score": 8,
+          "is_noise": false
+        },
+        {
+          "title": "Euroseas stock stands at USD 66.17, 28.85 percent below target on October 16, 2026",
+          "summary": "Euroseas (ESEA) stock was trading at $66.17 on October 16, 2026, which is 28.85% below the analyst target of $93.00 set by Freedom Broker. The company reported second-quarter 20...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/euroseas-stock-stands-at-usd-66-17-28-85-percent-below-target-on-october/70350355",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T044159",
+          "sentiment_score": -0.127746,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ESEA",
+            "NDAQ"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "What Does Vistra (VST) Gain From Its $1 Billion Preferred Stock Redemption?",
+          "summary": "Vistra Corp. (NYSE:VST) has fully redeemed its US$1 billion Series A Preferred Stock, eliminating the preferred layer from its capital structure and ending associated dividend o...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/does-vistra-vst-gain-1-041825651.html",
+          "source": "Yahoo Finance",
+          "published_at": "20261018T041829",
+          "sentiment_score": 0.169953,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "VST",
+            "NRG",
+            "NEE"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Broadcom Inc. $AVGO Stock: First Merchants Corp Lowers Stake",
+          "summary": "First Merchants Corp. has reduced its stake in Broadcom Inc. (NASDAQ:AVGO) by 3.6% in the third quarter, selling 4,776 shares but still holding 127,304 shares valued at $44.7 mi...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-stock-first-merchants-corp-lowers-stake-2026-10-17/",
+          "source": "MarketBeat",
+          "published_at": "20261018T041316",
+          "sentiment_score": -0.108118,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "FRME",
+            "AVGO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Economy Macro"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Where Does Kraft Heinz (KHC) Value Sit As Sales Face Pressure?",
+          "summary": "Kraft Heinz is undergoing a turnaround program, and its current share price reflects multi-year pressure, raising questions about whether sales justify its valuation. The stock...",
+          "url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-khc/kraft-heinz/news/where-does-kraft-heinz-khc-value-sit-as-sales-face-pressure",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T040300",
+          "sentiment_score": -0.068296,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "KHC"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Economy Macro",
+            "Retail Wholesale"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Nine analysts set USD 150.71 target for Cirrus Logic stock",
+          "summary": "Nine analysts have set a consensus target of USD 150.71 for Cirrus Logic (CRUS) stock, which is 39.72% above its latest Nasdaq price of USD 107.87 as of October 16, 2026. The co...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/nine-analysts-set-usd-150-71-target-for-cirrus-logic-stock/70351539",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T034317",
+          "sentiment_score": 0.288436,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CRUS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Argus raised target to USD 38.00 for CoreCivic stock",
+          "summary": "Argus has increased its target price for CoreCivic (CXW) stock to USD 38.00, representing a 23.90% premium over its NYSE closing price of USD 30.67 on October 16, 2026. This adj...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/argus-raised-target-to-usd-38-00-for-corecivic-stock/70349652",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T034302",
+          "sentiment_score": 0.263522,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CXW",
+            "SPGI"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Kraft Heinz (KHC) Says Angel S. Willis Has Resigned",
+          "summary": "Kraft Heinz (NYSE:KHC) announced the resignation of Angel S. Willis, Executive Vice President, Global General Counsel and Corporate Affairs Officer. Her departure impacts the co...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kraft-heinz-khc-says-angel-032312844.html",
+          "source": "Yahoo Finance",
+          "published_at": "20261018T034012",
+          "sentiment_score": -0.084703,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "KHC"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Kanzhun (BZ) Q2 Strength Fuels Valuation Debate, Is It Still 23% Undervalued?",
+          "summary": "Kanzhun's (BZ) strong Q2 performance, with solid revenue and a 36% operating margin, has reignited debates about its valuation, despite a year-to-date share price decline. While...",
+          "url": "https://simplywall.st/stocks/us/commercial-services/nasdaq-bz/kanzhun/news/kanzhun-bz-q2-strength-fuels-valuation-debate-is-it-still-23/amp",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T030440",
+          "sentiment_score": 0.122664,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "BZ"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Is CoStar Group (CSGP) A Bargain After Q3 Expectations Put Apartments.com In Focus?",
+          "summary": "CoStar Group (CSGP) is under investor scrutiny ahead of its Q3 report, with the share price seeing a recent rebound despite significant year-to-date declines. While the company'...",
+          "url": "https://simplywall.st/stocks/us/real-estate-management-and-development/nasdaq-csgp/costar-group/news/is-costar-group-csgp-a-bargain-after-q3-expectations-put-apa/amp",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T014029",
+          "sentiment_score": 0.13577,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CSGP"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Real Estate"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Is CoStar Group (CSGP) A Bargain After Q3 Expectations Put Apartments.com In Focus?",
+          "summary": "CoStar Group (CSGP) is under investor scrutiny ahead of its Q3 report, with recent stock performance showing an 8.9% gain over the past week and 11.1% over the past month, despi...",
+          "url": "https://simplywall.st/stocks/us/real-estate-management-and-development/nasdaq-csgp/costar-group/news/is-costar-group-csgp-a-bargain-after-q3-expectations-put-apa",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T013953",
+          "sentiment_score": 0.126494,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CSGP",
+            "CBRE"
+          ],
+          "topics": [
+            "Earnings",
+            "Real Estate",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Closing Bell: Fortuna Silver Mines Inc down on Wednesday (FVI)",
+          "summary": "Fortuna Silver Mines Inc (FVI) shares closed down 0.15% at $6.69 on Wednesday, June 26, 2024, after opening at $6.63. The company, a TSX Gold firm based in Vancouver, has a mark...",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/FVI-T/pressreleases/27060608/closing-bell-fortuna-silver-mines-inc-down-on-wednesday-fvi/",
+          "source": "The Globe and Mail",
+          "published_at": "20261018T051121",
+          "sentiment_score": 0.031296,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "FSM"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Scotiabank cuts BRP stock target to CAD 87.00, 12.40 percent above price",
+          "summary": "Scotiabank has lowered its price target for BRP stock from CAD 92.00 to CAD 87.00, which is 12.40 percent above its current TSX price of CAD 77.40. BRP reported a 19% increase i...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/scotiabank-cuts-brp-stock-target-to-cad-87-00-12-40-percent-above-price/70350543",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T041129",
+          "sentiment_score": -0.273621,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "DOO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Lennox International, Inc. (LII) Stock Forecasts",
+          "summary": "Argus has lowered its target price for Lennox International, Inc. (LII) to $333.00, citing its role as a manufacturer and distributor of HVACR products. The company's sales are...",
+          "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_4112_QuantitativeReport_1791936000000/",
+          "source": "Yahoo! Finance Canada",
+          "published_at": "20261018T040847",
+          "sentiment_score": -0.210959,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "LII"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Manufacturing",
+            "Real Estate"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "The Company That Put a Gas Generator in a Tesla Is Bankrupt. Its $37 Million Debt Isn’t the Whole Story",
+          "summary": "Obrist, an Austrian engineering firm known for modifying Tesla vehicles with gas-powered range extenders, has filed for bankruptcy after failing to bring its HyperHybrid technol...",
+          "url": "https://www.inc.com/kevin-haynes/company-put-gas-generator-in-tesla-bankrupt-37-million-dollar-debt-not-whole-story/91421822",
+          "source": "Inc.com",
+          "published_at": "20261018T040735",
+          "sentiment_score": -0.304957,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "TSLA"
+          ],
+          "topics": [
+            "Earnings",
+            "Energy Transportation",
+            "Technology"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Comstock Resources, Inc. (CRK) Stock Forecasts",
+          "summary": "Argus has provided a research report on Comstock Resources Inc. (CRK), an independent natural gas producer. The report highlights CRK's operations in the Haynesville shale and i...",
+          "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_6330_QuantitativeReport_1791936000000",
+          "source": "Yahoo! Finance Canada",
+          "published_at": "20261018T033537",
+          "sentiment_score": 0.250625,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CRK",
+            "EQT"
+          ],
+          "topics": [
+            "Earnings",
+            "Energy Transportation",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Did First Solar's Fall Catch You Out? What Investors Missed",
+          "summary": "First Solar (NASDAQ: FSLR) shares have dropped 37.1% year-to-date, despite record sales and a large backlog. The article discusses two investor narratives from the beginning of...",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-fslr/first-solar/news/did-first-solars-fall-catch-you-out-what-investors-missed",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T025754",
+          "sentiment_score": 0.118661,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "FSLR",
+            "AVGO",
+            "MU"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Energy Transportation"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "RBC sets USD 135.00 target for Crown Holdings stock",
+          "summary": "RBC Capital has maintained a Buy rating and set a USD 135.00 target for Crown Holdings (CCK) stock. This target is 18.27 percent above its closing price of USD 114.15 on October...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/rbc-sets-usd-135-00-target-for-crown-holdings-stock/70349769",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T024352",
+          "sentiment_score": 0.129858,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CCK",
+            "STZ",
+            "PKG",
+            "AMCR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Fiduciary Advisors Inc. Makes New $3.17 Million Investment in Arista Networks, Inc. $ANET",
+          "summary": "Fiduciary Advisors Inc. has made a new $3.17 million investment in Arista Networks, Inc. (ANET), acquiring 15,559 shares, making it their 15th-largest holding. Institutional inv...",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-fiduciary-advisors-inc-makes-new-317-million-investment-in-arista-networks-inc-anet-2026-10-17/",
+          "source": "MarketBeat",
+          "published_at": "20261018T020900",
+          "sentiment_score": 0.209276,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "ANET",
+            "AKAM"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Form 13D/A New Concept Energy For: 17 October By Investing.com",
+          "summary": "This article announces the filing of Form 13D/A for New Concept Energy, dated October 17. The brief report from Investing.com includes the standard disclaimer about investment r...",
+          "url": "https://ca.investing.com/news/stock-market-news/form-13da-new-concept-energy-for-17-october-93CH-4886733",
+          "source": "Investing.com Canada",
+          "published_at": "20261018T011235",
+          "sentiment_score": 0.018038,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "GBR"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "General Dynamics (GD) Stock May Be 20% Undervalued As CEO Succession Nears",
+          "summary": "General Dynamics (GD) stock may be undervalued by as much as 20%, according to a Discounted Cash Flow (DCF) analysis. The upcoming CEO succession to Danny Deep in 2027, with a f...",
+          "url": "https://simplywall.st/stocks/us/capital-goods/nyse-gd/general-dynamics/news/general-dynamics-gd-stock-may-be-20-undervalued-as-ceo-succe",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T034118",
+          "sentiment_score": 0.343488,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "GD"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "TipRanks lists USD 141.00 target for Brink's stock",
+          "summary": "TipRanks has set a consensus price target of USD 141.00 for Brink's stock (BCO), significantly higher than its recent trading price of USD 104.75 in the U.S. and EUR 93.25 on th...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/tipranks-lists-usd-141-00-target-for-brink-s-stock/70350559",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T024112",
+          "sentiment_score": 0.344539,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "BCO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Granite Point Mortgage Trust stock fell 4.33 percent on October 16",
+          "summary": "Granite Point Mortgage Trust (GPMT) stock dropped 4.33% to USD 5.08 on October 16, 2026, closing near its 52-week low. The company's commercial real estate finance portfolio tot...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/granite-point-mortgage-trust-stock-fell-4-33-percent-on-october-16/70351443",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T051327",
+          "sentiment_score": -0.376447,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "GPMT"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Real Estate",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "New Oriental sets October 28 results. New Oriental Education stock posts 15.50 percent growth",
+          "summary": "New Oriental Education and Technology Group (EDU) is scheduled to report its fiscal first-quarter 2027 results on October 28, 2026. The company saw a strong fiscal 2026, with re...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/new-oriental-sets-october-28-results-new-oriental-education-stock-posts-15-50-percent-growth/70350550",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T041241",
+          "sentiment_score": 0.429995,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "EDU"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "CytomX Therapeutics stock closed at USD 2.28, down 5.39 percent on October 16",
+          "summary": "CytomX Therapeutics (CTMX) stock closed at USD 2.28 on October 16, 2026, marking a 5.39 percent decline and positioning it near its 52-week low. Cantor Fitzgerald reiterated an...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/cytomx-therapeutics-stock-closed-at-usd-2-28-down-5-39-percent-on-october-16/70351186",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T021209",
+          "sentiment_score": -0.248092,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "CTMX"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Form 4 Palantir Technologies Inc For: 18 October By Investing.com",
+          "summary": "This article announces the filing of Form 4 for Palantir Technologies Inc. on October 18. It mentions the company's stock symbol PLTR and its performance on that date, noting a...",
+          "url": "https://in.investing.com/news/stock-market-news/form-4-palantir-technologies-inc-for-18-october-93CH-5638862",
+          "source": "Investing.com India",
+          "published_at": "20261018T044029",
+          "sentiment_score": 0.03868,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PLTR"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Form 4 DTE Energy: David Brandon (Director) For: 1 October By Investing.com",
+          "summary": "This article reports on a Form 4 filing for DTE Energy, indicating insider activity by director David Brandon for October 1st. The brief notice from Investing.com doesn't provid...",
+          "url": "https://uk.investing.com/news/stock-market-news/form-4-dte-energy-david-brandon-director-for-1-october-93CH-4915998",
+          "source": "Investing.com UK",
+          "published_at": "20261018T041544",
+          "sentiment_score": 0.004334,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "DTE"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        }
+      ],
+      "article_count": 50,
+      "top_ticker": "AVGO",
+      "top_topic": "Earnings",
+      "dominant_sentiment": "Neutral",
+      "top_story": "Invesco (NYSE:IVZ) Stock Rating Cut to \"Hold\" at Wall Street Zen",
+      "signal_articles": [
+        {
+          "title": "Invesco (NYSE:IVZ) Stock Rating Cut to \"Hold\" at Wall Street Zen",
+          "summary": "Wall Street Zen downgraded Invesco (NYSE:IVZ) from a \"Buy\" to a \"Hold\" rating, though the overall analyst consensus remains a \"Moderate Buy\" with an average price target of $33....",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-invesco-nyse-ivz-stock-rating-cut-to-hold-at-wall-street-zen-2026-10-18/",
+          "source": "MarketBeat",
+          "published_at": "20261018T051426",
+          "sentiment_score": 0.033493,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "IVZ",
+            "MS",
+            "JPM"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 17,
+          "is_noise": false
+        },
+        {
+          "title": "Amgen (NASDAQ:AMGN) Upgraded at Wall Street Zen",
+          "summary": "Wall Street Zen has upgraded Amgen (NASDAQ:AMGN) from a \"hold\" to a \"buy\" rating, though the broader analyst consensus remains \"hold\" with an average price target of $387.93. Th...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-amgen-nasdaq-amgn-upgraded-at-wall-street-zen-2026-10-18/",
+          "source": "MarketBeat",
+          "published_at": "20261018T051401",
+          "sentiment_score": 0.411163,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "AMGN"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Finance",
+            "Financial Markets"
+          ],
+          "quality_score": 17,
+          "is_noise": false
+        },
+        {
+          "title": "Charles River Laboratories International (CRL) Earnings Beat Puts Fair Value Back In Focus",
+          "summary": "Charles River Laboratories International (CRL) saw its stock climb 31.5% after beating analyst expectations with US$1.00 billion in quarterly revenue, along with strong organic...",
+          "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-crl/charles-river-laboratories-international/news/charles-river-laboratories-international-crl-earnings-beat-p",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T012907",
+          "sentiment_score": 0.400651,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "CRL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences"
+          ],
+          "quality_score": 16,
+          "is_noise": false
+        },
+        {
+          "title": "Fifth Third Bancorp Earnings: What To Look For From FITB",
+          "summary": "Fifth Third Bancorp (NASDAQ:FITB) is set to report earnings, with analysts expecting a 44.3% year-on-year revenue growth. The company previously met revenue expectations, report...",
+          "url": "https://www.tradingview.com/news/stockstory:efc2054c1094b:0-fifth-third-bancorp-earnings-what-to-look-for-from-fitb/",
+          "source": "TradingView",
+          "published_at": "20261018T030940",
+          "sentiment_score": 0.15954,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "FITB",
+            "RF",
+            "PLTR",
+            "BAC",
+            "WFC"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Economy Macro"
+          ],
+          "quality_score": 14,
+          "is_noise": false
+        },
+        {
+          "title": "ConocoPhillips (COP) Stock Looks About Right On Tight Oil Market News",
+          "summary": "ConocoPhillips (COP) stock has seen a strong share price run, leading to questions about whether its current valuation is justified by its earnings. The P/E ratio of 19.0x is cl...",
+          "url": "https://simplywall.st/stocks/us/energy/nyse-cop/conocophillips/news/conocophillips-cop-stock-looks-about-right-on-tight-oil-mark",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T044950",
+          "sentiment_score": 0.136071,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "COP",
+            "FANG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "How Earnings Beats At Canadian Natural Resources Stock Have Changed Its Investment Story",
+          "summary": "Canadian Natural Resources has consistently surpassed EPS and revenue expectations, coupled with an attractive 3.39% dividend yield. This performance, along with the company's f...",
+          "url": "https://simplywall.st/stocks/ca/energy/tsx-cnq/canadian-natural-resources-shares/news/how-earnings-beats-at-canadian-natural-resources-stock-have",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T034059",
+          "sentiment_score": 0.305439,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "CNQ"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Energy Transportation"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "AZZ Inc raises FY27 outlook after record Q2 sales and EPS beat",
+          "summary": "AZZ Inc. has raised its fiscal year 2027 sales outlook to $1.825 billion-$1.875 billion after achieving record Q2 sales of $486.9 million and adjusted EPS of $2.00, significantl...",
+          "url": "https://scanx.trade/stock-market-news/companies/azz-inc-q2-results-adjusted-eps-rises-29-yoy-2-00/53469238",
+          "source": "scanx.trade",
+          "published_at": "20261018T021110",
+          "sentiment_score": 0.448357,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "AZZ"
+          ],
+          "topics": [
+            "Earnings",
+            "Manufacturing",
+            "Finance"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Flotek Industries, Inc. (NYSE:FTK) Stock Has Consensus Price Target of $34.67",
+          "summary": "Flotek Industries (NYSE:FTK) has received a \"Moderate Buy\" rating from analysts, with a consensus price target of $34.67, significantly above its recent trading price of $23.91....",
+          "url": "https://www.marketbeat.com/instant-alerts/consensus-flotek-industries-inc-nyse-ftk-stock-has-consensus-price-target-of-3467-2026-10-17/",
+          "source": "MarketBeat",
+          "published_at": "20261018T054057",
+          "sentiment_score": 0.103522,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "FTK"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Energy Transportation"
+          ],
+          "quality_score": 11,
+          "is_noise": false
+        },
+        {
+          "title": "Is Texas Instruments (TXN) Undervalued On Its New Data Center Hardware Push?",
+          "summary": "Texas Instruments (TXN) has launched new analog hardware for AI data centers, influencing its stock valuation. While a popular narrative suggests the stock is 36.5% undervalued...",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-txn/texas-instruments/news/is-texas-instruments-txn-undervalued-on-its-new-data-center",
+          "source": "Simply Wall Street",
+          "published_at": "20261018T045005",
+          "sentiment_score": 0.261775,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "TXN",
+            "AVGO",
+            "AMD",
+            "NVDA",
+            "MSFT"
+          ],
+          "topics": [
+            "Technology",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Argus lifts Encore Capital Group stock target to USD 104.00",
+          "summary": "Argus has raised its price target for Encore Capital Group (ECPG) to USD 104.00, an increase of 2.28% from its last Nasdaq price of USD 101.68. The company's next earnings repor...",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/argus-lifts-encore-capital-group-stock-target-to-usd-104-00/70348680",
+          "source": "ad-hoc-news.de",
+          "published_at": "20261018T044042",
+          "sentiment_score": 0.487526,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ECPG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        }
+      ],
+      "top_tickers": [
+        {
+          "ticker": "AVGO",
+          "mentions": 4
+        },
+        {
+          "ticker": "NVDA",
+          "mentions": 2
+        },
+        {
+          "ticker": "FSLR",
+          "mentions": 2
+        },
+        {
+          "ticker": "KHC",
+          "mentions": 2
+        },
+        {
+          "ticker": "CSGP",
+          "mentions": 2
+        }
+      ],
+      "top_topics": [
+        {
+          "topic": "Earnings",
+          "mentions": 48
+        },
+        {
+          "topic": "Financial Markets",
+          "mentions": 45
+        },
+        {
+          "topic": "Finance",
+          "mentions": 18
+        },
+        {
+          "topic": "Energy Transportation",
+          "mentions": 9
+        },
+        {
+          "topic": "Technology",
+          "mentions": 9
+        }
+      ],
+      "sentiment_counts": [
+        {
+          "label": "Neutral",
+          "count": 20
+        },
+        {
+          "label": "Somewhat-Bullish",
+          "count": 12
+        },
+        {
+          "label": "Bullish",
+          "count": 7
+        },
+        {
+          "label": "Somewhat-Bearish",
+          "count": 7
+        },
+        {
+          "label": "Bearish",
+          "count": 2
+        }
+      ],
+      "top_sources": [
+        {
+          "source": "ad-hoc-news.de",
+          "count": 18
+        },
+        {
+          "source": "Simply Wall Street",
+          "count": 12
+        },
+        {
+          "source": "MarketBeat",
+          "count": 5
+        },
+        {
+          "source": "Yahoo! Finance Canada",
+          "count": 3
+        },
+        {
+          "source": "Yahoo Finance",
+          "count": 2
+        }
+      ],
+      "takeaway": "News flow is centered on Earnings, with AVGO appearing most often and the headline tone mostly neutral."
+    }
+  },
+  {
     "id": "polymarket-pulse-2026-10-18",
     "date": "2026-10-18",
     "runDate": "2026-10-18",
