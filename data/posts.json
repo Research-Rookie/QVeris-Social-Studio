@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-avgo-2026-10-18",
+    "date": "2026-10-18",
+    "runDate": "2026-10-18",
+    "createdAt": "2026-10-18T07:23:13.515743+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$AVGO news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Muted reaction\n\nNews tone and price action are both relatively muted.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-18.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-18T07:23:12.089207+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AVGO",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Muted reaction",
+    "topSymbol": "AVGO",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-18T07:23:12.089207+00:00",
+      "date": "2026-10-18",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "AVGO",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Invesco (NYSE:IVZ) Stock Rating Cut to \"Hold\" at Wall Street Zen",
+      "headline_source": "MarketBeat",
+      "price": 328.75,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 29839593,
+      "reaction_label": "Muted reaction",
+      "takeaway": "News tone and price action are both relatively muted.",
+      "price_error": null,
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "AVGO",
+            "mentions": 4
+          },
+          {
+            "ticker": "JPM",
+            "mentions": 2
+          },
+          {
+            "ticker": "BAC",
+            "mentions": 2
+          },
+          {
+            "ticker": "COP",
+            "mentions": 2
+          },
+          {
+            "ticker": "FSLR",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 19
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 14
+          },
+          {
+            "label": "Bullish",
+            "count": 6
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 6
+          },
+          {
+            "label": "Bearish",
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-ivz-2026-10-18",
     "date": "2026-10-18",
     "runDate": "2026-10-18",
