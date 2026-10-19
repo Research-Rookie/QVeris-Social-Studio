@@ -1,65 +1,61 @@
 {
-  "updated_at": "2026-10-18T07:23:12.089207+00:00",
-  "date": "2026-10-18",
+  "updated_at": "2026-10-19T08:02:20.785933+00:00",
+  "date": "2026-10-19",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "AVGO",
+  "symbol": "SPG",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Invesco (NYSE:IVZ) Stock Rating Cut to \"Hold\" at Wall Street Zen",
+  "headline": "Alexandria Real Estate Equities (ARE) Expected to Post Earnings on Monday",
   "headline_source": "MarketBeat",
-  "price": 328.75,
+  "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
-  "volume": 29839593,
-  "reaction_label": "Muted reaction",
-  "takeaway": "News tone and price action are both relatively muted.",
-  "price_error": null,
+  "volume": 0,
+  "reaction_label": "Price pending",
+  "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+  "price_error": "Could not parse quote data for SPG: {'status_code': 200, 'data': {'c': 205.44, 'd': 2.05, 'dp': 1.0079, 'h': 206.5, 'l': 203.61, 'o': 204.46, 'pc': 203.39, 't': 1792180800}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "AVGO",
-        "mentions": 4
+        "ticker": "SPG",
+        "mentions": 3
       },
       {
-        "ticker": "JPM",
+        "ticker": "PFE",
         "mentions": 2
       },
       {
-        "ticker": "BAC",
+        "ticker": "NVDA",
         "mentions": 2
       },
       {
-        "ticker": "COP",
+        "ticker": "C",
         "mentions": 2
       },
       {
-        "ticker": "FSLR",
+        "ticker": "SO",
         "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 19
+        "count": 25
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 14
+        "count": 11
       },
       {
         "label": "Bullish",
-        "count": 6
+        "count": 9
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 6
-      },
-      {
-        "label": "Bearish",
-        "count": 3
+        "count": 5
       }
     ]
   }
