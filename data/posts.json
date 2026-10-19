@@ -1,5 +1,214 @@
 [
   {
+    "id": "market-narrative-shift-key-2026-10-19",
+    "date": "2026-10-19",
+    "runDate": "2026-10-19",
+    "createdAt": "2026-10-19T07:12:20.287190+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $KEY",
+    "status": "ready",
+    "tweet": "What changed in $KEY's market narrative? 🔄\n\n🧭 Signal: Attention rising\n💬 Sentiment shift: +0.00\n📌 Top theme: Earnings\n🔎 Emerging term: keycorp\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_KEY_2026-10-19.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-19T07:12:18.686356+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$KEY",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Attention rising",
+    "topSymbol": "KEY",
+    "topChangePct": 0.44,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-19T07:12:18.686356+00:00",
+      "date": "2026-10-19",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "KEY",
+      "shift_label": "Attention rising",
+      "sentiment_delta": 0.0044,
+      "baseline_label": "2026-10-05",
+      "current": {
+        "date": "2026-10-19",
+        "symbol": "KEY",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.1928,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "keycorp",
+            "count": 4
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "for",
+            "count": 2
+          },
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "analog",
+            "count": 2
+          },
+          {
+            "label": "devices",
+            "count": 2
+          },
+          {
+            "label": "eps",
+            "count": 2
+          },
+          {
+            "label": "forecast",
+            "count": 2
+          },
+          {
+            "label": "preview",
+            "count": 1
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "look",
+            "count": 1
+          },
+          {
+            "label": "set",
+            "count": 1
+          }
+        ],
+        "headline": "KeyCorp (KEY) Q3 Earnings Report Preview: What To Look For",
+        "headline_source": "StockStory"
+      },
+      "previous": {
+        "date": "2026-10-05",
+        "symbol": "KEY",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1884,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "for",
+            "count": 3
+          },
+          {
+            "label": "keycorp",
+            "count": 2
+          },
+          {
+            "label": "ametek",
+            "count": 2
+          },
+          {
+            "label": "fy2027",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "ame",
+            "count": 2
+          },
+          {
+            "label": "forecasts",
+            "count": 1
+          },
+          {
+            "label": "have",
+            "count": 1
+          },
+          {
+            "label": "released",
+            "count": 1
+          },
+          {
+            "label": "per",
+            "count": 1
+          },
+          {
+            "label": "share",
+            "count": 1
+          },
+          {
+            "label": "estimates",
+            "count": 1
+          }
+        ],
+        "headline": "KeyCorp Forecasts AMETEK's FY2027 Earnings (NYSE:AME)",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Economy Macro"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "keycorp",
+        "revenue",
+        "analog"
+      ],
+      "fading_keywords": [
+        "ametek",
+        "fy2027",
+        "ame"
+      ],
+      "takeaway": "KEY's narrative is attention rising: sentiment moved +0.00, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-19",
     "date": "2026-10-19",
     "runDate": "2026-10-19",
