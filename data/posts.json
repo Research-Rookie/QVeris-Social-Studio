@@ -1,5 +1,1313 @@
 [
   {
+    "id": "financial-news-signal-2026-10-20",
+    "date": "2026-10-20",
+    "runDate": "2026-10-20",
+    "createdAt": "2026-10-20T06:13:51.358589+00:00",
+    "contentType": "FINANCIAL NEWS SIGNAL",
+    "title": "Financial News Signal",
+    "status": "ready",
+    "tweet": "Financial News Signal via QVeris 📰\n\n🗞️ Headlines: 50\n🏷️ Ticker: COSO\n📌 Theme: Earnings\n🧭 Tone: Neutral\n\nSignals from live news data: https://qveris.ai",
+    "image": "/posts/financial_news_signal_2026-10-20.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-20T06:13:48.676566+00:00",
+    "xPostId": null,
+    "primaryLabel": "Top ticker",
+    "primaryValue": "COSO",
+    "secondaryLabel": "Tone",
+    "secondaryValue": "Neutral",
+    "topSymbol": "COSO",
+    "topChangePct": 0,
+    "financialNewsSignal": {
+      "updated_at": "2026-10-20T06:13:48.676566+00:00",
+      "date": "2026-10-20",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Financial News Signal",
+      "articles": [
+        {
+          "title": "Cadence Design Systems (NASDAQ:CDNS) Cut to Hold at Wall Street Zen",
+          "summary": "Wall Street Zen downgraded Cadence Design Systems (CDNS) from \"buy\" to \"hold\" despite the broader analyst consensus remaining a \"Moderate Buy\" with an average price target of $4...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-cadence-design-systems-nasdaq-cdns-cut-to-hold-at-wall-street-zen-2026-10-20/",
+          "source": "MarketBeat",
+          "published_at": "20261020T052532",
+          "sentiment_score": 0.127341,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CDNS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 17,
+          "is_noise": false
+        },
+        {
+          "title": "CoastalSouth Bancshares (NYSE:COSO) Announces Earnings Results, Beats Expectations By $0.12 EPS",
+          "summary": "CoastalSouth Bancshares (NYSE:COSO) announced its earnings, reporting $0.71 EPS for the quarter, surpassing analyst expectations by $0.12. Despite beating estimates, the company...",
+          "url": "https://www.marketbeat.com/instant-alerts/earnings-coastalsouth-bancshares-nyse-coso-announces-earnings-results-beats-expectations-by-012-eps-2026-10-19/",
+          "source": "MarketBeat",
+          "published_at": "20261020T041432",
+          "sentiment_score": 0.223456,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "COSO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 16,
+          "is_noise": false
+        },
+        {
+          "title": "\"LGD to return to profitability in Q3; second-half operating profit to rise sharply from first half\" Daishin Securi...",
+          "summary": "LG Display is projected to return to profitability in the third quarter of 2026, driven by increased OLED panel supplies, though earnings may fall short of market expectations d...",
+          "url": "https://en.fnnews.com/news/202610200052117330",
+          "source": "파이낸셜뉴스",
+          "published_at": "20261020T052900",
+          "sentiment_score": 0.199152,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "LPL",
+            "AAPL",
+            "MSFT"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Economy Macro"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "NFLX Stock Flat Overnight: Netflix's ‘Largest Content Deal’ With Brazil Media Giant Globo Fails To Sway Retail Ahea...",
+          "summary": "Netflix stock remained flat despite securing its largest content deal with Brazil's Globo, signaling investor concern over subscriber growth ahead of its Q3 earnings report. Ana...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nflx-stock-flat-overnight-netflixs-041739335.html",
+          "source": "Yahoo Finance",
+          "published_at": "20261020T041633",
+          "sentiment_score": -0.321139,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "NFLX",
+            "WBD",
+            "NKE",
+            "TTD"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Retail Wholesale",
+            "Finance"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "FreightCar America Q3 revenue misses est at $75M-$77M",
+          "summary": "FreightCar America (RAIL) reported preliminary Q3 FY26 revenue of $75M-$77M, significantly below analyst expectations, primarily due to the removal of a 1,285-unit tank car retr...",
+          "url": "https://scanx.trade/stock-market-news/companies/freightcar-america-q3fy26-results-revenue-drops-53-yoy-75m-77m/53989238",
+          "source": "scanx.trade",
+          "published_at": "20261020T023000",
+          "sentiment_score": -0.600228,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "RAIL"
+          ],
+          "topics": [
+            "Earnings",
+            "Energy Transportation",
+            "Manufacturing"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "Should You Buy Netflix Stock Before Its Earnings Report After Hours Today?",
+          "summary": "Netflix stock is down 26% year-to-date, with investors concerned about weak engagement and market share loss to rivals like YouTube. Ahead of its Q3 earnings report, where it's...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-netflix-stock-earnings-report-045001588.html",
+          "source": "Yahoo Finance",
+          "published_at": "20261020T044939",
+          "sentiment_score": 0.095649,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NFLX",
+            "NVDA",
+            "WBD",
+            "DIS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Did Earnings Upgrade Just Shift Roper Technologies (ROP) Investment Narrative?",
+          "summary": "Roper Technologies (ROP) recently received an earnings upgrade to a Zacks Rank #2, driven by analysts' increased optimism regarding its Application Software, Technology Enabled...",
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-rop/roper-technologies/news/did-earnings-upgrade-just-shift-roper-technologies-rop-inves",
+          "source": "Simply Wall Street",
+          "published_at": "20261020T034530",
+          "sentiment_score": 0.419886,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ROP"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Earnings To Watch: Elevance Health (ELV) Reports Q3 Results Tomorrow",
+          "summary": "Elevance Health (ELV) is set to report its Q3 results tomorrow, with analysts expecting a 2.3% year-on-year revenue decline, a reversal from the 12% increase last year. The comp...",
+          "url": "https://www.tradingview.com/news/stockstory:0e292c5ab094b:0-earnings-to-watch-elevance-health-elv-reports-q3-results-tomorrow/",
+          "source": "TradingView",
+          "published_at": "20261020T031011",
+          "sentiment_score": 0.198,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "ELV",
+            "UNH"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Financial Markets"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Earnings To Watch: Globe Life (GL) Reports Q3 Results Tomorrow",
+          "summary": "Globe Life (GL) is set to report its Q3 earnings this Wednesday, with analysts expecting a 6.4% year-on-year revenue growth. The company previously missed EPS and book value per...",
+          "url": "https://www.tradingview.com/news/stockstory:13f6a1e82094b:0-earnings-to-watch-globe-life-gl-reports-q3-results-tomorrow/",
+          "source": "TradingView",
+          "published_at": "20261020T030832",
+          "sentiment_score": 0.071579,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "GL",
+            "TRV",
+            "NVDA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "SEI Investments (SEIC) To Report Earnings Tomorrow: Here Is What To Expect",
+          "summary": "SEI Investments (SEIC) is set to announce its earnings results, with analysts expecting a 13.8% year-on-year revenue growth. The company has a history of beating revenue and AUM...",
+          "url": "https://www.tradingview.com/news/stockstory:e290b3205094b:0-sei-investments-seic-to-report-earnings-tomorrow-here-is-what-to-expect/",
+          "source": "TradingView",
+          "published_at": "20261020T030411",
+          "sentiment_score": 0.072147,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SEIC",
+            "CBOE",
+            "GS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Live Oak Bancshares (LOB) To Report Earnings Tomorrow: Here Is What To Expect",
+          "summary": "Live Oak Bancshares (LOB) is set to announce its earnings results, with analysts anticipating a 12.1% year-on-year revenue growth. The company has a history of beating revenue e...",
+          "url": "https://www.tradingview.com/news/stockstory:c7698afb6094b:0-live-oak-bancshares-lob-to-report-earnings-tomorrow-here-is-what-to-expect/",
+          "source": "TradingView",
+          "published_at": "20261020T024317",
+          "sentiment_score": 0.028304,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "LOB-P-A"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Rollins (ROL) Reports Earnings Tomorrow: What To Expect",
+          "summary": "Rollins (ROL) is set to report earnings this Wednesday after market close. The pest control company missed revenue and EBITDA estimates last quarter, and the market anticipates...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rollins-rol-reports-earnings-tomorrow-050150832.html",
+          "source": "Yahoo Finance",
+          "published_at": "20261020T050044",
+          "sentiment_score": -0.112371,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "ROL"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Danaher (DHR) Reports Q3: Everything You Need To Know Ahead Of Earnings",
+          "summary": "Danaher (DHR) is set to announce its Q3 earnings this Wednesday, with analysts expecting an 8.4% year-on-year revenue growth, an improvement from last year's 4.4% increase. The...",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-20-danaher-dhr-reports-q3-everything-you-need-to-know-ahead-of-earnings",
+          "source": "FinancialContent",
+          "published_at": "20261020T031217",
+          "sentiment_score": 0.335516,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "DHR"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences",
+            "Technology"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Philip Morris (PM) Q3 Earnings Report Preview: What To Look For",
+          "summary": "Philip Morris International (PM) is set to release its Q3 earnings report this Wednesday before the market opens. The company previously exceeded revenue expectations, and analy...",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-20-philip-morris-pm-q3-earnings-report-preview-what-to-look-for",
+          "source": "FinancialContent",
+          "published_at": "20261020T031046",
+          "sentiment_score": 0.103512,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PM",
+            "STZ",
+            "CAG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Retail Wholesale"
+          ],
+          "quality_score": 12,
+          "is_noise": false
+        },
+        {
+          "title": "Moore Law PLLC Seeks Honeywell Aerospace Investors After Earnings Drop and DOJ Deal",
+          "summary": "Moore Law PLLC is encouraging investors of Honeywell Aerospace (HONA) to contact their firm due to a significant 70% year-over-year drop in Q2 net income, reduced full-year guid...",
+          "url": "https://www.tradingview.com/news/tradingview:8afc6e26fae86:0-moore-law-pllc-seeks-honeywell-aerospace-investors-after-earnings-drop-and-doj-deal/",
+          "source": "TradingView",
+          "published_at": "20261020T014322",
+          "sentiment_score": -0.432758,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "HONA",
+            "HON"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Financial Markets",
+            "Manufacturing"
+          ],
+          "quality_score": 11,
+          "is_noise": false
+        },
+        {
+          "title": "Suja Life Q3FY26 Results: Earnings release set for November 10, 2026",
+          "summary": "Suja Life Inc. (NASDAQ: SUJA) is scheduled to report its Q3FY26 financial results on November 10, 2026, after market close, followed by a conference call and webcast at 4:30 pm...",
+          "url": "https://scanx.trade/stock-market-news/companies/suja-life-q3fy26-results-earnings-release-set-november-10-2026/53991611",
+          "source": "scanx.trade",
+          "published_at": "20261020T031000",
+          "sentiment_score": -0.816931,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "SUJA"
+          ],
+          "topics": [
+            "Earnings",
+            "Ipo",
+            "Financial Markets",
+            "Finance",
+            "Retail Wholesale"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "What Should We Expect From Simon Property Group (NYSE:SPG) Near Its Earnings?",
+          "summary": "Simon Property Group (NYSE:SPG), the largest owner of shopping malls and outlet centers in the US, is approaching its quarterly earnings release. The market will focus on key me...",
+          "url": "https://kalkinemedia.com/us/stocks/infrastructure-and-real-estate/what-should-we-expect-from-simon-property-group-nysespg-near-its-earnings",
+          "source": "Kalkine Media",
+          "published_at": "20261020T030842",
+          "sentiment_score": 0.142729,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SPG"
+          ],
+          "topics": [
+            "Earnings",
+            "Real Estate",
+            "Retail Wholesale",
+            "Financial Markets",
+            "Economy Macro"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "What Should We Expect From American Tower (NYSE:AMT) Ahead of Its Earnings?",
+          "summary": "American Tower (NYSE: AMT) is nearing its latest-quarter earnings release, focusing on leasing trends for its wireless towers and data centers. The company's business model reli...",
+          "url": "https://kalkinemedia.com/us/stocks/infrastructure-and-real-estate/what-should-we-expect-from-american-tower-nyseamt-ahead-of-its-earnings",
+          "source": "Kalkine Media",
+          "published_at": "20261020T025535",
+          "sentiment_score": 0.346654,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "AMT"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Real Estate",
+            "Financial Markets"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "FreightCar America updates 2026 outlook; Q3 revenue prelim ~$75–77M, adjusted EBITDA near breakeven",
+          "summary": "FreightCar America updated its full-year 2026 outlook and reported preliminary Q3 2026 results. The company removed a significant tank car retrofit order from its backlog, leadi...",
+          "url": "https://www.tradingview.com/news/tradingview:f11be237a32ec:0-freightcar-america-updates-2026-outlook-q3-revenue-prelim-75-77m-adjusted-ebitda-near-breakeven/",
+          "source": "TradingView",
+          "published_at": "20261020T023542",
+          "sentiment_score": -0.43082,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "RAIL"
+          ],
+          "topics": [
+            "Earnings",
+            "Energy Transportation",
+            "Manufacturing"
+          ],
+          "quality_score": 10,
+          "is_noise": false
+        },
+        {
+          "title": "Inter & Co (NasdaqGS:INTR) Joins S&P Global BMI, Is It Still 21% Below Fair Value?",
+          "summary": "Inter & Co (INTR) recently joined the S&P Global BMI Index, sparking investor interest despite a negative year-to-date return. The digital bank's stock is currently trading at a...",
+          "url": "https://simplywall.st/stocks/us/banks/nasdaq-intr/inter-co/news/inter-co-nasdaqgsintr-joins-sp-global-bmi-is-it-still-21-bel",
+          "source": "Simply Wall Street",
+          "published_at": "20261020T044732",
+          "sentiment_score": 0.30553,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "SPGI"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance",
+            "Earnings"
+          ],
+          "quality_score": 9,
+          "is_noise": false
+        },
+        {
+          "title": "SATL Stock Price and Chart — NASDAQ:SATL",
+          "summary": "This page provides a comprehensive overview of Satellogic Inc. (SATL) stock on NASDAQ, including its current price, historical performance, key financial stats like market capit...",
+          "url": "https://www.tradingview.com/symbols/NASDAQ-SATL/",
+          "source": "TradingView",
+          "published_at": "20261020T031223",
+          "sentiment_score": 0.392493,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "SATL"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 8,
+          "is_noise": false
+        },
+        {
+          "title": "Is Texas Instruments (TXN) Stock Looking Rich Or Still Reasonable?",
+          "summary": "Texas Instruments' stock has more than doubled in the last three years, prompting a re-evaluation of its current US$276.15 share price against future cash flows. While recent hi...",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-txn/texas-instruments/news/is-texas-instruments-txn-stock-looking-rich-or-still-reasona",
+          "source": "Simply Wall Street",
+          "published_at": "20261020T044731",
+          "sentiment_score": -0.029745,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "TXN",
+            "AVGO",
+            "AMD"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Liberty Global (LBTY.A) Looks Undervalued On Paper, Can Its Assets Unlock Fair Value?",
+          "summary": "Liberty Global (LBTY.A) has seen a significant share price decline, making it appear undervalued on paper with a fair value of $12.00 against a last close of $7.50. Despite a su...",
+          "url": "https://simplywall.st/stocks/us/telecom/nasdaq-lbty.a/liberty-global/news/liberty-global-lbtya-looks-undervalued-on-paper-can-its-asse/amp",
+          "source": "Simply Wall Street",
+          "published_at": "20261020T044328",
+          "sentiment_score": 0.008445,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "LBYKV"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Finance",
+            "Technology"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "CoastalSouth Bancshares, Inc. Reports Earnings for Third Quarter 2026",
+          "summary": "CoastalSouth Bancshares, Inc. (NYSE: COSO) reported record net income of $8.8 million, or $0.71 per diluted share, for the third quarter of 2026, driven by strong loan productio...",
+          "url": "https://www.businesswire.com/news/home/20261019245095/en/CoastalSouth-Bancshares-Inc.-Reports-Earnings-for-Third-Quarter-2026",
+          "source": "Business Wire",
+          "published_at": "20261020T041432",
+          "sentiment_score": 0.514248,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "COSO"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "SI-BONE To Report Third Quarter 2026 Financial Results on November 2, 2026",
+          "summary": "SI-BONE, Inc. (NASDAQ: SIBN) announced it will release its third-quarter 2026 financial results after market close on Monday, November 2, 2026. The company will host a conferenc...",
+          "url": "https://www.manilatimes.net/2026/10/20/tmt-newswire/globenewswire/si-bone-to-report-third-quarter-2026-financial-results-on-november-2-2026/2449185/amp",
+          "source": "The Manila Times",
+          "published_at": "20261020T034134",
+          "sentiment_score": 0.021305,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SIBN"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Price to earnings forward of RingCentral, Inc. Class A – XETR:3RCA",
+          "summary": "This article provides the \"Price to earnings forward\" value for RingCentral, Inc. Class A (XETR:3RCA) on the TradingView platform. The information is presented without specific...",
+          "url": "https://www.tradingview.com/symbols/XETR-3RCA/financials-statistics-and-ratios/price-earnings-fwd/",
+          "source": "TradingView",
+          "published_at": "20261020T014329",
+          "sentiment_score": 0.027252,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "RNG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 7,
+          "is_noise": false
+        },
+        {
+          "title": "Mosaic Company stock hits 52-week low at 18.4 USD By Investing.com",
+          "summary": "Mosaic Company's stock has hit a 52-week low of $18.40, reflecting a 33.45% decline over the past year. Despite being considered undervalued by InvestingPro and maintaining divi...",
+          "url": "https://au.investing.com/news/stock-market-news/mosaic-company-stock-hits-52week-low-at-184-usd-93CH-4699107",
+          "source": "Investing.com Australia",
+          "published_at": "20261020T050742",
+          "sentiment_score": -0.497523,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "MOS"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "CoastalSouth Bancshares Q3 Results: EPS up 31% YoY to $0.71",
+          "summary": "CoastalSouth Bancshares reported record Q3 2026 diluted EPS of $0.71, a 31.48% increase year-over-year, surpassing analyst estimates. Net income rose to $8.8 million, driven by...",
+          "url": "https://scanx.trade/stock-market-news/companies/coastalsouth-bancshares-q3-results-eps-up-31-yoy-0-71/53988423",
+          "source": "scanx.trade",
+          "published_at": "20261020T021700",
+          "sentiment_score": 0.455027,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "COSO"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Evercore ISI Adjusts Price Target on PNC Financial Services Group to $260 From $265",
+          "summary": "Evercore ISI has adjusted its price target for PNC Financial Services Group (PNC) to $260, down from its previous target of $265. The firm maintains an Outperform rating on the...",
+          "url": "https://www.moomoo.com/news/post/1001577237/evercore-isi-adjusts-price-target-on-pnc-financial-services-group",
+          "source": "Moomoo",
+          "published_at": "20261020T020823",
+          "sentiment_score": -0.213384,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "PNC"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "Principal Financial Group (PFG) Reports $785 Billion in Assets Under Management for Q3 2026",
+          "summary": "Principal Financial Group (PFG) reported $785 billion in assets under management (AUM) for Q3 2026, a slight decline attributed to foreign currency translation, market performan...",
+          "url": "https://www.gurufocus.com/news/9130629/principal-financial-group-pfg-reports-785-billion-in-assets-under-management-for-q3-2026",
+          "source": "GuruFocus",
+          "published_at": "20261020T020710",
+          "sentiment_score": -0.102029,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PFG"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 6,
+          "is_noise": false
+        },
+        {
+          "title": "A power systems maker cuts about $1.03 million in annualized costs. It is focused on turning orders into shipments.",
+          "summary": "Polar Power (POLA) has completed Phase 1 of its strategic restructuring, resulting in approximately $1.03 million in annualized cost reductions, including personnel and facility...",
+          "url": "https://www.stocktitan.net/news/POLA/polar-power-completes-phase-1-of-strategic-restructuring-reducing-10p4bewc5m8q.html",
+          "source": "Stock Titan",
+          "published_at": "20261020T021327",
+          "sentiment_score": 0.314031,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "POLA"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Manufacturing"
+          ],
+          "quality_score": 5,
+          "is_noise": false
+        },
+        {
+          "title": "Total current assets of Kimco Realty Corporation – SWB:KIC",
+          "summary": "This article provides financial data for Kimco Realty Corporation (SWB:KIC), specifically focusing on its total current assets. The data is sourced from TradingView, which provi...",
+          "url": "https://www.tradingview.com/symbols/SWB-KIC/financials-balance-sheet/total-current-assets/",
+          "source": "TradingView",
+          "published_at": "20261020T041016",
+          "sentiment_score": 0.027248,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "KIM"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Real Estate",
+            "Finance"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Septerna president and COO Elizabeth Bhatt sells $149,644 in stock By Investing.com",
+          "summary": "Elizabeth Bhatt, President and COO of Septerna Inc. (NASDAQ:SEPN), sold 4,000 shares for $149,644 and acquired 4,000 shares through option exercise for $27,240 on October 15, 20...",
+          "url": "https://uk.investing.com/news/stock-market-news/septerna-president-and-coo-elizabeth-bhatt-sells-149644-in-stock-93CH-4918536",
+          "source": "Investing.com UK",
+          "published_at": "20261020T031504",
+          "sentiment_score": 0.002345,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SEPN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Life Sciences"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Qualys Inc (QLYS) Stock Up 5.0% but GF Value Says Overvalued -- GF Score: 96/100",
+          "summary": "Qualys Inc (QLYS) stock increased by 5.0% but is considered overvalued according to GuruFocus's GF Value, trading 12.2% above its estimated intrinsic value. Despite a strong GF...",
+          "url": "https://www.gurufocus.com/news/9130543/qualys-inc-qlys-stock-up-50-but-gf-value-says-overvalued-gf-score-96100",
+          "source": "GuruFocus",
+          "published_at": "20261020T024353",
+          "sentiment_score": -0.383728,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "QLYS"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Technology",
+            "Earnings"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "McKesson (MCK) Stock Could Stay Reasonable Despite Its 400% Run",
+          "summary": "McKesson's stock has seen a nearly 400% increase over the past five years, prompting questions about whether its current valuation is justified by its future cash flows. A Disco...",
+          "url": "https://simplywall.st/stocks/us/healthcare/nyse-mck/mckesson/news/mckesson-mck-stock-could-stay-reasonable-despite-its-400-run",
+          "source": "Simply Wall Street",
+          "published_at": "20261020T023330",
+          "sentiment_score": 0.211143,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "MCK",
+            "COR",
+            "CAH"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance",
+            "Life Sciences"
+          ],
+          "quality_score": 4,
+          "is_noise": false
+        },
+        {
+          "title": "Radiopharm Theranostics Cancels 4,888,889 Director Options Expiring 31 July 2029",
+          "summary": "Radiopharm Theranostics Limited (ASX:RAD) announced the cessation of 4,888,889 quoted options (ASX code: RADOC) expiring on July 31, 2029. This cancellation is due to a portion...",
+          "url": "https://kalkine.com.au/news/announcements/radiopharm-theranostics-cancels-4888889-director-options-expiring-31-july-2029",
+          "source": "Kalkine",
+          "published_at": "20261020T044142",
+          "sentiment_score": 0.112461,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "RADX"
+          ],
+          "topics": [
+            "Earnings",
+            "Finance",
+            "Life Sciences"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Shift4: The Value Quotient Looks Appealing, But Spending And FCF Headwinds Still Persist",
+          "summary": "Shift4 Payments (FOUR) has underperformed its peers in FY26, facing challenges like persistent free cash flow conversion headwinds due to travel disruptions, subdued spending, a...",
+          "url": "https://seekingalpha.com/article/4955360-shift4-the-value-quotient-looks-appealing-but-spending-and-fcf-headwinds-still-persist",
+          "source": "Seeking Alpha",
+          "published_at": "20261020T034119",
+          "sentiment_score": -0.083396,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "FOUR-P-A",
+            "FIS",
+            "GPN"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Economy Macro",
+            "Finance",
+            "Technology"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "McKesson Corp (MCK) EVP, CIO and CTO Francisco Fraga Sells 800 Shares",
+          "summary": "McKesson Corp's EVP, CIO, and CTO, Francisco Fraga, sold 800 shares of MCK on October 15, 2026, for approximately $796,640. This sale is part of a broader pattern at McKesson, w...",
+          "url": "https://www.gurufocus.com/news/9130502/mckesson-corp-mck-evp-cio-and-cto-francisco-fraga-sells-800-shares",
+          "source": "GuruFocus",
+          "published_at": "20261020T033816",
+          "sentiment_score": -0.221659,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "MCK"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 3,
+          "is_noise": false
+        },
+        {
+          "title": "Ferrari has spent €639.7 million buying its own shares since Jan. 5",
+          "summary": "Ferrari N.V. (RACE) has reported its periodic share buyback program activities, purchasing 34,212 common shares on Euronext Milan between October 12 and October 16, 2026, for ap...",
+          "url": "https://www.stocktitan.net/news/RACE/ferrari-n-v-periodic-report-on-the-buyback-rwws3anpxzlx.html",
+          "source": "Stock Titan",
+          "published_at": "20261020T024407",
+          "sentiment_score": 0.467875,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "RACE"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 2,
+          "is_noise": false
+        },
+        {
+          "title": "Outside its incentive plan, Nexentis Technologies (NXTS) issues 510,000 shares for consulting services.",
+          "summary": "Nexentis Technologies Inc. (NXTS) announced the issuance of common shares on October 15, 2026, both under and outside its 2022 Share Incentive Plan. The company issued shares to...",
+          "url": "https://www.stocktitan.net/sec-filings/NXTS/8-k-nexentis-technologies-inc-reports-material-event-d72bffa87d77.html",
+          "source": "Stock Titan",
+          "published_at": "20261020T051325",
+          "sentiment_score": -0.240928,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "NXTS"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "In lieu of cash, Forbright (FRBT) director Fish receives 1,006 stock units.",
+          "summary": "Forbright, Inc. director Jason M. Fish received 1,006 fully vested deferred restricted stock units (DRSUs) on October 15, 2026, as quarterly compensation instead of cash. Valued...",
+          "url": "https://www.stocktitan.net/sec-filings/FRBT/form-4-forbright-inc-insider-trading-activity-308d411b4298.html",
+          "source": "Stock Titan",
+          "published_at": "20261020T041455",
+          "sentiment_score": 0.011276,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "FRBT"
+          ],
+          "topics": [
+            "Finance",
+            "Financial Markets",
+            "Earnings"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Alamar Biosciences (NASDAQ:ALMR) Major Shareholder Sells $4,812,181.01 in Stock",
+          "summary": "Major shareholder Corporate Gp Vi Ltd. Qiming sold 173,537 shares of Alamar Biosciences stock for approximately $4.81 million, significantly reducing its position. Despite this...",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-alamar-biosciences-nasdaq-almr-major-shareholder-sells-481218101-in-stock-2026-10-19/",
+          "source": "MarketBeat",
+          "published_at": "20261020T041153",
+          "sentiment_score": 0.219577,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "ALMR"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Financial Markets"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Deadline Alert: Alphabet Inc. Investors Have Until December",
+          "summary": "Glancy Prongay Wolke & Rotter LLP has reminded investors in Alphabet Inc. (NASDAQ: GOOGL) that they have until December 1, 2026, to seek the lead plaintiff role in a securities...",
+          "url": "https://www.globenewswire.com/news-release/2026/10/19/3383966/0/en/deadline-alert-alphabet-inc-investors-have-until-december-1-2026-to-seek-lead-plaintiff-role-in-securities-fraud-class-action-glancy-prongay-wolke-rotter-llp-reminds.html",
+          "source": "GlobeNewswire",
+          "published_at": "20261020T041003",
+          "sentiment_score": -0.610549,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "GOOGL",
+            "GOOG"
+          ],
+          "topics": [
+            "Finance",
+            "Technology",
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Will Dividend Reinvestment Shares Change CMS Energy's (CMS) Narrative",
+          "summary": "CMS Energy has filed a shelf registration for up to 2 million common shares, valued at approximately $131.72 million, to support its dividend reinvestment plan. This move provid...",
+          "url": "https://simplywall.st/stocks/us/utilities/nyse-cms/cms-energy/news/will-dividend-reinvestment-shares-change-cms-energys-cms-nar/amp",
+          "source": "Simply Wall Street",
+          "published_at": "20261020T040943",
+          "sentiment_score": 0.139167,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CMS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Will Dividend Reinvestment Shares Change CMS Energy's (CMS) Narrative",
+          "summary": "CMS Energy has filed a shelf registration for up to 2 million common shares, valued at approximately $131.72 million, to support its dividend reinvestment plan. This move provid...",
+          "url": "https://simplywall.st/stocks/us/utilities/nyse-cms/cms-energy/news/will-dividend-reinvestment-shares-change-cms-energys-cms-nar",
+          "source": "Simply Wall Street",
+          "published_at": "20261020T034208",
+          "sentiment_score": 0.098576,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CMS",
+            "PEG",
+            "WEC"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings",
+            "Financial Markets",
+            "Energy Transportation"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "Sonida Senior Living Inc (SNDA) Shares Fall 3.6% -- What GF Scor",
+          "summary": "Sonida Senior Living Inc (SNDA) shares dropped 3.6% to $34.03, despite a significant amount of insider buying over the past year. GuruFocus estimates the stock is 96.0% overvalu...",
+          "url": "https://www.gurufocus.com/news/9130683/sonida-senior-living-inc-snda-shares-fall-36-what-gf-score-of-49-tells-investors",
+          "source": "GuruFocus",
+          "published_at": "20261020T034156",
+          "sentiment_score": -0.605607,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "SNDA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "RLI Corp. (RLI) Tops Q3 EPS by 35c",
+          "summary": "RLI Corp. (RLI) announced its Q3 earnings, reporting an EPS of $0.86, which significantly exceeded the analyst estimate of $0.51 by $0.35. However, the company's revenue for the...",
+          "url": "https://www.streetinsider.com/Earnings/RLI+Corp.+%28RLI%29+Tops+Q3+EPS+by+35c/27203973.html",
+          "source": "StreetInsider",
+          "published_at": "20261020T024351",
+          "sentiment_score": 0.003081,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "RLI"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "[Form 3] ProPetro Holding Corp. Initial Statement of Beneficial Ownership",
+          "summary": "This article details the filing of a Form 3 by ProPetro Holding Corp. for Kyle Bradford Crowley, indicating his initial statement of beneficial ownership as a director. The fili...",
+          "url": "https://www.stocktitan.net/sec-filings/PUMP/form-3-pro-petro-holding-corp-initial-statement-of-beneficial-ownersh-56fab0599447.html",
+          "source": "Stock Titan",
+          "published_at": "20261020T024215",
+          "sentiment_score": 0.043804,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "PUMP"
+          ],
+          "topics": [
+            "Finance",
+            "Earnings"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "What's Next for Papa John's International, Inc. Shareholders After 17.18% Stock Drop? Glancy Prongay Wolke & Rotter...",
+          "summary": "Glancy Prongay Wolke & Rotter LLP announced a class action lawsuit against Papa John's International, Inc. following a 17.18% stock drop. The lawsuit alleges that Papa John's mi...",
+          "url": "https://www.morningstar.com/news/pr-newswire/20261019la76057/whats-next-for-papa-johns-international-inc-shareholders-after-1718-stock-drop-glancy-prongay-wolke-rotter-llp-explains-securities-fraud-class-action-lead-plaintiff-deadline",
+          "source": "Morningstar",
+          "published_at": "20261020T024144",
+          "sentiment_score": -0.616266,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "PZZA"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Finance",
+            "Earnings"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        },
+        {
+          "title": "What's Next for Papa John's International, Inc. Shareholders After 17.18% Stock Drop? Glancy Prongay Wolke & Rotter...",
+          "summary": "Glancy Prongay Wolke & Rotter LLP announced a class action lawsuit against Papa John's International, Inc. following a 17.18% stock drop. The lawsuit alleges that Papa John's mi...",
+          "url": "https://www.prnewswire.com/news-releases/whats-next-for-papa-johns-international-inc-shareholders-after-17-18-stock-drop-glancy-prongay-wolke--rotter-llp-explains-securities-fraud-class-action-lead-plaintiff-deadline-302913252.html",
+          "source": "PR Newswire",
+          "published_at": "20261020T023244",
+          "sentiment_score": -0.704269,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "PZZA"
+          ],
+          "topics": [
+            "Financial Markets",
+            "Earnings",
+            "Retail Wholesale"
+          ],
+          "quality_score": -10,
+          "is_noise": true
+        }
+      ],
+      "article_count": 50,
+      "top_ticker": "COSO",
+      "top_topic": "Earnings",
+      "dominant_sentiment": "Neutral",
+      "top_story": "Cadence Design Systems (NASDAQ:CDNS) Cut to Hold at Wall Street Zen",
+      "signal_articles": [
+        {
+          "title": "Cadence Design Systems (NASDAQ:CDNS) Cut to Hold at Wall Street Zen",
+          "summary": "Wall Street Zen downgraded Cadence Design Systems (CDNS) from \"buy\" to \"hold\" despite the broader analyst consensus remaining a \"Moderate Buy\" with an average price target of $4...",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-cadence-design-systems-nasdaq-cdns-cut-to-hold-at-wall-street-zen-2026-10-20/",
+          "source": "MarketBeat",
+          "published_at": "20261020T052532",
+          "sentiment_score": 0.127341,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "CDNS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 17,
+          "is_noise": false
+        },
+        {
+          "title": "CoastalSouth Bancshares (NYSE:COSO) Announces Earnings Results, Beats Expectations By $0.12 EPS",
+          "summary": "CoastalSouth Bancshares (NYSE:COSO) announced its earnings, reporting $0.71 EPS for the quarter, surpassing analyst expectations by $0.12. Despite beating estimates, the company...",
+          "url": "https://www.marketbeat.com/instant-alerts/earnings-coastalsouth-bancshares-nyse-coso-announces-earnings-results-beats-expectations-by-012-eps-2026-10-19/",
+          "source": "MarketBeat",
+          "published_at": "20261020T041432",
+          "sentiment_score": 0.223456,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "COSO"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 16,
+          "is_noise": false
+        },
+        {
+          "title": "\"LGD to return to profitability in Q3; second-half operating profit to rise sharply from first half\" Daishin Securi...",
+          "summary": "LG Display is projected to return to profitability in the third quarter of 2026, driven by increased OLED panel supplies, though earnings may fall short of market expectations d...",
+          "url": "https://en.fnnews.com/news/202610200052117330",
+          "source": "파이낸셜뉴스",
+          "published_at": "20261020T052900",
+          "sentiment_score": 0.199152,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "LPL",
+            "AAPL",
+            "MSFT"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology",
+            "Economy Macro"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "NFLX Stock Flat Overnight: Netflix's ‘Largest Content Deal’ With Brazil Media Giant Globo Fails To Sway Retail Ahea...",
+          "summary": "Netflix stock remained flat despite securing its largest content deal with Brazil's Globo, signaling investor concern over subscriber growth ahead of its Q3 earnings report. Ana...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nflx-stock-flat-overnight-netflixs-041739335.html",
+          "source": "Yahoo Finance",
+          "published_at": "20261020T041633",
+          "sentiment_score": -0.321139,
+          "sentiment_label": "Somewhat-Bearish",
+          "tickers": [
+            "NFLX",
+            "WBD",
+            "NKE",
+            "TTD"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology",
+            "Retail Wholesale",
+            "Finance"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "FreightCar America Q3 revenue misses est at $75M-$77M",
+          "summary": "FreightCar America (RAIL) reported preliminary Q3 FY26 revenue of $75M-$77M, significantly below analyst expectations, primarily due to the removal of a 1,285-unit tank car retr...",
+          "url": "https://scanx.trade/stock-market-news/companies/freightcar-america-q3fy26-results-revenue-drops-53-yoy-75m-77m/53989238",
+          "source": "scanx.trade",
+          "published_at": "20261020T023000",
+          "sentiment_score": -0.600228,
+          "sentiment_label": "Bearish",
+          "tickers": [
+            "RAIL"
+          ],
+          "topics": [
+            "Earnings",
+            "Energy Transportation",
+            "Manufacturing"
+          ],
+          "quality_score": 15,
+          "is_noise": false
+        },
+        {
+          "title": "Should You Buy Netflix Stock Before Its Earnings Report After Hours Today?",
+          "summary": "Netflix stock is down 26% year-to-date, with investors concerned about weak engagement and market share loss to rivals like YouTube. Ahead of its Q3 earnings report, where it's...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-netflix-stock-earnings-report-045001588.html",
+          "source": "Yahoo Finance",
+          "published_at": "20261020T044939",
+          "sentiment_score": 0.095649,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "NFLX",
+            "NVDA",
+            "WBD",
+            "DIS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Technology"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Did Earnings Upgrade Just Shift Roper Technologies (ROP) Investment Narrative?",
+          "summary": "Roper Technologies (ROP) recently received an earnings upgrade to a Zacks Rank #2, driven by analysts' increased optimism regarding its Application Software, Technology Enabled...",
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-rop/roper-technologies/news/did-earnings-upgrade-just-shift-roper-technologies-rop-inves",
+          "source": "Simply Wall Street",
+          "published_at": "20261020T034530",
+          "sentiment_score": 0.419886,
+          "sentiment_label": "Bullish",
+          "tickers": [
+            "ROP"
+          ],
+          "topics": [
+            "Earnings",
+            "Technology"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Earnings To Watch: Elevance Health (ELV) Reports Q3 Results Tomorrow",
+          "summary": "Elevance Health (ELV) is set to report its Q3 results tomorrow, with analysts expecting a 2.3% year-on-year revenue decline, a reversal from the 12% increase last year. The comp...",
+          "url": "https://www.tradingview.com/news/stockstory:0e292c5ab094b:0-earnings-to-watch-elevance-health-elv-reports-q3-results-tomorrow/",
+          "source": "TradingView",
+          "published_at": "20261020T031011",
+          "sentiment_score": 0.198,
+          "sentiment_label": "Somewhat-Bullish",
+          "tickers": [
+            "ELV",
+            "UNH"
+          ],
+          "topics": [
+            "Earnings",
+            "Life Sciences",
+            "Financial Markets"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "Earnings To Watch: Globe Life (GL) Reports Q3 Results Tomorrow",
+          "summary": "Globe Life (GL) is set to report its Q3 earnings this Wednesday, with analysts expecting a 6.4% year-on-year revenue growth. The company previously missed EPS and book value per...",
+          "url": "https://www.tradingview.com/news/stockstory:13f6a1e82094b:0-earnings-to-watch-globe-life-gl-reports-q3-results-tomorrow/",
+          "source": "TradingView",
+          "published_at": "20261020T030832",
+          "sentiment_score": 0.071579,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "GL",
+            "TRV",
+            "NVDA"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets",
+            "Finance"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        },
+        {
+          "title": "SEI Investments (SEIC) To Report Earnings Tomorrow: Here Is What To Expect",
+          "summary": "SEI Investments (SEIC) is set to announce its earnings results, with analysts expecting a 13.8% year-on-year revenue growth. The company has a history of beating revenue and AUM...",
+          "url": "https://www.tradingview.com/news/stockstory:e290b3205094b:0-sei-investments-seic-to-report-earnings-tomorrow-here-is-what-to-expect/",
+          "source": "TradingView",
+          "published_at": "20261020T030411",
+          "sentiment_score": 0.072147,
+          "sentiment_label": "Neutral",
+          "tickers": [
+            "SEIC",
+            "CBOE",
+            "GS"
+          ],
+          "topics": [
+            "Earnings",
+            "Financial Markets"
+          ],
+          "quality_score": 13,
+          "is_noise": false
+        }
+      ],
+      "top_tickers": [
+        {
+          "ticker": "COSO",
+          "mentions": 3
+        },
+        {
+          "ticker": "NFLX",
+          "mentions": 2
+        },
+        {
+          "ticker": "WBD",
+          "mentions": 2
+        },
+        {
+          "ticker": "RAIL",
+          "mentions": 2
+        },
+        {
+          "ticker": "NVDA",
+          "mentions": 2
+        }
+      ],
+      "top_topics": [
+        {
+          "topic": "Earnings",
+          "mentions": 39
+        },
+        {
+          "topic": "Financial Markets",
+          "mentions": 29
+        },
+        {
+          "topic": "Finance",
+          "mentions": 19
+        },
+        {
+          "topic": "Technology",
+          "mentions": 13
+        },
+        {
+          "topic": "Life Sciences",
+          "mentions": 7
+        }
+      ],
+      "sentiment_counts": [
+        {
+          "label": "Neutral",
+          "count": 17
+        },
+        {
+          "label": "Somewhat-Bullish",
+          "count": 8
+        },
+        {
+          "label": "Bearish",
+          "count": 6
+        },
+        {
+          "label": "Bullish",
+          "count": 5
+        },
+        {
+          "label": "Somewhat-Bearish",
+          "count": 3
+        }
+      ],
+      "top_sources": [
+        {
+          "source": "TradingView",
+          "count": 9
+        },
+        {
+          "source": "Simply Wall Street",
+          "count": 5
+        },
+        {
+          "source": "Yahoo Finance",
+          "count": 3
+        },
+        {
+          "source": "scanx.trade",
+          "count": 3
+        },
+        {
+          "source": "GuruFocus",
+          "count": 3
+        }
+      ],
+      "takeaway": "News flow is centered on Earnings, with COSO appearing most often and the headline tone mostly neutral."
+    }
+  },
+  {
     "id": "polymarket-pulse-2026-10-20",
     "date": "2026-10-20",
     "runDate": "2026-10-20",
