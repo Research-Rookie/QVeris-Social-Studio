@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-nflx-2026-10-20",
+    "date": "2026-10-20",
+    "runDate": "2026-10-20",
+    "createdAt": "2026-10-20T07:00:08.502985+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $NFLX",
+    "status": "ready",
+    "tweet": "What changed in $NFLX's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.21\n📌 Top theme: Earnings\n🔎 Emerging term: earnings\n📰 Coverage: 2 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_NFLX_2026-10-20.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-20T07:00:06.115998+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$NFLX",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "NFLX",
+    "topChangePct": -21.099999999999998,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-20T07:00:06.115998+00:00",
+      "date": "2026-10-20",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "NFLX",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.211,
+      "baseline_label": "2026-10-07",
+      "current": {
+        "date": "2026-10-20",
+        "symbol": "NFLX",
+        "article_count": 2,
+        "source_count": 1,
+        "sentiment_score": -0.107,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Technology",
+            "count": 2
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "earnings",
+            "count": 3
+          },
+          {
+            "label": "flat",
+            "count": 2
+          },
+          {
+            "label": "largest",
+            "count": 2
+          },
+          {
+            "label": "content",
+            "count": 2
+          },
+          {
+            "label": "deal",
+            "count": 2
+          },
+          {
+            "label": "brazil",
+            "count": 2
+          },
+          {
+            "label": "globo",
+            "count": 2
+          },
+          {
+            "label": "overnight",
+            "count": 1
+          },
+          {
+            "label": "media",
+            "count": 1
+          },
+          {
+            "label": "giant",
+            "count": 1
+          },
+          {
+            "label": "fails",
+            "count": 1
+          },
+          {
+            "label": "sway",
+            "count": 1
+          }
+        ],
+        "headline": "NFLX Stock Flat Overnight: Netflix's ‘Largest Content Deal’ With Brazil Media Giant Globo Fails To Sway Retail Ahea...",
+        "headline_source": "Yahoo Finance"
+      },
+      "previous": {
+        "date": "2026-10-07",
+        "symbol": "NFLX",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.104,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "moody",
+            "count": 2
+          },
+          {
+            "label": "national",
+            "count": 2
+          },
+          {
+            "label": "bank",
+            "count": 2
+          },
+          {
+            "label": "trust",
+            "count": 2
+          },
+          {
+            "label": "division",
+            "count": 2
+          },
+          {
+            "label": "bought",
+            "count": 1
+          },
+          {
+            "label": "significantly",
+            "count": 1
+          },
+          {
+            "label": "increased",
+            "count": 1
+          },
+          {
+            "label": "stake",
+            "count": 1
+          },
+          {
+            "label": "third",
+            "count": 1
+          },
+          {
+            "label": "quarter",
+            "count": 1
+          },
+          {
+            "label": "bringing",
+            "count": 1
+          }
+        ],
+        "headline": "Netflix, Inc. $NFLX Stock Bought by Moody National Bank Trust Division",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Technology",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "earnings",
+        "flat",
+        "largest"
+      ],
+      "fading_keywords": [
+        "moody",
+        "national",
+        "bank"
+      ],
+      "takeaway": "NFLX's narrative is turning bearish: sentiment moved -0.21, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-20",
     "date": "2026-10-20",
     "runDate": "2026-10-20",
