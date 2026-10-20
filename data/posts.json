@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-amzn-2026-10-20",
+    "date": "2026-10-20",
+    "runDate": "2026-10-20",
+    "createdAt": "2026-10-20T07:52:22.465024+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$AMZN news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-20.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-20T07:52:20.719557+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AMZN",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "AMZN",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-20T07:52:20.719557+00:00",
+      "date": "2026-10-20",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "AMZN",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "CenterPoint Energy (CNP) Projected to Release Earnings on Tuesday",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for AMZN: {'status_code': 200, 'data': {'c': 262.45, 'd': 12.45, 'dp': 4.98, 'h': 263.72, 'l': 255.22, 'o': 255.25, 'pc': 250, 't': 1792440000}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "AMZN",
+            "mentions": 2
+          },
+          {
+            "ticker": "NFLX",
+            "mentions": 2
+          },
+          {
+            "ticker": "MCK",
+            "mentions": 2
+          },
+          {
+            "ticker": "CNP",
+            "mentions": 1
+          },
+          {
+            "ticker": "CDNS",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 28
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 11
+          },
+          {
+            "label": "Bearish",
+            "count": 3
+          },
+          {
+            "label": "Bullish",
+            "count": 2
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-nflx-2026-10-20",
     "date": "2026-10-20",
     "runDate": "2026-10-20",

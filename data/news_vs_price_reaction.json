@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-19T08:02:20.785933+00:00",
-  "date": "2026-10-19",
+  "updated_at": "2026-10-20T07:52:20.719557+00:00",
+  "date": "2026-10-20",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "SPG",
+  "symbol": "AMZN",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Alexandria Real Estate Equities (ARE) Expected to Post Earnings on Monday",
+  "headline": "CenterPoint Energy (CNP) Projected to Release Earnings on Tuesday",
   "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
@@ -15,47 +15,51 @@
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for SPG: {'status_code': 200, 'data': {'c': 205.44, 'd': 2.05, 'dp': 1.0079, 'h': 206.5, 'l': 203.61, 'o': 204.46, 'pc': 203.39, 't': 1792180800}}",
+  "price_error": "Could not parse quote data for AMZN: {'status_code': 200, 'data': {'c': 262.45, 'd': 12.45, 'dp': 4.98, 'h': 263.72, 'l': 255.22, 'o': 255.25, 'pc': 250, 't': 1792440000}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "SPG",
-        "mentions": 3
-      },
-      {
-        "ticker": "PFE",
+        "ticker": "AMZN",
         "mentions": 2
       },
       {
-        "ticker": "NVDA",
+        "ticker": "NFLX",
         "mentions": 2
       },
       {
-        "ticker": "C",
+        "ticker": "MCK",
         "mentions": 2
       },
       {
-        "ticker": "SO",
-        "mentions": 2
+        "ticker": "CNP",
+        "mentions": 1
+      },
+      {
+        "ticker": "CDNS",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 25
+        "count": 28
       },
       {
         "label": "Somewhat-Bullish",
         "count": 11
       },
       {
+        "label": "Bearish",
+        "count": 3
+      },
+      {
         "label": "Bullish",
-        "count": 9
+        "count": 2
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 5
+        "count": 1
       }
     ]
   }
