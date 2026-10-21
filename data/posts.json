@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-tsla-2026-10-21",
+    "date": "2026-10-21",
+    "runDate": "2026-10-21",
+    "createdAt": "2026-10-21T07:56:13.946584+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$TSLA news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-21.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-21T07:56:12.267693+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$TSLA",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "TSLA",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-21T07:56:12.267693+00:00",
+      "date": "2026-10-21",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "TSLA",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "ConocoPhillips stock target raised to USD 175 pre-market today",
+      "headline_source": "AD HOC NEWS",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for TSLA: {'status_code': 200, 'data': {'c': 373.71, 'd': 5.65, 'dp': 1.5351, 'h': 377.59, 'l': 363.64, 'o': 370.28, 'pc': 368.06, 't': 1792526400}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "TSLA",
+            "mentions": 2
+          },
+          {
+            "ticker": "NOC",
+            "mentions": 2
+          },
+          {
+            "ticker": "COP",
+            "mentions": 1
+          },
+          {
+            "ticker": "T",
+            "mentions": 1
+          },
+          {
+            "ticker": "NFLX",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 19
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 12
+          },
+          {
+            "label": "Bullish",
+            "count": 5
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-gpc-2026-10-21",
     "date": "2026-10-21",
     "runDate": "2026-10-21",

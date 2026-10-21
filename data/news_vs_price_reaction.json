@@ -1,65 +1,61 @@
 {
-  "updated_at": "2026-10-20T07:52:20.719557+00:00",
-  "date": "2026-10-20",
+  "updated_at": "2026-10-21T07:56:12.267693+00:00",
+  "date": "2026-10-21",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "AMZN",
+  "symbol": "TSLA",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "CenterPoint Energy (CNP) Projected to Release Earnings on Tuesday",
-  "headline_source": "MarketBeat",
+  "headline": "ConocoPhillips stock target raised to USD 175 pre-market today",
+  "headline_source": "AD HOC NEWS",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for AMZN: {'status_code': 200, 'data': {'c': 262.45, 'd': 12.45, 'dp': 4.98, 'h': 263.72, 'l': 255.22, 'o': 255.25, 'pc': 250, 't': 1792440000}}",
+  "price_error": "Could not parse quote data for TSLA: {'status_code': 200, 'data': {'c': 373.71, 'd': 5.65, 'dp': 1.5351, 'h': 377.59, 'l': 363.64, 'o': 370.28, 'pc': 368.06, 't': 1792526400}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "AMZN",
+        "ticker": "TSLA",
         "mentions": 2
       },
       {
-        "ticker": "NFLX",
+        "ticker": "NOC",
         "mentions": 2
       },
       {
-        "ticker": "MCK",
-        "mentions": 2
-      },
-      {
-        "ticker": "CNP",
+        "ticker": "COP",
         "mentions": 1
       },
       {
-        "ticker": "CDNS",
+        "ticker": "T",
+        "mentions": 1
+      },
+      {
+        "ticker": "NFLX",
         "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 28
+        "count": 19
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 11
-      },
-      {
-        "label": "Bearish",
-        "count": 3
+        "count": 12
       },
       {
         "label": "Bullish",
-        "count": 2
+        "count": 5
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 1
+        "count": 3
       }
     ]
   }
