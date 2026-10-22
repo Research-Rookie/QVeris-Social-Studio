@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-10-21T07:56:12.267693+00:00",
-  "date": "2026-10-21",
+  "updated_at": "2026-10-22T07:53:44.344306+00:00",
+  "date": "2026-10-22",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "TSLA",
+  "symbol": "LPL",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "ConocoPhillips stock target raised to USD 175 pre-market today",
-  "headline_source": "AD HOC NEWS",
+  "headline": "Laureate Education (LAUR) Projected to Post Earnings on Thursday",
+  "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for TSLA: {'status_code': 200, 'data': {'c': 373.71, 'd': 5.65, 'dp': 1.5351, 'h': 377.59, 'l': 363.64, 'o': 370.28, 'pc': 368.06, 't': 1792526400}}",
+  "price_error": "Could not parse quote data for LPL: {'status_code': 200, 'data': {'c': 2.64, 'd': 0, 'dp': 0, 'h': 2.705, 'l': 2.62, 'o': 2.7, 'pc': 2.64, 't': 1792612800}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
+        "ticker": "LPL",
+        "mentions": 3
+      },
+      {
         "ticker": "TSLA",
+        "mentions": 3
+      },
+      {
+        "ticker": "IHG",
         "mentions": 2
       },
       {
-        "ticker": "NOC",
-        "mentions": 2
-      },
-      {
-        "ticker": "COP",
+        "ticker": "LAUR",
         "mentions": 1
       },
       {
-        "ticker": "T",
-        "mentions": 1
-      },
-      {
-        "ticker": "NFLX",
+        "ticker": "TXT",
         "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 19
+        "count": 15
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 12
+        "count": 13
       },
       {
         "label": "Bullish",
-        "count": 5
+        "count": 9
       },
       {
         "label": "Somewhat-Bearish",

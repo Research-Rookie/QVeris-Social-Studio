@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-lpl-2026-10-22",
+    "date": "2026-10-22",
+    "runDate": "2026-10-22",
+    "createdAt": "2026-10-22T07:53:46.013143+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$LPL news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-22.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-22T07:53:44.344306+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$LPL",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "LPL",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-22T07:53:44.344306+00:00",
+      "date": "2026-10-22",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "LPL",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Laureate Education (LAUR) Projected to Post Earnings on Thursday",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for LPL: {'status_code': 200, 'data': {'c': 2.64, 'd': 0, 'dp': 0, 'h': 2.705, 'l': 2.62, 'o': 2.7, 'pc': 2.64, 't': 1792612800}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "LPL",
+            "mentions": 3
+          },
+          {
+            "ticker": "TSLA",
+            "mentions": 3
+          },
+          {
+            "ticker": "IHG",
+            "mentions": 2
+          },
+          {
+            "ticker": "LAUR",
+            "mentions": 1
+          },
+          {
+            "ticker": "TXT",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 15
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 13
+          },
+          {
+            "label": "Bullish",
+            "count": 9
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-coin-2026-10-22",
     "date": "2026-10-22",
     "runDate": "2026-10-22",
