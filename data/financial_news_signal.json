@@ -1,17 +1,57 @@
 {
-  "updated_at": "2026-10-23T06:50:20.035853+00:00",
+  "updated_at": "2026-10-23T07:51:50.033506+00:00",
   "date": "2026-10-23",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Financial News Signal",
   "articles": [
     {
+      "title": "Canadian National Railway (CNI) Expected to Announce Earnings on Friday",
+      "summary": "Canadian National Railway (CNI) is set to release its Q3 2026 earnings before the market opens on Friday, October 30th. Analysts are forecasting earnings of $1.49 per share on $...",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-canadian-national-railway-cni-expected-to-announce-earnings-on-friday-2026-10-23/",
+      "source": "MarketBeat",
+      "published_at": "20261023T060050",
+      "sentiment_score": 0.046802,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CNI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 18,
+      "is_noise": false
+    },
+    {
+      "title": "American Express Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+      "summary": "American Express Company (NYSE: AXP) is set to release its third-quarter earnings on October 23, with analysts forecasting earnings of $4.50 per share and revenue of $20.12 bill...",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+      "source": "Benzinga",
+      "published_at": "20261023T060852",
+      "sentiment_score": -0.054988,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AXP",
+        "MS",
+        "JPM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 17,
+      "is_noise": false
+    },
+    {
       "title": "Top Wall Street Forecasters Revamp SLB Expectations Ahead Of Q3 Earnings",
       "summary": "SLB N.V. (NYSE: SLB) is set to release its third-quarter earnings report, with analysts anticipating quarterly earnings of 61 cents per share on $9.27 billion in revenue. Severa...",
       "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62550733/top-wall-street-forecasters-revamp-slb-expectations-ahead-of-q3-earnings",
       "source": "Benzinga",
       "published_at": "20261023T050109",
-      "sentiment_score": 0.018965,
+      "sentiment_score": 0.023154,
       "sentiment_label": "Neutral",
       "tickers": [
         "SLB"
@@ -30,7 +70,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/upcoming-general-dynamics-gd-projected-to-release-earnings-on-friday-2026-10-23/",
       "source": "MarketBeat",
       "published_at": "20261023T052235",
-      "sentiment_score": 0.2595,
+      "sentiment_score": 0.26236,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GD",
@@ -51,7 +91,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/upcoming-banco-de-chile-bch-expected-to-announce-quarterly-earnings-on-friday-2026-10-23/",
       "source": "MarketBeat",
       "published_at": "20261023T052206",
-      "sentiment_score": -0.153774,
+      "sentiment_score": -0.170257,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "BCH"
@@ -70,7 +110,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/upcoming-church-dwight-chd-projected-to-post-quarterly-earnings-on-friday-2026-10-23/",
       "source": "MarketBeat",
       "published_at": "20261023T052205",
-      "sentiment_score": 0.026652,
+      "sentiment_score": 0.039676,
       "sentiment_label": "Neutral",
       "tickers": [
         "CHD"
@@ -90,7 +130,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/upcoming-regeneron-pharmaceuticals-regn-set-to-release-quarterly-earnings-on-friday-2026-10-23/",
       "source": "MarketBeat",
       "published_at": "20261023T054603",
-      "sentiment_score": 0.294824,
+      "sentiment_score": 0.306571,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "REGN",
@@ -110,7 +150,7 @@
       "url": "https://simplywall.st/stocks/us/insurance/nyse-wtm/white-mountains-insurance-group/news/should-you-be-adding-white-mountains-insurance-group-nysewtm/amp",
       "source": "Simply Wall Street",
       "published_at": "20261023T041047",
-      "sentiment_score": 0.591632,
+      "sentiment_score": 0.554361,
       "sentiment_label": "Bullish",
       "tickers": [
         "WTM"
@@ -129,7 +169,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/earnings-burke-herbert-financial-services-nasdaq-bhrb-announces-quarterly-earnings-results-beats-estimates-by-009-eps-2026-10-22/",
       "source": "MarketBeat",
       "published_at": "20261023T053955",
-      "sentiment_score": 0.426967,
+      "sentiment_score": 0.389234,
       "sentiment_label": "Bullish",
       "tickers": [
         "BHRB"
@@ -143,31 +183,12 @@
       "is_noise": false
     },
     {
-      "title": "Quest Diagnostics Posts 10% Revenue Jump in Q3 2026, Beats on EPS",
-      "summary": "Quest Diagnostics (DGX) reported a strong Q3 2026, with adjusted diluted EPS of $3.00, beating analyst estimates by 3.8%, and revenue of $3.10 billion, a 10% increase year-over-...",
-      "url": "https://news.alphastreet.com/quest-diagnostics-posts-10-revenue-jump-in-q3-2026-beats-on-eps/",
-      "source": "AlphaStreet",
-      "published_at": "20261023T030904",
-      "sentiment_score": 0.485448,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DGX"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
       "title": "Is PPL (PPL) Fairly Priced After a 58% Three Year Gain?",
       "summary": "PPL Corporation has seen a 57.8% share price gain over the past three years, prompting a review of its current valuation. Trading at 21.0x earnings, slightly above sector averag...",
       "url": "https://simplywall.st/stocks/us/utilities/nyse-ppl/ppl/news/is-ppl-ppl-fairly-priced-after-a-58-three-year-gain",
       "source": "Simply Wall Street",
       "published_at": "20261023T060708",
-      "sentiment_score": 0.112598,
+      "sentiment_score": 0.120528,
       "sentiment_label": "Neutral",
       "tickers": [
         "PPL"
@@ -185,7 +206,7 @@
       "url": "https://simplywall.st/stocks/us/telecom/nasdaq-tmus/t-mobile-us/news/t-mobile-us-tmus-stock-may-be-undervalued-despite-fresh-anal",
       "source": "Simply Wall Street",
       "published_at": "20261023T040728",
-      "sentiment_score": 0.347673,
+      "sentiment_score": 0.34492,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "TMUS"
@@ -205,7 +226,7 @@
       "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/metlife-inc-stock-td-cowen-lifts-target-to-usd-114-pre-market/70396613",
       "source": "AD HOC NEWS",
       "published_at": "20261023T054640",
-      "sentiment_score": 0.025887,
+      "sentiment_score": 0.013508,
       "sentiment_label": "Neutral",
       "tickers": [
         "MET"
@@ -224,7 +245,7 @@
       "url": "https://simplywall.st/stocks/us/real-estate-management-and-development/nasdaq-csgp/costar-group/news/costar-stock-faces-slower-retail-builds-and-a-more-selective",
       "source": "Simply Wall Street",
       "published_at": "20261023T050945",
-      "sentiment_score": 0.054058,
+      "sentiment_score": 0.093898,
       "sentiment_label": "Neutral",
       "tickers": [
         "CSGP"
@@ -238,12 +259,31 @@
       "is_noise": false
     },
     {
+      "title": "Regeneron Pharmaceuticals (REGN) Pushes Ahead In Weight Loss With Two Distinct Drug Bets",
+      "summary": "Regeneron Pharmaceuticals (REGN) is advancing two distinct drug candidates, olatorepatide and trevogrumab, in the weight loss market, aiming for improved tolerability and lean b...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-regn/regeneron-pharmaceuticals/news/regeneron-pharmaceuticals-regn-pushes-ahead-in-weight-loss-w/amp",
+      "source": "Simply Wall Street",
+      "published_at": "20261023T050704",
+      "sentiment_score": 0.321094,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "REGN"
+      ],
+      "topics": [
+        "Life Sciences",
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
       "title": "BGSF, Inc. Announces Timing of Fiscal 2026 Third Quarter Results and Earnings Conference Call",
       "summary": "BGSF, Inc. (NYSE: BGSF) has announced it will release its fiscal 2026 third-quarter results on Wednesday, November 4, 2026, after the market close. Following the release, manage...",
       "url": "https://www.manilatimes.net/2026/10/23/tmt-newswire/globenewswire/bgsf-inc-announces-timing-of-fiscal-2026-third-quarter-results-and-earnings-conference-call/2452296/amp",
       "source": "The Manila Times",
       "published_at": "20261023T040900",
-      "sentiment_score": 0.040385,
+      "sentiment_score": 0.033201,
       "sentiment_label": "Neutral",
       "tickers": [
         "BGSF"
@@ -257,12 +297,31 @@
       "is_noise": false
     },
     {
+      "title": "Colgate-Palmolive India Net Up at 342 cr in Q2",
+      "summary": "Colgate-Palmolive India reported a 12.2% year-on-year revenue increase to 1,692 crore in Q2, recovering from a 6% decline in the previous year's period. Net profit rose to 342 c...",
+      "url": "https://www.tradingview.com/news/moodys:5a0b815fa902f:0-colgate-palmolive-india-net-up-at-342-cr-in-q2/",
+      "source": "TradingView",
+      "published_at": "20261023T040827",
+      "sentiment_score": 0.500316,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "CL",
+        "PG"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale"
+      ],
+      "quality_score": 10,
+      "is_noise": false
+    },
+    {
       "title": "VESTA: Record leasing lifted occupancy; stronger revenue prompted higher FY 2026 guidance",
       "summary": "VESTA's Q3 revenue, excluding energy, increased by 10.8% year-over-year, driven by record leasing that pushed occupancy to 93.9%. This strong performance led to an upward revisi...",
       "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3876305:0-vesta-record-leasing-lifted-occupancy-stronger-revenue-prompted-higher-fy-2026-guidance/",
       "source": "TradingView",
       "published_at": "20261023T034157",
-      "sentiment_score": 0.411161,
+      "sentiment_score": 0.410923,
       "sentiment_label": "Bullish",
       "tickers": [
         "VTMX"
@@ -276,12 +335,76 @@
       "is_noise": false
     },
     {
+      "title": "Dollar General and Las Vegas Sands have been highlighted as Zacks Bull and Bear of the Day",
+      "summary": "Dollar General has been named Zacks' Bull of the Day due to its strong financial turnaround, rising estimates, and favorable market position in discount retail, with shares adva...",
+      "url": "https://www.zacks.com/stock/news/3013437/dollar-general-and-las-vegas-sands-have-been-highlighted-as-zacks-bull-and-bear-of-the-day?cid=CS-YAHOO-FT-press_releases-3013437",
+      "source": "Zacks Investment Research",
+      "published_at": "20261023T070500",
+      "sentiment_score": 0.251946,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "LVS",
+        "DG",
+        "CVX",
+        "FANG",
+        "APA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Energy Transportation",
+        "Economy Macro"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "CorVel Corp. (CRVL) Stock forecasts",
+      "summary": "Argus has raised its target price for CorVel Corp. (CRVL) to $89.00, citing the company's application of advanced technologies like AI, machine learning, and natural language pr...",
+      "url": "https://sg.finance.yahoo.com/research/reports/ARGUS_4421_QuantitativeReport_1792540800000",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "20261023T064115",
+      "sentiment_score": 0.438016,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "CRVL"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Life Sciences",
+        "Finance",
+        "Technology"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Colgate-Palmolive India appoints Akash Parekh as EVP – Marketing; Gunjit Jain resigns",
+      "summary": "Colgate-Palmolive India has appointed Akash Parekh as Executive Vice President of Marketing, effective December 1, 2026. Parekh, currently senior director, marketing, Asia Pacif...",
+      "url": "https://indiantelevision.com/mam/colgate-palmolive-india-appoints-akash-parekh-as-evp-marketing-gunjit-jain-resigns/",
+      "source": "Indian Television Dot Com",
+      "published_at": "20261023T061927",
+      "sentiment_score": 0.322601,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CL"
+      ],
+      "topics": [
+        "Earnings",
+        "Retail Wholesale"
+      ],
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
       "title": "PPL stock: BofA cuts target to USD 37.00 for PPL Corporation stock",
       "summary": "BofA Securities has cut its price target for PPL Corporation stock to USD 37.00 from USD 39.00, ahead of the company's next earnings report scheduled for October 29, 2026. The b...",
       "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/ppl-stock-bofa-cuts-target-to-usd-37-00-for-ppl-corporation-stock/70396375",
       "source": "AD HOC NEWS",
       "published_at": "20261023T043907",
-      "sentiment_score": 0.032862,
+      "sentiment_score": 0.017437,
       "sentiment_label": "Neutral",
       "tickers": [
         "PPL",
@@ -303,7 +426,7 @@
       "url": "https://ca.finance.yahoo.com/research/reports/MS_0P000003LU_AnalystReport_1792624269000",
       "source": "Yahoo! Finance Canada",
       "published_at": "20261023T043800",
-      "sentiment_score": 0.183802,
+      "sentiment_score": 0.152756,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "MTD",
@@ -328,7 +451,7 @@
       "url": "https://au.finance.yahoo.com/quote/MKTX/",
       "source": "Yahoo Finance Australia",
       "published_at": "20261023T043717",
-      "sentiment_score": 0.10719,
+      "sentiment_score": 0.122908,
       "sentiment_label": "Neutral",
       "tickers": [
         "MKTX"
@@ -347,7 +470,7 @@
       "url": "https://www.wsj.com/business/earnings/western-digital-profit-grows-on-data-storage-demand-28a69a7d",
       "source": "WSJ",
       "published_at": "20261023T041057",
-      "sentiment_score": 0.309448,
+      "sentiment_score": 0.292646,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "WDCVV",
@@ -369,7 +492,7 @@
       "url": "https://scanx.trade/stock-market-news/companies/betterware-de-mexico-raises-fy26-sales-guidance-1-025b-1-042b/54249097",
       "source": "scanx.trade",
       "published_at": "20261023T041028",
-      "sentiment_score": 0.145593,
+      "sentiment_score": 0.106697,
       "sentiment_label": "Neutral",
       "tickers": [
         "BWMX"
@@ -390,7 +513,7 @@
       "url": "https://www.morningstar.com/company-reports/1504325-verisign-is-a-key-custodian-of-the-internets-infrastructure",
       "source": "Morningstar",
       "published_at": "20261023T040727",
-      "sentiment_score": 0.44113,
+      "sentiment_score": 0.445198,
       "sentiment_label": "Bullish",
       "tickers": [
         "VRSN"
@@ -404,46 +527,22 @@
       "is_noise": false
     },
     {
-      "title": "Vertex Pharmaceuticals Inc. Research & Ratings | VRTX",
-      "summary": "This article provides detailed research and ratings for Vertex Pharmaceuticals Inc. (VRTX), including analyst ratings, stock grader sentiment, key financial metrics, and earning...",
-      "url": "https://www.barrons.com/market-data/stocks/vrtx/research-ratings?as_occt=any&as_q=what%25252527s%252525252525252520the%252525252525252520stock%252525252525252520price%252525252525252520of%252525252525252520vortech%252525252525252520energy&source=a-app1&mod=quotes",
-      "source": "Barron's",
-      "published_at": "20261023T033749",
-      "sentiment_score": 0.119574,
+      "title": "EBITDA of Core Scientific, Inc. - Tranche 1 – BOATS:CORZW",
+      "summary": "The article provides financial information for Core Scientific, Inc. - Tranche 1 (BOATS:CORZW), specifically focusing on its EBITDA. It indicates that the market for this partic...",
+      "url": "https://www.tradingview.com/symbols/BOATS-CORZW/financials-income-statement/ebitda/",
+      "source": "TradingView",
+      "published_at": "20261023T064120",
+      "sentiment_score": 0.003568,
       "sentiment_label": "Neutral",
       "tickers": [
-        "VRTX",
-        "ABBV",
-        "REGN"
+        "CORZ"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Life Sciences"
+        "Finance"
       ],
-      "quality_score": 9,
-      "is_noise": false
-    },
-    {
-      "title": "Invitation Homes Inc. (INVH) Stock forecasts",
-      "summary": "Argus has raised its target price for Invitation Homes Inc. (INVH) to $30.00, with the current price at $27.53. Invitation Homes owns over 85,000 single-family rental homes, pri...",
-      "url": "https://sg.finance.yahoo.com/research/reports/ARGUS_6084_QuantitativeReport_1792540800000/",
-      "source": "Yahoo Finance Singapore",
-      "published_at": "20261023T030907",
-      "sentiment_score": 0.260342,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "INVH",
-        "CBRE",
-        "VICI",
-        "ARE"
-      ],
-      "topics": [
-        "Financial Markets",
-        "Real Estate",
-        "Earnings"
-      ],
-      "quality_score": 9,
+      "quality_score": 7,
       "is_noise": false
     },
     {
@@ -452,7 +551,7 @@
       "url": "https://www.globenewswire.com/news-release/2026/10/22/3386865/28467/en/anika-to-issue-third-quarter-2026-financial-results-on-friday-november-6-2026.html",
       "source": "GlobeNewswire",
       "published_at": "20261023T044130",
-      "sentiment_score": 0.036201,
+      "sentiment_score": 0.000714,
       "sentiment_label": "Neutral",
       "tickers": [
         "ANIK"
@@ -470,7 +569,7 @@
       "url": "https://in.investing.com/news/stock-market-news/applied-industrial-technologies-elects-michael-olosky-to-board-reports-shareholder-votes-93CH-5649548",
       "source": "Investing.com India",
       "published_at": "20261023T043946",
-      "sentiment_score": 0.006071,
+      "sentiment_score": 0.000146,
       "sentiment_label": "Neutral",
       "tickers": [
         "AIT"
@@ -488,7 +587,7 @@
       "url": "https://www.benzinga.com/news/26/10/62550616/american-express-eni-on-deck-friday-as-spending-energy-demand-face-test",
       "source": "Benzinga",
       "published_at": "20261023T041255",
-      "sentiment_score": 0.106159,
+      "sentiment_score": 0.113211,
       "sentiment_label": "Neutral",
       "tickers": [
         "AXP",
@@ -509,7 +608,7 @@
       "url": "https://simplywall.st/stocks/us/software/nyse-bmnr/bitmine-immersion-technologies/news/why-did-bitmine-immersion-technologies-bmnr-stock-drop-while",
       "source": "Simply Wall Street",
       "published_at": "20261023T041050",
-      "sentiment_score": 0.082432,
+      "sentiment_score": 0.065253,
       "sentiment_label": "Neutral",
       "tickers": [
         "BMNR"
@@ -529,7 +628,7 @@
       "url": "https://www.tradingview.com/symbols/LSX-864952/financials-statistics-and-ratios/price-earnings-fwd/",
       "source": "TradingView",
       "published_at": "20261023T040730",
-      "sentiment_score": 0.031452,
+      "sentiment_score": 0.004751,
       "sentiment_label": "Neutral",
       "tickers": [
         "SYK",
@@ -545,32 +644,12 @@
       "is_noise": false
     },
     {
-      "title": "Price to earnings forward of Toast, Inc. Class A – DUS:71Y",
-      "summary": "This article presents the \"Price to earnings forward\" value for Toast, Inc. Class A (DUS:71Y), a packaged software company listed on the Dusseldorf Stock Exchange. It indicates...",
-      "url": "https://www.tradingview.com/symbols/DUS-71Y/financials-statistics-and-ratios/price-earnings-fwd/",
-      "source": "TradingView",
-      "published_at": "20261023T030354",
-      "sentiment_score": 0.002735,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TOST"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance",
-        "Technology"
-      ],
-      "quality_score": 7,
-      "is_noise": false
-    },
-    {
       "title": "Form 8K BayCom Corp For: 22 October By Investing.com",
       "summary": "This article reports that BayCom Corp filed a Form 8K on October 22. The filing is brief and does not provide further details within the article content. It mentions the company...",
       "url": "https://uk.investing.com/news/stock-market-news/form-8k-baycom-corp-for-22-october-93CH-4926780",
       "source": "Investing.com UK",
       "published_at": "20261023T053942",
-      "sentiment_score": 0.036853,
+      "sentiment_score": 0.046196,
       "sentiment_label": "Neutral",
       "tickers": [
         "BCML"
@@ -589,7 +668,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/form-8k-applied-industrial-technologies-for-22-october-93CH-4897908",
       "source": "Investing.com Canada",
       "published_at": "20261023T043946",
-      "sentiment_score": 0.033875,
+      "sentiment_score": 0.0095,
       "sentiment_label": "Neutral",
       "tickers": [
         "AIT"
@@ -607,7 +686,7 @@
       "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_4345_QuantitativeReport_1792540800000",
       "source": "Yahoo! Finance Canada",
       "published_at": "20261023T034206",
-      "sentiment_score": 0.020965,
+      "sentiment_score": 0.038972,
       "sentiment_label": "Neutral",
       "tickers": [
         "WAFDP"
@@ -626,7 +705,7 @@
       "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_4301_QuantitativeReport_1792540800000",
       "source": "Yahoo! Finance Canada",
       "published_at": "20261023T034155",
-      "sentiment_score": -0.296477,
+      "sentiment_score": -0.296104,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "TR",
@@ -646,7 +725,7 @@
       "url": "https://www.01net.it/upland-software-sets-third-quarter-2026-earnings-conference-call-for-november-5-2026-at-830-a-m-e-t/",
       "source": "01net",
       "published_at": "20261023T034141",
-      "sentiment_score": 0.032518,
+      "sentiment_score": 0.017683,
       "sentiment_label": "Neutral",
       "tickers": [
         "UPLD"
@@ -659,50 +738,12 @@
       "is_noise": false
     },
     {
-      "title": "Nordson stock: Argus cuts target to USD 360.00 for Nordson stock",
-      "summary": "Argus has cut its price target for Nordson stock (NDSN) to USD 360.00, citing the fiscal third-quarter sales of USD 817.67 million. This new target is 12.95 percent above the la...",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/nordson-stock-argus-cuts-target-to-usd-360-00-for-nordson-stock/70396081",
-      "source": "AD HOC NEWS",
-      "published_at": "20261023T030739",
-      "sentiment_score": 0.029702,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "NDSN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Stag Industrial, Inc. (STAG) Stock forecasts",
-      "summary": "This article provides an Argus quantitative report for Stag Industrial, Inc. (STAG), a real estate investment trust focusing on single- and multi-tenant industrial properties. T...",
-      "url": "https://uk.finance.yahoo.com/research/reports/ARGUS_6122_QuantitativeReport_1792540800000",
-      "source": "Yahoo Finance UK",
-      "published_at": "20261023T030329",
-      "sentiment_score": 0.04498,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "STAG"
-      ],
-      "topics": [
-        "Earnings",
-        "Real Estate",
-        "Financial Markets"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
       "title": "Quarterly profit rose to $36.2 million from $9.3 million. Burke & Herbert also declared a 55-cent dividend.",
       "summary": "Burke & Herbert Financial Services reported a significant increase in net income for Q3 2026, reaching $36.2 million, up from $9.3 million in the previous quarter, with diluted...",
       "url": "https://www.stocktitan.net/news/BHRB/burke-herbert-financial-services-corp-announces-third-quarter-2026-sngf7b41xop1.html",
       "source": "Stock Titan",
       "published_at": "20261023T053955",
-      "sentiment_score": 0.236054,
+      "sentiment_score": 0.261164,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "BHRB",
@@ -723,7 +764,7 @@
       "url": "https://www.stocktitan.net/news/MRLN/merlin-to-report-third-quarter-2026-results-on-november-12-mkzpz5ioz92r.html",
       "source": "Stock Titan",
       "published_at": "20261023T051117",
-      "sentiment_score": 0.028011,
+      "sentiment_score": 0.041307,
       "sentiment_label": "Neutral",
       "tickers": [
         "BACQR"
@@ -742,7 +783,7 @@
       "url": "https://www.tradingview.com/news/seekingalpha:f21e08d50094b:0-archrock-declares-0-23-dividend/",
       "source": "TradingView",
       "published_at": "20261023T043307",
-      "sentiment_score": 0.421562,
+      "sentiment_score": 0.383307,
       "sentiment_label": "Bullish",
       "tickers": [
         "AROC"
@@ -761,7 +802,7 @@
       "url": "https://ng.investing.com/news/stock-market-news/ingersoll-rand-declares-002-quarterly-dividend-93CH-2752699",
       "source": "Investing.com Nigeria",
       "published_at": "20261023T040825",
-      "sentiment_score": 0.303407,
+      "sentiment_score": 0.346239,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "IR"
@@ -776,21 +817,49 @@
       "is_noise": false
     },
     {
-      "title": "Las Vegas Sands Corp (LCR.HA) stock historical prices and data",
-      "summary": "This article provides historical stock prices and data for Las Vegas Sands Corp (LCR.HA), traded on the Hanover exchange in EUR. As of October 22, the stock was trading at 32.06...",
-      "url": "https://sg.finance.yahoo.com/quote/LCR.HA/history/",
+      "title": "Draganfly Inc. (DPRO) stock price, news, quote and history",
+      "summary": "This page provides an overview of Draganfly Inc. (DPRO) stock, including its current price, news, and historical performance. The \"All News\" section lists recent articles relate...",
+      "url": "https://sg.finance.yahoo.com/quote/DPRO/latest-news/",
       "source": "Yahoo Finance Singapore",
-      "published_at": "20261023T030659",
-      "sentiment_score": -0.375081,
-      "sentiment_label": "Bearish",
+      "published_at": "20261023T071103",
+      "sentiment_score": 0.420595,
+      "sentiment_label": "Bullish",
       "tickers": [
-        "LVS"
+        "DPRO",
+        "LMT",
+        "GE"
       ],
       "topics": [
         "Earnings",
-        "Financial Markets"
+        "Financial Markets",
+        "Technology",
+        "Manufacturing"
       ],
-      "quality_score": 4,
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
+      "title": "Dollar General and Las Vegas Sands have been highlighted as Zacks Bull and Bear of the Day",
+      "summary": "Zacks Equity Research has named Dollar General Corp. as the Bull of the Day, citing its strong rebound from past inventory issues, rising customer traffic, and impressive earnin...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-general-las-vegas-sands-055800984.html",
+      "source": "Yahoo Finance",
+      "published_at": "20261023T060700",
+      "sentiment_score": 0.395539,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "LVS",
+        "DG",
+        "CVX",
+        "FANG",
+        "APA"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Retail Wholesale",
+        "Energy Transportation"
+      ],
+      "quality_score": 3,
       "is_noise": false
     },
     {
@@ -799,7 +868,7 @@
       "url": "https://sg.finance.yahoo.com/quote/EXPD/",
       "source": "Yahoo Finance Singapore",
       "published_at": "20261023T040856",
-      "sentiment_score": 0.111862,
+      "sentiment_score": 0.129722,
       "sentiment_label": "Neutral",
       "tickers": [
         "EXPD",
@@ -821,7 +890,7 @@
       "url": "https://247wallst.com/investing/2026/10/22/meta-just-created-a-stock-zuckerberg-can-sell-without-losing-control/",
       "source": "24/7 Wall St.",
       "published_at": "20261023T040659",
-      "sentiment_score": 0.119194,
+      "sentiment_score": 0.143832,
       "sentiment_label": "Neutral",
       "tickers": [
         "META"
@@ -835,34 +904,12 @@
       "is_noise": false
     },
     {
-      "title": "Sonoco Reports Third Quarter 2026 Results",
-      "summary": "Sonoco Products Company reported its third-quarter 2026 financial results, with net sales of $2.0 billion. The company reported a GAAP net loss of $(732) million due to an $(829...",
-      "url": "https://www.redbooklumberdata.com/2026/10/22/sonoco-reports-third-quarter-2026-results/",
-      "source": "Red Book Lumber Data",
-      "published_at": "20261023T031013",
-      "sentiment_score": -0.102922,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SON",
-        "AMCR",
-        "PKG"
-      ],
-      "topics": [
-        "Earnings",
-        "Manufacturing",
-        "Economy Macro",
-        "Finance"
-      ],
-      "quality_score": 3,
-      "is_noise": false
-    },
-    {
       "title": "Teradyne director Marilyn Matz sells $140,000 in shares By Investing.com",
       "summary": "Marilyn Matz, a director at Teradyne, Inc. (NASDAQ:TER), sold 400 shares of common stock for a total of $140,000 on October 21, 2026, pursuant to a Rule 10b5-1 trading plan. Thi...",
       "url": "https://ca.investing.com/news/stock-market-news/teradyne-director-marilyn-matz-sells-140000-in-shares-93CH-4898548",
       "source": "Investing.com Canada",
       "published_at": "20261023T060422",
-      "sentiment_score": -0.216575,
+      "sentiment_score": -0.175764,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "TER",
@@ -882,7 +929,7 @@
       "url": "https://www.streetinsider.com/Corporate+News/Antalpha+invests+%242M+more+in+Aurelion+via+share+subscription/27222961.html",
       "source": "StreetInsider",
       "published_at": "20261023T050950",
-      "sentiment_score": 0.034113,
+      "sentiment_score": 0.008879,
       "sentiment_label": "Neutral",
       "tickers": [
         "ANTA"
@@ -902,7 +949,7 @@
       "url": "https://www.stocktitan.net/sec-filings/AIT/form-3-applied-industrial-technologies-inc-initial-statement-of-benef-fd39e3b49397.html",
       "source": "Stock Titan",
       "published_at": "20261023T043946",
-      "sentiment_score": 0.014267,
+      "sentiment_score": 0.006744,
       "sentiment_label": "Neutral",
       "tickers": [
         "AIT"
@@ -922,7 +969,7 @@
       "url": "https://www.streetinsider.com/SEC+Filings/Form+4+Westrock+Coffee+Co+For%3A+Oct+21+Filed+by%3A+HF+Direct+Investments+Pool%2C+LLC/27223623.html",
       "source": "StreetInsider",
       "published_at": "20261023T041015",
-      "sentiment_score": 0.035508,
+      "sentiment_score": 0.000216,
       "sentiment_label": "Neutral",
       "tickers": [
         "WEST"
@@ -941,7 +988,7 @@
       "url": "https://www.stocktitan.net/sec-filings/UTHR/form-4-united-therapeutics-corp-insider-trading-activity-cbdca013beef.html",
       "source": "Stock Titan",
       "published_at": "20261023T041009",
-      "sentiment_score": 0.0335,
+      "sentiment_score": 0.039346,
       "sentiment_label": "Neutral",
       "tickers": [
         "UTHR"
@@ -954,60 +1001,61 @@
       ],
       "quality_score": -10,
       "is_noise": true
-    },
-    {
-      "title": "Insider Selling: Travelers Companies (NYSE:TRV) EVP Sells $2,945,925.00 in Stock",
-      "summary": "Travelers Companies (NYSE:TRV) EVP Michael Klein sold 7,500 shares for $2,945,925.00 on October 20th, reducing his stake by 14.25%. Despite this insider selling, Travelers share...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-travelers-companies-nyse-trv-evp-sells-294592500-in-stock-2026-10-22/",
-      "source": "MarketBeat",
-      "published_at": "20261023T033737",
-      "sentiment_score": 0.141823,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "TRV",
-        "ALL"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
-    },
-    {
-      "title": "State Street (NYSE:STT) Stock: Insider Hanley Ronald O Sells 14,554 Shares",
-      "summary": "State Street CEO Hanley Ronald O sold 14,554 shares of the company's stock for approximately $2.40 million, reducing his ownership by 6.32%. This transaction was conducted under...",
-      "url": "https://www.marketbeat.com/instant-alerts/insider-state-street-nyse-stt-stock-insider-hanley-ronald-o-sells-14554-shares-2026-10-22/",
-      "source": "MarketBeat",
-      "published_at": "20261023T033721",
-      "sentiment_score": 0.02654,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "STT"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": -10,
-      "is_noise": true
     }
   ],
   "article_count": 50,
-  "top_ticker": "SLB",
+  "top_ticker": "AXP",
   "top_topic": "Earnings",
   "dominant_sentiment": "Neutral",
-  "top_story": "Top Wall Street Forecasters Revamp SLB Expectations Ahead Of Q3 Earnings",
+  "top_story": "Canadian National Railway (CNI) Expected to Announce Earnings on Friday",
   "signal_articles": [
+    {
+      "title": "Canadian National Railway (CNI) Expected to Announce Earnings on Friday",
+      "summary": "Canadian National Railway (CNI) is set to release its Q3 2026 earnings before the market opens on Friday, October 30th. Analysts are forecasting earnings of $1.49 per share on $...",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-canadian-national-railway-cni-expected-to-announce-earnings-on-friday-2026-10-23/",
+      "source": "MarketBeat",
+      "published_at": "20261023T060050",
+      "sentiment_score": 0.046802,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "CNI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Energy Transportation"
+      ],
+      "quality_score": 18,
+      "is_noise": false
+    },
+    {
+      "title": "American Express Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+      "summary": "American Express Company (NYSE: AXP) is set to release its third-quarter earnings on October 23, with analysts forecasting earnings of $4.50 per share and revenue of $20.12 bill...",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+      "source": "Benzinga",
+      "published_at": "20261023T060852",
+      "sentiment_score": -0.054988,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AXP",
+        "MS",
+        "JPM"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "quality_score": 17,
+      "is_noise": false
+    },
     {
       "title": "Top Wall Street Forecasters Revamp SLB Expectations Ahead Of Q3 Earnings",
       "summary": "SLB N.V. (NYSE: SLB) is set to release its third-quarter earnings report, with analysts anticipating quarterly earnings of 61 cents per share on $9.27 billion in revenue. Severa...",
       "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62550733/top-wall-street-forecasters-revamp-slb-expectations-ahead-of-q3-earnings",
       "source": "Benzinga",
       "published_at": "20261023T050109",
-      "sentiment_score": 0.018965,
+      "sentiment_score": 0.023154,
       "sentiment_label": "Neutral",
       "tickers": [
         "SLB"
@@ -1026,7 +1074,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/upcoming-general-dynamics-gd-projected-to-release-earnings-on-friday-2026-10-23/",
       "source": "MarketBeat",
       "published_at": "20261023T052235",
-      "sentiment_score": 0.2595,
+      "sentiment_score": 0.26236,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GD",
@@ -1047,7 +1095,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/upcoming-banco-de-chile-bch-expected-to-announce-quarterly-earnings-on-friday-2026-10-23/",
       "source": "MarketBeat",
       "published_at": "20261023T052206",
-      "sentiment_score": -0.153774,
+      "sentiment_score": -0.170257,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "BCH"
@@ -1066,7 +1114,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/upcoming-church-dwight-chd-projected-to-post-quarterly-earnings-on-friday-2026-10-23/",
       "source": "MarketBeat",
       "published_at": "20261023T052205",
-      "sentiment_score": 0.026652,
+      "sentiment_score": 0.039676,
       "sentiment_label": "Neutral",
       "tickers": [
         "CHD"
@@ -1086,7 +1134,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/upcoming-regeneron-pharmaceuticals-regn-set-to-release-quarterly-earnings-on-friday-2026-10-23/",
       "source": "MarketBeat",
       "published_at": "20261023T054603",
-      "sentiment_score": 0.294824,
+      "sentiment_score": 0.306571,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "REGN",
@@ -1106,7 +1154,7 @@
       "url": "https://simplywall.st/stocks/us/insurance/nyse-wtm/white-mountains-insurance-group/news/should-you-be-adding-white-mountains-insurance-group-nysewtm/amp",
       "source": "Simply Wall Street",
       "published_at": "20261023T041047",
-      "sentiment_score": 0.591632,
+      "sentiment_score": 0.554361,
       "sentiment_label": "Bullish",
       "tickers": [
         "WTM"
@@ -1125,7 +1173,7 @@
       "url": "https://www.marketbeat.com/instant-alerts/earnings-burke-herbert-financial-services-nasdaq-bhrb-announces-quarterly-earnings-results-beats-estimates-by-009-eps-2026-10-22/",
       "source": "MarketBeat",
       "published_at": "20261023T053955",
-      "sentiment_score": 0.426967,
+      "sentiment_score": 0.389234,
       "sentiment_label": "Bullish",
       "tickers": [
         "BHRB"
@@ -1139,31 +1187,12 @@
       "is_noise": false
     },
     {
-      "title": "Quest Diagnostics Posts 10% Revenue Jump in Q3 2026, Beats on EPS",
-      "summary": "Quest Diagnostics (DGX) reported a strong Q3 2026, with adjusted diluted EPS of $3.00, beating analyst estimates by 3.8%, and revenue of $3.10 billion, a 10% increase year-over-...",
-      "url": "https://news.alphastreet.com/quest-diagnostics-posts-10-revenue-jump-in-q3-2026-beats-on-eps/",
-      "source": "AlphaStreet",
-      "published_at": "20261023T030904",
-      "sentiment_score": 0.485448,
-      "sentiment_label": "Bullish",
-      "tickers": [
-        "DGX"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets"
-      ],
-      "quality_score": 12,
-      "is_noise": false
-    },
-    {
       "title": "Is PPL (PPL) Fairly Priced After a 58% Three Year Gain?",
       "summary": "PPL Corporation has seen a 57.8% share price gain over the past three years, prompting a review of its current valuation. Trading at 21.0x earnings, slightly above sector averag...",
       "url": "https://simplywall.st/stocks/us/utilities/nyse-ppl/ppl/news/is-ppl-ppl-fairly-priced-after-a-58-three-year-gain",
       "source": "Simply Wall Street",
       "published_at": "20261023T060708",
-      "sentiment_score": 0.112598,
+      "sentiment_score": 0.120528,
       "sentiment_label": "Neutral",
       "tickers": [
         "PPL"
@@ -1174,29 +1203,13 @@
       ],
       "quality_score": 11,
       "is_noise": false
-    },
-    {
-      "title": "T Mobile US (TMUS) Stock May Be Undervalued Despite Fresh Analyst Upgrade",
-      "summary": "T-Mobile US (TMUS) stock may be undervalued despite a recent analyst upgrade, trading around US$158.79. The company has seen a 43.9% return over the past five years, and its cur...",
-      "url": "https://simplywall.st/stocks/us/telecom/nasdaq-tmus/t-mobile-us/news/t-mobile-us-tmus-stock-may-be-undervalued-despite-fresh-anal",
-      "source": "Simply Wall Street",
-      "published_at": "20261023T040728",
-      "sentiment_score": 0.347673,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "TMUS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Finance"
-      ],
-      "quality_score": 11,
-      "is_noise": false
     }
   ],
   "top_tickers": [
+    {
+      "ticker": "AXP",
+      "mentions": 2
+    },
     {
       "ticker": "SLB",
       "mentions": 2
@@ -1212,77 +1225,69 @@
     {
       "ticker": "PPL",
       "mentions": 2
-    },
-    {
-      "ticker": "WFC",
-      "mentions": 2
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 43
+      "mentions": 45
     },
     {
       "topic": "Financial Markets",
-      "mentions": 35
+      "mentions": 36
     },
     {
       "topic": "Finance",
-      "mentions": 22
+      "mentions": 23
     },
     {
       "topic": "Technology",
-      "mentions": 8
+      "mentions": 9
     },
     {
-      "topic": "Life Sciences",
-      "mentions": 6
+      "topic": "Retail Wholesale",
+      "mentions": 8
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 26
+      "count": 24
     },
     {
       "label": "Somewhat-Bullish",
-      "count": 8
+      "count": 10
     },
     {
       "label": "Bullish",
-      "count": 6
+      "count": 9
     },
     {
       "label": "Somewhat-Bearish",
       "count": 2
-    },
-    {
-      "label": "Bearish",
-      "count": 1
     }
   ],
   "top_sources": [
     {
       "source": "MarketBeat",
-      "count": 5
+      "count": 6
     },
     {
       "source": "Simply Wall Street",
-      "count": 5
+      "count": 6
     },
     {
       "source": "TradingView",
-      "count": 4
+      "count": 5
     },
     {
-      "source": "AD HOC NEWS",
+      "source": "Benzinga",
       "count": 3
     },
     {
-      "source": "Yahoo! Finance Canada",
+      "source": "Yahoo Finance Singapore",
       "count": 3
     }
   ],
-  "takeaway": "News flow is centered on Earnings, with SLB appearing most often and the headline tone mostly neutral."
+  "takeaway": "News flow is centered on Earnings, with AXP appearing most often and the headline tone mostly neutral."
 }
