@@ -1,89 +1,19 @@
 {
-  "updated_at": "2026-10-22T07:00:05.254772+00:00",
-  "date": "2026-10-22",
+  "updated_at": "2026-10-23T06:50:20.595141+00:00",
+  "date": "2026-10-23",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "COIN",
-  "shift_label": "Narrative steady",
-  "sentiment_delta": 0.0512,
-  "baseline_label": "2026-10-21",
+  "symbol": "SLB",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.3068,
+  "baseline_label": "2026-10-16",
   "current": {
-    "date": "2026-10-22",
-    "symbol": "COIN",
+    "date": "2026-10-23",
+    "symbol": "SLB",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.2459,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Finance",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "cvb",
-        "count": 2
-      },
-      {
-        "label": "financial",
-        "count": 2
-      },
-      {
-        "label": "cvbf",
-        "count": 2
-      },
-      {
-        "label": "sales",
-        "count": 2
-      },
-      {
-        "label": "estimates",
-        "count": 2
-      },
-      {
-        "label": "beat",
-        "count": 1
-      },
-      {
-        "label": "reported",
-        "count": 1
-      },
-      {
-        "label": "better-than-expected",
-        "count": 1
-      },
-      {
-        "label": "revenue",
-        "count": 1
-      },
-      {
-        "label": "gaap",
-        "count": 1
-      },
-      {
-        "label": "profit",
-        "count": 1
-      },
-      {
-        "label": "for",
-        "count": 1
-      }
-    ],
-    "headline": "CVB Financial’s (NASDAQ:CVBF) Q3 2026 sales beat estimates",
-    "headline_source": "Yahoo Finance"
-  },
-  "previous": {
-    "date": "2026-10-21",
-    "symbol": "COIN",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.1947,
+    "sentiment_score": 0.019,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -95,41 +25,37 @@
         "count": 1
       },
       {
-        "label": "Finance",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
+        "label": "Energy Transportation",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "blackstone",
-        "count": 2
-      },
-      {
         "label": "earnings",
-        "count": 2
+        "count": 3
       },
       {
-        "label": "reports",
+        "label": "top",
         "count": 1
       },
       {
-        "label": "everything",
+        "label": "wall",
         "count": 1
       },
       {
-        "label": "you",
+        "label": "street",
         "count": 1
       },
       {
-        "label": "need",
+        "label": "forecasters",
         "count": 1
       },
       {
-        "label": "know",
+        "label": "revamp",
+        "count": 1
+      },
+      {
+        "label": "expectations",
         "count": 1
       },
       {
@@ -137,11 +63,73 @@
         "count": 1
       },
       {
-        "label": "announce",
+        "label": "release",
         "count": 1
       },
       {
-        "label": "thursday",
+        "label": "third-quarter",
+        "count": 1
+      },
+      {
+        "label": "anticipating",
+        "count": 1
+      },
+      {
+        "label": "quarterly",
+        "count": 1
+      }
+    ],
+    "headline": "Top Wall Street Forecasters Revamp SLB Expectations Ahead Of Q3 Earnings",
+    "headline_source": "Benzinga"
+  },
+  "previous": {
+    "date": "2026-10-16",
+    "symbol": "SLB",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.3258,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Energy Transportation",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "earnings",
+        "count": 3
+      },
+      {
+        "label": "friday",
+        "count": 2
+      },
+      {
+        "label": "set",
+        "count": 1
+      },
+      {
+        "label": "post",
+        "count": 1
+      },
+      {
+        "label": "quarterly",
+        "count": 1
+      },
+      {
+        "label": "scheduled",
+        "count": 1
+      },
+      {
+        "label": "release",
         "count": 1
       },
       {
@@ -149,31 +137,41 @@
         "count": 1
       },
       {
-        "label": "while",
+        "label": "october",
+        "count": 1
+      },
+      {
+        "label": "forecasting",
+        "count": 1
+      },
+      {
+        "label": "per",
+        "count": 1
+      },
+      {
+        "label": "share",
         "count": 1
       }
     ],
-    "headline": "Blackstone (BX) Reports Q3: Everything You Need To Know Ahead Of Earnings",
-    "headline_source": "Yahoo Finance"
+    "headline": "SLB (SLB) Set to Post Quarterly Earnings on Friday",
+    "headline_source": "MarketBeat"
   },
   "emerging_themes": [
     "Earnings",
-    "Finance"
-  ],
-  "fading_themes": [
     "Financial Markets",
-    "Economy Macro"
+    "Energy Transportation"
   ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "cvb",
-    "financial",
-    "cvbf"
+    "top",
+    "wall",
+    "street"
   ],
   "fading_keywords": [
-    "blackstone",
-    "earnings",
-    "reports"
+    "friday",
+    "post",
+    "scheduled"
   ],
-  "takeaway": "COIN's narrative is narrative steady: sentiment moved +0.05, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "SLB's narrative is turning bearish: sentiment moved -0.31, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
