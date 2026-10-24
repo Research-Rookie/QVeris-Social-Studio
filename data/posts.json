@@ -1,5 +1,208 @@
 [
   {
+    "id": "market-narrative-shift-ph-2026-10-24",
+    "date": "2026-10-24",
+    "runDate": "2026-10-24",
+    "createdAt": "2026-10-24T06:46:51.669816+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $PH",
+    "status": "ready",
+    "tweet": "What changed in $PH's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.19\n📌 Top theme: Earnings\n🔎 Emerging term: upgraded\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_PH_2026-10-24.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-24T06:46:50.302386+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$PH",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "PH",
+    "topChangePct": -19.470000000000002,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-24T06:46:50.302386+00:00",
+      "date": "2026-10-24",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "PH",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.1947,
+      "baseline_label": "2026-08-30",
+      "current": {
+        "date": "2026-10-24",
+        "symbol": "PH",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.0031,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Manufacturing",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "parker-hannifin",
+            "count": 2
+          },
+          {
+            "label": "upgraded",
+            "count": 2
+          },
+          {
+            "label": "wall",
+            "count": 2
+          },
+          {
+            "label": "street",
+            "count": 2
+          },
+          {
+            "label": "zen",
+            "count": 2
+          },
+          {
+            "label": "has",
+            "count": 1
+          },
+          {
+            "label": "hold",
+            "count": 1
+          },
+          {
+            "label": "buy",
+            "count": 1
+          },
+          {
+            "label": "rating",
+            "count": 1
+          },
+          {
+            "label": "contributing",
+            "count": 1
+          },
+          {
+            "label": "generally",
+            "count": 1
+          },
+          {
+            "label": "positive",
+            "count": 1
+          }
+        ],
+        "headline": "Parker-Hannifin (NYSE:PH) Upgraded at Wall Street Zen",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-08-30",
+        "symbol": "PH",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1978,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Manufacturing",
+            "count": 1
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "royal",
+            "count": 2
+          },
+          {
+            "label": "london",
+            "count": 2
+          },
+          {
+            "label": "asset",
+            "count": 2
+          },
+          {
+            "label": "management",
+            "count": 2
+          },
+          {
+            "label": "ltd",
+            "count": 2
+          },
+          {
+            "label": "parker-hannifin",
+            "count": 2
+          },
+          {
+            "label": "cuts",
+            "count": 1
+          },
+          {
+            "label": "stake",
+            "count": 1
+          },
+          {
+            "label": "reduced",
+            "count": 1
+          },
+          {
+            "label": "second",
+            "count": 1
+          },
+          {
+            "label": "quarter",
+            "count": 1
+          },
+          {
+            "label": "selling",
+            "count": 1
+          }
+        ],
+        "headline": "Royal London Asset Management Ltd. Cuts Stake in Parker-Hannifin Corporation $PH",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing"
+      ],
+      "fading_themes": [
+        "Finance"
+      ],
+      "emerging_keywords": [
+        "upgraded",
+        "wall",
+        "street"
+      ],
+      "fading_keywords": [
+        "royal",
+        "london",
+        "asset"
+      ],
+      "takeaway": "PH's narrative is turning bearish: sentiment moved -0.19, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-24",
     "date": "2026-10-24",
     "runDate": "2026-10-24",
