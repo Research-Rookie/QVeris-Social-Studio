@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-lmt-2026-10-24",
+    "date": "2026-10-24",
+    "runDate": "2026-10-24",
+    "createdAt": "2026-10-24T07:33:04.984318+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$LMT news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-24.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-24T07:33:03.164987+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$LMT",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "LMT",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-24T07:33:03.164987+00:00",
+      "date": "2026-10-24",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "LMT",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Parker-Hannifin (NYSE:PH) Upgraded at Wall Street Zen",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for LMT: {'status_code': 200, 'data': {'c': 604.18, 'd': 14.27, 'dp': 2.419, 'h': 609.32, 'l': 580, 'o': 584.2, 'pc': 589.91, 't': 1792785600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "LMT",
+            "mentions": 3
+          },
+          {
+            "ticker": "PLTR",
+            "mentions": 3
+          },
+          {
+            "ticker": "KMI",
+            "mentions": 2
+          },
+          {
+            "ticker": "PH",
+            "mentions": 1
+          },
+          {
+            "ticker": "VICR",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 38
+          },
+          {
+            "label": "Bullish",
+            "count": 5
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 2
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-ph-2026-10-24",
     "date": "2026-10-24",
     "runDate": "2026-10-24",
