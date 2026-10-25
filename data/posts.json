@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-fast-2026-10-25",
+    "date": "2026-10-25",
+    "runDate": "2026-10-25",
+    "createdAt": "2026-10-25T07:46:08.447388+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$FAST news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-25.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-25T07:46:07.121174+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$FAST",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "FAST",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-25T07:46:07.121174+00:00",
+      "date": "2026-10-25",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "FAST",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "IDEX raises 2026 revenue and EPS guidance but valuation limits upside, hold rating maintained.",
+      "headline_source": "Pluang",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for FAST: {'status_code': 200, 'data': {'c': 51.91, 'd': -0.82, 'dp': -1.5551, 'h': 52.91, 'l': 51.855, 'o': 52.705, 'pc': 52.73, 't': 1792785600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "FAST",
+            "mentions": 2
+          },
+          {
+            "ticker": "IEX",
+            "mentions": 1
+          },
+          {
+            "ticker": "QLYS",
+            "mentions": 1
+          },
+          {
+            "ticker": "CRWD",
+            "mentions": 1
+          },
+          {
+            "ticker": "PANW",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 39
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 5
+          },
+          {
+            "label": "Bullish",
+            "count": 3
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-crwd-2026-10-25",
     "date": "2026-10-25",
     "runDate": "2026-10-25",
