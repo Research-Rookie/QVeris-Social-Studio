@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-24T06:46:50.302386+00:00",
-  "date": "2026-10-24",
+  "updated_at": "2026-10-25T07:11:04.295645+00:00",
+  "date": "2026-10-25",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "PH",
-  "shift_label": "Turning bearish",
-  "sentiment_delta": -0.1947,
-  "baseline_label": "2026-08-30",
+  "symbol": "CRWD",
+  "shift_label": "Theme rotation",
+  "sentiment_delta": -0.0567,
+  "baseline_label": "2026-10-11",
   "current": {
-    "date": "2026-10-24",
-    "symbol": "PH",
+    "date": "2026-10-25",
+    "symbol": "CRWD",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.0031,
+    "sentiment_score": 0.1619,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -25,17 +25,21 @@
         "count": 1
       },
       {
-        "label": "Manufacturing",
+        "label": "Technology",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "parker-hannifin",
+        "label": "qualys",
+        "count": 3
+      },
+      {
+        "label": "qlys",
         "count": 2
       },
       {
-        "label": "upgraded",
+        "label": "buy",
         "count": 2
       },
       {
@@ -51,45 +55,45 @@
         "count": 2
       },
       {
-        "label": "has",
-        "count": 1
-      },
-      {
         "label": "hold",
-        "count": 1
-      },
-      {
-        "label": "buy",
-        "count": 1
+        "count": 2
       },
       {
         "label": "rating",
         "count": 1
       },
       {
-        "label": "contributing",
+        "label": "raised",
         "count": 1
       },
       {
-        "label": "generally",
+        "label": "upgraded",
         "count": 1
       },
       {
-        "label": "positive",
+        "label": "though",
+        "count": 1
+      },
+      {
+        "label": "broader",
         "count": 1
       }
     ],
-    "headline": "Parker-Hannifin (NYSE:PH) Upgraded at Wall Street Zen",
+    "headline": "Qualys (NASDAQ:QLYS) Stock Rating Raised to \"Buy\" at Wall Street Zen",
     "headline_source": "MarketBeat"
   },
   "previous": {
-    "date": "2026-08-30",
-    "symbol": "PH",
+    "date": "2026-10-11",
+    "symbol": "CRWD",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1978,
-    "top_theme": "Earnings",
+    "sentiment_score": 0.2186,
+    "top_theme": "Technology",
     "themes": [
+      {
+        "label": "Technology",
+        "count": 1
+      },
       {
         "label": "Earnings",
         "count": 1
@@ -99,85 +103,81 @@
         "count": 1
       },
       {
-        "label": "Manufacturing",
-        "count": 1
-      },
-      {
         "label": "Finance",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "royal",
+        "label": "palo",
+        "count": 3
+      },
+      {
+        "label": "alto",
+        "count": 3
+      },
+      {
+        "label": "cyderes",
         "count": 2
       },
       {
-        "label": "london",
+        "label": "has",
         "count": 2
       },
       {
-        "label": "asset",
+        "label": "networks",
         "count": 2
       },
       {
-        "label": "management",
-        "count": 2
-      },
-      {
-        "label": "ltd",
-        "count": 2
-      },
-      {
-        "label": "parker-hannifin",
-        "count": 2
-      },
-      {
-        "label": "cuts",
+        "label": "partnership",
         "count": 1
       },
       {
-        "label": "stake",
+        "label": "investors",
         "count": 1
       },
       {
-        "label": "reduced",
+        "label": "rechecking",
         "count": 1
       },
       {
-        "label": "second",
+        "label": "bull",
         "count": 1
       },
       {
-        "label": "quarter",
+        "label": "case",
         "count": 1
       },
       {
-        "label": "selling",
+        "label": "for",
+        "count": 1
+      },
+      {
+        "label": "partnered",
         "count": 1
       }
     ],
-    "headline": "Royal London Asset Management Ltd. Cuts Stake in Parker-Hannifin Corporation $PH",
-    "headline_source": "MarketBeat"
+    "headline": "Cyderes Partnership Has Investors Rechecking The Bull Case For Palo Alto Networks Stock",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
     "Earnings",
     "Financial Markets",
-    "Manufacturing"
+    "Technology"
   ],
   "fading_themes": [
     "Finance"
   ],
   "emerging_keywords": [
-    "upgraded",
-    "wall",
-    "street"
+    "qualys",
+    "qlys",
+    "buy"
   ],
   "fading_keywords": [
-    "royal",
-    "london",
-    "asset"
+    "palo",
+    "alto",
+    "cyderes"
   ],
-  "takeaway": "PH's narrative is turning bearish: sentiment moved -0.19, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "CRWD's narrative is theme rotation: sentiment moved -0.06, while the leading theme shifted from Technology to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
