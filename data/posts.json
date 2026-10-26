@@ -1,5 +1,204 @@
 [
   {
+    "id": "market-narrative-shift-ko-2026-10-26",
+    "date": "2026-10-26",
+    "runDate": "2026-10-26",
+    "createdAt": "2026-10-26T07:18:51.621403+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $KO",
+    "status": "ready",
+    "tweet": "What changed in $KO's market narrative? 🔄\n\n🧭 Signal: Theme rotation\n💬 Sentiment shift: +0.04\n📌 Top theme: Earnings\n🔎 Emerging term: earnings\n📰 Coverage: 1 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_KO_2026-10-26.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-26T07:18:49.885552+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$KO",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Theme rotation",
+    "topSymbol": "KO",
+    "topChangePct": 3.9800000000000004,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-26T07:18:49.885552+00:00",
+      "date": "2026-10-26",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "KO",
+      "shift_label": "Theme rotation",
+      "sentiment_delta": 0.0398,
+      "baseline_label": "2026-10-16",
+      "current": {
+        "date": "2026-10-26",
+        "symbol": "KO",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.3139,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "coca-cola",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "what",
+            "count": 1
+          },
+          {
+            "label": "expect",
+            "count": 1
+          },
+          {
+            "label": "set",
+            "count": 1
+          },
+          {
+            "label": "tuesday",
+            "count": 1
+          },
+          {
+            "label": "anticipate",
+            "count": 1
+          },
+          {
+            "label": "year-on-year",
+            "count": 1
+          },
+          {
+            "label": "revenue",
+            "count": 1
+          },
+          {
+            "label": "growth",
+            "count": 1
+          },
+          {
+            "label": "aligning",
+            "count": 1
+          },
+          {
+            "label": "previous",
+            "count": 1
+          }
+        ],
+        "headline": "Coca-Cola (KO) Q3 earnings: what to expect",
+        "headline_source": "The Globe and Mail"
+      },
+      "previous": {
+        "date": "2026-10-16",
+        "symbol": "KO",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.2741,
+        "top_theme": "Financial Markets",
+        "themes": [
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Life Sciences",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          },
+          {
+            "label": "Earnings",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "mrna",
+            "count": 2
+          },
+          {
+            "label": "stocks",
+            "count": 2
+          },
+          {
+            "label": "week",
+            "count": 2
+          },
+          {
+            "label": "highs",
+            "count": 2
+          },
+          {
+            "label": "moderna",
+            "count": 2
+          },
+          {
+            "label": "why",
+            "count": 1
+          },
+          {
+            "label": "did",
+            "count": 1
+          },
+          {
+            "label": "climb",
+            "count": 1
+          },
+          {
+            "label": "coca-cola",
+            "count": 1
+          },
+          {
+            "label": "visa",
+            "count": 1
+          },
+          {
+            "label": "reached",
+            "count": 1
+          },
+          {
+            "label": "due",
+            "count": 1
+          }
+        ],
+        "headline": "Why Did MRNA, KO, V Stocks Climb To 52-Week Highs Today?",
+        "headline_source": "TradingView"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "fading_themes": [
+        "Life Sciences",
+        "Retail Wholesale"
+      ],
+      "emerging_keywords": [
+        "earnings",
+        "coca-cola",
+        "what"
+      ],
+      "fading_keywords": [
+        "mrna",
+        "stocks",
+        "week"
+      ],
+      "takeaway": "KO's narrative is theme rotation: sentiment moved +0.04, while the leading theme shifted from Financial Markets to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-26",
     "date": "2026-10-26",
     "runDate": "2026-10-26",
