@@ -1,91 +1,25 @@
 {
-  "updated_at": "2026-10-26T07:18:49.885552+00:00",
-  "date": "2026-10-26",
+  "updated_at": "2026-10-27T07:10:42.251236+00:00",
+  "date": "2026-10-27",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "KO",
-  "shift_label": "Theme rotation",
-  "sentiment_delta": 0.0398,
-  "baseline_label": "2026-10-16",
+  "symbol": "BMY",
+  "shift_label": "Attention rising",
+  "sentiment_delta": 0.0763,
+  "baseline_label": "2026-10-04",
   "current": {
-    "date": "2026-10-26",
-    "symbol": "KO",
-    "article_count": 1,
+    "date": "2026-10-27",
+    "symbol": "BMY",
+    "article_count": 2,
     "source_count": 1,
-    "sentiment_score": 0.3139,
+    "sentiment_score": 0.2697,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "coca-cola",
         "count": 2
       },
-      {
-        "label": "earnings",
-        "count": 2
-      },
-      {
-        "label": "what",
-        "count": 1
-      },
-      {
-        "label": "expect",
-        "count": 1
-      },
-      {
-        "label": "set",
-        "count": 1
-      },
-      {
-        "label": "tuesday",
-        "count": 1
-      },
-      {
-        "label": "anticipate",
-        "count": 1
-      },
-      {
-        "label": "year-on-year",
-        "count": 1
-      },
-      {
-        "label": "revenue",
-        "count": 1
-      },
-      {
-        "label": "growth",
-        "count": 1
-      },
-      {
-        "label": "aligning",
-        "count": 1
-      },
-      {
-        "label": "previous",
-        "count": 1
-      }
-    ],
-    "headline": "Coca-Cola (KO) Q3 earnings: what to expect",
-    "headline_source": "The Globe and Mail"
-  },
-  "previous": {
-    "date": "2026-10-16",
-    "symbol": "KO",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.2741,
-    "top_theme": "Financial Markets",
-    "themes": [
       {
         "label": "Financial Markets",
         "count": 1
@@ -93,87 +27,151 @@
       {
         "label": "Life Sciences",
         "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "earnings",
+        "count": 3
       },
       {
-        "label": "Retail Wholesale",
+        "label": "keurig",
+        "count": 2
+      },
+      {
+        "label": "pepper",
+        "count": 2
+      },
+      {
+        "label": "kdp",
+        "count": 2
+      },
+      {
+        "label": "expected",
+        "count": 2
+      },
+      {
+        "label": "tuesday",
+        "count": 2
+      },
+      {
+        "label": "mettler-toledo",
+        "count": 2
+      },
+      {
+        "label": "international",
+        "count": 2
+      },
+      {
+        "label": "mtd",
+        "count": 2
+      },
+      {
+        "label": "has",
+        "count": 2
+      },
+      {
+        "label": "consensus",
+        "count": 2
+      },
+      {
+        "label": "target",
+        "count": 2
+      }
+    ],
+    "headline": "Keurig Dr Pepper (KDP) Expected to Release Earnings on Tuesday",
+    "headline_source": "MarketBeat"
+  },
+  "previous": {
+    "date": "2026-10-04",
+    "symbol": "BMY",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.1934,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
         "count": 1
       },
       {
-        "label": "Earnings",
+        "label": "Life Sciences",
+        "count": 1
+      },
+      {
+        "label": "Financial Markets",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "mrna",
+        "label": "eli",
         "count": 2
       },
       {
-        "label": "stocks",
+        "label": "lilly",
         "count": 2
       },
       {
-        "label": "week",
+        "label": "lly",
         "count": 2
       },
       {
-        "label": "highs",
+        "label": "buy",
         "count": 2
       },
       {
-        "label": "moderna",
+        "label": "rbc",
         "count": 2
       },
       {
-        "label": "why",
+        "label": "capital",
+        "count": 2
+      },
+      {
+        "label": "gets",
         "count": 1
       },
       {
-        "label": "did",
+        "label": "trung",
         "count": 1
       },
       {
-        "label": "climb",
+        "label": "huynh",
         "count": 1
       },
       {
-        "label": "coca-cola",
+        "label": "maintained",
         "count": 1
       },
       {
-        "label": "visa",
+        "label": "rating",
         "count": 1
       },
       {
-        "label": "reached",
-        "count": 1
-      },
-      {
-        "label": "due",
+        "label": "target",
         "count": 1
       }
     ],
-    "headline": "Why Did MRNA, KO, V Stocks Climb To 52-Week Highs Today?",
-    "headline_source": "TradingView"
+    "headline": "Eli Lilly & Co (LLY) Gets a Buy from RBC Capital",
+    "headline_source": "The Globe and Mail"
   },
   "emerging_themes": [
     "Earnings",
-    "Financial Markets"
+    "Financial Markets",
+    "Life Sciences"
   ],
-  "fading_themes": [
-    "Life Sciences",
-    "Retail Wholesale"
-  ],
+  "fading_themes": [],
   "emerging_keywords": [
     "earnings",
-    "coca-cola",
-    "what"
+    "keurig",
+    "pepper"
   ],
   "fading_keywords": [
-    "mrna",
-    "stocks",
-    "week"
+    "eli",
+    "lilly",
+    "lly"
   ],
-  "takeaway": "KO's narrative is theme rotation: sentiment moved +0.04, while the leading theme shifted from Financial Markets to Earnings.",
+  "takeaway": "BMY's narrative is attention rising: sentiment moved +0.08, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
