@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-bmy-2026-10-27",
+    "date": "2026-10-27",
+    "runDate": "2026-10-27",
+    "createdAt": "2026-10-27T08:17:04.309617+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$BMY news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-27.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-27T08:17:02.511004+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BMY",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "BMY",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-27T08:17:02.511004+00:00",
+      "date": "2026-10-27",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "BMY",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Key facts: Amazon.com, Inc. Q3; $110B Anthropic AWS Deal; $25B Invest",
+      "headline_source": "TradingView",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for BMY: {'status_code': 200, 'data': {'c': 61.61, 'd': 0.13, 'dp': 0.2115, 'h': 62.06, 'l': 61.1145, 'o': 61.39, 'pc': 61.48, 't': 1793044800}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "BMY",
+            "mentions": 6
+          },
+          {
+            "ticker": "AMD",
+            "mentions": 3
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 2
+          },
+          {
+            "ticker": "KLAC",
+            "mentions": 1
+          },
+          {
+            "ticker": "LRCX",
+            "mentions": 1
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 19
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 14
+          },
+          {
+            "label": "Bullish",
+            "count": 4
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-bmy-2026-10-27",
     "date": "2026-10-27",
     "runDate": "2026-10-27",

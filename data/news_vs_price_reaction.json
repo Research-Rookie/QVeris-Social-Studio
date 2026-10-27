@@ -1,64 +1,60 @@
 {
-  "updated_at": "2026-10-26T08:02:40.328758+00:00",
-  "date": "2026-10-26",
+  "updated_at": "2026-10-27T08:17:02.511004+00:00",
+  "date": "2026-10-27",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "WFC",
+  "symbol": "BMY",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Quest Diagnostics Incorporated Just Beat Earnings Expectations: Here's What Analysts Think Will Happen Next",
-  "headline_source": "Simply Wall Street",
+  "headline": "Key facts: Amazon.com, Inc. Q3; $110B Anthropic AWS Deal; $25B Invest",
+  "headline_source": "TradingView",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for WFC: {'status_code': 200, 'data': {'c': 82.39, 'd': -0.62, 'dp': -0.7469, 'h': 82.76, 'l': 81.55, 'o': 82.06, 'pc': 83.01, 't': 1792785600}}",
+  "price_error": "Could not parse quote data for BMY: {'status_code': 200, 'data': {'c': 61.61, 'd': 0.13, 'dp': 0.2115, 'h': 62.06, 'l': 61.1145, 'o': 61.39, 'pc': 61.48, 't': 1793044800}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "WFC",
-        "mentions": 4
+        "ticker": "BMY",
+        "mentions": 6
       },
       {
-        "ticker": "LKQ",
+        "ticker": "AMD",
         "mentions": 3
       },
       {
-        "ticker": "UAL",
-        "mentions": 3
-      },
-      {
-        "ticker": "C",
+        "ticker": "AMZN",
         "mentions": 2
       },
       {
-        "ticker": "KEY",
-        "mentions": 2
+        "ticker": "KLAC",
+        "mentions": 1
+      },
+      {
+        "ticker": "LRCX",
+        "mentions": 1
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 29
+        "count": 19
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 8
-      },
-      {
-        "label": "Somewhat-Bearish",
-        "count": 6
+        "count": 14
       },
       {
         "label": "Bullish",
-        "count": 6
+        "count": 4
       },
       {
-        "label": "Bearish",
+        "label": "Somewhat-Bearish",
         "count": 1
       }
     ]
