@@ -1,31 +1,105 @@
 {
-  "updated_at": "2026-10-27T07:10:42.251236+00:00",
-  "date": "2026-10-27",
+  "updated_at": "2026-10-28T07:49:15.567101+00:00",
+  "date": "2026-10-28",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "BMY",
-  "shift_label": "Attention rising",
-  "sentiment_delta": 0.0763,
-  "baseline_label": "2026-10-04",
+  "symbol": "MSFT",
+  "shift_label": "Narrative steady",
+  "sentiment_delta": 0.0465,
+  "baseline_label": "2026-10-27",
   "current": {
-    "date": "2026-10-27",
-    "symbol": "BMY",
-    "article_count": 2,
+    "date": "2026-10-28",
+    "symbol": "MSFT",
+    "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.2697,
+    "sentiment_score": 0.3905,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 2
+        "count": 1
       },
       {
         "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "Life Sciences",
+        "label": "Technology",
+        "count": 1
+      },
+      {
+        "label": "Finance",
+        "count": 1
+      },
+      {
+        "label": "Manufacturing",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "robinhood",
+        "count": 1
+      },
+      {
+        "label": "stocks",
+        "count": 1
+      },
+      {
+        "label": "watch",
+        "count": 1
+      },
+      {
+        "label": "heading",
+        "count": 1
+      },
+      {
+        "label": "wednesday",
+        "count": 1
+      },
+      {
+        "label": "futures",
+        "count": 1
+      },
+      {
+        "label": "show",
+        "count": 1
+      },
+      {
+        "label": "mixed",
+        "count": 1
+      },
+      {
+        "label": "trading",
+        "count": 1
+      },
+      {
+        "label": "investors",
+        "count": 1
+      },
+      {
+        "label": "focusing",
+        "count": 1
+      },
+      {
+        "label": "several",
+        "count": 1
+      }
+    ],
+    "headline": "Robinhood, Microsoft And 3 Stocks To Watch Heading Into Wednesday",
+    "headline_source": "Benzinga"
+  },
+  "previous": {
+    "date": "2026-10-27",
+    "symbol": "MSFT",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.344,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
         "count": 1
       }
     ],
@@ -55,123 +129,49 @@
         "count": 2
       },
       {
-        "label": "mettler-toledo",
-        "count": 2
+        "label": "release",
+        "count": 1
       },
       {
-        "label": "international",
-        "count": 2
+        "label": "announce",
+        "count": 1
       },
       {
-        "label": "mtd",
-        "count": 2
+        "label": "opens",
+        "count": 1
       },
       {
-        "label": "has",
-        "count": 2
+        "label": "november",
+        "count": 1
       },
       {
-        "label": "consensus",
-        "count": 2
+        "label": "forecasting",
+        "count": 1
       },
       {
-        "label": "target",
-        "count": 2
+        "label": "per",
+        "count": 1
       }
     ],
     "headline": "Keurig Dr Pepper (KDP) Expected to Release Earnings on Tuesday",
     "headline_source": "MarketBeat"
   },
-  "previous": {
-    "date": "2026-10-04",
-    "symbol": "BMY",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.1934,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Life Sciences",
-        "count": 1
-      },
-      {
-        "label": "Financial Markets",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "eli",
-        "count": 2
-      },
-      {
-        "label": "lilly",
-        "count": 2
-      },
-      {
-        "label": "lly",
-        "count": 2
-      },
-      {
-        "label": "buy",
-        "count": 2
-      },
-      {
-        "label": "rbc",
-        "count": 2
-      },
-      {
-        "label": "capital",
-        "count": 2
-      },
-      {
-        "label": "gets",
-        "count": 1
-      },
-      {
-        "label": "trung",
-        "count": 1
-      },
-      {
-        "label": "huynh",
-        "count": 1
-      },
-      {
-        "label": "maintained",
-        "count": 1
-      },
-      {
-        "label": "rating",
-        "count": 1
-      },
-      {
-        "label": "target",
-        "count": 1
-      }
-    ],
-    "headline": "Eli Lilly & Co (LLY) Gets a Buy from RBC Capital",
-    "headline_source": "The Globe and Mail"
-  },
   "emerging_themes": [
-    "Earnings",
     "Financial Markets",
-    "Life Sciences"
+    "Technology",
+    "Finance"
   ],
   "fading_themes": [],
   "emerging_keywords": [
+    "robinhood",
+    "stocks",
+    "watch"
+  ],
+  "fading_keywords": [
     "earnings",
     "keurig",
     "pepper"
   ],
-  "fading_keywords": [
-    "eli",
-    "lilly",
-    "lly"
-  ],
-  "takeaway": "BMY's narrative is attention rising: sentiment moved +0.08, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "MSFT's narrative is narrative steady: sentiment moved +0.05, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
