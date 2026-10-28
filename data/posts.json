@@ -1,5 +1,91 @@
 [
   {
+    "id": "news-vs-price-reaction-msft-2026-10-28",
+    "date": "2026-10-28",
+    "runDate": "2026-10-28",
+    "createdAt": "2026-10-28T08:53:58.613449+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$MSFT news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-28.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-28T08:53:56.908158+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$MSFT",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "MSFT",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-28T08:53:56.908158+00:00",
+      "date": "2026-10-28",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "MSFT",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "FedEx Raises FY2026 Outlook as Federal Express Drives Q3 Growth",
+      "headline_source": "TradingKey",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for MSFT: {'status_code': 200, 'data': {'c': 531.33, 'd': -1.27, 'dp': -0.2385, 'h': 534.7, 'l': 528.33, 'o': 532.35, 'pc': 532.6, 't': 1793131200}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "MSFT",
+            "mentions": 3
+          },
+          {
+            "ticker": "GOOGL",
+            "mentions": 3
+          },
+          {
+            "ticker": "INTC",
+            "mentions": 2
+          },
+          {
+            "ticker": "GOOG",
+            "mentions": 2
+          },
+          {
+            "ticker": "NVDA",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 16
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 13
+          },
+          {
+            "label": "Bullish",
+            "count": 11
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 4
+          },
+          {
+            "label": "Bearish",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-msft-2026-10-28",
     "date": "2026-10-28",
     "runDate": "2026-10-28",
