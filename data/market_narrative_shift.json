@@ -1,177 +1,100 @@
 {
-  "updated_at": "2026-10-28T07:49:15.567101+00:00",
-  "date": "2026-10-28",
+  "updated_at": "2026-10-29T07:55:22.036531+00:00",
+  "date": "2026-10-29",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "MSFT",
-  "shift_label": "Narrative steady",
-  "sentiment_delta": 0.0465,
-  "baseline_label": "2026-10-27",
+  "symbol": "OTLY",
+  "shift_label": "Baseline building",
+  "sentiment_delta": 0.0,
+  "baseline_label": "Building",
   "current": {
-    "date": "2026-10-28",
-    "symbol": "MSFT",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.3905,
+    "date": "2026-10-29",
+    "symbol": "OTLY",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": -0.3424,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
+        "count": 2
       },
       {
         "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Technology",
-        "count": 1
+        "count": 2
       },
       {
         "label": "Finance",
         "count": 1
-      },
-      {
-        "label": "Manufacturing",
-        "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "robinhood",
-        "count": 1
+        "label": "oatly",
+        "count": 4
       },
-      {
-        "label": "stocks",
-        "count": 1
-      },
-      {
-        "label": "watch",
-        "count": 1
-      },
-      {
-        "label": "heading",
-        "count": 1
-      },
-      {
-        "label": "wednesday",
-        "count": 1
-      },
-      {
-        "label": "futures",
-        "count": 1
-      },
-      {
-        "label": "show",
-        "count": 1
-      },
-      {
-        "label": "mixed",
-        "count": 1
-      },
-      {
-        "label": "trading",
-        "count": 1
-      },
-      {
-        "label": "investors",
-        "count": 1
-      },
-      {
-        "label": "focusing",
-        "count": 1
-      },
-      {
-        "label": "several",
-        "count": 1
-      }
-    ],
-    "headline": "Robinhood, Microsoft And 3 Stocks To Watch Heading Into Wednesday",
-    "headline_source": "Benzinga"
-  },
-  "previous": {
-    "date": "2026-10-27",
-    "symbol": "MSFT",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.344,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 1
-      }
-    ],
-    "keywords": [
       {
         "label": "earnings",
         "count": 3
       },
       {
-        "label": "keurig",
+        "label": "estimates",
+        "count": 3
+      },
+      {
+        "label": "eps",
+        "count": 3
+      },
+      {
+        "label": "adr",
         "count": 2
       },
       {
-        "label": "pepper",
+        "label": "revenue",
         "count": 2
       },
       {
-        "label": "kdp",
+        "label": "reported",
         "count": 2
       },
       {
-        "label": "expected",
+        "label": "missing",
         "count": 2
       },
       {
-        "label": "tuesday",
+        "label": "below",
         "count": 2
       },
       {
-        "label": "release",
-        "count": 1
+        "label": "day",
+        "count": 2
       },
       {
-        "label": "announce",
-        "count": 1
+        "label": "moving",
+        "count": 2
       },
       {
-        "label": "opens",
-        "count": 1
-      },
-      {
-        "label": "november",
-        "count": 1
-      },
-      {
-        "label": "forecasting",
-        "count": 1
-      },
-      {
-        "label": "per",
-        "count": 1
+        "label": "average",
+        "count": 2
       }
     ],
-    "headline": "Keurig Dr Pepper (KDP) Expected to Release Earnings on Tuesday",
-    "headline_source": "MarketBeat"
+    "headline": "Oatly Group AB ADR earnings missed by $0.06, revenue topped estimates",
+    "headline_source": "Investing.com India"
   },
+  "previous": null,
   "emerging_themes": [
+    "Earnings",
     "Financial Markets",
-    "Technology",
     "Finance"
   ],
   "fading_themes": [],
   "emerging_keywords": [
-    "robinhood",
-    "stocks",
-    "watch"
-  ],
-  "fading_keywords": [
+    "oatly",
     "earnings",
-    "keurig",
-    "pepper"
+    "estimates"
   ],
-  "takeaway": "MSFT's narrative is narrative steady: sentiment moved +0.05, while the leading theme shifted from Earnings to Earnings.",
+  "fading_keywords": [],
+  "takeaway": "OTLY leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

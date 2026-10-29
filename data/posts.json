@@ -1,5 +1,125 @@
 [
   {
+    "id": "market-narrative-shift-otly-2026-10-29",
+    "date": "2026-10-29",
+    "runDate": "2026-10-29",
+    "createdAt": "2026-10-29T07:55:24.669987+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $OTLY",
+    "status": "ready",
+    "tweet": "What changed in $OTLY's market narrative? 🔄\n\n🧭 Signal: Baseline building\n💬 Sentiment shift: baseline\n📌 Top theme: Earnings\n🔎 Emerging term: oatly\n📰 Coverage: 2 vs n/a\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_OTLY_2026-10-29.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-29T07:55:22.036531+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$OTLY",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Baseline building",
+    "topSymbol": "OTLY",
+    "topChangePct": 0.0,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-29T07:55:22.036531+00:00",
+      "date": "2026-10-29",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "OTLY",
+      "shift_label": "Baseline building",
+      "sentiment_delta": 0.0,
+      "baseline_label": "Building",
+      "current": {
+        "date": "2026-10-29",
+        "symbol": "OTLY",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": -0.3424,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Finance",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "oatly",
+            "count": 4
+          },
+          {
+            "label": "earnings",
+            "count": 3
+          },
+          {
+            "label": "estimates",
+            "count": 3
+          },
+          {
+            "label": "eps",
+            "count": 3
+          },
+          {
+            "label": "adr",
+            "count": 2
+          },
+          {
+            "label": "revenue",
+            "count": 2
+          },
+          {
+            "label": "reported",
+            "count": 2
+          },
+          {
+            "label": "missing",
+            "count": 2
+          },
+          {
+            "label": "below",
+            "count": 2
+          },
+          {
+            "label": "day",
+            "count": 2
+          },
+          {
+            "label": "moving",
+            "count": 2
+          },
+          {
+            "label": "average",
+            "count": 2
+          }
+        ],
+        "headline": "Oatly Group AB ADR earnings missed by $0.06, revenue topped estimates",
+        "headline_source": "Investing.com India"
+      },
+      "previous": null,
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Finance"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "oatly",
+        "earnings",
+        "estimates"
+      ],
+      "fading_keywords": [],
+      "takeaway": "OTLY leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-29",
     "date": "2026-10-29",
     "runDate": "2026-10-29",
