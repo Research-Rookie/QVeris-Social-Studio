@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-ba-2026-10-29",
+    "date": "2026-10-29",
+    "runDate": "2026-10-29",
+    "createdAt": "2026-10-29T08:48:46.681061+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$BA news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-29.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-29T08:48:44.770664+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$BA",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "BA",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-29T08:48:44.770664+00:00",
+      "date": "2026-10-29",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "BA",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Axon Enterprise (AXON) Projected to Announce Quarterly Earnings on Thursday",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for BA: {'status_code': 200, 'data': {'c': 167.14, 'd': -1.04, 'dp': -0.6184, 'h': 170.2, 'l': 165.01, 'o': 167.99, 'pc': 168.18, 't': 1793217600}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "BA",
+            "mentions": 6
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 3
+          },
+          {
+            "ticker": "CFG",
+            "mentions": 3
+          },
+          {
+            "ticker": "NUE",
+            "mentions": 2
+          },
+          {
+            "ticker": "MCD",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 16
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 16
+          },
+          {
+            "label": "Bullish",
+            "count": 8
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-otly-2026-10-29",
     "date": "2026-10-29",
     "runDate": "2026-10-29",

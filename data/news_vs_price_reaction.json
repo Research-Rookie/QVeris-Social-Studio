@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-10-28T08:53:56.908158+00:00",
-  "date": "2026-10-28",
+  "updated_at": "2026-10-29T08:48:44.770664+00:00",
+  "date": "2026-10-29",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "MSFT",
+  "symbol": "BA",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "FedEx Raises FY2026 Outlook as Federal Express Drives Q3 Growth",
-  "headline_source": "TradingKey",
+  "headline": "Axon Enterprise (AXON) Projected to Announce Quarterly Earnings on Thursday",
+  "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for MSFT: {'status_code': 200, 'data': {'c': 531.33, 'd': -1.27, 'dp': -0.2385, 'h': 534.7, 'l': 528.33, 'o': 532.35, 'pc': 532.6, 't': 1793131200}}",
+  "price_error": "Could not parse quote data for BA: {'status_code': 200, 'data': {'c': 167.14, 'd': -1.04, 'dp': -0.6184, 'h': 170.2, 'l': 165.01, 'o': 167.99, 'pc': 168.18, 't': 1793217600}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "MSFT",
+        "ticker": "BA",
+        "mentions": 6
+      },
+      {
+        "ticker": "AMZN",
         "mentions": 3
       },
       {
-        "ticker": "GOOGL",
+        "ticker": "CFG",
         "mentions": 3
       },
       {
-        "ticker": "INTC",
+        "ticker": "NUE",
         "mentions": 2
       },
       {
-        "ticker": "GOOG",
-        "mentions": 2
-      },
-      {
-        "ticker": "NVDA",
+        "ticker": "MCD",
         "mentions": 2
       }
     ],
@@ -47,19 +47,15 @@
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 13
+        "count": 16
       },
       {
         "label": "Bullish",
-        "count": 11
+        "count": 8
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 4
-      },
-      {
-        "label": "Bearish",
-        "count": 1
+        "count": 2
       }
     ]
   }
