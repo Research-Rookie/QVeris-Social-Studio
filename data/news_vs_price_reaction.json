@@ -1,43 +1,43 @@
 {
-  "updated_at": "2026-10-29T08:48:44.770664+00:00",
-  "date": "2026-10-29",
+  "updated_at": "2026-10-30T08:56:29.175165+00:00",
+  "date": "2026-10-30",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "BA",
+  "symbol": "BAC",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "Axon Enterprise (AXON) Projected to Announce Quarterly Earnings on Thursday",
-  "headline_source": "MarketBeat",
+  "headline": "General Dynamics Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead",
+  "headline_source": "Benzinga",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for BA: {'status_code': 200, 'data': {'c': 167.14, 'd': -1.04, 'dp': -0.6184, 'h': 170.2, 'l': 165.01, 'o': 167.99, 'pc': 168.18, 't': 1793217600}}",
+  "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 51.14, 'd': 0.29, 'dp': 0.5703, 'h': 52.039, 'l': 51.12, 'o': 51.74, 'pc': 50.85, 't': 1793304000}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "BA",
+        "ticker": "BAC",
         "mentions": 6
       },
       {
-        "ticker": "AMZN",
+        "ticker": "BLK",
+        "mentions": 4
+      },
+      {
+        "ticker": "PSX",
         "mentions": 3
       },
       {
-        "ticker": "CFG",
+        "ticker": "NXPI",
         "mentions": 3
       },
       {
-        "ticker": "NUE",
-        "mentions": 2
-      },
-      {
-        "ticker": "MCD",
-        "mentions": 2
+        "ticker": "GEV",
+        "mentions": 3
       }
     ],
     "sentiment_counts": [
@@ -51,11 +51,15 @@
       },
       {
         "label": "Bullish",
-        "count": 8
+        "count": 7
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 2
+        "count": 5
+      },
+      {
+        "label": "Bearish",
+        "count": 1
       }
     ]
   }
