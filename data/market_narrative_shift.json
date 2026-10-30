@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-10-29T07:55:22.036531+00:00",
-  "date": "2026-10-29",
+  "updated_at": "2026-10-30T07:58:03.605767+00:00",
+  "date": "2026-10-30",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "OTLY",
-  "shift_label": "Baseline building",
-  "sentiment_delta": 0.0,
-  "baseline_label": "Building",
+  "symbol": "GD",
+  "shift_label": "Theme rotation",
+  "sentiment_delta": -0.0226,
+  "baseline_label": "2026-09-15",
   "current": {
-    "date": "2026-10-29",
-    "symbol": "OTLY",
-    "article_count": 2,
-    "source_count": 2,
-    "sentiment_score": -0.3424,
+    "date": "2026-10-30",
+    "symbol": "GD",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.0238,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 2
+        "count": 1
       },
       {
         "label": "Financial Markets",
-        "count": 2
+        "count": 1
       },
       {
         "label": "Finance",
@@ -31,70 +31,154 @@
     ],
     "keywords": [
       {
-        "label": "oatly",
-        "count": 4
+        "label": "general",
+        "count": 2
+      },
+      {
+        "label": "dynamics",
+        "count": 2
+      },
+      {
+        "label": "higher",
+        "count": 2
       },
       {
         "label": "earnings",
-        "count": 3
-      },
-      {
-        "label": "estimates",
-        "count": 3
-      },
-      {
-        "label": "eps",
-        "count": 3
-      },
-      {
-        "label": "adr",
         "count": 2
       },
       {
-        "label": "revenue",
-        "count": 2
+        "label": "likely",
+        "count": 1
       },
       {
-        "label": "reported",
-        "count": 2
+        "label": "these",
+        "count": 1
       },
       {
-        "label": "missing",
-        "count": 2
+        "label": "most",
+        "count": 1
       },
       {
-        "label": "below",
-        "count": 2
+        "label": "accurate",
+        "count": 1
       },
       {
-        "label": "day",
-        "count": 2
+        "label": "revise",
+        "count": 1
       },
       {
-        "label": "moving",
-        "count": 2
+        "label": "forecasts",
+        "count": 1
       },
       {
-        "label": "average",
-        "count": 2
+        "label": "expected",
+        "count": 1
+      },
+      {
+        "label": "per",
+        "count": 1
       }
     ],
-    "headline": "Oatly Group AB ADR earnings missed by $0.06, revenue topped estimates",
-    "headline_source": "Investing.com India"
+    "headline": "General Dynamics Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead",
+    "headline_source": "Benzinga"
   },
-  "previous": null,
+  "previous": {
+    "date": "2026-09-15",
+    "symbol": "GD",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.0464,
+    "top_theme": "Financial Markets",
+    "themes": [
+      {
+        "label": "Financial Markets",
+        "count": 1
+      },
+      {
+        "label": "Earnings",
+        "count": 1
+      },
+      {
+        "label": "Economy Macro",
+        "count": 1
+      },
+      {
+        "label": "Manufacturing",
+        "count": 1
+      }
+    ],
+    "keywords": [
+      {
+        "label": "huntington",
+        "count": 2
+      },
+      {
+        "label": "ingalls",
+        "count": 2
+      },
+      {
+        "label": "heads",
+        "count": 1
+      },
+      {
+        "label": "open",
+        "count": 1
+      },
+      {
+        "label": "dip",
+        "count": 1
+      },
+      {
+        "label": "hii",
+        "count": 1
+      },
+      {
+        "label": "closed",
+        "count": 1
+      },
+      {
+        "label": "down",
+        "count": 1
+      },
+      {
+        "label": "usd",
+        "count": 1
+      },
+      {
+        "label": "september",
+        "count": 1
+      },
+      {
+        "label": "underperforming",
+        "count": 1
+      },
+      {
+        "label": "gain",
+        "count": 1
+      }
+    ],
+    "headline": "Huntington Ingalls stock heads into the open after a 0.8% dip",
+    "headline_source": "ad-hoc-news.de"
+  },
   "emerging_themes": [
+    "Finance",
     "Earnings",
-    "Financial Markets",
-    "Finance"
+    "Financial Markets"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Economy Macro",
+    "Manufacturing"
+  ],
   "emerging_keywords": [
-    "oatly",
-    "earnings",
-    "estimates"
+    "general",
+    "dynamics",
+    "higher"
   ],
-  "fading_keywords": [],
-  "takeaway": "OTLY leads the current news set. This first snapshot establishes the baseline for the next narrative comparison.",
+  "fading_keywords": [
+    "huntington",
+    "ingalls",
+    "heads"
+  ],
+  "takeaway": "GD's narrative is theme rotation: sentiment moved -0.02, while the leading theme shifted from Financial Markets to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
