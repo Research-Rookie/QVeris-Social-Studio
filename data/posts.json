@@ -1,5 +1,206 @@
 [
   {
+    "id": "market-narrative-shift-ftnt-2026-10-31",
+    "date": "2026-10-31",
+    "runDate": "2026-10-31",
+    "createdAt": "2026-10-31T07:52:32.741431+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $FTNT",
+    "status": "ready",
+    "tweet": "What changed in $FTNT's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.14\n📌 Top theme: Earnings\n🔎 Emerging term: buy\n📰 Coverage: 3 vs 1\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_FTNT_2026-10-31.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-10-31T07:52:30.957081+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$FTNT",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "FTNT",
+    "topChangePct": -13.600000000000001,
+    "marketNarrativeShift": {
+      "updated_at": "2026-10-31T07:52:30.957081+00:00",
+      "date": "2026-10-31",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "FTNT",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.136,
+      "baseline_label": "2026-07-03",
+      "current": {
+        "date": "2026-10-31",
+        "symbol": "FTNT",
+        "article_count": 3,
+        "source_count": 1,
+        "sentiment_score": 0.0025,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 3
+          },
+          {
+            "label": "Financial Markets",
+            "count": 3
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Manufacturing",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "buy",
+            "count": 7
+          },
+          {
+            "label": "wall",
+            "count": 6
+          },
+          {
+            "label": "street",
+            "count": 6
+          },
+          {
+            "label": "zen",
+            "count": 6
+          },
+          {
+            "label": "rating",
+            "count": 4
+          },
+          {
+            "label": "hold",
+            "count": 3
+          },
+          {
+            "label": "dorman",
+            "count": 2
+          },
+          {
+            "label": "products",
+            "count": 2
+          },
+          {
+            "label": "dorm",
+            "count": 2
+          },
+          {
+            "label": "has",
+            "count": 2
+          },
+          {
+            "label": "upgraded",
+            "count": 2
+          },
+          {
+            "label": "moderate",
+            "count": 2
+          }
+        ],
+        "headline": "Dorman Products (NASDAQ:DORM) Raised to \"Buy\" at Wall Street Zen",
+        "headline_source": "MarketBeat"
+      },
+      "previous": {
+        "date": "2026-07-03",
+        "symbol": "FTNT",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.1385,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "fortinet",
+            "count": 2
+          },
+          {
+            "label": "should",
+            "count": 1
+          },
+          {
+            "label": "index",
+            "count": 1
+          },
+          {
+            "label": "exit",
+            "count": 1
+          },
+          {
+            "label": "partner",
+            "count": 1
+          },
+          {
+            "label": "expansion",
+            "count": 1
+          },
+          {
+            "label": "shift",
+            "count": 1
+          },
+          {
+            "label": "how",
+            "count": 1
+          },
+          {
+            "label": "investors",
+            "count": 1
+          },
+          {
+            "label": "view",
+            "count": 1
+          },
+          {
+            "label": "risk",
+            "count": 1
+          },
+          {
+            "label": "return",
+            "count": 1
+          }
+        ],
+        "headline": "Should Fortinet?s Index Exit and Partner Expansion Shift How Investors View FTNT?s Risk?Return Profile?",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing"
+      ],
+      "fading_themes": [],
+      "emerging_keywords": [
+        "buy",
+        "wall",
+        "street"
+      ],
+      "fading_keywords": [
+        "fortinet",
+        "should",
+        "index"
+      ],
+      "takeaway": "FTNT's narrative is turning bearish: sentiment moved -0.14, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-10-31",
     "date": "2026-10-31",
     "runDate": "2026-10-31",

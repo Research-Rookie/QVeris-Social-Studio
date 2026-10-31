@@ -1,105 +1,31 @@
 {
-  "updated_at": "2026-10-30T07:58:03.605767+00:00",
-  "date": "2026-10-30",
+  "updated_at": "2026-10-31T07:52:30.957081+00:00",
+  "date": "2026-10-31",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "GD",
-  "shift_label": "Theme rotation",
-  "sentiment_delta": -0.0226,
-  "baseline_label": "2026-09-15",
+  "symbol": "FTNT",
+  "shift_label": "Turning bearish",
+  "sentiment_delta": -0.136,
+  "baseline_label": "2026-07-03",
   "current": {
-    "date": "2026-10-30",
-    "symbol": "GD",
-    "article_count": 1,
+    "date": "2026-10-31",
+    "symbol": "FTNT",
+    "article_count": 3,
     "source_count": 1,
-    "sentiment_score": 0.0238,
+    "sentiment_score": 0.0025,
     "top_theme": "Earnings",
     "themes": [
       {
         "label": "Earnings",
-        "count": 1
+        "count": 3
       },
       {
         "label": "Financial Markets",
-        "count": 1
+        "count": 3
       },
       {
-        "label": "Finance",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "general",
-        "count": 2
-      },
-      {
-        "label": "dynamics",
-        "count": 2
-      },
-      {
-        "label": "higher",
-        "count": 2
-      },
-      {
-        "label": "earnings",
-        "count": 2
-      },
-      {
-        "label": "likely",
-        "count": 1
-      },
-      {
-        "label": "these",
-        "count": 1
-      },
-      {
-        "label": "most",
-        "count": 1
-      },
-      {
-        "label": "accurate",
-        "count": 1
-      },
-      {
-        "label": "revise",
-        "count": 1
-      },
-      {
-        "label": "forecasts",
-        "count": 1
-      },
-      {
-        "label": "expected",
-        "count": 1
-      },
-      {
-        "label": "per",
-        "count": 1
-      }
-    ],
-    "headline": "General Dynamics Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead",
-    "headline_source": "Benzinga"
-  },
-  "previous": {
-    "date": "2026-09-15",
-    "symbol": "GD",
-    "article_count": 1,
-    "source_count": 1,
-    "sentiment_score": 0.0464,
-    "top_theme": "Financial Markets",
-    "themes": [
-      {
-        "label": "Financial Markets",
-        "count": 1
-      },
-      {
-        "label": "Earnings",
-        "count": 1
-      },
-      {
-        "label": "Economy Macro",
+        "label": "Technology",
         "count": 1
       },
       {
@@ -109,76 +35,147 @@
     ],
     "keywords": [
       {
-        "label": "huntington",
+        "label": "buy",
+        "count": 7
+      },
+      {
+        "label": "wall",
+        "count": 6
+      },
+      {
+        "label": "street",
+        "count": 6
+      },
+      {
+        "label": "zen",
+        "count": 6
+      },
+      {
+        "label": "rating",
+        "count": 4
+      },
+      {
+        "label": "hold",
+        "count": 3
+      },
+      {
+        "label": "dorman",
         "count": 2
       },
       {
-        "label": "ingalls",
+        "label": "products",
         "count": 2
       },
       {
-        "label": "heads",
+        "label": "dorm",
+        "count": 2
+      },
+      {
+        "label": "has",
+        "count": 2
+      },
+      {
+        "label": "upgraded",
+        "count": 2
+      },
+      {
+        "label": "moderate",
+        "count": 2
+      }
+    ],
+    "headline": "Dorman Products (NASDAQ:DORM) Raised to \"Buy\" at Wall Street Zen",
+    "headline_source": "MarketBeat"
+  },
+  "previous": {
+    "date": "2026-07-03",
+    "symbol": "FTNT",
+    "article_count": 1,
+    "source_count": 1,
+    "sentiment_score": 0.1385,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
         "count": 1
       },
       {
-        "label": "open",
+        "label": "Technology",
         "count": 1
       },
       {
-        "label": "dip",
-        "count": 1
-      },
-      {
-        "label": "hii",
-        "count": 1
-      },
-      {
-        "label": "closed",
-        "count": 1
-      },
-      {
-        "label": "down",
-        "count": 1
-      },
-      {
-        "label": "usd",
-        "count": 1
-      },
-      {
-        "label": "september",
-        "count": 1
-      },
-      {
-        "label": "underperforming",
-        "count": 1
-      },
-      {
-        "label": "gain",
+        "label": "Financial Markets",
         "count": 1
       }
     ],
-    "headline": "Huntington Ingalls stock heads into the open after a 0.8% dip",
-    "headline_source": "ad-hoc-news.de"
+    "keywords": [
+      {
+        "label": "fortinet",
+        "count": 2
+      },
+      {
+        "label": "should",
+        "count": 1
+      },
+      {
+        "label": "index",
+        "count": 1
+      },
+      {
+        "label": "exit",
+        "count": 1
+      },
+      {
+        "label": "partner",
+        "count": 1
+      },
+      {
+        "label": "expansion",
+        "count": 1
+      },
+      {
+        "label": "shift",
+        "count": 1
+      },
+      {
+        "label": "how",
+        "count": 1
+      },
+      {
+        "label": "investors",
+        "count": 1
+      },
+      {
+        "label": "view",
+        "count": 1
+      },
+      {
+        "label": "risk",
+        "count": 1
+      },
+      {
+        "label": "return",
+        "count": 1
+      }
+    ],
+    "headline": "Should Fortinet?s Index Exit and Partner Expansion Shift How Investors View FTNT?s Risk?Return Profile?",
+    "headline_source": "Simply Wall Street"
   },
   "emerging_themes": [
-    "Finance",
     "Earnings",
-    "Financial Markets"
-  ],
-  "fading_themes": [
-    "Economy Macro",
+    "Financial Markets",
     "Manufacturing"
   ],
+  "fading_themes": [],
   "emerging_keywords": [
-    "general",
-    "dynamics",
-    "higher"
+    "buy",
+    "wall",
+    "street"
   ],
   "fading_keywords": [
-    "huntington",
-    "ingalls",
-    "heads"
+    "fortinet",
+    "should",
+    "index"
   ],
-  "takeaway": "GD's narrative is theme rotation: sentiment moved -0.02, while the leading theme shifted from Financial Markets to Earnings.",
+  "takeaway": "FTNT's narrative is turning bearish: sentiment moved -0.14, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }
