@@ -1,5 +1,87 @@
 [
   {
+    "id": "news-vs-price-reaction-ftnt-2026-10-31",
+    "date": "2026-10-31",
+    "runDate": "2026-10-31",
+    "createdAt": "2026-10-31T08:44:08.911674+00:00",
+    "contentType": "NEWS VS PRICE REACTION",
+    "title": "News vs Price Reaction",
+    "status": "ready",
+    "tweet": "Good news does not always mean green candles. 👀\n\n$FTNT news vs price reaction:\n📰 News tone: Neutral\n📈 Price move: +0.00%\n💡 Signal: Price pending\n\nNews signal is ready; price reaction will update once the quote tool returns data.\n\nBuilt with QVeris: https://qveris.ai",
+    "image": "/posts/news_vs_price_reaction_2026-10-31.png",
+    "dataSource": "QVeris API via market news sentiment and stock quote",
+    "dataUpdatedAt": "2026-10-31T08:44:05.896956+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$FTNT",
+    "secondaryLabel": "Signal",
+    "secondaryValue": "Price pending",
+    "topSymbol": "FTNT",
+    "topChangePct": 0.0,
+    "newsVsPriceReaction": {
+      "updated_at": "2026-10-31T08:44:05.896956+00:00",
+      "date": "2026-10-31",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment and stock quote",
+      "title": "News vs Price Reaction",
+      "symbol": "FTNT",
+      "news_tone": "Neutral",
+      "top_theme": "Earnings",
+      "headline": "Dorman Products (NASDAQ:DORM) Raised to \"Buy\" at Wall Street Zen",
+      "headline_source": "MarketBeat",
+      "price": 0.0,
+      "change_pct": 0.0,
+      "change_amount": 0.0,
+      "volume": 0,
+      "reaction_label": "Price pending",
+      "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
+      "price_error": "Could not parse quote data for FTNT: {'status_code': 200, 'data': {'c': 136.08, 'd': -3.02, 'dp': -2.1711, 'h': 138.79, 'l': 134.4001, 'o': 137.09, 'pc': 139.1, 't': 1793390400}}",
+      "news": {
+        "article_count": 50,
+        "top_tickers": [
+          {
+            "ticker": "FTNT",
+            "mentions": 6
+          },
+          {
+            "ticker": "CTAS",
+            "mentions": 4
+          },
+          {
+            "ticker": "DASH",
+            "mentions": 2
+          },
+          {
+            "ticker": "AMZN",
+            "mentions": 2
+          },
+          {
+            "ticker": "BLK",
+            "mentions": 2
+          }
+        ],
+        "sentiment_counts": [
+          {
+            "label": "Neutral",
+            "count": 19
+          },
+          {
+            "label": "Somewhat-Bullish",
+            "count": 13
+          },
+          {
+            "label": "Bullish",
+            "count": 7
+          },
+          {
+            "label": "Somewhat-Bearish",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "market-narrative-shift-ftnt-2026-10-31",
     "date": "2026-10-31",
     "runDate": "2026-10-31",

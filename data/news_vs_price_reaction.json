@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-10-30T08:56:29.175165+00:00",
-  "date": "2026-10-30",
+  "updated_at": "2026-10-31T08:44:05.896956+00:00",
+  "date": "2026-10-31",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment and stock quote",
   "title": "News vs Price Reaction",
-  "symbol": "BAC",
+  "symbol": "FTNT",
   "news_tone": "Neutral",
   "top_theme": "Earnings",
-  "headline": "General Dynamics Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead",
-  "headline_source": "Benzinga",
+  "headline": "Dorman Products (NASDAQ:DORM) Raised to \"Buy\" at Wall Street Zen",
+  "headline_source": "MarketBeat",
   "price": 0.0,
   "change_pct": 0.0,
   "change_amount": 0.0,
   "volume": 0,
   "reaction_label": "Price pending",
   "takeaway": "News signal is ready; price reaction will update once the quote tool returns data.",
-  "price_error": "Could not parse quote data for BAC: {'status_code': 200, 'data': {'c': 51.14, 'd': 0.29, 'dp': 0.5703, 'h': 52.039, 'l': 51.12, 'o': 51.74, 'pc': 50.85, 't': 1793304000}}",
+  "price_error": "Could not parse quote data for FTNT: {'status_code': 200, 'data': {'c': 136.08, 'd': -3.02, 'dp': -2.1711, 'h': 138.79, 'l': 134.4001, 'o': 137.09, 'pc': 139.1, 't': 1793390400}}",
   "news": {
     "article_count": 50,
     "top_tickers": [
       {
-        "ticker": "BAC",
+        "ticker": "FTNT",
         "mentions": 6
       },
       {
-        "ticker": "BLK",
+        "ticker": "CTAS",
         "mentions": 4
       },
       {
-        "ticker": "PSX",
-        "mentions": 3
+        "ticker": "DASH",
+        "mentions": 2
       },
       {
-        "ticker": "NXPI",
-        "mentions": 3
+        "ticker": "AMZN",
+        "mentions": 2
       },
       {
-        "ticker": "GEV",
-        "mentions": 3
+        "ticker": "BLK",
+        "mentions": 2
       }
     ],
     "sentiment_counts": [
       {
         "label": "Neutral",
-        "count": 16
+        "count": 19
       },
       {
         "label": "Somewhat-Bullish",
-        "count": 16
+        "count": 13
       },
       {
         "label": "Bullish",
@@ -55,11 +55,7 @@
       },
       {
         "label": "Somewhat-Bearish",
-        "count": 5
-      },
-      {
-        "label": "Bearish",
-        "count": 1
+        "count": 2
       }
     ]
   }
