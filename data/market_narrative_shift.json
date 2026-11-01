@@ -1,97 +1,19 @@
 {
-  "updated_at": "2026-10-31T07:52:30.957081+00:00",
-  "date": "2026-10-31",
+  "updated_at": "2026-11-01T08:33:42.996536+00:00",
+  "date": "2026-11-01",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
   "title": "Market Narrative Shift",
-  "symbol": "FTNT",
+  "symbol": "AMD",
   "shift_label": "Turning bearish",
-  "sentiment_delta": -0.136,
-  "baseline_label": "2026-07-03",
+  "sentiment_delta": -0.584,
+  "baseline_label": "2026-10-27",
   "current": {
-    "date": "2026-10-31",
-    "symbol": "FTNT",
-    "article_count": 3,
-    "source_count": 1,
-    "sentiment_score": 0.0025,
-    "top_theme": "Earnings",
-    "themes": [
-      {
-        "label": "Earnings",
-        "count": 3
-      },
-      {
-        "label": "Financial Markets",
-        "count": 3
-      },
-      {
-        "label": "Technology",
-        "count": 1
-      },
-      {
-        "label": "Manufacturing",
-        "count": 1
-      }
-    ],
-    "keywords": [
-      {
-        "label": "buy",
-        "count": 7
-      },
-      {
-        "label": "wall",
-        "count": 6
-      },
-      {
-        "label": "street",
-        "count": 6
-      },
-      {
-        "label": "zen",
-        "count": 6
-      },
-      {
-        "label": "rating",
-        "count": 4
-      },
-      {
-        "label": "hold",
-        "count": 3
-      },
-      {
-        "label": "dorman",
-        "count": 2
-      },
-      {
-        "label": "products",
-        "count": 2
-      },
-      {
-        "label": "dorm",
-        "count": 2
-      },
-      {
-        "label": "has",
-        "count": 2
-      },
-      {
-        "label": "upgraded",
-        "count": 2
-      },
-      {
-        "label": "moderate",
-        "count": 2
-      }
-    ],
-    "headline": "Dorman Products (NASDAQ:DORM) Raised to \"Buy\" at Wall Street Zen",
-    "headline_source": "MarketBeat"
-  },
-  "previous": {
-    "date": "2026-07-03",
-    "symbol": "FTNT",
+    "date": "2026-11-01",
+    "symbol": "AMD",
     "article_count": 1,
     "source_count": 1,
-    "sentiment_score": 0.1385,
+    "sentiment_score": -0.2475,
     "top_theme": "Earnings",
     "themes": [
       {
@@ -99,83 +21,168 @@
         "count": 1
       },
       {
-        "label": "Technology",
+        "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "Financial Markets",
+        "label": "Economy Macro",
+        "count": 1
+      },
+      {
+        "label": "Technology",
         "count": 1
       }
     ],
     "keywords": [
       {
-        "label": "fortinet",
+        "label": "jim",
         "count": 2
       },
       {
-        "label": "should",
+        "label": "cramer",
+        "count": 2
+      },
+      {
+        "label": "worst",
+        "count": 2
+      },
+      {
+        "label": "trillion",
+        "count": 2
+      },
+      {
+        "label": "warns",
         "count": 1
       },
       {
-        "label": "index",
+        "label": "don",
         "count": 1
       },
       {
-        "label": "exit",
+        "label": "assume",
         "count": 1
       },
       {
-        "label": "partner",
+        "label": "behind",
         "count": 1
       },
       {
-        "label": "expansion",
+        "label": "chip",
         "count": 1
       },
       {
-        "label": "shift",
+        "label": "rout",
         "count": 1
       },
       {
-        "label": "how",
+        "label": "cautioned",
         "count": 1
       },
       {
         "label": "investors",
         "count": 1
+      }
+    ],
+    "headline": "Jim Cramer Warns ‘Don’t Assume the Worst Is Behind Us’ After $1 Trillion Chip Stock Rout",
+    "headline_source": "TradingView"
+  },
+  "previous": {
+    "date": "2026-10-27",
+    "symbol": "AMD",
+    "article_count": 2,
+    "source_count": 2,
+    "sentiment_score": 0.3365,
+    "top_theme": "Earnings",
+    "themes": [
+      {
+        "label": "Earnings",
+        "count": 2
       },
       {
-        "label": "view",
+        "label": "Financial Markets",
         "count": 1
       },
       {
-        "label": "risk",
+        "label": "Technology",
         "count": 1
       },
       {
-        "label": "return",
+        "label": "Real Estate",
         "count": 1
       }
     ],
-    "headline": "Should Fortinet?s Index Exit and Partner Expansion Shift How Investors View FTNT?s Risk?Return Profile?",
-    "headline_source": "Simply Wall Street"
+    "keywords": [
+      {
+        "label": "earnings",
+        "count": 3
+      },
+      {
+        "label": "terawulf",
+        "count": 3
+      },
+      {
+        "label": "keurig",
+        "count": 2
+      },
+      {
+        "label": "pepper",
+        "count": 2
+      },
+      {
+        "label": "kdp",
+        "count": 2
+      },
+      {
+        "label": "expected",
+        "count": 2
+      },
+      {
+        "label": "tuesday",
+        "count": 2
+      },
+      {
+        "label": "ceo",
+        "count": 2
+      },
+      {
+        "label": "stranded",
+        "count": 2
+      },
+      {
+        "label": "data",
+        "count": 2
+      },
+      {
+        "label": "release",
+        "count": 1
+      },
+      {
+        "label": "announce",
+        "count": 1
+      }
+    ],
+    "headline": "Keurig Dr Pepper (KDP) Expected to Release Earnings on Tuesday",
+    "headline_source": "MarketBeat"
   },
   "emerging_themes": [
-    "Earnings",
+    "Economy Macro",
     "Financial Markets",
-    "Manufacturing"
+    "Technology"
   ],
-  "fading_themes": [],
+  "fading_themes": [
+    "Earnings",
+    "Real Estate"
+  ],
   "emerging_keywords": [
-    "buy",
-    "wall",
-    "street"
+    "jim",
+    "cramer",
+    "worst"
   ],
   "fading_keywords": [
-    "fortinet",
-    "should",
-    "index"
+    "earnings",
+    "terawulf",
+    "keurig"
   ],
-  "takeaway": "FTNT's narrative is turning bearish: sentiment moved -0.14, while the leading theme shifted from Earnings to Earnings.",
+  "takeaway": "AMD's narrative is turning bearish: sentiment moved -0.58, while the leading theme shifted from Earnings to Earnings.",
   "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
 }

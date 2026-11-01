@@ -1,5 +1,213 @@
 [
   {
+    "id": "market-narrative-shift-amd-2026-11-01",
+    "date": "2026-11-01",
+    "runDate": "2026-11-01",
+    "createdAt": "2026-11-01T08:33:44.940189+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $AMD",
+    "status": "ready",
+    "tweet": "What changed in $AMD's market narrative? 🔄\n\n🧭 Signal: Turning bearish\n💬 Sentiment shift: -0.58\n📌 Top theme: Earnings\n🔎 Emerging term: jim\n📰 Coverage: 1 vs 2\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_AMD_2026-11-01.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-11-01T08:33:42.996536+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$AMD",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bearish",
+    "topSymbol": "AMD",
+    "topChangePct": -58.4,
+    "marketNarrativeShift": {
+      "updated_at": "2026-11-01T08:33:42.996536+00:00",
+      "date": "2026-11-01",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "AMD",
+      "shift_label": "Turning bearish",
+      "sentiment_delta": -0.584,
+      "baseline_label": "2026-10-27",
+      "current": {
+        "date": "2026-11-01",
+        "symbol": "AMD",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": -0.2475,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Economy Macro",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "jim",
+            "count": 2
+          },
+          {
+            "label": "cramer",
+            "count": 2
+          },
+          {
+            "label": "worst",
+            "count": 2
+          },
+          {
+            "label": "trillion",
+            "count": 2
+          },
+          {
+            "label": "warns",
+            "count": 1
+          },
+          {
+            "label": "don",
+            "count": 1
+          },
+          {
+            "label": "assume",
+            "count": 1
+          },
+          {
+            "label": "behind",
+            "count": 1
+          },
+          {
+            "label": "chip",
+            "count": 1
+          },
+          {
+            "label": "rout",
+            "count": 1
+          },
+          {
+            "label": "cautioned",
+            "count": 1
+          },
+          {
+            "label": "investors",
+            "count": 1
+          }
+        ],
+        "headline": "Jim Cramer Warns ‘Don’t Assume the Worst Is Behind Us’ After $1 Trillion Chip Stock Rout",
+        "headline_source": "TradingView"
+      },
+      "previous": {
+        "date": "2026-10-27",
+        "symbol": "AMD",
+        "article_count": 2,
+        "source_count": 2,
+        "sentiment_score": 0.3365,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 1
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          },
+          {
+            "label": "Real Estate",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "earnings",
+            "count": 3
+          },
+          {
+            "label": "terawulf",
+            "count": 3
+          },
+          {
+            "label": "keurig",
+            "count": 2
+          },
+          {
+            "label": "pepper",
+            "count": 2
+          },
+          {
+            "label": "kdp",
+            "count": 2
+          },
+          {
+            "label": "expected",
+            "count": 2
+          },
+          {
+            "label": "tuesday",
+            "count": 2
+          },
+          {
+            "label": "ceo",
+            "count": 2
+          },
+          {
+            "label": "stranded",
+            "count": 2
+          },
+          {
+            "label": "data",
+            "count": 2
+          },
+          {
+            "label": "release",
+            "count": 1
+          },
+          {
+            "label": "announce",
+            "count": 1
+          }
+        ],
+        "headline": "Keurig Dr Pepper (KDP) Expected to Release Earnings on Tuesday",
+        "headline_source": "MarketBeat"
+      },
+      "emerging_themes": [
+        "Economy Macro",
+        "Financial Markets",
+        "Technology"
+      ],
+      "fading_themes": [
+        "Earnings",
+        "Real Estate"
+      ],
+      "emerging_keywords": [
+        "jim",
+        "cramer",
+        "worst"
+      ],
+      "fading_keywords": [
+        "earnings",
+        "terawulf",
+        "keurig"
+      ],
+      "takeaway": "AMD's narrative is turning bearish: sentiment moved -0.58, while the leading theme shifted from Earnings to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-11-01",
     "date": "2026-11-01",
     "runDate": "2026-11-01",
