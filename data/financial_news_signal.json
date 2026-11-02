@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T08:43:59.391903+00:00",
+  "updated_at": "2026-11-02T09:51:01.882601+00:00",
   "date": "2026-11-02",
   "run_timezone": "Asia/Shanghai",
   "source": "QVeris API via market news sentiment",
@@ -11,7 +11,7 @@
       "url": "https://www.citybiz.co/article/927365/federal-realty-raises-earnings-outlook-as-508-million-summit-acquisition-expands-portfolio/",
       "source": "citybiz",
       "published_at": "20261102T071145",
-      "sentiment_score": 0.442745,
+      "sentiment_score": 0.434445,
       "sentiment_label": "Bullish",
       "tickers": [
         "FRT"
@@ -32,7 +32,7 @@
       "url": "https://stockstory.org/us/stocks/nasdaq/mzti/news/earnings/the-marzetti-company-earnings-what-to-look-for-from-mzti-2",
       "source": "StockStory",
       "published_at": "20261102T035952",
-      "sentiment_score": 0.078377,
+      "sentiment_score": 0.046073,
       "sentiment_label": "Neutral",
       "tickers": [
         "MZTI",
@@ -47,42 +47,45 @@
       "is_noise": false
     },
     {
-      "title": "Matador Resources earnings: what to look for from MTDR",
-      "summary": "Matador Resources (MTDR), an oil and gas producer, is set to announce its earnings this Tuesday after market hours. The company exceeded analysts' revenue and EPS expectations l...",
-      "url": "https://www.tradingview.com/news/stockstory:0c23980fd094b:0-matador-resources-earnings-what-to-look-for-from-mtdr/",
-      "source": "TradingView",
-      "published_at": "20261102T034021",
-      "sentiment_score": 0.208944,
+      "title": "Entergy Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+      "summary": "Entergy Corporation (NYSE: ETR) is set to release its Q3 earnings, with analysts expecting $1.7 per share on $4.15 billion in revenue, an increase from the previous year. The co...",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62769416/entergy-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
+      "source": "Benzinga",
+      "published_at": "20261102T084022",
+      "sentiment_score": 0.321911,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "MTDR",
-        "EXE"
-      ],
-      "topics": [
-        "Earnings",
-        "Energy Transportation",
-        "Financial Markets"
-      ],
-      "quality_score": 19,
-      "is_noise": false
-    },
-    {
-      "title": "Prudential earnings: what to look for from PRU",
-      "summary": "Prudential Financial (NYSE:PRU) is set to report its latest earnings results this Tuesday after market hours. Analysts expect a 9.6% year-on-year revenue decline, an improvement...",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PRU/pressreleases/8583992/prudential-earnings-what-to-look-for-from-pru/",
-      "source": "The Globe and Mail",
-      "published_at": "20261102T031229",
-      "sentiment_score": 0.041056,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PRH"
+        "ETR"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance"
+        "Energy Transportation"
       ],
-      "quality_score": 19,
+      "quality_score": 17,
+      "is_noise": false
+    },
+    {
+      "title": "iShares Semiconductor ETF (NASDAQ: SOXX) forecast: Morgan Stanley warns of further 15% decline",
+      "summary": "The iShares Semiconductor ETF (SOXX) has entered a bear market, falling 28.1% from its June peak, with Morgan Stanley forecasting an additional 10%-15% decline for semiconductor...",
+      "url": "https://beinsure.com/news/soxx-etf-forecast-morgan-stanley-warns-of-further-decline/",
+      "source": "Beinsure",
+      "published_at": "20261102T091148",
+      "sentiment_score": -0.190447,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "SOXX",
+        "INTC",
+        "AMD",
+        "NVDA",
+        "MU"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 16,
       "is_noise": false
     },
     {
@@ -91,7 +94,7 @@
       "url": "https://simplywall.st/stocks/us/energy/nyse-oke/oneok/news/how-stronger-earnings-guidance-will-impact-oneok-oke-investo",
       "source": "Simply Wall St",
       "published_at": "20261102T070749",
-      "sentiment_score": 0.249834,
+      "sentiment_score": 0.264283,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "OKE",
@@ -110,7 +113,7 @@
       "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-cuts-coinbase-stock-rating-on-weaker-earnings-outlook-93CH-4989935",
       "source": "Investing.com",
       "published_at": "20261102T062215",
-      "sentiment_score": -0.460834,
+      "sentiment_score": -0.439253,
       "sentiment_label": "Bearish",
       "tickers": [
         "MS",
@@ -130,7 +133,7 @@
       "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-11-2-procore-technologies-pcor-to-report-earnings-tomorrow-here-is-what-to-expect",
       "source": "FinancialContent",
       "published_at": "20261102T034116",
-      "sentiment_score": 0.278481,
+      "sentiment_score": 0.289652,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PCOR",
@@ -146,33 +149,12 @@
       "is_noise": false
     },
     {
-      "title": "MSA Safety (MSA) reports Q3: everything you need to know ahead of earnings",
-      "summary": "MSA Safety (MSA) is scheduled to report its Q3 earnings after market hours on Monday. The company beat revenue and EPS expectations last quarter, and for Q3, analysts anticipate...",
-      "url": "https://www.tradingview.com/news/stockstory:b311cdd59094b:0-msa-safety-msa-reports-q3-everything-you-need-to-know-ahead-of-earnings/",
-      "source": "TradingView",
-      "published_at": "20261102T034026",
-      "sentiment_score": 0.170756,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MSA",
-        "CTAS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Technology"
-      ],
-      "quality_score": 16,
-      "is_noise": false
-    },
-    {
       "title": "Chip ETF Slips 5% on Intel Shock, but Midterm Playbook Points to a 22% Rebound",
       "summary": "The VanEck Semiconductor UCITS ETF experienced a 5% drop following a disappointing outlook from Intel, which warned of a prolonged slowdown in the PC market and impacted the bro...",
       "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/chip-etf-slips-5-on-intel-shock-but-midterm-playbook-points-to-a-22-rebound/70443655",
       "source": "ad-hoc-news.de",
       "published_at": "20261102T070117",
-      "sentiment_score": -0.249108,
+      "sentiment_score": -0.247006,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CHIP",
@@ -192,32 +174,12 @@
       "is_noise": false
     },
     {
-      "title": "Skyworks Solutions (SWKS) to report earnings tomorrow: here is what to expect",
-      "summary": "Skyworks Solutions (SWKS), a wireless chips maker, is set to report earnings this Tuesday. Analysts expect a 5.9% year-on-year revenue decline, contrasting with last year's 7.3%...",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-11-2-skyworks-solutions-swks-to-report-earnings-tomorrow-here-is-what-to-expect",
-      "source": "FinancialContent",
-      "published_at": "20261102T031708",
-      "sentiment_score": 0.045811,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "SWKS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology",
-        "Economy Macro"
-      ],
-      "quality_score": 15,
-      "is_noise": false
-    },
-    {
       "title": "Markets Brief: Alphabet Stock’s Worst Day in History, Signs of Strain Across the AI Trade",
       "summary": "Alphabet (GOOGL, GOOG) experienced its worst trading day ever, falling over 12% after its third-quarter earnings report raised concerns about AI's impact on its core Search busi...",
       "url": "https://www.morningstar.com/markets/markets-brief-alphabet-stocks-worst-day-history-signs-strain-across-ai-trade",
       "source": "Morningstar",
       "published_at": "20261102T070940",
-      "sentiment_score": -0.658769,
+      "sentiment_score": -0.65007,
       "sentiment_label": "Bearish",
       "tickers": [
         "GOOGL",
@@ -240,7 +202,7 @@
       "url": "https://michaeljburry.substack.com/p/trading-post-global-payments-buyout",
       "source": "Cassandra Unchained | Michael Burry",
       "published_at": "20261102T070009",
-      "sentiment_score": 0.245461,
+      "sentiment_score": 0.259752,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "GPN",
@@ -263,7 +225,7 @@
       "url": "https://www.tradingview.com/news/stockstory:a823f33fa094b:0-enpro-npo-q3-earnings-what-to-expect/",
       "source": "TradingView",
       "published_at": "20261102T034042",
-      "sentiment_score": 0.114508,
+      "sentiment_score": 0.149007,
       "sentiment_label": "Neutral",
       "tickers": [
         "NPO"
@@ -278,128 +240,47 @@
       "is_noise": false
     },
     {
-      "title": "What to expect from Waters Corporation’s (WAT) Q3 earnings",
-      "summary": "Waters Corporation (WAT) is set to announce its Q3 earnings this Tuesday morning. The market anticipates a 119% year-on-year revenue growth for the company, following a strong p...",
-      "url": "https://www.tradingview.com/news/stockstory:817cb1813094b:0-what-to-expect-from-waters-corporation-s-wat-q3-earnings/",
-      "source": "TradingView",
-      "published_at": "20261102T033658",
-      "sentiment_score": 0.273565,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "WAT",
-        "TMO",
-        "NVDA"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Life Sciences"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Keurig Dr Pepper (KDP) to report earnings tomorrow: here is what to expect",
-      "summary": "Keurig Dr Pepper (KDP) is set to report its earnings tomorrow, with analysts expecting a 70.1% year-on-year revenue growth. The company has a history of rarely missing Wall Stre...",
-      "url": "https://www.tradingview.com/news/stockstory:8b22380c4094b:0-keurig-dr-pepper-kdp-to-report-earnings-tomorrow-here-is-what-to-expect/",
-      "source": "TradingView",
-      "published_at": "20261102T031917",
-      "sentiment_score": -0.019806,
+      "title": "Apple, Marriott International and 3 Stocks to Watch Heading Into Monday",
+      "summary": "As U.S. stock futures indicate a higher open, several companies are expected to be in focus on Monday. Apple Inc. is anticipated to report strong quarterly earnings and revenue...",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62769458/apple-marriott-international-and-3-stocks-to-watch-heading-into-monday",
+      "source": "Benzinga",
+      "published_at": "20261102T085208",
+      "sentiment_score": 0.043006,
       "sentiment_label": "Neutral",
       "tickers": [
-        "KDP",
-        "KO",
-        "AMZN",
-        "GOOGL",
-        "META"
+        "AAPL",
+        "MAR",
+        "EL"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Retail Wholesale",
-        "Economy Macro"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Yum! Brands (YUM) Q3 earnings: what to expect",
-      "summary": "Yum! Brands (YUM) is set to report its Q3 earnings this Tuesday. Analysts expect a 1.6% year-on-year revenue growth, a slowdown from the previous year, with estimates generally...",
-      "url": "https://www.tradingview.com/news/stockstory:dee0cb542094b:0-yum-brands-yum-q3-earnings-what-to-expect/",
-      "source": "TradingView",
-      "published_at": "20261102T031833",
-      "sentiment_score": -0.091691,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "YUM",
-        "SBUX",
-        "DPZ"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
+        "Technology",
+        "Life Sciences",
         "Retail Wholesale"
       ],
-      "quality_score": 13,
+      "quality_score": 12,
       "is_noise": false
     },
     {
-      "title": "Booking earnings: what to look for from BKNG",
-      "summary": "Online travel agency Booking Holdings (BKNG) is set to report earnings, with the market expecting a 6.1% year-on-year revenue increase, a slowdown from the previous year. The co...",
-      "url": "https://www.tradingview.com/news/stockstory:a6c34d74e094b:0-booking-earnings-what-to-look-for-from-bkng/",
-      "source": "TradingView",
-      "published_at": "20261102T031801",
-      "sentiment_score": 0.03527,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "BKNG"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Technology"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Mayville Engineering (MEC) Q3 earnings: what to expect",
-      "summary": "Mayville Engineering Company (MEC) is set to report its Q3 earnings, with analysts expecting a 14.4% year-on-year revenue growth. The company previously exceeded revenue and EPS...",
-      "url": "https://www.tradingview.com/news/stockstory:47bb9d4b4094b:0-mayville-engineering-mec-q3-earnings-what-to-expect/",
-      "source": "TradingView",
-      "published_at": "20261102T031223",
-      "sentiment_score": 0.017156,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "MEC"
-      ],
-      "topics": [
-        "Earnings",
-        "Manufacturing",
-        "Financial Markets",
-        "Economy Macro"
-      ],
-      "quality_score": 13,
-      "is_noise": false
-    },
-    {
-      "title": "Revvity (RVTY) to report earnings tomorrow: here is what to expect",
-      "summary": "Revvity (RVTY), a life sciences company, is set to report its earnings before the bell on Tuesday. The market anticipates a 5.7% year-on-year revenue growth, a significant turna...",
-      "url": "https://www.tradingview.com/news/stockstory:500190643094b:0-revvity-rvty-to-report-earnings-tomorrow-here-is-what-to-expect/",
-      "source": "TradingView",
-      "published_at": "20261102T030959",
-      "sentiment_score": 0.177829,
+      "title": "Morgan Stanley upgrades CaixaBank stock rating on NII growth outlook",
+      "summary": "Morgan Stanley has upgraded CaixaBank SA's stock rating to Overweight from Equalweight and increased its price target, citing an expectation of significant net interest income (...",
+      "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-upgrades-caixabank-stock-rating-on-nii-growth-outlook-93CH-4989934",
+      "source": "Investing.com",
+      "published_at": "20261102T063803",
+      "sentiment_score": 0.329503,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "RVTY",
-        "TMO"
+        "MS"
       ],
       "topics": [
         "Earnings",
-        "Life Sciences",
-        "Financial Markets"
+        "Financial Markets",
+        "Finance",
+        "Economy Monetary",
+        "Economy Macro"
       ],
-      "quality_score": 13,
+      "quality_score": 12,
       "is_noise": false
     },
     {
@@ -408,7 +289,7 @@
       "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-pharma-pulse-biotech-beats-market-novo-pfizer-moderna-earnings/cNG9jx6R92W",
       "source": "Stocktwits",
       "published_at": "20261102T035443",
-      "sentiment_score": 0.243465,
+      "sentiment_score": 0.233043,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PFE",
@@ -431,7 +312,7 @@
       "url": "https://www.tradingview.com/news/tradingview:841fc4d191b24:0-weekly-recap-ferrari-nv-buyback-tranche-and-q3-revenue-eps/",
       "source": "TradingView",
       "published_at": "20261102T051011",
-      "sentiment_score": 0.465015,
+      "sentiment_score": 0.455339,
       "sentiment_label": "Bullish",
       "tickers": [
         "RACE"
@@ -450,7 +331,7 @@
       "url": "https://www.tradingview.com/news/tradingview:8b7efe7c58923:0-weekly-recap-q3-sales-and-adjusted-eps-gain-and-8b-regeneron-pact/",
       "source": "TradingView",
       "published_at": "20261102T044132",
-      "sentiment_score": 0.29966,
+      "sentiment_score": 0.295612,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "SNY",
@@ -471,7 +352,7 @@
       "url": "https://www.benzinga.com/markets/tech/26/11/62767635/elon-musk-tesla-terafab-tsmc-chip-production",
       "source": "Benzinga",
       "published_at": "20261102T041251",
-      "sentiment_score": 0.013864,
+      "sentiment_score": 0.017302,
       "sentiment_label": "Neutral",
       "tickers": [
         "TSLA",
@@ -488,24 +369,42 @@
       "is_noise": false
     },
     {
-      "title": "Intercontinental Exchange: 3 Key Takeaways for Long-Term Investors",
-      "summary": "Intercontinental Exchange (ICE) reported strong third-quarter 2026 results with net revenues up 15% year-over-year to $2.8 billion and adjusted EPS growing 18%. The company's gr...",
-      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/8583643/intercontinental-exchange-3-key-takeaways-for-long-term-investors/",
-      "source": "The Globe and Mail",
-      "published_at": "20261102T031834",
-      "sentiment_score": 0.640212,
-      "sentiment_label": "Bullish",
+      "title": "Is Western Digital stock still a buy amid AI shake up?",
+      "summary": "Western Digital (WDC) revenue increased 55% year-over-year to $4.4 billion, driven by strong exabyte growth and favorable HDD pricing. Despite these strong results, its stock pr...",
+      "url": "https://www.thearmchairtrader.com/us-stock-market-news/is-western-digital-stock-still-a-buy-amid-ai-shake-up/",
+      "source": "The Armchair Trader",
+      "published_at": "20261102T090616",
+      "sentiment_score": 0.272899,
+      "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "ICE"
+        "WDC",
+        "NVDA"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Economy Macro",
-        "Energy Transportation",
-        "Technology"
+        "Technology",
+        "Economy Macro"
       ],
-      "quality_score": 10,
+      "quality_score": 9,
+      "is_noise": false
+    },
+    {
+      "title": "Cintas (CTAS) Stock Price, Chart & Analysis",
+      "summary": "This article provides a detailed analysis of Cintas (CTAS) stock, including its current price, market capitalization, dividend yield, and growth figures. It also offers a \"Beleg...",
+      "url": "https://www.debelegger.nl/en/stock/CTAS.US",
+      "source": "www.debelegger.nl",
+      "published_at": "20261102T080851",
+      "sentiment_score": 0.214594,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "CTAS"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets"
+      ],
+      "quality_score": 9,
       "is_noise": false
     },
     {
@@ -514,7 +413,7 @@
       "url": "https://www.debelegger.nl/en/stock/ADSK.US",
       "source": "www.debelegger.nl",
       "published_at": "20261102T060919",
-      "sentiment_score": 0.136314,
+      "sentiment_score": 0.143594,
       "sentiment_label": "Neutral",
       "tickers": [
         "ADSK",
@@ -537,7 +436,7 @@
       "url": "https://simplywall.st/stocks/us/utilities/nyse-eix/edison-international/news/edison-international-eix-what-is-behind-the-fresh-attention/amp",
       "source": "Simply Wall St",
       "published_at": "20261102T050847",
-      "sentiment_score": 0.022822,
+      "sentiment_score": 0.04885,
       "sentiment_label": "Neutral",
       "tickers": [
         "EIX"
@@ -557,7 +456,7 @@
       "url": "https://simplywall.st/stocks/us/utilities/nyse-eix/edison-international/news/edison-international-eix-what-is-behind-the-fresh-attention",
       "source": "Simply Wall St",
       "published_at": "20261102T045345",
-      "sentiment_score": -0.043085,
+      "sentiment_score": -0.035349,
       "sentiment_label": "Neutral",
       "tickers": [
         "EIX",
@@ -578,7 +477,7 @@
       "url": "https://simplywall.st/stocks/us/software/nasdaq-mndy/mondaycom/news/did-ai-call-platform-launch-just-shift-mondaycoms-mndy-inves",
       "source": "Simply Wall St",
       "published_at": "20261102T041048",
-      "sentiment_score": 0.127617,
+      "sentiment_score": 0.105197,
       "sentiment_label": "Neutral",
       "tickers": [
         "MNDY",
@@ -597,7 +496,7 @@
       "url": "https://www.indexbox.io/blog/vulcan-materials-reports-solid-q3-2026-results-with-323-adjusted-ebitda-margin/",
       "source": "IndexBox",
       "published_at": "20261102T035909",
-      "sentiment_score": 0.175457,
+      "sentiment_score": 0.172754,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "VMC",
@@ -619,7 +518,7 @@
       "url": "https://simplywall.st/stocks/us/banks/nasdaq-onb/old-national-bancorp/news/earnings-guidance-might-change-the-case-for-investing-in-old",
       "source": "Simply Wall St",
       "published_at": "20261102T035223",
-      "sentiment_score": 0.004697,
+      "sentiment_score": 0.034508,
       "sentiment_label": "Neutral",
       "tickers": [
         "ONBPP"
@@ -632,12 +531,33 @@
       "is_noise": false
     },
     {
+      "title": "Cummins (NYSE:CMI): A Quality Dividend Stock for Income Investors",
+      "summary": "Cummins (NYSE:CMI) is highlighted as a quality dividend stock due to its high ChartMill Dividend Rating of 8, backed by solid profitability and financial health. The company off...",
+      "url": "https://www.chartmill.com/news/CMI/Chartmill-57434-Cummins-NYSECMI-A-Quality-Dividend-Stock-for-Income-Investors",
+      "source": "ChartMill",
+      "published_at": "20261102T090119",
+      "sentiment_score": 0.430987,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "CMI"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Manufacturing",
+        "Energy Transportation",
+        "Finance"
+      ],
+      "quality_score": 8,
+      "is_noise": false
+    },
+    {
       "title": "Weekly Recap: Q3 profit +19% €1.83B buyback and ECB Pillar 2 at 1.65%",
       "summary": "Banco Santander S.A. (BME:SAN) reported strong Q3 results, with underlying net profit up 19% and net interest income rising approximately 12%. The bank completed a €1.83B share...",
       "url": "https://www.tradingview.com/news/tradingview:a16db8afcce7e:0-weekly-recap-q3-profit-19-1-83b-buyback-and-ecb-pillar-2-at-1-65/",
       "source": "TradingView",
       "published_at": "20261102T051252",
-      "sentiment_score": 0.615252,
+      "sentiment_score": 0.632327,
       "sentiment_label": "Bullish",
       "tickers": [
         "SAN"
@@ -657,7 +577,7 @@
       "url": "https://kalkinemedia.com/us/stocks/metal-and-mining/can-reliance-nysers-keep-its-record-revenue-pace",
       "source": "Kalkine Media",
       "published_at": "20261102T051059",
-      "sentiment_score": 0.233697,
+      "sentiment_score": 0.211823,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "RS",
@@ -679,7 +599,7 @@
       "url": "https://www.tradingview.com/news/tradingview:eea289df0e110:0-weekly-recap-ai-model-swaps-and-share-buybacks-at-sap-se-sponsored-adr/",
       "source": "TradingView",
       "published_at": "20261102T044040",
-      "sentiment_score": 0.649158,
+      "sentiment_score": 0.614201,
       "sentiment_label": "Bullish",
       "tickers": [
         "SAP"
@@ -692,15 +612,15 @@
       "is_noise": false
     },
     {
-      "title": "Lument Finance Trust Inc (LFT) Income Statement",
-      "summary": "This article provides a detailed income statement for Lument Finance Trust Inc (LFT), showing quarterly and annual financial performance from FY2012Q2 through FY2026Q2. It inclu...",
-      "url": "https://www.tradingkey.com/markets/stocks/lft/income-statement",
-      "source": "TradingKey",
-      "published_at": "20261102T031142",
-      "sentiment_score": -0.741311,
-      "sentiment_label": "Bearish",
+      "title": "Should Stronger Quarterly Earnings Require Action From Valley National Bancorp Stock Investors?",
+      "summary": "Valley National Bancorp reported stronger third-quarter 2026 earnings with increased net interest income and net income, alongside a significant rise in net charge-offs. The ban...",
+      "url": "https://simplywall.st/stocks/us/banks/nasdaq-vly/valley-national-bancorp/news/should-stronger-quarterly-earnings-require-action-from-valle/amp",
+      "source": "Simply Wall St",
+      "published_at": "20261102T041004",
+      "sentiment_score": 0.000145,
+      "sentiment_label": "Neutral",
       "tickers": [
-        "LFT"
+        "VLYPN"
       ],
       "topics": [
         "Earnings",
@@ -711,12 +631,97 @@
       "is_noise": false
     },
     {
+      "title": "Bill Ackman Says MSFT, AMZN and NFLX Fit His ‘Enormously Valuable’ 20-Year Investing Test",
+      "summary": "Bill Ackman, CEO of Pershing Square, applies a strict 20-year investing framework to his portfolio, favoring durable businesses. He holds Microsoft, Amazon, and Netflix, viewing...",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62769430/bill-ackman-says-msft-amzn-and-nflx-fit-his-enormously-valuable-20-year-investing-test",
+      "source": "Benzinga",
+      "published_at": "20261102T084606",
+      "sentiment_score": 0.406013,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "NFLX",
+        "MSFT",
+        "AMZN",
+        "META"
+      ],
+      "topics": [
+        "Financial Markets",
+        "Technology",
+        "Earnings"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Amgen (AMGN) Could Be 29% Overvalued Following Encouraging Phase 3 Trial Data",
+      "summary": "Amgen (AMGN) is currently in the spotlight due to encouraging Phase 3 trial data for IMDELLTRA and Tezspire, contributing to significant share price gains. Despite this momentum...",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-amgn/amgen/news/amgen-amgn-could-be-29-overvalued-following-encouraging-phas",
+      "source": "Simply Wall St",
+      "published_at": "20261102T082840",
+      "sentiment_score": -0.033623,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "AMGN",
+        "ABBV",
+        "GILD"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "JPMorgan Chase (JPM) Stock May Be 32% Undervalued Following Blockchain Expansion",
+      "summary": "JPMorgan Chase's stock may be significantly undervalued, with an estimated intrinsic value substantially above its current share price of $337.04, following recent blockchain ex...",
+      "url": "https://simplywall.st/stocks/us/banks/nyse-jpm/jpmorgan-chase/news/jpmorgan-chase-jpm-stock-may-be-32-undervalued-following-blo",
+      "source": "Simply Wall St",
+      "published_at": "20261102T082837",
+      "sentiment_score": 0.215942,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "JPM",
+        "BAC",
+        "C"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Finance",
+        "Blockchain",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
+      "title": "Is This Number The Biggest Risk To Intuitive Surgical Stock?",
+      "summary": "Intuitive Surgical (ISRG) faces a significant risk from anticipated price cuts on its da Vinci system's instruments and accessories, which account for a large portion of its rev...",
+      "url": "https://www.trefis.com/stock/isrg/articles/621823/is-this-number-the-biggest-risk-to-intuitive-surgical-stock/2026-11-02",
+      "source": "Trefis",
+      "published_at": "20261102T073827",
+      "sentiment_score": -0.293505,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "ISRG"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "Veterinary Finance Partnership Could Be A Game Changer For Synchrony Financial Stock",
       "summary": "Synchrony Financial recently reported Q3 2026 results, including net interest income of US$4,809 million and net income of US$892 million. A new partnership with Clarus Technolo...",
       "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-syf/synchrony-financial/news/veterinary-finance-partnership-could-be-a-game-changer-for-s",
       "source": "Simply Wall St",
       "published_at": "20261102T073009",
-      "sentiment_score": 0.174304,
+      "sentiment_score": 0.167395,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "SYF",
@@ -738,7 +743,7 @@
       "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62767926/stock-market-will-sp-500-open-up-or-down-today-70",
       "source": "Benzinga",
       "published_at": "20261102T060749",
-      "sentiment_score": 0.005311,
+      "sentiment_score": 0.033253,
       "sentiment_label": "Neutral",
       "tickers": [
         "SPY"
@@ -759,7 +764,7 @@
       "url": "https://ca.finance.yahoo.com/research/reports/ARGUS_3941_QuantitativeReport_1744156800000/",
       "source": "Yahoo! Finance Canada",
       "published_at": "20261102T053837",
-      "sentiment_score": -0.115978,
+      "sentiment_score": -0.105933,
       "sentiment_label": "Neutral",
       "tickers": [
         "CINF",
@@ -775,12 +780,34 @@
       "is_noise": false
     },
     {
+      "title": "Could AI Audit Claims Change The Bull Case For UnitedHealth Stock (UNH)?",
+      "summary": "Mark Cuban's recent comments about AI tools uncovering historical overcharging by large insurers, including UnitedHealth Group, could impact the investment narrative for UNH. Wh...",
+      "url": "https://simplywall.st/stocks/us/healthcare/nyse-unh/unitedhealth-group/news/could-ai-audit-claims-change-the-bull-case-for-unitedhealth",
+      "source": "Simply Wall St",
+      "published_at": "20261102T050754",
+      "sentiment_score": -0.041236,
+      "sentiment_label": "Neutral",
+      "tickers": [
+        "UNH",
+        "ELV",
+        "HUM"
+      ],
+      "topics": [
+        "Earnings",
+        "Life Sciences",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 6,
+      "is_noise": false
+    },
+    {
       "title": "Orion Group Holdings (ORN) Stock Price, Chart & Analysis",
       "summary": "This article provides an in-depth analysis of Orion Group Holdings (ORN) stock, including its current price, market capitalization, quality score, and valuation metrics. It high...",
       "url": "https://www.debelegger.nl/en/stock/ORN.US",
       "source": "www.debelegger.nl",
       "published_at": "20261102T044116",
-      "sentiment_score": 0.03244,
+      "sentiment_score": 0.02231,
       "sentiment_label": "Neutral",
       "tickers": [
         "ORN"
@@ -794,53 +821,12 @@
       "is_noise": false
     },
     {
-      "title": "Goldman Sachs Maintains Buy Rating on Amazon with $375 Price Target; AWS Growth Slowdown Draws Attention",
-      "summary": "Goldman Sachs reaffirmed its \"Buy\" rating on Amazon and kept it on its Conviction Buy List with a $375 price target, despite Q3 results being slightly below expectations. The pr...",
-      "url": "https://finance.biggo.com/news/d6d9e3f0-1f80-4086-9684-09a0dbe836fd",
-      "source": "BigGo Finance",
-      "published_at": "20261102T033510",
-      "sentiment_score": 0.107551,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "GS",
-        "AMZN"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Retail Wholesale",
-        "Technology"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
-      "title": "Learn Why The Bull Case For Bristol Myers Squibb Stock Could Change Following Earnings Beat",
-      "summary": "Bristol-Myers Squibb reported strong Q3 2026 earnings and positive data from late-stage oncology and neuroscience programs, notably pumitamig in lung cancer. These results highl...",
-      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-bmy/bristol-myers-squibb/news/learn-why-the-bull-case-for-bristol-myers-squibb-stock-could",
-      "source": "Simply Wall St",
-      "published_at": "20261102T030934",
-      "sentiment_score": 0.343732,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "BMY"
-      ],
-      "topics": [
-        "Earnings",
-        "Life Sciences",
-        "Financial Markets",
-        "Finance"
-      ],
-      "quality_score": 6,
-      "is_noise": false
-    },
-    {
       "title": "Regentis Biomaterials Ltd. (RGNT) Stock News",
       "summary": "Regentis Biomaterials Ltd. (RGNT) news focuses on its GelrinC hydrogel implant for knee cartilage injuries, detailing clinical trial progress including Phase II and ongoing pivo...",
       "url": "https://www.stocktitan.net/news/RGNT/",
       "source": "Stock Titan",
       "published_at": "20261102T054146",
-      "sentiment_score": 0.324818,
+      "sentiment_score": 0.339987,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "RGNT"
@@ -860,7 +846,7 @@
       "url": "https://www.tradingview.com/symbols/NASDAQ-XRFIX/financials-estimates/",
       "source": "TradingView",
       "published_at": "20261102T034109",
-      "sentiment_score": 0.035457,
+      "sentiment_score": 0.003264,
       "sentiment_label": "Neutral",
       "tickers": [
         "RFI"
@@ -880,7 +866,7 @@
       "url": "https://www.moomoo.com/news/post/1002649004/optimizerx-sets-third-quarter-2026-conference-call-for-november-11",
       "source": "Moomoo",
       "published_at": "20261102T051047",
-      "sentiment_score": 0.026801,
+      "sentiment_score": 0.015316,
       "sentiment_label": "Neutral",
       "tickers": [
         "OPRX"
@@ -899,7 +885,7 @@
       "url": "https://www.tradingview.com/news/tradingview:073a4b64cac82:0-weekly-recap-25-000-tpa-lce-lithium-output-and-4-4b-argentina-pipeline/",
       "source": "TradingView",
       "published_at": "20261102T051036",
-      "sentiment_score": 0.135401,
+      "sentiment_score": 0.109137,
       "sentiment_label": "Neutral",
       "tickers": [
         "RIO"
@@ -915,12 +901,30 @@
       "is_noise": false
     },
     {
+      "title": "Halliburton's nine-month net income more than doubles to $1.4 billion",
+      "summary": "Halliburton reported a significant increase in net income for the first nine months of 2026, more than doubling to $1.412 billion from $694 million in the same period of 2025. D...",
+      "url": "https://www.trend.az/world/us/4241833.html",
+      "source": "Trend News Agency",
+      "published_at": "20261102T084120",
+      "sentiment_score": 0.385439,
+      "sentiment_label": "Bullish",
+      "tickers": [
+        "HAL"
+      ],
+      "topics": [
+        "Earnings",
+        "Energy Transportation"
+      ],
+      "quality_score": 3,
+      "is_noise": false
+    },
+    {
       "title": "Could New Cancer Data Change The Bull Case For Johnson & Johnson (JNJ)?",
       "summary": "Johnson & Johnson has announced positive product updates, including strong oncology data from the 2026 ESMO Congress, which reinforces its focus on R&D to evolve its future prod...",
       "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-jnj/johnson-johnson/news/could-new-cancer-data-change-the-bull-case-for-johnson-johns",
       "source": "Simply Wall St",
       "published_at": "20261102T050842",
-      "sentiment_score": 0.419011,
+      "sentiment_score": 0.406547,
       "sentiment_label": "Bullish",
       "tickers": [
         "JNJ"
@@ -934,44 +938,40 @@
       "is_noise": false
     },
     {
-      "title": "Liberty Global Ltd (3O41.DU) Seasonal Returns Chart - Yahoo Finance",
-      "summary": "The article provides a seasonal returns chart for Liberty Global Ltd (3O41.DU) on Yahoo Finance. It shows the average monthly price return for the stock between 2016 and 2026. T...",
-      "url": "https://ca.finance.yahoo.com/quote/3O41.DU/seasonality/",
-      "source": "Yahoo! Finance Canada",
-      "published_at": "20261102T033931",
-      "sentiment_score": 0.035143,
+      "title": "Form 4 Generac Holdings: Kyle Andrew Raabe (President, Home Power Gen.) For: 17 September",
+      "summary": "This article reports on a Form 4 filing for Generac Holdings, indicating an insider transaction by Kyle Andrew Raabe, President of Home Power Generation. The transaction date sp...",
+      "url": "https://ca.investing.com/news/stock-market-news/form-4-generac-holdings-kyle-andrew-raabe-president-home-power-gen-for-17-september-93CH-4920806",
+      "source": "Investing.com Canada",
+      "published_at": "20261102T085212",
+      "sentiment_score": 0.033264,
       "sentiment_label": "Neutral",
       "tickers": [
-        "LBYAV"
+        "GNRC"
       ],
       "topics": [
-        "Earnings",
         "Financial Markets",
-        "Finance"
+        "Earnings"
       ],
-      "quality_score": 3,
-      "is_noise": false
+      "quality_score": -10,
+      "is_noise": true
     },
     {
-      "title": "Lyondell Benefits From North American Feedstock Cost Advantage",
-      "summary": "LyondellBasell is strategically divesting European assets and increasing its presence in North America to leverage access to cheap natural gas inputs. The company converts natur...",
-      "url": "https://www.morningstar.com/company-reports/1506851-lyondell-benefits-from-north-american-feedstock-cost-advantage",
-      "source": "Morningstar",
-      "published_at": "20261102T033738",
-      "sentiment_score": 0.000579,
+      "title": "Generac’s president Raabe sells $138,388 of common stock",
+      "summary": "Kyle Andrew Raabe, President of Home Power Gen. at Generac Holdings Inc. (NASDAQ:GNRC), sold 603 shares of common stock for $138,388 on September 17, 2026, under a pre-arranged...",
+      "url": "https://www.investing.com/news/insider-trading-news/generacs-president-raabe-sells-138388-of-common-stock-93CH-4990246",
+      "source": "Investing.com",
+      "published_at": "20261102T085012",
+      "sentiment_score": 0.037638,
       "sentiment_label": "Neutral",
       "tickers": [
-        "LYB"
+        "GNRC"
       ],
       "topics": [
         "Earnings",
-        "Manufacturing",
-        "Energy Transportation",
-        "Financial Markets",
-        "Economy Macro"
+        "Financial Markets"
       ],
-      "quality_score": 3,
-      "is_noise": false
+      "quality_score": -10,
+      "is_noise": true
     },
     {
       "title": "Form 4 Waste Management Inc DRC: Scott Gallagher (Director, Chairman and CEO) For: 16 September",
@@ -979,7 +979,7 @@
       "url": "https://ca.investing.com/news/stock-market-news/form-4-waste-management-inc-drc-scott-gallagher-director-chairman-and-ceo-for-16-september-93CH-4920598",
       "source": "Investing.com Canada",
       "published_at": "20261102T072212",
-      "sentiment_score": 0.037706,
+      "sentiment_score": 0.006768,
       "sentiment_label": "Neutral",
       "tickers": [
         "WM"
@@ -997,7 +997,7 @@
       "url": "https://in.investing.com/news/stock-market-news/form-4-walmart-inc-john-r-furner-director-president--ceo-for-17-september-93CH-5670312",
       "source": "Investing.com India",
       "published_at": "20261102T071348",
-      "sentiment_score": 0.025576,
+      "sentiment_score": 0.032483,
       "sentiment_label": "Neutral",
       "tickers": [
         "WMT"
@@ -1016,7 +1016,7 @@
       "url": "https://ng.investing.com/news/stock-market-news/form-4-autodesk-inc-for-2-november-93CH-2773325",
       "source": "Investing.com Nigeria",
       "published_at": "20261102T053728",
-      "sentiment_score": 0.047292,
+      "sentiment_score": 0.040286,
       "sentiment_label": "Neutral",
       "tickers": [
         "ADSK"
@@ -1042,7 +1042,7 @@
       "url": "https://www.citybiz.co/article/927365/federal-realty-raises-earnings-outlook-as-508-million-summit-acquisition-expands-portfolio/",
       "source": "citybiz",
       "published_at": "20261102T071145",
-      "sentiment_score": 0.442745,
+      "sentiment_score": 0.434445,
       "sentiment_label": "Bullish",
       "tickers": [
         "FRT"
@@ -1063,7 +1063,7 @@
       "url": "https://stockstory.org/us/stocks/nasdaq/mzti/news/earnings/the-marzetti-company-earnings-what-to-look-for-from-mzti-2",
       "source": "StockStory",
       "published_at": "20261102T035952",
-      "sentiment_score": 0.078377,
+      "sentiment_score": 0.046073,
       "sentiment_label": "Neutral",
       "tickers": [
         "MZTI",
@@ -1078,42 +1078,45 @@
       "is_noise": false
     },
     {
-      "title": "Matador Resources earnings: what to look for from MTDR",
-      "summary": "Matador Resources (MTDR), an oil and gas producer, is set to announce its earnings this Tuesday after market hours. The company exceeded analysts' revenue and EPS expectations l...",
-      "url": "https://www.tradingview.com/news/stockstory:0c23980fd094b:0-matador-resources-earnings-what-to-look-for-from-mtdr/",
-      "source": "TradingView",
-      "published_at": "20261102T034021",
-      "sentiment_score": 0.208944,
+      "title": "Entergy Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+      "summary": "Entergy Corporation (NYSE: ETR) is set to release its Q3 earnings, with analysts expecting $1.7 per share on $4.15 billion in revenue, an increase from the previous year. The co...",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62769416/entergy-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
+      "source": "Benzinga",
+      "published_at": "20261102T084022",
+      "sentiment_score": 0.321911,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
-        "MTDR",
-        "EXE"
-      ],
-      "topics": [
-        "Earnings",
-        "Energy Transportation",
-        "Financial Markets"
-      ],
-      "quality_score": 19,
-      "is_noise": false
-    },
-    {
-      "title": "Prudential earnings: what to look for from PRU",
-      "summary": "Prudential Financial (NYSE:PRU) is set to report its latest earnings results this Tuesday after market hours. Analysts expect a 9.6% year-on-year revenue decline, an improvement...",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PRU/pressreleases/8583992/prudential-earnings-what-to-look-for-from-pru/",
-      "source": "The Globe and Mail",
-      "published_at": "20261102T031229",
-      "sentiment_score": 0.041056,
-      "sentiment_label": "Neutral",
-      "tickers": [
-        "PRH"
+        "ETR"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
-        "Finance"
+        "Energy Transportation"
       ],
-      "quality_score": 19,
+      "quality_score": 17,
+      "is_noise": false
+    },
+    {
+      "title": "iShares Semiconductor ETF (NASDAQ: SOXX) forecast: Morgan Stanley warns of further 15% decline",
+      "summary": "The iShares Semiconductor ETF (SOXX) has entered a bear market, falling 28.1% from its June peak, with Morgan Stanley forecasting an additional 10%-15% decline for semiconductor...",
+      "url": "https://beinsure.com/news/soxx-etf-forecast-morgan-stanley-warns-of-further-decline/",
+      "source": "Beinsure",
+      "published_at": "20261102T091148",
+      "sentiment_score": -0.190447,
+      "sentiment_label": "Somewhat-Bearish",
+      "tickers": [
+        "SOXX",
+        "INTC",
+        "AMD",
+        "NVDA",
+        "MU"
+      ],
+      "topics": [
+        "Earnings",
+        "Financial Markets",
+        "Technology"
+      ],
+      "quality_score": 16,
       "is_noise": false
     },
     {
@@ -1122,7 +1125,7 @@
       "url": "https://simplywall.st/stocks/us/energy/nyse-oke/oneok/news/how-stronger-earnings-guidance-will-impact-oneok-oke-investo",
       "source": "Simply Wall St",
       "published_at": "20261102T070749",
-      "sentiment_score": 0.249834,
+      "sentiment_score": 0.264283,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "OKE",
@@ -1141,7 +1144,7 @@
       "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-cuts-coinbase-stock-rating-on-weaker-earnings-outlook-93CH-4989935",
       "source": "Investing.com",
       "published_at": "20261102T062215",
-      "sentiment_score": -0.460834,
+      "sentiment_score": -0.439253,
       "sentiment_label": "Bearish",
       "tickers": [
         "MS",
@@ -1161,7 +1164,7 @@
       "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-11-2-procore-technologies-pcor-to-report-earnings-tomorrow-here-is-what-to-expect",
       "source": "FinancialContent",
       "published_at": "20261102T034116",
-      "sentiment_score": 0.278481,
+      "sentiment_score": 0.289652,
       "sentiment_label": "Somewhat-Bullish",
       "tickers": [
         "PCOR",
@@ -1177,33 +1180,12 @@
       "is_noise": false
     },
     {
-      "title": "MSA Safety (MSA) reports Q3: everything you need to know ahead of earnings",
-      "summary": "MSA Safety (MSA) is scheduled to report its Q3 earnings after market hours on Monday. The company beat revenue and EPS expectations last quarter, and for Q3, analysts anticipate...",
-      "url": "https://www.tradingview.com/news/stockstory:b311cdd59094b:0-msa-safety-msa-reports-q3-everything-you-need-to-know-ahead-of-earnings/",
-      "source": "TradingView",
-      "published_at": "20261102T034026",
-      "sentiment_score": 0.170756,
-      "sentiment_label": "Somewhat-Bullish",
-      "tickers": [
-        "MSA",
-        "CTAS"
-      ],
-      "topics": [
-        "Earnings",
-        "Financial Markets",
-        "Manufacturing",
-        "Technology"
-      ],
-      "quality_score": 16,
-      "is_noise": false
-    },
-    {
       "title": "Chip ETF Slips 5% on Intel Shock, but Midterm Playbook Points to a 22% Rebound",
       "summary": "The VanEck Semiconductor UCITS ETF experienced a 5% drop following a disappointing outlook from Intel, which warned of a prolonged slowdown in the PC market and impacted the bro...",
       "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/chip-etf-slips-5-on-intel-shock-but-midterm-playbook-points-to-a-22-rebound/70443655",
       "source": "ad-hoc-news.de",
       "published_at": "20261102T070117",
-      "sentiment_score": -0.249108,
+      "sentiment_score": -0.247006,
       "sentiment_label": "Somewhat-Bearish",
       "tickers": [
         "CHIP",
@@ -1223,37 +1205,59 @@
       "is_noise": false
     },
     {
-      "title": "Skyworks Solutions (SWKS) to report earnings tomorrow: here is what to expect",
-      "summary": "Skyworks Solutions (SWKS), a wireless chips maker, is set to report earnings this Tuesday. Analysts expect a 5.9% year-on-year revenue decline, contrasting with last year's 7.3%...",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-11-2-skyworks-solutions-swks-to-report-earnings-tomorrow-here-is-what-to-expect",
-      "source": "FinancialContent",
-      "published_at": "20261102T031708",
-      "sentiment_score": 0.045811,
-      "sentiment_label": "Neutral",
+      "title": "Markets Brief: Alphabet Stock’s Worst Day in History, Signs of Strain Across the AI Trade",
+      "summary": "Alphabet (GOOGL, GOOG) experienced its worst trading day ever, falling over 12% after its third-quarter earnings report raised concerns about AI's impact on its core Search busi...",
+      "url": "https://www.morningstar.com/markets/markets-brief-alphabet-stocks-worst-day-history-signs-strain-across-ai-trade",
+      "source": "Morningstar",
+      "published_at": "20261102T070940",
+      "sentiment_score": -0.65007,
+      "sentiment_label": "Bearish",
       "tickers": [
-        "SWKS"
+        "GOOGL",
+        "GOOG",
+        "AMZN"
       ],
       "topics": [
         "Earnings",
         "Financial Markets",
         "Technology",
-        "Economy Macro"
+        "Economy Macro",
+        "Retail Wholesale"
       ],
-      "quality_score": 15,
+      "quality_score": 13,
+      "is_noise": false
+    },
+    {
+      "title": "Trading Post: Global Payments Buyout Report Juices Payments Stocks, The Retail Trade, Hong Kong Calling Once Again",
+      "summary": "A Bloomberg report, citing the Financial Times, indicates that Global Payments (GPN) is a target for a take-private deal by private equity firm Clayton Dubilier & Rice (CD&R), i...",
+      "url": "https://michaeljburry.substack.com/p/trading-post-global-payments-buyout",
+      "source": "Cassandra Unchained | Michael Burry",
+      "published_at": "20261102T070009",
+      "sentiment_score": 0.259752,
+      "sentiment_label": "Somewhat-Bullish",
+      "tickers": [
+        "GPN",
+        "FIS",
+        "FI"
+      ],
+      "topics": [
+        "Mergers And Acquisitions",
+        "Financial Markets",
+        "Finance",
+        "Retail Wholesale",
+        "Earnings"
+      ],
+      "quality_score": 13,
       "is_noise": false
     }
   ],
   "top_tickers": [
     {
       "ticker": "NVDA",
-      "mentions": 3
+      "mentions": 4
     },
     {
-      "ticker": "GOOGL",
-      "mentions": 3
-    },
-    {
-      "ticker": "AMZN",
+      "ticker": "INTC",
       "mentions": 3
     },
     {
@@ -1261,22 +1265,26 @@
       "mentions": 2
     },
     {
-      "ticker": "INTC",
+      "ticker": "AMD",
+      "mentions": 2
+    },
+    {
+      "ticker": "MU",
       "mentions": 2
     }
   ],
   "top_topics": [
     {
       "topic": "Earnings",
-      "mentions": 47
+      "mentions": 45
     },
     {
       "topic": "Financial Markets",
-      "mentions": 38
+      "mentions": 35
     },
     {
       "topic": "Technology",
-      "mentions": 15
+      "mentions": 16
     },
     {
       "topic": "Finance",
@@ -1284,13 +1292,13 @@
     },
     {
       "topic": "Economy Macro",
-      "mentions": 13
+      "mentions": 10
     }
   ],
   "sentiment_counts": [
     {
       "label": "Neutral",
-      "count": 23
+      "count": 18
     },
     {
       "label": "Somewhat-Bullish",
@@ -1298,36 +1306,36 @@
     },
     {
       "label": "Bullish",
-      "count": 6
-    },
-    {
-      "label": "Bearish",
-      "count": 3
+      "count": 8
     },
     {
       "label": "Somewhat-Bearish",
-      "count": 1
+      "count": 3
+    },
+    {
+      "label": "Bearish",
+      "count": 2
     }
   ],
   "top_sources": [
     {
-      "source": "TradingView",
-      "count": 15
-    },
-    {
       "source": "Simply Wall St",
-      "count": 8
+      "count": 11
     },
     {
-      "source": "The Globe and Mail",
-      "count": 2
+      "source": "TradingView",
+      "count": 7
     },
     {
-      "source": "FinancialContent",
-      "count": 2
+      "source": "Benzinga",
+      "count": 5
     },
     {
-      "source": "Morningstar",
+      "source": "www.debelegger.nl",
+      "count": 3
+    },
+    {
+      "source": "Investing.com",
       "count": 2
     }
   ],
