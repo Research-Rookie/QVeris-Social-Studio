@@ -1,5 +1,222 @@
 [
   {
+    "id": "market-narrative-shift-frt-2026-11-02",
+    "date": "2026-11-02",
+    "runDate": "2026-11-02",
+    "createdAt": "2026-11-02T08:44:01.348300+00:00",
+    "contentType": "MARKET NARRATIVE SHIFT",
+    "title": "Market Narrative Shift: $FRT",
+    "status": "ready",
+    "tweet": "What changed in $FRT's market narrative? 🔄\n\n🧭 Signal: Turning bullish\n💬 Sentiment shift: +0.32\n📌 Top theme: Earnings\n🔎 Emerging term: earnings\n📰 Coverage: 1 vs 2\n\nNarrative intelligence via QVeris: https://qveris.ai",
+    "image": "/posts/market_narrative_shift_FRT_2026-11-02.png",
+    "dataSource": "QVeris API via market news sentiment",
+    "dataUpdatedAt": "2026-11-02T08:43:59.702347+00:00",
+    "xPostId": null,
+    "primaryLabel": "Ticker",
+    "primaryValue": "$FRT",
+    "secondaryLabel": "Shift",
+    "secondaryValue": "Turning bullish",
+    "topSymbol": "FRT",
+    "topChangePct": 31.919999999999998,
+    "marketNarrativeShift": {
+      "updated_at": "2026-11-02T08:43:59.702347+00:00",
+      "date": "2026-11-02",
+      "run_timezone": "Asia/Shanghai",
+      "source": "QVeris API via market news sentiment",
+      "title": "Market Narrative Shift",
+      "symbol": "FRT",
+      "shift_label": "Turning bullish",
+      "sentiment_delta": 0.3192,
+      "baseline_label": "2026-07-04",
+      "current": {
+        "date": "2026-11-02",
+        "symbol": "FRT",
+        "article_count": 1,
+        "source_count": 1,
+        "sentiment_score": 0.4427,
+        "top_theme": "Earnings",
+        "themes": [
+          {
+            "label": "Earnings",
+            "count": 1
+          },
+          {
+            "label": "Mergers And Acquisitions",
+            "count": 1
+          },
+          {
+            "label": "Real Estate",
+            "count": 1
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 1
+          },
+          {
+            "label": "Economy Monetary",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "federal",
+            "count": 2
+          },
+          {
+            "label": "realty",
+            "count": 2
+          },
+          {
+            "label": "earnings",
+            "count": 2
+          },
+          {
+            "label": "outlook",
+            "count": 2
+          },
+          {
+            "label": "acquisition",
+            "count": 2
+          },
+          {
+            "label": "raises",
+            "count": 1
+          },
+          {
+            "label": "summit",
+            "count": 1
+          },
+          {
+            "label": "expands",
+            "count": 1
+          },
+          {
+            "label": "portfolio",
+            "count": 1
+          },
+          {
+            "label": "investment",
+            "count": 1
+          },
+          {
+            "label": "trust",
+            "count": 1
+          },
+          {
+            "label": "has",
+            "count": 1
+          }
+        ],
+        "headline": "Federal Realty Raises Earnings Outlook as $508 Million Summit Acquisition Expands Portfolio",
+        "headline_source": "citybiz"
+      },
+      "previous": {
+        "date": "2026-07-04",
+        "symbol": "FRT",
+        "article_count": 2,
+        "source_count": 1,
+        "sentiment_score": 0.1235,
+        "top_theme": "Real Estate",
+        "themes": [
+          {
+            "label": "Real Estate",
+            "count": 2
+          },
+          {
+            "label": "Earnings",
+            "count": 2
+          },
+          {
+            "label": "Financial Markets",
+            "count": 2
+          },
+          {
+            "label": "Retail Wholesale",
+            "count": 2
+          },
+          {
+            "label": "Technology",
+            "count": 1
+          }
+        ],
+        "keywords": [
+          {
+            "label": "paige",
+            "count": 4
+          },
+          {
+            "label": "pitcher",
+            "count": 4
+          },
+          {
+            "label": "federal",
+            "count": 4
+          },
+          {
+            "label": "realty",
+            "count": 4
+          },
+          {
+            "label": "investment",
+            "count": 4
+          },
+          {
+            "label": "trust",
+            "count": 4
+          },
+          {
+            "label": "following",
+            "count": 2
+          },
+          {
+            "label": "appointment",
+            "count": 2
+          },
+          {
+            "label": "already",
+            "count": 2
+          },
+          {
+            "label": "priced",
+            "count": 2
+          },
+          {
+            "label": "appointed",
+            "count": 2
+          },
+          {
+            "label": "senior",
+            "count": 2
+          }
+        ],
+        "headline": "Following Paige Pitcher?s Appointment, Is Federal Realty Investment Trust (FRT) Already Priced In?",
+        "headline_source": "Simply Wall Street"
+      },
+      "emerging_themes": [
+        "Mergers And Acquisitions",
+        "Economy Monetary",
+        "Earnings"
+      ],
+      "fading_themes": [
+        "Financial Markets",
+        "Real Estate",
+        "Earnings"
+      ],
+      "emerging_keywords": [
+        "earnings",
+        "outlook",
+        "acquisition"
+      ],
+      "fading_keywords": [
+        "paige",
+        "pitcher",
+        "investment"
+      ],
+      "takeaway": "FRT's narrative is turning bullish: sentiment moved +0.32, while the leading theme shifted from Real Estate to Earnings.",
+      "selection_method": "Highest-quality ticker with current coverage; prior coverage receives a continuity boost."
+    }
+  },
+  {
     "id": "financial-news-signal-2026-11-02",
     "date": "2026-11-02",
     "runDate": "2026-11-02",
